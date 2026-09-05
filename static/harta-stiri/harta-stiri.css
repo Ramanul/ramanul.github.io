@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light dark;
+  --bg: #f6f5f1;
+  --surface: #fff;
+  --surface-2: #efeee8;
+  --text: #171717;
+  --muted: #686868;
+  --border: #d9d7ce;
+  --accent: #b58b18;
+  --accent-soft: #ead9a0;
+  --map-fill: #e8e6de;
+  --map-stroke: #9e9b90;
+  --map-hot: #b58b18;
+  --shadow: 0 8px 30px rgba(0,0,0,.07);
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#151513; --surface:#20201d; --surface-2:#292923; --text:#f1f0ea; --muted:#aaa89e; --border:#3a3933; --accent:#d6ad33; --accent-soft:#4a3d1b; --map-fill:#2a2a25; --map-stroke:#65635b; --map-hot:#d6ad33; --shadow:0 10px 30px rgba(0,0,0,.25); }
+}
+* { box-sizing:border-box; }
+html { overflow-x:hidden; }
+body { margin:0; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+a { color:inherit; }
+button,input { font:inherit; }
+.map-header { position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.8rem clamp(1rem,4vw,3rem);background:var(--surface);border-bottom:1px solid var(--border); }
+.brand { display:inline-flex;align-items:baseline;gap:.7rem;text-decoration:none;font-weight:700; }.brand-small{font-weight:900;letter-spacing:-.04em}.back{font-size:.9rem;color:var(--muted);text-decoration:none}.back:hover{color:var(--text)}
+.map-page{width:min(1500px,calc(100% - 2rem));margin:0 auto;padding:2rem 0 4rem}.map-intro{display:flex;justify-content:space-between;gap:2rem;align-items:end;margin-bottom:1.25rem}.eyebrow{margin:0 0 .4rem;color:var(--accent);font-size:.72rem;font-weight:800;letter-spacing:.12em}h1{margin:0;font-size:clamp(2rem,5vw,3.7rem);letter-spacing:-.045em}.map-intro p:not(.eyebrow){max-width:780px;color:var(--muted);line-height:1.55}.map-disclosure{font-size:.88rem}.map-stats{min-width:230px;padding:.9rem 1rem;border:1px solid var(--border);border-radius:12px;background:var(--surface);text-align:right;box-shadow:var(--shadow)}.map-stats strong{display:block;font-size:1.35rem}.map-stats span{color:var(--muted);font-size:.8rem}
+.map-toolbar{display:flex;gap:.65rem;align-items:end;margin-bottom:1rem;flex-wrap:wrap}.filter-group{margin:0;padding:0;border:0}.filter-group legend,.search>span{display:block;margin:0 0 .3rem;color:var(--muted);font-size:.72rem;font-weight:800;letter-spacing:.04em}.segmented{display:inline-flex;padding:3px;border:1px solid var(--border);border-radius:10px;background:var(--surface-2)}.segmented button,.secondary{min-height:44px;border:0;border-radius:7px;background:transparent;color:var(--muted);padding:.55rem .8rem;cursor:pointer}.segmented button.active{background:var(--surface);color:var(--text);box-shadow:0 1px 5px rgba(0,0,0,.08)}.search{flex:1 1 300px}.search input{width:100%;min-height:44px;padding:.65rem .8rem;border:1px solid var(--border);border-radius:9px;background:var(--surface);color:var(--text);outline:none}.search input:focus{border-color:var(--accent)}.secondary{border:1px solid var(--border);background:var(--surface)}.secondary:hover{border-color:var(--accent)}.secondary:disabled{cursor:not-allowed;opacity:.52}.reset-all{color:var(--text);font-weight:700}.active-context{flex:1 0 100%;margin:0;padding:.65rem .8rem;border-left:3px solid var(--accent);border-radius:0 8px 8px 0;background:var(--surface-2);color:var(--muted);font-size:.86rem;line-height:1.35}
+.map-layout{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(330px,.65fr);gap:1rem;align-items:start}.map-card,.news-panel{background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}.map{min-height:620px;padding:1rem;position:relative}.map-canvas{display:block;width:100%;height:auto;max-width:100%;background:var(--surface);touch-action:pan-y;user-select:none;-webkit-user-select:none}.map-back{position:absolute;top:1.4rem;left:1.4rem;z-index:5;border:1px solid var(--border);border-radius:9px;background:var(--surface);color:var(--text);padding:.45rem .75rem;font-size:.78rem;font-weight:600;cursor:pointer;box-shadow:var(--shadow)}.map-back:hover{border-color:var(--accent)}.map-note{margin:0;padding:.7rem 1rem 1rem;color:var(--muted);font-size:.76rem;line-height:1.45;border-top:1px solid var(--border)}
+.news-panel{max-height:760px;display:flex;flex-direction:column}.panel-heading{padding:1rem;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:baseline;gap:.5rem}.panel-context{margin:0 0 .2rem;color:var(--accent);font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.panel-heading h2{margin:0;font-size:1rem}.panel-heading>span{color:var(--muted);font-size:.8rem;text-align:right}.news-list{overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
+#news-list{list-style:none;margin:0;padding:0}
+#news-list li{padding:.85rem 1rem;border-bottom:1px solid var(--border)}
+#news-list li:last-child{border-bottom:0}
+#news-list li:hover{background:var(--surface-2)}
+#news-list li a{display:block;font-size:.91rem;line-height:1.35;font-weight:600;text-decoration:none;color:var(--text)}
+#news-list li a:hover,#news-list li a:focus-visible{text-decoration:underline}
+#news-list li span{display:block;margin-top:.35rem;font-size:.72rem;line-height:1.4;color:var(--muted)}
+#news-list li .event-context{color:var(--accent);font-weight:700}.show-more{width:calc(100% - 2rem);margin:0 1rem 1rem;padding:.7rem 1rem;border:1px solid var(--border);border-radius:9px;background:var(--surface);color:var(--text);font-weight:700;cursor:pointer}.show-more:hover{border-color:var(--accent);background:var(--surface-2)}
+.loading,.empty{padding:1rem;color:var(--muted)}.error{padding:1rem;color:#a33}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+@media (max-width:900px){.map-intro{align-items:start;flex-direction:column}.map-stats{width:100%;text-align:left}.map-toolbar{align-items:stretch}.filter-group{flex:1 1 100%}.segmented{max-width:100%;overflow-x:auto}.search{flex-basis:100%}.map-layout{grid-template-columns:1fr}.news-panel{max-height:none;height:auto;display:block;overflow:visible}.panel-heading{display:flex}.news-list{display:block;height:auto;max-height:none;overflow:visible !important;-webkit-overflow-scrolling:auto;overscroll-behavior:auto}.map{min-height:420px}.show-more{width:calc(100% - 2rem)}}
+#county-picker{display:flex;flex-wrap:wrap;gap:.6rem;padding:1rem;border-top:1px solid var(--border)}/* min-height 44px: selectorul asta e calea de atins GARANTATA pentru orice judet, si singura
+   care functioneaza pentru enclave. Bucurestiul e desenat pe harta la 8,6x13,9px si nu poate
+   ajunge la 44px prin zona de atins fara sa-si inghita vecinii (masurat 2026-08-15) -- dar aici
+   e un buton real, cu aria-pressed, deci tinta se rezolva o data pentru toate cele 41 de judete.
+   Erau 36px. Latimile treceau deja (85-124px); doar inaltimea era sub minim.
+   inline-flex + align-items pastreaza textul centrat dupa cresterea inaltimii. */
+#county-picker button{flex:0 0 auto;display:inline-flex;align-items:center;min-height:44px;border:1px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);padding:.5rem .8rem;font-size:.85rem;font-weight:600;cursor:pointer;transition:all .15s ease}#county-picker button:hover{border-color:var(--accent);background:var(--surface-2)}#county-picker button[aria-pressed="true"]{background:var(--accent);color:var(--surface);border-color:var(--accent)}#county-picker button[aria-pressed="true"]:hover{opacity:.9}
+@media (max-width:560px){.map-page{width:min(100% - 1rem,1500px);padding-top:1.2rem}.map-header{position:relative;top:auto;z-index:1;padding-inline:.7rem}.map-toolbar{gap:.5rem}.segmented button,.secondary{min-height:48px;padding-inline:.7rem}.search>span,.filter-group legend{font-size:.7rem}.active-context{font-size:.82rem}.map{padding:.4rem;min-height:320px}.map-card,.news-panel{box-shadow:none}.map-canvas{width:100%;height:auto;touch-action:pan-y}.back{font-size:.78rem}.news-panel{overflow:visible !important}.news-list{overflow:visible !important;height:auto !important;max-height:none !important}}
+.uat-dialog[hidden]{display:none}.uat-dialog{position:fixed;inset:0;z-index:60;display:grid;place-items:center;padding:1rem}.uat-dialog-backdrop{position:absolute;inset:0;background:rgba(18,18,16,.58);backdrop-filter:blur(2px)}.uat-dialog-panel{position:relative;width:min(680px,100%);max-height:min(78vh,760px);display:flex;flex-direction:column;border:1px solid var(--border);border-radius:16px;background:var(--surface);color:var(--text);box-shadow:0 24px 70px rgba(0,0,0,.28);overflow:hidden;animation:uat-dialog-in .18s cubic-bezier(.23,1,.32,1)}.uat-dialog-heading{display:flex;justify-content:space-between;gap:1rem;align-items:start;padding:1rem 1.1rem;border-bottom:1px solid var(--border)}.uat-dialog-heading h2{margin:0;font-size:1.1rem}.uat-dialog-summary{margin:.35rem 0 0;color:var(--muted);font-size:.82rem;line-height:1.4}.uat-dialog-close{flex:0 0 auto;display:grid;place-items:center;width:44px;height:44px;border:1px solid var(--border);border-radius:9px;background:var(--surface);color:var(--text);font-size:1.65rem;line-height:1;cursor:pointer}.uat-dialog-close:hover{border-color:var(--accent);background:var(--surface-2)}.uat-dialog-list{margin:0;padding:0;list-style:none;overflow:auto;-webkit-overflow-scrolling:touch}.uat-dialog-list li{padding:.9rem 1.1rem;border-bottom:1px solid var(--border)}.uat-dialog-list li:last-child{border-bottom:0}.uat-dialog-list a{display:block;color:var(--text);font-size:.93rem;font-weight:650;line-height:1.35;text-decoration:none}.uat-dialog-list a:hover,.uat-dialog-list a:focus-visible{text-decoration:underline}.uat-dialog-list span{display:block;margin-top:.35rem;color:var(--muted);font-size:.76rem;line-height:1.4}@keyframes uat-dialog-in{from{opacity:0;transform:translateY(10px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}@media (prefers-reduced-motion:reduce){.uat-dialog-panel{animation:none}}@media (max-width:560px){.uat-dialog{align-items:end;padding:.5rem}.uat-dialog-panel{width:100%;max-height:85vh;border-radius:14px}.uat-dialog-heading{padding:.9rem}.uat-dialog-list li{padding:.8rem .9rem}}
+body.uat-dialog-open{overflow:hidden}
+#county-picker .picker-empty{margin:0;color:var(--muted);font-size:.84rem;line-height:1.45}
+/* Numele UAT-ului sub cursor sau sub deget. `pointer-events:none` e obligatoriu: altfel
+   tooltipul insusi ar prinde evenimentele si ar declansa `pointerleave` pe panza, adica
+   ar palpai continuu exact acolo unde e cursorul. */
+.map-tip{position:absolute;z-index:6;pointer-events:none;max-width:min(60%,260px);
+  background:var(--text);color:var(--surface);border-radius:8px;padding:.34rem .55rem;
+  font-size:.78rem;font-weight:600;line-height:1.3;white-space:nowrap;overflow:hidden;
+  text-overflow:ellipsis;box-shadow:var(--shadow)}
+.map-tip[hidden]{display:none}
+/* Randul din lista corespunzator UAT-ului atins. Se distinge de `aria-pressed` (selectie
+   ferma) printr-un contur, nu prin umplere: hover-ul e trecator, selectia nu. */
+#county-picker button.is-hovered{border-color:var(--accent);background:var(--surface-2);
+  box-shadow:inset 0 0 0 1px var(--accent)}
+@media (prefers-reduced-motion:reduce){#county-picker button{transition:none}}

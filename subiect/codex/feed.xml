@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+  <title>Codex — IZZ.ro</title>
+  <link>https://izz.ro/subiect/codex/</link>
+  <atom:link href="https://izz.ro/subiect/codex/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Știri despre Codex pe IZZ.ro</description>
+  <language>ro</language>
+  <lastBuildDate>Sat, 05 Sep 2026 06:31:15 +0000</lastBuildDate>
+    <item>
+      <title>Un agent de cod bazat pe inteligență artificială a remediat bug-uri reale</title>
+      <link>https://izz.ro/ai/un-agent-de-cod-bazat-pe-inteligenta-artificiala-a-remediat-bug-uri-reale/</link>
+      <guid>https://izz.ro/ai/un-agent-de-cod-bazat-pe-inteligenta-artificiala-a-remediat-bug-uri-reale/</guid>
+      <pubDate>Fri, 04 Sep 2026 18:00:15 +0000</pubDate>
+      <description>După ce OpenAI i-a oferit acces de citire la mediul de dezvoltare, agentul software autonom a reușit să reproducă erori, să valideze soluții și să implementeze corecturi pe server.</description>
+    </item>
+    <item>
+      <title>Unelte bazate pe inteligență artificială au fost testate în crearea aceluiași joc video</title>
+      <link>https://izz.ro/ai/unelte-bazate-pe-inteligenta-artificiala-au-fost-testate-in-crearea-aceluiasi/</link>
+      <guid>https://izz.ro/ai/unelte-bazate-pe-inteligenta-artificiala-au-fost-testate-in-crearea-aceluiasi/</guid>
+      <pubDate>Sun, 30 Aug 2026 21:30:15 +0000</pubDate>
+      <description>Un utilizator a pus trei asistenți virtuali bazați pe inteligență artificială să dezvolte un joc video de la zero, iar rezultatele au arătat o diferență uriașă de performanță între platformele testate.</description>
+    </item>
+    <item>
+      <title>Teste comparative între instrumente AI de programare</title>
+      <link>https://izz.ro/tech/teste-comparative-intre-instrumente-ai-de-programare/</link>
+      <guid>https://izz.ro/tech/teste-comparative-intre-instrumente-ai-de-programare/</guid>
+      <pubDate>Sun, 30 Aug 2026 11:30:15 +0000</pubDate>
+      <description>Un specialist în tehnologie a testat performanțele mai multor asistenți bazați pe inteligență artificială, precum Claude Code, Codex și Cursor, folosind o memorie comună pentru a elimina repetarea instrucțiunilor.</description>
+    </item>
+</channel></rss>

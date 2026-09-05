@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+  <title>Jellyfin — IZZ.ro</title>
+  <link>https://izz.ro/subiect/jellyfin/</link>
+  <atom:link href="https://izz.ro/subiect/jellyfin/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Știri despre Jellyfin pe IZZ.ro</description>
+  <language>ro</language>
+  <lastBuildDate>Sat, 05 Sep 2026 06:31:15 +0000</lastBuildDate>
+    <item>
+      <title>Un utilizator a reușit să ruleze biblioteca Jellyfin pe PlayStation 5</title>
+      <link>https://izz.ro/tech/un-utilizator-a-reusit-sa-ruleze-biblioteca-jellyfin-pe-playstation-5/</link>
+      <guid>https://izz.ro/tech/un-utilizator-a-reusit-sa-ruleze-biblioteca-jellyfin-pe-playstation-5/</guid>
+      <pubDate>Fri, 04 Sep 2026 22:00:15 +0000</pubDate>
+      <description>Deși consola PlayStation 5 nu oferă nativ un browser web sau o aplicație dedicată Jellyfin, un utilizator a găsit o modalitate de a accesa propria librărie media direct pe dispozitiv.</description>
+    </item>
+    <item>
+      <title>Un utilizator a renunțat la serverul Plex în favoarea platformei Jellyfin</title>
+      <link>https://izz.ro/tech/un-utilizator-a-renuntat-la-serverul-plex-in-favoarea-platformei-jellyfin/</link>
+      <guid>https://izz.ro/tech/un-utilizator-a-renuntat-la-serverul-plex-in-favoarea-platformei-jellyfin/</guid>
+      <pubDate>Wed, 02 Sep 2026 19:00:16 +0000</pubDate>
+      <description>Din cauza politicilor comerciale restrictive și a taxării funcțiilor esențiale prin abonament, un utilizator vechi a decis să migreze către aplicația alternativă Jellyfin pentru gestionarea media.</description>
+    </item>
+    <item>
+      <title>Un utilizator a comparat platformele Plex și Jellyfin pentru streaming casnic</title>
+      <link>https://izz.ro/tech/un-utilizator-a-comparat-platformele-plex-si-jellyfin-pentru-streaming-casnic/</link>
+      <guid>https://izz.ro/tech/un-utilizator-a-comparat-platformele-plex-si-jellyfin-pentru-streaming-casnic/</guid>
+      <pubDate>Sat, 29 Aug 2026 19:00:17 +0000</pubDate>
+      <description>După achiziționarea unui sistem NAS de mare capacitate și digitalizarea sutelor de discuri Blu-ray, un pasionat de tehnologie a evaluat cele două aplicații majore pentru crearea unui server personal de media.</description>
+    </item>
+    <item>
+      <title>Utilizator își transformă tableta Android în panou de monitorizare pentru serverul Jellyfin</title>
+      <link>https://izz.ro/tech/utilizator-isi-transforma-tableta-android-in-panou-de-monitorizare-pentru/</link>
+      <guid>https://izz.ro/tech/utilizator-isi-transforma-tableta-android-in-panou-de-monitorizare-pentru/</guid>
+      <pubDate>Sat, 29 Aug 2026 17:00:16 +0000</pubDate>
+      <description>Un pasionat de tehnologie a convertit o tabletă veche într-un ecran de control pentru serverul multimedia Jellyfin, eliminând necesitatea verificărilor constante pe stația principală.</description>
+    </item>
+</channel></rss>

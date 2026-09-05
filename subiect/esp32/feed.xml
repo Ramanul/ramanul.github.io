@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+  <title>ESP32 — IZZ.ro</title>
+  <link>https://izz.ro/subiect/esp32/</link>
+  <atom:link href="https://izz.ro/subiect/esp32/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Știri despre ESP32 pe IZZ.ro</description>
+  <language>ro</language>
+  <lastBuildDate>Sat, 05 Sep 2026 06:31:15 +0000</lastBuildDate>
+    <item>
+      <title>Microcontrolerele ESP32 oferă performanțe ridicate în proiecte smart home</title>
+      <link>https://izz.ro/tech/microcontrolerele-esp32-ofera-performante-ridicate-in-proiecte-smart-home/</link>
+      <guid>https://izz.ro/tech/microcontrolerele-esp32-ofera-performante-ridicate-in-proiecte-smart-home/</guid>
+      <pubDate>Fri, 04 Sep 2026 19:30:15 +0000</pubDate>
+      <description>Dispozitivele ieftine și compacte ESP32 dispun de conectivitate Wi-Fi și Bluetooth integrată, fiind extrem de versatile pentru dezvoltarea diverselor rețele și sisteme automate destinate locuințelor inteligente.</description>
+    </item>
+    <item>
+      <title>Home Assistant nu oferă izolare completă pentru dispozitivele ESP32</title>
+      <link>https://izz.ro/tech/home-assistant-nu-ofera-izolare-completa-pentru-dispozitivele-esp32/</link>
+      <guid>https://izz.ro/tech/home-assistant-nu-ofera-izolare-completa-pentru-dispozitivele-esp32/</guid>
+      <pubDate>Wed, 02 Sep 2026 18:30:15 +0000</pubDate>
+      <description>Utilizatorii care își configurează dispozitive smart home locale bazate pe ESP32 trebuie să știe că platforma Home Assistant nu funcționează ca un firewall de rețea.</description>
+    </item>
+    <item>
+      <title>Un pasionat a creat un ceas deșteptător smart cu ESP32 și ecran e-ink</title>
+      <link>https://izz.ro/tech/un-pasionat-a-creat-un-ceas-desteptator-smart-cu-esp32-si-ecran-e-ink/</link>
+      <guid>https://izz.ro/tech/un-pasionat-a-creat-un-ceas-desteptator-smart-cu-esp32-si-ecran-e-ink/</guid>
+      <pubDate>Mon, 31 Aug 2026 04:25:03 +0000</pubDate>
+      <description>Un membru al comunității tehnologice a construit manual un ceas deșteptător superior celor comerciale, integrând un microcontroler ESP32, ecran e-ink și bandă LED.</description>
+    </item>
+</channel></rss>

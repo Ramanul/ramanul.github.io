@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+  <title>NAS — IZZ.ro</title>
+  <link>https://izz.ro/subiect/nas/</link>
+  <atom:link href="https://izz.ro/subiect/nas/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Știri despre NAS pe IZZ.ro</description>
+  <language>ro</language>
+  <lastBuildDate>Sat, 05 Sep 2026 06:31:15 +0000</lastBuildDate>
+    <item>
+      <title>Dezactivarea modului sleep pe hard disk-urile NAS previne defectarea prematură</title>
+      <link>https://izz.ro/tech/dezactivarea-modului-sleep-pe-hard-disk-urile-nas-previne-defectarea-prematura/</link>
+      <guid>https://izz.ro/tech/dezactivarea-modului-sleep-pe-hard-disk-urile-nas-previne-defectarea-prematura/</guid>
+      <pubDate>Fri, 04 Sep 2026 21:00:15 +0000</pubDate>
+      <description>Utilizarea modului de standby la unităţile de stocare în reţea provoacă cicluri frecvente de oprire şi pornire care uzează componentele hardware. Renunţarea la această funcţie energetică poate prelungi semnificativ durata de viaţă a dispozitivelor.</description>
+    </item>
+    <item>
+      <title>Modificarea regulilor de stocare ZFS reduce considerabil costurile pentru servere</title>
+      <link>https://izz.ro/tech/modificarea-regulilor-de-stocare-zfs-reduce-considerabil-costurile-pentru/</link>
+      <guid>https://izz.ro/tech/modificarea-regulilor-de-stocare-zfs-reduce-considerabil-costurile-pentru/</guid>
+      <pubDate>Fri, 04 Sep 2026 17:00:16 +0000</pubDate>
+      <description>Depășirea vechilor limite impuse de sistemul de fișiere ZFS permite extinderea capacității de stocare NAS prin adăugarea de discuri hard adecvate, fără a mai necesita investiții financiare masive.</description>
+    </item>
+    <item>
+      <title>Un card NIC de 30 de dolari a rezolvat problema rețelei unui laborator casnic</title>
+      <link>https://izz.ro/tech/un-card-nic-de-30-de-dolari-a-rezolvat-problema-retelei-unui-laborator-casnic/</link>
+      <guid>https://izz.ro/tech/un-card-nic-de-30-de-dolari-a-rezolvat-problema-retelei-unui-laborator-casnic/</guid>
+      <pubDate>Tue, 01 Sep 2026 20:31:15 +0000</pubDate>
+      <description>Utilizarea unui slot PCIe x1 nefolosit și instalarea unei plăci de rețea de treizeci de dolari au eliminat blocajele de trafic din rețeaua internă a unui laborator de acasă, care găzduiește servere de stocare NAS.</description>
+    </item>
+</channel></rss>

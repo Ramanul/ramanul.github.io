@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harta știrilor — IZZ.ro</title>
+  <meta name="description" content="Harta interactivă a știrilor locale și județene din România, agregate pe județe și localități.">
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css">
+</head>
+<body>
+  <header class="map-header">
+    <a class="brand" href="/" aria-label="Înapoi la IZZ.ro">
+      <span class="brand-small">IZZ.ro</span>
+      <span>Harta știrilor</span>
+    </a>
+    <a class="back" href="/">← Înapoi la știri</a>
+  </header>
+
+  <main class="map-page">
+    <section class="map-intro">
+      <div>
+        <p class="eyebrow">GEOGRAFIE EDITORIALĂ</p>
+        <h1>Harta știrilor</h1>
+        <p class="map-task">Alege un nivel, caută un loc sau selectează o zonă. Apoi citește evenimentele, relatările și sursele lor.</p>
+        <p class="map-disclosure">Harta afișează numai localizări determinate. Numărul indică <strong>evenimentele sau relatările afișate</strong>, nu o statistică oficială a incidentelor.</p>
+      </div>
+      <div class="map-stats" id="map-stats" aria-live="polite">
+        <span>Se încarcă datele…</span>
+      </div>
+    </section>
+
+    <section class="map-toolbar" aria-label="Explorează harta">
+      <fieldset class="filter-group">
+        <legend>Nivel geografic</legend>
+        <div class="segmented" role="radiogroup" aria-label="Nivel geografic">
+          <button type="button" class="active" role="radio" aria-checked="true" data-level="all">Toate</button>
+          <button type="button" role="radio" aria-checked="false" data-level="regional">Regional</button>
+          <button type="button" role="radio" aria-checked="false" data-level="judetean">Județean</button>
+          <button type="button" role="radio" aria-checked="false" data-level="local">Local</button>
+        </div>
+      </fieldset>
+      <fieldset class="filter-group">
+        <legend>Grupează rezultatele ca</legend>
+        <div class="segmented" role="radiogroup" aria-label="Grupează rezultatele ca">
+          <button type="button" class="active" role="radio" aria-checked="true" data-view="events">Evenimente</button>
+          <button type="button" role="radio" aria-checked="false" data-view="articles">Relatări</button>
+        </div>
+      </fieldset>
+      <label class="search">
+        <span>Caută loc, titlu sau sursă</span>
+        <input id="map-search" type="search" placeholder="De exemplu: Cluj, Transilvania, accident…" autocomplete="off">
+      </label>
+      <button type="button" id="clear-selection" class="secondary">Înapoi la România</button>
+      <button type="button" id="reset-all" class="secondary reset-all">Resetează filtrele</button>
+      <p id="active-context" class="active-context" aria-live="polite">Explorați toate știrile localizate din România.</p>
+    </section>
+
+    <section class="map-layout">
+      <div class="map-card">
+        <div id="map" class="map" role="region" aria-label="Harta României cu știri pe județe"></div>
+        <div id="county-picker" class="county-picker" role="group" aria-label="Alege județul"></div>
+        <p class="map-note">În modul regional, culorile delimitează regiunile editoriale. După ce alegi un județ, harta arată limitele UAT-urilor; o cifră apare numai pe UAT-urile cu știri localizate și reprezintă evenimentele sau relatările din filtrul activ. Poți alege aceeași zonă din listă, fără să fie nevoie să nimerești un marker.</p>
+        <p class="map-note">Preferi o listă statică? Consultă <a href="/surse/">sursele organizate pe județe și regiuni</a>.</p>
+        <noscript><p class="map-note">Harta necesită JavaScript pentru filtrare. Poți consulta în continuare <a href="/surse/">catalogul surselor pe județe și regiuni</a> și <a href="/">ultimele știri</a>.</p></noscript>
+        <p id="map-status" class="sr-only" aria-live="polite" aria-atomic="true"></p>
+      </div>
+      <aside class="news-panel" aria-label="Rezultatele hărții">
+        <div class="panel-heading">
+          <div>
+            <p id="panel-context" class="panel-context">România</p>
+            <h2 id="panel-title">Evenimente localizate</h2>
+          </div>
+          <span id="panel-count"></span>
+        </div>
+        <ul id="news-list" class="news-list">
+          <li class="loading">Se încarcă…</li>
+        </ul>
+        <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
+      </aside>
+    </section>
+  </main>
+
+  <div id="uat-dialog" class="uat-dialog" hidden>
+    <div class="uat-dialog-backdrop" data-uat-close></div>
+    <section class="uat-dialog-panel" role="dialog" aria-modal="true" aria-labelledby="uat-dialog-title" aria-describedby="uat-dialog-summary" tabindex="-1">
+      <div class="uat-dialog-heading">
+        <div>
+          <p id="uat-dialog-context" class="panel-context">UAT</p>
+          <h2 id="uat-dialog-title">Știri localizate</h2>
+          <p id="uat-dialog-summary" class="uat-dialog-summary"></p>
+        </div>
+        <button type="button" id="uat-dialog-close" class="uat-dialog-close" aria-label="Închide lista știrilor">×</button>
+      </div>
+      <ul id="uat-dialog-list" class="uat-dialog-list"></ul>
+    </section>
+  </div>
+
+  <script src="/static/harta-stiri/harta-stiri.js" defer></script>
+</body>
+</html>
