@@ -1,0 +1,467 @@
+{
+  "categorii_ghid": {
+    "bani": "💰 Bani",
+    "acte": "📄 Acte",
+    "auto": "🚗 Auto",
+    "locuinte": "🏠 Locuințe",
+    "educatie": "🎓 Educație",
+    "sanatate": "🩺 Sănătate"
+  },
+  "entity_kwargs": {
+    "alocatia-copii": {
+      "id": "alocatia-copii",
+      "nume": "Alocația de stat pentru copii",
+      "tip": "valoare_monetara",
+      "categorie_ghid": "bani",
+      "categorie_stiri": "general",
+      "valoare_curenta": {
+        "brut": 292,
+        "moneda": "RON",
+        "in_vigoare_de": "2026-01-01",
+        "act_normativ": "Legea 61/1993; art. XXV lit. k din Legea 141/2025",
+        "sursa_url": "https://legislatie.just.ro/Public/DetaliiDocument/300022",
+        "descriere_lunga": "Alocația de stat se menține în 2026 la nivelul aflat în plată în decembrie 2025. Pentru copiii între 2 și 18 ani fără handicap cuantumul este 292 lei/lună; pentru copiii până la 2 ani și pentru copiii cu handicap cuantumul este 719 lei/lună.",
+        "valoare_secundara": 719,
+        "valoare_secundara_label": "lei/lună pentru copii până la 2 ani și pentru copiii cu handicap"
+      },
+      "sectiuni": [
+        {
+          "titlu": "Cine beneficiază de alocație?",
+          "continut": "Alocația de stat se acordă copiilor până la 18 ani, iar în situațiile prevăzute de lege poate continua pentru tinerii care urmează cursurile liceale sau profesionale. Acordarea alocației de stat nu este condiționată de venitul familiei."
+        },
+        {
+          "titlu": "Cât este alocația în 2026?",
+          "continut": "**719 lei/lună** pentru copiii până la 2 ani, pentru copiii cu handicap până la 3 ani și pentru copiii cu handicap între 3 și 18 ani. **292 lei/lună** pentru copiii între 2 și 18 ani fără handicap și pentru tinerii peste 18 ani care continuă studiile în condițiile legii.\nArt. XXV lit. k din Legea nr. 141/2025 menține în anul 2026 alocațiile de stat pentru copii la nivelul acordat sau cuvenit pentru luna decembrie 2025."
+        },
+        {
+          "titlu": "Cum depui cererea?",
+          "continut": "Cererea și documentele se depun potrivit procedurii locale aplicabile, de regulă prin primăria sau serviciul de asistență socială de la domiciliu. Verifică lista de documente cerută de autoritatea competentă înainte de depunere."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Se acordă alocația în funcție de venitul părinților?",
+          "a": "Nu. Alocația de stat este un drept distinct de beneficiile sociale condiționate de venit."
+        },
+        {
+          "q": "Care sunt cuantumurile în 2026?",
+          "a": "719 lei pe lună pentru copiii din tranșele speciale prevăzute de lege și 292 lei pe lună pentru copiii între 2 și 18 ani fără handicap."
+        },
+        {
+          "q": "De ce nu a crescut alocația în 2026?",
+          "a": "Legea nr. 141/2025 prevede menținerea în 2026 a alocațiilor de stat pentru copii la nivelul acordat sau cuvenit pentru decembrie 2025."
+        }
+      ],
+      "relatii": {},
+      "verificat": true,
+      "ultima_verificare": "2026-09-04",
+      "monitorizare": {
+        "surse": [
+          {
+            "url": "https://legislatie.just.ro/Public/DetaliiDocument/300022",
+            "tip": "html"
+          },
+          {
+            "url": "https://ab.prefectura.mai.gov.ro/minuta-sedintei-comisiei-de-dialog-social-a-judetului-alba-din-luna-martie-2026/",
+            "tip": "html"
+          }
+        ]
+      }
+    },
+    "buletin-pasaport": {
+      "id": "buletin-pasaport",
+      "nume": "Carte de identitate și pașaport 2026",
+      "tip": "acte",
+      "categorie_ghid": "acte",
+      "categorie_stiri": "general",
+      "valoare_curenta": {
+        "in_vigoare_de": "2005-07-20",
+        "act_normativ": "OUG 97/2005 (acte de identitate) și Legea 248/2005 (pașapoarte)",
+        "sursa_url": "https://legislatie.just.ro/Public/DetaliiDocument/63354",
+        "descriere_lunga": "Cartea de identitate electronică (CIE) se eliberează la nivel național din 2025. Costul este de 57 lei pentru adulți (valabilitate 10 ani) și 37 lei pentru minori (valabilitate 5 ani). Pașaportul simplu electronic costă 258 lei (valabilitate 10 ani, adulți). Ambele se pot solicita la orice serviciu de evidență a populației/pașapoarte, indiferent de domiciliu."
+      },
+      "sectiuni": [
+        {
+          "titlu": "Cartea de identitate — cine, unde, cât costă?",
+          "continut": "Se eliberează de **Direcția de Evidență a Persoanelor** din cadrul primăriei de domiciliu sau reședință. Programarea se face online pe platforma hub.mai.gov.ro. Ai nevoie de: **certificat de naștere** (original + copie), **certificat de căsătorie** (dacă e cazul), **documentul de plată al taxei**, **dovada adresei de domiciliu** (act de proprietate, contract de închiriere, etc.), și **vechiul act de identitate** (dacă e vorba de preschimbare). Termen de eliberare: până la 15 zile lucrătoare (5 zile cu taxă de urgență)."
+        },
+        {
+          "titlu": "Pașaport — costuri și termene",
+          "continut": "Pașaportul simplu electronic (CRDS) costă **258 lei** pentru persoane peste 12 ani (valabilitate 10 ani) și **234 lei** pentru minori sub 12 ani (valabilitate 3 ani). Pașaportul temporar costă **100 lei** (valabilitate 1 an). Se poate solicita la orice serviciu de pașapoarte, indiferent de domiciliu. Programare online: epasapoarte.ro. Acte necesare: carte de identitate valabilă, chitanța plății taxei, cerere tip. Termen de eliberare: până la 10 zile lucrătoare (3 zile cu taxă de urgență de 100 lei suplimentar)."
+        },
+        {
+          "titlu": "Programare online — cum faci?",
+          "continut": "Pentru cartea de identitate: platforma **hub.mai.gov.ro** — selectezi județul, instituția, data și ora. Pentru pașaport: **epasapoarte.ro** — creezi cont, selectezi serviciul de pașapoarte, completezi datele și alegi data. Ambele platforme necesită o adresă de email validă și un număr de telefon. Confirmarea se primește pe email. Prezintă-te la ghișeu cu numărul de programare și actele necesare."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Pot obține cartea de identitate în alt județ?",
+          "a": "Da. Din 2025, cartea de identitate se poate solicita la orice serviciu de evidență a populației din țară, indiferent de domiciliu."
+        },
+        {
+          "q": "Cât costă pașaportul în regim de urgență?",
+          "a": "Taxa normală (258 lei) + taxa de urgență (100 lei) = 358 lei total. Se eliberează în 3 zile lucrătoare."
+        },
+        {
+          "q": "Am nevoie de certificat de naștere pentru pașaport?",
+          "a": "Doar dacă este prima dată când soliciți pașaport, sau dacă ai schimbat numele (căsătorie, divorț). Pentru reînnoire, cartea de identitate valabilă este suficientă."
+        }
+      ],
+      "relatii": {},
+      "verificat": false,
+      "ultima_verificare": "2025-11-15",
+      "monitorizare": {
+        "surse": [
+          {
+            "url": "https://depabd.mai.gov.ro/",
+            "tip": "html"
+          },
+          {
+            "url": "https://pasapoarte.mai.gov.ro/",
+            "tip": "html"
+          }
+        ]
+      }
+    },
+    "calendar-anaf": {
+      "id": "calendar-anaf",
+      "nume": "Calendarul obligațiilor fiscale ANAF",
+      "tip": "acte",
+      "categorie_ghid": "bani",
+      "categorie_stiri": "economic",
+      "valoare_curenta": {
+        "in_vigoare_de": "2026-01-01",
+        "act_normativ": "Calendarul obligațiilor fiscale ANAF pentru anul 2026",
+        "sursa_url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Calendar/Calendar_obligatii_fiscale_2025.htm",
+        "descriere_lunga": "Calendarul oficial al principalelor termene fiscale din România. Termenele diferă în funcție de formular, perioada fiscală și categoria contribuabilului."
+      },
+      "termene": [
+        {
+          "data": "2026-09-25",
+          "eveniment": "Termen pentru o serie de declarații și obligații fiscale, în funcție de contribuabil și formular."
+        },
+        {
+          "data": "2026-09-30",
+          "eveniment": "Termen pentru anumite raportări și declarații cu scadență la sfârșitul lunii, în funcție de contribuabil."
+        }
+      ],
+      "sectiuni": [
+        {
+          "titlu": "Ce trebuie să urmărești în septembrie 2026?",
+          "continut": "**25 septembrie** este una dintre datele importante din calendarul ANAF. În funcție de situația contribuabilului, pot avea termen la această dată declarații precum D100, D208, D224, D300, D301 și D390 VIES. Nu toate se aplică aceleiași persoane sau firme.\n**30 septembrie** este o altă dată importantă pentru anumite raportări, inclusiv unele declarații informative și raportări SAF-T, în funcție de perioada fiscală și de categoria contribuabilului.\nPentru termenul exact trebuie verificat calendarul ANAF aplicabil situației concrete."
+        },
+        {
+          "titlu": "Cum folosești calendarul?",
+          "continut": "Pornește de la **formularul și tipul de obligație** pe care îl ai, apoi verifică rândul corespunzător din calendarul ANAF. IZZ este un instrument de orientare și nu înlocuiește verificarea obligației concrete în sursa oficială."
+        },
+        {
+          "titlu": "De ce diferă termenele?",
+          "continut": "Unele obligații sunt lunare, altele trimestriale, semestriale sau anuale. În plus, contribuabilii pot avea perioade fiscale și obligații diferite. Nu fiecare dată din calendar este o obligație universală."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Care este una dintre cele mai importante date fiscale din septembrie?",
+          "a": "25 septembrie este un termen major pentru mai multe declarații și obligații, dar ce anume se aplică depinde de contribuabil și de formular."
+        },
+        {
+          "q": "Trebuie să depun toate formularele din calendar?",
+          "a": "Nu. Calendarul este o listă generală; obligațiile concrete depind de activitatea, perioada fiscală și statutul contribuabilului."
+        },
+        {
+          "q": "Unde verific termenul exact?",
+          "a": "În calendarul oficial ANAF și în instrucțiunile formularului aplicabil situației tale."
+        }
+      ],
+      "relatii": {},
+      "verificat": true,
+      "ultima_verificare": "2026-09-04",
+      "monitorizare": {
+        "surse": [
+          {
+            "url": "https://www.anaf.ro/anaf/internet/ANAF/acasa/",
+            "tip": "html"
+          },
+          {
+            "url": "https://static.anaf.ro/static/10/Anaf/AsistentaContribuabili_r/Calendar/Calendar_obligatii_fiscale_2025.htm",
+            "tip": "html"
+          }
+        ]
+      }
+    },
+    "noua-casa": {
+      "id": "noua-casa",
+      "nume": "Programul Noua Casă 2026",
+      "tip": "locuinte",
+      "categorie_ghid": "locuinte",
+      "categorie_stiri": "economic",
+      "valoare_curenta": {
+        "in_vigoare_de": "2009-06-17",
+        "act_normativ": "HG 717/2009 — norme de implementare a programului „Noua Casă”",
+        "sursa_url": "https://legislatie.just.ro/Public/DetaliiDocument/107177",
+        "descriere_lunga": "Programul Noua Casă permite achiziția unei locuințe cu avans de doar 5% (locuințe ≤ 70.000 EUR) sau 15% (locuințe 70.001–140.000 EUR). Statul garantează până la 60% din credit. Dobânda este cea a pieței, negociată cu băncile participante. Plafonul maxim al creditului este de 133.000 EUR (140.000 EUR prețul locuinței)."
+      },
+      "sectiuni": [
+        {
+          "titlu": "Cine poate aplica?",
+          "continut": "Orice persoană fizică cu vârsta peste 18 ani, venituri din muncă (salariat, PFA, profesii liberale), fără locuință în proprietate sau care deține o locuință mai mică de 50 mp. Venitul minim necesar: să poată suporta rata lunară (maxim 40% din venitul net familial). Nu se acceptă persoane cu credite restante la stat sau birou de credit cu scor negativ."
+        },
+        {
+          "titlu": "Ce sume și avansuri se aplică?",
+          "continut": "**Locuințe ≤ 70.000 EUR**: avans minim **5%**, garanție de stat până la 60%. **Locuințe 70.001–140.000 EUR**: avans minim **15%**, garanție de stat până la 50%. Creditul maxim: **133.000 EUR** (adică 140.000 EUR preț minus avans). Plafonul include TVA (9% pentru locuințe sub 140.000 EUR). Dobânda: ROBOR la 3 luni + marja băncii (~2-2,5%), variabilă."
+        },
+        {
+          "titlu": "Acte necesare și pași",
+          "continut": "**1. Acreditare** la Fondul de Garantare (prin bancă). **2. Documente**: carte de identitate, certificat de căsătorie (dacă e cazul), adeverință de venit (ultimele 6 luni), extras de cont (3 luni), declarație pe proprie răspundere că nu deții locuință, antecontract de vânzare-cumpărare al locuinței, extras de carte funciară. **3. Aprobarea creditului** (2–4 săptămâni). **4. Semnarea contractului** de credit și ipotecă la notar (costuri notariale: ~0,5–1% din prețul locuinței)."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Pot aplica dacă am mai avut o locuință?",
+          "a": "Da, dacă în ultimele 6 luni nu ai deținut o locuință mai mare de 50 mp. Vechiul apartament trebuie vândut sau donat înainte de aplicare."
+        },
+        {
+          "q": "Care e diferența între Noua Casă și creditul ipotecar standard?",
+          "a": "Avansul este mult mai mic (5% vs. 15–25% la creditul standard), iar statul garantează o parte din credit, ceea ce reduce riscul pentru bancă. Dezavantajul: dobânda este ușor mai mare decât la un credit ipotecar standard cu avans mare."
+        }
+      ],
+      "relatii": {},
+      "verificat": false,
+      "ultima_verificare": "2026-01-01",
+      "monitorizare": {
+        "surse": [
+          {
+            "url": "https://www.fngcimm.ro/noua-casa",
+            "tip": "html"
+          }
+        ]
+      }
+    },
+    "pensia-minima": {
+      "id": "pensia-minima",
+      "nume": "Pensia minimă garantată",
+      "tip": "valoare_monetara",
+      "categorie_ghid": "bani",
+      "categorie_stiri": "economic",
+      "valoare_curenta": {
+        "brut": 1281,
+        "moneda": "RON",
+        "in_vigoare_de": "2026-01-01",
+        "act_normativ": "Legea 360/2023, actualizată prin OUG 156/2024",
+        "sursa_url": "https://cnpp.ro/",
+        "descriere_lunga": "Indemnizația socială pentru pensionari — statul completează pensia calculată până la acest prag, cu condiția realizării stagiului minim de cotizare de 15 ani."
+      },
+      "istoric": [
+        {
+          "brut": 1281,
+          "in_vigoare_de": "2026-01-01",
+          "act_normativ": "Legea 360/2023"
+        },
+        {
+          "brut": 1106,
+          "in_vigoare_de": "2024-01-01",
+          "act_normativ": "Legea 360/2023"
+        },
+        {
+          "brut": 1000,
+          "in_vigoare_de": "2023-01-01",
+          "act_normativ": "OUG 168/2022"
+        }
+      ],
+      "termene": [
+        {
+          "data": "2026-09-01",
+          "eveniment": "Termen recalculare pensii (Legea 360/2023)"
+        }
+      ],
+      "sectiuni": [
+        {
+          "titlu": "Cine primește pensia minimă?",
+          "continut": "Pensia minimă se acordă pensionarilor din sistemul public de pensii al căror cuantum al pensiei (calculat pe baza contributivității) este sub pragul de 1.281 lei. Condiția esențială este **stagiul minim de cotizare realizat**: 15 ani. Cei care nu îndeplinesc acest stagiu primesc doar pensia calculată, indiferent de valoare, sau indemnizația socială (dacă se califică)."
+        },
+        {
+          "titlu": "Cât este pensia minimă?",
+          "continut": "**1.281 lei** reprezintă indemnizația socială pentru pensionari. Este diferită de pensia calculată pe contributivitate. Dacă pensia ta calculată este de 900 lei, statul completează diferența până la 1.281 lei. Dacă pensia calculată depășește 1.281 lei, primești pensia calculată integral."
+        },
+        {
+          "titlu": "Ce acte ai nevoie?",
+          "continut": "Pentru depunerea dosarului de pensie: **cerere tip** (de la Casa de Pensii), **carte de identitate** (original + copie), **carnet de muncă** sau adeverințe de vechime, **adeverință de salarizare** pentru ultimele 12 luni, **certificat de naștere** și **certificat de căsătorie** (dacă e cazul), **livret militar** (pentru bărbați). Depunerea se face cu 30 de zile înainte de data pensionării."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Care e diferența între pensia minimă și indemnizația socială?",
+          "a": "Sunt același lucru în practică. Statul completează pensia calculată până la pragul minim garantat."
+        },
+        {
+          "q": "Ce se întâmplă dacă nu am 15 ani de cotizare?",
+          "a": "Nu beneficiezi de pensia minimă. Primești pensia calculată pe contributivitate, oricât de mică ar fi."
+        }
+      ],
+      "relatii": {},
+      "verificat": false,
+      "ultima_verificare": "2026-01-01",
+      "monitorizare": {
+        "surse": [
+          {
+            "url": "https://cnpp.ro/",
+            "tip": "html"
+          }
+        ]
+      }
+    },
+    "permis-auto": {
+      "id": "permis-auto",
+      "nume": "Permis auto 2026",
+      "tip": "auto",
+      "categorie_ghid": "auto",
+      "categorie_stiri": "auto",
+      "valoare_curenta": {
+        "in_vigoare_de": "2002-12-12",
+        "act_normativ": "OUG 195/2002 privind circulația pe drumurile publice",
+        "sursa_url": "https://legislatie.just.ro/Public/DetaliiDocument/74028",
+        "descriere_lunga": "Obținerea permisului de conducere categoria B costă între 2.500 și 4.000 lei (școală + taxe). Procesul durează 3-6 luni și implică: examen medical, examen psihologic, școală de șoferi (30 ore teorie + 30 ore practică), examen teoretic (sala) și examen practic (traseu). Vârsta minimă: 18 ani. Valabilitate permis: 10 ani."
+      },
+      "sectiuni": [
+        {
+          "titlu": "Cât costă școala de șoferi?",
+          "continut": "Prețurile variază între orașe și școli, dar media pentru categoria B este: **școală 1.500–2.800 lei** (include 30 ore teorie + 30 ore practică). La acestea se adaugă: **examen medical** ~150 lei, **examen psihologic** ~80 lei, **taxă examen teoretic** 15 lei, **taxă examen practic** 15 lei, **carte de identitate permis** 89 lei. Ore suplimentare de condus costă 80–130 lei/oră. Cost total estimat: **2.500–4.000 lei**."
+        },
+        {
+          "titlu": "Pașii pentru obținerea permisului",
+          "continut": "**1. Înscrierea** la o școală de șoferi autorizată (lista: dgpci.mai.gov.ro). **2. Examen medical și psihologic** — clinici autorizate (lista pe site-ul DSP). **3. Școala**: 30 ore teorie (obligatorii) + 30 ore practică (obligatorii). **4. Examen teoretic (sala)**: 26 întrebări din 4 categorii, maxim 5 greșeli permise, timp 30 minute. Programare online pe dgpci.mai.gov.ro. **5. Examen practic (traseu)**: ~25–30 minute condus în trafic real, după promovarea examenului teoretic. **6. Eliberarea permisului** la ghișeu sau prin poștă."
+        },
+        {
+          "titlu": "Acte necesare pentru dosar",
+          "continut": "**Cerere tip** (de la școala de șoferi), **carte de identitate** (original + copie), **certificat de naștere** (copie), **fișă medicală** (de la clinica autorizată), **fișă psihologică**, **declarație pe propria răspundere** (că nu ai permis suspendat/anulat), **dovada plății taxelor** (examen, permis), **adeverință școlară** sau **diplomă de absolvire** (pentru minori). Dosarul se depune la ghișeu sau se transmite electronic de către școală."
+        }
+      ],
+      "faq": [
+        {
+          "q": "La câte luni după școală trebuie să dau examenul?",
+          "a": "Ai la dispoziție 1 an de la absolvirea școlii pentru a promova examenul. După 1 an, dosarul expiră și trebuie refăcut (inclusiv școala)."
+        },
+        {
+          "q": "Ce se întâmplă dacă pic examenul practic?",
+          "a": "Poți da examenul practic de maximum 3 ori. După 3 respingeri, trebuie să repeți școala de șoferi (6 ore suplimentare minim) și poți reprograma."
+        },
+        {
+          "q": "Pot conduce imediat după ce am promovat examenul?",
+          "a": "Nu. Trebuie să aștepți eliberarea permisului fizic (până la 5 zile lucrătoare). Fără permis valabil, condusul este ilegal și se sancționează cu amendă + reținerea vehiculului."
+        }
+      ],
+      "relatii": {},
+      "verificat": false,
+      "ultima_verificare": "2026-01-01",
+      "monitorizare": {
+        "surse": [
+          {
+            "url": "https://www.drpciv.ro/",
+            "tip": "html"
+          }
+        ]
+      }
+    },
+    "salariul-minim": {
+      "id": "salariul-minim",
+      "nume": "Salariul minim brut pe economie",
+      "tip": "valoare_monetara",
+      "categorie_ghid": "bani",
+      "categorie_stiri": "economic",
+      "valoare_curenta": {
+        "brut": 4325,
+        "moneda": "RON",
+        "in_vigoare_de": "2026-07-01",
+        "act_normativ": "HG 146/2026",
+        "sursa_url": "https://legislatie.just.ro/Public/DetaliiDocument/308231",
+        "descriere_lunga": "Salariul de bază minim brut pe țară garantat în plată este de 4.325 lei lunar, începând cu 1 iulie 2026, pentru programul normal de lucru prevăzut de hotărâre.",
+        "scutiri": "Sectorul construcțiilor are un regim salarial distinct, stabilit prin acte normative aplicabile."
+      },
+      "istoric": [
+        {
+          "brut": 4325,
+          "in_vigoare_de": "2026-07-01",
+          "act_normativ": "HG 146/2026"
+        },
+        {
+          "brut": 4050,
+          "in_vigoare_de": "2026-01-01",
+          "act_normativ": "HG 1506/2024"
+        },
+        {
+          "brut": 3700,
+          "in_vigoare_de": "2025-01-01",
+          "act_normativ": "HG 1493/2024"
+        },
+        {
+          "brut": 3300,
+          "in_vigoare_de": "2023-10-01",
+          "act_normativ": "HG 900/2023"
+        },
+        {
+          "brut": 3000,
+          "in_vigoare_de": "2023-01-01",
+          "act_normativ": "HG 1447/2022"
+        },
+        {
+          "brut": 2550,
+          "in_vigoare_de": "2022-01-01",
+          "act_normativ": "HG 1071/2021"
+        }
+      ],
+      "termene": [
+        {
+          "data": "2027-01-01",
+          "eveniment": "Dată de urmărit pentru eventuale noi modificări ale salariului minim."
+        }
+      ],
+      "sectiuni": [
+        {
+          "titlu": "Cât este salariul minim în 2026?",
+          "continut": "Începând cu **1 iulie 2026**, salariul de bază minim brut pe țară garantat în plată este **4.325 lei/lună**, potrivit HG nr. 146/2026. Valoarea orară stabilită prin hotărâre este 25,949 lei pentru programul normal de lucru prevăzut de act."
+        },
+        {
+          "titlu": "Cine beneficiază de salariul minim?",
+          "continut": "Salariul minim se aplică în condițiile legii contractelor individuale de muncă pentru care este relevant plafonul minim național. Pentru muncă cu timp parțial, drepturile salariale se raportează la timpul lucrat și la regulile fiscale aplicabile."
+        },
+        {
+          "titlu": "Cum se calculează salariul net?",
+          "continut": "Pentru orientare, din salariul brut se calculează contribuțiile și impozitul potrivit regulilor fiscale în vigoare. Calculatorul IZZ de mai jos folosește aceleași date de bază ca această pagină; rezultatul este orientativ și poate diferi de fluturaș în funcție de situația concretă."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Când a intrat în vigoare salariul minim de 4.325 lei?",
+          "a": "De la 1 iulie 2026, potrivit HG nr. 146/2026."
+        },
+        {
+          "q": "Care este salariul minim brut în România în prezent?",
+          "a": "Începând cu 1 iulie 2026, valoarea este de 4.325 lei pe lună."
+        },
+        {
+          "q": "Există salarii minime distincte pentru unele sectoare?",
+          "a": "Da. Unele domenii pot avea reglementări salariale distincte, care trebuie verificate în actul normativ aplicabil."
+        }
+      ],
+      "relatii": {
+        "calculator": "/instrumente/calculator-salariu/"
+      },
+      "verificat": true,
+      "ultima_verificare": "2026-09-04",
+      "monitorizare": {
+        "surse": [
+          {
+            "url": "https://legislatie.just.ro/Public/DetaliiDocument/308231",
+            "tip": "html"
+          },
+          {
+            "url": "https://ab.prefectura.mai.gov.ro/minuta-sedintei-comisiei-de-dialog-social-a-judetului-alba-din-luna-aprilie-2026/",
+            "tip": "html"
+          }
+        ]
+      }
+    }
+  },
+  "total": 7
+}
