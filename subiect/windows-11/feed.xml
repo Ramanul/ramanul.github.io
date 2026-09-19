@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+  <title>Windows 11 — IZZ.ro</title>
+  <link>https://izz.ro/subiect/windows-11/</link>
+  <atom:link href="https://izz.ro/subiect/windows-11/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Știri despre Windows 11 pe IZZ.ro</description>
+  <language>ro</language>
+  <lastBuildDate>Sat, 19 Sep 2026 18:28:21 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft elimină definitiv utilitarul WMIC din sistemul de operare Windows 11</title>
+      <link>https://izz.ro/tech/microsoft-elimina-definitiv-utilitarul-wmic-din-sistemul-de-operare-windows-11/</link>
+      <guid>https://izz.ro/tech/microsoft-elimina-definitiv-utilitarul-wmic-din-sistemul-de-operare-windows-11/</guid>
+      <pubDate>Sat, 19 Sep 2026 00:00:17 +0000</pubDate>
+      <description>Compania Microsoft a început să scoată din uz instrumentul Windows Management Instrumentation Command-line, afectând numeroase scripturi vechi de administrare a sistemelor informatice care depindeau de această funcție.</description>
+    </item>
+    <item>
+      <title>Microsoft testează funcții noi pentru instrumentul cloud de reinstalare Windows 11</title>
+      <link>https://izz.ro/tech/microsoft-testeaza-functii-noi-pentru-instrumentul-cloud-de-reinstalare-windows/</link>
+      <guid>https://izz.ro/tech/microsoft-testeaza-functii-noi-pentru-instrumentul-cloud-de-reinstalare-windows/</guid>
+      <pubDate>Fri, 18 Sep 2026 17:45:42 +0000</pubDate>
+      <description>Compania Microsoft a introdus opțiuni suplimentare în ramura experimentală pentru funcția de recuperare bazată pe cloud, care permite reinstalarea sistemului de operare Windows 11 și a driverelor direct prin internet, fără suport USB.</description>
+    </item>
+    <item>
+      <title>Microsoft va sista suportul pentru două versiuni de Windows 11</title>
+      <link>https://izz.ro/tech/microsoft-va-sista-suportul-pentru-doua-versiuni-de-windows-11/</link>
+      <guid>https://izz.ro/tech/microsoft-va-sista-suportul-pentru-doua-versiuni-de-windows-11/</guid>
+      <pubDate>Fri, 18 Sep 2026 09:18:58 +0000</pubDate>
+      <description>Utilizatorii edițiilor Windows 11 24H2 Home și Pro care nu își vor actualiza sistemul de operare la o variantă mai nouă vor pierde asistența tehnică din luna viitoare. Edițiile Enterprise și Education rămân însă protejate conform politicii companiei.</description>
+    </item>
+    <item>
+      <title>Utilizarea Docker prin WSL în loc de Docker Desktop reduce consumul de resurse pe Windows 11</title>
+      <link>https://izz.ro/tech/utilizarea-docker-prin-wsl-in-loc-de-docker-desktop-reduce-consumul-de-resurse/</link>
+      <guid>https://izz.ro/tech/utilizarea-docker-prin-wsl-in-loc-de-docker-desktop-reduce-consumul-de-resurse/</guid>
+      <pubDate>Thu, 17 Sep 2026 23:00:16 +0000</pubDate>
+      <description>Un utilizator a descoperit că aplicația nativă Windows consuma peste un gigabyte de memorie prin procesele auxiliare, deși nu rula containere active. Trecerea la subsystemul Linux a înjumătățit amprenta de sistem, în ciuda unor neconveniențe de operare.</description>
+    </item>
+    <item>
+      <title>O comandă simplă curăță Windows 11 mai bine decât Storage Sense</title>
+      <link>https://izz.ro/tech/o-comanda-simpla-curata-windows-11-mai-bine-decat-storage-sense/</link>
+      <guid>https://izz.ro/tech/o-comanda-simpla-curata-windows-11-mai-bine-decat-storage-sense/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:16 +0000</pubDate>
+      <description>Utilizatorii sistemului operativ pot elibera spațiu suplimentar de stocare pe disc rulând o comandă manuală, depășind performanța funcției automate preinstalate pe computer.</description>
+    </item>
+    <item>
+      <title>Un bug permite instalarea Windows 11 fără cont Microsoft</title>
+      <link>https://izz.ro/tech/un-bug-permite-instalarea-windows-11-fara-cont-microsoft/</link>
+      <guid>https://izz.ro/tech/un-bug-permite-instalarea-windows-11-fara-cont-microsoft/</guid>
+      <pubDate>Wed, 16 Sep 2026 08:59:32 +0000</pubDate>
+      <description>O eroare neașteptată descoperită în Windows 11 Home Edition permite utilizatorilor să treacă peste ecranul de autentificare obligatorie prin simpla apăsare a unui buton, fără a fi nevoie de linii de comandă.</description>
+    </item>
+    <item>
+      <title>Microsoft testează o versiune mai rapidă pentru Windows 11</title>
+      <link>https://izz.ro/tech/microsoft-testeaza-o-versiune-mai-rapida-pentru-windows-11/</link>
+      <guid>https://izz.ro/tech/microsoft-testeaza-o-versiune-mai-rapida-pentru-windows-11/</guid>
+      <pubDate>Wed, 16 Sep 2026 03:54:23 +0000</pubDate>
+      <description>Utilizatorii din programul Windows Insiders testează o ediție experimentală care aduce îmbunătățiri majore de viteză și fluiditate, remedierile urmând să fie lansate în curând pentru publicul larg.</description>
+    </item>
+    <item>
+      <title>Microsoft a emis o actualizare de urgență pentru a repara erorile din Windows 11</title>
+      <link>https://izz.ro/tech/microsoft-a-emis-o-actualizare-de-urgenta-pentru-a-repara-erorile-din-windows-11/</link>
+      <guid>https://izz.ro/tech/microsoft-a-emis-o-actualizare-de-urgenta-pentru-a-repara-erorile-din-windows-11/</guid>
+      <pubDate>Tue, 15 Sep 2026 09:44:31 +0000</pubDate>
+      <description>Gigantul tehnologic Microsoft a fost obligat să lanseze rapid un pachet suplimentar de corecții, după ce update-ul anterior pentru sistemul de operare Windows 11 a generat numeroase defecțiuni majore.</description>
+    </item>
+    <item>
+      <title>Microsoft confirmă o eroare în Windows 11 care blochează copierea în Excel</title>
+      <link>https://izz.ro/tech/microsoft-confirma-o-eroare-in-windows-11-care-blocheaza-copierea-in-excel/</link>
+      <guid>https://izz.ro/tech/microsoft-confirma-o-eroare-in-windows-11-care-blocheaza-copierea-in-excel/</guid>
+      <pubDate>Tue, 15 Sep 2026 01:44:44 +0000</pubDate>
+      <description>Cel mai recent pachet de actualizări lansat de Microsoft a generat probleme tehnice pentru utilizatorii sistemului de operare Windows 11, afectând funcția de copiere și lipire în aplicația Excel.</description>
+    </item>
+    <item>
+      <title>Criptarea automată în Windows 11 poate bloca accesul la date</title>
+      <link>https://izz.ro/tech/criptarea-automata-in-windows-11-poate-bloca-accesul-la-date/</link>
+      <guid>https://izz.ro/tech/criptarea-automata-in-windows-11-poate-bloca-accesul-la-date/</guid>
+      <pubDate>Mon, 14 Sep 2026 17:30:17 +0000</pubDate>
+      <description>Un utilizator și-a pierdut accesul la propriile fișiere mutate pe un alt calculator din cauza activării silențioase a criptării pe disk în Windows 11, sistemul solicitând o cheie digitală de recuperare de 48 de cifre.</description>
+    </item>
+    <item>
+      <title>Windows 11 va activa o setare care reduce performanța în jocuri</title>
+      <link>https://izz.ro/tech/windows-11-va-activa-o-setare-care-reduce-performanta-in-jocuri/</link>
+      <guid>https://izz.ro/tech/windows-11-va-activa-o-setare-care-reduce-performanta-in-jocuri/</guid>
+      <pubDate>Mon, 14 Sep 2026 13:00:16 +0000</pubDate>
+      <description>Microsoft va activa funcția Memory Integrity începând din 2026 pentru dispozitivele compatibile, o măsură de securitate care însă stârnește îngrijorări în rândul gamerilor privind scăderea vitezei.</description>
+    </item>
+    <item>
+      <title>Setarea din Windows 11 care a eliberat 30 GB pe disc</title>
+      <link>https://izz.ro/tech/setarea-din-windows-11-care-a-eliberat-30-gb-pe-disc/</link>
+      <guid>https://izz.ro/tech/setarea-din-windows-11-care-a-eliberat-30-gb-pe-disc/</guid>
+      <pubDate>Sun, 13 Sep 2026 21:00:16 +0000</pubDate>
+      <description>Un utilizator a descoperit că funcția Storage Sense din Windows 11 era inactivă și, după remedierea setărilor, a eliberat 30 gigabiți de spațiu prin ștergerea automată a fișierelor temporare acumulate.</description>
+    </item>
+    <item>
+      <title>Un jurnalist renunță la Windows 11 și alege macOS pe un M4 Mac Mini în locul Linux</title>
+      <link>https://izz.ro/tech/un-jurnalist-renunta-la-windows-11-si-alege-macos-pe-un-m4-mac-mini-in-locul/</link>
+      <guid>https://izz.ro/tech/un-jurnalist-renunta-la-windows-11-si-alege-macos-pe-un-m4-mac-mini-in-locul/</guid>
+      <pubDate>Sun, 13 Sep 2026 13:30:15 +0000</pubDate>
+      <description>Deși a lăudat frecvent sistemul Linux pentru laptopuri, un utilizator recunoaște că folosește în principal un computer desktop echipat cu macOS și un cip M4 pentru activitatea sa zilnică de birou.</description>
+    </item>
+    <item>
+      <title>Comandă complexă de tastatură monitorizată în Windows 11</title>
+      <link>https://izz.ro/tech/comanda-complexa-de-tastatura-monitorizata-in-windows-11/</link>
+      <guid>https://izz.ro/tech/comanda-complexa-de-tastatura-monitorizata-in-windows-11/</guid>
+      <pubDate>Sun, 13 Sep 2026 07:00:00 +0000</pubDate>
+      <description>Sistemul de operare Windows 11 include o scurtătură formată din cinci taste simultane, utilizarea acesteia fiind contorizată de compania Microsoft în mod automat.</description>
+    </item>
+    <item>
+      <title>Windows 11 este stabil, problemele fiind cauzate de driverele vechi</title>
+      <link>https://izz.ro/tech/windows-11-este-stabil-problemele-fiind-cauzate-de-driverele-vechi/</link>
+      <guid>https://izz.ro/tech/windows-11-este-stabil-problemele-fiind-cauzate-de-driverele-vechi/</guid>
+      <pubDate>Sat, 12 Sep 2026 18:00:16 +0000</pubDate>
+      <description>Deși interfața nu este pe placul tuturor după patru ani de utilizare, sistemul de operare Windows 11 dovedește o stabilitate ridicată, erorile fiind provocate de driverele moștenite din Windows 10.</description>
+    </item>
+    <item>
+      <title>O actualizare recentă Windows 11 generează erori pentru WSL și Claude Cowork</title>
+      <link>https://izz.ro/tech/o-actualizare-recenta-windows-11-genereaza-erori-pentru-wsl-si-claude-cowork/</link>
+      <guid>https://izz.ro/tech/o-actualizare-recenta-windows-11-genereaza-erori-pentru-wsl-si-claude-cowork/</guid>
+      <pubDate>Sat, 12 Sep 2026 03:57:20 +0000</pubDate>
+      <description>Microsoft a confirmat că cel mai recent pachet de update pentru Windows 11 afectează funcționarea instrumentelor WSL și Claude Cowork din cauza unei probleme legate de protocolul Plan9.</description>
+    </item>
+    <item>
+      <title>Modificarea setărilor implicite de stocare în Windows 11 previne ocuparea rapidă a SSD-ului</title>
+      <link>https://izz.ro/tech/modificarea-setarilor-implicite-de-stocare-in-windows-11-previne-ocuparea/</link>
+      <guid>https://izz.ro/tech/modificarea-setarilor-implicite-de-stocare-in-windows-11-previne-ocuparea/</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:15 +0000</pubDate>
+      <description>Configurările standard stabilite de sistemul de operare Windows 11 pentru gestionarea fișierelor pot fi optimizate manual de către utilizatori pentru a evita umplerea inutilă a spațiului de pe discuri.</description>
+    </item>
+    <item>
+      <title>Consola portabilă MSI Claw 8 EX AI+ a fost lansată pe piață</title>
+      <link>https://izz.ro/tech/consola-portabila-msi-claw-8-ex-ai-a-fost-lansata-pe-piata/</link>
+      <guid>https://izz.ro/tech/consola-portabila-msi-claw-8-ex-ai-a-fost-lansata-pe-piata/</guid>
+      <pubDate>Fri, 04 Sep 2026 09:58:23 +0000</pubDate>
+      <description>Noul dispozitiv de gaming portabil de la MSI vine cu un preț de 1.400 de lire sterline și specificații hardware puternice, fiind însă limitat de performanțele sistemului de operare Windows 11.</description>
+    </item>
+    <item>
+      <title>Windows 11 partajează fișierele de update prin funcția Delivery Optimization</title>
+      <link>https://izz.ro/tech/windows-11-partajeaza-fisierele-de-update-prin-functia-delivery-optimization/</link>
+      <guid>https://izz.ro/tech/windows-11-partajeaza-fisierele-de-update-prin-functia-delivery-optimization/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:15 +0000</pubDate>
+      <description>Sistemul de operare Windows 11 utilizează implicit funcția Delivery Optimization pentru a descărca actualizări de la alte computere, reducând astfel traficul direct de pe serverele Microsoft.</description>
+    </item>
+    <item>
+      <title>Microsoft va activa automat funcția de securitate Memory Integrity în Windows 11</title>
+      <link>https://izz.ro/tech/microsoft-va-activa-automat-functia-de-securitate-memory-integrity-in-windows-11/</link>
+      <guid>https://izz.ro/tech/microsoft-va-activa-automat-functia-de-securitate-memory-integrity-in-windows-11/</guid>
+      <pubDate>Wed, 02 Sep 2026 09:28:45 +0000</pubDate>
+      <description>Începând din octombrie 2026, Microsoft va activa automat funcția Memory Integrity pe dispozitivele Windows 11 eligibile pentru a proteja sistemul împotriva codului malițios. Deși sporește securitatea prin intermediul tehnologiei de virtualizare, activarea poate reduce performanța și numărul de cadre pe secundă în anumite jocuri video, în funcție de configurația hardware.</description>
+    </item>
+    <item>
+      <title>Un utilizator a modificat patru setări din Windows 11 pentru a elimina elementele inutile</title>
+      <link>https://izz.ro/tech/un-utilizator-a-modificat-patru-setari-din-windows-11-pentru-a-elimina/</link>
+      <guid>https://izz.ro/tech/un-utilizator-a-modificat-patru-setari-din-windows-11-pentru-a-elimina/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:15 +0000</pubDate>
+      <description>Sistemul de operare Windows 11 a fost criticat pentru încărcarea cu funcții AI preinstalate și widgeturi comerciale, determinând ajustarea setărilor pentru redobândirea controlului și productivității.</description>
+    </item>
+</channel></rss>
