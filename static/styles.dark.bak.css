@@ -1,0 +1,145 @@
+/* IZZ.ro — identitate auriu-dark. Tokeni: aur #D6B25E pe fundal #0B0F14, spacing Fibonacci. */
+:root {
+  --gold: #D6B25E;
+  --gold-dim: #a9883f;
+  --bg: #0B0F14;
+  --surface: #11161f;
+  --surface-2: #161c28;
+  --border: #1a1f2e;
+  --fg: #e8eaed;
+  --muted: #8b93a7;
+
+  --space-xs: 8px;
+  --space-sm: 13px;   /* Fibonacci */
+  --space: 21px;
+  --space-lg: 34px;
+  --space-xl: 55px;
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-text: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --radius: 10px;
+  --maxw: 1180px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font-text);
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--gold); text-decoration: none; }
+a:hover { color: var(--fg); }
+
+/* Header / ticker */
+.site-header {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: var(--space); flex-wrap: wrap;
+  padding: var(--space) var(--space-lg);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--surface), var(--bg));
+  position: sticky; top: 0; z-index: 10;
+}
+.brand { display: flex; align-items: baseline; gap: var(--space-xs); }
+.brand .logo { font-family: var(--font-display); font-size: 1.9rem; font-weight: 800; color: var(--fg); letter-spacing: .5px; }
+.brand .logo b { color: var(--gold); }
+.brand .tagline { font-family: var(--font-mono); font-size: .72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 2px; }
+.nav { display: flex; flex-wrap: wrap; gap: var(--space); }
+.nav a { color: var(--muted); font-weight: 600; font-size: .9rem; text-transform: capitalize; }
+.nav a:hover, .nav a.active { color: var(--gold); }
+
+/* Layout */
+main { max-width: var(--maxw); margin: 0 auto; padding: var(--space-lg) var(--space); }
+.section-title {
+  font-family: var(--font-display); font-size: 1.5rem; color: var(--fg);
+  margin: var(--space-xl) 0 var(--space); padding-bottom: var(--space-xs);
+  border-bottom: 1px solid var(--border);
+}
+.section-title:first-child { margin-top: 0; }
+
+/* Masonry — carduri de inaltime naturala, umplu fara goluri */
+.masonry { column-count: 3; column-gap: var(--space); margin-bottom: var(--space-lg); }
+.masonry > .card { break-inside: avoid; margin: 0 0 var(--space); }
+.card.lead { border-color: var(--gold-dim); background: var(--surface-2); }
+.card.lead .card-title { font-size: 1.45rem; }
+
+/* Grid (pagini de categorie / fallback) */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--space); align-items: start; }
+
+/* Card */
+.card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: var(--space); display: flex; flex-direction: column; gap: var(--space-xs);
+  transition: transform .15s ease, border-color .15s ease;
+}
+.card:hover { transform: translateY(-3px); border-color: var(--gold-dim); }
+.card.lead { background: var(--surface-2); }
+.badge {
+  align-self: flex-start; font-family: var(--font-mono); font-size: .66rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 1.5px; padding: 4px 10px; border-radius: 999px;
+  color: var(--muted); border: 1px solid var(--border);
+}
+.badge.c { color: var(--bg); background: var(--gold); border-color: var(--gold); }
+.card-title { font-family: var(--font-display); font-size: 1.2rem; line-height: 1.25; margin: 0; }
+.card-title a { color: var(--fg); }
+.card-title a:hover { color: var(--gold); }
+.meta { font-family: var(--font-mono); font-size: .72rem; color: var(--muted); display: flex; gap: var(--space-xs); flex-wrap: wrap; }
+.meta .source { color: var(--gold-dim); }
+.summary { color: var(--muted); font-size: .95rem; margin: 0; }
+.read-more { font-size: .82rem; font-weight: 700; margin-top: auto; }
+.read-more::after { content: " \2192"; }
+.sources-inline { font-size: .78rem; color: var(--muted); }
+.sources-inline b { color: var(--gold-dim); font-weight: 700; }
+
+/* Pagina articol (permalink) */
+.article { max-width: 760px; margin: 0 auto; }
+.article h1 { font-family: var(--font-display); font-size: 2.1rem; line-height: 1.2; margin: var(--space) 0; }
+.article .body { font-size: 1.12rem; margin: var(--space) 0; }
+.notice {
+  background: var(--surface-2); border-left: 3px solid var(--gold); border-radius: 4px;
+  padding: var(--space-sm) var(--space); font-size: .92rem; color: var(--muted); margin: var(--space) 0;
+}
+.sources-box { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space); margin: var(--space-lg) 0; }
+.sources-box h3 { margin: 0 0 var(--space-xs); font-family: var(--font-display); font-size: 1.05rem; }
+.sources-box ul { margin: 0; padding-left: var(--space); }
+.btn-source {
+  display: inline-block; margin-top: var(--space); padding: var(--space-sm) var(--space);
+  background: var(--gold); color: var(--bg); border-radius: var(--radius); font-weight: 700;
+}
+.btn-source:hover { background: var(--gold-dim); color: var(--bg); }
+
+/* Pagina statica (legal) */
+.static-page { max-width: 760px; margin: 0 auto; }
+.static-page h1, .static-page h2, .static-page h3 { font-family: var(--font-display); color: var(--fg); }
+.static-page a { text-decoration: underline; }
+
+/* Newsletter */
+.newsletter {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: var(--space) var(--space-lg); margin-top: var(--space-xl);
+}
+.newsletter .section-title { margin-top: 0; }
+.newsletter code { font-family: var(--font-mono); color: var(--gold-dim); font-size: .85rem; }
+
+/* Footer */
+.site-footer {
+  max-width: var(--maxw); margin: var(--space-xl) auto 0; padding: var(--space-lg) var(--space);
+  border-top: 1px solid var(--border); color: var(--muted); font-size: .85rem;
+  display: flex; flex-wrap: wrap; gap: var(--space); justify-content: space-between;
+}
+.site-footer nav { display: flex; flex-wrap: wrap; gap: var(--space); }
+.site-footer a { color: var(--muted); }
+.site-footer a:hover { color: var(--gold); }
+.empty { text-align: center; color: var(--muted); padding: var(--space-xl); }
+
+/* Responsive — mobile-first colaps */
+@media (max-width: 1000px) { .masonry { column-count: 2; } }
+@media (max-width: 640px) {
+  .masonry { column-count: 1; }
+  main { padding: var(--space) var(--space-sm); }
+  .site-header { padding: var(--space-sm); }
+}
