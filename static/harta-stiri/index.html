@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Harta știrilor — IZZ.ro</title>
   <meta name="description" content="Harta interactivă a știrilor locale și județene din România, agregate pe județe și localități.">
+  <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
+       care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+  <meta property="og:image" content="https://izz.ro/static/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css">
 </head>

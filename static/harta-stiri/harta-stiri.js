@@ -198,7 +198,15 @@
     }
     return Array.from(events.values()).map((members) => {
       const primary = members[0];
-      const sources = new Set(members.map((member) => member.source_name || member.source).filter(Boolean));
+      // Contorul de surse uneste sursa fiecarui articol CU lista `sources` pastrata de
+      // dedup-ul editorial (relatarile identice se unesc inainte de publicare — fara
+      // lista, un eveniment acoperit de 3 surse reale ar afisa „1 sursă").
+      const sources = new Set();
+      for (const member of members) {
+        const own = member.source_name || member.source;
+        if (own) sources.add(own);
+        for (const s of member.sources || []) if (s && s.name) sources.add(s.name);
+      }
       return {
         ...primary,
         eventArticleCount: members.length,
@@ -1921,10 +1929,12 @@
       meta.textContent = [item.locality, item.county, item.region, source, dateLabel(item.published)]
         .filter(Boolean).join(" · ");
       li.append(titlu, meta);
-      if (state.viewMode === "events" && item.eventArticleCount > 1) {
+      if (state.viewMode === "events" && (item.eventArticleCount > 1 || item.eventSourceCount > 1)) {
         const context = document.createElement("span");
         context.className = "event-context";
-        context.textContent = `${item.eventArticleCount} relatări · ${item.eventSourceCount} surse despre același eveniment`;
+        context.textContent = item.eventArticleCount > 1
+          ? `${item.eventArticleCount} relatări · ${item.eventSourceCount} surse despre același eveniment`
+          : `${item.eventSourceCount} surse despre același eveniment`;
         li.appendChild(context);
       }
       list.appendChild(li);
@@ -1981,10 +1991,20 @@
   }
 
   function syncViewButtons() {
+    // Cand fiecare eveniment din dataset are o singura relatare si o singura sursa,
+    // cele doua moduri redau exact aceeasi lista. Butonul se dezactiveaza CU motivul,
+    // ca sa nu arate ca un comutator stricat (masurat pe live 2026-10-03: 438 evenimente
+    // = 438 relatari, comutatorul era no-op fara nicio explicatie).
+    const anyMulti = state.articles.some((item) =>
+      (item.event_article_count || 0) > 1 || (item.event_source_count || 0) > 1);
     $$(".segmented [data-view]").forEach((button) => {
       const active = button.dataset.view === state.viewMode;
       button.classList.toggle("active", active);
       button.setAttribute("aria-checked", active ? "true" : "false");
+      button.disabled = !anyMulti;
+      button.title = anyMulti
+        ? ""
+        : "În fereastra curentă, fiecare eveniment are o singură relatăre dintr-o singură sursă.";
     });
   }
 
