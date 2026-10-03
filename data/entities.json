@@ -198,9 +198,9 @@
       "categorie_stiri": "economic",
       "valoare_curenta": {
         "in_vigoare_de": "2009-06-17",
-        "act_normativ": "HG 717/2009 — norme de implementare a programului „Noua Casă”",
+        "act_normativ": "HG 717/2009 — norme de implementare a programului „Noua Casă” (continuat anual; plafonul 2026 de 500 mil. lei a fost aprobat prin HG din mai 2026)",
         "sursa_url": "https://legislatie.just.ro/Public/DetaliiDocument/107177",
-        "descriere_lunga": "Programul Noua Casă permite achiziția unei locuințe cu avans de doar 5% (locuințe ≤ 70.000 EUR) sau 15% (locuințe 70.001–140.000 EUR). Statul garantează până la 60% din credit. Dobânda este cea a pieței, negociată cu băncile participante. Plafonul maxim al creditului este de 133.000 EUR (140.000 EUR prețul locuinței)."
+        "descriere_lunga": "Programul Noua Casă permite achiziția unei locuințe noi sau vechi cu credit bancar garantat de stat. Pentru credite de până la 66.500 EUR (locuințe de cca. ≤ 70.000 EUR) avansul minim este de 5%, iar garanția statului ajunge la 50% din credit. Pentru credite între 59.501 și 119.000 EUR (locuințe de cca. ≤ 140.000 EUR) avansul minim este de 15%, iar garanția statului ajunge la 60%. Creditul maxim este de 119.000 EUR. Plafonul garanțiilor alocate pe 2026 este de 500 milioane lei."
       },
       "sectiuni": [
         {
@@ -209,7 +209,7 @@
         },
         {
           "titlu": "Ce sume și avansuri se aplică?",
-          "continut": "**Locuințe ≤ 70.000 EUR**: avans minim **5%**, garanție de stat până la 60%. **Locuințe 70.001–140.000 EUR**: avans minim **15%**, garanție de stat până la 50%. Creditul maxim: **133.000 EUR** (adică 140.000 EUR preț minus avans). Plafonul include TVA (9% pentru locuințe sub 140.000 EUR). Dobânda: ROBOR la 3 luni + marja băncii (~2-2,5%), variabilă."
+          "continut": "**Credite de până la 66.500 EUR** (locuințe de cca. ≤ 70.000 EUR): avans minim **5%**, garanție de stat până la **50%** din credit — se aplică și locuințelor vechi. **Credite între 59.501 și 119.000 EUR** (locuințe de cca. ≤ 140.000 EUR): avans minim **15%**, garanție de stat până la **60%**. Creditul maxim: **119.000 EUR**. Plafonul garanțiilor pe 2026: **500 milioane lei**. Plafonul include TVA (9% pentru locuințe sub 140.000 EUR). Dobânda este de piață, negociată cu banca participante (index de referință + marjă; condițiile exacte le stabilește fiecare bancă)."
         },
         {
           "titlu": "Acte necesare și pași",
@@ -228,7 +228,7 @@
       ],
       "relatii": {},
       "verificat": false,
-      "ultima_verificare": "2026-01-01",
+      "ultima_verificare": "2026-10-03",
       "monitorizare": {
         "surse": [
           {
@@ -247,7 +247,7 @@
       "valoare_curenta": {
         "brut": 1281,
         "moneda": "RON",
-        "in_vigoare_de": "2026-01-01",
+        "in_vigoare_de": "2024-09-01",
         "act_normativ": "Legea 360/2023, actualizată prin OUG 156/2024",
         "sursa_url": "https://cnpp.ro/",
         "descriere_lunga": "Indemnizația socială pentru pensionari — statul completează pensia calculată până la acest prag, cu condiția realizării stagiului minim de cotizare de 15 ani."
@@ -255,7 +255,7 @@
       "istoric": [
         {
           "brut": 1281,
-          "in_vigoare_de": "2026-01-01",
+          "in_vigoare_de": "2024-09-01",
           "act_normativ": "Legea 360/2023"
         },
         {
@@ -301,7 +301,7 @@
       ],
       "relatii": {},
       "verificat": false,
-      "ultima_verificare": "2026-01-01",
+      "ultima_verificare": "2026-10-03",
       "monitorizare": {
         "surse": [
           {
@@ -344,7 +344,7 @@
         },
         {
           "q": "Ce se întâmplă dacă pic examenul practic?",
-          "a": "Poți da examenul practic de maximum 3 ori. După 3 respingeri, trebuie să repeți școala de șoferi (6 ore suplimentare minim) și poți reprograma."
+          "a": "După o respingere la proba practică poți fi reprogramat la o nouă probă după cel puțin 15 zile, cu taxa de examinare achitată și cu dovada a cel puțin 6 ore suplimentare de condus efectuate cu instructorul. Metodologia de aplicare a OUG 195/2002 nu prevede un număr maxim de încercări și nu obligă la refacerea școlii de șoferi."
         },
         {
           "q": "Pot conduce imediat după ce am promovat examenul?",
@@ -353,7 +353,7 @@
       ],
       "relatii": {},
       "verificat": false,
-      "ultima_verificare": "2026-01-01",
+      "ultima_verificare": "2026-10-03",
       "monitorizare": {
         "surse": [
           {

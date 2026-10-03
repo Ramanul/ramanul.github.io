@@ -5,7 +5,14 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 03 Oct 2026 02:09:59 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 08:24:14 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft testează instalarea automată de aplicații terțe în Windows 11</title>
+      <link>https://izz.ro/tech/microsoft-testeaza-instalarea-automata-de-aplicatii-terte-in-windows-11/</link>
+      <guid>https://izz.ro/tech/microsoft-testeaza-instalarea-automata-de-aplicatii-terte-in-windows-11/</guid>
+      <pubDate>Sat, 03 Oct 2026 08:12:00 +0000</pubDate>
+      <description>Compania Microsoft experimentează o nouă versiune Windows 11 care va include preinstalarea unor programe externe precum Netflix sau Spotify pe dispozitivele utilizatorilor.</description>
+    </item>
     <item>
       <title>Un utilizator descoperă că folosește aplicații open-source create parțial de Microsoft</title>
       <link>https://izz.ro/tech/un-utilizator-descopera-ca-foloseste-aplicatii-open-source-create-partial-de/</link>
@@ -19,13 +26,6 @@
       <guid>https://izz.ro/tech/folosirea-zilnica-a-hibernarii-pe-pc-uzeaza-ssd-ul-in-timp/</guid>
       <pubDate>Fri, 02 Oct 2026 17:00:19 +0000</pubDate>
       <description>Utilizarea funcției de hibernare timp de cinci ani pe un SSD Samsung a redus sănătatea acestuia la 90 la sută. Deși acceptabil pentru utilizatorii obișnuiți, uzura poate afecta stabilitatea sistemelor de performanță.</description>
-    </item>
-    <item>
-      <title>Microsoft testează preinstalarea unor aplicații populare pe sistemele Windows 11</title>
-      <link>https://izz.ro/tech/microsoft-testeaza-preinstalarea-unor-aplicatii-populare-pe-sistemele-windows-11/</link>
-      <guid>https://izz.ro/tech/microsoft-testeaza-preinstalarea-unor-aplicatii-populare-pe-sistemele-windows-11/</guid>
-      <pubDate>Fri, 02 Oct 2026 14:56:26 +0000</pubDate>
-      <description>Compania Microsoft experimentează includerea automată a unor programe precum TikTok și Netflix în timpul configurării inițiale a noilor PC-uri cu Windows 11, o strategie similară practicată de producătorii de telefoane mobile.</description>
     </item>
     <item>
       <title>Windows include un instrument pentru dezactivarea serviciilor inutile</title>
