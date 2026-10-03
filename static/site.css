@@ -1,0 +1,28 @@
+/* Delta #380 pe live (2026-10-02): styles.css pe edge era încă pre-#380
+   sub Cache-Control immutable 30z. Acest fișier e cale NOUĂ → miss garantat.
+   Se leagă DUPĂ styles.css din base.html. */
+
+:root {
+  --fs-2xl: clamp(1.85rem, 1.35rem + 2.2vw, 2.618rem);
+  --fs-3xl: clamp(2.1rem, 1.4rem + 3.2vw, 3.330rem);
+}
+
+@media (max-width: 640px) {
+  .site-header { padding: var(--s-8) var(--s-21); gap: var(--s-13); }
+  .brand .logo { font-size: var(--fs-lg); }
+  .brand-descriptor { display: none; }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .card, .lead-feature {
+      animation: intra-in-pagina ease-out both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 50%;
+    }
+    @keyframes intra-in-pagina {
+      from { transform: translateY(14px); }
+      to { transform: none; }
+    }
+  }
+}
