@@ -23,19 +23,21 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=9ab73a1d">
+  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=5ae5a0e8">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
 
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://izz.ro/#organization", "@type": "Organization", "description": "Portalul \u0219tirilor tale", "email": "contact@izz.ro", "logo": {"@id": "https://izz.ro/#logo", "@type": "ImageObject", "height": 512, "url": "https://izz.ro/static/logo.png", "width": 512}, "name": "IZZ.ro", "url": "https://izz.ro"}, {"@id": "https://izz.ro/#website", "@type": "WebSite", "description": "Portalul \u0219tirilor tale", "inLanguage": "ro", "name": "IZZ.ro", "publisher": {"@id": "https://izz.ro/#organization"}, "url": "https://izz.ro/"}, {"@id": "https://izz.ro/subiect/sibiu/#webpage", "@type": "WebPage", "inLanguage": "ro", "isPartOf": {"@id": "https://izz.ro/#website"}, "url": "https://izz.ro/subiect/sibiu/"}]}</script>
-<link rel="alternate" type="application/rss+xml" title="Sibiu — IZZ.ro" href="/subiect/sibiu/feed.xml">  <script defer src="/static/personalize.js?v=e41e9c73"></script>
+<link rel="alternate" type="application/rss+xml" title="Sibiu — IZZ.ro" href="/subiect/sibiu/feed.xml">  <script defer src="/static/personalize.js?v=0ad653dc"></script>
+  <script defer src="/static/pwa.js?v=dfe83b63"></script>
+  <script defer src="/static/push.js?v=6eff9fac"></script>
 </head>
 <body>
   <p class="dateline">
@@ -54,7 +56,6 @@
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
       <a href="/cauta/">caută</a>
-      <button id="izz-install-btn" class="izz-install-btn" type="button" hidden title="Instalează aplicația pe acest dispozitiv" aria-label="Instalează aplicația">Instalează aplicația</button>
       <button class="theme-toggle" type="button" aria-label="Comută tema"></button>
     </nav>
   </header>
@@ -73,6 +74,14 @@
   <p class="connections">Conexiuni:
 <a href="/subiect/avrig/">Avrig</a> · <a href="/subiect/isu-sibiu/">ISU Sibiu</a> · <a href="/subiect/astrid-fodor/">Astrid Fodor</a> · <a href="/subiect/boita/">Boița</a> · <a href="/subiect/palatul-brukenthal/">Palatul Brukenthal</a> · <a href="/subiect/paltinis/">Păltiniș</a></p>
   <ol class="timeline">
+    <li>
+      <time datetime="2026-10-04T12:50:18+00:00">4 octombrie 2026, 15:50</time>
+      <a href="/local/doi-raniti-intr-un-accident-rutier-produs-intre-ocna-sibiului-si-mandra/">Doi răniți într-un accident rutier produs între Ocna Sibiului și Mândra</a>
+    </li>
+    <li>
+      <time datetime="2026-10-04T11:03:23+00:00">4 octombrie 2026, 14:03</time>
+      <a href="/local/meteorologii-din-sibiu-anunta-trecerea-brusca-de-la-caldura-la-lapovita/">Meteorologii din Sibiu anunță trecerea bruscă de la căldură la lapoviță</a>
+    </li>
     <li>
       <time datetime="2026-10-03T17:10:17+00:00">3 octombrie 2026, 20:10</time>
       <a href="/local/expozitii-de-arta-si-obiecte-neobisnuite-la-noaptea-alba-a-galeriilor-in-sibiu/">Expoziții de artă și obiecte neobișnuite la Noaptea Albă a Galeriilor în Sibiu</a>
@@ -256,10 +265,6 @@
     <li>
       <time datetime="2026-09-29T15:31:19+00:00">29 septembrie 2026, 18:31</time>
       <a href="/judetean/sibiul-ocupa-locul-al-doilea-la-despagubiri-pentru-daune-aduse-vecinilor/">Sibiul ocupă locul al doilea la despăgubiri pentru daune aduse vecinilor</a>
-    </li>
-    <li>
-      <time datetime="2026-09-29T14:17:52+00:00">29 septembrie 2026, 17:17</time>
-      <a href="/local/universitatea-lucian-blaga-din-sibiu-va-inaugura-noul-campus-dual-pe-7-octombrie/">Universitatea Lucian Blaga din Sibiu va inaugura noul campus dual pe 7 octombrie</a>
     </li>
     <li>
       <time datetime="2026-09-29T08:30:12+00:00">29 septembrie 2026, 11:30</time>
@@ -573,26 +578,6 @@
       <time datetime="2026-09-22T14:35:29+00:00">22 septembrie 2026, 17:35</time>
       <a href="/local/accidente-feroviare-soldate-cu-morti-in-neamt-si-sibiu/">Accidente feroviare soldate cu morți în Neamț și Sibiu</a>
     </li>
-    <li>
-      <time datetime="2026-09-22T09:32:40+00:00">22 septembrie 2026, 12:32</time>
-      <a href="/local/festivalul-ars-sacra-din-sibiu-a-atras-peste-3-500-de-spectatori/">Festivalul Ars SACRA din Sibiu a atras peste 3.500 de spectatori</a>
-    </li>
-    <li>
-      <time datetime="2026-09-22T09:11:22+00:00">22 septembrie 2026, 12:11</time>
-      <a href="/local/sibiu-organizeaza-noaptea-cercetatorilor-cu-numeroase-ateliere/">Sibiu organizează Noaptea Cercetătorilor cu numeroase ateliere</a>
-    </li>
-    <li>
-      <time datetime="2026-09-22T09:10:53+00:00">22 septembrie 2026, 12:10</time>
-      <a href="/local/patru-caini-politisti-pensionati-din-sibiu-isi-cauta-stapani/">Patru câini polițiști pensionați din Sibiu își caută stăpâni</a>
-    </li>
-    <li>
-      <time datetime="2026-09-22T08:10:36+00:00">22 septembrie 2026, 11:10</time>
-      <a href="/local/tanara-de-21-de-ani-decedata-intr-un-accident-rutier-pe-dn-7-in-sibiu/">Tânără de 21 de ani decedată într-un accident rutier pe DN 7 în Sibiu</a>
-    </li>
-    <li>
-      <time datetime="2026-09-22T07:18:57+00:00">22 septembrie 2026, 10:18</time>
-      <a href="/local/prima-editie-a-turului-ciclist-din-muntii-fagaras-are-loc-in-octombrie/">Prima ediție a turului ciclist din Munții Făgăraș are loc în octombrie</a>
-    </li>
   </ol>
   </main>
 
@@ -611,7 +596,20 @@
       <a href="/surse/">Surse & originalitate</a>
       <a href="/legal/takedown/">Drepturi de autor</a>
     </nav>
+    <div class="izz-alerte" id="izz-alerte" hidden>
+      <button class="izz-alerte-btn" id="izz-alerte-btn" type="button" aria-expanded="false" aria-controls="izz-alerte-panou">Alerte de ultimă oră</button>
+      <div class="izz-alerte-panou" id="izz-alerte-panou" hidden>
+        <p class="izz-alerte-text">Maximum <b>o alertă pe zi</b>, numai pentru știri de ultimă oră, scrise faptic. Fără îndemnuri, fără reclame, fără urmărire. Poți dezactiva oricând, din același loc.</p>
+        <button class="izz-alerte-actiune" id="izz-alerte-porneste" type="button">Activează alertele</button>
+        <button class="izz-alerte-actiune" id="izz-alerte-opreste" type="button" hidden>Dezactivează alertele</button>
+        <p class="izz-alerte-stare" id="izz-alerte-stare" role="status"></p>
+      </div>
+    </div>
   </footer>
+  <div class="izz-install" id="izz-install" hidden>
+    <button class="izz-install-btn" id="izz-install-btn" type="button" title="Adaugă IZZ.ro pe ecranul de pornire, ca să-l citești și fără net">Instalează aplicația</button>
+    <button class="izz-install-inchide" id="izz-install-inchide" type="button" aria-label="Nu acum" title="Nu acum">×</button>
+  </div>
   <button class="back-to-top" type="button" title="Sus" aria-label="Înapoi sus">↑</button>
 </body>
 </html>

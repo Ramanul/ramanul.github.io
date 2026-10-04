@@ -274,24 +274,6 @@
     window.addEventListener('pagehide', tick);
   }
 
-  /* ---- buton instalare PWA: independent de consimtamant, nu stocheaza nimic ---- */
-  function initInstallButton() {
-    const btn = document.getElementById('izz-install-btn');
-    if (!btn) return;
-    let deferredPrompt = null;
-    window.addEventListener('beforeinstallprompt', (e) => {
-      e.preventDefault();
-      deferredPrompt = e;
-      btn.hidden = false;
-    });
-    btn.addEventListener('click', () => {
-      if (!deferredPrompt) return;
-      deferredPrompt.prompt();
-      deferredPrompt.userChoice.finally(() => { deferredPrompt = null; btn.hidden = true; });
-    });
-    window.addEventListener('appinstalled', () => { btn.hidden = true; deferredPrompt = null; });
-  }
-
   /* ---- init ---- */
   function init() {
     rewireClicks();
@@ -419,7 +401,10 @@
   }
 
   function boot() {
-    initInstallButton();
+    // Butonul de INSTALARE a aplicatiei NU e aici: din 2026-10-03 traieste in
+    // `static/pwa.js`, impreuna cu inregistrarea service workerului. Cele doua ascultau
+    // ambele dupa `beforeinstallprompt` si ambele chemau `prompt()` pe acelasi buton —
+    // iar al doilea apel arunca, pentru ca evenimentul se poate consuma o singura data.
     // Butonul ◎ e prezent ORICAND, si pentru utilizatorii care au refuzat: e singurul
     // control persistent prin care consimtamantul se retrage sau se re-activeaza
     // (GDPR art. 7 alin. 3 — retragerea la fel de usoara ca acordarea). Nu stocheaza

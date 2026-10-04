@@ -23,19 +23,21 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=9ab73a1d">
+  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=5ae5a0e8">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
 
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://izz.ro/#organization", "@type": "Organization", "description": "Portalul \u0219tirilor tale", "email": "contact@izz.ro", "logo": {"@id": "https://izz.ro/#logo", "@type": "ImageObject", "height": 512, "url": "https://izz.ro/static/logo.png", "width": 512}, "name": "IZZ.ro", "url": "https://izz.ro"}, {"@id": "https://izz.ro/#website", "@type": "WebSite", "description": "Portalul \u0219tirilor tale", "inLanguage": "ro", "name": "IZZ.ro", "publisher": {"@id": "https://izz.ro/#organization"}, "url": "https://izz.ro/"}, {"@id": "https://izz.ro/cauta/#webpage", "@type": "WebPage", "inLanguage": "ro", "isPartOf": {"@id": "https://izz.ro/#website"}, "url": "https://izz.ro/cauta/"}]}</script>
-  <script defer src="/static/personalize.js?v=e41e9c73"></script>
+  <script defer src="/static/personalize.js?v=0ad653dc"></script>
+  <script defer src="/static/pwa.js?v=dfe83b63"></script>
+  <script defer src="/static/push.js?v=6eff9fac"></script>
 </head>
 <body>
   <p class="dateline">
@@ -54,7 +56,6 @@
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
       <a href="/cauta/">caută</a>
-      <button id="izz-install-btn" class="izz-install-btn" type="button" hidden title="Instalează aplicația pe acest dispozitiv" aria-label="Instalează aplicația">Instalează aplicația</button>
       <button class="theme-toggle" type="button" aria-label="Comută tema"></button>
     </nav>
   </header>
@@ -68,16 +69,25 @@
   </div>
 
   <main>
-<article class="static-page search-page">
+<article class="static-page search-page" id="search-app"
+         data-pagefind="/_pagefind/"
+         data-index="/search-index.json">
   <h1>Caută în știri</h1>
-  <p class="search-hint">Caută în titlurile celor 9495 știri păstrate în ultimele 12 zile. Diacriticele nu contează.</p>
+  <p class="search-hint">Caută în titlurile și rezumatele celor 9327 știri păstrate în ultimele 12 zile. Diacriticele nu contează: „inundatii” găsește „inundații”.</p>
   <form id="search-form" role="search">
     <label class="visually-hidden" for="q">Termen de căutare</label>
     <input id="q" type="search" placeholder="ex.: buget, inundații, Wimbledon…" autocomplete="off" autofocus>
-    <label class="search-filter-label" for="search-category">Categorie</label>
-    <select id="search-category" class="search-filter">
-      <option value="">Toate categoriile</option>
-<option value="general">Național</option><option value="regional">Regional</option><option value="judetean">Județean</option><option value="local">Local</option><option value="politic">Politică</option><option value="economic">Economie</option><option value="extern">Externe</option><option value="sport">Sport</option><option value="ai">Inteligență artificială</option><option value="tech">Tech</option><option value="auto">Auto</option><option value="sanatate">Sănătate</option><option value="cultura">Cultură</option><option value="lifestyle">Lifestyle</option><option value="discounturi">Discounturi</option>    </select>
+    <div class="search-controls">
+      <label class="search-filter-label" for="search-category">Categorie</label>
+      <select id="search-category" class="search-filter">
+        <option value="">Toate categoriile</option>
+<option value="general">Național</option><option value="regional">Regional</option><option value="judetean">Județean</option><option value="local">Local</option><option value="politic">Politică</option><option value="economic">Economie</option><option value="extern">Externe</option><option value="sport">Sport</option><option value="ai">Inteligență artificială</option><option value="tech">Tech</option><option value="auto">Auto</option><option value="sanatate">Sănătate</option><option value="cultura">Cultură</option><option value="lifestyle">Lifestyle</option><option value="discounturi">Discounturi</option>      </select>
+      <span class="search-filter-label" id="search-sort-label">Ordonează</span>
+      <span class="search-sort" role="group" aria-labelledby="search-sort-label">
+        <button type="button" class="search-quick-filter" data-sort="" aria-pressed="true">după relevanță</button>
+        <button type="button" class="search-quick-filter" data-sort="data" aria-pressed="false">cele mai noi</button>
+      </span>
+    </div>
   </form>
   <nav class="search-quick-filters" aria-label="Filtre rapide pentru anunțuri oficiale">
     <span class="search-quick-label">Acces rapid:</span>
@@ -87,11 +97,14 @@
     <button type="button" class="search-quick-filter" data-quick-filter="achizitii" aria-pressed="false">Achiziții</button>
     <button type="button" class="search-quick-filter" data-quick-filter="oficiale" aria-pressed="false">Toate anunțurile oficiale</button>
   </nav>
-  <p class="search-scope">Indexul conține titluri și categorii, nu textul integral al surselor. Tastează un termen sau alege un filtru rapid; categoria editorială poate fi combinată cu filtrele de mai sus.</p>
+  <p class="search-scope">Căutarea acoperă textul scris de noi — titlul și rezumatul fiecărei știri — nu textul integral al surselor. Rezultatele apar pe măsură ce tastezi și sunt ordonate după relevanță; nu completăm lista cu rezultate aproximative.</p>
+  <noscript>
+    <p class="search-scope">Căutarea rulează în browser, dintr-un index generat la publicare, deci are nevoie de JavaScript activat. Fără JavaScript poți naviga pe categorii din meniul de sus sau pe <a href="/sectiuni/">toate secțiunile</a>.</p>
+  </noscript>
   <p id="search-status" role="status" aria-live="polite" data-result-limit="50"></p>
   <ul id="search-results" class="search-results"></ul>
 </article>
-<script defer src="/static/search.js?v=5162f32c"></script>
+<script defer src="/static/search.js?v=28a7dd7c"></script>
   </main>
 
   <footer class="site-footer">
@@ -109,7 +122,20 @@
       <a href="/surse/">Surse & originalitate</a>
       <a href="/legal/takedown/">Drepturi de autor</a>
     </nav>
+    <div class="izz-alerte" id="izz-alerte" hidden>
+      <button class="izz-alerte-btn" id="izz-alerte-btn" type="button" aria-expanded="false" aria-controls="izz-alerte-panou">Alerte de ultimă oră</button>
+      <div class="izz-alerte-panou" id="izz-alerte-panou" hidden>
+        <p class="izz-alerte-text">Maximum <b>o alertă pe zi</b>, numai pentru știri de ultimă oră, scrise faptic. Fără îndemnuri, fără reclame, fără urmărire. Poți dezactiva oricând, din același loc.</p>
+        <button class="izz-alerte-actiune" id="izz-alerte-porneste" type="button">Activează alertele</button>
+        <button class="izz-alerte-actiune" id="izz-alerte-opreste" type="button" hidden>Dezactivează alertele</button>
+        <p class="izz-alerte-stare" id="izz-alerte-stare" role="status"></p>
+      </div>
+    </div>
   </footer>
+  <div class="izz-install" id="izz-install" hidden>
+    <button class="izz-install-btn" id="izz-install-btn" type="button" title="Adaugă IZZ.ro pe ecranul de pornire, ca să-l citești și fără net">Instalează aplicația</button>
+    <button class="izz-install-inchide" id="izz-install-inchide" type="button" aria-label="Nu acum" title="Nu acum">×</button>
+  </div>
   <button class="back-to-top" type="button" title="Sus" aria-label="Înapoi sus">↑</button>
 </body>
 </html>

@@ -7,7 +7,20 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
 /static/*
   Cache-Control: public, max-age=2592000, immutable
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
 /static/harta-stiri/*
+  ! Cache-Control
+  Cache-Control: public, max-age=300, must-revalidate
+/_pagefind/*
+  Cache-Control: public, max-age=300, must-revalidate
+/_pagefind/pagefind-entry.json
+  ! Cache-Control
+  Cache-Control: public, max-age=0, must-revalidate
+/_pagefind/pagefind.js
+  ! Cache-Control
+  Cache-Control: public, max-age=0, must-revalidate
+/search-index.json
   ! Cache-Control
   Cache-Control: public, max-age=300, must-revalidate
 /favicon.svg

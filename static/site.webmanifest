@@ -1,16 +1,27 @@
 {
-  "name": "izz.ro",
+  "name": "izz.ro — Informația Zero Zgomot",
   "short_name": "izz.ro",
   "description": "Știri sintetizate, fără duplicate, fără zgomot.",
   "lang": "ro",
+  "dir": "ltr",
+  "id": "/",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "categories": ["news", "magazines"],
   "background_color": "#f6f7f9",
   "theme_color": "#D6AD33",
+  "prefer_related_applications": false,
   "icons": [
-    { "src": "/static/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/static/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/static/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/static/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
     { "src": "/static/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Caută", "short_name": "Caută", "url": "/cauta/", "description": "Căutare în toate știrile publicate" },
+    { "name": "Ce urmează", "short_name": "Calendar", "url": "/calendar/", "description": "Calendarul evenimentelor care urmează în știri" },
+    { "name": "Harta știrilor", "short_name": "Hartă", "url": "/static/harta-stiri/", "description": "Acoperirea județeană, pe hartă" }
   ]
 }

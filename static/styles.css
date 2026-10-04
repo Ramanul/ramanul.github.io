@@ -497,16 +497,66 @@ picture { display: contents; }
    fond deschis la 100% ar stralui langa unul cu poza deja atenuata. */
 [data-theme="dark"] img, [data-theme="dark"] .art { opacity: .92; }
 
-/* buton toggle dark mode (in header) */
+/* ---- instalarea aplicatiei (PWA) ------------------------------------------------
+   BUTONUL E `position: fixed`, NU IN HEADER. Masurat 2026-08-02, emulare mobil 412 px:
+   varianta din antet era `hidden` in markup si aparea la `beforeinstallprompt`, impingand
+   <main> in jos cu 49 px; Lighthouse atribuia 100% din CLS (0.272) acestui element. Un
+   element scos din flux nu poate muta nimic, deci nu poate produce CLS.
+   Pozitia (jos-stanga, deasupra lui „inapoi sus" de la 21 px + 40 px) evita si suprapunerea
+   cu bara de consimtamant, care e lipita de marginea de jos. */
+.izz-install {
+  position: fixed; bottom: var(--s-89); left: var(--s-13); z-index: 41;
+  display: flex; align-items: stretch; gap: 1px;
+  max-width: calc(100vw - 2 * var(--s-13));
+  border-radius: 3px; box-shadow: 0 2px 8px rgba(21, 23, 28, .12);
+}
+/* Obligatoriu: `display: flex` de mai sus ar bate atributul `hidden`, iar butonul ar sta
+   pe ecran la toata lumea, nu doar la cei carora browserul le poate oferi instalarea. */
+.izz-install[hidden] { display: none; }
 .izz-install-btn {
   font-family: var(--font-mono); font-size: var(--fs-eyebrow); font-weight: 700;
   text-transform: uppercase; letter-spacing: 1px; cursor: pointer;
-  padding: 6px 13px; border-radius: 3px;
+  padding: 6px 13px; border-radius: 3px 0 0 3px;
   background: linear-gradient(135deg, #f0d585 0%, #fff3c4 18%, #d9ae3f 45%, #c9a227 70%, #b8862a 100%);
   color: var(--ink-fixed); border: 1px solid #b8862a;
   box-shadow: inset 0 1px 0 rgba(255,255,255,.4), inset 0 -1px 2px rgba(0,0,0,.12);
 }
 .izz-install-btn:hover { filter: brightness(1.05); }
+.izz-install-inchide {
+  background: var(--paper-2); color: var(--ink-3); cursor: pointer;
+  border: 1px solid var(--line-strong); border-left: none; border-radius: 0 3px 3px 0;
+  padding: 0 var(--s-8); font-size: var(--fs-md); line-height: 1;
+}
+.izz-install-inchide:hover { color: var(--ink); background: var(--paper); }
+
+/* ---- alerte de ultima ora (Web Push) --------------------------------------------
+   Blocul sta ULTIMUL in footer din acelasi motiv pentru care butonul de instalare e fix:
+   isi schimba dimensiunea la coada documentului, deci nu poate misca nimic din ce s-a
+   pictat deja. */
+.izz-alerte { margin-top: var(--s-21); font-family: var(--font-mono); font-size: var(--fs-xs); }
+.izz-alerte[hidden] { display: none; }
+.izz-alerte-btn {
+  font-family: inherit; font-size: inherit; cursor: pointer;
+  background: none; color: var(--ink-2);
+  border: 1px solid var(--line-strong); border-radius: 2px; padding: var(--s-5) var(--s-8);
+}
+.izz-alerte-btn:hover { border-color: var(--gold); color: var(--ink); }
+.izz-alerte-panou {
+  margin-top: var(--s-8); padding: var(--s-13); max-width: var(--measure);
+  background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius);
+}
+.izz-alerte-panou[hidden] { display: none; }
+.izz-alerte-text { margin: 0 0 var(--s-8); font-family: var(--font-text); color: var(--ink-2); }
+.izz-alerte-actiune {
+  font-family: var(--font-mono); font-size: var(--fs-xs); font-weight: 700; cursor: pointer;
+  background: var(--paper); color: var(--ink);
+  border: 1px solid var(--line-strong); border-radius: 2px;
+  padding: var(--s-5) var(--s-13); margin: 0 var(--s-8) 0 0;
+}
+.izz-alerte-actiune:hover { border-color: var(--gold); }
+.izz-alerte-actiune[hidden] { display: none; }
+.izz-alerte-stare { margin: var(--s-8) 0 0; color: var(--ink-3); }
+.izz-alerte-stare:empty { display: none; }
 
 .theme-toggle {
   background: none; border: 1px solid var(--line-strong); border-radius: 50%;
@@ -995,6 +1045,21 @@ picture { display: contents; }
 .search-results a { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-md); color: var(--ink); }
 .search-results a:hover { color: var(--gold-strong); }
 .search-meta { color: var(--ink-3); font-size: var(--fs-eyebrow); font-family: var(--font-mono); }
+/* Controalele de sub casuta de cautare (categorie + ordonare) stau pe un rand cat incape. */
+.search-controls {
+  display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-8);
+  max-width: var(--measure);
+}
+.search-sort { display: inline-flex; flex-wrap: wrap; gap: var(--s-5); }
+/* Termenii gasiti, marcati in titlu. `mark` vine din browser cu fond galben si text negru,
+   care in tema intunecata ar fi o pata: folosim spalarea aurie a temei, definita in ambele
+   variante, deci marcarea se inverseaza odata cu restul paginii. */
+.search-results mark {
+  background: var(--gold-wash); color: var(--ink);
+  padding: 0 .12em; border-radius: 2px;
+}
+/* Cat timp vine raspunsul, lista e deja goalita; o stingem ca sa nu para rezultat final. */
+#search-results[aria-busy="true"] { opacity: .45; }
 @media (max-width: 520px) {
   .search-quick-filters { gap: var(--s-5); }
   .search-quick-label { width: 100%; }
