@@ -5,7 +5,14 @@
   <atom:link href="https://izz.ro/subiect/windows-11/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Windows 11 pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 05 Oct 2026 07:21:53 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 16:19:29 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft a lansat oficial actualizarea Windows 11 26H2</title>
+      <link>https://izz.ro/tech/microsoft-a-lansat-oficial-actualizarea-windows-11-26h2/</link>
+      <guid>https://izz.ro/tech/microsoft-a-lansat-oficial-actualizarea-windows-11-26h2/</guid>
+      <pubDate>Mon, 05 Oct 2026 09:55:22 +0000</pubDate>
+      <description>Utilizatorii de PC-uri compatibile primesc treptat noul pachet de upgrade semestrial Windows 11 prin sistemul Windows Update, acesta aducând modificări importante interfeței din File Manager.</description>
+    </item>
     <item>
       <title>Microsoft testează instalarea automată de aplicații terțe în Windows 11</title>
       <link>https://izz.ro/tech/microsoft-testeaza-instalarea-automata-de-aplicatii-terte-in-windows-11/</link>
@@ -82,12 +89,5 @@
       <guid>https://izz.ro/tech/trecerea-la-interfata-cinnamon-imbunatateste-productivitatea-pe-ubuntu/</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:16 +0000</pubDate>
       <description>Utilizarea mediului grafic Cinnamon pe sistemul Ubuntu crește viteza de lucru și eficiența pe calculatoarele mai vechi, oferind o alternativă viabilă la Windows 11.</description>
-    </item>
-    <item>
-      <title>Actualizarea KB5124010 pentru Windows 11 provoacă blocări în jocul Battlefield 6</title>
-      <link>https://izz.ro/tech/actualizarea-kb5124010-pentru-windows-11-provoaca-blocari-in-jocul-battlefield-6/</link>
-      <guid>https://izz.ro/tech/actualizarea-kb5124010-pentru-windows-11-provoaca-blocari-in-jocul-battlefield-6/</guid>
-      <pubDate>Wed, 23 Sep 2026 08:08:05 +0000</pubDate>
-      <description>Cea mai recentă actualizare lansată de Microsoft pentru sistemul de operare Windows 11 generează probleme majore de compatibilitate și închideri forțate în mai multe jocuri pentru PC, printre care se numără și Battlefield 6.</description>
     </item>
 </channel></rss>

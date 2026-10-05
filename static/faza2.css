@@ -6,12 +6,19 @@
 }
 .puls-map { display: block; }
 .puls-map svg { display: block; width: 100%; height: auto; aspect-ratio: 1000 / 704; }
-.puls-map path { fill: var(--gold-wash); stroke: var(--paper); stroke-width: 1.2; transition: fill .2s ease; }
-.puls-map path.h0 { fill: var(--line); }
-.puls-map path.h2 { fill: color-mix(in srgb, var(--gold) 45%, var(--gold-wash)); }
-.puls-map path.h3 { fill: color-mix(in srgb, var(--gold) 78%, var(--gold-wash)); }
-.puls-map path.h4 { fill: var(--gold-strong); }
-.puls-map:hover path.h0, .puls-map:hover path.h1 { fill: var(--gold-wash); }
+/* Aceeasi rampa ca harta mare (`static/harta-stiri/harta-stiri.css`, --map-h0..h4):
+   sistemul vizual al stirilor trebuie sa fie UNUL, nu patru (diagnostic 4 oct 2026).
+   Valorile sunt copiate deliberat (pagina hărții e standalone si nu incarca foaia
+   site-ului), iar `tests/test_mini_harta.py` pica la prima divergență. */
+.puls-map path { stroke: var(--paper); stroke-width: 1.2; transition: fill .2s ease, stroke .2s ease; }
+.puls-map path.h0 { fill: #eaecf0; }
+.puls-map path.h1 { fill: #f2d090; }
+.puls-map path.h2 { fill: #d6bb6c; }
+.puls-map path.h3 { fill: #c9a227; }
+.puls-map path.h4 { fill: #a8841f; }
+/* Semnalul de link NU mai schimba umplerea: la hover, județele fara stiri deveneau aurii,
+   adica harta spunea pentru o clipa „aici sunt stiri" (o scara care minte la hover). */
+.puls-map:hover path { stroke: var(--gold-strong); stroke-width: 1.6; }
 .puls-caption {
   font-family: var(--font-mono); font-size: var(--fs-eyebrow);
   color: var(--ink-2); line-height: 1.6; margin: 0;
