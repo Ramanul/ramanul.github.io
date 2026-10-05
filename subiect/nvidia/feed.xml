@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
-  <title>NVIDIA — IZZ.ro</title>
+  <title>Nvidia — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre NVIDIA pe IZZ.ro</description>
+  <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 05 Oct 2026 16:19:29 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 22:57:25 +0000</lastBuildDate>
+    <item>
+      <title>Inginerii de la Groq dau în judecată Nvidia după un acord de 20 miliarde dolari</title>
+      <link>https://izz.ro/economic/inginerii-de-la-groq-dau-in-judecata-nvidia-dupa-un-acord-de-20-miliarde-dolari/</link>
+      <guid>https://izz.ro/economic/inginerii-de-la-groq-dau-in-judecata-nvidia-dupa-un-acord-de-20-miliarde-dolari/</guid>
+      <pubDate>Mon, 05 Oct 2026 20:56:00 +0000</pubDate>
+      <description>Doi foști ingineri ai startup-ului Groq au intentat un proces în Delaware, acuzând compania că i-a păgubit în cadrul tranzacției majore de 20 de miliarde de dolari încheiate cu gigantul Nvidia.</description>
+    </item>
+    <item>
+      <title>NVIDIA scumpește consola Shield TV Pro cu 100 de dolari după șapte ani</title>
+      <link>https://izz.ro/tech/nvidia-scumpeste-consola-shield-tv-pro-cu-100-de-dolari-dupa-sapte-ani/</link>
+      <guid>https://izz.ro/tech/nvidia-scumpeste-consola-shield-tv-pro-cu-100-de-dolari-dupa-sapte-ani/</guid>
+      <pubDate>Mon, 05 Oct 2026 08:32:49 +0000</pubDate>
+      <description>Din cauza crizei globale de memorie care a majorat costurile componentelor, compania NVIDIA a decis să scumpească neașteptat consola Shield TV Pro cu 100 de dolari, la șapte ani de la lansarea sa pe piață.</description>
+    </item>
     <item>
       <title>NVIDIA lansează sistemul DGX Spark de tip desktop pentru inteligență artificială</title>
       <link>https://izz.ro/ai/nvidia-lanseaza-sistemul-dgx-spark-de-tip-desktop-pentru-inteligenta-artificiala/</link>
@@ -138,12 +152,5 @@
       <guid>https://izz.ro/tech/nvidia-pregateste-o-noua-placa-video-pentru-anul-2027/</guid>
       <pubDate>Thu, 24 Sep 2026 08:34:49 +0000</pubDate>
       <description>Compania NVIDIA ar putea lansa o componentă grafică nouă în 2027 pentru a concura direct cu arhitectura RDNA 5 dezvoltată de divizia Radeon a celor de la AMD.</description>
-    </item>
-    <item>
-      <title>CEO-ul Nvidia estimează schimbări majore pentru programatorii juniori</title>
-      <link>https://izz.ro/ai/ceo-ul-nvidia-estimeaza-schimbari-majore-pentru-programatorii-juniori/</link>
-      <guid>https://izz.ro/ai/ceo-ul-nvidia-estimeaza-schimbari-majore-pentru-programatorii-juniori/</guid>
-      <pubDate>Wed, 23 Sep 2026 16:55:30 +0000</pubDate>
-      <description>Jensen Huang, directorul general Nvidia, a comentat prognozele conform cărora inteligența artificială va genera majoritatea codului software în următorii ani, respingând însă ideea că industria va renunța complet la inginerii software.</description>
     </item>
 </channel></rss>

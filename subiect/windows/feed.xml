@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/windows/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Windows pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 05 Oct 2026 16:19:29 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 05 Oct 2026 22:57:26 +0000</lastBuildDate>
     <item>
       <title>Un utilizator descoperă că folosește aplicații open-source create parțial de Microsoft</title>
       <link>https://izz.ro/tech/un-utilizator-descopera-ca-foloseste-aplicatii-open-source-create-partial-de/</link>
@@ -110,19 +110,5 @@
       <guid>https://izz.ro/tech/subsistemul-windows-pentru-linux-a-inlocuit-partitia-dedicata-ubuntu/</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:17 +0000</pubDate>
       <description>Un utilizator renunță la dual-boot pe calculatorul său cu Windows 11, folosind cu succes mediul Linux integrat prin WSL pentru toate aplicațiile și proiectele de dezvoltare.</description>
-    </item>
-    <item>
-      <title>O aplicație open-source gratuită depășește Windows Task Manager</title>
-      <link>https://izz.ro/tech/o-aplicatie-open-source-gratuita-depaseste-windows-task-manager/</link>
-      <guid>https://izz.ro/tech/o-aplicatie-open-source-gratuita-depaseste-windows-task-manager/</guid>
-      <pubDate>Wed, 23 Sep 2026 21:30:18 +0000</pubDate>
-      <description>Un instrument alternativ gratuit și cu sursă deschisă oferă funcționalități avansate față de clasicul Task Manager din Windows pentru monitorizarea resurselor sistemului și închiderea aplicațiilor blocate.</description>
-    </item>
-    <item>
-      <title>Aplicația Snipboard înlocuiește cu succes clipboardul nativ din sistemul Windows</title>
-      <link>https://izz.ro/tech/aplicatia-snipboard-inlocuieste-cu-succes-clipboardul-nativ-din-sistemul-windows/</link>
-      <guid>https://izz.ro/tech/aplicatia-snipboard-inlocuieste-cu-succes-clipboardul-nativ-din-sistemul-windows/</guid>
-      <pubDate>Wed, 23 Sep 2026 17:30:17 +0000</pubDate>
-      <description>Utilizatorii care caută o alternativă la istoricul clasic de clipboard din Windows pot folosi Snipboard, o soluție considerată mai eficientă pentru gestionarea datelor copiate.</description>
     </item>
 </channel></rss>
