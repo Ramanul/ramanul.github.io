@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -72,11 +78,35 @@
   <h1 class="section-title">Subiect: București</h1>
   <p class="follow"><a href="/subiect/bucuresti/feed.xml">Urmărește acest subiect (RSS) &rarr;</a></p>
   <p class="connections">Conexiuni:
-<a href="/subiect/romania/">România</a> · <a href="/subiect/ilfov/">Ilfov</a> · <a href="/subiect/brasov/">Brașov</a> · <a href="/subiect/termoenergetica/">Termoenergetica</a> · <a href="/subiect/ciprian-ciucu/">Ciprian Ciucu</a> · <a href="/subiect/calea-victoriei/">Calea Victoriei</a></p>
+<a href="/subiect/romania/">România</a> · <a href="/subiect/ilfov/">Ilfov</a> · <a href="/subiect/brasov/">Brașov</a> · <a href="/subiect/ciprian-ciucu/">Ciprian Ciucu</a> · <a href="/subiect/termoenergetica/">Termoenergetica</a> · <a href="/subiect/calea-victoriei/">Calea Victoriei</a></p>
   <ol class="timeline">
+    <li>
+      <time datetime="2026-10-06T09:57:00+00:00">6 octombrie 2026, 12:57</time>
+      <a href="/local/agenda-culturala-si-de-divertisment-din-bucuresti-pentru-miercuri/">Agenda culturală și de divertisment din București pentru miercuri</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:51:04+00:00">6 octombrie 2026, 12:51</time>
+      <a href="/local/opera-comica-pentru-copii-organizeaza-targul-vrajitoarelor-in-bucuresti/">Opera Comică pentru Copii organizează Târgul Vrăjitoarelor în București</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:46:06+00:00">6 octombrie 2026, 12:46</time>
+      <a href="/local/spitalul-coltea-din-capitala-va-fi-modernizat-printr-o-investitie-de-100/">Spitalul Colțea din Capitală va fi modernizat printr-o investiție de 100 milioane lei</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:42:02+00:00">6 octombrie 2026, 12:42</time>
+      <a href="/local/naste-din-berceni-revine-pe-scena-intr-un-restaurant-din-cartier/">Naste din Berceni revine pe scenă într-un restaurant din cartier</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T08:51:32+00:00">6 octombrie 2026, 11:51</time>
+      <a href="/cultura/mercedes-benz-bucharest-fashion-week-revine-cu-o-noua-editie-dedicata-artei-si/">Mercedes-Benz Bucharest Fashion Week revine cu o nouă ediție dedicată artei și modei</a>
+    </li>
     <li>
       <time datetime="2026-10-06T03:00:15+00:00">6 octombrie 2026, 06:00</time>
       <a href="/local/bucurestiul-concentreaza-aproape-60-din-totalul-investitiilor-straine-directe/">Bucureștiul concentrează aproape 60% din totalul investițiilor străine directe din România</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T02:15:00+00:00">6 octombrie 2026, 05:15</time>
+      <a href="/local/filmul-blaise-prezentat-in-competitia-oficiala-a-festivalului-animest/">Filmul Blaise prezentat în Competiția Oficială a Festivalului Animest</a>
     </li>
     <li>
       <time datetime="2026-10-06T02:00:39+00:00">6 octombrie 2026, 05:00</time>
@@ -843,6 +873,10 @@
       <a href="/local/firma-care-dezvolta-dynamic-residence-brasov-avea-sediul-in-ferentari/">Firma care dezvolta Dynamic Residence Brașov avea sediul în Ferentari</a>
     </li>
     <li>
+      <time datetime="2026-09-25T14:00:38+00:00">25 septembrie 2026, 17:00</time>
+      <a href="/sport/csm-stiinta-baia-mare-si-steaua-bucuresti-joaca-pentru-medalia-de-bronz/">CSM Știința Baia Mare și Steaua București joacă pentru medalia de bronz</a>
+    </li>
+    <li>
       <time datetime="2026-09-25T13:03:48+00:00">25 septembrie 2026, 16:03</time>
       <a href="/general/termoenergetica-incepe-lucrari-majore-de-modernizare-a-retelei-termice-in/">Termoenergetica începe lucrări majore de modernizare a rețelei termice în Capitală</a>
     </li>
@@ -925,34 +959,6 @@
     <li>
       <time datetime="2026-09-24T11:11:05+00:00">24 septembrie 2026, 14:11</time>
       <a href="/local/ryan-reynolds-vine-in-premiera-in-romania-la-impact-see26/">Ryan Reynolds vine în premieră în România la Impact SEE’26</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T10:08:54+00:00">24 septembrie 2026, 13:08</time>
-      <a href="/local/carrefour-organizeaza-un-targ-cu-produse-artizanale-in-bucuresti/">Carrefour organizează un târg cu produse artizanale în București</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T10:00:00+00:00">24 septembrie 2026, 13:00</time>
-      <a href="/local/deficit-grav-de-locuri-in-caminele-studentesti-din-cluj-napoca/">Deficit grav de locuri în căminele studențești din Cluj-Napoca</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:44:11+00:00">24 septembrie 2026, 12:44</time>
-      <a href="/local/groapa-de-gunoi-ilegala-pe-strada-grigore-moisil-din-bucuresti/">Groapă de gunoi ilegală pe strada Grigore Moisil din București</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:27:59+00:00">24 septembrie 2026, 12:27</time>
-      <a href="/local/un-parc-de-distractii-nickelodeon-se-va-construi-langa-cernica/">Un parc de distracții Nickelodeon se va construi lângă Cernica</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:21:23+00:00">24 septembrie 2026, 12:21</time>
-      <a href="/local/turistii-italieni-cer-recomandari-online-pentru-o-vacanta-reusita-in-bucuresti/">Turiștii italieni cer recomandări online pentru o vacanță reușită în București</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T07:30:23+00:00">24 septembrie 2026, 10:30</time>
-      <a href="/local/termoenergetica-demareaza-pregatirile-pentru-noul-sezon-rece-in-bucuresti/">Termoenergetica demarează pregătirile pentru noul sezon rece în București</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T04:57:07+00:00">24 septembrie 2026, 07:57</time>
-      <a href="/local/antreprenorul-tudor-iliescu-a-cumparat-cladirea-de-birouri-one-north-gate-din/">Antreprenorul Tudor Iliescu a cumpărat clădirea de birouri One North Gate din București</a>
     </li>
   </ol>
   </main>

@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern" class="active">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern" class="active">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,311 +82,311 @@
 </nav>
   <h1 class="section-title">Externe</h1>
   <section class="grid">
-<article class="card" data-cat="extern" data-source="G4Media" data-title="Astronauții misiunii Artemis II devin membri emeriti ai agenției spațiale NASA"><a class="card-media" href="/extern/astronautii-misiunii-artemis-ii-devin-membri-emeriti-ai-agentiei-spatiale-nasa/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/victor-glover.jpg" alt="Victor Glover" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/astronautii-misiunii-artemis-ii-devin-membri-emeriti-ai-agentiei-spatiale-nasa/">Astronauții misiunii Artemis II devin membri emeriti ai agenției spațiale NASA</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T16:30:07+00:00">26 septembrie 2026, 19:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Victor Glover și Reid Wiseman primesc statutul de emerit la NASA după misiunea orbitală lunară, urmând să ofere în continuare consultanță tehnică pentru viitoarele programe de explorare a Lunii.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.g4media.ro/astronautii-artemis-ii-victor-glover-si-reid-wiseman-trec-la-statutul-de-emerit-in-cadrul-nasa-dupa-calatoria-istorica-in-jurul-lunii.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Spotmedia" data-title="Ucraina vrea să mute controalele de frontieră în țările vecine"><a class="card-media" href="/extern/ucraina-vrea-sa-mute-controalele-de-frontiera-in-tarile-vecine/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
+<article class="card" data-cat="extern" data-source="Adevărul" data-title="O sectă medievală violentă a terorizat populația din Orientul Mijlociu"><a class="card-media" href="/extern/o-secta-medievala-violenta-a-terorizat-populatia-din-orientul-mijlociu/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/ucraina-vrea-sa-mute-controalele-de-frontiera-in-tarile-vecine/">Ucraina vrea să mute controalele de frontieră în țările vecine</a></h2>
+  <h2 class="card-title"><a href="/extern/o-secta-medievala-violenta-a-terorizat-populatia-din-orientul-mijlociu/">O sectă medievală violentă a terorizat populația din Orientul Mijlociu</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T16:30:04+00:00">26 septembrie 2026, 19:30</time>
+    <time datetime="2026-09-26T23:00:26+00:00">27 septembrie 2026, 02:00</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Kievul poartă discuții oficiale cu statele limitrofe, precum Polonia, pentru relocarea vameșilor pe teritoriu străin dacă atacurile rusești amenință punctele vamale.</p>
+  <p class="summary">Istoria consemnează o grupare radicală și temută din Evul Mediu care practica canibalismul și refuza orice formă de proprietate, provocând spaimă atât în rândul creștinilor, cât și al musulmanilor.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://spotmedia.ro/stiri/eveniment/ucraina-discuta-cu-vecinii-mutarea-controalelor-de-frontiera-pe-teritoriul-lor" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
+<a href="https://adevarul.ro/stil-de-viata/magazin/secta-de-fanatici-care-a-terorizat-orientul-2559454.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Rusia folosește moaștele unui cneaz medieval pentru a ridica moralul soldaților"><a class="card-media" href="/extern/rusia-foloseste-moastele-unui-cneaz-medieval-pentru-a-ridica-moralul-soldatilor/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="extern" data-source="Ziarul Financiar" data-title="Patru morți într-un accident aviatic produs lângă Montreal"><a class="card-media" href="/extern/patru-morti-intr-un-accident-aviatic-produs-langa-montreal/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/rusia-foloseste-moastele-unui-cneaz-medieval-pentru-a-ridica-moralul-soldatilor/">Rusia folosește moaștele unui cneaz medieval pentru a ridica moralul soldaților</a></h2>
+  <h2 class="card-title"><a href="/extern/patru-morti-intr-un-accident-aviatic-produs-langa-montreal/">Patru morți într-un accident aviatic produs lângă Montreal</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T16:23:00+00:00">26 septembrie 2026, 19:23</time>
+    <time datetime="2026-09-26T22:35:42+00:00">27 septembrie 2026, 01:35</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Comandamentele militare ruse au trimis pe frontul din estul Ucrainei rămășițele pământești ale unui prinț medieval, sperând ca acest gest simbolic să îmbunătățească rezistența trupelor în timpul iernii.</p>
+  <p class="summary">Un elicopter s-a prăbușit în apropierea orașului canadian Montreal din cauza unor defecțiuni tehnice majore, tragedie în urma căreia toate cele patru persoane aflate la bord și-au pierdut viața.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/externe/putin-trimite-pe-front-mana-cu-sabia-moastele-unui-cneaz-mort-acum-600-de-ani-folosite-pentru-moralul-soldatilor-rusi-804726.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
+<a href="https://www.zf.ro/auxiliar/patru-persoane-au-murit-dupa-ce-un-elicopter-s-a-prabusit-in-urma-unor-probleme-tehnice-23247514" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="HotNews" data-title="Întrevedere secretă la ONU între ministrul rus de Externe și un oficial german"><a class="card-media" href="/extern/intrevedere-secreta-la-onu-intre-ministrul-rus-de-externe-si-un-oficial-german/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card" data-cat="extern" data-source="Spotmedia" data-title="António Guterres a chestionat exercitarea puterii globale la ONU"><a class="card-media" href="/extern/antonio-guterres-a-chestionat-exercitarea-puterii-globale-la-onu/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0 art--portret" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/antonio-guterres.jpg" alt="Antonio Guterres" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/antonio-guterres-a-chestionat-exercitarea-puterii-globale-la-onu/">António Guterres a chestionat exercitarea puterii globale la ONU</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T21:08:00+00:00">27 septembrie 2026, 00:08</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">În cadrul Adunării Generale a ONU, secretarul general António Guterres a adus în discuție modul în care este administrată puterea mondială în contextul crizelor actuale legate de climă și conflicte.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://spotmedia.ro/stiri/opinii-si-analize/cine-detine-puterea-in-lume-si-cum-o-foloseste" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Egiptul ar putea contribui la securizarea transportului de cereale prin Marea Neagră"><a class="card-media" href="/extern/egiptul-ar-putea-contribui-la-securizarea-transportului-de-cereale-prin-marea/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/intrevedere-secreta-la-onu-intre-ministrul-rus-de-externe-si-un-oficial-german/">Întrevedere secretă la ONU între ministrul rus de Externe și un oficial german</a></h2>
+  <h2 class="card-title"><a href="/extern/egiptul-ar-putea-contribui-la-securizarea-transportului-de-cereale-prin-marea/">Egiptul ar putea contribui la securizarea transportului de cereale prin Marea Neagră</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T16:14:59+00:00">26 septembrie 2026, 19:14</time>
+    <time datetime="2026-09-26T20:57:00+00:00">26 septembrie 2026, 23:57</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Serghei Lavrov s-a întâlnit cu omologul său din Germania la sediul Organizației Națiunilor Unite, aceasta fiind prima discuție oficială bilaterală la nivel înalt de la debutul conflictului din Ucraina.</p>
+  <p class="summary">Statul african cu cea mai puternică armată a fost inclus pe lista guvernelor care propun soluții pentru reluarea comerțului maritim de cereale, alături de Turcia și India, în contextul războiului din Ucraina.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/ministru-din-ue-discutie-cu-lavrov-cu-usile-inchise-ce-spune-zaharova-despre-intalnirea-de-la-onu-2358953" target="_blank" rel="noopener noreferrer">HotNews</a></p>
+<a href="https://www.antena3.ro/externe/tara-cu-cea-mai-puternica-armata-din-africa-s-ar-putea-alatura-turciei-si-indiei-pentru-a-asigura-trecerea-cerealelor-prin-marea-neagra-804749.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Administrația SUA accesează fondurile pentru Ucraina înainte de termen"><a class="card-media" href="/extern/administratia-sua-acceseaza-fondurile-pentru-ucraina-inainte-de-termen/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Cel puțin 16 mori în urma atacurilor dintre Rusia și Ucraina"><a class="card-media" href="/extern/cel-putin-16-mori-in-urma-atacurilor-dintre-rusia-si-ucraina/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
   <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/cel-putin-16-mori-in-urma-atacurilor-dintre-rusia-si-ucraina/">Cel puțin 16 mori în urma atacurilor dintre Rusia și Ucraina</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T20:46:05+00:00">26 septembrie 2026, 23:46</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Schimburile intense de rachete și drone dintre Rusia și Ucraina au provocat cel puțin 16 decese în ultimele 24 de ore. Organizația Națiunilor Unite a tras un semnal de alarmă privind creșterea victimelor civile.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/stiri/externe/rusia/totul-arde-val-de-atacuri-aeriene-intre-rusia-si-ucraina-cel-putin-16-oameni-au-murit-avertisment-din-partea-onu-3966119" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="G4Media" data-title="Satul vietnamez Vịnh Mốc a supraviețuit bombardamentelor în subteran"><a class="card-media" href="/extern/satul-vietnamez-vinh-moc-a-supravietuit-bombardamentelor-in-subteran/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/satul-vietnamez-vinh-moc-a-supravietuit-bombardamentelor-in-subteran/">Satul vietnamez Vịnh Mốc a supraviețuit bombardamentelor în subteran</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T19:57:13+00:00">26 septembrie 2026, 22:57</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Locuitorii unei așezări pescărești au construit un sistem ingenios de tuneluri unde sute de oameni au trăit ani de zile în timpul conflictului armat, feriți de explozibili.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.g4media.ro/cum-au-supravietuit-in-razboi-locuitorii-dintr-un-mic-sat-pescaresc-din-vietnam-unul-dintre-cele-mai-bombardate-locuri-de-pe-planeta.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="BBC Europe" data-title="Papa a condus o slujbă în aer liber la Paris în fața a 700.000 de tineri"><a class="card-media" href="/extern/papa-a-condus-o-slujba-in-aer-liber-la-paris-in-fata-a-700-000-de-tineri/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/papa-a-condus-o-slujba-in-aer-liber-la-paris-in-fata-a-700-000-de-tineri/">Papa a condus o slujbă în aer liber la Paris în fața a 700.000 de tineri</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T19:48:06+00:00">26 septembrie 2026, 22:48</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Suveranul Pontif s-a adresat mulțimii adunate în centrul capitalei Franței, lăudând energia și implicarea noilor generații în viața religioasă și socială.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">BBC Europe</a></p>
+</article>
+<article class="card card-c" data-cat="extern" data-source="Profit.ro" data-title="Acord SUA-China privind tarifele vamale și inteligența artificială"><a class="card-media" href="/extern/acord-sua-china-privind-tarifele-vamale-si-inteligenta-artificiala/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/donald-trump.jpg" alt="Donald Trump" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge c">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/extern/acord-sua-china-privind-tarifele-vamale-si-inteligenta-artificiala/">Acord SUA-China privind tarifele vamale și inteligența artificială</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T19:38:00+00:00">26 septembrie 2026, 22:38</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Statele Unite și China au convenit reducerea reciprocă a tarifelor vamale cu 30 de miliarde de dolari și inițierea unui dialog privind inteligența artificială, în urma vizitei președintelui Xi Jinping la Washington și a negocierilor bilaterale.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://www.profit.ro/stiri/politic/acord-sua-china-de-reducere-reciproca-a-tarifelor-si-dialog-pe-ai-dupa-vizita-lui-xi-jinping-la-washington-22787096?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a>, <a href="https://www.economica.net/sua-si-china-au-convenit-asupra-reducerii-reciproce-a-tarifelor-cu-30-de-miliarde-de-dolari-si-deschiderea-dialogului-privind-ai_980219.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Serghei Lavrov afirmă la ONU că Rusia își va atinge obiectivele în Ucraina"><a class="card-media" href="/extern/serghei-lavrov-afirma-la-onu-ca-rusia-isi-va-atinge-obiectivele-in-ucraina/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/serghei-lavrov-afirma-la-onu-ca-rusia-isi-va-atinge-obiectivele-in-ucraina/">Serghei Lavrov afirmă la ONU că Rusia își va atinge obiectivele în Ucraina</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T19:13:12+00:00">26 septembrie 2026, 22:13</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Ministrul rus de Externe, Serghei Lavrov, a acuzat statele europene că încearcă să blocheze negocierile de pace pentru Ucraina și a reiterat, de la tribuna ONU, că Moscova își va duce la bun sfârșit planurile militare.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/stiri/externe/mapamond/serghei-lavrov-ataca-europa-de-la-tribuna-onu-rusia-isi-va-atinge-obiectivele-in-ucraina-indiferent-de-circumstante-3966067" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Proteste de amploare în Franța pentru măsuri climatice urgente după temperaturi record"><a class="card-media" href="/extern/proteste-de-amploare-in-franta-pentru-masuri-climatice-urgente-dupa-temperaturi/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/proteste-de-amploare-in-franta-pentru-masuri-climatice-urgente-dupa-temperaturi/">Proteste de amploare în Franța pentru măsuri climatice urgente după temperaturi record</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T19:12:00+00:00">26 septembrie 2026, 22:12</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Mii de cetățeni francezi au protestat pe străzile din întreaga țară, cerând autorităților acțiuni imediate împotriva schimbărilor climatice, pe fondul unei veri marcate de caniculă extremă și incendii forestiere.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.antena3.ro/externe/mii-de-oameni-au-iesit-pe-strazi-in-intreaga-franta-pentru-a-cere-masuri-urgente-privind-clima-dupa-o-vara-cu-temperaturi-record-804743.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="BZI Iași" data-title="Statele Unite și China convin asupra unei relații bazate pe stabilitate strategică"><a class="card-media" href="/extern/statele-unite-si-china-convin-asupra-unei-relatii-bazate-pe-stabilitate/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0 art--portret" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/donald-trump.jpg" alt="Donald Trump" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/statele-unite-si-china-convin-asupra-unei-relatii-bazate-pe-stabilitate/">Statele Unite și China convin asupra unei relații bazate pe stabilitate strategică</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T19:00:10+00:00">26 septembrie 2026, 22:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Președintele american Donald Trump și omologul său chinez Xi Jinping au stabilit la Washington direcții comune pentru cooperare comercială, inteligență artificială, securitate și gestionarea tensiunilor legate de Taiwan.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.bzi.ro/decizia-finala-luata-de-sua-si-china-dupa-intalnirea-dintre-donald-trump-si-xi-jinping-5611953" target="_blank" rel="noopener noreferrer">BZI Iași</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="HotNews" data-title="Donald Trump exclude o intervenție militară și anticipează un acord cu Cuba"><a class="card-media" href="/extern/donald-trump-exclude-o-interventie-militara-si-anticipeaza-un-acord-cu-cuba/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0 art--portret" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/donald-trump.jpg" alt="Donald Trump" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/administratia-sua-acceseaza-fondurile-pentru-ucraina-inainte-de-termen/">Administrația SUA accesează fondurile pentru Ucraina înainte de termen</a></h2>
+  <h2 class="card-title"><a href="/extern/donald-trump-exclude-o-interventie-militara-si-anticipeaza-un-acord-cu-cuba/">Donald Trump exclude o intervenție militară și anticipează un acord cu Cuba</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T16:01:54+00:00">26 septembrie 2026, 19:01</time>
+    <time datetime="2026-09-26T18:47:00+00:00">26 septembrie 2026, 21:47</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Casa Albă intenționează să contracteze până la sfârșitul lunii septembrie fondurile de 400 de milioane de dolari aprobate pentru sprijinul militar al Ucrainei, exceptând rachetele Patriot.</p>
+  <p class="summary">Președintele american Donald Trump a declarat la Casa Albă că SUA și Cuba vor reuși să ajungă la o înțelegere diplomatică, menționând că o operațiune militară nu va fi necesară pentru rezolvarea situației.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digi24.ro/stiri/externe/sua/administratia-trump-se-grabeste-sa-salveze-ajutorul-militar-pentru-ucraina-ce-se-intampla-cu-cele-400-de-milioane-de-dolari-3965927" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+<a href="https://hotnews.ro/dupa-dezvaluirea-unor-planuri-de-interventie-militara-trump-prezice-ca-sua-si-cuba-vor-ajunge-la-un-acord-nu-cred-ca-vom-avea-nevoie-de-armata-2359037" target="_blank" rel="noopener noreferrer">HotNews</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Spotmedia" data-title="Șeful serviciilor egiptene ar fi avertizat Israelul înainte de atacul Hamas"><a class="card-media" href="/extern/seful-serviciilor-egiptene-ar-fi-avertizat-israelul-inainte-de-atacul-hamas/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="O mare rafinărie din Rusia și-a oprit activitatea în urma unui incendiu provocat de drone"><a class="card-media" href="/extern/o-mare-rafinarie-din-rusia-si-a-oprit-activitatea-in-urma-unui-incendiu/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/o-mare-rafinarie-din-rusia-si-a-oprit-activitatea-in-urma-unui-incendiu/">O mare rafinărie din Rusia și-a oprit activitatea în urma unui incendiu provocat de drone</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T18:19:46+00:00">26 septembrie 2026, 21:19</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">O importantă rafinărie de petrol din sudul Rusiei a fost lovită de drone ucrainene, incidentul generând un incendiu puternic și forțând conducerea să suspende complet operațiunile industriale.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/stiri/externe/rusia/una-dintre-cele-mai-mari-rafinarii-din-rusia-isi-intrerupe-activitatea-dupa-ce-drone-ucrainene-au-provocat-un-incendiu-masiv-3966013" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+</article>
+<article class="card card-c" data-cat="extern" data-source="Știrile ProTV" data-title="Proteste masive în Germania împotriva reducerii beneficiilor sociale"><a class="card-media" href="/extern/proteste-masive-in-germania-impotriva-reducerii-beneficiilor-sociale/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge c">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/extern/proteste-masive-in-germania-impotriva-reducerii-beneficiilor-sociale/">Proteste masive în Germania împotriva reducerii beneficiilor sociale</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T18:18:08+00:00">26 septembrie 2026, 21:18</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Aproximativ 175.000 de persoane au participat sâmbătă la manifestații în 15 orașe din Germania, organizate de sindicate. Protestatarii au cerut menținerea unui stat social puternic și au contestat planurile de reformă ale coaliției conduse de cancelarul Friedrich Merz privind pensiile, programul de lucru și beneficiile sociale.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://stirileprotv.ro/stiri/international/proteste-de-amploare-in-germania-fata-de-reducerile-beneficiilor-sociale-175-000-de-oameni-au-iesit-in-strada-foto.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a>, <a href="https://www.digi24.ro/stiri/externe/ue/proteste-masive-in-germania-fata-de-reducerea-beneficiilor-sociale-175-000-de-oameni-au-iesit-in-strada-3966033" target="_blank" rel="noopener noreferrer">Digi24 Extern</a>, <a href="https://www.economica.net/germania-proteste-masive-impotriva-reducerilor-beneficiilor-sociale_980217.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Extinderea aeroportului Heathrow ar putea întârzia patru ani"><a class="card-media" href="/extern/extinderea-aeroportului-heathrow-ar-putea-intarzia-patru-ani/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/seful-serviciilor-egiptene-ar-fi-avertizat-israelul-inainte-de-atacul-hamas/">Șeful serviciilor egiptene ar fi avertizat Israelul înainte de atacul Hamas</a></h2>
+  <h2 class="card-title"><a href="/extern/extinderea-aeroportului-heathrow-ar-putea-intarzia-patru-ani/">Extinderea aeroportului Heathrow ar putea întârzia patru ani</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T15:58:06+00:00">26 septembrie 2026, 18:58</time>
+    <time datetime="2026-09-26T18:14:42+00:00">26 septembrie 2026, 21:14</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">O anchetă jurnalistică arată că Abbas Kamel a mers în Israel cu unsprezece zile înainte de ofensiva din 7 octombrie pentru a semnala iminența unui atac major.</p>
+  <p class="summary">Aeroportul Heathrow avertizează că proiectul noii piste în valoare de 33 de miliarde de lire sterline riscă să depășească termenul limită din 2035 din cauza obstacolelor administrative și de reglementare.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://spotmedia.ro/stiri/eveniment/ancheta-the-atlantic-seful-serviciilor-secrete-egiptene-a-mers-in-israel-si-i-a-avertizat-inainte-de-atacul-hamas-din-7-octombrie" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
+<a href="https://www.digi24.ro/stiri/externe/ue/de-ce-se-complica-extinderea-celui-mai-aglomerat-aeroport-din-marea-britanie-si-cand-ar-putea-fi-construita-a-treia-pista-la-heathrow-3966007" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="BBC Europe" data-title="Un oraș din Germania a interzis plăcile memoriale pentru victimele naziste"><a class="card-media" href="/extern/un-oras-din-germania-a-interzis-placile-memoriale-pentru-victimele-naziste/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/un-oras-din-germania-a-interzis-placile-memoriale-pentru-victimele-naziste/">Un oraș din Germania a interzis plăcile memoriale pentru victimele naziste</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T15:48:51+00:00">26 septembrie 2026, 18:48</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Ministrul german al Educației a condamnat decizia locală de a interzice montarea pietrelor memoriale din alamă dedicate victimelor regimului nazist.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.bbc.co.uk/news/articles/cqm2mm4y5dkko?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">BBC Europe</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="HotNews" data-title="Rămășițele prințului Dmitri Donskoi au fost trimise pe frontul din Ucraina"><a class="card-media" href="/extern/ramasitele-printului-dmitri-donskoi-au-fost-trimise-pe-frontul-din-ucraina/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0 art--portret" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/dmitri-donskoi.jpg" alt="Dmitri Donskoi" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/ramasitele-printului-dmitri-donskoi-au-fost-trimise-pe-frontul-din-ucraina/">Rămășițele prințului Dmitri Donskoi au fost trimise pe frontul din Ucraina</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T15:48:47+00:00">26 septembrie 2026, 18:48</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Trupele rusești care luptă în estul Ucrainei au primit ca suport moral un fragment din osemintele lui Dmitri Donskoi, un cneaz și lider militar rus din urmă cu peste 600 de ani.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/putin-trimite-pe-frontul-din-ucraina-moastele-unui-print-razboinic-mort-in-urma-cu-peste-600-de-ani-2358943" target="_blank" rel="noopener noreferrer">HotNews</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Adevărul" data-title="Papa Leon al XIV-lea a oficiat o liturghie masivă la Paris"><a class="card-media" href="/extern/papa-leon-al-xiv-lea-a-oficiat-o-liturghie-masiva-la-paris/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/papa-leon-al-xiv-lea-a-oficiat-o-liturghie-masiva-la-paris/">Papa Leon al XIV-lea a oficiat o liturghie masivă la Paris</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T15:37:36+00:00">26 septembrie 2026, 18:37</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Sute de mii de credincioși l-au întâmpinat pe Papa Leon al XIV-lea pe bulevardul Champs-Élysées. Suveranul Pontif s-a îndreptat spre Place de la Concorde, unde a susținut o slujbă religioasă de amploare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://adevarul.ro/stiri-externe/europa/papa-leon-intampinat-de-sute-de-mii-de-oameni-pe-2560033.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
-</article>
-<article class="card card-c" data-cat="extern" data-source="Digi24 Extern" data-title="Trafic feroviar grav perturbat în Germania după furtul unor cabluri"><a class="card-media" href="/extern/trafic-feroviar-grav-perturbat-in-germania-dupa-furtul-unor-cabluri/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge c">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/extern/trafic-feroviar-grav-perturbat-in-germania-dupa-furtul-unor-cabluri/">Trafic feroviar grav perturbat în Germania după furtul unor cabluri</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T15:02:05+00:00">26 septembrie 2026, 18:02</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Circulația trenurilor a fost puternic afectată în vestul Germaniei, în zona orașului Gelsenkirchen, după ce persoane neidentificate au secționat și sustras cabluri de infrastructură. Incidentul a perturbat traseul a aproximativ 300 de garnituri feroviare.</p>
-  <p class="sources-inline"><b>Surse:</b>
-<a href="https://www.digi24.ro/stiri/externe/ue/traficul-feroviar-grav-perturbat-in-germania-300-de-trenuri-afectate-dupa-ce-persoane-neidentificate-au-sectionat-si-sustras-cabluri-3965889" target="_blank" rel="noopener noreferrer">Digi24 Extern</a>, <a href="https://www.antena3.ro/externe/traficul-feroviar-grav-perturbat-in-germania-300-de-trenuri-afectate-dupa-ce-mai-multe-persoane-au-sectionat-si-sustras-cabluri-804730.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card card-c" data-cat="extern" data-source="HotNews" data-title="Prințul Harry a vorbit despre revenirea în Marea Britanie"><a class="card-media" href="/extern/printul-harry-a-vorbit-despre-revenirea-in-marea-britanie/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge c">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/extern/printul-harry-a-vorbit-despre-revenirea-in-marea-britanie/">Prințul Harry a vorbit despre revenirea în Marea Britanie</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T14:35:01+00:00">26 septembrie 2026, 17:35</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Prințul Harry a declarat că se simte minunat să revină în Marea Britanie după șase ani petrecuți în California. Duce de Sussex, acesta a menționat că cei doi copii sunt fericiți la noua școală și că vizita îi permite să se concentreze asupra Jocurilor Invictus de anul viitor de la Birmingham. Familia s-a stabilit temporar într-o proprietate privată din Cotswolds, în timp ce nivelul de protecție polițienească este reevaluat.</p>
-  <p class="sources-inline"><b>Surse:</b>
-<a href="https://hotnews.ro/printul-harry-a-vorbit-in-premiera-despre-revenirea-in-marea-britanie-sunt-multe-motive-unde-locuieste-acum-cu-familia-sa-2358897" target="_blank" rel="noopener noreferrer">HotNews</a>, <a href="https://www.digi24.ro/stiri/externe/ue/printul-harry-primele-declaratii-dupa-revenirea-in-marea-britanie-ce-spune-ducele-de-sussex-despre-noua-viata-a-familiei-sale-3965897" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="HotNews" data-title="Guvernul din Irak solicită Statelor Unite o excepție de la sancțiunile privind zborurile spre Iran"><a class="card-media" href="/extern/guvernul-din-irak-solicita-statelor-unite-o-exceptie-de-la-sanctiunile-privind/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Rusia își intensifică operațiunile ostile și sabotajele în Europa, stârnind îngrijorarea statelor NATO"><a class="card-media" href="/extern/rusia-isi-intensifica-operatiunile-ostile-si-sabotajele-in-europa-starnind/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
   <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/guvernul-din-irak-solicita-statelor-unite-o-exceptie-de-la-sanctiunile-privind/">Guvernul din Irak solicită Statelor Unite o excepție de la sancțiunile privind zborurile spre Iran</a></h2>
+  <h2 class="card-title"><a href="/extern/rusia-isi-intensifica-operatiunile-ostile-si-sabotajele-in-europa-starnind/">Rusia își intensifică operațiunile ostile și sabotajele în Europa, stârnind îngrijorarea statelor NATO</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T14:28:05+00:00">26 septembrie 2026, 17:28</time>
+    <time datetime="2026-09-26T18:10:23+00:00">26 septembrie 2026, 21:10</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Autoritățile irakiene negociază cu Washingtonul pentru a ridica interdicțiile impuse companiilor aeriene. Sancțiunile afectează grav deplasările studenților, ale pacienților și ale pelerinilor între cele două state.</p>
+  <p class="summary">Liderii europeni cer măsuri ferme de descurajare, după ce Germania și Danemarca au acuzat Moscova de atacuri cu drone și incidente armate periculoase în apropierea frontierelor alianței.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/irakul-cere-sua-o-exceptie-de-la-sanctiunile-privind-zborurile-catre-iranul-sunt-afectati-pacientii-studentii-pelerinii-2358903" target="_blank" rel="noopener noreferrer">HotNews</a></p>
+<a href="https://www.digi24.ro/stiri/externe/rusia/nu-mai-e-o-situatie-hibrida-rusia-isi-intensifica-operatiunile-in-europa-de-la-drone-cu-explozibili-la-nave-de-razboi-si-sabotaje-3965995" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Economica" data-title="Irakul cere SUA o excepție de la sancțiunile pentru companiile aeriene"><a class="card-media" href="/extern/irakul-cere-sua-o-exceptie-de-la-sanctiunile-pentru-companiile-aeriene/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/irakul-cere-sua-o-exceptie-de-la-sanctiunile-pentru-companiile-aeriene/">Irakul cere SUA o excepție de la sancțiunile pentru companiile aeriene</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T13:16:06+00:00">26 septembrie 2026, 16:16</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Guvernul irakian negociază cu oficialii americani exceptarea aeroporturilor interne, precum cel din Najaf, de la noile interdicții aplicate transportatorilor aerieni iranieni, invocând motive de natură umanitară și logistică.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.economica.net/irakul-cere-administratiei-trump-o-exceptie-de-la-interdictia-care-vizeaza-companiile-aeriene-iraniene-bagdadul-invoca-motive-umanitare_980197.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Tensiuni diplomatice între Ucraina și Ungaria la summitul Carpathian Eight de la Kiev"><a class="card-media" href="/extern/tensiuni-diplomatice-intre-ucraina-si-ungaria-la-summitul-carpathian-eight-de/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card card-c" data-cat="extern" data-source="Observator" data-title="Ministrul rus de Externe Serghei Lavrov a acuzat Europa de blocarea negocierilor de pace"><a class="card-media" href="/extern/rusia-acuza-europa-ca-incearca-sa-zadarniceasca-negocierile-de-pace-in-ucraina/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/tensiuni-diplomatice-intre-ucraina-si-ungaria-la-summitul-carpathian-eight-de/">Tensiuni diplomatice între Ucraina și Ungaria la summitul Carpathian Eight de la Kiev</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T13:12:00+00:00">26 septembrie 2026, 16:12</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">O nouă dispută politică a izbucnit între autoritățile de la Kiev și Budapesta pe marginea participării Ungariei la summitul regional și a unui acord petrolier secret.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/externe/culisele-summit-ului-de-la-kiev-la-care-a-fost-si-nicusor-dan-de-ce-este-iar-scandal-intre-ucraina-si-ungaria-804718.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card card-c" data-cat="extern" data-source="Știrile ProTV" data-title="Mii de manifestanți la Madrid cer alegeri anticipate în urma crizei migranților din Ceuta"><a class="card-media" href="/extern/mii-de-manifestanti-au-protestat-la-madrid-cerand-alegeri-anticipate-din-cauza/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge c">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/extern/mii-de-manifestanti-au-protestat-la-madrid-cerand-alegeri-anticipate-din-cauza/">Mii de manifestanți la Madrid cer alegeri anticipate în urma crizei migranților din Ceuta</a></h2>
+  <h2 class="card-title"><a href="/extern/rusia-acuza-europa-ca-incearca-sa-zadarniceasca-negocierile-de-pace-in-ucraina/">Ministrul rus de Externe Serghei Lavrov a acuzat Europa de blocarea negocierilor de pace</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T13:07:05+00:00">26 septembrie 2026, 16:07</time>
+    <time datetime="2026-09-26T17:50:00+00:00">26 septembrie 2026, 20:50</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Mii de cetățeni au participat la un protest înăuntrul capitalei Spaniei, Madrid, pentru a contesta gestionarea valului de migranți din enclava Ceuta de către guvernul central. Manifestanții au cerut organizarea de alegeri generale anticipate și și-au manifestat sprijinul pentru populația din orașul autonom.</p>
+  <p class="summary">În cadrul unei intervenții la ONU, ministrul rus de Externe Serghei Lavrov a criticat statele europene, acuzându-le că se opun eforturilor de pace în Ucraina și că sprijină militar Kievul, poziție care ar contrasta cu abordarea Statelor Unite.</p>
   <p class="sources-inline"><b>Surse:</b>
-<a href="https://stirileprotv.ro/stiri/international/mii-de-oameni-au-protestat-la-madrid-din-cauza-crizei-din-ceuta-manifestantii-cer-alegeri-legislative-anticipate-foto.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a>, <a href="https://adevarul.ro/stiri-externe/europa/mii-de-oameni-au-iesit-in-strada-la-madrid-din-2560038.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+<a href="https://observatornews.ro/extern/rusia-acuza-europa-ca-face-totul-pentru-a-zadarnici-planurile-de-pace-in-ucraina-667341.html" target="_blank" rel="noopener noreferrer">Observator</a>, <a href="https://hotnews.ro/de-la-tribuna-onu-rusia-acuza-europa-ca-face-totul-pentru-a-zadarnici-planurile-de-pace-in-ucraina-2359011" target="_blank" rel="noopener noreferrer">HotNews</a>, <a href="https://www.g4media.ro/rusia-invadatoare-acuza-europa-ca-zadarniceste-negocierile-de-pace-pentru-ucraina.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Informații secrete ignorate privind un atac Hamas asupra Israelului"><a class="card-media" href="/extern/informatii-secrete-ignorate-privind-un-atac-hamas-asupra-israelului/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="extern" data-source="Spotmedia" data-title="Germania a reluat dialogul diplomatic direct cu Rusia la sediul ONU"><a class="card-media" href="/extern/germania-a-reluat-dialogul-diplomatic-direct-cu-rusia-la-sediul-onu/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/informatii-secrete-ignorate-privind-un-atac-hamas-asupra-israelului/">Informații secrete ignorate privind un atac Hamas asupra Israelului</a></h2>
+  <h2 class="card-title"><a href="/extern/germania-a-reluat-dialogul-diplomatic-direct-cu-rusia-la-sediul-onu/">Germania a reluat dialogul diplomatic direct cu Rusia la sediul ONU</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T12:55:11+00:00">26 septembrie 2026, 15:55</time>
+    <time datetime="2026-09-26T17:37:00+00:00">26 septembrie 2026, 20:37</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Serviciile secrete egiptene și oficialii palestinieni au avertizat Israelul cu săptămâni înainte despre planul Hamas de a declanșa un atac masiv, ignorat de autorități înaintea datei de 7 octombrie 2023.</p>
+  <p class="summary">Șeful diplomației germane, Johann Wadephul, s-a întâlnit la New York cu omologul său rus Serghei Lavrov, marcând primul contact bilateral la nivel ministerial de la declanșarea invaziei din Ucraina.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digi24.ro/stiri/externe/seful-serviciilor-secrete-egiptene-a-avertizat-israelul-cu-privire-la-un-atac-major-al-hamas-cu-11-zile-inainte-de-7-octombrie-2023-3965735" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+<a href="https://spotmedia.ro/stiri/eveniment/germania-redeschide-dialogul-direct-cu-rusia-prima-intalnire-a-ministrilor-de-externe-dupa-invazia-ucrainei-video" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Fenomenul extrem El Niño Godzilla amenință recordurile climatice globale"><a class="card-media" href="/extern/fenomenul-extrem-el-nino-godzilla-ameninta-recordurile-climatice-globale/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="extern" data-source="Știrile ProTV" data-title="Prima întâlnire oficială Germania-Rusia de la debutul războiului din Ucraina"><a class="card-media" href="/extern/prima-intalnire-oficiala-germania-rusia-de-la-debutul-razboiului-din-ucraina/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/fenomenul-extrem-el-nino-godzilla-ameninta-recordurile-climatice-globale/">Fenomenul extrem El Niño Godzilla amenință recordurile climatice globale</a></h2>
+  <h2 class="card-title"><a href="/extern/prima-intalnire-oficiala-germania-rusia-de-la-debutul-razboiului-din-ucraina/">Prima întâlnire oficială Germania-Rusia de la debutul războiului din Ucraina</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T12:52:00+00:00">26 septembrie 2026, 15:52</time>
+    <time datetime="2026-09-26T17:15:00+00:00">26 septembrie 2026, 20:15</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Temperaturile ridicate înregistrate în Oceanul Pacific indică instalarea unui fenomen climatic sever numit El Niño Godzilla, capabil să genereze perturbări meteo extreme pe planetă.</p>
+  <p class="summary">Ministrul rus de externe Serghei Lavrov s-a întâlnit cu omologul său german Johann Wadephul la sediul ONU, marcând primul dialog direct la nivel ministerial de la izbucnirea conflictului din 2022.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/meteo/el-nino-godzilla-va-fi-cel-mai-puternic-fenomen-vazut-si-simtit-de-oameni-cum-ne-putem-pregati-pentru-inevitabil-804717.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
+<a href="https://stirileprotv.ro/stiri/international/prima-intalnire-intre-germania-si-rusia-de-la-inceputul-razboiului-lui-putin-in-ucraina-discutia-neinregistrata.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Știrile ProTV" data-title="Patru răniți după ce un șofer a intrat într-un marș pentru climă"><a class="card-media" href="/extern/patru-raniti-dupa-ce-un-sofer-a-intrat-intr-un-mars-pentru-clima/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/patru-raniti-dupa-ce-un-sofer-a-intrat-intr-un-mars-pentru-clima/">Patru răniți după ce un șofer a intrat într-un marș pentru climă</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T12:50:31+00:00">26 septembrie 2026, 15:50</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Un incident rutier a avut loc în Franța, la Clermont-Ferrand, unde un conducător auto a forțat trecerea printr-un grup de manifestanți ecologiști, rănind patru persoane.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://stirileprotv.ro/stiri/international/patru-persoane-au-fost-ranite-dupa-ce-un-sofer-a-fortat-trecerea-in-timpul-unui-mars-pentru-clima-in-franta.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
-</article>
-<article class="card card-c" data-cat="extern" data-source="Digi24 Extern" data-title="Președintele sârb Aleksandar Vucic a discutat cu Vladimir Putin despre livrările de gaze"><a class="card-media" href="/extern/presedintele-sarb-aleksandar-vucic-a-discutat-cu-vladimir-putin-despre/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Relația dintre SUA și China necesită coevoluție în locul decuplării totale"><a class="card-media" href="/extern/relatia-dintre-sua-si-china-necesita-coevolutie-in-locul-decuplarii-totale/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
+  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge c">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/extern/presedintele-sarb-aleksandar-vucic-a-discutat-cu-vladimir-putin-despre/">Președintele sârb Aleksandar Vucic a discutat cu Vladimir Putin despre livrările de gaze</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T12:41:00+00:00">26 septembrie 2026, 15:41</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Președintele Serbiei, Aleksandar Vucic, a purtat o convorbire telefonică cu omologul său rus, Vladimir Putin, vizând prelungirea acordului privind importul de gaze rusești, care expiră la sfârșitul lunii septembrie. Vucic s-a arătat încrezător că Belgradul va asigura aprovizionarea stabilă și va menține un preț avantajos. Discuțiile au abordat și situația companiei petroliere NIS, afectată de sancțiuni, în contextul în care liderul sârb a anunțat recent demisia pentru a candida la funcția de prim-ministru.</p>
-  <p class="sources-inline"><b>Surse:</b>
-<a href="https://www.digi24.ro/stiri/externe/ue/vucic-a-discutat-cu-putin-la-telefon-serbia-spera-sa-obtina-o-noua-prelungire-a-acordului-de-gaze-cu-rusia-3965745" target="_blank" rel="noopener noreferrer">Digi24 Extern</a>, <a href="https://www.economica.net/aleksandar-vucic-spune-dupa-o-discutie-cu-putin-ca-spera-ca-serbia-sa-obtina-din-partea-rusiei-o-noua-prelungire-a-acordului-pentru-importul-de-gaze-naturale_980194.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Politico EU" data-title="Unsprezece persoane trimise în judecată în Franța pentru uciderea unui minor"><a class="card-media" href="/extern/unsprezece-persoane-trimise-in-judecata-in-franta-pentru-uciderea-unui-minor/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/unsprezece-persoane-trimise-in-judecata-in-franta-pentru-uciderea-unui-minor/">Unsprezece persoane trimise în judecată în Franța pentru uciderea unui minor</a></h2>
+  <h2 class="card-title"><a href="/extern/relatia-dintre-sua-si-china-necesita-coevolutie-in-locul-decuplarii-totale/">Relația dintre SUA și China necesită coevoluție în locul decuplării totale</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T12:16:48+00:00">26 septembrie 2026, 15:16</time>
+    <time datetime="2026-09-26T17:15:51+00:00">26 septembrie 2026, 20:15</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Justiția franceză va judeca 11 suspecți acuzați de asasinarea unui adolescent de 16 ani în 2023, crimă catalogată drept un atac motivat de ură împotriva populației albe.</p>
+  <p class="summary">Un editorial publicat în Foreign Policy susține că rivalitatea dintre Statele Unite și China trebuie să lase loc unei coexistențe bazate pe interdependența economică și tehnologică profundă dintre cele două puteri.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.politico.eu/article/france-crepol-thomas-perotto-11-defendants-trial-racial-aggravating-factor/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication" target="_blank" rel="noopener noreferrer">Politico EU</a></p>
+<a href="https://www.digi24.ro/stiri/externe/sua/lectia-lui-darwin-pentru-trump-si-xi-supravietuirea-celui-mai-adaptat-nu-inseamna-doar-competitie-sua-si-china-trebuie-sa-coexiste-3965949" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

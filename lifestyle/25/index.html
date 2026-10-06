@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more" open>
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more" open>
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle" class="active">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,316 +82,316 @@
 </nav>
   <h1 class="section-title">Lifestyle</h1>
   <section class="grid">
-<article class="card" data-cat="lifestyle" data-source="Elle România" data-title="Utilizarea florilor artificiale aduce avantaje estetice și practice locuinței"><a class="card-media" href="/lifestyle/utilizarea-florilor-artificiale-aduce-avantaje-estetice-si-practice-locuintei/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t1" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/utilizarea-florilor-artificiale-aduce-avantaje-estetice-si-practice-locuintei/">Utilizarea florilor artificiale aduce avantaje estetice și practice locuinței</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T11:59:14+00:00">25 septembrie 2026, 14:59</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Spre deosebire de buchetele naturale care se deteriorează rapid și necesită întreținere constantă, decorațiunile florale sintetice oferă o rezistență îndelungată și un aspect impecabil în orice spațiu de locuit.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/advertorial/7-beneficii-ale-decorurilor-din-flori-artificiale-1091447" target="_blank" rel="noopener noreferrer">Elle România</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Ghid pentru părinți privind refuzul copiilor de a merge la școală"><a class="card-media" href="/lifestyle/ghid-pentru-parinti-privind-refuzul-copiilor-de-a-merge-la-scoala/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t1" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/ghid-pentru-parinti-privind-refuzul-copiilor-de-a-merge-la-scoala/">Ghid pentru părinți privind refuzul copiilor de a merge la școală</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T08:10:02+00:00">25 septembrie 2026, 11:10</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Specialiștii explică motivele emoționale și fizice din spatele refuzului școlar la copii și oferă recomandări practice pentru ca părinții să gestioneze eficient momentele tensionate de dimineață.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/adolescenti/comportament-si-dezvoltare-adolescenti/copilul-nu-mai-vrea-la-scoala-ce-se-poate-ascunde-in-spatele-refuzului-scolar-si-cum-trebuie-sa-gestioneze-parintii-situatia/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Adevărul" data-title="Connect-R este acuzat public pe TikTok de o tiktokeziță că a umilit-o corporal"><a class="card-media" href="/lifestyle/connect-r-este-acuzat-public-pe-tiktok-de-o-tiktokezita-ca-a-umilit-o-corporal/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/connect-r-este-acuzat-public-pe-tiktok-de-o-tiktokezita-ca-a-umilit-o-corporal/">Connect-R este acuzat public pe TikTok de o tiktokeziță că a umilit-o corporal</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:57:14+00:00">25 septembrie 2026, 10:57</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Artistul Connect-R se confruntă cu un val de critici în mediul online după ce Grațiela Agache l-a acuzat de jigniri grave legate de greutate, determinând reacții de apărare din partea acestuia.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://adevarul.ro/stiri-interne/societate/derapaj-pe-tiktok-connect-r-acuzat-ca-a-umilit-o-2559730.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="B365" data-title="Industria cosmetică coreeană mizează pe ingrediente avansate și rutine orientate spre prevenție"><a class="card-media" href="/lifestyle/industria-cosmetica-coreeana-mizeaza-pe-ingrediente-avansate-si-rutine/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/industria-cosmetica-coreeana-mizeaza-pe-ingrediente-avansate-si-rutine/">Industria cosmetică coreeană mizează pe ingrediente avansate și rutine orientate spre prevenție</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:48:02+00:00">25 septembrie 2026, 10:48</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Piața produselor de îngrijire a pielii din Coreea a evoluat dincolo de schemele clasice cu pași multipli, concentrându-se în prezent pe formule științifice riguroase și ingrediente cu efecte preventive dovedite.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://b365.ro/p-ingredientele-care-definesc-noua-generatie-de-skincare-coreean-621241/" target="_blank" rel="noopener noreferrer">B365</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Profit.ro" data-title="Studiu privind domesticirea lupilor și originea câinilor"><a class="card-media" href="/lifestyle/studiu-privind-domesticirea-lupilor-si-originea-cainilor/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t1" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/studiu-privind-domesticirea-lupilor-si-originea-cainilor/">Studiu privind domesticirea lupilor și originea câinilor</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:34:00+00:00">25 septembrie 2026, 10:34</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Evoluția canidelor alături de specia umană reprezintă un proces biologic îndelungat și complex, marcat de numeroase etape de adaptare comportamentală și transformare genetică de-a lungul mileniilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.profit.ro/de-weekend/zooland-ro-cum-au-ajuns-lupii-sa-devina-caini-22781103?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Japonia a depășit pragul de o sută de mii de cetățeni centenari"><a class="card-media" href="/lifestyle/japonia-a-depasit-pragul-de-o-suta-de-mii-de-cetateni-centenari/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/japonia-a-depasit-pragul-de-o-suta-de-mii-de-cetateni-centenari/">Japonia a depășit pragul de o sută de mii de cetățeni centenari</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:30:19+00:00">25 septembrie 2026, 10:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Populația Japoniei numără în prezent peste o sută de mii de persoane care au împlinit sau depășit vârsta de o sută de ani. Stilul de viață și alimentația tradițională joacă un rol esențial în longevitatea acestora.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.csid.ro/stiri/japonia-are-peste-100-000-de-centenari-ce-mananca-la-micul-dejun-oamenii-care-traiesc-peste-100-de-ani-21317917/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Profit.ro" data-title="Recomandări pentru pregătirea treptată a casei și grădinii la venirea sezonului rece"><a class="card-media" href="/lifestyle/recomandari-pentru-pregatirea-treptata-a-casei-si-gradinii-la-venirea-sezonului/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/recomandari-pentru-pregatirea-treptata-a-casei-si-gradinii-la-venirea-sezonului/">Recomandări pentru pregătirea treptată a casei și grădinii la venirea sezonului rece</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:22:00+00:00">25 septembrie 2026, 10:22</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Specialiștii recomandă o tranziție treptată și fără eforturi majore de curățenie generală pentru adaptarea locuinței și a spațiului exterior la temperaturile scăzute specifice finalului de vară.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.profit.ro/de-weekend/casa-gradina-ro-pregatirea-casei-pentru-toamna-22781081?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Bookhub" data-title="Specialiștii analizează incapacitatea tinerilor de a-și face planuri de viitor"><a class="card-media" href="/lifestyle/specialistii-analizeaza-incapacitatea-tinerilor-de-a-si-face-planuri-de-viitor/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t1" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/specialistii-analizeaza-incapacitatea-tinerilor-de-a-si-face-planuri-de-viitor/">Specialiștii analizează incapacitatea tinerilor de a-și face planuri de viitor</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:04:18+00:00">25 septembrie 2026, 10:04</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Analizele recente arată că generațiile tinere întâmpină dificultăți majore în a contura perspective pe termen lung, trăind predominant într-un prezent continuu, guvernat de concepte greu de structurat la nivel mental.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://bookhub.ro/cand-confesiunea-recastiga-rostul-ei-initial/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=cand-confesiunea-recastiga-rostul-ei-initial" target="_blank" rel="noopener noreferrer">Bookhub</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Elle România" data-title="Andia promovează noua colecție de bijuterii Pandora inspirată de zodiac"><a class="card-media" href="/lifestyle/andia-promoveaza-noua-colectie-de-bijuterii-pandora-inspirata-de-zodiac/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t1" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/andia-promoveaza-noua-colectie-de-bijuterii-pandora-inspirata-de-zodiac/">Andia promovează noua colecție de bijuterii Pandora inspirată de zodiac</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:01:00+00:00">25 septembrie 2026, 10:01</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Artista Andia este imaginea noilor talismane Pandora cu tematică zodiacală, piesele fiind concepute pentru a fi purtate suprapuse ca accesorii vestimentare moderne.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/advertorial/scris-in-stele-1090308" target="_blank" rel="noopener noreferrer">Elle România</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Spotmedia" data-title="Evaluarea planurilor personale și financiare la finalul verii"><a class="card-media" href="/lifestyle/evaluarea-planurilor-personale-si-financiare-la-finalul-verii/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t1" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/evaluarea-planurilor-personale-si-financiare-la-finalul-verii/">Evaluarea planurilor personale și financiare la finalul verii</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:00:00+00:00">25 septembrie 2026, 10:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Odată cuchestiunea revenirii la rutina de toamnă, perioada actuală reprezintă un moment oportun pentru evaluarea obiectivelor stabilite la începutul anului și a stării bugetului.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://spotmedia.ro/stiri/economie/toamna-se-numara-bobocii-dar-cu-banii-cum-stam" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Blocajele personale afectează starea mentală și fizică"><a class="card-media" href="/lifestyle/blocajele-personale-afecteaza-starea-mentala-si-fizica/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t1" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/blocajele-personale-afecteaza-starea-mentala-si-fizica/">Blocajele personale afectează starea mentală și fizică</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:00:00+00:00">25 septembrie 2026, 10:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Stagnarea în viață blochează evoluția personală și generează probleme somatice, menținând un ciclu de nefericire din care oamenii cu greu mai reușesc să iasă.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/familie-parinti/dezvoltare-personala/video-24-sfatulparintilor-ro-unde-esti-blocat-in-viata-ta-si-ce-vibratie-ai-consecinte-si-solutii/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Observator" data-title="Un sat cu tot cu lac propriu este scos la vânzare pentru 180.000 de euro"><a class="card-media" href="/lifestyle/un-sat-cu-tot-cu-lac-propriu-este-scos-la-vanzare-pentru-180-000-de-euro/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t1" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/un-sat-cu-tot-cu-lac-propriu-este-scos-la-vanzare-pentru-180-000-de-euro/">Un sat cu tot cu lac propriu este scos la vânzare pentru 180.000 de euro</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T06:45:00+00:00">25 septembrie 2026, 09:45</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Proprietarii au decis să renunțe la această investiție inedită deoarece administrarea proprietății necesită un nivel ridicat de implicare și timp din partea cumpărătorilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://observatornews.ro/eveniment/un-sat-intreg-care-vine-cu-propriul-lac-se-vinde-cu-180000-de-euro-care-este-motivul-proprietarilor-667192.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Elle România" data-title="Dove Cameron și Damiano David s-au căsătorit în Italia"><a class="card-media" href="/lifestyle/dove-cameron-si-damiano-david-s-au-casatorit-in-italia/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t1" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/dove-cameron-si-damiano-david-s-au-casatorit-in-italia/">Dove Cameron și Damiano David s-au căsătorit în Italia</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T06:40:00+00:00">25 septembrie 2026, 09:40</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Solistul formației Måneskin și actrița americană și-au oficializat relația de peste trei ani prin căsătoria civilă oficiată în primăria orașului Montalcino din Toscana, pe 24 septembrie.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/people/stiri-vedete/dove-cameron-si-damiano-david-s-au-casatorit-cum-a-aratat-nunta-de-vis-a-celor-doua-vedete-1091290" target="_blank" rel="noopener noreferrer">Elle România</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Zodiile recunoscute pentru blândețe și armonie"><a class="card-media" href="/lifestyle/zodiile-recunoscute-pentru-blandete-si-armonie/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/zodiile-recunoscute-pentru-blandete-si-armonie/">Zodiile recunoscute pentru blândețe și armonie</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T06:30:27+00:00">25 septembrie 2026, 09:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Anumite semne zodiacale se disting prin capacitatea nativă de a aplana conflictele și de a aduce un plus de liniște și echilibru în relațiile cu persoanele din jur.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.csid.ro/lifestyle/horoscop/cele-mai-blande-zodii-din-horoscop-au-un-dar-aparte-de-a-aduce-liniste-in-jurul-lor-21317986/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Elle România" data-title="De ce menținerea implicării în viața fostului partener dăunează evoluției personale"><a class="card-media" href="/lifestyle/de-ce-mentinerea-implicarii-in-viata-fostului-partener-dauneaza-evolutiei/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/de-ce-mentinerea-implicarii-in-viata-fostului-partener-dauneaza-evolutiei/">De ce menținerea implicării în viața fostului partener dăunează evoluției personale</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T06:26:24+00:00">25 septembrie 2026, 09:26</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Specialiștii explică riscurile continuării unei relații de dependență după despărțire, situație în care un fost partener cere constant sfaturi pentru decizii majore, blocând astfel independența emoțională.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/lifestyle/inca-esti-foarte-prezenta-in-viata-fostului-partener-si-il-ghidezi-ce-decizii-sa-ia-si-cum-sa-traiasca-de-ce-e-important-sa-te-opresti-1091314" target="_blank" rel="noopener noreferrer">Elle România</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Transformarea fizică a concurentei Claudia Ion de la Insula Iubirii"><a class="card-media" href="/lifestyle/transformarea-fizica-a-concurentei-claudia-ion-de-la-insula-iubirii/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t1" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/transformarea-fizica-a-concurentei-claudia-ion-de-la-insula-iubirii/">Transformarea fizică a concurentei Claudia Ion de la Insula Iubirii</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T06:00:02+00:00">25 septembrie 2026, 09:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Concurenta show-ului de televiziune Insula Iubirii a trecut prin schimbări estetice majore de la vârsta de 18 ani și până în prezent, aspect reflectat în evoluția imaginii sale publice.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.csid.ro/lifestyle/vedete/cum-arata-claudia-ion-inainte-de-interventiile-estetice-transformarea-concurentei-de-la-insula-iubirii-21317073/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Elle România" data-title="Pandora lansează colecția de talismane inspirată de semnele zodiacale"><a class="card-media" href="/lifestyle/pandora-lanseaza-colectia-de-talismane-inspirata-de-semnele-zodiacale/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t1" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/pandora-lanseaza-colectia-de-talismane-inspirata-de-semnele-zodiacale/">Pandora lansează colecția de talismane inspirată de semnele zodiacale</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T06:00:00+00:00">25 septembrie 2026, 09:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Noua gamă de bijuterii include inele, coliere și medalioane din argint și aur, având modele geometrice și simbolistice preluate din astrologie și artefacte antice.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/advertorial/fashion-notes-octombrie-2026-1090542" target="_blank" rel="noopener noreferrer">Elle România</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Recomandări culinare: cinci rețete economice de supă cremă cu legume"><a class="card-media" href="/lifestyle/recomandari-culinare-cinci-retete-economice-de-supa-crema-cu-legume/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+<article class="card" data-cat="lifestyle" data-source="News Brașov" data-title="Radu Zărnescu a detaliat noutățile ediției 2026 a evenimentului culinar Romanian Beef Master"><a class="card-media" href="/lifestyle/radu-zarnescu-a-detaliat-noutatile-editiei-2026-a-evenimentului-culinar/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Lifestyle</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/recomandari-culinare-cinci-retete-economice-de-supa-crema-cu-legume/">Recomandări culinare: cinci rețete economice de supă cremă cu legume</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/radu-zarnescu-a-detaliat-noutatile-editiei-2026-a-evenimentului-culinar/">Radu Zărnescu a detaliat noutățile ediției 2026 a evenimentului culinar Romanian Beef Master</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T05:00:00+00:00">25 septembrie 2026, 08:00</time>
+    <time datetime="2026-09-25T17:22:00+00:00">25 septembrie 2026, 20:22</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Pregătirea unor supe cremă din ingrediente sezoniere accesibile constituie o opțiune nutritivă și avantajoasă financiar pentru mesele calde din perioada rece.</p>
+  <p class="summary">Organizatorul Radu Zărnescu a oferit detalii în exclusivitate despre pregătirile pentru Romanian Beef Master 2026, un eveniment dedicat pasionaților și profesioniștilor din industria cărnii de vită de calitate.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/familie-parinti/alimentatie-sanatoasa/5-retete-de-supa-crema-cu-legume-de-sezon-gustoase-sanatoase-si-prietenoase-cu-bugetul/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
+<a href="https://newsbv.ro/radu-zarnescu-romanian-beef-master-2026/" target="_blank" rel="noopener noreferrer">News Brașov</a></p>
 </article>
-<article class="card" data-cat="lifestyle" data-source="Ziarul Financiar" data-title="Sportul contribuie la dezvoltarea disciplinei și a caracterului în rândul copiilor"><a class="card-media" href="/lifestyle/sportul-contribuie-la-dezvoltarea-disciplinei-si-a-caracterului-in-randul/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t1" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="lifestyle" data-source="Recorder" data-title="Mihai Radu analizează scena politică românească și deciziile liderilor în podcast"><a class="card-media" href="/lifestyle/mihai-radu-analizeaza-scena-politica-romaneasca-si-deciziile-liderilor-in/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t1" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/mihai-radu-analizeaza-scena-politica-romaneasca-si-deciziile-liderilor-in/">Mihai Radu analizează scena politică românească și deciziile liderilor în podcast</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T16:35:58+00:00">25 septembrie 2026, 19:35</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">În noul episod al emisiunii, realizatorul comentează acțiunile președintelui și măsurile propuse de Nicușor Dan, abordând totodată subiecte legate de fondurile europene din PNRR.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://recorder.ro/ce-ne-enerveaza-63-ce-ar-mai-fi-de-ft-in-tara-asta/" target="_blank" rel="noopener noreferrer">Recorder</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Prezentarea principalelor caracteristici și trăsături ale zodiei Balanță"><a class="card-media" href="/lifestyle/prezentarea-principalelor-caracteristici-si-trasaturi-ale-zodiei-balanta/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t1" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-tick"></div><p class="art-when">joi,<br>24 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">24</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/sportul-contribuie-la-dezvoltarea-disciplinei-si-a-caracterului-in-randul/">Sportul contribuie la dezvoltarea disciplinei și a caracterului în rândul copiilor</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/prezentarea-principalelor-caracteristici-si-trasaturi-ale-zodiei-balanta/">Prezentarea principalelor caracteristici și trăsături ale zodiei Balanță</a></h2>
   <div class="meta">
-    <time datetime="2026-09-24T21:07:00+00:00">25 septembrie 2026, 00:07</time>
+    <time datetime="2026-09-25T16:11:00+00:00">25 septembrie 2026, 19:11</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Specialiștii subliniază că antrenamentele fizice oferă mult mai mult decât performanță sportivă, formând calități esențiale precum ambiția, responsabilitatea și capacitatea de a depăși eșecurile prin muncă susținută.</p>
+  <p class="summary">Poziționată ca al șaptelea semn al zodiacului, Balanța guvernează perioada cuprinsă anual între 22 septembrie și 23 octombrie. Astrologii scot în evidență un set extins de 80 de trăsături definitorii pentru această zodie.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.zf.ro/business-sportiv/business-sportiv-uiti-copil-vine-sala-zece-minute-devreme-incepe-uiti-copil-loc-zece-executii-face-11-12-copil-satura-practica-duce-acasa-practica-acasa-23246169" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
+<a href="https://sfatulparintilor.ro/totul-despre-zodii/caracteristici-balanta-80-de-adevaruri-despre-zodia-balanta/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
 </article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Un horoscop extrem de sincer dezvăluie adevăruri dure despre fiecare zodie"><a class="card-media" href="/lifestyle/un-horoscop-extrem-de-sincer-dezvaluie-adevaruri-dure-despre-fiecare-zodie/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">24</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Rețetă simplă pentru prepararea dulceții de dovleac cu nuci în sezonul rece"><a class="card-media" href="/lifestyle/reteta-simpla-pentru-prepararea-dulcetii-de-dovleac-cu-nuci-in-sezonul-rece/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t1" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/un-horoscop-extrem-de-sincer-dezvaluie-adevaruri-dure-despre-fiecare-zodie/">Un horoscop extrem de sincer dezvăluie adevăruri dure despre fiecare zodie</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/reteta-simpla-pentru-prepararea-dulcetii-de-dovleac-cu-nuci-in-sezonul-rece/">Rețetă simplă pentru prepararea dulceții de dovleac cu nuci în sezonul rece</a></h2>
   <div class="meta">
-    <time datetime="2026-09-24T20:09:00+00:00">24 septembrie 2026, 23:09</time>
+    <time datetime="2026-09-25T15:30:41+00:00">25 septembrie 2026, 18:30</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Un material astrologic promite o analiză complet lipsită de menajamente a fiecărui semn zodiacal, scoţând în evidenţă defectele şi realităţile mai puţin confortabile.</p>
+  <p class="summary">Dovleacul proaspăt de sezon poate fi transformat într-un desert tradițional aromat, ideal pentru consumul dinile de toamnă, combinând pulpa legumei cu miezul de nucă crocant.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/totul-despre-zodii/acest-horoscop-este-brutal-de-sincer-afla-se-ce-spune-despre-zodia-ta/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
+<a href="https://www.csid.ro/diete/retete-culinare/deserturi-dulciuri-patiserie/reteta-dulceata-de-dovleac-cu-nuci-un-desert-gustos-pentru-zilele-reci-de-toamna-21318995/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Economedia" data-title="Grad de ocupare de peste 90% la un resort din Delta Dunării în vara 2026"><a class="card-media" href="/lifestyle/grad-de-ocupare-de-peste-90-la-un-resort-din-delta-dunarii-in-vara-2026/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t1" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/grad-de-ocupare-de-peste-90-la-un-resort-din-delta-dunarii-in-vara-2026/">Grad de ocupare de peste 90% la un resort din Delta Dunării în vara 2026</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T15:17:39+00:00">25 septembrie 2026, 18:17</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Lebăda Luxury Resort &amp; SPA a atras în principal familii, cu un tarif mediu de aproximativ 970 de lei pe noapte pentru o cameră dublă cu mic dejun inclus, confirmând succesul turistic estival.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://economedia.ro/vacantele-in-delta-dunarii-la-mare-cautare-in-aceasta-vara-un-resort-din-crisan-a-avut-peste-90-grad-de-ocupare.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Rețetă de paste cu Cârnați Durdulii de la Matache Măcelaru&#39;"><a class="card-media" href="/lifestyle/reteta-de-paste-cu-carnati-durdulii-de-la-matache-macelaru/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t1" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/reteta-de-paste-cu-carnati-durdulii-de-la-matache-macelaru/">Rețetă de paste cu Cârnați Durdulii de la Matache Măcelaru&#39;</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T15:06:45+00:00">25 septembrie 2026, 18:06</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Preparatul folosește mezeluri în maț natural cu o rețetă curată, fără gluten, soia sau aditivi artificiali, fiind conceput pentru a oferi o masă gustoasă și hrănitoare în familie.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/noi-ce-mancam-azi/paste-cu-carnati-durdulii-de-la-matache-macelaru-21319433/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Trucuri pentru prepararea unei zacuște picante și cremoase în sezonul rece"><a class="card-media" href="/lifestyle/trucuri-pentru-prepararea-unei-zacuste-picante-si-cremoase-in-sezonul-rece/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t1" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/trucuri-pentru-prepararea-unei-zacuste-picante-si-cremoase-in-sezonul-rece/">Trucuri pentru prepararea unei zacuște picante și cremoase în sezonul rece</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T15:00:29+00:00">25 septembrie 2026, 18:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Folosirea legumelor coapte atent, a cepei gătite la foc lent și a ardeilor iuți adăugați în proporția corectă transformă rețeta tradițională de zacuscă într-un preparat mult mai gustos și aromat.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/diete/retete-culinare/secretul-pentru-o-zacusca-picanta-si-cremoasa-pasul-care-intensifica-aroma-legumelor-21318409/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="eMaramureș" data-title="O cățelușă și opt pui au fost salvați după ce au fost abandonați lângă un râu"><a class="card-media" href="/lifestyle/o-catelusa-si-opt-pui-au-fost-salvati-dupa-ce-au-fost-abandonati-langa-un-rau/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t1" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/o-catelusa-si-opt-pui-au-fost-salvati-dupa-ce-au-fost-abandonati-langa-un-rau/">O cățelușă și opt pui au fost salvați după ce au fost abandonați lângă un râu</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T15:00:26+00:00">25 septembrie 2026, 18:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">O cățelușă care și-a fătat cei opt pui printre mormane de gunoi la marginea unui râu a fost salvată de trecători impresionați de situația dramatică a animalelor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.emaramures.ro/a-nascut-opt-pui-intre-gunoaie-povestea-care-nu-i-a-lasat-indiferenti-pe-baimareni/" target="_blank" rel="noopener noreferrer">eMaramureș</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Elle România" data-title="Prezentatoare TV Corina Caragea a început o vacanță de o lună în Canada"><a class="card-media" href="/lifestyle/prezentatoare-tv-corina-caragea-a-inceput-o-vacanta-de-o-luna-in-canada/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t1" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/prezentatoare-tv-corina-caragea-a-inceput-o-vacanta-de-o-luna-in-canada/">Prezentatoare TV Corina Caragea a început o vacanță de o lună în Canada</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T15:00:00+00:00">25 septembrie 2026, 18:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Vedeta postului PRO TV a dat startul unei călătorii de lungă durată și a împărtășit primele imagini din Canada. Aceasta a ales celebra țară nord-americană drept prima oprire a itinerariului său de vacanță.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.elle.ro/people/corina-caragea-intr-o-noua-vacanta-unde-s-a-oprit-prima-data-prezentatoarea-tv-e-real-sau-e-doar-imaginatia-mea-1091418" target="_blank" rel="noopener noreferrer">Elle România</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Unica" data-title="Loredana Groza i-a declarat public dragostea lui Dan Ciotoi în cadrul unei emisiuni TV"><a class="card-media" href="/lifestyle/loredana-groza-i-a-declarat-public-dragostea-lui-dan-ciotoi-in-cadrul-unei/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/loredana-groza-i-a-declarat-public-dragostea-lui-dan-ciotoi-in-cadrul-unei/">Loredana Groza i-a declarat public dragostea lui Dan Ciotoi în cadrul unei emisiuni TV</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T14:04:26+00:00">25 septembrie 2026, 17:04</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Invitată la emisiunea moderată de Cătălin Măruță, cântăreața Loredana Groza a uimit publicul printr-o declarație de iubire adresată lui Dan Ciotoi, solistul formației Generic, evidențiind prietenia lor veche.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.unica.ro/vedete/loredana-declaratia-de-iubire-cu-care-a-surprins-intreaga-lume-836057" target="_blank" rel="noopener noreferrer">Unica</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Specialiștii explică riscurile lăsării deschise a ușii la mașina de spălat"><a class="card-media" href="/lifestyle/specialistii-explica-riscurile-lasarii-deschise-a-usii-la-masina-de-spalat/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t1" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/specialistii-explica-riscurile-lasarii-deschise-a-usii-la-masina-de-spalat/">Specialiștii explică riscurile lăsării deschise a ușii la mașina de spălat</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T14:00:42+00:00">25 septembrie 2026, 17:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Ventilarea permanentă a tamburului prin menținerea hubloului deschis după fiecare ciclu de spălare previne acumularea excesivă de umiditate și apariția mucegaiului în interiorul aparatului electrocasnic.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/lifestyle/casa-gradina-animale-de-companie/lasi-usa-masinii-de-spalat-deschisa-dupa-fiecare-spalare-motivul-pentru-care-ar-fi-cazul-sa-nu-o-mai-faci-21318112/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Unica" data-title="Nattasha Black de la Insula Iubirii și-a prezentat public camera cu accesorii de dominatoare"><a class="card-media" href="/lifestyle/nattasha-black-de-la-insula-iubirii-si-a-prezentat-public-camera-cu-accesorii/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t1" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/nattasha-black-de-la-insula-iubirii-si-a-prezentat-public-camera-cu-accesorii/">Nattasha Black de la Insula Iubirii și-a prezentat public camera cu accesorii de dominatoare</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T13:59:23+00:00">25 septembrie 2026, 16:59</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Concurenta Nattasha Black a surprins utilizatorii rețelelor de socializare după ce s-a filmat în spațiul unde își păstrează echipamentele specifice profesiei sale de dominatoare, dezvăluind detalii inedite.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.unica.ro/vedete/nattasha-black-dezvaluiri-din-camera-in-care-isi-tine-accesoriile-de-dominatoare-fanii-au-fost-surprinsi-836084" target="_blank" rel="noopener noreferrer">Unica</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Avantaje" data-title="Michael Douglas și Catherine Zeta-Jones și-au aniversat ziua de naștere"><a class="card-media" href="/lifestyle/michael-douglas-si-catherine-zeta-jones-si-au-aniversat-ziua-de-nastere/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t1" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/michael-douglas-si-catherine-zeta-jones-si-au-aniversat-ziua-de-nastere/">Michael Douglas și Catherine Zeta-Jones și-au aniversat ziua de naștere</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T13:43:37+00:00">25 septembrie 2026, 16:43</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Celebrele staruri de la Hollywood au sărbătorit o nouă aniversare a zilei de naștere, fiind născuți în aceeași zi, la o distanță de 25 de ani. Cei doi actori sunt căsătoriți de aproape trei decenii și au transmis mesaje publice...</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.avantaje.ro/articol/michael-douglas-catherine-zeta-jones-declaratii-ziua-de-nastere-25-septembrie" target="_blank" rel="noopener noreferrer">Avantaje</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Unica" data-title="Andreea Popescu ia în calcul reluarea injecțiilor de slăbit după o pauză de patru luni"><a class="card-media" href="/lifestyle/andreea-popescu-ia-in-calcul-reluarea-injectiilor-de-slabit-dupa-o-pauza-de/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/andreea-popescu-ia-in-calcul-reluarea-injectiilor-de-slabit-dupa-o-pauza-de/">Andreea Popescu ia în calcul reluarea injecțiilor de slăbit după o pauză de patru luni</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T13:37:58+00:00">25 septembrie 2026, 16:37</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">După ce a renunțat la tratamentul cu Mounjaro la atingerea greutății dorite, vedeta a reușit să se mențină în formă și recunoaște că ar vrea să reia procedura din motive care nu țin de kilograme.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.unica.ro/vedete/andreea-popescu-ar-vrea-sa-reia-injectiile-pentru-slabit-dupa-ce-a-renuntat-de-4-luni-la-ele-am-reusit-sa-ma-mentin-nu-stiu-cum-836068" target="_blank" rel="noopener noreferrer">Unica</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Gabriela Cristea a slăbit 35 de kilograme folosind injecții"><a class="card-media" href="/lifestyle/gabriela-cristea-a-slabit-35-de-kilograme-folosind-injectii/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/gabriela-cristea-a-slabit-35-de-kilograme-folosind-injectii/">Gabriela Cristea a slăbit 35 de kilograme folosind injecții</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T13:30:38+00:00">25 septembrie 2026, 16:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Vedeta TV a dezvăluit că a dat jos aproape 35 de kilograme cu ajutorul unui tratament injectabil, menționând însă că anumite alimente i-au provocat stări severe de rău pe parcursul curei.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/lifestyle/vedete/gabriela-cristea-a-slabit-aproape-35-de-kilograme-cu-injectii-ce-i-s-a-intamplat-dupa-ce-a-mancat-acest-fel-de-mancare-de-fiecare-data-mi-a-fost-foarte-rau-21318024/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="HotNews" data-title="Semnele prin care un elev agresat la școală cere ajutor, explicate de psihologi"><a class="card-media" href="/lifestyle/semnele-prin-care-un-elev-agresat-la-scoala-cere-ajutor-explicate-de-psihologi/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t1" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/semnele-prin-care-un-elev-agresat-la-scoala-cere-ajutor-explicate-de-psihologi/">Semnele prin care un elev agresat la școală cere ajutor, explicate de psihologi</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T13:09:49+00:00">25 septembrie 2026, 16:09</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Psihologii explică replicile și comportamentele pe care le folosesc copiii atunci când sunt victime ale bullyingului în mediul școlar, semnale pe care adulții trebuie să le recunoască.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://hotnews.ro/opreste-te-ia-mana-de-pe-mine-am-nevoie-de-ajutor-ce-poate-spune-un-copil-cand-este-agresat-la-scoala-explicatiile-psihologului-2358162" target="_blank" rel="noopener noreferrer">HotNews</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Adevărul" data-title="Specialiștii analizează impactul dormitului în camere separate asupra relațiilor de cuplu"><a class="card-media" href="/lifestyle/specialistii-analizeaza-impactul-dormitului-in-camere-separate-asupra/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/specialistii-analizeaza-impactul-dormitului-in-camere-separate-asupra/">Specialiștii analizează impactul dormitului în camere separate asupra relațiilor de cuplu</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T13:05:32+00:00">25 septembrie 2026, 16:05</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Mai multe persoane publice au recunoscut că aleg să doarmă în paturi separate, un subiect controversat pe care psihologii îl analizează pentru a stabili efectele asupra intimității și stabilității pe termen lung.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://adevarul.ro/showbiz/vedete/dormitul-in-camere-separate-poate-afecta-relatia-2559851.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Unica" data-title="Întrebarea adresată de fiul său a surprins-o pe artistă Theo Rose"><a class="card-media" href="/lifestyle/intrebarea-adresata-de-fiul-sau-a-surprins-o-pe-artista-theo-rose/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t1" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/intrebarea-adresata-de-fiul-sau-a-surprins-o-pe-artista-theo-rose/">Întrebarea adresată de fiul său a surprins-o pe artistă Theo Rose</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T12:47:19+00:00">25 septembrie 2026, 15:47</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Theo Rose a împărtășit pe rețelele sociale o discuție amuzantă avută cu fiul ei Sasha, proaspăt intrat la grădiniță, a cărui întrebare neașteptată a lăsat-o fără replică pe îndrăgită cântăreață.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.unica.ro/vedete/intrebarea-de-la-sasha-care-a-blocat-o-pe-theo-rose-artista-a-avut-o-discutie-amuzanta-cu-fiul-ei-836002" target="_blank" rel="noopener noreferrer">Unica</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Elle România" data-title="Ana Baniciu a făcut dezvăluiri emoționante despre căsnicia cu Edy Kovacs"><a class="card-media" href="/lifestyle/ana-baniciu-a-facut-dezvaluiri-emotionante-despre-casnicia-cu-edy-kovacs/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t1" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/ana-baniciu-a-facut-dezvaluiri-emotionante-despre-casnicia-cu-edy-kovacs/">Ana Baniciu a făcut dezvăluiri emoționante despre căsnicia cu Edy Kovacs</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T12:40:00+00:00">25 septembrie 2026, 15:40</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Cu ocazia împlinirii a trei ani de la căsătorie, artistă a vorbit deschis despre momentele dificile prin care au trecut împreună și despre legătura puternică pe care o are cu soțul său.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.elle.ro/people/anuntul-facut-de-ana-baniciu-dupa-trei-ani-de-casatorie-cu-edy-kovacs-dezvaluiri-rare-despre-relatia-lor-am-plans-unul-in-bratele-celuilalt-1091364" target="_blank" rel="noopener noreferrer">Elle România</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Avantaje" data-title="Horoscopul săptămânii aduce tensiuni și adevăruri ascunse din cauza lui Mercur"><a class="card-media" href="/lifestyle/horoscopul-saptamanii-aduce-tensiuni-si-adevaruri-ascunse-din-cauza-lui-mercur/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t1" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/horoscopul-saptamanii-aduce-tensiuni-si-adevaruri-ascunse-din-cauza-lui-mercur/">Horoscopul săptămânii aduce tensiuni și adevăruri ascunse din cauza lui Mercur</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T12:37:24+00:00">25 septembrie 2026, 15:37</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Tranzitul planetelor Venus și Scorpion influențează negativ planurile nativilor și aduce la suprafață emoții puternice și revelații neașteptate pentru toate zodiile.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.avantaje.ro/articol/horoscop-saptamanal-28-septembrie-4-octombrie-2026-mercur-in-scorpion-ne-da-planurile-peste-cap-descoperim-adevaruri-dureroase" target="_blank" rel="noopener noreferrer">Avantaje</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">
 <a href="/lifestyle/24/" rel="prev" aria-label="Pagina anterioară">‹</a>
-<a href="/lifestyle/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/lifestyle/23/" aria-label="Pagina 23">23</a><a href="/lifestyle/24/" aria-label="Pagina 24">24</a><span class="current" aria-current="page">25</span><a href="/lifestyle/26/" aria-label="Pagina 26">26</a><a href="/lifestyle/27/" aria-label="Pagina 27">27</a><a href="/lifestyle/26/" rel="next" aria-label="Pagina următoare">›</a>
+<a href="/lifestyle/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/lifestyle/23/" aria-label="Pagina 23">23</a><a href="/lifestyle/24/" aria-label="Pagina 24">24</a><span class="current" aria-current="page">25</span><a href="/lifestyle/26/" aria-label="Pagina 26">26</a><a href="/lifestyle/27/" aria-label="Pagina 27">27</a><a href="/lifestyle/28/" aria-label="Pagina 28">28</a><a href="/lifestyle/26/" rel="next" aria-label="Pagina următoare">›</a>
   </nav>
   </main>
 

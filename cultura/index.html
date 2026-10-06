@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more" open>
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more" open>
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura" class="active">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,6 +82,114 @@
 </nav>
   <h1 class="section-title">Cultură</h1>
   <section class="grid">
+<article class="card" data-cat="cultura" data-source="Știrile ProTV" data-title="Francis Halzen a câștigat Premiul Nobel pentru Fizică 2025-2026"><a class="card-media" href="/cultura/francis-halzen-a-castigat-premiul-nobel-pentru-fizica-2025-2026/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">06</span><span class="art-num-wk">marți</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/francis-halzen-a-castigat-premiul-nobel-pentru-fizica-2025-2026/">Francis Halzen a câștigat Premiul Nobel pentru Fizică 2025-2026</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-06T10:19:39+00:00">6 octombrie 2026, 13:19</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Cercetătorul Francis Halzen a fost distins cu Premiul Nobel pentru Fizică pentru contribuțiile sale majore la studiul neutrinilor și dezvoltarea unei noi ramuri a astronomiei.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://stirileprotv.ro/stiri/stiinta/laureatul-premiului-nobel-pentru-fizica-2025-francis-halzen-a-pus-bazele-unui-tip-de-astronomie-complet-noua.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="Sfatul Părinților" data-title="Acces gratuit la Muzeul de Artă Recentă pentru tinerii sub 25 de ani"><a class="card-media" href="/cultura/acces-gratuit-la-muzeul-de-arta-recenta-pentru-tinerii-sub-25-de-ani/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">06</span><span class="art-num-wk">marți</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/acces-gratuit-la-muzeul-de-arta-recenta-pentru-tinerii-sub-25-de-ani/">Acces gratuit la Muzeul de Artă Recentă pentru tinerii sub 25 de ani</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-06T10:16:45+00:00">6 octombrie 2026, 13:16</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Tinerii cu vârsta sub 25 de ani pot vizita gratuit Muzeul de Artă Recentă în fiecare zi de luni, timp de trei luni. Această inițiativă culturală este organizată cu sprijinul financiar al companiei Kaufland România.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://sfatulparintilor.ro/familie-parinti/actualitate/o-zi-pe-saptamana-pentru-urmatoarea-generatie-acces-gratuit-la-mare-muzeul-de-arta-recenta-pentru-tinerii-sub-25-de-ani-in-fiecare-zi-de-luni-timp-de-3-luni-cu-sprijinul-kaufland-romania/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
+</article>
+<article class="card card-c" data-cat="cultura" data-source="News Brașov" data-title="Cea mai scumpă carte din lume, cu copertă de Salvador Dalí, a fost furată dintr-o galerie din Franța"><a class="card-media" href="/cultura/cea-mai-scumpa-carte-din-lume-cu-coperta-de-salvador-dali-a-fost-furata-dintr-o/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0 art--portret" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Cultură</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">06</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/salvador-dali.jpg" alt="Salvador Dalí" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge c">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/cultura/cea-mai-scumpa-carte-din-lume-cu-coperta-de-salvador-dali-a-fost-furata-dintr-o/">Cea mai scumpă carte din lume, cu copertă de Salvador Dalí, a fost furată dintr-o galerie din Franța</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-06T10:12:42+00:00">6 octombrie 2026, 13:12</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Volumul „Apocalipsa Sfântului Ioan”, considerat una dintre cele mai scumpe cărți din lume, a fost furat în noaptea de 4 spre 5 octombrie dintr-o galerie de artă contemporană din Issoire, Franța. Opera, evaluată la câteva milioane de euro, are o copertă din bronz sculptată de Salvador Dalí, care cântărește singură 150 de kilograme, iar întregul volum ajunge la o greutate impresionantă. Ancheta a fost preluată de jandarmeria din Clermont-Fernand, autoritățile încercând să stabilească modul în care hoții au sustras piesa de patrimoniu.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://newsbv.ro/a-fost-furata-cea-mai-scumpa-carte-din-lume/" target="_blank" rel="noopener noreferrer">News Brașov</a>, <a href="https://www.tion.ro/mapamond/o-carte-unica-in-lume-cu-o-coperta-realizata-de-salvador-dali-a-fost-furata-dintr-un-muzeu-din-franta-2366883/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Timiș Online</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="Știrile ProTV" data-title="Concurenții MasterChef gătesc preparate inspirate din perioada studenției"><a class="card-media" href="/cultura/concurentii-masterchef-gatesc-preparate-inspirate-din-perioada-studentiei/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-tick"></div><p class="art-when">marți,<br>6 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">6</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/concurentii-masterchef-gatesc-preparate-inspirate-din-perioada-studentiei/">Concurenții MasterChef gătesc preparate inspirate din perioada studenției</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-06T09:57:56+00:00">6 octombrie 2026, 12:57</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Ediția din această seară a emisiunii culinare aduce o probă bazată pe amintirile și gusturile specifice vieții de student, punând la încercare creativitatea participanților și reaprinzând rivalitățile dintre cei trei chefi.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://stirileprotv.ro/show-buzz/entertainment/in-aceasta-seara-la-masterchef-concurentii-gatesc-ca-in-studentie-catalin-si-sorin-se-razbuna-pe-florin.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+</article>
+<article class="card card-c" data-cat="cultura" data-source="News Brașov" data-title="Ministerul Turismului promovează România în Sevilla printr-o campanie outdoor pe tramvaie"><a class="card-media" href="/cultura/ministerul-turismului-promoveaza-romania-in-sevilla-printr-o-campanie-outdoor/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Cultură</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">06</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge c">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/cultura/ministerul-turismului-promoveaza-romania-in-sevilla-printr-o-campanie-outdoor/">Ministerul Turismului promovează România în Sevilla printr-o campanie outdoor pe tramvaie</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-06T09:10:34+00:00">6 octombrie 2026, 12:10</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Ministerul Economiei, Digitalizării, Antreprenoriatului și Turismului desfășoară în perioada 5 octombrie - 1 noiembrie o campanie de promovare a României pe piața spaniolă, colantând integral un tramvai din centrul orașului Sevilla cu imagini ale unor obiective precum Castelul Peleș, Transfăgărășanul și Delta Dunării, campania vizând atragerea de turiști străini.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://newsbv.ro/castelul-peles-pe-strazile-din-sevilla/" target="_blank" rel="noopener noreferrer">News Brașov</a>, <a href="https://observatornews.ro/travel/cum-e-promovata-romania-in-sevilla-castelul-peles-delta-dunarii-si-transfagarasanul-pe-strazile-orasului-668259.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="Avantaje" data-title="Mercedes-Benz Bucharest Fashion Week revine cu o nouă ediție dedicată artei și modei"><a class="card-media" href="/cultura/mercedes-benz-bucharest-fashion-week-revine-cu-o-noua-editie-dedicata-artei-si/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 6 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/mercedes-benz-bucharest-fashion-week-revine-cu-o-noua-editie-dedicata-artei-si/">Mercedes-Benz Bucharest Fashion Week revine cu o nouă ediție dedicată artei și modei</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-06T08:51:32+00:00">6 octombrie 2026, 11:51</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Evenimentul de modă se întoarce în capitală între 13 și 17 octombrie, integrând prezentări pe podium cu expoziții culturale și creative în mai multe spații urbane.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.avantaje.ro/articol/mercedes-benz-bucharest-fashion-week-revine-cu-o-noua-editie-si-extinde-dialogul-dintre-moda-arta-si-cultura-contemporana" target="_blank" rel="noopener noreferrer">Avantaje</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="The Guardian" data-title="Erorile de legătorie schimbă interpretarea manuscrisului Voynich"><a class="card-media" href="/cultura/erorile-de-legatorie-schimba-interpretarea-manuscrisului-voynich/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 6 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/erorile-de-legatorie-schimba-interpretarea-manuscrisului-voynich/">Erorile de legătorie schimbă interpretarea manuscrisului Voynich</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-06T07:00:04+00:00">6 octombrie 2026, 10:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Cercetătorii susțin că ordinea greșită a paginilor din celebra scriere medievală Voynich a denaturat secole la rând înțelegerea desenelor și a textului misterios.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.theguardian.com/culture/2026/oct/06/voynich-manuscript-research-pages-wrongly-bound" target="_blank" rel="noopener noreferrer">The Guardian</a></p>
+</article>
 <article class="card" data-cat="cultura" data-source="News Brașov" data-title="Spectacolul teatral-muzical „Maestrul și Măiastra” se joacă la Centrul Cultural Reduta"><a class="card-media" href="/cultura/spectacolul-teatral-muzical-maestrul-si-maiastra-se-joaca-la-centrul-cultural/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0 art--portret" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Cultură</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">06</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/constantin-brancusi.jpg" alt="Constantin Brâncuși" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
@@ -168,6 +282,22 @@
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://www.urban.ro/the-mono-jacks-isi-opreste-activitatea/" target="_blank" rel="noopener noreferrer">Urban.ro</a></p>
 </article>
+<article class="card" data-cat="cultura" data-source="Urban.ro" data-title="Brian May anunță că trupa Queen nu va mai susține turnee live"><a class="card-media" href="/cultura/brian-may-anunta-ca-trupa-queen-nu-va-mai-sustine-turnee-live/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/brian-may-anunta-ca-trupa-queen-nu-va-mai-sustine-turnee-live/">Brian May anunță că trupa Queen nu va mai susține turnee live</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T23:19:33+00:00">6 octombrie 2026, 02:19</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Chitaristul formației a precizat că perioada concertelor s-a încheiat după cinci decenii de activitate. Artistul a menționat că a testat un proiect inovator bazat pe holograme similare celor folosite de ABBA.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.urban.ro/trupa-queen-nu-va-mai-pleca-niciodata-in-turneu/" target="_blank" rel="noopener noreferrer">Urban.ro</a></p>
+</article>
 <article class="card" data-cat="cultura" data-source="Adevărul" data-title="Comemorarea Elisabetei Rizea, simbol al rezistenței anticomuniste"><a class="card-media" href="/cultura/comemorarea-elisabetei-rizea-simbol-al-rezistentei-anticomuniste/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Cultură</p></div>
@@ -230,21 +360,21 @@
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://www.digi24.ro/stiri/actualitate/mirabela-gradinaru-provocarea-urmatorilor-ani-transformarea-energiei-creative-intr-un-avantaj-strategic-pentru-tara-3979181" target="_blank" rel="noopener noreferrer">Digi24</a></p>
 </article>
-<article class="card" data-cat="cultura" data-source="Urban.ro" data-title="Brian May anunță că trupa Queen nu va mai susține turnee live"><a class="card-media" href="/cultura/brian-may-anunta-ca-trupa-queen-nu-va-mai-sustine-turnee-live/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
-  <div class="art-rule"></div>
+<article class="card" data-cat="cultura" data-source="Elle România" data-title="Colecția Mugler Spring/Summer 2027 aduce un omagiu artistei Björk"><a class="card-media" href="/cultura/colectia-mugler-spring-summer-2027-aduce-un-omagiu-artistei-bjork/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Cultură</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/brian-may-anunta-ca-trupa-queen-nu-va-mai-sustine-turnee-live/">Brian May anunță că trupa Queen nu va mai susține turnee live</a></h2>
+  <h2 class="card-title"><a href="/cultura/colectia-mugler-spring-summer-2027-aduce-un-omagiu-artistei-bjork/">Colecția Mugler Spring/Summer 2027 aduce un omagiu artistei Björk</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T23:19:33+00:00">6 octombrie 2026, 02:19</time>
+    <time datetime="2026-10-05T15:30:00+00:00">5 octombrie 2026, 18:30</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Chitaristul formației a precizat că perioada concertelor s-a încheiat după cinci decenii de activitate. Artistul a menționat că a testat un proiect inovator bazat pe holograme similare celor folosite de ABBA.</p>
+  <p class="summary">Miguel Castro Freitas a lansat linia „Naturalia X”, continuând tradiția casei de modă de a transforma silueta feminină în forme neconvenționale, inspirate de natură și creaturi fantastice.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.urban.ro/trupa-queen-nu-va-mai-pleca-niciodata-in-turneu/" target="_blank" rel="noopener noreferrer">Urban.ro</a></p>
+<a href="https://www.elle.ro/fashion/fashion-news/mugler-spring-summer27-o-colectie-inspirata-de-artista-bjork-1092990" target="_blank" rel="noopener noreferrer">Elle România</a></p>
 </article>
 <article class="card" data-cat="cultura" data-source="Urban.ro" data-title="Artistul Jeff Koons își vinde colecția de artă pentru aproximativ 100 de milioane de dolari"><a class="card-media" href="/cultura/artistul-jeff-koons-isi-vinde-colectia-de-arta-pentru-aproximativ-100-de/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0 art--portret" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Cultură</p></div>
@@ -262,131 +392,9 @@
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://www.urban.ro/jeff-koons-colectia-de-arta/" target="_blank" rel="noopener noreferrer">Urban.ro</a></p>
 </article>
-<article class="card" data-cat="cultura" data-source="Elle România" data-title="Colecția Mugler Spring/Summer 2027 aduce un omagiu artistei Björk"><a class="card-media" href="/cultura/colectia-mugler-spring-summer-2027-aduce-un-omagiu-artistei-bjork/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/colectia-mugler-spring-summer-2027-aduce-un-omagiu-artistei-bjork/">Colecția Mugler Spring/Summer 2027 aduce un omagiu artistei Björk</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T15:30:00+00:00">5 octombrie 2026, 18:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Miguel Castro Freitas a lansat linia „Naturalia X”, continuând tradiția casei de modă de a transforma silueta feminină în forme neconvenționale, inspirate de natură și creaturi fantastice.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/fashion/fashion-news/mugler-spring-summer27-o-colectie-inspirata-de-artista-bjork-1092990" target="_blank" rel="noopener noreferrer">Elle România</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Elle România" data-title="Casa de modă Loewe a prezentat colecția SS27 semnată de Jack McCollough și Lazaro Hernandez"><a class="card-media" href="/cultura/casa-de-moda-loewe-a-prezentat-colectia-ss27-semnata-de-jack-mccollough-si/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/casa-de-moda-loewe-a-prezentat-colectia-ss27-semnata-de-jack-mccollough-si/">Casa de modă Loewe a prezentat colecția SS27 semnată de Jack McCollough și Lazaro Hernandez</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T15:00:00+00:00">5 octombrie 2026, 18:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Evenimentul desfășurat la Château de Vincennes a pus în valoare piese vestimentare clasice reinterpretate într-o manieră practică și modernă.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/fashion/loewe-ss27-jack-mccollough-si-lazaro-hernandez-rafineaza-noua-directie-a-casei-1092834" target="_blank" rel="noopener noreferrer">Elle România</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Observator" data-title="Filmul „Fjord”, Primit cu Aplauze la New York în Turneul spre Oscar"><a class="card-media" href="/cultura/filmul-fjord-primit-cu-aplauze-la-new-york-in-turneul-spre-oscar/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Cultură</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">05</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/filmul-fjord-primit-cu-aplauze-la-new-york-in-turneul-spre-oscar/">Filmul „Fjord”, Primit cu Aplauze la New York în Turneul spre Oscar</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T13:42:00+00:00">5 octombrie 2026, 16:42</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Pelicula regizată de Cristian Mungiu, avându-l în rol principal pe Sebastian Stan, a impresionat publicul american în cadrul unei proiecții speciale organizate la New York pentru promovarea internațională către premiile Oscar.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://observatornews.ro/eveniment/fjord-primit-cu-aplauze-la-new-york-cristian-mungiu-si-sebastian-stan-in-turneul-american-spre-oscar-668204.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Elle România" data-title="Balenciaga redefinește hainele cotidiene pentru sezonul SS27"><a class="card-media" href="/cultura/balenciaga-redefineste-hainele-cotidiene-pentru-sezonul-ss27/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/balenciaga-redefineste-hainele-cotidiene-pentru-sezonul-ss27/">Balenciaga redefinește hainele cotidiene pentru sezonul SS27</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T14:30:00+00:00">5 octombrie 2026, 17:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Pierpaolo Piccioli a regândit designul articolelor vestimentare de bază, cum ar fi cămășile albe și jeanșii, modificând structura și modul în care acestea se așază pe corpul uman.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/fashion/balenciaga-ss27-pierpaolo-piccioli-schimba-regulile-hainelor-de-zi-cu-zi-1092818" target="_blank" rel="noopener noreferrer">Elle România</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Express de Banat" data-title="Regizorul Alexandru Solomon despre manipulare și presă în mediul online"><a class="card-media" href="/cultura/regizorul-alexandru-solomon-despre-manipulare-si-presa-in-mediul-online/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/regizorul-alexandru-solomon-despre-manipulare-si-presa-in-mediul-online/">Regizorul Alexandru Solomon despre manipulare și presă în mediul online</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T13:30:22+00:00">5 octombrie 2026, 16:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Într-un interviu recent, cineastul Alexandru Solomon a discutat despre dificultatea de a separa știrile reale de manipulare pe internet. Discuția a atins și impactul istoric al postului de radio Europa Liberă.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://expressdebanat.ro/interviu-de-la-europa-libera-la-harmalaia-online-alexandru-solomon-despre-cum-mai-deosebim-adevarul-de-manipulare/" target="_blank" rel="noopener noreferrer">Express de Banat</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Avantaje" data-title="Interpretă de muzică populară Maria Ciobanu s-a întors definitiv în România la vârsta de 89 de ani"><a class="card-media" href="/cultura/interpreta-de-muzica-populara-maria-ciobanu-s-a-intors-definitiv-in-romania-la/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/interpreta-de-muzica-populara-maria-ciobanu-s-a-intors-definitiv-in-romania-la/">Interpretă de muzică populară Maria Ciobanu s-a întors definitiv în România la vârsta de 89 de ani</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T13:18:40+00:00">5 octombrie 2026, 16:18</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">După mulți ani petrecuți în Statele Unite, legendara solistă Maria Ciobanu a revenit în țară alături de copii, stabilindu-se acasă unde a fost reîntâlnită și fotografiată alături de alți artiști.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.avantaje.ro/articol/maria-ciobanu-a-revenit-in-romania-cum-arata-azi-la-89-de-ani" target="_blank" rel="noopener noreferrer">Avantaje</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Scena 9" data-title="Alejandro González Iñárritu lansează filmul „Digger”, o dramă despre ipocrizia climatică"><a class="card-media" href="/cultura/alejandro-gonzalez-inarritu-lanseaza-filmul-digger-o-drama-despre-ipocrizia/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Cultură</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">05</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/alejandro-gonzalez-inarritu-lanseaza-filmul-digger-o-drama-despre-ipocrizia/">Alejandro González Iñárritu lansează filmul „Digger”, o dramă despre ipocrizia climatică</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T11:36:45+00:00">5 octombrie 2026, 14:36</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Noua peliculă a regizorului portretizează un magnat petrolier care provoacă incendii globale pentru a poza ulterior în ecologist salvator, chestionând derapajele lumii contemporane.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.scena9.ro/article/digger-alejandro-gonzalez-inarritu-cronica-film" target="_blank" rel="noopener noreferrer">Scena 9</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Elle România" data-title="Mona Segall a explicat cum a fost cooptată Irina Fodor în emisiunile de succes"><a class="card-media" href="/cultura/mona-segall-a-explicat-cum-a-fost-cooptata-irina-fodor-in-emisiunile-de-succes/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Cultură</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">05</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/mona-segall-a-explicat-cum-a-fost-cooptata-irina-fodor-in-emisiunile-de-succes/">Mona Segall a explicat cum a fost cooptată Irina Fodor în emisiunile de succes</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T11:20:00+00:00">5 octombrie 2026, 14:20</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Cunoscuta producătoare de televiziune a dezvăluit culisele care au dus la alegerea Irinei Fodor ca prezentatoare pentru producțiile de top de la posturile Antena 1.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/people/mona-segall-dezvaluiri-despre-irina-fodor-cum-a-ajuns-vedeta-sa-prezinte-asia-express-si-chefi-la-cutite-1092924" target="_blank" rel="noopener noreferrer">Elle România</a></p>
-</article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">
-<span class="disabled" aria-hidden="true">‹</span><span class="current" aria-current="page">1</span><a href="/cultura/2/" aria-label="Pagina 2">2</a><a href="/cultura/3/" aria-label="Pagina 3">3</a><span class="gap" aria-hidden="true">…</span><a href="/cultura/12/" aria-label="Pagina 12">12</a><a href="/cultura/2/" rel="next" aria-label="Pagina următoare">›</a>
+<span class="disabled" aria-hidden="true">‹</span><span class="current" aria-current="page">1</span><a href="/cultura/2/" aria-label="Pagina 2">2</a><a href="/cultura/3/" aria-label="Pagina 3">3</a><span class="gap" aria-hidden="true">…</span><a href="/cultura/13/" aria-label="Pagina 13">13</a><a href="/cultura/2/" rel="next" aria-label="Pagina următoare">›</a>
   </nav>
   </main>
 

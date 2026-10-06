@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -72,8 +78,16 @@
   <h1 class="section-title">Subiect: Craiova</h1>
   <p class="follow"><a href="/subiect/craiova/feed.xml">Urmărește acest subiect (RSS) &rarr;</a></p>
   <p class="connections">Conexiuni:
-<a href="/subiect/federatia-romana-de-scrima/">Federația Română de Scrimă</a> · <a href="/subiect/dolj/">Dolj</a> · <a href="/subiect/psd/">PSD</a> · <a href="/subiect/sorin-grindeanu/">Sorin Grindeanu</a> · <a href="/subiect/citroen/">Citroën</a> · <a href="/subiect/maria-tanase/">Maria Tănase</a></p>
+<a href="/subiect/dolj/">Dolj</a> · <a href="/subiect/psd/">PSD</a> · <a href="/subiect/sorin-grindeanu/">Sorin Grindeanu</a> · <a href="/subiect/maria-tanase/">Maria Tănase</a> · <a href="/subiect/primaria-craiova/">Primăria Craiova</a> · <a href="/subiect/wizz-air/">Wizz Air</a></p>
   <ol class="timeline">
+    <li>
+      <time datetime="2026-10-06T08:28:53+00:00">6 octombrie 2026, 11:28</time>
+      <a href="/local/constructia-spitalului-regional-de-urgenta-craiova-a-ajuns-la-al-patrulea-etaj/">Construcția Spitalului Regional de Urgență Craiova a ajuns la al patrulea etaj</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T07:47:29+00:00">6 octombrie 2026, 10:47</time>
+      <a href="/local/politia-rutiera-din-craiova-a-sanctionat-pietonii-si-biciclistii-indisciplinati/">Poliția rutieră din Craiova a sancționat pietonii și bicicliștii indisciplinați</a>
+    </li>
     <li>
       <time datetime="2026-10-05T17:46:27+00:00">5 octombrie 2026, 20:46</time>
       <a href="/local/craiova-gazduieste-conferinta-regionala-agri4future-2035/">Craiova găzduiește conferința regională AGRI4FUTURE 2035</a>
@@ -217,18 +231,6 @@
     <li>
       <time datetime="2026-09-24T16:44:41+00:00">24 septembrie 2026, 19:44</time>
       <a href="/local/liderii-regionali-ai-psd-s-au-reunit-la-craiova-pentru-a-discuta-strategia/">Liderii regionali ai PSD s-au reunit la Craiova pentru a discuta strategia politică</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T10:31:29+00:00">24 septembrie 2026, 13:31</time>
-      <a href="/local/craiova-va-gazdui-un-turneu-aniversar-dedicat-celor-115-ani-de-scrima/">Craiova va găzdui un turneu aniversar dedicat celor 115 ani de scrimă</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:55:54+00:00">24 septembrie 2026, 12:55</time>
-      <a href="/local/craiova-marcheaza-115-ani-de-scrima-cu-sprijin-financiar-local/">Craiova marchează 115 ani de scrimă cu sprijin financiar local</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:35:51+00:00">24 septembrie 2026, 12:35</time>
-      <a href="/local/tanar-din-craiova-retinut-in-judetul-olt-pentru-hartuirea-fostei-partenere/">Tânăr din Craiova reținut în județul Olt pentru hărțuirea fostei partenere</a>
     </li>
   </ol>
   </main>

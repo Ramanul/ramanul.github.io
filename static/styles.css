@@ -130,6 +130,9 @@ a:hover { color: var(--ink); }
 }
 .subnav a:hover, .subnav a.active { color: var(--gold-strong); border-bottom-color: var(--gold); }
 .subnav-more { position: relative; flex: 0 0 auto; }
+/* Varianta mobil a «Mai multe secțiuni»: link direct, ascuns pe ecrane late unde
+   există dropdown-ul (vezi media query-ul de la 640px). */
+.subnav-more-mobile { display: none; }
 .subnav-more summary {
   cursor: pointer; list-style: none; color: var(--ink-2); font-family: var(--font-mono);
   font-weight: 600; font-size: var(--fs-xs); text-transform: uppercase; letter-spacing: 1px;
@@ -144,6 +147,17 @@ a:hover { color: var(--ink); }
   border: 1px solid var(--line-strong); box-shadow: 0 8px 24px rgba(0,0,0,.12);
 }
 .subnav-more-list a { padding: var(--s-5) 0; }
+/* Tinte de atingere pe mobil (audit 6 oct: Lighthouse target-size pica pe subnav).
+   Capcanele rezolvate: (1) tintele aveau ~30px — cercurile WCAG de 24px se atingeau;
+   (2) <a>-ul din summary crea tinte imbricate (esec garantat, orice padding);
+   (3) dropdown-ul e tăiat de overflow-x al benzii sub 1200px, deci pe mobil îl
+   înlocuim cu linkul .subnav-more-mobile (comportamentul de până acum, la 44px). */
+@media (max-width: 640px) {
+  .subnav a, .subnav-more-mobile {
+    min-height: 44px; display: flex; align-items: center; box-sizing: border-box;
+  }
+  .subnav-more { display: none; }
+}
 /* Sub ~1200px banda depaseste ecranul (masurat: 805px ascunsi la 390px, 427px la 768px) si
    nimic nu arata ca mai urmeaza ceva. Ultimele intrari sunt Regional / Județean / Local, deci
    exact categoriile geografice ramaneau nedescoperite pe telefon. Degradeul din dreapta e

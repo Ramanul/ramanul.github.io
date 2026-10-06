@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more" open>
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more" open>
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle" class="active">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,316 +82,324 @@
 </nav>
   <h1 class="section-title">Lifestyle</h1>
   <section class="grid">
-<article class="card" data-cat="lifestyle" data-source="Unica" data-title="Cauzele îngălbirii frunzelor la orhidee și metodele de tratament"><a class="card-media" href="/lifestyle/cauzele-ingalbirii-frunzelor-la-orhidee-si-metodele-de-tratament/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
-  <div class="art-rule"></div>
+<article class="card" data-cat="lifestyle" data-source="HotNews" data-title="Tori Dunlap a devenit multimilionară refuzând risipa financiară"><a class="card-media" href="/lifestyle/tori-dunlap-a-devenit-multimilionara-refuzand-risipa-financiara/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t1" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+  <div class="art-tick"></div><p class="art-when">duminică,<br>4 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">4</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/cauzele-ingalbirii-frunzelor-la-orhidee-si-metodele-de-tratament/">Cauzele îngălbirii frunzelor la orhidee și metodele de tratament</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/tori-dunlap-a-devenit-multimilionara-refuzand-risipa-financiara/">Tori Dunlap a devenit multimilionară refuzând risipa financiară</a></h2>
   <div class="meta">
-    <time datetime="2026-10-04T05:00:00+00:00">4 octombrie 2026, 08:00</time>
+    <time datetime="2026-10-04T15:57:26+00:00">4 octombrie 2026, 18:57</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Îngălbirea și ofilirea frunzelor de orhidee pot fi fenomene naturale de îmbătrânire sau semne ale unor probleme care necesită atenție. O singură frunză galbenă la bază este normală, dar degradarea rapidă a mai multor frunze cere intervenție.</p>
+  <p class="summary">Autoarea cărții Financial Feminist a ajuns milionară la 27 de ani și susține că succesul financiar înseamnă independență față de mediile toxice, evitând cheltuielile inutile pe simboluri de statut.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.unica.ro/divertisment/casa-si-gradina/de-ce-ingalbenesc-frunzele-orhideei-cum-o-salvezi-833152" target="_blank" rel="noopener noreferrer">Unica</a></p>
+<a href="https://hotnews.ro/se-spune-ca-nu-arat-a-multimilionar-bine-nici-nu-incerc-2366440" target="_blank" rel="noopener noreferrer">HotNews</a></p>
 </article>
-<article class="card" data-cat="lifestyle" data-source="Elle România" data-title="Ghidul trăsăturilor care definesc un bărbat superficial"><a class="card-media" href="/lifestyle/ghidul-trasaturilor-care-definesc-un-barbat-superficial/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t1" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card" data-cat="lifestyle" data-source="Turnul Sfatului" data-title="O absolventă ULBS a renunțat la vânzări pentru a deveni învățătoare"><a class="card-media" href="/lifestyle/o-absolventa-ulbs-a-renuntat-la-vanzari-pentru-a-deveni-invatatoare/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t1" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">04</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/ghidul-trasaturilor-care-definesc-un-barbat-superficial/">Ghidul trăsăturilor care definesc un bărbat superficial</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/o-absolventa-ulbs-a-renuntat-la-vanzari-pentru-a-deveni-invatatoare/">O absolventă ULBS a renunțat la vânzări pentru a deveni învățătoare</a></h2>
   <div class="meta">
-    <time datetime="2026-10-04T04:45:00+00:00">4 octombrie 2026, 07:45</time>
+    <time datetime="2026-10-04T14:48:27+00:00">4 octombrie 2026, 17:48</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Analiza comportamentală subliniază semnele de alarmă și indiciile subtile care arată că o persoană nu este pregătită pentru o relație serioasă, ajutând la evitarea implicării emoționale inutile.</p>
+  <p class="summary">Cristina Ciungu, în vârstă de 34 de ani și absolventă a Universității Lucian Blaga din Sibiu, a decis să renunțe la cariera în vânzări pentru a se dedica educației copiilor.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/lifestyle/trasaturile-unui-barbat-superficial-cu-care-nu-ai-de-ce-sa-iti-pierzi-timpul-877775" target="_blank" rel="noopener noreferrer">Elle România</a></p>
+<a href="https://www.turnulsfatului.ro/2026/10/04/dupa-mai-multi-ani-in-vanzari-o-absolventa-ulbs-a-decis-sa-devina-profesoara-consider-ca-sunt-datoare-universului-sa-ajut-si-alti-copii/" target="_blank" rel="noopener noreferrer">Turnul Sfatului</a></p>
 </article>
-<article class="card" data-cat="lifestyle" data-source="Elle România" data-title="Patru zodii care se confruntă frecvent cu tensiuni în familie"><a class="card-media" href="/lifestyle/patru-zodii-care-se-confrunta-frecvent-cu-tensiuni-in-familie/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t1" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Uleiul de măsline extravirgin poate fi utilizat la prăjit"><a class="card-media" href="/lifestyle/uleiul-de-masline-extravirgin-poate-fi-utilizat-la-prajit/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t1" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Lifestyle</p></div>
   <div class="art-tick"></div><p class="art-when">duminică,<br>4 octombrie</p>
   <div class="art-num"><span class="art-num-zi">4</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/patru-zodii-care-se-confrunta-frecvent-cu-tensiuni-in-familie/">Patru zodii care se confruntă frecvent cu tensiuni în familie</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/uleiul-de-masline-extravirgin-poate-fi-utilizat-la-prajit/">Uleiul de măsline extravirgin poate fi utilizat la prăjit</a></h2>
   <div class="meta">
-    <time datetime="2026-10-04T04:30:00+00:00">4 octombrie 2026, 07:30</time>
+    <time datetime="2026-10-04T14:00:10+00:00">4 octombrie 2026, 17:00</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Nativii din anumite semne zodiacale resimt o presiune constantă de a performa și întâmpină dificultăți majore în comunicarea armonioasă cu rudele, generând conflicte greu de stins.</p>
+  <p class="summary">Un specialist în somelierie confirmă că uleiul de măsline extravirgin este potrivit nu doar pentru salate, ci și pentru diverse procese de gătire termică, inclusiv prăjirea alimentelor.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.elle.ro/astrologie/cele-4-zodii-care-nu-au-o-relatie-buna-cu-familia-886922" target="_blank" rel="noopener noreferrer">Elle România</a></p>
+<a href="https://www.csid.ro/stiri/uleiul-de-masline-extravirgin-poate-fi-folosit-la-prajit-explicatiile-unui-somelier-21325053/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
 </article>
-<article class="card" data-cat="lifestyle" data-source="Alba24" data-title="Ziua Mondială a Animalelor este marcată sub tema empatiei"><a class="card-media" href="/lifestyle/ziua-mondiala-a-animalelor-este-marcata-sub-tema-empatiei/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t1" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="lifestyle" data-source="Observator" data-title="Măturătorii stradali din Germania pot câștiga anual până la 40.000 de euro"><a class="card-media" href="/lifestyle/maturatorii-stradali-din-germania-pot-castiga-anual-pana-la-40-000-de-euro/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/maturatorii-stradali-din-germania-pot-castiga-anual-pana-la-40-000-de-euro/">Măturătorii stradali din Germania pot câștiga anual până la 40.000 de euro</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T13:14:00+00:00">4 octombrie 2026, 16:14</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Deși este o meserie adesea ignorată, curățenia stradală din Germania este esențială și oferă retribuții atractive, cei mai experimentați angajați ajungând la venituri de 40.000 de euro pe an.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://observatornews.ro/economic/meseria-pe-care-nu-o-vrea-nimeni-si-pentru-care-nu-trebuie-sa-stii-nimic-salariul-ajunge-si-la-40000-pe-an-668127.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Mirosul neplăcut al caloriferului pornit după vară provine de la praful ars"><a class="card-media" href="/lifestyle/mirosul-neplacut-al-caloriferului-pornit-dupa-vara-provine-de-la-praful-ars/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t1" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">04</span><span class="art-num-wk">duminică</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/mirosul-neplacut-al-caloriferului-pornit-dupa-vara-provine-de-la-praful-ars/">Mirosul neplăcut al caloriferului pornit după vară provine de la praful ars</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T13:00:46+00:00">4 octombrie 2026, 16:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Pornirea caloriferelor după luni de pauză generează frecvent un miros specific de praf sau ars, cauzat de acumularea de impurități în sezonul cald. Fenomenul este de obicei inofensiv, dar necesită atenție dacă persistă.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/lifestyle/casa-gradina-animale-de-companie/de-ce-miroase-urat-caloriferul-cand-il-pornesti-dupa-luni-de-pauza-21320978/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="ProSport" data-title="Prezentatoarea TV Eleonora Incardona a stârnit reacții pozitive alături de soră"><a class="card-media" href="/lifestyle/prezentatoarea-tv-eleonora-incardona-a-starnit-reactii-pozitive-alaturi-de-sora/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t1" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">04</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/prezentatoarea-tv-eleonora-incardona-a-starnit-reactii-pozitive-alaturi-de-sora/">Prezentatoarea TV Eleonora Incardona a stârnit reacții pozitive alături de soră</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T12:34:15+00:00">4 octombrie 2026, 15:34</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Cunoscuta prezentatoare Eleonora Incardona a publicat imagini în care apare alături de sora sa Giuly, cele două atrăgând rapid admirația fanilor de pe rețelele sociale datorită asemănării izbitoare.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.prosport.ro/diverse/eleonora-incardona-prezentatoare-tv-aparitie-senzatie-sora-ei-reactie-fani-20539539" target="_blank" rel="noopener noreferrer">ProSport</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="eMaramureș" data-title="Polițiștii amintesc importanța responsabilității față de animale de Ziua Internațională"><a class="card-media" href="/lifestyle/politistii-amintesc-importanta-responsabilitatii-fata-de-animale-de-ziua/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t1" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Lifestyle</p></div>
   <div class="art-tick"></div><p class="art-when">duminică,<br>4 octombrie</p>
   <div class="art-num"><span class="art-num-zi">4</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/ziua-mondiala-a-animalelor-este-marcata-sub-tema-empatiei/">Ziua Mondială a Animalelor este marcată sub tema empatiei</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/politistii-amintesc-importanta-responsabilitatii-fata-de-animale-de-ziua/">Polițiștii amintesc importanța responsabilității față de animale de Ziua Internațională</a></h2>
   <div class="meta">
-    <time datetime="2026-10-04T04:00:19+00:00">4 octombrie 2026, 07:00</time>
+    <time datetime="2026-10-04T12:30:56+00:00">4 octombrie 2026, 15:30</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Pe 4 octombrie 2026 este celebrată Ziua Mondială a Animalelor, având ca temă centrală îndemnul de a privi mediul înconjurător prin perspectiva viețuitoarelor, de la animale de companie la cele sălbatice.</p>
+  <p class="summary">Cu ocazia Zilei Internaționale a Animalelor, marcată la 4 octombrie, autoritățile subliniază că îngrijirea și protejarea acestor ființe reprezintă o obligație morală permanentă, nu doar un gest ocazional.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://alba24.ro/4-octombrie-ziua-mondiala-a-animalelor-cum-a-aparut-aceasta-zi-si-ce-mesaj-transmite-in-2026-1160682.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
+<a href="https://www.emaramures.ro/de-ziua-animalelor-politistii-reamintesc-detinerea-unui-animal-inseamna-si-responsabilitate/" target="_blank" rel="noopener noreferrer">eMaramureș</a></p>
 </article>
-<article class="card" data-cat="lifestyle" data-source="Urban.ro" data-title="Atracția starurilor de la Hollywood pentru transformări fizice radicale"><a class="card-media" href="/lifestyle/atractia-starurilor-de-la-hollywood-pentru-transformari-fizice-radicale/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
+<article class="card" data-cat="lifestyle" data-source="Știrile ProTV" data-title="Utilizarea bicarbonatului de sodiu la prepararea fasolei"><a class="card-media" href="/lifestyle/utilizarea-bicarbonatului-de-sodiu-la-prepararea-fasolei/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t1" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-tick"></div><p class="art-when">duminică,<br>4 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">4</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/utilizarea-bicarbonatului-de-sodiu-la-prepararea-fasolei/">Utilizarea bicarbonatului de sodiu la prepararea fasolei</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T11:57:18+00:00">4 octombrie 2026, 14:57</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Bucătarii folosesc bicarbonat de sodiu pentru a reduce timpul de fierbere a fasolei, însă o doză greșită poate compromite textura și gustul preparatului final.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://stirileprotv.ro/divers/de-ce-se-pune-bicarbonat-in-fasole-ce-efect-are-si-cand-poate-strica-preparatul.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Alimentele trebuie depozitate corect în frigider pentru a nu se strica"><a class="card-media" href="/lifestyle/alimentele-trebuie-depozitate-corect-in-frigider-pentru-a-nu-se-strica/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Lifestyle</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/atractia-starurilor-de-la-hollywood-pentru-transformari-fizice-radicale/">Atracția starurilor de la Hollywood pentru transformări fizice radicale</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/alimentele-trebuie-depozitate-corect-in-frigider-pentru-a-nu-se-strica/">Alimentele trebuie depozitate corect în frigider pentru a nu se strica</a></h2>
   <div class="meta">
-    <time datetime="2026-10-04T01:23:00+00:00">4 octombrie 2026, 04:23</time>
+    <time datetime="2026-10-04T10:00:34+00:00">4 octombrie 2026, 13:00</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Actori celebri precum Tom Cruise aleg la maturitate roluri în care devin de nerecunoscut vizual, tendință promovată intens de industria cinematografică americană pentru valoarea artistică a proiectelor.</p>
+  <p class="summary">Specialiștii explică faptul că fructele și legumele necesită condiții specifice de păstrare în interiorul aparatului frigorific, iar amplasarea lor corectă prelungește semnificativ prospețimea și durata de valabilitate a acestora.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.urban.ro/de-ce-actorii-frumosi-accepta-sa-devina-de-nerecunoscut/" target="_blank" rel="noopener noreferrer">Urban.ro</a></p>
+<a href="https://www.csid.ro/stiri/de-ce-frigiderul-nu-raceste-toate-alimentele-la-fel-unde-ar-trebui-pastrate-de-fapt-fructele-si-legumele-21324189/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
 </article>
-<article class="card" data-cat="lifestyle" data-source="Adevărul" data-title="Proprietarii își transformă câinii de companie în campioni de frumusețe"><a class="card-media" href="/lifestyle/proprietarii-isi-transforma-cainii-de-companie-in-campioni-de-frumusete/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
+<article class="card card-c" data-cat="lifestyle" data-source="Unica" data-title="Previziuni astrologice și evenimente astrale pentru zodiile în octombrie 2026"><a class="card-media" href="/lifestyle/previziuni-astrologice-si-evenimente-astrale-pentru-zodiile-in-octombrie-2026/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Lifestyle</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/proprietarii-isi-transforma-cainii-de-companie-in-campioni-de-frumusete/">Proprietarii își transformă câinii de companie în campioni de frumusețe</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-04T00:34:25+00:00">4 octombrie 2026, 03:34</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Pasiunea pentru animale determină mulți stăpâni să renunțe la ideea unui simplu companion și să investească timp în genealogie și competiții chinologice de frumusețe.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://adevarul.ro/stiri-locale/slatina/de-la-prietenul-blanos-la-podium-cum-ajung-cainii-2561584.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Adevărul" data-title="Zâmbetul și atenția personalizată dublează bacșișul lăsat de clienți"><a class="card-media" href="/lifestyle/zambetul-si-atentia-personalizata-dubleaza-bacsisul-lasat-de-clienti/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t1" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">03</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/zambetul-si-atentia-personalizata-dubleaza-bacsisul-lasat-de-clienti/">Zâmbetul și atenția personalizată dublează bacșișul lăsat de clienți</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T23:26:25+00:00">4 octombrie 2026, 02:26</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Studiile arată că gesturile simple, cum ar fi utilizarea numelui clientului sau oferirea unor mici atenții din partea casei, cresc semnificativ valoarea bacșișului în localuri.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://adevarul.ro/stiri-interne/societate/simplul-fapt-de-a-zambi-poate-dubla-bacsisul-2560415.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Pluto își încheie perioada de retrogradare și aduce transformări astrale"><a class="card-media" href="/lifestyle/pluto-isi-incheie-perioada-de-retrogradare-si-aduce-transformari-astrale/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t1" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>3 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">3</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/pluto-isi-incheie-perioada-de-retrogradare-si-aduce-transformari-astrale/">Pluto își încheie perioada de retrogradare și aduce transformări astrale</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T21:37:21+00:00">4 octombrie 2026, 00:37</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">După peste cinci luni de mers retrograd, planeta Pluto revine în direct în constelația Vărsătorului pe 15 octombrie 2026, stimulând schimbări profunde și eliminarea tiparelor vechi.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/discover-hub/pluto-marele-transformator-iese-din-retrograd-pe-15-octombrie-cum-se-schimba-directia-pentru-fiecare-zodie/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="GSP" data-title="Zlatan Ibrahimovicși-a cumpărat un autoturism Ferrari F80 de lux"><a class="card-media" href="/lifestyle/zlatan-ibrahimovicsi-a-cumparat-un-autoturism-ferrari-f80-de-lux/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">03</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/zlatan-ibrahimovicsi-a-cumparat-un-autoturism-ferrari-f80-de-lux/">Zlatan Ibrahimovicși-a cumpărat un autoturism Ferrari F80 de lux</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T20:28:25+00:00">3 octombrie 2026, 23:28</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Fostul fotbalist suedez Zlatan Ibrahimovic și-a sărbătorit împlinirea vârstei de 45 de ani achiziționând un bolid Ferrari F80, un model exclusivist fabricat în doar 799 exemplare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.gsp.ro/international/campionate/zlatan-ibrahimovic-ferrari-f80-45-ani-984533.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Fiecare zodie are corespondent o creatură mitologică greacă"><a class="card-media" href="/lifestyle/fiecare-zodie-are-corespondent-o-creatura-mitologica-greaca/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 3 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/fiecare-zodie-are-corespondent-o-creatura-mitologica-greaca/">Fiecare zodie are corespondent o creatură mitologică greacă</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T19:56:00+00:00">3 octombrie 2026, 22:56</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Astrologia leagă trăsăturile de caracter ale fiecărui semn zodiacal de monștri și bestii legendare din mitologia Greciei Antice, evidențiind asemănări comportamentale surprinzătoare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/totul-despre-zodii/ce-creatura-mitologica-esti-in-functie-de-zodie-2/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Analiza comportamentului posesiv feminin în funcție de zodia nativelor"><a class="card-media" href="/lifestyle/analiza-comportamentului-posesiv-feminin-in-functie-de-zodia-nativelor/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">03</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/analiza-comportamentului-posesiv-feminin-in-functie-de-zodia-nativelor/">Analiza comportamentului posesiv feminin în funcție de zodia nativelor</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T19:39:00+00:00">3 octombrie 2026, 22:39</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Astrologii explică modul diferit în care femeile din zodiac își manifestă gelozia, de la reacții explozive și până la tăcere sau analiză minuțioasă a gesturilor partenerului.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/totul-despre-zodii/10-aspecte-despre-cea-mai-geloasa-femeie-din-zodiac/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="HotNews" data-title="Trapperul Ian a urinat pe scenă la Arenele Romane"><a class="card-media" href="/lifestyle/trapperul-ian-a-urinat-pe-scena-la-arenele-romane/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t1" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>3 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">3</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/trapperul-ian-a-urinat-pe-scena-la-arenele-romane/">Trapperul Ian a urinat pe scenă la Arenele Romane</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T18:02:23+00:00">3 octombrie 2026, 21:02</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Poliția Capitalei a demarat verificări după ce artistul trap Ian a fost filmat în timp ce urina pe scenă în timpul unui concert susținut alături de Azteca la Arenele Romane.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/video-cunoscut-trapper-gest-controversat-facut-pe-scena-la-un-concert-la-arenele-romane-2365889" target="_blank" rel="noopener noreferrer">HotNews</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Aparența repetată a unor numere identice poate constitui un mesaj universal"><a class="card-media" href="/lifestyle/aparenta-repetata-a-unor-numere-identice-poate-constitui-un-mesaj-universal/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">03</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/aparenta-repetata-a-unor-numere-identice-poate-constitui-un-mesaj-universal/">Aparența repetată a unor numere identice poate constitui un mesaj universal</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T19:09:00+00:00">3 octombrie 2026, 22:09</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Observarea frecventă a aceleiași secvențe numerice pe ceasuri, autovehicule sau diverse adrese este interpretată în mod frecvent drept un semn sau un mesaj transmis de Univers.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/familie-parinti/actualitate/numere-de-ingeri-ce-iti-transmit-numerele-pe-care-le-vezi-in-mod-repetat/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Previziuni și mesaje astrale pentru fiecare zodie în octombrie 2026"><a class="card-media" href="/lifestyle/previziuni-si-mesaje-astrale-pentru-fiecare-zodie-in-octombrie-2026/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t1" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">03</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/previziuni-si-mesaje-astrale-pentru-fiecare-zodie-in-octombrie-2026/">Previziuni și mesaje astrale pentru fiecare zodie în octombrie 2026</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T18:12:00+00:00">3 octombrie 2026, 21:12</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Ghidul spiritual pentru perioada 5-11 octombrie 2026 aduce clarificări și mesaje speciale din partea arhanghelilor, menite să indice direcția potrivită și schimbările esențiale în viețile nativilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/horoscop-3/horoscop-saptamanal-3/mesajele-arhanghelilor-pentru-zodii/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Observator" data-title="Colecția Victoriei Beckham a atras atenția la Paris"><a class="card-media" href="/lifestyle/colectia-victoriei-beckham-a-atras-atentia-la-paris/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">03</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/colectia-victoriei-beckham-a-atras-atentia-la-paris/">Colecția Victoriei Beckham a atras atenția la Paris</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T17:20:00+00:00">3 octombrie 2026, 20:20</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Victoria Beckham și-a prezentat noua colecție vestimentară la Saptămâna Modei de la Paris, eveniment la care a fost susținută de întreaga familie, cu excepția fiului Brooklyn, prezent la o altă manifestare din capitala Franței.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://observatornews.ro/extern/saptamana-modei-de-la-paris-cum-a-captat-toata-atentia-noua-colectie-a-victoriei-beckham-668091.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Adevărul" data-title="Avertismentul specialistului Adrian Asoltanie privind creditele mari pentru locuințe"><a class="card-media" href="/lifestyle/avertismentul-specialistului-adrian-asoltanie-privind-creditele-mari-pentru/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 3 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/avertismentul-specialistului-adrian-asoltanie-privind-creditele-mari-pentru/">Avertismentul specialistului Adrian Asoltanie privind creditele mari pentru locuințe</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T17:07:38+00:00">3 octombrie 2026, 20:07</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Expertul financiar Adrian Asoltanie atrage atenția că achiziționarea unei locuințe prin credite pe termen lung poate reduce calitatea vieții, recomandând cumpărători adaptate la bugetul real.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://adevarul.ro/stiri-interne/societate/cat-de-scumpa-ar-trebui-sa-fie-casa-pe-care-ti-o-2561493.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
-</article>
-<article class="card" data-cat="lifestyle" data-source="Observator" data-title="Diferențele majore dintre imaginile de vacanță online și realitate"><a class="card-media" href="/lifestyle/diferentele-majore-dintre-imaginile-de-vacanta-online-si-realitate/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t1" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">03</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Lifestyle</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/diferentele-majore-dintre-imaginile-de-vacanta-online-si-realitate/">Diferențele majore dintre imaginile de vacanță online și realitate</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T17:00:00+00:00">3 octombrie 2026, 20:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Un sondaj recent arată că majoritatea turiștilor au impresia că cunosc deja destinațiile de vacanță datorită fotografiilor de pe internet. Totuși, mulți dintre aceștia rămân dezamăgiți când ajung efectiv la fața locului.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://observatornews.ro/travel/reactia-unei-turiste-ajunsa-in-locatia-de-vacanta-in-poze-arata-ca-dubai-cand-am-ajuns-ca-in-ghetouri-668088.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
-</article>
-<article class="card card-c" data-cat="lifestyle" data-source="Ziarul Financiar" data-title="Zara a retras de la vânzare un costum de Halloween controversat"><a class="card-media" href="/lifestyle/zara-a-retras-de-la-vanzare-un-costum-de-halloween-controversat/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">03</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge c">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/lifestyle/zara-a-retras-de-la-vanzare-un-costum-de-halloween-controversat/">Zara a retras de la vânzare un costum de Halloween controversat</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/previziuni-astrologice-si-evenimente-astrale-pentru-zodiile-in-octombrie-2026/">Previziuni astrologice și evenimente astrale pentru zodiile în octombrie 2026</a></h2>
   <div class="meta">
-    <time datetime="2026-10-03T16:41:42+00:00">3 octombrie 2026, 19:41</time>
+    <time datetime="2026-10-04T10:00:00+00:00">4 octombrie 2026, 13:00</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Lanțul de modă Zara a scos din oferte un costum de Halloween pentru copii, în urma criticilor primite în mediul online. Articolul vestimentar în dungi alb-albastre, cu aspect uzat și detalii specifice, a fost asemănat de cumpărători cu uniformele de la lagărele de concentrare naziste.</p>
+  <p class="summary">Contextul astrologic de la începutul lunii octombrie 2026, marcat de retrogradarea planetei Venus în semnul Scorpionului, aduce schimbări majore și răsturnări de situație în plan sentimental și profesional pentru nativi. Astrele favorizează clarificarea relațiilor, reevaluarea deciziilor financiare și conștientizarea unor emoții profunde, recomandând prudență în fața oportunităților neașteptate.</p>
   <p class="sources-inline"><b>Surse:</b>
-<a href="https://www.zf.ro/business-international/zara-retrage-un-costum-de-halloween-care-seamana-cu-uniforma-din-lagarele-de-concentrare-23252423" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a>, <a href="https://adevarul.ro/stiri-interne/societate/zara-a-retras-de-pe-piata-un-costum-de-halloween-2561600.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+<a href="https://www.unica.ro/astro-fun/horoscop-5-octombrie-2026-viata-i-se-schimba-radical-o-zodie-primeste-o-surpriza-neasteptata-in-dragoste-831246" target="_blank" rel="noopener noreferrer">Unica</a>, <a href="https://jurnalulolteniei.ro/horoscop-5-11-octombrie-ce-decizii-radicale-iti-schimba-viata/" target="_blank" rel="noopener noreferrer">Jurnalul Olteniei</a></p>
 </article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Transformarea destinului și vindecarea karmei prin puterea iertării"><a class="card-media" href="/lifestyle/transformarea-destinului-si-vindecarea-karmei-prin-puterea-iertarii/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t1" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="lifestyle" data-source="Unica" data-title="Actrița Aylin Cadîr a vorbit despre viața de mamă și planurile băieților săi"><a class="card-media" href="/lifestyle/actrita-aylin-cadir-a-vorbit-despre-viata-de-mama-si-planurile-baietilor-sai/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t1" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Lifestyle</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">03</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">octombrie</span></div>
+  <div class="art-tick"></div><p class="art-when">duminică,<br>4 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">4</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/transformarea-destinului-si-vindecarea-karmei-prin-puterea-iertarii/">Transformarea destinului și vindecarea karmei prin puterea iertării</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/actrita-aylin-cadir-a-vorbit-despre-viata-de-mama-si-planurile-baietilor-sai/">Actrița Aylin Cadîr a vorbit despre viața de mamă și planurile băieților săi</a></h2>
   <div class="meta">
-    <time datetime="2026-10-03T18:09:00+00:00">3 octombrie 2026, 21:09</time>
+    <time datetime="2026-10-04T09:48:00+00:00">4 octombrie 2026, 12:48</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Tot mai multe persoane explorează legile universale ale karmei, descoperind că iertarea reprezintă instrumentul principal prin care oamenii își pot schimba soarta și elimina aspectele negative.</p>
+  <p class="summary">Vedeta a dezvăluit detalii despre provocările creșterii celor doi fii ai săi, Pavel și Amza, subliniind cum maternitatea i-a schimbat complet prioritățile și stilul de viață.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/familie-parinti/dezvoltare-personala/cum-ajuta-iertarea-la-vindecarea-karmei-puterea-karmica-a-iertarii/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
+<a href="https://www.unica.ro/vedete/romanesti/aylin-cadir-dezvaluiri-rare-despre-baietii-sai-cum-i-s-a-schimbat-viata-de-cand-a-devenit-mama-837082" target="_blank" rel="noopener noreferrer">Unica</a></p>
 </article>
-<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Previziuni runice pentru toate zodiile în perioada 5-11 octombrie 2026"><a class="card-media" href="/lifestyle/previziuni-runice-pentru-toate-zodiile-in-perioada-5-11-octombrie-2026/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">03</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Trucul cuptorului ajută aluatul să crească rapid în sezonul rece"><a class="card-media" href="/lifestyle/trucul-cuptorului-ajuta-aluatul-sa-creasca-rapid-in-sezonul-rece/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t1" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">04</span><span class="art-num-wk">duminică</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Lifestyle</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/lifestyle/previziuni-runice-pentru-toate-zodiile-in-perioada-5-11-octombrie-2026/">Previziuni runice pentru toate zodiile în perioada 5-11 octombrie 2026</a></h2>
+  <h2 class="card-title"><a href="/lifestyle/trucul-cuptorului-ajuta-aluatul-sa-creasca-rapid-in-sezonul-rece/">Trucul cuptorului ajută aluatul să crească rapid în sezonul rece</a></h2>
   <div class="meta">
-    <time datetime="2026-10-03T17:02:00+00:00">3 octombrie 2026, 20:02</time>
+    <time datetime="2026-10-04T09:00:02+00:00">4 octombrie 2026, 12:00</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Semnele zodiacale primesc mesaje importante prin intermediul runelor, caractere magice folosite din vechime pentru a descifra mistere și a ghida destinele umane în săptămâna următoare.</p>
+  <p class="summary">Dospirea optimă nu depinde doar de ingrediente și frământare, ci și de mediul termic controlat, utilizarea cuptorului oferind un sprijin excelent atunci când temperatura ambientală din bucătărie este scăzută.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/horoscop-3/horoscop-saptamanal-3/rune-etalare-saptamanala/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
+<a href="https://www.csid.ro/stiri/trucul-cuptorului-pe-care-putini-il-folosesc-aluatul-creste-frumos-chiar-si-cand-e-frig-in-bucatarie-21321574/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Sfatul Părinților" data-title="Patru zodii încheie un ciclu karmic important până la finalul lunii octombrie"><a class="card-media" href="/lifestyle/patru-zodii-incheie-un-ciclu-karmic-important-pana-la-finalul-lunii-octombrie/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t1" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">04</span><span class="art-num-wk">duminică</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/patru-zodii-incheie-un-ciclu-karmic-important-pana-la-finalul-lunii-octombrie/">Patru zodii încheie un ciclu karmic important până la finalul lunii octombrie</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T09:00:00+00:00">4 octombrie 2026, 12:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Tranzitele astrale majore, marcate de Venus retrograd în Scorpion, revenirea lui Pluto în Vărsător și mișcarea lui Mercur, aduc în prim-plan decizii sentimentale cruciale și finalizarea unor capitole de viață nerezolvate.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://sfatulparintilor.ro/discover-hub/4-zodii-care-pot-inchide-un-capitol-important-din-viata-lor-pana-la-finalul-lunii-octombrie/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Unica" data-title="Mihaela Bilic a finalizat construcția casei sale din pădure"><a class="card-media" href="/lifestyle/mihaela-bilic-a-finalizat-constructia-casei-sale-din-padure/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t1" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-tick"></div><p class="art-when">duminică,<br>4 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">4</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/mihaela-bilic-a-finalizat-constructia-casei-sale-din-padure/">Mihaela Bilic a finalizat construcția casei sale din pădure</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T08:41:00+00:00">4 octombrie 2026, 11:41</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Medicul nutriționist Mihaela Bilic a finalizat după doi ani de muncă o locuință personalizată situată în zona montană de pe Valea Prahovei, proiect pe care l-a prezentat public.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.unica.ro/vedete/mihaela-bilic-a-terminat-constructia-casei-din-padure-cum-arata-locul-de-poveste-al-nutritionistului-de-pe-valea-prahovei-837105" target="_blank" rel="noopener noreferrer">Unica</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Maratonistul Alexandru Corneschi vorbește despre alergare la CSID Talks"><a class="card-media" href="/lifestyle/maratonistul-alexandru-corneschi-vorbeste-despre-alergare-la-csid-talks/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/maratonistul-alexandru-corneschi-vorbeste-despre-alergare-la-csid-talks/">Maratonistul Alexandru Corneschi vorbește despre alergare la CSID Talks</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T08:05:27+00:00">4 octombrie 2026, 11:05</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Ediția a noua a emisiunii CSID Talks îl aduce în prim-plan pe maratonistul Alexandru Corneschi, alături de care se discută dacă alergarea a devenit un simplu trend sau un adevărat stil de viață.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/stiri/alergarea-trend-sau-stil-de-viata-alexandru-corneschi-csid-talks-9-21325008/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="CSÎD" data-title="Trucul lui Gordon Ramsay pentru o supă de roșii cu gust intens"><a class="card-media" href="/lifestyle/trucul-lui-gordon-ramsay-pentru-o-supa-de-rosii-cu-gust-intens/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/trucul-lui-gordon-ramsay-pentru-o-supa-de-rosii-cu-gust-intens/">Trucul lui Gordon Ramsay pentru o supă de roșii cu gust intens</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T08:00:10+00:00">4 octombrie 2026, 11:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Celebrul bucătar Gordon Ramsay dezvăluie metoda sa prin care supa de roșii capătă o aromă deosebită, constând în rumenirea prealabilă a legumelor pe aragaz și continuarea coacerii acestora în cuptor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/diete/retete-culinare/supa-de-rosii-a-lui-gordon-ramsay-trucul-simplu-care-ii-schimba-complet-gustul-21324318/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Europa Liberă" data-title="Provocările integrării sociale pentru adulții diagnosticați cu autism, prezentate de o mamă"><a class="card-media" href="/lifestyle/provocarile-integrarii-sociale-pentru-adultii-diagnosticati-cu-autism/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/provocarile-integrarii-sociale-pentru-adultii-diagnosticati-cu-autism/">Provocările integrării sociale pentru adulții diagnosticați cu autism, prezentate de o mamă</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T07:00:00+00:00">4 octombrie 2026, 10:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Nadejda Polihovici vorbește despre dificultățile cu care se confruntă tinerii cu autism în Republica Moldova după încheierea studiilor, subliniind lipsa unor structuri adecvate pentru integrarea lor pe termen lung.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.europalibera.md/a/ce-va-face-copilul-meu-cand-n-o-sa-mai-fiu-nadejda-polihovici-mama-unui-tanar-cu-autism-despre-provocarile-adultilor-cu-dizabilitati/33867316.html" target="_blank" rel="noopener noreferrer">Europa Liberă</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Ziua de Cluj" data-title="Reflecții duminicale publicate de liderul administrativ Alin Tișe"><a class="card-media" href="/lifestyle/reflectii-duminicale-publicate-de-liderul-administrativ-alin-tise/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/reflectii-duminicale-publicate-de-liderul-administrativ-alin-tise/">Reflecții duminicale publicate de liderul administrativ Alin Tișe</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T06:51:00+00:00">4 octombrie 2026, 09:51</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Președintele consiliului județean a distribuit un scurt mesaj moralizator despre natura umană și sinceritatea exprimării publice.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://zcj.ro/forum-zcj/alin-tise-pastila-scurta-de-duminica-scrierea-profunda-a-inimii--302372.html" target="_blank" rel="noopener noreferrer">Ziua de Cluj</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Știrile ProTV" data-title="Rețetă simplă de usturoi macerat în miere și fulgi de ardei"><a class="card-media" href="/lifestyle/reteta-simpla-de-usturoi-macerat-in-miere-si-fulgi-de-ardei/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t1" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">04</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/reteta-simpla-de-usturoi-macerat-in-miere-si-fulgi-de-ardei/">Rețetă simplă de usturoi macerat în miere și fulgi de ardei</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T06:38:43+00:00">4 octombrie 2026, 09:38</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Un preparat casnic din usturoi, miere crudă și ardei iute poate fi obținut în doar cinci zile, fiind ideal ca și condiment aromat.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://stirileprotv.ro/divers/usturoi-pus-in-miere-cum-se-prepara-amestecul-si-de-ce-este-atat-de-popular.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+</article>
+<article class="card" data-cat="lifestyle" data-source="Dobrogea Online" data-title="Ziua Internațională a Animalelor este marcată prin campanii globale"><a class="card-media" href="/lifestyle/ziua-internationala-a-animalelor-este-marcata-prin-campanii-globale/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 4 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Lifestyle</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Lifestyle</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/lifestyle/ziua-internationala-a-animalelor-este-marcata-prin-campanii-globale/">Ziua Internațională a Animalelor este marcată prin campanii globale</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T06:19:33+00:00">4 octombrie 2026, 09:19</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Sărbătorită anual pe 4 octombrie, Ziua Internațională a Animalelor are în 2026 tema „Privește lumea prin ochii lor”, militând pentru drepturile și protejarea tuturor necuvântătoarelor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.dobrogeaonline.ro/ziua-internationala-a-animalelor-2026-priveste-lumea-prin-ochii-lor-tema-anului/" target="_blank" rel="noopener noreferrer">Dobrogea Online</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">
 <a href="/lifestyle/4/" rel="prev" aria-label="Pagina anterioară">‹</a>
-<a href="/lifestyle/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/lifestyle/3/" aria-label="Pagina 3">3</a><a href="/lifestyle/4/" aria-label="Pagina 4">4</a><span class="current" aria-current="page">5</span><a href="/lifestyle/6/" aria-label="Pagina 6">6</a><a href="/lifestyle/7/" aria-label="Pagina 7">7</a><span class="gap" aria-hidden="true">…</span><a href="/lifestyle/27/" aria-label="Pagina 27">27</a><a href="/lifestyle/6/" rel="next" aria-label="Pagina următoare">›</a>
+<a href="/lifestyle/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/lifestyle/3/" aria-label="Pagina 3">3</a><a href="/lifestyle/4/" aria-label="Pagina 4">4</a><span class="current" aria-current="page">5</span><a href="/lifestyle/6/" aria-label="Pagina 6">6</a><a href="/lifestyle/7/" aria-label="Pagina 7">7</a><span class="gap" aria-hidden="true">…</span><a href="/lifestyle/28/" aria-label="Pagina 28">28</a><a href="/lifestyle/6/" rel="next" aria-label="Pagina următoare">›</a>
   </nav>
   </main>
 

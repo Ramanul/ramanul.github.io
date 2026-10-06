@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic" class="active">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic" class="active">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,6 +82,164 @@
 </nav>
   <h1 class="section-title">Politică</h1>
   <section class="grid">
+<article class="card" data-cat="politic" data-source="Știrile ProTV" data-title="Congresul SUA solicită investigarea conduitei ambasadoarei Kimberly Guilfoyle"><a class="card-media" href="/politic/congresul-sua-solicita-investigarea-conduitei-ambasadoarei-kimberly-guilfoyle/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/kimberly-guilfoyle.jpg" alt="Kimberly Guilfoyle" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/congresul-sua-solicita-investigarea-conduitei-ambasadoarei-kimberly-guilfoyle/">Congresul SUA solicită investigarea conduitei ambasadoarei Kimberly Guilfoyle</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T11:44:02+00:00">2 octombrie 2026, 14:44</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Liderii democrați din parlamentul american au cerut Departamentului de Stat să verifice activitatea diplomatică a lui Kimberly Guilfoyle, în urma unor suspiciuni privind promovarea unor contracte energetice.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://stirileprotv.ro/stiri/international/congresul-sua-a-cerut-o-ancheta-privind-ambasadoarea-kimberly-guilfoyle-democrati-de-rang-inalt-i-au-scris-lui-rubio.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Dobrogea Online" data-title="Departamentul de Stat al SUA laudă progresele justiției din România"><a class="card-media" href="/politic/departamentul-de-stat-al-sua-lauda-progresele-justitiei-din-romania/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/departamentul-de-stat-al-sua-lauda-progresele-justitiei-din-romania/">Departamentul de Stat al SUA laudă progresele justiției din România</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T11:19:36+00:00">2 octombrie 2026, 14:19</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Consiliul Superior al Magistraturii analizează raportul american privind climatul investițional, care confirmă independența justiției române și eficiența luptei împotriva corupției, conform evaluărilor oficiale din 2026.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.dobrogeaonline.ro/departamentul-de-stat-al-sua-recunoaste-progresele-romaniei-in-consolidarea-independentei-justitiei-si-in-lupta-impotriva-coruptiei/" target="_blank" rel="noopener noreferrer">Dobrogea Online</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Timiș Online" data-title="Pactul Orașelor Libere critică demiterea primarului Dominic Fritz"><a class="card-media" href="/politic/pactul-oraselor-libere-critica-demiterea-primarului-dominic-fritz/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/pactul-oraselor-libere-critica-demiterea-primarului-dominic-fritz/">Pactul Orașelor Libere critică demiterea primarului Dominic Fritz</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T11:19:15+00:00">2 octombrie 2026, 14:19</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Organizația internațională își exprimă susținerea față de edilul Timișoarei după pierderea mandatului, contestând modificările legislative recente și apărând dreptul acestuia de a contesta oficial măsura.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.tion.ro/stirile-judetului-timis/pactul-oraselor-libere-isi-exprima-solidaritatea-cu-dominic-fritz-inlaturarea-ridica-serioase-semne-de-intrebare-2364732/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Timiș Online</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Turnul Sfatului" data-title="Senatul a votat interzicerea vânzării lucrărilor de licență și doctorat"><a class="card-media" href="/politic/senatul-a-votat-interzicerea-vanzarii-lucrarilor-de-licenta-si-doctorat/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/senatul-a-votat-interzicerea-vanzarii-lucrarilor-de-licenta-si-doctorat/">Senatul a votat interzicerea vânzării lucrărilor de licență și doctorat</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T11:14:27+00:00">2 octombrie 2026, 14:14</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Proiectul legislativ inițiat de USR permite Poliției să intervină și să sancționeze din oficiu comerțul ilegal cu teze universitare, extinzând cadrul legal de control adoptat recent de Senat.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.turnulsfatului.ro/2026/10/02/senatul-a-adoptat-propunerea-legislativa-usr-vanzarea-lucrarilor-de-licenta-si-doctorat-la-cheie-va-fi-sanctionata/" target="_blank" rel="noopener noreferrer">Turnul Sfatului</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Digi24 Extern" data-title="Giorgia Meloni solicită Comisiei Europene relaxarea regulilor fiscale"><a class="card-media" href="/politic/giorgia-meloni-solicita-comisiei-europene-relaxarea-regulilor-fiscale/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/giorgia-meloni-solicita-comisiei-europene-relaxarea-regulilor-fiscale/">Giorgia Meloni solicită Comisiei Europene relaxarea regulilor fiscale</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T11:00:56+00:00">2 octombrie 2026, 14:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Premierul Italiei cere flexibilitate bugetară de la Bruxelles pentru a sprijini populația și companiile împovărate de scumpirile din energie, pe fondul tensiunilor geopolitice prelungite din Orientul Mijlociu.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/stiri/externe/ue/giorgia-meloni-ii-cere-ursulei-von-der-leyen-sa-relaxeze-regulile-fiscale-ale-ue-ce-solutii-propune-3974757" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+</article>
+<article class="card card-c" data-cat="politic" data-source="Profit.ro" data-title="Președintele Nicușor Dan convoacă partidele parlamentare la Cotroceni pentru desemnarea unui nou premier"><a class="card-media" href="/politic/nicusor-dan-convoaca-partidele-la-cotroceni-pentru-desemnarea-unui-nou-premier/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge c">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/politic/nicusor-dan-convoaca-partidele-la-cotroceni-pentru-desemnarea-unui-nou-premier/">Președintele Nicușor Dan convoacă partidele parlamentare la Cotroceni pentru desemnarea unui nou premier</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T10:42:00+00:00">2 octombrie 2026, 13:42</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Președintele României, Nicușor Dan, a programat pentru ziua de luni o nouă rundă de consultări cu liderii formațiunilor politice parlamentare la Palatul Cotroceni. Discuțiile vin după ce Guvernul condus de Siegfried Mureșan a fost respins în Parlament. Programul oficial începe la ora 14:00 cu reprezentanții PSD și continuă succesiv cu celelalte partide și grupuri parlamentare.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://www.profit.ro/stiri/politic/nicusor-dan-cheama-iar-partidele-la-palatul-cotroceni-luni-presedintele-va-anunta-numele-noului-premier-desemnat-22798461?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a>, <a href="https://newsbv.ro/consultari-luni-la-palatul-cotroceni/" target="_blank" rel="noopener noreferrer">News Brașov</a>, <a href="https://adevarul.ro/politica/consultari-maraton-la-cotroceni-nicusor-dan-2561387.html" target="_blank" rel="noopener noreferrer">Adevărul</a>, <a href="https://alba24.ro/nicusor-dan-cheama-din-nou-partidele-la-cotroceni-consultari-luni-pentru-desemnarea-unui-nou-premier-1160696.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
+</article>
+<article class="card card-c" data-cat="politic" data-source="Spotmedia" data-title="Președintele Nicușor Dan organizează o nouă rundă de consultări politice la Cotroceni"><a class="card-media" href="/politic/presedintele-nicusor-dan-organizeaza-o-noua-runda-de-consultari-politice-la/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge c">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/politic/presedintele-nicusor-dan-organizeaza-o-noua-runda-de-consultari-politice-la/">Președintele Nicușor Dan organizează o nouă rundă de consultări politice la Cotroceni</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T10:27:00+00:00">2 octombrie 2026, 13:27</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Președintele României a convocat o nouă sesiune de consultări cu liderii formațiunilor parlamentare pentru ziua de luni, urmând să anunțe numele celui de-al patrulea premier desemnat după demiterea Guvernului Bolojan. Decizia vine în contextul în care ultimele două guverne propuse, conduse de Adrian Veștea și Siegfried Mureșan, nu au obținut votul de învestitură în Parlament.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://spotmedia.ro/stiri/politica/nicusor-dan-anunta-programul-consultarilor-de-luni" target="_blank" rel="noopener noreferrer">Spotmedia</a>, <a href="https://www.tion.ro/stirile-judetului-timis/luni-noi-consultari-la-cotroceni-partidele-invitate-pe-rand-de-nicusor-dan-2364663/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Timiș Online</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Recorder" data-title="Asemănări economice persistente în soluțiile propuse de partidele politice din România"><a class="card-media" href="/politic/asemanari-economice-persistente-in-solutiile-propuse-de-partidele-politice-din/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/asemanari-economice-persistente-in-solutiile-propuse-de-partidele-politice-din/">Asemănări economice persistente în soluțiile propuse de partidele politice din România</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T09:47:29+00:00">2 octombrie 2026, 12:47</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Specialiștii analizează lipsa de originalitate a programelor de guvernare, unde formațiunile politice reciclează constant aceleași măsuri fiscale și administrative, indiferent de criza politică și absența unui executiv stabil.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://recorder.ro/podcast-de-ce-partidele-vin-cu-aceleasi-solutii-la-problemele-romaniei/" target="_blank" rel="noopener noreferrer">Recorder</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="News Brașov" data-title="Călin Georgescu este încarcerat în arestul Poliției Capitalei alături de trei inculpați acuzați de trafic de droguri"><a class="card-media" href="/politic/calin-georgescu-este-incarcerat-in-arestul-politiei-capitalei-alaturi-de-trei/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/calin-georgescu.jpg" alt="Călin Georgescu" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/calin-georgescu-este-incarcerat-in-arestul-politiei-capitalei-alaturi-de-trei/">Călin Georgescu este încarcerat în arestul Poliției Capitalei alături de trei inculpați acuzați de trafic de droguri</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T09:28:52+00:00">2 octombrie 2026, 12:28</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fostul candidat prezidențial, arestat preventiv într-un dosar de înșelăciune instrumentat de DIICOT cu un prejudiciu de peste un milion de euro, împarte celula cu alte trei persoane cercetate pentru infracțiuni grave legate de stupefiante.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://newsbv.ro/cu-cine-imparte-celula-calin-georgescu/" target="_blank" rel="noopener noreferrer">News Brașov</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Express de Banat" data-title="Eurodeputatul PNL Gheorghe Falcă susține că AUR ar trebui să preia guvernarea"><a class="card-media" href="/politic/eurodeputatul-pnl-gheorghe-falca-sustine-ca-aur-ar-trebui-sa-preia-guvernarea/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/eurodeputatul-pnl-gheorghe-falca-sustine-ca-aur-ar-trebui-sa-preia-guvernarea/">Eurodeputatul PNL Gheorghe Falcă susține că AUR ar trebui să preia guvernarea</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T09:14:47+00:00">2 octombrie 2026, 12:14</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Liberalul Gheorghe Falcă a declarat că formațiunea sa trebuie să treacă în opoziție, lăsând puterea celor care au provocat căderea Cabinetului Bolojan. Acesta consideră că reprezentanții AUR ar trebui lăsați să guverneze pentru a-și demonstra competențele.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://expressdebanat.ro/lider-pnl-e-foarte-bine-ca-aur-sa-ajunga-la-guvernare/" target="_blank" rel="noopener noreferrer">Express de Banat</a></p>
+</article>
 <article class="card" data-cat="politic" data-source="Gazeta de Cluj" data-title="Senatorul Cristian Sipoș propune sprijin financiar de 15 euro per familie de albine"><a class="card-media" href="/politic/senatorul-cristian-sipos-propune-sprijin-financiar-de-15-euro-per-familie-de/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Politică</p></div>
   <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
@@ -228,166 +392,10 @@
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://gazetadecluj.ro/titus-corlatean-victorie-pentru-patrimoniul-aroman-din-grecia-la-adunarea-parlamentara-a-consiliului-europei/" target="_blank" rel="noopener noreferrer">Gazeta de Cluj</a></p>
 </article>
-<article class="card" data-cat="politic" data-source="Gazeta de Cluj" data-title="Critici vehemente la adresa primarului Nicușor Dan privind proiectul unui spital oncologic"><a class="card-media" href="/politic/critici-vehemente-la-adresa-primarului-nicusor-dan-privind-proiectul-unui/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/critici-vehemente-la-adresa-primarului-nicusor-dan-privind-proiectul-unui/">Critici vehemente la adresa primarului Nicușor Dan privind proiectul unui spital oncologic</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T05:12:34+00:00">2 octombrie 2026, 08:12</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Acuzațiile aduse edilului capitalei vizează opoziția față de construirea unei unități medicale pentru copii și cheltuielile efectuate cu litigiile juridice din bugetul local.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://gazetadecluj.ro/nicusor-dan-un-pericol-enorm-pentru-romania/" target="_blank" rel="noopener noreferrer">Gazeta de Cluj</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Jurnalul Olteniei" data-title="Vladimir Putin declară că Rusia va folosi tot arsenalul doar în caz de atac direct"><a class="card-media" href="/politic/vladimir-putin-declara-ca-rusia-va-folosi-tot-arsenalul-doar-in-caz-de-atac/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/vladimir-putin-declara-ca-rusia-va-folosi-tot-arsenalul-doar-in-caz-de-atac/">Vladimir Putin declară că Rusia va folosi tot arsenalul doar în caz de atac direct</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T03:52:23+00:00">2 octombrie 2026, 06:52</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Liderul de la Kremlin a precizat că Moscova nu intenționează să atace prima și va riposta cu toate armele disponibile exclusiv dacă teritoriul rus sau enclava Kaliningrad vor fi vizate de o agresiune directă.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://jurnalulolteniei.ro/putin-ameninta-cu-arsenalul-total-mesaj-pentru-europa/" target="_blank" rel="noopener noreferrer">Jurnalul Olteniei</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Jurnalul Olteniei" data-title="Ministrul Finanțelor asigură plata pensiilor și salariilor"><a class="card-media" href="/politic/ministrul-finantelor-asigura-plata-pensiilor-si-salariilor/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/ministrul-finantelor-asigura-plata-pensiilor-si-salariilor/">Ministrul Finanțelor asigură plata pensiilor și salariilor</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T03:38:25+00:00">2 octombrie 2026, 06:38</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Alexandru Nazare a declarat că pensiile și salariile vor fi achitate la termen, deși este necesar un plan bugetar pentru 2027, iar rectificarea este blocată de statutul Guvernului interimar.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://jurnalulolteniei.ro/alexandru-nazare-pensiile-si-salariile-vor-fi-platite/" target="_blank" rel="noopener noreferrer">Jurnalul Olteniei</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Politico EU" data-title="Alegătorii britanici resping schimbarea sistemului electoral propus de Andy Burnham"><a class="card-media" href="/politic/alegatorii-britanici-resping-schimbarea-sistemului-electoral-propus-de-andy/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/alegatorii-britanici-resping-schimbarea-sistemului-electoral-propus-de-andy/">Alegătorii britanici resping schimbarea sistemului electoral propus de Andy Burnham</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T02:02:00+00:00">2 octombrie 2026, 05:02</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Un sondaj recent arată că 57% dintre cetățenii Marii Britanii se opun renunțării la actualul sistem de vot majoritar uninominal, în ciuda intențiilor premierului de a reforma legislația electorală.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.politico.eu/article/andy-burnham-change-british-elections-voters-poll/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication" target="_blank" rel="noopener noreferrer">Politico EU</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Politico EU" data-title="Liderii europeni analizează scenariul politicii germane fără cancelarul Friedrich Merz"><a class="card-media" href="/politic/liderii-europeni-analizeaza-scenariul-politicii-germane-fara-cancelarul/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/liderii-europeni-analizeaza-scenariul-politicii-germane-fara-cancelarul/">Liderii europeni analizează scenariul politicii germane fără cancelarul Friedrich Merz</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T02:00:00+00:00">2 octombrie 2026, 05:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">În urma înfrângerilor electorale și a conflictelor din coaliție, oficialii de la Bruxelles încep să se pregătească pentru o posibilă cădere politică a cancelarului german Friedrich Merz.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.politico.eu/article/europe-contemplates-life-after-friedrich-merz/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication" target="_blank" rel="noopener noreferrer">Politico EU</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Adevărul" data-title="Nicușor Dan respinge participarea AUR la guvernare"><a class="card-media" href="/politic/nicusor-dan-respinge-participarea-aur-la-guvernare/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">01</span><span class="art-num-wk">joi</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/nicusor-dan-respinge-participarea-aur-la-guvernare/">Nicușor Dan respinge participarea AUR la guvernare</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-01T22:00:26+00:00">2 octombrie 2026, 01:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Președintele Nicușor Dan a intervenit public pentru a exclude formațiunea AUR de la o viitoare guvernare, pe fondul speculațiilor privind o potențială alianță politică între PSD și partidul condus de George Simion.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://adevarul.ro/politica/nicusor-dan-incearca-sa-opreasca-apropierea-psd-de-2561198.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="G4Media" data-title="Democrații americani cer anchetarea ambasadoarei SUA Kimberly Guilfoyle pentru legături cu lobbyiști"><a class="card-media" href="/politic/democratii-americani-cer-anchetarea-ambasadoarei-sua-kimberly-guilfoyle-pentru/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">joi 1 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/kimberly-guilfoyle.jpg" alt="Kimberly Guilfoyle" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/democratii-americani-cer-anchetarea-ambasadoarei-sua-kimberly-guilfoyle-pentru/">Democrații americani cer anchetarea ambasadoarei SUA Kimberly Guilfoyle pentru legături cu lobbyiști</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-01T21:04:33+00:00">2 octombrie 2026, 00:04</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Liderii democrați din Congresul SUA solicită Departamentului de Stat investigarea ambasadoarei Kimberly Guilfoyle, vizată de acuzații privind promovarea intereselor unor companii elene și utilizarea avioanelor private.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.g4media.ro/breaking-kimberlygate-ia-o-turnura-oficiala-congresmani-democrati-de-top-cer-investigarea-ambasadoarei-sua-pentru-relatiile-cu-un-lobbyst-si-calatoriile-cu-avioane-private-ei-cer-lista-intalnirilor.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Spotmedia" data-title="Agenția S&amp;P anunță ratingul României pe fondul riscurilor politice"><a class="card-media" href="/politic/agentia-s-p-anunta-ratingul-romaniei-pe-fondul-riscurilor-politice/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">01</span><span class="art-num-wk">joi</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/agentia-s-p-anunta-ratingul-romaniei-pe-fondul-riscurilor-politice/">Agenția S&amp;P anunță ratingul României pe fondul riscurilor politice</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-01T21:02:00+00:00">2 octombrie 2026, 00:02</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Ministrul interimar al Finanțelor, Alexandru Nazare, declară că disciplina fiscală menținută de stat reprezintă un argument solid pentru păstrarea ratingului de țară recomandat pentru investiții.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://spotmedia.ro/stiri/economie/sp-anunta-astazi-ratingul-romaniei-nazare-incertitudinea-politica-atarna-greu-dar-avem-argumente-solide" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Antena 3 CNN" data-title="Avertismentul privind falimentul TAROM lansat de Cristian Ghinea generează controverse"><a class="card-media" href="/politic/avertismentul-privind-falimentul-tarom-lansat-de-cristian-ghinea-genereaza/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">joi 1 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/avertismentul-privind-falimentul-tarom-lansat-de-cristian-ghinea-genereaza/">Avertismentul privind falimentul TAROM lansat de Cristian Ghinea generează controverse</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-01T20:43:00+00:00">1 octombrie 2026, 23:43</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Declarația senatorului USR care susține că operatorul aerian național ar putea intra în faliment în scurt timp a stârnit critici dure și un avertisment public adresat pasagerilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/economic/scandal-dupa-ce-cristian-ghinea-a-anuntat-ca-tarom-va-da-faliment-in-6-luni-sfatul-meu-este-sa-nu-cumparati-bilet-reactia-companiei-805471.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Știrile ProTV" data-title="Guvernul interimar garantează plata la timp a pensiilor și salariilor"><a class="card-media" href="/politic/guvernul-interimar-garanteaza-plata-la-timp-a-pensiilor-si-salariilor/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-tick"></div><p class="art-when">joi,<br>1 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">1</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/guvernul-interimar-garanteaza-plata-la-timp-a-pensiilor-si-salariilor/">Guvernul interimar garantează plata la timp a pensiilor și salariilor</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-01T20:19:34+00:00">1 octombrie 2026, 23:19</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Ministrul demis Alexandru Nazare a declarat că statul deține resursele financiare necesare achitării drepturilor salariale și a pensiilor, în ciuda blocajului generat de criza politică actuală și de întârzierea rectificării bugetare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://stirileprotv.ro/stiri/actualitate/anuntul-ministrului-demis-nazare-despre-pensii-si-salarii-guvernul-interimar-blocat-in-fata-rectificarii-bugetare.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
-</article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">
 <a href="/politic/9/" rel="prev" aria-label="Pagina anterioară">‹</a>
-<a href="/politic/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/politic/8/" aria-label="Pagina 8">8</a><a href="/politic/9/" aria-label="Pagina 9">9</a><span class="current" aria-current="page">10</span><a href="/politic/11/" aria-label="Pagina 11">11</a><a href="/politic/12/" aria-label="Pagina 12">12</a><span class="gap" aria-hidden="true">…</span><a href="/politic/31/" aria-label="Pagina 31">31</a><a href="/politic/11/" rel="next" aria-label="Pagina următoare">›</a>
+<a href="/politic/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/politic/8/" aria-label="Pagina 8">8</a><a href="/politic/9/" aria-label="Pagina 9">9</a><span class="current" aria-current="page">10</span><a href="/politic/11/" aria-label="Pagina 11">11</a><a href="/politic/12/" aria-label="Pagina 12">12</a><span class="gap" aria-hidden="true">…</span><a href="/politic/30/" aria-label="Pagina 30">30</a><a href="/politic/11/" rel="next" aria-label="Pagina următoare">›</a>
   </nav>
   </main>
 

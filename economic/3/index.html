@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic" class="active">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic" class="active">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,321 +82,313 @@
 </nav>
   <h1 class="section-title">Economie</h1>
   <section class="grid">
-<article class="card" data-cat="economic" data-source="Dobrogea Online" data-title="Consiliul Concurenței a aprobat preluarea a două companii de către Strabag"><a class="card-media" href="/economic/consiliul-concurentei-a-aprobat-preluarea-a-doua-companii-de-catre-strabag/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card" data-cat="economic" data-source="Ziarul Financiar" data-title="Turismul în regim hotelier a atins 4,5 milioane de înnoptări în România"><a class="card-media" href="/economic/turismul-in-regim-hotelier-a-atins-45-milioane-de-innoptari-in-romania/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/turismul-in-regim-hotelier-a-atins-45-milioane-de-innoptari-in-romania/">Turismul în regim hotelier a atins 4,5 milioane de înnoptări în România</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T21:07:00+00:00">6 octombrie 2026, 00:07</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Platformele online precum Airbnb și Booking au înregistrat 4,5 milioane de înnoptări în primele șase luni ale anului în curs, peste jumătate dintre turiști fiind cetățeni străini.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.zf.ro/companii/apartamentele-de-tip-airbnb-din-romania-au-inregistrat-4-5-milioane-de-innoptari-in-primele-sase-luni-dintre-care-mai-bine-de-jumatate-au-fost-generate-de-straini-23253763" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Ziarul Financiar" data-title="PwC România își reorganizează modelul de business spre servicii strategice"><a class="card-media" href="/economic/pwc-romania-isi-reorganizeaza-modelul-de-business-spre-servicii-strategice/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/pwc-romania-isi-reorganizeaza-modelul-de-business-spre-servicii-strategice/">PwC România își reorganizează modelul de business spre servicii strategice</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T21:07:00+00:00">6 octombrie 2026, 00:07</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Firma de audit și consultanță vizează furnizarea de soluții integrate end-to-end pe care să le și implementeze pentru clienți, marcând 35 de ani de activitate pe piața locală.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.zf.ro/pwc-35-de-ani-in-romania/pwc-35-ani-daniel-anghel-country-manager-modelul-business-schimba-iar-rolul-nostru-deveni-parteneri-strategici-oferi-clientilor-solutie-end-to-end-implementam-23253620" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Spotmedia" data-title="Contrabanda cu țigări a atins cel mai ridicat nivel din ultimii cinci ani în România"><a class="card-media" href="/economic/contrabanda-cu-tigari-a-atins-cel-mai-ridicat-nivel-din-ultimii-cinci-ani-in/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">05</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/consiliul-concurentei-a-aprobat-preluarea-a-doua-companii-de-catre-strabag/">Consiliul Concurenței a aprobat preluarea a două companii de către Strabag</a></h2>
+  <h2 class="card-title"><a href="/economic/contrabanda-cu-tigari-a-atins-cel-mai-ridicat-nivel-din-ultimii-cinci-ani-in/">Contrabanda cu țigări a atins cel mai ridicat nivel din ultimii cinci ani în România</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T14:19:28+00:00">5 octombrie 2026, 17:19</time>
+    <time datetime="2026-10-05T21:04:00+00:00">6 octombrie 2026, 00:04</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Grupul austriac Strabag Property and Facility Services a primit avizul autorităților din România pentru a prelua firmele Brenneka Install și Samivo Instal.</p>
+  <p class="summary">Piața neagră a tutunului a crescut la 13,9% din consumul total în iulie 2026, generând pierderi anuale de 2,5 miliarde de lei pentru bugetul de stat, conform datelor prezentate de BAT.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.dobrogeaonline.ro/consiliul-concurentei-a-aprobat-achizitia-brenneka-install-srl-si-samivo-instal-srl-de-catre-strabag-property-and-facility-services-gmbh/" target="_blank" rel="noopener noreferrer">Dobrogea Online</a></p>
+<a href="https://spotmedia.ro/stiri/economie/contrabanda-cu-tigari-la-cel-mai-ridicat-nivel-din-ultimii-cinci-ani-romania-pierde-anual-25-miliarde-de-lei-interviu-cu-ileana-negulescu-bat" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Alba24" data-title="Meșteșugarii primesc sprijin financiar de 2.500 lei pentru participarea la Târgul Național"><a class="card-media" href="/economic/mestesugarii-primesc-sprijin-financiar-de-2-500-lei-pentru-participarea-la/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/mestesugarii-primesc-sprijin-financiar-de-2-500-lei-pentru-participarea-la/">Meșteșugarii primesc sprijin financiar de 2.500 lei pentru participarea la Târgul Național</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T14:15:29+00:00">5 octombrie 2026, 17:15</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Artizanii înscriși la Târgul Național pentru Artizanat și Meșteșuguri beneficiază de gratuitate la standuri și de o subvenție de 2.500 de lei destinată acoperirii cheltuielilor de transport și cazare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://alba24.ro/ajutor-de-2-500-de-lei-pentru-mestesugarii-care-participa-la-targul-national-pentru-artizanat-si-mestesuguri-cine-poate-beneficia-1161071.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="G4Media" data-title="Asigurătorul Digital Anytime Investește 30 de Milioane de Euro în România"><a class="card-media" href="/economic/asiguratorul-digital-anytime-investeste-30-de-milioane-de-euro-in-romania/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/asiguratorul-digital-anytime-investeste-30-de-milioane-de-euro-in-romania/">Asigurătorul Digital Anytime Investește 30 de Milioane de Euro în România</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T13:49:23+00:00">5 octombrie 2026, 16:49</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Brandul de asigurări Anytime, parte a grupului olandez Achmea, a anunțat un plan masiv de investiții de 30 de milioane de euro pentru următorii cinci ani pe piața locală, vizând extinderea portofoliului.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.g4media.ro/asiguratorul-digital-anytime-anunta-investitii-de-30-milioane-de-euro-in-romania-in-urmatorii-5-ani-crestem-organic.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="BizBrașov" data-title="Creștere a numărului de insolvențe în septembrie, afectând Horeca și transporturile"><a class="card-media" href="/economic/crestere-a-numarului-de-insolvente-in-septembrie-afectand-horeca-si/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/crestere-a-numarului-de-insolvente-in-septembrie-afectand-horeca-si/">Creștere a numărului de insolvențe în septembrie, afectând Horeca și transporturile</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T13:06:58+00:00">5 octombrie 2026, 16:06</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Economia națională a consemnat 869 de dosare de insolvență în septembrie, un număr mai mare comparativ cu aceeași perioadă din 2025. Sectoarele Horeca și transporturile se numără printre cele mai vulnerabile.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://bizbrasov.ro/2026/10/05/insolventelor-septembrie-a-crescut-horeca/" target="_blank" rel="noopener noreferrer">BizBrașov</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Ziarul Financiar" data-title="UiPath figurează în topul companiilor antreprenoriale din România cu peste o mie de angajați raportați"><a class="card-media" href="/economic/uipath-figureaza-in-topul-companiilor-antreprenoriale-din-romania-cu-peste-o/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
+<article class="card" data-cat="economic" data-source="Ziarul Financiar" data-title="Patronatele cer un nou program de sprijin pentru achiziția de locuințe"><a class="card-media" href="/economic/patronatele-cer-un-nou-program-de-sprijin-pentru-achizitia-de-locuinte/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/uipath-figureaza-in-topul-companiilor-antreprenoriale-din-romania-cu-peste-o/">UiPath figurează în topul companiilor antreprenoriale din România cu peste o mie de angajați raportați</a></h2>
+  <h2 class="card-title"><a href="/economic/patronatele-cer-un-nou-program-de-sprijin-pentru-achizitia-de-locuinte/">Patronatele cer un nou program de sprijin pentru achiziția de locuințe</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T13:00:00+00:00">5 octombrie 2026, 16:00</time>
+    <time datetime="2026-10-05T21:07:00+00:00">6 octombrie 2026, 00:07</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Celebrul producător internațional de tehnologie fondat de Daniel Dines, listat la bursa din New York, menține o prezență semnificativă în clasamentul firmelor locale pe baza datelor financiare raportate la Ministerul Finanțelor.</p>
+  <p class="summary">Creșterea dobânzilor, prețul ridicat al energiei și al imobiliarelor au blocat accesul populației la locuințe, determinând cererea unui program guvernamental similar celui din perioada 2009-2011.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.zf.ro/anuar-zf-top-100-companii-antreprenoriale-romanesti-2026/top-100-companii-antreprenoriale-din-romania-uipath-23252385" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
+<a href="https://www.zf.ro/business-construct/prima-casa-ecosistem-patronatele-vor-program-criza-2009-2011-salvat-piata-imobiliara-contractul-social-crescut-generatia-noastra-indragostesti-casatoresti-iti-gasesti-casa-faci-copii-muti-intr-casa-23253696" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="AutoCritica" data-title="Compania de asigurări digitale Anytime a depășit pragul de șaizeci de mii de clienți în primul an"><a class="card-media" href="/economic/compania-de-asigurari-digitale-anytime-a-depasit-pragul-de-saizeci-de-mii-de/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
+<article class="card" data-cat="economic" data-source="Antena 3 CNN" data-title="Inginerii de la Groq dau în judecată Nvidia după un acord de 20 miliarde dolari"><a class="card-media" href="/economic/inginerii-de-la-groq-dau-in-judecata-nvidia-dupa-un-acord-de-20-miliarde-dolari/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/compania-de-asigurari-digitale-anytime-a-depasit-pragul-de-saizeci-de-mii-de/">Compania de asigurări digitale Anytime a depășit pragul de șaizeci de mii de clienți în primul an</a></h2>
+  <h2 class="card-title"><a href="/economic/inginerii-de-la-groq-dau-in-judecata-nvidia-dupa-un-acord-de-20-miliarde-dolari/">Inginerii de la Groq dau în judecată Nvidia după un acord de 20 miliarde dolari</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T12:42:37+00:00">5 octombrie 2026, 15:42</time>
+    <time datetime="2026-10-05T20:56:00+00:00">5 octombrie 2026, 23:56</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Brandul digital administrat de Interamerican, parte a grupului olandez Achmea, raportează rezultate financiare solide și milioane de oferte generate pe piața românească de la lansarea sa de anul trecut.</p>
+  <p class="summary">Doi foști ingineri ai startup-ului Groq au intentat un proces în Delaware, acuzând compania că i-a păgubit în cadrul tranzacției majore de 20 de miliarde de dolari încheiate cu gigantul Nvidia.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.autocritica.ro/live-news/compania-de-asigurari-anytime-60-000-de-clienti-in-primul-an-de-la-debutul-in-romania/" target="_blank" rel="noopener noreferrer">AutoCritica</a></p>
+<a href="https://www.antena3.ro/high-tech/nvidia-in-centrul-unui-proces-dupa-acordul-de-20-de-miliarde-de-dolari-cu-groq-inginerii-lasati-pe-dinafara-acuza-ca-au-fost-pacaliti-805920.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Curs de Guvernare" data-title="Industria prelucrătoare din România se menține în expansiune, dar evitarea declinului este nesigură"><a class="card-media" href="/economic/industria-prelucratoare-din-romania-se-mentine-in-expansiune-dar-evitarea/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
-  <div class="art-rule"></div>
+<article class="card" data-cat="economic" data-source="Adevărul" data-title="Moneda unică europeană a atins pragul de 5,33 lei la cursul BNR"><a class="card-media" href="/economic/moneda-unica-europeana-a-atins-pragul-de-533-lei-la-cursul-bnr/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/industria-prelucratoare-din-romania-se-mentine-in-expansiune-dar-evitarea/">Industria prelucrătoare din România se menține în expansiune, dar evitarea declinului este nesigură</a></h2>
+  <h2 class="card-title"><a href="/economic/moneda-unica-europeana-a-atins-pragul-de-533-lei-la-cursul-bnr/">Moneda unică europeană a atins pragul de 5,33 lei la cursul BNR</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T12:12:47+00:00">5 octombrie 2026, 15:12</time>
+    <time datetime="2026-10-05T20:50:25+00:00">5 octombrie 2026, 23:50</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Indicatorul PMI calculat de BCR a atins valoarea de 50,9 în septembrie, marcând a treia lună consecutivă de creștere, însă ritmul lent nu este suficient pentru a preveni al patrulea an de contracție industrială.</p>
+  <p class="summary">Banca Națională a României a afișat un curs de 5,33 lei pentru un euro, moneda europeană înregistrând o apreciere de aproximativ 4,7% față de leu în ultimele zece luni ale anului 2026.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/indicatorul-pmi-pentru-industria-prelucratoare-se-mentine-de-trei-luni-consecutive-in-domeniul-de-expansiune-insuficient-insa-pentru-a-evita-al-patrulea-an-de-scadere-a-industriei.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
+<a href="https://adevarul.ro/economie/euro-a-ajuns-la-533-lei-cum-ii-loveste-pe-romani-2561874.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Ziarul de Ploiești" data-title="Rafinăria Petrotel din România, vizată de o tranzacție între americani și ruși"><a class="card-media" href="/economic/rafinaria-petrotel-din-romania-vizata-de-o-tranzactie-intre-americani-si-rusi/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card card-c" data-cat="economic" data-source="Profit.ro" data-title="Ferma Black Angus a lui Gigi Nețoiu, amendată de Apele Române"><a class="card-media" href="/economic/ferma-black-angus-a-lui-gigi-netoiu-amendata-de-apele-romane/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">05</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge c">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/economic/ferma-black-angus-a-lui-gigi-netoiu-amendata-de-apele-romane/">Ferma Black Angus a lui Gigi Nețoiu, amendată de Apele Române</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T20:04:00+00:00">5 octombrie 2026, 23:04</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Societatea care administrează ferma de bovine Black Angus din comuna Cetate, județul Dolj, controlată de omul de afaceri Gigi Nețoiu, a fost sancționată de inspectorii Administrației Bazinale de Apă Jiu. Unitatea a primit o amendă de 40.000 de lei din cauza nerespectării unor măsuri dispuse în urma unui control anterior.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://www.profit.ro/profitul-tau/foto-gigi-netoiu-amendat-pentru-ferma-de-vite-black-angus-22804782?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a>, <a href="https://adevarul.ro/stiri-interne/evenimente/ferma-black-angus-a-lui-gigi-netoiu-amendata-cu-2562034.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Economica" data-title="Producția agricolă a României a înregistrat o creștere semnificativă a recoltei de grâu"><a class="card-media" href="/economic/productia-agricola-a-romaniei-a-inregistrat-o-crestere-semnificativa-a-recoltei/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/productia-agricola-a-romaniei-a-inregistrat-o-crestere-semnificativa-a-recoltei/">Producția agricolă a României a înregistrat o creștere semnificativă a recoltei de grâu</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T19:37:44+00:00">5 octombrie 2026, 22:37</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Ministerul Agriculturii raportează că fermierii români au depozitat peste 13,5 milioane de tone de grâu, secară și triticale până la finalul lunii august, depășind cu 14% rezultatele din anul precedent datorită extinderii suprafețelor cultivate.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.economica.net/este-oficial-productia-de-grau-din-acest-an-a-depatit-o-pe-cea-de-anul-trecut-cat-au-bagat-fermierii-in-hambare_981460.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Economica" data-title="Ucraina construiește un parc eolian gigant pentru export în România"><a class="card-media" href="/economic/ucraina-construieste-un-parc-eolian-gigant-pentru-export-in-romania/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">05</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/rafinaria-petrotel-din-romania-vizata-de-o-tranzactie-intre-americani-si-rusi/">Rafinăria Petrotel din România, vizată de o tranzacție între americani și ruși</a></h2>
+  <h2 class="card-title"><a href="/economic/ucraina-construieste-un-parc-eolian-gigant-pentru-export-in-romania/">Ucraina construiește un parc eolian gigant pentru export în România</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T11:53:47+00:00">5 octombrie 2026, 14:53</time>
+    <time datetime="2026-10-05T19:35:33+00:00">5 octombrie 2026, 22:35</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Publicația New York Times informează că activele companiei Lukoil, inclusiv rafinăriile din România și Bulgaria sancționate de SUA, ar putea fi preluate în cadrul unei înțelegeri intermediate de investitori apropiați Casei Albe.</p>
+  <p class="summary">Comisia Europeană a aprobat proiectul parcului eolian Poltavska din Ucraina, cu o capacitate de 650 MW. Investiția aparține miliardarului Rinat Ahmetov și va livra energie electrică și în România.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.zdp.ro/rafinaria-petrotel-ar-putea-fi-obiectul-unei-tranzactii-intre-rusi-si-americani.html" target="_blank" rel="noopener noreferrer">Ziarul de Ploiești</a></p>
+<a href="https://www.economica.net/ucraina-construieste-un-parc-eolian-urias-care-sa-livreze-energie-inclusiv-in-romania-proiectul-a-fost-acceptat-de-bruxelles_982824.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Start-up.ro" data-title="Conferința How to Web 2026 aduce în prim-plan antreprenorii de impact"><a class="card-media" href="/economic/conferinta-how-to-web-2026-aduce-in-prim-plan-antreprenorii-de-impact/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
+<article class="card" data-cat="economic" data-source="Observator" data-title="Românii au redus investițiile cu 3,6 miliarde de lei"><a class="card-media" href="/economic/romanii-au-redus-investitiile-cu-36-miliarde-de-lei/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">05</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/romanii-au-redus-investitiile-cu-36-miliarde-de-lei/">Românii au redus investițiile cu 3,6 miliarde de lei</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T18:46:00+00:00">5 octombrie 2026, 21:46</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Nesiguranța economică i-a determinat pe români să economisească mai mult și să investească cu 3,6 miliarde de lei mai puțin față de anul trecut, ignorând randamentele avantajoase.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://observatornews.ro/economic/romanii-tin-de-bani-in-vremuri-nesigure-au-investit-cu-36-miliarde-de-lei-mai-putin-decat-anul-trecut-668232.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Economica" data-title="Industria regenerabilelor cere ANRE reducerea garanției pentru baterii"><a class="card-media" href="/economic/industria-regenerabilelor-cere-anre-reducerea-garantiei-pentru-baterii/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/industria-regenerabilelor-cere-anre-reducerea-garantiei-pentru-baterii/">Industria regenerabilelor cere ANRE reducerea garanției pentru baterii</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T19:35:17+00:00">5 octombrie 2026, 22:35</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Producătorii de energie verde solicită ANRE scăderea garanției financiare pentru proiectele de stocare în baterii de la 30.000 la 5.000 de euro per megawatt instalat, pentru a facilita investițiile.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.economica.net/industria-regenerabilelor-a-cerut-anre-reducerea-garantiei-cerute-pentru-proiectele-de-baterii-la-5-000-de-euro-mw-de-la-30-000-cat-este-acum_982896.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="News Brașov" data-title="Românii cheltuiesc mai mult pe vicii decât pe educație"><a class="card-media" href="/economic/romanii-cheltuiesc-mai-mult-pe-vicii-decat-pe-educatie/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/conferinta-how-to-web-2026-aduce-in-prim-plan-antreprenorii-de-impact/">Conferința How to Web 2026 aduce în prim-plan antreprenorii de impact</a></h2>
+  <h2 class="card-title"><a href="/economic/romanii-cheltuiesc-mai-mult-pe-vicii-decat-pe-educatie/">Românii cheltuiesc mai mult pe vicii decât pe educație</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T11:48:49+00:00">5 octombrie 2026, 14:48</time>
+    <time datetime="2026-10-05T17:15:14+00:00">5 octombrie 2026, 20:15</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Ediția din acest an a evenimentului How to Web include o sesiune specială dedicată antreprenorilor care dezvoltă afaceri cu impact social și fondatorilor interesați să investească în acest segment economic sustenabil.</p>
+  <p class="summary">Datele Institutului Național de Statistică arată că gospodăriile din România alocă lunar în medie 300 de lei pentru alcool și tutun, comparativ cu doar 23 de lei destinați educației.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://start-up.ro/somebody-has-to-get-paid-to-fix-this-antreprenorii-de-impact-si-investitorii-se-intalnesc-la-how-to-web-2026/" target="_blank" rel="noopener noreferrer">Start-up.ro</a></p>
+<a href="https://newsbv.ro/buget-familii-educatie/" target="_blank" rel="noopener noreferrer">News Brașov</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="AutoMarket" data-title="Compania CATL a reluat producția la fabrica de baterii din Ungaria"><a class="card-media" href="/economic/compania-catl-a-reluat-productia-la-fabrica-de-baterii-din-ungaria/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="economic" data-source="Alba24" data-title="O delegație din Libia evaluează fermele românești pentru reluarea exporturilor de ovine"><a class="card-media" href="/economic/o-delegatie-din-libia-evalueaza-fermele-romanesti-pentru-reluarea-exporturilor/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
   <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/compania-catl-a-reluat-productia-la-fabrica-de-baterii-din-ungaria/">Compania CATL a reluat producția la fabrica de baterii din Ungaria</a></h2>
+  <h2 class="card-title"><a href="/economic/o-delegatie-din-libia-evalueaza-fermele-romanesti-pentru-reluarea-exporturilor/">O delegație din Libia evaluează fermele românești pentru reluarea exporturilor de ovine</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T07:33:00+00:00">5 octombrie 2026, 10:33</time>
+    <time datetime="2026-10-05T16:30:06+00:00">5 octombrie 2026, 19:30</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Producția de test de la uzina de baterii CATL din Debrecen a fost reluată după ce autoritățile locale au aprobat redeschiderea în urma unei inspecții, o decizie anterioară fiind suspendată din motive de mediu.</p>
+  <p class="summary">Autoritățile veterinare din România negociază reluarea exporturilor de oi către Libia, o piață blocată anterior din cauza focarelor de variolă. Oficialii libieni verifică direct condițiile din abatoare și ferme.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.automarket.ro/stiri/catl-reia-productia-la-fabrica-de-baterii-din-ungaria-dupa-suspendarea-128917.html" target="_blank" rel="noopener noreferrer">AutoMarket</a></p>
+<a href="https://alba24.ro/romania-pregateste-reluarea-exporturilor-de-ovine-o-delegatie-din-libia-evalueaza-fermele-si-abatoarele-1161195.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Ziarul Financiar" data-title="ENEVO Group mizează pe extinderea afacerilor în domeniul energiei verzi"><a class="card-media" href="/economic/enevo-group-mizeaza-pe-extinderea-afacerilor-in-domeniul-energiei-verzi/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
+<article class="card" data-cat="economic" data-source="Economica" data-title="Federația Agro-Star cere explicații privind reorganizarea APIA"><a class="card-media" href="/economic/federatia-agro-star-cere-explicatii-privind-reorganizarea-apia/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/federatia-agro-star-cere-explicatii-privind-reorganizarea-apia/">Federația Agro-Star cere explicații privind reorganizarea APIA</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T16:05:36+00:00">5 octombrie 2026, 19:05</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Sindicatul agricol solicită clarificări Ministerului Agriculturii după declarațiile ministrului interimar Tanczos Barna, temându-se că măsurile de restructurare vor afecta stabilitatea profesională și drepturile angajaților instituției.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.economica.net/federatia-agro-star-2022-cere-ministerului-agriculturii-clarificari-cu-privire-la-intentia-de-reorganizare-a-apia_982939.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Economica" data-title="S&amp;P confirmă ratingul României, reducând costurile de finanțare"><a class="card-media" href="/economic/s-p-confirma-ratingul-romaniei-reducand-costurile-de-finantare/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/s-p-confirma-ratingul-romaniei-reducand-costurile-de-finantare/">S&amp;P confirmă ratingul României, reducând costurile de finanțare</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T15:52:57+00:00">5 octombrie 2026, 18:52</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Ministrul Finanțelor a salutat menținerea ratingului de țară de către S&amp;P, subliniind că această decizie menține încrederea investitorilor și a generat scăderea randamentelor titlurilor de stat pe piața financiară.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.economica.net/nazare-confirmarea-ratingului-de-catre-sp-dupa-fitch-si-moodys-demonstreaza-cat-de-importanta-este-acesta-pentru-pastrarea-increderii-investitorilor-si-reducerea-costurilor-de-finantare_982937.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Curs de Guvernare" data-title="Goldman Sachs anticipează menținerea dobânzii BNR la 6,50%"><a class="card-media" href="/economic/goldman-sachs-anticipeaza-mentinerea-dobanzii-bnr-la-650/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/goldman-sachs-anticipeaza-mentinerea-dobanzii-bnr-la-650/">Goldman Sachs anticipează menținerea dobânzii BNR la 6,50%</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T15:31:55+00:00">5 octombrie 2026, 18:31</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Banca Națională a României va lăsa dobânda de politică monetară la 6,50%, estimările Goldman Sachs indicând drept cauze incertitudinile fiscale, politice și fluctuațiile monedei naționale în raport cu euro.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://cursdeguvernare.ro/goldman-sachs-bnr-va-mentine-joi-dobanda-neschimbata-din-cauza-nivelului-ridicat-al-incertitudinilor-si-al-deprecierii-leului.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Economedia" data-title="Investitorii de private equity mențin încrederea în piața din România și regiune"><a class="card-media" href="/economic/investitorii-de-private-equity-mentin-increderea-in-piata-din-romania-si-regiune/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/enevo-group-mizeaza-pe-extinderea-afacerilor-in-domeniul-energiei-verzi/">ENEVO Group mizează pe extinderea afacerilor în domeniul energiei verzi</a></h2>
+  <h2 class="card-title"><a href="/economic/investitorii-de-private-equity-mentin-increderea-in-piata-din-romania-si-regiune/">Investitorii de private equity mențin încrederea în piața din România și regiune</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T07:00:00+00:00">5 octombrie 2026, 10:00</time>
+    <time datetime="2026-10-05T15:26:39+00:00">5 octombrie 2026, 18:26</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Compania românească ENEVO Group, care gestionează proiecte majore de energie regenerabilă și stocare, estimează o creștere financiară importantă și își propune să continue trendul pozitiv pe termen lung.</p>
+  <p class="summary">Studiul Deloitte arată că indicele de încredere al investitorilor privați rămâne stabil în Europa Centrală. Peste o treime dintre respondenți văd România drept o destinație tot mai atractivă pentru afaceri.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.zf.ro/anuar-zf-top-100-companii-antreprenoriale-romanesti-2026/top-100-companii-antreprenoriale-din-romania-enevo-group-23251827" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
+<a href="https://economedia.ro/piata-regionala-de-ma-isi-mentine-rezilienta-radu-dumitrescu-deloitte-romania-devine-o-destinatie-tot-mai-relevanta.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Observator" data-title="Casa de Pensii recomandă verificarea vechimii în muncă pentru a evita erorile"><a class="card-media" href="/economic/casa-de-pensii-recomanda-verificarea-vechimii-in-munca-pentru-a-evita-erorile/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="economic" data-source="HotNews" data-title="Moody’s avertizează că scăderea populației europene va genera crize pentru pensii"><a class="card-media" href="/economic/moodys-avertizeaza-ca-scaderea-populatiei-europene-va-genera-crize-pentru-pensii/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">05</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/moodys-avertizeaza-ca-scaderea-populatiei-europene-va-genera-crize-pentru-pensii/">Moody’s avertizează că scăderea populației europene va genera crize pentru pensii</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T15:24:30+00:00">5 octombrie 2026, 18:24</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Agenția Moody&#39;s semnalează că declinul demografic din Europa va reduce numărul angajaților și va crește presiunea financiară asupra sistemului de pensii începând din 2029, un deficit pe care inteligența artificială nu îl poate acoperi integral.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://hotnews.ro/avertismentul-moodys-din-2029-populatia-europei-va-incepe-sa-scada-cine-va-mai-plati-pensiile-2367663" target="_blank" rel="noopener noreferrer">HotNews</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Economedia" data-title="De ce rămân românii fără economii în ciuda veniturilor mai mari"><a class="card-media" href="/economic/de-ce-raman-romanii-fara-economii-in-ciuda-veniturilor-mai-mari/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/casa-de-pensii-recomanda-verificarea-vechimii-in-munca-pentru-a-evita-erorile/">Casa de Pensii recomandă verificarea vechimii în muncă pentru a evita erorile</a></h2>
+  <h2 class="card-title"><a href="/economic/de-ce-raman-romanii-fara-economii-in-ciuda-veniturilor-mai-mari/">De ce rămân românii fără economii în ciuda veniturilor mai mari</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T06:58:00+00:00">5 octombrie 2026, 09:58</time>
+    <time datetime="2026-10-05T15:16:36+00:00">5 octombrie 2026, 18:16</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Verificarea stagiului decotizat în evidențele Casei de Pensii ajută la identificarea perioadelor lipsă care pot reduce valoarea finală a pensiei cuvenite.</p>
+  <p class="summary">Specialiștii financiare explică fenomenul inflației stilului de viitor, prin care majorările salariale sunt absorbite rapid de cheltuieli ridicate pentru locuințe, mașini sau cumpărături impulsive, lăsând bugetul personal fără rezerve.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://observatornews.ro/sondaj/sondaj-vati-verificat-vechimea-in-munca-la-casa-de-pensii-668167.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
+<a href="https://economedia.ro/de-ce-raman-romanii-fara-bani-de-rezerva-desi-castiga-mai-mult-sfaturile-expertilor-pentru-un-buget-echilibrat.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="News Brașov" data-title="Fermierii români pot încasa avansul din subvenții începând cu 16 octombrie"><a class="card-media" href="/economic/fermierii-romani-pot-incasa-avansul-din-subventii-incepand-cu-16-octombrie/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+<article class="card" data-cat="economic" data-source="Economica" data-title="Ministerul Finanțelor a împrumutat 532 de milioane de lei de la bănci"><a class="card-media" href="/economic/ministerul-finantelor-a-imprumutat-532-de-milioane-de-lei-de-la-banci/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">05</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/fermierii-romani-pot-incasa-avansul-din-subventii-incepand-cu-16-octombrie/">Fermierii români pot încasa avansul din subvenții începând cu 16 octombrie</a></h2>
+  <h2 class="card-title"><a href="/economic/ministerul-finantelor-a-imprumutat-532-de-milioane-de-lei-de-la-banci/">Ministerul Finanțelor a împrumutat 532 de milioane de lei de la bănci</a></h2>
   <div class="meta">
-    <time datetime="2026-10-05T06:56:19+00:00">5 octombrie 2026, 09:56</time>
+    <time datetime="2026-10-05T15:24:03+00:00">5 octombrie 2026, 18:24</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Ministerul Agriculturii și APIA pregătesc acordarea avansului din subvenții pentru agricultori începând din 16 octombrie, sumele putând acoperi până la 75% din cuantumul total sprijinit.</p>
+  <p class="summary">Statul a atras fonduri suplimentare de la băncile comerciale printr-o emisiune de titluri de stat, având programată o nouă licitație pentru a atrage sume suplimentare la randamentul stabilit.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://newsbv.ro/fermierii-pot-primi-avansul-din-subventii-16-octombrie/" target="_blank" rel="noopener noreferrer">News Brașov</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Economedia" data-title="Evergent Investments renunță la investiția în compania aeriană AnimaWings"><a class="card-media" href="/economic/evergent-investments-renunta-la-investitia-in-compania-aeriana-animawings/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/evergent-investments-renunta-la-investitia-in-compania-aeriana-animawings/">Evergent Investments renunță la investiția în compania aeriană AnimaWings</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T06:50:05+00:00">5 octombrie 2026, 09:50</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Fondul de investiții a anunțat oficial că nu va mai finanța operatorul aerian, după ce acesta a solicitat intrarea în insolvență. BT Asset Management a confirmat la rândul său că nu a devenit acționar.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://economedia.ro/tranzactie-esuata-evergent-investments-anunta-ca-nu-mai-investeste-in-anima-wings-companie-care-a-solicitat-nsolventa.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Economedia" data-title="OPEC+ menține producția de petrol, iar carburanții în România depășesc 10 lei"><a class="card-media" href="/economic/opec-mentine-productia-de-petrol-iar-carburantii-in-romania-depasesc-10-lei/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/opec-mentine-productia-de-petrol-iar-carburantii-in-romania-depasesc-10-lei/">OPEC+ menține producția de petrol, iar carburanții în România depășesc 10 lei</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T06:42:52+00:00">5 octombrie 2026, 09:42</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Alianța OPEC+ a decis să nu majoreze extracția de țiței pentru luna viitoare, menținând cotațiile internaționale ridicate pe fondul conflictelor din Orientul Mijlociu, ceea ce ține prețul carburantului în România peste pragul de 10 lei.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://economedia.ro/opec-mentine-productia-de-petrol-in-noiembrie-carburantii-din-romania-raman-la-peste-10-lei-pe-litru.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Profit.ro" data-title="Micron anunță că deficitul de memorii semiconductori va continua până cel puțin în 2028"><a class="card-media" href="/economic/micron-anunta-ca-deficitul-de-memorii-semiconductori-va-continua-pana-cel-putin/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/micron-anunta-ca-deficitul-de-memorii-semiconductori-va-continua-pana-cel-putin/">Micron anunță că deficitul de memorii semiconductori va continua până cel puțin în 2028</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T06:41:00+00:00">5 octombrie 2026, 09:41</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Directorul companiei americane Micron avertizează că actuala criză pe piața componentelor de memorie nu se va remedia curând, estimând că problemele de aprovizionare vor persista până în anul 2028.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.profit.ro/povesti-cu-profit/it-c/anunt-criza-memoriilor-nu-se-va-termina-prea-curand-spune-seful-micron-22803130?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="HotNews" data-title="BRD subliniază importanța creării unei infrastructuri pentru antreprenoare"><a class="card-media" href="/economic/brd-subliniaza-importanta-crearii-unei-infrastructuri-pentru-antreprenoare/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/brd-subliniaza-importanta-crearii-unei-infrastructuri-pentru-antreprenoare/">BRD subliniază importanța creării unei infrastructuri pentru antreprenoare</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T06:35:33+00:00">5 octombrie 2026, 09:35</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Reprezentanta BRD, Lidia Capmare, a evidențiat că dezvoltarea afacerilor conduse de femei necesită condiții favorabile de creștere și competitivitate pe termen lung, dincolo de simpla finanțare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/lidia-capmare-brd-avem-nevoie-de-o-infrastructura-a-oportunitatilor-pentru-antreprenoare-2366782" target="_blank" rel="noopener noreferrer">HotNews</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Connect.ro" data-title="Paramount și Warner Bros. Discovery fuzionează sub denumirea Skydance"><a class="card-media" href="/economic/paramount-si-warner-bros-discovery-fuzioneaza-sub-denumirea-skydance/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/paramount-si-warner-bros-discovery-fuzioneaza-sub-denumirea-skydance/">Paramount și Warner Bros. Discovery fuzionează sub denumirea Skydance</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T06:32:21+00:00">5 octombrie 2026, 09:32</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Grupul rezultat din tranzacția evaluată la 110 miliarde de dolari va opera sub noua identitate condusă de David Ellison, menținând totodată vizibilitatea mărcilor componente până la finalizarea fuziunii.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.connect.ro/2026/10/05/skydance-fuziune-paramount-warner-bros/" target="_blank" rel="noopener noreferrer">Connect.ro</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="HotNews" data-title="Încrederea investitorilor de private equity în Europa Centrală rămâne stabilă"><a class="card-media" href="/economic/increderea-investitorilor-de-private-equity-in-europa-centrala-ramane-stabila/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">05</span><span class="art-num-wk">luni</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/increderea-investitorilor-de-private-equity-in-europa-centrala-ramane-stabila/">Încrederea investitorilor de private equity în Europa Centrală rămâne stabilă</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T06:29:13+00:00">5 octombrie 2026, 09:29</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Potrivit unui studiu realizat de Deloitte, fondurile de investiții își mențin perspectivele optimiste pentru regiune, în ciuda mediului economic dificil din această perioadă.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/studiu-deloitte-investitorii-de-private-equity-isi-mentin-increderea-in-perspectivele-europei-centrale-2366794" target="_blank" rel="noopener noreferrer">HotNews</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Antena 3 CNN" data-title="România a importat mai multă energie decât a produs din cauza crizei energetice"><a class="card-media" href="/economic/romania-a-importat-mai-multa-energie-decat-a-produs-din-cauza-crizei-energetice/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/romania-a-importat-mai-multa-energie-decat-a-produs-din-cauza-crizei-energetice/">România a importat mai multă energie decât a produs din cauza crizei energetice</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-05T06:26:00+00:00">5 octombrie 2026, 09:26</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Sistemul energetic național a ajuns la limită sâmbătă seară, volumul energiei cumpărate din afara țării depășind producția internă și atingând un nivel record de aproape 4.000 MW.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/economic/situatie-critica-in-sistemul-energetic-romania-s-a-apropiat-de-limita-de-4-000-mw-din-import-si-a-cumparat-energie-peste-cat-producea-805769.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
+<a href="https://www.economica.net/ministerul-finantelor-a-imprumutat-532-de-milioane-lei-de-la-banci_982932.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

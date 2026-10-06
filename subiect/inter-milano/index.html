@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -72,8 +78,20 @@
   <h1 class="section-title">Subiect: Inter Milano</h1>
   <p class="follow"><a href="/subiect/inter-milano/feed.xml">Urmărește acest subiect (RSS) &rarr;</a></p>
   <p class="connections">Conexiuni:
-<a href="/subiect/cristian-chivu/">Cristian Chivu</a> · <a href="/subiect/as-roma/">AS Roma</a> · <a href="/subiect/wesley-sneijder/">Wesley Sneijder</a> · <a href="/subiect/davide-frattesi/">Davide Frattesi</a> · <a href="/subiect/parma/">Parma</a> · <a href="/subiect/trento/">Trento</a></p>
+<a href="/subiect/as-roma/">AS Roma</a> · <a href="/subiect/cristian-chivu/">Cristian Chivu</a> · <a href="/subiect/wesley-sneijder/">Wesley Sneijder</a> · <a href="/subiect/parma/">Parma</a> · <a href="/subiect/cagliari/">Cagliari</a> · <a href="/subiect/chivu/">Chivu</a></p>
   <ol class="timeline">
+    <li>
+      <time datetime="2026-10-06T10:15:03+00:00">6 octombrie 2026, 13:15</time>
+      <a href="/sport/maurizio-compagnoni-dezvaluie-un-transfer-ratat-al-interului/">Maurizio Compagnoni dezvăluie un transfer ratat al Interului</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:45:49+00:00">6 octombrie 2026, 12:45</time>
+      <a href="/sport/situatia-contractuala-a-fotbalistului-sebastiano-esposito-la-inter-milano/">Situația contractuală a fotbalistului Sebastiano Esposito la Inter Milano</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:32:16+00:00">6 octombrie 2026, 12:32</time>
+      <a href="/sport/clubul-arsenal-londra-monitorizeaza-atent-evolutiile-atacantului-pio-esposito/">Clubul Arsenal Londra monitorizează atent evoluțiile atacantului Pio Esposito de la Inter Milano</a>
+    </li>
     <li>
       <time datetime="2026-10-05T22:52:33+00:00">6 octombrie 2026, 01:52</time>
       <a href="/sport/inter-milano-spera-la-un-profit-financiar-dintr-un-viitor-transfer-al-lui/">Inter Milano speră la un profit financiar dintr-un viitor transfer al lui Lucien Agoumé</a>
@@ -157,10 +175,6 @@
     <li>
       <time datetime="2026-10-01T18:15:19+00:00">1 octombrie 2026, 21:15</time>
       <a href="/sport/wesley-sneijder-a-dezvaluit-detalii-despre-transferul-de-la-real-madrid-la-inter/">Wesley Sneijder a dezvăluit detalii despre transferul de la Real Madrid la Inter</a>
-    </li>
-    <li>
-      <time datetime="2026-10-01T06:00:30+00:00">1 octombrie 2026, 09:00</time>
-      <a href="/sport/inter-milano-monitorizeaza-atent-evolutia-tanarului-mijlocas-alessandro-romano/">Inter Milano monitorizează atent evoluția tânărului mijlocaș Alessandro Romano de la Cagliari</a>
     </li>
     <li>
       <time datetime="2026-09-30T19:05:55+00:00">30 septembrie 2026, 22:05</time>
@@ -255,6 +269,10 @@
       <a href="/sport/inter-milano-analizeaza-posibilele-plecari-importante-din-lotul-de-jucatori/">Inter Milano analizează posibilele plecări importante din lotul de jucători</a>
     </li>
     <li>
+      <time datetime="2026-09-24T22:30:08+00:00">25 septembrie 2026, 01:30</time>
+      <a href="/sport/inter-milano-a-pus-ochii-pe-tanarul-fotbalist-alessandro-romano/">Inter Milano a pus ochii pe tânărul fotbalist Alessandro Romano</a>
+    </li>
+    <li>
       <time datetime="2026-09-24T21:03:01+00:00">25 septembrie 2026, 00:03</time>
       <a href="/sport/jucatorii-echipei-inter-milano-au-evoluat-in-partidele-echipelor-nationale/">Jucătorii echipei Inter Milano au evoluat în partidele echipelor naționale</a>
     </li>
@@ -265,10 +283,6 @@
     <li>
       <time datetime="2026-09-24T17:30:35+00:00">24 septembrie 2026, 20:30</time>
       <a href="/sport/stefano-capozucca-a-analizat-meciul-dintre-roma-si-inter/">Stefano Capozucca a analizat meciul dintre Roma și Inter</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:45:17+00:00">24 septembrie 2026, 12:45</time>
-      <a href="/sport/detalii-financiare-privind-transferul-lui-davide-frattesi-de-la-inter-la-lazio/">Detalii financiare privind transferul lui Davide Frattesi de la Inter la Lazio</a>
     </li>
   </ol>
   </main>

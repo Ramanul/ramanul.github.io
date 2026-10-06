@@ -5,7 +5,14 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 06 Oct 2026 04:35:28 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 10:37:24 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI introduce watermark-uri invizibile pentru textele generate în UE</title>
+      <link>https://izz.ro/tech/openai-introduce-watermark-uri-invizibile-pentru-textele-generate-in-ue/</link>
+      <guid>https://izz.ro/tech/openai-introduce-watermark-uri-invizibile-pentru-textele-generate-in-ue/</guid>
+      <pubDate>Tue, 06 Oct 2026 06:08:19 +0000</pubDate>
+      <description>OpenAI va implementa în următoarele săptămâni un sistem de marcare invizibilă numit textGrain pentru textele și codul generate de ChatGPT și Codex în Uniunea Europeană. Tehnologia introduce un semnal statistic în alegerea cuvintelor, care poate fi identificat de un detector specializat. Rata de succes scade în cazul textelor scurte sau modificate ulterior cu sinonime. La lansare, detectorul va fi accesibil doar cercetătorilor și organizațiilor aprobate, compania urmând să publice sistemul în regim open source.</description>
+    </item>
     <item>
       <title>Sam Altman susține că beneficiile inteligenței artificiale depășesc riscurile</title>
       <link>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</link>

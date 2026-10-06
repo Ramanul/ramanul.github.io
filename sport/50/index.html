@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport" class="active">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport" class="active">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,319 +82,309 @@
 </nav>
   <h1 class="section-title">Sport</h1>
   <section class="grid">
-<article class="card" data-cat="sport" data-source="Ziua de Cluj" data-title="Conducerea Universității Cluj reacționează public după speculațiile privind interesul FCSB pentru Stanciu"><a class="card-media" href="/sport/conducerea-universitatii-cluj-reactioneaza-public-dupa-speculatiile-privind/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
+<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Atacantul Mendy Mamadou a semnat un contract în Superliga României"><a class="card-media" href="/sport/atacantul-mendy-mamadou-a-semnat-un-contract-in-superliga-romaniei/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Sport</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/conducerea-universitatii-cluj-reactioneaza-public-dupa-speculatiile-privind/">Conducerea Universității Cluj reacționează public după speculațiile privind interesul FCSB pentru Stanciu</a></h2>
+  <h2 class="card-title"><a href="/sport/atacantul-mendy-mamadou-a-semnat-un-contract-in-superliga-romaniei/">Atacantul Mendy Mamadou a semnat un contract în Superliga României</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T08:54:00+00:00">26 septembrie 2026, 11:54</time>
+    <time datetime="2026-09-26T16:00:17+00:00">26 septembrie 2026, 19:00</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Președintele clubului din Cluj, Radu Constantea, a oferit primele precizări oficiale referitoare la posibilitatea ca formația bucureșteană să îl transfere pe mijlocașul Stanciu.</p>
+  <p class="summary">Fotbalistul senegalez Mendy Mamadou și-a dat acordul pentru a evolua în prima ligă din România, semnând o înțelegere cu o grupare din Superliga.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://zcj.ro/sport/mesajul-conducerii-universitatii-cluj-dupa-ce-fcsb-a-anuntat-public-interesul-pentru-stanciu--301991.html" target="_blank" rel="noopener noreferrer">Ziua de Cluj</a></p>
+<a href="https://www.sport.ro/liga-1/mendy-mamadou-a-semnat-in-superliga.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="PressAlert Timișoara" data-title="SCM Politehnica Timișoara s-a impus în deplasare cu CSM București"><a class="card-media" href="/sport/scm-politehnica-timisoara-s-a-impus-in-deplasare-cu-csm-bucuresti/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
+<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Presa italiană critică evoluția slabă a naționalei după eșecul cu Belgia"><a class="card-media" href="/sport/presa-italiana-critica-evolutia-slaba-a-nationalei-dupa-esecul-cu-belgia/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Sport</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/scm-politehnica-timisoara-s-a-impus-in-deplasare-cu-csm-bucuresti/">SCM Politehnica Timișoara s-a impus în deplasare cu CSM București</a></h2>
+  <h2 class="card-title"><a href="/sport/presa-italiana-critica-evolutia-slaba-a-nationalei-dupa-esecul-cu-belgia/">Presa italiană critică evoluția slabă a naționalei după eșecul cu Belgia</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T08:28:08+00:00">26 septembrie 2026, 11:28</time>
+    <time datetime="2026-09-26T15:45:14+00:00">26 septembrie 2026, 18:45</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Handbaliștii timișoreni au câștigat cu 40-36 pe terenul bucureștenilor în etapa a treia a Ligii Naționale, meci marcat însă de accidentarea gravă la genunchi suferită de jucătorul Cristi Fenici.</p>
+  <p class="summary">Publicația La Stampa a analizat prestația modestă a echipei naționale de fotbal a Italiei în meciul pierdut împotriva Belgiei pe Stadio Olimpico, remarcând dificultățile jucătorilor de la reprezentativă.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.pressalert.ro/2026/09/handbalistii-de-la-scm-politehnica-au-castigat-pe-terenul-lui-csm-bucuresti-fenici-s-a-accidentat-in-meciul-care-a-avut-76-de-goluri/" target="_blank" rel="noopener noreferrer">PressAlert Timișoara</a></p>
+<a href="https://www.fcinter1908.it/news/rassegna-stampa/la-stampa-italia-ora-la-maglia-e-difficile-da-portare-impossibile-che-barella/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="Express de Banat" data-title="Bazinul Olimpic din Reșița va găzdui a XII-a ediție a Memorialului Ioan Schuster"><a class="card-media" href="/sport/bazinul-olimpic-din-resita-va-gazdui-a-xii-a-editie-a-memorialului-ioan-schuster/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
-  <div class="art-rule"></div>
+<article class="card" data-cat="sport" data-source="G4Media" data-title="Fred Vasseur minimizează declarațiile lui Christian Horner despre conducerea Ferrari"><a class="card-media" href="/sport/fred-vasseur-minimizeaza-declaratiile-lui-christian-horner-despre-conducerea/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/bazinul-olimpic-din-resita-va-gazdui-a-xii-a-editie-a-memorialului-ioan-schuster/">Bazinul Olimpic din Reșița va găzdui a XII-a ediție a Memorialului Ioan Schuster</a></h2>
+  <h2 class="card-title"><a href="/sport/fred-vasseur-minimizeaza-declaratiile-lui-christian-horner-despre-conducerea/">Fred Vasseur minimizează declarațiile lui Christian Horner despre conducerea Ferrari</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T08:00:24+00:00">26 septembrie 2026, 11:00</time>
+    <time datetime="2026-09-26T15:00:27+00:00">26 septembrie 2026, 18:00</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Competitia de înot adresată sportivilor amatori este programată la începutul lunii octombrie 2026, oferind două zile de întreceri pentru pasionații de mișcare din toată țara.</p>
+  <p class="summary">Șeful echipei Ferrari, Fred Vasseur, a respins speculatele privind postul său, afirmând că fostul oficial Red Bull, Christian Horner, caută doar un loc de muncă.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://expressdebanat.ro/inot-masters-la-resita-memorialul-ioan-schuster-aduce-sportivii-amatori-in-bazinul-olimpic-pentru-doua-zile-de-competitie/" target="_blank" rel="noopener noreferrer">Express de Banat</a></p>
+<a href="https://www.g4media.ro/reactia-sefului-ferrari-dupa-ce-christian-horner-a-declarat-ca-si-doreste-postul-sau-de-la-scuderia-horner-cauta-un-loc-de-munca-o-stie-toata-lumea.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Naționala de fotbal a Italiei pregătește meciul cu Turcia după eșec"><a class="card-media" href="/sport/nationala-de-fotbal-a-italiei-pregateste-meciul-cu-turcia-dupa-esec/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card card-c" data-cat="sport" data-source="Opinia Timișoarei" data-title="SCM USV Timișoara a câștigat titlul național la rugby după o finală dramatică"><a class="card-media" href="/sport/scm-timisoara-a-castigat-titlul-national-la-rugby-dupa-o-finala-cu-dinamo/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/nationala-de-fotbal-a-italiei-pregateste-meciul-cu-turcia-dupa-esec/">Naționala de fotbal a Italiei pregătește meciul cu Turcia după eșec</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:45:05+00:00">26 septembrie 2026, 10:45</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">După înfrângerea suferită în fața Belgiei, echipa Italiei condusă de Roberto Mancini a reluat antrenamentele pentru partida din deplasare împotriva reprezentativei Turciei.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.fcinter1908.it/news/rassegna-stampa/italia-possibili-scelte-turchia-bastoni/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Ciprian Marica îl laudă pe un tricolor după meciul pierdut cu Suedia"><a class="card-media" href="/sport/ciprian-marica-il-lauda-pe-un-tricolor-dupa-meciul-pierdut-cu-suedia/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/ciprian-marica-il-lauda-pe-un-tricolor-dupa-meciul-pierdut-cu-suedia/">Ciprian Marica îl laudă pe un tricolor după meciul pierdut cu Suedia</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:40:17+00:00">26 septembrie 2026, 10:40</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Fostul internațional Ciprian Marica s-a arătat impresionat de prestația unui fotbalist român din partida cu Suedia, susținând că acesta are calitățile necesare pentru a juca la FC Barcelona.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.sport.ro/nationala/ciprian-marica-uluit-de-un-tricolor-dupa-suedia-romania-cel-mai-bun-jucator-al-nostru-la-barcelona-il-vad.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Bogdan Lobonț reproșează lipsa curajului după înfrângerea naționalei cu Suedia"><a class="card-media" href="/sport/bogdan-lobont-reproseaza-lipsa-curajului-dupa-infrangerea-nationalei-cu-suedia/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/bogdan-lobont-reproseaza-lipsa-curajului-dupa-infrangerea-nationalei-cu-suedia/">Bogdan Lobonț reproșează lipsa curajului după înfrângerea naționalei cu Suedia</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:35:57+00:00">26 septembrie 2026, 10:35</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Fostul internațional român a analizat eșecul echipei naționale în fața Suediei, declarând că se aștepta la mai mult curaj și determinare din partea jucătorilor pe teren.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.sport.ro/nationala/bogdan-lobont-stie-cauzele-infrangerii-cu-suedia-ma-asteptam-la-mai-mult-curaj.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
-</article>
-<article class="card card-c" data-cat="sport" data-source="GSP" data-title="România a pierdut semifinala EHF Euro Cup în fața Danemarcei"><a class="card-media" href="/sport/romania-si-danemarca-se-infrunta-in-semifinala-turneului-ehf-euro-cup/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge c">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/sport/romania-si-danemarca-se-infrunta-in-semifinala-turneului-ehf-euro-cup/">România a pierdut semifinala EHF Euro Cup în fața Danemarcei</a></h2>
+  <h2 class="card-title"><a href="/sport/scm-timisoara-a-castigat-titlul-national-la-rugby-dupa-o-finala-cu-dinamo/">SCM USV Timișoara a câștigat titlul național la rugby după o finală dramatică</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T07:34:02+00:00">26 septembrie 2026, 10:34</time>
+    <time datetime="2026-09-26T14:46:42+00:00">26 septembrie 2026, 17:46</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Reprezentativa României a fost învinsă de formația Danemarcei cu scorul de 28-20, la turneul F4 EHF Euro Cup desfășurat în Sala Polivalentă din București. În urma acestui rezultat din semifinale, tricolorele vor juca pentru medalia de bronz împotriva Ungariei, în timp ce Danemarca se va duela cu Norvegia pentru trofeu.</p>
+  <p class="summary">Echipa SCM USV Timișoara a învins-o pe Dinamo București în prelungirile finalei Ligii Naționale de rugby disputate pe stadionul Arcul de Triumf. Prin aceasta victorie cu 28-24, bănățenii și-au adjudecat cel de-al optulea titlu național din istoria clubului. În finala mică a competiției, CSA Steaua s-a impus în fața formației SCM Știința Baia Mare.</p>
   <p class="sources-inline"><b>Surse:</b>
-<a href="https://www.gsp.ro/sporturi/handbal/live-romania-danemarca-semifinala-ehf-euro-cup-982342.html" target="_blank" rel="noopener noreferrer">GSP</a>, <a href="https://www.sport.ro/handbal/romania-nu-joaca-finala-turneului-euro-cup-infrangere-clara-cu-danemarca.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
+<a href="https://www.opiniatimisoarei.ro/timisoara-e-campioana-rugbystii-banateni-au-invins-dinamo-foto/26/09/2026" target="_blank" rel="noopener noreferrer">Opinia Timișoarei</a>, <a href="https://www.pressalert.ro/2026/09/scm-usv-timisoara-este-noua-campioana-a-romaniei-la-rugby-victorie-in-prelungiri-in-finala-cu-dinamo/" target="_blank" rel="noopener noreferrer">PressAlert Timișoara</a>, <a href="https://www.tion.ro/stirile-judetului-timis/scm-usv-timisoara-este-campioana-romaniei-la-rugby-dupa-o-finala-decisa-in-prelungiri-2360826/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Timiș Online</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="G4Media" data-title="Gabriela Ruse, învinsă în sferturile de finală ale turneului de la Seul"><a class="card-media" href="/sport/gabriela-ruse-invinsa-in-sferturile-de-finala-ale-turneului-de-la-seul/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/gabriela-ruse-invinsa-in-sferturile-de-finala-ale-turneului-de-la-seul/">Gabriela Ruse, învinsă în sferturile de finală ale turneului de la Seul</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:31:25+00:00">26 septembrie 2026, 10:31</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Jucătoarea română de tenis a părăsit competiția din Coreea de Sud după ce a cedat în trei seturi în fața sportivei Anna Bondar din Ungaria.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.g4media.ro/gabriela-ruse-eliminata-in-sferturi-de-la-seul-de-catre-a-sasea-favorita.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="GSP" data-title="Critici la adresa selecționerului Gică Hagi pentru numirea lui Ianis ca căpitan"><a class="card-media" href="/sport/critici-la-adresa-selectionerului-gica-hagi-pentru-numirea-lui-ianis-ca-capitan/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
+<article class="card" data-cat="sport" data-source="Spotmedia" data-title="Sebastian Musson, para-cățărător fără o mână, țintește aurul la JO 2028"><a class="card-media" href="/sport/sebastian-musson-para-catarator-fara-o-mana-tinteste-aurul-la-jo-2028/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Sport</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/critici-la-adresa-selectionerului-gica-hagi-pentru-numirea-lui-ianis-ca-capitan/">Critici la adresa selecționerului Gică Hagi pentru numirea lui Ianis ca căpitan</a></h2>
+  <h2 class="card-title"><a href="/sport/sebastian-musson-para-catarator-fara-o-mana-tinteste-aurul-la-jo-2028/">Sebastian Musson, para-cățărător fără o mână, țintește aurul la JO 2028</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T07:29:33+00:00">26 septembrie 2026, 10:29</time>
+    <time datetime="2026-09-26T13:47:05+00:00">26 septembrie 2026, 16:47</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Tehnicianul Marin Barbu susține că acordarea banderolei lui Ianis Hagi îi sporește presiunea negativă, avertizându-l în același timp și pe atacantul Dennis Man în urma eșecului României cu Suedia.</p>
+  <p class="summary">La 19 ani, britanicul născut fără mâna stângă a devenit unul dintre cei mai performanți para-cățărător din lume și își propune să câștige medalia de aur la Jocurile Paralimpice din Los Angeles.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.gsp.ro/fotbal/nationala/uluit-de-gica-hagi-deja-e-prea-mult-i-a-atras-atentia-lui-dennis-man-daca-e-baiat-destept-982341.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
+<a href="https://spotmedia.ro/stiri/sport/urca-pe-pereti-cu-o-singura-mana-si-viseaza-la-aurul-olimpic-povestea-pustiului-care-a-descoperit-intamplator-sportul" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="ProSport" data-title="Kylian Mbappe se întoarce la Madrid pentru investigații medicale la genunchi"><a class="card-media" href="/sport/kylian-mbappe-se-intoarce-la-madrid-pentru-investigatii-medicale-la-genunchi/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card" data-cat="sport" data-source="CJ Giurgiu" data-title="Fostul fotbalist Nana Falemi a participat la prima ediție a Galei Fotbalului Giurgiuvean"><a class="card-media" href="/sport/fostul-fotbalist-nana-falemi-a-participat-la-prima-editie-a-galei-fotbalului/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/kylian-mbappe-se-intoarce-la-madrid-pentru-investigatii-medicale-la-genunchi/">Kylian Mbappe se întoarce la Madrid pentru investigații medicale la genunchi</a></h2>
+  <h2 class="card-title"><a href="/sport/fostul-fotbalist-nana-falemi-a-participat-la-prima-editie-a-galei-fotbalului/">Fostul fotbalist Nana Falemi a participat la prima ediție a Galei Fotbalului Giurgiuvean</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T07:29:29+00:00">26 septembrie 2026, 10:29</time>
+    <time datetime="2026-09-26T13:08:53+00:00">26 septembrie 2026, 16:08</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Atacantul francez a acuzat dureri la genunchi în meciul naționalei Franței cu Turcia, iar Zinedine Zidane a confirmat că jucătorul va părăsi lotul pentru a fi examinat de medici.</p>
+  <p class="summary">Fostul jucător de performanță Nana Falemi a fost prezent la prima ediție a Galei Fotbalului Giurgiuvean, eveniment care a reunit peste o sută de copii din comunitate în cadrul secțiunii Kids Day.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.prosport.ro/fotbal-extern/liga-natiunilor/zidane-reactie-accidentare-mbappe-franta-20533281" target="_blank" rel="noopener noreferrer">ProSport</a></p>
+<a href="https://cjgiurgiu.ro/nana-falemi-prezent-la-giurgiu-in-cadrul-galei-fotbalului-giurgiuvean-nord-vs-sud-editia-i-2026/" target="_blank" rel="noopener noreferrer">CJ Giurgiu</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="GSP" data-title="Portarul Vozinha a comis o gravă eroare în meciul Mali - Capul Verde"><a class="card-media" href="/sport/portarul-vozinha-a-comis-o-grava-eroare-in-meciul-mali-capul-verde/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/portarul-vozinha-a-comis-o-grava-eroare-in-meciul-mali-capul-verde/">Portarul Vozinha a comis o gravă eroare în meciul Mali - Capul Verde</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:22:31+00:00">26 septembrie 2026, 10:22</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Veteranul Vozinha a greșit decisiv în partida pierdută de naționala sa în deplasare cu scorul de 1-3 împotriva formației din Mali, meci contând pentru preliminariile Cupei Africii pe Națiuni, disputat sub privirile unui jucător de la FCSB.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.gsp.ro/international/campionate/vozinha-gafa-mali-capul-verde-982334.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Ciprian Marica critică părerile divergente după înfrângerea României cu Suedia"><a class="card-media" href="/sport/ciprian-marica-critica-parerile-divergente-dupa-infrangerea-romaniei-cu-suedia/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/ciprian-marica-critica-parerile-divergente-dupa-infrangerea-romaniei-cu-suedia/">Ciprian Marica critică părerile divergente după înfrângerea României cu Suedia</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:22:06+00:00">26 septembrie 2026, 10:22</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Fostul internațional Ciprian Marica și-a exprimat surprinderea publică vizavi de interpretările diferite apărute în spațiul public după ce naționala României a fost învinsă de reprezentativa Suediei la Solna, cu scorul de 1-2.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.sport.ro/nationala/ciprian-marica-manifest-dupa-suedia-romania-mi-se-pare-incredibil-cum-ne-uitam-toti-la-un-meci-si-avem-pareri-diferite.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="G4Media" data-title="Carlos Sainz penalizat pe grila de start în Azerbaidjan"><a class="card-media" href="/sport/carlos-sainz-penalizat-pe-grila-de-start-in-azerbaidjan/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/carlos-sainz-penalizat-pe-grila-de-start-in-azerbaidjan/">Carlos Sainz penalizat pe grila de start în Azerbaidjan</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:21:03+00:00">26 septembrie 2026, 10:21</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Pilotul Carlos Sainz de la echipa Williams a primit o penalizare de cinci poziții pentru cursa de la Baku, după ce comisarii au stabilit că nu a respectat indicațiile steagurilor galbene în timpul sesiunii de calificări.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.g4media.ro/carlos-sainz-penalizat-cu-cinci-pozitii-pe-grila-de-start-de-la-baku-dupa-prima-sa-calificare-in-q3-din-acest-sezon.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="GSP" data-title="Reacții critice în Suedia după anularea unui gol în meciul cu România"><a class="card-media" href="/sport/reactii-critice-in-suedia-dupa-anularea-unui-gol-in-meciul-cu-romania/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/reactii-critice-in-suedia-dupa-anularea-unui-gol-in-meciul-cu-romania/">Reacții critice în Suedia după anularea unui gol în meciul cu România</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:20:19+00:00">26 septembrie 2026, 10:20</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Reprezentanții naționalei Suediei și-au manifestat nemulțumirea față de intervenția sistemului VAR care a dus la anularea unui gol marcat în poarta României, invocând inconsecvență în decizii la nivel internațional.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.gsp.ro/fotbal/nationala/suedezii-nedreptatiti-gol-anulat-romania-stroud-hent-isak-ridicol-nations-league-982333.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="Antena 3 CNN" data-title="Circuitul Baku City găzduiește Marele Premiu al Azerbaidjanului"><a class="card-media" href="/sport/circuitul-baku-city-gazduieste-marele-premiu-al-azerbaidjanului/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/hermann-tilke.jpg" alt="Hermann Tilke" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/circuitul-baku-city-gazduieste-marele-premiu-al-azerbaidjanului/">Circuitul Baku City găzduiește Marele Premiu al Azerbaidjanului</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:00:00+00:00">26 septembrie 2026, 10:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Campionatul Mondial de Formula 1 revine pe traseul urban din Baku, proiectat de Hermann Tilke, pentru a oferi fanilor o nouă etapă spectaculoasă în acest weekend.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/formula-1/formula-1-tot-ce-trebuie-sa-stii-despre-circuitul-baku-city-inainte-de-marele-premiu-al-azerbaidjanului-804280.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="Spotmedia" data-title="FCSB a decis să îl introducă treptat pe Denis Drăguș după accidentare"><a class="card-media" href="/sport/fcsb-a-decis-sa-il-introduca-treptat-pe-denis-dragus-dupa-accidentare/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/fcsb-a-decis-sa-il-introduca-treptat-pe-denis-dragus-dupa-accidentare/">FCSB a decis să îl introducă treptat pe Denis Drăguș după accidentare</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T06:51:32+00:00">26 septembrie 2026, 09:51</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Atacantul formației FCSB va absenta în duelul cu Oțelul Galați, stafful tehnic preferând să nu riște o recuperare grăbită și planificând ca acesta să revină pe teren împotriva celor de la FC Voluntari.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://spotmedia.ro/stiri/sport/fcsb-a-stabilit-planul-in-cazul-lui-denis-dragus-decizia-luata" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="MyTex" data-title="Teutonii Ghimbav a fost aproape de un rezultat pozitiv cu CSU Suceava"><a class="card-media" href="/sport/teutonii-ghimbav-a-fost-aproape-de-un-rezultat-pozitiv-cu-csu-suceava/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/teutonii-ghimbav-a-fost-aproape-de-un-rezultat-pozitiv-cu-csu-suceava/">Teutonii Ghimbav a fost aproape de un rezultat pozitiv cu CSU Suceava</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T06:50:04+00:00">26 septembrie 2026, 09:50</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Nou-promovata în Liga Zimbrilor a ratat la limită un punct în deplasarea de la liderul CSU Suceava, reușind să mențină egalitatea la pauză și punând probleme serioase gazdelor pe parcursul meciului.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://mytex.ro/sport/aproape-de-o-mare-surpriza-la-suceava-echipa-teutonii-ghimbav-da-semne-puternice-de-revenire-in-liga-zimbrilor/" target="_blank" rel="noopener noreferrer">MyTex</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="ProSport" data-title="Jucătorii suedezi au contestat arbitrajul după meciul cu România"><a class="card-media" href="/sport/jucatorii-suedezi-au-contestat-arbitrajul-dupa-meciul-cu-romania/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0 art--portret" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Sorita lui Yann Bisseck vorbește despre parcursul dificil al fotbalistului legitimat la Inter"><a class="card-media" href="/sport/sorita-lui-yann-bisseck-vorbeste-despre-parcursul-dificil-al-fotbalistului/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/elliot-stroud.jpg" alt="Elliot Stroud" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/jucatorii-suedezi-au-contestat-arbitrajul-dupa-meciul-cu-romania/">Jucătorii suedezi au contestat arbitrajul după meciul cu România</a></h2>
+  <h2 class="card-title"><a href="/sport/sorita-lui-yann-bisseck-vorbeste-despre-parcursul-dificil-al-fotbalistului/">Sorita lui Yann Bisseck vorbește despre parcursul dificil al fotbalistului legitimat la Inter</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T06:48:11+00:00">26 septembrie 2026, 09:48</time>
+    <time datetime="2026-09-26T13:06:52+00:00">26 septembrie 2026, 16:06</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Fotbalistul Elliot Stroud și selecționerul Suediei au criticat dur deciziile brigăzii de arbitri în urma unei faze controversate din partida câștigată de scandinavi în fața României, scor 2-1.</p>
+  <p class="summary">Georgette Bisseck dezvăluie detaliile mai puținștiute din viața personală a fratelui său, fundașul echipei Inter Milano, subliniind efortul depus pentru a depăși obstacolele.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.prosport.ro/fotbal-intern/nationala/suedezi-atac-arbitraj-faza-controversata-romania-20533271" target="_blank" rel="noopener noreferrer">ProSport</a></p>
+<a href="https://www.fcinter1908.it/ultimora/bisseck-sorella-georgette-percorso-complicato-orgogliosa/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="ProSport" data-title="Selecționerul Bosniei declară că echipa sa vine la București pentru victorie împotriva României"><a class="card-media" href="/sport/selectionerul-bosniei-declara-ca-echipa-sa-vine-la-bucuresti-pentru-victorie/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/sergej-barbarez.jpg" alt="Sergej Barbarez" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+<article class="card" data-cat="sport" data-source="ProSport" data-title="Ciprian Marica propune un tricolor la FC Barcelona"><a class="card-media" href="/sport/ciprian-marica-propune-un-tricolor-la-fc-barcelona/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/selectionerul-bosniei-declara-ca-echipa-sa-vine-la-bucuresti-pentru-victorie/">Selecționerul Bosniei declară că echipa sa vine la București pentru victorie împotriva României</a></h2>
+  <h2 class="card-title"><a href="/sport/ciprian-marica-propune-un-tricolor-la-fc-barcelona/">Ciprian Marica propune un tricolor la FC Barcelona</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T06:46:49+00:00">26 septembrie 2026, 09:46</time>
+    <time datetime="2026-09-26T12:59:26+00:00">26 septembrie 2026, 15:59</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">După egalul obținut în Polonia, tehnicianul Sergej Barbarez exprimă încredere totală în jucătorii bosniaci și anunță o abordare ofensivă în meciul direct cu naționala României.</p>
+  <p class="summary">Fostul internațional român consideră că un tricolor a avut o evoluție foarte bună în partida pierdută împotriva Suediei și merită să joace la clubul catalan datorită calităților sale.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.prosport.ro/fotbal-extern/liga-natiunilor/sergej-barbarez-reactie-meci-romania-bosnia-20533256" target="_blank" rel="noopener noreferrer">ProSport</a></p>
+<a href="https://www.prosport.ro/fotbal-intern/nationala/ciprian-marica-andrei-ratiu-suedia-romania-fc-barcelona-20533529" target="_blank" rel="noopener noreferrer">ProSport</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Atacantul Dennis Man are o reacție neobișnuită după golul marcat în partida cu Suedia"><a class="card-media" href="/sport/atacantul-dennis-man-are-o-reactie-neobisnuita-dupa-golul-marcat-in-partida-cu/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
+<article class="card" data-cat="sport" data-source="GSP" data-title="Norvegia s-a calificat în finala EHF Euro Cup după victoria cu Ungaria"><a class="card-media" href="/sport/norvegia-s-a-calificat-in-finala-ehf-euro-cup-dupa-victoria-cu-ungaria/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/norvegia-s-a-calificat-in-finala-ehf-euro-cup-dupa-victoria-cu-ungaria/">Norvegia s-a calificat în finala EHF Euro Cup după victoria cu Ungaria</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:53:39+00:00">26 septembrie 2026, 15:53</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Naționala Norvegiei a învins reprezentativa Ungariei cu scorul de 27-23 în semifinala desfășurată la București, obținând prima calificare în ultimul act al competiției.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.gsp.ro/sporturi/handbal/norvegia-prima-finalista-ehf-euro-cup-982428.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="ProSport" data-title="David Popovici este evaluat în clasamentul celor mai rapizi înotători din 2026"><a class="card-media" href="/sport/david-popovici-este-evaluat-in-clasamentul-celor-mai-rapizi-inotatori-din-2026/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Sport</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/atacantul-dennis-man-are-o-reactie-neobisnuita-dupa-golul-marcat-in-partida-cu/">Atacantul Dennis Man are o reacție neobișnuită după golul marcat în partida cu Suedia</a></h2>
+  <h2 class="card-title"><a href="/sport/david-popovici-este-evaluat-in-clasamentul-celor-mai-rapizi-inotatori-din-2026/">David Popovici este evaluat în clasamentul celor mai rapizi înotători din 2026</a></h2>
   <div class="meta">
-    <time datetime="2026-09-26T06:45:35+00:00">26 septembrie 2026, 09:45</time>
+    <time datetime="2026-09-26T12:47:27+00:00">26 septembrie 2026, 15:47</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Fotbalistul român Dennis Man a atras atenția prin modalitatea surprinzătoare de a sărbători reușita înscrisă în poarta Suediei în cadrul meciului din deplasare.</p>
+  <p class="summary">În lipsa unui Campionat Mondial de bazin olimpic anul acesta, sportivul român David Popovici concurează în ierarhia mondială a probei de 200 metri liber alături de rivali precum chinezul Zhang Zhanshuo și francezul Leon Marchand.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.sport.ro/nationala/dennis-man-gest-neasteptat-dupa-golul-din-suedia-romania-cum-s-a-bucurat-atacantul.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
+<a href="https://www.prosport.ro/alte-sporturi/chinezul-zhang-zhanshuo-si-francezul-leon-marchand-ii-sufla-in-ceafa-lui-david-popovicii-20533473" target="_blank" rel="noopener noreferrer">ProSport</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Roberto Mancini a analizat eșecul Italiei în fața Belgiei"><a class="card-media" href="/sport/roberto-mancini-a-analizat-esecul-italiei-in-fata-belgiei/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/roberto-mancini-a-analizat-esecul-italiei-in-fata-belgiei/">Roberto Mancini a analizat eșecul Italiei în fața Belgiei</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:45:35+00:00">26 septembrie 2026, 15:45</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Selecționerul Italiei a declarat că înfrângerea cu Belgia de pe Olimpico este normală în fața unui adversar puternic, preferând să remarce atitudinea pozitivă a echipei din a doua repriză.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.fcinter1908.it/news/interviste/mancini-a-sm-belgio-piu-avanti-di-noi-fischi-normali-mi-tengo-il-secondo-tempo/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="Bihon" data-title="CSM Oradea a învins-o pe Rapid înaintea Ligii Campionilor"><a class="card-media" href="/sport/csm-oradea-a-invins-o-pe-rapid-inaintea-ligii-campionilor/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/csm-oradea-a-invins-o-pe-rapid-inaintea-ligii-campionilor/">CSM Oradea a învins-o pe Rapid înaintea Ligii Campionilor</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:44:20+00:00">26 septembrie 2026, 15:44</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Echipa CSM Oradea s-a impus în fața formației Rapid cu scorul de 13-10, după un meci controlat în mare parte. Principalii marcatori ai învingătorilor au fost Petar Velkic și Tiberiu Negrean.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.bihon.ro/csm-oradea/repetitie-pentru-liga-campionilor-csm-oradea-a-obtinut-o-victorie-scontata-in-fata-rapidului-5411982/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Bihon</a></p>
+</article>
+<article class="card card-c" data-cat="sport" data-source="G4Media" data-title="George Russell a câștigat Marele Premiu al Azerbaidjanului la Formula 1"><a class="card-media" href="/sport/george-russell-a-castigat-marele-premiu-al-azerbaidjanului/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge c">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/sport/george-russell-a-castigat-marele-premiu-al-azerbaidjanului/">George Russell a câștigat Marele Premiu al Azerbaidjanului la Formula 1</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:44:11+00:00">26 septembrie 2026, 15:44</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Pilotul britanic George Russell, de la Mercedes, a câștigat Marele Premiu de Formula 1 al Azerbaidjanului după ce a controlat cursa de la start până la final. Pe podium au mai urcat Max Verstappen și Isack Hadjar, în timp ce liderul clasamentului, Kimi Antonelli, a terminat pe locul al cincilea, iar Lando Norris a abandonat în urma unui accident.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://www.g4media.ro/george-russell-victorie-in-marele-premiu-al-azerbaidjanului-o-noua-cursa-fara-podium-pentru-ferrari-abandon-pentru-norris.html" target="_blank" rel="noopener noreferrer">G4Media</a>, <a href="https://spotmedia.ro/stiri/sport/george-russell-castiga-marele-premiu-din-azerbaidjan-dupa-o-cursa-plina-de-evenimente" target="_blank" rel="noopener noreferrer">Spotmedia</a>, <a href="https://www.antena3.ro/formula-1/george-russell-a-castigat-marele-premiu-de-formula-1-din-azerbaidjan-clasamentul-cursei-de-la-baku-804732.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a>, <a href="https://www.sport.ro/f-1/george-russell-a-castigat-marele-premiu-al-azerbaidjanului.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Atacantul Paul Mendy de la Cagliari este dorit de cluburile Inter și Lazio"><a class="card-media" href="/sport/atacantul-paul-mendy-de-la-cagliari-este-dorit-de-cluburile-inter-si-lazio/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/atacantul-paul-mendy-de-la-cagliari-este-dorit-de-cluburile-inter-si-lazio/">Atacantul Paul Mendy de la Cagliari este dorit de cluburile Inter și Lazio</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:30:44+00:00">26 septembrie 2026, 15:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Atacantul senegalez Paul Mendy a atras atenția echipelor din Serie A, Inter Milano și Lazio monitorizându-i evoluțiile bune din acest start de sezon.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.fcinter1908.it/calciomercato/mercato-inter/inter-baccin-mirino-mendy-cagliari/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="Opinia Timișoarei" data-title="Politehnica Timișoara a învins Rapidul cu 9-1 în Superliga feminină"><a class="card-media" href="/sport/politehnica-timisoara-a-invins-rapidul-cu-9-1-in-superliga-feminina/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/politehnica-timisoara-a-invins-rapidul-cu-9-1-in-superliga-feminina/">Politehnica Timișoara a învins Rapidul cu 9-1 în Superliga feminină</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:29:47+00:00">26 septembrie 2026, 15:29</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Echipa de fotbal feminin Politehnica Timișoara s-a impus categoric, scor 9-1, pe terenul Rapidului, în penultima etapă a turului sezonului regular, rezultatul propulsând-o pe Melisa Șodinca în fruntea clasamentului golgeterilor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.opiniatimisoarei.ro/fetele-de-la-poli-timisoara-castiga-la-scor-cu-rapidul-melisa-sodinca-a-urcat-pe-primul-loc-in-topul-golgeterilor/26/09/2026" target="_blank" rel="noopener noreferrer">Opinia Timișoarei</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Doi jucători din fotbalul românesc au fost vânduți pentru câte 3 milioane de euro"><a class="card-media" href="/sport/doi-jucatori-din-fotbalul-romanesc-au-fost-vanduti-pentru-cate-3-milioane-de/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/doi-jucatori-din-fotbalul-romanesc-au-fost-vanduti-pentru-cate-3-milioane-de/">Doi jucători din fotbalul românesc au fost vânduți pentru câte 3 milioane de euro</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:28:23+00:00">26 septembrie 2026, 15:28</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Piața transferurilor din primul eșalon fotbalistic al României înregistrează mutări importante, doi fotbalști fiind achiziționați în schimbul sumei de trei milioane de euro fiecare.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.sport.ro/fotbal-intern/transferul-fcsb-egalat-doi-jucatori-au-fost-vanduti-pentru-cate-3-milioane-de-euro.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="ProSport" data-title="Adrian Ilie i-a criticat dur pe Răzvan Marin și Ianis Hagi după meciul cu Suedia"><a class="card-media" href="/sport/adrian-ilie-i-a-criticat-dur-pe-razvan-marin-si-ianis-hagi-dupa-meciul-cu-suedia/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/adrian-ilie-i-a-criticat-dur-pe-razvan-marin-si-ianis-hagi-dupa-meciul-cu-suedia/">Adrian Ilie i-a criticat dur pe Răzvan Marin și Ianis Hagi după meciul cu Suedia</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:22:58+00:00">26 septembrie 2026, 15:22</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fostul internațional Adrian Ilie a criticat prestația mijlocașilor tricolori din partida Suedia – România 2-1, menționând că problemele fizice au afectat echipa națională în debutul Ligii Națiunilor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.prosport.ro/fotbal-intern/nationala/adrian-ilie-razvan-marin-ianis-hagi-suedia-romania-tudor-baluta-20533500" target="_blank" rel="noopener noreferrer">ProSport</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="GSP" data-title="Willy Sagnol a fost demis din funcția de selecționer al Georgiei"><a class="card-media" href="/sport/willy-sagnol-a-fost-demis-din-functia-de-selectioner-al-georgiei/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/willy-sagnol-a-fost-demis-din-functia-de-selectioner-al-georgiei/">Willy Sagnol a fost demis din funcția de selecționer al Georgiei</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:19:51+00:00">26 septembrie 2026, 15:19</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Federação georgiană l-a demis pe selecționerul Willy Sagnol imediat după eșecul suferit pe teren propriu în fața Irlandei de Nord, scor 0-1, în prima etapă din Liga Națiunilor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.gsp.ro/international/campionate/willy-sagnol-demis-selectioner-georgia-982414.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Gigi Becali, numit inamicul public în presa arabă după transferul lui Reghecampf"><a class="card-media" href="/sport/gigi-becali-numit-inamicul-public-in-presa-araba-dupa-transferul-lui-reghecampf/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0 art--portret" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/gigi-becali.jpg" alt="Gigi Becali" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/gigi-becali-numit-inamicul-public-in-presa-araba-dupa-transferul-lui-reghecampf/">Gigi Becali, numit inamicul public în presa arabă după transferul lui Reghecampf</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:17:32+00:00">26 septembrie 2026, 15:17</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Patronul FCSB, Gigi Becali, a atras atenția presei internaționale după ce l-a adus pe tehnicianul Laurențiu Reghecampf, care a întrerupt brusc colaborarea cu gruparea arabă Esperance.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.sport.ro/liga-1/gigi-becali-a-ajuns-in-presa-araba-inamicul-publicului-numarul-1.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Riccardo Calafiori recunoaște meritele Belgiei după eșecul Italiei"><a class="card-media" href="/sport/riccardo-calafiori-recunoaste-meritele-belgiei-dupa-esecul-italiei/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/riccardo-calafiori.jpg" alt="Riccardo Calafiori" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/riccardo-calafiori-recunoaste-meritele-belgiei-dupa-esecul-italiei/">Riccardo Calafiori recunoaște meritele Belgiei după eșecul Italiei</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T12:15:44+00:00">26 septembrie 2026, 15:15</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fundașul naționalei Italiei, Riccardo Calafiori, a declarat după înfrângerea cu Belgia din Liga Națiunilor că fluierăturile fanilor sunt meritate și că echipa trebuie să progreseze.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.fcinter1908.it/news/interviste/calafiori-a-sm-i-fischi-fanno-male-ma-sono-meritati-dobbiamo-migliorare-il-belgio/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

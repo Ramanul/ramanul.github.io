@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic" class="active">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic" class="active">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,6 +82,158 @@
 </nav>
   <h1 class="section-title">Politică</h1>
   <section class="grid">
+<article class="card" data-cat="politic" data-source="Economica" data-title="Comisia Europeană cere României date despre clima și energia"><a class="card-media" href="/politic/comisia-europeana-cere-romaniei-date-despre-clima-si-energia/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">01</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/comisia-europeana-cere-romaniei-date-despre-clima-si-energia/">Comisia Europeană cere României date despre clima și energia</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-01T11:44:35+00:00">1 octombrie 2026, 14:44</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Uniunea Europeană a trimis o somație oficială autorităților din România și Austria pentru a prezenta informațiile lipsă din planurile naționale privind energia și clima, conform obligațiilor de raportare la doi ani.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.economica.net/infringement-ue-indeamna-romania-si-austria-sa-prezinte-informatiile-lipsa-din-planurile-nationale-integrate-privind-energia-si-clima_981832.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Express de Banat" data-title="AUR refuză să voteze un guvern din care nu face parte, anunță Samuel Miclău"><a class="card-media" href="/politic/aur-refuza-sa-voteze-un-guvern-din-care-nu-face-parte-anunta-samuel-miclau/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-tick"></div><p class="art-when">joi,<br>1 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">1</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/samuel-miclau.jpg" alt="Samuel Miclău" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/aur-refuza-sa-voteze-un-guvern-din-care-nu-face-parte-anunta-samuel-miclau/">AUR refuză să voteze un guvern din care nu face parte, anunță Samuel Miclău</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-01T11:24:37+00:00">1 octombrie 2026, 14:24</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Liderul AUR Caraș-Severin dă vina pe Nicușor Dan pentru eșecul Cabinetului Mureșan și anunță că formațiunea politică va susține doar un executiv în care va deține efectiv portofolii ministeriale.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://expressdebanat.ro/samuel-miclau-aur-deschis-negocierilor-dar-nu-voteaza-un-guvern-din-care-nu-face-parte/" target="_blank" rel="noopener noreferrer">Express de Banat</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Gazeta de Cluj" data-title="Ramona Bruynseels anunță că AUR îl susține pe Călin Georgescu"><a class="card-media" href="/politic/ramona-bruynseels-anunta-ca-aur-il-sustine-pe-calin-georgescu/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-tick"></div><p class="art-when">joi,<br>1 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">1</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/calin-georgescu.jpg" alt="Călin Georgescu" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/ramona-bruynseels-anunta-ca-aur-il-sustine-pe-calin-georgescu/">Ramona Bruynseels anunță că AUR îl susține pe Călin Georgescu</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-01T10:53:42+00:00">1 octombrie 2026, 13:53</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Deputata formațiunii politice a declarat că partidul rămâne alături de Călin Georgescu și refuză să voteze Guvernul Mureșan, invocând prezumția de nevinovăție după arestarea preventivă a acestuia dispusă de instanță.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://gazetadecluj.ro/ramona-ioana-bruynseels-afirma-ca-aur-ramane-alaturi-de-calin-georgescu-si-refuza-votul-pentru-guvernul-muresan/" target="_blank" rel="noopener noreferrer">Gazeta de Cluj</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Cuvântul Libertății" data-title="Kritici la adresa discursului susținut de Siegfried Mureșan în Parlament"><a class="card-media" href="/politic/kritici-la-adresa-discursului-sustinut-de-siegfried-muresan-in-parlament/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">01</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/kritici-la-adresa-discursului-sustinut-de-siegfried-muresan-in-parlament/">Kritici la adresa discursului susținut de Siegfried Mureșan în Parlament</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-01T10:04:35+00:00">1 octombrie 2026, 13:04</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Premierul desemnat Siegfried Mureșan a primit critici pentru intervenția sa din plenul Parlamentului României, discursul fiind considerat lipsit de substanță și generând rezerve în rândul partenerilor politici.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://cvlpress.ro/01.10.2026/discursul-prost-croit-al-lui-siegfried-muresan-in-plenul-parlamentului/" target="_blank" rel="noopener noreferrer">Cuvântul Libertății</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Monitorul de Botoșani" data-title="Un tânăr fără permis urmărit de poliție și un șofer băut, depistați în trafic"><a class="card-media" href="/politic/un-tanar-fara-permis-urmarit-de-politie-si-un-sofer-baut-depistati-in-trafic/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">01</span><span class="art-num-wk">joi</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/un-tanar-fara-permis-urmarit-de-politie-si-un-sofer-baut-depistati-in-trafic/">Un tânăr fără permis urmărit de poliție și un șofer băut, depistați în trafic</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-01T09:33:24+00:00">1 octombrie 2026, 12:33</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Polițiștii au deschis dosare penale în județul Botoșani după ce un șofer a condus fără permis un motocross ignorând semnalele autorităților, iar altul a fost prins cu o alcoolemie ridicată.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.monitorulbt.ro/local/2026/10/01/inconstienta-pe-sosea-tanar-fara-permis-urmarit-de-politisti-si-sofer-depistat-baut-la-volan/" target="_blank" rel="noopener noreferrer">Monitorul de Botoșani</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Curs de Guvernare" data-title="Președintele exclude anticipatele și AUR din viitorul guvern"><a class="card-media" href="/politic/presedintele-exclude-anticipatele-si-aur-din-viitorul-guvern/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-tick"></div><p class="art-when">joi,<br>1 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">1</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/presedintele-exclude-anticipatele-si-aur-din-viitorul-guvern/">Președintele exclude anticipatele și AUR din viitorul guvern</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-01T09:27:43+00:00">1 octombrie 2026, 12:27</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Șeful statului a anunțat că va face o nouă nominalizare de premier după consultările cu partidele, refuzând categoric dizolvarea parlamentului și includerea formațiunii AUR la guvernare.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://cursdeguvernare.ro/presaedintele-dan-fara-anticipate-fara-aur-guvern.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Express de Banat" data-title="Liderul PNL Ilie Bolojan nu exclude susținerea unui executiv condus de PSD"><a class="card-media" href="/politic/liderul-pnl-ilie-bolojan-nu-exclude-sustinerea-unui-executiv-condus-de-psd/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">joi 1 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/liderul-pnl-ilie-bolojan-nu-exclude-sustinerea-unui-executiv-condus-de-psd/">Liderul PNL Ilie Bolojan nu exclude susținerea unui executiv condus de PSD</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-01T08:07:14+00:00">1 octombrie 2026, 11:07</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">După căderea Guvernului Mureșan, președintele liberal Ilie Bolojan a declarat că formațiunea sa va evalua opțiunile politice în funcție de interesele naționale, lăsând deschisă calea pentru negocierea unui cabinet girat de social-democrați.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://expressdebanat.ro/bolojan-s-a-sucit-iar-nu-mai-exclude-ca-pnl-sa-voteze-un-guvern-psd-cel-mai-bun-premier-ar-fi-sorin-grindeanu/" target="_blank" rel="noopener noreferrer">Express de Banat</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Express de Banat" data-title="Președintele respinge includerea AUR în viitorul Guvern"><a class="card-media" href="/politic/presedintele-respinge-includerea-aur-in-viitorul-guvern/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">01</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/presedintele-respinge-includerea-aur-in-viitorul-guvern/">Președintele respinge includerea AUR în viitorul Guvern</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-01T06:39:26+00:00">1 octombrie 2026, 09:39</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Șeful statului a declarat că formațiunea politică nu respectă criteriile privind orientarea pro-occidentală și menținerea stabilității financiare a țării, motiv pentru care nu va fi acceptată la guvernare.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://expressdebanat.ro/nicusor-dan-traseaza-linia-rosie-pentru-viitorul-guvern-fara-aur-la-putere/" target="_blank" rel="noopener noreferrer">Express de Banat</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Contributors" data-title="Noi reglementări comune ale Ministerului Educației și Sănătății"><a class="card-media" href="/politic/noi-reglementari-comune-ale-ministerului-educatiei-si-sanatatii/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Politică</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">01</span><span class="art-num-wk">joi</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/noi-reglementari-comune-ale-ministerului-educatiei-si-sanatatii/">Noi reglementări comune ale Ministerului Educației și Sănătății</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-01T06:17:52+00:00">1 octombrie 2026, 09:17</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Autoritățile centrale au emis un ordin privind personalul didactic, stârnind discuții în mediul educațional referitoare la starea psihică și volumul de muncă din școli.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.contributors.ro/apt-inapt-si-cu-nebunia-noastra-cum-ramane/" target="_blank" rel="noopener noreferrer">Contributors</a></p>
+</article>
+<article class="card" data-cat="politic" data-source="Economedia" data-title="Președintele Nicușor Dan afirmă că indicatorii financiari ai României s-au îmbunătățit semnificativ"><a class="card-media" href="/politic/presedintele-nicusor-dan-afirma-ca-indicatorii-financiari-ai-romaniei-s-au/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">01</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Politică</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/politic/presedintele-nicusor-dan-afirma-ca-indicatorii-financiari-ai-romaniei-s-au/">Președintele Nicușor Dan afirmă că indicatorii financiari ai României s-au îmbunătățit semnificativ</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-01T05:57:36+00:00">1 octombrie 2026, 08:57</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Șeful statului a declarat că economia României prezintă cifre net superioare față de anul precedent, mesaj transmis înaintea evaluării oficiale a agenției de rating Standard &amp; Poor&#39;s programată pentru sfârșitul săptămânii.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://economedia.ro/nicusor-dan-inainte-de-evaluarea-standard-poors-cifrele-financiare-ale-romaniei-sunt-mult-mai-bune-decat-acum-un-an.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
+</article>
 <article class="card" data-cat="politic" data-source="Economedia" data-title="Investitorii externi se opun organizării unor alegeri anticipate, afirmă Nicușor Dan"><a class="card-media" href="/politic/investitorii-externi-se-opun-organizarii-unor-alegeri-anticipate-afirma-nicusor/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">joi 1 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Politică</p></div>
@@ -234,162 +392,10 @@
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://www.contributors.ro/de-la-consensul-national-al-lui-iliescu-la-consensul-lui-nicusor-dan-de-ce-toate-consensurile-se-soldeaza-cu-extremistii-in-ascensiune/" target="_blank" rel="noopener noreferrer">Contributors</a></p>
 </article>
-<article class="card" data-cat="politic" data-source="Contributors" data-title="Partidele mainstream ignoră ascensiunea curentelor anti-sistem"><a class="card-media" href="/politic/partidele-mainstream-ignora-ascensiunea-curentelor-anti-sistem/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">01</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/partidele-mainstream-ignora-ascensiunea-curentelor-anti-sistem/">Partidele mainstream ignoră ascensiunea curentelor anti-sistem</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-01T04:04:57+00:00">1 octombrie 2026, 07:04</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Prelungirea crizei guvernamentale și rezultatele alegerilor din 2024 demonstrează că formațiunile politice tradiționale tratează greșit fenomenul populist, considerându-l în mod eronat drept o manifestare pasageră și marginală.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.contributors.ro/criza-guvernamentala-si-consolidarea-anti-sistemului/" target="_blank" rel="noopener noreferrer">Contributors</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Express de Banat" data-title="Adrian Torma susține că PSD trebuie să intre la guvernare"><a class="card-media" href="/politic/adrian-torma-sustine-ca-psd-trebuie-sa-intre-la-guvernare/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">01</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/adrian-torma-sustine-ca-psd-trebuie-sa-intre-la-guvernare/">Adrian Torma susține că PSD trebuie să intre la guvernare</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-01T04:00:37+00:00">1 octombrie 2026, 07:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Liderul social-democrat din Moldova Nouă afirmă că Sorin Grindeanu este potrivit pentru funcția de premier și nu exclude o eventuală înțelegere politică cu partidul AUR în actualul context dificil.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://expressdebanat.ro/torma-psd-trebuie-sa-ajunga-la-guvernare-o-negociere-cu-aur-nu-este-un-lucru-rau/" target="_blank" rel="noopener noreferrer">Express de Banat</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Digi24" data-title="Nicușor Dan afirmă că rectificarea bugetară nu reprezintă un pericol imediat"><a class="card-media" href="/politic/nicusor-dan-afirma-ca-rectificarea-bugetara-nu-reprezinta-un-pericol-imediat/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/nicusor-dan-afirma-ca-rectificarea-bugetara-nu-reprezinta-un-pericol-imediat/">Nicușor Dan afirmă că rectificarea bugetară nu reprezintă un pericol imediat</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T21:55:59+00:00">1 octombrie 2026, 00:55</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Președintele Nicușor Dan a declarat că, deși situația actuală fără un guvern cu puteri depline nu este ideală, întârzierea rectificării bugetare nu generează panică pe termen scurt, deși problema trebuie rezolvată curând.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-despre-rectificarea-bugetara-nu-e-un-motiv-de-panica-pe-termen-foarte-scurt-insa-e-o-chestiune-de-saptamani-3972251" target="_blank" rel="noopener noreferrer">Digi24</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Digi24" data-title="Nicușor Dan a comentat criticile primite online după eșecul guvernului Mureșan"><a class="card-media" href="/politic/nicusor-dan-a-comentat-criticile-primite-online-dupa-esecul-guvernului-muresan/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/nicusor-dan-a-comentat-criticile-primite-online-dupa-esecul-guvernului-muresan/">Nicușor Dan a comentat criticile primite online după eșecul guvernului Mureșan</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T21:13:10+00:00">1 octombrie 2026, 00:13</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Aflat în Cehia, președintele a reacționat la valul de nemulțumiri exprimate de mii de cetățeni pe internet, urmare a respingerii executivului propus în Parlament.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-dupa-ce-mii-de-romani-l-au-criticat-in-online-am-si-eu-in-capul-meu-o-realitate-ideala-3972209" target="_blank" rel="noopener noreferrer">Digi24</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Spotmedia" data-title="Nicușor Dan a anunțat continuarea acțiunilor politice după respingerea premierului propus"><a class="card-media" href="/politic/nicusor-dan-a-anuntat-continuarea-actiunilor-politice-dupa-respingerea/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">miercuri</span><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/nicusor-dan-a-anuntat-continuarea-actiunilor-politice-dupa-respingerea/">Nicușor Dan a anunțat continuarea acțiunilor politice după respingerea premierului propus</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T21:09:00+00:00">1 octombrie 2026, 00:09</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Eșecul numirii lui Siegfried Mureșan în Parlament a generat critici privind strategia președintelui, care a transmis un mesaj scurt publicului pentru începutul săptămânii viitoare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://spotmedia.ro/stiri/opinii-si-analize/nicusor-dan-dupa-un-nou-esec-in-parlament-ne-vedem-luni" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Ziarul Financiar" data-title="Siegfried Mureşan exclude demisia din Parlamentul European"><a class="card-media" href="/politic/siegfried-muresan-exclude-demisia-din-parlamentul-european/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/siegfried-muresan-exclude-demisia-din-parlamentul-european/">Siegfried Mureşan exclude demisia din Parlamentul European</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T21:07:00+00:00">1 octombrie 2026, 00:07</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">După respingerea cabinetului său în Parlament, Siegfried Mureșan a respins ferm speculațiile privind o eventuală renunțare la mandatul său de eurodeputat.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.zf.ro/eveniment/ce-a-lipsit-ieri-in-parlament-ca-sa-treaca-guvernul-muresan-23250262" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Ziarul Financiar" data-title="Guvernul Bolojan rămâne interimar după respingerea cabinetului Mureşan"><a class="card-media" href="/politic/guvernul-bolojan-ramane-interimar-dupa-respingerea-cabinetului-muresan/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Politică</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">miercuri</span><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/guvernul-bolojan-ramane-interimar-dupa-respingerea-cabinetului-muresan/">Guvernul Bolojan rămâne interimar după respingerea cabinetului Mureşan</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T21:07:00+00:00">1 octombrie 2026, 00:07</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Cabinetul propus de Siegfried Mureșan a fost respins de legislativ din cauza absenteismului masiv, lăsând în funcție executivul condus anterior de Ilie Bolojan, fără o claritate privind durata.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.zf.ro/eveniment/guvernul-bolojan-ramane-in-functie-dupa-votul-din-parlament-asupra-guvernului-propus-al-lui-siegfried-muresan-nimeni-nu-stie-cata-vreme-ramane-in-functie-guvernul-demis-la-5-mai-al-lui-ilie-bolojan-23250235" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Antena 3 CNN" data-title="Nicușor Dan exclude dizolvarea Parlamentului și alegerile anticipate"><a class="card-media" href="/politic/nicusor-dan-exclude-dizolvarea-parlamentului-si-alegerile-anticipate/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/nicusor-dan-exclude-dizolvarea-parlamentului-si-alegerile-anticipate/">Nicușor Dan exclude dizolvarea Parlamentului și alegerile anticipate</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T21:01:00+00:00">1 octombrie 2026, 00:01</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Președintele României, Nicușor Dan, a respins categoric posibilitatea organizării de alegeri anticipate, invocând solicitări exprese din partea investitorilor financiari care asigură împrumuturile externe ale țării.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/politica/nicusor-dan-exclude-ferm-dizolvarea-parlamentului-mesajul-investitorilor-care-imprumuta-romania-a-fost-nu-alegeri-anticipate-805313.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card card-c" data-cat="politic" data-source="Profit.ro" data-title="Nicușor Dan va condiționa partidele să excludă AUR de la guvernare"><a class="card-media" href="/politic/nicusor-dan-va-conditiona-partidele-sa-excluda-aur-de-la-guvernare/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge c">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/politic/nicusor-dan-va-conditiona-partidele-sa-excluda-aur-de-la-guvernare/">Nicușor Dan va condiționa partidele să excludă AUR de la guvernare</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T20:59:00+00:00">30 septembrie 2026, 23:59</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Președintele Nicușor Dan a anunțat că va cere partidelor politice să nu coopteze formațiunea AUR la guvernare în cadrul viitoarelor consultări de la Cotroceni. Șeful statului a motivat decizia prin necesitatea menținerii direcției pro-occidentale și a stabilității financiare a României. Totodată, președintele a precizat că va face o nouă desemnare pentru funcția de premier luni după-amiază, având deja mai multe nume în vedere.</p>
-  <p class="sources-inline"><b>Surse:</b>
-<a href="https://www.profit.ro/stiri/politic/nicusor-dan-anunta-fara-aur-la-guvernare-conditie-pentru-partide-22795162?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a>, <a href="https://spotmedia.ro/stiri/politica/conditia-lui-nicusor-dan-pentru-partide-fara-aur-la-guvernare-despre-desemnarea-unui-nou-premier-am-foarte-multe-nume-in-cap" target="_blank" rel="noopener noreferrer">Spotmedia</a>, <a href="https://www.digi24.ro/stiri/actualitate/politica/nicusor-dan-va-conditiona-partidele-sa-nu-coopteze-aur-la-guvernare-presedintele-despre-viitorul-premier-am-multe-nume-in-cap-3972187" target="_blank" rel="noopener noreferrer">Digi24</a></p>
-</article>
-<article class="card" data-cat="politic" data-source="Antena 3 CNN" data-title="Nicușor Dan exclude orice alianță guvernamentală cu AUR"><a class="card-media" href="/politic/nicusor-dan-exclude-orice-alianta-guvernamentala-cu-aur/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Politică</p></div>
-  <div class="art-tick"></div><p class="art-when">miercuri,<br>30 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Politică</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/politic/nicusor-dan-exclude-orice-alianta-guvernamentala-cu-aur/">Nicușor Dan exclude orice alianță guvernamentală cu AUR</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T20:57:00+00:00">30 septembrie 2026, 23:57</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Edilul Capitalei avertizează că o coaliție cu AUR ar periclita parteneriatele strategice externe ale României, subliniind însă că decizia nu reprezintă o jignire la adresa alegătorilor acestei formațiuni.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/politica/nicusor-dan-traseaza-linia-rosie-pentru-psd-fara-aur-la-guvernare-ar-afecta-relatiile-cu-partenerii-nostri-805312.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">
 <a href="/politic/12/" rel="prev" aria-label="Pagina anterioară">‹</a>
-<a href="/politic/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/politic/11/" aria-label="Pagina 11">11</a><a href="/politic/12/" aria-label="Pagina 12">12</a><span class="current" aria-current="page">13</span><a href="/politic/14/" aria-label="Pagina 14">14</a><a href="/politic/15/" aria-label="Pagina 15">15</a><span class="gap" aria-hidden="true">…</span><a href="/politic/31/" aria-label="Pagina 31">31</a><a href="/politic/14/" rel="next" aria-label="Pagina următoare">›</a>
+<a href="/politic/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/politic/11/" aria-label="Pagina 11">11</a><a href="/politic/12/" aria-label="Pagina 12">12</a><span class="current" aria-current="page">13</span><a href="/politic/14/" aria-label="Pagina 14">14</a><a href="/politic/15/" aria-label="Pagina 15">15</a><span class="gap" aria-hidden="true">…</span><a href="/politic/30/" aria-label="Pagina 30">30</a><a href="/politic/14/" rel="next" aria-label="Pagina următoare">›</a>
   </nav>
   </main>
 

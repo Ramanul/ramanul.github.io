@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech" class="active">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech" class="active">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,21 +82,133 @@
 </nav>
   <h1 class="section-title">Tech</h1>
   <section class="grid">
-<article class="card" data-cat="tech" data-source="ZonaIT" data-title="HONOR a lansat smartphone-ul Magic9 Pro Max pentru piața din China"><a class="card-media" href="/tech/honor-a-lansat-smartphone-ul-magic9-pro-max-pentru-piata-din-china/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="tech" data-source="KitGuru" data-title="Bethesda a evitat un spin-off extern pentru The Elder Scrolls"><a class="card-media" href="/tech/bethesda-a-evitat-un-spin-off-extern-pentru-the-elder-scrolls/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">28</span><span class="art-num-wk">luni</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/bethesda-a-evitat-un-spin-off-extern-pentru-the-elder-scrolls/">Bethesda a evitat un spin-off extern pentru The Elder Scrolls</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T15:59:22+00:00">28 septembrie 2026, 18:59</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fostul designer Kurt Kuhlmann a dezvăluit că studioul a refuzat să colaboreze cu echipe externe pentru un joc derivat din serie, dorind să prevină o situație similară celei în care fanii au preferat creația celor de la Obsidian.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.kitguru.net/gaming/matthew-wilson/bethesda-avoided-an-elder-scrolls-spin%e2%80%91off-to-prevent-another-new-vegas-situation/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="Timiș Online" data-title="DNSC avertizează asupra site-urilor false care imită magazine cunoscute"><a class="card-media" href="/tech/dnsc-avertizeaza-asupra-site-urilor-false-care-imita-magazine-cunoscute-2/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">28</span><span class="art-num-wk">luni</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/dnsc-avertizeaza-asupra-site-urilor-false-care-imita-magazine-cunoscute-2/">DNSC avertizează asupra site-urilor false care imită magazine cunoscute</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T15:19:19+00:00">28 septembrie 2026, 18:19</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Direcția Națională de Securitate Cibernetică semnalează înmulțirea fraudelor online bazate pe clone ale unor branduri celebre, menite să fure date personale și financiare prin promoții fictive.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.tion.ro/romania/au-aparut-site-uri-false-care-imita-magazine-si-branduri-cunoscute-cum-pot-fi-recunoscute-tentativele-de-frauda-2361759/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Timiș Online</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="KitGuru" data-title="Remake-urile pentru Halo 2 și Halo 3 ar fi fost anulate"><a class="card-media" href="/tech/remake-urile-pentru-halo-2-si-halo-3-ar-fi-fost-anulate/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 28 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/remake-urile-pentru-halo-2-si-halo-3-ar-fi-fost-anulate/">Remake-urile pentru Halo 2 și Halo 3 ar fi fost anulate</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T15:00:10+00:00">28 septembrie 2026, 18:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">După reorganizarea studioului Halo și mutarea francizei la Activision, zvonurile indică anularea proiectelor Halo 2 Remake și Halo 3 Remake. Decizia vine pe fondul reducerii echipei de dezvoltare la un rol de mentenanță.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.kitguru.net/gaming/matthew-wilson/halo-2-and-halo-3-remakes-reportedly-cancelled/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="KitGuru" data-title="NetEase a înregistrat marca pentru un nou joc MMO numit ECC: Redline"><a class="card-media" href="/tech/netease-a-inregistrat-marca-pentru-un-nou-joc-mmo-numit-ecc-redline/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">28</span><span class="art-num-wk">luni</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/netease-a-inregistrat-marca-pentru-un-nou-joc-mmo-numit-ecc-redline/">NetEase a înregistrat marca pentru un nou joc MMO numit ECC: Redline</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T14:30:21+00:00">28 septembrie 2026, 17:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Compania NetEase și-a extins portofoliul de titluri multiplayer prin înregistrarea mărcii ECC: Redline în Statele Unite și Uniunea Europeană. Documentele oficiale confirmă că viitorul proiect aparține categoriei jocurilor masiv multiplayer.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.kitguru.net/gaming/matthew-wilson/netease-files-trademark-for-new-mmo-ecc-redline/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="ZonaIT" data-title="Apple trebuie să achite 5,7 miliarde de dolari într-un proces privind brevetele haptice"><a class="card-media" href="/tech/apple-trebuie-sa-achite-57-miliarde-de-dolari-intr-un-proces-privind-brevetele/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">28</span><span class="art-num-wk">luni</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/apple-trebuie-sa-achite-57-miliarde-de-dolari-intr-un-proces-privind-brevetele/">Apple trebuie să achite 5,7 miliarde de dolari într-un proces privind brevetele haptice</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T13:49:31+00:00">28 septembrie 2026, 16:49</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Compania americana a pierdut litigiul referitor la tehnologia de feedback haptic utilizată pe iPhone-uri și Apple Watch-uri, fiind obligată la plata unor despăgubiri masive.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://zonait.ro/apple-taptic-engine-iphone-apple-watch/" target="_blank" rel="noopener noreferrer">ZonaIT</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="ZonaIT" data-title="Vulnerabilitate Android oferă acces ROOT pe telefoane OnePlus, OPPO și realme"><a class="card-media" href="/tech/vulnerabilitate-android-ofera-acces-root-pe-telefoane-oneplus-oppo-si-realme/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Tech</p></div>
   <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
   <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Tech</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/honor-a-lansat-smartphone-ul-magic9-pro-max-pentru-piata-din-china/">HONOR a lansat smartphone-ul Magic9 Pro Max pentru piața din China</a></h2>
+  <h2 class="card-title"><a href="/tech/vulnerabilitate-android-ofera-acces-root-pe-telefoane-oneplus-oppo-si-realme/">Vulnerabilitate Android oferă acces ROOT pe telefoane OnePlus, OPPO și realme</a></h2>
   <div class="meta">
-    <time datetime="2026-09-28T10:29:28+00:00">28 septembrie 2026, 13:29</time>
+    <time datetime="2026-09-28T13:02:14+00:00">28 septembrie 2026, 16:02</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Noul dispozitiv echipat cu procesor Snapdragon adoptă un design inspirat de la Apple și mizează pe camere foto avansate pentru a concura direct cu rivalii din segmentul premium.</p>
+  <p class="summary">Cercetătorul în securitate Rasmus Moorats a descoperit exploit-uri necorectate în sistemul OxygenOS care permit aplicațiilor malware să obțină drepturi de acces total asupra dispozitivelor vizate.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://zonait.ro/honor-magic9-pro-max/" target="_blank" rel="noopener noreferrer">ZonaIT</a></p>
+<a href="https://zonait.ro/telefoanele-oneplus-oppo-realme-malware/" target="_blank" rel="noopener noreferrer">ZonaIT</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="Gazeta de Cluj" data-title="Comportamentul acustic al boxelor portabile diferă între spațiile închise și cele deschise"><a class="card-media" href="/tech/comportamentul-acustic-al-boxelor-portabile-difera-intre-spatiile-inchise-si/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 28 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/comportamentul-acustic-al-boxelor-portabile-difera-intre-spatiile-inchise-si/">Comportamentul acustic al boxelor portabile diferă între spațiile închise și cele deschise</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T12:24:44+00:00">28 septembrie 2026, 15:24</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Mutarea unei boxe dintr-o cameră pe terasă reduce considerabil percepția basului și claritatea vocii din cauza mediului deschis, nu a defecțiunilor tehnice ale dispozitivului.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://gazetadecluj.ro/boxa-pentru-terasa-ce-se-schimba-cand-iesi-din-camera/" target="_blank" rel="noopener noreferrer">Gazeta de Cluj</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="ZonaIT" data-title="Synology lansează camera de supraveghere FC600 cu funcții AI și vedere panoramică"><a class="card-media" href="/tech/synology-lanseaza-camera-de-supraveghere-fc600-cu-functii-ai-si-vedere/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 28 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/synology-lanseaza-camera-de-supraveghere-fc600-cu-functii-ai-si-vedere/">Synology lansează camera de supraveghere FC600 cu funcții AI și vedere panoramică</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T11:23:32+00:00">28 septembrie 2026, 14:23</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Compania introduce pe piață noul model FC600, o cameră compactă destinată spațiilor interioare, dotată cu o lentilă panoramică la 360 de grade și capabilități avansate de analiză video prin inteligență artificială.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://zonait.ro/synology-lanseaza-fc600-supraveghere-panoramica-360/" target="_blank" rel="noopener noreferrer">ZonaIT</a></p>
 </article>
 <article class="card" data-cat="tech" data-source="Start-up.ro" data-title="Orange lansează un pachet de conectivitate sigură pentru copii"><a class="card-media" href="/tech/orange-lanseaza-un-pachet-de-conectivitate-sigura-pentru-copii/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 28 septembrie 2026</span></div>
   <div class="art-rule"></div>
@@ -108,20 +226,6 @@
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://start-up.ro/cum-te-ajuta-orange-sa-ti-pregatesti-copilul-pentru-primul-lui-smartphone/" target="_blank" rel="noopener noreferrer">Start-up.ro</a></p>
 </article>
-<article class="card" data-cat="tech" data-source="ZonaIT" data-title="Microsoft recunoaște o eroare ce dezactivează licențele Office 2016 și 2019"><a class="card-media" href="/tech/microsoft-recunoaste-o-eroare-ce-dezactiveaza-licentele-office-2016-si-2019/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Tech</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/microsoft-recunoaste-o-eroare-ce-dezactiveaza-licentele-office-2016-si-2019/">Microsoft recunoaște o eroare ce dezactivează licențele Office 2016 și 2019</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-28T08:55:50+00:00">28 septembrie 2026, 11:55</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">O actualizare destinată abonaților Microsoft 365 este livrată accidental pe calculatoarele echipate cu versiuni Office mai vechi, eliminând cheile de activare perpetuă și afectând funcționarea pachetului.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://zonait.ro/actualizare-windows-licente-office-2016-office-2019/" target="_blank" rel="noopener noreferrer">ZonaIT</a></p>
-</article>
 <article class="card" data-cat="tech" data-source="XDA Developers" data-title="Boox a lansat cititorul de e-ink de buzunar Picco"><a class="card-media" href="/tech/boox-a-lansat-cititorul-de-e-ink-de-buzunar-picco/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 28 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Tech</p></div>
@@ -137,6 +241,82 @@
   <p class="summary">Compania Boox și-a extins gama de dispozitive cu ecran e-ink printr-un nou model ultracompact, conceput special pentru utilizatorii care vor portabilitate maximă.</p>
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://www.xda-developers.com/the-boox-picco-is-the-perfect-companion-for-the-e-ink-fan-who-wants-something-truly-pocket-sized/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="KitGuru" data-title="Xbox finanțează jocul PHYSINT al lui Hideo Kojima la un cost redus"><a class="card-media" href="/tech/xbox-finanteaza-jocul-physint-al-lui-hideo-kojima-la-un-cost-redus/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Tech</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/xbox-finanteaza-jocul-physint-al-lui-hideo-kojima-la-un-cost-redus/">Xbox finanțează jocul PHYSINT al lui Hideo Kojima la un cost redus</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T14:00:06+00:00">28 septembrie 2026, 17:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Sumele investite de Microsoft în noul proiect dezvoltat de Hideo Kojima sunt considerabil mai mici decât zvonurile inițiale care indicau un buget de 400 de milioane de dolari.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.kitguru.net/gaming/matthew-wilson/xbox-is-paying-significantly-less-than-reported-400m-budget-for-kojimas-physint/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="KitGuru" data-title="Minecraft atrage zilnic 300.000 de jucători noi după 17 ani de existență"><a class="card-media" href="/tech/minecraft-atrage-zilnic-300-000-de-jucatori-noi-dupa-17-ani-de-existenta/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">28</span><span class="art-num-wk">luni</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/minecraft-atrage-zilnic-300-000-de-jucatori-noi-dupa-17-ani-de-existenta/">Minecraft atrage zilnic 300.000 de jucători noi după 17 ani de existență</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T13:30:41+00:00">28 septembrie 2026, 16:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Conform declarațiilor conducerii Xbox, popularul joc video continuă să înregistreze o creștere masivă a audienței globale. Aproximativ 300.000 de utilizatori noi încep zilnic să joace titlul, menținând un ritm constant de expansiune pe piață.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.kitguru.net/gaming/matthew-wilson/minecraft-still-brings-in-300k-new-players-each-day-according-to-xbox-ceo/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="ZonaIT" data-title="HONOR a lansat smartphone-ul Magic9 Pro Max pentru piața din China"><a class="card-media" href="/tech/honor-a-lansat-smartphone-ul-magic9-pro-max-pentru-piata-din-china/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/honor-a-lansat-smartphone-ul-magic9-pro-max-pentru-piata-din-china/">HONOR a lansat smartphone-ul Magic9 Pro Max pentru piața din China</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T10:29:28+00:00">28 septembrie 2026, 13:29</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Noul dispozitiv echipat cu procesor Snapdragon adoptă un design inspirat de la Apple și mizează pe camere foto avansate pentru a concura direct cu rivalii din segmentul premium.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://zonait.ro/honor-magic9-pro-max/" target="_blank" rel="noopener noreferrer">ZonaIT</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="KitGuru" data-title="Thermal Grizzly și Noctua lansează WireView Pro II Noctua Edition"><a class="card-media" href="/tech/thermal-grizzly-si-noctua-lanseaza-wireview-pro-ii-noctua-edition/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/thermal-grizzly-si-noctua-lanseaza-wireview-pro-ii-noctua-edition/">Thermal Grizzly și Noctua lansează WireView Pro II Noctua Edition</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T13:00:39+00:00">28 septembrie 2026, 16:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Dispozitivul pentru monitorizarea alimentării plăcilor video primește o carcasă CNC și un ventilator silențios NF-A4x10, menținând măsurătorile precise pentru conectorii 12V-2x6.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.kitguru.net/components/cooling/joao-silva/thermal-grizzly-partners-with-noctua-for-quieter-wireview-pro-ii/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="ZonaIT" data-title="Microsoft recunoaște o eroare ce dezactivează licențele Office 2016 și 2019"><a class="card-media" href="/tech/microsoft-recunoaste-o-eroare-ce-dezactiveaza-licentele-office-2016-si-2019/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Tech</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/microsoft-recunoaste-o-eroare-ce-dezactiveaza-licentele-office-2016-si-2019/">Microsoft recunoaște o eroare ce dezactivează licențele Office 2016 și 2019</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T08:55:50+00:00">28 septembrie 2026, 11:55</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">O actualizare destinată abonaților Microsoft 365 este livrată accidental pe calculatoarele echipate cu versiuni Office mai vechi, eliminând cheile de activare perpetuă și afectând funcționarea pachetului.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://zonait.ro/actualizare-windows-licente-office-2016-office-2019/" target="_blank" rel="noopener noreferrer">ZonaIT</a></p>
 </article>
 <article class="card" data-cat="tech" data-source="Connect.ro" data-title="Honor Magic 9 Pro Max depășește 5,5 milioane de puncte în testul AnTuTu"><a class="card-media" href="/tech/honor-magic-9-pro-max-depaseste-55-milioane-de-puncte-in-testul-antutu/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 28 septembrie 2026</span></div>
   <div class="art-rule"></div>
@@ -215,180 +395,6 @@
   <p class="summary">Noul model ZTE Nubia Air Pro propune un format foarte subțire, un ecran de calitate și o autonomie ridicată în segmentul accesibil. Cu toate acestea, dispozitivul este limitat de performanțele tehnice modeste raportate la așteptări.</p>
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://start-up.ro/review-zte-nubia-air-pro-e-un-telefon-cu-idei-bune-dar-dat-in-spate-de-performanta/" target="_blank" rel="noopener noreferrer">Start-up.ro</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="NwRadu" data-title="Noile evoluții din tehnologie includ anchete, lansări și amenzi uriașe"><a class="card-media" href="/tech/noile-evolutii-din-tehnologie-includ-anchete-lansari-si-amenzi-uriase/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/noile-evolutii-din-tehnologie-includ-anchete-lansari-si-amenzi-uriase/">Noile evoluții din tehnologie includ anchete, lansări și amenzi uriașe</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-28T03:44:33+00:00">28 septembrie 2026, 06:44</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Printre noutățile din IT și industrie se numără sosirea unui nou avion TAROM, extinderea măsurilor de verificare a vârstei pe Discord și o sancțiune uriașă pentru Apple.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.nwradu.ro/2026/09/stirile-zilei-despre-tehnologie-28-septembrie-2026/" target="_blank" rel="noopener noreferrer">NwRadu</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="BizBrașov" data-title="Aplicația Waze afișează un ecran negru pe Android Auto"><a class="card-media" href="/tech/aplicatia-waze-afiseaza-un-ecran-negru-pe-android-auto/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/aplicatia-waze-afiseaza-un-ecran-negru-pe-android-auto/">Aplicația Waze afișează un ecran negru pe Android Auto</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-28T01:59:00+00:00">28 septembrie 2026, 04:59</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Șoferii care utilizează sistemul Android Auto întâmpină probleme tehnice în care navigația Waze devine inutilizabilă din cauza afișării unui ecran complet negru la pornirea hărții.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://bizbrasov.ro/2026/09/28/aplicatia-de-trafic-waze/" target="_blank" rel="noopener noreferrer">BizBrașov</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="XDA Developers" data-title="Windows comprimă automat memoria RAM pentru performanță"><a class="card-media" href="/tech/windows-comprima-automat-memoria-ram-pentru-performanta/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/windows-comprima-automat-memoria-ram-pentru-performanta/">Windows comprimă automat memoria RAM pentru performanță</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-28T00:00:16+00:00">28 septembrie 2026, 03:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Sistemul de operare Windows utilizează de ani de zile funcția de compresie a memoriei în fundal. Această tehnologie ajută la optimizarea resurselor hardware disponibile, deși mulți utilizatori preferă să o dezactiveze manual.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.xda-developers.com/windows-has-been-compressing-your-memory-in-the-background-for-years/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="Piata Auto MD" data-title="Performanțe notabile pentru prima clădire baterie gravitațională"><a class="card-media" href="/tech/performante-notabile-pentru-prima-cladire-baterie-gravitationala/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">28</span><span class="art-num-wk">luni</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/performante-notabile-pentru-prima-cladire-baterie-gravitationala/">Performanțe notabile pentru prima clădire baterie gravitațională</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-28T00:00:00+00:00">28 septembrie 2026, 03:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Startup-ul elvețian Energy Vault a înregistrat un randament excelent cu prima clădire din lume care funcționează ca baterie gravitațională, deși costurile totale ale construcției s-au dovedit a fi extrem de ridicate.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://piataauto.md/Stiri/2026/09/Prima-cladire-din-lume-cu-rol-genial-de-baterie-gravitationala-a-indicat-un-randament-excelent-dar-constructia-a-avut-costuri-uriase/" target="_blank" rel="noopener noreferrer">Piata Auto MD</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="Piata Auto MD" data-title="Compania Heart Aerospace lansează avionul hibrid Heart ES-36"><a class="card-media" href="/tech/compania-heart-aerospace-lanseaza-avionul-hibrid-heart-es-36/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">28</span><span class="art-num-wk">luni</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/compania-heart-aerospace-lanseaza-avionul-hibrid-heart-es-36/">Compania Heart Aerospace lansează avionul hibrid Heart ES-36</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-28T00:00:00+00:00">28 septembrie 2026, 03:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">După finalizarea primului zbor de test cu un prototip electric, inginerii suedezi de la Heart Aerospace au trecut la dezvoltarea aeronavei hibride de serie Heart ES-36, destinată transportului aerian regional ecologic.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://piataauto.md/Stiri/2026/09/Dupa-ce-au-facut-primul-zbor-electric-de-test-cu-5-dolari-in-energia-consumata-inginerii-suedezi-lanseaza-avionul-plug-in-hibrid-serie-Heart-ES-36/" target="_blank" rel="noopener noreferrer">Piata Auto MD</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="XDA Developers" data-title="Linux revigorează computerele vechi scoase din uz de Windows"><a class="card-media" href="/tech/linux-revigoreaza-computerele-vechi-scoase-din-uz-de-windows/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/linux-revigoreaza-computerele-vechi-scoase-din-uz-de-windows/">Linux revigorează computerele vechi scoase din uz de Windows</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T23:00:18+00:00">28 septembrie 2026, 02:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Cerințele stricte impuse de sistemul Windows 11 lasă în urmă numeroase echipamente hardware vechi lipsite de cipuri TPM. Utilizarea unei distribuții Linux ușoare reprezintă o soluție eficientă pentru a repune în funcțiune aceste dispozitive.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.xda-developers.com/lightweight-linux-to-revive-a-windows-pc-that-is-not-ubuntu/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="XDA Developers" data-title="Un programator a creat un sistem unificat pentru mai multe modele AI"><a class="card-media" href="/tech/un-programator-a-creat-un-sistem-unificat-pentru-mai-multe-modele-ai/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">27</span><span class="art-num-wk">duminică</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/un-programator-a-creat-un-sistem-unificat-pentru-mai-multe-modele-ai/">Un programator a creat un sistem unificat pentru mai multe modele AI</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T22:00:17+00:00">28 septembrie 2026, 01:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Sătul să plătească abonamente separate pentru diverse instrumente de inteligență artificială, un dezvoltator a creat o singură platformă capabilă să folosească modele precum Claude, GPT, Gemini și variante locale.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.xda-developers.com/stopped-paying-for-multiple-ai-coding-tools-built-one-setup-using-claude-gpt-gemini-local-models/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="Primăria Sânnicolau Mare" data-title="Transmisie video live realizată prin intermediul aplicației mobile SportCam"><a class="card-media" href="/tech/transmisie-video-live-realizata-prin-intermediul-aplicatiei-mobile-sportcam/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Tech</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/transmisie-video-live-realizata-prin-intermediul-aplicatiei-mobile-sportcam/">Transmisie video live realizată prin intermediul aplicației mobile SportCam</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T21:15:05+00:00">28 septembrie 2026, 00:15</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Platforma SportCam a publicat o înregistrare video care include o tabelă de scor virtuală, generată prin intermediul aplicației mobile dedicate pentru sistemele de operare iOS și Android.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.sannicolau-mare.ro/sportcam-yt-stream-27-09-2026/" target="_blank" rel="noopener noreferrer">Primăria Sânnicolau Mare</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="Antena 3 CNN" data-title="Omanul elaborează prima sa lege națională pentru sectorul spațial"><a class="card-media" href="/tech/omanul-elaboreaza-prima-sa-lege-nationala-pentru-sectorul-spatial/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-tick"></div><p class="art-when">duminică,<br>27 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/omanul-elaboreaza-prima-sa-lege-nationala-pentru-sectorul-spatial/">Omanul elaborează prima sa lege națională pentru sectorul spațial</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T21:08:00+00:00">28 septembrie 2026, 00:08</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Ministerul Transporturilor din Oman pregătește un cadru legislativ dedicat industriei spațiale. Inițiativa vine pe fondul expansiunii rapide a serviciilor și capabilităților tehnologice din această țară.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/externe/omanul-se-pregateste-sa-devina-un-jucator-in-economia-spatiala-ministerul-transporturilor-elaboreaza-prima-lege-spatiala-a-tarii-804811.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="Antena 3 CNN" data-title="Analiză privind temerile legate de inteligența artificială"><a class="card-media" href="/tech/analiza-privind-temerile-legate-de-inteligenta-artificiala/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/analiza-privind-temerile-legate-de-inteligenta-artificiala/">Analiză privind temerile legate de inteligența artificială</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T20:44:00+00:00">27 septembrie 2026, 23:44</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Valul de previziuni apocaliptice referitoare la criza climatică, pandemii și inteligența artificială generează panică nefondată, ascunzând riscuri reale și interpretând greșit viitorul tehnologic.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/externe/mapamond/gandirea-apocaliptica-de-ce-ne-sperie-ai-criza-climatica-pandemia-si-unde-gresesc-previziunile-despre-sfarsitul-lumii-804675.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="XDA Developers" data-title="Verificarea specificațiilor tehnice este esențială înainte de achiziționarea unui router Wi-Fi 7"><a class="card-media" href="/tech/verificarea-specificatiilor-tehnice-este-esentiala-inainte-de-achizitionarea/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">27</span><span class="art-num-wk">duminică</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/verificarea-specificatiilor-tehnice-este-esentiala-inainte-de-achizitionarea/">Verificarea specificațiilor tehnice este esențială înainte de achiziționarea unui router Wi-Fi 7</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T21:00:17+00:00">28 septembrie 2026, 00:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Marcajele comerciale de pe cutiile noilor routere pot crea confuzie privind viteza reală pe care laptopul o poate atinge, fiind necesară o analiză atentă a performanțelor înainte de cumpărare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.xda-developers.com/wi-fi-7-router-box-number-every-band/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

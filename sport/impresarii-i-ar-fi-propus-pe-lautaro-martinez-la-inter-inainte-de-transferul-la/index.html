@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/sport/impresarii-i-ar-fi-propus-pe-lautaro-martinez-la-inter-inainte-de-transferul-la/cover.jpg?v=d74f28d2">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport" class="active">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport" class="active">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -113,7 +119,7 @@
     <p><a class="article-report-link" href="mailto:contact@izz.ro?subject=Raport%20eroare%20IZZ.ro%3A%20Impresarii%20i-ar%20fi%20propus%20pe%20Lautaro%20Martinez%20la%20Inter%20%C3%AEnainte%20de%20transferul%20la%20Barcelona&body=Pagina%3A%20https%3A//izz.ro/sport/impresarii-i-ar-fi-propus-pe-lautaro-martinez-la-inter-inainte-de-transferul-la/%0A%0ACe%20trebuie%20corectat%3A%0A%0ASursa%20sau%20contextul%20relevant%3A">Raportează o eroare</a> <a href="/legal/corrections/">Vezi politica de corecții</a></p>
   </aside>
   <p class="topics">Subiecte:
-<a href="/subiect/lautaro-martinez/">Lautaro Martinez</a> · <a href="/subiect/inter/">Inter</a> · <a href="/subiect/barcelona/">Barcelona</a> · <a href="/subiect/tuttosport/">Tuttosport</a></p>
+<a href="/subiect/lautaro-martinez/">Lautaro Martinez</a> · <a href="/subiect/inter/">Inter</a> · <a href="/subiect/barcelona/">Barcelona</a></p>
   <h2 class="people-title">În imagini</h2>
   <div class="people">
     <figure class="person">
@@ -134,10 +140,10 @@
     <ul>
       <li><a href="/sport/barcelona-l-a-ratat-pe-lautaro-martinez-din-cauza-negocierilor-esuate/">Barcelona l-a ratat pe Lautaro Martinez din cauza negocierilor eșuate</a>
         <span class="related-meta">sport · 25 septembrie 2026, 09:39</span></li>
-      <li><a href="/sport/inter-vrea-sa-il-transfera-gratuit-pe-zambo-anguissa-in-2027/">Inter Vrea Să Îl Transferă Gratuit Pe Zambo Anguissa În 2027</a>
-        <span class="related-meta">sport · 27 septembrie 2026, 21:00</span></li>
       <li><a href="/sport/decizia-tehnicianului-cristian-chivu-privind-utilizarea-lui-lautaro-martinez-la/">Decizia tehnicianului Cristian Chivu privind utilizarea lui Lautaro Martinez la Inter</a>
         <span class="related-meta">sport · 5 octombrie 2026, 09:15</span></li>
+      <li><a href="/sport/atacantul-lautaro-martinez-urca-pe-podiumul-marcatorilor-istorici-ai-nationalei/">Atacantul Lautaro Martinez urca pe podiumul marcatorilor istorici ai nationalei Argentinei</a>
+        <span class="related-meta">sport · 4 octombrie 2026, 09:00</span></li>
     </ul>
   </nav>
 </article>

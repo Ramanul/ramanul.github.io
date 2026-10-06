@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -72,7 +78,7 @@
   <h1 class="section-title">Subiect: Tulcea</h1>
   <p class="follow"><a href="/subiect/tulcea/feed.xml">Urmărește acest subiect (RSS) &rarr;</a></p>
   <p class="connections">Conexiuni:
-<a href="/subiect/ministerul-apararii-nationale/">Ministerul Apărării Naționale</a> · <a href="/subiect/mapn/">MApN</a> · <a href="/subiect/ucraina/">Ucraina</a> · <a href="/subiect/botosani/">Botoșani</a> · <a href="/subiect/suceava/">Suceava</a> · <a href="/subiect/ceatalchioi/">Ceatalchioi</a></p>
+<a href="/subiect/mapn/">MApN</a> · <a href="/subiect/ministerul-apararii-nationale/">Ministerul Apărării Naționale</a> · <a href="/subiect/ucraina/">Ucraina</a> · <a href="/subiect/ceatalchioi/">Ceatalchioi</a> · <a href="/subiect/chilia-veche/">Chilia Veche</a> · <a href="/subiect/rusia/">Rusia</a></p>
   <ol class="timeline">
     <li>
       <time datetime="2026-10-05T06:12:44+00:00">5 octombrie 2026, 09:12</time>
@@ -211,32 +217,8 @@
       <a href="/local/primaria-tulcea-a-reziliat-contractul-pentru-lucrarile-aquaserv/">Primăria Tulcea a reziliat contractul pentru lucrările Aquaserv</a>
     </li>
     <li>
-      <time datetime="2026-09-24T08:43:23+00:00">24 septembrie 2026, 11:43</time>
-      <a href="/local/primaria-tulcea-si-cnsas-organizeaza-expozitia-documentara-dosar-tulcea/">Primăria Tulcea și CNSAS organizează expoziția documentară „Dosar Tulcea”</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T08:04:29+00:00">24 septembrie 2026, 11:04</time>
-      <a href="/local/parcarile-publice-din-cartierul-nou-lotizare-din-tulcea-au-devenit-cu-plata/">Parcările publice din Cartierul Nou-Lotizare din Tulcea au devenit cu plată</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T07:14:21+00:00">24 septembrie 2026, 10:14</time>
-      <a href="/local/o-drona-detectata-in-spatiul-aerian-s-a-prabusit-in-judetul-suceava/">O dronă detectată în spațiul aerian s-a prăbușit în județul Suceava</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T06:06:16+00:00">24 septembrie 2026, 09:06</time>
-      <a href="/local/lucrari-de-asfaltare-pe-strada-energiei-din-tulcea-cu-devierea-autobuzelor/">Lucrări de asfaltare pe strada Energiei din Tulcea cu devierea autobuzelor</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T06:05:28+00:00">24 septembrie 2026, 09:05</time>
-      <a href="/local/aviz-de-mediu-pentru-o-noua-structura-de-cazare-turistica-in-luncavita/">Aviz de mediu pentru o nouă structură de cazare turistică în Luncavița</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T04:45:10+00:00">24 septembrie 2026, 07:45</time>
-      <a href="/local/alerta-ro-alert-si-avioane-militare-ridicate-in-urma-unei-incursiuni-de-drone/">Alertă RO-Alert și avioane militare ridicate în urma unei incursiuni de drone</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T04:35:00+00:00">24 septembrie 2026, 07:35</time>
-      <a href="/local/alerte-de-drone-si-avioane-spaniole-ridicate-in-nordul-romaniei/">Alerte de drone și avioane spaniole ridicate în nordul României</a>
+      <time datetime="2026-09-25T04:43:44+00:00">25 septembrie 2026, 07:43</time>
+      <a href="/local/avioane-f-16-ridicate-de-la-sol-in-urma-unei-alerte-de-drone-in-galati/">Avioane F-16 ridicate de la sol în urma unei alerte de drone în Galați</a>
     </li>
   </ol>
   </main>

@@ -5,7 +5,28 @@
   <atom:link href="https://izz.ro/subiect/uniunea-europeana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Uniunea Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 06 Oct 2026 04:35:28 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 10:37:24 +0000</lastBuildDate>
+    <item>
+      <title>Ursula von der Leyen avertizează împotriva reducerii bugetului Uniunii Europene</title>
+      <link>https://izz.ro/extern/ursula-von-der-leyen-avertizeaza-impotriva-reducerii-bugetului-uniunii-europene/</link>
+      <guid>https://izz.ro/extern/ursula-von-der-leyen-avertizeaza-impotriva-reducerii-bugetului-uniunii-europene/</guid>
+      <pubDate>Tue, 06 Oct 2026 08:22:46 +0000</pubDate>
+      <description>Președinta Comisiei Europene a criticat propunerile Germaniei de diminuare drastică a viitorului buget comun, argumentând că o astfel de măsură ar afecta prioritățile critice legate de competitivitate și independență energetică.</description>
+    </item>
+    <item>
+      <title>România are cea mai slabă rată de adoptare a inteligenței artificiale din UE</title>
+      <link>https://izz.ro/ai/romania-are-cea-mai-slaba-rata-de-adoptare-a-inteligentei-artificiale-din-ue/</link>
+      <guid>https://izz.ro/ai/romania-are-cea-mai-slaba-rata-de-adoptare-a-inteligentei-artificiale-din-ue/</guid>
+      <pubDate>Tue, 06 Oct 2026 07:44:58 +0000</pubDate>
+      <description>Datele Eurostat arată că doar 5,2% dintre companiile românești foloseau inteligența artificială în 2025, plasând țara pe ultimul loc în Uniunea Europeană, unde media atinge pragul de 20 de procente.</description>
+    </item>
+    <item>
+      <title>OpenAI introduce watermark-uri invizibile pentru textele generate în UE</title>
+      <link>https://izz.ro/tech/openai-introduce-watermark-uri-invizibile-pentru-textele-generate-in-ue/</link>
+      <guid>https://izz.ro/tech/openai-introduce-watermark-uri-invizibile-pentru-textele-generate-in-ue/</guid>
+      <pubDate>Tue, 06 Oct 2026 06:08:19 +0000</pubDate>
+      <description>OpenAI va implementa în următoarele săptămâni un sistem de marcare invizibilă numit textGrain pentru textele și codul generate de ChatGPT și Codex în Uniunea Europeană. Tehnologia introduce un semnal statistic în alegerea cuvintelor, care poate fi identificat de un detector specializat. Rata de succes scade în cazul textelor scurte sau modificate ulterior cu sinonime. La lansare, detectorul va fi accesibil doar cercetătorilor și organizațiilor aprobate, compania urmând să publice sistemul în regim open source.</description>
+    </item>
     <item>
       <title>UE va permite un bagaj de cabină suplimentar gratuit începând de anul viitor</title>
       <link>https://izz.ro/general/ue-va-permite-un-bagaj-de-cabina-suplimentar-gratuit-incepand-de-anul-viitor/</link>
@@ -334,26 +355,5 @@
       <guid>https://izz.ro/ai/energia-devine-factorul-limitativ-pentru-fabricile-de-inteligenta-artificiala/</guid>
       <pubDate>Fri, 02 Oct 2026 04:00:00 +0000</pubDate>
       <description>Vicepreședintele executiv al companiei AMD, Thomas Zacharia, susține că aprovizionarea cu energie electrică, și nu numărul de cipuri produse, reprezintă principala provocare în dezvoltarea gigafabricilor europene de AI.</description>
-    </item>
-    <item>
-      <title>Presiunile Statelor Unite asupra Europei în sectorul energetic</title>
-      <link>https://izz.ro/extern/presiunile-statelor-unite-asupra-europei-in-sectorul-energetic/</link>
-      <guid>https://izz.ro/extern/presiunile-statelor-unite-asupra-europei-in-sectorul-energetic/</guid>
-      <pubDate>Fri, 02 Oct 2026 03:15:00 +0000</pubDate>
-      <description>Administrația Donald Trump solicită Uniunii Europene deblocarea rezervelor de motorină pentru a reduce prețurile interne din SUA, amenințând cu un embargo la export care ar destabiliza piața europeană.</description>
-    </item>
-    <item>
-      <title>Miniștrii UE analizează centre de returnare și măsuri dure pentru migrație</title>
-      <link>https://izz.ro/extern/ministrii-ue-analizeaza-centre-de-returnare-si-masuri-dure-pentru-migratie/</link>
-      <guid>https://izz.ro/extern/ministrii-ue-analizeaza-centre-de-returnare-si-masuri-dure-pentru-migratie/</guid>
-      <pubDate>Fri, 02 Oct 2026 00:54:00 +0000</pubDate>
-      <description>Miniștrii din Uniunea Europeană dezbat crearea unor centre de returnare în afara blocului comunitar, consolidarea agenției Frontex și suspendarea temporară a cererilor de azil, în contextul crizei migrației ilegale.</description>
-    </item>
-    <item>
-      <title>Ucraina propune Uniunii Europene să devină pol de testare pentru inteligența artificială</title>
-      <link>https://izz.ro/ai/ucraina-propune-uniunii-europene-sa-devina-pol-de-testare-pentru-inteligenta/</link>
-      <guid>https://izz.ro/ai/ucraina-propune-uniunii-europene-sa-devina-pol-de-testare-pentru-inteligenta/</guid>
-      <pubDate>Thu, 01 Oct 2026 20:45:00 +0000</pubDate>
-      <description>Ministerul Transformării Digitale de la Kiev a lansat o ofertă oficială către Bruxelles pentru a folosi infrastructura și mediul ucrainean ca teren de testare pentru tehnologiile bazate pe IA.</description>
     </item>
 </channel></rss>

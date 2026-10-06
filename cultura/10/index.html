@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more" open>
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more" open>
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura" class="active">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,6 +82,116 @@
 </nav>
   <h1 class="section-title">Cultură</h1>
   <section class="grid">
+<article class="card" data-cat="cultura" data-source="Digi24" data-title="Stela Neagu, soția regretatului scriitor Fănuș Neagu, a încetat din viață"><a class="card-media" href="/cultura/stela-neagu-sotia-regretatului-scriitor-fanus-neagu-a-incetat-din-viata/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Cultură</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/stela-neagu-sotia-regretatului-scriitor-fanus-neagu-a-incetat-din-viata/">Stela Neagu, soția regretatului scriitor Fănuș Neagu, a încetat din viață</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T13:46:25+00:00">27 septembrie 2026, 16:46</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Vestea tristă a decesului a fost făcută publică duminică de către politicianul Ionuț Vulpescu prin intermediul unei rețele de socializare, stârnind mesaje de condoleanțe în mediul cultural.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/stiri/a-murit-stela-neagu-sotia-scriitorului-fanus-neagu-3966477" target="_blank" rel="noopener noreferrer">Digi24</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="HotNews" data-title="Violonista Alissa Margulis vorbește despre impactul dificil al războiului din Ucraina"><a class="card-media" href="/cultura/violonista-alissa-margulis-vorbeste-despre-impactul-dificil-al-razboiului-din/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">27</span><span class="art-num-wk">duminică</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/violonista-alissa-margulis-vorbeste-despre-impactul-dificil-al-razboiului-din/">Violonista Alissa Margulis vorbește despre impactul dificil al războiului din Ucraina</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T12:47:25+00:00">27 septembrie 2026, 15:47</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Născută în Germania din părinți ucraineni și ruși, violonista Alissa Margulis a declarat în capitală că conflictul armat i-a afectat puternic legăturile personale și emoționale cu cultura rusă.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://hotnews.ro/o-violonista-cu-radacini-ruso-ucrainene-despre-razboi-nici-macar-nu-stiu-ce-sa-mai-simt-acum-fata-de-rusia-sunt-atat-de-ingrozita-de-politica-de-acolo-2358170" target="_blank" rel="noopener noreferrer">HotNews</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="Adevărul" data-title="Andreea Vasile vorbește despre infidelitate și presiunea iertării în filmul „3 zile în septembrie“"><a class="card-media" href="/cultura/andreea-vasile-vorbeste-despre-infidelitate-si-presiunea-iertarii-in-filmul-3/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">27</span><span class="art-num-wk">duminică</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/andreea-vasile-vorbeste-despre-infidelitate-si-presiunea-iertarii-in-filmul-3/">Andreea Vasile vorbește despre infidelitate și presiunea iertării în filmul „3 zile în septembrie“</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T12:30:32+00:00">27 septembrie 2026, 15:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Actrița Andreea Vasile analizează rolul Biances, o femeie confruntată cu trădarea conjugală în producția cinematografică „3 zile în septembrie“, subliniind mentalitatea socială care plasează greșitul „salvării“ relației exclusiv pe umerii femeii.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://adevarul.ro/showbiz/film/andreea-vasile-despre-rolul-din-3-zile-in-2559887.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="Liternet" data-title="Documentarul „O vară de nimic” al Alinei Manolache, prezentat la BIEFF"><a class="card-media" href="/cultura/documentarul-o-vara-de-nimic-al-alinei-manolache-prezentat-la-bieff/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-tick"></div><p class="art-when">duminică,<br>27 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/documentarul-o-vara-de-nimic-al-alinei-manolache-prezentat-la-bieff/">Documentarul „O vară de nimic” al Alinei Manolache, prezentat la BIEFF</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T10:49:00+00:00">27 septembrie 2026, 13:49</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Lungmetrajul regizat de Alina Manolache pornește de la un plan eșuat de a documenta pe insula Milos povestea statuii Venus din Milo, fiind selectat în cadrul ediției 2026 a festivalului BIEFF.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://agenda.liternet.ro/articol/31818/Mara-Iulia/Timp-pierdut-timp-castigat-O-vara-de-nimic-la-BIEFF-2026.html" target="_blank" rel="noopener noreferrer">Liternet</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="Profit.ro" data-title="Muzeul din Palermo găzduiește o colecție impresionantă de majolice europene"><a class="card-media" href="/cultura/muzeul-din-palermo-gazduieste-o-colectie-impresionanta-de-majolice-europene/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">27</span><span class="art-num-wk">duminică</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/muzeul-din-palermo-gazduieste-o-colectie-impresionanta-de-majolice-europene/">Muzeul din Palermo găzduiește o colecție impresionantă de majolice europene</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T08:00:00+00:00">27 septembrie 2026, 11:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Palazzo Torre Pirajno expune peste 5.000 de plăci ceramice tradiționale napoletane și siciliene datând din perioada 1500-1900, fiind una dintre cele mai mari colecții de profil.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.profit.ro/de-weekend/casalux-ro-muzeul-placilor-de-majolica-din-palermo-sau-cum-arta-maura-a-modelat-mestesuguri-europene-22784972?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="HotNews" data-title="Carpații românești au fost aleși ca decor pentru un film SF sud-coreean"><a class="card-media" href="/cultura/carpatii-romanesti-au-fost-alesi-ca-decor-pentru-un-film-sf-sud-coreean/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/carpatii-romanesti-au-fost-alesi-ca-decor-pentru-un-film-sf-sud-coreean/">Carpații românești au fost aleși ca decor pentru un film SF sud-coreean</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T07:39:00+00:00">27 septembrie 2026, 10:39</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Regizorul Na Hong-jin a selectat Munții Retezat și Valea Sâmbetei din Munții Făgăraș pentru filmările celei mai costisitoare producții cinematografice din Coreea de Sud, intitulată „Hope”.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://hotnews.ro/secretele-filmului-sf-sud-coreean-hope-filmat-in-retezat-si-fagaras-povestite-de-unul-dintre-romanii-care-au-lucrat-la-productie-de-ce-a-fost-aleasa-romania-2358131" target="_blank" rel="noopener noreferrer">HotNews</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="Ziua de Vest" data-title="Violonista Luminița Virginia Burcă vorbește despre cariera sa artistică și academică"><a class="card-media" href="/cultura/violonista-luminita-virginia-burca-vorbeste-despre-cariera-sa-artistica-si/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-tick"></div><p class="art-when">duminică,<br>27 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/violonista-luminita-virginia-burca-vorbeste-despre-cariera-sa-artistica-si/">Violonista Luminița Virginia Burcă vorbește despre cariera sa artistică și academică</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T05:48:30+00:00">27 septembrie 2026, 08:48</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Conferențiarul universitar și violonista Luminița Virginia Burcă își împărtășește experiența a zeci de ani petrecuți pe marile scene internaționale, în orchestre simfonice și la catedrele universitare din București.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.ziuadevest.ro/luminita-virginia-burca-violonista-care-a-ales-intre-scena-si-catedra-un-violonist-are-mai-multe-locuri-in-care-poate-sa-se-exprime/" target="_blank" rel="noopener noreferrer">Ziua de Vest</a></p>
+</article>
 <article class="card" data-cat="cultura" data-source="Contributors" data-title="Analiză privind fundamentele și aplicabilitatea matematicii în societate"><a class="card-media" href="/cultura/analiza-privind-fundamentele-si-aplicabilitatea-matematicii-in-societate/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Cultură</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
@@ -230,22 +346,6 @@
   <p class="sources-inline"><b>Surse:</b>
 <a href="https://hotnews.ro/unul-dintre-membrii-formatiei-germane-das-ich-a-murit-dupa-un-concert-in-spania-2358821" target="_blank" rel="noopener noreferrer">HotNews</a>, <a href="https://www.antena3.ro/life/timp-liber/muzica/bruno-kramm-claparul-formatiei-das-ich-a-murit-la-scurt-timp-dupa-ce-a-sustinut-un-concert-in-spania-804729.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
 </article>
-<article class="card" data-cat="cultura" data-source="Bookhub" data-title="ICR Londra deschide stagiunea concertelor Enescu printr-un recital extraordinar"><a class="card-media" href="/cultura/icr-londra-deschide-stagiunea-concertelor-enescu-printr-un-recital-extraordinar/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/icr-londra-deschide-stagiunea-concertelor-enescu-printr-un-recital-extraordinar/">ICR Londra deschide stagiunea concertelor Enescu printr-un recital extraordinar</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T19:12:51+00:00">26 septembrie 2026, 22:12</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Institutul Cultural Român din Londra inaugurează a douăzecea stagiune a Seriei Concertelor Enescu printr-un eveniment susținut de chitarista Alexandra Păceană și Cvartetul Valegro, marcând o premieră în colaborarea cu London Chamber Music Society.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://bookhub.ro/alexandra-paceana-si-cvartetul-valegro-deschid-cea-de-a-xx-a-stagiune-a-seriei-concertelor-enescu-de-la-icr-londra-si-stagiunea-london-chamber-music-society/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=alexandra-paceana-si-cvartetul-valegro-deschid-cea-de-a-xx-a-stagiune-a-seriei-concertelor-enescu-de-la-icr-londra-si-stagiunea-london-chamber-music-society" target="_blank" rel="noopener noreferrer">Bookhub</a></p>
-</article>
 <article class="card" data-cat="cultura" data-source="HotNews" data-title="Regizoarea Leta Popescu montează la Teatrul Nottara spectacolul „Lapte negru”"><a class="card-media" href="/cultura/regizoarea-leta-popescu-monteaza-la-teatrul-nottara-spectacolul-lapte-negru/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Cultură</p></div>
@@ -261,6 +361,22 @@
   <p class="summary">Spectacolul „Lapte negru”, regizat de Leta Popescu la Teatrul Nottara după romanul lui Elif Shafak, abordează provocările maternității și ale carierei pentru femei.</p>
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://hotnews.ro/femeile-spun-acum-asa-am-patit-si-eu-o-cunoscuta-regizoare-de-teatru-despre-maternitatea-lipsita-de-idealizari-2358036" target="_blank" rel="noopener noreferrer">HotNews</a></p>
+</article>
+<article class="card" data-cat="cultura" data-source="Bookhub" data-title="ICR Londra deschide stagiunea concertelor Enescu printr-un recital extraordinar"><a class="card-media" href="/cultura/icr-londra-deschide-stagiunea-concertelor-enescu-printr-un-recital-extraordinar/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Cultură</p></div>
+  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Cultură</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/cultura/icr-londra-deschide-stagiunea-concertelor-enescu-printr-un-recital-extraordinar/">ICR Londra deschide stagiunea concertelor Enescu printr-un recital extraordinar</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-26T19:12:51+00:00">26 septembrie 2026, 22:12</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Institutul Cultural Român din Londra inaugurează a douăzecea stagiune a Seriei Concertelor Enescu printr-un eveniment susținut de chitarista Alexandra Păceană și Cvartetul Valegro, marcând o premieră în colaborarea cu London Chamber Music Society.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://bookhub.ro/alexandra-paceana-si-cvartetul-valegro-deschid-cea-de-a-xx-a-stagiune-a-seriei-concertelor-enescu-de-la-icr-londra-si-stagiunea-london-chamber-music-society/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=alexandra-paceana-si-cvartetul-valegro-deschid-cea-de-a-xx-a-stagiune-a-seriei-concertelor-enescu-de-la-icr-londra-si-stagiunea-london-chamber-music-society" target="_blank" rel="noopener noreferrer">Bookhub</a></p>
 </article>
 <article class="card" data-cat="cultura" data-source="HotNews" data-title="Violonista Mihaela Martin vorbește despre parcursul său internațional"><a class="card-media" href="/cultura/violonista-mihaela-martin-vorbeste-despre-parcursul-sau-international/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Cultură</p></div>
@@ -278,122 +394,10 @@
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://hotnews.ro/faptul-ca-am-plecat-din-romania-m-a-invatat-ca-nimic-nu-vine-de-la-sine-cum-si-a-construit-violonista-mihaela-martin-cariera-de-la-zero-in-germania-2358089" target="_blank" rel="noopener noreferrer">HotNews</a></p>
 </article>
-<article class="card" data-cat="cultura" data-source="NewsBucovina" data-title="Iluzia autenticității în era rețelelor sociale"><a class="card-media" href="/cultura/iluzia-autenticitatii-in-era-retelelor-sociale/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/iluzia-autenticitatii-in-era-retelelor-sociale/">Iluzia autenticității în era rețelelor sociale</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:58:45+00:00">26 septembrie 2026, 10:58</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Un eseu despre discrepanța dintre viața reală și imaginea perfectă afișată online, unde cultura aparențelor și rețelele de socializare promovează validarea exterioară în detrimentul sincerității.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.newsbucovina.ro/opinii/450517/despre-importanta-autenticitatii-in-cultura-aparentelor-opinie-dragos-hutuleac-consilier-filosofic" target="_blank" rel="noopener noreferrer">NewsBucovina</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Urban.ro" data-title="Roman despre violența domestică semnat de Nathacha Appanah"><a class="card-media" href="/cultura/roman-despre-violenta-domestica-semnat-de-nathacha-appanah/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/roman-despre-violenta-domestica-semnat-de-nathacha-appanah/">Roman despre violența domestică semnat de Nathacha Appanah</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:45:12+00:00">26 septembrie 2026, 10:45</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Cartea „Cu noaptea în inimă” relatează destinele a trei femei căzute victime abuzurilor domestice, combinând ficțiunea cu mărturii cutremurătoare despre supraviețuire și tragedie.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.urban.ro/fragment-carte-nathacha-appanah-cu-noaptea-in-inima/" target="_blank" rel="noopener noreferrer">Urban.ro</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Sfatul Părinților" data-title="Rugăciune ortodoxă pentru alinarea durerii provocate de pierderea unei persoane dragi"><a class="card-media" href="/cultura/rugaciune-ortodoxa-pentru-alinarea-durerii-provocate-de-pierderea-unei-persoane/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/rugaciune-ortodoxa-pentru-alinarea-durerii-provocate-de-pierderea-unei-persoane/">Rugăciune ortodoxă pentru alinarea durerii provocate de pierderea unei persoane dragi</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T07:00:00+00:00">26 septembrie 2026, 10:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Textele religioase oferă mângâiere și sprijin spiritual celor care resimt lipsa sufletească a rudelor trecute în neființă, transformând dorul apăsător în liniște interioară prin rugăciune.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://sfatulparintilor.ro/prescolari/rugaciuni-pentru-copii/rugaciune-cand-iti-este-dor-de-cineva-care-a-murit/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Curs de Guvernare" data-title="Comisia Națională a României pentru UNESCO marchează 70 de ani de activitate printr-o gală festivă"><a class="card-media" href="/cultura/comisia-nationala-a-romaniei-pentru-unesco-marcheaza-70-de-ani-de-activitate/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/comisia-nationala-a-romaniei-pentru-unesco-marcheaza-70-de-ani-de-activitate/">Comisia Națională a României pentru UNESCO marchează 70 de ani de activitate printr-o gală festivă</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T06:41:41+00:00">26 septembrie 2026, 09:41</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Evenimentul aniversar programat la Opera Națională București va celebra șapte decenii de cooperare culturală și educațională între România și organizația internațională.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/gala-unesco-70-romania-70-de-ani-de-cooperare-intre-romania-si-unesco-celebrati-prin-cultura-educatie-stiinta-si-patrimoniu.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Contributors" data-title="Critica terapiilor alternative bazate pe eliberare transgenerațională"><a class="card-media" href="/cultura/critica-terapiilor-alternative-bazate-pe-eliberare-transgenerationala/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 26 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/critica-terapiilor-alternative-bazate-pe-eliberare-transgenerationala/">Critica terapiilor alternative bazate pe eliberare transgenerațională</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T06:17:01+00:00">26 septembrie 2026, 09:17</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Un caz real ilustrează cum o persoană cu depresie severă a fost direcționată către o ședință alternativă unde problemele psihice au fost puse pe seama strămoșilor, ocolind diagnosticul medical.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.contributors.ro/cand-strabunicul-e-un-figurant-anatomia-catharsisului-cu-bilet-la-intrare/" target="_blank" rel="noopener noreferrer">Contributors</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Liternet" data-title="Documentarul H2O explorează fântânile secate la festivalul BIEFF"><a class="card-media" href="/cultura/documentarul-h2o-exploreaza-fantanile-secate-la-festivalul-bieff/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/documentarul-h2o-exploreaza-fantanile-secate-la-festivalul-bieff/">Documentarul H2O explorează fântânile secate la festivalul BIEFF</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T05:20:00+00:00">26 septembrie 2026, 08:20</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Pelicula regizată de Eva Sajanová transformă fântânile arteziene uitate ale orașului în personaje principale. Scurtmetrajul aduce în prim-plan realitatea tăcută și degradată a acestor monumente urbane uitate de trecători.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://agenda.liternet.ro/articol/31816/Mara-Iulia/H2O-Ako-pocuvat-fontany-How-to-Listen-to-Fountains-la-BIEFF-2026.html" target="_blank" rel="noopener noreferrer">Liternet</a></p>
-</article>
-<article class="card" data-cat="cultura" data-source="Contributors" data-title="Originea și evoluția semantică a expresiei românești a pune botul"><a class="card-media" href="/cultura/originea-si-evolutia-semantica-a-expresiei-romanesti-a-pune-botul/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Cultură</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Cultură</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/cultura/originea-si-evolutia-semantica-a-expresiei-romanesti-a-pune-botul/">Originea și evoluția semantică a expresiei românești a pune botul</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T05:16:06+00:00">26 septembrie 2026, 08:16</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Expresia argotică a pune botul provine dintr-o metaforă animalică legată de mirosit sau atins, sensul deplasându-se în limbajul curent spre credulitate și căderea în capcană, similar cu a mușca momeala.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.contributors.ro/cand-punerea-botului-devine-o-virtute-culturala/" target="_blank" rel="noopener noreferrer">Contributors</a></p>
-</article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">
 <a href="/cultura/9/" rel="prev" aria-label="Pagina anterioară">‹</a>
-<a href="/cultura/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/cultura/8/" aria-label="Pagina 8">8</a><a href="/cultura/9/" aria-label="Pagina 9">9</a><span class="current" aria-current="page">10</span><a href="/cultura/11/" aria-label="Pagina 11">11</a><a href="/cultura/12/" aria-label="Pagina 12">12</a><a href="/cultura/11/" rel="next" aria-label="Pagina următoare">›</a>
+<a href="/cultura/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/cultura/8/" aria-label="Pagina 8">8</a><a href="/cultura/9/" aria-label="Pagina 9">9</a><span class="current" aria-current="page">10</span><a href="/cultura/11/" aria-label="Pagina 11">11</a><a href="/cultura/12/" aria-label="Pagina 12">12</a><a href="/cultura/13/" aria-label="Pagina 13">13</a><a href="/cultura/11/" rel="next" aria-label="Pagina următoare">›</a>
   </nav>
   </main>
 

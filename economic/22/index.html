@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic" class="active">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic" class="active">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,313 +82,307 @@
 </nav>
   <h1 class="section-title">Economie</h1>
   <section class="grid">
-<article class="card" data-cat="economic" data-source="Economedia" data-title="Constructorii cer finanțare privată pentru autostrăzi"><a class="card-media" href="/economic/constructorii-cer-finantare-privata-pentru-autostrazi/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/constructorii-cer-finantare-privata-pentru-autostrazi/">Constructorii cer finanțare privată pentru autostrăzi</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T16:16:38+00:00">29 septembrie 2026, 19:16</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Directorul RETTER Group susține că statul român nu mai poate susține singur costurile pentru infrastructura rutieră, estimând că cel puțin 70% din fondurile pentru marile autostrăzi vor trebui asigurate din mediul privat în următorul deceniu.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://economedia.ro/guido-retter-retter-group-in-urmatorii-10-ani-70-din-banii-pentru-marile-proiecte-de-autostrazi-ar-trebui-sa-vina-din-mediul-privat-statul-nu-mai-poate-finanta-singur-infrastructura.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Profit.ro" data-title="Norofert își accelerează puternic operațiunile comerciale pe piața din Statele Unite"><a class="card-media" href="/economic/norofert-isi-accelereaza-puternic-operatiunile-comerciale-pe-piata-din-statele/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/norofert-isi-accelereaza-puternic-operatiunile-comerciale-pe-piata-din-statele/">Norofert își accelerează puternic operațiunile comerciale pe piața din Statele Unite</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T15:36:00+00:00">29 septembrie 2026, 18:36</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Compania Norofert extinde activitatea externă și raportează o accelerare semnificativă a operațiunilor comerciale desfășurate în Statele Unite ale Americii, după investițiile recente din Brazilia.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.profit.ro/povesti-cu-profit/financiar/piata-de-capital/norofert-anunta-operatiunea-din-statele-unite-a-accelerat-puternic-22792039?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Profit.ro" data-title="CEC Bank a fost amendată de Consiliul Concurenței privind indicele ROBOR"><a class="card-media" href="/economic/cec-bank-a-fost-amendata-de-consiliul-concurentei-privind-indicele-robor/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/cec-bank-a-fost-amendata-de-consiliul-concurentei-privind-indicele-robor/">CEC Bank a fost amendată de Consiliul Concurenței privind indicele ROBOR</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T15:34:00+00:00">29 septembrie 2026, 18:34</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Banca a primit o sancțiune financiară din partea Consiliului Concurenței în urma investigației privind stabilirea coordonată a ratei ROBOR și intenționează să conteste decizia în instanță.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.profit.ro/povesti-cu-profit/financiar/cec-bank-amendata-pentru-robor-respinge-cu-tarie-acuzatiile-le-va-contesta-in-instanta-22792045?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Economedia" data-title="Sistemul TollRo poate scumpi transportul intern cu până la opt procente"><a class="card-media" href="/economic/sistemul-tollro-poate-scumpi-transportul-intern-cu-pana-la-opt-procente/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/sistemul-tollro-poate-scumpi-transportul-intern-cu-pana-la-opt-procente/">Sistemul TollRo poate scumpi transportul intern cu până la opt procente</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T15:32:46+00:00">29 septembrie 2026, 18:32</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Uniunea Națională a Transportatorilor Rutieri avertizează că noul sistem va crește tarifele și solicită eliminarea temporară a sancțiunilor fixe pentru disfuncționalitățile informatice.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://economedia.ro/untrr-tollro-poate-majora-cu-pana-la-8-costurile-transportului-intern-transportatorii-cer-amanarea-sanctiunilor.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Dobrogea Online" data-title="Ministerul Economiei a semnat primele 41 de contracte prin SME Eco-Tech"><a class="card-media" href="/economic/ministerul-economiei-a-semnat-primele-41-de-contracte-prin-sme-eco-tech/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/ministerul-economiei-a-semnat-primele-41-de-contracte-prin-sme-eco-tech/">Ministerul Economiei a semnat primele 41 de contracte prin SME Eco-Tech</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T15:19:48+00:00">29 septembrie 2026, 18:19</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Întreprinderile mici și mijlocii beneficiază de investiții ecologice în valoare de peste 600.000 lei, după finalizarea evaluărilor și obținerea creditelor partenere.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.dobrogeaonline.ro/investitii-ecologice-de-peste-600-000-lei-pentru-intreprinderi-mici-si-mijlocii/" target="_blank" rel="noopener noreferrer">Dobrogea Online</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Economica" data-title="Danya Cebus investește 45 de milioane de euro într-un complex de vile în Pipera"><a class="card-media" href="/economic/danya-cebus-investeste-45-de-milioane-de-euro-intr-un-complex-de-vile-in-pipera/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/danya-cebus-investeste-45-de-milioane-de-euro-intr-un-complex-de-vile-in-pipera/">Danya Cebus investește 45 de milioane de euro într-un complex de vile în Pipera</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T15:12:08+00:00">29 septembrie 2026, 18:12</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Dezvoltatorul imobiliar construiește 87 de vile de lux pe malul lacului Pipera, proiectul fiind împărțit în două faze de execuție și livrare către clienți.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.economica.net/vile-pipera-danya-cebus_980991.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Dobrogea Online" data-title="Compania imobiliară Alezzi marchează zece ani de activitate"><a class="card-media" href="/economic/compania-imobiliara-alezzi-marcheaza-zece-ani-de-activitate/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/compania-imobiliara-alezzi-marcheaza-zece-ani-de-activitate/">Compania imobiliară Alezzi marchează zece ani de activitate</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T15:04:44+00:00">29 septembrie 2026, 18:04</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Dezvoltatorul imobiliar Alezzi împlinește un deceniu de prezență pe litoralul românesc. Compania a finalizat cinci proiecte majore, consolidându-și poziția prin mii de investiții imobiliare realizate de-a lungul anilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.dobrogeaonline.ro/10-ani-de-alezzi-pe-litoral-impactul-unei-companii-asupra-transformarii-litoralului-romanesc/" target="_blank" rel="noopener noreferrer">Dobrogea Online</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Economedia" data-title="Consiliul Fiscal cere o lege a salarizării unitare pentru România"><a class="card-media" href="/economic/consiliul-fiscal-cere-o-lege-a-salarizarii-unitare-pentru-romania/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
+<article class="card" data-cat="economic" data-source="Ziarul Financiar" data-title="Parapet extinde operațiunile externe și dezvoltă proiecte energetice majore"><a class="card-media" href="/economic/parapet-extinde-operatiunile-externe-si-dezvolta-proiecte-energetice-majore/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/consiliul-fiscal-cere-o-lege-a-salarizarii-unitare-pentru-romania/">Consiliul Fiscal cere o lege a salarizării unitare pentru România</a></h2>
+  <h2 class="card-title"><a href="/economic/parapet-extinde-operatiunile-externe-si-dezvolta-proiecte-energetice-majore/">Parapet extinde operațiunile externe și dezvoltă proiecte energetice majore</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T15:01:31+00:00">29 septembrie 2026, 18:01</time>
+    <time datetime="2026-09-29T21:07:00+00:00">30 septembrie 2026, 00:07</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Președintele Consiliului Fiscal, Daniel Dăianu, susține necesitatea adoptării unei legi a salarizării unitare la elaborarea bugetului pentru 2027. Totodată, acesta recomandă prudență în indexarea pensiilor și a veniturilor bugetare.</p>
+  <p class="summary">Compania condusă de Roxana Gureanu își exportă forța de muncă pe piețe precum Italia și gestionează proiecte de infrastructură verde de un gigawatt, angajând sute de specialiști.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://economedia.ro/daianu-romania-are-nevoie-de-o-lege-a-salarizarii-unitare-ce-spune-despre-pensii-taxe-si-deficit.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
+<a href="https://www.zf.ro/cec-bank-pentru-afaceri-romanesti/cec-bank-afaceri-romanesti-roxana-gureanu-ceo-parapet-crestem-international-piete-precum-italia-exportam-capacitatile-forta-munca-le-avem-aici-acolo-inceputul-anului-angajat-200-oameni-avem-1-gw-23249219" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Ziua de Cluj" data-title="România ocupă locul doi în Uniunea Europeană la producția de biciclete, dar suferă la capitolul infrastructură"><a class="card-media" href="/economic/romania-ocupa-locul-doi-in-uniunea-europeana-la-productia-de-biciclete-dar/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card" data-cat="economic" data-source="Profit.ro" data-title="Compania germană Pütz Security intră pe piața din România"><a class="card-media" href="/economic/compania-germana-putz-security-intra-pe-piata-din-romania/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/romania-ocupa-locul-doi-in-uniunea-europeana-la-productia-de-biciclete-dar/">România ocupă locul doi în Uniunea Europeană la producția de biciclete, dar suferă la capitolul infrastructură</a></h2>
+  <h2 class="card-title"><a href="/economic/compania-germana-putz-security-intra-pe-piata-din-romania/">Compania germană Pütz Security intră pe piața din România</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T14:46:00+00:00">29 septembrie 2026, 17:46</time>
+    <time datetime="2026-09-29T21:06:00+00:00">30 septembrie 2026, 00:06</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Reprezentanții industriei bicicletelor avertizează că lipsa pistelor adecvate împiedică populația să folosească mijloacele eco pentru deplasarea la serviciu, în ciuda volumului ridicat de producție raportat la nivel comunitar.</p>
+  <p class="summary">Furnizorul german de servicii de securitate Pütz Security a semnat primele contracte pentru anul 2026 în România și intenționează să angajeze până la 50 de persoane pentru pază și recepție.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://zcj.ro/eveniment/romania-locul-doi-in-ue-la-productia-de-biciclete-dar-in-urma-tuturor-la-mobilitate--302146.html" target="_blank" rel="noopener noreferrer">Ziua de Cluj</a></p>
+<a href="https://www.profit.ro/povesti-cu-profit/exclusiv-foto-germanii-de-la-p-tz-security-vin-in-romania-avem-primele-contracte-planurile-companiei-privind-gama-de-servicii-si-angajarile-confirmare-22791153?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Curs de Guvernare" data-title="Analiză financiară privind riscul unei crize economice în România"><a class="card-media" href="/economic/analiza-financiara-privind-riscul-unei-crize-economice-in-romania/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
+<article class="card" data-cat="economic" data-source="Profit.ro" data-title="Salariile reprezintă peste două treimi din veniturile gospodăriilor românești"><a class="card-media" href="/economic/salariile-reprezinta-peste-doua-treimi-din-veniturile-gospodariilor-romanesti/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/salariile-reprezinta-peste-doua-treimi-din-veniturile-gospodariilor-romanesti/">Salariile reprezintă peste două treimi din veniturile gospodăriilor românești</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T21:04:00+00:00">30 septembrie 2026, 00:04</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Datele oficiale arată că încasările salariale constituie baza financiară a familiilor din România, în timp ce pensiile acoperă circa 17%, iar proprietățile aduc câștiguri aproape nule.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.profit.ro/stiri/economie/proprietatile-inseamna-aproape-nimic-salariile-aduc-peste-doua-treimi-din-veniturile-familiilor-din-romania-1-leu-din-fiecare-6-lei-vine-din-pensii-22515636?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Știrile ProTV" data-title="România cheltuiește pe dobânzi mai mult decât deficitul bugetar propus"><a class="card-media" href="/economic/romania-cheltuieste-pe-dobanzi-mai-mult-decat-deficitul-bugetar-propus/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/romania-cheltuieste-pe-dobanzi-mai-mult-decat-deficitul-bugetar-propus/">România cheltuiește pe dobânzi mai mult decât deficitul bugetar propus</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T20:21:41+00:00">29 septembrie 2026, 23:21</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Cheltuielile României cu dobânzile au ajuns la 3% din PIB, depășind nivelul deficitului bugetar țintit pentru acest an. Avertismentul a fost lansat public de viceguvernatorul BNR, Cosmin Marinescu, în contextul constrângerilor financiare actuale.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://stirileprotv.ro/stiri/financiar/romania-cheltuie-mai-mult-pe-dobanzi-decat-deficitul-pe-care-si-l-a-propus-avertismentul-viceguvernatorului-bnr.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Profit.ro" data-title="Parlamentul din România pregătește libertatea sumelor la bancomate"><a class="card-media" href="/economic/parlamentul-din-romania-pregateste-libertatea-sumelor-la-bancomate/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/parlamentul-din-romania-pregateste-libertatea-sumelor-la-bancomate/">Parlamentul din România pregătește libertatea sumelor la bancomate</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T21:02:00+00:00">30 septembrie 2026, 00:02</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Senatorii urmează să voteze un proiect legislativ care permite clienților bancari să retragă orice sumă dorită de la bancomatele altor bănci, eliminând opțiunile fixe obligatorii.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.profit.ro/povesti-cu-profit/financiar/ultima-ora-schimbare-majora-bani-scosi-bancomat-vine-prima-decizie-obliga-toate-bancile-elibereze-bancomate-clientii-altor-banci-sume-personalizate-prestabilite-dupa-bnr-guvernul-au-dat-acordul-22792182?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Ziua de Cluj" data-title="Compania AnimaWings retrage 75% din flotă din cauza defecțiunilor tehnice"><a class="card-media" href="/economic/compania-animawings-retrage-75-din-flota-din-cauza-defectiunilor-tehnice/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/compania-animawings-retrage-75-din-flota-din-cauza-defectiunilor-tehnice/">Compania AnimaWings retrage 75% din flotă din cauza defecțiunilor tehnice</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T19:53:00+00:00">29 septembrie 2026, 22:53</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Operatorul aerian a decis să scoată din uz șase din cele opt avioane Airbus A220-300 din cauza problemelor repetate, măsură ce provoacă anulări și modificări în orarul zborurilor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://zcj.ro/economie/animawings-renunta-la-75-din-flota-din-cauza-unor-probleme-tehnice-repetate-la-avioanele-airbus-a220-300--302155.html" target="_blank" rel="noopener noreferrer">Ziua de Cluj</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Ziarul Financiar" data-title="Comisia Europeană pregătește tarife vamale pentru importurile din China"><a class="card-media" href="/economic/comisia-europeana-pregateste-tarife-vamale-pentru-importurile-din-china/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/analiza-financiara-privind-riscul-unei-crize-economice-in-romania/">Analiză financiară privind riscul unei crize economice în România</a></h2>
+  <h2 class="card-title"><a href="/economic/comisia-europeana-pregateste-tarife-vamale-pentru-importurile-din-china/">Comisia Europeană pregătește tarife vamale pentru importurile din China</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T14:36:53+00:00">29 septembrie 2026, 17:36</time>
+    <time datetime="2026-09-29T19:39:00+00:00">29 septembrie 2026, 22:39</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Specialistul Radu Crăciun evaluează probabilitatea ca economia românească să repete scenariul crizei din Grecia din anul 2008, comparând indicatorii celor două state.</p>
+  <p class="summary">Oficialii europeni dezvoltă un nou mecanism de protecție comercială menit să taxeze produsele chinezești atunci când volumele importate depășesc limitele stabilite, generând temeri în industrie.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/radu-craciun-va-trai-romania-criza-greciei-din-2009.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
+<a href="https://www.zf.ro/business-international/ue-pregateste-o-noua-arma-comerciala-in-confruntarea-cu-china-spectrul-unui-esec-al-discutiilor-ue-china-din-octombrie-baga-spaima-in-industria-germana-23249304" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Economedia" data-title="Ministrul interimar Irineu Darău a aprobat remunerații unitare pentru companiile de stat"><a class="card-media" href="/economic/ministrul-interimar-irineu-darau-a-aprobat-remuneratii-unitare-pentru/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/ministrul-interimar-irineu-darau-a-aprobat-remuneratii-unitare-pentru/">Ministrul interimar Irineu Darău a aprobat remunerații unitare pentru companiile de stat</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T14:56:15+00:00">29 septembrie 2026, 17:56</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Irineu Darău, șeful interimar de la Economie, a anunțat implementarea unui cadru unitar pentru stabilirea salariilor administratorilor din companiile subordonate ministerului, bazat pe indicatori de performanță transparenți.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://economedia.ro/sistem-unitar-pentru-remuneratia-administratorilor-din-ministerul-economiei-darau-remuneratia-se-stabileste-pe-criterii-clare.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Economedia" data-title="Florentina Șușnea a fost numită director financiar provizoriu la Hidroelectrica"><a class="card-media" href="/economic/florentina-susnea-a-fost-numita-director-financiar-provizoriu-la-hidroelectrica/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/florentina-susnea-a-fost-numita-director-financiar-provizoriu-la-hidroelectrica/">Florentina Șușnea a fost numită director financiar provizoriu la Hidroelectrica</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T14:42:24+00:00">29 septembrie 2026, 17:42</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Consiliul de Supraveghere al companiei Hidroelectrica a desemnat-o pe Florentina Șușnea în funcția de membru provizoriu al Directoratului și Chief Financial Officer, pentru un mandat de maximum cinci luni.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://economedia.ro/florentina-susnea-va-fi-noul-cfo-provizoriu-al-hidroelectrica-incepand-cu-1-octombrie.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Alba24" data-title="Peste 35.000 de cereri depuse la APIA pentru ajutorul fermierilor"><a class="card-media" href="/economic/peste-35-000-de-cereri-depuse-la-apia-pentru-ajutorul-fermierilor/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/peste-35-000-de-cereri-depuse-la-apia-pentru-ajutorul-fermierilor/">Peste 35.000 de cereri depuse la APIA pentru ajutorul fermierilor</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T14:30:27+00:00">29 septembrie 2026, 17:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Agenția de Plăți a înregistrat 35.711 solicitări în cadrul schemelor de sprijin financiar destinate crescătorilor de bovine și suine, afectați de actuala criză din Orientul Mijlociu.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://alba24.ro/apia-peste-35-000-de-cereri-depuse-pentru-ajutorul-de-stat-destinat-fermierilor-din-sectoarele-bovin-si-suin-ce-urmeaza-1160127.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Economedia" data-title="ANAF a vândut primele locomotive și mașini de la CFR Marfă"><a class="card-media" href="/economic/anaf-a-vandut-primele-locomotive-si-masini-de-la-cfr-marfa/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/anaf-a-vandut-primele-locomotive-si-masini-de-la-cfr-marfa/">ANAF a vândut primele locomotive și mașini de la CFR Marfă</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T14:40:44+00:00">29 septembrie 2026, 17:40</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Fiscul a valorificat trei locomotive și unsprezece autoturisme din patrimoniul CFR Marfă prin licitație online, vizând recuperarea datoriilor uriașe ale companiei către stat.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://economedia.ro/anaf-a-vandut-primele-locomotive-cfr-marfa-scoase-la-licitatie-cat-a-incasat-fiscul.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Economica" data-title="Ministerul Agriculturii propune dublarea fondurilor pentru fermierii afectați de prețul îngrășămintelor"><a class="card-media" href="/economic/ministerul-agriculturii-propune-dublarea-fondurilor-pentru-fermierii-afectati/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/ministerul-agriculturii-propune-dublarea-fondurilor-pentru-fermierii-afectati/">Ministerul Agriculturii propune dublarea fondurilor pentru fermierii afectați de prețul îngrășămintelor</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T14:21:42+00:00">29 septembrie 2026, 17:21</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Guvernul vrea să suplimenteze sprijinul financiar european destinat sectorului vegetal cu fonduri egale de la bugetul de stat. Măsura compensează costurile ridicate de producție resimțite de agricultori din cauza scumpirilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.economica.net/ministerul-agriculturii-propune-dublarea-ajutorului-acordat-fermierilor-din-sectorul-vegetal-care-au-fost-afectati-de-scumpirea-ingrasamintelor_980981.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Curs de Guvernare" data-title="Radu Magdin propune tranziția capitalului românesc de la exporturi la investiții externe"><a class="card-media" href="/economic/radu-magdin-propune-tranzitia-capitalului-romanesc-de-la-exporturi-la/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/radu-magdin-propune-tranzitia-capitalului-romanesc-de-la-exporturi-la/">Radu Magdin propune tranziția capitalului românesc de la exporturi la investiții externe</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T14:18:41+00:00">29 septembrie 2026, 17:18</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Analistul economic susține că economia românească trebuie să depășească faza simplă a volumelor de export și să se concentreze pe activele deținute de companiile autohtone în afara granițelor țării.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/radu-magdin-scara-celor-6-trepte-de-la-made-in-romania-la-owned-by-romania-urmatorul-salt-al-capitalului-romanesc.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Ziua de Cluj" data-title="Companiile românești explorează oportunități de extindere pe piața din Spania la Madrid"><a class="card-media" href="/economic/companiile-romanesti-exploreaza-oportunitati-de-extindere-pe-piata-din-spania/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/companiile-romanesti-exploreaza-oportunitati-de-extindere-pe-piata-din-spania/">Companiile românești explorează oportunități de extindere pe piața din Spania la Madrid</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T13:55:00+00:00">29 septembrie 2026, 16:55</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Mai mulți antreprenori din România au participat la reuniuni debusiness organizate la Madrid pentru a analiza posibilitățile de dezvoltare și internaționalizare a afacerilor pe piața spaniolă.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://zcj.ro/economie/antreprenorii-romani-vor-sa-treaca-granitele-ce-oportunitati-de-extindere-au-descoperit-la-madrid--302142.html" target="_blank" rel="noopener noreferrer">Ziua de Cluj</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Alba24" data-title="Statul nu va mai putea finanța singur autostrăzile, avertizează un constructor"><a class="card-media" href="/economic/statul-nu-va-mai-putea-finanta-singur-autostrazile-avertizeaza-un-constructor/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
+<article class="card" data-cat="economic" data-source="Adevărul" data-title="China intensifică presiunea fiscală asupra cetățenilor bogați"><a class="card-media" href="/economic/china-intensifica-presiunea-fiscala-asupra-cetatenilor-bogati/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/statul-nu-va-mai-putea-finanta-singur-autostrazile-avertizeaza-un-constructor/">Statul nu va mai putea finanța singur autostrăzile, avertizează un constructor</a></h2>
+  <h2 class="card-title"><a href="/economic/china-intensifica-presiunea-fiscala-asupra-cetatenilor-bogati/">China intensifică presiunea fiscală asupra cetățenilor bogați</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T13:15:30+00:00">29 septembrie 2026, 16:15</time>
+    <time datetime="2026-09-29T19:35:49+00:00">29 septembrie 2026, 22:35</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Directorul grupului RETTER declară că aproximativ 70 la sută din fondurile necesare marilor proiecte de infrastrucrură rutieră din România vor trebui să provină din sectorul privat, prin parteneriate și concesiuni.</p>
+  <p class="summary">Autoritățile chineze folosesc echipe specializate pentru a verifica averile miliardarilor și a colecta taxe suplimentare, pe fondul dificultăților financiare întâmpinate de administrațiile locale.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://alba24.ro/constructorul-transilvanean-retter-statul-nu-va-mai-putea-finanta-singur-autostrazile-70-din-bani-vor-veni-din-privat-1160166.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
+<a href="https://adevarul.ro/stiri-externe/china/ofensiva-fiscala-a-chinei-pune-o-presiune-fara-2560319.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Start-up.ro" data-title="Fondul Asternova Centru se lansează oficial cu un buget de opt milioane de euro"><a class="card-media" href="/economic/fondul-asternova-centru-se-lanseaza-oficial-cu-un-buget-de-opt-milioane-de-euro/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="economic" data-source="Economica" data-title="Românii licitează masiv pe platforma ANAF pentru bunuri confiscate de stat"><a class="card-media" href="/economic/romanii-liciteaza-masiv-pe-platforma-anaf-pentru-bunuri-confiscate-de-stat/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
   <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/fondul-asternova-centru-se-lanseaza-oficial-cu-un-buget-de-opt-milioane-de-euro/">Fondul Asternova Centru se lansează oficial cu un buget de opt milioane de euro</a></h2>
+  <h2 class="card-title"><a href="/economic/romanii-liciteaza-masiv-pe-platforma-anaf-pentru-bunuri-confiscate-de-stat/">Românii licitează masiv pe platforma ANAF pentru bunuri confiscate de stat</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T12:37:47+00:00">29 septembrie 2026, 15:37</time>
+    <time datetime="2026-09-29T19:20:05+00:00">29 septembrie 2026, 22:20</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Reprezentanții startup-urilor din Regiunea Centru pot interacționa cu investitorii la CATTIA Brașov pe 30 septembrie, în cadrul evenimentului de lansare a fondului Asternova Centru, care pune la dispoziție opt milioane de euro pentru aproximativ 40 de companii aflate la început...</p>
+  <p class="summary">Platforma online a ANAF a atras mii de participanți care se întrec în licitații pentru produse variate, de la vehicule feroviare până la accesorii, unele prețuri urcând cu peste 1400% față de pragul inițial.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://start-up.ro/lansarea-oficiala-a-fondului-asternova-centru-va-avea-8-milioane-de-euro-pentru-aproximativ-40-de-startup-uri/" target="_blank" rel="noopener noreferrer">Start-up.ro</a></p>
+<a href="https://www.economica.net/de-la-locomotive-si-vagoane-la-genti-romanii-se-dueleaza-pentru-bunurile-scoase-la-licitatie-de-anaf-unele-preturi-au-urcat-cu-peste-1-400_980616.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="Start-up.ro" data-title="Startup-ul românesc Vetted atrage o finanțare de 75.000 euro"><a class="card-media" href="/economic/startup-ul-romanesc-vetted-atrage-o-finantare-de-75-000-euro/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="economic" data-source="Economica" data-title="City Grill oferă muncitorilor străini salarii de bază de cel puțin 4.000 de lei"><a class="card-media" href="/economic/city-grill-ofera-muncitorilor-straini-salarii-de-baza-de-cel-putin-4-000-de-lei/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/city-grill-ofera-muncitorilor-straini-salarii-de-baza-de-cel-putin-4-000-de-lei/">City Grill oferă muncitorilor străini salarii de bază de cel puțin 4.000 de lei</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T19:15:51+00:00">29 septembrie 2026, 22:15</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Grupul HoReCa City Grill asigură angajaților din afara țării pachete salariale atractive, care includ venituri nete de minimum 4.000 de lei, alături de asigurarea mesei, a transportului și a cazării.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.economica.net/city-grill-le-garanteaza-strainilor-un-venit-de-cel-putin-4-000-de-lei-net-si-cazare-transport-si-masa-interviu_980549.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Digi24 Extern" data-title="Casa Albă intenționează să solicite Europei acces la rezervele strategice de motorină"><a class="card-media" href="/economic/casa-alba-intentioneaza-sa-solicite-europei-acces-la-rezervele-strategice-de/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/donald-trump.jpg" alt="Donald Trump" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/casa-alba-intentioneaza-sa-solicite-europei-acces-la-rezervele-strategice-de/">Casa Albă intenționează să solicite Europei acces la rezervele strategice de motorină</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T19:04:54+00:00">29 septembrie 2026, 22:04</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Administrația condusă de Donald Trump ia în calcul restricționarea exporturilor de combustibil și ar putea cere statelor europene să apeleze la stocurile de urgență pentru a stabiliza piața internă.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/stiri/externe/sua/casa-alba-vrea-sa-ceara-europei-sa-scoata-motorina-din-rezervele-strategice-ca-sa-rezolve-o-problema-politica-a-sua-3970251" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Economica" data-title="Prețul energiei electrice în România s-a dublat față de anul trecut"><a class="card-media" href="/economic/pretul-energiei-electrice-in-romania-s-a-dublat-fata-de-anul-trecut/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/startup-ul-romanesc-vetted-atrage-o-finantare-de-75-000-euro/">Startup-ul românesc Vetted atrage o finanțare de 75.000 euro</a></h2>
+  <h2 class="card-title"><a href="/economic/pretul-energiei-electrice-in-romania-s-a-dublat-fata-de-anul-trecut/">Prețul energiei electrice în România s-a dublat față de anul trecut</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T12:07:16+00:00">29 septembrie 2026, 15:07</time>
+    <time datetime="2026-09-29T19:10:04+00:00">29 septembrie 2026, 22:10</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Compania locală care oferă servicii de due diligence bazate pe investigații jurnalistice a fost susținută financiar de fondul olandez V-Ventures.</p>
+  <p class="summary">Prețul mediu al energiei pe piața pentru ziua următoare a ajuns în septembrie la 927 lei/MWh, marcând o creștere de 17% față de luna august și dublându-se comparativ cu aceeași perioadă a anului trecut.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://start-up.ro/vetted-o-solutie-care-face-due-diligence-in-business-dezvoltata-de-jurnalisti-romania-atrage-o-finantare-de-75-000-de-euro-de-la-un-fond-de-investitii/" target="_blank" rel="noopener noreferrer">Start-up.ro</a></p>
+<a href="https://www.economica.net/pretul-spot-al-energiei-electrice-a-crescut-si-in-septembrie-in-romania-este-dublu-fata-de-cel-de-acum-un-an_981050.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Profit.ro" data-title="AnimaWings anulează curse operate cu noile aeronave din motive tehnice"><a class="card-media" href="/economic/animawings-anuleaza-curse-operate-cu-noile-aeronave-din-motive-tehnice/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/animawings-anuleaza-curse-operate-cu-noile-aeronave-din-motive-tehnice/">AnimaWings anulează curse operate cu noile aeronave din motive tehnice</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T18:49:00+00:00">29 septembrie 2026, 21:49</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Compania aeriană românească AnimaWings a suspendat temporar mai multe zboruri efectuate cu noile avioane Airbus A220-300, invocând probleme tehnice întâmpinate în operarea acestora.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.profit.ro/povesti-cu-profit/auto-transporturi/animawings-anuleaza-brusc-mai-multe-curse-suspendarea-treptata-a-operarii-aeronavelor-a220-300-mesaj-catre-pasageri-22792404?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Profit.ro" data-title="Chimcomplex a contractat un împrumut de 55 de milioane de euro"><a class="card-media" href="/economic/chimcomplex-a-contractat-un-imprumut-de-55-de-milioane-de-euro/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/chimcomplex-a-contractat-un-imprumut-de-55-de-milioane-de-euro/">Chimcomplex a contractat un împrumut de 55 de milioane de euro</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T18:40:00+00:00">29 septembrie 2026, 21:40</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Combinatul chimic controlat de omul de afaceri Ștefan Vuza a semnat un acord de finanțare cu o companie afiliată din grup pentru a acoperi diverse cheltuieli, inclusiv certificate de CO2.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.profit.ro/povesti-cu-profit/energie/chimcomplex-imprumuta-zeci-de-milioane-de-euro-de-la-o-firma-din-grup-inclusiv-pentru-certificate-co2-22792325?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Economica" data-title="România și alte patru state cer măsuri UE pentru sectorul ovin și caprin"><a class="card-media" href="/economic/romania-si-alte-patru-state-cer-masuri-ue-pentru-sectorul-ovin-si-caprin/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/romania-si-alte-patru-state-cer-masuri-ue-pentru-sectorul-ovin-si-caprin/">România și alte patru state cer măsuri UE pentru sectorul ovin și caprin</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T17:29:41+00:00">29 septembrie 2026, 20:29</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Ministrul Tanczos Barna a solicitat la Bruxelles, alături de omologii din Bulgaria, Cipru, Croația și Grecia, intervenția Comisiei Europene privind impactul economic al interzicerii exporturilor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.economica.net/ministrul-tanczos-barna-anunta-ca-romania-si-alte-patru-state-din-ue-au-cerut-comisiei-masuri-urgente-pentru-sectorul-ovin-si-caprin-in-contextul-evolutiei-focarelor-de-boala_981058.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Profit.ro" data-title="Proprietarul Terapia vinde obligațiuni de un miliard de dolari"><a class="card-media" href="/economic/proprietarul-terapia-vinde-obligatiuni-de-un-miliard-de-dolari/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/proprietarul-terapia-vinde-obligatiuni-de-un-miliard-de-dolari/">Proprietarul Terapia vinde obligațiuni de un miliard de dolari</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T18:24:00+00:00">29 septembrie 2026, 21:24</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Grupul indian Sun Pharma emite obligațiuni pentru a rambursa un împrumut contractat în vederea preluării companiei americane Organon, activă și pe piața românească.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.profit.ro/povesti-cu-profit/financiar/proprietarul-terapia-vinde-obligatiuni-de-1-miliard-de-dolari-pentru-achizitia-organon-prezenta-si-in-romania-22792071?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Curs de Guvernare" data-title="Acțiunile Shein s-au prăbușit la un nivel minim după scăderea profitului"><a class="card-media" href="/economic/actiunile-shein-s-au-prabusit-la-un-nivel-minim-dupa-scaderea-profitului/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Economie</p></div>
+  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/actiunile-shein-s-au-prabusit-la-un-nivel-minim-dupa-scaderea-profitului/">Acțiunile Shein s-au prăbușit la un nivel minim după scăderea profitului</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T17:17:27+00:00">29 septembrie 2026, 20:17</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Titlurile retailerului Shein au înregistrat o cădere de până la 14% pe fondul prăbușirii cu 67% a profitului trimestrial, reflectând primele rezultate financiare slabe de la listarea la bursă a companiei.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://cursdeguvernare.ro/actiunile-shein-ating-un-minim-record-dupa-prabusirea-profitului.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Curs de Guvernare" data-title="Prețul petrolului crește în pofida relansării traficului prin Strâmtoarea Ormuz"><a class="card-media" href="/economic/pretul-petrolului-creste-in-pofida-relansarii-traficului-prin-stramtoarea-ormuz/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/pretul-petrolului-creste-in-pofida-relansarii-traficului-prin-stramtoarea-ormuz/">Prețul petrolului crește în pofida relansării traficului prin Strâmtoarea Ormuz</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T17:15:39+00:00">29 septembrie 2026, 20:15</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Cotațiile țițeiului Brent și WTI și-au menținut tendința de creștere, atingând valori ridicate, în ciuda relatărilor privind îmbunătățirea volumelor de petrol tranzitate prin Strâmtoarea Ormuz.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://cursdeguvernare.ro/pretul-petrolului-continua-sa-creasca-in-ciuda-rapoartelor-privind-tranzitul-unor-volume-mai-mari-prin-stramtoarea-ormuz.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Profit.ro" data-title="Rețeaua Froo a ajuns la 300 de magazine în România după doi ani"><a class="card-media" href="/economic/reteaua-froo-a-ajuns-la-300-de-magazine-in-romania-dupa-doi-ani/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/reteaua-froo-a-ajuns-la-300-de-magazine-in-romania-dupa-doi-ani/">Rețeaua Froo a ajuns la 300 de magazine în România după doi ani</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T18:14:00+00:00">29 septembrie 2026, 21:14</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Grupul polonez Zabka a extins lanțul Froo la 300 de unități pe piața românească, la numai doi ani de la debutul oficial în comerțul local.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.profit.ro/povesti-cu-profit/retail/foto-froo-sparge-o-borna-in-romania-dupa-doar-2-ani-a-ajuns-la-magazinul-300-22792304?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Curs de Guvernare" data-title="Sentimentul economic a scăzut în septembrie, deși economia a accelerat în trimestrul al treilea"><a class="card-media" href="/economic/sentimentul-economic-a-scazut-in-septembrie-desi-economia-a-accelerat-in/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/sentimentul-economic-a-scazut-in-septembrie-desi-economia-a-accelerat-in/">Sentimentul economic a scăzut în septembrie, deși economia a accelerat în trimestrul al treilea</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T17:13:46+00:00">29 septembrie 2026, 20:13</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Indicatorul calculat de Comisia Europeană s-a redus la 92,2 puncte din cauza problemelor din industrie și servicii, însă economia locală a înregistrat o ușoară creștere comparativ cu trimestrul precedent.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://cursdeguvernare.ro/sentimentul-economic-a-scazut-usor-in-septembrie-dar-economia-a-accelerat-usor-in-t3-fata-de-t2.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto" class="active">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto" class="active">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,6 +82,130 @@
 </nav>
   <h1 class="section-title">Auto</h1>
   <section class="grid">
+<article class="card" data-cat="auto" data-source="AutoCritica" data-title="Rețeaua Eldrive instalează stații de încărcare ultra-rapide de 1 MW pentru mașini electrice"><a class="card-media" href="/auto/reteaua-eldrive-instaleaza-statii-de-incarcare-ultra-rapide-de-1-mw-pentru/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Auto</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Auto</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/auto/reteaua-eldrive-instaleaza-statii-de-incarcare-ultra-rapide-de-1-mw-pentru/">Rețeaua Eldrive instalează stații de încărcare ultra-rapide de 1 MW pentru mașini electrice</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T06:41:11+00:00">5 octombrie 2026, 09:41</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Operatorul de infrastructură Eldrive dezvoltă rețeaua de alimentare cu puteri uriașe de un megawatt, echivalentul necesarului pentru mii de becuri tradiționale, facilitând încărcarea rapidă a vehiculelor electrice în România.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.autocritica.ro/eurocharge-2026/eldrive-cand-un-milion-de-wati-nu-mai-par-atat-de-multi/" target="_blank" rel="noopener noreferrer">AutoCritica</a></p>
+</article>
+<article class="card" data-cat="auto" data-source="AutoCritica" data-title="Producătorii auto abandonează producția internă integrală în favoarea parteneriatelor strategice"><a class="card-media" href="/auto/producatorii-auto-abandoneaza-productia-interna-integrala-in-favoarea/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Auto</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">05</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Auto</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/auto/producatorii-auto-abandoneaza-productia-interna-integrala-in-favoarea/">Producătorii auto abandonează producția internă integrală în favoarea parteneriatelor strategice</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T06:40:35+00:00">5 octombrie 2026, 09:40</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Industria auto actuală se bazează pe colaborări extinse între companii, conceptul de dezvoltare exclusiv internă devenind rar și utilizat doar pentru volume mici de mașini cu prețuri ridicate.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.autocritica.ro/eurocharge-2026/schaeffler-diagrama-venn-a-eurocharge/" target="_blank" rel="noopener noreferrer">AutoCritica</a></p>
+</article>
+<article class="card" data-cat="auto" data-source="G4Media" data-title="Un șofer elvețian a scăpat de amendă după ce a condus cu 312 km/h în Franța"><a class="card-media" href="/auto/un-sofer-elvetian-a-scapat-de-amenda-dupa-ce-a-condus-cu-312-km-h-in-franta/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Auto</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Auto</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/auto/un-sofer-elvetian-a-scapat-de-amenda-dupa-ce-a-condus-cu-312-km-h-in-franta/">Un șofer elvețian a scăpat de amendă după ce a condus cu 312 km/h în Franța</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T06:25:43+00:00">5 octombrie 2026, 09:25</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Prins pe o autostradă franceză la volanul unui Porsche GT3 cu o viteză extremă, un elvețian ar putea evita sancțiunea deoarece radarele locale nu sunt calibrate pentru asemenea valori.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.g4media.ro/un-elvetian-a-fost-prins-cu-312-kilometri-pe-ora-pe-o-autostrada-franceza-ar-putea-scapa-de-pedeapsa-dupa-ce-i-a-fost-confiscat-autoturismul-un-porsche-gt3-radarele-franceze-daca-sunt-de-generat.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
+</article>
+<article class="card" data-cat="auto" data-source="Economica" data-title="Guvernul britanic analizează introducerea de taxe vamale pentru mașinile electrice din China"><a class="card-media" href="/auto/guvernul-britanic-analizeaza-introducerea-de-taxe-vamale-pentru-masinile/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Auto</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Auto</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/auto/guvernul-britanic-analizeaza-introducerea-de-taxe-vamale-pentru-masinile/">Guvernul britanic analizează introducerea de taxe vamale pentru mașinile electrice din China</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T06:22:12+00:00">5 octombrie 2026, 09:22</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Autoritățile din Marea Britanie iau în calcul tarife suplimentare din cauza temerilor că producătorii chinezi își vând autovehiculele sub prețul de producție.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.economica.net/marea-britanie-vrea-sa-puna-taxe-vamale-la-importurile-de-vehicule-electrice-din-china_982711.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="auto" data-source="Connect.ro" data-title="O nouă funcție Tesla poate genera daune de 25.000 de dolari stațiilor de încărcare"><a class="card-media" href="/auto/o-noua-functie-tesla-poate-genera-daune-de-25-000-de-dolari-statiilor-de/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Auto</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Auto</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/auto/o-noua-functie-tesla-poate-genera-daune-de-25-000-de-dolari-statiilor-de/">O nouă funcție Tesla poate genera daune de 25.000 de dolari stațiilor de încărcare</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T06:14:47+00:00">5 octombrie 2026, 09:14</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Producătorul auto Tesla a implementat opțiunea Emergency Drive Away, care permite pornirea autoturismului în timp ce cablul este conectat. Compania avertizează că utilizarea neadecvată va distruge infrastructura, costurile de reparație fiind uriașe.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.connect.ro/2026/10/05/tesla-emergency-drive-away-supercharger-25000-dolari/" target="_blank" rel="noopener noreferrer">Connect.ro</a></p>
+</article>
+<article class="card" data-cat="auto" data-source="Piata Auto MD" data-title="Un mecanic român avertizează asupra riscurilor reparațiilor necorespunzătoare la vehicule electrice"><a class="card-media" href="/auto/un-mecanic-roman-avertizeaza-asupra-riscurilor-reparatiilor-necorespunzatoare/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Auto</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">5</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Auto</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/auto/un-mecanic-roman-avertizeaza-asupra-riscurilor-reparatiilor-necorespunzatoare/">Un mecanic român avertizează asupra riscurilor reparațiilor necorespunzătoare la vehicule electrice</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T00:00:00+00:00">5 octombrie 2026, 03:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Specialiștii auto semnalează existența unor intervenții periculoase efectuate de service-uri neautorizate asupra componentelor de înaltă tensiune ale mașinilor electrice, punând în pericol siguranța șoferilor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://piataauto.md/Stiri/2026/10/VIDEO-Un-mecanic-roman-a-ramas-oripilat-de-o-reparatie-anterioara-la-o-masina-electrica-din-Marea-Britanie-care-punea-in-pericol-viata-proprietar/" target="_blank" rel="noopener noreferrer">Piata Auto MD</a></p>
+</article>
+<article class="card" data-cat="auto" data-source="Piata Auto MD" data-title="CATL a deschis primul service european dedicat bateriilor auto"><a class="card-media" href="/auto/catl-a-deschis-primul-service-european-dedicat-bateriilor-auto/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 5 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Auto</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Auto</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/auto/catl-a-deschis-primul-service-european-dedicat-bateriilor-auto/">CATL a deschis primul service european dedicat bateriilor auto</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-05T00:00:00+00:00">5 octombrie 2026, 03:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Cel mai mare producător mondial de baterii, compania chineză CATL, a inaugurat în Europa o unitate specializată în reparații și inspecții pentru acumulatorii mașinilor electrice.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://piataauto.md/Stiri/2026/10/Producatorul-chinez-CATL-a-inaugurat-primul-service-baterii-Europa-unde-proprietarii-masini-electrice-vor-putea-merge-pentru-reparatii-si-inspectii/" target="_blank" rel="noopener noreferrer">Piata Auto MD</a></p>
+</article>
+<article class="card" data-cat="auto" data-source="Profit.ro" data-title="Dacia explică motivele scăderii vânzărilor auto pe fondul concurenței asiatice"><a class="card-media" href="/auto/dacia-explica-motivele-scaderii-vanzarilor-auto-pe-fondul-concurentei-asiatice/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Auto</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">04</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Auto</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/auto/dacia-explica-motivele-scaderii-vanzarilor-auto-pe-fondul-concurentei-asiatice/">Dacia explică motivele scăderii vânzărilor auto pe fondul concurenței asiatice</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-04T21:06:00+00:00">5 octombrie 2026, 00:06</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Oficialul Dacia, Frank Marotte, a detaliat factorii care au provocat declinul vânzărilor mărcii în acest an, evidențiind presiunea exercitată de competitorii chinezi pe segmentul de preț.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.profit.ro/povesti-cu-profit/auto-transporturi/vicepresedinte-dacia-explica-situatia-marcii-trei-motive-ale-scaderii-vanzarilor-inclusiv-din-cauza-concurentei-de-pret-in-special-a-producatorilor-chinezi-22705821?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+</article>
 <article class="card" data-cat="auto" data-source="Piata Auto MD" data-title="Youtuberul Mat Armstrong a dus un iaht defect la o expertiză tehnică"><a class="card-media" href="/auto/youtuberul-mat-armstrong-a-dus-un-iaht-defect-la-o-expertiza-tehnica/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Auto</p></div>
   <div class="art-tick"></div><p class="art-when">luni,<br>5 octombrie</p>
@@ -91,20 +221,6 @@
   <p class="summary">Cunoscutul creator de conținut auto Mat Armstrong a trimis recent achiziționat său iaht, care prezenta probleme de supraîncălzire la motor, la o verificare detaliată efectuată de specialiști.</p>
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://piataauto.md/Stiri/2026/10/VIDEO-Un-youtuber-experienta-reparatii-auto-complexe-care-si-a-cumparat-un-iaht-parea-usor-reparat-dus-ambarcatiunea-inspectie-experti/" target="_blank" rel="noopener noreferrer">Piata Auto MD</a></p>
-</article>
-<article class="card" data-cat="auto" data-source="Profit.ro" data-title="Dacia explică motivele scăderii vânzărilor auto pe fondul concurenței asiatice"><a class="card-media" href="/auto/dacia-explica-motivele-scaderii-vanzarilor-auto-pe-fondul-concurentei-asiatice/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Auto</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">04</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Auto</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/auto/dacia-explica-motivele-scaderii-vanzarilor-auto-pe-fondul-concurentei-asiatice/">Dacia explică motivele scăderii vânzărilor auto pe fondul concurenței asiatice</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-04T21:06:00+00:00">5 octombrie 2026, 00:06</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Oficialul Dacia, Frank Marotte, a detaliat factorii care au provocat declinul vânzărilor mărcii în acest an, evidențiind presiunea exercitată de competitorii chinezi pe segmentul de preț.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.profit.ro/povesti-cu-profit/auto-transporturi/vicepresedinte-dacia-explica-situatia-marcii-trei-motive-ale-scaderii-vanzarilor-inclusiv-din-cauza-concurentei-de-pret-in-special-a-producatorilor-chinezi-22705821?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
 </article>
 <article class="card" data-cat="auto" data-source="Economica" data-title="Platformele online de comerț indică brandul Anytime drept lider surpriză la vânzările de polițe RCA"><a class="card-media" href="/auto/platformele-online-de-comert-indica-brandul-anytime-drept-lider-surpriza-la/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Auto</p></div>
@@ -218,22 +334,6 @@
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://piataauto.md/Stiri/2026/10/VIDEO-Uzina-BMW-din-Munchen-a-produs-exemplarul-M-cu-numarul-1000000-dar-acum-se-transforma-intr-una-dedicata-modelelor-electrice/" target="_blank" rel="noopener noreferrer">Piata Auto MD</a></p>
 </article>
-<article class="card" data-cat="auto" data-source="HotNews" data-title="Mașini electrice cu autonomie de 500 km pe piață"><a class="card-media" href="/auto/masini-electrice-cu-autonomie-de-500-km-pe-piata/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Auto</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>3 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">3</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Auto</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/auto/masini-electrice-cu-autonomie-de-500-km-pe-piata/">Mașini electrice cu autonomie de 500 km pe piață</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T13:29:36+00:00">3 octombrie 2026, 16:29</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Oferta de mașini electrice cu autonomie reală de peste 500 de kilometri a crescut în ultima perioadă. Totuși, majoritatea modelelor performante rămân costisitoare pentru cumpărătorii români, conform unei analize recente.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/lista-masini-electrice-cu-autonomie-reala-peste-500-km-una-singura-are-un-pret-accesibil-2365751" target="_blank" rel="noopener noreferrer">HotNews</a></p>
-</article>
 <article class="card" data-cat="auto" data-source="Economica" data-title="Primăria Capitalei pregătește interzicerea treptată a mașinilor poluante între 2027 și 2032"><a class="card-media" href="/auto/primaria-capitalei-pregateste-interzicerea-treptata-a-masinilor-poluante-intre/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Auto</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
@@ -249,6 +349,22 @@
   <p class="summary">Primarul general Ciprian Ciucu a anunțat că PMB va implementa o restricție progresivă a accesului autovehiculelor poluante, de la categoriile non-euro până la Euro 5, începând din zona centrală spre periferie.</p>
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://www.economica.net/interzicerea-in-etape-a-vehiculelor-poluante-in-bucuresti-va-avea-efecte-colaterale_982581.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="auto" data-source="HotNews" data-title="Mașini electrice cu autonomie de 500 km pe piață"><a class="card-media" href="/auto/masini-electrice-cu-autonomie-de-500-km-pe-piata/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Auto</p></div>
+  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>3 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">3</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Auto</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/auto/masini-electrice-cu-autonomie-de-500-km-pe-piata/">Mașini electrice cu autonomie de 500 km pe piață</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-03T13:29:36+00:00">3 octombrie 2026, 16:29</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Oferta de mașini electrice cu autonomie reală de peste 500 de kilometri a crescut în ultima perioadă. Totuși, majoritatea modelelor performante rămân costisitoare pentru cumpărătorii români, conform unei analize recente.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://hotnews.ro/lista-masini-electrice-cu-autonomie-reala-peste-500-km-una-singura-are-un-pret-accesibil-2365751" target="_blank" rel="noopener noreferrer">HotNews</a></p>
 </article>
 <article class="card" data-cat="auto" data-source="Profit.ro" data-title="Producătorii auto din China ating o cotă record pe piața internă"><a class="card-media" href="/auto/producatorii-auto-din-china-ating-o-cota-record-pe-piata-interna/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 3 octombrie 2026</span></div>
   <div class="art-rule"></div>
@@ -281,114 +397,6 @@
   <p class="summary">Noul SUV compact BYD Sealion 5, lansat recent pe piața europeană și românească, a primit un rezultat dezamăgitor în urma testelor de siguranță realizate de autoritățile din Australia.</p>
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://www.profit.ro/povesti-cu-profit/auto-transporturi/a-primit-o-veste-proasta-rival-cu-dacia-bigster-byd-sealion-5-primeste-scor-identic-in-testele-de-siguranta-22800284?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
-</article>
-<article class="card" data-cat="auto" data-source="Spotmedia" data-title="Specialiștii analizează cauzele care provoacă starea de rău în mașinile electrice"><a class="card-media" href="/auto/specialistii-analizeaza-cauzele-care-provoaca-starea-de-rau-in-masinile/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 3 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Auto</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Auto</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/auto/specialistii-analizeaza-cauzele-care-provoaca-starea-de-rau-in-masinile/">Specialiștii analizează cauzele care provoacă starea de rău în mașinile electrice</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T10:09:58+00:00">3 octombrie 2026, 13:09</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Călătoritului cu automobile electrice îi este asociată frecvent starea de greață. Experții pun fenomenul pe seama accelerației rapide, a lipsei vibrațiilor și a frânării regenerative, deși studiile sunt abia la început.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://spotmedia.ro/stiri/auto/de-ce-li-se-face-mai-des-rau-oamenilor-in-masinile-electrice-si-ce-pot-face-pentru-a-evita-greata" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
-</article>
-<article class="card" data-cat="auto" data-source="AutoMarket" data-title="Renault pregătește vehicule electrice mai ieftine pentru piața din Europa"><a class="card-media" href="/auto/renault-pregateste-vehicule-electrice-mai-ieftine-pentru-piata-din-europa/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Auto</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">03</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Auto</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/auto/renault-pregateste-vehicule-electrice-mai-ieftine-pentru-piata-din-europa/">Renault pregătește vehicule electrice mai ieftine pentru piața din Europa</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T08:03:00+00:00">3 octombrie 2026, 11:03</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Producătorul francez Renault investește în uzinele din Franța pentru a lansa mașini electrice accesibile. Compania încearcă să contracareze concurența asiatică prin scăderea prețurilor și atragerea unui public mai larg.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.automarket.ro/tv/curse-auto/liniu-suprem-lamborghini-duel-ntre-toate-modelele-lamborghini-cu-motoare-v12-10315.html" target="_blank" rel="noopener noreferrer">AutoMarket</a></p>
-</article>
-<article class="card" data-cat="auto" data-source="Economica" data-title="BMW anunță un plan amplu de restructurare și utilizare a inteligenței artificiale"><a class="card-media" href="/auto/bmw-anunta-un-plan-amplu-de-restructurare-si-utilizare-a-inteligentei/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 3 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Auto</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Auto</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/auto/bmw-anunta-un-plan-amplu-de-restructurare-si-utilizare-a-inteligentei/">BMW anunță un plan amplu de restructurare și utilizare a inteligenței artificiale</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T07:16:29+00:00">3 octombrie 2026, 10:16</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Producătorul auto german urmărește reducerea nivelurilor de management cu douăzeci la sută până în 2027, implementarea inteligenței artificiale în procese și lansarea de noi modele pentru a îmbunătăți marja de profit.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.economica.net/bmw-vine-cu-plan-profund-de-restructurare-compania-germana-planuieste-sa-reduca-nivelurile-de-management-sa-dea-un-rol-mai-important-inteligentei-artificiale-si-sa-lanseze-modele-noi_982494.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
-</article>
-<article class="card" data-cat="auto" data-source="AutoMarket" data-title="Aston Martin amână lansarea primului model electric până în 2033"><a class="card-media" href="/auto/aston-martin-amana-lansarea-primului-model-electric-pana-in-2033/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0 art--portret" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Auto</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">03</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/aston-martin.jpg" alt="Aston Martin" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Auto</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/auto/aston-martin-amana-lansarea-primului-model-electric-pana-in-2033/">Aston Martin amână lansarea primului model electric până în 2033</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T06:21:00+00:00">3 octombrie 2026, 09:21</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Producătorul auto britanic a revizuit calendarul de electrificare, anunțând că motoarele termice V8 și V12 vor rămâne în producție o perioadă mai lungă decât se estimase inițial.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.automarket.ro/stiri/aston-martin-nu-va-lansa-o-masina-electrica-inainte-de-2033-motoarele-v8-128899.html" target="_blank" rel="noopener noreferrer">AutoMarket</a></p>
-</article>
-<article class="card" data-cat="auto" data-source="Profit.ro" data-title="Oferta de mașini electrice cu autonomie mare a crescut, dar prețurile rămân ridicate"><a class="card-media" href="/auto/oferta-de-masini-electrice-cu-autonomie-mare-a-crescut-dar-preturile-raman/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 3 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Auto</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Auto</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/auto/oferta-de-masini-electrice-cu-autonomie-mare-a-crescut-dar-preturile-raman/">Oferta de mașini electrice cu autonomie mare a crescut, dar prețurile rămân ridicate</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T06:00:00+00:00">3 octombrie 2026, 09:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Piața auto oferă tot mai multe modele electrice care depășesc 500 de kilometri autonomie reală, însă costul ridicat al bateriilor mari menține aceste autoturisme la prețuri greu accesibile cumpărătorilor români.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.profit.ro/povesti-cu-profit/auto-transporturi/lista-masini-electrice-cu-autonomie-reala-peste-500-km-una-singura-are-un-pret-accesibil-22680266?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
-</article>
-<article class="card" data-cat="auto" data-source="Bihon" data-title="Sancțiuni rutiere pentru modificări nelegale aduse mașinilor"><a class="card-media" href="/auto/sanctiuni-rutiere-pentru-modificari-nelegale-aduse-masinilor/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Auto</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">03</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Auto</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/auto/sanctiuni-rutiere-pentru-modificari-nelegale-aduse-masinilor/">Sancțiuni rutiere pentru modificări nelegale aduse mașinilor</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T04:00:13+00:00">3 octombrie 2026, 07:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Poliția Rutieră poate reține certificatul de înmatriculare pentru vehiculele care prezintă folii neomologate, nivel ridicat de zgomot sau alte neconformități tehnice ce afectează siguranța circulației publice.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.bihon.ro/stiri-internationale/romania/foliile-neomologate-si-zgomotul-prea-mare-pot-lasa-soferii-fara-talon-ce-alte-nereguli-sunt-sanctionate-5418660/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Bihon</a></p>
-</article>
-<article class="card" data-cat="auto" data-source="NwRadu" data-title="Șofer filmat când taie calea altor participanți în trafic"><a class="card-media" href="/auto/sofer-filmat-cand-taie-calea-altor-participanti-in-trafic/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 3 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Auto</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Auto</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/auto/sofer-filmat-cand-taie-calea-altor-participanti-in-trafic/">Șofer filmat când taie calea altor participanți în trafic</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-03T03:44:58+00:00">3 octombrie 2026, 06:44</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Un conducător auto a pus în pericol siguranța celorlalți participanți la trafic pe o autostradă, efectuând o manevră riscantă cu o dubă, abatere ce poate fi raportată autorităților prin platforma dedicată a Ministerului Afacerilor Interne.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.nwradu.ro/2026/10/prietenul-meu-duba-de-pe-autostrada/" target="_blank" rel="noopener noreferrer">NwRadu</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

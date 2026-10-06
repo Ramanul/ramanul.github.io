@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Știri din Dâmbovița — Harta știrilor IZZ.ro</title>
+  <meta name="description" content="Știri locale și județene localizate în Dâmbovița, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
+       care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+  <meta property="og:image" content="https://izz.ro/static/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css">
+  <link rel="canonical" href="https://izz.ro/harta/dambovita/">
+  <meta property="og:title" content="Știri din Dâmbovița — Harta știrilor IZZ.ro">
+  <meta property="og:description" content="Știri locale și județene localizate în Dâmbovița, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:url" content="https://izz.ro/harta/dambovita/">
+  <meta name="harta-county" content="DAMBOVITA">
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Portalul știrilor tale","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Portalul știrilor tale","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/dambovita/#webpage","url":"https://izz.ro/harta/dambovita/","name":"Știri din Dâmbovița — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Dâmbovița, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/dambovita/#place"},"mainEntity":{"@id":"https://izz.ro/harta/dambovita/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/dambovita/#dataset","name":"Harta știrilor — Dâmbovița","description":"Știri locale și județene localizate în Dâmbovița, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/dambovita/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/dambovita/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/dambovita/#place","name":"Dâmbovița","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+</head>
+<body>
+  <header class="map-header">
+    <a class="brand" href="/" aria-label="Înapoi la IZZ.ro">
+      <span class="brand-small">IZZ.ro</span>
+      <span>Harta știrilor</span>
+    </a>
+    <a class="back" href="/">← Înapoi la știri</a>
+  </header>
+
+  <main class="map-page">
+    <section class="map-intro">
+      <div>
+        <p class="eyebrow">GEOGRAFIE EDITORIALĂ</p>
+        <h1>Știri din Dâmbovița</h1>
+        <p class="map-task">Explorează știrile localizate din Dâmbovița. Harta pornește filtrată pe județ; poți reveni oricând la România.</p>
+        <p class="map-disclosure">Harta afișează numai localizări determinate. Numărul indică <strong>evenimentele sau relatările afișate</strong>, nu o statistică oficială a incidentelor.</p>
+      </div>
+      <div class="map-stats" id="map-stats" aria-live="polite">
+        <span>Se încarcă datele…</span>
+      </div>
+    </section>
+
+    <section class="map-toolbar" aria-label="Explorează harta">
+      <fieldset class="filter-group">
+        <legend>Nivel geografic</legend>
+        <div class="segmented" role="radiogroup" aria-label="Nivel geografic">
+          <button type="button" class="active" role="radio" aria-checked="true" data-level="all">Toate</button>
+          <button type="button" role="radio" aria-checked="false" data-level="regional">Regional</button>
+          <button type="button" role="radio" aria-checked="false" data-level="judetean">Județean</button>
+          <button type="button" role="radio" aria-checked="false" data-level="local">Local</button>
+        </div>
+      </fieldset>
+      <fieldset class="filter-group">
+        <legend>Scara culorilor</legend>
+        <!-- Mod de scara (F3): „volum" = numarul de evenimente/relatari afisate (ce era),
+             „pe locuitor" = acelasi numar raportat la 100.000 de locuitori, cu numitorul
+             din data/populatie.json. Controlul e RADIO ca nivelul, are aceeasi navigare cu
+             sageți si intra in adresa (`scara=locuitori`), deci starea e partajabila. -->
+        <div class="segmented" role="radiogroup" aria-label="Scara culorilor">
+          <button type="button" class="active" role="radio" aria-checked="true" data-scale="volum">Volum</button>
+          <button type="button" role="radio" aria-checked="false" data-scale="locuitori">Pe locuitor</button>
+        </div>
+      </fieldset>
+      <fieldset class="filter-group">
+        <legend>Grupează rezultatele ca</legend>
+        <div class="segmented" role="radiogroup" aria-label="Grupează rezultatele ca">
+          <button type="button" class="active" role="radio" aria-checked="true" data-view="events">Evenimente</button>
+          <button type="button" role="radio" aria-checked="false" data-view="articles">Relatări</button>
+        </div>
+      </fieldset>
+      <label class="search">
+        <span>Caută loc, titlu sau sursă</span>
+        <input id="map-search" type="search" placeholder="De exemplu: Cluj, Transilvania, accident…" autocomplete="off">
+      </label>
+      <button type="button" id="clear-selection" class="secondary">Înapoi la România</button>
+      <button type="button" id="reset-all" class="secondary reset-all">Resetează filtrele</button>
+      <p id="active-context" class="active-context" aria-live="polite">Explorați toate știrile localizate din România.</p>
+    </section>
+
+    <section class="map-layout">
+      <div class="map-card">
+        <nav id="map-breadcrumb" class="map-breadcrumb" aria-label="Poziția în hartă"></nav>
+        <div id="map" class="map" role="region" aria-label="Harta știrilor din Dâmbovița"></div>
+        <p id="map-basemap-status" class="map-basemap-status" aria-live="polite" hidden></p>
+        <p class="map-basemap-attribution">Fundal cartografic, când este disponibil: <a href="https://openfreemap.org/" rel="noopener">OpenFreeMap</a> © <a href="https://openmaptiles.org/" rel="noopener">OpenMapTiles</a>, date de la <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>.</p>
+        <!-- Numele de judet pentru afisare: cheile din date/URL sunt coduri (TIMIS), omul citeste
+             „Timiș". Sursa de adevar e `generator.geo.eticheta_judet`, iar tests/test_harta_scara.py
+             compara tabelul de aici cu ea pentru toate cele 42 de judete. Fara tabel, selectorul,
+             firul de navigare si tooltipul ar tipari coduri brute. -->
+        <div id="judete-etichete" data-etichete='{"ALBA":"Alba","ARAD":"Arad","ARGES":"Argeș","BACAU":"Bacău","BIHOR":"Bihor","BISTRITA-NASAUD":"Bistrița-Năsăud","BOTOSANI":"Botoșani","BRAILA":"Brăila","BRASOV":"Brașov","BUCURESTI":"București","BUZAU":"Buzău","CALARASI":"Călărași","CARAS-SEVERIN":"Caraș-Severin","CLUJ":"Cluj","CONSTANTA":"Constanța","COVASNA":"Covasna","DAMBOVITA":"Dâmbovița","DOLJ":"Dolj","GALATI":"Galați","GIURGIU":"Giurgiu","GORJ":"Gorj","HARGHITA":"Harghita","HUNEDOARA":"Hunedoara","IALOMITA":"Ialomița","IASI":"Iași","ILFOV":"Ilfov","MARAMURES":"Maramureș","MEHEDINTI":"Mehedinți","MURES":"Mureș","NEAMT":"Neamț","OLT":"Olt","PRAHOVA":"Prahova","SALAJ":"Sălaj","SATU MARE":"Satu Mare","SIBIU":"Sibiu","SUCEAVA":"Suceava","TELEORMAN":"Teleorman","TIMIS":"Timiș","TULCEA":"Tulcea","VALCEA":"Vâlcea","VASLUI":"Vaslui","VRANCEA":"Vrancea"}' hidden></div>
+        <!-- Scara e continut STATIC, nu text construit de JS: banda „012–undefinedNaN–undefinedNaN+"
+             a fost reproducibila pe live (`/static/harta-stiri/?q=Giroc`, 4 oct 2026) exact fiindca
+             etichetele se compuneau din praguri variabile. Aici pragurile (`data-praguri`) si benzile
+             stau unul langa altul, iar tests/test_harta_scara.py le verifica acoperirea 0..∞. -->
+        <div id="map-legend" class="map-legend" role="group" aria-label="Scara culorilor"
+             data-praguri="1,6,15,30" data-praguri-locuitor="0.1,1,2,4" hidden>
+          <!-- Trei titluri si doua seturi de benzi, toate scrise AICI, nu construite de JS:
+               „NaN"/„undefined" nu pot ajunge pe ecran prin constructie. Pragurile
+               (`data-praguri`, `data-praguri-locuitor`) stau langa benzi, iar
+               tests/test_harta_scara.py verifica pentru AMBELE seturi ca benzile acopera
+               0..infinit, contiguu, pe grila de afisare (1 pentru volum, 0,1 pentru rate).
+               Setul „uat" e chiar cel de volum: pe orase si comune nu avem populație, deci
+               acolo scara rămâne volumul — spus explicit in titlu, nu ascuns. -->
+          <span class="legend-title" data-title="volum">Volum de știri</span>
+          <span class="legend-title" data-title="locuitori" hidden>Evenimente la 100.000 de locuitori</span>
+          <span class="legend-title" data-title="uat" hidden>Volum de știri (pe orașe și comune)</span>
+          <span class="legend-bands" data-bands="volum">
+            <span class="legend-step"><span class="swatch h0" aria-hidden="true"></span>0</span>
+            <span class="legend-step"><span class="swatch h1" aria-hidden="true"></span>1–5</span>
+            <span class="legend-step"><span class="swatch h2" aria-hidden="true"></span>6–14</span>
+            <span class="legend-step"><span class="swatch h3" aria-hidden="true"></span>15–29</span>
+            <span class="legend-step"><span class="swatch h4" aria-hidden="true"></span>30+</span>
+          </span>
+          <span class="legend-bands" data-bands="locuitori" hidden>
+            <span class="legend-step"><span class="swatch h0" aria-hidden="true"></span>0</span>
+            <span class="legend-step"><span class="swatch h1" aria-hidden="true"></span>0,1–0,9</span>
+            <span class="legend-step"><span class="swatch h2" aria-hidden="true"></span>1,0–1,9</span>
+            <span class="legend-step"><span class="swatch h3" aria-hidden="true"></span>2,0–3,9</span>
+            <span class="legend-step"><span class="swatch h4" aria-hidden="true"></span>4+</span>
+          </span>
+        </div>
+        <div id="county-picker" class="county-picker" role="group" aria-label="Alege județul"></div>
+        <!-- Footnote (F3, contractul de realitate): fiecare cifra de pe harta are langa ea
+             ce e numaratorul, ce e numitorul si pe ce fereastra. Cifrele de populație sunt
+             scrise static aici si verificate de tests/test_harta_scara.py contra
+             data/populatie.json, ca sa nu poata diverge tacut. -->
+        <p class="map-footnote">Ce măsoară cifrele: <strong>numărătorul</strong> e numărul de evenimente sau relatări
+          afișate în filtrul curent, din <span id="map-window">fereastra hărții</span>. În modul „pe locuitor",
+          <strong>numitorul</strong> e populația județului: recensământul INS 2021, agregat pe localități
+          (19.080.476 locuitori în total, cu 0,14&nbsp;% peste totalul INS de 19.053.815). Cifra e un raport,
+          nu o ierarhie: diferențele de sub un eveniment nu sunt semnificative, iar harta nu e o statistică
+          oficială a incidentelor.</p>
+        <p class="map-note">Culoarea mai închisă înseamnă mai multe știri, iar butonul „Pe locuitor" schimbă scara din volum în evenimente la 100.000 de locuitori — aceeași culoare înseamnă același număr în orice filtru, iar scara completă e în legenda de sub hartă; numele și cifrele apar la atingere sau la trecerea cursorului. În modul regional, culorile delimitează regiunile editoriale. După ce alegi un județ, harta arată limitele orașelor și comunelor; o cifră apare numai pe unitățile cu știri localizate și reprezintă evenimentele sau relatările din filtrul activ. Poți alege aceeași zonă din listă, fără să fie nevoie să nimerești un marker.</p>
+        <p class="map-note">În interiorul unui județ, cifrele de pe orașe și comune rămân <strong>volum</strong> chiar și în modul „pe locuitor": populația există doar pe județe în datele publicate, iar legenda spune asta.</p>
+        <p class="map-note">Harta se mărește cu rotița mausului sau cu dublu-click și se deplasează trăgând-o; butoanele + și − de lângă hartă merg și din tastatură, iar când e mărită o deplasezi cu săgețile. Pe telefon, un deget derulează pagina; pentru mărire folosește butoanele + și −, iar lista de județe și localități e alternativa la atingerea directă a hărții.</p>
+        <p class="map-note">Preferi o listă statică? Consultă <a href="/surse/">sursele organizate pe județe și regiuni</a>. Date de limite administrative: <a href="https://geo-spatial.org/" rel="noopener">geo-spatial.org</a> (sursă ANCPI), CC BY-SA 4.0 · conturul de județe: Natural Earth (domeniu public).</p>
+        <noscript><p class="map-note">Harta necesită JavaScript pentru filtrare. Poți consulta în continuare <a href="/surse/">catalogul surselor pe județe și regiuni</a> și <a href="/">ultimele știri</a>.</p></noscript>
+        <p id="map-status" class="sr-only" aria-live="polite" aria-atomic="true"></p>
+      </div>
+      <aside class="news-panel" aria-label="Rezultatele hărții">
+        <div class="panel-heading">
+          <div>
+            <p id="panel-context" class="panel-context">România</p>
+            <h2 id="panel-title">Evenimente localizate</h2>
+          </div>
+          <span id="panel-count"></span>
+        </div>
+        <ul id="news-list" class="news-list">
+          <li class="loading">Se încarcă…</li>
+        </ul>
+        <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
+      </aside>
+    </section>
+  </main>
+
+  <script src="/static/harta-stiri/harta-stiri.js" defer></script>
+</body>
+</html>

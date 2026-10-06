@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech" class="active">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech" class="active">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,6 +82,192 @@
 </nav>
   <h1 class="section-title">Tech</h1>
   <section class="grid">
+<article class="card" data-cat="tech" data-source="XDA Developers" data-title="Producătorul chinez CXMT vinde memorii DRAM la prețuri ridicate"><a class="card-media" href="/tech/producatorul-chinez-cxmt-vinde-memorii-dram-la-preturi-ridicate/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/producatorul-chinez-cxmt-vinde-memorii-dram-la-preturi-ridicate/">Producătorul chinez CXMT vinde memorii DRAM la prețuri ridicate</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T16:00:19+00:00">2 octombrie 2026, 19:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Așteptările consumatorilor privind ieftinirea memoriilor DDR5 prin intrarea pe piață a gigantului chinez CXMT au fost infirmat, compania practicând tarife similare cu cele ale marilor producători mondiali.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.xda-developers.com/we-thought-chinese-companies-could-save-us-from-the-ram-crisis-but-theyre-charging-just-as-much-as-the-big-three/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="XDA Developers" data-title="O aplicație utilă aduce biblioteca Plex direct pe Google TV"><a class="card-media" href="/tech/o-aplicatie-utila-aduce-biblioteca-plex-direct-pe-google-tv/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/o-aplicatie-utila-aduce-biblioteca-plex-direct-pe-google-tv/">O aplicație utilă aduce biblioteca Plex direct pe Google TV</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T15:30:18+00:00">2 octombrie 2026, 18:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Un utilizator a testat integrarea bibliotecii Plex pe interfața Google TV a unui televizor Hisense U8H, lăudând flexibilitatea sistemului de operare bazat pe Android în ciuda unor mici probleme de lag.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.xda-developers.com/this-useful-app-brought-my-plex-library-directly-to-my-google-tv-home-screen/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="KitGuru" data-title="Sony lansează QSSR, o versiune optimizată PSSR pentru consola PS5 standard"><a class="card-media" href="/tech/sony-lanseaza-qssr-o-versiune-optimizata-pssr-pentru-consola-ps5-standard/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Tech</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/sony-lanseaza-qssr-o-versiune-optimizata-pssr-pentru-consola-ps5-standard/">Sony lansează QSSR, o versiune optimizată PSSR pentru consola PS5 standard</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T15:00:27+00:00">2 octombrie 2026, 18:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Gigantul tehnologic Sony extinde funcțiile de upscaling bazate pe inteligență artificială, introducând Quick Spectral Super Resolution, o variantă eficientă concepută special pentru a rula fluent pe modelul clasic de consolă PlayStation 5.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.kitguru.net/gaming/joao-silva/sony-rolls-out-qssr-a-streamlined-pssr-variant-for-ps5/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="XDA Developers" data-title="Plăcile ESP32-S3 pot imita dispozitive USB standard"><a class="card-media" href="/tech/placile-esp32-s3-pot-imita-dispozitive-usb-standard/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/placile-esp32-s3-pot-imita-dispozitive-usb-standard/">Plăcile ESP32-S3 pot imita dispozitive USB standard</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T15:01:17+00:00">2 octombrie 2026, 18:01</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Microcontrolerele ESP32 oferă o versatilitate ridicată la un cost redus. Pe lângă proiectele de automatizare casnică și senzori, acestea pot fi configurate să funcționeze ca dispozitive USB obișnuite.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.xda-developers.com/an-esp32-s3-can-pretend-to-be-a-normal-usb-device-and-its-one-of-the-most-useful-tricks-it-can-pull/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="Connect.ro" data-title="iPhone 18 Pro Max vine cu performanțe ridicate și un preț mult mai mare"><a class="card-media" href="/tech/iphone-18-pro-max-vine-cu-performante-ridicate-si-un-pret-mult-mai-mare/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/iphone-18-pro-max-vine-cu-performante-ridicate-si-un-pret-mult-mai-mare/">iPhone 18 Pro Max vine cu performanțe ridicate și un preț mult mai mare</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T14:51:40+00:00">2 octombrie 2026, 17:51</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Cel mai nou vârf de gamă lansat de compania Apple aduce îmbunătățiri notabile la capitolul viteză și autonomie, însă păstrează un design aproape identic cu modelul anterior, fiind disponibil la un cost semnificativ mai ridicat.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.connect.ro/2026/10/02/iphone-18-pro-max-review-mai-puternic-autonomie-mai-buna-si-pret-mult-mai-mare/" target="_blank" rel="noopener noreferrer">Connect.ro</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="KitGuru" data-title="Zvonurile indică integrarea nuclemelor Zen 6 în viitoarele procesoare AMD Ryzen Z3"><a class="card-media" href="/tech/zvonurile-indica-integrarea-nuclemelor-zen-6-in-viitoarele-procesoare-amd-ryzen/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Tech</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/zvonurile-indica-integrarea-nuclemelor-zen-6-in-viitoarele-procesoare-amd-ryzen/">Zvonurile indică integrarea nuclemelor Zen 6 în viitoarele procesoare AMD Ryzen Z3</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T14:00:02+00:00">2 octombrie 2026, 17:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Viitoarele unități de procesare pentru console portabile de gaming de la AMD ar putea folosi o arhitectură bazată pe nuclee Zen 6 și grafică RDNA4, conform unor informații recente apărute în mediul online.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.kitguru.net/components/apu-components/joao-silva/rumour-claims-next-gen-ryzen-z3-will-be-based-on-zen-6-and-rdna4m-graphics/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="ZonaIT" data-title="Sistemele cu 32GB RAM devin cel mai popular standard pe platforma Steam"><a class="card-media" href="/tech/sistemele-cu-32gb-ram-devin-cel-mai-popular-standard-pe-platforma-steam/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/sistemele-cu-32gb-ram-devin-cel-mai-popular-standard-pe-platforma-steam/">Sistemele cu 32GB RAM devin cel mai popular standard pe platforma Steam</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T13:57:52+00:00">2 octombrie 2026, 16:57</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Cel mai recent sondaj realizat de Valve privind hardware-ul arată că memoria RAM de 32GB a devenit o opțiune dominantă pentru jucătorii de PC, semnalând dificultăți financiare pentru gamerii cu bugete restrânse.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://zonait.ro/clasament-steam-gaming-ram/" target="_blank" rel="noopener noreferrer">ZonaIT</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="The New Stack" data-title="Comparație între distribuțiile Kubernetes ușoare și cele standard"><a class="card-media" href="/tech/comparatie-intre-distributiile-kubernetes-usoare-si-cele-standard/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/comparatie-intre-distributiile-kubernetes-usoare-si-cele-standard/">Comparație între distribuțiile Kubernetes ușoare și cele standard</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T13:00:00+00:00">2 octombrie 2026, 16:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Ecosistemul Kubernetes se confruntă cu probleme mari de complexitate, motiv pentru care versiunile ușoare devin tot mai populare în rândul echipelor care vor să evite greutatea operațională a clusterelor standard.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://thenewstack.io/k3s-vs-k8s-comparison/" target="_blank" rel="noopener noreferrer">The New Stack</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="Economedia" data-title="GapMinder a evidențiat cele mai importante startup-uri de tehnologie din România"><a class="card-media" href="/tech/gapminder-a-evidentiat-cele-mai-importante-startup-uri-de-tehnologie-din-romania/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/gapminder-a-evidentiat-cele-mai-importante-startup-uri-de-tehnologie-din-romania/">GapMinder a evidențiat cele mai importante startup-uri de tehnologie din România</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T12:42:09+00:00">2 octombrie 2026, 15:42</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fondul de investiții GapMinder a inclus companii precum Deepstash, FintechOS și Veridion în topul celor mai mari startup-uri tech românești, după ce a participat în acest an la zece runde de finanțare.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://economedia.ro/gapminder-cele-mai-mari-startup-uri-romanesti.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
+</article>
+<article class="card card-c" data-cat="tech" data-source="ZonaIT" data-title="Razer a lansat tastatura compactă Huntsman V3 Pro Mini 8KHz"><a class="card-media" href="/tech/razer-a-lansat-tastatura-compacta-huntsman-v3-pro-mini-8khz/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Tech</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge c">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/tech/razer-a-lansat-tastatura-compacta-huntsman-v3-pro-mini-8khz/">Razer a lansat tastatura compactă Huntsman V3 Pro Mini 8KHz</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T12:34:52+00:00">2 octombrie 2026, 15:34</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Compania Razer a lansat tastatura gaming Huntsman V3 Pro Mini 8KHz, un model compact în format de 60% echipat cu switch-uri optice analogice de generația a doua. Dispozitivul dispune de funcție Rapid Trigger, acționare reglabilă de la 0,1 mm la 4,0 mm și tehnologie HyperPolling la 8000Hz pentru o latență redusă. Noua tastatură este disponibilă începând din această săptămână la prețul de 179,99 dolari.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://zonait.ro/razer-huntsman-v3-pro-mini-8khz/" target="_blank" rel="noopener noreferrer">ZonaIT</a>, <a href="https://www.kitguru.net/peripherals/keyboards/joao-silva/razer-adds-huntsman-v3-pro-mini-8khz-to-its-lineup/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="XDA Developers" data-title="Un șofer și-a transformat vechiul telefon Android într-un sistem auto"><a class="card-media" href="/tech/un-sofer-si-a-transformat-vechiul-telefon-android-intr-un-sistem-auto/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/un-sofer-si-a-transformat-vechiul-telefon-android-intr-un-sistem-auto/">Un șofer și-a transformat vechiul telefon Android într-un sistem auto</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T12:30:21+00:00">2 octombrie 2026, 15:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Un utilizator a refolosit un smartphone Android inactiv dintr-un sertar, configurându-l ca o unitate multimedia dedicată pentru bordul mașinii, adaptată nevoilor sale reale de condus.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.xda-developers.com/i-gave-my-old-android-phone-an-android-auto-makeover-my-car-is-better-for-it/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
+</article>
+<article class="card" data-cat="tech" data-source="KitGuru" data-title="Jocurile Metro 2033 și Last Light primesc actualizări gratuite pentru PS5 și Xbox"><a class="card-media" href="/tech/jocurile-metro-2033-si-last-light-primesc-actualizari-gratuite-pentru-ps5-si/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Tech</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Tech</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/tech/jocurile-metro-2033-si-last-light-primesc-actualizari-gratuite-pentru-ps5-si/">Jocurile Metro 2033 și Last Light primesc actualizări gratuite pentru PS5 și Xbox</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T12:30:13+00:00">2 octombrie 2026, 15:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Dezvoltatorii seriei post-apocaliptice Metro au confirmat lansarea unor versiuni îmbunătățite gratuite pentru primele două titluri ale francizei, destinate consolelor de generație nouă PlayStation 5 și Xbox Series X/S.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.kitguru.net/tech-news/mustafa-mahmoud/metro-2033-and-last-light-to-receive-free-upgrades-for-ps5-and-xbox-series-x-s/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
+</article>
 <article class="card" data-cat="tech" data-source="Connect.ro" data-title="Studioul Ubisoft Massive preia conducerea francizelor Splinter Cell și Ghost Recon"><a class="card-media" href="/tech/studioul-ubisoft-massive-preia-conducerea-francizelor-splinter-cell-si-ghost/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Tech</p></div>
   <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
@@ -197,192 +389,6 @@
   <p class="summary">Un pasionat de hardware a reușit să activeze tehnologii exclusive noilor generații grafice pe un model mai vechi de la Nvidia, punând sub semnul întrebării diferențele rigide dintre serii.</p>
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://www.xda-developers.com/i-unlocked-rtx-50-series-features-on-my-4070-ti-nvidia-gpu-generations-dont-make-sense-anymore/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
-</article>
-<article class="card card-c" data-cat="tech" data-source="ZonaIT" data-title="Samsung a scumpit seria Galaxy S26 în Europa"><a class="card-media" href="/tech/samsung-a-scumpit-seria-de-telefoane-galaxy-s26-pe-piata-europeana/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge c">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/tech/samsung-a-scumpit-seria-de-telefoane-galaxy-s26-pe-piata-europeana/">Samsung a scumpit seria Galaxy S26 în Europa</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T10:04:01+00:00">2 octombrie 2026, 13:04</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Compania Samsung a majorat prețurile noilor telefoane din seria Galaxy S26 pentru consumatorii de pe piața europeană, după o măsură similară aplicată în Statele Unite. Analiștii din industrie estimează noi creșteri de preț și odată cu lansarea viitoarei generații de dispozitive, urmând tendința actuală din sectorul de tehnologie.</p>
-  <p class="sources-inline"><b>Surse:</b>
-<a href="https://zonait.ro/pret-samsung-galaxy-s26-s27/" target="_blank" rel="noopener noreferrer">ZonaIT</a>, <a href="https://start-up.ro/telefoanele-samsung-galaxy-s27-cel-mai-probabil-vor-fi-mai-scumpe-decat-cele-din-seria-s26/" target="_blank" rel="noopener noreferrer">Start-up.ro</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="NwRadu" data-title="Bateria unui iPhone 17 Pro Max și-a menținut capacitatea maximă după un an de încărcare exclusiv wireless"><a class="card-media" href="/tech/bateria-unui-iphone-17-pro-max-si-a-mentinut-capacitatea-maxima-dupa-un-an-de/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/bateria-unui-iphone-17-pro-max-si-a-mentinut-capacitatea-maxima-dupa-un-an-de/">Bateria unui iPhone 17 Pro Max și-a menținut capacitatea maximă după un an de încărcare exclusiv wireless</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T09:35:03+00:00">2 octombrie 2026, 12:35</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Un utilizator raportează că telefonul său a rămas la o sănătate a acumulatorului de 100% după douăsprezece luni de alimentare zilnică printr-unstand wireless nocturn de 15W, contrazicând temerile privind degradarea termică accelerată provocată de acest mod de încărcare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.nwradu.ro/2026/10/cat-battery-health-are-iphone-17-pro-max-dupa-un-an/" target="_blank" rel="noopener noreferrer">NwRadu</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="Connect.ro" data-title="Jocul GTA 6 va include sisteme meteo avansate și o faună complexă"><a class="card-media" href="/tech/jocul-gta-6-va-include-sisteme-meteo-avansate-si-o-fauna-complexa/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/jocul-gta-6-va-include-sisteme-meteo-avansate-si-o-fauna-complexa/">Jocul GTA 6 va include sisteme meteo avansate și o faună complexă</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T10:50:56+00:00">2 octombrie 2026, 13:50</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Reprezentanții studioului Rockstar au oferit detalii despre viitorul titlu video GTA 6. Printre noutăți se numără simularea detaliată a condițiilor meteorologice și un ecosistem natural vast integrat în mediul virtual.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.connect.ro/2026/10/02/gta-6-are-un-sistem-avansat-de-simulare-a-fenomenelor-meteo-si-o-fauna-imensa/" target="_blank" rel="noopener noreferrer">Connect.ro</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="Connect.ro" data-title="ASUS a lansat update-uri de BIOS pentru remedierea unei vulnerabilități majore pe Intel Gen 8 și 9"><a class="card-media" href="/tech/asus-a-lansat-update-uri-de-bios-pentru-remedierea-unei-vulnerabilitati-majore/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Tech</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/asus-a-lansat-update-uri-de-bios-pentru-remedierea-unei-vulnerabilitati-majore/">ASUS a lansat update-uri de BIOS pentru remedierea unei vulnerabilități majore pe Intel Gen 8 și 9</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T10:21:26+00:00">2 octombrie 2026, 13:21</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Producătorul ASUS a emis actualizări de BIOS pentru plăcile de bază cu chipset Z390, corectând o breșă de securitate considerată gravă. Utilizatorii sunt sfătuiți să își actualizeze sistemele conform tabelelor oficiale.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.connect.ro/2026/10/02/asus-repara-o-problema-veche-de-pe-platformele-intel-8th-si-9th-gen-cu-un-update-de-bios/" target="_blank" rel="noopener noreferrer">Connect.ro</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="XDA Developers" data-title="Un nou editor video gratuit oferă funcții avansate de animație"><a class="card-media" href="/tech/un-nou-editor-video-gratuit-ofera-functii-avansate-de-animatie/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/un-nou-editor-video-gratuit-ofera-functii-avansate-de-animatie/">Un nou editor video gratuit oferă funcții avansate de animație</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T10:00:16+00:00">2 octombrie 2026, 13:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Găsirea unui program de editare video fără costuri, care să suporte instrumente complexe de tip keyframing similare platformelor comerciale, reprezintă o provocare majoră pentru creatorii de conținut.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.xda-developers.com/stopped-looking-for-free-video-editor-after-finding-one-that-handles-keyframing-like-adobe/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="KitGuru" data-title="Lansarea jocului Kena: Scars of Kosmora a fost amânată oficial de studioul Ember Lab pentru anul 2027"><a class="card-media" href="/tech/lansarea-jocului-kena-scars-of-kosmora-a-fost-amanata-oficial-de-studioul-ember/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/lansarea-jocului-kena-scars-of-kosmora-a-fost-amanata-oficial-de-studioul-ember/">Lansarea jocului Kena: Scars of Kosmora a fost amânată oficial de studioul Ember Lab pentru anul 2027</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T09:30:09+00:00">2 octombrie 2026, 12:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Continuarea titlului de succes lansat în 2021 nu va mai apărea în termenul estimat inițial. Dezvoltatorii au confirmat prin intermediul platformei oficiale PlayStation că noul proiect necesită timp suplimentar de producție și va debuta abia peste doi ani.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.kitguru.net/tech-news/mustafa-mahmoud/kena-scars-of-kosmora-officially-delayed-to-2027/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="KitGuru" data-title="Testarea coolerului pentru procesoare Arctic Freezer 36-S A-RGB"><a class="card-media" href="/tech/testarea-coolerului-pentru-procesoare-arctic-freezer-36-s-a-rgb/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/testarea-coolerului-pentru-procesoare-arctic-freezer-36-s-a-rgb/">Testarea coolerului pentru procesoare Arctic Freezer 36-S A-RGB</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T08:58:12+00:00">2 octombrie 2026, 11:58</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Recenzia detaliată a noului sistem de răcire pe aer Arctic Freezer 36-S A-RGB evidențiază performanțele ventilatorului de 120 mm și ale celor patru conducte de căldură, fiind compatibil cu platformele Intel și AMD.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.kitguru.net/components/cooling/james-dawson/arctic-freezer-36-s-a-rgb-cpu-air-cooler-review/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="ZonaIT" data-title="Lansarea routerului de gaming ASUS ROG Rapture GT-BN98 cu suport Wi-Fi 8"><a class="card-media" href="/tech/lansarea-routerului-de-gaming-asus-rog-rapture-gt-bn98-cu-suport-wi-fi-8/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Tech</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/lansarea-routerului-de-gaming-asus-rog-rapture-gt-bn98-cu-suport-wi-fi-8/">Lansarea routerului de gaming ASUS ROG Rapture GT-BN98 cu suport Wi-Fi 8</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T08:22:25+00:00">2 octombrie 2026, 11:22</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">În timp ce adopția rețelelor Wi-Fi 7 rămâne scăzută la nivel global, ASUS a prezentat primul router de gaming compatibil cu standardul Wi-Fi 8, promovat sub denumirea ROG Rapture GT-BN98.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://zonait.ro/review-asus-rog-rapture-gt-bn98/" target="_blank" rel="noopener noreferrer">ZonaIT</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="KitGuru" data-title="IO Interactive lansează primul pachet DLC gratuit pentru jocul 007 First Light"><a class="card-media" href="/tech/io-interactive-lanseaza-primul-pachet-dlc-gratuit-pentru-jocul-007-first-light/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/io-interactive-lanseaza-primul-pachet-dlc-gratuit-pentru-jocul-007-first-light/">IO Interactive lansează primul pachet DLC gratuit pentru jocul 007 First Light</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T08:30:10+00:00">2 octombrie 2026, 11:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Dezvoltatorii jocului 007 First Light au lansat patch-ul 1.3.0, care include primul conținut suplimentar gratuit. Jucătorii primesc moduri noi de joc, niveluri de dificultate extinse și misiuni suplimentare pentru a spori rejucabilitatea.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.kitguru.net/tech-news/mustafa-mahmoud/io-drops-first-free-dlc-for-007-first-light/" target="_blank" rel="noopener noreferrer">KitGuru</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="Connect.ro" data-title="O nouă revizie hardware pentru consola PlayStation 5 Slim"><a class="card-media" href="/tech/o-noua-revizie-hardware-pentru-consola-playstation-5-slim/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Tech</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/o-noua-revizie-hardware-pentru-consola-playstation-5-slim/">O nouă revizie hardware pentru consola PlayStation 5 Slim</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T07:58:26+00:00">2 octombrie 2026, 10:58</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">O analiză detaliată a ediției limitate Wolverine pentru PS5 Slim evidențiază o nouă placă de bază EDM-051, un sistem de răcire modificat și adăugarea unei baterii CR2032 ușor accesibilă pentru utilizatori.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.connect.ro/2026/10/02/ps5-slim-revizie-racire-baterie/" target="_blank" rel="noopener noreferrer">Connect.ro</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="Start-up.ro" data-title="Viitoarele telefoane Samsung Galaxy S27 ar putea fi mai scumpe"><a class="card-media" href="/tech/viitoarele-telefoane-samsung-galaxy-s27-ar-putea-fi-mai-scumpe/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/viitoarele-telefoane-samsung-galaxy-s27-ar-putea-fi-mai-scumpe/">Viitoarele telefoane Samsung Galaxy S27 ar putea fi mai scumpe</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T07:44:22+00:00">2 octombrie 2026, 10:44</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Viitoarea serie de smartphone-uri Samsung Galaxy S27 va înregistra probabil o creștere de preț față de generația anterioară, fondată pe actualul context nefavorabil din industria globală de tehnologie.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://start-up.ro/telefoanele-samsung-galaxy-s27-cel-mai-probabil-vor-fi-mai-scumpe-decat-cele-din-seria-s26/" target="_blank" rel="noopener noreferrer">Start-up.ro</a></p>
-</article>
-<article class="card" data-cat="tech" data-source="Start-up.ro" data-title="Sony introduce tehnologia QSSR de upscaling AI pe consola PlayStation 5"><a class="card-media" href="/tech/sony-introduce-tehnologia-qssr-de-upscaling-ai-pe-consola-playstation-5/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Tech</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Tech</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/tech/sony-introduce-tehnologia-qssr-de-upscaling-ai-pe-consola-playstation-5/">Sony introduce tehnologia QSSR de upscaling AI pe consola PlayStation 5</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T07:40:57+00:00">2 octombrie 2026, 10:40</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Sony implementează tehnologia Quick Spectral Super Resolution pe PlayStation 5. Această soluție de upscaling bazată pe inteligență artificială este optimizată pentru hardware-ul consolei standard, îmbunătățind performanța grafică a jocurilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://start-up.ro/jocurile-vor-arata-mai-bine-pe-ps5-cu-noua-tehnologie-qssr-de-la-sony/" target="_blank" rel="noopener noreferrer">Start-up.ro</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

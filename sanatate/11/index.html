@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more" open>
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more" open>
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate" class="active">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,6 +82,208 @@
 </nav>
   <h1 class="section-title">Sănătate</h1>
   <section class="grid">
+<article class="card" data-cat="sanatate" data-source="Unica" data-title="Flavia Mihășan s-a operat la nas după zece ani de amânare"><a class="card-media" href="/sanatate/flavia-mihasan-s-a-operat-la-nas-dupa-zece-ani-de-amanare/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/flavia-mihasan-s-a-operat-la-nas-dupa-zece-ani-de-amanare/">Flavia Mihășan s-a operat la nas după zece ani de amânare</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T14:04:17+00:00">28 septembrie 2026, 17:04</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Vedeta TV și-a rezolvat deviația de sept care îi îngreuna respirația, mărturisind că intervenția chirurgicală i-a îmbunătățit considerabil calitatea vieții zilnice.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.unica.ro/vedete/flavia-mihasan-s-a-operat-la-nas-cum-arata-la-12-zile-de-la-interventie-836332" target="_blank" rel="noopener noreferrer">Unica</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Nutriționiștii explică efectele consumului de mere asupra sănătății intestinale"><a class="card-media" href="/sanatate/nutritionistii-explica-efectele-consumului-de-mere-asupra-sanatatii-intestinale/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 28 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/nutritionistii-explica-efectele-consumului-de-mere-asupra-sanatatii-intestinale/">Nutriționiștii explică efectele consumului de mere asupra sănătății intestinale</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T14:00:06+00:00">28 septembrie 2026, 17:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Consumul zilnic de mere aduce un aport valoros de fibre și polifenoli, compuși esențiali care sprijină flora și buna funcționare a sistemului digestiv.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/sanatate/sanatate-health/ce-se-intampla-cu-intestinul-tau-daca-mananci-mere-efectele-explicate-de-nutritionisti-21319590/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="Ziua de Cluj" data-title="Cercetătorii americani asociază densitatea osoasă scăzută cu declinul cognitiv"><a class="card-media" href="/sanatate/cercetatorii-americani-asociaza-densitatea-osoasa-scazuta-cu-declinul-cognitiv/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/cercetatorii-americani-asociaza-densitatea-osoasa-scazuta-cu-declinul-cognitiv/">Cercetătorii americani asociază densitatea osoasă scăzută cu declinul cognitiv</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T13:44:00+00:00">28 septembrie 2026, 16:44</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Un studiu recent efectuat de specialiștii de la Universitatea Johns Hopkins indică o legătură directă între pierderea masei osoase și deteriorarea funcțiilor cognitive la adulți.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://zcj.ro/sanatate/densitatea-osoasa-scazuta-legata-de-declinul-cognitiv-ce-au-descoperit-cercetatorii--302081.html" target="_blank" rel="noopener noreferrer">Ziua de Cluj</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Consumul excesiv de zahăr de Halloween și gestionarea de către părinți"><a class="card-media" href="/sanatate/consumul-excesiv-de-zahar-de-halloween-si-gestionarea-de-catre-parinti/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/consumul-excesiv-de-zahar-de-halloween-si-gestionarea-de-catre-parinti/">Consumul excesiv de zahăr de Halloween și gestionarea de către părinți</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T13:00:18+00:00">28 septembrie 2026, 16:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Sărbătoarea de Halloween aduce numeroase dulciuri pentru copii, provocându-i pe părinți să găsească metode echilibrate pentru a gestiona cantitatea de zahăr consumată într-o singură seară.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/stiri/halloween-si-zaharul-cat-de-mult-dulce-poate-manca-un-copil-intr-o-singura-seara-si-cum-gestioneaza-parintii-situatia-21320348/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="Gazeta de Cluj" data-title="Specialiștii explică importanța tipului de magneziu administrat pentru un somn odihnitor"><a class="card-media" href="/sanatate/specialistii-explica-importanta-tipului-de-magneziu-administrat-pentru-un-somn/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/specialistii-explica-importanta-tipului-de-magneziu-administrat-pentru-un-somn/">Specialiștii explică importanța tipului de magneziu administrat pentru un somn odihnitor</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T12:29:04+00:00">28 septembrie 2026, 15:29</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Administrarea corectă a suplimentelor cu magneziu, cum este forma bisglicinat, poate ameliora trezirile nocturne frecvente, deși specialiștii recomandă consult medical în cazul insomniilor cronice.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://gazetadecluj.ro/magneziu-pentru-somn-dupa-o-zi-tensionata-forma-conteaza-mai-mult-decat-ora/" target="_blank" rel="noopener noreferrer">Gazeta de Cluj</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="Antena 3 CNN" data-title="Experții au dezvăluit regulile pentru un somn odihnitor"><a class="card-media" href="/sanatate/expertii-au-dezvaluit-regulile-pentru-un-somn-odihnitor/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">luni 28 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/expertii-au-dezvaluit-regulile-pentru-un-somn-odihnitor/">Experții au dezvăluit regulile pentru un somn odihnitor</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T07:02:00+00:00">28 septembrie 2026, 10:02</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Specialiștii au prezentat metode esențiale pentru îmbunătățirea calității somnului și menținerea vitalității odată cu înaintarea în vârstă.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.antena3.ro/life/viata-sanatoasa/temperatura-ideala-pentru-un-somn-bun-ce-spun-expertii-804831.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="BizBrașov" data-title="Un fals preot a obținut sute de mii de euro promițând vindecarea cancerului"><a class="card-media" href="/sanatate/un-fals-preot-a-obtinut-sute-de-mii-de-euro-promitand-vindecarea-cancerului/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">luni</span><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/un-fals-preot-a-obtinut-sute-de-mii-de-euro-promitand-vindecarea-cancerului/">Un fals preot a obținut sute de mii de euro promițând vindecarea cancerului</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T07:00:16+00:00">28 septembrie 2026, 10:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Marius Văduva și soția sa au încasat sume uriașe vânzând diete și suplimente miraculoase bolnavilor de cancer, pretinzând că pot elimina microroboții 5G fără nicio calificare medicală.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://bizbrasov.ro/2026/09/28/miracol-fals-preot-cancert-dieta/" target="_blank" rel="noopener noreferrer">BizBrașov</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Proprietățile nutritive și beneficiile consumului de orez brun"><a class="card-media" href="/sanatate/proprietatile-nutritive-si-beneficiile-consumului-de-orez-brun/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">28</span><span class="art-num-wk">luni</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/proprietatile-nutritive-si-beneficiile-consumului-de-orez-brun/">Proprietățile nutritive și beneficiile consumului de orez brun</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T06:00:37+00:00">28 septembrie 2026, 09:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Orezul brun reprezintă o sursă excelentă de fibre, vitamine și minerale esențiale pentru organism. Specialiștii detaliază aportul său nutrițional, avantajele pentru sănătate, dar și situațiile în care consumul trebuie limitat.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/stiri/orezul-brun-beneficii-pentru-sanatate-valori-nutritionale-si-contraindicatii-21318849/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="Sfatul Părinților" data-title="Rețete sănătoase și savuroase bazate pe prepararea corectă a legumelor"><a class="card-media" href="/sanatate/retete-sanatoase-si-savuroase-bazate-pe-prepararea-corecta-a-legumelor/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">28</span><span class="art-num-wk">luni</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/retete-sanatoase-si-savuroase-bazate-pe-prepararea-corecta-a-legumelor/">Rețete sănătoase și savuroase bazate pe prepararea corectă a legumelor</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T05:00:00+00:00">28 septembrie 2026, 08:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Legumele pot deveni extrem de gustoase și hrănitoare dacă sunt gătite corespunzător, scoțând în evidență toate proprietățile lor benefice pentru organism.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://sfatulparintilor.ro/familie-parinti/alimentatie-sanatoasa/cele-mai-sanatoase-si-savuroase-retete-cu-legume/" target="_blank" rel="noopener noreferrer">Sfatul Părinților</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="Elle România" data-title="Opt obiceiuri matinale care facilitează pierderea în greutate"><a class="card-media" href="/sanatate/opt-obiceiuri-matinale-care-faciliteaza-pierderea-in-greutate/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/opt-obiceiuri-matinale-care-faciliteaza-pierderea-in-greutate/">Opt obiceiuri matinale care facilitează pierderea în greutate</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T04:38:00+00:00">28 septembrie 2026, 07:38</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Adoptarea unor mici schimbări în rutina de dimineață poate sprijini semnificativ procesul de slăbire pe termen lung și menținerea rezultatelor dorite, conform specialiștilor în nutriție.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.elle.ro/health-diet/8-obiceiuri-de-dimineata-care-te-vor-ajuta-sa-slabesti-657906" target="_blank" rel="noopener noreferrer">Elle România</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Specialiștii recomandă metode sănătoase de preparare a ouălor în dieta zilnică"><a class="card-media" href="/sanatate/specialistii-recomanda-metode-sanatoase-de-preparare-a-oualor-in-dieta-zilnica/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p></div>
+  <div class="art-tick"></div><p class="art-when">luni,<br>28 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">28</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/specialistii-recomanda-metode-sanatoase-de-preparare-a-oualor-in-dieta-zilnica/">Specialiștii recomandă metode sănătoase de preparare a ouălor în dieta zilnică</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-28T05:00:16+00:00">28 septembrie 2026, 08:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Consumul de ouă poate fi integrat într-o alimentație echilibrată prin alegerea unor tehnici corecte de gătire și combinarea acestora cu ingrediente potrivite pentru organism.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.csid.ro/diete/dieta-si-nutritie/cum-sa-gatesti-ouale-sanatos-ce-metode-de-preparare-sunt-mai-bune-21319112/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
+</article>
+<article class="card" data-cat="sanatate" data-source="Urban.ro" data-title="Șase beneficii pentru sănătate aduse de consumul de pere"><a class="card-media" href="/sanatate/sase-beneficii-pentru-sanatate-aduse-de-consumul-de-pere/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sanatate/sase-beneficii-pentru-sanatate-aduse-de-consumul-de-pere/">Șase beneficii pentru sănătate aduse de consumul de pere</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T21:10:00+00:00">28 septembrie 2026, 00:10</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Perele sunt fructe extrem de nutritive, având proprietăți antiinflamatorii și antioxidante dovedite. Acestea sprijină sănătatea inimii și ajută în mod eficient la reglarea nivelului glicemiei.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.urban.ro/6-beneficii-ale-perelor/" target="_blank" rel="noopener noreferrer">Urban.ro</a></p>
+</article>
+<article class="card card-c" data-cat="sanatate" data-source="Spotmedia" data-title="Un studiu UCLA arată că terapia pentru insomnie încetinește îmbătrânirea biologică"><a class="card-media" href="/sanatate/terapia-cognitiv-comportamentala-pentru-insomnie-ar-putea-incetini-imbatranirea/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sănătate</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge c">Sănătate</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/sanatate/terapia-cognitiv-comportamentala-pentru-insomnie-ar-putea-incetini-imbatranirea/">Un studiu UCLA arată că terapia pentru insomnie încetinește îmbătrânirea biologică</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T21:00:00+00:00">28 septembrie 2026, 00:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Cercetătorii de la UCLA au descoperit că tratarea insomniei prin terapie cognitiv-comportamentală la adulții de peste 60 de ani poate încetini ritmul îmbătrânirii biologice. Această metodă oferă beneficii suplimentare majore pentru sănătatea vârstnicilor, depășind simpla îmbunătățire a calității somnului.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://spotmedia.ro/stiri/sanatate/un-tratament-pentru-insomnie-ar-putea-incetini-imbatranirea-biologica-studiu" target="_blank" rel="noopener noreferrer">Spotmedia</a>, <a href="https://stirileprotv.ro/stiri/stiinta/studiu-un-tratament-pentru-insomnie-ar-putea-incetini-imbatranirea-biologica.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+</article>
 <article class="card" data-cat="sanatate" data-source="Spotmedia" data-title="Un studiu recent arată că suplimentarea cu creatină poate îmbunătăți forța musculară fără antrenament fizic"><a class="card-media" href="/sanatate/un-studiu-recent-arata-ca-suplimentarea-cu-creatina-poate-imbunatati-forta/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Sănătate</p></div>
   <div class="art-tick"></div><p class="art-when">duminică,<br>27 septembrie</p>
@@ -185,204 +393,6 @@
   <p class="summary">Medicii avertizează că sursele de lumină din dormitor, precum veiozele, ecranele telefoanelor sau iluminatul stradal, pot afecta negativ sănătatea și calitatea somnului pe termen lung.</p>
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://www.csid.ro/stiri/greseala-din-dormitor-care-iti-poate-afecta-sanatatea-fara-sa-ti-dai-seama-avertismentul-specialistilor-21319631/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="Turnul Sfatului" data-title="Abordarea terapeutică corectă în cazurile de depresie și anxietate"><a class="card-media" href="/sanatate/abordarea-terapeutica-corecta-in-cazurile-de-depresie-si-anxietate/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/abordarea-terapeutica-corecta-in-cazurile-de-depresie-si-anxietate/">Abordarea terapeutică corectă în cazurile de depresie și anxietate</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T14:35:05+00:00">27 septembrie 2026, 17:35</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Tulburările de anxietate și episoadele depresive nu pot fi eliminate printr-o singură metodă rapidă sau pastilă miraculoasă, specialiștii subliniind necesitatea unui parcurs complex de recuperare psihologică.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.turnulsfatului.ro/2026/09/27/cum-scap-de-depresie-si-anxietate/" target="_blank" rel="noopener noreferrer">Turnul Sfatului</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Utilizarea tradițională a plantei vetrice în combaterea problemelor digestive și a paraziților"><a class="card-media" href="/sanatate/utilizarea-traditionala-a-plantei-vetrice-in-combaterea-problemelor-digestive/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/utilizarea-traditionala-a-plantei-vetrice-in-combaterea-problemelor-digestive/">Utilizarea tradițională a plantei vetrice în combaterea problemelor digestive și a paraziților</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T13:00:15+00:00">27 septembrie 2026, 16:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Cunoscută popular pentru inflorescențele sale galbene asemănătoare unor nasturi, vetricea are o îndelungată utilizare în medicina tradițională din Europa pentru tratarea afecțiunilor gastrice și a paraziților intestinali.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.csid.ro/sanatate/sanatate-health/vetricea-planta-folosita-de-generatii-pentru-probleme-digestive-si-paraziti-ce-spun-studiile-21318328/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Consumul excesiv de suplimente poate afecta ficatul"><a class="card-media" href="/sanatate/consumul-excesiv-de-suplimente-poate-afecta-ficatul/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/consumul-excesiv-de-suplimente-poate-afecta-ficatul/">Consumul excesiv de suplimente poate afecta ficatul</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T12:00:29+00:00">27 septembrie 2026, 15:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Administrarea necontrolată de vitamine, minerale și produse naturiste cumpărate fără rețetă poate genera riscuri majore pentru sănătate. Specialiștii avertizează asupra semnelor timpurii care indică o suferință hepatică provocată de aceste substanțe.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.csid.ro/sanatate/sanatate-health/ce-se-intampla-cu-ficatul-cand-iei-prea-multe-suplimente-semnele-care-pot-indica-o-problema-21320598/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="Alba24" data-title="Reclamele despre sănătate vor necesita aprobarea Colegiului Medicilor"><a class="card-media" href="/sanatate/reclamele-despre-sanatate-vor-necesita-aprobarea-colegiului-medicilor/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/reclamele-despre-sanatate-vor-necesita-aprobarea-colegiului-medicilor/">Reclamele despre sănătate vor necesita aprobarea Colegiului Medicilor</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T11:00:47+00:00">27 septembrie 2026, 14:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Un proiect legislativ aflat în dezbatere la Senat propune ca orice reclamă medicală sau recomandare legată de sănătatea umană să fie difuzată exclusiv după validarea prealabilă din partea Colegiului Medicilor sau a celui al Stomatologilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://alba24.ro/noi-reguli-pentru-reclamele-cu-informatii-si-recomandari-despre-sanatate-cine-ar-trebui-sa-le-aprobe-si-ce-amenzi-sunt-propuse-1159685.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Medicul dermatolog Amalia Anghel explică cauzele căderii părului și tratamentele moderne"><a class="card-media" href="/sanatate/medicul-dermatolog-amalia-anghel-explica-cauzele-caderii-parului-si/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p></div>
-  <div class="art-tick"></div><p class="art-when">duminică,<br>27 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/medicul-dermatolog-amalia-anghel-explica-cauzele-caderii-parului-si/">Medicul dermatolog Amalia Anghel explică cauzele căderii părului și tratamentele moderne</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T11:00:59+00:00">27 septembrie 2026, 14:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Specialistul detaliază diferențele dintre căderea sezonieră a părului din perioada de toamnă și afecțiunile cronice, subliniind importanța investigațiilor prin tricoscopie și a terapiilor PRP.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.csid.ro/beauty/ingrijire-frumusete/caderea-parului-se-accentueaza-toamna-dr-amalia-anghel-explica-rolul-tricoscopiei-si-al-tratamentului-prp-21318812/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Eficacitatea gargarei cu apă și sare pentru tratarea durerilor în gât"><a class="card-media" href="/sanatate/eficacitatea-gargarei-cu-apa-si-sare-pentru-tratarea-durerilor-in-gat/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/eficacitatea-gargarei-cu-apa-si-sare-pentru-tratarea-durerilor-in-gat/">Eficacitatea gargarei cu apă și sare pentru tratarea durerilor în gât</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T10:00:34+00:00">27 septembrie 2026, 13:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Medicina populară recomandă gargara cu apă și sare ca remediu tradițional împotriva usturimilor și a durerilor în gât, o metodă simplă des folosită în sezonul rece pentru ameliorarea simptomelor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.csid.ro/sanatate/medicina-alternativa/gargara-cu-apa-si-sare-pentru-durerea-in-gat-ajuta-cu-adevarat-21315889/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="Alba24" data-title="Ministerul Sănătății a stabilit 25 de specialități medicale deficitare pentru Rezidențiat 2026"><a class="card-media" href="/sanatate/ministerul-sanatatii-a-stabilit-25-de-specialitati-medicale-deficitare-pentru/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/ministerul-sanatatii-a-stabilit-25-de-specialitati-medicale-deficitare-pentru/">Ministerul Sănătății a stabilit 25 de specialități medicale deficitare pentru Rezidențiat 2026</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T10:00:11+00:00">27 septembrie 2026, 13:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Concursul de rezidențiat pe post din 15 noiembrie 2026 va include 25 de specialități medicale deficitare, candidații trebuind să achite o taxă de participare în valoare de 500 de lei.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://alba24.ro/rezidentiat-2026-25-de-specialitati-medicale-deficitare-si-taxa-de-500-de-lei-pentru-concursul-din-15-noiembrie-1159840.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Eficacitatea apei de orez pentru strălucirea și rezistența părului"><a class="card-media" href="/sanatate/eficacitatea-apei-de-orez-pentru-stralucirea-si-rezistenta-parului/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/eficacitatea-apei-de-orez-pentru-stralucirea-si-rezistenta-parului/">Eficacitatea apei de orez pentru strălucirea și rezistența părului</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T09:00:52+00:00">27 septembrie 2026, 12:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Tratamentul cu apă de orez a devenit viral pe platformele de socializare ca soluție naturală pentru stimularea creșterii părului și oferirea unui luciu intens, generând dezbateri privind eficiența sa reală.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.csid.ro/beauty/ingrijire-frumusete/apa-de-orez-pentru-par-poate-face-firul-mai-lucios-si-mai-rezistent-sau-este-doar-un-trend-21318555/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="Timiș Online" data-title="Vaccinul antigripal trebuie administrat anual din cauza schimbării tulpinilor"><a class="card-media" href="/sanatate/vaccinul-antigripal-trebuie-administrat-anual-din-cauza-schimbarii-tulpinilor/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">27</span><span class="art-num-wk">duminică</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/vaccinul-antigripal-trebuie-administrat-anual-din-cauza-schimbarii-tulpinilor/">Vaccinul antigripal trebuie administrat anual din cauza schimbării tulpinilor</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T08:28:32+00:00">27 septembrie 2026, 11:28</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Medicii recomandă imunizarea anuală contra gripei deoarece compoziția serului se actualizează periodic după noile tulpini, iar protecția oferită scade semnificativ în timp, având nevoie de două săptămâni pentru generarea anticorpilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.tion.ro/sanatate/vaccinul-antigripal-nu-te-protejeaza-de-la-un-sezon-la-altul-de-ce-trebuie-facut-anual-2360856/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Timiș Online</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="G4Media" data-title="Somnul suplimentar în weekend reduce riscul de hipertensiune"><a class="card-media" href="/sanatate/somnul-suplimentar-in-weekend-reduce-riscul-de-hipertensiune/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">27</span><span class="art-num-wk">duminică</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/somnul-suplimentar-in-weekend-reduce-riscul-de-hipertensiune/">Somnul suplimentar în weekend reduce riscul de hipertensiune</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T08:19:55+00:00">27 septembrie 2026, 11:19</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Un studiu recent arată că aproximativ 90 de minute de somn în plus la sfârșitul săptămânii pot scădea riscul de hipertensiune arterială, contrazicând avertismentele anterioare legate de dormitul până târziu.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.g4media.ro/somnul-prelungit-in-weekend-ar-putea-fi-benefic-pentru-sanatate-expertii-spun-ca-nu-ar-trebui-sa-ne-simtim-vinovati.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="Știrile ProTV" data-title="Gripa poate crește riscul de infarct și AVC de șase ori la pacienții cu probleme"><a class="card-media" href="/sanatate/gripa-poate-creste-riscul-de-infarct-si-avc-de-sase-ori-la-pacientii-cu-probleme/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/gripa-poate-creste-riscul-de-infarct-si-avc-de-sase-ori-la-pacientii-cu-probleme/">Gripa poate crește riscul de infarct și AVC de șase ori la pacienții cu probleme</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T07:57:54+00:00">27 septembrie 2026, 10:57</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Medicii avertizează că persoanele hipertensive sau cu depuneri de colesterol pe vase se confruntă cu un risc majorat de șase ori de a suferi un accident vascular sau infarct în timpul gripei.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://stirileprotv.ro/stiri/doctor-de-bine/persoanele-la-care-gripa-poate-creste-de-sase-ori-riscul-de-infarct-si-avc-explicatiile-medicilor.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Medicul Alexandra Moise explică impactul obezității asupra sănătății"><a class="card-media" href="/sanatate/medicul-alexandra-moise-explica-impactul-obezitatii-asupra-sanatatii/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/medicul-alexandra-moise-explica-impactul-obezitatii-asupra-sanatatii/">Medicul Alexandra Moise explică impactul obezității asupra sănătății</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T08:28:47+00:00">27 septembrie 2026, 11:28</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Gastroenterologul Alexandra Moise detaliază în cadrul unei emisiuni medicale riscurile asociate excesului ponderal, incluzând sindromul metabolic, afecțiunile hepatice și tulburările hormonale legate de menopauză și fertilitate.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.csid.ro/stiri/obezitatea-dincolo-de-cantar-fertilitate-ficat-gras-menopauza-si-sindrom-metabolic-dr-alexandra-moise-csid-talks-7-21319319/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
-</article>
-<article class="card" data-cat="sanatate" data-source="CSÎD" data-title="Cercetătorii au descoperit o moleculă cerebrală care activează inflamația în Alzheimer"><a class="card-media" href="/sanatate/cercetatorii-au-descoperit-o-molecula-cerebrala-care-activeaza-inflamatia-in/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Sănătate</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sănătate</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sanatate/cercetatorii-au-descoperit-o-molecula-cerebrala-care-activeaza-inflamatia-in/">Cercetătorii au descoperit o moleculă cerebrală care activează inflamația în Alzheimer</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-27T08:00:03+00:00">27 septembrie 2026, 11:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Oamenii de știință de la Scripps Research au identificat un mecanism proteic normal care acționează ca un comutator inflamator, alimentând progresia bolii Alzheimer în creier.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.csid.ro/stiri/o-molecula-din-creier-ar-putea-alimenta-boala-alzheimer-studiile-au-evidentiat-un-comutator-al-inflamatiei-21318400/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

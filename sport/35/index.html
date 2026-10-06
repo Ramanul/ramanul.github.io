@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport" class="active">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport" class="active">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,315 +82,319 @@
 </nav>
   <h1 class="section-title">Sport</h1>
   <section class="grid">
-<article class="card card-c" data-cat="sport" data-source="AutoMarket" data-title="Fernando Alonso și Lance Stroll continuă cu Aston Martin în Formula 1 până în 2027"><a class="card-media" href="/sport/fernando-alonso-si-lance-stroll-vor-continua-la-aston-martin-in-sezonul-2027/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
+<article class="card" data-cat="sport" data-source="Antena Sport" data-title="Ilie Dumitrescu rămâne încrezător în potențialul naționalei de fotbal"><a class="card-media" href="/sport/ilie-dumitrescu-ramane-increzator-in-potentialul-nationalei-de-fotbal/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Sport</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/aston-martin.jpg" alt="Aston Martin" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/ilie-dumitrescu-ramane-increzator-in-potentialul-nationalei-de-fotbal/">Ilie Dumitrescu rămâne încrezător în potențialul naționalei de fotbal</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T19:45:16+00:00">29 septembrie 2026, 22:45</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fostul internațional român susține că tricolorii au în continuare capacitatea de a obține rezultate bune, amintind de parcursul reușit la Campionatul European.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://as.ro/fotbal/echipa-nationala/ilie-dumitrescu-nu-si-a-pierdut-increderea-in-nationala-romaniei-jucatorii-astia-au-potential-mesaj-pentru-hagi-e-vremea-693023.html" target="_blank" rel="noopener noreferrer">Antena Sport</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Lionel Scaloni a dezvăluit motivele pentru care Walter Samuel a refuzat oferta de la Inter"><a class="card-media" href="/sport/lionel-scaloni-a-dezvaluit-motivele-pentru-care-walter-samuel-a-refuzat-oferta/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/lionel-scaloni-a-dezvaluit-motivele-pentru-care-walter-samuel-a-refuzat-oferta/">Lionel Scaloni a dezvăluit motivele pentru care Walter Samuel a refuzat oferta de la Inter</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T19:27:08+00:00">29 septembrie 2026, 22:27</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Selecționerul Argentinei, Lionel Scaloni, a explicat că staff-ul său tehnic a primit propuneri din Italia, dar Walter Samuel a ales să rămână alături de naționala sud-americană.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.fcinter1908.it/nazionali/scaloni-samuel-inter/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="Antena Sport" data-title="Capul Verde a suferit o înfrângere pe teren propriu în fața unui adversar slab cotat"><a class="card-media" href="/sport/capul-verde-a-suferit-o-infrangere-pe-teren-propriu-in-fata-unui-adversar-slab/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0 art--portret" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/capul-verde.jpg" alt="Capul Verde" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/capul-verde-a-suferit-o-infrangere-pe-teren-propriu-in-fata-unui-adversar-slab/">Capul Verde a suferit o înfrângere pe teren propriu în fața unui adversar slab cotat</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T19:26:49+00:00">29 septembrie 2026, 22:26</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fosta revelație de la Cupa Mondială a înregistrat un eșec surprinzător acasă împotriva echipei clasate pe locul 123 în clasamentul mondial, dezamăgind suporterii.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://as.ro/fotbal/fotbal-extern/echipa-senzatie-de-la-cupa-mondiala-s-a-prabusit-complet-esec-acasa-in-fata-locului-123-in-lume-693016.html" target="_blank" rel="noopener noreferrer">Antena Sport</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="Digi24" data-title="FRF a publicat ghidul oficial pentru suporterii români prezenți la meciul cu Polonia"><a class="card-media" href="/sport/frf-a-publicat-ghidul-oficial-pentru-suporterii-romani-prezenti-la-meciul-cu/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/frf-a-publicat-ghidul-oficial-pentru-suporterii-romani-prezenti-la-meciul-cu/">FRF a publicat ghidul oficial pentru suporterii români prezenți la meciul cu Polonia</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T19:23:26+00:00">29 septembrie 2026, 22:23</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Federația Română de Fotbal a pus la dispoziția fanilor care se deplasează la Varșovia toate recomandările necesare pentru o siguranță sporită la partida din Liga Națiunilor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/stiri/sport/fotbal/ghidul-suporterilor-romani-care-vor-asista-la-partida-polonia-romania-3970297" target="_blank" rel="noopener noreferrer">Digi24</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="GSP" data-title="HC Buzău smulge un egal dramatic în ultima secundă la debutul european"><a class="card-media" href="/sport/hc-buzau-smulge-un-egal-dramatic-in-ultima-secunda-la-debutul-european/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/hc-buzau-smulge-un-egal-dramatic-in-ultima-secunda-la-debutul-european/">HC Buzău smulge un egal dramatic în ultima secundă la debutul european</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T19:13:40+00:00">29 septembrie 2026, 22:13</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Vicecampioana României la handbal masculin, HC Buzău, a remizat 30-30 pe teren propriu cu formația portugheză Aguas Santas, reușită obținută în ultimele momente ale confruntării din European League.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.gsp.ro/sporturi/handbal/buzau-egaleaza-la-ultima-faza-la-debutul-in-european-league-983322.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="GSP" data-title="Fotbalistul John Stones a fost amendat pentru abateri la regimul rutier"><a class="card-media" href="/sport/fotbalistul-john-stones-a-fost-amendat-pentru-abateri-la-regimul-rutier/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/fotbalistul-john-stones-a-fost-amendat-pentru-abateri-la-regimul-rutier/">Fotbalistul John Stones a fost amendat pentru abateri la regimul rutier</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T18:56:03+00:00">29 septembrie 2026, 21:56</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fundașul central englez John Stones, legitimat la Inter Milano, a fost sancționat cu plata a peste o mie de lire sterline după ce a fost surprins depășind limita de viteză și folosind telefonul la volan.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.gsp.ro/international/campionate/vedeta-cristi-chivu-amenda-viteza-decizia-instanta-john-stones-inter-983311.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
+</article>
+<article class="card card-c" data-cat="sport" data-source="Sport.ro" data-title="Reacția lui Ilie Dumitrescu după meciul României cu Bosnia"><a class="card-media" href="/sport/reactia-lui-ilie-dumitrescu-dupa-meciul-romaniei-cu-bosnia/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge c">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/sport/fernando-alonso-si-lance-stroll-vor-continua-la-aston-martin-in-sezonul-2027/">Fernando Alonso și Lance Stroll continuă cu Aston Martin în Formula 1 până în 2027</a></h2>
+  <h2 class="card-title"><a href="/sport/reactia-lui-ilie-dumitrescu-dupa-meciul-romaniei-cu-bosnia/">Reacția lui Ilie Dumitrescu după meciul României cu Bosnia</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T11:05:00+00:00">29 septembrie 2026, 14:05</time>
+    <time datetime="2026-09-29T18:54:50+00:00">29 septembrie 2026, 21:54</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Echipa Aston Martin a confirmat că piloții Fernando Alonso și Lance Stroll vor rămâne în echipă și în sezonul 2027 de Formula 1. Alonso evoluează pentru constructor din 2023, în timp ce Stroll este prezent încă din 2019. Sezonul actual este însă marcat de dificultăți majore, echipa obținând doar trei puncte în primele 15 etape din cauza problemelor tehnice și a numeroaselor abandonuri.</p>
+  <p class="summary">După meciul disputat fără spectatori pe Arena Națională dintre România și Bosnia, încheiat cu scorul de 2-4 în Liga Națiunilor, fostul internațional Ilie Dumitrescu a oferit o reacție publică. Acesta a comentat atât parcursul echipei naționale, cât și perspectivele legate de planurile lui Gică Hagi pentru reprezentativa României, în contextul în care tricolorii nu au acumulat puncte în primele două meciuri.</p>
   <p class="sources-inline"><b>Surse:</b>
-<a href="https://www.automarket.ro/formula1/f1-fernando-alonso-si-lance-stroll-confirmati-la-aston-martin-si-in-2027-128849.html" target="_blank" rel="noopener noreferrer">AutoMarket</a>, <a href="https://www.autocritica.ro/live-news/fernando-alonso-si-lance-stroll-vor-fi-piloti-aston-martin-si-in-2027/" target="_blank" rel="noopener noreferrer">AutoCritica</a></p>
+<a href="https://www.sport.ro/nationala/ilie-dumitrescu-a-reactionat-dupa-romania-bosnia-2-4-sunt-convins-de-asta.html" target="_blank" rel="noopener noreferrer">Sport.ro</a>, <a href="https://www.prosport.ro/fotbal-intern/nationala/ilie-dumitrescu-verdict-decizie-gica-hagi-romania-20536230" target="_blank" rel="noopener noreferrer">ProSport</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="Cuvântul Libertății" data-title="Bodhana Sivanandan a devenit cea mai tânără mare maestră de șah"><a class="card-media" href="/sport/bodhana-sivanandan-a-devenit-cea-mai-tanara-mare-maestra-de-sah/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/bodhana-sivanandan-a-devenit-cea-mai-tanara-mare-maestra-de-sah/">Bodhana Sivanandan a devenit cea mai tânără mare maestră de șah</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T09:40:48+00:00">29 septembrie 2026, 12:40</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Șahista britanică în vârstă de 11 ani a obținut titlul oficial de Mare Maestru în cadrul celei de-a 46-a ediții a Olimpiadei de șah desfășurate în Uzbekistan, conform anunțului Federației Internaționale.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cvlpress.ro/29.09.2026/o-britanica-de-11-ani-cea-mai-tanara-mare-maestra-de-sah/" target="_blank" rel="noopener noreferrer">Cuvântul Libertății</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="Cuvântul Libertății" data-title="Selecționerul Jurgen Klopp constată lipsa de valoare din naționala Germaniei"><a class="card-media" href="/sport/selectionerul-jurgen-klopp-constata-lipsa-de-valoare-din-nationala-germaniei/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/selectionerul-jurgen-klopp-constata-lipsa-de-valoare-din-nationala-germaniei/">Selecționerul Jurgen Klopp constată lipsa de valoare din naționala Germaniei</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T09:38:02+00:00">29 septembrie 2026, 12:38</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Rezultatele slabe obținute de naționala Germaniei în Liga Națiunilor, precum eșecul cu Germania și remiza cu Olanda, îi scot în evidență noului selecționer deficitul de jucători de elită din lot.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cvlpress.ro/29.09.2026/liga-natiunilor-si-jurgen-klopp-descopera-o-realitate-dura/" target="_blank" rel="noopener noreferrer">Cuvântul Libertății</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="Antena Sport" data-title="România a pierdut meciul cu Bosnia după numeroase schimbări tactice"><a class="card-media" href="/sport/romania-a-pierdut-meciul-cu-bosnia-dupa-numeroase-schimbari-tactice/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/romania-a-pierdut-meciul-cu-bosnia-dupa-numeroase-schimbari-tactice/">România a pierdut meciul cu Bosnia după numeroase schimbări tactice</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T08:33:50+00:00">29 septembrie 2026, 11:33</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Selecționata României a fost învinsă de Bosnia cu scorul de 2-4 pe Arena Națională, în Liga Națiunilor. Decizia lui Gică Hagi de a efectua nouă modificări în unsprezecelea de start și erorile defensive au dus la acest eșec istoric pentru...</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://as.ro/fotbal/liga-natiunilor/sumudica-a-facut-praf-planul-lui-gica-hagi-nu-mi-permit-sa-i-dau-sfaturi-dar-nu-poti-sa-faci-asta-692813.html" target="_blank" rel="noopener noreferrer">Antena Sport</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Analiză editorială după înfrângerea României în fața Bosniei"><a class="card-media" href="/sport/analiza-editoriala-dupa-infrangerea-romaniei-in-fata-bosniei/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Cornel Dinu l-a criticat dur pe un angajat al Federației Române de Fotbal"><a class="card-media" href="/sport/cornel-dinu-l-a-criticat-dur-pe-un-angajat-al-federatiei-romane-de-fotbal/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Sport</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/analiza-editoriala-dupa-infrangerea-romaniei-in-fata-bosniei/">Analiză editorială după înfrângerea României în fața Bosniei</a></h2>
+  <h2 class="card-title"><a href="/sport/cornel-dinu-l-a-criticat-dur-pe-un-angajat-al-federatiei-romane-de-fotbal/">Cornel Dinu l-a criticat dur pe un angajat al Federației Române de Fotbal</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T08:32:35+00:00">29 septembrie 2026, 11:32</time>
+    <time datetime="2026-09-29T18:46:38+00:00">29 septembrie 2026, 21:46</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Jurnalistul Dan Chilom a publicat o analiză critică privind evoluția echipei naționale de fotbal în meciul pierdut împotriva reprezentativei din Bosnia, subliniind lipsa de coerență tactică din teren.</p>
+  <p class="summary">Fostul fotbalist Cornel Dinu a avut o ieșire vehementă la adresa unui oficial din cadrul FRF, după ce acesta i-a luat apărarea lui Ilie Dumitrescu în spațiul public.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.sport.ro/nations-league/fara-niciun-sens-cinci-lucruri-despre-romania-in-meciul-contra-bosniei.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
+<a href="https://www.sport.ro/nationala/cornel-dinu-tirada-dupa-ce-un-angajat-frf-i-a-luat-apararea-lui-ilie-dumitrescu-pres-federal-servitor-si-numarator-de-cornere.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="ProSport" data-title="FCSB nu poate efectua transferuri din cauza unei datorii neachitate"><a class="card-media" href="/sport/fcsb-nu-poate-efectua-transferuri-din-cauza-unei-datorii-neachitate/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0 art--portret" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/gigi-becali.jpg" alt="Gigi Becali" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/fcsb-nu-poate-efectua-transferuri-din-cauza-unei-datorii-neachitate/">FCSB nu poate efectua transferuri din cauza unei datorii neachitate</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T08:31:20+00:00">29 septembrie 2026, 11:31</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Gigi Becali nu a plătit datoria către William Baeten, menținând clubul FCSB pe lista neagră FIFA și blocând astfel achizițiile de jucători pentru antrenorul Laurențiu Reghecampf.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.prosport.ro/fotbal-intern/superliga/fcsb-lista-neagra-fifa-gigi-becali-interdictie-transferuri-laurentiu-reghecampf-20535640" target="_blank" rel="noopener noreferrer">ProSport</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Inter Milano îl monitorizează pe portarul Alex Meret"><a class="card-media" href="/sport/inter-milano-il-monitorizeaza-pe-portarul-alex-meret/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/inter-milano-il-monitorizeaza-pe-portarul-alex-meret/">Inter Milano îl monitorizează pe portarul Alex Meret</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T08:30:32+00:00">29 septembrie 2026, 11:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Conducerea clubului Inter Milano analizează posibile mutări pentru viitor și urmărește situația portarului Alex Meret din Serie A, pe lângă alte opțiuni pentru lotul antrenat de Chivu.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.fcinter1908.it/calciomercato/mercato-inter/inter-portiere-baccin-monitora-big-serie-a/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Meciul decisiv dintre România U21 și Finlanda U21 este programat miercuri"><a class="card-media" href="/sport/meciul-decisiv-dintre-romania-u21-si-finlanda-u21-este-programat-miercuri/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/meciul-decisiv-dintre-romania-u21-si-finlanda-u21-este-programat-miercuri/">Meciul decisiv dintre România U21 și Finlanda U21 este programat miercuri</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T08:30:04+00:00">29 septembrie 2026, 11:30</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Reprezentativa de tineret a României întâlneste Finlanda U21 într-o partidă cu miză majoră, transmisă în direct pe platforma VOYO și postul Pro Arena, începând cu ora 19:00.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.sport.ro/nationala-u21/romania-u21-finlanda-u21-pe-voyo-sport-1-si-pro-arena-miercuri-de-la-19-00-duel-decisiv-pentru-tricolorii-mici.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="ProSport" data-title="Presa din Polonia a lăudat selecționata Bosniei după victoria cu România"><a class="card-media" href="/sport/presa-din-polonia-a-laudat-selectionata-bosniei-dupa-victoria-cu-romania/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/sergej-barbarez.jpg" alt="Sergej Barbarez" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/presa-din-polonia-a-laudat-selectionata-bosniei-dupa-victoria-cu-romania/">Presa din Polonia a lăudat selecționata Bosniei după victoria cu România</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T08:23:31+00:00">29 septembrie 2026, 11:23</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Jurnaliștii polonezi au remarcat prestația ofensivă a echipei naționale a Bosniei-Herțegovina, care s-a impus la București cu scorul de 4-2 în fața tricolorilor, în etapa a doua din Liga Națiunilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.prosport.ro/fotbal-extern/liga-natiunilor/presa-poloneza-surprinsa-dupa-romania-bosnia-2-4-festival-al-golurilor-20535662" target="_blank" rel="noopener noreferrer">ProSport</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="GSP" data-title="Novak Djokovic revine la turneul de la Beijing după unsprezece ani"><a class="card-media" href="/sport/novak-djokovic-revine-la-turneul-de-la-beijing-dupa-unsprezece-ani/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/novak-djokovic-revine-la-turneul-de-la-beijing-dupa-unsprezece-ani/">Novak Djokovic revine la turneul de la Beijing după unsprezece ani</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T08:18:13+00:00">29 septembrie 2026, 11:18</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Tenismenul sârb Novak Djokovic a declarat înaintea competiției din China că își propune să se bucure de fiecare moment rămas în circuitul profesionist ATP, turneu pe care l-a câștigat de șase ori.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.gsp.ro/sporturi/tenis/novak-djokovic-declatatii-inaintea-revenirii-de-la-beijing-983103.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Fotbalistul Andy Diouf vorbește despre rolul inedit primit de la Zinedine Zidane"><a class="card-media" href="/sport/fotbalistul-andy-diouf-vorbeste-despre-rolul-inedit-primit-de-la-zinedine-zidane/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0 art--portret" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/andy-diouf.jpg" alt="Andy Diouf" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/fotbalistul-andy-diouf-vorbeste-despre-rolul-inedit-primit-de-la-zinedine-zidane/">Fotbalistul Andy Diouf vorbește despre rolul inedit primit de la Zinedine Zidane</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T08:17:49+00:00">29 septembrie 2026, 11:17</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Sportivul Andy Diouf a explicat cum s-a adaptat pe poziția de fundaș stânga în timpul unui meci internațional, menționând că își îndeplinește sarcinile tactice cu maximum de devotament cerut de tehnician.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.fcinter1908.it/news/interviste/diouf-ruolo-non-mio-mi-diverto/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Detalii din culisele clubului Inter Milano"><a class="card-media" href="/sport/detalii-din-culisele-clubului-inter-milano/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/detalii-din-culisele-clubului-inter-milano/">Detalii din culisele clubului Inter Milano</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T08:15:39+00:00">29 septembrie 2026, 11:15</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Informații și culise din interiorul echipei de fotbal Inter Milano au fost dezvăluite public de o personalitate din cadrul clubului italian.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.fcinter1908.it/ultimora/inter-retroscena-ausilio-rossi-svela-pronto/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="GSP" data-title="Schimbări probabile în poarta echipei naționale"><a class="card-media" href="/sport/schimbari-probabile-in-poarta-echipei-nationale/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/schimbari-probabile-in-poarta-echipei-nationale/">Schimbări probabile în poarta echipei naționale</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T08:14:43+00:00">29 septembrie 2026, 11:14</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Fostul internațional Bogdan Stelea anticipează că selecționerul va înlocui portarul Ionuț Radu cu o altă opțiune pentru următorul meci din Liga Națiunilor împotriva Poloniei.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.gsp.ro/fotbal/nationala/primul-tricolor-scos-de-hagi-din-echipa-ionut-radu-983101.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Naționala României înregistrează înfrângeri repetate în fața unor adversari modesti"><a class="card-media" href="/sport/nationala-romaniei-inregistreaza-infrangeri-repetate-in-fata-unor-adversari/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="sport" data-source="Ziua de Cluj" data-title="Nicolae Stanciu s-a înțeles cu clubul „U” Cluj"><a class="card-media" href="/sport/nicolae-stanciu-s-a-inteles-cu-clubul-u-cluj/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Sport</p></div>
   <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
   <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/nationala-romaniei-inregistreaza-infrangeri-repetate-in-fata-unor-adversari/">Naționala României înregistrează înfrângeri repetate în fața unor adversari modesti</a></h2>
+  <h2 class="card-title"><a href="/sport/nicolae-stanciu-s-a-inteles-cu-clubul-u-cluj/">Nicolae Stanciu s-a înțeles cu clubul „U” Cluj</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T08:07:34+00:00">29 septembrie 2026, 11:07</time>
+    <time datetime="2026-09-29T18:01:00+00:00">29 septembrie 2026, 21:01</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Echipa reprezentativă de fotbal a României a bifat o serie negativă de rezultate nefavorabile în ultimele 18 luni, pierzând partide împotriva unor formații slab cotate din fotbalul internațional.</p>
+  <p class="summary">Mijlocașul în vârstă de 33 de ani, căpitanul echipei naționale, a decis să continue cariera la formația ardeleană, vicecampioana din Superligă.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.sport.ro/nationala/romania-o-echipa-mica-ce-a-patit-nationala-in-ultimele-18-luni-socant.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
+<a href="https://zcj.ro/sport/nicolae-stanciu-acord-cu-u-cluj-capitanul-nationalei-s-a-inteles-cu-vicecampioana--302154.html" target="_blank" rel="noopener noreferrer">Ziua de Cluj</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="Digi Sport" data-title="Fotbalistul Ardon Jashari a ales să reprezinte naționala Elveției"><a class="card-media" href="/sport/fotbalistul-ardon-jashari-a-ales-sa-reprezinte-nationala-elvetiei/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
+<article class="card" data-cat="sport" data-source="Alba24" data-title="Rezultate remarcabile pentru Revolution Academy Alba Iulia la kickbox"><a class="card-media" href="/sport/rezultate-remarcabile-pentru-revolution-academy-alba-iulia-la-kickbox/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/rezultate-remarcabile-pentru-revolution-academy-alba-iulia-la-kickbox/">Rezultate remarcabile pentru Revolution Academy Alba Iulia la kickbox</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T18:00:13+00:00">29 septembrie 2026, 21:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Sportivii clubului din Alba Iulia au obținut multiple medalii la competiția națională de kickbox „Spartan Fight Arena”, desfășurată recent în municipiul Târgu Mureș.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://alba24.ro/salba-de-medalii-pentru-sportivii-clubului-revolution-academy-alba-iulia-la-o-competitie-nationala-de-kickbox-1160210.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="Opinia Timișoarei" data-title="SCM Poli Timișoara joacă meciul decisiv pentru calificare în Cupa României"><a class="card-media" href="/sport/scm-poli-timisoara-joaca-meciul-decisiv-pentru-calificare-in-cupa-romaniei/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/scm-poli-timisoara-joaca-meciul-decisiv-pentru-calificare-in-cupa-romaniei/">SCM Poli Timișoara joacă meciul decisiv pentru calificare în Cupa României</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T16:47:51+00:00">29 septembrie 2026, 19:47</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Baschetbaliștii de la SCM Timișoara se deplasează la Ploiești pentru manșa retur împotriva formației Petrolul, mizând pe calificare în faza a doua a Cupei României după rezultatul strâns din partida anterioară.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.opiniatimisoarei.ro/meci-decisiv-pentru-scm-poli-timisoara-baschetbalistii-lupta-pentru-calificarea-in-turul-2-din-cupa-romaniei/29/09/2026" target="_blank" rel="noopener noreferrer">Opinia Timișoarei</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Pio Esposito a strălucit în meciul Italiei împotriva Turciei"><a class="card-media" href="/sport/pio-esposito-a-stralucit-in-meciul-italiei-impotriva-turciei/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/pio-esposito-a-stralucit-in-meciul-italiei-impotriva-turciei/">Pio Esposito a strălucit în meciul Italiei împotriva Turciei</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T16:00:16+00:00">29 septembrie 2026, 19:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Atacantul italian a marcat un gol şi a dat o pasă decisivă în partida câştigată de națională, jucând în premieră titular alături de fratele său mai mare.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.fcinter1908.it/news/rassegna-stampa/esposito-altruismo-grandi-cose-italia/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Fotbaliștii de la Inter Milano au reluat antrenamentele la Appiano Gentile"><a class="card-media" href="/sport/fotbalistii-de-la-inter-milano-au-reluat-antrenamentele-la-appiano-gentile/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/fotbalistii-de-la-inter-milano-au-reluat-antrenamentele-la-appiano-gentile/">Fotbaliștii de la Inter Milano au reluat antrenamentele la Appiano Gentile</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T15:58:03+00:00">29 septembrie 2026, 18:58</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Jucătorii care nu au fost convocați la loturile naționale au revenit sub comanda antrenorului Cristian Chivu pentru a pregăti meciurile din campionat și Liga Campionilor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.fcinter1908.it/ultimora/fcin1908-inter-terminato-lallenamento-odierno-laggiornamento-sugli-infortunati/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="GSP" data-title="Olivier Giroud va pune capăt carierei de fotbalist profesionist"><a class="card-media" href="/sport/olivier-giroud-va-pune-capat-carierei-de-fotbalist-profesionist/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/olivier-giroud-va-pune-capat-carierei-de-fotbalist-profesionist/">Olivier Giroud va pune capăt carierei de fotbalist profesionist</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T15:55:33+00:00">29 septembrie 2026, 18:55</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Atacantul francez legitimat la Lille a anunțat că sezonul 2026-2027 va fi ultimul din cariera sa de jucător, urmând să se retragă din activitatea sportivă la vârsta de 40 de ani.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.gsp.ro/international/campionate/olivier-giroud-retragere-fotbal-lille-983236.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="GSP" data-title="Fostul fotbalist Courtney Meppen-Walter a decedat la vârsta de 32 de ani"><a class="card-media" href="/sport/fostul-fotbalist-courtney-meppen-walter-a-decedat-la-varsta-de-32-de-ani/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/fostul-fotbalist-courtney-meppen-walter-a-decedat-la-varsta-de-32-de-ani/">Fostul fotbalist Courtney Meppen-Walter a decedat la vârsta de 32 de ani</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T15:48:54+00:00">29 septembrie 2026, 18:48</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fostul internațional de juniori englez Courtney Meppen-Walter, crescut în academia clubului Manchester City, a încetat din viață la 32 de ani, vestea fiind confirmată oficial de clubul Bury.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.gsp.ro/international/campionate/fostul-mare-talent-al-lui-manchester-city-a-decedat-la-32-de-ani-in-2013-era-arestat-dupa-ce-ucidea-doua-persoane-983201.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="ProSport" data-title="Victorie record obținută de Barcelona la Mondialul Cluburilor"><a class="card-media" href="/sport/victorie-record-obtinuta-de-barcelona-la-mondialul-cluburilor/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/victorie-record-obtinuta-de-barcelona-la-mondialul-cluburilor/">Victorie record obținută de Barcelona la Mondialul Cluburilor</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T15:36:10+00:00">29 septembrie 2026, 18:36</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Echipa de handbal masculin a Barcelonei a spulberat-o pe formația Montada Derb Sultan cu scorul de 51-15, reușind un rezultat istoric în cadrul Campionatului Mondial al Cluburilor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.prosport.ro/alte-sporturi/handbal/barcelona-victorie-zdrobitoare-handbal-masculin-20535946" target="_blank" rel="noopener noreferrer">ProSport</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="GSP" data-title="David Popovici a criticat performanțele echipei naționale în Liga Națiunilor"><a class="card-media" href="/sport/david-popovici-a-criticat-performantele-echipei-nationale-in-liga-natiunilor/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/david-popovici-a-criticat-performantele-echipei-nationale-in-liga-natiunilor/">David Popovici a criticat performanțele echipei naționale în Liga Națiunilor</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T15:44:04+00:00">29 septembrie 2026, 18:44</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">În cadrul conferinței Impact SEE, înotătorul David Popovici a analizat parcursul reprezentativei de fotbal și a subliniat importanța efortului susținut pentru a ridica standardele sportului românesc.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.gsp.ro/fotbal/nationala/david-popovici-discurs-echipa-nationala-983244.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="Sport.ro" data-title="Marius Corbu traversează o perioadă fastă la Ferencvaros"><a class="card-media" href="/sport/marius-corbu-traverseaza-o-perioada-fasta-la-ferencvaros/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Sport</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Sport</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/sport/marius-corbu-traverseaza-o-perioada-fasta-la-ferencvaros/">Marius Corbu traversează o perioadă fastă la Ferencvaros</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-29T15:36:05+00:00">29 septembrie 2026, 18:36</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Mijlocașul Marius Corbu a ajuns la cel mai înalt nivel al carierei sale sportive, impunându-se ca titular incontestabil și având evoluții remarcabile la clubul maghiar Ferencvaros.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.sport.ro/nationala/ignorat-de-gica-hagi-marius-corbu-a-atins-cel-mai-inalt-punct-al-carierei.html" target="_blank" rel="noopener noreferrer">Sport.ro</a></p>
+</article>
+<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Fundașul Donato a marcat pentru naționala U18 a Italiei în meciul cu Danemarca"><a class="card-media" href="/sport/fundasul-donato-a-marcat-pentru-nationala-u18-a-italiei-in-meciul-cu-danemarca/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Sport</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/fotbalistul-ardon-jashari-a-ales-sa-reprezinte-nationala-elvetiei/">Fotbalistul Ardon Jashari a ales să reprezinte naționala Elveției</a></h2>
+  <h2 class="card-title"><a href="/sport/fundasul-donato-a-marcat-pentru-nationala-u18-a-italiei-in-meciul-cu-danemarca/">Fundașul Donato a marcat pentru naționala U18 a Italiei în meciul cu Danemarca</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T08:06:26+00:00">29 septembrie 2026, 11:06</time>
+    <time datetime="2026-09-29T15:35:57+00:00">29 septembrie 2026, 18:35</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Mijlocașul legitimat la AC Milan a refuzat convocarea din partea Albaniei, țara sa de origine. Născut în Elveția, acesta a decis să evolueze în continuare pentru prima reprezentativă a Cantoanelor.</p>
+  <p class="summary">Reprezentativa Under-18 a Italiei a învins Danemarca cu scorul de trei la unu, după ce fundașul central Donato, legitimat la clubul Inter, a contribuit decisiv la această victorie prin reușita sa.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digisport.ro/fotbal/un-cutit-in-inimile-albanezilor-ardon-jashari-a-ales-sa-joace-pentru-alta-nationala-si-a-spus-o-pe-fata-4514717" target="_blank" rel="noopener noreferrer">Digi Sport</a></p>
+<a href="https://www.fcinter1908.it/nazionali/donato-difensore-goleador-italia-u18/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
 </article>
-<article class="card" data-cat="sport" data-source="GSP" data-title="Presa din Bosnia a lăudat declarațiile lui Gheorghe Hagi"><a class="card-media" href="/sport/presa-din-bosnia-a-laudat-declaratiile-lui-gheorghe-hagi/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
-  <div class="art-rule"></div>
+<article class="card" data-cat="sport" data-source="GSP" data-title="Aleksander Ceferin l-a criticat dur pe președintele FIFA, Gianni Infantino"><a class="card-media" href="/sport/aleksander-ceferin-l-a-criticat-dur-pe-presedintele-fifa-gianni-infantino/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Sport</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/presa-din-bosnia-a-laudat-declaratiile-lui-gheorghe-hagi/">Presa din Bosnia a lăudat declarațiile lui Gheorghe Hagi</a></h2>
+  <h2 class="card-title"><a href="/sport/aleksander-ceferin-l-a-criticat-dur-pe-presedintele-fifa-gianni-infantino/">Aleksander Ceferin l-a criticat dur pe președintele FIFA, Gianni Infantino</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T08:06:12+00:00">29 septembrie 2026, 11:06</time>
+    <time datetime="2026-09-29T15:35:23+00:00">29 septembrie 2026, 18:35</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Jurnaliștii bosniaci au remarcat discursul selecționerului României după victoria cu 4-2 de pe Arena Națională. Hagi și-a asumat eșecul și a adus elogii adversarilor la conferința de presă.</p>
+  <p class="summary">Șeful UEFA, Aleksander Ceferin, a lansat un atac sever la adresa omologului său de la FIFA, Gianni Infantino, acuzându-l că acționează contrar principiilor democratice asumate în fotbalul mondial.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.gsp.ro/fotbal/nationala/presa-bosnia-reactie-conferinta-gheorghe-hagi-romania-983098.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Inter Milano analizează transferul unor fundași din Premier League"><a class="card-media" href="/sport/inter-milano-analizeaza-transferul-unor-fundasi-din-premier-league/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/inter-milano-analizeaza-transferul-unor-fundasi-din-premier-league/">Inter Milano analizează transferul unor fundași din Premier League</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T08:00:57+00:00">29 septembrie 2026, 11:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Conducerea clubului italian caută soluții pentru întărirea defensivei sub comanda antrenorului Chivu, avându-i pe listă pe Chris Richards și Calvin Bassey.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.fcinter1908.it/calciomercato/mercato-inter/inter-difesa-due-osservati-inacio-ndour/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="ProSport" data-title="Gică Hagi a luat o decizie categorică privind viitorul echipei naționale"><a class="card-media" href="/sport/gica-hagi-a-luat-o-decizie-categorica-privind-viitorul-echipei-nationale/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sport</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/gica-hagi-a-luat-o-decizie-categorica-privind-viitorul-echipei-nationale/">Gică Hagi a luat o decizie categorică privind viitorul echipei naționale</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T07:59:08+00:00">29 septembrie 2026, 10:59</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">În urma înfrângerii suferite de România împotriva Bosniei-Herțegovina cu scorul de 2-4, selecționerul a transmis tricolorilor un mesaj tranșant legat de limitele lotului și nivelul de adaptare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.prosport.ro/fotbal-intern/nationala/gica-hagi-a-luat-decizia-pentru-ce-urmeaza-la-nationala-si-le-a-comunicat-o-deja-tricolorilor-e-destul-exclusiv-20535611" target="_blank" rel="noopener noreferrer">ProSport</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="ProSport" data-title="Gheorghe Hagi cere sprijin guvernamental pentru fotbalul românesc"><a class="card-media" href="/sport/gheorghe-hagi-cere-sprijin-guvernamental-pentru-fotbalul-romanesc/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/gheorghe-hagi-cere-sprijin-guvernamental-pentru-fotbalul-romanesc/">Gheorghe Hagi cere sprijin guvernamental pentru fotbalul românesc</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T07:45:07+00:00">29 septembrie 2026, 10:45</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Selecționerul Gheorghe Hagi a lansat un apel către clasa politică din România, cerând măsuri concrete de susținere a sportului, după rezultatele slabe obținute de prima reprezentativă în startul Ligii Națiunilor.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.prosport.ro/fotbal-intern/nationala/gica-hagi-mesaj-guvern-20535643" target="_blank" rel="noopener noreferrer">ProSport</a></p>
-</article>
-<article class="card" data-cat="sport" data-source="FC Inter 1908" data-title="Inter și Milan avansează spre oficializarea noului stadion San Siro"><a class="card-media" href="/sport/inter-si-milan-avanseaza-spre-oficializarea-noului-stadion-san-siro/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Sport</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Sport</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/sport/inter-si-milan-avanseaza-spre-oficializarea-noului-stadion-san-siro/">Inter și Milan avansează spre oficializarea noului stadion San Siro</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T07:45:39+00:00">29 septembrie 2026, 10:45</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Cluburile Inter și Milan colaborează strâns pentru finalizarea proiectului noului stadion San Siro. În urma mesajului transmis de primarul Beppe Sala, reprezentanții echipelor accelerează demersurile pentru a respecta calendarul stabilit.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.fcinter1908.it/news/rassegna-stampa/nuovo-san-siro-inter-milan-accelerano-progetto-ufficiale/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></p>
+<a href="https://www.gsp.ro/international/campionate/ceferin-atac-fifa-infantino-basme-andersen-fotbalul-n-are-nevoie-de-imparati-si-tribunale-983231.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

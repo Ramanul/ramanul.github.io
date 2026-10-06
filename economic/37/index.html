@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic" class="active">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic" class="active">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,159 +82,81 @@
 </nav>
   <h1 class="section-title">Economie</h1>
   <section class="grid">
-<article class="card" data-cat="economic" data-source="Știrile ProTV" data-title="Datoria suverană globală a depășit pragul de 365 de trilioane de dolari"><a class="card-media" href="/economic/datoria-suverana-globala-a-depasit-pragul-de-365-de-trilioane-de-dolari/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="economic" data-source="ZCH News" data-title="Fonduri europene de 650 milioane euro pentru stocarea energiei verzi"><a class="card-media" href="/economic/fonduri-europene-de-650-milioane-euro-pentru-stocarea-energiei-verzi/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">24</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/fonduri-europene-de-650-milioane-euro-pentru-stocarea-energiei-verzi/">Fonduri europene de 650 milioane euro pentru stocarea energiei verzi</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-24T14:32:33+00:00">24 septembrie 2026, 17:32</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Agenţia pentru Finanţarea Investiţiilor Rurale a deschis un apel de finanțare destinat autorităților locale și instituțiilor publice pentru dezvoltarea de unități de stocare și producție a energiei regenerabile.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://zch.ro/finantari-de-650-milioane-de-euro-pentru-primarii-si-alte-institutii-publice-pentru-investitii-de-producerea-si-stocarea-energiei-verzi/?utm_medium=Feed&amp;utm_source=Syndication" target="_blank" rel="noopener noreferrer">ZCH News</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Contributors" data-title="România riscă coborârea ratingului de țară în categoria speculativă"><a class="card-media" href="/economic/romania-risca-coborarea-ratingului-de-tara-in-categoria-speculativa/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">24</span><span class="art-num-wk">joi</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/datoria-suverana-globala-a-depasit-pragul-de-365-de-trilioane-de-dolari/">Datoria suverană globală a depășit pragul de 365 de trilioane de dolari</a></h2>
+  <h2 class="card-title"><a href="/economic/romania-risca-coborarea-ratingului-de-tara-in-categoria-speculativa/">România riscă coborârea ratingului de țară în categoria speculativă</a></h2>
   <div class="meta">
-    <time datetime="2026-09-24T09:09:23+00:00">24 septembrie 2026, 12:09</time>
+    <time datetime="2026-09-24T13:55:43+00:00">24 septembrie 2026, 16:55</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Analiștii economici trag un semnal de alarmă privind îndatorarea excesivă a guvernelor, solicitând implementarea urgentă de reforme structurale pentru a preveni o criză majoră.</p>
+  <p class="summary">Agențiile internaționale plasează în prezent ratingul financiar al României la limita inferioară a recomandărilor pentru investiții, o singură treaptă în minus putând aduce statutul de junk.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://stirileprotv.ro/stiri/financiar/datoria-suverana-globala-depaseste-365-de-trilioane-de-dolari-un-cerc-vicios-care-necesita-reforme-urgente.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+<a href="https://www.contributors.ro/rating-romania-scenariul-fallen-angel/" target="_blank" rel="noopener noreferrer">Contributors</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="eMaramureș" data-title="Un economist avertizează că o retrogradare la „junk” poate urca euro peste 6 lei"><a class="card-media" href="/economic/un-economist-avertizeaza-ca-o-retrogradare-la-junk-poate-urca-euro-peste-6-lei/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="economic" data-source="CSÎD" data-title="Stagiul militar și studiile superioare pot aduce puncte suplimentare la pensie"><a class="card-media" href="/economic/stagiul-militar-si-studiile-superioare-pot-aduce-puncte-suplimentare-la-pensie/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">24</span><span class="art-num-wk">joi</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/un-economist-avertizeaza-ca-o-retrogradare-la-junk-poate-urca-euro-peste-6-lei/">Un economist avertizează că o retrogradare la „junk” poate urca euro peste 6 lei</a></h2>
+  <h2 class="card-title"><a href="/economic/stagiul-militar-si-studiile-superioare-pot-aduce-puncte-suplimentare-la-pensie/">Stagiul militar și studiile superioare pot aduce puncte suplimentare la pensie</a></h2>
   <div class="meta">
-    <time datetime="2026-09-24T09:05:51+00:00">24 septembrie 2026, 12:05</time>
+    <time datetime="2026-09-24T13:30:14+00:00">24 septembrie 2026, 16:30</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Profesorul Cristian Păun explică la Digi24 că pierderea statutului de țară recomandată investițiilor va genera scumpirea creditelor, creșterea dobânzilor și un șoc major pentru moneda națională.</p>
+  <p class="summary">Perioadele asimilate, precum stagiul militar sau cursurile universitare la zi, sunt luate în calcul la determinarea drepturilor de pensie, oferind posibilitatea unor venituri mai mari la bătrânețe pentru asigurați.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.emaramures.ro/la-cat-ar-putea-ajunge-euro-daca-romania-va-fi-retrogradata-la-junk-avertismentul-unui-expert/" target="_blank" rel="noopener noreferrer">eMaramureș</a></p>
+<a href="https://www.csid.ro/stiri/perioada-pe-care-multi-o-cred-pierduta-dar-care-poate-conta-la-pensie-cine-poate-primi-bani-in-plus-21317726/" target="_blank" rel="noopener noreferrer">CSÎD</a></p>
 </article>
-<article class="card" data-cat="economic" data-source="BizBrașov" data-title="Românii au generat peste un milion de aplicări pentru joburi part-time"><a class="card-media" href="/economic/romanii-au-generat-peste-un-milion-de-aplicari-pentru-joburi-part-time/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="economic" data-source="Avantaje" data-title="Românii manifestă un interes tot mai mare pentru joburile part-time"><a class="card-media" href="/economic/romanii-manifesta-un-interes-tot-mai-mare-pentru-joburile-part-time/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">24</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Economie</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/economic/romanii-manifesta-un-interes-tot-mai-mare-pentru-joburile-part-time/">Românii manifestă un interes tot mai mare pentru joburile part-time</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-24T12:16:34+00:00">24 septembrie 2026, 15:16</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Piața muncii din România înregistrează o creștere de 13% a aplicărilor pentru locuri de muncă cu jumătate de normă, pe fondul dorinței cetățenilor de a obține surse suplimentare de venit lunar.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.avantaje.ro/articol/romanii-cauta-noi-surse-de-venituri-si-sunt-tot-mai-interesati-de-joburile-part-time" target="_blank" rel="noopener noreferrer">Avantaje</a></p>
+</article>
+<article class="card" data-cat="economic" data-source="Timiș Online" data-title="Românii preferă hainele second-hand din motive financiare și ecologice"><a class="card-media" href="/economic/romanii-prefera-hainele-second-hand-din-motive-financiare-si-ecologice/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Economie</p></div>
   <div class="art-tick"></div><p class="art-when">joi,<br>24 septembrie</p>
   <div class="art-num"><span class="art-num-zi">24</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Economie</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/romanii-au-generat-peste-un-milion-de-aplicari-pentru-joburi-part-time/">Românii au generat peste un milion de aplicări pentru joburi part-time</a></h2>
+  <h2 class="card-title"><a href="/economic/romanii-prefera-hainele-second-hand-din-motive-financiare-si-ecologice/">Românii preferă hainele second-hand din motive financiare și ecologice</a></h2>
   <div class="meta">
-    <time datetime="2026-09-24T08:45:40+00:00">24 septembrie 2026, 11:45</time>
+    <time datetime="2026-09-24T10:42:31+00:00">24 septembrie 2026, 13:42</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Pe fondul instabilității economice, angajații români caută frecvent un al doilea loc de muncă. Anul acesta s-au înregistrat 1,3 milioane de candidaturi pentru poziții part-time care oferă venituri suplimentare.</p>
+  <p class="summary">Un studiu recent arată că 30% dintre români cumpără haine la mâna a doua în principal pentru prețurile reduse, dorind totodată să limiteze risipa și să cheltuiască mai puțin pe produsele vestimentare.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://bizbrasov.ro/2026/09/24/joburi-salariu-romanii-aplicari-acest-an/" target="_blank" rel="noopener noreferrer">BizBrașov</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Curs de Guvernare" data-title="BERD estimează o scădere de 0,2% a PIB-ului României în 2026"><a class="card-media" href="/economic/berd-estimeaza-o-scadere-de-02-a-pib-ului-romaniei-in-2026/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">24</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/berd-estimeaza-o-scadere-de-02-a-pib-ului-romaniei-in-2026/">BERD estimează o scădere de 0,2% a PIB-ului României în 2026</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-24T08:42:48+00:00">24 septembrie 2026, 11:42</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Banca Europeană pentru Reconstrucție și Dezvoltare menține prognoza negativă pentru economia românească în 2026, avertizând că riscurile de declin financiar vor continua pe termen mediu.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/estimare-berd-pib-ul-romaniei-va-scadea-cu-02-in-2026-riscurile-de-declin-vor-continua.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Profit.ro" data-title="Orange pregătește plecări voluntare și pensionări anticipate în România"><a class="card-media" href="/economic/orange-pregateste-plecari-voluntare-si-pensionari-anticipate-in-romania/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">joi 24 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/orange-pregateste-plecari-voluntare-si-pensionari-anticipate-in-romania/">Orange pregătește plecări voluntare și pensionări anticipate în România</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-24T08:38:00+00:00">24 septembrie 2026, 11:38</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Operatorul de telecomunicații Orange aplică un nou val de reduceri de personal în România, prin plecări amiabile și pensionări anticipate, vizând structura angajaților locali.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.profit.ro/povesti-cu-profit/it-c/ultima-ora-oficial-val-de-disponibilizari-orange-in-romania-explicatia-companiei-nu-este-o-decizie-pe-care-compania-o-ia-cu-usurinta-confirmare-22783144?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Curs de Guvernare" data-title="Prețul grâului a crescut cu 40% din cauza crizelor din Marea Neagră"><a class="card-media" href="/economic/pretul-graului-a-crescut-cu-40-din-cauza-crizelor-din-marea-neagra/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">24</span><span class="art-num-wk">joi</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/pretul-graului-a-crescut-cu-40-din-cauza-crizelor-din-marea-neagra/">Prețul grâului a crescut cu 40% din cauza crizelor din Marea Neagră</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-24T08:25:12+00:00">24 septembrie 2026, 11:25</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Atacurile repetate asupra porturilor și navelor comerciale au blocat transporturile de cereale, determinând o scumpire accentuată a contractelor futures pe piețele internaționale de materii prime.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/graul-se-scumpeste-cu-40-pe-fondul-blocajelor-din-marea-neagra.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Economedia" data-title="Vodafone și Altimate concurează pentru contractul sistemului electronic de taxare rutieră TollRO"><a class="card-media" href="/economic/vodafone-si-altimate-concureaza-pentru-contractul-sistemului-electronic-de/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">24</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/vodafone-si-altimate-concureaza-pentru-contractul-sistemului-electronic-de/">Vodafone și Altimate concurează pentru contractul sistemului electronic de taxare rutieră TollRO</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-24T08:06:45+00:00">24 septembrie 2026, 11:06</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">CNAIR a primit două oferte în cadrul licitației pentru lotul 2 al sistemului de monitorizare a traficului și control al taxei pe kilometru, vizând infrastructura informatică necesară.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://economedia.ro/doua-consortii-se-bat-pentru-sistemul-de-camere-video-si-control-al-tollro-vodafone-si-altimate-au-depus-oferte-pentru-infrastructura-care-va-verifica-plata-taxei-pe-kilometru.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Economica" data-title="Analistul Adrian Codîrlașu avertizează asupra riscurilor pentru leul românesc în caz de retrogradare"><a class="card-media" href="/economic/analistul-adrian-codirlasu-avertizeaza-asupra-riscurilor-pentru-leul-romanesc/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Economie</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">24</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/analistul-adrian-codirlasu-avertizeaza-asupra-riscurilor-pentru-leul-romanesc/">Analistul Adrian Codîrlașu avertizează asupra riscurilor pentru leul românesc în caz de retrogradare</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-24T08:03:55+00:00">24 septembrie 2026, 11:03</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">O eventuală intrare a României în categoria de rating speculativ, cunoscută drept junk, ar destabiliza grav cursul de schimb valutar dintre leu și euro, avertizează reprezentantul CFA România, înaintea deciziei S&amp;P.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.economica.net/daca-romania-intra-in-junk-pentru-cursul-leu-euro-se-rupe-filmul-adrian-codirlasu-cfa-romania_979426.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Curs de Guvernare" data-title="BCE susține că UE ar recupera din diferența economică față de SUA prin companii mai mari"><a class="card-media" href="/economic/bce-sustine-ca-ue-ar-recupera-din-diferenta-economica-fata-de-sua-prin-companii/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">joi 24 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/bce-sustine-ca-ue-ar-recupera-din-diferenta-economica-fata-de-sua-prin-companii/">BCE susține că UE ar recupera din diferența economică față de SUA prin companii mai mari</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-24T07:24:47+00:00">24 septembrie 2026, 10:24</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Un raport al Băncii Centrale Europene arată că Uniunea Europeană și-ar reduce considerabil decalajul de productivitate față de Statele Unite dacă ar stimula extinderea și creșterea dimensiunii companiilor locale.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/bce-ue-ar-putea-recupera-o-treime-din-avantajul-economic-si-productivitatea-sua-daca-ar-avea-companii-mai-mari.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
-</article>
-<article class="card" data-cat="economic" data-source="Profit.ro" data-title="Reprezentantul Altex participă la conferința de e-commerce organizată de Profit.ro"><a class="card-media" href="/economic/reprezentantul-altex-participa-la-conferinta-de-e-commerce-organizata-de-profit/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Economie</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">24</span><span class="art-num-wk">joi</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Economie</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/economic/reprezentantul-altex-participa-la-conferinta-de-e-commerce-organizata-de-profit/">Reprezentantul Altex participă la conferința de e-commerce organizată de Profit.ro</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-24T04:38:00+00:00">24 septembrie 2026, 07:38</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Florin David, director în cadrul companiei Altex România, va fi prezent la a șaptea ediție a conferinței dedicate comerțului online, programată pentru sfârșitul lunii septembrie.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.profit.ro/povesti-cu-profit/retail/florin-david-director-e-commerce-marketplace-altex-romania-vine-la-conferinta-profit-e-commerce-editia-a-vii-a-22782321?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+<a href="https://www.tion.ro/romania/romanii-tot-mai-interesati-de-hainele-second-hand-pretul-si-reducerea-risipei-printre-principalele-motive-2359557/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Timiș Online</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

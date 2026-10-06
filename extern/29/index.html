@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern" class="active">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern" class="active">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,313 +82,315 @@
 </nav>
   <h1 class="section-title">Externe</h1>
   <section class="grid">
-<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Partidul Die Linke vrea naționalizarea a 200.000 de locuințe în Berlin"><a class="card-media" href="/extern/partidul-die-linke-vrea-nationalizarea-a-200-000-de-locuinte-in-berlin/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">miercuri</span><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/partidul-die-linke-vrea-nationalizarea-a-200-000-de-locuinte-in-berlin/">Partidul Die Linke vrea naționalizarea a 200.000 de locuințe în Berlin</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T04:10:59+00:00">30 septembrie 2026, 07:10</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Lidera formațiunii Die Linke din Berlin propune preluarea în proprietate publică a 200.000 de apartamente pentru a atenua criza locuințelor, stârnind îngrijorarea dezvoltatorilor imobiliari cu privire la un posibil haos administrativ.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digi24.ro/stiri/externe/partidul-de-extrema-stanga-die-linke-vrea-sa-treaca-aproximativ-200-000-de-locuinte-din-berlin-in-proprietate-publica-3969611" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Politico EU" data-title="Acuzații de antisemitism vizizează partidul condus de Marine Le Pen"><a class="card-media" href="/extern/acuzatii-de-antisemitism-vizizeaza-partidul-condus-de-marine-le-pen/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/marine-le-pen.jpg" alt="Marine Le Pen" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/acuzatii-de-antisemitism-vizizeaza-partidul-condus-de-marine-le-pen/">Acuzații de antisemitism vizizează partidul condus de Marine Le Pen</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T04:05:00+00:00">30 septembrie 2026, 07:05</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">În timp ce șefa Comisiei Europene vizitează state din Balcani pentru discuțiile privind extinderea UE, presă franceză a scos la iveală declarații antisemite atribuite unor membri din partidul lui Marine Le Pen.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.politico.eu/podcast/brussels-playbook-podcast/antisemitism-allegations-shake-le-pens-party/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication" target="_blank" rel="noopener noreferrer">Politico EU</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="The Guardian" data-title="Alertele de rachete provoacă pierderi economice masive Ucrainei"><a class="card-media" href="/extern/alertele-de-rachete-provoaca-pierderi-economice-masive-ucrainei/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">miercuri</span><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/alertele-de-rachete-provoaca-pierderi-economice-masive-ucrainei/">Alertele de rachete provoacă pierderi economice masive Ucrainei</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T04:00:10+00:00">30 septembrie 2026, 07:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Ministrul economiei de la Kiev a declarat că fiecare oră de oprire a activității economice din cauza alarmelor aeriene costă țara aproximativ 45 de milioane de dolari, în plină campanie de bombardamente rusești.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.theguardian.com/world/2026/sep/30/missile-alerts-cost-ukraine-businesses-halt" target="_blank" rel="noopener noreferrer">The Guardian</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Politico EU" data-title="Bev Craig discută despre noul său mandat la conducerea orașului Manchester"><a class="card-media" href="/extern/bev-craig-discuta-despre-noul-sau-mandat-la-conducerea-orasului-manchester/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">miercuri</span><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/bev-craig-discuta-despre-noul-sau-mandat-la-conducerea-orasului-manchester/">Bev Craig discută despre noul său mandat la conducerea orașului Manchester</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-30T02:05:00+00:00">30 septembrie 2026, 05:05</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Noul primar din Greater Manchester, Bev Craig, a oferit un interviu în cadrul conferinței Partidului Laburist din Liverpool, vorbind despre planurile sale administrative.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.politico.eu/podcast/westminster-insider/labour-conference-special-manchesters-new-mayor/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication" target="_blank" rel="noopener noreferrer">Politico EU</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Adevărul" data-title="Războiul din Ucraina continuă din cauza erorilor de calcul"><a class="card-media" href="/extern/razboiul-din-ucraina-continua-din-cauza-erorilor-de-calcul/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
+<article class="card" data-cat="extern" data-source="DW Europe" data-title="Organizatorii Eurovision pregătesc extinderea concursului în ciuda boicoturilor"><a class="card-media" href="/extern/organizatorii-eurovision-pregatesc-extinderea-concursului-in-ciuda-boicoturilor/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/razboiul-din-ucraina-continua-din-cauza-erorilor-de-calcul/">Războiul din Ucraina continuă din cauza erorilor de calcul</a></h2>
+  <h2 class="card-title"><a href="/extern/organizatorii-eurovision-pregatesc-extinderea-concursului-in-ciuda-boicoturilor/">Organizatorii Eurovision pregătesc extinderea concursului în ciuda boicoturilor</a></h2>
   <div class="meta">
-    <time datetime="2026-09-30T00:00:26+00:00">30 septembrie 2026, 03:00</time>
+    <time datetime="2026-09-30T09:18:00+00:00">30 septembrie 2026, 12:18</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Politologul Stephen Walt de la Universitatea Harvard apreciază că Ucraina riscă să piardă definitiv Crimeea și Donbasul, în timp ce conflictul armat persistă pe fondul unor strategii greșite.</p>
+  <p class="summary">Concursul muzical Eurovision vizează extinderea globală a brandului pentru ediția din 2026, deși evenimentul s-a confruntat cu numeroase proteste și boicoturi legate de participarea Israelului în contextul conflictului din Fâșia Gaza.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://adevarul.ro/stiri-externe/europa/ucraina-ar-putea-sa-nu-recupereze-crimeea-si-cea-2560633.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+<a href="https://www.dw.com/en/eurovision-seeks-to-expand-brand-despite-frictions/a-79401752?maca=en-rss-en-eu-2092-rdf" target="_blank" rel="noopener noreferrer">DW Europe</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="BBC Europe" data-title="Industria siderurgică ucraineană este distrusă de bombardamentele rusești"><a class="card-media" href="/extern/industria-siderurgica-ucraineana-este-distrusa-de-bombardamentele-rusesti/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
+<article class="card" data-cat="extern" data-source="DW Europe" data-title="Irlanda va boicota ediția 2026 a concursului Eurovision din cauza Israelului"><a class="card-media" href="/extern/irlanda-va-boicota-editia-2026-a-concursului-eurovision-din-cauza-israelului/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/industria-siderurgica-ucraineana-este-distrusa-de-bombardamentele-rusesti/">Industria siderurgică ucraineană este distrusă de bombardamentele rusești</a></h2>
+  <h2 class="card-title"><a href="/extern/irlanda-va-boicota-editia-2026-a-concursului-eurovision-din-cauza-israelului/">Irlanda va boicota ediția 2026 a concursului Eurovision din cauza Israelului</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T23:33:34+00:00">30 septembrie 2026, 02:33</time>
+    <time datetime="2026-09-30T09:18:00+00:00">30 septembrie 2026, 12:18</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Atacurile militare constante ale Rusiei au oprit aproape complet activitatea marilor combinate siderurgice din Ucraina, afectând grav economia țării.</p>
+  <p class="summary">Concursul Muzical Eurovision 2026 se confruntă din nou cu boicoturi diplomatice și artistice determinate de participarea Israelului și conflictul din Gaza. Cu toate acestea, organizatorii continuă demersurile pentru extinderea competiției internaționale pe parcursul acestui an.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.bbc.co.uk/news/articles/cjkg7k6z9296o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">BBC Europe</a></p>
+<a href="https://www.dw.com/en/ireland-will-boycott-eurovision-again-because-of-israel-s-participation-but-the-song-contest-is-still-expanding/a-79401752?maca=en-rss-en-eu-2092-rdf" target="_blank" rel="noopener noreferrer">DW Europe</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Adevărul" data-title="Ucraina își reconstruiește industria de apărare cu finanțare privată și concurență deschisă"><a class="card-media" href="/extern/ucraina-isi-reconstruieste-industria-de-aparare-cu-finantare-privata-si/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card" data-cat="extern" data-source="Politico EU" data-title="UE oferă acces la piața unică pentru țările candidate"><a class="card-media" href="/extern/ue-ofera-acces-la-piata-unica-pentru-tarile-candidate/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">30</span><span class="art-num-wk">miercuri</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/ue-ofera-acces-la-piata-unica-pentru-tarile-candidate/">UE oferă acces la piața unică pentru țările candidate</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T08:39:52+00:00">30 septembrie 2026, 11:39</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Comisia Europeană propune integrarea treptată a statelor care așteaptă aderarea la blocul comunitar, oferindu-le comerț fără bariere și acces la cercetare, cu condiția alinierii politice externe.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.politico.eu/article/ursula-von-der-leyen-eu-offer-single-market-access-to-candidate-countries/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication" target="_blank" rel="noopener noreferrer">Politico EU</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="G4Media" data-title="Phenianul respinge acuzațiile privind amplasarea minelor antipersonal"><a class="card-media" href="/extern/phenianul-respinge-acuzatiile-privind-amplasarea-minelor-antipersonal/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-tick"></div><p class="art-when">miercuri,<br>30 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/phenianul-respinge-acuzatiile-privind-amplasarea-minelor-antipersonal/">Phenianul respinge acuzațiile privind amplasarea minelor antipersonal</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T06:48:02+00:00">30 septembrie 2026, 09:48</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Kim Yo Jong a negat implicarea Coreei de Nord în plasarea minelor care au rănit militari sud-coreeni, avertizând Seulul că Phenianul va riposta imediat în cazul oricărui atac armat la frontieră.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.g4media.ro/coreea-de-nord-neaga-ca-a-amplasat-minele-care-au-ranit-trei-soldati-sud-coreeni-si-acuza-seulul-de-conspiratie.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Știrile ProTV" data-title="Un paznic concediat pentru o sticlă de apă luată fără plată a fost repus în drepturi de instanță"><a class="card-media" href="/extern/un-paznic-concediat-pentru-o-sticla-de-apa-luata-fara-plata-a-fost-repus-in/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/un-paznic-concediat-pentru-o-sticla-de-apa-luata-fara-plata-a-fost-repus-in/">Un paznic concediat pentru o sticlă de apă luată fără plată a fost repus în drepturi de instanță</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T06:46:33+00:00">30 septembrie 2026, 09:46</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Un agent de pază italian, dat afară de la un centru comercial din Lecco după ce a consumat o sticlă de apă fără să achite contravaloarea, a obținut câștig de cauză în instanță împotriva angajatorului.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://stirileprotv.ro/divers/un-paznic-a-fost-concediat-dupa-ce-a-luat-o-sticla-cu-apa-fara-sa-plateasca-in-italia-reactia-neasteptata-a-instantei.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Un arbitru de fotbal din Republica Moldova s-a sinucis în timpul divorțului"><a class="card-media" href="/extern/un-arbitru-de-fotbal-din-republica-moldova-s-a-sinucis-in-timpul-divortului/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">miercuri</span><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/ucraina-isi-reconstruieste-industria-de-aparare-cu-finantare-privata-si/">Ucraina își reconstruiește industria de apărare cu finanțare privată și concurență deschisă</a></h2>
+  <h2 class="card-title"><a href="/extern/un-arbitru-de-fotbal-din-republica-moldova-s-a-sinucis-in-timpul-divortului/">Un arbitru de fotbal din Republica Moldova s-a sinucis în timpul divorțului</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T22:00:25+00:00">30 septembrie 2026, 01:00</time>
+    <time datetime="2026-09-30T06:42:00+00:00">30 septembrie 2026, 09:42</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Sectorul militar ucrainean trece printr-un amplu proces de transformare și dezvoltare de la zero, bazându-se pe capital privat pentru a deveni competitiv în următorul deceniu.</p>
+  <p class="summary">Gheorghe Moldovan, uncunoscut arbitru de fotbal basarabean, și-a luat viața în locuința soției cu care se afla în procedura de separare legală, lăsând în urmă un material video înregistrat înainte de gestul extrem.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://adevarul.ro/stiri-externe/europa/industria-de-aparare-a-ucrainei-primeste-o-a-doua-2560648.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+<a href="https://www.antena3.ro/externe/un-arbitru-de-fotbal-s-a-sinucis-in-republica-moldova-ce-a-transmis-in-mesajul-de-adio-filmat-inainte-de-moarte-805164.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="BBC Europe" data-title="Peste 400 de persoane au fost reținute în Franța în timpul protestelor liceenilor"><a class="card-media" href="/extern/peste-400-de-persoane-au-fost-retinute-in-franta-in-timpul-protestelor/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/peste-400-de-persoane-au-fost-retinute-in-franta-in-timpul-protestelor/">Peste 400 de persoane au fost reținute în Franța în timpul protestelor liceenilor</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T21:55:13+00:00">30 septembrie 2026, 00:55</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Manifestațiile elevilor legate de condițiile din școli și lipsa resurselor au degenerat în confruntări, determinând intervenția în masă a forțelor de ordine și reținerea a sută de participanți.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.bbc.co.uk/news/articles/c862epne7glyo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">BBC Europe</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Spotmedia" data-title="Conflictul din Iran scoate în evidență o vulnerabilitate militară a SUA"><a class="card-media" href="/extern/conflictul-din-iran-scoate-in-evidenta-o-vulnerabilitate-militara-a-sua/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Fraudă de 300 de milioane de euro cu telefoane second-hand vândute drept noi"><a class="card-media" href="/extern/frauda-de-300-de-milioane-de-euro-cu-telefoane-second-hand-vandute-drept-noi/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <div class="art-seal"><span class="art-num-zi">30</span><span class="art-num-wk">miercuri</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/conflictul-din-iran-scoate-in-evidenta-o-vulnerabilitate-militara-a-sua/">Conflictul din Iran scoate în evidență o vulnerabilitate militară a SUA</a></h2>
+  <h2 class="card-title"><a href="/extern/frauda-de-300-de-milioane-de-euro-cu-telefoane-second-hand-vandute-drept-noi/">Fraudă de 300 de milioane de euro cu telefoane second-hand vândute drept noi</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T21:07:00+00:00">30 septembrie 2026, 00:07</time>
+    <time datetime="2026-09-30T06:42:00+00:00">30 septembrie 2026, 09:42</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Situația actuală invalidează strategia americană de lungă durată bazată pe acumularea masivă de muniții în rețeaua internațională de baze, ridicând semne de întrebare pentru o potențială confruntare cu China.</p>
+  <p class="summary">Autoritățile judiciare din 19 state europene au desfășurat peste 160 de percheziții vizând o rețea internațională care comercializa dispozitive mobile vechi drept produse noi, generând pagube uriașe.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://spotmedia.ro/stiri/opinii-si-analize/iranul-scoate-la-iveala-o-vulnerabilitate-a-sua-care-ar-putea-fi-dezastruoasa-intr-o-confruntare-cu-china" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
+<a href="https://www.antena3.ro/actualitate/teapa-prin-care-telefoane-mobile-second-hand-erau-vandute-ca-telefoane-noi-in-ue-inclusiv-in-romania-pagube-de-300-de-milioane-euro-805171.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Senatul SUA a oprit oficial producția monedelor de un cent"><a class="card-media" href="/extern/senatul-sua-a-oprit-oficial-productia-monedelor-de-un-cent/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/donald-trump.jpg" alt="Donald Trump" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/senatul-sua-a-oprit-oficial-productia-monedelor-de-un-cent/">Senatul SUA a oprit oficial producția monedelor de un cent</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T21:05:00+00:00">30 septembrie 2026, 00:05</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">După o istorie de 234 de ani, baterea monedelor de un cent în Statele Unite va înceta, printr-o lege adoptată în Senat și trimisă spre promulgare președintelui Donald Trump.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/externe/decizie-istorica-in-sua-dupa-234-de-ani-nu-vor-mai-fi-batute-monede-de-1-cent-805150.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Fenomenul El Niño a blocat sezonul uraganelor în Oceanul Atlantic"><a class="card-media" href="/extern/fenomenul-el-nino-a-blocat-sezonul-uraganelor-in-oceanul-atlantic/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="extern" data-source="Observator" data-title="Cocaină în valoare de 15 milioane de dolari, înlocuită cu făină într-un depozit din Fiji"><a class="card-media" href="/extern/cocaina-in-valoare-de-15-milioane-de-dolari-inlocuita-cu-faina-intr-un-depozit/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
+  <div class="art-seal"><span class="art-num-zi">30</span><span class="art-num-wk">miercuri</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/fenomenul-el-nino-a-blocat-sezonul-uraganelor-in-oceanul-atlantic/">Fenomenul El Niño a blocat sezonul uraganelor în Oceanul Atlantic</a></h2>
+  <h2 class="card-title"><a href="/extern/cocaina-in-valoare-de-15-milioane-de-dolari-inlocuita-cu-faina-intr-un-depozit/">Cocaină în valoare de 15 milioane de dolari, înlocuită cu făină într-un depozit din Fiji</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T20:51:38+00:00">29 septembrie 2026, 23:51</time>
+    <time datetime="2026-09-30T06:38:00+00:00">30 septembrie 2026, 09:38</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Oceanul Atlantic a marcat un record istoric negativ privind lipsa uraganelor la începutul toamnei, specialiștii punând această anomalie meteo pe seama influenței exercitate de fenomenul climatic global El Niño.</p>
+  <p class="summary">Poliția din insulele Fiji investighează un furt masiv de droguri confiscate, după ce zeci de kilograme de cocaină depozitate în secțiunea de probe au fost sustrase și înlocuite cu pachete pline cu făină.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digi24.ro/stiri/sci-tech/natura-si-mediu/cum-a-dus-el-nino-la-disparitia-sezonului-uraganelor-din-oceanul-atlantic-3970351" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+<a href="https://observatornews.ro/extern/cocaina-de-15-milioane-de-dolari-disparuta-din-depozitul-de-probe-in-locul-ei-politistii-au-gasit-faina-667695.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Pentagonul va reduce cu 20% posturile pentru ofițeri superiori"><a class="card-media" href="/extern/pentagonul-va-reduce-cu-20-posturile-pentru-ofiteri-superiori/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="extern" data-source="Profit.ro" data-title="Statele Unite finalizează retragerea militară din Irak după două decenii de conflict"><a class="card-media" href="/extern/statele-unite-finalizeaza-retragerea-militara-din-irak-dupa-doua-decenii-de/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">miercuri</span><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/statele-unite-finalizeaza-retragerea-militara-din-irak-dupa-doua-decenii-de/">Statele Unite finalizează retragerea militară din Irak după două decenii de conflict</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T06:37:00+00:00">30 septembrie 2026, 09:37</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Armata americană își încheie prezența în ultimele baze militare din Irak, marcând finalul celei mai sângeroase campanii militare derulate de Statele Unite în secolul al XXI-lea, soldată cu mii de victime.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.profit.ro/perspective/statele-unite-si-au-retras-militarii-din-irak-dupa-doua-decenii-cel-mai-sangeros-razboi-al-sua-din-secolul-xxi-22793155?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Belgia va transfera Ucrainei trei avioane de vânătoare F-16 până la finalul acestui an"><a class="card-media" href="/extern/belgia-va-transfera-ucrainei-trei-avioane-de-vanatoare-f-16-pana-la-finalul/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">miercuri</span><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/belgia-va-transfera-ucrainei-trei-avioane-de-vanatoare-f-16-pana-la-finalul/">Belgia va transfera Ucrainei trei avioane de vânătoare F-16 până la finalul acestui an</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T06:29:00+00:00">30 septembrie 2026, 09:29</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Președintele Volodimir Zelenski a anunțat că guvernul din Belgia va livra Ucrainei trei avioane de luptă de tip F-16 în cursul acestui an, pentru a sprijini efortul de apărare în conflictul armat.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.antena3.ro/externe/ajutor-primit-de-ucraina-din-partea-unei-tari-europene-anuntul-lui-zelenski-despre-avioanele-de-vanatoare-f-16-care-ajung-la-kiev-805166.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Adevărul" data-title="Românii domină turismul străin din Bulgaria în sezonul estival"><a class="card-media" href="/extern/romanii-domina-turismul-strain-din-bulgaria-in-sezonul-estival/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
+  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/romanii-domina-turismul-strain-din-bulgaria-in-sezonul-estival/">Românii domină turismul străin din Bulgaria în sezonul estival</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T06:25:03+00:00">30 septembrie 2026, 09:25</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Datele oficiale arată că cetățenii români au reprezentat cel mai numeros grup de turiști străini care au vizitat Bulgaria în luna august, în timp ce destinațiile din România s-au aflat și ele în preferințele turiștilor bulgari.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://adevarul.ro/stil-de-viata/calatorii/romanii-cei-mai-numerosi-turisti-straini-in-2560733.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+</article>
+<article class="card card-c" data-cat="extern" data-source="Digi24 Extern" data-title="Atacuri aeriene rusești asupra Kievului și regiunii înconjurătoare soldate cu morți și răniți"><a class="card-media" href="/extern/atacuri-aeriene-rusesti-asupra-kievului-si-regiunii-inconjuratoare-soldate-cu/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-tick"></div><p class="art-when">miercuri,<br>30 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge c">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/extern/atacuri-aeriene-rusesti-asupra-kievului-si-regiunii-inconjuratoare-soldate-cu/">Atacuri aeriene rusești asupra Kievului și regiunii înconjurătoare soldate cu morți și răniți</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T06:20:20+00:00">30 septembrie 2026, 09:20</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Forțele ruse au lansat un atac aerian cu rachete și drone asupra Kievului și a regiunii înconjurătoare, provocând decesul a trei persoane, inclusiv un copil, și rănirea altor câteva. Sursele indică un număr variat de victime între doi și trei morți, precum și pagube materiale la locuințe și depozite. România și Polonia au ridicat avioane de luptă pentru protecția spațiului aerian, iar Rusia susține că a lovit ținte militare și energetice.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://www.digi24.ro/stiri/externe/atac-aerian-rusesc-asupra-kievului-trei-oameni-au-fost-ucisi-si-sapte-au-fost-raniti-3970557" target="_blank" rel="noopener noreferrer">Digi24 Extern</a>, <a href="https://www.economica.net/ucraina-atac-aerian-rusesc-asupra-kievului-si-a-regiunii-inconjuratoare-soldat-cu-trei-morti-si-sapte-raniti-autoritati_981141.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="The Guardian" data-title="Mările lumii au înregistrat o acumulare record de căldură anul trecut"><a class="card-media" href="/extern/marile-lumii-au-inregistrat-o-acumulare-record-de-caldura-anul-trecut/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">30</span><span class="art-num-wk">miercuri</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/marile-lumii-au-inregistrat-o-acumulare-record-de-caldura-anul-trecut/">Mările lumii au înregistrat o acumulare record de căldură anul trecut</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T06:00:13+00:00">30 septembrie 2026, 09:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Un studiu recent arată că oceanele globului au absorbit 23 de zettajouli de energie termică, provocând creșterea nivelului apelor, acidifierea accentuată și temperaturi marine fără precedent.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.theguardian.com/environment/2026/sep/30/worlds-seas-warmed-23-zettajoules-2025" target="_blank" rel="noopener noreferrer">The Guardian</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Senatul spaniol a respins tratatul de prietenie cu Franța în timpul vizitei lui Macron"><a class="card-media" href="/extern/senatul-spaniol-a-respins-tratatul-de-prietenie-cu-franta-in-timpul-vizitei-lui/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0 art--portret" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-tick"></div><p class="art-when">miercuri,<br>30 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/emmanuel-macron.jpg" alt="Emmanuel Macron" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/senatul-spaniol-a-respins-tratatul-de-prietenie-cu-franta-in-timpul-vizitei-lui/">Senatul spaniol a respins tratatul de prietenie cu Franța în timpul vizitei lui Macron</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T05:57:16+00:00">30 septembrie 2026, 08:57</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Camera superioară a parlamentului din Spania, controlată de opoziția de dreapta, a respins ratificarea acordului de prietenie încheiat cu Franța. Evenimentul a avut loc exact în timpul vizitei oficiale efectuate de președintele Emmanuel Macron la Madrid.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/stiri/externe/senatul-spaniol-a-respins-ratificarea-tratatului-de-prietenie-cu-franta-chiar-in-timpul-vizitei-lui-macron-la-madrid-3970539" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+</article>
+<article class="card card-c" data-cat="extern" data-source="Digi24 Extern" data-title="Aeroportul din Berlin a devenit primul din Germania dotat cu sistem anti-dronă"><a class="card-media" href="/extern/aeroportul-din-berlin-a-devenit-primul-din-germania-dotat-cu-sistem-anti-drona/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge c">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/extern/aeroportul-din-berlin-a-devenit-primul-din-germania-dotat-cu-sistem-anti-drona/">Aeroportul din Berlin a devenit primul din Germania dotat cu sistem anti-dronă</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T05:56:37+00:00">30 septembrie 2026, 08:56</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Autoritatea de control al traficului aerian din Germania a instalat un nou sistem de detecție a dronelor pe Aeroportul Brandenburg din Berlin. Aceasta este prima infrastructură aeroportuară din țară dotată cu o astfel de tehnologie, decizia fiind luată pe fondul intensificării amenințărilor și a incidentelor recente raportate în apropierea zonelor de aviație civilă.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://www.digi24.ro/stiri/externe/primul-aeroport-din-germania-care-are-un-sistem-de-detectie-a-dronelor-luam-foarte-in-serios-amenintarile-3970533" target="_blank" rel="noopener noreferrer">Digi24 Extern</a>, <a href="https://www.antena3.ro/externe/germania-introduce-un-sistem-de-detectare-a-dronelor-pe-aeroportul-din-berlin-luam-foarte-in-serios-aceste-amenintari-805168.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a>, <a href="https://adevarul.ro/stiri-externe/europa/aeroportul-din-berlin-primul-din-germania-dotat-2560745.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="G4Media" data-title="Un copil a murit și cinci persoane au fost rănite în atacurile asupra Kievului"><a class="card-media" href="/extern/un-copil-a-murit-si-cinci-persoane-au-fost-ranite-in-atacurile-asupra-kievului/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">30</span><span class="art-num-wk">miercuri</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/un-copil-a-murit-si-cinci-persoane-au-fost-ranite-in-atacurile-asupra-kievului/">Un copil a murit și cinci persoane au fost rănite în atacurile asupra Kievului</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T05:45:49+00:00">30 septembrie 2026, 08:45</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Bombardamentele aeriene rusești lansate miercuri dimineață asupra capitalei Ucrainei și a regiunii înconjurătoare s-au soldat cu decesul unui minor, rănirea altor cinci oameni și numeroase incendii.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.g4media.ro/un-copil-a-murit-si-cinci-persoane-au-fost-ranite-in-atacuri-aeriene-rusesti-asupra-kievului.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="BizBrașov" data-title="România ocupă locul al treilea în preferințele turiștilor bulgari"><a class="card-media" href="/extern/romania-ocupa-locul-al-treilea-in-preferintele-turistilor-bulgari/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">miercuri</span><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/romania-ocupa-locul-al-treilea-in-preferintele-turistilor-bulgari/">România ocupă locul al treilea în preferințele turiștilor bulgari</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T05:20:55+00:00">30 septembrie 2026, 08:20</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Călătoriile cetățenilor bulgari în afara țării au crescut cu 3,5% în august față de anul anterior, România numărându-se printre destinațiile principale, în timp ce românii reprezintă cel mai important contingent de vizitatori străini în Bulgaria.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://bizbrasov.ro/2026/09/30/topul-destinatiilor-turistice-bulgari/" target="_blank" rel="noopener noreferrer">BizBrașov</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="The Guardian" data-title="Moștenitorii actriței Greta Garbo iau în calcul utilizarea unei clone digitale AI"><a class="card-media" href="/extern/mostenitorii-actritei-greta-garbo-iau-in-calcul-utilizarea-unei-clone-digitale/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">miercuri</span><span class="art-num-zi">30</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/mostenitorii-actritei-greta-garbo-iau-in-calcul-utilizarea-unei-clone-digitale/">Moștenitorii actriței Greta Garbo iau în calcul utilizarea unei clone digitale AI</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T05:00:12+00:00">30 septembrie 2026, 08:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Descendenții legendareia actrițe de la Hollywood, Greta Garbo, analizează posibilitatea de a permite utilizarea unei versiuni digitale realizate cu inteligență artificială a acesteia pentru a apărea în reclame sau filme moderne.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.theguardian.com/film/2026/sep/30/ai-greta-garbo-stars-again-ball-bearing-advert" target="_blank" rel="noopener noreferrer">The Guardian</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Trezoreria SUA va inscrie automat copiii in programul Conturile Trump"><a class="card-media" href="/extern/trezoreria-sua-va-inscrie-automat-copiii-in-programul-conturile-trump/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">miercuri 30 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/trezoreria-sua-va-inscrie-automat-copiii-in-programul-conturile-trump/">Trezoreria SUA va inscrie automat copiii in programul Conturile Trump</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-30T05:41:23+00:00">30 septembrie 2026, 08:41</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Autoritatile americane pregatesc inscrierea automata a minorilor in programul de investitii incepand din toamna lui 2026, oferind totodata un bonus unic de o mie de dolari de la stat pentru nou-nascuti.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/stiri/economie/milioane-de-copii-americani-vor-fi-inscrisi-automat-in-conturile-trump-cine-primeste-cate-1-000-de-dolari-de-la-stat-3970501" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Pentagonul va reduce posturile de generali și amirali cu până la 20 la sută"><a class="card-media" href="/extern/pentagonul-va-reduce-posturile-de-generali-si-amirali-cu-pana-la-20-la-suta/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0 art--portret" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">30</span><span class="art-num-wk">miercuri</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/pete-hegseth.jpg" alt="Pete Hegseth" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/pentagonul-va-reduce-cu-20-posturile-pentru-ofiteri-superiori/">Pentagonul va reduce cu 20% posturile pentru ofițeri superiori</a></h2>
+  <h2 class="card-title"><a href="/extern/pentagonul-va-reduce-posturile-de-generali-si-amirali-cu-pana-la-20-la-suta/">Pentagonul va reduce posturile de generali și amirali cu până la 20 la sută</a></h2>
   <div class="meta">
-    <time datetime="2026-09-29T20:50:00+00:00">29 septembrie 2026, 23:50</time>
+    <time datetime="2026-09-30T05:33:29+00:00">30 septembrie 2026, 08:33</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Secretarul american al apărării, Pete Hegseth, intenționează să taie o cincime din funcțiile rezervate generalilor și amiralilor din armata Statelor Unite, măsură destinată restructurării conducerii militare.</p>
+  <p class="summary">Secretarul american al Apărării, Pete Hegseth, intenționează să reorganizeze conducerea armatei prin diminuarea semnificativă a numărului de generali și ofițeri de rang superior, conform unor oficiali de la Washington Post.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/externe/seful-pentagonului-ar-urma-sa-taie-din-posturile-destinate-ofiterilor-superiori-reducerea-ar-fi-de-20-805148.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Spotmedia" data-title="Capitala Japoniei a înregistrat 34 de zile consecutive de ploaie"><a class="card-media" href="/extern/capitala-japoniei-a-inregistrat-34-de-zile-consecutive-de-ploaie/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/capitala-japoniei-a-inregistrat-34-de-zile-consecutive-de-ploaie/">Capitala Japoniei a înregistrat 34 de zile consecutive de ploaie</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T20:47:39+00:00">29 septembrie 2026, 23:47</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Tokyo a depășit recordul istoric de precipitații continue stabilit în 2019, ajungând la 34 de zile cu ploaie neîntreruptă, un fenomen extrem de rar pentru această perioadă a anului.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://spotmedia.ro/stiri/eveniment/la-tokyo-ploua-neincetat-de-34-de-zile-este-cea-mai-lunga-serie-inregistrata-vreodata" target="_blank" rel="noopener noreferrer">Spotmedia</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Un bărbat a trăit singur pe o insulă timp de 32 de ani"><a class="card-media" href="/extern/un-barbat-a-trait-singur-pe-o-insula-timp-de-32-de-ani/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/un-barbat-a-trait-singur-pe-o-insula-timp-de-32-de-ani/">Un bărbat a trăit singur pe o insulă timp de 32 de ani</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T20:44:00+00:00">29 septembrie 2026, 23:44</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Plecat în 1989 spre Polinezia cu o barcă al cărei motor s-a defectat pe parcurs, călătorul Mauro Morandi a fost izolat pe o insulă pustie din Pacific timp de mai bine de trei decenii.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/life/travel/un-barbat-a-plecat-spre-polinezia-dar-barca-i-s-a-stricat-pe-drum-a-ramas-pe-o-insula-timp-de-32-de-ani-singur-805038.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="HotNews" data-title="Cancelarul Friedrich Merz declară că Rusia refuză negocierile serioase"><a class="card-media" href="/extern/cancelarul-friedrich-merz-declara-ca-rusia-refuza-negocierile-serioase/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/cancelarul-friedrich-merz-declara-ca-rusia-refuza-negocierile-serioase/">Cancelarul Friedrich Merz declară că Rusia refuză negocierile serioase</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T20:23:27+00:00">29 septembrie 2026, 23:23</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">În urma unei reuniuni diplomatice la New York, cancelarul german Friedrich Merz a afirmat că Moscova nu manifestă niciun interes real pentru tratative diplomatice serioase privind conflictul din Ucraina.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/concluzia-lui-merz-despre-rusia-dupa-intalnirea-dintre-lavrov-si-seful-diplomatiei-germane-2361886" target="_blank" rel="noopener noreferrer">HotNews</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Știrile ProTV" data-title="Seulul acuză Phenianul de încălcarea armistițiului după explozia unor mine"><a class="card-media" href="/extern/seulul-acuza-phenianul-de-incalcarea-armistitiului-dupa-explozia-unor-mine/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">marți</span><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/seulul-acuza-phenianul-de-incalcarea-armistitiului-dupa-explozia-unor-mine/">Seulul acuză Phenianul de încălcarea armistițiului după explozia unor mine</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T20:18:24+00:00">29 septembrie 2026, 23:18</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Ministerul Apărării din Coreea de Sud a denunțat o gravă încălcare a acordului de armistițiu din 1953, după ce mai multe mine au explodat recent în Zona Demilitarizată dintre cele două state coreene.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://stirileprotv.ro/stiri/international/doua-mine-au-explodat-in-peninsula-coreeana-seulul-acuza-coreea-de-nord-ca-incalca-armistritiul-din-1953.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Știrile ProTV" data-title="Marea Britanie promite extinderea scutului nuclear pentru aliații europeni"><a class="card-media" href="/extern/marea-britanie-promite-extinderea-scutului-nuclear-pentru-aliatii-europeni/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/marea-britanie-promite-extinderea-scutului-nuclear-pentru-aliatii-europeni/">Marea Britanie promite extinderea scutului nuclear pentru aliații europeni</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T20:15:23+00:00">29 septembrie 2026, 23:15</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Guvernul de la Londra s-a oferit să garanteze protecție nucleară pentru Finlanda și celelalte state partenere din cadrul Joint Expeditionary Force, consolidând astfel arhitectura de securitate defensivă pe continentul european.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://stirileprotv.ro/stiri/international/marea-britanie-promite-protectie-nucleara-pentru-finlanda-si-aliatii-europeni-ce-presupune-oferta-londrei.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Armata germană acuză compania Rheinmetall de întârzieri și probleme calitative la echipamente"><a class="card-media" href="/extern/armata-germana-acuza-compania-rheinmetall-de-intarzieri-si-probleme-calitative/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">marți 29 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/armata-germana-acuza-compania-rheinmetall-de-intarzieri-si-probleme-calitative/">Armata germană acuză compania Rheinmetall de întârzieri și probleme calitative la echipamente</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T20:10:00+00:00">29 septembrie 2026, 23:10</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">După situația semnalată în România, autoritățile militare din Germania reclamă la rândul lor deficiențe tehnice majore și termene nerespectate de către gigantul de armament Rheinmetall.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/aliat/probleme-pentru-gigantul-rheinmetall-dupa-romania-si-armata-germana-reclama-intarzieri-si-deficiente-la-echipamentele-militare-805026.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="G4Media" data-title="Congresul SUA a votat încetarea definitivă a producției pentru moneda de un cent"><a class="card-media" href="/extern/congresul-sua-a-votat-incetarea-definitiva-a-productiei-pentru-moneda-de-un-cent/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0 art--portret" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">29</span><span class="art-num-wk">marți</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/donald-trump.jpg" alt="Donald Trump" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/congresul-sua-a-votat-incetarea-definitiva-a-productiei-pentru-moneda-de-un-cent/">Congresul SUA a votat încetarea definitivă a producției pentru moneda de un cent</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T20:07:49+00:00">29 septembrie 2026, 23:07</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">După o istorie de 234 de ani, celebra monedă americană de un cent va ieși complet din fabricație în urma unui proiect legislativ adoptat de Senat și trimis spre promulgare președintelui.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.g4media.ro/decizie-istorica-congresul-sua-voteaza-incetarea-productiei-monedei-de-un-cent-dupa-234-de-ani.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="HotNews" data-title="Un lider politic din Congo a fost ucis după o emisiune radio despre epidemia de Ebola"><a class="card-media" href="/extern/un-lider-politic-din-congo-a-fost-ucis-dupa-o-emisiune-radio-despre-epidemia-de/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">marți,<br>29 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">29</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/un-lider-politic-din-congo-a-fost-ucis-dupa-o-emisiune-radio-despre-epidemia-de/">Un lider politic din Congo a fost ucis după o emisiune radio despre epidemia de Ebola</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-29T20:02:16+00:00">29 septembrie 2026, 23:02</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Marie-Célestin Karondwa, oficial al partidului aflat la guvernare în Republica Democrată Congo, a fost bătut mortal de o mulțime în Butembo, după ce a promovat măsuri sanitare de prevenire.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/lider-politic-linsat-si-batut-pana-la-moarte-dupa-ce-a-vorbit-la-radio-despre-masurile-de-prevenire-a-ebola-in-congo-o-victima-nevinovata-2361927" target="_blank" rel="noopener noreferrer">HotNews</a></p>
+<a href="https://www.digi24.ro/stiri/externe/seful-pentagonului-va-reduce-numarul-generalilor-si-amiralilor-in-incercarea-de-a-reorganiza-esaloanele-superioare-ale-armatei-3970473" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

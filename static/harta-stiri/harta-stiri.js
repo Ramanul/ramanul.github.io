@@ -1,8 +1,8 @@
 (() => {
   "use strict";
 
-  const DATA_URL = "./data/map.json";
-  const PROJECTION_URL = "./data/projection.json";
+  const DATA_URL = "/static/harta-stiri/data/map.json";
+  const PROJECTION_URL = "/static/harta-stiri/data/projection.json";
   const BASEMAP_STYLE = "https://tiles.openfreemap.org/styles/positron";
   const state = {
     map: null,
@@ -627,6 +627,14 @@
       const p = mapPointFromEvent(event);
       zoomTo(state.userZoom.k * Math.exp(-event.deltaY * 0.0016), p);
     }, { passive: false });
+    // Escape inchide tooltipul, nimic altceva: hover-ul nu are focus (vine din
+    // pointermove), deci prindem la nivel de document. Selectia si URL-ul raman neatinse.
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape") return;
+      const tip = state.tip;
+      if (!tip || tip.hidden) return;
+      clearShapeHover();
+    });
   }
 
   function shapeFromEvent(event) {
@@ -814,11 +822,24 @@
     return Math.round(value * 100) / 100;
   }
 
+  // Enclavele (Bucuresti in inelul Ilfovului) se picteaza DUPA judetul parinte: SVG
+  // picteaza in ordinea DOM, iar Ilfov — venit dupa in date — acoperea complet
+  // enclavea, care nu mai era nici vizibila, nici accesibila click-ului (hit-testul
+  // livreaza mereu parintele). Vezi garda "centrul Bucurestiului" din
+  // tools/harta_dom_check.py si planul de remediere D1 (Arena, 6 oct).
+  const COUNTIES_DRAW_LAST = ["BUCURESTI"];
+
   function ensureCountyPaths() {
     const layer = state.layers.counties;
     if (layer.childElementCount === Object.keys(state.counties).length) return;
     layer.replaceChildren();
-    for (const [county, pathData] of Object.entries(state.counties)) {
+    const chei = Object.keys(state.counties);
+    const ordonate = [
+      ...chei.filter((county) => !COUNTIES_DRAW_LAST.includes(county)),
+      ...chei.filter((county) => COUNTIES_DRAW_LAST.includes(county)),
+    ];
+    for (const county of ordonate) {
+      const pathData = state.counties[county];
       const node = svgNode("path", {
         class: "map-county h0",
         d: pathData,
@@ -1328,7 +1349,7 @@
       return;
     }
     state.uatLoading = true;
-    fetch(`./data/uat/${encodeURIComponent(county)}.json`)
+    fetch(`/static/harta-stiri/data/uat/${encodeURIComponent(county)}.json`)
       .then((response) => response.ok ? response.json() : null)
       .then((data) => {
         if (state.uatCounty !== county || state.uatRequestId !== requestId) return;
@@ -1466,7 +1487,7 @@
   function incarcaPopulatii() {
     if (state.populatii) return Promise.resolve(state.populatii);
     if (state.populatiiPromise) return state.populatiiPromise;
-    state.populatiiPromise = fetch("./data/populatie.json")
+    state.populatiiPromise = fetch("/static/harta-stiri/data/populatie.json")
       .then((response) => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json();
@@ -1903,14 +1924,25 @@
     return query ? `${location.pathname}?${query}` : location.pathname;
   }
 
+  // Cheia judetului din URL se normalizeaza la forma canonica din date (majuscule,
+  // fara spatii) si se accepta doar daca judetul exista: un link partajat cu
+  // judet=alba (minuscule) sau judet=nu-exista deschide harta nefiltrata, nu tace
+  // selectand nimic. Plan de remediere D5 (Arena, 6 oct).
+  function judetDinUrl(valoare) {
+    const cheie = (valoare || "").trim().toUpperCase();
+    if (!cheie) return null;
+    return state.counties && cheie in state.counties ? cheie : null;
+  }
+
   function stateFromUrl() {
     const params = new URLSearchParams(location.search);
     const loc = params.get("loc");
+    const countyFromPage = document.querySelector('meta[name="harta-county"]')?.content || null;
     return {
       level: params.get("nivel") || "all",
       viewMode: params.get("mod") === "articles" ? "articles" : "events",
       region: params.get("regiune") || null,
-      county: params.get("judet") || null,
+      county: judetDinUrl(params.get("judet") || countyFromPage),
       locality: loc ? loc.split("|").filter(Boolean) : null,
       uat: params.get("uat") || null,
       query: params.get("q") || "",
@@ -1999,6 +2031,19 @@
         action: () => applyState({ region: state.selectedRegion, county: null, locality: null, uat: null }),
         current: !state.selectedCounty && !state.selectedUat,
       });
+    }
+    if (state.selectedCounty && !state.selectedRegion) {
+      // Intrare directa pe județ (link cu judet=, fara regiune in adresa): firul arata
+      // ierarhia completa România › Regiune › Județ, cu regiunea inferata din date si
+      // clickabila. Plan de remediere D5 (Arena, 6 oct).
+      const regiune = regionForCounty(state.selectedCounty);
+      if (regiune) {
+        trail.push({
+          label: regiune,
+          action: () => applyState({ region: regiune, county: null, locality: null, uat: null }),
+          current: false,
+        });
+      }
     }
     if (state.selectedCounty) {
       trail.push({
@@ -2221,7 +2266,17 @@
   }
 
   function resetAll() {
-    applyState({ level: "all", viewMode: "events", region: null, county: null, locality: null, query: "" });
+    // „Resetează filtrele" revine la starea canonică completă, inclusiv scara:
+    // culoarea hărții e parte din filtre (scara=locuitori schimbă semnificația
+    // culorilor), deci un reset care o lasă pe „locuitori" lasă harta altfel decât
+    // la o intrare proaspătă. O singură intrare de istoric: applyState fără push,
+    // scara fără push, apoi un singur push cu starea finală.
+    // Plan de remediere D4 (Arena, 6 oct).
+    const eraPeLocuitori = state.scaleMode === "locuitori";
+    applyState({ level: "all", viewMode: "events", region: null, county: null,
+                 locality: null, query: "" }, { push: false });
+    if (eraPeLocuitori) setScaleMode("volum", { push: false });
+    history.pushState({}, "", urlForState());
   }
 
   // Comutarea pe „pe locuitor" are nevoie de numitor: se incarca o singura data, iar daca

@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -72,8 +78,108 @@
   <h1 class="section-title">Subiect: România</h1>
   <p class="follow"><a href="/subiect/romania/feed.xml">Urmărește acest subiect (RSS) &rarr;</a></p>
   <p class="connections">Conexiuni:
-<a href="/subiect/suedia/">Suedia</a> · <a href="/subiect/gica-hagi/">Gică Hagi</a> · <a href="/subiect/polonia/">Polonia</a> · <a href="/subiect/bosnia/">Bosnia</a> · <a href="/subiect/gheorghe-hagi/">Gheorghe Hagi</a> · <a href="/subiect/uniunea-europeana/">Uniunea Europeană</a></p>
+<a href="/subiect/suedia/">Suedia</a> · <a href="/subiect/gica-hagi/">Gică Hagi</a> · <a href="/subiect/polonia/">Polonia</a> · <a href="/subiect/bosnia/">Bosnia</a> · <a href="/subiect/uniunea-europeana/">Uniunea Europeană</a> · <a href="/subiect/gheorghe-hagi/">Gheorghe Hagi</a></p>
   <ol class="timeline">
+    <li>
+      <time datetime="2026-10-06T10:20:43+00:00">6 octombrie 2026, 13:20</time>
+      <a href="/general/profesorul-mihai-maci-critica-lipsa-de-eficienta-a-sistemului-universitar/">Profesorul Mihai Maci critică lipsa de eficiență a sistemului universitar românesc</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T10:15:42+00:00">6 octombrie 2026, 13:15</time>
+      <a href="/economic/romania-risca-despagubiri-uriase-pentru-investitorii-din-energie-verde/">România riscă despăgubiri uriașe pentru investitorii din energie verde</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T10:14:11+00:00">6 octombrie 2026, 13:14</time>
+      <a href="/tech/sgs-a-preluat-compania-americana-prescient-security/">SGS a preluat compania americană Prescient Security</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T10:04:32+00:00">6 octombrie 2026, 13:04</time>
+      <a href="/extern/o-nava-s-a-scufundat-si-alta-a-fost-avariata-in-apele-teritoriale-ale-bulgariei/">O navă s-a scufundat și alta a fost avariată în apele teritoriale ale Bulgariei</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T10:01:50+00:00">6 octombrie 2026, 13:01</time>
+      <a href="/sport/gigi-becali-anunta-decizia-lui-gica-hagi-dupa-esecurile-nationalei/">Gigi Becali anunță decizia lui Gică Hagi după eșecurile naționalei</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:57:37+00:00">6 octombrie 2026, 12:57</time>
+      <a href="/sport/marius-sumudica-a-reactionat-dupa-seria-de-esecuri-ale-nationalei/">Marius Șumudică a reacționat după seria de eșecuri ale naționalei</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:55:20+00:00">6 octombrie 2026, 12:55</time>
+      <a href="/sport/romania-rateaza-calificarea-in-liga-natiunilor-la-fotbal/">România ratează calificarea în Liga Națiunilor la fotbal</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:55:06+00:00">6 octombrie 2026, 12:55</time>
+      <a href="/general/ministerul-educatiei-lanseaza-ghidul-studentului-pentru-anul-universitar/">Ministerul Educației lansează Ghidul Studentului pentru anul universitar</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:54:19+00:00">6 octombrie 2026, 12:54</time>
+      <a href="/politic/procedura-constitutionala-privind-alegerile-anticipate-in-romania/">Procedura constituțională privind alegerile anticipate în România</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:49:31+00:00">6 octombrie 2026, 12:49</time>
+      <a href="/judetean/preturile-carburantilor-din-6-octombrie-mentin-motorina-aproape-de-pragul-de-11/">Prețurile carburanților din 6 octombrie mențin motorina aproape de pragul de 11 lei</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:48:44+00:00">6 octombrie 2026, 12:48</time>
+      <a href="/sport/ringier-sportal-organizeaza-un-concurs-cu-bilete-la-meciul-romania-norvegine/">Ringier Sportal organizează un concurs cu bilete la meciul România - Norvegine</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:43:00+00:00">6 octombrie 2026, 12:43</time>
+      <a href="/economic/symfonia-group-a-finalizat-unificarea-operatiunilor-locale-din-romania/">Symfonia Group a finalizat unificarea operațiunilor locale din România</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:24:07+00:00">6 octombrie 2026, 12:24</time>
+      <a href="/economic/a-inceput-proiectul-noii-linii-electrice-dintre-romania-si-republica-moldova/">A început proiectul noii linii electrice dintre România și Republica Moldova</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:13:15+00:00">6 octombrie 2026, 12:13</time>
+      <a href="/sport/mihai-pintilii-a-comentat-parcursul-nationalei-pregatite-de-gica-hagi/">Mihai Pintilii a comentat parcursul naționalei pregătite de Gică Hagi</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T08:27:36+00:00">6 octombrie 2026, 11:27</time>
+      <a href="/sport/selectionerul-suediei-a-analizat-evolutia-echipei-nationale-conduse-de-gica-hagi/">Selecționerul Suediei a analizat evoluția echipei naționale conduse de Gică Hagi</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T08:23:52+00:00">6 octombrie 2026, 11:23</time>
+      <a href="/sport/romania-va-fi-in-urna-a-treia-la-tragerea-la-sorti-pentru-preliminariile-euro/">România va fi în urna a treia la tragerea la sorți pentru preliminariile EURO 2028</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T08:20:27+00:00">6 octombrie 2026, 11:20</time>
+      <a href="/economic/vanzarile-cu-amanuntul-din-romania-au-crescut-cu-23-in-august/">Vânzările cu amănuntul din România au crescut cu 2,3% în august</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T08:19:00+00:00">6 octombrie 2026, 11:19</time>
+      <a href="/sport/atacantul-florin-tanase-cere-sprijin-pentru-nationala-romaniei-dupa-meciul-cu/">Atacantul Florin Tănase cere sprijin pentru naționala României după meciul cu Suedia</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T08:18:15+00:00">6 octombrie 2026, 11:18</time>
+      <a href="/sport/cornel-dinu-critica-dur-tactica-lui-gica-hagi-la-nationala/">Cornel Dinu critică dur tactica lui Gică Hagi la națională</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T08:06:58+00:00">6 octombrie 2026, 11:06</time>
+      <a href="/sport/reactia-selectionerului-gica-hagi-dupa-patru-esecuri-consecutive/">Reacția selecționerului Gică Hagi după patru eșecuri consecutive</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T08:03:42+00:00">6 octombrie 2026, 11:03</time>
+      <a href="/auto/peste-10-000-de-puncte-de-incarcare-pentru-masini-electrice-in-romania/">Peste 10.000 de puncte de încărcare pentru mașini electrice în România</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T08:03:00+00:00">6 octombrie 2026, 11:03</time>
+      <a href="/sport/adrian-mutu-critica-situatia-actuala-a-nationalei-de-fotbal/">Adrian Mutu critică situația actuală a naționalei de fotbal</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T07:44:58+00:00">6 octombrie 2026, 10:44</time>
+      <a href="/ai/romania-are-cea-mai-slaba-rata-de-adoptare-a-inteligentei-artificiale-din-ue/">România are cea mai slabă rată de adoptare a inteligenței artificiale din UE</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T07:18:00+00:00">6 octombrie 2026, 10:18</time>
+      <a href="/sport/evolutia-fundasului-andrei-coubis-analizata-dupa-meciurile-nationalei-romaniei/">Evoluția fundașului Andrei Coubiș analizată după meciurile naționalei României</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T05:05:02+00:00">6 octombrie 2026, 08:05</time>
+      <a href="/economic/manual-de-economie-reala-explica-fenomenele-financiare-pe-intelesul-publicului/">Manual de economie reală explică fenomenele financiare pe înțelesul publicului</a>
+    </li>
     <li>
       <time datetime="2026-10-06T04:17:27+00:00">6 octombrie 2026, 07:17</time>
       <a href="/economic/grecii-au-investit-peste-55-miliarde-de-euro-in-energia-din-romania/">Grecii au investit peste 5,5 miliarde de euro în energia din România</a>
@@ -148,7 +254,7 @@
     </li>
     <li>
       <time datetime="2026-10-05T21:28:24+00:00">6 octombrie 2026, 00:28</time>
-      <a href="/sport/mihai-stoica-a-remarcat-un-singur-fotbalist-roman-dupa-esecul-cu-suedia-din/">Mihai Stoica a remarcat un singur fotbalist român după eșecul cu Suedia din Liga Națiunilor</a>
+      <a href="/sport/mihai-stoica-a-remarcat-un-singur-fotbalist-roman-dupa-esecul-cu-suedia-din/">Mihai Stoica a remarcat un singur fotbalist după eșecul României cu Suedia</a>
     </li>
     <li>
       <time datetime="2026-10-05T21:23:12+00:00">6 octombrie 2026, 00:23</time>
@@ -157,10 +263,6 @@
     <li>
       <time datetime="2026-10-05T21:19:34+00:00">6 octombrie 2026, 00:19</time>
       <a href="/sport/basarab-panduru-si-mihai-stoica-comenteaza-situatia-selectionerului-gica-hagi/">Basarab Panduru și Mihai Stoica comentează situația selecționerului Gică Hagi</a>
-    </li>
-    <li>
-      <time datetime="2026-10-05T21:12:34+00:00">6 octombrie 2026, 00:12</time>
-      <a href="/sport/mihai-stoica-a-analizat-cauzele-infrangerii-romaniei-in-meciul-cu-suedia/">Mihai Stoica a analizat cauzele înfrângerii României în meciul cu Suedia</a>
     </li>
     <li>
       <time datetime="2026-10-05T21:07:00+00:00">6 octombrie 2026, 00:07</time>
@@ -189,10 +291,6 @@
     <li>
       <time datetime="2026-10-05T19:35:33+00:00">5 octombrie 2026, 22:35</time>
       <a href="/economic/ucraina-construieste-un-parc-eolian-gigant-pentru-export-in-romania/">Ucraina construiește un parc eolian gigant pentru export în România</a>
-    </li>
-    <li>
-      <time datetime="2026-10-05T17:57:33+00:00">5 octombrie 2026, 20:57</time>
-      <a href="/politic/nicusor-dan-l-a-desemnat-pe-luca-niculescu-drept-al-patrulea-candidat-pentru/">Nicușor Dan l-a desemnat pe Luca Niculescu drept al patrulea candidat pentru funcția de premier</a>
     </li>
     <li>
       <time datetime="2026-10-05T17:15:14+00:00">5 octombrie 2026, 20:15</time>
@@ -391,10 +489,6 @@
       <a href="/sport/stb-prelungeste-programul-mijloacelor-de-transport-pentru-meciul-romaniei/">STB prelungește programul mijloacelor de transport pentru meciul României</a>
     </li>
     <li>
-      <time datetime="2026-10-04T13:30:19+00:00">4 octombrie 2026, 16:30</time>
-      <a href="/sport/nicolae-stanciu-cere-unitate-nationala-inainte-de-meciul-cu-suedia/">Nicolae Stanciu cere unitate națională înainte de meciul cu Suedia</a>
-    </li>
-    <li>
       <time datetime="2026-10-04T13:06:14+00:00">4 octombrie 2026, 16:06</time>
       <a href="/sport/un-fotbalist-roman-revine-titular-la-echipa-de-club-dupa-meciurile-nationalei/">Un fotbalist român revine titular la echipa de club după meciurile naționalei</a>
     </li>
@@ -449,6 +543,10 @@
     <li>
       <time datetime="2026-10-04T08:17:20+00:00">4 octombrie 2026, 11:17</time>
       <a href="/general/vreme-extrem-de-variabila-in-romania-cu-oscilatii-mari-de-temperatura/">Vreme extrem de variabilă în România, cu oscilații mari de temperatură</a>
+    </li>
+    <li>
+      <time datetime="2026-10-04T06:43:34+00:00">4 octombrie 2026, 09:43</time>
+      <a href="/sport/mihai-stoica-a-criticat-dur-evolutia-unui-tricolor-in-meciurile-din-liga/">Mihai Stoica a criticat dur evoluția unui tricolor în meciurile din Liga Națiunilor</a>
     </li>
     <li>
       <time datetime="2026-10-04T06:18:38+00:00">4 octombrie 2026, 09:18</time>
@@ -759,10 +857,6 @@
       <a href="/sport/cornel-dinu-cere-demisii-la-frf-dupa-infrangerea-istorica-din-polonia/">Cornel Dinu cere demisii la FRF după înfrângerea istorică din Polonia</a>
     </li>
     <li>
-      <time datetime="2026-10-02T21:27:25+00:00">3 octombrie 2026, 00:27</time>
-      <a href="/sport/cornel-dinu-il-critica-sever-pe-gica-hagi-si-conducerea-frf/">Cornel Dinu îl critică sever pe Gică Hagi și conducerea FRF</a>
-    </li>
-    <li>
       <time datetime="2026-10-02T21:20:40+00:00">3 octombrie 2026, 00:20</time>
       <a href="/economic/proiectul-neptun-deep-va-stimula-economia-romaniei-din-2027/">Proiectul Neptun Deep va stimula economia României din 2027</a>
     </li>
@@ -913,6 +1007,10 @@
     <li>
       <time datetime="2026-10-02T11:39:48+00:00">2 octombrie 2026, 14:39</time>
       <a href="/sport/partida-bosnia-suedia-din-nations-league-va-fi-transmisa-in-direct-pe-sport-ro/">Partida Bosnia - Suedia din Nations League va fi transmisă în direct pe Sport.ro</a>
+    </li>
+    <li>
+      <time datetime="2026-10-02T11:39:42+00:00">2 octombrie 2026, 14:39</time>
+      <a href="/sport/florin-prunea-anticipeaza-plecarea-lui-gica-hagi-de-la-nationala-romaniei/">Florin Prunea anticipează plecarea lui Gică Hagi de la naționala României</a>
     </li>
     <li>
       <time datetime="2026-10-02T11:32:01+00:00">2 octombrie 2026, 14:32</time>
@@ -1427,10 +1525,6 @@
       <a href="/economic/economia-romaniei-in-2026-necesita-mobilizarea-resurselor-interne/">Economia Romaniei in 2026 necesita mobilizarea resurselor interne</a>
     </li>
     <li>
-      <time datetime="2026-09-30T05:28:24+00:00">30 septembrie 2026, 08:28</time>
-      <a href="/sport/romania-risca-grupe-dificile-in-preliminariile-pentru-euro-2028/">România riscă grupe dificile în preliminariile pentru EURO 2028</a>
-    </li>
-    <li>
       <time datetime="2026-09-30T05:24:22+00:00">30 septembrie 2026, 08:24</time>
       <a href="/sport/basarab-panduru-a-nominalizat-sase-fotbalisti-indispensabili-pentru-nationala/">Basarab Panduru a nominalizat șase fotbalisti indispensabili pentru naționala României</a>
     </li>
@@ -1629,10 +1723,6 @@
     <li>
       <time datetime="2026-09-29T08:07:34+00:00">29 septembrie 2026, 11:07</time>
       <a href="/sport/nationala-romaniei-inregistreaza-infrangeri-repetate-in-fata-unor-adversari/">Naționala României înregistrează înfrângeri repetate în fața unor adversari modesti</a>
-    </li>
-    <li>
-      <time datetime="2026-09-29T07:59:08+00:00">29 septembrie 2026, 10:59</time>
-      <a href="/sport/gica-hagi-a-luat-o-decizie-categorica-privind-viitorul-echipei-nationale/">Gică Hagi a luat o decizie categorică privind viitorul echipei naționale</a>
     </li>
     <li>
       <time datetime="2026-09-29T07:45:51+00:00">29 septembrie 2026, 10:45</time>
@@ -1999,6 +2089,10 @@
       <a href="/auto/sanctiuni-aspre-pentru-soferii-surprinsi-pe-contrasens-pe-autostrada/">Sancțiuni aspre pentru șoferii surprinși pe contrasens pe autostradă</a>
     </li>
     <li>
+      <time datetime="2026-09-27T08:15:07+00:00">27 septembrie 2026, 11:15</time>
+      <a href="/sport/ciprian-marica-il-critica-pe-gica-hagi-dupa-esecul-nationalei/">Ciprian Marica îl critică pe Gică Hagi după eșecul naționalei</a>
+    </li>
+    <li>
       <time datetime="2026-09-27T08:00:20+00:00">27 septembrie 2026, 11:00</time>
       <a href="/general/doua-britanice-aflate-in-misiune-de-salvare-au-murit-intr-un-accident-in-romania/">Două britanice aflate în misiune de salvare au murit într-un accident în România</a>
     </li>
@@ -2125,6 +2219,10 @@
     <li>
       <time datetime="2026-09-26T16:33:27+00:00">26 septembrie 2026, 19:33</time>
       <a href="/sport/reactia-handbalistelor-romaniei-dupa-esecul-sever-cu-danemarca/">Reacția handbalistelor României după eșecul sever cu Danemarca</a>
+    </li>
+    <li>
+      <time datetime="2026-09-26T16:29:22+00:00">26 septembrie 2026, 19:29</time>
+      <a href="/sport/un-fotbalist-roman-remarcat-de-publicatia-l-equipe-in-meciul-cu-suedia/">Un fotbalist român remarcat de publicația L&#39;Equipe în meciul cu Suedia</a>
     </li>
     <li>
       <time datetime="2026-09-26T16:27:49+00:00">26 septembrie 2026, 19:27</time>
@@ -2269,6 +2367,10 @@
     <li>
       <time datetime="2026-09-25T22:50:56+00:00">26 septembrie 2026, 01:50</time>
       <a href="/sport/florin-prunea-il-absolva-de-vina-pe-portarul-ionut-radu/">Florin Prunea îl absolvă de vină pe portarul Ionuț Radu</a>
+    </li>
+    <li>
+      <time datetime="2026-09-25T22:19:56+00:00">26 septembrie 2026, 01:19</time>
+      <a href="/sport/radu-dragusin-a-explicat-cauzele-infrangerii-romaniei-in-suedia/">Radu Drăgușin a explicat cauzele înfrângerii României în Suedia</a>
     </li>
     <li>
       <time datetime="2026-09-25T21:59:53+00:00">26 septembrie 2026, 00:59</time>
@@ -2475,10 +2577,6 @@
       <a href="/politic/politicienii-francezi-vor-mentinerea-trupelor-in-romania-indiferent-de-statutul/">Politicienii francezi vor menținerea trupelor în România indiferent de statutul în NATO</a>
     </li>
     <li>
-      <time datetime="2026-09-24T20:00:16+00:00">24 septembrie 2026, 23:00</time>
-      <a href="/sport/gica-hagi-a-analizat-principalele-pericole-din-lotul-suediei-inainte-de-meci/">Gică Hagi a analizat principalele pericole din lotul Suediei înainte de meci</a>
-    </li>
-    <li>
       <time datetime="2026-09-24T19:42:58+00:00">24 septembrie 2026, 22:42</time>
       <a href="/sport/gica-hagi-explica-decizia-de-a-nu-face-alte-convocari-dupa-accidentarea-lui/">Gică Hagi explică decizia de a nu face alte convocări după accidentarea lui Drăguș</a>
     </li>
@@ -2557,58 +2655,6 @@
     <li>
       <time datetime="2026-09-24T10:42:31+00:00">24 septembrie 2026, 13:42</time>
       <a href="/economic/romanii-prefera-hainele-second-hand-din-motive-financiare-si-ecologice/">Românii preferă hainele second-hand din motive financiare și ecologice</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T10:06:40+00:00">24 septembrie 2026, 13:06</time>
-      <a href="/economic/agentia-de-publicitate-bbdo-revine-pe-piata-din-romania/">Agenția de publicitate BBDO revine pe piața din România</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:58:04+00:00">24 septembrie 2026, 12:58</time>
-      <a href="/auto/piata-auto-second-hand-din-romania-foloseste-finisaje-estetice-pentru-a-ascunde/">Piața auto second-hand din România folosește finisaje estetice pentru a ascunde defecte</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:57:16+00:00">24 septembrie 2026, 12:57</time>
-      <a href="/economic/compania-econergy-a-atras-fonduri-substantiale-pentru-proiecte-energetice/">Compania Econergy a atras fonduri substanțiale pentru proiecte energetice românești</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:46:46+00:00">24 septembrie 2026, 12:46</time>
-      <a href="/sport/cosmin-contra-ii-transmite-avertismente-lui-gica-hagi-inaintea-meciului-cu/">Cosmin Contra îi transmite avertismente lui Gică Hagi înaintea meciului cu Suedia</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:31:51+00:00">24 septembrie 2026, 12:31</time>
-      <a href="/economic/romania-a-propus-un-fond-de-investitii-bilateral-cu-sua/">România a propus un fond de investiții bilateral cu SUA</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:30:52+00:00">24 septembrie 2026, 12:30</time>
-      <a href="/general/varsta-de-pensionare-a-femeilor-va-creste-pana-in-2035/">Vârsta de pensionare a femeilor va crește până în 2035</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:28:28+00:00">24 septembrie 2026, 12:28</time>
-      <a href="/politic/premierul-desemnat-propune-unificarea-fortelor-de-politie/">Premierul desemnat propune unificarea forțelor de poliție</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T08:42:48+00:00">24 septembrie 2026, 11:42</time>
-      <a href="/economic/berd-estimeaza-o-scadere-de-02-a-pib-ului-romaniei-in-2026/">BERD estimează o scădere de 0,2% a PIB-ului României în 2026</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T08:38:00+00:00">24 septembrie 2026, 11:38</time>
-      <a href="/economic/orange-pregateste-plecari-voluntare-si-pensionari-anticipate-in-romania/">Orange pregătește plecări voluntare și pensionări anticipate în România</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T08:36:58+00:00">24 septembrie 2026, 11:36</time>
-      <a href="/politic/siegfried-muresan-propune-finalizarea-reformei-pensiilor-speciale/">Siegfried Mureșan propune finalizarea reformei pensiilor speciale</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T08:34:43+00:00">24 septembrie 2026, 11:34</time>
-      <a href="/sport/debuturi-si-derby-uri-in-prima-etapa-din-liga-natiunilor/">Debuturi și derby-uri în prima etapă din Liga Națiunilor</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T08:03:55+00:00">24 septembrie 2026, 11:03</time>
-      <a href="/economic/analistul-adrian-codirlasu-avertizeaza-asupra-riscurilor-pentru-leul-romanesc/">Analistul Adrian Codîrlașu avertizează asupra riscurilor pentru leul românesc în caz de retrogradare</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T08:02:00+00:00">24 septembrie 2026, 11:02</time>
-      <a href="/general/un-raport-grevio-critica-birocratia-intampinata-de-victimele-violentei/">Un raport GREVIO critică birocrația întâmpinată de victimele violenței domestice în România</a>
     </li>
   </ol>
   </main>

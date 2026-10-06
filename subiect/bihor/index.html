@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -72,8 +78,12 @@
   <h1 class="section-title">Subiect: Bihor</h1>
   <p class="follow"><a href="/subiect/bihor/feed.xml">Urmărește acest subiect (RSS) &rarr;</a></p>
   <p class="connections">Conexiuni:
-<a href="/subiect/oradea/">Oradea</a> · <a href="/subiect/bucuresti/">București</a> · <a href="/subiect/dumbrava/">Dumbrava</a> · <a href="/subiect/judecatoria-oradea/">Judecătoria Oradea</a> · <a href="/subiect/petrosani/">Petroșani</a> · <a href="/subiect/salard/">Sălard</a></p>
+<a href="/subiect/oradea/">Oradea</a> · <a href="/subiect/bucuresti/">București</a> · <a href="/subiect/dumbrava/">Dumbrava</a> · <a href="/subiect/judecatoria-oradea/">Judecătoria Oradea</a> · <a href="/subiect/salard/">Sălard</a> · <a href="/subiect/bcr/">BCR</a></p>
   <ol class="timeline">
+    <li>
+      <time datetime="2026-10-06T10:06:16+00:00">6 octombrie 2026, 13:06</time>
+      <a href="/local/un-profesor-din-bihor-s-a-mutat-in-vila-de-protocol-a-lui-nicolae-ceausescu/">Un profesor din Bihor s-a mutat în vila de protocol a lui Nicolae Ceaușescu</a>
+    </li>
     <li>
       <time datetime="2026-10-05T05:15:35+00:00">5 octombrie 2026, 08:15</time>
       <a href="/judetean/discrepante-mari-intre-salariile-medii-din-diverse-domenii-in-judetul-bihor/">Discrepanțe mari între salariile medii din diverse domenii în județul Bihor</a>
@@ -181,22 +191,6 @@
     <li>
       <time datetime="2026-09-24T13:29:35+00:00">24 septembrie 2026, 16:29</time>
       <a href="/local/perchezitii-in-bihor-si-bucuresti-intr-un-dosar-de-delapidare-a-fondurilor/">Percheziții în Bihor și București într-un dosar de delapidare a fondurilor umanitare</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:44:33+00:00">24 septembrie 2026, 12:44</time>
-      <a href="/general/un-fermier-propune-injumatatirea-suprafetelor-cultivate-pentru-salvarea/">Un fermier propune înjumătățirea suprafețelor cultivate pentru salvarea agriculturii</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:17:21+00:00">24 septembrie 2026, 12:17</time>
-      <a href="/sport/sportivii-din-judetul-bihor-au-obtinut-medalii-la-campionatul-national-de-tir/">Sportivii din județul Bihor au obținut medalii la Campionatul Național de tir cu arcul</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T08:57:54+00:00">24 septembrie 2026, 11:57</time>
-      <a href="/local/un-sofer-aflat-sub-influenta-alcoolului-a-intrat-cu-masina-in-gardul-unei/">Un șofer aflat sub influența alcoolului a intrat cu mașina în gardul unei locuințe din Bihor</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T08:54:53+00:00">24 septembrie 2026, 11:54</time>
-      <a href="/judetean/aproape-60-000-de-dosare-de-asistenta-sociala-au-fost-gestionate-in-bihor-pe/">Aproape 60.000 de dosare de asistență socială au fost gestionate în Bihor pe parcursul unui an</a>
     </li>
   </ol>
   </main>

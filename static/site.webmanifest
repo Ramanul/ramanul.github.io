@@ -22,6 +22,6 @@
   "shortcuts": [
     { "name": "Caută", "short_name": "Caută", "url": "/cauta/", "description": "Căutare în toate știrile publicate" },
     { "name": "Ce urmează", "short_name": "Calendar", "url": "/calendar/", "description": "Calendarul evenimentelor care urmează în știri" },
-    { "name": "Harta știrilor", "short_name": "Hartă", "url": "/static/harta-stiri/", "description": "Acoperirea județeană, pe hartă" }
+    { "name": "Harta știrilor", "short_name": "Hartă", "url": "/harta/", "description": "Acoperirea județeană, pe hartă" }
   ]
 }

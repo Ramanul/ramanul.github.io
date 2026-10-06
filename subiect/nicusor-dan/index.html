@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,11 +82,27 @@
   </figure>
   <p class="follow"><a href="/subiect/nicusor-dan/feed.xml">Urmărește acest subiect (RSS) &rarr;</a></p>
   <p class="connections">Conexiuni:
-<a href="/subiect/siegfried-muresan/">Siegfried Mureșan</a> · <a href="/subiect/aur/">AUR</a> · <a href="/subiect/romania/">România</a> · <a href="/subiect/psd/">PSD</a> · <a href="/subiect/sorin-grindeanu/">Sorin Grindeanu</a> · <a href="/subiect/luca-niculescu/">Luca Niculescu</a></p>
+<a href="/subiect/siegfried-muresan/">Siegfried Mureșan</a> · <a href="/subiect/aur/">AUR</a> · <a href="/subiect/psd/">PSD</a> · <a href="/subiect/romania/">România</a> · <a href="/subiect/sorin-grindeanu/">Sorin Grindeanu</a> · <a href="/subiect/luca-niculescu/">Luca Niculescu</a></p>
   <ol class="timeline">
+    <li>
+      <time datetime="2026-10-06T10:25:00+00:00">6 octombrie 2026, 13:25</time>
+      <a href="/politic/nicusor-dan-intentioneaza-sa-isi-creeze-un-partid-prezidential-dupa-model/">Nicușor Dan intenționează să își creeze un partid prezidențial după model francez, susține un avocat</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T10:06:49+00:00">6 octombrie 2026, 13:06</time>
+      <a href="/sport/jurnalistii-radu-naum-si-catalin-striblea-i-au-criticat-pe-gica-hagi-si-nicusor/">Jurnaliștii Radu Naum și Cătălin Striblea i-au criticat pe Gică Hagi și Nicușor Dan</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T09:38:04+00:00">6 octombrie 2026, 12:38</time>
+      <a href="/politic/psd-negociaza-cu-luca-niculescu-posibila-intrare-la-guvernare/">PSD negociază cu Luca Niculescu posibila intrare la guvernare</a>
+    </li>
     <li>
       <time datetime="2026-10-06T08:00:00+00:00">6 octombrie 2026, 11:00</time>
       <a href="/politic/nicusor-dan-i-a-cerut-lui-luca-niculescu-sa-formeze-o-majoritate-guvernamentala/">Nicușor Dan i-a cerut lui Luca Niculescu să formeze o majoritate guvernamentală</a>
+    </li>
+    <li>
+      <time datetime="2026-10-06T07:36:58+00:00">6 octombrie 2026, 10:36</time>
+      <a href="/politic/george-simion-cere-parlamentarilor-psd-sprijin-pentru-suspendarea-lui-nicusor/">George Simion cere parlamentarilor PSD sprijin pentru suspendarea lui Nicușor Dan</a>
     </li>
     <li>
       <time datetime="2026-10-06T04:02:18+00:00">6 octombrie 2026, 07:02</time>
@@ -112,7 +134,7 @@
     </li>
     <li>
       <time datetime="2026-10-05T17:57:33+00:00">5 octombrie 2026, 20:57</time>
-      <a href="/politic/nicusor-dan-l-a-desemnat-pe-luca-niculescu-drept-al-patrulea-candidat-pentru/">Nicușor Dan l-a desemnat pe Luca Niculescu drept al patrulea candidat pentru funcția de premier</a>
+      <a href="/politic/nicusor-dan-l-a-desemnat-pe-luca-niculescu-drept-al-patrulea-candidat-pentru/">Nicușor Dan l-a desemnat pe Luca Niculescu drept candidat pentru funcția de premier</a>
     </li>
     <li>
       <time datetime="2026-10-05T16:08:58+00:00">5 octombrie 2026, 19:08</time>
@@ -637,22 +659,6 @@
     <li>
       <time datetime="2026-09-24T11:11:59+00:00">24 septembrie 2026, 14:11</time>
       <a href="/politic/nicusor-dan-a-declarat-ca-nu-a-efectuat-analize-medicale-in-mandatul-sau/">Nicușor Dan a declarat că nu a efectuat analize medicale în mandatul său</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T10:11:29+00:00">24 septembrie 2026, 13:11</time>
-      <a href="/politic/presedintele-nicusor-dan-a-atras-atentia-la-onu-asupra-manipularii-online/">Președintele Nicușor Dan a atras atenția la ONU asupra manipulării online</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T10:05:00+00:00">24 septembrie 2026, 13:05</time>
-      <a href="/politic/nicusor-dan-dezaproba-publicarea-imaginilor-video-in-care-apare-sarutandu-se-cu/">Nicușor Dan dezaprobă publicarea imaginilor video în care apare sărutându-se cu partenera sa</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T09:44:29+00:00">24 septembrie 2026, 12:44</time>
-      <a href="/general/nicusor-dan-considera-inchis-subiectul-privind-acuzatiile-aduse-lui-lucian/">Nicușor Dan consideră închis subiectul privind acuzațiile aduse lui Lucian Pahonțu</a>
-    </li>
-    <li>
-      <time datetime="2026-09-24T04:44:07+00:00">24 septembrie 2026, 07:44</time>
-      <a href="/politic/presedintele-nicusor-dan-respinge-ideea-dizolvarii-parlamentului-si-cere-dialog/">Președintele Nicușor Dan respinge ideea dizolvării Parlamentului și cere dialog politic</a>
     </li>
   </ol>
   </main>

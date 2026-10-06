@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai" class="active">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai" class="active">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,6 +82,70 @@
 </nav>
   <h1 class="section-title">Inteligență artificială</h1>
   <section class="grid">
+<article class="card" data-cat="ai" data-source="G4Media" data-title="Canada a înființat un Consiliu Național pentru Inteligență Artificială"><a class="card-media" href="/ai/canada-a-infiintat-un-consiliu-national-pentru-inteligenta-artificiala/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t3" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Inteligență artificială</p></div>
+  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>3 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">3</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Inteligență artificială</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/ai/canada-a-infiintat-un-consiliu-national-pentru-inteligenta-artificiala/">Canada a înființat un Consiliu Național pentru Inteligență Artificială</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-03T07:53:00+00:00">3 octombrie 2026, 10:53</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Guvernul canadian a creat o nouă structură consultativă menită să ofere sfaturi independente pentru o dezvoltare responsabilă și suverană a tehnologiei IA.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.g4media.ro/canada-a-infiintat-un-consiliu-national-privind-inteligenta-artificiala.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
+</article>
+<article class="card" data-cat="ai" data-source="Start-up.ro" data-title="Majoritatea adolescenților români folosesc inteligența artificială pentru studiu"><a class="card-media" href="/ai/majoritatea-adolescentilor-romani-folosesc-inteligenta-artificiala-pentru-studiu/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t3" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">sâmbătă 3 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Inteligență artificială</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Inteligență artificială</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/ai/majoritatea-adolescentilor-romani-folosesc-inteligenta-artificiala-pentru-studiu/">Majoritatea adolescenților români folosesc inteligența artificială pentru studiu</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-03T05:00:01+00:00">3 octombrie 2026, 08:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Un studiu recent arată că nouă din zece tineri din România utilizează instrumente AI pentru activități educative și creative cel puțin lunar, iar jumătate dintre ei recunosc că petrec prea mult timp pe internet.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://start-up.ro/9-din-10-adolescenti-din-romania-folosesc-ai-pentru-invatare-sau-creativitate-aproape-jumatate-considera-ca-stau-prea-mult-online/" target="_blank" rel="noopener noreferrer">Start-up.ro</a></p>
+</article>
+<article class="card" data-cat="ai" data-source="XDA Developers" data-title="Proiectul Linux COSMIC interzice toate contribuțiile generate de inteligența artificială"><a class="card-media" href="/ai/proiectul-linux-cosmic-interzice-toate-contributiile-generate-de-inteligenta/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t3" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Inteligență artificială</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Inteligență artificială</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/ai/proiectul-linux-cosmic-interzice-toate-contributiile-generate-de-inteligenta/">Proiectul Linux COSMIC interzice toate contribuțiile generate de inteligența artificială</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T22:22:18+00:00">3 octombrie 2026, 01:22</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Echipa de dezvoltare a mediului grafic COSMIC a decis să respingă orice cod, comentariu sau descriere generată de modele lingvistice de inteligență artificială, din cauza volumului mare de astfel de solicitări primite.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.xda-developers.com/cosmic-bans-all-ai-generated-submissions/" target="_blank" rel="noopener noreferrer">XDA Developers</a></p>
+</article>
+<article class="card" data-cat="ai" data-source="Adevărul" data-title="Sistemele de inteligență artificială își organizează autonom sarcinile"><a class="card-media" href="/ai/sistemele-de-inteligenta-artificiala-isi-organizeaza-autonom-sarcinile/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t3" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Inteligență artificială</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Inteligență artificială</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/ai/sistemele-de-inteligenta-artificiala-isi-organizeaza-autonom-sarcinile/">Sistemele de inteligență artificială își organizează autonom sarcinile</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T20:41:39+00:00">2 octombrie 2026, 23:41</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Noile generații de agenți bazați pe inteligență artificială pot stabili singuri pașii necesari pentru finalizarea sarcinilor primite, fără a mai necesita intervenția detaliată sau coordonarea directă din partea utilizatorilor umani.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://adevarul.ro/stiri-externe/sua/agentii-de-inteligenta-artificiala-nu-mai-asteapta-2561161.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+</article>
 <article class="card" data-cat="ai" data-source="Antena 3 CNN" data-title="Cercetătorii suedezi au creat un sistem de inteligență artificială care realizează experimente"><a class="card-media" href="/ai/cercetatorii-suedezi-au-creat-un-sistem-de-inteligenta-artificiala-care/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t3" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Inteligență artificială</p></div>
   <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
@@ -327,68 +397,6 @@
   <p class="summary">Vicepreședintele executiv al companiei AMD, Thomas Zacharia, susține că aprovizionarea cu energie electrică, și nu numărul de cipuri produse, reprezintă principala provocare în dezvoltarea gigafabricilor europene de AI.</p>
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://www.zf.ro/business-hi-tech/thomas-zacharia-vicepresedinte-senior-al-gigantului-american-amd-despre-gigafabricile-de-inteligenta-artificiala-ale-ue-energia-nu-numarul-de-cipuri-este-acum-factorul-limitativ-in-aceste-proiecte-23251373" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></p>
-</article>
-<article class="card" data-cat="ai" data-source="MarkTechPost" data-title="Cloudflare lansează modelele de decizie open-weight Clef și Clef-flash"><a class="card-media" href="/ai/cloudflare-lanseaza-modelele-de-decizie-open-weight-clef-si-clef-flash/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t3" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Inteligență artificială</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Inteligență artificială</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/ai/cloudflare-lanseaza-modelele-de-decizie-open-weight-clef-si-clef-flash/">Cloudflare lansează modelele de decizie open-weight Clef și Clef-flash</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T01:00:41+00:00">2 octombrie 2026, 04:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Echipa Workers AI a lansat două modele specializate care returnează probabilități pe baza unui set de întrebări tipizate, excluzând generarea de text liber și oferind compatibilitate pentru auto-găzduire.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.marktechpost.com/2026/10/01/cloudflare-releases-clef-and-clef-flash/" target="_blank" rel="noopener noreferrer">MarkTechPost</a></p>
-</article>
-<article class="card" data-cat="ai" data-source="The New Stack" data-title="OpenAI introduce agenții autonomi Dots cu funcționare gratuită"><a class="card-media" href="/ai/openai-introduce-agentii-autonomi-dots-cu-functionare-gratuita/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t3" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Inteligență artificială</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">01</span><span class="art-num-wk">joi</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Inteligență artificială</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/ai/openai-introduce-agentii-autonomi-dots-cu-functionare-gratuita/">OpenAI introduce agenții autonomi Dots cu funcționare gratuită</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-01T22:00:57+00:00">2 octombrie 2026, 01:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Noii agenți Dots dezvoltați de OpenAI funcționează permanent fără a consuma din limita standard de utilizare în perioada de lansare, deși apar nelămuriri privind transferul sarcinilor către alte produse.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://thenewstack.io/openai-dots-codex-usage/" target="_blank" rel="noopener noreferrer">The New Stack</a></p>
-</article>
-<article class="card" data-cat="ai" data-source="Antena 3 CNN" data-title="Ucraina propune Uniunii Europene să devină pol de testare pentru inteligența artificială"><a class="card-media" href="/ai/ucraina-propune-uniunii-europene-sa-devina-pol-de-testare-pentru-inteligenta/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t3" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Inteligență artificială</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">joi</span><span class="art-num-zi">01</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Inteligență artificială</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/ai/ucraina-propune-uniunii-europene-sa-devina-pol-de-testare-pentru-inteligenta/">Ucraina propune Uniunii Europene să devină pol de testare pentru inteligența artificială</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-01T20:45:00+00:00">1 octombrie 2026, 23:45</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Ministerul Transformării Digitale de la Kiev a lansat o ofertă oficială către Bruxelles pentru a folosi infrastructura și mediul ucrainean ca teren de testare pentru tehnologiile bazate pe IA.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/externe/kievul-propune-uniunii-europene-sa-foloseasca-ucraina-drept-teren-de-testare-pentru-inteligenta-artificiala-804988.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="ai" data-source="The New Stack" data-title="Dynatrace cumpără Arize pentru a îmbunătăți observabilitatea agenților AI"><a class="card-media" href="/ai/dynatrace-cumpara-arize-pentru-a-imbunatati-observabilitatea-agentilor-ai/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t3" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Inteligență artificială</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">01</span><span class="art-num-wk">joi</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Inteligență artificială</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/ai/dynatrace-cumpara-arize-pentru-a-imbunatati-observabilitatea-agentilor-ai/">Dynatrace cumpără Arize pentru a îmbunătăți observabilitatea agenților AI</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-01T20:05:00+00:00">1 octombrie 2026, 23:05</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Dezvoltarea inteligenței artificiale și a modelelor lingvistice mari impune instrumente noi de monitorizare, deoarece aplicațiile pot funcționa corect tehnic, dar pot oferi răspunsuri greșite.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://thenewstack.io/dynatrace-arize-agents-observability/" target="_blank" rel="noopener noreferrer">The New Stack</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

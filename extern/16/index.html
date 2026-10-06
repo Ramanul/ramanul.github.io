@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern" class="active">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern" class="active">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,317 +82,311 @@
 </nav>
   <h1 class="section-title">Externe</h1>
   <section class="grid">
-<article class="card" data-cat="extern" data-source="Europa Liberă" data-title="Un dentist israelian a salvat viața unui pilot în timpul unui zbor"><a class="card-media" href="/extern/un-dentist-israelian-a-salvat-viata-unui-pilot-in-timpul-unui-zbor/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
+<article class="card card-c" data-cat="extern" data-source="Digi24 Extern" data-title="Serviciile secrete ruse au primit ordin să intensifice războiul hibrid în Europa"><a class="card-media" href="/extern/serviciile-secrete-ruse-au-primit-ordin-sa-intensifice-razboiul-hibrid-in-europa/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t0" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
   <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/un-dentist-israelian-a-salvat-viata-unui-pilot-in-timpul-unui-zbor/">Un dentist israelian a salvat viața unui pilot în timpul unui zbor</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T14:26:42+00:00">2 octombrie 2026, 17:26</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Șota Musaiev, medic stomatolog originar din Georgia, a intervenit pentru a acorda primul ajutor căpitanului unui avion de pasageri care a fost înjunghiat în timpul unei curse a companiei flydubai. Incidentul aviatic face obiectul unei anchete internaționale.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.europalibera.md/a/mi-am-luat-adio-pentru-totdeauna-un-dentist-israelian-povesteste-cum-a-ajutat-la-salvarea-capitanului-ranit-pe-zborul-flydubai/33869218.html" target="_blank" rel="noopener noreferrer">Europa Liberă</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Curs de Guvernare" data-title="Comisia Europeană susține aderarea Muntenegrului la UE până în 2028"><a class="card-media" href="/extern/comisia-europeana-sustine-aderarea-muntenegrului-la-ue-pana-in-2028/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/comisia-europeana-sustine-aderarea-muntenegrului-la-ue-pana-in-2028/">Comisia Europeană susține aderarea Muntenegrului la UE până în 2028</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T14:26:41+00:00">2 octombrie 2026, 17:26</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Președinta Comisiei Europene, Ursula von der Leyen, a reiterat sprijinul pentru integrarea Muntenegrului ca al 28-lea stat membru al Uniunii. Instituția europeană pregătește deja proiectul tratatului de aderare și un pachet financiar dedicat.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/muntenegru-aderare-ue-comisia-europeana-tratat-pachet-financiar-von-der-leyen-turneu-balcanii-de-vest.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Politico EU" data-title="Negocierile comerciale dintre Uniunea Europeană și China sunt dificile"><a class="card-media" href="/extern/negocierile-comerciale-dintre-uniunea-europeana-si-china-sunt-dificile/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/negocierile-comerciale-dintre-uniunea-europeana-si-china-sunt-dificile/">Negocierile comerciale dintre Uniunea Europeană și China sunt dificile</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T14:04:26+00:00">2 octombrie 2026, 17:04</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Comisarul european pentru comerț, Maroš Šefčovič, a declarat că discuțiile economice cu Beijingul pentru un acord comercial sunt complexe și se află încă în stadii incipiente, în marja unei reuniuni G20 din SUA.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.politico.eu/article/sefcovic-verhandlung-mit-china-noch-ohne-ergebnisse/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication" target="_blank" rel="noopener noreferrer">Politico EU</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Curs de Guvernare" data-title="Statele Unite suplimentează trupele din Lituania și Estonia pentru întărirea Flancului Estic"><a class="card-media" href="/extern/statele-unite-suplimenteaza-trupele-din-lituania-si-estonia-pentru-intarirea/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/statele-unite-suplimenteaza-trupele-din-lituania-si-estonia-pentru-intarirea/">Statele Unite suplimentează trupele din Lituania și Estonia pentru întărirea Flancului Estic</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T13:18:20+00:00">2 octombrie 2026, 16:18</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Armata americană reia prezența militară în Lituania prin trimiterea a circa o mie de militari, consolidând astfel apărarea regională și transmițând un semnal ferm de descurajare la granița estică a NATO.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/sua-soldati-lituania-estonia-baza-permanenta-polonia-extindere-prezenta-romania-consolidare-flanc-estic-nato.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Vladimir Putin a ordonat comandanților armatei ruse ignorarea regulilor războiului"><a class="card-media" href="/extern/vladimir-putin-a-ordonat-comandantilor-armatei-ruse-ignorarea-regulilor/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/vladimir-putin-a-ordonat-comandantilor-armatei-ruse-ignorarea-regulilor/">Vladimir Putin a ordonat comandanților armatei ruse ignorarea regulilor războiului</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T12:43:00+00:00">2 octombrie 2026, 15:43</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Liderul de la Kremlin le-a cerut militarilor ruși să renunțe la normele conflictului armat, decizie care a generat o intensificare masivă a atacurilor aeriene asupra zonelor civile din Ucraina.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/externe/volodimir-zelenski-putin-le-a-ordonat-comandantilor-militari-sa-renunte-la-regulile-razboiului-805572.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Digi24" data-title="O dronă militară rusească s-a prăbușit în localitatea tulceană Plauru"><a class="card-media" href="/extern/o-drona-militara-ruseasca-s-a-prabusit-in-localitatea-tulceana-plauru/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/o-drona-militara-ruseasca-s-a-prabusit-in-localitatea-tulceana-plauru/">O dronă militară rusească s-a prăbușit în localitatea tulceană Plauru</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T12:41:54+00:00">2 octombrie 2026, 15:41</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">O dronă implicată în atacurile asupra Ucrainei a căzut la Plauru, provocând un incendiu și un crater. Localnicii afirmă că nu au primit mesaj RO-Alert, iar radarele MApN nu au detectat aparatul.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digi24.ro/stiri/actualitate/imagini-exclusive-cu-drona-prabusita-in-plauru-localnicii-spun-ca-nu-au-primit-ro-alert-iar-radarele-mapn-nu-au-detectat-o-3974951" target="_blank" rel="noopener noreferrer">Digi24</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Adevărul" data-title="Pilotul Flydubai înjunghiat de copilot a acționat pentru a salva pasagerii"><a class="card-media" href="/extern/pilotul-flydubai-injunghiat-de-copilot-a-actionat-pentru-a-salva-pasagerii/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/pilotul-flydubai-injunghiat-de-copilot-a-actionat-pentru-a-salva-pasagerii/">Pilotul Flydubai înjunghiat de copilot a acționat pentru a salva pasagerii</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T12:34:19+00:00">2 octombrie 2026, 15:34</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Aviatorul indian atacat în cabina de pilotaj de către copilotul său a explicat că a deschis ușa spre interior pentru a asigura scăparea pasagerilor, fiind decis să nu permită pierderea vieților omenești.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://adevarul.ro/stiri-externe/in-lume/nu-aveam-de-gand-sa-i-las-pe-ceilalti-sa-moara-2561394.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
-</article>
-<article class="card card-c" data-cat="extern" data-source="Adevărul" data-title="Nicușor Dan a participat la Adunarea Generală a ONU și s-a fotografiat cu Donald Trump"><a class="card-media" href="/extern/nicusor-dan-a-publicat-o-fotografie-de-la-intalnirea-cu-donald-trump/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/donald-trump.jpg" alt="Donald Trump" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
 </div></a><span class="badge c">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/extern/nicusor-dan-a-publicat-o-fotografie-de-la-intalnirea-cu-donald-trump/">Nicușor Dan a participat la Adunarea Generală a ONU și s-a fotografiat cu Donald Trump</a></h2>
+  <h2 class="card-title"><a href="/extern/serviciile-secrete-ruse-au-primit-ordin-sa-intensifice-razboiul-hibrid-in-europa/">Serviciile secrete ruse au primit ordin să intensifice războiul hibrid în Europa</a></h2>
   <div class="meta">
-    <time datetime="2026-10-02T12:25:21+00:00">2 octombrie 2026, 15:25</time>
+    <time datetime="2026-10-02T19:18:53+00:00">2 octombrie 2026, 22:18</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Președintele Nicușor Dan a luat parte la cea de-a 81-a sesiune a Adunării Generale a ONU de la New York. În cadrul vizitei, care a inclus întrevederi bilaterale, acesta a publicat o fotografie în care apare alături de Donald Trump și de Mirabela Grădinaru, imagine realizată la recepția oferită de liderul american.</p>
+  <p class="summary">Serviciul de informații militare al Ucrainei a avertizat că agențiile secrete din Rusia au primit sarcina de a spori atacurile și acțiunile de război hibrid împotriva statelor NATO și a partenerilor europeni. Oficialii ucraineni au transmis deja aceste planuri criminale către aliații din regiune pentru a spori vigilența.</p>
   <p class="sources-inline"><b>Surse:</b>
-<a href="https://adevarul.ro/stiri-interne/evenimente/nicusor-dan-publica-o-fotografie-cu-donald-trump-2561392.html" target="_blank" rel="noopener noreferrer">Adevărul</a>, <a href="https://hotnews.ro/nicusor-dan-publica-o-fotografie-alaturi-donald-trump-cand-s-a-intalnit-cu-presedintele-sua-2364966" target="_blank" rel="noopener noreferrer">HotNews</a>, <a href="https://www.antena3.ro/politica/nicusor-dan-a-publicat-o-fotografie-cu-trump-la-aproape-2-saptamani-de-la-intalnirea-de-la-new-york-sua-se-pot-baza-pe-romania-805584.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a>, <a href="https://jurnalulolteniei.ro/nicusor-dan-s-a-fotografiat-cu-donald-trump-la-new-york/" target="_blank" rel="noopener noreferrer">Jurnalul Olteniei</a></p>
+<a href="https://www.digi24.ro/stiri/externe/ue/serviciile-secrete-ruse-au-primit-misiunea-de-a-si-intensifica-operatiunile-hibride-in-europa-avertizeaza-ucraina-3975615" target="_blank" rel="noopener noreferrer">Digi24 Extern</a>, <a href="https://hotnews.ro/serviciile-ruse-au-primit-sarcina-de-a-intensifica-razboiul-hibrid-in-statele-nato-sustine-spionajul-militar-al-ucrainei-avertisment-transmis-aliatilor-2365371" target="_blank" rel="noopener noreferrer">HotNews</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Un elicopter militar rus Mi-8 a fost doborât din greșeală de propria apărare aeriană"><a class="card-media" href="/extern/un-elicopter-militar-rus-mi-8-a-fost-doborat-din-greseala-de-propria-aparare/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+<article class="card" data-cat="extern" data-source="G4Media" data-title="Donald Trump anunță că Europa va elibera rezerve masive de motorină"><a class="card-media" href="/extern/donald-trump-anunta-ca-europa-va-elibera-rezerve-masive-de-motorina/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0 art--portret" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/donald-trump.jpg" alt="Donald Trump" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/donald-trump-anunta-ca-europa-va-elibera-rezerve-masive-de-motorina/">Donald Trump anunță că Europa va elibera rezerve masive de motorină</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T18:30:47+00:00">2 octombrie 2026, 21:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Președintele SUA a declarat că statele europene au decis să pună pe piață rezerve de motorină pentru a evita blocarea exporturilor americane și a reduce prețurile combustibililor înainte de alegeri.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.g4media.ro/trump-anunta-ca-europa-a-convenit-sa-elibereze-o-cantitate-masiva-din-rezervele-sale-de-motorina-un-pas-esential-pentru-a-evita-blocarea-exporturilor-americane.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="ProSport" data-title="Numele lui Larry Nassar a fost scos din registrul infractorilor sexuali din SUA"><a class="card-media" href="/extern/numele-lui-larry-nassar-a-fost-scos-din-registrul-infractorilor-sexuali-din-sua/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0 art--portret" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/larry-nassar.jpg" alt="Larry Nassar" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/numele-lui-larry-nassar-a-fost-scos-din-registrul-infractorilor-sexuali-din-sua/">Numele lui Larry Nassar a fost scos din registrul infractorilor sexuali din SUA</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T18:30:28+00:00">2 octombrie 2026, 21:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fostul medic al lotului de gimnastică american, condamnat la închisoare pe viață pentru abuzuri sexuale grave, a fost șters dintr-un registru național al infractorilor, alături de alte zeci de mii de persoane.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.prosport.ro/diverse/decizie-controversata-pradatorul-gimnastica-registru-infractor-sexuali-pedeapsa-uriasa-larry-nassar-20538236" target="_blank" rel="noopener noreferrer">ProSport</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Antena 3 CNN" data-title="Alertă cu bombă pe Aeroportul din Chișinău: pasageri evacuați și zboruri perturbate"><a class="card-media" href="/extern/alerta-cu-bomba-pe-aeroportul-din-chisinau-pasageri-evacuati-si-zboruri/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/un-elicopter-militar-rus-mi-8-a-fost-doborat-din-greseala-de-propria-aparare/">Un elicopter militar rus Mi-8 a fost doborât din greșeală de propria apărare aeriană</a></h2>
+  <h2 class="card-title"><a href="/extern/alerta-cu-bomba-pe-aeroportul-din-chisinau-pasageri-evacuati-si-zboruri/">Alertă cu bombă pe Aeroportul din Chișinău: pasageri evacuați și zboruri perturbate</a></h2>
   <div class="meta">
-    <time datetime="2026-10-02T12:22:39+00:00">2 octombrie 2026, 15:22</time>
+    <time datetime="2026-10-02T18:23:00+00:00">2 octombrie 2026, 21:23</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Sistemele antirachetă ale armatei ruse au doborât accidental un elicopter militar Mi-8 în timpul unei misiuni contra Ucrainei, provocând moartea întregului echipaj aflat la bord.</p>
+  <p class="summary">Aeroportul Internațional din Chișinău a fost evacuat vineri după-amiază în urma unei alerte cu bombă, măsură care a generat blocaje și a dat peste cap programul curselor aeriene planificate pentru acea zi.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digi24.ro/stiri/externe/rusia/toate-se-inclina-in-fata-majestatii-sale-idiotul-rusii-si-au-doborat-propriul-elicopter-in-timpul-unui-atac-asupra-ucrainenilor-3974915" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+<a href="https://www.antena3.ro/externe/alerta-falsa-cu-bomba-vineri-la-aeroportul-din-chisinau-pasagerii-au-fost-evacuati-iar-programul-zborurilor-a-fost-afectat-805632.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Curs de Guvernare" data-title="SUA suplimentează trupele și trimite un nou portavion în Orientul Mijlociu"><a class="card-media" href="/extern/sua-suplimenteaza-trupele-si-trimite-un-nou-portavion-in-orientul-mijlociu/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/donald-trump.jpg" alt="Donald Trump" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/sua-suplimenteaza-trupele-si-trimite-un-nou-portavion-in-orientul-mijlociu/">SUA suplimentează trupele și trimite un nou portavion în Orientul Mijlociu</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T12:20:56+00:00">2 octombrie 2026, 15:20</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Pentagonul a decis dislocarea unui al treilea grup naval cu portavion și a circa 10.000 de militari suplimentari în Orientul Mijlociu, pe fondul analizei administrației Trump privind reluarea ostilităților.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/sua-trimit-un-al-treilea-portavion-si-pana-la-10-000-de-militari-suplimentari-in-orientul-mijlociu-administratia-trump-pregateste-reluarea-ostilitatilor.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="G4Media" data-title="Lituania testează sistemul ucrainean de radare anti-dronă"><a class="card-media" href="/extern/lituania-testeaza-sistemul-ucrainean-de-radare-anti-drona/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+<article class="card" data-cat="extern" data-source="Adevărul" data-title="Un fermier canadian mutat în Rusia pentru a evita Occidentul se teme de înrolare"><a class="card-media" href="/extern/un-fermier-canadian-mutat-in-rusia-pentru-a-evita-occidentul-se-teme-de-inrolare/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/lituania-testeaza-sistemul-ucrainean-de-radare-anti-drona/">Lituania testează sistemul ucrainean de radare anti-dronă</a></h2>
+  <h2 class="card-title"><a href="/extern/un-fermier-canadian-mutat-in-rusia-pentru-a-evita-occidentul-se-teme-de-inrolare/">Un fermier canadian mutat în Rusia pentru a evita Occidentul se teme de înrolare</a></h2>
   <div class="meta">
-    <time datetime="2026-10-02T12:13:53+00:00">2 octombrie 2026, 15:13</time>
+    <time datetime="2026-10-02T18:19:54+00:00">2 octombrie 2026, 21:19</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Ministerul Apărării din Lituania a anunțat testarea sistemului ucrainean de supraveghere aeriană numit Sky Fortress. Tehnologia este evaluată pentru a consolida apărarea națională împotriva amenințărilor aeriene moderne.</p>
+  <p class="summary">Un cetățean canadian care s-a relocat cu familia în Rusia pentru a fugi de valorile occidentale a declarat că autoritățile ruse i-au cerut să semneze un contract cu Ministerul Apărării în schimbul obținerii rezidenței permanente.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.g4media.ro/lituania-testeaza-sistemul-ucrainean-de-detectare-a-dronelor-sky-fortress.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
+<a href="https://adevarul.ro/stiri-externe/in-lume/povestea-fermierului-canadian-care-s-a-mutat-cu-2561470.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Adevărul" data-title="Analist polonez: Polonia și România trebuie să conducă eforturile NATO"><a class="card-media" href="/extern/analist-polonez-polonia-si-romania-trebuie-sa-conduca-eforturile-nato/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Noul guvern ungar vizează combaterea corupției printr-o investigație majoră"><a class="card-media" href="/extern/noul-guvern-ungar-vizeaza-combaterea-coruptiei-printr-o-investigatie-majora/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0 art--portret" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/viktor-orban.jpg" alt="Viktor Orban" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/analist-polonez-polonia-si-romania-trebuie-sa-conduca-eforturile-nato/">Analist polonez: Polonia și România trebuie să conducă eforturile NATO</a></h2>
+  <h2 class="card-title"><a href="/extern/noul-guvern-ungar-vizeaza-combaterea-coruptiei-printr-o-investigatie-majora/">Noul guvern ungar vizează combaterea corupției printr-o investigație majoră</a></h2>
   <div class="meta">
-    <time datetime="2026-10-02T12:05:44+00:00">2 octombrie 2026, 15:05</time>
+    <time datetime="2026-10-02T18:19:12+00:00">2 octombrie 2026, 21:19</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Un specialist polon susține că Bucureștiul și Varșovia trebuie să adopte o strategie comună la Bruxelles, să mențină parteneriatul ferm cu SUA și să contracareze amenințările hibride rusești.</p>
+  <p class="summary">Executivul din Ungaria a inițiat „Operațiunea Focul Purificator” pentru destructurarea rețelelor corupte din mandatul fostului premier Viktor Orban, politicianul riscând să devină primul oficial de rang înalt trimis în judecată.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://adevarul.ro/securitate-si-aparare/polonia-si-romania-ar-trebui-sa-preia-conducerea-2560924.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+<a href="https://www.digi24.ro/stiri/externe/ue/operatiunea-focul-purificator-l-ar-putea-viza-pe-viktor-orban-fostul-premier-maghiar-ar-putea-ajunge-in-fata-justitiei-3975515" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="The Guardian" data-title="Muzeul Britanic ar trebui să returneze sculpturile Partenonului Greciei"><a class="card-media" href="/extern/muzeul-britanic-ar-trebui-sa-returneze-sculpturile-partenonului-greciei/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Lula da Silva candidează pentru al patrulea mandat prezidențial în Brazilia"><a class="card-media" href="/extern/lula-da-silva-candideaza-pentru-al-patrulea-mandat-prezidential-in-brazilia/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/muzeul-britanic-ar-trebui-sa-returneze-sculpturile-partenonului-greciei/">Muzeul Britanic ar trebui să returneze sculpturile Partenonului Greciei</a></h2>
+  <h2 class="card-title"><a href="/extern/lula-da-silva-candideaza-pentru-al-patrulea-mandat-prezidential-in-brazilia/">Lula da Silva candidează pentru al patrulea mandat prezidențial în Brazilia</a></h2>
   <div class="meta">
-    <time datetime="2026-10-02T12:00:08+00:00">2 octombrie 2026, 15:00</time>
+    <time datetime="2026-10-02T18:17:49+00:00">2 octombrie 2026, 21:17</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Autorul argumentează că Marea Britanie ar trebui să restituie Greciei sculpturile antice din Partenon deținute de Muzeul Britanic, subliniind că acestea nu aparțin patrimoniului britanic.</p>
+  <p class="summary">La vârsta de 80 de ani, liderul brazilian intră din nou în cursa pentru președinție, confruntându-se într-o competiție strânsă cu rivalul Flávio Bolsonaro, conform sondajelor recente.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.theguardian.com/commentisfree/2026/oct/02/parthenon-marbles-british-museum-greece-bayeux-tapestry" target="_blank" rel="noopener noreferrer">The Guardian</a></p>
+<a href="https://www.digi24.ro/stiri/externe/mapamond/lula-se-pregateste-pentru-ultimul-dans-la-80-de-ani-presedintele-braziliei-candideaza-pentru-al-patrulea-mandat-3975507" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
 </article>
-<article class="card card-c" data-cat="extern" data-source="Economica" data-title="Comisia Europeană a deblocat o nouă tranșă de 2,9 miliarde de euro pentru Ucraina"><a class="card-media" href="/extern/comisia-europeana-a-deblocat-o-noua-transa-de-29-miliarde-de-euro-pentru-ucraina/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card" data-cat="extern" data-source="G4Media" data-title="Curtea Supremă din Israel permite partidelor arabe să participe la alegeri"><a class="card-media" href="/extern/curtea-suprema-din-israel-permite-partidelor-arabe-sa-participe-la-alegeri/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/curtea-suprema-din-israel-permite-partidelor-arabe-sa-participe-la-alegeri/">Curtea Supremă din Israel permite partidelor arabe să participe la alegeri</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T18:09:03+00:00">2 octombrie 2026, 21:09</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Magistrații israelieni au respins cererile extremei drepte, validând participarea formațiunilor arabe la scrutinul parlamentar din 27 octombrie, decizie care poate influența majoritatea viitorului guvern.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.g4media.ro/curtea-suprema-din-israel-valideaza-partidele-arabe-pentru-alegeri-parlamentarii-arabi-ar-putea-decide-noua-majoritatea-guvernamenrala-dupa-scrutinul-din-27-octombrie.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Economica" data-title="Marina Berlusconi respinge acuzațiile privind presupuse legături ale tatălui său cu mafia"><a class="card-media" href="/extern/marina-berlusconi-respinge-acuzatiile-privind-presupuse-legaturi-ale-tatalui/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/marina-berlusconi-respinge-acuzatiile-privind-presupuse-legaturi-ale-tatalui/">Marina Berlusconi respinge acuzațiile privind presupuse legături ale tatălui său cu mafia</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T17:59:01+00:00">2 octombrie 2026, 20:59</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fiica fostului premier italian Silvio Berlusconi s-a arătat indignată după ce un fost lider mafiot a declarat în fața instanței din Florența că familia mafiotă Cosa Nostra ar fi investit sume mari în afacerile imobiliare inițiale.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.economica.net/a-fost-silvio-berlusconi-asociat-cu-mafia-un-fost-cap-mafiot-spune-ca-da-marina-berlusconi-fiica-cea-mai-mare-a-fostului-premier-italian-se-arata-revoltata-de-dezvaluire_982446.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Observator" data-title="Detalii noi despre tentativa de prăbușire a unui avion FlyDubai"><a class="card-media" href="/extern/detalii-noi-despre-tentativa-de-prabusire-a-unui-avion-flydubai/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/detalii-noi-despre-tentativa-de-prabusire-a-unui-avion-flydubai/">Detalii noi despre tentativa de prăbușire a unui avion FlyDubai</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T17:47:00+00:00">2 octombrie 2026, 20:47</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Comandantul aeronavei FlyDubai a rememorat lupta dramatică dusă împotriva copilotului care a încercat să deturneze avionul cu 174 de oameni la bord, agresorul fiind acum anchetat pentru terorism în Emiratele Arabe Unite.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://observatornews.ro/eveniment/noi-imagini-din-avionul-flydubai-pe-care-un-copilot-a-vrut-sa-il-prabuseasca-668012.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
+</article>
+<article class="card card-c" data-cat="extern" data-source="G4Media" data-title="Maia Sandu cere sprijinul Finlandei pentru aderarea la UE și avertizează asupra riscurilor geopolitice"><a class="card-media" href="/extern/maia-sandu-cere-sprijinul-finlandei-pentru-aderarea-la-ue-si-avertizeaza-asupra/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge c">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
-  <h2 class="card-title"><a href="/extern/comisia-europeana-a-deblocat-o-noua-transa-de-29-miliarde-de-euro-pentru-ucraina/">Comisia Europeană a deblocat o nouă tranșă de 2,9 miliarde de euro pentru Ucraina</a></h2>
+  <h2 class="card-title"><a href="/extern/maia-sandu-cere-sprijinul-finlandei-pentru-aderarea-la-ue-si-avertizeaza-asupra/">Maia Sandu cere sprijinul Finlandei pentru aderarea la UE și avertizează asupra riscurilor geopolitice</a></h2>
   <div class="meta">
-    <time datetime="2026-10-02T11:58:26+00:00">2 octombrie 2026, 14:58</time>
+    <time datetime="2026-10-02T17:30:12+00:00">2 octombrie 2026, 20:30</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Comisia Europeană a virat 2,9 miliarde de euro pentru a sprijini nevoile de finanțare și funcționarea administrației publice din Ucraina. Această sumă include 800 de milioane de euro acordate prin Mecanismul pentru Ucraina și o contribuție din Împrumutul de Sprijin pentru 2026, fondurile fiind eliberate în urma îndeplinirii unor reforme structurale de către Kiev.</p>
+  <p class="summary">În timpul vizitei sale în Finlanda, președinta Republicii Moldova, Maia Sandu, a obținut susținerea Helsinkiului pentru parcursul european al țării și a anunțat o cooperare strânsă în domeniul securității. Șefa statului a subliniat că un eventual control al Kremlinului asupra Chișinăului ar spori vulnerabilitatea Ucrainei.</p>
   <p class="sources-inline"><b>Surse:</b>
-<a href="https://www.economica.net/un-nou-ajutor-pentru-ucraina-comisia-europeana-a-deblocat-29-miliarde-de-euro-pentru-a-acoperi-necesitatile-de-finantare-ale-ucrainei_982297.html" target="_blank" rel="noopener noreferrer">Economica</a>, <a href="https://www.g4media.ro/comisia-europeana-a-deblocat-2-9-miliarde-de-euro-pentru-a-acoperi-necesitatile-de-finantare-ale-ucrainei.html" target="_blank" rel="noopener noreferrer">G4Media</a>, <a href="https://www.digi24.ro/stiri/economie/29-miliarde-de-euro-pentru-ucraina-comisia-europeana-acorda-o-noua-transa-pentru-finantarea-tarii-3974911" target="_blank" rel="noopener noreferrer">Digi24</a></p>
+<a href="https://www.g4media.ro/maia-sandu-o-moldova-aflata-sub-controlul-kremlinului-ar-face-ucraina-mai-vulnerabila-investim-in-apararea-antiaeriana-ne-modernizam-armata.html" target="_blank" rel="noopener noreferrer">G4Media</a>, <a href="https://www.antena3.ro/externe/moldova-a-obtinut-sprijinul-finlandei-pentru-aderarea-la-ue-maia-sandu-o-moldova-sub-controlul-rusiei-ar-face-ucraina-mai-vulnerabila-805628.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="HotNews" data-title="Sancțiuni americane severe împotriva rețelei oligarhului Ilan Șor"><a class="card-media" href="/extern/sanctiuni-americane-severe-impotriva-retelei-oligarhului-ilan-sor/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/sanctiuni-americane-severe-impotriva-retelei-oligarhului-ilan-sor/">Sancțiuni americane severe împotriva rețelei oligarhului Ilan Șor</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T11:56:08+00:00">2 octombrie 2026, 14:56</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Trezoreria SUA a impus măsuri drastice împotriva sistemului bancar clandestin A7, condus de oligarhul fugar Ilan Șor. Rețeaua este acuzată că a ajutat Iranul și alte state sancționate să ocolească restricțiile financiare internaționale.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/trezoreria-sua-ia-masuri-fara-precedent-impotriva-retelei-oligarhului-moldovean-ilan-sor-pe-care-o-acuza-ca-ajuta-iranul-sa-evite-sanctiunile-2364920" target="_blank" rel="noopener noreferrer">HotNews</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="HotNews" data-title="Relațiile Spaniei cu China ridică semne de întrebare în Uniunea Europeană"><a class="card-media" href="/extern/relatiile-spaniei-cu-china-ridica-semne-de-intrebare-in-uniunea-europeana/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/pedro-sanchez.jpg" alt="Pedro Sanchez" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/relatiile-spaniei-cu-china-ridica-semne-de-intrebare-in-uniunea-europeana/">Relațiile Spaniei cu China ridică semne de întrebare în Uniunea Europeană</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T11:50:44+00:00">2 octombrie 2026, 14:50</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Premierul spaniol Pedro Sánchez a intensificat vizitele diplomatice la Beijing, consolidând parteneriatul economic bilateral pe fondul tensiunilor comerciale dintre Occident și China.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/un-stat-major-din-ue-poate-deveni-preferatul-chinei-dupa-plecarea-lui-viktor-orban-de-la-carma-ungariei-iar-asta-starneste-semne-de-intrebare-2364689" target="_blank" rel="noopener noreferrer">HotNews</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Kievul infirmă blocarea avioanelor F-16 și susține că le folosește intens"><a class="card-media" href="/extern/kievul-infirma-blocarea-avioanelor-f-16-si-sustine-ca-le-foloseste-intens/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Externe</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
-  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Externe</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/kievul-infirma-blocarea-avioanelor-f-16-si-sustine-ca-le-foloseste-intens/">Kievul infirmă blocarea avioanelor F-16 și susține că le folosește intens</a></h2>
-  <div class="meta">
-    <time datetime="2026-10-02T11:47:47+00:00">2 octombrie 2026, 14:47</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Autoritățile din Ucraina au dezmințit informațiile din presă potrivit cărora majoritatea avioanelor de vânătoare F-16 primite de la aliații occidentali ar fi fost retrase de la zbor din cauza problemelor tehnice.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digi24.ro/stiri/externe/ucraina-explica-situatia-avioanelor-sale-f-16-dupa-ce-au-aparut-informatii-privind-probleme-de-mentenanta-ce-spune-kievul-3974813" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
-</article>
-<article class="card" data-cat="extern" data-source="Curs de Guvernare" data-title="Ministrul grec al Energiei neagă presiunile diplomatice exercitate de SUA"><a class="card-media" href="/extern/ministrul-grec-al-energiei-neaga-presiunile-diplomatice-exercitate-de-sua/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p5 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+<article class="card" data-cat="extern" data-source="Știrile ProTV" data-title="Detalii despre atacul din avionul companiei Flydubai"><a class="card-media" href="/extern/detalii-despre-atacul-din-avionul-companiei-flydubai/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
   <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
   <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/ministrul-grec-al-energiei-neaga-presiunile-diplomatice-exercitate-de-sua/">Ministrul grec al Energiei neagă presiunile diplomatice exercitate de SUA</a></h2>
+  <h2 class="card-title"><a href="/extern/detalii-despre-atacul-din-avionul-companiei-flydubai/">Detalii despre atacul din avionul companiei Flydubai</a></h2>
   <div class="meta">
-    <time datetime="2026-10-02T11:41:04+00:00">2 octombrie 2026, 14:41</time>
+    <time datetime="2026-10-02T17:29:25+00:00">2 octombrie 2026, 20:29</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Oficialul elen Stavros Papastavrou a respins acuzațiile referitoare la o presupusă amenințare venită din partea ambasadorului american în timpul unei cine oficiale organizate la Atena.</p>
+  <p class="summary">Pilotul indian care a intervenit pentru salvarea aeronavei Flydubai a relatat momentele critice prin care a trecut, în timp ce anchetatorii investighează discuțiile online purtate de agresor înainte de incident.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://cursdeguvernare.ro/ministru-energie-grecia-negare-amenintare-ambasadoare-sua-cadere-guvern-bolojan.html" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></p>
+<a href="https://stirileprotv.ro/stiri/international/atacatorul-din-avionul-flydubai-ar-fi-discutat-online-despre-uciderea-evreilor-ce-ar-fi-strigat-cand-a-fost-imobilizat.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Economica" data-title="Armata Germaniei va activa primul regiment format exclusiv din drone în 2029"><a class="card-media" href="/extern/armata-germaniei-va-activa-primul-regiment-format-exclusiv-din-drone-in-2029/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+<article class="card" data-cat="extern" data-source="The Guardian" data-title="Evenimentele globale ale săptămânii surprinse în douăzeci de imagini"><a class="card-media" href="/extern/evenimentele-globale-ale-saptamanii-surprinse-in-douazeci-de-imagini-2/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/evenimentele-globale-ale-saptamanii-surprinse-in-douazeci-de-imagini-2/">Evenimentele globale ale săptămânii surprinse în douăzeci de imagini</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T17:03:33+00:00">2 octombrie 2026, 20:03</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Fotoreporterii internaționali au documentat principalele evenimente din ultimele șapte zile, de la atacurile rusești asupra Kievului și erupția Etnei, până la protestele studențești din Paris.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.theguardian.com/artanddesign/gallery/2026/oct/02/the-week-around-the-world-in-20-pictures" target="_blank" rel="noopener noreferrer">The Guardian</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Economica" data-title="Germania cere presiuni internaționale asupra Rusiei pentru exportul de cereale"><a class="card-media" href="/extern/germania-cere-presiuni-internationale-asupra-rusiei-pentru-exportul-de-cereale/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/armata-germaniei-va-activa-primul-regiment-format-exclusiv-din-drone-in-2029/">Armata Germaniei va activa primul regiment format exclusiv din drone în 2029</a></h2>
+  <h2 class="card-title"><a href="/extern/germania-cere-presiuni-internationale-asupra-rusiei-pentru-exportul-de-cereale/">Germania cere presiuni internaționale asupra Rusiei pentru exportul de cereale</a></h2>
   <div class="meta">
-    <time datetime="2026-10-02T11:19:54+00:00">2 octombrie 2026, 14:19</time>
+    <time datetime="2026-10-02T17:01:07+00:00">2 octombrie 2026, 20:01</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Forțele armate germane pregătesc operaționalizarea unei unități militare speciale compuse exclusiv din sisteme fără pilot. Regimentul va include companii specializate în luptă electronică, atac la mică distanță și lovituri la mare distanță.</p>
+  <p class="summary">Ministrul de Externe Johann Wadephul solicită statelor europene și din Sudul Global să intensifice demersurile diplomatice pentru deblocarea transporturilor de cereale din Ucraina și evitarea crizei alimentare.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.economica.net/armata-de-drone-in-germania-seful-armatei-anunta-ca-viitorul-regiment-format-exclusiv-din-drone-va-fi-pe-deplin-operational-in-2029_982286.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
+<a href="https://www.economica.net/ministrul-german-de-externe-johann-wadephul-indeamna-statele-din-europa-si-sudul-global-sa-puna-mai-multa-presiune-pe-rusia-pentru-ca-aceasta-sa-renunte-la-blocada-impusa-exportului-de-cereale-din-uc_982441.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
 </article>
-<article class="card" data-cat="extern" data-source="Politico EU" data-title="G7 organizează discuții de criză privind eliberarea rezervelor de motorină"><a class="card-media" href="/extern/g7-organizeaza-discutii-de-criza-privind-eliberarea-rezervelor-de-motorina/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+<article class="card" data-cat="extern" data-source="DW Europe" data-title="Parlamentul spaniol a respins măsurile guvernamentale privind locuințele"><a class="card-media" href="/extern/parlamentul-spaniol-a-respins-masurile-guvernamentale-privind-locuintele/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">02</span><span class="art-num-wk">vineri</span><span class="art-num-luna">octombrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/parlamentul-spaniol-a-respins-masurile-guvernamentale-privind-locuintele/">Parlamentul spaniol a respins măsurile guvernamentale privind locuințele</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T16:39:00+00:00">2 octombrie 2026, 19:39</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Guvernul minoritar din Spania a pierdut votul parlamentar asupra a două decrete de urgență menite să ieftinească locuințele, pe fondul protestelor sociale.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.dw.com/en/spain-s-parliament-rejects-housing-bill-as-protests-continue/a-79522683?maca=en-rss-en-eu-2092-rdf" target="_blank" rel="noopener noreferrer">DW Europe</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="The Guardian" data-title="Proteste masive ale elevilor francezi la Paris împotriva condițiilor din școli"><a class="card-media" href="/extern/proteste-masive-ale-elevilor-francezi-la-paris-impotriva-conditiilor-din-scoli/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/proteste-masive-ale-elevilor-francezi-la-paris-impotriva-conditiilor-din-scoli/">Proteste masive ale elevilor francezi la Paris împotriva condițiilor din școli</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T16:34:55+00:00">2 octombrie 2026, 19:34</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Mii de tineri au protestat în fața unităților de învățământ cerând investiții guvernamentale, reducerea claselor suprapopulate și îmbunătățirea infrastructurii școlare.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.theguardian.com/world/video/2026/oct/02/fires-burn-as-french-students-protest-against-lack-of-investment-in-education-video" target="_blank" rel="noopener noreferrer">The Guardian</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Digi24 Extern" data-title="Protestele violente din Franța alimentează retorica privind criza civilizației europene"><a class="card-media" href="/extern/protestele-violente-din-franta-alimenteaza-retorica-privind-criza-civilizatiei/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>2 octombrie</p>
+  <div class="art-num"><span class="art-num-zi">2</span><span class="art-num-luna">octombrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/protestele-violente-din-franta-alimenteaza-retorica-privind-criza-civilizatiei/">Protestele violente din Franța alimentează retorica privind criza civilizației europene</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T16:31:09+00:00">2 octombrie 2026, 19:31</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Manifestațiile violente ale liceenilor francezi, marcate de incendieri și agresiuni asupra profesorilor și polițiștilor, amplifică dezbaterile legate de polarizarea socială și argumentele critice la adresa stabilității europene.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/stiri/externe/ue/violenta-polarizare-viitor-incert-legatura-dintre-criza-din-franta-si-argumentele-lui-trump-de-prabusire-a-civilizatiei-europene-3975379" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="The Guardian" data-title="Opoziția din Spania respinge măsurile de urgență pentru criza locuințelor"><a class="card-media" href="/extern/opozitia-din-spania-respinge-masurile-de-urgenta-pentru-criza-locuintelor/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Externe</p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Externe</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/extern/g7-organizeaza-discutii-de-criza-privind-eliberarea-rezervelor-de-motorina/">G7 organizează discuții de criză privind eliberarea rezervelor de motorină</a></h2>
+  <h2 class="card-title"><a href="/extern/opozitia-din-spania-respinge-masurile-de-urgenta-pentru-criza-locuintelor/">Opoziția din Spania respinge măsurile de urgență pentru criza locuințelor</a></h2>
   <div class="meta">
-    <time datetime="2026-10-02T11:01:20+00:00">2 octombrie 2026, 14:01</time>
+    <time datetime="2026-10-02T16:27:47+00:00">2 octombrie 2026, 19:27</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Statele membre G7 pregătesc o reuniune de urgență pentru a analiza eliberarea unor rezerve suplimentare de motorină, menite să reducă prețul carburanților, în urma presiunilor exercitate de Statele Unite.</p>
+  <p class="summary">Partidele de opoziție din Spania au votat împotriva planurilor guvernamentale destinate combaterii crizei imobiliare, sfidând protestele tot mai ample organizate în fața parlamentului de la Madrid.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.politico.eu/article/g7-to-hold-emergency-talks-over-possible-diesel-release/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication" target="_blank" rel="noopener noreferrer">Politico EU</a></p>
+<a href="https://www.theguardian.com/world/2026/oct/02/spanish-right-wing-votes-down-housing-crisis-plans-protest-movement-grows" target="_blank" rel="noopener noreferrer">The Guardian</a></p>
+</article>
+<article class="card card-c" data-cat="extern" data-source="Digi24 Extern" data-title="Un expert medico-legal contestă versiunea oficială a sinuciderii lui Jeffrey Epstein"><a class="card-media" href="/extern/un-medic-legist-contesta-versiunea-sinuciderii-lui-jeffrey-epstein/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0 art--portret" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Externe</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">02</span><span class="art-num-luna">octombrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-portret-wrap"><img class="art-portret" src="/portraits/jeffrey-epstein.jpg" alt="Jeffrey Epstein" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge c">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/extern/un-medic-legist-contesta-versiunea-sinuciderii-lui-jeffrey-epstein/">Un expert medico-legal contestă versiunea oficială a sinuciderii lui Jeffrey Epstein</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T15:55:45+00:00">2 octombrie 2026, 18:55</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Un reputat patolog medico-legal urmează să prezinte noi probe care contrazic concluzia oficială a sinuciderii lui Jeffrey Epstein din 2019. Analiza independentă, obținută cu sprijinul fratelui finanțatorului, va fi făcută publică la Londra și repune în discuție circumstanțele morții acestuia.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://www.digi24.ro/stiri/externe/sua/un-medic-legist-de-top-spune-ca-va-prezenta-dovezi-care-ridica-indoieli-cu-privire-la-sinuciderea-lui-epstein-3975315" target="_blank" rel="noopener noreferrer">Digi24 Extern</a>, <a href="https://www.g4media.ro/un-legist-de-top-contesta-versiunea-oficiala-a-sinuciderii-pedofilului-jeffrey-epstein-noi-dovezi-vor-fi-prezentate-la-londra.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
+</article>
+<article class="card" data-cat="extern" data-source="Economica" data-title="Comisia Europeană respinge presiunile SUA privind rezervele de combustibil"><a class="card-media" href="/extern/comisia-europeana-respinge-presiunile-sua-privind-rezervele-de-combustibil/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 2 octombrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Externe</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/donald-trump.jpg" alt="Donald Trump" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Externe</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/extern/comisia-europeana-respinge-presiunile-sua-privind-rezervele-de-combustibil/">Comisia Europeană respinge presiunile SUA privind rezervele de combustibil</a></h2>
+  <div class="meta">
+    <time datetime="2026-10-02T15:34:59+00:00">2 octombrie 2026, 18:34</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Executivul comunitar a respins amenințările administrației americane legate de blocarea exporturilor de motorină, subliniind că astfel de măsuri unilaterale afectează încrederea în parteneriatul transatlantic.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.economica.net/comisia-europeana-respinge-santajul-administratiei-trump-care-a-amenintat-ca-va-bloca-exporturile-de-motorina-daca-statele-ue-nu-scot-combustibili-din-rezervele-lor-strategice_982422.html" target="_blank" rel="noopener noreferrer">Economica</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">

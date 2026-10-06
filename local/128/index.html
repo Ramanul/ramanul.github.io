@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local" class="active">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local" class="active">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,324 +82,324 @@
 </nav>
   <h1 class="section-title">Local</h1>
   <section class="grid">
-<article class="card" data-cat="local" data-source="Primăria Sinaia" data-title="Proiect de hotărâre privind aprobarea documentației tehnico-economice și aprobarea participării la programul de finanțare „Sprijinirea investițiilor în noi capacități de producere a energiei electrice produsă din surse regenerabile de energie solară, cu capacități de stocare integrate, pentru autoconsum pentru entități publice” din Fondul pentru modernizare"><a class="card-media" href="/local/proiect-de-hotarare-privind-aprobarea-documentatiei-tehnico-economice-si/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0 art--harta" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Sinaia</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Prahova</span></p></div>
+<article class="card" data-cat="local" data-source="Primăria Băița" data-title="Cornel Ivanciuc : Mureșan și-a ridicat în cap SRI. V-o spun responsabil: România nu mai poate fi smulsă din ghearele mafiei decât prin război civil."><a class="card-media" href="/local/cornel-ivanciuc-muresan-si-a-ridicat-in-cap-sri-v-o-spun-responsabil-romania-nu/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p3 art--t0 art--harta" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Băița</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Hunedoara</span></p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-1389.88 -1070.12) scale(2.5467)"><path d="M631.4 534.7 L626.1 533.5 L619.7 535.6 L613.3 535.7 L611.9 538.0 L610.6 537.7 L607.2 535.4 L599.9 526.2 L590.3 522.9 L589.1 518.7 L589.7 514.4 L589.1 510.1 L586.6 506.3 L581.7 506.8 L578.3 504.8 L575.7 497.4 L574.6 489.2 L569.3 482.6 L563.6 471.2 L558.6 464.1 L558.8 457.8 L557.9 454.6 L555.5 451.2 L552.4 448.9 L551.1 445.7 L548.5 429.4 L550.2 428.2 L571.9 424.3 L582.4 427.3 L586.6 426.2 L590.1 430.4 L592.5 431.5 L596.3 429.2 L598.5 422.0 L600.8 420.2 L608.7 423.8 L613.7 424.8 L620.0 432.5 L625.8 437.2 L630.8 447.4 L630.9 455.1 L635.0 459.8 L636.5 465.0 L639.4 466.2 L645.3 466.2 L646.9 469.0 L648.9 470.2 L651.4 468.0 L652.8 468.0 L652.8 473.6 L656.8 477.3 L658.4 480.3 L660.6 494.4 L666.2 496.7 L669.9 501.6 L669.7 503.7 L666.3 508.0 L666.2 509.4 L672.6 518.7 L667.9 525.4 L663.8 527.5 L656.7 527.3 L652.2 531.2 L644.7 529.4 L641.1 531.1 L637.3 534.7 L632.9 534.5 Z" stroke-width="0.86" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-356.62 -532.71) scale(1.8040)"><path d="M353.5 444.5 L346.9 446.8 L338.0 452.1 L333.7 449.8 L329.4 449.3 L319.1 452.6 L309.9 457.3 L303.8 455.5 L301.2 455.7 L292.8 458.8 L289.0 456.4 L283.3 455.6 L280.2 453.1 L256.6 461.6 L256.9 457.6 L260.3 451.5 L260.6 449.1 L257.2 441.3 L259.6 435.3 L257.6 423.2 L254.9 419.0 L246.7 411.9 L243.2 411.5 L242.6 407.3 L238.3 406.2 L233.8 400.8 L232.9 397.3 L234.6 395.7 L235.8 390.3 L243.3 381.2 L241.8 379.5 L238.1 379.9 L234.2 371.8 L229.4 366.9 L227.0 357.5 L223.3 353.7 L228.3 347.3 L230.2 342.2 L228.9 335.2 L231.8 326.4 L232.1 317.6 L237.0 313.0 L246.8 314.3 L251.3 312.9 L255.9 306.9 L258.7 300.4 L265.7 295.3 L271.8 298.8 L282.5 298.1 L284.6 301.6 L288.0 312.7 L290.0 314.0 L296.1 315.3 L298.6 318.0 L301.7 326.4 L298.6 327.1 L299.4 330.1 L309.6 343.6 L315.4 346.1 L319.5 356.8 L325.0 364.8 L327.6 376.5 L330.9 386.1 L331.2 392.5 L334.0 396.3 L333.9 403.9 L336.3 408.4 L344.7 413.7 L352.9 422.4 L353.0 432.4 L355.0 440.1 Z" stroke-width="1.22" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/proiect-de-hotarare-privind-aprobarea-documentatiei-tehnico-economice-si/">Proiect de hotărâre: aprobarea documentației tehnico-economice și aprobarea participării la…</a></h2>
+  <h2 class="card-title"><a href="/local/cornel-ivanciuc-muresan-si-a-ridicat-in-cap-sri-v-o-spun-responsabil-romania-nu/">Cornel Ivanciuc : Mureșan și-a ridicat în cap SRI. V-o spun responsabil: România nu mai poate fi smulsă din…</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T08:04:28+00:00">25 septembrie 2026, 11:04</time>
+    <time datetime="2026-09-25T12:01:31+00:00">25 septembrie 2026, 15:01</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Vezi proiectul de hotărâre în format pdf AICI Vezi aviz Comisie urbanism, servicii publice, evenimente și turism în format pdf AICI</p>
+  <p class="summary">Ascultați vocea SRI: „Am spus, în urmă cu câteva zile, că eu cred că domnul Mureșan nu o să fie prim-ministru. (…) Și de aceea am și făcut acel apel: hai să-i scurtăm calvarul. Spune-i (n. red: vorbește cu Ilie...</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.primaria-sinaia.ro/2026/09/25/proiect-de-hotarare-privind-aprobarea-documentatiei-tehnico-economice-si-aprobarea-participarii-la-programul-de-finantare-sprijinirea-investitiilor-in-noi-capacitati-de-producere-a-energiei-e/" target="_blank" rel="noopener noreferrer">Primăria Sinaia</a></p>
+<a href="https://baita.ro/cornel-ivanciuc-muresan-si-a-ridicat-in-cap-sri-v-o-spun-responsabil-romania-nu-mai-poate-fi-smulsa-din-ghearele-mafiei-decat-prin-razboi-civil/" target="_blank" rel="noopener noreferrer">Primăria Băița</a></p>
 </article>
-<article class="card" data-cat="local" data-source="Știri din Muntenia" data-title="Primăria Mioveni avertizează asupra pericolului tinerilor care urcă pe blocuri"><a class="card-media" href="/local/primaria-mioveni-avertizeaza-asupra-pericolului-tinerilor-care-urca-pe-blocuri/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Mioveni</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Local</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/primaria-mioveni-avertizeaza-asupra-pericolului-tinerilor-care-urca-pe-blocuri/">Primăria Mioveni avertizează asupra pericolului tinerilor care urcă pe blocuri</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T08:02:18+00:00">25 septembrie 2026, 11:02</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Autoritățile locale trag un semnal de alarmă după ce mai mulți tineri au fost surprinși pe acoperișurile blocurilor din oraș pentru a realiza fotografii riscante destinate rețelelor de socializare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://stiri-muntenia.ro/pericol-pe-acoperisurile-din-mioveni/" target="_blank" rel="noopener noreferrer">Știri din Muntenia</a></p>
-</article>
-<article class="card" data-cat="local" data-source="Primăria Feldioara" data-title="Anunt colectiv privind comunicarea actelor administrativ fiscale 25.09.2026"><a class="card-media" href="/local/anunt-colectiv-privind-comunicarea-actelor-administrativ-fiscale-25-09-2026/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t1 art--harta" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+<article class="card" data-cat="local" data-source="Express de Banat" data-title="Curs gratuit de prim ajutor organizat de SMURD la Reșița"><a class="card-media" href="/local/curs-gratuit-de-prim-ajutor-organizat-de-smurd-la-resita/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
   <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Feldioara</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Brașov</span></p></div>
+  <div class="art-body"><p class="art-label">Reșița</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span>Local</span></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Local</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/local/curs-gratuit-de-prim-ajutor-organizat-de-smurd-la-resita/">Curs gratuit de prim ajutor organizat de SMURD la Reșița</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T12:00:33+00:00">25 septembrie 2026, 15:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Voluntarii Fundației pentru SMURD Caraș-Severin organizează sâmbătă, la Hotelul Rogge din Reșița, un curs gratuit de prim ajutor pentru populație.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://expressdebanat.ro/resita-invata-sa-salveze-vieti-curs-gratuit-de-prim-ajutor-pe-26-septembrie/" target="_blank" rel="noopener noreferrer">Express de Banat</a></p>
+</article>
+<article class="card" data-cat="local" data-source="Primăria Vânători-Neamț" data-title="REZULTAT PROBA SCRISĂ la concursul pentru ocuparea unui post contractual vacant, funcție de execuție, animator socio-educativ pe perioadă nedeterminată cu ½ normă, 4 ore/zi, 20 ore/saptămână din cadrul – Centrului de zi de socializare și petrecere a timpului liber (tip club), destinat persoanelor vârstnice"><a class="card-media" href="/local/rezultat-proba-scrisa-la-concursul-pentru-ocuparea-unui-post-contractual-vacant/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t2 art--harta" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Vânători-Neamț</p></div>
+  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">Neamț</p>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-1141.77 -247.33) scale(1.9892)"><path d="M594.0 211.7 L595.1 210.9 L594.6 207.2 L586.8 199.1 L582.4 189.7 L579.4 187.0 L574.0 185.1 L574.1 181.8 L576.7 175.2 L581.4 169.6 L588.9 164.0 L589.7 162.5 L589.7 159.8 L584.9 154.1 L585.1 152.2 L588.3 152.2 L594.6 157.5 L597.3 158.7 L608.4 154.6 L615.0 156.7 L620.5 155.3 L632.4 155.3 L636.2 154.4 L646.1 149.3 L652.7 149.2 L656.1 151.2 L667.1 162.4 L672.5 170.1 L677.4 182.3 L678.7 183.1 L688.0 183.8 L698.3 190.8 L705.3 193.2 L707.8 192.6 L710.3 188.2 L718.6 189.1 L726.1 182.7 L731.5 183.2 L734.1 188.7 L739.9 195.2 L738.6 196.9 L731.8 199.5 L729.6 202.4 L736.2 215.3 L739.5 228.9 L738.4 233.1 L734.2 235.1 L721.5 231.7 L711.5 232.9 L707.9 229.8 L706.7 223.9 L703.4 222.3 L702.8 226.3 L699.3 229.7 L698.9 234.4 L697.1 236.6 L693.7 237.3 L689.2 234.3 L684.3 233.5 L681.3 237.5 L674.8 240.2 L670.3 244.6 L664.6 243.9 L656.8 244.7 L651.9 249.4 L641.7 249.7 L640.2 248.9 L640.4 244.8 L637.9 240.3 L635.6 238.9 L626.7 244.5 L621.9 246.0 L615.1 243.3 L609.7 244.4 L600.1 242.6 L599.0 243.4 L599.8 249.4 L599.4 250.3 L598.3 250.2 L593.5 246.0 L590.6 240.5 L589.4 213.7 L590.2 211.8 L592.1 211.3 Z" stroke-width="1.11" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Local</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/local/rezultat-proba-scrisa-la-concursul-pentru-ocuparea-unui-post-contractual-vacant/">Concurs de recrutare la Primăria Vânători-Neamț</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T12:00:16+00:00">25 septembrie 2026, 15:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Rezultat proba scrisa pdf</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.vinatorineamt.ro/rezultat-proba-scrisa-la-concursul-pentru-ocuparea-unui-post-contractual-vacant-functie-de-execuie-animator-socio-educativ-pe-perioada-nedeterminata-tcu-%c2%bd-norma-4-ore-zi-20-ore-saptamana-din/" target="_blank" rel="noopener noreferrer">Primăria Vânători-Neamț</a></p>
+</article>
+<article class="card" data-cat="local" data-source="Alba24" data-title="Petiție în Alba Iulia pentru modificarea orei unui tren la barieră"><a class="card-media" href="/local/petitie-in-alba-iulia-pentru-modificarea-orei-unui-tren-la-bariera/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p1 art--t1 art--harta" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Alba Iulia</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Alba</span></p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span>Alba</span></div><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-430.86 -457.66) scale(1.7616)"><path d="M271.8 298.8 L265.7 295.3 L260.5 290.0 L258.6 281.9 L258.4 272.6 L260.1 265.1 L262.8 260.8 L265.4 259.8 L269.1 260.4 L273.9 264.2 L291.2 265.3 L297.4 271.9 L298.2 275.6 L299.7 276.8 L302.5 273.8 L307.8 270.8 L317.8 272.4 L323.6 267.9 L334.2 265.9 L348.7 273.5 L357.5 274.2 L358.2 276.2 L356.1 281.5 L356.9 283.0 L360.8 285.1 L363.0 284.6 L362.8 280.8 L363.5 280.1 L384.1 277.3 L392.9 279.6 L396.0 278.8 L396.8 277.6 L400.1 277.9 L403.4 281.1 L403.1 283.4 L399.6 288.8 L403.4 293.5 L412.5 298.5 L414.4 305.6 L417.6 308.9 L418.1 320.5 L401.6 337.6 L398.8 345.3 L397.0 345.6 L392.3 341.7 L383.8 343.3 L381.7 345.6 L383.0 354.2 L379.9 357.4 L377.1 358.7 L372.9 359.0 L369.0 357.1 L366.1 357.3 L366.1 363.2 L371.8 366.0 L372.3 368.1 L366.6 377.4 L362.4 377.7 L360.0 379.7 L356.3 390.0 L356.0 392.7 L358.4 404.2 L356.4 413.8 L360.1 421.6 L360.7 425.1 L357.8 429.4 L353.3 430.1 L352.9 422.4 L344.7 413.7 L338.8 410.5 L335.0 406.5 L333.5 402.3 L334.0 396.3 L331.2 392.5 L330.9 386.1 L327.6 376.5 L325.0 364.8 L319.5 356.8 L315.4 346.1 L309.6 343.6 L299.4 330.1 L298.6 327.1 L301.7 326.4 L298.6 318.0 L296.1 315.3 L290.0 314.0 L288.0 312.7 L284.6 301.6 L282.5 298.1 L281.4 297.8 Z" stroke-width="1.25" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Local</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/local/petitie-in-alba-iulia-pentru-modificarea-orei-unui-tren-la-bariera/">Petiție în Alba Iulia pentru modificarea orei unui tren la barieră</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T12:00:03+00:00">25 septembrie 2026, 15:00</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Locuitorii din Alba Iulia au lansat o petiție adresată operatorilor feroviari pentru a muta plecarea trenului de pe ruta Alba Iulia–Zlatna la ora 7:10, reducând astfel ambuteiajul rutier.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://alba24.ro/alba-iulia-petitie-pentru-rezolvarea-blocajelor-de-la-bariera-spre-soseaua-de-centura-initiatorii-cer-devansarea-unui-tren-1159627.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
+</article>
+<article class="card" data-cat="local" data-source="Bihon" data-title="Raza Green Project a obținut autorizații de construire în Bihor"><a class="card-media" href="/local/raza-green-project-a-obtinut-autorizatii-de-construire-in-bihor/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t0 art--harta" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Bihor</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-153.41 -166.24) scale(1.6077)"><path d="M124.9 245.9 L126.2 243.6 L131.2 241.9 L133.1 239.0 L133.5 236.0 L129.8 233.0 L133.2 223.5 L136.8 219.0 L141.8 217.1 L142.6 215.1 L142.4 207.8 L148.6 202.6 L151.1 194.9 L147.0 190.5 L153.5 183.4 L160.8 177.9 L162.5 172.5 L166.8 167.7 L167.2 161.2 L171.2 148.7 L177.2 140.7 L183.9 138.2 L186.0 134.0 L184.6 118.9 L186.6 115.2 L196.3 107.1 L201.5 105.8 L203.5 103.4 L208.4 111.9 L215.5 118.4 L223.0 132.2 L225.7 133.3 L231.1 133.1 L236.9 131.5 L243.2 135.7 L245.4 138.6 L247.2 145.0 L246.1 149.3 L243.8 153.7 L242.6 158.6 L238.1 164.4 L238.1 166.5 L248.3 185.0 L256.0 190.0 L261.9 197.1 L258.8 203.7 L258.6 206.1 L264.9 208.8 L266.8 211.5 L264.7 219.0 L257.0 224.4 L256.5 228.1 L263.4 235.9 L266.6 246.1 L271.2 251.8 L270.7 261.3 L268.1 260.0 L264.0 260.0 L261.5 262.3 L259.0 269.0 L258.6 281.9 L260.5 290.0 L251.1 289.9 L243.1 288.2 L231.8 287.6 L229.1 285.0 L227.4 281.1 L219.4 278.1 L214.4 273.8 L208.0 270.8 L205.1 266.3 L202.0 258.4 L195.7 253.7 L183.6 252.8 L177.8 249.4 L173.1 249.0 L170.1 246.4 L167.4 245.9 L132.1 247.9 L127.2 246.7 Z" stroke-width="1.37" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Local</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/local/raza-green-project-a-obtinut-autorizatii-de-construire-in-bihor/">Raza Green Project a obținut autorizații de construire în Bihor</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T11:57:52+00:00">25 septembrie 2026, 14:57</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Societatea Raza Green Project SRL din Constanța a anunțat public emiterea unor autorizații de construire de către Consiliul Județean Bihor, conform legislației urbanistice.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.bihon.ro/anunturi-de-interes-public/anunt-autorizatii-de-construire-raza-green-project-srl-5411118/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Bihon</a></p>
+</article>
+<article class="card" data-cat="local" data-source="MyTex" data-title="Cățelușă ucisă prin violență în localitatea Dumbrăvița"><a class="card-media" href="/local/catelusa-ucisa-prin-violenta-in-localitatea-dumbravita/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t1 art--harta" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Dumbrăvița</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Brașov</span></p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
   <div class="art-foot"><span>Portalul știrilor tale</span><span>Brașov</span></div><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-1002.48 -667.15) scale(2.1512)"><path d="M548.5 429.4 L545.6 431.4 L542.2 437.4 L535.7 439.1 L532.2 434.8 L524.9 419.6 L513.1 411.5 L501.3 409.9 L490.4 410.4 L486.0 412.5 L480.6 406.9 L472.3 407.1 L470.0 390.4 L466.0 380.0 L468.1 377.5 L477.1 373.4 L477.3 370.8 L475.2 369.1 L475.2 365.2 L473.0 360.2 L481.7 354.0 L486.3 354.1 L486.0 348.6 L492.6 344.7 L498.9 339.5 L501.1 336.4 L500.5 333.2 L501.5 330.3 L504.9 327.2 L507.9 325.9 L517.6 325.4 L528.6 323.3 L536.2 320.6 L540.2 322.2 L543.5 325.0 L548.2 326.7 L551.1 329.9 L550.4 332.1 L551.7 335.0 L556.5 339.6 L559.5 338.5 L563.0 340.1 L563.4 342.8 L561.5 356.0 L562.0 368.2 L563.0 370.2 L570.5 375.2 L573.8 378.8 L574.0 383.8 L577.5 382.7 L580.5 383.7 L584.3 381.8 L587.8 385.2 L597.7 389.0 L603.5 394.1 L606.7 400.0 L613.9 404.8 L619.4 412.3 L613.7 424.8 L608.7 423.8 L600.8 420.2 L598.5 422.0 L596.3 429.2 L592.5 431.5 L590.1 430.4 L586.6 426.2 L582.4 427.3 L571.9 424.3 L550.2 428.2 Z" stroke-width="1.02" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Local · Anunț oficial</span>
-  <p class="trust-label" title="Cum este construită această informație">Anunț oficial · citește textul integral la sursă</p>
-  <h2 class="card-title"><a href="/local/anunt-colectiv-privind-comunicarea-actelor-administrativ-fiscale-25-09-2026/">Anunt colectiv privind comunicarea actelor administrativ fiscale 25.09.2026</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T08:01:01+00:00">25 septembrie 2026, 11:01</time>
-</div>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://primaria-feldioara.ro/anunt-colectiv-privind-comunicarea-actelor-administrativ-fiscale-25-09-2026/" target="_blank" rel="noopener noreferrer">Primăria Feldioara</a></p>
-</article>
-<article class="card" data-cat="local" data-source="Primăria Sinaia" data-title="Proiect de hotărâre privind rectificarea bugetului de venituri și cheltuieli pe anul 2026"><a class="card-media" href="/local/proiect-de-hotarare-privind-rectificarea-bugetului-de-venituri-si-cheltuieli-pe/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0 art--harta" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sinaia</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">Prahova</p>
-  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-1389.88 -1070.12) scale(2.5467)"><path d="M631.4 534.7 L626.1 533.5 L619.7 535.6 L613.3 535.7 L611.9 538.0 L610.6 537.7 L607.2 535.4 L599.9 526.2 L590.3 522.9 L589.1 518.7 L589.7 514.4 L589.1 510.1 L586.6 506.3 L581.7 506.8 L578.3 504.8 L575.7 497.4 L574.6 489.2 L569.3 482.6 L563.6 471.2 L558.6 464.1 L558.8 457.8 L557.9 454.6 L555.5 451.2 L552.4 448.9 L551.1 445.7 L548.5 429.4 L550.2 428.2 L571.9 424.3 L582.4 427.3 L586.6 426.2 L590.1 430.4 L592.5 431.5 L596.3 429.2 L598.5 422.0 L600.8 420.2 L608.7 423.8 L613.7 424.8 L620.0 432.5 L625.8 437.2 L630.8 447.4 L630.9 455.1 L635.0 459.8 L636.5 465.0 L639.4 466.2 L645.3 466.2 L646.9 469.0 L648.9 470.2 L651.4 468.0 L652.8 468.0 L652.8 473.6 L656.8 477.3 L658.4 480.3 L660.6 494.4 L666.2 496.7 L669.9 501.6 L669.7 503.7 L666.3 508.0 L666.2 509.4 L672.6 518.7 L667.9 525.4 L663.8 527.5 L656.7 527.3 L652.2 531.2 L644.7 529.4 L641.1 531.1 L637.3 534.7 L632.9 534.5 Z" stroke-width="0.86" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/proiect-de-hotarare-privind-rectificarea-bugetului-de-venituri-si-cheltuieli-pe/">Proiect de hotărâre privind rectificarea bugetului de venituri și cheltuieli pe anul 2026</a></h2>
+  <h2 class="card-title"><a href="/local/catelusa-ucisa-prin-violenta-in-localitatea-dumbravita/">Cățelușă ucisă prin violență în localitatea Dumbrăvița</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:59:44+00:00">25 septembrie 2026, 10:59</time>
+    <time datetime="2026-09-25T11:52:43+00:00">25 septembrie 2026, 14:52</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Vezi proiectul de hotărâre în format pdf AICI</p>
+  <p class="summary">Poliția pentru Protecția Animalelor Brașov a deschis o anchetă penală după ce un animal a fost găsit mort în zona vestiarelor din comuna Dumbrăvița, în urma unor acte de cruzime.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.primaria-sinaia.ro/2026/09/25/proiect-de-hotarare-privind-rectificarea-bugetului-de-venituri-si-cheltuieli-pe-anul-2026-2/" target="_blank" rel="noopener noreferrer">Primăria Sinaia</a></p>
+<a href="https://mytex.ro/expres/brasov-catelusa-batuta-pana-la-moarte-in-dumbravita/" target="_blank" rel="noopener noreferrer">MyTex</a></p>
 </article>
-<article class="card" data-cat="local" data-source="Turnul Sfatului" data-title="Academia Forțelor Terestre din Sibiu a inaugurat un amfiteatru modern finanțat prin PNRR"><a class="card-media" href="/local/academia-fortelor-terestre-din-sibiu-a-inaugurat-un-amfiteatru-modern-finantat/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0 art--harta" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Sibiu</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">Local</p>
-  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-809.65 -686.03) scale(2.2743)"><path d="M472.3 407.1 L453.1 412.7 L431.3 412.5 L416.6 415.9 L404.5 422.7 L393.1 420.3 L375.5 420.9 L371.1 424.2 L366.6 425.2 L360.0 429.6 L357.8 429.4 L360.7 425.1 L360.6 423.6 L356.4 413.8 L358.4 404.2 L356.0 392.7 L358.7 382.3 L361.7 378.0 L366.6 377.4 L372.3 368.1 L371.8 366.0 L366.1 363.2 L366.1 357.3 L369.0 357.1 L372.9 359.0 L377.1 358.7 L379.9 357.4 L383.0 354.2 L381.7 345.6 L383.8 343.3 L392.3 341.7 L397.0 345.6 L398.8 345.3 L401.6 337.6 L417.6 321.8 L417.6 308.9 L429.3 308.1 L437.1 310.7 L444.2 308.9 L453.7 309.2 L457.9 305.9 L464.0 306.9 L468.6 305.6 L467.3 310.7 L468.5 323.5 L470.3 330.8 L472.1 333.1 L473.6 333.8 L478.6 333.4 L481.4 331.7 L489.5 330.4 L493.3 331.4 L501.1 336.4 L498.9 339.5 L492.6 344.7 L486.0 348.6 L486.3 354.1 L481.7 354.0 L473.0 360.2 L475.2 365.2 L475.2 369.1 L477.3 370.8 L477.1 373.4 L468.1 377.5 L466.0 380.0 L470.0 390.4 L472.1 404.0 Z" stroke-width="0.97" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Local</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/academia-fortelor-terestre-din-sibiu-a-inaugurat-un-amfiteatru-modern-finantat/">Academia Forțelor Terestre din Sibiu a inaugurat un amfiteatru modern finanțat prin PNRR</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:57:11+00:00">25 septembrie 2026, 10:57</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Poligonul Perii Dăii din Sibiu dispune acum de un amfiteatru exterior cu 450 de locuri, destinat evenimentelor cultural-educative, în urma unei investiții de 16,85 milioane de lei fonduri europene.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.turnulsfatului.ro/2026/09/25/aft-sibiu-a-finalizat-amfiteatrul-din-poligonul-perii-daii-noul-spatiu-are-dotari-moderne-si-450-de-locuri/" target="_blank" rel="noopener noreferrer">Turnul Sfatului</a></p>
-</article>
-<article class="card" data-cat="local" data-source="Știrile ProTV" data-title="Noua variantă ocolitoare de la Comarnic este pregătită pentru deschiderea circulației rutiere"><a class="card-media" href="/local/noua-varianta-ocolitoare-de-la-comarnic-este-pregatita-pentru-deschiderea/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Comarnic</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
+<article class="card" data-cat="local" data-source="Jurnalul Olteniei" data-title="Festivalul IntenCity debutează la Craiova cu muzică simfonică"><a class="card-media" href="/local/festivalul-intencity-debuteaza-la-craiova-cu-muzica-simfonica/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Craiova</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/noua-varianta-ocolitoare-de-la-comarnic-este-pregatita-pentru-deschiderea/">Noua variantă ocolitoare de la Comarnic este pregătită pentru deschiderea circulației rutiere</a></h2>
+  <h2 class="card-title"><a href="/local/festivalul-intencity-debuteaza-la-craiova-cu-muzica-simfonica/">Festivalul IntenCity debutează la Craiova cu muzică simfonică</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:50:51+00:00">25 septembrie 2026, 10:50</time>
+    <time datetime="2026-09-25T11:43:03+00:00">25 septembrie 2026, 14:43</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Autoritățile finalizează ultimele formalități de recepție tehnică pentru Centura Comarnic, infrastructură rutieră menită să fluidizeze traficul intens și să reducă aglomerația cronică de pe DN1.</p>
+  <p class="summary">Evenimentul muzical de la Craiova a început oficial printr-o ediție clasică spectaculoasă, combinând acordurile simfonice cu energia pieselor rock pe aceeași scenă.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://stirileprotv.ro/stiri/actualitate/se-deschide-una-dintre-cele-mai-asteptate-sosele-din-romania-va-reduce-blocajele-pe-dn1.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+<a href="https://jurnalulolteniei.ro/craiova-incepe-festivalul-intencity-editie-clasica/" target="_blank" rel="noopener noreferrer">Jurnalul Olteniei</a></p>
 </article>
-<article class="card" data-cat="local" data-source="Dobrogea Online" data-title="Primăria Constanța a sterilizat 162 de câini fără stăpân în cadrul campaniei gratuite derulate cu VetZone"><a class="card-media" href="/local/primaria-constanta-a-sterilizat-162-de-caini-fara-stapan-in-cadrul-campaniei/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p5 art--t1" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Constanța</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
+<article class="card" data-cat="local" data-source="Critic Arad" data-title="Restricții permanente de tonaj pe drumul județean DJ 682"><a class="card-media" href="/local/restrictii-permanente-de-tonaj-pe-drumul-judetean-dj-682/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Local</p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/primaria-constanta-a-sterilizat-162-de-caini-fara-stapan-in-cadrul-campaniei/">Primăria Constanța a sterilizat 162 de câini fără stăpân în cadrul campaniei gratuite derulate cu VetZone</a></h2>
+  <h2 class="card-title"><a href="/local/restrictii-permanente-de-tonaj-pe-drumul-judetean-dj-682/">Restricții permanente de tonaj pe drumul județean DJ 682</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:49:26+00:00">25 septembrie 2026, 10:49</time>
+    <time datetime="2026-09-25T11:41:51+00:00">25 septembrie 2026, 14:41</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Inițiativa municipalității din Constanța, activă până pe 3 noiembrie, oferă gratuit servicii veterinare de sterilizare, microcipare și înregistrare în RECS pentru câinii de rasă comună, prevenind astfel abandonul.</p>
+  <p class="summary">Poliția Rutieră Timiș a instituit interdicții pentru autovehiculele cu o masă mai mare de 7,5 tone pe tronsonul dintre Făget și limita județului Arad.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.dobrogeaonline.ro/162-de-caini-au-fost-operati-iar-pachetul-ofera-microcipare-si-inregistrare-in-recs/" target="_blank" rel="noopener noreferrer">Dobrogea Online</a></p>
+<a href="https://www.criticarad.ro/restrictii-de-tonaj-pe-drumul-judetean-dj-682/" target="_blank" rel="noopener noreferrer">Critic Arad</a></p>
 </article>
-<article class="card" data-cat="local" data-source="G4Media" data-title="Peste 5.700 de porci vor fi sacrificați în Buzău din cauza pestei porcine"><a class="card-media" href="/local/peste-5-700-de-porci-vor-fi-sacrificati-in-buzau-din-cauza-pestei-porcine/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Buzău</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">Local</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+<article class="card" data-cat="local" data-source="Cuvântul Libertății" data-title="Școala din Craiova a găzduit evenimentul sportiv Mișcarea ne unește"><a class="card-media" href="/local/scoala-din-craiova-a-gazduit-evenimentul-sportiv-miscarea-ne-uneste/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0 art--harta" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Craiova</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Dolj</span></p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-543.62 -1084.43) scale(2.0134)"><path d="M283.1 675.5 L279.8 674.7 L277.1 672.3 L275.8 669.4 L278.3 654.6 L279.5 651.1 L281.6 649.7 L290.3 647.6 L294.0 645.5 L295.8 640.8 L294.8 636.1 L292.4 635.0 L301.1 625.6 L306.3 624.3 L306.7 620.7 L305.5 614.4 L308.0 607.8 L309.9 598.1 L310.8 596.7 L316.4 593.4 L319.9 593.6 L320.7 592.4 L319.0 590.4 L313.7 589.0 L313.3 587.0 L314.7 581.6 L319.2 579.3 L324.3 573.4 L322.0 571.9 L323.7 570.7 L330.4 570.2 L336.0 568.0 L341.8 568.3 L353.0 559.5 L363.0 556.2 L369.0 555.4 L369.6 553.4 L369.0 540.7 L370.4 538.6 L373.6 540.4 L375.8 547.6 L383.8 552.7 L388.1 563.9 L392.9 569.7 L387.4 577.2 L387.8 580.6 L394.1 585.4 L397.7 590.6 L401.3 591.9 L405.4 598.5 L410.1 603.2 L413.1 608.9 L421.9 614.8 L424.5 618.3 L423.6 626.0 L426.6 634.8 L420.6 634.9 L419.0 643.3 L420.6 645.8 L426.2 646.5 L428.1 649.1 L427.8 653.0 L424.2 656.3 L426.2 661.4 L424.2 667.7 L418.9 674.8 L413.1 687.6 L376.1 677.9 L370.1 674.2 L367.8 673.8 L358.8 675.8 L354.2 675.0 L342.8 668.5 L325.9 667.5 L316.4 669.0 L305.5 673.4 L297.1 674.2 Z" stroke-width="1.09" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/peste-5-700-de-porci-vor-fi-sacrificati-in-buzau-din-cauza-pestei-porcine/">Peste 5.700 de porci vor fi sacrificați în Buzău din cauza pestei porcine</a></h2>
+  <h2 class="card-title"><a href="/local/scoala-din-craiova-a-gazduit-evenimentul-sportiv-miscarea-ne-uneste/">Școala din Craiova a găzduit evenimentul sportiv Mișcarea ne unește</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:47:22+00:00">25 septembrie 2026, 10:47</time>
+    <time datetime="2026-09-25T11:38:06+00:00">25 septembrie 2026, 14:38</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Autoritățile au confirmat un focar de pestă porcină africană la o fermă din localitatea Stâlpu, județul Buzău. Toate cele peste 5.700 de animale din exploatație vor fi sacrificate conform ordinului emis de Centrul Local de Combatere a Bolilor.</p>
+  <p class="summary">Curtea unității de învățământ Mihai Viteazul a reunit elevi, profesori și asociații sportive locale într-o activitate dinamică menită să încurajeze mișcarea și colaborarea.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.g4media.ro/focar-de-pesta-porcina-africana-la-o-ferma-din-buzau-peste-5-700-de-animale-vor-fi-sacrificate.html" target="_blank" rel="noopener noreferrer">G4Media</a></p>
+<a href="https://cvlpress.ro/25.09.2026/miscarea-ne-uneste-la-scoala-gimnaziala-mihai-viteazul-craiova/" target="_blank" rel="noopener noreferrer">Cuvântul Libertății</a></p>
 </article>
-<article class="card" data-cat="local" data-source="Primăria Roman" data-title="25.09.2026 – Anunt – restricționare circulație provizorie"><a class="card-media" href="/local/25-09-2026-anunt-restrictionare-circulatie-provizorie/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0 art--harta" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+<article class="card" data-cat="local" data-source="Avantaje" data-title="Evenimentul Baby Unica Talks a reunit mămici, vedete și medici la București"><a class="card-media" href="/local/evenimentul-baby-unica-talks-a-reunit-mamici-vedete-si-medici-la-bucuresti/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t1 art--portret" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
   <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Roman</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Neamț</span></p></div>
+  <div class="art-body"><p class="art-label">București</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span>Neamț</span></div><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-1141.77 -247.33) scale(1.9892)"><path d="M594.0 211.7 L595.1 210.9 L594.6 207.2 L586.8 199.1 L582.4 189.7 L579.4 187.0 L574.0 185.1 L574.1 181.8 L576.7 175.2 L581.4 169.6 L588.9 164.0 L589.7 162.5 L589.7 159.8 L584.9 154.1 L585.1 152.2 L588.3 152.2 L594.6 157.5 L597.3 158.7 L608.4 154.6 L615.0 156.7 L620.5 155.3 L632.4 155.3 L636.2 154.4 L646.1 149.3 L652.7 149.2 L656.1 151.2 L667.1 162.4 L672.5 170.1 L677.4 182.3 L678.7 183.1 L688.0 183.8 L698.3 190.8 L705.3 193.2 L707.8 192.6 L710.3 188.2 L718.6 189.1 L726.1 182.7 L731.5 183.2 L734.1 188.7 L739.9 195.2 L738.6 196.9 L731.8 199.5 L729.6 202.4 L736.2 215.3 L739.5 228.9 L738.4 233.1 L734.2 235.1 L721.5 231.7 L711.5 232.9 L707.9 229.8 L706.7 223.9 L703.4 222.3 L702.8 226.3 L699.3 229.7 L698.9 234.4 L697.1 236.6 L693.7 237.3 L689.2 234.3 L684.3 233.5 L681.3 237.5 L674.8 240.2 L670.3 244.6 L664.6 243.9 L656.8 244.7 L651.9 249.4 L641.7 249.7 L640.2 248.9 L640.4 244.8 L637.9 240.3 L635.6 238.9 L626.7 244.5 L621.9 246.0 L615.1 243.3 L609.7 244.4 L600.1 242.6 L599.0 243.4 L599.8 249.4 L599.4 250.3 L598.3 250.2 L593.5 246.0 L590.6 240.5 L589.4 213.7 L590.2 211.8 L592.1 211.3 Z" stroke-width="1.11" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span>Local</span></div><div class="art-portret-wrap"><img class="art-portret" src="/portraits/larisa-iordache.jpg" alt="Larisa Iordache" loading="lazy" decoding="async" width="160" height="160"></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/25-09-2026-anunt-restrictionare-circulatie-provizorie/">25.09.2026 – Anunt – restricționare circulație provizorie</a></h2>
+  <h2 class="card-title"><a href="/local/evenimentul-baby-unica-talks-a-reunit-mamici-vedete-si-medici-la-bucuresti/">Evenimentul Baby Unica Talks a reunit mămici, vedete și medici la București</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:46:49+00:00">25 septembrie 2026, 10:46</time>
+    <time datetime="2026-09-25T11:37:24+00:00">25 septembrie 2026, 14:37</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Serviciul emitent: Serviciul Administrare Parcări și Semnalizare Rutieră – Direcția Servicii Edilitare și Administrative Având in vedere executarea unor marcaje rutiere pe str. Soldat Porojan, în data de luni 28.09.2026 , în intervalul orar 09 :00 – 10:30 se va...</p>
+  <p class="summary">Lansarea ediției de toamnă a revistei Baby Unica a adus în fața publicului din ParkLake momente de dialog sincer despre maternitate. Lili Sandu și Larisa Iordache s-au numărat printre invitații speciali ai primei ediții.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://primariaroman.ro/25-09-2026-anunt-restrictionare-circulatie-provizorie/" target="_blank" rel="noopener noreferrer">Primăria Roman</a></p>
+<a href="https://www.avantaje.ro/articol/prima-editie-baby-unica-talks-o-seara-cu-emotii-si-povesti-sincere-lili-sandu-si-larisa-iordache-printre-invitatii-speciali-ai-evenimentului" target="_blank" rel="noopener noreferrer">Avantaje</a></p>
 </article>
-<article class="card" data-cat="local" data-source="Bihon" data-title="Un bărbat de 59 de ani a decedat în urma unui incendiu izbucnit în Bihor"><a class="card-media" href="/local/un-barbat-de-59-de-ani-a-decedat-in-urma-unui-incendiu-izbucnit-in-bihor/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t0 art--harta" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+<article class="card" data-cat="local" data-source="Primăria Tărlungeni" data-title="Anunț privind organizarea unei întâlniri de dezbatere publică asupra organizării și delegării gestiunii serviciului de iluminat public"><a class="card-media" href="/local/anunt-privind-organizarea-unei-intalniri-de-dezbatere-publica-asupra/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p5 art--t1 art--harta" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
   <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Bihor</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
+  <div class="art-body"><p class="art-label">Tărlungeni</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Brașov</span></p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span>Local</span></div><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-153.41 -166.24) scale(1.6077)"><path d="M124.9 245.9 L126.2 243.6 L131.2 241.9 L133.1 239.0 L133.5 236.0 L129.8 233.0 L133.2 223.5 L136.8 219.0 L141.8 217.1 L142.6 215.1 L142.4 207.8 L148.6 202.6 L151.1 194.9 L147.0 190.5 L153.5 183.4 L160.8 177.9 L162.5 172.5 L166.8 167.7 L167.2 161.2 L171.2 148.7 L177.2 140.7 L183.9 138.2 L186.0 134.0 L184.6 118.9 L186.6 115.2 L196.3 107.1 L201.5 105.8 L203.5 103.4 L208.4 111.9 L215.5 118.4 L223.0 132.2 L225.7 133.3 L231.1 133.1 L236.9 131.5 L243.2 135.7 L245.4 138.6 L247.2 145.0 L246.1 149.3 L243.8 153.7 L242.6 158.6 L238.1 164.4 L238.1 166.5 L248.3 185.0 L256.0 190.0 L261.9 197.1 L258.8 203.7 L258.6 206.1 L264.9 208.8 L266.8 211.5 L264.7 219.0 L257.0 224.4 L256.5 228.1 L263.4 235.9 L266.6 246.1 L271.2 251.8 L270.7 261.3 L268.1 260.0 L264.0 260.0 L261.5 262.3 L259.0 269.0 L258.6 281.9 L260.5 290.0 L251.1 289.9 L243.1 288.2 L231.8 287.6 L229.1 285.0 L227.4 281.1 L219.4 278.1 L214.4 273.8 L208.0 270.8 L205.1 266.3 L202.0 258.4 L195.7 253.7 L183.6 252.8 L177.8 249.4 L173.1 249.0 L170.1 246.4 L167.4 245.9 L132.1 247.9 L127.2 246.7 Z" stroke-width="1.37" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span>Brașov</span></div><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-1002.48 -667.15) scale(2.1512)"><path d="M548.5 429.4 L545.6 431.4 L542.2 437.4 L535.7 439.1 L532.2 434.8 L524.9 419.6 L513.1 411.5 L501.3 409.9 L490.4 410.4 L486.0 412.5 L480.6 406.9 L472.3 407.1 L470.0 390.4 L466.0 380.0 L468.1 377.5 L477.1 373.4 L477.3 370.8 L475.2 369.1 L475.2 365.2 L473.0 360.2 L481.7 354.0 L486.3 354.1 L486.0 348.6 L492.6 344.7 L498.9 339.5 L501.1 336.4 L500.5 333.2 L501.5 330.3 L504.9 327.2 L507.9 325.9 L517.6 325.4 L528.6 323.3 L536.2 320.6 L540.2 322.2 L543.5 325.0 L548.2 326.7 L551.1 329.9 L550.4 332.1 L551.7 335.0 L556.5 339.6 L559.5 338.5 L563.0 340.1 L563.4 342.8 L561.5 356.0 L562.0 368.2 L563.0 370.2 L570.5 375.2 L573.8 378.8 L574.0 383.8 L577.5 382.7 L580.5 383.7 L584.3 381.8 L587.8 385.2 L597.7 389.0 L603.5 394.1 L606.7 400.0 L613.9 404.8 L619.4 412.3 L613.7 424.8 L608.7 423.8 L600.8 420.2 L598.5 422.0 L596.3 429.2 L592.5 431.5 L590.1 430.4 L586.6 426.2 L582.4 427.3 L571.9 424.3 L550.2 428.2 Z" stroke-width="1.02" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/un-barbat-de-59-de-ani-a-decedat-in-urma-unui-incendiu-izbucnit-in-bihor/">Un bărbat de 59 de ani a decedat în urma unui incendiu izbucnit în Bihor</a></h2>
+  <h2 class="card-title"><a href="/local/anunt-privind-organizarea-unei-intalniri-de-dezbatere-publica-asupra/">Anunț privind organizarea unei întâlniri de dezbatere publică asupra organizării și delegării gestiunii…</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:44:16+00:00">25 septembrie 2026, 10:44</time>
+    <time datetime="2026-09-25T11:32:50+00:00">25 septembrie 2026, 14:32</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Un incendiu violent provocat probabil de o defecțiune la instalația electrică a izbucnit în locuința unui bărbat din comuna Cociuba Mare, județul Bihor, acesta fiind găsit în stop cardio-respirator de echipajele de intervenție.</p>
+  <p class="summary">Comuna Tărlungeni invită persoanele interesate la întâlnirea de dezbatere publică organizată în data de 30 septembrie 2026, ora 12:00, în sala de ședințe a Primăriei Comunei Tărlungeni, str. Zizinului nr. … Read More Articolul Anunț privind organizarea unei întâlniri de...</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.bihon.ro/stirile-judetului-bihor/incendiu-devastator-in-bihor-un-barbat-de-59-de-ani-a-murit-in-propria-locuinta-5410716/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Bihon</a></p>
+<a href="https://comunatarlungeni.ro/anunt-privind-organizarea-unei-intalniri-de-dezbatere-publica-asupra-organizarii-si-delegarii-gestiunii-serviciului-de-iluminat-public/" target="_blank" rel="noopener noreferrer">Primăria Tărlungeni</a></p>
 </article>
-<article class="card" data-cat="local" data-source="Timiș Online" data-title="Tinerii din Timișoara primesc finanțare pentru proiecte verzi"><a class="card-media" href="/local/tinerii-din-timisoara-primesc-finantare-pentru-proiecte-verzi/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t1 art--harta" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Timișoara</p></div>
+<article class="card" data-cat="local" data-source="Primăria Fibiș" data-title="Informare privind candidați pentru școlile militare de subofițeri jandarmi"><a class="card-media" href="/local/informare-privind-candidati-pentru-scolile-militare-de-subofiteri-jandarmi/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0 art--harta" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Fibiș</p></div>
   <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
   <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">Timiș</p>
   <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(0.00 -389.48) scale(1.3580)"><path d="M38.6 326.4 L44.5 325.1 L48.2 322.3 L48.8 320.4 L50.4 321.0 L65.3 331.5 L69.1 335.3 L70.1 338.3 L72.8 341.3 L80.9 343.0 L85.1 342.4 L87.4 343.0 L88.9 344.5 L88.9 347.3 L90.3 349.1 L93.2 350.2 L95.6 348.9 L96.4 344.6 L100.0 342.9 L102.0 347.0 L106.6 350.8 L108.1 350.8 L110.5 348.7 L113.2 347.9 L116.1 348.5 L118.3 350.5 L124.9 344.8 L125.6 340.9 L128.6 340.1 L132.1 340.5 L134.6 341.9 L135.6 346.4 L140.8 346.6 L146.4 351.5 L147.7 353.8 L147.1 356.9 L151.0 361.0 L152.3 360.2 L155.6 354.3 L158.0 353.7 L162.6 356.1 L166.4 360.5 L167.5 354.2 L170.9 356.0 L174.0 355.9 L176.5 349.5 L178.6 348.8 L182.6 349.2 L186.0 352.4 L193.1 353.8 L194.4 356.4 L199.7 360.5 L205.1 360.6 L210.0 362.4 L213.0 359.9 L219.4 358.5 L220.5 355.7 L223.3 353.7 L227.0 357.5 L229.4 366.9 L234.2 371.8 L238.1 379.9 L241.8 379.5 L243.0 380.2 L243.0 382.4 L235.8 390.3 L233.8 396.9 L221.2 399.6 L217.3 402.4 L213.7 409.0 L208.8 408.7 L204.5 405.9 L198.1 410.6 L189.7 411.7 L188.9 413.1 L189.6 416.6 L192.1 417.8 L186.7 421.4 L182.0 421.0 L178.1 414.3 L175.5 413.0 L163.2 418.5 L161.4 418.5 L158.2 415.3 L150.8 412.4 L147.5 412.4 L142.6 414.7 L140.2 422.6 L131.4 429.8 L131.6 434.0 L129.8 438.7 L130.2 441.3 L137.4 449.0 L138.7 455.6 L135.8 461.2 L135.8 470.0 L133.3 473.8 L131.3 474.9 L128.6 471.7 L123.0 467.8 L111.7 464.2 L105.4 463.3 L101.9 460.8 L94.8 452.0 L91.0 454.7 L89.7 454.4 L86.8 451.6 L78.1 447.6 L65.6 434.5 L60.6 427.8 L55.4 425.3 L54.8 423.1 L58.7 419.6 L58.9 417.5 L54.1 406.1 L56.5 398.2 L57.4 383.7 L55.2 381.5 L51.2 386.2 L48.4 386.3 L47.1 385.1 L42.6 378.2 L41.7 372.4 L38.3 369.5 L34.8 363.1 L31.2 360.7 L25.3 359.3 L19.7 354.2 L11.7 349.6 L6.6 337.9 L0.0 329.6 L4.3 324.2 L21.3 323.7 L23.9 319.6 L32.4 322.3 L37.8 326.3 Z" stroke-width="1.62" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/tinerii-din-timisoara-primesc-finantare-pentru-proiecte-verzi/">Tinerii din Timișoara primesc finanțare pentru proiecte verzi</a></h2>
+  <h2 class="card-title"><a href="/local/informare-privind-candidati-pentru-scolile-militare-de-subofiteri-jandarmi/">Informare privind candidați pentru școlile militare de subofițeri jandarmi</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:43:22+00:00">25 septembrie 2026, 10:43</time>
+    <time datetime="2026-09-25T11:32:41+00:00">25 septembrie 2026, 14:32</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Municipalitatea din Timișoara oferă granturi de până la 5.000 de dolari tinerilor între 15 și 24 de ani pentru inițiative ecologice, prin fonduri asigurate de Bloomberg Philanthropies.</p>
+  <p class="summary">4922 Descarcă</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.tion.ro/stirile-judetului-timis/bani-pentru-ideile-verzi-ale-tinerilor-din-timisoara-2360088/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Timiș Online</a></p>
+<a href="https://comunafibis.ro/2026/09/25/informare-privind-candidati-pentru-scolile-militare-de-subofiteri-jandarmi/" target="_blank" rel="noopener noreferrer">Primăria Fibiș</a></p>
 </article>
-<article class="card" data-cat="local" data-source="B365" data-title="Șantierul de pe strada Eufrosina Popescu din București pune în pericol copiii"><a class="card-media" href="/local/santierul-de-pe-strada-eufrosina-popescu-din-bucuresti-pune-in-pericol-copiii/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t1" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">București</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
+<article class="card" data-cat="local" data-source="PressAlert Timișoara" data-title="Doi tineri din Arad au fost arestați preventiv pentru trafic de droguri"><a class="card-media" href="/local/doi-tineri-din-arad-au-fost-arestati-preventiv-pentru-trafic-de-droguri/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0 art--harta" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Arad</p><span class="art-tick"></span><p class="art-sub">Timiș</p></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(0.00 -389.48) scale(1.3580)"><path d="M38.6 326.4 L44.5 325.1 L48.2 322.3 L48.8 320.4 L50.4 321.0 L65.3 331.5 L69.1 335.3 L70.1 338.3 L72.8 341.3 L80.9 343.0 L85.1 342.4 L87.4 343.0 L88.9 344.5 L88.9 347.3 L90.3 349.1 L93.2 350.2 L95.6 348.9 L96.4 344.6 L100.0 342.9 L102.0 347.0 L106.6 350.8 L108.1 350.8 L110.5 348.7 L113.2 347.9 L116.1 348.5 L118.3 350.5 L124.9 344.8 L125.6 340.9 L128.6 340.1 L132.1 340.5 L134.6 341.9 L135.6 346.4 L140.8 346.6 L146.4 351.5 L147.7 353.8 L147.1 356.9 L151.0 361.0 L152.3 360.2 L155.6 354.3 L158.0 353.7 L162.6 356.1 L166.4 360.5 L167.5 354.2 L170.9 356.0 L174.0 355.9 L176.5 349.5 L178.6 348.8 L182.6 349.2 L186.0 352.4 L193.1 353.8 L194.4 356.4 L199.7 360.5 L205.1 360.6 L210.0 362.4 L213.0 359.9 L219.4 358.5 L220.5 355.7 L223.3 353.7 L227.0 357.5 L229.4 366.9 L234.2 371.8 L238.1 379.9 L241.8 379.5 L243.0 380.2 L243.0 382.4 L235.8 390.3 L233.8 396.9 L221.2 399.6 L217.3 402.4 L213.7 409.0 L208.8 408.7 L204.5 405.9 L198.1 410.6 L189.7 411.7 L188.9 413.1 L189.6 416.6 L192.1 417.8 L186.7 421.4 L182.0 421.0 L178.1 414.3 L175.5 413.0 L163.2 418.5 L161.4 418.5 L158.2 415.3 L150.8 412.4 L147.5 412.4 L142.6 414.7 L140.2 422.6 L131.4 429.8 L131.6 434.0 L129.8 438.7 L130.2 441.3 L137.4 449.0 L138.7 455.6 L135.8 461.2 L135.8 470.0 L133.3 473.8 L131.3 474.9 L128.6 471.7 L123.0 467.8 L111.7 464.2 L105.4 463.3 L101.9 460.8 L94.8 452.0 L91.0 454.7 L89.7 454.4 L86.8 451.6 L78.1 447.6 L65.6 434.5 L60.6 427.8 L55.4 425.3 L54.8 423.1 L58.7 419.6 L58.9 417.5 L54.1 406.1 L56.5 398.2 L57.4 383.7 L55.2 381.5 L51.2 386.2 L48.4 386.3 L47.1 385.1 L42.6 378.2 L41.7 372.4 L38.3 369.5 L34.8 363.1 L31.2 360.7 L25.3 359.3 L19.7 354.2 L11.7 349.6 L6.6 337.9 L0.0 329.6 L4.3 324.2 L21.3 323.7 L23.9 319.6 L32.4 322.3 L37.8 326.3 Z" stroke-width="1.62" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Local</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/local/doi-tineri-din-arad-au-fost-arestati-preventiv-pentru-trafic-de-droguri/">Doi tineri din Arad au fost arestați preventiv pentru trafic de droguri</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T11:31:50+00:00">25 septembrie 2026, 14:31</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Polițiștii și procurorii DIICOT Arad au reținut doi suspecți în vârstă de 21 și 23 de ani. Aceștia sunt cercetați pentru operațiuni ilegale cu substanțe psihoactive și trafic de stupefiante de mare risc.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.pressalert.ro/2026/09/doi-tineri-arestati-preventiv-intr-un-dosar-de-trafic-de-droguri-de-mare-risc-si-substante-psihoactive/" target="_blank" rel="noopener noreferrer">PressAlert Timișoara</a></p>
+</article>
+<article class="card" data-cat="local" data-source="Ziua de Vest" data-title="Eveniment de business la Timișoara despre structura de holding și protejarea activelor"><a class="card-media" href="/local/eveniment-de-business-la-timisoara-despre-structura-de-holding-si-protejarea/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p2 art--t1" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Timișoara</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
   <div class="art-hairline"></div><div class="art-dot"></div>
   <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
   <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/santierul-de-pe-strada-eufrosina-popescu-din-bucuresti-pune-in-pericol-copiii/">Șantierul de pe strada Eufrosina Popescu din București pune în pericol copiii</a></h2>
+  <h2 class="card-title"><a href="/local/eveniment-de-business-la-timisoara-despre-structura-de-holding-si-protejarea/">Eveniment de business la Timișoara despre structura de holding și protejarea activelor</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:43:15+00:00">25 septembrie 2026, 10:43</time>
+    <time datetime="2026-09-25T11:30:35+00:00">25 septembrie 2026, 14:30</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Lucrările de amenajare din Sectorul 3 afectează accesul spre două grădinițe. Părinții reclamă lipsa măsurilor de siguranță pentru cei mici în timpul traversării zonei de șantier.</p>
+  <p class="summary">Gociu Lawyers și Elite Business Networking au organizat prima ediție Business Holding Architecture la Timișoara. Întâlnirea a oferit antreprenorilor soluții juridice, fiscale și financiare pentru organizarea grupurilor de companii și atragerea de investiții.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://b365.ro/foto-din-uriasa-dragoste-pentru-pavele-pe-strada-eufrosina-popescu-din-s3-santierul-a-ajuns-in-drumul-copiilor-de-la-doua-gradinite-bucurestean-siguranta-copiilor-asteapta-621202/" target="_blank" rel="noopener noreferrer">B365</a></p>
+<a href="https://www.ziuadevest.ro/business-holding-architecture-a-adus-la-timisoara-o-discutie-aplicata-despre-holdinguri-investitii-si-finantarea-companiilor/" target="_blank" rel="noopener noreferrer">Ziua de Vest</a></p>
 </article>
-<article class="card" data-cat="local" data-source="HotNews" data-title="Brad Pitt consideră noul său thriller cel mai dificil film din carieră"><a class="card-media" href="/local/brad-pitt-considera-noul-sau-thriller-cel-mai-dificil-film-din-cariera/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Brad</p></div>
+<article class="card" data-cat="local" data-source="Opinia Timișoarei" data-title="Festivalul Recoltei la Giroc: Concerte cu Horia Brenciu și Feli și strângere de fonduri"><a class="card-media" href="/local/festivalul-recoltei-la-giroc-concerte-cu-horia-brenciu-si-feli-si-strangere-de/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0 art--harta" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Giroc</p><span class="art-tick"></span><p class="art-sub">Timiș</p></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(0.00 -389.48) scale(1.3580)"><path d="M38.6 326.4 L44.5 325.1 L48.2 322.3 L48.8 320.4 L50.4 321.0 L65.3 331.5 L69.1 335.3 L70.1 338.3 L72.8 341.3 L80.9 343.0 L85.1 342.4 L87.4 343.0 L88.9 344.5 L88.9 347.3 L90.3 349.1 L93.2 350.2 L95.6 348.9 L96.4 344.6 L100.0 342.9 L102.0 347.0 L106.6 350.8 L108.1 350.8 L110.5 348.7 L113.2 347.9 L116.1 348.5 L118.3 350.5 L124.9 344.8 L125.6 340.9 L128.6 340.1 L132.1 340.5 L134.6 341.9 L135.6 346.4 L140.8 346.6 L146.4 351.5 L147.7 353.8 L147.1 356.9 L151.0 361.0 L152.3 360.2 L155.6 354.3 L158.0 353.7 L162.6 356.1 L166.4 360.5 L167.5 354.2 L170.9 356.0 L174.0 355.9 L176.5 349.5 L178.6 348.8 L182.6 349.2 L186.0 352.4 L193.1 353.8 L194.4 356.4 L199.7 360.5 L205.1 360.6 L210.0 362.4 L213.0 359.9 L219.4 358.5 L220.5 355.7 L223.3 353.7 L227.0 357.5 L229.4 366.9 L234.2 371.8 L238.1 379.9 L241.8 379.5 L243.0 380.2 L243.0 382.4 L235.8 390.3 L233.8 396.9 L221.2 399.6 L217.3 402.4 L213.7 409.0 L208.8 408.7 L204.5 405.9 L198.1 410.6 L189.7 411.7 L188.9 413.1 L189.6 416.6 L192.1 417.8 L186.7 421.4 L182.0 421.0 L178.1 414.3 L175.5 413.0 L163.2 418.5 L161.4 418.5 L158.2 415.3 L150.8 412.4 L147.5 412.4 L142.6 414.7 L140.2 422.6 L131.4 429.8 L131.6 434.0 L129.8 438.7 L130.2 441.3 L137.4 449.0 L138.7 455.6 L135.8 461.2 L135.8 470.0 L133.3 473.8 L131.3 474.9 L128.6 471.7 L123.0 467.8 L111.7 464.2 L105.4 463.3 L101.9 460.8 L94.8 452.0 L91.0 454.7 L89.7 454.4 L86.8 451.6 L78.1 447.6 L65.6 434.5 L60.6 427.8 L55.4 425.3 L54.8 423.1 L58.7 419.6 L58.9 417.5 L54.1 406.1 L56.5 398.2 L57.4 383.7 L55.2 381.5 L51.2 386.2 L48.4 386.3 L47.1 385.1 L42.6 378.2 L41.7 372.4 L38.3 369.5 L34.8 363.1 L31.2 360.7 L25.3 359.3 L19.7 354.2 L11.7 349.6 L6.6 337.9 L0.0 329.6 L4.3 324.2 L21.3 323.7 L23.9 319.6 L32.4 322.3 L37.8 326.3 Z" stroke-width="1.62" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
+</div></a><span class="badge">Local</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/local/festivalul-recoltei-la-giroc-concerte-cu-horia-brenciu-si-feli-si-strangere-de/">Festivalul Recoltei la Giroc: Concerte cu Horia Brenciu și Feli și strângere de fonduri</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-25T11:30:24+00:00">25 septembrie 2026, 14:30</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Comuna Giroc găzduiește sâmbătă cea de-a patra ediție a Festivalului Recoltei, eveniment sprijinit de Consiliul Județean Timiș. Pe lângă spectacole muzicale și produse tradiționale, organizatorii derulează o campanie umanitară pentru un centru destinat copiilor.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.opiniatimisoarei.ro/concerte-cu-horia-brenciu-si-feli-sau-bunatati-la-ceaun-la-festivalul-recoltei-langa-timisoara-va-fi-organizata-si-o-strangere-de-fonduri/25/09/2026" target="_blank" rel="noopener noreferrer">Opinia Timișoarei</a></p>
+</article>
+<article class="card" data-cat="local" data-source="Bihon" data-title="Dezbatere la Oradea privind dezvoltarea județului Bihor și mediul de afaceri"><a class="card-media" href="/local/dezbatere-la-oradea-privind-dezvoltarea-judetului-bihor-si-mediul-de-afaceri/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p2 art--t0 art--harta" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Oradea</p></div>
   <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">Local</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">Bihor</p>
+  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-153.41 -166.24) scale(1.6077)"><path d="M124.9 245.9 L126.2 243.6 L131.2 241.9 L133.1 239.0 L133.5 236.0 L129.8 233.0 L133.2 223.5 L136.8 219.0 L141.8 217.1 L142.6 215.1 L142.4 207.8 L148.6 202.6 L151.1 194.9 L147.0 190.5 L153.5 183.4 L160.8 177.9 L162.5 172.5 L166.8 167.7 L167.2 161.2 L171.2 148.7 L177.2 140.7 L183.9 138.2 L186.0 134.0 L184.6 118.9 L186.6 115.2 L196.3 107.1 L201.5 105.8 L203.5 103.4 L208.4 111.9 L215.5 118.4 L223.0 132.2 L225.7 133.3 L231.1 133.1 L236.9 131.5 L243.2 135.7 L245.4 138.6 L247.2 145.0 L246.1 149.3 L243.8 153.7 L242.6 158.6 L238.1 164.4 L238.1 166.5 L248.3 185.0 L256.0 190.0 L261.9 197.1 L258.8 203.7 L258.6 206.1 L264.9 208.8 L266.8 211.5 L264.7 219.0 L257.0 224.4 L256.5 228.1 L263.4 235.9 L266.6 246.1 L271.2 251.8 L270.7 261.3 L268.1 260.0 L264.0 260.0 L261.5 262.3 L259.0 269.0 L258.6 281.9 L260.5 290.0 L251.1 289.9 L243.1 288.2 L231.8 287.6 L229.1 285.0 L227.4 281.1 L219.4 278.1 L214.4 273.8 L208.0 270.8 L205.1 266.3 L202.0 258.4 L195.7 253.7 L183.6 252.8 L177.8 249.4 L173.1 249.0 L170.1 246.4 L167.4 245.9 L132.1 247.9 L127.2 246.7 Z" stroke-width="1.37" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/brad-pitt-considera-noul-sau-thriller-cel-mai-dificil-film-din-cariera/">Brad Pitt consideră noul său thriller cel mai dificil film din carieră</a></h2>
+  <h2 class="card-title"><a href="/local/dezbatere-la-oradea-privind-dezvoltarea-judetului-bihor-si-mediul-de-afaceri/">Dezbatere la Oradea privind dezvoltarea județului Bihor și mediul de afaceri</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:42:56+00:00">25 septembrie 2026, 10:42</time>
+    <time datetime="2026-09-25T11:28:17+00:00">25 septembrie 2026, 14:28</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Actorul american a declarat că filmările în sălbăticie pentru noul său lungmetraj au reprezentat cea mai grea provocare profesională de până acum, atrăgându-l în special finalul poveștii.</p>
+  <p class="summary">Universitatea din Oradea a găzduit o conferință axată pe provocările economice și de infrastructură din Bihor, reunind antreprenori, autorități locale și reprezentanți ai mediului universitar pentru a discuta soluții de creștere regională.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://hotnews.ro/cel-mai-greu-film-din-cariera-lui-brad-pitt-a-aparut-in-cinematografe-ceea-ce-m-a-atras-cu-adevarat-a-fost-finalul-2357744" target="_blank" rel="noopener noreferrer">HotNews</a></p>
+<a href="https://www.bihon.ro/stirile-judetului-bihor/economic/bihorul-intre-dezvoltare-si-obstacole-investitii-autostrazi-si-problemele-antreprenorilor-5411010/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Bihon</a></p>
 </article>
-<article class="card" data-cat="local" data-source="Primăria Bretea Română" data-title="Anunț 29 septembrie Ziua Internațională de Conștientizare a Pierderilor și Risipei Alimentare"><a class="card-media" href="/local/anunt-29-septembrie-ziua-internationala-de-constientizare-a-pierderilor-si/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t2 art--harta" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+<article class="card" data-cat="local" data-source="Primăria Fărău" data-title="Se convoacă consiliul local Fărău în şedinţă ordinară publică în data de 30.09.2026 ora 12.00"><a class="card-media" href="/local/se-convoaca-consiliul-local-farau-in-sedinta-ordinara-publica-in-data-de-30-09/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0 art--harta" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
   <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Bretea Română</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Hunedoara</span></p></div>
+  <div class="art-body"><p class="art-label">Fărău</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Alba</span></p></div>
   <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span>Hunedoara</span></div><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-356.62 -532.71) scale(1.8040)"><path d="M353.5 444.5 L346.9 446.8 L338.0 452.1 L333.7 449.8 L329.4 449.3 L319.1 452.6 L309.9 457.3 L303.8 455.5 L301.2 455.7 L292.8 458.8 L289.0 456.4 L283.3 455.6 L280.2 453.1 L256.6 461.6 L256.9 457.6 L260.3 451.5 L260.6 449.1 L257.2 441.3 L259.6 435.3 L257.6 423.2 L254.9 419.0 L246.7 411.9 L243.2 411.5 L242.6 407.3 L238.3 406.2 L233.8 400.8 L232.9 397.3 L234.6 395.7 L235.8 390.3 L243.3 381.2 L241.8 379.5 L238.1 379.9 L234.2 371.8 L229.4 366.9 L227.0 357.5 L223.3 353.7 L228.3 347.3 L230.2 342.2 L228.9 335.2 L231.8 326.4 L232.1 317.6 L237.0 313.0 L246.8 314.3 L251.3 312.9 L255.9 306.9 L258.7 300.4 L265.7 295.3 L271.8 298.8 L282.5 298.1 L284.6 301.6 L288.0 312.7 L290.0 314.0 L296.1 315.3 L298.6 318.0 L301.7 326.4 L298.6 327.1 L299.4 330.1 L309.6 343.6 L315.4 346.1 L319.5 356.8 L325.0 364.8 L327.6 376.5 L330.9 386.1 L331.2 392.5 L334.0 396.3 L333.9 403.9 L336.3 408.4 L344.7 413.7 L352.9 422.4 L353.0 432.4 L355.0 440.1 Z" stroke-width="1.22" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Local · Anunț oficial</span>
-  <p class="trust-label" title="Cum este construită această informație">Anunț oficial · citește textul integral la sursă</p>
-  <h2 class="card-title"><a href="/local/anunt-29-septembrie-ziua-internationala-de-constientizare-a-pierderilor-si/">Anunț 29 septembrie Ziua Internațională de Conștientizare a Pierderilor și Risipei Alimentare</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:41:12+00:00">25 septembrie 2026, 10:41</time>
-</div>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://bretea-romana.ro/2026/09/25/anunt-29-septembrie-ziua-internationala-de-constientizare-a-pierderilor-si-risipei-alimentare/" target="_blank" rel="noopener noreferrer">Primăria Bretea Română</a></p>
-</article>
-<article class="card" data-cat="local" data-source="Economedia" data-title="Reactoarele centralei de la Cernavodă ar putea reporni la mijlocul lunii octombrie"><a class="card-media" href="/local/reactoarele-centralei-de-la-cernavoda-ar-putea-reporni-la-mijlocul-lunii/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t1" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Cernavodă</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span>Local</span></div>  <div class="art-grain"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span>Alba</span></div><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-430.86 -457.66) scale(1.7616)"><path d="M271.8 298.8 L265.7 295.3 L260.5 290.0 L258.6 281.9 L258.4 272.6 L260.1 265.1 L262.8 260.8 L265.4 259.8 L269.1 260.4 L273.9 264.2 L291.2 265.3 L297.4 271.9 L298.2 275.6 L299.7 276.8 L302.5 273.8 L307.8 270.8 L317.8 272.4 L323.6 267.9 L334.2 265.9 L348.7 273.5 L357.5 274.2 L358.2 276.2 L356.1 281.5 L356.9 283.0 L360.8 285.1 L363.0 284.6 L362.8 280.8 L363.5 280.1 L384.1 277.3 L392.9 279.6 L396.0 278.8 L396.8 277.6 L400.1 277.9 L403.4 281.1 L403.1 283.4 L399.6 288.8 L403.4 293.5 L412.5 298.5 L414.4 305.6 L417.6 308.9 L418.1 320.5 L401.6 337.6 L398.8 345.3 L397.0 345.6 L392.3 341.7 L383.8 343.3 L381.7 345.6 L383.0 354.2 L379.9 357.4 L377.1 358.7 L372.9 359.0 L369.0 357.1 L366.1 357.3 L366.1 363.2 L371.8 366.0 L372.3 368.1 L366.6 377.4 L362.4 377.7 L360.0 379.7 L356.3 390.0 L356.0 392.7 L358.4 404.2 L356.4 413.8 L360.1 421.6 L360.7 425.1 L357.8 429.4 L353.3 430.1 L352.9 422.4 L344.7 413.7 L338.8 410.5 L335.0 406.5 L333.5 402.3 L334.0 396.3 L331.2 392.5 L330.9 386.1 L327.6 376.5 L325.0 364.8 L319.5 356.8 L315.4 346.1 L309.6 343.6 L299.4 330.1 L298.6 327.1 L301.7 326.4 L298.6 318.0 L296.1 315.3 L290.0 314.0 L288.0 312.7 L284.6 301.6 L282.5 298.1 L281.4 297.8 Z" stroke-width="1.25" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/reactoarele-centralei-de-la-cernavoda-ar-putea-reporni-la-mijlocul-lunii/">Reactoarele centralei de la Cernavodă ar putea reporni la mijlocul lunii octombrie</a></h2>
+  <h2 class="card-title"><a href="/local/se-convoaca-consiliul-local-farau-in-sedinta-ordinara-publica-in-data-de-30-09/">Se convoacă consiliul local Fărău în şedinţă ordinară publică în data de 30.09.2026 ora 12.00</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:40:08+00:00">25 septembrie 2026, 10:40</time>
+    <time datetime="2026-09-25T11:24:40+00:00">25 septembrie 2026, 14:24</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Secretarul de stat Cristian Bușoi a anunțat că repornirea unităților nucleare depinde de prognozele meteo și de scăderea debitului Dunării în perioada următoare.</p>
+  <p class="summary">Dispoziţia nr 110/24.09.2026 Primarul comunei Fărău dl Stoia Ioan Având în vedere Referatul compartimentului de specialitate . Nr . 2251/24.09.2026 , – Art 133 al 1 , 134 al 1 din OG 57/2019 Codul administrativ În temeiul art 196 al...</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://economedia.ro/cristian-busoi-reactoarele-de-la-cernavoda-ar-putea-fi-repornite-la-mijlocul-lunii-octombrie.html" target="_blank" rel="noopener noreferrer">Economedia</a></p>
+<a href="https://www.primariafarau.ro/se-convoaca-consiliul-local-farau-in-sedinta-ordinara-publica-in-data-de-30-09-2026-ora-12-00/" target="_blank" rel="noopener noreferrer">Primăria Fărău</a></p>
 </article>
-<article class="card" data-cat="local" data-source="Ziua de Vest" data-title="Primăria Lugoj investește 6 milioane de lei în reabilitarea unui bloc"><a class="card-media" href="/local/primaria-lugoj-investeste-6-milioane-de-lei-in-reabilitarea-unui-bloc/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p1 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Lugoj</p></div>
-  <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">Local</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Local</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/primaria-lugoj-investeste-6-milioane-de-lei-in-reabilitarea-unui-bloc/">Primăria Lugoj investește 6 milioane de lei în reabilitarea unui bloc</a></h2>
+<article class="card card-c" data-cat="local" data-source="PressAlert Timișoara" data-title="Bărbat din Timișoara arestat pentru viol și pornografie infantilă asupra unei fete"><a class="card-media" href="/local/barbat-din-timisoara-arestat-pentru-viol-si-pornografie-infantila-asupra-unei/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t1 art--harta" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Timișoara</p><span class="art-tick"></span><p class="art-sub">Timiș</p></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(0.00 -389.48) scale(1.3580)"><path d="M38.6 326.4 L44.5 325.1 L48.2 322.3 L48.8 320.4 L50.4 321.0 L65.3 331.5 L69.1 335.3 L70.1 338.3 L72.8 341.3 L80.9 343.0 L85.1 342.4 L87.4 343.0 L88.9 344.5 L88.9 347.3 L90.3 349.1 L93.2 350.2 L95.6 348.9 L96.4 344.6 L100.0 342.9 L102.0 347.0 L106.6 350.8 L108.1 350.8 L110.5 348.7 L113.2 347.9 L116.1 348.5 L118.3 350.5 L124.9 344.8 L125.6 340.9 L128.6 340.1 L132.1 340.5 L134.6 341.9 L135.6 346.4 L140.8 346.6 L146.4 351.5 L147.7 353.8 L147.1 356.9 L151.0 361.0 L152.3 360.2 L155.6 354.3 L158.0 353.7 L162.6 356.1 L166.4 360.5 L167.5 354.2 L170.9 356.0 L174.0 355.9 L176.5 349.5 L178.6 348.8 L182.6 349.2 L186.0 352.4 L193.1 353.8 L194.4 356.4 L199.7 360.5 L205.1 360.6 L210.0 362.4 L213.0 359.9 L219.4 358.5 L220.5 355.7 L223.3 353.7 L227.0 357.5 L229.4 366.9 L234.2 371.8 L238.1 379.9 L241.8 379.5 L243.0 380.2 L243.0 382.4 L235.8 390.3 L233.8 396.9 L221.2 399.6 L217.3 402.4 L213.7 409.0 L208.8 408.7 L204.5 405.9 L198.1 410.6 L189.7 411.7 L188.9 413.1 L189.6 416.6 L192.1 417.8 L186.7 421.4 L182.0 421.0 L178.1 414.3 L175.5 413.0 L163.2 418.5 L161.4 418.5 L158.2 415.3 L150.8 412.4 L147.5 412.4 L142.6 414.7 L140.2 422.6 L131.4 429.8 L131.6 434.0 L129.8 438.7 L130.2 441.3 L137.4 449.0 L138.7 455.6 L135.8 461.2 L135.8 470.0 L133.3 473.8 L131.3 474.9 L128.6 471.7 L123.0 467.8 L111.7 464.2 L105.4 463.3 L101.9 460.8 L94.8 452.0 L91.0 454.7 L89.7 454.4 L86.8 451.6 L78.1 447.6 L65.6 434.5 L60.6 427.8 L55.4 425.3 L54.8 423.1 L58.7 419.6 L58.9 417.5 L54.1 406.1 L56.5 398.2 L57.4 383.7 L55.2 381.5 L51.2 386.2 L48.4 386.3 L47.1 385.1 L42.6 378.2 L41.7 372.4 L38.3 369.5 L34.8 363.1 L31.2 360.7 L25.3 359.3 L19.7 354.2 L11.7 349.6 L6.6 337.9 L0.0 329.6 L4.3 324.2 L21.3 323.7 L23.9 319.6 L32.4 322.3 L37.8 326.3 Z" stroke-width="1.62" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
+</div></a><span class="badge c">Local</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/local/barbat-din-timisoara-arestat-pentru-viol-si-pornografie-infantila-asupra-unei/">Bărbat din Timișoara arestat pentru viol și pornografie infantilă asupra unei fete</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:39:24+00:00">25 septembrie 2026, 10:39</time>
+    <time datetime="2026-09-25T11:24:29+00:00">25 septembrie 2026, 14:24</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Imobilul de pe strada Buziașului va fi modernizat energetic printr-un proiect în valoare de 6 milioane de lei, având o perioadă de implementare de 16 luni.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.ziuadevest.ro/un-bloc-de-pe-strada-buziasului-din-lugoj-intra-intr-un-amplu-proiect-de-eficientizare-energetica-investitia-ajunge-la-6-milioane-de-lei/" target="_blank" rel="noopener noreferrer">Ziua de Vest</a></p>
+  <p class="summary">Un bărbat de 27 de ani a fost arestat preventiv pentru 30 de ani de Tribunalul Timiș, în urma unor percheziții efectuate de DIICOT și BCCO Timișoara. Ac Acesta este cercetat pentru viol în formă continuată și pornografie infantilă agravantă, după ce ar fi abuzat o minoră de 13 ani începând din luna mai 2026. Anchetatorii menționează că suspectul a manipulat-o pe victimă să îi trimită materiale pornografice, situație în urma căreia aceasta și-a provocat răni și a necesitat îngrijiri medicale.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://www.pressalert.ro/2026/09/barbat-de-27-de-ani-arestat-la-timisoara-pentru-viol-si-pornografie-infantila-dupa-ce-a-agresat-o-fata-de-13-ani/" target="_blank" rel="noopener noreferrer">PressAlert Timișoara</a>, <a href="https://www.tion.ro/eveniment/fata-de-13-ani-ajunsa-la-spital-dupa-relatia-cu-un-barbat-de-27-de-ani-acesta-a-fost-arestat-la-timisoara-2360253/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator" target="_blank" rel="noopener noreferrer">Timiș Online</a></p>
 </article>
-<article class="card" data-cat="local" data-source="Observator" data-title="O profesoară dispărută în Arad a fost găsită în pădure"><a class="card-media" href="/local/o-profesoara-disparuta-in-arad-a-fost-gasita-in-padure/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p3 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
-  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Arad</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
-  <div class="art-ring"></div><div class="art-blob"></div>
-  <div class="art-foot"><span>Portalul știrilor tale</span><span>Local</span></div>  <div class="art-grain"></div>
-</div></a><span class="badge">Local</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/o-profesoara-disparuta-in-arad-a-fost-gasita-in-padure/">O profesoară dispărută în Arad a fost găsită în pădure</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:35:00+00:00">25 septembrie 2026, 10:35</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">O profesoară din Sebiș a fost localizată în siguranță într-o zonă muntoasă după ample căutări organizate de autorități și sute de localnici, la scurt timp după ce plecase de la școală.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://observatornews.ro/eveniment/o-profesoara-din-arad-a-fost-gasita-in-padure-dupa-ce-a-disparut-fara-urma-dupa-cursurile-de-joi-667196.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
-</article>
-<article class="card" data-cat="local" data-source="Dobrogea Online" data-title="Biblioteca din Constanța organizează Maratonul Scriitorilor Dobrogeni"><a class="card-media" href="/local/biblioteca-din-constanta-organizeaza-maratonul-scriitorilor-dobrogeni/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t1" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Constanța</p><span class="art-tick"></span><p class="art-sub">Local</p></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">vineri</span><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Local</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/biblioteca-din-constanta-organizeaza-maratonul-scriitorilor-dobrogeni/">Biblioteca din Constanța organizează Maratonul Scriitorilor Dobrogeni</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-25T07:34:27+00:00">25 septembrie 2026, 10:34</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Instituția culturală pregătiți un eveniment literar special pentru Nocturna Bibliotecilor, reunind autori consacrați și tineri creatori locali sub deviza implicării active în viața comunității.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.dobrogeaonline.ro/maratonul-scriitorilor-dobrogeni-organizat-de-biblioteca-judeteana-constanta-cu-ocazia-nocturnei-bibliotecilor/" target="_blank" rel="noopener noreferrer">Dobrogea Online</a></p>
-</article>
-<article class="card" data-cat="local" data-source="Primăria Bucuresti Sectorul 1" data-title="Sfatul biologului de la Caraiman: Discutați cu medicul despre analizele necesare, înainte să vă simțiți rău"><a class="card-media" href="/local/sfatul-biologului-de-la-caraiman-discutati-cu-medicul-despre-analizele-necesare/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p3 art--t1 art--harta" aria-hidden="true">  <div class="art-band"></div>
+<article class="card" data-cat="local" data-source="Primăria Bucuresti Sectorul 1" data-title="Investim în energie solară pentru clădirile publice și facturi mai mici"><a class="card-media" href="/local/investim-in-energie-solara-pentru-cladirile-publice-si-facturi-mai-mici/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p0 art--t1 art--harta" aria-hidden="true">  <div class="art-band"></div>
   <div class="art-body"><p class="art-label">București</p></div>
   <div class="art-tick"></div><p class="art-when">vineri,<br>25 septembrie</p>
   <div class="art-num"><span class="art-num-zi">25</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">Local</p>
   <span class="art-brand art-brand--jos">izz.ro</span><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-4417.59 -4148.89) scale(7.4074)"><path d="M619.8 560.1 L620.8 570.4 L629.0 572.4 L626.5 580.2 L631.1 584.3 L629.5 589.0 L624.4 587.4 L623.6 589.7 L627.0 598.1 L624.1 600.6 L619.0 593.8 L613.2 592.5 L606.2 584.7 L606.2 579.9 L613.2 579.3 L613.2 574.5 L607.7 572.0 L612.7 562.9 Z" stroke-width="0.30" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/sfatul-biologului-de-la-caraiman-discutati-cu-medicul-despre-analizele-necesare/">Sfatul biologului de la Caraiman: Discutați cu medicul despre analizele necesare, înainte să vă simțiți rău</a></h2>
+  <h2 class="card-title"><a href="/local/investim-in-energie-solara-pentru-cladirile-publice-si-facturi-mai-mici/">Investim în energie solară pentru clădirile publice și facturi mai mici</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:32:43+00:00">25 septembrie 2026, 10:32</time>
+    <time datetime="2026-09-25T11:24:15+00:00">25 septembrie 2026, 14:24</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Lipsa simptomelor nu înseamnă întotdeauna absența problemelor de sănătate. Unele modificări ale organismului pot trece neobservate, motiv pentru care controlul preventiv nu ar trebui amânat doar pentru că vă simțiți bine. În cadrul consultației, medicul poate stabili dacă sunt necesare</p>
+  <p class="summary">Facem pași importanți pentru a produce mai multă energie electrică din surse regenerabile și pentru a reduce, în timp, banii cheltuiți pe facturile de electricitate ale clădirilor publice. Consiliul Local a aprobat astăzi două proiecte pentru instalarea de panouri fotovoltaice,</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://primariasector1.ro/sfatul-biologului-de-la-caraiman-discutati-cu-medicul-despre-analizele-necesare-inainte-sa-va-simtiti-rau/" target="_blank" rel="noopener noreferrer">Primăria Bucuresti Sectorul 1</a></p>
+<a href="https://primariasector1.ro/investim-in-energie-solara-pentru-cladirile-publice-si-facturi-mai-mici/" target="_blank" rel="noopener noreferrer">Primăria Bucuresti Sectorul 1</a></p>
 </article>
-<article class="card" data-cat="local" data-source="GSP" data-title="Proiect pentru un nou stadion modern în comuna Șcheia"><a class="card-media" href="/local/proiect-pentru-un-nou-stadion-modern-in-comuna-scheia/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Șcheia</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">25</span><span class="art-num-wk">vineri</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+<article class="card" data-cat="local" data-source="News Brașov" data-title="Salariul mediu net în Brașov a ajuns la aproape 5.300 de lei"><a class="card-media" href="/local/salariul-mediu-net-in-brasov-a-ajuns-la-aproape-5-300-de-lei/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p4 art--t0 art--harta" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">vineri 25 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Brașov</p><p class="art-subrow"><span class="art-tick"></span><span class="art-sub">Local</span></p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span>Local</span></div><div class="art-harta"><svg viewBox="0 0 330 300" aria-hidden="true" focusable="false"><g transform="translate(-1002.48 -667.15) scale(2.1512)"><path d="M548.5 429.4 L545.6 431.4 L542.2 437.4 L535.7 439.1 L532.2 434.8 L524.9 419.6 L513.1 411.5 L501.3 409.9 L490.4 410.4 L486.0 412.5 L480.6 406.9 L472.3 407.1 L470.0 390.4 L466.0 380.0 L468.1 377.5 L477.1 373.4 L477.3 370.8 L475.2 369.1 L475.2 365.2 L473.0 360.2 L481.7 354.0 L486.3 354.1 L486.0 348.6 L492.6 344.7 L498.9 339.5 L501.1 336.4 L500.5 333.2 L501.5 330.3 L504.9 327.2 L507.9 325.9 L517.6 325.4 L528.6 323.3 L536.2 320.6 L540.2 322.2 L543.5 325.0 L548.2 326.7 L551.1 329.9 L550.4 332.1 L551.7 335.0 L556.5 339.6 L559.5 338.5 L563.0 340.1 L563.4 342.8 L561.5 356.0 L562.0 368.2 L563.0 370.2 L570.5 375.2 L573.8 378.8 L574.0 383.8 L577.5 382.7 L580.5 383.7 L584.3 381.8 L587.8 385.2 L597.7 389.0 L603.5 394.1 L606.7 400.0 L613.9 404.8 L619.4 412.3 L613.7 424.8 L608.7 423.8 L600.8 420.2 L598.5 422.0 L596.3 429.2 L592.5 431.5 L590.1 430.4 L586.6 426.2 L582.4 427.3 L571.9 424.3 L550.2 428.2 Z" stroke-width="1.02" stroke-linejoin="round"/></g></svg></div>  <div class="art-grain"></div>
 </div></a><span class="badge">Local</span>
   <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/local/proiect-pentru-un-nou-stadion-modern-in-comuna-scheia/">Proiect pentru un nou stadion modern în comuna Șcheia</a></h2>
+  <h2 class="card-title"><a href="/local/salariul-mediu-net-in-brasov-a-ajuns-la-aproape-5-300-de-lei/">Salariul mediu net în Brașov a ajuns la aproape 5.300 de lei</a></h2>
   <div class="meta">
-    <time datetime="2026-09-25T07:31:02+00:00">25 septembrie 2026, 10:31</time>
+    <time datetime="2026-09-25T11:21:16+00:00">25 septembrie 2026, 14:21</time>
     <span class="reading-time">~1 min</span>
 </div>
-  <p class="summary">Autoritățile locale analizează planurile pentru construirea unei mari arene multifuncționale cu cincisprezece mii de locuri, menită să deservească regiunea Suceava și să găzduiască diverse spectacole.</p>
+  <p class="summary">Datele Institutului Național de Statistică arată că Brașovul ocupă locul șapte pe țară la nivelul câștigului salarial, în timp ce media națională netă a crescut la 5.266 de lei pe fondul majorărilor economice anuale.</p>
   <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.gsp.ro/fotbal/liga-2/stadion-suceava-liga-2-scheia-982082.html" target="_blank" rel="noopener noreferrer">GSP</a></p>
+<a href="https://newsbv.ro/5-300-de-lei-este-salariul-mediu-net-in-brasov/" target="_blank" rel="noopener noreferrer">News Brașov</a></p>
 </article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">
 <a href="/local/127/" rel="prev" aria-label="Pagina anterioară">‹</a>
-<a href="/local/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/local/126/" aria-label="Pagina 126">126</a><a href="/local/127/" aria-label="Pagina 127">127</a><span class="current" aria-current="page">128</span><a href="/local/129/" aria-label="Pagina 129">129</a><a href="/local/130/" aria-label="Pagina 130">130</a><span class="gap" aria-hidden="true">…</span><a href="/local/148/" aria-label="Pagina 148">148</a><a href="/local/129/" rel="next" aria-label="Pagina următoare">›</a>
+<a href="/local/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/local/126/" aria-label="Pagina 126">126</a><a href="/local/127/" aria-label="Pagina 127">127</a><span class="current" aria-current="page">128</span><a href="/local/129/" aria-label="Pagina 129">129</a><a href="/local/130/" aria-label="Pagina 130">130</a><span class="gap" aria-hidden="true">…</span><a href="/local/146/" aria-label="Pagina 146">146</a><a href="/local/129/" rel="next" aria-label="Pagina următoare">›</a>
   </nav>
   </main>
 

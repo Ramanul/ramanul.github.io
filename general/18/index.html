@@ -23,13 +23,13 @@
   <meta name="twitter:image" content="https://izz.ro/static/og-image.png">
 
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
-  <link rel="manifest" href="/static/site.webmanifest?v=103d1792">
+  <link rel="manifest" href="/static/site.webmanifest?v=a7f6edae">
   <link rel="apple-touch-icon" href="/static/icon-192.png">
   <meta name="theme-color" content="#D6AD33">
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=e95b9c0d">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=eee4c71f">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=318109e6"></script>
@@ -51,7 +51,7 @@
     </a>
     <nav class="nav" aria-label="Secțiuni principale">
       <a href="/">Știri</a>
-      <a href="/static/harta-stiri/">Harta știrilor</a>
+      <a href="/harta/">Harta știrilor</a>
       <a href="/ghiduri/">Ai nevoie să știi</a>
       <a href="/calendar/">Ce urmează</a>
       <a href="/instrumente/">Instrumente</a>
@@ -60,9 +60,15 @@
     </nav>
   </header>
   <nav class="subnav" aria-label="Categorii de știri">
-<a href="/general/" data-cat="general" class="active">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <details class="subnav-more">
-      <summary><a href="/sectiuni/">Mai multe secțiuni</a></summary>
+<a href="/general/" data-cat="general" class="active">Național</a><a href="/regional/" data-cat="regional">Regional</a><a href="/judetean/" data-cat="judetean">Județean</a><a href="/local/" data-cat="local">Local</a><a href="/politic/" data-cat="politic">Politică</a><a href="/economic/" data-cat="economic">Economie</a><a href="/extern/" data-cat="extern">Externe</a><a href="/sport/" data-cat="sport">Sport</a><a href="/ai/" data-cat="ai">Inteligență artificială</a><a href="/tech/" data-cat="tech">Tech</a><a href="/auto/" data-cat="auto">Auto</a>    <!-- Două variante: pe mobil (<640px) link simplu spre /sectiuni/ — dropdown-ul e
+         tăiat de overflow-x al benzii (listă absolută într-un container cu scroll),
+         iar summary+<a> imbricate pică garantat WCAG 2.5.8 target-size. Pe ecrane late
+         rămâne dropdown-ul, cu /sectiuni/ ca prim element al listei. -->
+    <a class="subnav-more-mobile" href="/sectiuni/">Mai multe secțiuni</a>
+    <details class="subnav-more">
+      <summary>Mai multe secțiuni</summary>
       <div class="subnav-more-list">
+        <a href="/sectiuni/">Toate secțiunile</a>
 <a href="/sanatate/" data-cat="sanatate">Sănătate</a><a href="/cultura/" data-cat="cultura">Cultură</a><a href="/lifestyle/" data-cat="lifestyle">Lifestyle</a><a href="/discounturi/" data-cat="discounturi">Discounturi</a>      </div>
     </details>
   </nav>
@@ -76,6 +82,114 @@
 </nav>
   <h1 class="section-title">Național</h1>
   <section class="grid">
+<article class="card card-c" data-cat="general" data-source="Spotmedia" data-title="Lucrări de modernizare lasă peste 1.800 de blocuri fără apă caldă în Capitală"><a class="card-media" href="/general/peste-1-800-de-blocuri-din-capitala-raman-fara-apa-calda/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p0 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
+  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Național</p></div>
+  <div class="art-ring"></div><div class="art-blob"></div>
+  <div class="art-foot"><span>Portalul știrilor tale</span><span></span></div>  <div class="art-grain"></div>
+</div></a><span class="badge c">Național</span>
+  <p class="trust-label" title="Cum este construită această informație">Sinteză multi-sursă · generată automat</p>
+  <h2 class="card-title"><a href="/general/peste-1-800-de-blocuri-din-capitala-raman-fara-apa-calda/">Lucrări de modernizare lasă peste 1.800 de blocuri fără apă caldă în Capitală</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T14:20:00+00:00">27 septembrie 2026, 17:20</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Peste 1.800 de blocuri din sectoarele 4 și 5 ale Capitalei au fost afectate de întreruperea furnizării apei calde. Măsura a fost luată din cauza demarării unor lucrări de modernizare la rețeaua termică primară, derulate de Compania Municipală Termoenergetica în cadrul unui proiect de reabilitare finanțat din fonduri europene și de la bugetul de stat.</p>
+  <p class="sources-inline"><b>Surse:</b>
+<a href="https://spotmedia.ro/stiri/social/peste-1-800-de-blocuri-din-bucuresti-raman-fara-apa-calda" target="_blank" rel="noopener noreferrer">Spotmedia</a>, <a href="https://www.profit.ro/povesti-cu-profit/energie/anunt-de-astazi-peste-1-800-de-blocuri-din-bucuresti-raman-fara-apa-calda-22788886?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross" target="_blank" rel="noopener noreferrer">Profit.ro</a></p>
+</article>
+<article class="card" data-cat="general" data-source="HotNews" data-title="România se confruntă cu o rată ridicată a risipei alimentare anuale"><a class="card-media" href="/general/romania-se-confrunta-cu-o-rata-ridicata-a-risipei-alimentare-anuale/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Național</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">27</span><span class="art-num-wk">duminică</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Național</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/general/romania-se-confrunta-cu-o-rata-ridicata-a-risipei-alimentare-anuale/">România se confruntă cu o rată ridicată a risipei alimentare anuale</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T13:59:54+00:00">27 septembrie 2026, 16:59</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Țara noastră ocupă locul cinci în Europa la risipa de hrană, aruncând anual 3,4 milioane de tone de alimente, în timp ce o parte semnificativă din populație se confruntă cu lipsuri.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://hotnews.ro/am-plans-cand-am-vazut-prima-colecta-ce-face-romania-pentru-a-combate-o-problema-adesea-ignorata-risipa-alimentara-exemple-din-alte-tari-europene-2345976" target="_blank" rel="noopener noreferrer">HotNews</a></p>
+</article>
+<article class="card" data-cat="general" data-source="Digi24" data-title="ANM anunță temperaturi de vară și vânt puternic în România"><a class="card-media" href="/general/anm-anunta-temperaturi-de-vara-si-vant-puternic-in-romania/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Național</p></div>
+  <div class="art-tick"></div><p class="art-when">duminică,<br>27 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Național</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/general/anm-anunta-temperaturi-de-vara-si-vant-puternic-in-romania/">ANM anunță temperaturi de vară și vânt puternic în România</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T13:41:07+00:00">27 septembrie 2026, 16:41</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Vremea se va încălzi semnificativ la finalul lunii septembrie, cu maxime termice de până la 25 de grade în vestul țării, în timp ce în sud-est rafalele de vânt vor atinge 70 km/h.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.digi24.ro/meteo/caldura-neobisnuita-pentru-sfarsitul-lui-septembrie-ce-temperaturi-vom-avea-in-romania-anuntul-anm-3966463" target="_blank" rel="noopener noreferrer">Digi24</a></p>
+</article>
+<article class="card" data-cat="general" data-source="Adevărul" data-title="Soluții de răcire fără aer condiționat pentru clădirile europene"><a class="card-media" href="/general/solutii-de-racire-fara-aer-conditionat-pentru-cladirile-europene/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p5 art--t0" aria-hidden="true">  <div class="art-band"></div>
+  <div class="art-body"><p class="art-label">Național</p></div>
+  <div class="art-tick"></div><p class="art-when">duminică,<br>27 septembrie</p>
+  <div class="art-num"><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Național</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/general/solutii-de-racire-fara-aer-conditionat-pentru-cladirile-europene/">Soluții de răcire fără aer condiționat pentru clădirile europene</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T13:16:59+00:00">27 septembrie 2026, 16:16</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Europarlamentara franceză Majdouline Sbaï a analizat metodele prin care imobilele din Strasbourg și alte orașe se pot adapta la valurile de căldură extremă fără a folosi sisteme clasice.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://adevarul.ro/stiri-externe/europa/sauna-la-parlamentul-european-cum-pot-fi-2559898.html" target="_blank" rel="noopener noreferrer">Adevărul</a></p>
+</article>
+<article class="card" data-cat="general" data-source="Știrile ProTV" data-title="Procentul ridicat al adulților care primesc sprijin financiar din partea părinților"><a class="card-media" href="/general/procentul-ridicat-al-adultilor-care-primesc-sprijin-financiar-din-partea/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
+  <div class="art-body"><p class="art-label">Național</p></div>
+  <div class="art-hairline"></div><div class="art-dot"></div>
+  <div class="art-seal"><span class="art-num-zi">27</span><span class="art-num-wk">duminică</span><span class="art-num-luna">septembrie</span></div>
+  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Național</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/general/procentul-ridicat-al-adultilor-care-primesc-sprijin-financiar-din-partea/">Procentul ridicat al adulților care primesc sprijin financiar din partea părinților</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T12:49:07+00:00">27 septembrie 2026, 15:49</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Un studiu recent arată că 42% dintre persoanele adulte continuă să fie ajutate cu bani de părinți, fenomen analizat prin prisma contextului socio-economic actual și al relațiilor familiale.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://stirileprotv.ro/divers/42-dintre-adulti-primesc-sprijin-financiar-de-la-parinti-de-ce-nu-exista-vinovati-in-aceasta-situatie.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
+</article>
+<article class="card" data-cat="general" data-source="MyTex" data-title="Fostul europarlamentar Dragoș David a încetat din viață la vârsta de 58 de ani"><a class="card-media" href="/general/fostul-europarlamentar-dragos-david-a-incetat-din-viata-la-varsta-de-58-de-ani/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p1 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Național</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Național</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/general/fostul-europarlamentar-dragos-david-a-incetat-din-viata-la-varsta-de-58-de-ani/">Fostul europarlamentar Dragoș David a încetat din viață la vârsta de 58 de ani</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T11:13:17+00:00">27 septembrie 2026, 14:13</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Dragoș David, fost director al Agenției Metropolitane Brașov și fost europarlamentar în 2007, a murit sâmbătă în urma unui infarct suferit la 58 de ani, lăsând comunitatea în doliu.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://mytex.ro/expres/a-trecut-in-nefiinta-dragos-david-fost-europarlamentar-si-fost-director-al-agentiei-metropolitane-brasov/" target="_blank" rel="noopener noreferrer">MyTex</a></p>
+</article>
+<article class="card" data-cat="general" data-source="NewsBucovina" data-title="Șofer de 21 de ani cu alcoolemie ridicată a ieșit cu mașina în decor"><a class="card-media" href="/general/sofer-de-21-de-ani-cu-alcoolemie-ridicata-a-iesit-cu-masina-in-decor/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p0 art--t0" aria-hidden="true">  <div class="art-frame"></div>
+  <div class="art-body"><p class="art-label">Național</p><span class="art-tick"></span></div>
+  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">duminică</span><span class="art-num-zi">27</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
+</div></a><span class="badge">Național</span>
+  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
+  <h2 class="card-title"><a href="/general/sofer-de-21-de-ani-cu-alcoolemie-ridicata-a-iesit-cu-masina-in-decor/">Șofer de 21 de ani cu alcoolemie ridicată a ieșit cu mașina în decor</a></h2>
+  <div class="meta">
+    <time datetime="2026-09-27T10:55:39+00:00">27 septembrie 2026, 13:55</time>
+    <span class="reading-time">~1 min</span>
+</div>
+  <p class="summary">Un tânăr aflat la volan a pierdut controlul direcției pe un drum județean din Suceava și a ajuns în șanț, testul cu etilotestul indicând o valoare de 0,75 mg/l alcool pur în aerul expirat.</p>
+  <p class="sources-inline"><b>Sursă:</b>
+<a href="https://www.newsbucovina.ro/social/450554/tanar-de-21-de-ani-cu-075-mg-l-alcool-in-aerul-expirat-a-ajuns-cu-masina-in-sant-pe-dj-178-intre-comanesti-si-botosana" target="_blank" rel="noopener noreferrer">NewsBucovina</a></p>
+</article>
 <article class="card" data-cat="general" data-source="BizBrașov" data-title="Doi bărbați cercetați penal după ce au condus băuți și fără permis"><a class="card-media" href="/general/doi-barbati-cercetati-penal-dupa-ce-au-condus-bauti-si-fara-permis/" tabindex="-1" aria-hidden="true"><div class="art art--editorial art--p2 art--t0" aria-hidden="true">  <div class="art-head"><span class="art-brand">izz.ro</span><span class="art-when">duminică 27 septembrie 2026</span></div>
   <div class="art-rule"></div>
   <div class="art-body"><p class="art-label">Național</p></div>
@@ -280,116 +394,10 @@
   <p class="sources-inline"><b>Sursă:</b>
 <a href="https://observatornews.ro/media/alessandra-stoicescu-si-comunitatea-shero-la-madrid-romancele-pe-locul-2-intre-strainele-ucise-de-parteneri-667337.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
 </article>
-<article class="card" data-cat="general" data-source="Digi24" data-title="MAE a emis avertisment de călătorie în Sicilia din cauza vulcanului Etna"><a class="card-media" href="/general/mae-a-emis-avertisment-de-calatorie-in-sicilia-din-cauza-vulcanului-etna/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p2 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Național</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Național</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/general/mae-a-emis-avertisment-de-calatorie-in-sicilia-din-cauza-vulcanului-etna/">MAE a emis avertisment de călătorie în Sicilia din cauza vulcanului Etna</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T16:37:12+00:00">26 septembrie 2026, 19:37</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Ministerul Afacerilor Externe informează românii despre riscurile din zona Catania, unde activitatea vulcanului Etna a impus suspendarea traficului aerian pe aeroportul internațional până duminică la prânz.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.digi24.ro/stiri/actualitate/avertisment-mae-pentru-romanii-care-vor-sa-calatoreasca-in-sicilia-3965945" target="_blank" rel="noopener noreferrer">Digi24</a></p>
-</article>
-<article class="card" data-cat="general" data-source="Știrile ProTV" data-title="Primele obuziere autopropulsate K9 cumpărate din Coreea de Sud au ajuns în România"><a class="card-media" href="/general/primele-obuziere-autopropulsate-k9-cumparate-din-coreea-de-sud-au-ajuns-in/" tabindex="-1" aria-hidden="true"><div class="art art--banda art--p4 art--t0" aria-hidden="true">  <div class="art-band"></div>
-  <div class="art-body"><p class="art-label">Național</p></div>
-  <div class="art-tick"></div><p class="art-when">sâmbătă,<br>26 septembrie</p>
-  <div class="art-num"><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span><span class="art-tick"></span></div>  <p class="art-ghost">stiri</p>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Național</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/general/primele-obuziere-autopropulsate-k9-cumparate-din-coreea-de-sud-au-ajuns-in/">Primele obuziere autopropulsate K9 cumpărate din Coreea de Sud au ajuns în România</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T16:27:49+00:00">26 septembrie 2026, 19:27</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Armata Română a recepționat primele trei obuziere K9 de calibrul 155 milimetri fabricate în Coreea de Sud, livrare care a inclus și un vehicul blindat specializat pentru recuperare.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://stirileprotv.ro/stiri/actualitate/primele-obuziere-k9-cumparate-de-romania-au-ajuns-in-tara-unde-vor-fi-fabricate-urmatoarele-unitati.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
-</article>
-<article class="card" data-cat="general" data-source="Observator" data-title="Expertizele indică vinovații pentru explozia din Rahova soldată cu morți"><a class="card-media" href="/general/expertizele-indica-vinovatii-pentru-explozia-din-rahova-soldata-cu-morti/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p0 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Național</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Național</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/general/expertizele-indica-vinovatii-pentru-explozia-din-rahova-soldata-cu-morti/">Expertizele indică vinovații pentru explozia din Rahova soldată cu morți</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T16:10:00+00:00">26 septembrie 2026, 19:10</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">La aproape un an de la deflagrația care a ucis patru oameni și a distrus 54 de apartamente în cartierul Rahova, rapoartele tehnice stabilesc responsabilitatea operatorilor de gaze și electricitate.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://observatornews.ro/eveniment/tragedia-din-rahova-dupa-aproape-un-an-primele-concluzii-ale-expertilor-despre-explozia-care-a-ucis-4-oameni-667333.html" target="_blank" rel="noopener noreferrer">Observator</a></p>
-</article>
-<article class="card" data-cat="general" data-source="Alba24" data-title="Elevii primesc primele burse din anul școlar pe 20 noiembrie 2026"><a class="card-media" href="/general/elevii-primesc-primele-burse-din-anul-scolar-pe-20-noiembrie-2026/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p4 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Național</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Național</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/general/elevii-primesc-primele-burse-din-anul-scolar-pe-20-noiembrie-2026/">Elevii primesc primele burse din anul școlar pe 20 noiembrie 2026</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T14:00:09+00:00">26 septembrie 2026, 17:00</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Plata burselor de merit, sociale și tehnologice aferente lunilor septembrie și octombrie va fi făcută pe 20 noiembrie 2026, unitățile de învățământ având termen până la 20 octombrie să comunice necesarul financiar.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://alba24.ro/cand-intra-bursele-elevilor-in-anul-scolar-2026-2027-prima-plata-acopera-lunile-septembrie-si-octombrie-1159713.html" target="_blank" rel="noopener noreferrer">Alba24</a></p>
-</article>
-<article class="card" data-cat="general" data-source="Dobrogea Online" data-title="MAI avertizează șoferii asupra obligativității acordării priorității trenurilor"><a class="card-media" href="/general/mai-avertizeaza-soferii-asupra-obligativitatii-acordarii-prioritatii-trenurilor/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p1 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Național</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Național</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/general/mai-avertizeaza-soferii-asupra-obligativitatii-acordarii-prioritatii-trenurilor/">MAI avertizează șoferii asupra obligativității acordării priorității trenurilor</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T13:49:31+00:00">26 septembrie 2026, 16:49</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Ministerul Afacerilor Interne a lansat un apel public prin care le reamintește conducătorilor auto să respecte regulile la trecerile la nivel cu calea ferată, subliniind riscurile majore ale traversărilor imprudente.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.dobrogeaonline.ro/trenul-beneficiaza-intotdeauna-de-prioritate-nu-pune-in-pericol-viata-aceasta-este-esentiala/" target="_blank" rel="noopener noreferrer">Dobrogea Online</a></p>
-</article>
-<article class="card" data-cat="general" data-source="Antena 3 CNN" data-title="Efectul scufundării a 1.500 de brazi în Lacul Saimaa"><a class="card-media" href="/general/efectul-scufundarii-a-1-500-de-brazi-in-lacul-saimaa/" tabindex="-1" aria-hidden="true"><div class="art art--inversat art--p3 art--t0" aria-hidden="true">  <div class="art-frame"></div>
-  <div class="art-body"><p class="art-label">Național</p><span class="art-tick"></span></div>
-  <div class="art-diamond"></div><div class="art-num"><span class="art-num-wk">sâmbătă</span><span class="art-num-zi">26</span><span class="art-num-luna">septembrie</span></div>  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Național</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/general/efectul-scufundarii-a-1-500-de-brazi-in-lacul-saimaa/">Efectul scufundării a 1.500 de brazi în Lacul Saimaa</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T12:58:00+00:00">26 septembrie 2026, 15:58</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">O cercetare din Finlanda a urmărit impactul ecologic al scufundării intenționate a mii de molizi în scopul îmbunătățirii ecosistemului acvatic, observându-se schimbări spectaculoase în mediul subacvatic după trei ani.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://www.antena3.ro/life/stiinta/in-2021-1-500-de-brazi-de-craciun-au-fost-aruncati-intr-un-lac-rezultatul-a-fost-spectaculos-ce-se-schimbase-in-trei-ani-804716.html" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></p>
-</article>
-<article class="card" data-cat="general" data-source="Știrile ProTV" data-title="Un om moare la fiecare 3,8 ore în accidentele rutiere din Ecuador"><a class="card-media" href="/general/un-om-moare-la-fiecare-38-ore-in-accidentele-rutiere-din-ecuador/" tabindex="-1" aria-hidden="true"><div class="art art--arc art--p4 art--t0" aria-hidden="true">  <div class="art-rule"></div>
-  <div class="art-body"><p class="art-label">Național</p></div>
-  <div class="art-hairline"></div><div class="art-dot"></div>
-  <div class="art-seal"><span class="art-num-zi">26</span><span class="art-num-wk">sâmbătă</span><span class="art-num-luna">septembrie</span></div>
-  <span class="art-brand art-brand--jos">izz.ro</span>  <div class="art-grain"></div>
-</div></a><span class="badge">Național</span>
-  <p class="trust-label" title="Cum este construită această informație">Rezumat dintr-o sursă · generat automat</p>
-  <h2 class="card-title"><a href="/general/un-om-moare-la-fiecare-38-ore-in-accidentele-rutiere-din-ecuador/">Un om moare la fiecare 3,8 ore în accidentele rutiere din Ecuador</a></h2>
-  <div class="meta">
-    <time datetime="2026-09-26T12:49:29+00:00">26 septembrie 2026, 15:49</time>
-    <span class="reading-time">~1 min</span>
-</div>
-  <p class="summary">Anuarul Siguranței Rutiere din Ecuador arată că peste 2.300 de persoane și-au pierdut viața într-un singur an în accidente pe șosele, în timp ce alte mii au fost rănite grav.</p>
-  <p class="sources-inline"><b>Sursă:</b>
-<a href="https://stirileprotv.ro/stiri/international/tara-in-care-un-om-moare-la-fiecare-3-8-ore-din-cauza-accidentelor-rutiere-peste-2-300-de-victime-intr-un-singur-an.html" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></p>
-</article>
   </section>
   <nav class="pagination" aria-label="Navigare pagini">
 <a href="/general/17/" rel="prev" aria-label="Pagina anterioară">‹</a>
-<a href="/general/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/general/16/" aria-label="Pagina 16">16</a><a href="/general/17/" aria-label="Pagina 17">17</a><span class="current" aria-current="page">18</span><a href="/general/19/" aria-label="Pagina 19">19</a><a href="/general/20/" aria-label="Pagina 20">20</a><span class="gap" aria-hidden="true">…</span><a href="/general/23/" aria-label="Pagina 23">23</a><a href="/general/19/" rel="next" aria-label="Pagina următoare">›</a>
+<a href="/general/" aria-label="Pagina 1">1</a><span class="gap" aria-hidden="true">…</span><a href="/general/16/" aria-label="Pagina 16">16</a><a href="/general/17/" aria-label="Pagina 17">17</a><span class="current" aria-current="page">18</span><a href="/general/19/" aria-label="Pagina 19">19</a><a href="/general/20/" aria-label="Pagina 20">20</a><span class="gap" aria-hidden="true">…</span><a href="/general/22/" aria-label="Pagina 22">22</a><a href="/general/19/" rel="next" aria-label="Pagina următoare">›</a>
   </nav>
   </main>
 
