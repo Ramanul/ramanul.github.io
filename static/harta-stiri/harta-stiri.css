@@ -74,8 +74,10 @@ button,input { font:inherit; }
 .map-county.is-dim,.map-uat.is-dim{opacity:.28}
 .map-uat{stroke:var(--map-line);stroke-width:.9;cursor:pointer}
 .map-county{cursor:pointer}
-/* Focusul de tastatură: fiecare poligon e un element focusabil (role=button, aria-pressed),
-   deci conturul de focus trebuie să fie vizibil pe orice umplere. */
+.map-county-hit{fill:#000;fill-opacity:0;stroke:transparent;pointer-events:all;cursor:pointer}
+/* Focusul de tastatură: fiecare județ are un link SVG focusabil; conturul de focus trebuie
+   să fie vizibil pe orice umplere. Țintele tactile transparente au diametru de minimum 24px
+   și nu sunt focusabile, ca ordinea de Tab să nu dubleze cele 42 de județe. */
 .map-county:focus-visible,.map-uat:focus-visible{outline:none;stroke:var(--map-hot);stroke-width:3.4}
 /* Modul regional: umplerea spune REGIUNEA editorială (nu volumul), ca inainte, dar acum
    din CSS — un singur loc pentru toate culorile hărții. */

@@ -43,6 +43,7 @@
     populatii: null,
     populatiiPromise: null,
     localityMarkers: new Map(),
+    countyTargets: new Map(),
     uatNodes: new Map(),
     labelPool: new Map(),
     counts: new Map(),
@@ -97,6 +98,25 @@
   // egalitatea), deci URL-urile si datele raman pe coduri, iar interfata vorbeste romana.
   function judetLabel(code) {
     return (code && state.etichete && state.etichete[code]) || code || "";
+  }
+
+  function slugSegment(value) {
+    return String(value || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  }
+
+  function countyRoute(county) {
+    const slug = slugSegment(judetLabel(county));
+    return slug ? `/harta/${slug}/` : "/harta/";
+  }
+
+  function openCountyRoute(county) {
+    if (!county) return;
+    window.location.assign(countyRoute(county));
   }
 
   function articleUrl(article) {
@@ -217,8 +237,8 @@
   //     fiecare eticheta sta intr-un grup contrascarat, deci are marime de ecran la orice zoom
   //     (si e text adevarat: selectabil, cautabil cu Ctrl+F, citit de cititoarele de ecran).
   //   * liniile folosesc `vector-effect: non-scaling-stroke` -> 1 px pe ecran la orice zoom.
-  //   * fiecare poligon e un element focusabil (`tabindex`, `role="button"`, `aria-pressed`),
-  //     deci calea accesibila nu depinde de un hit-test propriu.
+  //   * fiecare județ are cale focusabilă (`tabindex`, `role="link"`) și țintă tactilă
+  //     de minimum 24px, deci angajarea nu depinde de precizia pe poligon.
   // Ce s-a STERS odata cu canvasul: ensureCanvas, applyViewTransform, devicePointFromMap,
   // devicePointForEvent, pointForEvent, countyFillAtPoint, countyEdgeAtPoint, smallestUatAt,
   // uatContainsMapPoint, uatBadgePlacement, closestHit, hitDistance, path2d-ul re-parsat la
@@ -516,7 +536,7 @@
     // Ordinea conteaza: conturul județului deschis sta INTRE UAT-uri si puncte, ca sa nu fie
     // nici tăiat de clip (jumatate din grosime s-ar pierde), nici sters cand stratul de UAT-uri
     // e golit la revenirea la nivel national (prins de verificarea de DOM, 2026-10-04).
-    for (const name of ["counties", "uats", "outline", "points", "labels"]) {
+    for (const name of ["counties", "targets", "uats", "outline", "points", "labels"]) {
       layers[name] = svgNode("g", { class: `layer layer-${name}` });
       svg.appendChild(layers[name]);
     }
@@ -638,8 +658,50 @@
   }
 
   function shapeFromEvent(event) {
-    const node = event.target;
-    return node && node.closest ? node.closest("[data-harta]") : null;
+    const target = event.target;
+    const top = target && target.closest ? target.closest("[data-harta]") : null;
+    if (!top || !Number.isFinite(event.clientX) || !Number.isFinite(event.clientY)
+      || typeof DOMPoint !== "function") return top;
+    const layer = top.parentElement;
+    if (!layer) return top;
+
+    const hits = [];
+    for (const candidate of layer.children) {
+      if (!candidate.hasAttribute("data-harta") || typeof candidate.isPointInFill !== "function") continue;
+      try {
+        // Cutia de ecran elimina majoritatea formelor inaintea testului geometric exact.
+        const rect = candidate.getBoundingClientRect();
+        if (event.clientX < rect.left || event.clientX > rect.right
+          || event.clientY < rect.top || event.clientY > rect.bottom) continue;
+        const ctm = candidate.getScreenCTM();
+        if (!ctm) continue;
+        const point = new DOMPoint(event.clientX, event.clientY).matrixTransform(ctm.inverse());
+        if (!candidate.isPointInFill(point)) continue;
+        const anchorKey = candidate.dataset.judet
+          ? `judet:${candidate.dataset.judet}`
+          : candidate.dataset.uat ? `uat:${candidate.dataset.uat}` : null;
+        const anchor = anchorKey ? anchorFor(candidate, anchorKey, null) : null;
+        const bounds = candidate.getBBox();
+        const x = anchor ? anchor[0] : bounds.x + bounds.width / 2;
+        const y = anchor ? anchor[1] : bounds.y + bounds.height / 2;
+        hits.push({
+          node: candidate,
+          distance: (point.x - x) ** 2 + (point.y - y) ** 2,
+          area: bounds.width * bounds.height,
+        });
+      } catch (err) {
+        // O forma fara geometrie utilizabila nu invalideaza hit-testul pentru celelalte.
+      }
+    }
+    if (!hits.length) return top;
+    hits.sort((a, b) => {
+      const delta = a.distance - b.distance;
+      if (Math.abs(delta) > 1e-9) return delta;
+      if (a.node === top) return -1;
+      if (b.node === top) return 1;
+      return a.area - b.area;
+    });
+    return hits[0].node;
   }
 
   function shapeKey(node) {
@@ -711,7 +773,7 @@
   }
 
   function onStagePointerDown(event) {
-    state.pointerDown = { x: event.clientX, y: event.clientY, moved: false };
+    state.pointerDown = { x: event.clientX, y: event.clientY, moved: false, pointerId: event.pointerId };
     if (event.pointerType === "mouse" && state.userZoom.k > 1) {
       state.panFrom = { x: event.clientX, y: event.clientY };
       state.stage.classList.add("is-panning");
@@ -719,6 +781,13 @@
   }
 
   function onStagePointerMove(event) {
+    // Tap-vs-drag: orice pointer care s-a miscat peste prag nu mai activeaza zona la click.
+    // Vechea garda marca `moved` doar pe pan cu mouse-ul; pe telefon o derulare putea ajunge
+    // la click-ul sintetic de la final si deschidea județul atins accidental.
+    if (state.pointerDown
+        && Math.hypot(event.clientX - state.pointerDown.x, event.clientY - state.pointerDown.y) >= 10) {
+      state.pointerDown.moved = true;
+    }
     // Pan: doar cand harta e marita si un buton e apasat; sub 10 px e in continuare click
     // (acelasi prag ca garda tap-vs-drag de pe telefon).
     if (state.panFrom && (event.buttons & 1)) {
@@ -758,10 +827,11 @@
     showMapTip(target, event);
   }
 
-  function onStagePointerUp(event) {
+  function onStagePointerUp() {
     state.panFrom = null;
     if (state.stage) state.stage.classList.remove("is-panning");
-    if (event && event.pointerType !== "mouse") state.pointerDown = null;
+    // `click` se emite dupa pointerup; pastram pointerDown pana acolo ca pragul moved sa
+    // poata anula navigarea dupa un swipe. Urmatorul pointerdown il inlocuieste oricum.
   }
 
   function onStagePointerCancel() {
@@ -783,8 +853,7 @@
       return;
     }
     if (node.dataset.judet) {
-      if (state.level === "regional") selectRegion(regionForCounty(node.dataset.judet));
-      else selectCounty(node.dataset.judet);
+      openCountyRoute(node.dataset.judet);
       return;
     }
     if (node.dataset.regiune) selectRegion(node.dataset.regiune);
@@ -846,8 +915,9 @@
         "data-harta": "judet",
         "data-judet": county,
         "data-regiune": regionForCounty(county),
+        "data-href": countyRoute(county),
         tabindex: "0",
-        role: "button",
+        role: "link",
       });
       layer.appendChild(node);
     }
@@ -898,9 +968,11 @@
     for (const candidate of candidates) {
       const point = screenPoint(view, candidate.x, candidate.y);
       // width/height sunt in pixeli de ecran (asa se estimeaza textul), deci nu se scaleaza.
+      const offsetY = candidate.offsetY || 0;
       const box = {
         left: point.x - candidate.width / 2, right: point.x + candidate.width / 2,
-        top: point.y - candidate.height / 2, bottom: point.y + candidate.height / 2,
+        top: point.y + offsetY - candidate.height / 2,
+        bottom: point.y + offsetY + candidate.height / 2,
       };
       if (box.right < 0 || box.left > rect.width || box.bottom < 0 || box.top > rect.height) continue;
       const collides = placed.some((other) => !(box.right < other.left || box.left > other.right
@@ -1007,7 +1079,7 @@
       tip.appendChild(list);
       const hint = document.createElement("div");
       hint.className = "tip-hint";
-      hint.textContent = "Click pentru lista completă";
+      hint.textContent = target.kind === "county" ? "Click pentru pagina județului" : "Click pentru lista completă";
       tip.appendChild(hint);
     }
     tip.hidden = false;
@@ -1021,6 +1093,46 @@
     const top = Math.max(4, y - h - 14);
     tip.style.left = `${left}px`;
     tip.style.top = `${top}px`;
+  }
+
+  function renderCountyTargets(view) {
+    const layer = state.layers.targets;
+    if (!layer || !view) return;
+    const scale = screenScale(view);
+    if (!scale) return;
+    const radius = 12 / scale; // 24px diametru în ecran, minimul WCAG 2.5.8.
+    const byKey = state.countyTargets || new Map();
+    const seen = new Set();
+    // În detaliul de județ, UAT-urile sunt țintele active; cercurile naționale ar fura
+    // tap-uri de pe orașe/comune. Poligonul rămâne sub ele pentru click pe zonele libere.
+    layer.hidden = Boolean(state.zoomCounty && state.uats.length);
+    for (const node of state.layers.counties.children) {
+      const county = node.dataset.judet;
+      seen.add(county);
+      const anchor = anchorFor(node, `judet:${county}`, null);
+      let hit = byKey.get(county);
+      if (!hit) {
+        hit = svgNode("circle", {
+          class: "map-county-hit",
+          "data-harta": "judet",
+          "data-judet": county,
+          "data-regiune": regionForCounty(county),
+          "data-href": countyRoute(county),
+          "aria-hidden": "true",
+        });
+        byKey.set(county, hit);
+        layer.appendChild(hit);
+      }
+      hit.setAttribute("cx", String(fmt(anchor[0])));
+      hit.setAttribute("cy", String(fmt(anchor[1])));
+      hit.setAttribute("r", String(fmt(radius)));
+    }
+    for (const [county, node] of byKey) {
+      if (seen.has(county)) continue;
+      node.remove();
+      byKey.delete(county);
+    }
+    state.countyTargets = byKey;
   }
 
   function renderLabels(view) {
@@ -1077,19 +1189,21 @@
 
     if (state.zoomCounty && state.uats.length) {
       for (const uat of state.uats) {
-        if (!uat.count) continue;
         const key = String(uat.id || uat.name);
         const node = state.uatNodes && state.uatNodes.get(key);
         const anchor = node ? anchorFor(node, `uat:${key}`, uat.center) : uat.center;
         if (!anchor) continue;
-        const radius = Math.max(9, Math.min(15, 8 + Math.sqrt(uat.count) * 1.4));
+        const hasCount = uat.count > 0;
+        const radius = hasCount ? Math.max(9, Math.min(15, 8 + Math.sqrt(uat.count) * 1.4)) : 0;
         const name = uat.label || uat.name;
+        const nameWidth = estimateWidth(name, LABEL_PX.uat) + 8;
         candidates.push({
           kind: "uat", key,
           x: anchor[0], y: anchor[1],
           text: name, count: uat.count, radius,
-          width: Math.max(radius * 2, compact ? 0 : estimateWidth(name, LABEL_PX.uat)),
-          height: radius * 2 + (compact ? 0 : 14),
+          width: hasCount ? Math.max(radius * 2, nameWidth) : nameWidth,
+          height: hasCount ? radius * 2 + 14 : 14,
+          offsetY: hasCount ? 7 : -3,
           priority: uat.count,
         });
       }
@@ -1102,18 +1216,21 @@
       entry.group.setAttribute("transform", `translate(${fmt(candidate.x)} ${fmt(candidate.y)})`);
       entry.fit.setAttribute("transform", `scale(${fmt(1 / screenScale(view))})`);
       if (candidate.kind === "uat") {
-        // Pastila inversa (disc alb, cifra inchisa): lizibila pe orice treapta a rampei.
-        labelDisc(entry).setAttribute("r", String(fmt(candidate.radius)));
-        labelText(entry, "num", "label-count", {
-          y: "0", "text-anchor": "middle", "dominant-baseline": "central",
-        }).textContent = String(candidate.count);
-        if (compact) {
-          if (entry.parts.name) { entry.parts.name.remove(); delete entry.parts.name; }
+        if (candidate.count > 0) {
+          // Pastila inversa (disc alb, cifra inchisa): lizibila pe orice treapta a rampei.
+          labelDisc(entry).setAttribute("r", String(fmt(candidate.radius)));
+          labelText(entry, "num", "label-count", {
+            y: "0", "text-anchor": "middle", "dominant-baseline": "central",
+          }).textContent = String(candidate.count);
         } else {
-          labelText(entry, "name", "label-name", {
-            y: String(fmt(candidate.radius + 11)), "text-anchor": "middle",
-          }).textContent = candidate.text;
+          // UAT-urile fara rezultate raman numite, dar fara bulina care ar aglomera harta.
+          if (entry.parts.disc) { entry.parts.disc.remove(); delete entry.parts.disc; }
+          if (entry.parts.num) { entry.parts.num.remove(); delete entry.parts.num; }
         }
+        labelText(entry, "name", "label-name", {
+          y: candidate.count > 0 ? String(fmt(candidate.radius + 11)) : "0",
+          "text-anchor": "middle",
+        }).textContent = candidate.text;
       } else {
         if (entry.parts.disc) { entry.parts.disc.remove(); delete entry.parts.disc; }
         const text = labelText(entry, "num", candidate.kind === "regiune" ? "label-region" : "label-county", {
@@ -1246,6 +1363,7 @@
     state.counts = counts;
 
     ensureCountyPaths();
+    const keepNationalCountyContext = state.level === "judetean" && Boolean(state.selectedCounty);
     for (const node of state.layers.counties.children) {
       const county = node.dataset.judet;
       const region = node.dataset.regiune || regionForCounty(county);
@@ -1255,11 +1373,11 @@
       const outside = (state.selectedCounty && county !== state.selectedCounty)
         || (state.selectedRegion && region !== state.selectedRegion);
       const isZoomedCounty = county === state.zoomCounty;
-      // Estomparea: in vederea de județ vecinii rămân vizibili (decizie proprietar, 5 sep);
-      // se estompeaza doar cand un UAT e selectat, ca alegerea sa iasa in fata.
+      // La nivel județean cadrul rămâne național: selectarea unui județ nu estompează
+      // vecinii. La zoom local, doar UAT-ul activ poate estompa restul formelor.
       const dim = isZoomedCounty ? false
         : state.zoomCounty ? Boolean(state.selectedUat)
-        : Boolean(outside);
+        : Boolean(outside && !keepNationalCountyContext);
       node.classList.toggle("is-selected", Boolean(selected));
       node.classList.toggle("is-dim", dim);
       node.classList.toggle("is-empty", count === 0);
@@ -1268,9 +1386,11 @@
       const klass = state.level === "regional" || cifra.valoare == null
         ? 0 : rampClassFor(cifra.valoare);
       for (let i = 0; i < 5; i += 1) node.classList.toggle(`h${i}`, state.level === "regional" ? i === 0 : klass === i);
-      node.setAttribute("aria-label", `${judetLabel(county)}: ${cifra.bucata}`);
-      node.setAttribute("aria-pressed", selected ? "true" : "false");
+      node.setAttribute("aria-label", `${judetLabel(county)}: ${cifra.bucata}. Deschide pagina județului.`);
+      if (selected) node.setAttribute("aria-current", "page");
+      else node.removeAttribute("aria-current");
     }
+    renderCountyTargets(view);
 
     // UAT-urile județului deschis, taiate pe silueta lui (clip-path), fara siluetele vecinilor.
     const showUats = Boolean(state.zoomCounty && state.uats.length);
@@ -1810,12 +1930,12 @@
       return;
     }
 
-    // După alegerea unui județ, selectorul devine lista UAT-urilor acelui județ care au
-    // știri în filtrul curent. Fiecare buton deschide aceeași listă de știri ca badge-ul de hartă.
+    // Lista păstrează toate UAT-urile județului, inclusiv când filtrul curent nu găsește
+    // articole în ele; astfel, schimbarea filtrului nu face numele sau zonele inaccesibile.
     if (state.zoomCounty && state.uats.length) {
-      const uats = state.uats.filter((uat) => uat.count > 0)
-        .sort((a, b) => String(a.label).localeCompare(String(b.label), "ro"));
-      picker.setAttribute("aria-label", `Orașe și comune cu știri în ${judetLabel(state.zoomCounty)}`);
+      const uats = [...state.uats]
+        .sort((a, b) => String(a.label || a.name).localeCompare(String(b.label || b.name), "ro"));
+      picker.setAttribute("aria-label", `Orașe și comune din ${judetLabel(state.zoomCounty)}`);
       if (!uats.length) {
         const empty = document.createElement("p");
         empty.className = "picker-empty";
