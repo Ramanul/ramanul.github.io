@@ -5,7 +5,14 @@
   <atom:link href="https://izz.ro/subiect/windows-11/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Windows 11 pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 05 Oct 2026 22:57:25 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 17:31:43 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft forțează trecerea la Windows 11 prin costurile mari ale Windows 10</title>
+      <link>https://izz.ro/tech/microsoft-forteaza-trecerea-la-windows-11-prin-costurile-mari-ale-windows-10/</link>
+      <guid>https://izz.ro/tech/microsoft-forteaza-trecerea-la-windows-11-prin-costurile-mari-ale-windows-10/</guid>
+      <pubDate>Tue, 06 Oct 2026 14:24:46 +0000</pubDate>
+      <description>Politicile comerciale stricte și costurile ridicate impuse de Microsoft pentru menținerea vechiului sistem operare determină companiile și instituțiile să adopte mai rapid noua versiune Windows 11.</description>
+    </item>
     <item>
       <title>Microsoft a lansat oficial actualizarea Windows 11 26H2</title>
       <link>https://izz.ro/tech/microsoft-a-lansat-oficial-actualizarea-windows-11-26h2/</link>
@@ -82,12 +89,5 @@
       <guid>https://izz.ro/tech/utilizarea-unei-aplicatii-open-source-imbunatateste-meniul-start-din-windows-11/</guid>
       <pubDate>Fri, 25 Sep 2026 17:31:16 +0000</pubDate>
       <description>Utilizatorii nemulțumiți de designul nativ și funcția greoaie de căutare din Windows 11 pot recurge la utilitare terțe. Soluțiile open-source oferă o alternativă mult mai rapidă și eficientă pentru organizarea interfeței.</description>
-    </item>
-    <item>
-      <title>Trecerea la interfața Cinnamon îmbunătățește productivitatea pe Ubuntu</title>
-      <link>https://izz.ro/tech/trecerea-la-interfata-cinnamon-imbunatateste-productivitatea-pe-ubuntu/</link>
-      <guid>https://izz.ro/tech/trecerea-la-interfata-cinnamon-imbunatateste-productivitatea-pe-ubuntu/</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:16 +0000</pubDate>
-      <description>Utilizarea mediului grafic Cinnamon pe sistemul Ubuntu crește viteza de lucru și eficiența pe calculatoarele mai vechi, oferind o alternativă viabilă la Windows 11.</description>
     </item>
 </channel></rss>

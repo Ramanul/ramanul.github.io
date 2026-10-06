@@ -5,7 +5,28 @@
   <atom:link href="https://izz.ro/subiect/google/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Google pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 06 Oct 2026 10:37:24 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 17:31:43 +0000</lastBuildDate>
+    <item>
+      <title>Google pregătește lansarea noului smartphone de clasă medie Pixel 11A</title>
+      <link>https://izz.ro/tech/google-pregateste-lansarea-noului-smartphone-de-clasa-medie-pixel-11a/</link>
+      <guid>https://izz.ro/tech/google-pregateste-lansarea-noului-smartphone-de-clasa-medie-pixel-11a/</guid>
+      <pubDate>Tue, 06 Oct 2026 16:18:00 +0000</pubDate>
+      <description>Compania Google dezvoltă un nou telefon mobil inteligent din gama mid-range, numit Pixel 11A, care urmează să fie pus în vânzare pe piață în următoarele luni.</description>
+    </item>
+    <item>
+      <title>Google oferă studenților români un an de inteligență artificială gratuit</title>
+      <link>https://izz.ro/ai/google-ofera-studentilor-romani-un-an-de-inteligenta-artificiala-gratuit/</link>
+      <guid>https://izz.ro/ai/google-ofera-studentilor-romani-un-an-de-inteligenta-artificiala-gratuit/</guid>
+      <pubDate>Tue, 06 Oct 2026 15:00:56 +0000</pubDate>
+      <description>Google pune la dispoziția studenților din România acces gratuit timp de 12 luni la pachetul AI Plus, destinat documentării, organizării textelor și realizării proiectelor academice.</description>
+    </item>
+    <item>
+      <title>Google va lansa o actualizare Android pentru asocierea facilă a trackerelor NFC</title>
+      <link>https://izz.ro/tech/google-va-lansa-o-actualizare-android-pentru-asocierea-facila-a-trackerelor-nfc/</link>
+      <guid>https://izz.ro/tech/google-va-lansa-o-actualizare-android-pentru-asocierea-facila-a-trackerelor-nfc/</guid>
+      <pubDate>Tue, 06 Oct 2026 13:51:56 +0000</pubDate>
+      <description>Google pregătește o funcție nouă în Play Services care va simplifica conectarea accesoriilor Smart Tag la telefoanele Android. Utilizatorii vor putea folosi tehnologia NFC, eliminând necesitatea unor aplicații terțe complicate.</description>
+    </item>
     <item>
       <title>YouTube va limita vizibilitatea anumitor clipuri Shorts generate artificial</title>
       <link>https://izz.ro/tech/youtube-va-limita-vizibilitatea-anumitor-clipuri-shorts-generate-artificial/</link>
@@ -103,26 +124,5 @@
       <guid>https://izz.ro/ai/google-lanseaza-gemini-live-avatar-pentru-abonatii-enterprise/</guid>
       <pubDate>Fri, 25 Sep 2026 08:18:13 +0000</pubDate>
       <description>Google introduce funcția Live Avatar în modelul Gemini 3.8, permițând utilizatorilor din mediul enterprise să poarte conversații vocale cu un chatbot care afișează o prezență vizuală umană generată în timp real.</description>
-    </item>
-    <item>
-      <title>Google updates Gemini CLI with mandatory confirmation for builds</title>
-      <link>https://izz.ro/ai/google-updates-gemini-cli-with-mandatory-confirmation-for-builds/</link>
-      <guid>https://izz.ro/ai/google-updates-gemini-cli-with-mandatory-confirmation-for-builds/</guid>
-      <pubDate>Thu, 24 Sep 2026 14:27:27 +0000</pubDate>
-      <description>The new version 0.61.0 of Google's Gemini CLI introduces safety prompts that require explicit user approval before modifying build configuration files or executing automated shell commands.</description>
-    </item>
-    <item>
-      <title>Google lansează generarea autonomă de voci personalizate prin API-ul Gemini</title>
-      <link>https://izz.ro/ai/google-lanseaza-generarea-autonoma-de-voci-personalizate-prin-api-ul-gemini/</link>
-      <guid>https://izz.ro/ai/google-lanseaza-generarea-autonoma-de-voci-personalizate-prin-api-ul-gemini/</guid>
-      <pubDate>Thu, 24 Sep 2026 13:20:11 +0000</pubDate>
-      <description>Spre deosebire de competitori, Google oferă dezvoltatorilor posibilitatea de a crea și salva voci sintetice unice folosind descrieri textuale sau scurte înregistrări audio direct în interfața Gemini AI Studio.</description>
-    </item>
-    <item>
-      <title>Google lansează Gemini 3.8 Flash TTS cu funcții avansate de clonare vocală</title>
-      <link>https://izz.ro/ai/google-lanseaza-gemini-3-8-flash-tts-cu-functii-avansate-de-clonare-vocala/</link>
-      <guid>https://izz.ro/ai/google-lanseaza-gemini-3-8-flash-tts-cu-functii-avansate-de-clonare-vocala/</guid>
-      <pubDate>Thu, 24 Sep 2026 13:10:43 +0000</pubDate>
-      <description>Google a lansat două modele de conversie text-vorbire care permit clonarea vocilor și personalizarea accentelor. Noile funcționalități de replicare vocală prin AI Studio nu sunt momentan disponibile în România.</description>
     </item>
 </channel></rss>
