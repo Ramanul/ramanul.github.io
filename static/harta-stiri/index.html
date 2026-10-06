@@ -12,6 +12,7 @@
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+  <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css">
 </head>
 <body>
@@ -77,6 +78,8 @@
       <div class="map-card">
         <nav id="map-breadcrumb" class="map-breadcrumb" aria-label="Poziția în hartă"></nav>
         <div id="map" class="map" role="region" aria-label="Harta României cu știri pe județe"></div>
+        <p id="map-basemap-status" class="map-basemap-status" aria-live="polite" hidden></p>
+        <p class="map-basemap-attribution">Fundal cartografic, când este disponibil: <a href="https://openfreemap.org/" rel="noopener">OpenFreeMap</a> © <a href="https://openmaptiles.org/" rel="noopener">OpenMapTiles</a>, date de la <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a>.</p>
         <!-- Numele de judet pentru afisare: cheile din date/URL sunt coduri (TIMIS), omul citeste
              „Timiș". Sursa de adevar e `generator.geo.eticheta_judet`, iar tests/test_harta_scara.py
              compara tabelul de aici cu ea pentru toate cele 42 de judete. Fara tabel, selectorul,

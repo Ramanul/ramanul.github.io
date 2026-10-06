@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 05 Oct 2026 22:57:25 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 04:35:28 +0000</lastBuildDate>
     <item>
       <title>Sam Altman susține că beneficiile inteligenței artificiale depășesc riscurile</title>
       <link>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</link>
@@ -224,10 +224,10 @@
       <description>Oficialii americani au solicitat dezvoltatorilor de inteligență artificială să nu ofere acces agenției britanice de testare la noile lor modele înainte ca acestea să fie evaluate de Guvernul Statelor Unite.</description>
     </item>
     <item>
-      <title>Un agent autonom de inteligență artificială de la OpenAI a accesat un portal guvernamental australian</title>
-      <link>https://izz.ro/ai/un-agent-openai-a-accesat-neautorizat-portalul-guvernamental-australian-medicare/</link>
-      <guid>https://izz.ro/ai/un-agent-openai-a-accesat-neautorizat-portalul-guvernamental-australian-medicare/</guid>
-      <pubDate>Thu, 24 Sep 2026 04:03:57 +0000</pubDate>
-      <description>Un agent experimental de inteligență artificială dezvoltat de OpenAI a obținut acces neautorizat în luna iunie la un portal de date statistice al guvernului australian, vizând departamentul de sănătate. Premierul australian Anthony Albanese a cerut explicații conducerii OpenAI pentru întârzierea notificării, în timp ce autoritățile au confirmat că nu au fost compromise date personale ale pacienților.</description>
+      <title>Un agent autonom OpenAI a accesat neautorizat date dintr-un portal guvernamental australian</title>
+      <link>https://izz.ro/ai/un-agent-autonom-openai-a-accesat-neautorizat-date-dintr-un-portal/</link>
+      <guid>https://izz.ro/ai/un-agent-autonom-openai-a-accesat-neautorizat-date-dintr-un-portal/</guid>
+      <pubDate>Thu, 24 Sep 2026 10:46:22 +0000</pubDate>
+      <description>Un sistem de inteligență artificială a pătruns fără permisiune într-o bază de date privind sănătatea din Australia, reprezentând o premieră îngrijorătoare privind securitatea informatică guvernamentală.</description>
     </item>
 </channel></rss>

@@ -2,9 +2,22 @@
   "use strict";
 
   const DATA_URL = "./data/map.json";
+  const PROJECTION_URL = "./data/projection.json";
+  const BASEMAP_STYLE = "https://tiles.openfreemap.org/styles/positron";
   const state = {
     map: null,
     data: null,
+    projection: null,
+    basemap: null,
+    basemapContainer: null,
+    basemapMath: null,
+    basemapProjection: null,
+    basemapReady: false,
+    basemapStarted: false,
+    basemapLoadTimer: null,
+    basemapSize: null,
+    basemapCamera: null,
+    basemapStatus: "idle",
     counties: {},
     etichete: {},
     articles: [],
@@ -266,6 +279,203 @@
     return rect;
   }
 
+  function setBasemapStatus(status) {
+    state.basemapStatus = status;
+    const host = $("#map");
+    if (host) host.dataset.basemapStatus = status;
+    if (state.stage) state.stage.classList.toggle("has-basemap", status === "ready");
+    const message = $("#map-basemap-status");
+    if (message) {
+      message.hidden = status !== "unavailable";
+      if (status === "unavailable") {
+        message.textContent = "Basemapul OpenFreeMap nu este disponibil acum; harta tematică și filtrele rămân active.";
+      }
+    }
+  }
+
+  function projectionForView() {
+    if (!state.basemapMath) return null;
+    return state.basemapMath.projectionForMap(state.projection, state.map?.viewbox);
+  }
+
+  function basemapViewportBox(view) {
+    const stage = state.stage;
+    if (!stage || !view || !view.width || !view.height) return null;
+    const rect = stage.getBoundingClientRect();
+    if (!rect.width || !rect.height) return null;
+    const scale = Math.min(rect.width / view.width, rect.height / view.height);
+    if (!Number.isFinite(scale) || scale <= 0) return null;
+    const width = view.width * scale;
+    const height = view.height * scale;
+    return {
+      left: (rect.width - width) / 2,
+      top: (rect.height - height) / 2,
+      width,
+      height,
+    };
+  }
+
+  function positionBasemapViewport(box) {
+    const viewport = state.basemapContainer?.parentElement;
+    if (!viewport || !box) return false;
+    viewport.style.left = `${box.left}px`;
+    viewport.style.top = `${box.top}px`;
+    viewport.style.right = "auto";
+    viewport.style.bottom = "auto";
+    viewport.style.width = `${box.width}px`;
+    viewport.style.height = `${box.height}px`;
+    return true;
+  }
+
+  function syncBasemapToView(view) {
+    const container = state.basemapContainer;
+    const stage = state.stage;
+    const map = state.basemap;
+    if (!container || !stage || !view || !state.basemapMath) return;
+    const box = basemapViewportBox(view);
+    if (!box || !positionBasemapViewport(box)) return;
+
+    const projection = state.basemapProjection || projectionForView();
+    const camera = state.basemapMath.cameraForView(view, projection, box.width);
+    if (!camera) {
+      if (state.basemapReady) failBasemap(new Error("Vederea SVG nu poate fi sincronizată cu proiecția geografică."));
+      return;
+    }
+    container.style.transform = `scaleY(${camera.scaleY})`;
+    container.style.visibility = state.basemapReady ? "visible" : "hidden";
+    if (!map || !state.basemapReady) return;
+
+    const sizeKey = `${Math.round(box.width)}x${Math.round(box.height)}`;
+    try {
+      if (state.basemapSize !== sizeKey) {
+        state.basemapSize = sizeKey;
+        map.resize();
+        state.basemapCamera = null;
+      }
+      const [lon, lat] = camera.center;
+      const previous = state.basemapCamera;
+      if (!previous || Math.abs(previous.lon - lon) > 0.00001
+          || Math.abs(previous.lat - lat) > 0.00001
+          || Math.abs(previous.zoom - camera.zoom) > 0.0001) {
+        map.jumpTo({ center: camera.center, zoom: camera.zoom, bearing: 0, pitch: 0 });
+        state.basemapCamera = { lon, lat, zoom: camera.zoom };
+      }
+    } catch (error) {
+      failBasemap(error);
+    }
+  }
+
+  function failBasemap(error) {
+    if (state.basemapStatus === "unavailable") return;
+    if (state.basemapLoadTimer) window.clearTimeout(state.basemapLoadTimer);
+    state.basemapLoadTimer = null;
+    state.basemapReady = false;
+    if (state.basemapContainer) state.basemapContainer.style.visibility = "hidden";
+    const map = state.basemap;
+    state.basemap = null;
+    state.basemapCamera = null;
+    if (map) {
+      try { map.remove(); } catch { /* SVG-ul rămâne fallback-ul funcțional */ }
+    }
+    console.warn("Basemap OpenFreeMap indisponibil; folosesc harta SVG fără fundal.", error || "");
+    setBasemapStatus("unavailable");
+  }
+
+  function startBasemap() {
+    if (state.basemapStarted) return;
+    state.basemapStarted = true;
+    const container = state.basemapContainer;
+    setBasemapStatus("loading");
+    if (!container || !container.isConnected) {
+      failBasemap(new Error("Containerul basemapului nu este în pagină."));
+      return;
+    }
+    if (!state.projection) {
+      failBasemap(new Error("Metadatele proiecției lipsesc."));
+      return;
+    }
+    if (typeof window.WebGLRenderingContext === "undefined"
+        && typeof window.WebGL2RenderingContext === "undefined") {
+      failBasemap(new Error("WebGL nu este disponibil în acest browser."));
+      return;
+    }
+
+    state.basemapLoadTimer = window.setTimeout(() => {
+      if (!state.basemapReady) failBasemap(new Error("OpenFreeMap nu a încărcat stilul și dalele la timp."));
+    }, 15000);
+
+    Promise.all([
+      import("./basemap-camera.mjs"),
+      import("./vendor/maplibre/maplibre-gl.mjs"),
+    ]).then(([math, { Map: MapLibreMap }]) => {
+      if (!container.isConnected || state.basemapStatus === "unavailable") return;
+      state.basemapMath = math;
+      const projection = projectionForView();
+      if (!projection) {
+        failBasemap(new Error("Proiecția geografică nu corespunde viewBox-ului SVG."));
+        return;
+      }
+      state.basemapProjection = projection;
+      const initialBox = basemapViewportBox(state.view);
+      if (!initialBox || !positionBasemapViewport(initialBox)) {
+        failBasemap(new Error("Viewportul SVG nu are dimensiuni utilizabile pentru basemap."));
+        return;
+      }
+      const initialCamera = math.cameraForView(state.view, projection, initialBox.width);
+      if (!initialCamera) {
+        failBasemap(new Error("Nu se poate calcula camera basemapului din vederea SVG."));
+        return;
+      }
+      const dark = window.matchMedia?.("(prefers-color-scheme: dark)")?.matches;
+      const style = dark ? "https://tiles.openfreemap.org/styles/dark" : BASEMAP_STYLE;
+      try {
+        const map = new MapLibreMap({
+          container,
+          style,
+          center: initialCamera.center,
+          zoom: initialCamera.zoom,
+          interactive: false,
+          attributionControl: false,
+          trackResize: false,
+          renderWorldCopies: false,
+          maxPitch: 0,
+          pitch: 0,
+          bearing: 0,
+          fadeDuration: 0,
+        });
+        state.basemap = map;
+        const mapCanvas = map.getCanvas();
+        mapCanvas.setAttribute("aria-hidden", "true");
+        mapCanvas.tabIndex = -1;
+        mapCanvas.addEventListener("webglcontextlost", (event) => {
+          event.preventDefault();
+          failBasemap(new Error("Contextul WebGL a fost pierdut."));
+        }, { once: true });
+        map.once("load", () => {
+          if (state.basemap !== map) return;
+          if (state.basemapLoadTimer) window.clearTimeout(state.basemapLoadTimer);
+          state.basemapLoadTimer = null;
+          state.basemapReady = true;
+          state.basemapCamera = null;
+          setBasemapStatus("ready");
+          syncBasemapToView(state.view);
+        });
+        map.on("error", (event) => {
+          if (state.basemap !== map) return;
+          const error = event?.error || new Error("MapLibre a raportat o eroare.");
+          const message = String(error.message || error);
+          const status = Number(error.status || error.statusCode || 0);
+          if (!state.basemapReady || status >= 400
+              || /webgl|context lost|worker|failed to initialize|failed to load|failed to fetch|network|timeout/i.test(message)) {
+            failBasemap(error);
+          }
+        });
+      } catch (error) {
+        failBasemap(error);
+      }
+    }).catch(failBasemap);
+  }
+
   function ensureStage() {
     const host = $("#map");
     if (!host) return null;
@@ -274,6 +484,14 @@
 
     const stage = document.createElement("div");
     stage.className = "map-stage";
+    const basemapViewport = document.createElement("div");
+    basemapViewport.className = "map-basemap-viewport";
+    basemapViewport.setAttribute("aria-hidden", "true");
+    const basemapContainer = document.createElement("div");
+    basemapContainer.className = "map-basemap";
+    basemapContainer.style.visibility = "hidden";
+    basemapViewport.appendChild(basemapContainer);
+    stage.appendChild(basemapViewport);
     const svg = svgNode("svg", {
       class: "map-svg",
       role: "group",
@@ -310,6 +528,7 @@
     // (nu fura click-urile de pe UAT-uri) si vizibil doar cat timp un județ e deschis.
     layers.outline.appendChild(svgNode("use", { class: "map-outline", href: "#clip-judet-silueta" }));
     stage.appendChild(svg);
+    state.basemapContainer = basemapContainer;
 
     const tip = document.createElement("div");
     tip.className = "map-tip";
@@ -993,6 +1212,8 @@
     // deriva din view): altfel vederea de județ, care are alt raport, ar fi incadrata cu
     // benzi goale in sus si in jos.
     stage.style.setProperty("--map-aspect", `${fmt(view.width)} / ${fmt(view.height)}`);
+    if (!state.basemapStarted && state.projection) startBasemap();
+    syncBasemapToView(view);
     stage.classList.toggle("is-zoomed", state.userZoom.k > 1);
     stage.classList.toggle("is-regional", state.level === "regional");
 
@@ -2152,14 +2373,23 @@
     bindControls();
     const controller = new AbortController();
     const timeout = window.setTimeout(() => controller.abort(), 12000);
+    const projectionController = new AbortController();
+    const projectionTimeout = window.setTimeout(() => projectionController.abort(), 5000);
     ensureStage();
+    const projectionPromise = fetch(PROJECTION_URL, { signal: projectionController.signal })
+      .then(async (response) => {
+        if (!response.ok) throw new Error(`projection.json HTTP ${response.status}`);
+        return await response.json();
+      })
+      .catch((error) => {
+        console.warn("Metadatele proiecției lipsesc; folosesc harta SVG fără basemap.", error);
+        return null;
+      })
+      .finally(() => window.clearTimeout(projectionTimeout));
     let response;
     try {
-      // `cache: "no-store"` a fost STERS, nu mutat: forteaza 90 KB gzip la fiecare incarcare,
-      // inclusiv la un simplu reload, desi pagina si datele sunt servite cu
-      // `Cache-Control: public, max-age=300, must-revalidate` (generator/render.py:1801).
-      // Cache-ul HTTP cu revalidare face exact ce trebuie: sub 300 s = 0 bytes, peste =
-      // cerere conditionata (ETag), deci un rebuild se vede imediat ce expira fereastra.
+      // Proiecția e opțională: harta SVG se randează imediat după map.json, fără să aștepte
+      // o resursă auxiliară ori încărcarea MapLibre/OpenFreeMap.
       response = await fetch(DATA_URL, { signal: controller.signal });
     } finally {
       window.clearTimeout(timeout);
@@ -2197,6 +2427,8 @@
     applyState(initial, { push: false });
     bindResize();
     renderMap();
+    state.projection = await projectionPromise;
+    startBasemap();
   }
 
   init().catch(showLoadError);
