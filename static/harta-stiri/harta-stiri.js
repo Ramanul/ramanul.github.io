@@ -1139,7 +1139,6 @@
     const used = new Set();
     const candidates = [];
     const regional = state.level === "regional";
-    const compact = stageRect().width < 420;
 
     if (regional) {
       // O eticheta per REGIUNE, la media ancorarilor judetelor ei: numele regiunii nu se
@@ -1170,8 +1169,8 @@
       for (const node of state.layers.counties.children) {
         const county = node.dataset.judet;
         const count = countyCount(county);
-        if (!count) continue;
-        if (compact && count < 6) continue;
+        // Toate judetele primesc eticheta, inclusiv cele cu 0 stiri (cerinta editorului):
+        // suprapunerile le rezolva placeLabels pe prioritatea count-ului, nu un prag hard.
         const anchor = anchorFor(node, `judet:${county}`, null);
         const label = judetLabel(county);
         // In modul „pe locuitor" eticheta arata RATA, adica exact numarul care da culoarea.
@@ -1193,17 +1192,16 @@
         const node = state.uatNodes && state.uatNodes.get(key);
         const anchor = node ? anchorFor(node, `uat:${key}`, uat.center) : uat.center;
         if (!anchor) continue;
-        const hasCount = uat.count > 0;
-        const radius = hasCount ? Math.max(9, Math.min(15, 8 + Math.sqrt(uat.count) * 1.4)) : 0;
+        const radius = Math.max(9, Math.min(15, 8 + Math.sqrt(uat.count) * 1.4));
         const name = uat.label || uat.name;
         const nameWidth = estimateWidth(name, LABEL_PX.uat) + 8;
         candidates.push({
           kind: "uat", key,
           x: anchor[0], y: anchor[1],
           text: name, count: uat.count, radius,
-          width: hasCount ? Math.max(radius * 2, nameWidth) : nameWidth,
-          height: hasCount ? radius * 2 + 14 : 14,
-          offsetY: hasCount ? 7 : -3,
+          width: Math.max(radius * 2, nameWidth),
+          height: radius * 2 + 14,
+          offsetY: 7,
           priority: uat.count,
         });
       }
@@ -1216,19 +1214,15 @@
       entry.group.setAttribute("transform", `translate(${fmt(candidate.x)} ${fmt(candidate.y)})`);
       entry.fit.setAttribute("transform", `scale(${fmt(1 / screenScale(view))})`);
       if (candidate.kind === "uat") {
-        if (candidate.count > 0) {
-          // Pastila inversa (disc alb, cifra inchisa): lizibila pe orice treapta a rampei.
-          labelDisc(entry).setAttribute("r", String(fmt(candidate.radius)));
-          labelText(entry, "num", "label-count", {
-            y: "0", "text-anchor": "middle", "dominant-baseline": "central",
-          }).textContent = String(candidate.count);
-        } else {
-          // UAT-urile fara rezultate raman numite, dar fara bulina care ar aglomera harta.
-          if (entry.parts.disc) { entry.parts.disc.remove(); delete entry.parts.disc; }
-          if (entry.parts.num) { entry.parts.num.remove(); delete entry.parts.num; }
-        }
+        // Pastila inversa (disc alb, cifra inchisa) pentru TOATE UAT-urile: si cele fara stiri
+        // arata „0" (cerinta editorului, 7 oct); aglomerarea o taie placeLabels pe prioritate,
+        // etichetele de prioritate 0 fiind primele sacrificate la coliziune.
+        labelDisc(entry).setAttribute("r", String(fmt(candidate.radius)));
+        labelText(entry, "num", "label-count", {
+          y: "0", "text-anchor": "middle", "dominant-baseline": "central",
+        }).textContent = String(candidate.count);
         labelText(entry, "name", "label-name", {
-          y: candidate.count > 0 ? String(fmt(candidate.radius + 11)) : "0",
+          y: String(fmt(candidate.radius + 11)),
           "text-anchor": "middle",
         }).textContent = candidate.text;
       } else {
