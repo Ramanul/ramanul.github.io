@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
-  <title>TollRO — IZZ.ro</title>
+  <title>TollRo — IZZ.ro</title>
   <link>https://izz.ro/subiect/tollro/</link>
   <atom:link href="https://izz.ro/subiect/tollro/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre TollRO pe IZZ.ro</description>
+  <description>Știri despre TollRo pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 07 Oct 2026 16:48:07 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 22:16:42 +0000</lastBuildDate>
+    <item>
+      <title>Transportatorii cer suspendarea amenzilor pentru sistemul TollRo până în aprilie</title>
+      <link>https://izz.ro/economic/transportatorii-cer-suspendarea-amenzilor-pentru-sistemul-tollro-pana-in-aprilie/</link>
+      <guid>https://izz.ro/economic/transportatorii-cer-suspendarea-amenzilor-pentru-sistemul-tollro-pana-in-aprilie/</guid>
+      <pubDate>Wed, 07 Oct 2026 21:07:00 +0000</pubDate>
+      <description>UNTRR solicită oprirea sancțiunilor generate de noul sistem informatic până când acesta va funcționa corect, operatorii economici dând asigurări că doresc să achite taxele legale pentru rutele utilizate.</description>
+    </item>
     <item>
       <title>Deputatul Ciprian Vărșan critică disfuncționalitățile sistemului TollRO</title>
       <link>https://izz.ro/politic/deputatul-ciprian-varsan-critica-disfunctionalitatile-sistemului-tollro/</link>
@@ -201,12 +208,5 @@
       <guid>https://izz.ro/politic/ministrul-transporturilor-refuza-amendarea-transportatorilor-fara-sistemul/</guid>
       <pubDate>Mon, 28 Sep 2026 15:54:03 +0000</pubDate>
       <description>Ministrul interimar Radu Miruță a anunțat că nu va semna ordine de sancționare pentru companiile de transport dacă platforma digitală TollRo administrată de CNAIR nu va deveni pe deplin operațională la data de 1 octombrie.</description>
-    </item>
-    <item>
-      <title>Transportatorii rutieri cer suspendarea sancțiunilor pentru sistemul TollRo</title>
-      <link>https://izz.ro/economic/transportatorii-rutieri-cer-suspendarea-sanctiunilor-pentru-sistemul-tollro/</link>
-      <guid>https://izz.ro/economic/transportatorii-rutieri-cer-suspendarea-sanctiunilor-pentru-sistemul-tollro/</guid>
-      <pubDate>Mon, 28 Sep 2026 05:55:51 +0000</pubDate>
-      <description>COTAR solicită Parlamentului adoptarea urgentă a unei legi care să amendeze aplicarea sancțiunilor și a tarifului fix pentru taxa de drum TollRo, invocând stadiul de teste al platformei.</description>
     </item>
 </channel></rss>
