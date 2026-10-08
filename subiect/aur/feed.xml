@@ -5,7 +5,21 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 02:11:03 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 09:18:29 +0000</lastBuildDate>
+    <item>
+      <title>Aplicația mobilă a partidului AUR poate accesa date sensibile ale utilizatorilor</title>
+      <link>https://izz.ro/politic/aplicatia-mobila-a-partidului-aur-poate-accesa-date-sensibile-ale-utilizatorilor/</link>
+      <guid>https://izz.ro/politic/aplicatia-mobila-a-partidului-aur-poate-accesa-date-sensibile-ale-utilizatorilor/</guid>
+      <pubDate>Thu, 08 Oct 2026 08:01:05 +0000</pubDate>
+      <description>O investigație jurnaliștică arată că aplicația AUR colectează date personale, accesând locația, microfonul și contactele sutelor de mii de români care au instalat-o pentru mobilizare politică și comunicare.</description>
+    </item>
+    <item>
+      <title>Investigație Snoop: Aplicația mobilă AUR cere permisiuni periculoase</title>
+      <link>https://izz.ro/politic/investigatie-snoop-aplicatia-mobila-aur-cere-permisiuni-periculoase/</link>
+      <guid>https://izz.ro/politic/investigatie-snoop-aplicatia-mobila-aur-cere-permisiuni-periculoase/</guid>
+      <pubDate>Thu, 08 Oct 2026 07:30:07 +0000</pubDate>
+      <description>O investigație jurnalistică arată că aplicația partidului AUR, instalată de peste 260.000 de români, colectează date personale sensibile și utilizează permisiuni riscante pentru a urmări activitatea utilizatorilor.</description>
+    </item>
     <item>
       <title>AUR cere adoptarea legii privind transparența finanțării ONG-urilor</title>
       <link>https://izz.ro/politic/aur-cere-adoptarea-legii-privind-transparenta-finantarii-ong-urilor/</link>
@@ -33,13 +47,6 @@
       <guid>https://izz.ro/politic/george-simion-solicita-organizarea-de-alegeri-anticipate-in-romania/</guid>
       <pubDate>Wed, 07 Oct 2026 08:24:28 +0000</pubDate>
       <description>Liderul AUR, George Simion, a declarat că va iniția o campanie de demitere împotriva președintelui Nicușor Dan dacă acesta refuză în continuare convocarea alegerilor anticipate pentru depășirea blocajului politic.</description>
-    </item>
-    <item>
-      <title>Aplicația mobilă a partidului AUR recompensează utilizatorii pentru date personale și racolarea de membri</title>
-      <link>https://izz.ro/politic/aplicatia-mobila-a-partidului-aur-recompenseaza-utilizatorii-pentru-date/</link>
-      <guid>https://izz.ro/politic/aplicatia-mobila-a-partidului-aur-recompenseaza-utilizatorii-pentru-date/</guid>
-      <pubDate>Wed, 07 Oct 2026 06:44:31 +0000</pubDate>
-      <description>O investigație jurnalistică arată că platforma politică a formațiunii AUR oferă puncte utilizatorilor în schimbul informațiilor personale, participării la evenimente și atragerii de noi aderenți.</description>
     </item>
     <item>
       <title>Senatorul Costache Chertif acuză presiuni politice înaintea votului pentru Guvern</title>
@@ -348,12 +355,5 @@
       <guid>https://izz.ro/politic/ctp-sustine-ca-psd-si-aur-au-sprijinit-arestarea-lui-calin-georgescu/</guid>
       <pubDate>Tue, 29 Sep 2026 20:36:30 +0000</pubDate>
       <description>Cristian Tudor Popescu afirmă că o înțelegere tacită între PSD și AUR a condus la arestarea preventivă pentru 30 de zile a fostului candidat prezidențial Călin Georgescu, acuzat de înșelăciune și constituire de grup infracțional.</description>
-    </item>
-    <item>
-      <title>Partidul AUR îl susține pe Călin Georgescu și respinge Guvernul Mureșan</title>
-      <link>https://izz.ro/politic/partidul-aur-il-sustine-pe-calin-georgescu-si-respinge-guvernul-muresan/</link>
-      <guid>https://izz.ro/politic/partidul-aur-il-sustine-pe-calin-georgescu-si-respinge-guvernul-muresan/</guid>
-      <pubDate>Tue, 29 Sep 2026 18:19:33 +0000</pubDate>
-      <description>Formațiunea politica AUR a anunțat că nu va acorda votul de învestitură noului guvern și i-a luat apărarea lui Călin Georgescu după arestarea sa preventivă.</description>
     </item>
 </channel></rss>
