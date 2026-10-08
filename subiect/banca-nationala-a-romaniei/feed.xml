@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Banca Națională a României — IZZ.ro</title>
   <link>https://izz.ro/subiect/banca-nationala-a-romaniei/</link>
   <atom:link href="https://izz.ro/subiect/banca-nationala-a-romaniei/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Banca Națională a României pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
-      <title>BNR menține dobânda-cheie la 6,5% și avertizează asupra inflației</title>
-      <link>https://izz.ro/economic/bnr-mentine-dobanda-cheie-la-65-si-avertizeaza-asupra-inflatiei/</link>
-      <guid>https://izz.ro/economic/bnr-mentine-dobanda-cheie-la-65-si-avertizeaza-asupra-inflatiei/</guid>
-      <pubDate>Thu, 08 Oct 2026 13:04:27 +0000</pubDate>
-      <description>Banca Națională a României a decis păstrarea ratei dobânzii de politică monetară la 6,50% pe an, în contextul în care inflația ar putea crește din nou până la finalul anului, deși a înregistrat scăderi recente în trimestrul al treilea.</description>
+      <title>Banca Națională a României menține rata dobânzii de referință la 6,5%</title>
+      <link>https://izz.ro/economic/banca-nationala-a-romaniei-mentine-rata-dobanzii-de-referinta-la-65/</link>
+      <guid>https://izz.ro/economic/banca-nationala-a-romaniei-mentine-rata-dobanzii-de-referinta-la-65/</guid>
+      <pubDate>Thu, 08 Oct 2026 15:01:43 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/bnr-pastreaza-dobanda-la-65-desi-inflatia-ar-putea-fi-revizuita-in-sus-in-acest-an-situatia-economica-exclude-cresteri-de-dobanzi.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/economic/banca-nationala-a-romaniei-mentine-rata-dobanzii-de-referinta-la-65/cover.jpg?v=099643eb" medium="image" type="image/jpeg"/>
+      <description>BNR a decis păstrarea dobânzii monetare la 6,50% pe an, în pofida unor posibile presiuni inflaționiste pe termen scurt, decizie susținută de slăbirea cererii interne și deficitul economic.</description>
     </item>
     <item>
       <title>Banca Națională a României adoptă o flexibilitate mai mare pentru cursul leului</title>
       <link>https://izz.ro/economic/banca-nationala-a-romaniei-adopta-o-flexibilitate-mai-mare-pentru-cursul-leului/</link>
       <guid>https://izz.ro/economic/banca-nationala-a-romaniei-adopta-o-flexibilitate-mai-mare-pentru-cursul-leului/</guid>
       <pubDate>Wed, 07 Oct 2026 14:41:45 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/bnr-lasa-leul-sa-mai-faca-si-singur-cativa-pasi-prin-piata-de-ce-ce-este-reer-diferenta-fata-de-regimurile-valutare-din-polonia-si-ungaria.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/economic/banca-nationala-a-romaniei-adopta-o-flexibilitate-mai-mare-pentru-cursul-leului/cover.jpg?v=2fcad220" medium="image" type="image/jpeg"/>
       <description>BNR intervine mai puțin strict pentru a limita deprecierea monedei naționale în raport cu euro, menținând totuși regimul de flotare controlată, potrivit analiștilor din piața bancară.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/economic/investitiile-straine-directe-in-imobiliare-au-depasit-22-de-miliarde-de-euro/</link>
       <guid>https://izz.ro/economic/investitiile-straine-directe-in-imobiliare-au-depasit-22-de-miliarde-de-euro/</guid>
       <pubDate>Wed, 07 Oct 2026 07:19:50 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/cushman-wakefield-echinox-tranzactiile-imobiliarele-au-atras-peste-22-de-miliarde-de-euro-din-investitiile-straine-directe-in-romania.html">Economedia</source>
       <description>Sectorul imobiliar din România a atras peste 22 de miliarde de euro din investiții străine directe, reprezentând 16,4% din totalul național la finalul anului 2025, conform datelor Băncii Naționale a României.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/economic/bnr-mentine-dobanda-de-referinta-analistii-prevad-schimbari-din-2027/</link>
       <guid>https://izz.ro/economic/bnr-mentine-dobanda-de-referinta-analistii-prevad-schimbari-din-2027/</guid>
       <pubDate>Wed, 07 Oct 2026 07:13:50 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/bnr-decide-joi-dobanda-cheie-analistii-se-asteapta-la-o-schimbare-abia-din-mai-2027.html">Economedia</source>
       <description>Banca Națională a României analizează nivelul dobânzii de politică monetară în ședința programată joi. Specialiștii financiari estimează că dobânda cheie va rămâne neschimbată până cel puțin în luna mai 2027.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/economic/banca-nationala-a-romaniei-a-anuntat-un-nou-maxim-istoric-pentru-moneda-euro/</link>
       <guid>https://izz.ro/economic/banca-nationala-a-romaniei-a-anuntat-un-nou-maxim-istoric-pentru-moneda-euro/</guid>
       <pubDate>Tue, 06 Oct 2026 10:32:12 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://newsbv.ro/euro-la-un-nou-maxim-istoric-fata-de-leu/">News Brașov, Monitorul de Botoșani</source>
       <description>Moneda euro a urcat marți la un nou maxim istoric în raport cu leul, BNR stabilind un curs de referință de 5,3527 lei pentru un euro. Creșterea survine pe fondul evoluțiilor recente de pe piața valutară și al prelungirii contextului de criză, depășind precedenta valoare record înregistrată la sfârșitul săptămânii trecute. De asemenea, alte monede precum dolarul și lira sterlină au înregistrat aprecieri în fața monedei naționale.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/economic/pretul-gramului-de-aur-a-scazut-usor-la-bnr/</link>
       <guid>https://izz.ro/economic/pretul-gramului-de-aur-a-scazut-usor-la-bnr/</guid>
       <pubDate>Tue, 06 Oct 2026 10:18:21 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://adevarul.ro/economie/pretul-gramului-de-aur-6-octombrie-2026-aurul-2562143.html">Adevărul</source>
       <description>Banca Națională a României a afișat o valoare de 635,8864 lei pentru un gram de aur, marcând o diminuare minoră comparativ cu ședința financiară anterioară.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/economic/moneda-unica-europeana-a-urcat-la-un-maxim-istoric-de-535-lei/</link>
       <guid>https://izz.ro/economic/moneda-unica-europeana-a-urcat-la-un-maxim-istoric-de-535-lei/</guid>
       <pubDate>Tue, 06 Oct 2026 10:13:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.antena3.ro/economic/nou-record-istoric-pentru-euro-5-35-lei-la-cursul-bnr-805994.html">Antena 3 CNN</source>
       <description>Banca Națională a României a afișat marți un curs oficial de 5,3527 lei pentru un euro. Această cotație reprezintă un nou record absolut atins de moneda europeană pe piața valutară din România.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/economic/gramul-de-aur-s-a-ieftinit-la-cursul-bnr/</link>
       <guid>https://izz.ro/economic/gramul-de-aur-s-a-ieftinit-la-cursul-bnr/</guid>
       <pubDate>Tue, 06 Oct 2026 10:10:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/economic/pretul-aurului-6-octombrie-2026-pretul-pentru-un-gram-de-aur-a-scazut-cu-9-bani-668272.html">Observator</source>
       <description>Instituția bancară centrală a publicat cotațiile oficiale, indicând o scădere a prețului pentru un gram de aur cu nouă bani față de valoarea înregistrată în ședința precedentă.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/economic/leul-romanesc-a-scazut-in-fata-monedei-unice-euro/</link>
       <guid>https://izz.ro/economic/leul-romanesc-a-scazut-in-fata-monedei-unice-euro/</guid>
       <pubDate>Tue, 06 Oct 2026 10:07:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/economic/curs-bnr-6-octombrie-2026-leul-romanesc-pierde-mai-mult-de-2-bani-in-raport-cu-moneda-unica-euro-668269.html">Observator</source>
       <description>Banca Națională a României a publicat cursul valutar, care indică o depreciere semnificativă a leului în raport cu euro, moneda națională pierzând mai mult de doi bani în cadrul ședinței de tranzacționare.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/local/bucurestiul-concentreaza-aproape-60-din-totalul-investitiilor-straine-directe/</link>
       <guid>https://izz.ro/local/bucurestiul-concentreaza-aproape-60-din-totalul-investitiilor-straine-directe/</guid>
       <pubDate>Tue, 06 Oct 2026 03:00:15 +0000</pubDate>
+      <category>local</category>
+      <source url="https://economedia.ro/date-oficiale-harta-banilor-straini-in-romania-bucurestiul-concentreaza-aproape-60-din-investitiile-straine-directe-care-sunt-urmatoarele-judete-in-clasament.html">Economedia</source>
       <description>Datele oficiale publicate de Banca Națională a României arată că Capitala atrage cea mai mare pondere a investițiilor străine, fiind urmată în clasament de județele Ilfov, Timiș, Cluj și Brașov.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/economic/moneda-nationala-s-a-depreciat-puternic-iar-cursul-euro-a-depasit-pragul-de-534/</link>
       <guid>https://izz.ro/economic/moneda-nationala-s-a-depreciat-puternic-iar-cursul-euro-a-depasit-pragul-de-534/</guid>
       <pubDate>Fri, 02 Oct 2026 12:09:37 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.monitorulbt.ro/economic/2026/10/02/leul-la-cea-mai-abrupta-depreciere-din-ultimele-luni-euro-trece-de-534-lei/">Monitorul de Botoșani</source>
       <description>Banca Națională a României a stabilit un curs de referință de 5,3447 lei pentru un euro, marcând cea mai severă scădere a leului din ultimele luni, pe fondul așteptărilor pieței privind ratingul de țară.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/economic/indicele-robor-la-trei-luni-a-crescut-la-611-pe-an/</link>
       <guid>https://izz.ro/economic/indicele-robor-la-trei-luni-a-crescut-la-611-pe-an/</guid>
       <pubDate>Fri, 02 Oct 2026 11:18:41 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/robor-la-trei-luni-creste-la-611-indicii-robor-la-sase-si-12-luni-au-urcat-si-ei.html">Economedia</source>
       <description>Banca Națională a României anunță majorarea principalilor indici monetari folosiți la calculul creditelor în lei. Creșterea afectează atât împrumuturile de consum la trei luni, cât și finanțările ipotecare pe termene mai lungi.</description>
     </item>
     <item>
@@ -95,6 +121,8 @@
       <link>https://izz.ro/economic/cursul-bnr-euro-a-atins-un-record-istoric-de-534-lei/</link>
       <guid>https://izz.ro/economic/cursul-bnr-euro-a-atins-un-record-istoric-de-534-lei/</guid>
       <pubDate>Fri, 02 Oct 2026 10:35:08 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://newsbv.ro/euro-a-explodat-534-lei-cel-mai-scump-euro-din-istorie/">News Brașov, BizBrașov</source>
       <description>Moneda unică europeană a urcat vineri la 5,3447 lei, înregistrând o creștere de 6,7 bani într-o singură zi, cel mai ridicat curs din istoria Băncii Naționale a României. Scăderea leului vine pe fondul incertitudinii politice. BNR a cotat de asemenea dolarul la 4,7519 lei, iar gramul de aur la 639,2010 lei.</description>
     </item>
     <item>
@@ -102,6 +130,8 @@
       <link>https://izz.ro/economic/euro-a-depasit-534-lei-pe-piata-interbancara-din-cauza-incertitudinilor/</link>
       <guid>https://izz.ro/economic/euro-a-depasit-534-lei-pe-piata-interbancara-din-cauza-incertitudinilor/</guid>
       <pubDate>Fri, 02 Oct 2026 05:03:28 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://spotmedia.ro/stiri/economie/de-ce-a-crescut-brusc-euro-explicatiile-bnr">Spotmedia</source>
       <description>Moneda europeană a crescut brusc pe piața interbancară, depășind 5,34 lei. Banca Națională a României a atribuit saltul unor incertitudini economice și politice, excluzând o depreciere continuă a leului.</description>
     </item>
     <item>
@@ -109,6 +139,8 @@
       <link>https://izz.ro/economic/moneda-euro-a-urcat-la-valoarea-de-534-lei-pe-piata-interbancara/</link>
       <guid>https://izz.ro/economic/moneda-euro-a-urcat-la-valoarea-de-534-lei-pe-piata-interbancara/</guid>
       <pubDate>Fri, 02 Oct 2026 04:34:15 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/soc-valutar-in-romania-ce-se-intampla-cu-leul-in-aceasta-dimineata-dupa-o-zi-de-foc-in-care-euro-a-depasit-toate-recordurile-curs-valutar-interbancar-2-10-2026_982064.html">Economica</source>
       <description>Cursul valutar interbancar a înregistrat o creștere majoră vineri dimineață, moneda europeană stabilindu-se la 5,34 lei după o sesiune precedentă extrem de tensionată pe fondul instabilității politice.</description>
     </item>
     <item>
@@ -116,6 +148,8 @@
       <link>https://izz.ro/local/palatul-czell-din-brasov-intra-in-reabilitare-printr-un-contract-de-peste-6/</link>
       <guid>https://izz.ro/local/palatul-czell-din-brasov-intra-in-reabilitare-printr-un-contract-de-peste-6/</guid>
       <pubDate>Wed, 30 Sep 2026 02:40:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/09/30/firma-olimpic-palat-czell-banci-brasov/">BizBrașov</source>
       <description>Banca Națională a României a contractat lucrări de urgență pentru reparația Palatului Czell din Piața Sfatului din Brașov, clădire istorică grav degradată în ultimii ani.</description>
     </item>
     <item>
@@ -123,6 +157,8 @@
       <link>https://izz.ro/economic/indicele-ircc-creste-usor-de-la-1-octombrie-dupa-patru-scaderi-consecutive/</link>
       <guid>https://izz.ro/economic/indicele-ircc-creste-usor-de-la-1-octombrie-dupa-patru-scaderi-consecutive/</guid>
       <pubDate>Wed, 30 Sep 2026 01:34:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://bizbrasov.ro/2026/09/30/ircc-creste-1-octombrie-dupa-scaderi/">BizBrașov</source>
       <description>Banca Națională a României arată că indicele aplicat creditelor cu dobândă variabilă urcă de la 5,56% la 5,57%, marcând prima majorare trimestrială după o perioadă de scădere.</description>
     </item>
     <item>
@@ -130,6 +166,8 @@
       <link>https://izz.ro/economic/hyperfy-va-moderniza-securitatea-bnr-printr-un-proiect-centralizat/</link>
       <guid>https://izz.ro/economic/hyperfy-va-moderniza-securitatea-bnr-printr-un-proiect-centralizat/</guid>
       <pubDate>Tue, 29 Sep 2026 05:00:01 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://start-up.ro/cum-va-moderniza-hyperfy-securitatea-bnr-ai-pentru-analiza-imaginilor-si-o-tranzitie-fara-oprirea-sistemelor-existente/">Start-up.ro</source>
       <description>Compania Hyperfy va implementa un sistem avansat de securitate bazat pe inteligență artificială la Banca Națională a României. Contractul în valoare de 12 milioane de lei se derulează pe parcursul a 24 de luni, fără întreruperea activității.</description>
     </item>
     <item>
@@ -137,6 +175,8 @@
       <link>https://izz.ro/economic/banca-nationala-a-romaniei-isi-protejeaza-sistemul-de-plati-printr-o/</link>
       <guid>https://izz.ro/economic/banca-nationala-a-romaniei-isi-protejeaza-sistemul-de-plati-printr-o/</guid>
       <pubDate>Sun, 27 Sep 2026 21:07:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/business-hi-tech/claudiu-negrea-bnr-sistemul-national-plati-total-rupt-restul-infrastructurii-adica-protejat-independent-iar-centrul-date-rezerva-personal-tehnic-24-7-foarte-departe-bucuresti-entitate-e-radarul-23247816">Ziarul Financiar</source>
       <description>Sistemul național de plăți este menținut separat de restul rețelei BNR pentru a preveni atacurile cibernetice. Un centru de date de rezervă funcționează non-stop la distanță mare de Capitală.</description>
     </item>
     <item>
@@ -144,6 +184,8 @@
       <link>https://izz.ro/economic/un-oficial-bnr-subliniaza-importanta-perceptiei-publice-in-economie/</link>
       <guid>https://izz.ro/economic/un-oficial-bnr-subliniaza-importanta-perceptiei-publice-in-economie/</guid>
       <pubDate>Sun, 27 Sep 2026 18:32:37 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/ce-este-al-patrulea-capital-si-de-ce-este-esential-pentru-viitorul-societati-leonardo-badea-bnr-distanta-dintre-statistici-si-perceptii-nu-trebuie-ignorata_980187.html">Economica</source>
       <description>Reprezentantul Băncii Naționale, Leonardo Badea, explică rolul esențial al capitalului bazat pe încrederea socială și modul în care acesta influențează succesul reformelor structurale și economice.</description>
     </item>
 </channel></rss>

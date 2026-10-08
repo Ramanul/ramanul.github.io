@@ -30,6 +30,7 @@
   if (!app || !q || !out || !status) return;
 
   var resultLimit = Number(status.getAttribute("data-result-limit")) || 50;
+  var limitaAfisata = resultLimit;
   var RADACINA = app.getAttribute("data-pagefind") || "/_pagefind/";
   var MAPA_URL = app.getAttribute("data-index") || "/search-index.json";
   var DEBOUNCE_MS = 200;
@@ -173,6 +174,9 @@
   /* ---- rezultate -------------------------------------------------------------- */
   function deseneaza(hits, total, termeni, cat) {
     out.textContent = "";
+    var vechi = document.getElementById("search-more");
+    if (vechi) vechi.remove();
+    var vizibile = hits.slice(0, limitaAfisata);
     var sufix = descrieFiltre(cat);
     var mod = pagefind ? "" :
       " Căutare simplificată: indexul complet nu e disponibil, am căutat doar în titluri.";
@@ -182,16 +186,16 @@
         ". Încearcă un termen mai general sau o altă categorie." + mod;
       return;
     }
-    if (hits.length < total) {
-      status.textContent = "Primele " + hits.length + " din " + total + " rezultate" + sufix + "." + mod;
+    if (vizibile.length < hits.length || hits.length < total) {
+      status.textContent = "Primele " + vizibile.length + " din " + total + " rezultate" + sufix + "." + mod;
     } else if (termeni.length) {
       status.textContent = total + (total === 1 ? " rezultat" : " rezultate") +
         " pentru „" + q.value.trim() + "”" + sufix + "." + mod;
     } else {
       status.textContent = total + (total === 1 ? " știre" : " știri") + sufix + " — cele mai noi." + mod;
     }
-    for (var i = 0; i < hits.length; i++) {
-      var e = hits[i];
+    for (var i = 0; i < vizibile.length; i++) {
+      var e = vizibile[i];
       var li = document.createElement("li");
       var link = document.createElement("a");
       link.href = e[0];
@@ -202,6 +206,21 @@
       li.appendChild(link);
       li.appendChild(meta);
       out.appendChild(li);
+    }
+    if (vizibile.length < hits.length) {
+      var btn = document.createElement("button");
+      btn.id = "search-more";
+      btn.type = "button";
+      btn.className = "search-more";
+      var ramase = hits.length - vizibile.length;
+      btn.textContent = "Încă " + Math.min(resultLimit, ramase);
+      btn.addEventListener("click", function () {
+        limitaAfisata += resultLimit;
+        deseneaza(hits, total, termeni, cat);
+        var nou = document.getElementById("search-more");
+        if (nou) nou.focus();
+      });
+      out.insertAdjacentElement("afterend", btn);
     }
   }
 
@@ -220,7 +239,7 @@
       }
       if (ok) toate.push(e);
     }
-    return { hits: toate.slice(0, resultLimit), total: toate.length };
+    return { hits: toate, total: toate.length };
   }
 
   /* ---- filtre ----------------------------------------------------------------- */
@@ -247,6 +266,7 @@
       timer = setTimeout(function () { timer = null; ruleaza(0); }, intarziere);
       return;
     }
+    limitaAfisata = resultLimit;
     pregateste(function () {
       var termen = q.value.trim();
       // Cuvintele sub doua litere nu au ce sa potriveasca: indexul e pe cuvinte intregi
@@ -307,7 +327,6 @@
           // Un id pe care nu-l avem in mapa nu devine rezultat: mai bine un rezultat mai
           // putin decat o intrare fara titlu si fara link.
           if (e) hits.push(e);
-          if (hits.length >= resultLimit) break;
         }
         out.setAttribute("aria-busy", "false");
         if (rez.results.length && !hits.length) {

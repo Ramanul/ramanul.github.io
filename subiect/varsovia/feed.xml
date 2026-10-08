@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Varșovia — IZZ.ro</title>
   <link>https://izz.ro/subiect/varsovia/</link>
   <atom:link href="https://izz.ro/subiect/varsovia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Varșovia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Bucovina, promovată la târgul de turism TT Warsaw 2026 din Polonia</title>
+      <link>https://izz.ro/judetean/bucovina-promovata-la-targul-de-turism-tt-warsaw-2026-din-polonia/</link>
+      <guid>https://izz.ro/judetean/bucovina-promovata-la-targul-de-turism-tt-warsaw-2026-din-polonia/</guid>
+      <pubDate>Thu, 08 Oct 2026 12:17:09 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.newsbucovina.ro/subiectul-zilei/451681/bucovina-este-promovata-la-cel-mai-mare-targ-de-turism-din-polonia-destinatia-suceava-prezentata-la-tt-warsaw-2026">NewsBucovina</source>
+      <media:content url="https://izz.ro/judetean/bucovina-promovata-la-targul-de-turism-tt-warsaw-2026-din-polonia/cover.jpg?v=319bcbbc" medium="image" type="image/jpeg"/>
+      <description>Oferta turistică a județului Suceava este prezentată la cel mai mare târg internațional de turism din Polonia, eveniment care reunește zeci de mii de vizitatori și expozanți din întreaga lume la Varșovia.</description>
+    </item>
     <item>
       <title>Informații despre o presupusă imixtiune a lui Donald Trump în politica internă a Poloniei</title>
       <link>https://izz.ro/extern/informatii-despre-o-presupusa-imixtiune-a-lui-donald-trump-in-politica-interna/</link>
       <guid>https://izz.ro/extern/informatii-despre-o-presupusa-imixtiune-a-lui-donald-trump-in-politica-interna/</guid>
       <pubDate>Wed, 07 Oct 2026 20:29:38 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/a-incercat-trump-sa-destrame-guvernul-polonez-intalnirea-confidentiala-din-martie-a-presedintelui-sua-cu-ministrul-polonez-al-apararii-3982971">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/informatii-despre-o-presupusa-imixtiune-a-lui-donald-trump-in-politica-interna/cover.jpg?v=225edb97" medium="image" type="image/jpeg"/>
       <description>O întâlnire secretă dintre Donald Trump și ministrul polonez al Apărării stârnește controverse la Varșovia, existând suspiciuni că oficialul american ar fi cerut spargerea coaliției de guvernare.</description>
     </item>
     <item>
@@ -18,6 +31,8 @@
       <link>https://izz.ro/extern/activiste-din-polonia-au-instalat-un-dulap-automat-pentru-pastile-avortive/</link>
       <guid>https://izz.ro/extern/activiste-din-polonia-au-instalat-un-dulap-automat-pentru-pastile-avortive/</guid>
       <pubDate>Sun, 04 Oct 2026 05:00:20 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/04/polish-activists-launch-abortion-pill-locker-to-bypass-near-total-ban">The Guardian</source>
       <description>Un grup civic din Varșovia a lansat primul sistem tip locker pentru distribuirea anonimă de medicamente abortive, o metodă inedită de a ocoli legislația restrictivă din țară.</description>
     </item>
     <item>
@@ -25,6 +40,8 @@
       <link>https://izz.ro/sport/shaquille-o-neal-a-asistat-la-infrangerea-romaniei-pe-stadionul-national-din/</link>
       <guid>https://izz.ro/sport/shaquille-o-neal-a-asistat-la-infrangerea-romaniei-pe-stadionul-national-din/</guid>
       <pubDate>Sat, 03 Oct 2026 20:22:53 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/shaquille-oneal-prezent-romania-polonia-6-0-984536.html">GSP</source>
       <description>Fostul star NBA Shaquille O'Neal a fost prezent în tribunele stadionului din Varșovia la partida în care naționala de fotbal a României a fost învinsă drastic de Polonia.</description>
     </item>
     <item>
@@ -32,6 +49,8 @@
       <link>https://izz.ro/sport/gheorghe-hagi-a-explicat-esecul-usturator-inregistrat-de-nationala-la-varsovia/</link>
       <guid>https://izz.ro/sport/gheorghe-hagi-a-explicat-esecul-usturator-inregistrat-de-nationala-la-varsovia/</guid>
       <pubDate>Sat, 03 Oct 2026 06:20:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://zcj.ro/sport/cum-explica-hagi-infrangerea-umilitoare-a-romaniei-de-la-varsovia--302350.html">Ziua de Cluj</source>
       <description>Tehnicianul reprezentativei de fotbal a României a catalogat rezultatul de 0-6 drept dureros, amintind însă că jucătorii trebuie să își revină rapid înaintea următoarei partide oficiale.</description>
     </item>
     <item>
@@ -39,6 +58,8 @@
       <link>https://izz.ro/sport/presa-poloneza-a-remarcat-aspectele-pozitive-din-jocul-romaniei-dupa-meciul-de/</link>
       <guid>https://izz.ro/sport/presa-poloneza-a-remarcat-aspectele-pozitive-din-jocul-romaniei-dupa-meciul-de/</guid>
       <pubDate>Sat, 03 Oct 2026 06:04:23 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/polonezii-au-vazut-aspectul-pozitiv-din-jocul-romaniei-in-ciuda-esecului-drastic-de-la-varsovia-693985.html">Antena Sport</source>
       <description>În timp ce Polonia țintește prima poziție în Grupa 4 din Liga Națiunilor după succesul cu 6-0, naționala României rămâne fără punct acumulat, deși a avut momente bune în partida din deplasare.</description>
     </item>
     <item>
@@ -46,6 +67,8 @@
       <link>https://izz.ro/sport/jucatorii-nationalei-de-fotbal-a-romaniei-au-primit-note-mici-dupa-esecul-cu/</link>
       <guid>https://izz.ro/sport/jucatorii-nationalei-de-fotbal-a-romaniei-au-primit-note-mici-dupa-esecul-cu/</guid>
       <pubDate>Fri, 02 Oct 2026 22:16:38 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/notele-tricolorilor-dupa-macelul-polonia-romania-6-0-cine-a-primit-mai-putin-de-4.html">Sport.ro</source>
       <description>Presa sportivă a evaluat prestațiile fotbaliștilor români ca fiind extrem de slabe în urma înfrângerii drastice suferite în deplasare în fața reprezentativei Poloniei, scor 0-6, în preliminariile Ligii Națiunilor.</description>
     </item>
     <item>
@@ -53,6 +76,8 @@
       <link>https://izz.ro/sport/gheorghe-popescu-critica-dur-evolutia-tricolorilor-dupa-esecul-cu-polonia/</link>
       <guid>https://izz.ro/sport/gheorghe-popescu-critica-dur-evolutia-tricolorilor-dupa-esecul-cu-polonia/</guid>
       <pubDate>Fri, 02 Oct 2026 20:45:08 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/gica-popescu-a-rabufnit-la-adresa-tricolorilor-jucatori-adunati-la-o-sueta-ratiu-facut-praf-lipsa-de-disciplina-693919.html">Antena Sport</source>
       <description>Fostul internațional a contestat atitudinea jucătorilor români în urma înfrângerii cu 6-0 de la Varșovia, acuzând o lipsă totală de disciplină și implicare în meciurile din Liga Națiunilor.</description>
     </item>
     <item>
@@ -60,6 +85,8 @@
       <link>https://izz.ro/sport/meciul-polonia-romania-pune-in-pericol-postul-selectionerului-tricolor/</link>
       <guid>https://izz.ro/sport/meciul-polonia-romania-pune-in-pericol-postul-selectionerului-tricolor/</guid>
       <pubDate>Fri, 02 Oct 2026 05:31:42 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nations-league/polonia-romania-pe-viata-si-pe-moarte-se-clatina-scaunul-selectionerului.html">Sport.ro</source>
       <description>Reprezentativele României și Poloniei se întâlnesc pe stadionul PGE Narodowy din Varșovia într-o partidă considerată crucială pentru viitorul băncii tehnice a echipei naționale tricolore.</description>
     </item>
     <item>
@@ -67,6 +94,8 @@
       <link>https://izz.ro/sport/selectionerul-gheorghe-hagi-a-declarat-ca-romania-si-polonia-sunt-echipe-ranite/</link>
       <guid>https://izz.ro/sport/selectionerul-gheorghe-hagi-a-declarat-ca-romania-si-polonia-sunt-echipe-ranite/</guid>
       <pubDate>Thu, 01 Oct 2026 20:06:12 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://stirileprotv.ro/stiri/sport/hagi-inaintea-meciului-cu-polonia-suntem-doua-echipe-ranite-romania-cauta-prima-victorie-in-grupa.html">Știrile ProTV, Digi24</source>
       <description>Înaintea meciului direct de vineri din Liga Națiunilor, selecționerul Gheorghe Hagi a declarat joi, la Varșovia, că România și Polonia sunt două formații rănite după rezultatele modeste din primele două partide. Ambele reprezentative își doresc victoria în această confruntare pentru a redresa situația din grupă.</description>
     </item>
     <item>
@@ -74,6 +103,8 @@
       <link>https://izz.ro/sport/delegatia-romaniei-a-ajuns-la-varsovia-pentru-meciul-cu-polonia/</link>
       <guid>https://izz.ro/sport/delegatia-romaniei-a-ajuns-la-varsovia-pentru-meciul-cu-polonia/</guid>
       <pubDate>Thu, 01 Oct 2026 18:49:51 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/gica-hagi-s-a-oprit-la-autografe-si-poze-dupa-ce-s-a-dat-jos-din-autocar-delegatia-romaniei-a-ajuns-la-varsovia.html">Sport.ro</source>
       <description>Echipa națională de fotbal a României a sosit în capitala Poloniei în vederea partidului programat vineri seară. La coborârea din autocar, selecționerul Gică Hagi s-a oprit pentru a oferi autografe și a face fotografii.</description>
     </item>
     <item>
@@ -81,6 +112,8 @@
       <link>https://izz.ro/extern/comunitatea-vietnameza-din-varsovia-a-creat-un-cartier-comercial-urias/</link>
       <guid>https://izz.ro/extern/comunitatea-vietnameza-din-varsovia-a-creat-un-cartier-comercial-urias/</guid>
       <pubDate>Thu, 01 Oct 2026 17:48:55 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/vietnamezi-polonia-varsovia-asian-town-micul-hanoi-983836.html">GSP</source>
       <description>Zeci de mii de imigranți vietnamezi au dezvoltat o comunitate puternică în sectorul Włochy din Varșovia, transformând o zonă din sud-vestul orașului într-un important pol cultural și comercial local.</description>
     </item>
     <item>
@@ -88,6 +121,8 @@
       <link>https://izz.ro/sport/controverse-in-polonia-inaintea-meciului-amical-cu-nationala-romaniei/</link>
       <guid>https://izz.ro/sport/controverse-in-polonia-inaintea-meciului-amical-cu-nationala-romaniei/</guid>
       <pubDate>Wed, 30 Sep 2026 13:25:10 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/e-umilitor-pentru-lewandowski-tensiuni-uriase-in-polonia-inaintea-confruntarii-cu-romania-693130.html">Antena Sport</source>
       <description>Atmosfera din tabăra Poloniei este tensionată înaintea partidei din Liga Națiunilor împotriva României, programată la Varșovia. În centrul discuțiilor se află situația dificilă a căpitanului Robert Lewandowski.</description>
     </item>
     <item>
@@ -95,6 +130,8 @@
       <link>https://izz.ro/sport/frf-a-publicat-ghidul-oficial-pentru-suporterii-romani-prezenti-la-meciul-cu/</link>
       <guid>https://izz.ro/sport/frf-a-publicat-ghidul-oficial-pentru-suporterii-romani-prezenti-la-meciul-cu/</guid>
       <pubDate>Tue, 29 Sep 2026 19:23:26 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.digi24.ro/stiri/sport/fotbal/ghidul-suporterilor-romani-care-vor-asista-la-partida-polonia-romania-3970297">Digi24</source>
       <description>Federația Română de Fotbal a pus la dispoziția fanilor care se deplasează la Varșovia toate recomandările necesare pentru o siguranță sporită la partida din Liga Națiunilor.</description>
     </item>
     <item>
@@ -102,6 +139,8 @@
       <link>https://izz.ro/extern/germania-nazista-si-uniunea-sovietica-au-semnat-impartirea-poloniei-in/</link>
       <guid>https://izz.ro/extern/germania-nazista-si-uniunea-sovietica-au-semnat-impartirea-poloniei-in/</guid>
       <pubDate>Sun, 27 Sep 2026 21:01:25 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/istoria-zilei/28-septembrie-ziua-in-care-germania-si-urss-au-2559645.html">Adevărul</source>
       <description>În data de 28 septembrie 1939, după capitularea Varșavei în fața asediului german, cele două puteri au oficializat controlul teritorial prin Tratatul de frontieră și prietenie.</description>
     </item>
     <item>
@@ -109,6 +148,8 @@
       <link>https://izz.ro/extern/polonia-construieste-o-baza-permanenta-pentru-cinci-mii-de-militari-americani/</link>
       <guid>https://izz.ro/extern/polonia-construieste-o-baza-permanenta-pentru-cinci-mii-de-militari-americani/</guid>
       <pubDate>Sun, 27 Sep 2026 12:46:53 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/polonia-accelereaza-planul-de-construire-a-unui-mic-oras-pentru-trupele-americane-3966423">Digi24 Extern</source>
       <description>Guvernul de la Varșovia a adoptat o legislație urgentă pentru a amenaja un complex destinat găzduirii a aproximativ 5.000 de soldați SUA și familiilor acestora, vizând descurajarea Rusiei.</description>
     </item>
 </channel></rss>

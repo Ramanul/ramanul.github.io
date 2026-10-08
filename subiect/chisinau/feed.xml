@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Chișinău — IZZ.ro</title>
   <link>https://izz.ro/subiect/chisinau/</link>
   <atom:link href="https://izz.ro/subiect/chisinau/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Chișinău pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Ministrul interimar Radu Miruță subliniază legătura dintre securitatea Moldovei și a României</title>
       <link>https://izz.ro/politic/ministrul-interimar-radu-miruta-subliniaza-legatura-dintre-securitatea-moldovei/</link>
       <guid>https://izz.ro/politic/ministrul-interimar-radu-miruta-subliniaza-legatura-dintre-securitatea-moldovei/</guid>
       <pubDate>Thu, 08 Oct 2026 15:21:44 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/radu-miruta-securitatea-republicii-moldova-inseamna-si-securitatea-romaniei-avertisment-privind-amenintarile-din-regiune-3984345">Digi24 Extern</source>
+      <media:content url="https://izz.ro/politic/ministrul-interimar-radu-miruta-subliniaza-legatura-dintre-securitatea-moldovei/cover.jpg?v=673f8fcd" medium="image" type="image/jpeg"/>
       <description>Oficialul român a avertizat la Chișinău asupra riscurilor regionale actuale, menționând incursiunile dronelor, atacurile cibernetice și campaniile de dezinformare care afectează stabilitatea zonei.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/general/primaria-din-chisinau-a-aprobat-implementarea-taxarii-electronice-in-transport/</link>
       <guid>https://izz.ro/general/primaria-din-chisinau-a-aprobat-implementarea-taxarii-electronice-in-transport/</guid>
       <pubDate>Wed, 07 Oct 2026 14:26:07 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.europalibera.md/a/chisinaul-mai-face-un-pas-spre-taxarea-electronica-in-transportul-public/33872201.html">Europa Liberă</source>
+      <media:content url="https://izz.ro/general/primaria-din-chisinau-a-aprobat-implementarea-taxarii-electronice-in-transport/cover.jpg?v=0523c806" medium="image" type="image/jpeg"/>
       <description>Autoritățile municipale din Chișinău au validat conceptul unui sistem electronic de plată pentru transportul public, care presupune instalarea de validatoare în vehicule și recalificarea actualilor taxatori.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/general/jumatate-din-adaposturile-antiaeriene-din-chisinau-sunt-inchise-sau/</link>
       <guid>https://izz.ro/general/jumatate-din-adaposturile-antiaeriene-din-chisinau-sunt-inchise-sau/</guid>
       <pubDate>Wed, 07 Oct 2026 07:38:57 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.europalibera.md/a/subsoluri-incuiate-si-treceri-subterane-cum-arata-locurile-unde-ar-trebui-sa-se-ascunda-oamenii-in-cazul-unor-atacuri-aeriene/33871874.html">Europa Liberă</source>
       <description>O verificare a hărții de protecție civilă a scos la iveală că numeroase subsoluri destinate adăpostirii populației în caz de atac aerian sunt încuiate, iar cetățenii nu cunosc locațiile.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/economic/hisky-lanseaza-bilete-promotionale-de-iarna-cu-preturi-de-la-2499-euro/</link>
       <guid>https://izz.ro/economic/hisky-lanseaza-bilete-promotionale-de-iarna-cu-preturi-de-la-2499-euro/</guid>
       <pubDate>Tue, 06 Oct 2026 23:49:43 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://baita.ro/hisky-lanseaza-campania-de-promotii-pentru-sezonul-de-iarna/">Primăria Băița</source>
       <description>Compania aeriană HiSky a pus în vânzare bilete la prețuri reduse pentru zborurile din perioada octombrie 2026 – martie 2027. Pasagerii pot rezerva călătorii de pe aeroporturile din Republica Moldova și România în intervalul 5-15 octombrie.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/extern/opt-candidati-intra-in-cursa-pentru-conducerea-gagauziei/</link>
       <guid>https://izz.ro/extern/opt-candidati-intra-in-cursa-pentru-conducerea-gagauziei/</guid>
       <pubDate>Tue, 06 Oct 2026 15:05:33 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.europalibera.md/a/33871430.html">Europa Liberă</source>
       <description>Opt persoane candidează la funcția de bașcan în autonomia găgăuză, o regiune prorusă din Republica Moldova, în cadrul unor alegeri organizate în premieră cu sprijinul autorităților de la Chișinău.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/politic/opt-candidati-se-lupta-pentru-conducerea-regiunii-gagauzia/</link>
       <guid>https://izz.ro/politic/opt-candidati-se-lupta-pentru-conducerea-regiunii-gagauzia/</guid>
       <pubDate>Tue, 06 Oct 2026 15:05:33 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.europalibera.md/a/batalia-pentru-gagauzia-cine-sunt-cei-care-vor-sa-conduca-cel-mai-important-fief-anti-ue-din-tara/33871430.html">Europa Liberă</source>
       <description>Opt persoane candidează la funcția de bașcan în autonomia găgăuză, scrutin organizat pentru prima dată cu sprijinul autorităților de la Chișinău, după condamnarea fostului lider Evghenia Guțul.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/extern/ambasadorul-rusiei-la-chisinau-convocat-dupa-noi-incidente-aeriene/</link>
       <guid>https://izz.ro/extern/ambasadorul-rusiei-la-chisinau-convocat-dupa-noi-incidente-aeriene/</guid>
       <pubDate>Sat, 03 Oct 2026 17:15:36 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/tensiuni-la-chisinau-dupa-noi-incalcari-ale-spatiului-aerian-ambasadorul-rusiei-convocat-pentru-a-doua-oara-in-cateva-zile.html">Știrile ProTV</source>
       <description>Ministerul Afacerilor Externe de la Chișinău l-a convocat pe diplomatul rus Oleg Ozerov pentru a-i înmâna o notă de protest, după ce cinci aparate de zbor ale Federației Ruse au survolat teritoriul Republicii Moldova.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/extern/tarom-a-introdus-in-flota-al-doilea-boeing-737-max-8/</link>
       <guid>https://izz.ro/extern/tarom-a-introdus-in-flota-al-doilea-boeing-737-max-8/</guid>
       <pubDate>Sat, 03 Oct 2026 16:09:43 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.economica.net/flota-tarom-boeing-737-max-8_982575.html">Economica</source>
       <description>Compania aeriană națională a preluat direct din Seattle o nouă aeronavă botezată Ivan Patzaichin. Aparatul a debutat comercial pe ruta spre Chișinău, marcând un secol de la primele zboruri interne românești.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/local/noul-avion-tarom-botezat-ivan-patzaichin-a-efectuat-primul-zbor-spre-chisinau/</link>
       <guid>https://izz.ro/local/noul-avion-tarom-botezat-ivan-patzaichin-a-efectuat-primul-zbor-spre-chisinau/</guid>
       <pubDate>Sat, 03 Oct 2026 07:48:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://observatornews.ro/eveniment/boeingul-ivan-patzaichin-la-primul-zbor-decolare-spre-chisinau-alaturi-de-familia-fostului-campion-668052.html">Observator, Ziarul Financiar, Dobrogea Online, G4Media</source>
       <description>Compania TAROM a introdus în flotă cel de-al doilea Boeing 737 MAX 8, botezat în onoarea fostului campion olimpic Ivan Patzaichin. Aeronava a efectuat primul zbor oficial pe ruta București – Chișinău, marcând totodată un secol de aviație bilaterală și fiind primită cu tunuri de apă pe aeroportul din Republica Moldova.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/extern/alerta-cu-bomba-pe-aeroportul-din-chisinau-pasageri-evacuati-si-zboruri/</link>
       <guid>https://izz.ro/extern/alerta-cu-bomba-pe-aeroportul-din-chisinau-pasageri-evacuati-si-zboruri/</guid>
       <pubDate>Fri, 02 Oct 2026 18:23:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/alerta-falsa-cu-bomba-vineri-la-aeroportul-din-chisinau-pasagerii-au-fost-evacuati-iar-programul-zborurilor-a-fost-afectat-805632.html">Antena 3 CNN</source>
       <description>Aeroportul Internațional din Chișinău a fost evacuat vineri după-amiază în urma unei alerte cu bombă, măsură care a generat blocaje și a dat peste cap programul curselor aeriene planificate pentru acea zi.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/economic/bursa-internationala-a-moldovei-a-devenit-operationala-cu-sprijinul-bvb/</link>
       <guid>https://izz.ro/economic/bursa-internationala-a-moldovei-a-devenit-operationala-cu-sprijinul-bvb/</guid>
       <pubDate>Fri, 02 Oct 2026 05:10:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-reportaj-chisinau-devenit-centru-capitalismului-cateva-zile-bursa-internationala-moldovei-prinde-contur-dupa-an-pregatiri-bvb-vede-loc-listari-duale-extinderea-pietei-capital-peste-prut-timp-23251199">Ziarul Financiar</source>
       <description>Chişinăul a găzduit discuții economice pentru lansarea Bursei Internaționale a Moldovei, proiect susținut de Bursa de Valori Bucureşti. Noua piață autorizată își caută primele companii listate și investitori pentru asigurarea lichidității financiare.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/economic/proiectul-bursei-internationale-a-moldovei-avanseaza-cu-sprijinul-bvb/</link>
       <guid>https://izz.ro/economic/proiectul-bursei-internationale-a-moldovei-avanseaza-cu-sprijinul-bvb/</guid>
       <pubDate>Thu, 01 Oct 2026 21:07:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-finante-personale-bursa-internationala-a-moldovei-prinde-contur-dupa-un-an-de-pregatiri-bvb-vede-loc-pentru-listari-duale-23251290">Ziarul Financiar</source>
       <description>Reprezentanți din mediul financiar și administrativ au discutat la Chișinău despre lansarea Bursei Internaționale a Moldovei, un proiect dezvoltat cu expertiza Bursei de Valori București, care mizează pe listări duale.</description>
     </item>
     <item>
@@ -95,6 +121,8 @@
       <link>https://izz.ro/politic/puterea-de-la-chisinau-gestioneaza-separat-crizele-multiple/</link>
       <guid>https://izz.ro/politic/puterea-de-la-chisinau-gestioneaza-separat-crizele-multiple/</guid>
       <pubDate>Wed, 30 Sep 2026 15:00:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.europalibera.md/a/pe-agenda-cu-lilian-carp-printre-drone-si-scumpiri-mai-ataca-si-chicu-cum-vrea-pas-sa-faca-fata-crizelor-suprapuse/33867268.html">Europa Liberă</source>
       <description>Autoritățile moldovene abordează individual provocările actuale, incluzând scumpirile la gaze, atacurile cu drone și acțiunile opoziției, conform declarațiilor deputatului PAS Lilian Carp.</description>
     </item>
     <item>
@@ -102,6 +130,8 @@
       <link>https://izz.ro/economic/bursa-internationala-a-moldovei-a-fost-lansata-oficial-la-chisinau/</link>
       <guid>https://izz.ro/economic/bursa-internationala-a-moldovei-a-fost-lansata-oficial-la-chisinau/</guid>
       <pubDate>Mon, 28 Sep 2026 14:55:29 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/lansare-bursa-internationala-moldova-chisinau-tranzactionare-listare-parteneriat-bvb-actionar-semnificativ.html">Curs de Guvernare</source>
       <description>Autoritățile din Chișinău, în parteneriat cu Bursa de Valori București, au inaugurat platforma BIMx. Prima listare pe această nouă piață de capital este programată să aibă loc până la sfârșitul anului 2026.</description>
     </item>
 </channel></rss>

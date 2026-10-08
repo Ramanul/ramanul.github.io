@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Eurostat — IZZ.ro</title>
   <link>https://izz.ro/subiect/eurostat/</link>
   <atom:link href="https://izz.ro/subiect/eurostat/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Eurostat pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Românii renunță la carne și brânză din cauza scumpirilor</title>
+      <link>https://izz.ro/economic/romanii-renunta-la-carne-si-branza-din-cauza-scumpirilor/</link>
+      <guid>https://izz.ro/economic/romanii-renunta-la-carne-si-branza-din-cauza-scumpirilor/</guid>
+      <pubDate>Thu, 08 Oct 2026 17:12:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/economic/romanii-au-inlocuit-carnea-si-branza-cu-painea-si-cartofii-cifre-ingrijoratoare-ale-eurostat-668528.html">Observator</source>
+      <media:content url="https://izz.ro/economic/romanii-renunta-la-carne-si-branza-din-cauza-scumpirilor/cover.jpg?v=da0ac5cd" medium="image" type="image/jpeg"/>
+      <description>Datele Eurostat arată că România înregistrează cea mai ridicată pondere din Uniunea Europeană a cetățenilor care nu își permit o masă consistentă la două zile. Presiunea financiară determină familiile să înlocuiască alimentele costisitoare cu produse ieftine precum pâinea și cartofii.</description>
+    </item>
     <item>
       <title>România înregistrează cea mai mare rată din Uniunea Europeană a persoanelor fără o masă consistentă</title>
       <link>https://izz.ro/economic/romania-inregistreaza-cea-mai-mare-rata-din-uniunea-europeana-a-persoanelor/</link>
       <guid>https://izz.ro/economic/romania-inregistreaza-cea-mai-mare-rata-din-uniunea-europeana-a-persoanelor/</guid>
       <pubDate>Wed, 07 Oct 2026 18:00:29 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://alba24.ro/eurostat-romania-cea-mai-mare-pondere-din-ue-a-persoanelor-care-nu-isi-permit-o-masa-consistenta-o-data-la-doua-zile-1161533.html">Alba24</source>
+      <media:content url="https://izz.ro/economic/romania-inregistreaza-cea-mai-mare-rata-din-uniunea-europeana-a-persoanelor/cover.jpg?v=1b6fa2fc" medium="image" type="image/jpeg"/>
       <description>Datele Eurostat arată că 18,1% dintre români nu își permit financiar un prânz consistent cu carne sau pește o dată la două zile, reprezentând cel mai ridicat și îngrijorător procent din întregul bloc comunitar.</description>
     </item>
     <item>
@@ -18,6 +31,8 @@
       <link>https://izz.ro/ai/romania-are-cea-mai-slaba-rata-de-adoptare-a-inteligentei-artificiale-din-ue/</link>
       <guid>https://izz.ro/ai/romania-are-cea-mai-slaba-rata-de-adoptare-a-inteligentei-artificiale-din-ue/</guid>
       <pubDate>Tue, 06 Oct 2026 07:44:58 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://start-up.ro/romania-ultima-din-ue-la-adoptia-ai-in-companii-cine-raspunde-cand-sistemele-gresesc/">Start-up.ro</source>
       <description>Datele Eurostat arată că doar 5,2% dintre companiile românești foloseau inteligența artificială în 2025, plasând țara pe ultimul loc în Uniunea Europeană, unde media atinge pragul de 20 de procente.</description>
     </item>
     <item>
@@ -25,6 +40,8 @@
       <link>https://izz.ro/economic/turismul-in-regim-hotelier-a-atins-45-milioane-de-innoptari-in-romania/</link>
       <guid>https://izz.ro/economic/turismul-in-regim-hotelier-a-atins-45-milioane-de-innoptari-in-romania/</guid>
       <pubDate>Mon, 05 Oct 2026 21:07:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/companii/apartamentele-de-tip-airbnb-din-romania-au-inregistrat-4-5-milioane-de-innoptari-in-primele-sase-luni-dintre-care-mai-bine-de-jumatate-au-fost-generate-de-straini-23253763">Ziarul Financiar</source>
       <description>Platformele online precum Airbnb și Booking au înregistrat 4,5 milioane de înnoptări în primele șase luni ale anului în curs, peste jumătate dintre turiști fiind cetățeni străini.</description>
     </item>
     <item>
@@ -32,6 +49,8 @@
       <link>https://izz.ro/economic/moodys-avertizeaza-ca-scaderea-populatiei-europene-va-genera-crize-pentru-pensii/</link>
       <guid>https://izz.ro/economic/moodys-avertizeaza-ca-scaderea-populatiei-europene-va-genera-crize-pentru-pensii/</guid>
       <pubDate>Mon, 05 Oct 2026 15:24:30 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://hotnews.ro/avertismentul-moodys-din-2029-populatia-europei-va-incepe-sa-scada-cine-va-mai-plati-pensiile-2367663">HotNews</source>
       <description>Agenția Moody's semnalează că declinul demografic din Europa va reduce numărul angajaților și va crește presiunea financiară asupra sistemului de pensii începând din 2029, un deficit pe care inteligența artificială nu îl poate acoperi integral.</description>
     </item>
     <item>
@@ -39,6 +58,8 @@
       <link>https://izz.ro/economic/romania-este-campioana-uniunii-europene-la-tineri-care-locuiesc-in-spatii/</link>
       <guid>https://izz.ro/economic/romania-este-campioana-uniunii-europene-la-tineri-care-locuiesc-in-spatii/</guid>
       <pubDate>Fri, 02 Oct 2026 21:05:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/business-construct/romania-campioana-ue-locuinte-supraaglomerate-tineri-mult-60-dintre-tineri-traiesc-spatii-supraaglomerate-media-uniunii-europene-aproape-27-state-precum-cipru-ponderea-4-irlanda-putin-peste-7-iar-23251221">Ziarul Financiar</source>
       <description>Peste 60% dintre tinerii români cu vârste între 15 și 29 de ani trăiau în locuințe supraaglomerate în anul 2025, situând țara noastră mult peste media europeană de aproximativ 27%.</description>
     </item>
     <item>
@@ -46,6 +67,8 @@
       <link>https://izz.ro/economic/romania-se-afla-printre-statele-ue-cu-cele-mai-mari-scumpiri-imobiliare/</link>
       <guid>https://izz.ro/economic/romania-se-afla-printre-statele-ue-cu-cele-mai-mari-scumpiri-imobiliare/</guid>
       <pubDate>Fri, 02 Oct 2026 05:39:50 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/romania-printre-tarile-din-ue-cu-cele-mai-mari-scumpiri-ale-locuintelor-in-trimestrul-ii-al-anului.html">Economedia</source>
       <description>Eurostat arată că prețurile locuințelor au crescut accelerat în trimestrul al doilea, plasând România, alături de Lituania și Bulgaria, în topul scumpirilor la nivelul Uniunii Europene.</description>
     </item>
     <item>
@@ -53,6 +76,8 @@
       <link>https://izz.ro/general/chiriile-din-romania-au-crescut-cel-mai-mult-in-ue-desi-tara-are-cei-mai-multi/</link>
       <guid>https://izz.ro/general/chiriile-din-romania-au-crescut-cel-mai-mult-in-ue-desi-tara-are-cei-mai-multi/</guid>
       <pubDate>Fri, 02 Oct 2026 05:00:22 +0000</pubDate>
+      <category>general</category>
+      <source url="https://alba24.ro/romania-tara-cu-cei-mai-multi-proprietari-de-locuinte-din-ue-are-si-cea-mai-mare-crestere-a-chiriilor-date-eurostat-1160475.html">Alba24</source>
       <description>Datele Eurostat arată că prețul chiriilor în România a urcat cu 41,2% în trimestrul al doilea din 2026 față de media anului anterior. În același timp, aproximativ 94% din populație deține o locuință proprie, cel mai ridicat procent din Uniunea...</description>
     </item>
     <item>
@@ -60,6 +85,8 @@
       <link>https://izz.ro/economic/economia-romaniei-va-creste-cu-25-in-2027/</link>
       <guid>https://izz.ro/economic/economia-romaniei-va-creste-cu-25-in-2027/</guid>
       <pubDate>Thu, 01 Oct 2026 22:30:25 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://adevarul.ro/economie/dupa-un-an-aproape-pierdut-economia-romaniei-ar-2560559.html">Adevărul</source>
       <description>După o stagnare accentuată în acest an, cu un avans de doar 0,2%, PIB-ul României este prognozat să revină pe creștere semnificativă în 2027, conform datelor centralizate de ICAP CRIF.</description>
     </item>
     <item>
@@ -67,6 +94,8 @@
       <link>https://izz.ro/economic/romania-inregistreaza-cresteri-majore-ale-preturilor-la-locuinte/</link>
       <guid>https://izz.ro/economic/romania-inregistreaza-cresteri-majore-ale-preturilor-la-locuinte/</guid>
       <pubDate>Thu, 01 Oct 2026 12:37:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/economic/romania-se-afla-printre-statele-ue-cu-cele-mai-mari-cresteri-la-preturile-locuintelor-667879.html">Observator</source>
       <description>Datele Eurostat indică o majorare a costului locuințelor în al doilea trimestru din 2026, cu medii de peste un procent în Uniunea Europeană. România, alături de Bulgaria și Lituania, se află în fruntea statelor cu cele mai mari scumpiri.</description>
     </item>
     <item>
@@ -74,6 +103,8 @@
       <link>https://izz.ro/regional/oltenia-conduce-in-statistici-privind-decesele-cauzate-de-boli-circulatorii/</link>
       <guid>https://izz.ro/regional/oltenia-conduce-in-statistici-privind-decesele-cauzate-de-boli-circulatorii/</guid>
       <pubDate>Wed, 30 Sep 2026 10:21:03 +0000</pubDate>
+      <category>regional</category>
+      <source url="https://cronicaolteniei.ro/oltenia-in-topul-european-al-deceselor-provocate-de-bolile-circulatorii/">Cronica Olteniei</source>
       <description>Regiunea Sud-Vest Oltenia înregistrează cea mai mare pondere a deceselor provocate de afecțiuni cardiovasculare din România, atingând 63,8% conform datelor publicate de Eurostat.</description>
     </item>
     <item>
@@ -81,6 +112,8 @@
       <link>https://izz.ro/economic/uniunea-europeana-a-generat-peste-58-de-milioane-de-tone-de-deseuri-alimentare/</link>
       <guid>https://izz.ro/economic/uniunea-europeana-a-generat-peste-58-de-milioane-de-tone-de-deseuri-alimentare/</guid>
       <pubDate>Tue, 29 Sep 2026 08:34:09 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.g4media.ro/uniunea-europeana-genereaza-anual-peste-58-de-milioane-de-tone-de-deseuri-alimentare-potrivit-datelor-eurostat-mai-mult-de-jumatate-din-aceasta-cantitate-provine-din-gospodarii.html">G4Media</source>
       <description>Datele Eurostat arată că statele membre UE au produs în 2023 o cantitate masivă de risipă alimentară, cel puțin jumătate din acest total provenind direct din gospodăriile populației.</description>
     </item>
     <item>
@@ -88,6 +121,8 @@
       <link>https://izz.ro/general/romania-se-confrunta-cu-o-rata-ridicata-a-risipei-alimentare-anuale/</link>
       <guid>https://izz.ro/general/romania-se-confrunta-cu-o-rata-ridicata-a-risipei-alimentare-anuale/</guid>
       <pubDate>Sun, 27 Sep 2026 13:59:54 +0000</pubDate>
+      <category>general</category>
+      <source url="https://hotnews.ro/am-plans-cand-am-vazut-prima-colecta-ce-face-romania-pentru-a-combate-o-problema-adesea-ignorata-risipa-alimentara-exemple-din-alte-tari-europene-2345976">HotNews</source>
       <description>Țara noastră ocupă locul cinci în Europa la risipa de hrană, aruncând anual 3,4 milioane de tone de alimente, în timp ce o parte semnificativă din populație se confruntă cu lipsuri.</description>
     </item>
     <item>
@@ -95,6 +130,8 @@
       <link>https://izz.ro/economic/pachetele-de-vacanta-din-uniunea-europeana-s-au-scumpit-cu-12-intr-un-singur-an/</link>
       <guid>https://izz.ro/economic/pachetele-de-vacanta-din-uniunea-europeana-s-au-scumpit-cu-12-intr-un-singur-an/</guid>
       <pubDate>Sun, 27 Sep 2026 07:52:44 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/scumpire-cu-12-intr-un-an-pachetelor-vacanta-din-august.html">Curs de Guvernare</source>
       <description>Datele publicate de Eurostat arată că prețurile pachetelor turistice au crescut semnificativ în luna august la nivelul Uniunii Europene, depășind ritmul inflației generale, în timp ce tarifele aeriene au înregistrat o ușoară scădere.</description>
     </item>
     <item>
@@ -102,6 +139,8 @@
       <link>https://izz.ro/economic/romanii-platesc-cele-mai-scumpe-vacante-din-europa/</link>
       <guid>https://izz.ro/economic/romanii-platesc-cele-mai-scumpe-vacante-din-europa/</guid>
       <pubDate>Sun, 27 Sep 2026 06:05:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/economic/romanii-platesc-printre-cele-mai-scumpe-vacante-din-europa-concediul-a-devenit-un-moft-667359.html">Observator</source>
       <description>Datele publicate de Eurostat arată că nivelul ridicat al prețurilor transformă concediile într-un lux greu accesibil pentru majoritatea cetățenilor români, care cheltuie sume considerabile pe turism.</description>
     </item>
 </channel></rss>

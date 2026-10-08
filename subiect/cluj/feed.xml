@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Cluj — IZZ.ro</title>
   <link>https://izz.ro/subiect/cluj/</link>
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Pregătiri finale pe stadionul din Gruia pentru derby-ul Clujului</title>
       <link>https://izz.ro/sport/pregatiri-finale-pe-stadionul-din-gruia-pentru-derby-ul-clujului/</link>
       <guid>https://izz.ro/sport/pregatiri-finale-pe-stadionul-din-gruia-pentru-derby-ul-clujului/</guid>
       <pubDate>Thu, 08 Oct 2026 15:45:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://zcj.ro/sport/cum-arata-gazonul-din-gruia-inainte-de-derby-ul-clujului-cfr-cluj-u-cluj-astazi-de-la-2030--302604.html">Ziua de Cluj</source>
+      <media:content url="https://izz.ro/sport/pregatiri-finale-pe-stadionul-din-gruia-pentru-derby-ul-clujului/cover.jpg?v=e3ce0170" medium="image" type="image/jpeg"/>
       <description>Gazonul arenei din Cluj a fost pregătit în detaliu pentru meciul de fotbal dintre CFR Cluj și Universitatea Cluj, partidă programată în această seară, la ora 20:30.</description>
+    </item>
+    <item>
+      <title>Prefectura Cluj nu reușește să ocupe un post de IT de trei ani</title>
+      <link>https://izz.ro/judetean/prefectura-cluj-nu-reuseste-sa-ocupe-un-post-de-it-de-trei-ani/</link>
+      <guid>https://izz.ro/judetean/prefectura-cluj-nu-reuseste-sa-ocupe-un-post-de-it-de-trei-ani/</guid>
+      <pubDate>Thu, 08 Oct 2026 09:30:54 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/in-orasul-it-istilor-prefectura-cluj-nu-isi-gaseste-de-peste-trei-ani-de-zile-un-calificat/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/judetean/prefectura-cluj-nu-reuseste-sa-ocupe-un-post-de-it-de-trei-ani/cover.jpg?v=5f1af3be" medium="image" type="image/jpeg"/>
+      <description>În ciuda numeroșilor specialiști din Cluj, instituția prefecturii a eșuat în organizarea a două concursuri succesive pentru un post de consilier IT, fie din cauza lipsei candidaților calificați, fie prin nepromovarea probelor.</description>
     </item>
     <item>
       <title>O proprietară din Florești a găsit apartamentul devastat după plecarea unor chiriași</title>
       <link>https://izz.ro/local/o-proprietara-din-floresti-a-gasit-apartamentul-devastat-dupa-plecarea-unor/</link>
       <guid>https://izz.ro/local/o-proprietara-din-floresti-a-gasit-apartamentul-devastat-dupa-plecarea-unor/</guid>
       <pubDate>Thu, 08 Oct 2026 08:31:54 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.csid.ro/stiri/cum-au-lasat-doi-chiriasi-un-apartament-din-cluj-proprietara-a-ramas-uimita-cand-a-deschis-usa-locuintei-dupa-3-ani-21328640/">CSÎD</source>
+      <media:content url="https://izz.ro/local/o-proprietara-din-floresti-a-gasit-apartamentul-devastat-dupa-plecarea-unor/cover.jpg?v=3810c30a" medium="image" type="image/jpeg"/>
       <description>O locuință închiriată unui cuplu format dintr-un absolvent de Medicină și o studentă la Drept a fost lăsată într-o stare deplorabilă după o perioadă de trei ani.</description>
     </item>
     <item>
@@ -25,6 +41,9 @@
       <link>https://izz.ro/local/targul-traditional-de-la-negreni-isi-deschide-portile-in-weekend/</link>
       <guid>https://izz.ro/local/targul-traditional-de-la-negreni-isi-deschide-portile-in-weekend/</guid>
       <pubDate>Thu, 08 Oct 2026 08:12:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/targul-de-la-negreni-are-loc-in-weekend-ce-solutii-ocolitoare-au-soferii--302574.html">Ziua de Cluj</source>
+      <media:content url="https://izz.ro/local/targul-traditional-de-la-negreni-isi-deschide-portile-in-weekend/cover.jpg?v=94cc84a3" medium="image" type="image/jpeg"/>
       <description>Cunoscutul târg de vechituri din județul Cluj își așteaptă vizitatorii la sfârșitul săptămânii, autoritățile pregătind rute ocolitoare pentru șoferi din cauza numărului mare de participanți așteptați.</description>
     </item>
     <item>
@@ -32,6 +51,9 @@
       <link>https://izz.ro/local/fermierii-din-transilvania-construiesc-o-fabrica-de-ulei-de-45-milioane-euro-la/</link>
       <guid>https://izz.ro/local/fermierii-din-transilvania-construiesc-o-fabrica-de-ulei-de-45-milioane-euro-la/</guid>
       <pubDate>Thu, 08 Oct 2026 07:34:22 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/clujul-va-avea-o-fabrica-de-ulei-de-45-de-milioane-de-euro-cofinantata-de-cec-bank/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/local/fermierii-din-transilvania-construiesc-o-fabrica-de-ulei-de-45-milioane-euro-la/cover.jpg?v=bc646279" medium="image" type="image/jpeg"/>
       <description>Un grup de douăzeci și unu de fermieri din județele Cluj, Mureș și Alba ridică o fabrică de ulei în comuna Mihai Viteazu, investiție finanțată parțial de CEC Bank. Unitatea, cu o capacitate de 600 de tone, va fi inaugurată...</description>
     </item>
     <item>
@@ -39,6 +61,9 @@
       <link>https://izz.ro/judetean/zeci-de-posturi-de-director-din-scolile-clujene-au-ramas-fara-candidati/</link>
       <guid>https://izz.ro/judetean/zeci-de-posturi-de-director-din-scolile-clujene-au-ramas-fara-candidati/</guid>
       <pubDate>Thu, 08 Oct 2026 07:17:09 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/zeci-de-scoli-din-cluj-raman-fara-candidati-la-functiile-de-director/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/judetean/zeci-de-posturi-de-director-din-scolile-clujene-au-ramas-fara-candidati/cover.jpg?v=5588d27a" medium="image" type="image/jpeg"/>
       <description>Inspectoratul Școlar Județean Cluj anunță că cel puțin 23 de funcții de conducere din cele 280 scoase la concurs nu au atras niciun solicitant. Înscrierile acoperă doar 169 de unități de învățământ, lăsând aproximativ 8% dintre posturi neocupate.</description>
     </item>
     <item>
@@ -46,6 +71,9 @@
       <link>https://izz.ro/judetean/national-geographic-recomanda-padurea-hoia-baciu-printre-destinatiile-de-toamna/</link>
       <guid>https://izz.ro/judetean/national-geographic-recomanda-padurea-hoia-baciu-printre-destinatiile-de-toamna/</guid>
       <pubDate>Thu, 08 Oct 2026 07:09:07 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/padurea-hoia-baciu-e-recomandata-de-national-geographic-printre-locurile-de-vizitat-in-romania-in-aceasta-toamna/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/judetean/national-geographic-recomanda-padurea-hoia-baciu-printre-destinatiile-de-toamna/cover.jpg?v=ee582951" medium="image" type="image/jpeg"/>
       <description>Publicația internațională a plasat România pe locul șase în topul destinațiilor pentru octombrie 2026, evidențiind peisajele transilvănene și misterele asociate cu celebrul sit din Cluj.</description>
     </item>
     <item>
@@ -53,6 +81,9 @@
       <link>https://izz.ro/local/cresterea-costului-vietii-in-brasov-in-ciuda-dezvoltarii-economice/</link>
       <guid>https://izz.ro/local/cresterea-costului-vietii-in-brasov-in-ciuda-dezvoltarii-economice/</guid>
       <pubDate>Thu, 08 Oct 2026 06:29:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/economic/cat-costa-de-fapt-sa-fii-bine-in-brasov-de-ce-salariul-bun-din-economia-locala-nu-mai-ofera-liniste-financiara/">MyTex</source>
+      <media:content url="https://izz.ro/local/cresterea-costului-vietii-in-brasov-in-ciuda-dezvoltarii-economice/cover.jpg?v=07dbdf54" medium="image" type="image/jpeg"/>
       <description>Dezvoltarea economică accelerată din Brașov, impulsionată de IT și turism, vine la pachet cu un paradox financiar, în care locuitorii cu venituri peste medie se confruntă cu lipsa siguranței financiare.</description>
     </item>
     <item>
@@ -60,6 +91,9 @@
       <link>https://izz.ro/judetean/marius-sumudica-implicat-intr-un-incident-bizar-pe-o-strada-din-cluj/</link>
       <guid>https://izz.ro/judetean/marius-sumudica-implicat-intr-un-incident-bizar-pe-o-strada-din-cluj/</guid>
       <pubDate>Wed, 07 Oct 2026 20:15:53 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.sport.ro/liga-1/a-lasat-geamul-joc-si-mi-a-pus-o-insigna-cu-aluat-de-biscuit-marius-sumudica-siderat-dupa-ultima-experienta-in-cluj.html">Sport.ro</source>
+      <media:content url="https://izz.ro/judetean/marius-sumudica-implicat-intr-un-incident-bizar-pe-o-strada-din-cluj/cover.jpg?v=8b07d566" medium="image" type="image/jpeg"/>
       <description>Antrenorul Marius Șumudică a relatat o experiență neobișnuită trăită în Cluj, unde un șofer necunoscut i-a oferit o insignă confecționată din aluat de biscuit direct pe geamul mașinii.</description>
     </item>
     <item>
@@ -67,6 +101,9 @@
       <link>https://izz.ro/judetean/peste-250-de-candidati-s-au-inscris-la-concursul-pentru-conducerile-scolilor/</link>
       <guid>https://izz.ro/judetean/peste-250-de-candidati-s-au-inscris-la-concursul-pentru-conducerile-scolilor/</guid>
       <pubDate>Wed, 07 Oct 2026 14:20:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/educatie/257-de-candidati-intra-in-cursa-pentru-sefia-scolilor-din-cluj-cate-posturi-de-directori-au-ramas-fara-concurenti--302552.html">Ziua de Cluj</source>
+      <media:content url="https://izz.ro/judetean/peste-250-de-candidati-s-au-inscris-la-concursul-pentru-conducerile-scolilor/cover.jpg?v=3fe2689b" medium="image" type="image/jpeg"/>
       <description>Un număr de 257 de candidați au depus dosarele pentru ocuparea funcțiilor de director și director adjunct în unitățile de învățământ de stat din județul Cluj în cadrul noului concurs organizat.</description>
     </item>
     <item>
@@ -74,6 +111,8 @@
       <link>https://izz.ro/judetean/consiliul-judetean-cluj-a-desemnat-firmele-pentru-deszapezirea-drumurilor/</link>
       <guid>https://izz.ro/judetean/consiliul-judetean-cluj-a-desemnat-firmele-pentru-deszapezirea-drumurilor/</guid>
       <pubDate>Wed, 07 Oct 2026 10:43:11 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/consiliul-judetean-cluj-a-desemnat-firmele-care-vor-asigura-deszapezirea-drumurilor-in-urmatorii-patru-ani/">Gazeta de Cluj</source>
       <description>Instituția a finalizat licitația publică pentru serviciile de deszăpezire a celor peste 1.200 de kilometri de drumuri județene, încheind acorduri-cadru valabile pentru următorii patru ani cu mai mulți operatori economici specializați.</description>
     </item>
     <item>
@@ -81,6 +120,8 @@
       <link>https://izz.ro/judetean/doru-supeala-critica-impactul-economic-real-al-festivalului-untold/</link>
       <guid>https://izz.ro/judetean/doru-supeala-critica-impactul-economic-real-al-festivalului-untold/</guid>
       <pubDate>Wed, 07 Oct 2026 08:37:01 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/doru-supeala-demonteaza-propaganda-ca-untold-imbogateste-clujul/">Gazeta de Cluj</source>
       <description>Mai mulți locuitori din Cluj susțin că festivalul Untold nu aduce beneficii financiare întregii comunități locale, ci generează cheltuieli suplimentare și disconfort pentru cetățenii care sunt nevoiți să părăsească temporar orașul.</description>
     </item>
     <item>
@@ -88,6 +129,8 @@
       <link>https://izz.ro/local/un-apartament-din-cluj-a-fost-lasat-in-paragina-de-chiriasi/</link>
       <guid>https://izz.ro/local/un-apartament-din-cluj-a-fost-lasat-in-paragina-de-chiriasi/</guid>
       <pubDate>Wed, 07 Oct 2026 08:31:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.antena3.ro/actualitate/imagini-de-groaza-dintr-un-apartament-din-cluj-chiriasii-au-plecat-pe-ascuns-dupa-ce-au-distrus-tot-am-crezut-ca-avem-cadavre-806124.html">Antena 3 CNN</source>
       <description>Proprietara unui apartament din Florești a avut un șoc la deschiderea locuinței, după ce chiriașii care au stat trei ani au plecat pe ascuns și au distrus tot interiorul.</description>
     </item>
     <item>
@@ -95,6 +138,8 @@
       <link>https://izz.ro/judetean/fostul-depozit-de-filme-radef-din-cluj-scos-din-nou-la-licitatie/</link>
       <guid>https://izz.ro/judetean/fostul-depozit-de-filme-radef-din-cluj-scos-din-nou-la-licitatie/</guid>
       <pubDate>Wed, 07 Oct 2026 07:55:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/fostul-depozit-de-filme-al-radef-din-cluj-se-vinde-din-nou-dupa-opt-licitatii-fara-cumparator/">Gazeta de Cluj</source>
       <description>Imobilul aparținând RomâniaFilm de pe strada Septimiu Mureșan este pus în vânzare pentru a noua oară, cu un preț redus la 365.370 de euro, după opt tentative eșuate anterioare.</description>
     </item>
     <item>
@@ -102,6 +147,8 @@
       <link>https://izz.ro/judetean/prefectul-judetului-cluj-a-prezentat-noile-reguli-din-codul-amenajarii/</link>
       <guid>https://izz.ro/judetean/prefectul-judetului-cluj-a-prezentat-noile-reguli-din-codul-amenajarii/</guid>
       <pubDate>Wed, 07 Oct 2026 07:39:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/administratie/noua-lege-a-urbanismului-explicata-pe-intelesul-primarilor-din-judetul-cluj--302514.html">Ziua de Cluj</source>
       <description>Primarii și specialiștii în urbanism din Cluj au participat la o ședință de lucru convocată de prefect pentru a clarifica atribuțiile autoritățile locale conform noii legi.</description>
     </item>
     <item>
@@ -109,6 +156,8 @@
       <link>https://izz.ro/economic/platforma-europeana-solmeria-se-lanseaza-in-romania-pentru-proiecte-fotovoltaice/</link>
       <guid>https://izz.ro/economic/platforma-europeana-solmeria-se-lanseaza-in-romania-pentru-proiecte-fotovoltaice/</guid>
       <pubDate>Tue, 06 Oct 2026 16:58:39 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/platforma-solmeria-se-lanseaza-in-romania-cu-primele-proiecte-solare-si-de-stocare-in-judetul-cluj.html">Economedia</source>
       <description>Marketplace-ul dedicat sectorului fotovoltaic și de stocare își extinde activitatea în România, oferind dezvoltatorilor locali acces direct la investitori din Franța și Italia.</description>
     </item>
     <item>
@@ -116,6 +165,8 @@
       <link>https://izz.ro/local/un-biciclist-beat-si-zeci-de-soferi-sanctionati-pentru-viteza-in-urma-unui/</link>
       <guid>https://izz.ro/local/un-biciclist-beat-si-zeci-de-soferi-sanctionati-pentru-viteza-in-urma-unui/</guid>
       <pubDate>Mon, 05 Oct 2026 13:59:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/cluj-biciclist-beat-crita-prins-de-politisti-aproape-40-de-soferi-au-fost-amendati-pentru-viteza--302444.html">Ziua de Cluj</source>
       <description>Polițiștii rutieri clujeni au desfășurat o acțiune de amploare pe DN15, în zona Turda–Câmpia Turzii, sancționând zeci de conducători auto pentru viteză excesivă și depistând un biciclist aflat sub influența alcoolului.</description>
     </item>
     <item>
@@ -123,6 +174,8 @@
       <link>https://izz.ro/judetean/casa-de-pensii-cluj-a-distribuit-noi-bilete-de-tratament-balnear/</link>
       <guid>https://izz.ro/judetean/casa-de-pensii-cluj-a-distribuit-noi-bilete-de-tratament-balnear/</guid>
       <pubDate>Mon, 05 Oct 2026 06:51:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/economie/bilete-de-tratament-balnear-pentru-pensionarii-din-cluj-ce-acte-sunt-necesare-si-pana-cand-pot-fi-ridicate--302393.html">Ziua de Cluj</source>
       <description>Instituția a anunțat disponibilitatea biletelor de odihnă și recuperare pentru pensionarii din județ. Beneficiarii pot ridica documentele de la sediu prezentând actele necesare stabilite de lege.</description>
     </item>
     <item>
@@ -130,6 +183,8 @@
       <link>https://izz.ro/judetean/cererea-pentru-servicii-de-wellness-a-crescut-semnificativ-in-romania/</link>
       <guid>https://izz.ro/judetean/cererea-pentru-servicii-de-wellness-a-crescut-semnificativ-in-romania/</guid>
       <pubDate>Mon, 05 Oct 2026 06:19:48 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://newsbv.ro/cererea-pentru-servicii-de-wellness-a-crescut/">News Brașov</source>
       <description>Interesul pentru sănătate și relaxare a urcat cu 64% anul acesta, județul Brașov plasându-se pe locul al patrulea la nivel național în preferințele clienților.</description>
     </item>
     <item>
@@ -137,6 +192,8 @@
       <link>https://izz.ro/local/pompierii-clujeni-au-intervenit-la-un-incendiu-auto-in-feleacu/</link>
       <guid>https://izz.ro/local/pompierii-clujeni-au-intervenit-la-un-incendiu-auto-in-feleacu/</guid>
       <pubDate>Mon, 05 Oct 2026 05:43:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/masina-cuprinsa-de-foc-in-feleacu-au-intervenit-pompierii--302390.html">Ziua de Cluj</source>
       <description>Echipajele de la Inspectoratul pentru Situații de Urgență Cluj au intervenit duminică seară pentru a lichida un incendiu izbucnit la un autoturism aflat pe raza comunei Feleacu, fără a fi raportate victime.</description>
     </item>
     <item>
@@ -144,6 +201,8 @@
       <link>https://izz.ro/judetean/sofer-din-cluj-retinut-dupa-ce-a-incercat-sa-fenteze-politia-schimband-locul/</link>
       <guid>https://izz.ro/judetean/sofer-din-cluj-retinut-dupa-ce-a-incercat-sa-fenteze-politia-schimband-locul/</guid>
       <pubDate>Mon, 05 Oct 2026 05:18:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/eveniment/un-sofer-cu-permisul-suspendat-a-incercat-sa-i-fenteze-pe-politistii-clujeni-schimband-locul-cu-pasagerul-din-dreapta--302389.html">Ziua de Cluj</source>
       <description>Un șofer în vârstă de 58 de ani din Cluj, care conducea cu permisul suspendat, a fost reținut pentru 24 de ore după ce a încercat să scape de sancțiuni schimbând rapid locul cu pasagerul din dreapta la oprirea agenților.</description>
     </item>
     <item>
@@ -151,6 +210,8 @@
       <link>https://izz.ro/local/sofer-din-huedin-retinut-de-politisti-dupa-un-scandal-in-trafic-pentru-ca/</link>
       <guid>https://izz.ro/local/sofer-din-huedin-retinut-de-politisti-dupa-un-scandal-in-trafic-pentru-ca/</guid>
       <pubDate>Mon, 05 Oct 2026 04:53:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/in-urma-unui-scandal-in-trafic-politistii-clujeni-au-pescuit-un-sofercare-nu-detinea-permis-de-conducere-valabil-pentru-nicio-categorie-de-vehicule--302388.html">Ziua de Cluj, Ziarul de Ploiești</source>
       <description>Doi bărbați au fost reținuți pentru 24 de ore în urma unor intervenții ale poliției. În județul Cluj, un șofer din Huedin a fost prins în trafic fără a deține permis pentru niciun tip de vehicul, provocând un scandal. Într-un caz separat, pe 4 octombrie 2026, un tânăr de 23 de ani din Prahova a fost oprit după o urmărire pe DJ 101 T în comuna Vărbilău, constatându-se că conducea fără permis un autoturism care nu îi aparținea.</description>
     </item>
     <item>
@@ -158,6 +219,8 @@
       <link>https://izz.ro/local/accident-rutier-cu-cinci-victime-in-localitatea-clujeana-floresti-pe-fondul/</link>
       <guid>https://izz.ro/local/accident-rutier-cu-cinci-victime-in-localitatea-clujeana-floresti-pe-fondul/</guid>
       <pubDate>Mon, 05 Oct 2026 04:18:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/accident-pe-dn1-e60-in-floresti-provocat-de-un-sofer-de-21-de-ani-5-victime-printre-care-3-minori--302387.html">Ziua de Cluj</source>
       <description>Traficul a fost complet blocat pe DN1 E60 în urma unei coliziuni violente produse în comuna Florești, accident în care au fost rănite cinci persoane, inclusiv trei minori.</description>
     </item>
     <item>
@@ -165,6 +228,8 @@
       <link>https://izz.ro/local/peste-37-000-de-companii-romanesti-si-au-inchis-activitatea-in-primele-opt-luni/</link>
       <guid>https://izz.ro/local/peste-37-000-de-companii-romanesti-si-au-inchis-activitatea-in-primele-opt-luni/</guid>
       <pubDate>Sun, 04 Oct 2026 12:28:21 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.economica.net/val-de-dizolvari-de-firme-peste-37-000-de-companii-si-au-inchis-portile-in-opt-luni_982636.html">Economica</source>
       <description>Economia României a înregistrat un val masiv de dizolvări de firme între ianuarie și august, cele mai multe închideri de companii fiind raportate în București, Cluj și Ilfov.</description>
     </item>
     <item>
@@ -172,6 +237,8 @@
       <link>https://izz.ro/local/un-urs-a-fost-lovit-mortal-de-o-masina-in-judetul-cluj/</link>
       <guid>https://izz.ro/local/un-urs-a-fost-lovit-mortal-de-o-masina-in-judetul-cluj/</guid>
       <pubDate>Sun, 04 Oct 2026 10:24:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/urs-lovit-mortal-de-o-masina-pe-un-drum-din-judetul-cluj--302376.html">Ziua de Cluj</source>
       <description>Un accident rutier grav s-a petrecut în noaptea de sâmbătă spre duminică pe DN1-E60, în localitatea Dumbrava, unde un autoturism a lovit mortal un exemplar urs.</description>
     </item>
     <item>
@@ -179,6 +246,8 @@
       <link>https://izz.ro/local/un-tanar-urmarit-international-pentru-un-jaf-de-40-000-euro-a-fost-prins-la-jucu/</link>
       <guid>https://izz.ro/local/un-tanar-urmarit-international-pentru-un-jaf-de-40-000-euro-a-fost-prins-la-jucu/</guid>
       <pubDate>Sun, 04 Oct 2026 05:46:17 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/urmarit-pentru-un-jaf-de-40-000-de-euro-un-tanar-din-botosani-a-fost-prins-in-trafic-la-jucu-de-politistii-clujeni/">Gazeta de Cluj</source>
       <description>Polițiștii clujeni au oprit în trafic un autovehicul condus de un bărbat de 20 de ani din Botoșani. În urma verificărilor pe DN1C, s-a constatat că acesta figura cu mandat de urmărire pentru furt calificat.</description>
     </item>
     <item>
@@ -186,6 +255,8 @@
       <link>https://izz.ro/judetean/firma-cridov-scapa-de-acuzatiile-de-evaziune-fiscala-prin-prescriptie/</link>
       <guid>https://izz.ro/judetean/firma-cridov-scapa-de-acuzatiile-de-evaziune-fiscala-prin-prescriptie/</guid>
       <pubDate>Sun, 04 Oct 2026 04:00:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/firma-cridov-a-scapat-de-un-dosar-penal-prin-prescriptie-si-acum-incearca-sa-scape-si-de-fisc/">Gazeta de Cluj</source>
       <description>Societatea de construcții Cridov SRL din Cluj a scăpat de un dosar penal privind un prejudiciu de peste un milion de euro din cauza prescripției și încearcă acum să anuleze și datoriile stabilite de Fisc.</description>
     </item>
     <item>
@@ -193,6 +264,8 @@
       <link>https://izz.ro/local/un-fugar-din-botosani-acuzat-de-furtul-a-40-000-de-euro-a-fost-prins-la-cluj/</link>
       <guid>https://izz.ro/local/un-fugar-din-botosani-acuzat-de-furtul-a-40-000-de-euro-a-fost-prins-la-cluj/</guid>
       <pubDate>Sat, 03 Oct 2026 16:47:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/fugar-din-botosani-prins-de-politistii-clujeni-in-trafic-furase-40000-de-euro--302368.html">Ziua de Cluj</source>
       <description>Un tânăr dat în urmărire internațională pentru furt calificat a fost oprit în trafic de polițiștii clujeni pe un drum național din județul Cluj.</description>
     </item>
     <item>
@@ -200,6 +273,8 @@
       <link>https://izz.ro/judetean/clujul-inregistreaza-sute-de-insolvente-in-primele-opt-luni/</link>
       <guid>https://izz.ro/judetean/clujul-inregistreaza-sute-de-insolvente-in-primele-opt-luni/</guid>
       <pubDate>Sat, 03 Oct 2026 15:22:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/economie/criza-ingroapa-afacerile-din-cluj-judetul-in-topul-insolventelor-din-romania--302366.html">Ziua de Cluj</source>
       <description>Peste 260 de companii din județul Cluj au intrat în incapacitate de plată în perioada ianuarie-august 2026, plasând regiunea printre primele locuri pe țară la numărul de falimente.</description>
     </item>
     <item>
@@ -207,6 +282,8 @@
       <link>https://izz.ro/judetean/strazile-universitatii-si-kogalniceanu-din-cluj-devin-zone-pietonale/</link>
       <guid>https://izz.ro/judetean/strazile-universitatii-si-kogalniceanu-din-cluj-devin-zone-pietonale/</guid>
       <pubDate>Sat, 03 Oct 2026 12:01:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/eveniment/joaca-si-miscare-in-inima-clujului-sambata-la-strazi-deschise--302360.html">Ziua de Cluj</source>
       <description>Clujenii sunt așteptați sâmbătă la evenimentul Străzi deschise, unde arterele centrale menționate se vor transforma în spații dedicate jocului, mișcării și timpului petrecut în familie.</description>
     </item>
     <item>
@@ -214,6 +291,8 @@
       <link>https://izz.ro/local/un-mic-fotbalist-in-varsta-de-12-ani-din-sibiu-a-fost-diagnosticat-cu-leucemie/</link>
       <guid>https://izz.ro/local/un-mic-fotbalist-in-varsta-de-12-ani-din-sibiu-a-fost-diagnosticat-cu-leucemie/</guid>
       <pubDate>Fri, 02 Oct 2026 17:50:53 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.turnulsfatului.ro/2026/10/02/avem-nevoie-de-o-minune-va-rog-rugati-va-pentru-enoh-povestea-micul-fotbalist-din-sibiu-care-lupta-cu-leucemia/">Turnul Sfatului</source>
       <description>Băiatul, pasionat de sport încă de la vârsta de patru ani, este internat pe secția de oncologie pediatrică din Cluj, familia lansând un apel disperat către comunitate pentru a-l susține în lupta cu boala.</description>
     </item>
     <item>
@@ -221,6 +300,8 @@
       <link>https://izz.ro/judetean/un-pieton-a-murit-dupa-ce-a-fost-lovit-de-o-masina-in-cluj/</link>
       <guid>https://izz.ro/judetean/un-pieton-a-murit-dupa-ce-a-fost-lovit-de-o-masina-in-cluj/</guid>
       <pubDate>Fri, 02 Oct 2026 13:34:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/eveniment/tragedie-cumplita-pe-un-drum-din-cluj-un-pieton-a-fost-spulberat-de-o-masina-victima-nu-a-mai-avut-nicio-sansa--302342.html">Ziua de Cluj</source>
       <description>Un accident rutier mortal s-a înregistrat joi seara pe un sector de drum național din județul Cluj, victima pierzându-viața în urma impactului violent cu un autoturism.</description>
     </item>
     <item>
@@ -228,6 +309,8 @@
       <link>https://izz.ro/judetean/elena-udrea-il-sustine-pe-alin-tise-pentru-functia-de-premier/</link>
       <guid>https://izz.ro/judetean/elena-udrea-il-sustine-pe-alin-tise-pentru-functia-de-premier/</guid>
       <pubDate>Fri, 02 Oct 2026 07:26:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/politica/elena-udrea-dintre-toate-numele-vehiculate-ca-posibili-viitori-premieri-il-consider-cel-mai-potrivit-pe-alin-tise--302303.html">Ziua de Cluj</source>
       <description>Fostul ministru consideră că președintele Consiliului Județean Cluj este cel mai potrivit candidat pentru conducerea guvernului, lăudându-i cariera politică și curajul decizional.</description>
     </item>
     <item>
@@ -235,6 +318,8 @@
       <link>https://izz.ro/judetean/iulius-mall-cluj-organizeaza-concursuri-de-sah-si-un-festival-caritabil/</link>
       <guid>https://izz.ro/judetean/iulius-mall-cluj-organizeaza-concursuri-de-sah-si-un-festival-caritabil/</guid>
       <pubDate>Fri, 02 Oct 2026 06:50:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/promo/sah-pentru-copii-si-un-festival-dedicat-faptelor-bune-in-weekend-la-iulius-mall-cluj--302297.html">Ziua de Cluj</source>
       <description>Primul weekend din octombrie aduce la centrul comercial din Cluj competiții dedicate elevilor și un festival centrat pe fapte bune, adresat întregii familii.</description>
     </item>
     <item>
@@ -242,6 +327,8 @@
       <link>https://izz.ro/judetean/un-barbat-din-cluj-a-fost-retinut-dupa-o-luna-pentru-amenintare/</link>
       <guid>https://izz.ro/judetean/un-barbat-din-cluj-a-fost-retinut-dupa-o-luna-pentru-amenintare/</guid>
       <pubDate>Fri, 02 Oct 2026 05:48:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/eveniment/clujean-retinut-pentru-24-de-ore-pentru-amenintare-la-o-luna-de-la-comiterea-faptelor-scandal-intr-o-benzinarie-transmis-live-pe-net--302294.html">Ziua de Cluj</source>
       <description>Polițiștii clujeni l-au reținut pe agresorul dintr-un scandal petrecut în benzinărie pe 4 septembrie. Deși incidentul fusese transmis în direct pe o rețea socială, autoritățile au avut nevoie de o lună pentru finalizarea cercetărilor.</description>
     </item>
     <item>
@@ -249,6 +336,8 @@
       <link>https://izz.ro/judetean/compania-romaneasca-lumen-a-castigat-un-premiu-european-pentru-ochelari/</link>
       <guid>https://izz.ro/judetean/compania-romaneasca-lumen-a-castigat-un-premiu-european-pentru-ochelari/</guid>
       <pubDate>Fri, 02 Oct 2026 05:30:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/sanatate/ochelarii-pentru-nevazatori-lumen-inventati-la-cluj-recunoastere-internationala-la-europes-best-medtech--302293.html">Ziua de Cluj</source>
       <description>Startup-ul din Cluj a fost premiat la categoria post-certificare în cadrul competiției Europe’s Best MedTech de la München, recunoscându-i-se tehnologia bazată pe inteligență artificială destinată nevăzătorilor.</description>
     </item>
     <item>
@@ -256,6 +345,8 @@
       <link>https://izz.ro/local/un-barbat-a-murit-dupa-ce-s-a-rasturnat-cu-masina-la-marisel/</link>
       <guid>https://izz.ro/local/un-barbat-a-murit-dupa-ce-s-a-rasturnat-cu-masina-la-marisel/</guid>
       <pubDate>Fri, 02 Oct 2026 04:01:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/ce-au-transmis-politistii-despre-accidentul-mortal-de-la-marisel--302290.html">Ziua de Cluj</source>
       <description>Un șofer în vârstă de 64 de ani și-a pierdut viața în județul Cluj, după ce autovehiculul pe care îl conducea a căzut într-o râpă adâncă de peste cincizeci de metri.</description>
     </item>
     <item>
@@ -263,6 +354,8 @@
       <link>https://izz.ro/local/un-barbat-a-murit-dupa-ce-masina-sa-s-a-prabusit-intr-o-rapa-la-marisel/</link>
       <guid>https://izz.ro/local/un-barbat-a-murit-dupa-ce-masina-sa-s-a-prabusit-intr-o-rapa-la-marisel/</guid>
       <pubDate>Thu, 01 Oct 2026 18:06:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/accident-mortal-la-marisel-un-barbat-a-murit-dupa-ce-masina-s-a-rasturnat-intr-o-rapa-de-peste-50-de-metri--302289.html">Ziua de Cluj, Gazeta de Cluj</source>
       <description>Un șofer în vârstă de 64 de ani a murit joi după-amiază, pe 1 octombrie, în urma unui accident rutier petrecut în localitatea Mărișel, județul Cluj. Autoturismul condus de victimă a părăsit partea carosabilă și s-a prăbușit într-o prăpastie adâncă de peste 50 de metri, într-o zonă greu accesibilă din cătunul Costești. Echipajele de urgență intervenite la fața locului au constatat decesul bărbatului, care era încarcerat în vehicul.</description>
     </item>
     <item>
@@ -270,6 +363,8 @@
       <link>https://izz.ro/local/vloggerul-nelson-mondialu-reclama-un-jaf-de-amploare-in-locuinta-din-cluj/</link>
       <guid>https://izz.ro/local/vloggerul-nelson-mondialu-reclama-un-jaf-de-amploare-in-locuinta-din-cluj/</guid>
       <pubDate>Thu, 01 Oct 2026 11:51:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://observatornews.ro/eveniment/nelson-mondialu-povesteste-pas-cu-pas-cum-a-fost-jefuit-semnele-de-intrebare-din-ancheta-667874.html">Observator</source>
       <description>Poliția investighează furtul unor bunuri de valoare din casa vloggerului din comuna Ciurila. Deși victima susține că paguba s-ar ridica la sute de mii de euro în bijuterii și bani, declarația oficială depusă la autorități menționează o sumă considerabil mai...</description>
     </item>
     <item>
@@ -277,6 +372,8 @@
       <link>https://izz.ro/local/spitalele-regionale-primesc-finantari-bei-de-923-milioane-euro/</link>
       <guid>https://izz.ro/local/spitalele-regionale-primesc-finantari-bei-de-923-milioane-euro/</guid>
       <pubDate>Wed, 30 Sep 2026 18:41:17 +0000</pubDate>
+      <category>local</category>
+      <source url="https://economedia.ro/spitalele-regionale-din-iasi-cluj-si-craiova-vor-primi-finantari-bei-de-923-milioane-de-euro.html">Economedia</source>
       <description>Ministerul Finanțelor prelungește termenele și flexibilizează accesul la fondurile europene de la Banca Europeană de Investiții, destinate construcției spitalelor regionale din Iași, Cluj și Craiova.</description>
     </item>
     <item>
@@ -284,6 +381,8 @@
       <link>https://izz.ro/judetean/alin-tise-cere-demisia-conducerii-pnl-si-organizarea-unui-congres-dupa/</link>
       <guid>https://izz.ro/judetean/alin-tise-cere-demisia-conducerii-pnl-si-organizarea-unui-congres-dupa/</guid>
       <pubDate>Wed, 30 Sep 2026 16:57:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/politica/alin-tise-discurs-manifest-in-direct-la-tv-bolojan-atacat-frontal-a-sabotat-cat-a-putut-de-mult-constituirea-unui-nou-guvern-sa-demisioneze-in-regim-de-urgenta-de-la-guvern-si-din-conducerea-partidului--302224.html">Ziua de Cluj</source>
       <description>Președintele CJ Cluj îl critică dur pe Ilie Bolojan pentru blocajul politic actual și solicită un nou guvern format din experți susținut printr-un pact național girat de președinte.</description>
     </item>
     <item>
@@ -291,6 +390,8 @@
       <link>https://izz.ro/judetean/opt-persoane-trimise-in-judecata-pentru-atacarea-unei-ambulante-la-cluj/</link>
       <guid>https://izz.ro/judetean/opt-persoane-trimise-in-judecata-pentru-atacarea-unei-ambulante-la-cluj/</guid>
       <pubDate>Wed, 30 Sep 2026 13:49:50 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/justitie/opt-persoane-care-au-atacat-in-luna-august-o-ambulanta-care-transporta-un-pacient-pacient-au-fost-trimise-in-judecata-3971425">Digi24</source>
       <description>Opt indivizi din Cluj au fost trimiși în judecată și reținuți preventiv după ce au blocat în trafic și au vandalizat cu răngi, topoare și pietre o ambulanță care transporta un pacient în august.</description>
     </item>
     <item>
@@ -298,6 +399,8 @@
       <link>https://izz.ro/general/utcn-a-organizat-evenimentul-international-welcome-day-pentru-studentii-straini/</link>
       <guid>https://izz.ro/general/utcn-a-organizat-evenimentul-international-welcome-day-pentru-studentii-straini/</guid>
       <pubDate>Wed, 30 Sep 2026 13:30:00 +0000</pubDate>
+      <category>general</category>
+      <source url="https://zcj.ro/educatie/utcn-i-a-intampinat-pe-studentii-internationali-la-cluj-aproximativ-75-de-tineri-au-participat-la-international-welcome-day--302216.html">Ziua de Cluj</source>
       <description>Universitatea Tehnică din Cluj-Napoca și-a întâmpinat noii studenți internaționali și bursieri Erasmus+. Aproximativ 75 de tineri au participat la activitățile dedicate integrării lor în mediul academic clujean.</description>
     </item>
     <item>
@@ -305,6 +408,8 @@
       <link>https://izz.ro/local/barbat-din-floresti-arestat-pentru-furt-calificat-dupa-ce-a-furat-bani-si/</link>
       <guid>https://izz.ro/local/barbat-din-floresti-arestat-pentru-furt-calificat-dupa-ce-a-furat-bani-si/</guid>
       <pubDate>Wed, 30 Sep 2026 13:21:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/barbatul-suspectat-ca-a-furat-bani-bijuterii-si-ceasuri-din-cluj-arestat-pentru-30-de-zile-a-fost-prins-inainte-sa-iasa-din-tara--302213.html">Ziua de Cluj</source>
       <description>Un suspect de 35 de ani a fost reținut preventiv pentru 30 de zile sub acuzația de furt calificat. Ac Acesta a fost prins de autorități chiar înainte de a încerca să părăsească teritoriul României.</description>
     </item>
     <item>
@@ -312,6 +417,8 @@
       <link>https://izz.ro/judetean/mircea-boca-se-va-pensiona-rapid-din-prefectiunea-cluj-pe-fondul-unor/</link>
       <guid>https://izz.ro/judetean/mircea-boca-se-va-pensiona-rapid-din-prefectiunea-cluj-pe-fondul-unor/</guid>
       <pubDate>Wed, 30 Sep 2026 09:19:20 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/mircea-boca-ar-pleca-de-urgenta-iar-prin-institutie-circula-vorba-despre-un-dosar-si-niste-angajari-facute-pe-repede-inainte/">Gazeta de Cluj</source>
       <description>Funcționarul Mircea Boca din cadrul Prefecturii Cluj urmează să se pensioneze în regim de urgență de la 1 octombrie, în instituție existând discuții legate de un dosar și angajări recente.</description>
     </item>
     <item>
@@ -319,6 +426,8 @@
       <link>https://izz.ro/judetean/o-soferita-din-cluj-a-fost-surprinsa-conducand-fara-maini-in-timp-ce-folosea/</link>
       <guid>https://izz.ro/judetean/o-soferita-din-cluj-a-fost-surprinsa-conducand-fara-maini-in-timp-ce-folosea/</guid>
       <pubDate>Wed, 30 Sep 2026 06:34:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/eveniment/soferie-fara-maini-multitasking-sper-sa-ramana-fara-permis--302161.html">Ziua de Cluj</source>
       <description>Traficul din Cluj a fost marcat de un incident în care o conducătoare auto a ignorat regulile de siguranță rutieră, fiind filmată în timp ce își folosea exclusiv telefonul mobil în loc să țină volanul.</description>
     </item>
     <item>
@@ -326,6 +435,8 @@
       <link>https://izz.ro/local/incendiu-provocat-de-o-soba-improvizata-intr-o-gospodarie-din-cluj/</link>
       <guid>https://izz.ro/local/incendiu-provocat-de-o-soba-improvizata-intr-o-gospodarie-din-cluj/</guid>
       <pubDate>Wed, 30 Sep 2026 05:33:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/incendiu-in-cluj-izbucnit-din-cauza-unei-sobe-improvizate--302159.html">Ziua de Cluj</source>
       <description>Pompierii din județul Cluj au intervenit de urgență pentru stingerea unui incendiu izbucnit într-o locuință din satul Plăiești, comuna Moldovenești, din cauza utilizării necorespunzătoare a unei sobe.</description>
     </item>
     <item>
@@ -333,6 +444,8 @@
       <link>https://izz.ro/judetean/o-tanara-si-bunicul-sau-au-fost-gasit-in-stare-grava-in-cluj/</link>
       <guid>https://izz.ro/judetean/o-tanara-si-bunicul-sau-au-fost-gasit-in-stare-grava-in-cluj/</guid>
       <pubDate>Tue, 29 Sep 2026 14:33:09 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/caz-socant-in-cluj-o-tanara-de-22-de-ani-a-fost-gasita-plina-de-sange-pe-strada-iar-bunicul-ei-grav-ranit-in-apartament.html">Știrile ProTV</source>
       <description>Polițiștii clujeni investighează un incident violent petrecut într-un apartament, după ce o fată de 22 de ani a ieșit plină de sânge pe holul blocului cerând ajutor. Victima și bunicul ei fost medic au ajuns la spital.</description>
     </item>
     <item>
@@ -340,6 +453,8 @@
       <link>https://izz.ro/local/bucurestiul-si-clujul-gazduiesc-competitia-nasa-space-apps-challenge/</link>
       <guid>https://izz.ro/local/bucurestiul-si-clujul-gazduiesc-competitia-nasa-space-apps-challenge/</guid>
       <pubDate>Tue, 29 Sep 2026 08:56:45 +0000</pubDate>
+      <category>local</category>
+      <source url="https://start-up.ro/48-de-ore-pentru-a-transforma-datele-nasa-in-aplicatii-si-jocuri-nasa-space-apps-challenge-revine-la-bucuresti-si-cluj/">Start-up.ro</source>
       <description>Evenimentul global de 48 de ore provoacă pasionații să transforme datele agenției spațiale americane în aplicații practice, jocuri educative despre baze planetare și soluții pentru agricultură și sănătatea astronauților.</description>
     </item>
     <item>
@@ -347,13 +462,8 @@
       <link>https://izz.ro/local/baritonul-darius-gruita-a-castigat-concursul-international-de-canto-de-la-cluj/</link>
       <guid>https://izz.ro/local/baritonul-darius-gruita-a-castigat-concursul-international-de-canto-de-la-cluj/</guid>
       <pubDate>Tue, 29 Sep 2026 04:30:15 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/baritonul-darius-gruita-pe-cea-mai-inalta-treapta-a-podiumului-concursului-international-de-canto-desfasurat-la-cluj/">Express de Banat</source>
       <description>Tânărul interpret originar din Reșița s-a clasat pe primul loc la cea de-a treia ediție a competiției vocale. Evenimentul a reunit 120 de concurenți și a omagiat memoria artistului Alexandru Fărcaș.</description>
-    </item>
-    <item>
-      <title>Opere inspirate de Constantin Brâncuși lansate la Cluj și București</title>
-      <link>https://izz.ro/local/opere-inspirate-de-constantin-brancusi-lansate-la-cluj-si-bucuresti/</link>
-      <guid>https://izz.ro/local/opere-inspirate-de-constantin-brancusi-lansate-la-cluj-si-bucuresti/</guid>
-      <pubDate>Mon, 28 Sep 2026 22:00:00 +0000</pubDate>
-      <description>Cu ocazia aniversării a 150 de ani de la nașterea sculptorului, artiștii Karim Rashid și Radu Pandele marchează Anul Brâncuși printr-o sculptură la Cluj și o pictură murală în Capitală.</description>
     </item>
 </channel></rss>

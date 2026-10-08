@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>UEFA — IZZ.ro</title>
   <link>https://izz.ro/subiect/uefa/</link>
   <atom:link href="https://izz.ro/subiect/uefa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre UEFA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>UEFA impune exclusiv locuri pe scaune pe stadioane pentru Euro 2032</title>
+      <link>https://izz.ro/sport/uefa-impune-exclusiv-locuri-pe-scaune-pe-stadioane-pentru-euro-2032/</link>
+      <guid>https://izz.ro/sport/uefa-impune-exclusiv-locuri-pe-scaune-pe-stadioane-pentru-euro-2032/</guid>
+      <pubDate>Thu, 08 Oct 2026 21:30:43 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/nazionali/euro-2032-regola-posti-seduti/">FC Inter 1908</source>
+      <media:content url="https://izz.ro/sport/uefa-impune-exclusiv-locuri-pe-scaune-pe-stadioane-pentru-euro-2032/cover.jpg?v=46f41372" medium="image" type="image/jpeg"/>
+      <description>Ministrul Sportului, Andrea Abodi, a anunțat că regulile UEFA pentru Campionatul European din 2032 interzic locurile în picioare pe stadioanele din Italia, obligând toate arenele gazdă să ofere exclusiv scaune.</description>
+    </item>
     <item>
       <title>Franța a obținut o victorie categorică împotriva Belgiei în Liga Națiunilor</title>
       <link>https://izz.ro/sport/franta-a-obtinut-o-victorie-categorica-impotriva-belgiei-in-liga-natiunilor/</link>
       <guid>https://izz.ro/sport/franta-a-obtinut-o-victorie-categorica-impotriva-belgiei-in-liga-natiunilor/</guid>
       <pubDate>Mon, 05 Oct 2026 21:02:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://observatornews.ro/sport/rezultate-uefa-nations-league-franta-demonstratie-de-forta-cu-belgia-668233.html">Observator</source>
       <description>Echipele naționale ale Franței, Italiei, Ungariei și Bosniei-Herțegovina au înregistrat victorii importante în partidele disputate luni seară în cadrul competiției UEFA Nations League.</description>
     </item>
     <item>
@@ -18,6 +30,8 @@
       <link>https://izz.ro/sport/uefa-investigheaza-cazul-negreira-si-ia-in-calcul-excluderea-fc-barcelona-din/</link>
       <guid>https://izz.ro/sport/uefa-investigheaza-cazul-negreira-si-ia-in-calcul-excluderea-fc-barcelona-din/</guid>
       <pubDate>Sun, 04 Oct 2026 12:07:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://spotmedia.ro/stiri/sport/uefa-ar-putea-exclude-fc-barcelona-din-champions-league-presa">Spotmedia</source>
       <description>Forul fotbalistic european a redeschis ancheta vizând clubul FC Barcelona, bazându-se pe noi probe furnizate de Real Madrid, ceea ce ar putea activa reguli disciplinare severe privind excluderea din competiții.</description>
     </item>
     <item>
@@ -25,6 +39,8 @@
       <link>https://izz.ro/sport/arbitrul-urs-schnyder-nu-a-primit-nicio-sanctiune-de-la-uefa-dupa-eliminarea/</link>
       <guid>https://izz.ro/sport/arbitrul-urs-schnyder-nu-a-primit-nicio-sanctiune-de-la-uefa-dupa-eliminarea/</guid>
       <pubDate>Sun, 04 Oct 2026 05:58:08 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/decizia-luata-de-uefa-in-cazul-lui-urs-schnyder-dupa-scandaloasa-eliminare-a-lui-radu-dragusin-694259.html">Antena Sport</source>
       <description>Centralul elvetian care l-a eliminat controversat pe fundasul roman in minutul douazeci si doi al meciului Polonia-Romania din Liga Natiunilor nu a fost sanctionat oficial de catre comisiile UEFA pentru decizia luata pe teren.</description>
     </item>
     <item>
@@ -32,6 +48,8 @@
       <link>https://izz.ro/sport/uefa-a-stabilit-brigada-de-arbitri-pentru-meciul-romania-suedia/</link>
       <guid>https://izz.ro/sport/uefa-a-stabilit-brigada-de-arbitri-pentru-meciul-romania-suedia/</guid>
       <pubDate>Sat, 03 Oct 2026 12:56:12 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/nationala/uefa-decizie-arbitraj-controversat-urs-schnyder-romania-suedia-20539056">ProSport</source>
       <description>Forul european a anunțat oficial arbitrii care vor conduce partida dintre România și Suedia de pe Arena Națională, la doar o zi după controversele stârnite de Urs Schnyder la meciul cu Polonia.</description>
     </item>
     <item>
@@ -39,6 +57,8 @@
       <link>https://izz.ro/sport/federatia-italiana-de-fotbal-a-trimis-la-uefa-dosarul-pentru-euro-2032/</link>
       <guid>https://izz.ro/sport/federatia-italiana-de-fotbal-a-trimis-la-uefa-dosarul-pentru-euro-2032/</guid>
       <pubDate>Wed, 30 Sep 2026 19:15:52 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/ultimora/euro-2032-la-figc-presenta-il-dossier-stadi-alluefa-ecco-le-citta-coinvolte/">FC Inter 1908</source>
       <description>FIGC a transmis oficial către UEFA documentația cu cele treisprezece orașe și paisprezece stadioane propuse să găzduiască meciurile de la Campionatul European din 2032, respectând termenul limită stabilit.</description>
     </item>
     <item>
@@ -46,6 +66,8 @@
       <link>https://izz.ro/sport/guido-vaciago-vorbeste-despre-posibilele-sanctiuni-pentru-manchester-city/</link>
       <guid>https://izz.ro/sport/guido-vaciago-vorbeste-despre-posibilele-sanctiuni-pentru-manchester-city/</guid>
       <pubDate>Wed, 30 Sep 2026 12:40:38 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/news/gossip-e-curiosita/vaciago-manchester-city-sanzioni-mi-arriva-questa-indiscrezione/">FC Inter 1908</source>
       <description>Jurnalistul Guido Vaciago a comentat la Radio Sportiva posibilele sancțiuni cu care se confruntă Manchester City după încălcarea normelor financiare stabilite în Premier League.</description>
     </item>
     <item>
@@ -53,6 +75,8 @@
       <link>https://izz.ro/sport/andrei-nicolescu-s-a-intalnit-cu-presedintele-uefa-la-copenhaga/</link>
       <guid>https://izz.ro/sport/andrei-nicolescu-s-a-intalnit-cu-presedintele-uefa-la-copenhaga/</guid>
       <pubDate>Wed, 30 Sep 2026 12:13:33 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/liga-1/andrei-nicolescu-adunare-generala-efc-aleksander-ceferin-uefa-983461.html">GSP</source>
       <description>Președintele clubului Dinamo a participat la Adunarea Generală EFC din Danemarca, unde a discutat cu liderul UEFA, Aleksander Ceferin, și alți oficiali europeni.</description>
     </item>
     <item>
@@ -60,6 +84,8 @@
       <link>https://izz.ro/sport/nasser-al-khelaifi-i-a-cerut-lui-aleksander-ceferin-sa-candideze-pentru-un-nou/</link>
       <guid>https://izz.ro/sport/nasser-al-khelaifi-i-a-cerut-lui-aleksander-ceferin-sa-candideze-pentru-un-nou/</guid>
       <pubDate>Tue, 29 Sep 2026 22:00:49 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/ultimora/uefa-al-khelaifi-chiede-a-ceferin-di-ricandidarsi-alla-presidenza/">FC Inter 1908</source>
       <description>În cadrul adunării generale de la Copenaghen, șeful Asociației Cluburilor Europene i-a solicitat președintelui UEFA să continue la conducerea organizației, subliniind nevoia de lideri puternici în fotbal.</description>
     </item>
     <item>
@@ -67,6 +93,8 @@
       <link>https://izz.ro/sport/aleksander-ceferin-l-a-criticat-dur-pe-presedintele-fifa-gianni-infantino/</link>
       <guid>https://izz.ro/sport/aleksander-ceferin-l-a-criticat-dur-pe-presedintele-fifa-gianni-infantino/</guid>
       <pubDate>Tue, 29 Sep 2026 15:35:23 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/ceferin-atac-fifa-infantino-basme-andersen-fotbalul-n-are-nevoie-de-imparati-si-tribunale-983231.html">GSP</source>
       <description>Șeful UEFA, Aleksander Ceferin, a lansat un atac sever la adresa omologului său de la FIFA, Gianni Infantino, acuzându-l că acționează contrar principiilor democratice asumate în fotbalul mondial.</description>
     </item>
     <item>
@@ -74,6 +102,8 @@
       <link>https://izz.ro/sport/universitatea-craiova-a-fost-penalizata-financiar-de-uefa-inaintea-debutului/</link>
       <guid>https://izz.ro/sport/universitatea-craiova-a-fost-penalizata-financiar-de-uefa-inaintea-debutului/</guid>
       <pubDate>Tue, 29 Sep 2026 15:26:59 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/universitatea-craiova/universitatea-craiova-amendata-de-uefa-inainte-de-meciul-cu-getafe-din-ce-motiv-au-fost-penalizati-oltenii-692939.html">Antena Sport</source>
       <description>Gruparea din Bănie, singura echipă românească rămasă în competițiile continentale, a primit o amendă din partea UEFA cu puțin timp înainte de primul meci din faza principală a Conference League împotriva celor de la Getafe.</description>
     </item>
     <item>
@@ -81,6 +111,8 @@
       <link>https://izz.ro/sport/gianni-infantino-promite-distribuirea-echitabila-a-fondurilor-fifa/</link>
       <guid>https://izz.ro/sport/gianni-infantino-promite-distribuirea-echitabila-a-fondurilor-fifa/</guid>
       <pubDate>Tue, 29 Sep 2026 07:26:14 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.economica.net/scandalul-miliardelor-din-fotbalul-international-infantino-promite-distribuirea-echitabila-a-banilor-fifa-catre-federatii_980786.html">Economica</source>
       <description>Președintele FIFA a răspuns solicitării venite de la UEFA și CONCACAF privind alocarea a cel puțin 10 milioane de dolari către fiecare dintre cele 211 federații membre. Cererea va fi analizată în cadrul următoarei reuniuni oficiale a forului internațional.</description>
     </item>
     <item>
@@ -88,6 +120,8 @@
       <link>https://izz.ro/sport/frf-anunta-ca-arena-nationala-va-fi-plina-la-meciul-cu-suedia/</link>
       <guid>https://izz.ro/sport/frf-anunta-ca-arena-nationala-va-fi-plina-la-meciul-cu-suedia/</guid>
       <pubDate>Sun, 27 Sep 2026 19:36:55 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/se-umple-arena-nationala-anuntul-frf-inaintea-meciului-in-care-uefa-ne-a-inchis-stadionul-982740.html">GSP</source>
       <description>Deși debutul în Liga Națiunilor cu Bosnia se va juca fără spectatori pe teren propriu din decizia UEFA, federația confirmă că suporterii vor umple stadionul la următoarea partidă acasă, împotriva Suediei.</description>
     </item>
     <item>
@@ -95,6 +129,8 @@
       <link>https://izz.ro/sport/uefa-avertizeaza-italia-in-privinta-cazului-malago-si-a-organizarii-euro-2032/</link>
       <guid>https://izz.ro/sport/uefa-avertizeaza-italia-in-privinta-cazului-malago-si-a-organizarii-euro-2032/</guid>
       <pubDate>Sun, 27 Sep 2026 07:15:42 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/news/interviste/ceferin-italia-caso-malago-fiducia-uefa-stadi-euro-2032/">FC Inter 1908</source>
       <description>Președintele UEFA, Aleksander Ceferin, a declarat că implicarea politică în cazul Malagò pune în pericol încrederea forului european și responsabilitatea Italiei ca țară co-organizatoare pentru Campionatul European din 2032.</description>
     </item>
     <item>
@@ -102,6 +138,8 @@
       <link>https://izz.ro/sport/uefa-poate-sanctiona-romania-dupa-incidentele-provocate-de-fani-in-suedia/</link>
       <guid>https://izz.ro/sport/uefa-poate-sanctiona-romania-dupa-incidentele-provocate-de-fani-in-suedia/</guid>
       <pubDate>Sun, 27 Sep 2026 07:03:07 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://spotmedia.ro/stiri/sport/presa-suedeza-anunta-interventia-uefa-dupa-incidentele-de-la-partida-cu-romania-de-mult-nu-s-a-mai-vazut">Spotmedia</source>
       <description>Presa scandinavă semnalează comportamentul agresiv și materialele pirotehnice folosite de suporterii români prezenți la partida din Solna, fapte care riscă să atragă măsuri disciplinare.</description>
     </item>
 </channel></rss>

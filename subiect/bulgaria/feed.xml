@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Bulgaria — IZZ.ro</title>
   <link>https://izz.ro/subiect/bulgaria/</link>
   <atom:link href="https://izz.ro/subiect/bulgaria/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bulgaria pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Opoziția din Bulgaria susține că nava scufundată în Marea Neagră transporta trupe</title>
       <link>https://izz.ro/extern/opozitia-din-bulgaria-sustine-ca-nava-scufundata-in-marea-neagra-transporta/</link>
       <guid>https://izz.ro/extern/opozitia-din-bulgaria-sustine-ca-nava-scufundata-in-marea-neagra-transporta/</guid>
       <pubDate>Thu, 08 Oct 2026 15:44:07 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/liderul-opozitiei-din-bulgaria-afirma-ca-nava-sufundata-in-marea-neagra-ar-fi-putut-transporta-trupe-3984341">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/opozitia-din-bulgaria-sustine-ca-nava-scufundata-in-marea-neagra-transporta/cover.jpg?v=55f07edd" medium="image" type="image/jpeg"/>
       <description>Liderul partidului GERB, Boiko Borissov, a declarat că rapoartele serviciilor secrete arată că nava prăbușită în Marea Neagră ar fi putut avea la bord personal militar sau trupe.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/sport/edi-iordanescu-a-refuzat-preluarea-functiei-de-selectioner-al-bulgariei/</link>
       <guid>https://izz.ro/sport/edi-iordanescu-a-refuzat-preluarea-functiei-de-selectioner-al-bulgariei/</guid>
       <pubDate>Thu, 08 Oct 2026 15:37:51 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/fotbal-intern/decizia-luata-de-edi-iordanescu-dupa-discutiile-pentru-postul-de-selectioner-al-bulgariei-695811.html">Antena Sport</source>
+      <media:content url="https://izz.ro/sport/edi-iordanescu-a-refuzat-preluarea-functiei-de-selectioner-al-bulgariei/cover.jpg?v=85f06822" medium="image" type="image/jpeg"/>
       <description>Fostul antrenor de la Lech Poznan, aflat fără echipă din toamna anului 2025, a decis să nu accepte oferta venită din partea federației de la Sofia de a conduce naționala de fotbal.</description>
     </item>
     <item>
@@ -25,13 +31,39 @@
       <link>https://izz.ro/extern/bulgaria-intampina-oportunitati-majore-si-riscuri-de-securitate-prin-coridorul/</link>
       <guid>https://izz.ro/extern/bulgaria-intampina-oportunitati-majore-si-riscuri-de-securitate-prin-coridorul/</guid>
       <pubDate>Thu, 08 Oct 2026 15:24:11 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/blogurile-adevarul/bulgaria-si-miza-coridorului-de-mijloc-pentru-ue-2562753.html">Adevărul</source>
+      <media:content url="https://izz.ro/extern/bulgaria-intampina-oportunitati-majore-si-riscuri-de-securitate-prin-coridorul/cover.jpg?v=0a859636" medium="image" type="image/jpeg"/>
       <description>Uniunea Europeană dorește să dezvolte rute comerciale alternative prin Coridorul de Mijloc, însă recentele atacuri cu drone asupra unor nave în largul coastei bulgărice generează temeri majore privind siguranța regională.</description>
+    </item>
+    <item>
+      <title>Securitatea în Marea Neagră: riscuri și incidente navale recente</title>
+      <link>https://izz.ro/extern/securitatea-in-marea-neagra-riscuri-si-incidente-navale-recente/</link>
+      <guid>https://izz.ro/extern/securitatea-in-marea-neagra-riscuri-si-incidente-navale-recente/</guid>
+      <pubDate>Thu, 08 Oct 2026 11:45:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dw.com/en/security-in-the-black-sea-region-is-bulgaria-the-weak-link-in-europe-s-defense-against-threats-from-russia/a-79592663?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
+      <media:content url="https://izz.ro/extern/securitatea-in-marea-neagra-riscuri-si-incidente-navale-recente/cover.jpg?v=a49f1fbe" medium="image" type="image/jpeg"/>
+      <description>Două nave s-au scufundat în apropierea coastelor Bulgariei și României în urma unor atacuri cu drone, punând sub semnul întrebării nivelul de apărare al regiunii și poziția Bulgariei.</description>
+    </item>
+    <item>
+      <title>Atacurile cu drone din Marea Neagră ridică semne de întrebare privind Coridorul Mijlociu</title>
+      <link>https://izz.ro/extern/atacurile-cu-drone-din-marea-neagra-ridica-semne-de-intrebare-privind-coridorul/</link>
+      <guid>https://izz.ro/extern/atacurile-cu-drone-din-marea-neagra-ridica-semne-de-intrebare-privind-coridorul/</guid>
+      <pubDate>Thu, 08 Oct 2026 08:38:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dw.com/en/middle-corridor-can-bulgaria-be-a-safe-gateway-for-asian-imports-to-the-eu/a-79584530?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
+      <media:content url="https://izz.ro/extern/atacurile-cu-drone-din-marea-neagra-ridica-semne-de-intrebare-privind-coridorul/cover.jpg?v=1c8c9b3f" medium="image" type="image/jpeg"/>
+      <description>Uniunea Europeană mizează pe importurile asiatice prin ruta Coridorului Mijlociu, însă recentele atacuri cu drone din apropierea coastei bulgare scot în evidență riscurile majore de securitate pentru comerțul maritim.</description>
     </item>
     <item>
       <title>Edi Iordănescu este dorit ca selecționer al naționalei Bulgariei</title>
       <link>https://izz.ro/sport/edi-iordanescu-este-dorit-ca-selectioner-al-nationalei-bulgariei/</link>
       <guid>https://izz.ro/sport/edi-iordanescu-este-dorit-ca-selectioner-al-nationalei-bulgariei/</guid>
       <pubDate>Thu, 08 Oct 2026 08:24:37 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/va-fi-foarte-greu-a-aflat-ca-edi-iordanescu-e-dorit-pe-banca-nationalei-si-a-rabufnit-695696.html">Antena Sport</source>
+      <media:content url="https://izz.ro/sport/edi-iordanescu-este-dorit-ca-selectioner-al-nationalei-bulgariei/cover.jpg?v=821bcac8" medium="image" type="image/jpeg"/>
       <description>Fostul antrenor al României se află pe lista federației de la Sofia pentru preluarea băncii tehnice, alături de tehnicianul brazilian Sylvinho, după demiterea lui Aleksandar Dimitrov.</description>
     </item>
     <item>
@@ -39,6 +71,9 @@
       <link>https://izz.ro/extern/romania-bulgaria-si-grecia-analizeaza-crearea-unui-coridor-economic-regional/</link>
       <guid>https://izz.ro/extern/romania-bulgaria-si-grecia-analizeaza-crearea-unui-coridor-economic-regional/</guid>
       <pubDate>Thu, 08 Oct 2026 07:49:28 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dobrogeaonline.ro/grecii-aspira-la-o-revizuire-economica-a-balcanilor-romania-bulgaria-si-grecia-unite-intr-un-coridor-industrial-cunoscut-sub-denumirea-de-banana-balcanica/">Dobrogea Online</source>
+      <media:content url="https://izz.ro/extern/romania-bulgaria-si-grecia-analizeaza-crearea-unui-coridor-economic-regional/cover.jpg?v=775f4cf7" medium="image" type="image/jpeg"/>
       <description>Cele trei state balcanice propun un parteneriat economic inspirat de modelul 'Banana Albastră', menit să conecteze Marea Egee de Europa Centrală și să stimuleze dezvoltarea industrială.</description>
     </item>
     <item>
@@ -46,6 +81,9 @@
       <link>https://izz.ro/extern/bulgaria-convoaca-romania-si-turcia-pentru-securitatea-in-marea-neagra/</link>
       <guid>https://izz.ro/extern/bulgaria-convoaca-romania-si-turcia-pentru-securitatea-in-marea-neagra/</guid>
       <pubDate>Thu, 08 Oct 2026 07:34:54 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/bulgaria-convoaca-romania-si-turcia-la-consultari-privind-securitatea-navelor-comerciale-in-marea-neagra-dupa-lovirea-a-trei-nave-in-doua-zile.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/extern/bulgaria-convoaca-romania-si-turcia-pentru-securitatea-in-marea-neagra/cover.jpg?v=e55a18dc" medium="image" type="image/jpeg"/>
       <description>Autoritățile bulgare cer consultări regionale după ce trei nave comerciale au fost avariate în ultimele zile în zona economică exclusivă din Marea Neagră.</description>
     </item>
     <item>
@@ -53,6 +91,9 @@
       <link>https://izz.ro/sport/edi-iordanescu-este-principalul-favorit-pentru-preluarea-nationalei-bulgariei/</link>
       <guid>https://izz.ro/sport/edi-iordanescu-este-principalul-favorit-pentru-preluarea-nationalei-bulgariei/</guid>
       <pubDate>Wed, 07 Oct 2026 20:17:39 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/edward-iordanescu-negocieri-bulgaria-nationala-985623.html">GSP</source>
+      <media:content url="https://izz.ro/sport/edi-iordanescu-este-principalul-favorit-pentru-preluarea-nationalei-bulgariei/cover.jpg?v=993cf604" medium="image" type="image/jpeg"/>
       <description>Presa bulgară îl indică pe Edward Iordănescu drept prima opțiune pentru banca tehnică a naționalei de la sud de Dunăre, după demiterea lui Aleksandar Dimitrov urmată de rezultatele slabe din Liga Națiunilor.</description>
     </item>
     <item>
@@ -60,6 +101,9 @@
       <link>https://izz.ro/extern/bulgaria-va-achizitiona-cinci-sisteme-antiaeriene-germane-iris-t/</link>
       <guid>https://izz.ro/extern/bulgaria-va-achizitiona-cinci-sisteme-antiaeriene-germane-iris-t/</guid>
       <pubDate>Wed, 07 Oct 2026 15:26:05 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.economica.net/bulgaria-anunta-ca-va-cumpara-inca-cinci-sisteme-antiaeriene-iris-t-de-fabricatie-germana_983674.html">Economica</source>
+      <media:content url="https://izz.ro/extern/bulgaria-va-achizitiona-cinci-sisteme-antiaeriene-germane-iris-t/cover.jpg?v=a995a419" medium="image" type="image/jpeg"/>
       <description>Guvernul de la Sofia negociază un contract de achiziție pentru tehnică militară germană finanțat prin mecanismul european SAFE, armamentul urmând să fie integrat în Scutul Cerului European.</description>
     </item>
     <item>
@@ -67,6 +111,8 @@
       <link>https://izz.ro/extern/o-nava-s-a-scufundat-si-alta-a-fost-avariata-in-apele-teritoriale-ale-bulgariei/</link>
       <guid>https://izz.ro/extern/o-nava-s-a-scufundat-si-alta-a-fost-avariata-in-apele-teritoriale-ale-bulgariei/</guid>
       <pubDate>Tue, 06 Oct 2026 10:04:32 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dobrogeaonline.ro/nava-alfa-watan-s-a-scufundat-iar-able-a-suferit-daune-romania-bulgaria-si-turcia-trebuie-sa-aiba-o-consultare-urgenta/">Dobrogea Online</source>
       <description>O navă sub pavilion Togo s-a scufundat, iar o alta a suferit avarii grave în urma unui incident produs în zona economică a Bulgariei din Marea Neagră, determinând solicitări de consultări urgente între autoritățile din România, Bulgaria și Turcia.</description>
     </item>
     <item>
@@ -74,6 +120,8 @@
       <link>https://izz.ro/extern/doua-nave-au-fost-lovite-de-drone-in-marea-neagra-in-zona-bulgariei/</link>
       <guid>https://izz.ro/extern/doua-nave-au-fost-lovite-de-drone-in-marea-neagra-in-zona-bulgariei/</guid>
       <pubDate>Tue, 06 Oct 2026 09:20:14 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/doua-nave-lovite-de-drone-in-zona-economica-a-bulgariei-din-marea-neagra.html">Curs de Guvernare, Adevărul</source>
       <description>Autoritățile din Bulgaria au anunțat că două nave aflate în zona economică exclusivă a țării din Marea Neagră, la circa 80 de mile marine de Byala, au fost ținta unor atacuri. Potrivit premierului Rumen Radev, agresiunea a fost comisă utilizând atât drone maritime, cât și aeriene.</description>
     </item>
     <item>
@@ -81,6 +129,8 @@
       <link>https://izz.ro/extern/val-masiv-de-alerte-false-cu-bomba-in-institutiile-din-bulgaria/</link>
       <guid>https://izz.ro/extern/val-masiv-de-alerte-false-cu-bomba-in-institutiile-din-bulgaria/</guid>
       <pubDate>Mon, 05 Oct 2026 14:43:12 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/panica-se-extinde-in-bulgaria-sute-de-institutii-evacuate-dupa-amenintari-cu-bomba-autoritatile-inca-investigheaza-3979023">Digi24 Extern</source>
       <description>Poliția bulgară a verificat numeroase școli, spitale, tribunale și sedii guvernamentale evacuate din cauza unor amenințări cu bombă transmise în masă, fără a găsi însă vreun dispozitiv exploziv.</description>
     </item>
     <item>
@@ -88,6 +138,8 @@
       <link>https://izz.ro/economic/economistul-christian-nasulea-explica-motivele-pentru-care-firmele-romanesti-se/</link>
       <guid>https://izz.ro/economic/economistul-christian-nasulea-explica-motivele-pentru-care-firmele-romanesti-se/</guid>
       <pubDate>Sun, 04 Oct 2026 14:10:08 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/video-harta-de-impact-economistul-christian-nasulea-multi-antreprenori-romani-si-au-deschis-firme-in-bulgaria-pentru-a-gestiona-mai-bine-povara-fiscala.html">Economedia</source>
       <description>Politicile fiscale mai atractive din statul vecin determină numeroși antreprenori autohtoni să își mute activitatea economică acolo pentru a reduce povara taxelor și a simplifica gestionarea afacerilor.</description>
     </item>
     <item>
@@ -95,6 +147,8 @@
       <link>https://izz.ro/sport/nationala-de-fotbal-a-bulgariei-a-ajuns-de-rasul-europei-dupa-rezultate-slabe/</link>
       <guid>https://izz.ro/sport/nationala-de-fotbal-a-bulgariei-a-ajuns-de-rasul-europei-dupa-rezultate-slabe/</guid>
       <pubDate>Sun, 04 Oct 2026 06:49:11 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nations-league/bulgarii-ne-arata-ca-se-poate-si-mai-rau-rezultatul-socant-din-nations-league-a-facut-nationala-lor-de-rasul-europei.html">Sport.ro</source>
       <description>Fosta echipă de top a Bulgariei, care ocupa odată locul 8 în clasamentul FIFA, a ajuns o formație modestă, fiind învinsă constant în actuala ediție din Liga Națiunilor.</description>
     </item>
     <item>
@@ -102,6 +156,8 @@
       <link>https://izz.ro/economic/capacitatea-redusa-de-stocare-mentine-pretul-energiei-ridicat-in-romania/</link>
       <guid>https://izz.ro/economic/capacitatea-redusa-de-stocare-mentine-pretul-energiei-ridicat-in-romania/</guid>
       <pubDate>Sat, 03 Oct 2026 16:45:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/companii/energie/romania-ar-avut-propria-capacitate-stocare-energia-ar-ieftina-bulgaria-continua-fie-piata-scumpa-stocare-exportatoare-energie-face-pretul-pana-urma-verzii-23247803">Ziarul Financiar</source>
       <description>În timp ce state vecine precum Bulgaria excelează în investiții pentru baterii energetice, România rămâne în urmă, afectând negativ costurile finale plătite de consumatori pentru electricitate.</description>
     </item>
     <item>
@@ -109,6 +165,8 @@
       <link>https://izz.ro/local/sofer-bulgar-retinut-pentru-ucidere-din-culpa-dupa-un-accident-in-dolj/</link>
       <guid>https://izz.ro/local/sofer-bulgar-retinut-pentru-ucidere-din-culpa-dupa-un-accident-in-dolj/</guid>
       <pubDate>Sat, 03 Oct 2026 06:28:22 +0000</pubDate>
+      <category>local</category>
+      <source url="https://cronicaolteniei.ro/sofer-bulgar-retinut-dupa-ce-a-accidentat-mortal-un-pieton-si-a-parasit-romania/">Cronica Olteniei</source>
       <description>Un cetățean bulgar de 31 de ani a fost reținut pentru 24 de ore de autoritățile din Calafat, fiind bănuit că a accidentat mortal un pieton pe DN 56A în localitatea Cetate și a părăsit țara.</description>
     </item>
     <item>
@@ -116,6 +174,8 @@
       <link>https://izz.ro/extern/cea-mai-veche-fabrica-feroviara-din-bulgaria-a-fost-transformata/</link>
       <guid>https://izz.ro/extern/cea-mai-veche-fabrica-feroviara-din-bulgaria-a-fost-transformata/</guid>
       <pubDate>Fri, 02 Oct 2026 20:40:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/vecini/video-bulgarii-au-salvat-o-fabrica-veche-din-1866-22799486?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>O unitate industrială de locomotive și vagoane din Bulgaria, fondată în anul 1866, a fost reconvertită cu succes într-un complex modern cu destinație tehnologică, feroviară și industrială.</description>
     </item>
     <item>
@@ -123,6 +183,8 @@
       <link>https://izz.ro/economic/o-fabrica-istorica-de-vagoane-din-bulgaria-a-fost-redeschisa-ca-parc-industrial/</link>
       <guid>https://izz.ro/economic/o-fabrica-istorica-de-vagoane-din-bulgaria-a-fost-redeschisa-ca-parc-industrial/</guid>
       <pubDate>Fri, 02 Oct 2026 19:43:37 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/cum-au-salvat-bulgarii-de-la-moarte-o-fabrica-veche-de-peste-150-de-ani_982468.html">Economica, Profit.ro</source>
       <description>Cea mai veche fabrică de locomotive și vagoane din Bulgaria, fondată în 1866 și închisă în 2013, a fost salvată și transformată într-un modern parc industrial și feroviar numit LVZ. Proiectul, dezvoltat după o investiție amplă începută în 2023, include spații pentru producție, reparații de vagoane și mentenanță pentru locomotive, având o poziție strategică aproape de România.</description>
     </item>
     <item>
@@ -130,6 +192,8 @@
       <link>https://izz.ro/sanatate/romania-are-printre-cele-mai-scazute-procente-de-consum-de-amfetamina/</link>
       <guid>https://izz.ro/sanatate/romania-are-printre-cele-mai-scazute-procente-de-consum-de-amfetamina/</guid>
       <pubDate>Fri, 02 Oct 2026 05:44:21 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://www.g4media.ro/topul-tarilor-europene-la-consumul-de-amfetamina-in-randul-tinerilor-estonia-si-bulgaria-conduc-clasamentul-romania-printre-cele-mai-scazute-procente.html">G4Media</source>
       <description>Conform unui raport al Agenției UE privind Drogurile, doar 0,8% dintre tinerii români au consumat amfetamină în ultimul an, în timp ce Estonia și Bulgaria înregistrează cele mai ridicate rate din Europa.</description>
     </item>
     <item>
@@ -137,6 +201,8 @@
       <link>https://izz.ro/local/romania-a-eliminat-taxa-pe-podul-prieteniei-iar-bulgarii-cer-aceeasi-masura/</link>
       <guid>https://izz.ro/local/romania-a-eliminat-taxa-pe-podul-prieteniei-iar-bulgarii-cer-aceeasi-masura/</guid>
       <pubDate>Fri, 02 Oct 2026 05:02:07 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.g4media.ro/fara-taxa-de-pod-dar-doar-pe-un-sens-bulgarii-cer-autoritatilor-sa-fie-scoasa-taxa-de-pe-podul-prieteniei-dupa-ce-romania-a-anulat-o-deja.html">G4Media, Antena 3 CNN</source>
       <description>Începând cu 1 octombrie, Ministerul Transporturilor din România a eliminat taxa pentru traversarea Podului Prieteniei pe sensul de la Giurgiu spre Ruse. În urma acestei decizii, autoritățile și cetățenii din Bulgaria solicită oficial eliminarea taxei și din partea statului bulgar, pentru fluidizarea traficului și reducerea cozilor.</description>
     </item>
     <item>
@@ -144,6 +210,8 @@
       <link>https://izz.ro/economic/comisia-europeana-da-in-judecata-bulgaria-si-romania-privind-piata-de-energie/</link>
       <guid>https://izz.ro/economic/comisia-europeana-da-in-judecata-bulgaria-si-romania-privind-piata-de-energie/</guid>
       <pubDate>Thu, 01 Oct 2026 18:00:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/vecini/bruxelles-ul-da-in-judecata-bulgaria-pentru-netranspunerea-normelor-privind-piata-energiei-si-romania-este-acuzata-de-incalcarea-directivei-22796457?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Executivul comunitar a acționat Bulgaria la Curtea de Justiție a UE pentru neaplicarea directivei privind piața de energie electrică, în aceeași situație de neconformitate aflându-se și România.</description>
     </item>
     <item>
@@ -151,6 +219,8 @@
       <link>https://izz.ro/economic/romania-inregistreaza-cresteri-majore-ale-preturilor-la-locuinte/</link>
       <guid>https://izz.ro/economic/romania-inregistreaza-cresteri-majore-ale-preturilor-la-locuinte/</guid>
       <pubDate>Thu, 01 Oct 2026 12:37:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/economic/romania-se-afla-printre-statele-ue-cu-cele-mai-mari-cresteri-la-preturile-locuintelor-667879.html">Observator</source>
       <description>Datele Eurostat indică o majorare a costului locuințelor în al doilea trimestru din 2026, cu medii de peste un procent în Uniunea Europeană. România, alături de Bulgaria și Lituania, se află în fruntea statelor cu cele mai mari scumpiri.</description>
     </item>
     <item>
@@ -158,6 +228,8 @@
       <link>https://izz.ro/extern/cel-mai-mare-centru-de-conferinte-de-pe-litoralul-marii-negre-s-a-deschis-in/</link>
       <guid>https://izz.ro/extern/cel-mai-mare-centru-de-conferinte-de-pe-litoralul-marii-negre-s-a-deschis-in/</guid>
       <pubDate>Wed, 30 Sep 2026 13:42:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/vecini/foto-cel-mai-mare-centru-de-conferinte-de-pe-litoralul-marii-negre-deschis-in-bulgaria-22793118?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Grupul HVD Hotels a inaugurat un complex independent pentru evenimente business în cadrul resortului de cinci stele Reina del Mar, consolidând infrastructura turistică din regiunea mării.</description>
     </item>
     <item>
@@ -165,6 +237,8 @@
       <link>https://izz.ro/sport/romania-u19-a-invins-bulgaria-cu-1-0-la-memorialul-stevan-vilotic-prin-golul/</link>
       <guid>https://izz.ro/sport/romania-u19-a-invins-bulgaria-cu-1-0-la-memorialul-stevan-vilotic-prin-golul/</guid>
       <pubDate>Wed, 30 Sep 2026 06:27:05 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.bihon.ro/fc-bihor/cu-mocan-orban-si-bota-titulari-romania-u19-a-castigat-ultimul-meci-jucat-la-memorialul-stevan-vilotic-5415093/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Reprezentativa Under-19 a României s-a impus marți în fața Bulgariei, scor 1-0, grație reușitei semnate de Hunor Batzula în minutul 90, cu portarul Arsenie Mocan integralist pe teren.</description>
     </item>
     <item>
@@ -172,6 +246,8 @@
       <link>https://izz.ro/extern/romanii-domina-turismul-strain-din-bulgaria-in-sezonul-estival/</link>
       <guid>https://izz.ro/extern/romanii-domina-turismul-strain-din-bulgaria-in-sezonul-estival/</guid>
       <pubDate>Wed, 30 Sep 2026 06:25:03 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stil-de-viata/calatorii/romanii-cei-mai-numerosi-turisti-straini-in-2560733.html">Adevărul</source>
       <description>Datele oficiale arată că cetățenii români au reprezentat cel mai numeros grup de turiști străini care au vizitat Bulgaria în luna august, în timp ce destinațiile din România s-au aflat și ele în preferințele turiștilor bulgari.</description>
     </item>
     <item>
@@ -179,6 +255,8 @@
       <link>https://izz.ro/extern/romania-ocupa-locul-al-treilea-in-preferintele-turistilor-bulgari/</link>
       <guid>https://izz.ro/extern/romania-ocupa-locul-al-treilea-in-preferintele-turistilor-bulgari/</guid>
       <pubDate>Wed, 30 Sep 2026 05:20:55 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://bizbrasov.ro/2026/09/30/topul-destinatiilor-turistice-bulgari/">BizBrașov</source>
       <description>Călătoriile cetățenilor bulgari în afara țării au crescut cu 3,5% în august față de anul anterior, România numărându-se printre destinațiile principale, în timp ce românii reprezintă cel mai important contingent de vizitatori străini în Bulgaria.</description>
     </item>
     <item>
@@ -186,6 +264,8 @@
       <link>https://izz.ro/extern/presa-bulgara-preia-scandalul-privind-presiunile-sua-pentru-achizitia-de-gaze/</link>
       <guid>https://izz.ro/extern/presa-bulgara-preia-scandalul-privind-presiunile-sua-pentru-achizitia-de-gaze/</guid>
       <pubDate>Sun, 27 Sep 2026 17:12:16 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://economedia.ro/scandal-si-in-bulgaria-dupa-articolul-din-wsj-ambasadoarea-sua-in-grecia-acuzata-ca-ar-fi-presat-sofia-sa-cumpere-gaze-americane.html">Economedia</source>
       <description>O investigație publicată de The Wall Street Journal referitoare la implicarea ambasadoarei americane în Grecia în achizițiile de gaze a generat ecouri și controverse majore în mass-media din Bulgaria.</description>
     </item>
     <item>
@@ -193,6 +273,8 @@
       <link>https://izz.ro/extern/profesorii-si-editorii-din-bulgaria-resping-propunerea-privind-manualele-unice/</link>
       <guid>https://izz.ro/extern/profesorii-si-editorii-din-bulgaria-resping-propunerea-privind-manualele-unice/</guid>
       <pubDate>Sun, 27 Sep 2026 17:02:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.profit.ro/stiri/social/sondaj-manualele-unice-propuse-de-guvern-respinse-de-profesorii-si-editorii-din-bulgaria-22787904?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Un studiu național arată că majoritatea profesorilor din Bulgaria consideră inoportună introducerea unor manuale unice la materiile principale, editorii alăturându-se de asemenea acestei opoziții.</description>
     </item>
     <item>
@@ -200,6 +282,8 @@
       <link>https://izz.ro/economic/preturile-alimentelor-in-romania-au-crescut-cu-53-in-cinci-ani/</link>
       <guid>https://izz.ro/economic/preturile-alimentelor-in-romania-au-crescut-cu-53-in-cinci-ani/</guid>
       <pubDate>Sun, 27 Sep 2026 15:05:21 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.tion.ro/romania/alimentele-s-au-scumpit-cu-53-in-romania-in-ultimii-5-ani-cum-a-evoluat-puterea-de-cumparare-2360871/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>O analiză comparativă europeană arată că alimentele din România s-au scumpit semnificativ între 2021 și 2026. Puterea de cumpărare a salariului minim a fost puternic afectată de aceste majorări accelerate.</description>
     </item>
     <item>
@@ -207,6 +291,8 @@
       <link>https://izz.ro/extern/presa-din-bulgaria-preia-acuzatiile-la-adresa-ambasadorului-sua-in-grecia/</link>
       <guid>https://izz.ro/extern/presa-din-bulgaria-preia-acuzatiile-la-adresa-ambasadorului-sua-in-grecia/</guid>
       <pubDate>Sun, 27 Sep 2026 14:05:52 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/scandal-si-in-bulgaria-dupa-articolul-din-wsj-ambasadoarea-sua-in-grecia-acuzata-ca-ar-fi-presat-sofia-sa-cumpere-gaze-rusesti.html">G4Media</source>
       <description>Publicațiile de la Sofia au mediatizat investigația jurnalistică ce o vizează pe diplomatul american, suspectată că ar fi exercitat presiuni asupra autorităților bulgare pentru achiziția de gaze rusești.</description>
     </item>
     <item>
@@ -214,13 +300,8 @@
       <link>https://izz.ro/extern/investigatia-wsj-implica-presiuni-ale-ambasadorului-sua-asupra-bulgariei/</link>
       <guid>https://izz.ro/extern/investigatia-wsj-implica-presiuni-ale-ambasadorului-sua-asupra-bulgariei/</guid>
       <pubDate>Sun, 27 Sep 2026 13:04:27 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/scandalul-ambasadoarei-americane-ajunge-si-in-bulgaria-cum-a-presat-guilfoyle-sofia-sa-cumpere-gnl-printr-o-firma-greceasca-potrivit-wall-street-journal-2359319">HotNews</source>
       <description>Publicația The Wall Street Journal relatează că diplomatul american Kimberly Guilfoyle ar fi exercitat presiuni asupra autorităților de la Sofia pentru a achiziționa gaz natural lichefiat prin intermediul unei companii grecești.</description>
-    </item>
-    <item>
-      <title>Bulgaria a suferit o înfrângere istorică acasă împotriva Luxemburgului în Liga Națiunilor</title>
-      <link>https://izz.ro/sport/bulgaria-a-suferit-o-infrangere-istorica-acasa-impotriva-luxemburgului-in-liga/</link>
-      <guid>https://izz.ro/sport/bulgaria-a-suferit-o-infrangere-istorica-acasa-impotriva-luxemburgului-in-liga/</guid>
-      <pubDate>Sat, 26 Sep 2026 18:30:09 +0000</pubDate>
-      <description>Echipa națională a Bulgariei a fost învinsă pe teren propriu de Luxemburg, cu scorul de 2-1, în prima etapă din Liga Națiunilor, grupa 4 a diviziei C. Deși gazdele au deschis scorul prin Asen Chandarov, rezultatul consemnează prima victorie din istorie a Luxemburgului în fața Bulgariei.</description>
     </item>
 </channel></rss>

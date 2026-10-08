@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Dunărea — IZZ.ro</title>
   <link>https://izz.ro/subiect/dunarea/</link>
   <atom:link href="https://izz.ro/subiect/dunarea/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Dunărea pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Facturile la energie din România ar putea crește semnificativ în sezonul rece</title>
       <link>https://izz.ro/economic/facturile-la-energie-din-romania-ar-putea-creste-semnificativ-in-sezonul-rece/</link>
       <guid>https://izz.ro/economic/facturile-la-energie-din-romania-ar-putea-creste-semnificativ-in-sezonul-rece/</guid>
       <pubDate>Thu, 08 Oct 2026 01:05:25 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://adevarul.ro/economie/cat-ar-putea-ajunge-factura-la-energie-in-aceasta-2562361.html">Adevărul</source>
+      <media:content url="https://izz.ro/economic/facturile-la-energie-din-romania-ar-putea-creste-semnificativ-in-sezonul-rece/cover.jpg?v=87e9670d" medium="image" type="image/jpeg"/>
       <description>Problemele din sistemul energetic, generate de secetă, producția redusă și cotațiile ridicate de pe piața angro, ar putea determina o scumpire a ofertelor pentru consumatorii casnici cu până la 50 de bani pe kWh.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/local/autoritatile-amana-repornirea-centralei-de-la-cernavoda-din-cauza-nivelului/</link>
       <guid>https://izz.ro/local/autoritatile-amana-repornirea-centralei-de-la-cernavoda-din-cauza-nivelului/</guid>
       <pubDate>Wed, 07 Oct 2026 20:58:41 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.digi24.ro/stiri/economie/energie/cand-va-fi-repornita-centrala-de-la-cernavoda-secretar-de-stat-nu-putem-risca-sa-se-deterioreze-pompele-3983015">Digi24</source>
+      <media:content url="https://izz.ro/local/autoritatile-amana-repornirea-centralei-de-la-cernavoda-din-cauza-nivelului/cover.jpg?v=71e009b3" medium="image" type="image/jpeg"/>
       <description>Secretarul de stat Cristian Bușoi a explicat că reluarea activității nucleare depinde de evoluția hidrologică a fluviului, specialiștii evitând riscurile tehnice legate de funcționarea sistemelor de pompare.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/economic/seceta-si-conflictele-armate-blocheaza-profiturile-transportatorilor-navali-pe/</link>
       <guid>https://izz.ro/economic/seceta-si-conflictele-armate-blocheaza-profiturile-transportatorilor-navali-pe/</guid>
       <pubDate>Tue, 06 Oct 2026 19:39:32 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.g4media.ro/transportul-naval-sub-amenintarea-bombelor-si-a-secetei-cum-rateaza-transportatorii-romani-profituri-record-pe-coridorul-dunarii-nu-mi-ramane-decat-sa-astept-ca-dumnezeu-sa-ne-trimita-plo.html">G4Media</source>
       <description>Operatorii fluviali români reușesc cu greu să profite de cererea crescută din Ucraina, fiind constrânși să reducă încărcătura barjelor din cauza nivelului scăzut al apei.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/economic/sistemul-energetic-romanesc-depinde-masiv-de-importuri-din-cauza-secetei-si-a/</link>
       <guid>https://izz.ro/economic/sistemul-energetic-romanesc-depinde-masiv-de-importuri-din-cauza-secetei-si-a/</guid>
       <pubDate>Sun, 04 Oct 2026 12:57:03 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/sistemul-energetic-se-apropie-de-limite-sambata-seara-importul-s-a-apropiat-de-3-400-mw-si-a-fost-mai-mare-decat-toata-productia-tarii-capacitatea-maxima-de-import-este-de-4-000-mw_982646.html">Economica</source>
       <description>Producția internă de electricitate a scăzut la 2.900 MW sâmbătă seară, fiind depășită de importurile care s-au apropiat de 3.400 MW. Seceta severă a redus aportul hidrocentralelor, apropiind sistemul de capacitatea maximă de import.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/general/debitul-dunarii-a-scazut-sub-media-normala-pentru-luna-octombrie/</link>
       <guid>https://izz.ro/general/debitul-dunarii-a-scazut-sub-media-normala-pentru-luna-octombrie/</guid>
       <pubDate>Sun, 04 Oct 2026 12:19:35 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.dobrogeaonline.ro/dunarea-semnificativ-sub-media-lunii-octombrie-debitul-la-intrarea-in-tara-continua-sa-scada/">Dobrogea Online</source>
       <description>Fluxul Dunării la intrarea în țară prin sectorul Baziaș a coborât la 1.300 de metri cubi pe secundă, situându-se mult sub media multianuală specifică lunii octombrie, conform estimărilor hidrologice.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/local/hidrologii-anunta-debite-scazute-pentru-dunare-si-raurile-din-dobrogea/</link>
       <guid>https://izz.ro/local/hidrologii-anunta-debite-scazute-pentru-dunare-si-raurile-din-dobrogea/</guid>
       <pubDate>Sat, 03 Oct 2026 15:19:31 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.dobrogeaonline.ro/prognoza-alarmanta-pentru-dobrogea-anuntul-hidrologilor-privind-debitele-apelor-curgatoare/">Dobrogea Online</source>
       <description>Fluviul Dunărea va avea debite sub media multianuală până la finalul anului. Râurile interioare vor înregistra niveluri reduse, iar unele bazine din Dobrogea sau Bârlad ar putea scădea sub 30% din normal.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/general/debitul-dunarii-va-scadea-sub-media-multianuala/</link>
       <guid>https://izz.ro/general/debitul-dunarii-va-scadea-sub-media-multianuala/</guid>
       <pubDate>Sat, 03 Oct 2026 13:26:01 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.economica.net/debitul-maxim-al-dunarii-in-octombrie-noiembrie-si-decembrie-va-fi-sub-mediile-multianuale-prognoza-inhga_982550.html">Economica</source>
       <description>Institutul Național de Hidrologie estimează că debitul Dunării se va menține la valori reduse în ultimul trimestru al anului. Prognoza indică procente scăzute și pentru mai multe râuri interioare din țară.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/general/debitele-dunarii-si-ale-raurilor-din-tara-vor-scadea-sub-media-normala-in-toamna/</link>
       <guid>https://izz.ro/general/debitele-dunarii-si-ale-raurilor-din-tara-vor-scadea-sub-media-normala-in-toamna/</guid>
       <pubDate>Sat, 03 Oct 2026 13:17:40 +0000</pubDate>
+      <category>general</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/debitele-dunarii-si-ale-raurilor-din-romania-sub-mediile-obisnuite-in-urmatoarele-luni-zonele-cele-mai-afectate.html">Știrile ProTV</source>
       <description>Prognoza hidrologică indică un nivel maxim al Dunării la Baziaș situat sub mediile multianuale pe parcursul lunilor octombrie, noiembrie și decembrie, afectând mai multe regiuni.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/local/debitul-scazut-al-dunarii-va-afecta-centrala-de-la-cernavoda-in-urmatoarele-luni/</link>
       <guid>https://izz.ro/local/debitul-scazut-al-dunarii-va-afecta-centrala-de-la-cernavoda-in-urmatoarele-luni/</guid>
       <pubDate>Sat, 03 Oct 2026 13:13:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.antena3.ro/actualitate/vesti-proaste-pentru-centrala-de-la-cernavoda-dunarea-ar-putea-ramane-secata-si-in-urmatoarele-luni-805676.html">Antena 3 CNN</source>
       <description>Prognozele hidrologice indică faptul că nivelul Dunării la intrarea în țară se va menține sub media multianuală până la finalul anului, creând riscuri pentru funcționarea centralei nucleare de la Cernavodă.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/local/proiectul-bala-2-pentru-alimentarea-reactoarelor-de-la-cernavoda-a-fost/</link>
       <guid>https://izz.ro/local/proiectul-bala-2-pentru-alimentarea-reactoarelor-de-la-cernavoda-a-fost/</guid>
       <pubDate>Fri, 02 Oct 2026 16:00:45 +0000</pubDate>
+      <category>local</category>
+      <source url="https://economedia.ro/proiectul-bala-2-actualizat-dupa-reluarea-discutiilor-privind-alimentarea-cu-apa-a-reactoarelor-de-la-cernavoda-ce-au-facut-autoritatile-in-ultimele-doua-luni.html">Economedia</source>
       <description>Administrația Fluvială a Dunării de Jos a revizuit indicatorii tehnico-economici pentru lucrările de pe brațul Bala, menite să asigure navigația și debitul necesar răcirii reactoarelor de la Cernavodă.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/local/debitul-dunarii-a-scazut-la-1-394-mc-s-la-statia-hidrometrica-calafat/</link>
       <guid>https://izz.ro/local/debitul-dunarii-a-scazut-la-1-394-mc-s-la-statia-hidrometrica-calafat/</guid>
       <pubDate>Fri, 02 Oct 2026 09:43:34 +0000</pubDate>
+      <category>local</category>
+      <source url="https://cronicaolteniei.ro/dunarea-la-un-debit-foarte-scazut-1-394-mc-s-masurati-la-calafat/">Cronica Olteniei</source>
       <description>Administrația Bazinală de Apă Jiu a finalizat măsurătorile pe sectorul românesc al Dunării, constatând valori mult sub mediile multianuale obișnuite pentru această perioadă a anului.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/general/debitul-dunarii-va-scadea-la-intrarea-in-tara-in-primele-zile-din-octombrie/</link>
       <guid>https://izz.ro/general/debitul-dunarii-va-scadea-la-intrarea-in-tara-in-primele-zile-din-octombrie/</guid>
       <pubDate>Fri, 02 Oct 2026 05:41:50 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/debitul-dunarii-la-intrarea-in-tara-va-scadea-din-nou-ce-arata-proghnoza-institutului-national-de-hidrologie-3974209">Digi24</source>
       <description>Institutul Național de Hidrologie estimează că debitul Dunării la Baziaș va scădea treptat până la 1.250 mc/s pe data de 8 octombrie, menținându-se mult sub media multianuală a lunii.</description>
     </item>
     <item>
@@ -95,6 +121,8 @@
       <link>https://izz.ro/economic/un-expert-ocde-avertizeaza-ca-seceta-si-resursele-limitate-de-apa-reprezinta-un/</link>
       <guid>https://izz.ro/economic/un-expert-ocde-avertizeaza-ca-seceta-si-resursele-limitate-de-apa-reprezinta-un/</guid>
       <pubDate>Thu, 01 Oct 2026 19:17:40 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/expert-ocde-dunarea-arata-ca-deficitul-de-apa-este-un-risc-pentru-romania-cine-primeste-apa-atunci-cand-resursele-devin-insuficiente-un-episod-de-seceta-costa-deja-de-doua-ori-mai-mult-ca-in-2000_980910.html">Economica</source>
       <description>Reprezentanta OCDE a subliniat necesitatea unor reguli stricte privind alocarea apei în perioadele de deficit din bazinul Dunării, menționând că pagubele provocate de secetă au crescut semnificativ față de anul 2000.</description>
     </item>
     <item>
@@ -102,6 +130,8 @@
       <link>https://izz.ro/local/guvernul-a-prelungit-starea-de-alerta-in-sectorul-energetic-din-romania/</link>
       <guid>https://izz.ro/local/guvernul-a-prelungit-starea-de-alerta-in-sectorul-energetic-din-romania/</guid>
       <pubDate>Thu, 01 Oct 2026 17:57:05 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/stare-alerta-energie-2026-cernavoda-transelectrica/">News Brașov</source>
       <description>Autoritățile de la București au menținut măsurile speciale de siguranță pe piața de energie electrică până la sfârșitul lunii octombrie, în timp ce centrala Cernavodă rămâne oprită din cauza nivelului scăzut al Dunării.</description>
     </item>
     <item>
@@ -109,6 +139,8 @@
       <link>https://izz.ro/local/redeschiderea-punctului-de-trecere-a-dunarii-de-la-tudor-vladimirescu/</link>
       <guid>https://izz.ro/local/redeschiderea-punctului-de-trecere-a-dunarii-de-la-tudor-vladimirescu/</guid>
       <pubDate>Wed, 30 Sep 2026 06:48:41 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.dobrogeanews.ro/pontonul-de-trecere-a-dunarii-de-la-suburbia-tudor-vladimirescu-reparat-dupa-un-accident-naval-revine-la-pozitia-initiala/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pontonul-de-trecere-a-dunarii-de-la-suburbia-tudor-vladimirescu-reparat-dupa-un-accident-naval-revine-la-pozitia-initiala">DobrogeaNews</source>
       <description>Pontonul de trecere a Dunării din suburbia gălățeană Tudor Vladimirescu a fost reparat în urma unui accident naval, iar autoritățile au reluat programul normal de transport după finalizarea ancorării de siguranță.</description>
     </item>
     <item>
@@ -116,13 +148,8 @@
       <link>https://izz.ro/judetean/copiii-din-caras-severin-sunt-invitati-sa-participe-la-concursul-international/</link>
       <guid>https://izz.ro/judetean/copiii-din-caras-severin-sunt-invitati-sa-participe-la-concursul-international/</guid>
       <pubDate>Sun, 27 Sep 2026 08:00:28 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://expressdebanat.ro/caras-severin-pe-harta-artistului-dunarii-2026-copiii-sunt-invitati-sa-creeze-pentru-natura/">Express de Banat</source>
       <description>Cea de-a 23-a ediție a competiției „Artistul Dunării” a dat startul înscrierilor pentru tinerii din Caraș-Severin, încurajându-i să îmbine creativitatea artistică cu protejarea apelor și a naturii înconjurătoare.</description>
-    </item>
-    <item>
-      <title>Vechiul drum Széchenyi a fost scufundat în apele Dunării</title>
-      <link>https://izz.ro/local/vechiul-drum-szechenyi-a-fost-scufundat-in-apele-dunarii/</link>
-      <guid>https://izz.ro/local/vechiul-drum-szechenyi-a-fost-scufundat-in-apele-dunarii/</guid>
-      <pubDate>Sat, 26 Sep 2026 19:45:25 +0000</pubDate>
-      <description>Construită prin munca a mii de oameni în Cazanele Dunării, șoseaua istorică ce lega Baziașul de Orșova a dispărut aproape în întregime sub lacul de acumulare Porțile de Fier.</description>
     </item>
 </channel></rss>

@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>S&amp;P — IZZ.ro</title>
   <link>https://izz.ro/subiect/s-p/</link>
   <atom:link href="https://izz.ro/subiect/s-p/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre S&amp;P pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Bursa de Valori București a crescut puternic după decizia S&amp;P privind ratingul României</title>
       <link>https://izz.ro/economic/bursa-de-valori-bucuresti-a-crescut-puternic-dupa-decizia-s-p-privind-ratingul/</link>
       <guid>https://izz.ro/economic/bursa-de-valori-bucuresti-a-crescut-puternic-dupa-decizia-s-p-privind-ratingul/</guid>
       <pubDate>Mon, 05 Oct 2026 21:07:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/burse-fonduri-mutuale/investitorii-bvb-au-sarbatorit-s-p-retrogradat-romania-au-ridicat-evaluarea-companiilor-17-mld-lei-intr-singura-zi-salt-istoric-petrecerea-termina-repede-bugetul-2027-convinge-indicele-bet-creste-4-23253655">Ziarul Financiar</source>
       <description>Indicele BET a urcat cu peste 4% într-o singură ședință de tranzacționare, după ce agenția S&amp;P a menținut ratingul suveran al României, adăugând 17 miliarde de lei la capitalizarea companiilor.</description>
     </item>
     <item>
@@ -18,6 +20,8 @@
       <link>https://izz.ro/economic/s-p-confirma-ratingul-romaniei-reducand-costurile-de-finantare/</link>
       <guid>https://izz.ro/economic/s-p-confirma-ratingul-romaniei-reducand-costurile-de-finantare/</guid>
       <pubDate>Mon, 05 Oct 2026 15:52:57 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/nazare-confirmarea-ratingului-de-catre-sp-dupa-fitch-si-moodys-demonstreaza-cat-de-importanta-este-acesta-pentru-pastrarea-increderii-investitorilor-si-reducerea-costurilor-de-finantare_982937.html">Economica</source>
       <description>Ministrul Finanțelor a salutat menținerea ratingului de țară de către S&amp;P, subliniind că această decizie menține încrederea investitorilor și a generat scăderea randamentelor titlurilor de stat pe piața financiară.</description>
     </item>
     <item>
@@ -25,6 +29,8 @@
       <link>https://izz.ro/economic/dobanzile-romaniei-au-scazut-dupa-confirmarea-ratingului-de-catre-s-p/</link>
       <guid>https://izz.ro/economic/dobanzile-romaniei-au-scazut-dupa-confirmarea-ratingului-de-catre-s-p/</guid>
       <pubDate>Mon, 05 Oct 2026 14:25:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/taxe-si-consultanta/grafic-avertisment-dobanzile-romaniei-au-scazut-urmatorul-test-foarte-clar-bugetul-2027-capacitatea-romaniei-demonstra-ajustarea-continua-dincolo-masurile-temporare-nazare-22804226?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Costurile de împrumut ale statului român s-au redus pe toate scadențele, în urma deciziei agenției S&amp;P, ministrul Finanțelor avertizând însă că viitorul test major va fi bugetul pentru 2027.</description>
     </item>
     <item>
@@ -32,6 +38,8 @@
       <link>https://izz.ro/economic/leul-se-stabilizeaza-pe-piata-interbancara-dupa-recordul-negativ-atins-de-euro/</link>
       <guid>https://izz.ro/economic/leul-se-stabilizeaza-pe-piata-interbancara-dupa-recordul-negativ-atins-de-euro/</guid>
       <pubDate>Mon, 05 Oct 2026 04:53:58 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/cum-incepe-leul-saptamana-dupa-decizia-sp-si-inainte-de-negocierile-pentru-un-nou-guvern-curs-valutar-interbancar-5-10-2026_982690.html">Economica</source>
       <description>Moneda euro a scăzut la 5,33 lei pe piața interbancară, în urma maximului istoric înregistrat vineri de Banca Națională a României, în contextul discuțiilor politice pentru formarea noului guvern.</description>
     </item>
     <item>
@@ -39,6 +47,8 @@
       <link>https://izz.ro/economic/un-expert-avertizeaza-asupra-costurilor-reale-ale-unei-eventuale-retrogradari-a/</link>
       <guid>https://izz.ro/economic/un-expert-avertizeaza-asupra-costurilor-reale-ale-unei-eventuale-retrogradari-a/</guid>
       <pubDate>Sun, 04 Oct 2026 16:34:56 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/alexander-milcev-cat-ar-costa-efectiv-un-downgrade-al-ratingului-suveran-problema-depaseste-bugetul-de-stat.html">Curs de Guvernare</source>
       <description>Reprezentantul Ernst &amp; Young analizează impactul economic major pe care un downgrade al ratingului României l-ar avea dincolo de limitele stricte ale bugetului de stat.</description>
     </item>
     <item>
@@ -46,6 +56,8 @@
       <link>https://izz.ro/economic/romania-isi-mentine-ratingul-recomandat-pentru-investitii/</link>
       <guid>https://izz.ro/economic/romania-isi-mentine-ratingul-recomandat-pentru-investitii/</guid>
       <pubDate>Sat, 03 Oct 2026 07:30:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/alexandru-nazare-ramanem-in-categoria-recomandata-investitiilor-e-un-efort-amplu-al-economiei-si-al-societatii.html">Curs de Guvernare</source>
       <description>Ministrul interimar al Finanțelor, Alexandru Nazare, a anunțat că țara noastră a trecut cu succes testul agenției S&amp;P, menținându-și calificativul favorabil datorită eforturilor de reducere a deficitului bugetar.</description>
     </item>
     <item>
@@ -53,6 +65,8 @@
       <link>https://izz.ro/economic/crearea-unui-buget-credibil-pentru-2027-reprezinta-prioritatea-ministerului/</link>
       <guid>https://izz.ro/economic/crearea-unui-buget-credibil-pentru-2027-reprezinta-prioritatea-ministerului/</guid>
       <pubDate>Fri, 02 Oct 2026 20:21:04 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.g4media.ro/reactia-ministrului-finantelor-dupa-ce-romania-a-scapat-de-retrogradarea-in-categoria-junk-prioritatea-absoluta-este-construirea-unui-buget-credibil-pentru-2027.html">G4Media</source>
       <description>După decizia S&amp;P de a păstra ratingul României, ministrul Alexandru Nazare a afirmat că accentul se va pune pe măsuri economice sigure care să diminueze deficitul fără să afecteze potențialul de creștere.</description>
     </item>
     <item>
@@ -60,6 +74,8 @@
       <link>https://izz.ro/economic/seful-consiliului-fiscal-avertizeaza-ca-romania-are-nevoie-urgenta-de-un-guvern/</link>
       <guid>https://izz.ro/economic/seful-consiliului-fiscal-avertizeaza-ca-romania-are-nevoie-urgenta-de-un-guvern/</guid>
       <pubDate>Fri, 02 Oct 2026 18:14:23 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://hotnews.ro/seful-consiliului-fiscal-apel-catre-clasa-politica-inaintea-anuntului-sp-situatia-este-foarte-grava-chiar-daca-nu-vom-fi-retrogradati-2365253">HotNews</source>
       <description>Daniel Dăianu a lansat un apel către clasa politică înainte de anunțul agenției S&amp;P Global Ratings, subliniind gravitatea situației economice prin care trece țara.</description>
     </item>
     <item>
@@ -67,6 +83,8 @@
       <link>https://izz.ro/local/bursa-de-la-bucuresti-a-crescut-iar-robor-a-inregistrat-un-nou-salt/</link>
       <guid>https://izz.ro/local/bursa-de-la-bucuresti-a-crescut-iar-robor-a-inregistrat-un-nou-salt/</guid>
       <pubDate>Fri, 02 Oct 2026 15:14:43 +0000</pubDate>
+      <category>local</category>
+      <source url="https://cursdeguvernare.ro/bnr-curs-euro-leu-revenire-bet-bursa-leu-euro-criza-politica-dobanzi-suverane-salt-robor.html">Curs de Guvernare</source>
       <description>Indicele BET a urcat cu 1,76% la finalul săptămânii, marcând a treia zi consecutivă de creștere. Între timp, piețele financiare resimt presiuni pe fondul dobânzilor suverane ridicate și al deciziei de rating S&amp;P.</description>
     </item>
     <item>
@@ -74,6 +92,8 @@
       <link>https://izz.ro/politic/ministrul-finantelor-sustine-ca-romania-s-a-incadrat-in-tintele-fiscale-asumate/</link>
       <guid>https://izz.ro/politic/ministrul-finantelor-sustine-ca-romania-s-a-incadrat-in-tintele-fiscale-asumate/</guid>
       <pubDate>Fri, 02 Oct 2026 08:10:30 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://cursdeguvernare.ro/ministru-finante-nazare-anticipate-retrogradare-rating-romania-decizie-standard-poors.html">Curs de Guvernare</source>
       <description>Ministrul interimar Alexandru Nazare a declarat că România a evitat derapajele fiscale majore și se află în grafic cu țintele bugetare, exprimându-și încrederea înaintea evaluării agenției de rating S&amp;P.</description>
     </item>
     <item>
@@ -81,6 +101,8 @@
       <link>https://izz.ro/economic/cursul-euro-interbancar-a-crescut-brusc-cu-o-zi-inaintea-deciziei-s-p/</link>
       <guid>https://izz.ro/economic/cursul-euro-interbancar-a-crescut-brusc-cu-o-zi-inaintea-deciziei-s-p/</guid>
       <pubDate>Thu, 01 Oct 2026 19:32:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.antena3.ro/economic/de-ce-a-explodat-cursul-euro-interbancar-cu-o-zi-inaintea-ratingului-s-p-poate-fi-o-iesire-de-capital-de-teama-retrogradarii-805430.html">Antena 3 CNN</source>
       <description>Specialiștii pun explozia cursului valutar pe seama unei posibile ieșiri de capital generate de teama că România va primi o retrogradare a ratingului de țară.</description>
     </item>
     <item>
@@ -88,6 +110,8 @@
       <link>https://izz.ro/politic/alexandru-nazare-avertizeaza-ca-alegerile-anticipate-pericliteaza-ratingul-de/</link>
       <guid>https://izz.ro/politic/alexandru-nazare-avertizeaza-ca-alegerile-anticipate-pericliteaza-ratingul-de/</guid>
       <pubDate>Thu, 01 Oct 2026 19:31:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/financiar/nazare-inainte-de-evaluarea-s-and-p-alegerile-anticipate-ar-pune-in-mare-pericol-calificativul-de-investitii.html">Știrile ProTV</source>
       <description>Ministrul interimar al Finanțelor a declarat că organizarea unor alegeri anticipate ar pune în mare pericol calificativul de investiții al României înaintea evaluării agenției S&amp;P.</description>
     </item>
     <item>
@@ -95,6 +119,8 @@
       <link>https://izz.ro/economic/marcel-bolojan-se-declara-optimist-in-privinta-evaluarii-financiare-realizate/</link>
       <guid>https://izz.ro/economic/marcel-bolojan-se-declara-optimist-in-privinta-evaluarii-financiare-realizate/</guid>
       <pubDate>Wed, 30 Sep 2026 20:00:17 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/bolojan-despre-evaluarea-sp-sunt-optimist-ca-lucrurile-sunt-in-buna-regula_981567.html">Economica</source>
       <description>Reprezentantul guvernamental și-a exprimat încrederea că indicatorii bugetari și deficitul se află pe traiectoria asumată, respectând țintele stabilite pentru prima parte a anului.</description>
     </item>
 </channel></rss>

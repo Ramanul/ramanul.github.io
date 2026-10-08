@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Dacia — IZZ.ro</title>
   <link>https://izz.ro/subiect/dacia/</link>
   <atom:link href="https://izz.ro/subiect/dacia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Dacia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Turcia a câștigat producția viitorului model Dacia Striker</title>
+      <link>https://izz.ro/local/turcia-a-castigat-productia-viitorului-model-dacia-striker/</link>
+      <guid>https://izz.ro/local/turcia-a-castigat-productia-viitorului-model-dacia-striker/</guid>
+      <pubDate>Thu, 08 Oct 2026 21:07:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.zf.ro/auto/batalia-pentru-dacia-striker-s-a-incheiat-in-favoarea-turciei-urmeaza-cea-pentru-viitorul-ford-puma-un-pariu-de-peste-4-miliarde-de-euro-anual-23256249">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/local/turcia-a-castigat-productia-viitorului-model-dacia-striker/cover.jpg?v=93c12374" medium="image" type="image/jpeg"/>
+      <description>Uzina Ford din Craiova se apropie de finalul ciclului de viață pentru modelul Puma, în timp ce competiția pentru fabricarea noului vehicul Dacia a fost adjudecată în Turcia.</description>
+    </item>
+    <item>
+      <title>Armata Română își dorește o colaborare cu producătorul auto Dacia</title>
+      <link>https://izz.ro/auto/armata-romana-isi-doreste-o-colaborare-cu-producatorul-auto-dacia/</link>
+      <guid>https://izz.ro/auto/armata-romana-isi-doreste-o-colaborare-cu-producatorul-auto-dacia/</guid>
+      <pubDate>Thu, 08 Oct 2026 17:20:08 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://economedia.ro/dacia-in-aparare-armata-romana-vrea-colaborare-cu-producatorul-auto.html">Economedia</source>
+      <media:content url="https://izz.ro/auto/armata-romana-isi-doreste-o-colaborare-cu-producatorul-auto-dacia/cover.jpg?v=bb1bf3b2" medium="image" type="image/jpeg"/>
+      <description>Centrul 485 Comunicații și Informatică al Armatei Române a prezentat drona terestră Scorilo în cadrul unui exercițiu tactic. Coordonatorii proiectului militar urmăresc o viitoare colaborare cu uzina auto Dacia pentru dezvoltarea tehnologiei.</description>
+    </item>
     <item>
       <title>Dacia Striker va fi prezentată la Salonul Auto de la Paris</title>
       <link>https://izz.ro/auto/dacia-striker-va-fi-prezentata-la-salonul-auto-de-la-paris/</link>
       <guid>https://izz.ro/auto/dacia-striker-va-fi-prezentata-la-salonul-auto-de-la-paris/</guid>
       <pubDate>Wed, 07 Oct 2026 08:30:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.antena3.ro/economic/auto/francezii-au-comparat-noua-dacia-striker-cu-skoda-octavia-combi-va-reusi-acest-cal-de-munca-romanesc-sa-detroneze-vedeta-gamei-806115.html">Antena 3 CNN</source>
       <description>Noul model hibrid Dacia Striker, care îmbină elemente de SUV, break și berlină, își va face debutul mondial la Salonul Auto de la Paris, stârnind interesul presei franceze cu privire la competitivitatea sa.</description>
     </item>
     <item>
@@ -18,6 +40,8 @@
       <link>https://izz.ro/local/noutati-tehnologice-si-economice-centrale-pe-gaz-auto-si-ai/</link>
       <guid>https://izz.ro/local/noutati-tehnologice-si-economice-centrale-pe-gaz-auto-si-ai/</guid>
       <pubDate>Wed, 07 Oct 2026 03:44:04 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-7-octombrie-2026-inclusiv-noile-bmw-x5/">NwRadu</source>
       <description>A fost autorizată o centrală pe gaz la Câmpia Turzii, TAROM și-a actualizat site-ul, iar sectorul fotovoltaic a asigurat două treimi din energia țării. În același timp, ChatGPT domină piața inteligenței artificiale.</description>
     </item>
     <item>
@@ -25,6 +49,8 @@
       <link>https://izz.ro/auto/fernando-alonso-ar-putea-concura-in-raliul-dakar-pe-o-dacia-modificata/</link>
       <guid>https://izz.ro/auto/fernando-alonso-ar-putea-concura-in-raliul-dakar-pe-o-dacia-modificata/</guid>
       <pubDate>Tue, 06 Oct 2026 18:37:08 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.g4media.ro/fernando-alonso-ar-putea-participa-la-raliul-dakar-pe-un-autoturism-dacia-modificat-de-prodrive-si-aston-martin-ar-urma-sa-concureze-simultan-in-formula-1-si-in-raliu.html">G4Media</source>
       <description>Pilotul spaniol de Formula 1 Fernando Alonso pregătește o posibilă participare la raliul-raid Dakar, urmând să piloteze un autoturism T1+ dezvoltat de Prodrive și Aston Martin, avându-l alături pe navigatorul Marc Coma.</description>
     </item>
     <item>
@@ -32,6 +58,8 @@
       <link>https://izz.ro/local/uzina-dacia-ofera-salarii-compensatorii-de-pana-la-240-000-de-lei-pentru/</link>
       <guid>https://izz.ro/local/uzina-dacia-ofera-salarii-compensatorii-de-pana-la-240-000-de-lei-pentru/</guid>
       <pubDate>Tue, 06 Oct 2026 17:50:29 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/salarii-compensatorii-de-pana-la-240-000-de-lei-pentru-angajatii-unei-mari-fabrici-din-romania-care-pleaca-voluntar-in-somaj-1161391.html">Alba24</source>
       <description>Angajații fabricii Dacia din Mioveni pot beneficia de plăți compensatorii de până la 240.000 de lei dacă acceptă să părăsească voluntar compania, programul fiind generat de scăderea volumului de comenzi.</description>
     </item>
     <item>
@@ -39,6 +67,8 @@
       <link>https://izz.ro/economic/dacia-inregistreaza-un-nou-declin-pe-piata-auto-din-franta/</link>
       <guid>https://izz.ro/economic/dacia-inregistreaza-un-nou-declin-pe-piata-auto-din-franta/</guid>
       <pubDate>Tue, 06 Oct 2026 04:23:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/dacia-pierde-teren-in-fata-asaltului-masinilor-electrice-si-al-chinezilor-in-franta-22803728?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Marca Dacia a pierdut teren pe piața franceză în luna septembrie, confruntându-se cu o scădere a vânzărilor pe fondul concurenței tot mai puternice venite din partea automobilelor electrice și a producătorilor din China.</description>
     </item>
     <item>
@@ -46,6 +76,8 @@
       <link>https://izz.ro/tech/modificari-pentru-abonamentele-glovo-si-emag-genius-in-octombrie-2026/</link>
       <guid>https://izz.ro/tech/modificari-pentru-abonamentele-glovo-si-emag-genius-in-octombrie-2026/</guid>
       <pubDate>Tue, 06 Oct 2026 03:44:39 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-6-octombrie-2026/">NwRadu</source>
       <description>Utilizatorii care activează beneficiul Glovo prin eMAG Genius își vor suspenda automat abonamentul Prime existent, fiind recomandată folosirea prealabilă a perioadelor de test gratuit.</description>
     </item>
     <item>
@@ -53,6 +85,8 @@
       <link>https://izz.ro/economic/scaderea-vanzarilor-dacia-afecteaza-activitatea-producatorului-de-motoare-horse/</link>
       <guid>https://izz.ro/economic/scaderea-vanzarilor-dacia-afecteaza-activitatea-producatorului-de-motoare-horse/</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://piataauto.md/Stiri/2026/10/Scaderea-productiei-la-uzina-Dacia-afecteaza-Horse-Romania-iar-preferintele-pentru-cutia-automata-agraveaza-problema/">Piata Auto MD</source>
       <description>Diminuarea livrărilor pe piața europeană și preferința tot mai redusă a cumpărătorilor pentru anumite cutii de viteze provoacă dificultăți economice semnificative lanțului de producție.</description>
     </item>
     <item>
@@ -60,6 +94,8 @@
       <link>https://izz.ro/local/uzina-dacia-opreste-temporar-productia-si-lanseaza-plecari-voluntare/</link>
       <guid>https://izz.ro/local/uzina-dacia-opreste-temporar-productia-si-lanseaza-plecari-voluntare/</guid>
       <pubDate>Mon, 05 Oct 2026 21:07:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.zf.ro/companii/uzina-dacia-opreste-productia-doua-zile-din-octombrie-si-incepe-un-nou-program-de-plecari-voluntare-23253772">Ziarul Financiar, AutoMarket</source>
       <description>Automobile Dacia a decis să oprească temporar producția modelelor Duster și Bigster la uzina din Mioveni, ca urmare a scăderii vânzărilor pe piața auto din România. Măsura de sistare a fabricației vine pe fondul unei reduceri generale a cererii înregistrate în primele nouă luni ale anului și în luna septembrie.</description>
     </item>
     <item>
@@ -67,6 +103,8 @@
       <link>https://izz.ro/auto/dacia-explica-motivele-scaderii-vanzarilor-auto-pe-fondul-concurentei-asiatice/</link>
       <guid>https://izz.ro/auto/dacia-explica-motivele-scaderii-vanzarilor-auto-pe-fondul-concurentei-asiatice/</guid>
       <pubDate>Sun, 04 Oct 2026 21:06:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/vicepresedinte-dacia-explica-situatia-marcii-trei-motive-ale-scaderii-vanzarilor-inclusiv-din-cauza-concurentei-de-pret-in-special-a-producatorilor-chinezi-22705821?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Oficialul Dacia, Frank Marotte, a detaliat factorii care au provocat declinul vânzărilor mărcii în acest an, evidențiind presiunea exercitată de competitorii chinezi pe segmentul de preț.</description>
     </item>
     <item>
@@ -74,6 +112,8 @@
       <link>https://izz.ro/sport/sebastien-loeb-a-adus-prima-victorie-pentru-dacia-in-raliul-marocului/</link>
       <guid>https://izz.ro/sport/sebastien-loeb-a-adus-prima-victorie-pentru-dacia-in-raliul-marocului/</guid>
       <pubDate>Thu, 01 Oct 2026 19:26:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/cu-momente-dramatice-prima-victorie-dacia-in-raliul-marocului-sebastien-loeb-a-castigat-a-treia-etapa-22797322?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Pilotul Sebastien Loeb s-a impus în a treia etapă a Raliului Marocului, aducând primul succes competițional pentru echipa Dacia, în ciuda problemelor tehnice și a dificultăților întâmpinate pe parcursul întrecerii din Africa.</description>
     </item>
     <item>
@@ -81,6 +121,8 @@
       <link>https://izz.ro/economic/fostul-director-renault-carlos-ghosn-explica-cum-a-reusit-marocul-sa-atraga-a/</link>
       <guid>https://izz.ro/economic/fostul-director-renault-carlos-ghosn-explica-cum-a-reusit-marocul-sa-atraga-a/</guid>
       <pubDate>Wed, 30 Sep 2026 21:28:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/a-venit-prim-ministrul-la-mine-la-birou-cum-a-ajuns-dacia-sa-aiba-a-doua-fabrica-dezvaluire-carlos-ghosn-fost-ceo-renault-group-22791798?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Investiția gigantului Renault Group în Maroc a fost posibilă datorită unei strategii guvernamentale eficiente prin care oficialii locali au creat un ecosistem industrial favorabil și au atras fondurile franceze.</description>
     </item>
     <item>
@@ -88,6 +130,8 @@
       <link>https://izz.ro/local/noua-dacia-striker-a-fost-fotografiata-fara-camuflaj-pe-strazile-din-capitala/</link>
       <guid>https://izz.ro/local/noua-dacia-striker-a-fost-fotografiata-fara-camuflaj-pe-strazile-din-capitala/</guid>
       <pubDate>Wed, 30 Sep 2026 19:05:26 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.gsp.ro/sporturi/auto/noua-dacia-a-fost-surprinsa-pe-strazile-din-bucuresti-983590.html">GSP</source>
       <description>Viitorul crossover de segment C produs la Mioveni a fost surprins în trafic în București complet descoperit, indicând apropierea momentului în care modelul va fi lansat oficial pe piața auto.</description>
     </item>
     <item>
@@ -95,6 +139,8 @@
       <link>https://izz.ro/auto/dacia-hipster-ar-putea-fi-fabricata-in-china/</link>
       <guid>https://izz.ro/auto/dacia-hipster-ar-putea-fi-fabricata-in-china/</guid>
       <pubDate>Mon, 28 Sep 2026 21:22:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/exclusiv-ultima-ora-dacia-hipster-produs-in-china-nu-in-europa-director-renault-group-pentru-profit-ro-da-s-a-discutat-productia-hipster-in-fabrica-lui-spring-22789147?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Un oficial din conducerea Renault Group a confirmat că viitorul model Dacia Hipster are șanse să fie produs în China, la aceeași uzină unde este fabricat modelul Spring.</description>
     </item>
 </channel></rss>

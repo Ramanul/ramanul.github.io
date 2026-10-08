@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Timiș — IZZ.ro</title>
   <link>https://izz.ro/subiect/timis/</link>
   <atom:link href="https://izz.ro/subiect/timis/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Timiș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Incendii de vegetație extinse pe zeci de hectare în județul Timiș</title>
+      <link>https://izz.ro/local/incendii-de-vegetatie-extinse-pe-zeci-de-hectare-in-judetul-timis/</link>
+      <guid>https://izz.ro/local/incendii-de-vegetatie-extinse-pe-zeci-de-hectare-in-judetul-timis/</guid>
+      <pubDate>Thu, 08 Oct 2026 16:53:41 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.tion.ro/eveniment/video-incendii-de-vegetatie-in-timis-100-ha-au-ars-la-stiuca-alte-35-ha-sunt-afectate-la-bunea-mare-2368617/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
+      <media:content url="https://izz.ro/local/incendii-de-vegetatie-extinse-pe-zeci-de-hectare-in-judetul-timis/cover.jpg?v=1d70e42e" medium="image" type="image/jpeg"/>
+      <description>Pompierii și voluntarii au lichidat un incendiu de vegetație care a cuprins 100 de hectare la Știuca, afectând și o pășune împădurită din poligonul militar, în timp ce un alt focar a izbucnit la Bunea Mare.</description>
+    </item>
     <item>
       <title>PPC Energie montează panouri fotovoltaice la școli pentru clienții cu factură electronică</title>
       <link>https://izz.ro/judetean/ppc-energie-monteaza-panouri-fotovoltaice-la-scoli-pentru-clientii-cu-factura/</link>
       <guid>https://izz.ro/judetean/ppc-energie-monteaza-panouri-fotovoltaice-la-scoli-pentru-clientii-cu-factura/</guid>
       <pubDate>Thu, 08 Oct 2026 07:19:38 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.tion.ro/stirile-judetului-timis/activarea-facturii-electronice-ppc-echipeaza-cu-panouri-fotovoltaice-o-scoala-din-judetul-timis-2367972/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
+      <media:content url="https://izz.ro/judetean/ppc-energie-monteaza-panouri-fotovoltaice-la-scoli-pentru-clientii-cu-factura/cover.jpg?v=6ee4ce13" medium="image" type="image/jpeg"/>
       <description>Furnizorul PPC Energie derulează un program prin care echipează cel puțin 15 școli din țară, inclusiv în județul Timiș, cu panouri fotovoltaice. Inițiativa este finanțată prin implicarea clienților care își activează factura electronică pe o perioadă de minimum șase luni.</description>
     </item>
     <item>
@@ -18,6 +31,9 @@
       <link>https://izz.ro/local/incendiu-la-remorca-unui-tir-pe-autostrada-a1-in-judetul-timis/</link>
       <guid>https://izz.ro/local/incendiu-la-remorca-unui-tir-pe-autostrada-a1-in-judetul-timis/</guid>
       <pubDate>Thu, 08 Oct 2026 06:57:22 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.pressalert.ro/2026/10/incendiu-la-remorca-unui-camion-pe-autostrada-a1-in-timis/">PressAlert Timișoara</source>
+      <media:content url="https://izz.ro/local/incendiu-la-remorca-unui-tir-pe-autostrada-a1-in-judetul-timis/cover.jpg?v=85b21972" medium="image" type="image/jpeg"/>
       <description>O remorcă a luat foc pe sensul spre Lugoj al Autostrăzii A1, în zona localității Giarmata, traficul rutier fiind restricționat temporar la o singură bandă de circulație.</description>
     </item>
     <item>
@@ -25,6 +41,9 @@
       <link>https://izz.ro/judetean/presiune-redusa-a-apei-in-trei-localitati-din-judetul-timis/</link>
       <guid>https://izz.ro/judetean/presiune-redusa-a-apei-in-trei-localitati-din-judetul-timis/</guid>
       <pubDate>Wed, 07 Oct 2026 18:28:40 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.opiniatimisoarei.ro/presiune-scazuta-in-trei-localitati-din-timis-unde-intervin-echipele-aquatim/07/10/2026">Opinia Timișoarei</source>
+      <media:content url="https://izz.ro/judetean/presiune-redusa-a-apei-in-trei-localitati-din-judetul-timis/cover.jpg?v=00006869" medium="image" type="image/jpeg"/>
       <description>Compania Aquatim execută lucrări programate de întreținere a rețelei de alimentare, afectând parametrii normali de furnizare a apei în anumite zone din regiune.</description>
     </item>
     <item>
@@ -32,6 +51,9 @@
       <link>https://izz.ro/local/un-camion-incarcat-cu-bauturi-a-luat-foc-pe-o-sosea-din-timis/</link>
       <guid>https://izz.ro/local/un-camion-incarcat-cu-bauturi-a-luat-foc-pe-o-sosea-din-timis/</guid>
       <pubDate>Wed, 07 Oct 2026 14:41:33 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/camion-in-flacari-pe-o-sosea-din-timis-au-intervenit-pompierii-video/07/10/2026">Opinia Timișoarei</source>
+      <media:content url="https://izz.ro/local/un-camion-incarcat-cu-bauturi-a-luat-foc-pe-o-sosea-din-timis/cover.jpg?v=adbda70e" medium="image" type="image/jpeg"/>
       <description>Un camion care transporta băuturi răcoritoare a fost cuprins de flăcări pe drumul dintre Vâlcani și Dudeștii Vechi. Pompierii au intervenit de urgență pentru a stinge incendiul.</description>
     </item>
     <item>
@@ -39,6 +61,8 @@
       <link>https://izz.ro/judetean/somajul-in-timis-s-a-mentinut-la-107-in-septembrie/</link>
       <guid>https://izz.ro/judetean/somajul-in-timis-s-a-mentinut-la-107-in-septembrie/</guid>
       <pubDate>Wed, 07 Oct 2026 08:25:03 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.ziuadevest.ro/somajul-ramane-la-107-in-timis-peste-2-500-de-locuri-de-munca-vacante-declarate-in-septembrie/">Ziua de Vest</source>
       <description>Rata șomajului în județul Timiș a rămas stabilă la 1,07% la sfârșitul lunii septembrie, un nivel mult sub media pe țară. Totodată, companiile locale au pus la dispoziție peste 2.500 de posturi vacante.</description>
     </item>
     <item>
@@ -46,20 +70,17 @@
       <link>https://izz.ro/local/a-inceput-constructia-soselei-drumul-marmurei-din-muntii-poiana-rusca/</link>
       <guid>https://izz.ro/local/a-inceput-constructia-soselei-drumul-marmurei-din-muntii-poiana-rusca/</guid>
       <pubDate>Wed, 07 Oct 2026 01:04:26 +0000</pubDate>
+      <category>local</category>
+      <source url="https://adevarul.ro/stiri-interne/evenimente/drumul-marmurei-soseaua-de-88-de-milioane-de-2561972.html">Adevărul</source>
       <description>Lucrările la noua cale rutieră de 88 de milioane de euro au demarat pentru a conecta județele Timiș, Caraș-Severin și Hunedoara. Investiția urmărește relansarea economică și demografică a zonei montane afectate de declin.</description>
-    </item>
-    <item>
-      <title>Camera de Comerț Timiș organizează a 33-a ediție a Galei Topul Firmelor</title>
-      <link>https://izz.ro/judetean/camera-de-comert-timis-organizeaza-a-33-a-editie-a-galei-topul-firmelor/</link>
-      <guid>https://izz.ro/judetean/camera-de-comert-timis-organizeaza-a-33-a-editie-a-galei-topul-firmelor/</guid>
-      <pubDate>Tue, 06 Oct 2026 12:15:51 +0000</pubDate>
-      <description>Centrul Regional de Afaceri va găzdui vineri, 30 octombrie 2026, Gala Excelenței în Afaceri. Evenimentul organizat de CCIAT recunoaște performanța și rezultatele celor mai importante companii din județul Timiș.</description>
     </item>
     <item>
       <title>Șoferii din Timiș au fost amendați pentru utilizarea telefonului</title>
       <link>https://izz.ro/judetean/soferii-din-timis-au-fost-amendati-pentru-utilizarea-telefonului/</link>
       <guid>https://izz.ro/judetean/soferii-din-timis-au-fost-amendati-pentru-utilizarea-telefonului/</guid>
       <pubDate>Tue, 06 Oct 2026 07:45:25 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://spotmedia.ro/stiri/auto/un-obicei-foarte-des-intalnit-la-volan-ii-poate-costa-scump-pe-soferi-amenzile-ajung-la-1-700-de-lei">Spotmedia</source>
       <description>Polițiștii din județul Timiș au desfășurat controale în cadrul campaniei ROADPOL, sancționând conducătorii auto surprinși că folosesc telefonul mobil fără sistem hands-free în timpul deplasării pe drumurile publice.</description>
     </item>
     <item>
@@ -67,6 +88,8 @@
       <link>https://izz.ro/judetean/alimentarea-cu-apa-intrerupta-in-mai-multe-localitati-timisene-din-cauza/</link>
       <guid>https://izz.ro/judetean/alimentarea-cu-apa-intrerupta-in-mai-multe-localitati-timisene-din-cauza/</guid>
       <pubDate>Mon, 05 Oct 2026 19:29:31 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.opiniatimisoarei.ro/apa-oprita-in-mai-multe-localitati-din-timis-interventia-echipelor-aquatim/05/10/2026">Opinia Timișoarei</source>
       <description>Compania Aquatim execută lucrări de întreținere și spălare a rețelei de distribuție în județul Timiș. Mai multe localități vor înregistra presiune redusă sau sistarea temporară a furnizării apei.</description>
     </item>
     <item>
@@ -74,6 +97,8 @@
       <link>https://izz.ro/judetean/s-au-depus-195-de-optiuni-pentru-cele-274-de-posturi-de-director-din-timis/</link>
       <guid>https://izz.ro/judetean/s-au-depus-195-de-optiuni-pentru-cele-274-de-posturi-de-director-din-timis/</guid>
       <pubDate>Mon, 05 Oct 2026 13:10:01 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.pressalert.ro/2026/10/concursul-pentru-sefia-scolilor-din-timis-doar-195-de-optiuni-depuse-pe-274-de-functii-vacante-de-director-sau-adjunct/">PressAlert Timișoara</source>
       <description>Inspectoratul Școlar Județean Timiș a centralizat candidaturile pentru conducerea unităților de învățământ, fiind înregistrate 176 de dosare care acoperă doar 195 de opțiuni din totalul de 274 de funcții vacante.</description>
     </item>
     <item>
@@ -81,6 +106,8 @@
       <link>https://izz.ro/local/prefectul-usr-de-timis-paul-finta-acuzat-de-dubla-masura-in-privinta/</link>
       <guid>https://izz.ro/local/prefectul-usr-de-timis-paul-finta-acuzat-de-dubla-masura-in-privinta/</guid>
       <pubDate>Mon, 05 Oct 2026 11:30:16 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/dubla-masura-a-prefectului-usr-de-timis-paul-finta-ataca-o-hotarare-a-consiliului-judetean-timis-dar-inchide-ochii-la-cea-identica-a-consiliului-local-timisoara/05/10/2026">Opinia Timișoarei</source>
       <description>Conducerea Consiliului Județean Timiș critică decizia prefectului de a contesta o hotărâre a instituției, în timp ce ignoră un act administrativ identic emis de Primăria Timișoara.</description>
     </item>
     <item>
@@ -88,6 +115,8 @@
       <link>https://izz.ro/local/noua-schimbare-la-conducerea-clasamentului-in-liga-a-iv-a-timis/</link>
       <guid>https://izz.ro/local/noua-schimbare-la-conducerea-clasamentului-in-liga-a-iv-a-timis/</guid>
       <pubDate>Sun, 04 Oct 2026 12:33:55 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/o-noua-schimbare-de-lider-in-liga-a-iv-a-timis-a-ramas-singura-echipa-neinvinsa/04/10/2026">Opinia Timișoarei</source>
       <description>Etapa a șaptea a adus o nouă rocradă în fruntea ierarhiei din Liga a IV-a Timiș, unde a rămas o singură formație fără eșec, în timp ce Poli Timișoara a înregistrat un eșec într-un amical extern.</description>
     </item>
     <item>
@@ -95,6 +124,8 @@
       <link>https://izz.ro/local/un-livrator-de-pizza-a-ranit-un-sofer-in-lugoj-si-a-fugit/</link>
       <guid>https://izz.ro/local/un-livrator-de-pizza-a-ranit-un-sofer-in-lugoj-si-a-fugit/</guid>
       <pubDate>Sun, 04 Oct 2026 08:06:36 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/un-livrator-de-pizza-a-bagat-un-sofer-in-spital-si-a-fugit-de-la-locul-accidentului-intr-un-oras-din-timis/04/10/2026">Opinia Timișoarei</source>
       <description>Un conducător auto care livra pizza a lovit o mașină care circula în fața sa pe o stradă din Lugoj, provocând rănirea șoferului și spitalizarea acestuia, după care a abandonat locul accidentului.</description>
     </item>
     <item>
@@ -102,6 +133,8 @@
       <link>https://izz.ro/judetean/politia-timis-a-organizat-activitati-de-protectie-a-animalelor-de-ziua/</link>
       <guid>https://izz.ro/judetean/politia-timis-a-organizat-activitati-de-protectie-a-animalelor-de-ziua/</guid>
       <pubDate>Sun, 04 Oct 2026 07:39:24 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.ziuadevest.ro/politistii-au-marcat-ziua-internationala-a-animalelor-prin-actiuni-de-constientizare-si-informare-in-timis/">Ziua de Vest</source>
       <description>Polițiștii Biroului pentru Protecția Animalelor Timiș au desfășurat acțiuni preventive în școli, sate și la un festival cultural. Scopul a fost educarea cetățenilor privind legislația și promovarea unui comportament responsabil față de animale.</description>
     </item>
     <item>
@@ -109,6 +142,8 @@
       <link>https://izz.ro/local/un-tanar-a-murit-si-altul-a-fost-ranit-intr-un-accident-rutier-in-timis/</link>
       <guid>https://izz.ro/local/un-tanar-a-murit-si-altul-a-fost-ranit-intr-un-accident-rutier-in-timis/</guid>
       <pubDate>Sat, 03 Oct 2026 19:44:17 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.ziuadevest.ro/tragedie-pe-un-drum-forestier-din-timis-un-tanar-de-25-de-ani-a-murit-dupa-ce-masina-s-a-rasturnat/">Ziua de Vest, Digi24</source>
       <description>Un tânăr de 25 de ani și-a pierdut viața, iar un alt bărbat a fost rănit după ce mașina în care se aflau s-a răsturnat pe un drum forestier din comuna Tomești, județul Timiș. Autoturismul a lovit un colț de stâncă în timp ce cobora de pe Vârful Padeș spre Tomești. Victima a decedat pe loc, fiind prinsă sub autovehicul, în timp ce șoferul a fost transportat la spitalul din Făget.</description>
     </item>
     <item>
@@ -116,6 +151,8 @@
       <link>https://izz.ro/judetean/incendiile-de-vegetatie-au-devastat-peste-44-de-hectare-in-timis/</link>
       <guid>https://izz.ro/judetean/incendiile-de-vegetatie-au-devastat-peste-44-de-hectare-in-timis/</guid>
       <pubDate>Sat, 03 Oct 2026 13:49:28 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.ziuadevest.ro/incendii-scapate-de-sub-control-in-timis-peste-44-de-ha-au-ars-in-24-de-ore-isu-banat-amenzile-ajung-la-100-000-de-lei/">Ziua de Vest</source>
       <description>Pompierii din județul Timiș au intervenit în ultima zi la șapte incendii de miriști provocate de arderea necontrolată a vegetației. Autoritățile reamintesc că amenzile pentru astfel de fapte pot ajunge la 100.000 de lei.</description>
     </item>
     <item>
@@ -123,20 +160,17 @@
       <link>https://izz.ro/local/politista-de-frontiera-din-timis-a-refuzat-o-mita-consistenta-de-la-un-sofer/</link>
       <guid>https://izz.ro/local/politista-de-frontiera-din-timis-a-refuzat-o-mita-consistenta-de-la-un-sofer/</guid>
       <pubDate>Sat, 03 Oct 2026 08:48:17 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/spaga-la-frontiera-in-timis-cati-bani-a-refuzat-o-politista-de-la-un-sofer-sarb/03/10/2026">Opinia Timișoarei</source>
       <description>O agentă de la Jimbolia a denunțat la Direcția Generală Anticorupție un conducător auto sârb care a încercat să o mituiască pentru a evita controlul vamal.</description>
-    </item>
-    <item>
-      <title>Zeci de hectare de teren mistuite de flăcări în urma unor incendii în Timiș</title>
-      <link>https://izz.ro/judetean/zeci-de-hectare-de-teren-mistuite-de-flacari-in-urma-unor-incendii-in-timis/</link>
-      <guid>https://izz.ro/judetean/zeci-de-hectare-de-teren-mistuite-de-flacari-in-urma-unor-incendii-in-timis/</guid>
-      <pubDate>Sat, 03 Oct 2026 08:35:21 +0000</pubDate>
-      <description>Pompierii timișeni au fost mobilizați la șapte intervenții distincte în decurs de 24 de ore, după ce focul pus pentru igienizarea terenurilor s-a extins pe o suprafață de peste 40 de hectare.</description>
     </item>
     <item>
       <title>Doi barmani din Timiș au fost reținuți de DIICOT pentru vânzare de droguri</title>
       <link>https://izz.ro/judetean/doi-barmani-din-timis-au-fost-retinuti-de-diicot-pentru-vanzare-de-droguri/</link>
       <guid>https://izz.ro/judetean/doi-barmani-din-timis-au-fost-retinuti-de-diicot-pentru-vanzare-de-droguri/</guid>
       <pubDate>Sat, 03 Oct 2026 07:13:59 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.criticarad.ro/doi-barmani-au-fost-retinuti-pentru-trafic-de-droguri-in-timis/">Critic Arad</source>
       <description>Procurorii DIICOT au reținut doi tineri în vârstă de 24 de ani acuzați că au comercializat canabis la evenimente private din județul Timiș, în urma unor percheziții fiind confiscate cantități de substanțe interzise.</description>
     </item>
     <item>
@@ -144,6 +178,8 @@
       <link>https://izz.ro/judetean/retim-majoreaza-tarifele-de-salubrizare-in-zona-1-timis/</link>
       <guid>https://izz.ro/judetean/retim-majoreaza-tarifele-de-salubrizare-in-zona-1-timis/</guid>
       <pubDate>Sat, 03 Oct 2026 06:07:44 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.opiniatimisoarei.ro/retim-actualizeaza-tarifele-de-facturare-pentru-serviciul-de-salubrizare-in-zona-1-timis/03/10/2026">Opinia Timișoarei</source>
       <description>Compania de salubritate și Asociația de Dezvoltare Intercomunitară au anunțat actualizarea prețurilor pentru colectarea și transportul deșeurilor în județul Timiș, conform noilor hotărâri aprobate.</description>
     </item>
     <item>
@@ -151,6 +187,8 @@
       <link>https://izz.ro/local/incendiu-violent-la-o-hala-de-prelucrare-a-lemnului-din-judetul-timis/</link>
       <guid>https://izz.ro/local/incendiu-violent-la-o-hala-de-prelucrare-a-lemnului-din-judetul-timis/</guid>
       <pubDate>Fri, 02 Oct 2026 18:35:59 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.ziuadevest.ro/incendiu-puternic-la-un-gater-din-timis-o-hala-de-500-de-metri-patrati-arde-generalizat/">Ziua de Vest</source>
       <description>Pompierii din județul Timiș intervin pentru lichidarea unui incendiu de proporții izbucnit la un gater din localitatea Victor Vlad Delamarina, care a cuprins o hală de 500 de metri pătrați.</description>
     </item>
     <item>
@@ -158,6 +196,8 @@
       <link>https://izz.ro/judetean/crestere-usoara-a-cazurilor-de-covid-19-in-timis-la-inceputul-toamnei/</link>
       <guid>https://izz.ro/judetean/crestere-usoara-a-cazurilor-de-covid-19-in-timis-la-inceputul-toamnei/</guid>
       <pubDate>Fri, 02 Oct 2026 11:32:33 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.tion.ro/sanatate/cazurile-de-covid-19-au-crescut-in-timis-la-inceput-de-toamna-52-de-cazuri-in-septembrie-2364771/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Direcția de Sănătate Publică Timiș raportează 52 de îmbolnăviri în septembrie, punând avansul pe seama reluării școlilor și a vremii reci, fără a semnala însă o criză severă.</description>
     </item>
     <item>
@@ -165,6 +205,8 @@
       <link>https://izz.ro/judetean/razii-silvice-si-amenzi-aplicate-in-padurile-din-judetul-timis/</link>
       <guid>https://izz.ro/judetean/razii-silvice-si-amenzi-aplicate-in-padurile-din-judetul-timis/</guid>
       <pubDate>Fri, 02 Oct 2026 04:12:30 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.ziuadevest.ro/razii-in-padurile-din-timis-lemn-confiscat-amenzi-de-mii-de-lei-si-dosar-penal-pentru-furt-de-arbori/">Ziua de Vest</source>
       <description>Polițiștii din Timiș au confiscat material lemnos și au deschis un dosar penal în urma unor controale recente care au vizat legalitatea transporturilor și exploatărilor forestiere.</description>
     </item>
     <item>
@@ -172,6 +214,8 @@
       <link>https://izz.ro/judetean/timisul-plateste-tarife-mari-la-gunoi-din-cauza-lipsei-strategiei/</link>
       <guid>https://izz.ro/judetean/timisul-plateste-tarife-mari-la-gunoi-din-cauza-lipsei-strategiei/</guid>
       <pubDate>Thu, 01 Oct 2026 20:02:36 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.g4media.ro/timisul-plateste-scump-gunoiul-dupa-ani-fara-strategie-presedintele-consiliului-judetean-psd-am-dormit-cu-totii-managementul-deseurilor-este-cea-mai-proasta-investiti.html">G4Media</source>
       <description>Șeful Consiliului Județean Timiș recunoaște că autoritățile au ratat gestionarea deșeurilor în ultimii ani, ceea ce a generat costuri ridicate pentru transportul gunoiului la distanțe mari.</description>
     </item>
     <item>
@@ -179,6 +223,8 @@
       <link>https://izz.ro/local/au-inceput-lucrarile-la-cel-mai-spectaculos-drum-din-judetul-timis/</link>
       <guid>https://izz.ro/local/au-inceput-lucrarile-la-cel-mai-spectaculos-drum-din-judetul-timis/</guid>
       <pubDate>Thu, 01 Oct 2026 19:04:49 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.g4media.ro/au-inceput-lucrarile-la-cel-mai-spectaculos-drum-din-timis-face-legatura-intre-zona-montana-a-timisului-cu-judetele-caras-severin-si-hunedoara-acces-la-pestera-romanesti-biseric.html">G4Media</source>
       <description>Consiliul Județean Timiș a demarat proiectul european de modernizare a rutei montane care leagă județul de Caraș-Severin și Hunedoara, oferind acces către obiective turistice importante din regiune.</description>
     </item>
     <item>
@@ -186,6 +232,8 @@
       <link>https://izz.ro/local/controale-in-timis-zeci-de-metri-cubi-de-lemn-confiscat-si-un-dosar-penal/</link>
       <guid>https://izz.ro/local/controale-in-timis-zeci-de-metri-cubi-de-lemn-confiscat-si-un-dosar-penal/</guid>
       <pubDate>Thu, 01 Oct 2026 15:47:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.tion.ro/eveniment/controale-pe-drumurile-din-timis-lemn-confiscat-amenzi-si-un-dosar-penal-pentru-arbori-taiati-ilegal-2364246/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Polițiștii din Timiș au depistat pe Centura Lugoj un transport ilegal de material lemnos, descoperind în urma verificărilor o cantitate mai mare decât cea menționată în documentele prezentate de șofer.</description>
     </item>
     <item>
@@ -193,6 +241,8 @@
       <link>https://izz.ro/judetean/politia-din-timis-intervine-impotriva-taierilor-ilegale-si-a-furturilor-de-lemne/</link>
       <guid>https://izz.ro/judetean/politia-din-timis-intervine-impotriva-taierilor-ilegale-si-a-furturilor-de-lemne/</guid>
       <pubDate>Thu, 01 Oct 2026 15:26:01 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.opiniatimisoarei.ro/politistii-sunt-in-alerta-se-inmultesc-furturile-de-lemne-in-timis/01/10/2026">Opinia Timișoarei</source>
       <description>Odată cu apropierea sezonului rece, autoritățile din județul Timiș au intensificat controalele pentru a combate transporturile ilegale și exploatarea forestieră neautorizată din pădurile locale.</description>
     </item>
     <item>
@@ -200,6 +250,8 @@
       <link>https://izz.ro/local/comisarul-sef-cristian-dimofte-a-preluat-conducerea-politiei-municipiului-lugoj/</link>
       <guid>https://izz.ro/local/comisarul-sef-cristian-dimofte-a-preluat-conducerea-politiei-municipiului-lugoj/</guid>
       <pubDate>Thu, 01 Oct 2026 14:08:14 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.ziuadevest.ro/politia-municipiului-lugoj-are-un-nou-sef-cristian-dimofte-revine-la-conducerea-institutiei/">Ziua de Vest</source>
       <description>Inspectoratul de Poliție Județean Timiș l-a reconfirmat în funcție pe Cristian Dimofte, care a promovat concursul pentru postul de șef al Poliției Municipiului Lugoj, instituție pe care a mai condus-o anterior.</description>
     </item>
     <item>
@@ -207,6 +259,8 @@
       <link>https://izz.ro/judetean/cjpc-timis-a-aplicat-amenzi-de-peste-47-milioane-de-lei-in-2026/</link>
       <guid>https://izz.ro/judetean/cjpc-timis-a-aplicat-amenzi-de-peste-47-milioane-de-lei-in-2026/</guid>
       <pubDate>Thu, 01 Oct 2026 11:22:39 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.pressalert.ro/2026/10/bilant-cjpc-timis-amenzi-de-peste-47-milioane-de-lei-si-zeci-de-firme-inchise-temporar-in-primele-noua-luni-din-2026/">PressAlert Timișoara</source>
       <description>În primele nouă luni din 2026, comisarii pentru protecția consumatorilor din Timiș au controlat 2.308 firme, aplicând sancțiuni financiare masive și oprind temporar activitatea unor operatori economici din cauza neregulilor descoperite.</description>
     </item>
     <item>
@@ -214,6 +268,8 @@
       <link>https://izz.ro/judetean/politia-timis-lanseaza-o-campanie-de-siguranta-rutiera-pentru-vehiculele-pe/</link>
       <guid>https://izz.ro/judetean/politia-timis-lanseaza-o-campanie-de-siguranta-rutiera-pentru-vehiculele-pe/</guid>
       <pubDate>Thu, 01 Oct 2026 10:17:15 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.ziuadevest.ro/campanie-a-politistilor-pentru-siguranta-pe-doua-roti-in-timis-controale-si-actiuni-preventive-in-luna-octombrie/">Ziua de Vest</source>
       <description>Inspectoratul de Poliție Județean Timiș desfășoară pe parcursul lunii octombrie controale și activități preventive dedicate motocicliștilor, bicicliștilor și conducătorilor de trotinete, punând accent pe vizibilitate și respectarea regulilor.</description>
     </item>
     <item>
@@ -221,6 +277,8 @@
       <link>https://izz.ro/judetean/au-inceput-lucrarile-de-modernizare-la-drumul-judetean-din-timis/</link>
       <guid>https://izz.ro/judetean/au-inceput-lucrarile-de-modernizare-la-drumul-judetean-din-timis/</guid>
       <pubDate>Thu, 01 Oct 2026 05:52:31 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.opiniatimisoarei.ro/au-inceput-lucrarile-la-cel-mai-spectaculos-drum-din-timis-va-aduce-turisti-in-cateva-dintre-cele-mai-frumoase-zone-din-banat/01/10/2026">Opinia Timișoarei</source>
       <description>Constructorii au demarat lucrările la cel mai spectaculos traseu rutier din județul Timiș, menit să faciliteze accesul turiștilor către zonele pitorești din Banat și să conecteze regiunea cu județelevecine.</description>
     </item>
     <item>
@@ -228,6 +286,8 @@
       <link>https://izz.ro/sport/echipele-de-fotbal-din-timis-disputa-meciuri-stranse-in-etapa-a-saptea-din-liga/</link>
       <guid>https://izz.ro/sport/echipele-de-fotbal-din-timis-disputa-meciuri-stranse-in-etapa-a-saptea-din-liga/</guid>
       <pubDate>Wed, 30 Sep 2026 18:31:36 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.opiniatimisoarei.ro/dueluri-echilibrate-pentru-echipele-din-timis-in-liga-3-poli-ii-deschide-runda/30/09/2026">Opinia Timișoarei</source>
       <description>Grupările timișene se pregătesc pentru o etapă dificilă care include un duel pe teren propriu și două deplasări importante, runda fiind deschisă oficial de formația secundă a Politehnicii.</description>
     </item>
     <item>
@@ -235,6 +295,8 @@
       <link>https://izz.ro/local/perchezitii-ale-politiei-in-lugoj-si-alte-12-localitati-din-timis-intr-un-caz/</link>
       <guid>https://izz.ro/local/perchezitii-ale-politiei-in-lugoj-si-alte-12-localitati-din-timis-intr-un-caz/</guid>
       <pubDate>Wed, 30 Sep 2026 14:30:32 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.ziuadevest.ro/perchezitii-in-lugoj-si-alte-12-localitati-din-timis-intr-un-dosar-privind-arme-si-munitii-neletale/">Ziua de Vest</source>
       <description>Polițiștii din Lugoj au desfășurat 19 descinderi domiciliare într-un dosar penal care vizează nerespectarea regimului armelor și al munițiilor neletale, acțiunea vizând mai multe localități rurale din județ.</description>
     </item>
     <item>
@@ -242,6 +304,8 @@
       <link>https://izz.ro/judetean/perchezitii-in-timis-intr-un-dosar-privind-achizitia-ilegala-de-arme-online/</link>
       <guid>https://izz.ro/judetean/perchezitii-in-timis-intr-un-dosar-privind-achizitia-ilegala-de-arme-online/</guid>
       <pubDate>Wed, 30 Sep 2026 11:39:39 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.opiniatimisoarei.ro/perchezitii-pe-banda-rulanta-aproape-120-de-timiseni-au-cumparat-ilegal-arme-online/30/09/2026">Opinia Timișoarei</source>
       <description>Polițiștii și jandarmii au efectuat descinderi vizând aproximativ 120 de persoane din județul Timiș, suspectate că au cumpărat arme letale sau neletale prin intermediul internetului, încălcând legea.</description>
     </item>
     <item>
@@ -249,6 +313,8 @@
       <link>https://izz.ro/local/expozitia-de-arta-contemporana-echoes-of-the-concrete-se-deschide-la-conacul/</link>
       <guid>https://izz.ro/local/expozitia-de-arta-contemporana-echoes-of-the-concrete-se-deschide-la-conacul/</guid>
       <pubDate>Wed, 30 Sep 2026 11:25:03 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.bihon.ro/stirile-judetului-bihor/cultura/echoes-of-the-concrete-88-de-artisti-vizuali-exploreaza-ecourile-comunismului-la-conacul-mocioni-din-foeni-5415681/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Conacul Mocioni din Foeni găzduiește vernisajul expoziției care explorează perioada comunistă prin 200 de lucrări semnate de 88 de artiști vizuali. Evenimentul este organizat cu sprijinul autorităților județene din Timiș și al asociațiilor culturale partenere.</description>
     </item>
     <item>
@@ -256,6 +322,8 @@
       <link>https://izz.ro/local/politia-a-ridicat-arme-si-munitie-comandate-ilegal-online-in-timis/</link>
       <guid>https://izz.ro/local/politia-a-ridicat-arme-si-munitie-comandate-ilegal-online-in-timis/</guid>
       <pubDate>Wed, 30 Sep 2026 11:05:28 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/si-au-comandat-munitie-online-iar-politia-a-venit-peste-ei-ce-a-gasit-la-perchezitii/">Express de Banat</source>
       <description>În urma a 19 percheziții efectuate în Lugoj și alte localități din Timiș, autoritățile au confiscat patru arme neletale și peste 1.700 de alice. Măsura a vizat 118 persoane suspectate că au achiziționat muniție online între 2023 și 2025.</description>
     </item>
     <item>
@@ -263,6 +331,8 @@
       <link>https://izz.ro/local/investitie-de-15-milioane-de-euro-pentru-amenajari-turistice-pe-lacul-surduc/</link>
       <guid>https://izz.ro/local/investitie-de-15-milioane-de-euro-pentru-amenajari-turistice-pe-lacul-surduc/</guid>
       <pubDate>Wed, 30 Sep 2026 09:42:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/ponton-plutitor-de-stat-la-plaja-terasa-si-teren-gonflabil-de-sport-pe-apa-amenajarile-care-vor-aduce-mai-multi-turisti-pe-lacul-surduc-in-timis-vor-costa-15-milioane-euro-foto/30/09/2026">Opinia Timișoarei</source>
       <description>Autoritățile din Timiș alocă 1,5 milioane de euro pentru dezvoltarea turismului pe Lacul Surduc, proiect ce va include un ponton plutitor, terase, o zonă de plajă și un teren de sport gonflabil pe apă.</description>
     </item>
     <item>
@@ -270,6 +340,8 @@
       <link>https://izz.ro/local/banca-pentru-alimente-timisoara-a-salvat-peste-4-200-de-tone-de-alimente-in/</link>
       <guid>https://izz.ro/local/banca-pentru-alimente-timisoara-a-salvat-peste-4-200-de-tone-de-alimente-in/</guid>
       <pubDate>Tue, 29 Sep 2026 13:08:20 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.tion.ro/stirile-judetului-timis/bilant-dupa-sase-ani-4-200-de-tone-de-alimente-salvate-de-la-risipa-la-timisoara-2362299/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>La împlinirea a șase ani de la înființare, Banca pentru Alimente Timișoara anunță că a reușit să recupereze și să distribuie persoanelor defavorizate din regiune peste 4.200 de tone de produse alimentare.</description>
     </item>
     <item>
@@ -277,6 +349,8 @@
       <link>https://izz.ro/local/un-somn-urias-de-71-de-kilograme-a-fost-capturat-in-lacul-surduc/</link>
       <guid>https://izz.ro/local/un-somn-urias-de-71-de-kilograme-a-fost-capturat-in-lacul-surduc/</guid>
       <pubDate>Tue, 29 Sep 2026 11:01:50 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/captura-de-poveste-somn-de-71-kg-prins-de-un-pescar-intr-un-lac-din-timis-video/29/09/2026">Opinia Timișoarei</source>
       <description>Un pescar din localitatea timișeană Boldur a reușit o captură excepțională în apele Lacului Surduc, scoțând la mal un somn cu o greutate impresionantă de 71 de kilograme.</description>
     </item>
     <item>
@@ -284,6 +358,8 @@
       <link>https://izz.ro/judetean/campanie-umanitara-pentru-raul-un-adolescent-de-14-ani-din-timis-care-are/</link>
       <guid>https://izz.ro/judetean/campanie-umanitara-pentru-raul-un-adolescent-de-14-ani-din-timis-care-are/</guid>
       <pubDate>Tue, 29 Sep 2026 10:38:47 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.tion.ro/stirile-judetului-timis/un-adolescent-din-timis-are-nevoie-de-ajutorul-nostru-raul-in-varsta-de-14-ani-trebuie-sa-ajunga-la-tratament-in-viena-2362173/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Familia unui băiat de 14 ani din județul Timiș strânge suma de 10.000 de euro pentru o deplasare medicală programată la o clinică din Viena la data de 1 octombrie.</description>
     </item>
     <item>
@@ -291,20 +367,17 @@
       <link>https://izz.ro/local/soferita-retinuta-in-timis-dupa-ce-a-provocat-un-accident-cu-o-alcoolemie-uriasa/</link>
       <guid>https://izz.ro/local/soferita-retinuta-in-timis-dupa-ce-a-provocat-un-accident-cu-o-alcoolemie-uriasa/</guid>
       <pubDate>Tue, 29 Sep 2026 08:27:28 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.pressalert.ro/2026/09/pericol-pe-dn6-in-timis-soferita-de-29-de-ani-cu-o-alcoolemie-de-137-mg-l-retinuta-de-politisti-dupa-ce-a-provocat-un-accident/">PressAlert Timișoara</source>
       <description>O femeie de 29 de ani a fost reținută de polițiștii din Sânnicolau Mare pentru 24 de ore, după ce a condus pe DN6 având o concentrație de alcool în sânge de 1,37 mg/l pur și a generat un eveniment...</description>
-    </item>
-    <item>
-      <title>Pompierii din Timiș au stins cinci incendii de vegetație uscată pe 25 de hectare</title>
-      <link>https://izz.ro/judetean/pompierii-din-timis-au-stins-cinci-incendii-de-vegetatie-uscata-pe-25-de-hectare/</link>
-      <guid>https://izz.ro/judetean/pompierii-din-timis-au-stins-cinci-incendii-de-vegetatie-uscata-pe-25-de-hectare/</guid>
-      <pubDate>Tue, 29 Sep 2026 05:47:55 +0000</pubDate>
-      <description>Echipajele de intervenție din județul Timiș au fost mobilizate pentru a lichida cinci focare distincte de vegetație uscată. Autoritățile reînnoiesc apelul către cetățeni să înceteze incendierea intenționată a terenurilor.</description>
     </item>
     <item>
       <title>Festivalul Recoltei de la Giroc a atras mii de participanți la o ediție caritabilă</title>
       <link>https://izz.ro/local/festivalul-recoltei-de-la-giroc-a-atras-mii-de-participanti-la-o-editie/</link>
       <guid>https://izz.ro/local/festivalul-recoltei-de-la-giroc-a-atras-mii-de-participanti-la-o-editie/</guid>
       <pubDate>Sun, 27 Sep 2026 13:47:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.antena3.ro/actualitate/social/festivalul-recoltei-a-adunat-mii-de-oameni-la-giroc-banii-stransi-merg-catre-copiii-care-au-nevoie-de-ajutor-804780.html">Antena 3 CNN</source>
       <description>Localitatea timișeană a găzduit tradiționalul festival dedicat roasțurilor toamnei, eveniment care a combinat muzica și tradițiile locale cu strângerea de fonduri destinate sprijinirii copiilor aflați în dificultate.</description>
     </item>
     <item>
@@ -312,6 +385,8 @@
       <link>https://izz.ro/local/traseu-de-caiac-pe-raul-timis-organizat-de-un-localnic-din-criciova/</link>
       <guid>https://izz.ro/local/traseu-de-caiac-pe-raul-timis-organizat-de-un-localnic-din-criciova/</guid>
       <pubDate>Sun, 27 Sep 2026 04:00:56 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/pe-timis-intre-vasle-si-natura-aventura-cu-caiacul-care-porneste-din-criciova/">Express de Banat</source>
       <description>Pasionat de plimbările pe apă, un locuitor din Criciova propune amatorilor de aventură o modalitate inedită de relaxare prin excursii cu caiacul pe râul Timiș, combinând mișcarea în aer liber cu peisajele naturale.</description>
     </item>
 </channel></rss>

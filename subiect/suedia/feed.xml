@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Suedia — IZZ.ro</title>
   <link>https://izz.ro/subiect/suedia/</link>
   <atom:link href="https://izz.ro/subiect/suedia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Suedia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>România a pierdut meciul cu Suedia din Nations League</title>
       <link>https://izz.ro/sport/romania-a-pierdut-meciul-cu-suedia-din-nations-league/</link>
       <guid>https://izz.ro/sport/romania-a-pierdut-meciul-cu-suedia-din-nations-league/</guid>
       <pubDate>Thu, 08 Oct 2026 07:37:44 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/costel-pantilimon-s-a-lamurit-in-privinta-lui-otto-hindrich.html">Sport.ro</source>
+      <media:content url="https://izz.ro/sport/romania-a-pierdut-meciul-cu-suedia-din-nations-league/cover.jpg?v=edfc0de4" medium="image" type="image/jpeg"/>
       <description>Echipa națională a României a înregistrat o nouă înfrângere, scor 0-1, în partida disputată împotriva Suediei din cadrul Ligii Națiunilor.</description>
     </item>
     <item>
@@ -18,6 +21,8 @@
       <link>https://izz.ro/extern/politia-suedeza-a-impuscat-un-barbat-inarmat-langa-palatul-regal/</link>
       <guid>https://izz.ro/extern/politia-suedeza-a-impuscat-un-barbat-inarmat-langa-palatul-regal/</guid>
       <pubDate>Tue, 06 Oct 2026 19:52:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/politia-suedeza-a-impuscat-un-barbat-inarmat-in-apropierea-palatului-regal-din-stockholm-3981427">Digi24 Extern</source>
       <description>Oamenii legii din Suedia au neutralizat prin împușcare un individ înarmat care se afla în imediata apropiere a palatului regal din Stockholm.</description>
     </item>
     <item>
@@ -25,6 +30,8 @@
       <link>https://izz.ro/sport/evolutia-echipei-nationale-de-fotbal-dupa-meciul-cu-suedia-genereaza-opinii/</link>
       <guid>https://izz.ro/sport/evolutia-echipei-nationale-de-fotbal-dupa-meciul-cu-suedia-genereaza-opinii/</guid>
       <pubDate>Tue, 06 Oct 2026 17:08:12 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/opinii/editorial-marius-margarit-de-unde-sa-incepem-sa-reparam-cand-cum-cu-cine-985300.html">GSP</source>
       <description>Analizele recente privind parcursul echipei naționale indică un progres înregistrat între partidele din Polonia și cea cu Suedia, experții sugerând o atitudine mai optimistă în ciuda rezultatelor modeste.</description>
     </item>
     <item>
@@ -32,6 +39,8 @@
       <link>https://izz.ro/sport/marius-lacatus-il-critica-pe-ianis-hagi-dupa-esecul-nationalei/</link>
       <guid>https://izz.ro/sport/marius-lacatus-il-critica-pe-ianis-hagi-dupa-esecul-nationalei/</guid>
       <pubDate>Tue, 06 Oct 2026 17:05:34 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/marius-lacatus-ridica-un-semn-de-intrebare-dupa-meciurile-nationalei-hagi-s-a-inselat-ridici-manuta-frumos-si-spui-ca-nu-poti.html">Sport.ro</source>
       <description>Fostul internațional Marius Lăcătuș a taxat atitudinea lui Ianis Hagi după înfrângerea României cu Suedia, scor zero la unu, sugerând că jucătorul ar fi trebuit să recunoască public limitele fizice.</description>
     </item>
     <item>
@@ -39,6 +48,8 @@
       <link>https://izz.ro/extern/suedia-va-disloca-sisteme-de-aparare-patriot-in-estul-poloniei/</link>
       <guid>https://izz.ro/extern/suedia-va-disloca-sisteme-de-aparare-patriot-in-estul-poloniei/</guid>
       <pubDate>Tue, 06 Oct 2026 16:54:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/dupa-ce-a-desfasurat-avioane-de-vanatoare-gripen-suedia-mai-face-o-mutare-pentru-hubul-strategic-din-polonia-ce-furnizeaza-arme-ucrainei-2369018">HotNews</source>
       <description>Guvernul de la Stockholm a anunțat trimiterea de rachete antiaeriene în Polonia începând din decembrie, preluând misiunea de securizare a hubului logistic militar de la Olanda.</description>
     </item>
     <item>
@@ -46,6 +57,8 @@
       <link>https://izz.ro/sport/romania-rateaza-calificarea-in-liga-natiunilor-la-fotbal/</link>
       <guid>https://izz.ro/sport/romania-rateaza-calificarea-in-liga-natiunilor-la-fotbal/</guid>
       <pubDate>Tue, 06 Oct 2026 09:55:20 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://adevarul.ro/sport/tricolorii-spun-ca-nu-e-simplu-sa-joace-asa-cum-2562133.html">Adevărul</source>
       <description>Echipa națională de fotbal a României a înregistrat doar eșecuri în actuala ediție a Ligii Națiunilor, pierdută în fața Suediei, Bosniei-Herțegovina și Poloniei, având șanse nule la o clasare pe un loc superior poziției a treia.</description>
     </item>
     <item>
@@ -53,6 +66,8 @@
       <link>https://izz.ro/sport/romania-va-fi-in-urna-a-treia-la-tragerea-la-sorti-pentru-preliminariile-euro/</link>
       <guid>https://izz.ro/sport/romania-va-fi-in-urna-a-treia-la-tragerea-la-sorti-pentru-preliminariile-euro/</guid>
       <pubDate>Tue, 06 Oct 2026 08:23:52 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/echipa-nationala/cum-arata-drumul-catre-euro-2028-romania-in-urna-3-cei-mai-dificili-adversari-grupa-care-ne-da-sperante-695162.html">Antena Sport</source>
       <description>După eșecul scor 0-1 înregistrat împotriva Suediei în Liga Națiunilor, naționala României a acumulat zero puncte și și-a asigurat prezența doar în urna a treia pentru preliminariile Campionatului Europen din 2028.</description>
     </item>
     <item>
@@ -60,6 +75,8 @@
       <link>https://izz.ro/sport/atacantul-florin-tanase-cere-sprijin-pentru-nationala-romaniei-dupa-meciul-cu/</link>
       <guid>https://izz.ro/sport/atacantul-florin-tanase-cere-sprijin-pentru-nationala-romaniei-dupa-meciul-cu/</guid>
       <pubDate>Tue, 06 Oct 2026 08:19:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://jurnalulolteniei.ro/florin-tanase-cere-incredere-dupa-esecurile-suferite-de-romania-gica-hagi-a-spus-ca-nu-se-va-mai-intampla/">Jurnalul Olteniei</source>
       <description>Utilizat ca vârf improvizat în partida pierdută în fața Suediei, fotbalistul Florin Tănase a declarat că echipa națională a avut o prestație bună, transmițând că suporterii trebuie să aibă încredere în viitorul primei reprezentative.</description>
     </item>
     <item>
@@ -67,6 +84,8 @@
       <link>https://izz.ro/sport/matei-ilie-sustine-ca-in-vestiar-nu-s-a-discutat-despre-demisia-lui-gica-hagi/</link>
       <guid>https://izz.ro/sport/matei-ilie-sustine-ca-in-vestiar-nu-s-a-discutat-despre-demisia-lui-gica-hagi/</guid>
       <pubDate>Mon, 05 Oct 2026 23:12:41 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/nationala/matei-ilie-demisie-gica-hagi-nationala-romaniei-20541073">ProSport</source>
       <description>După înfrângerea naționalei României în fața Suediei, scor 0-1, au apărut speculații privind plecarea selecționerului. Fotbalistul Matei Ilie a infirmat însă existența unor discuții pe această temă între jucători.</description>
     </item>
     <item>
@@ -74,13 +93,35 @@
       <link>https://izz.ro/sport/gheorghe-hagi-a-evitat-comentariile-despre-viitorul-sau-dupa-al-patrulea-esec/</link>
       <guid>https://izz.ro/sport/gheorghe-hagi-a-evitat-comentariile-despre-viitorul-sau-dupa-al-patrulea-esec/</guid>
       <pubDate>Mon, 05 Oct 2026 22:46:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.g4media.ro/selectionerul-gheorghe-hagi-dupa-ce-a-pierdut-primele-patru-meciuri-oficiale-la-romania-ce-sa-zic-la-patru-infrangeri.html">G4Media</source>
       <description>Selecționerul reprezentativei de fotbal a României a oferit declarații scurte la conferința de presă de după partida pierdută la limită în fața Suediei pe Arena Națională.</description>
+    </item>
+    <item>
+      <title>Cristi Borcea a criticat dur diferența de valoare după eșecul României cu Suedia</title>
+      <link>https://izz.ro/sport/cristi-borcea-a-criticat-dur-diferenta-de-valoare-dupa-esecul-romaniei-cu-suedia/</link>
+      <guid>https://izz.ro/sport/cristi-borcea-a-criticat-dur-diferenta-de-valoare-dupa-esecul-romaniei-cu-suedia/</guid>
+      <pubDate>Mon, 05 Oct 2026 22:27:29 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/nationala/cristi-borcea-romania-suedia-20541026">ProSport</source>
+      <description>Prezent în tribunele Arenei Naționale alături de soția sa, fostul finanțator dinamovist a răbufnit la adresa echipei naționale și a subliniat discrepanța clară de nivel față de adversarii suedezi.</description>
+    </item>
+    <item>
+      <title>Gheorghe Hagi a evidențiat trei jucători tineri după eșecul cu Suedia</title>
+      <link>https://izz.ro/sport/gheorghe-hagi-a-evidentiat-trei-jucatori-tineri-dupa-esecul-cu-suedia/</link>
+      <guid>https://izz.ro/sport/gheorghe-hagi-a-evidentiat-trei-jucatori-tineri-dupa-esecul-cu-suedia/</guid>
+      <pubDate>Mon, 05 Oct 2026 22:07:39 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/remarcatii-lui-gheorghe-hagi-echipa-nationala-romania-985088.html">GSP</source>
+      <description>Selecționerul României i-a remarcat pe Matei Ilie, Andrei Coubiș și Lisav Eissat, în urma partidei pierdute cu scorul de 0-1 în fața reprezentativei Suediei.</description>
     </item>
     <item>
       <title>Florin Tănase i-a luat apărarea selecționerului Gică Hagi după eșecul cu Suedia</title>
       <link>https://izz.ro/sport/florin-tanase-i-a-luat-apararea-selectionerului-gica-hagi-dupa-esecul-cu-suedia/</link>
       <guid>https://izz.ro/sport/florin-tanase-i-a-luat-apararea-selectionerului-gica-hagi-dupa-esecul-cu-suedia/</guid>
       <pubDate>Mon, 05 Oct 2026 21:59:25 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/florin-tanase-i-a-luat-apararea-lui-gica-hagi-discurs-furibund-dupa-romania-suedia-0-1-toata-lumea-i-a-sarit-in-cap-695096.html">Antena Sport, GSP</source>
       <description>Atacantul Florin Tănase i-a luat public apărarea selecționerului Gică Hagi, în urma eșecului suferit de România în fața Suediei, scor 0-1, în Liga Națiunilor. Jucătorul, care a ratat o șansă importantă în minutul 63 al partidei, s-a arătat convins că „Regele” va continua pe banca tehnică a naționalei, în ciuda celor patru înfrângeri consecutive din competiție.</description>
     </item>
     <item>
@@ -88,6 +129,8 @@
       <link>https://izz.ro/sport/adrian-mutu-a-indicat-principala-eroare-defensiva-la-golul-primit-de-romania/</link>
       <guid>https://izz.ro/sport/adrian-mutu-a-indicat-principala-eroare-defensiva-la-golul-primit-de-romania/</guid>
       <pubDate>Mon, 05 Oct 2026 21:50:46 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/liga-natiunilor/adrian-mutu-a-numit-vinovatul-principal-la-golul-suediei-greseala-de-pozitionare-20541016">ProSport</source>
       <description>Fostul internațional român a analizat înfrângerea cu Suedia și a subliniat că reușita nordicilor a fost favorizată de o poziționare greșită în defensivă a fundașului Andrei Rațiu.</description>
     </item>
     <item>
@@ -95,6 +138,8 @@
       <link>https://izz.ro/sport/viktor-gyokeres-a-analizat-victoria-suediei-contra-romaniei-in-liga-natiunilor/</link>
       <guid>https://izz.ro/sport/viktor-gyokeres-a-analizat-victoria-suediei-contra-romaniei-in-liga-natiunilor/</guid>
       <pubDate>Mon, 05 Oct 2026 21:48:14 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/viktor-gyokeres-reactie-romania-suedia-985087.html">GSP</source>
       <description>Atacantul suedez Viktor Gyokeres a lăudat evoluția tricolorilor din repriza secundă, după ce a marcat singurul gol al partidei de pe Arena Națională, aducând victoria selecției scandinave.</description>
     </item>
     <item>
@@ -102,6 +147,8 @@
       <link>https://izz.ro/sport/dennis-man-a-recunoscut-dificultatile-nationalei-dupa-esecul-cu-suedia/</link>
       <guid>https://izz.ro/sport/dennis-man-a-recunoscut-dificultatile-nationalei-dupa-esecul-cu-suedia/</guid>
       <pubDate>Mon, 05 Oct 2026 21:47:54 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/nationala/dennis-man-verdict-trist-despre-romania-lucrurile-merg-prost-nu-s-a-legat-nimic-20541019">ProSport</source>
       <description>Fotbalistul Dennis Man a oferit o declarație pesimistă privind parcursul României, afirmând că lucrurile merg prost și echipa nu a reușit să lege nicio fază coerentă în teren.</description>
     </item>
     <item>
@@ -109,6 +156,8 @@
       <link>https://izz.ro/sport/basarab-panduru-critica-seria-neagra-a-nationalei-romaniei/</link>
       <guid>https://izz.ro/sport/basarab-panduru-critica-seria-neagra-a-nationalei-romaniei/</guid>
       <pubDate>Mon, 05 Oct 2026 21:35:53 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/basarab-panduru-dupa-seria-neagra-a-romaniei-in-nations-league-calcat-in-picioare-orice-antrenor.html">Sport.ro</source>
       <description>Fostul internațional Basarab Panduru a comentat parcursul slab al României din Liga Națiunilor, subliniind că rezultatele negative afectează grav imaginea oricărui tehnician aflat pe banca tehnică.</description>
     </item>
     <item>
@@ -116,6 +165,8 @@
       <link>https://izz.ro/sport/razvan-marin-exprima-dezamagirea-dupa-esecul-romaniei-cu-suedia/</link>
       <guid>https://izz.ro/sport/razvan-marin-exprima-dezamagirea-dupa-esecul-romaniei-cu-suedia/</guid>
       <pubDate>Mon, 05 Oct 2026 21:31:26 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/razvan-marin-declaratii-romania-suedia-985085.html">GSP, Sport.ro</source>
       <description>Naționala României a fost învinsă de Suedia cu scorul de 1-0, într-un meci disputat luni seară pe Arena Națională în cadrul Ligii Națiunilor, grupa B4. În urma eșecului, fotbalistul Răzvan Marin și-a exprimat public dezamăgirea față de rezultat.</description>
     </item>
     <item>
@@ -123,6 +174,8 @@
       <link>https://izz.ro/sport/selectionerul-suediei-a-laudat-jocul-romaniei-in-ciuda-victoriei-obtinute/</link>
       <guid>https://izz.ro/sport/selectionerul-suediei-a-laudat-jocul-romaniei-in-ciuda-victoriei-obtinute/</guid>
       <pubDate>Mon, 05 Oct 2026 21:31:20 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/graham-potter-selectioner-suedia-romania-gyokeres-985084.html">GSP</source>
       <description>Tehnicianul Graham Potter a recunoscut dificultățile întâmpinate de echipa sa pe Arena Națională, subliniind însă importanța celor trei puncte aduse de reușita lui Viktor Gyokeres.</description>
     </item>
     <item>
@@ -130,6 +183,8 @@
       <link>https://izz.ro/sport/mihai-stoica-a-remarcat-un-singur-fotbalist-roman-dupa-esecul-cu-suedia-din/</link>
       <guid>https://izz.ro/sport/mihai-stoica-a-remarcat-un-singur-fotbalist-roman-dupa-esecul-cu-suedia-din/</guid>
       <pubDate>Mon, 05 Oct 2026 21:28:24 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/mihai-stoica-a-remarcat-un-singur-tricolor-dupa-romania-suedia-0-1-e-singurul-castig-real-695086.html">Antena Sport, ProSport</source>
       <description>În urma înfrângerii suferite de naționala României în fața Suediei, scor 0-1, reprezentând a patra eșec consecutiv în Liga Națiunilor, oficialul Mihai Stoica a declarat că Lisav Eissat, în vârstă de 21 de ani, a fost singurul jucător tricolor cu o prestație remarcabilă și un câștig real în această campanie.</description>
     </item>
     <item>
@@ -137,6 +192,8 @@
       <link>https://izz.ro/sport/razvan-marin-recunoaste-dificultatile-nationalei-dupa-patru-esecuri-consecutive/</link>
       <guid>https://izz.ro/sport/razvan-marin-recunoaste-dificultatile-nationalei-dupa-patru-esecuri-consecutive/</guid>
       <pubDate>Mon, 05 Oct 2026 21:23:12 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/echipa-nationala/razvan-marin-a-anuntat-ce-urmeaza-la-nationala-dupa-patru-infrangeri-la-rand-am-inteles-cu-totii-ce-vrea-domnul-hagi-695081.html">Antena Sport</source>
       <description>Mijlocașul Răzvan Marin s-a arătat extrem de dezamăgit după noua eșec al României în fața Suediei, subliniind însă că jucătorii au înțeles cerințele selecționerului Gică Hagi în ciuda rezultatelor negative.</description>
     </item>
     <item>
@@ -144,6 +201,8 @@
       <link>https://izz.ro/sport/romania-a-ramas-fara-niciun-punct-dupa-patru-etape-in-liga-natiunilor/</link>
       <guid>https://izz.ro/sport/romania-a-ramas-fara-niciun-punct-dupa-patru-etape-in-liga-natiunilor/</guid>
       <pubDate>Mon, 05 Oct 2026 20:05:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://hotnews.ro/romania-suedia-live-de-la-2145-in-liga-natiunilor-surpriza-uriasa-in-primul-11-ce-s-a-intamplat-cu-ianis-hagi-2367783">HotNews, Digi24</source>
       <description>Reprezentativa României a înregistrat o nouă înfrângere în Grupa B4 din Liga Națiunilor, cedând pe teren propriu în fața Suediei cu scorul de 0-1. În urma acestui rezultat înregistrat pe Arena Națională, „tricolorii” ocupă ultimul loc în clasament, având zero puncte acumulate după primele patru partide disputate în această campanie.</description>
     </item>
     <item>
@@ -151,6 +210,8 @@
       <link>https://izz.ro/sport/un-nou-fotbalist-al-nationalei-a-acuzat-probleme-medicale-inainte-de-meci/</link>
       <guid>https://izz.ro/sport/un-nou-fotbalist-al-nationalei-a-acuzat-probleme-medicale-inainte-de-meci/</guid>
       <pubDate>Mon, 05 Oct 2026 06:28:24 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/o-noua-lovitura-pentru-gica-hagi-dupa-louis-munteanu-birligea-si-marius-marin-inca-un-tricolor-a-acuzat-probleme-medicale.html">Sport.ro</source>
       <description>Echipa națională a României întâmpină dificultăți de lot înaintea duelului cu Suedia din Liga Națiunilor, după ce încă un tricolor a devenit indisponibil.</description>
     </item>
     <item>
@@ -158,6 +219,8 @@
       <link>https://izz.ro/sport/edi-iordanescu-a-transmis-un-mesaj-public-inaintea-meciului-cu-suedia/</link>
       <guid>https://izz.ro/sport/edi-iordanescu-a-transmis-un-mesaj-public-inaintea-meciului-cu-suedia/</guid>
       <pubDate>Mon, 05 Oct 2026 06:02:58 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.digisport.ro/fotbal/echipa-nationala/singurul-om-luat-in-calcul-pentru-a-l-inlocui-pe-gica-hagi-la-nationala-romaniei-a-iesit-in-fata-4525163">Digi Sport</source>
       <description>Tehnicianul Edi Iordănescu a făcut declarații adresate suporterilor echipei naționale de fotbal și lui Gică Hagi, în contextul pregătirilor pentru partida importantă împotriva reprezentativei Suediei.</description>
     </item>
     <item>
@@ -165,6 +228,8 @@
       <link>https://izz.ro/sport/basarab-panduru-surprins-de-conflictul-din-lotul-nationalei/</link>
       <guid>https://izz.ro/sport/basarab-panduru-surprins-de-conflictul-din-lotul-nationalei/</guid>
       <pubDate>Mon, 05 Oct 2026 06:00:18 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/conflictul-spontan-din-cantonamentul-nationalei-l-a-uimit-pe-basarab-panduru-e-un-pic-ciudat.html">Sport.ro</source>
       <description>Fostul internațional s-a arătat mirat de tensiunile apărute spontan în cantonamentul echipei României, cu puțin timp înaintea confruntării decisive împotriva Suediei din Liga Națiunilor.</description>
     </item>
     <item>
@@ -172,6 +237,8 @@
       <link>https://izz.ro/sport/gica-hagi-a-stabilit-lotul-romaniei-pentru-meciul-cu-suedia-din-liga-natiunilor/</link>
       <guid>https://izz.ro/sport/gica-hagi-a-stabilit-lotul-romaniei-pentru-meciul-cu-suedia-din-liga-natiunilor/</guid>
       <pubDate>Mon, 05 Oct 2026 05:52:10 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/gica-hagi-s-a-decis-cine-sunt-cei-23-de-jucatori-pe-care-se-va-baza-la-meciul-cu-suedia-694696.html">Antena Sport, Spotmedia, Digi24</source>
       <description>Naționala României întâlnește selecționata Suediei în meciul din Liga Națiunilor, programat luni seară, după o primă înfrângere în deplasare, scor 1-2. Pentru această partidă, Gică Hagi a definitivat lotul și a renunțat la o parte dintre jucători.</description>
     </item>
     <item>
@@ -179,6 +246,8 @@
       <link>https://izz.ro/sport/ultimul-antrenament-al-nationalei-romaniei-inainte-de-meciul-cu-suedia/</link>
       <guid>https://izz.ro/sport/ultimul-antrenament-al-nationalei-romaniei-inainte-de-meciul-cu-suedia/</guid>
       <pubDate>Mon, 05 Oct 2026 05:51:47 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/imagini-de-la-antrenamentul-oficial-al-tricolorilor-inainte-de-romania-suedia-694695.html">Antena Sport, GSP</source>
       <description>Reprezentativa României a efectuat duminică seară, sub conducerea selecționerului Gică Hagi, ultimul antrenament oficial înaintea partidei din Liga Națiunilor împotriva Suediei. Meciul este programat să se dispute în aceeași zi, fiind transmis în direct pe posturile TV menționate.</description>
     </item>
     <item>
@@ -186,6 +255,8 @@
       <link>https://izz.ro/sport/frf-pregateste-solutia-de-rezerva-in-cazul-plecarii-lui-gica-hagi/</link>
       <guid>https://izz.ro/sport/frf-pregateste-solutia-de-rezerva-in-cazul-plecarii-lui-gica-hagi/</guid>
       <pubDate>Mon, 05 Oct 2026 05:26:41 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/frf-solutie-de-avarie-gasita-daca-gica-hagi-va-demisiona-de-la-echipa-nationala-singurul-nume-aflat-pe-lista-694690.html">Antena Sport</source>
       <description>Selecționerul Gheorghe Hagi a sugerat posibilitatea unei demisii înaintea meciului cu Suedia, iar Federația Română de Fotbal analizează deja variante de rezervă pentru banca tehnică a echipei naționale de fotbal.</description>
     </item>
     <item>
@@ -193,6 +264,8 @@
       <link>https://izz.ro/sport/gica-hagi-pregateste-o-surpriza-in-alcatuirea-echipei-pentru-returul-cu-suedia/</link>
       <guid>https://izz.ro/sport/gica-hagi-pregateste-o-surpriza-in-alcatuirea-echipei-pentru-returul-cu-suedia/</guid>
       <pubDate>Sun, 04 Oct 2026 21:18:29 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/cum-ar-putea-arata-nationala-in-returul-cu-suedia-surpriza-majora-la-care-ar-putea-recurge-gica-hagi.html">Sport.ro</source>
       <description>Reprezentativa României se pregătește pentru partida retur împotriva Suediei, programată luni seară pe Arena Națională. Selecționerul Gică Hagi ia în calcul o mutare tactică neașteptată în primul unsprezece.</description>
     </item>
     <item>
@@ -200,6 +273,8 @@
       <link>https://izz.ro/sport/romania-joaca-pe-arena-nationala-impotriva-suediei-in-liga-natiunilor/</link>
       <guid>https://izz.ro/sport/romania-joaca-pe-arena-nationala-impotriva-suediei-in-liga-natiunilor/</guid>
       <pubDate>Sun, 04 Oct 2026 21:00:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/live-romania-suedia-liga-natiunilor-arena-nationala-984729.html">GSP</source>
       <description>Naționala de fotbal a României întâlnește Suedia pe Arena Națională, în al patrulea meci din Liga Națiunilor. Peste 50.000 de suporteri sunt prezenți pe stadion pentru a susține echipa.</description>
     </item>
     <item>
@@ -207,6 +282,8 @@
       <link>https://izz.ro/sport/mesajul-transmis-de-edward-iordanescu-inaintea-meciului-romaniei-cu-suedia/</link>
       <guid>https://izz.ro/sport/mesajul-transmis-de-edward-iordanescu-inaintea-meciului-romaniei-cu-suedia/</guid>
       <pubDate>Sun, 04 Oct 2026 16:21:49 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/edi-iordanescu-fotografie-romania-gica-hagi-suedia-984723.html">GSP, Adevărul</source>
       <description>Fostul selecționer Edward Iordănescu a publicat un mesaj de încurajare adresat suporterilor și tricolorilor înaintea meciului cu Suedia din Liga Națiunilor. Acesta i-a îndemnat pe fani să fie alături de echipa națională și să ofere susținere indiferent de rezultatul de pe teren.</description>
     </item>
     <item>
@@ -214,6 +291,8 @@
       <link>https://izz.ro/sport/stb-prelungeste-programul-mijloacelor-de-transport-pentru-meciul-romaniei/</link>
       <guid>https://izz.ro/sport/stb-prelungeste-programul-mijloacelor-de-transport-pentru-meciul-romaniei/</guid>
       <pubDate>Sun, 04 Oct 2026 13:57:47 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://b365.ro/mai-multe-linii-stb-au-program-prelungit-pentru-meciul-romania-suedia-partida-se-joaca-luni-pe-arena-nationala-622459/">B365</source>
       <description>Societatea de Transport București va modifica rasele și va prelungi programul mai multor linii de autobuz cu ocazia partidei de fotbal dintre România și Suedia, programată pe Arena Națională.</description>
     </item>
     <item>
@@ -221,6 +300,8 @@
       <link>https://izz.ro/sport/nationala-suediei-a-efectuat-antrenamentul-pe-arena-nationala/</link>
       <guid>https://izz.ro/sport/nationala-suediei-a-efectuat-antrenamentul-pe-arena-nationala/</guid>
       <pubDate>Sun, 04 Oct 2026 12:48:44 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/suedia-s-a-antrenat-pe-arena-nationala-inaintea-meciului-cu-romania-984660.html">GSP</source>
       <description>Reprezentativa Suediei a ieșit pe gazonul stadionului din București pentru pregătirea oficială premergătoare partidei decisive din Liga Națiunilor împotriva României.</description>
     </item>
     <item>
@@ -228,6 +309,8 @@
       <link>https://izz.ro/sport/romania-intalneste-o-nationala-a-suediei-slabita-de-absenta-a-sapte-titulari/</link>
       <guid>https://izz.ro/sport/romania-intalneste-o-nationala-a-suediei-slabita-de-absenta-a-sapte-titulari/</guid>
       <pubDate>Sun, 04 Oct 2026 11:26:15 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://adevarul.ro/sport/romania-infrunta-maine-o-suedie-decimata-cu-7-2561689.html">Adevărul</source>
       <description>Selecționata României se pregătește pentru un meci dificil împotriva Suediei, adversar privat de șapte jucători de bază, iar Gheorghe Hagi mizează pe sprijinul masiv al suporterilor din tribună.</description>
     </item>
     <item>
@@ -235,6 +318,8 @@
       <link>https://izz.ro/sport/mihai-stoica-a-criticat-dur-evolutia-unui-tricolor-in-meciurile-din-liga/</link>
       <guid>https://izz.ro/sport/mihai-stoica-a-criticat-dur-evolutia-unui-tricolor-in-meciurile-din-liga/</guid>
       <pubDate>Sun, 04 Oct 2026 06:43:34 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/tricolorul-care-l-a-nemultumit-pe-mihai-stoica-in-liga-natiunilor-ma-enerveaza-foarte-tare-694269.html">Antena Sport</source>
       <description>În timp ce naționala României pregătește partida de la București împotriva Suediei, oficialul Mihai Stoica și-a exprimat nemulțumirea față de randamentul unui anumit fotbalist.</description>
     </item>
     <item>
@@ -242,6 +327,8 @@
       <link>https://izz.ro/sport/statisticienii-englezi-au-analizat-partida-dintre-romania-si-suedia-din-liga/</link>
       <guid>https://izz.ro/sport/statisticienii-englezi-au-analizat-partida-dintre-romania-si-suedia-din-liga/</guid>
       <pubDate>Sun, 04 Oct 2026 05:57:03 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/britanicii-au-prezis-cat-se-va-termina-romania-suedia-cum-si-au-argumentat-raspunsul-694247.html">Antena Sport</source>
       <description>Naționala de fotbal a României întâlnește Suedia pe Arena Națională, în a patra etapă din Liga Națiunilor. Înaintea meciului transmis pe Antena 1, analiștii britanici au emis prognoze privind scorul final.</description>
     </item>
     <item>
@@ -249,6 +336,8 @@
       <link>https://izz.ro/sport/probleme-medicale-in-lotul-suediei-inainte-de-meciul-cu-romania/</link>
       <guid>https://izz.ro/sport/probleme-medicale-in-lotul-suediei-inainte-de-meciul-cu-romania/</guid>
       <pubDate>Sat, 03 Oct 2026 19:34:51 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/convocare-de-urgenta-inainte-de-suedia-romania-984520.html">GSP</source>
       <description>Selecționata de fotbal a Suediei se confruntă cu multiple probleme de sănătate în lot, mai mulți jucători părăsind cantonamentul înaintea confruntării programate luni la București.</description>
     </item>
     <item>
@@ -256,6 +345,8 @@
       <link>https://izz.ro/sport/gheorghe-hagi-cauta-solutii-pentru-ofensiva-dupa-accidentarea-lui-daniel/</link>
       <guid>https://izz.ro/sport/gheorghe-hagi-cauta-solutii-pentru-ofensiva-dupa-accidentarea-lui-daniel/</guid>
       <pubDate>Sat, 03 Oct 2026 19:07:38 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/trei-variante-de-improvizatie-pentru-gica-hagi-dupa-ce-a-ramas-fara-atacant-pentru-meciul-cu-suedia.html">Sport.ro</source>
       <description>În urma accidentării suferite de Daniel Bîrligea în partida Polonia - România, selecționerul Gheorghe Hagi a rămas fără nicio variantă validă de atacant central pentru meciul programat luni împotriva Suediei.</description>
     </item>
     <item>
@@ -263,6 +354,8 @@
       <link>https://izz.ro/sport/daniel-birligea-s-a-accidentat-si-rateaza-meciul-romania-suedia/</link>
       <guid>https://izz.ro/sport/daniel-birligea-s-a-accidentat-si-rateaza-meciul-romania-suedia/</guid>
       <pubDate>Sat, 03 Oct 2026 17:54:46 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/nationala/daniel-birligea-out-romania-20539223">ProSport, Antena Sport</source>
       <description>Atacantul Daniel Bîrligea a suferit probleme musculare după meciul cu Polonia și a fost nevoit să părăsească cantonamentul naționalei. În urma investigațiilor medicale, s-a stabilit că acesta nu va putea juca în partida din Liga Națiunilor împotriva Suediei, programată luni, 5 octombrie.</description>
     </item>
     <item>
@@ -270,6 +363,8 @@
       <link>https://izz.ro/sport/presa-suedeza-comenteaza-eliminarea-lui-radu-dragusin/</link>
       <guid>https://izz.ro/sport/presa-suedeza-comenteaza-eliminarea-lui-radu-dragusin/</guid>
       <pubDate>Sat, 03 Oct 2026 17:22:32 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/liga-natiunilor/suedezi-eliminare-radu-dragusin-verdict-inainte-de-romania-suedia-20539191">ProSport</source>
       <description>Eliminarea fundașului Radu Drăgușin în prima repriză a meciului Polonia – România a atras atenția presei nordice, înaintea partidei directe dintre reprezentativa tricoloră și Suedia, programată la Varșovia.</description>
     </item>
     <item>
@@ -277,6 +372,8 @@
       <link>https://izz.ro/sport/uefa-a-stabilit-brigada-de-arbitri-pentru-meciul-romania-suedia/</link>
       <guid>https://izz.ro/sport/uefa-a-stabilit-brigada-de-arbitri-pentru-meciul-romania-suedia/</guid>
       <pubDate>Sat, 03 Oct 2026 12:56:12 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/nationala/uefa-decizie-arbitraj-controversat-urs-schnyder-romania-suedia-20539056">ProSport</source>
       <description>Forul european a anunțat oficial arbitrii care vor conduce partida dintre România și Suedia de pe Arena Națională, la doar o zi după controversele stârnite de Urs Schnyder la meciul cu Polonia.</description>
     </item>
     <item>
@@ -284,6 +381,8 @@
       <link>https://izz.ro/extern/un-transport-agabaritic-a-avariat-grav-un-pod-rutier-in-suedia/</link>
       <guid>https://izz.ro/extern/un-transport-agabaritic-a-avariat-grav-un-pod-rutier-in-suedia/</guid>
       <pubDate>Sat, 03 Oct 2026 00:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://piataauto.md/Stiri/2026/10/Un-camion-cu-transport-agabaritic-a-dus-la-deteriorarea-si-deplasarea-unui-pod-in-Suedia-iar-acum-camionul-nu-poate-fi-mutat-de-acolo/">Piata Auto MD</source>
       <description>Un camion dintr-un convoi greoi a deteriorat și deplasat structura podului Stromsund pe traseul E45 din Suedia, vehiculul rămânând blocat pe pod din cauza daunelor majore aduse infrastructurii.</description>
     </item>
     <item>
@@ -291,6 +390,8 @@
       <link>https://izz.ro/ai/cercetatorii-suedezi-au-creat-un-sistem-de-inteligenta-artificiala-care/</link>
       <guid>https://izz.ro/ai/cercetatorii-suedezi-au-creat-un-sistem-de-inteligenta-artificiala-care/</guid>
       <pubDate>Fri, 02 Oct 2026 20:32:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/high-tech/cercetatori-suedezi-au-creat-un-om-de-stiinta-artificial-care-isi-concepe-si-isi-desfasoara-singur-experimentele-805505.html">Antena 3 CNN</source>
       <description>O echipă de cercetare din Suedia a dezvoltat un program inovator capabil să genereze ipoteze științifice proprii, să organizeze experimente practice și să analizeze datele rezultate în mod autonom.</description>
     </item>
     <item>
@@ -298,6 +399,8 @@
       <link>https://izz.ro/sport/partida-bosnia-suedia-din-nations-league-va-fi-transmisa-in-direct-pe-sport-ro/</link>
       <guid>https://izz.ro/sport/partida-bosnia-suedia-din-nations-league-va-fi-transmisa-in-direct-pe-sport-ro/</guid>
       <pubDate>Fri, 02 Oct 2026 11:39:48 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nations-league/bosnia-suedia-celalalt-meci-din-grupa-romaniei-in-nations-league-live-text-pe-sport-ro-de-la-21-45.html">Sport.ro</source>
       <description>Confruntarea din grupa reprezentativei României în competiția Europeană este programată să se dispute începând cu ora 21:45.</description>
     </item>
     <item>
@@ -305,6 +408,8 @@
       <link>https://izz.ro/sport/gica-hagi-concluzii-ingrijoratoare-dupa-primele-meciuri-oficiale-la-nationala/</link>
       <guid>https://izz.ro/sport/gica-hagi-concluzii-ingrijoratoare-dupa-primele-meciuri-oficiale-la-nationala/</guid>
       <pubDate>Fri, 02 Oct 2026 11:03:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://spotmedia.ro/stiri/sport/gica-hagi-s-a-convins-dupa-doar-doua-meciuri-oficiale-la-nationala-romaniei">Spotmedia</source>
       <description>Înfrângerile suferite de România în Liga Națiunilor împotriva Suediei și Bosniei l-au determinat pe selecționerul Gică Hagi să tragă un semnal de alarmă în vestiar înaintea partidei decisive cu Polonia.</description>
     </item>
     <item>
@@ -312,6 +417,8 @@
       <link>https://izz.ro/auto/volvo-va-muta-dezvoltarea-a-unsprezece-viitoare-modele-in-china/</link>
       <guid>https://izz.ro/auto/volvo-va-muta-dezvoltarea-a-unsprezece-viitoare-modele-in-china/</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://piataauto.md/Stiri/2026/10/Presa-suedeza-a-descoperit-indignare-Volvo-va-dezvolta-11-din-13-modele-viitoare-in-China-mutand-aproape-toata-ingineria-design-afara-Suediei/">Piata Auto MD</source>
       <description>Compania suedeză Volvo va transfera aproape toată ingineria și designul în China, sub influența acționarului majoritar Geely, ca urmare a problemelor întâmpinate în lansarea modelului electric EX90.</description>
     </item>
     <item>
@@ -319,6 +426,8 @@
       <link>https://izz.ro/sport/radu-dragusin-a-urmarit-meciul-romaniei-cu-bosnia-din-tribuna/</link>
       <guid>https://izz.ro/sport/radu-dragusin-a-urmarit-meciul-romaniei-cu-bosnia-din-tribuna/</guid>
       <pubDate>Thu, 01 Oct 2026 19:01:36 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/radu-dragusin-intrebat-cum-a-fost-sa-vada-meciul-cu-bosnia-din-tribune-raspunsul-lui-transant-693476.html">Antena Sport</source>
       <description>Selecționerul Gică Hagi l-a menajat pe fundașul Radu Drăgușin la partida cu Bosnia, lăsându-l în afara lotului alături de alți cinci titulari din confruntarea anterioară cu Suedia.</description>
     </item>
     <item>
@@ -326,6 +435,8 @@
       <link>https://izz.ro/extern/suedia-ameninta-ca-va-lovi-adanc-in-teritoriul-rusiei-in-caz-de-atac/</link>
       <guid>https://izz.ro/extern/suedia-ameninta-ca-va-lovi-adanc-in-teritoriul-rusiei-in-caz-de-atac/</guid>
       <pubDate>Thu, 01 Oct 2026 13:12:14 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/suedia-ameninta-rusia-daca-va-ataca-vom-lovi-in-adancul-teritoriului-sau.html">G4Media</source>
       <description>Un comandant militar suedez a anunțat o schimbare radicală de strategie, avertizând că armata va riposta direct pe teritoriul rus dacă țara va fi agresată.</description>
     </item>
     <item>
@@ -333,6 +444,8 @@
       <link>https://izz.ro/sport/nationala-suediei-are-sase-jucatori-indisponibili-inaintea-meciului-cu-bosnia/</link>
       <guid>https://izz.ro/sport/nationala-suediei-are-sase-jucatori-indisponibili-inaintea-meciului-cu-bosnia/</guid>
       <pubDate>Thu, 01 Oct 2026 12:44:29 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/nationala-suediei-lovita-de-un-virus-inaintea-meciului-cu-bosnia-mai-multi-jucatori-au-fost-lasati-acasa-693361.html">Antena Sport</source>
       <description>Selecționata Suediei nu se va baza pe șase fotbalisti la partida din Liga Națiunilor împotriva Bosniei; cinci jucători s-au îmbolnăvit de un virus, iar Alexander Isak este accidentat.</description>
     </item>
     <item>
@@ -340,20 +453,8 @@
       <link>https://izz.ro/auto/volvo-a-produs-doar-36-de-exemplare-ale-modelului-ex60-in-suedia/</link>
       <guid>https://izz.ro/auto/volvo-a-produs-doar-36-de-exemplare-ale-modelului-ex60-in-suedia/</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://piataauto.md/Stiri/2026/10/Suedezii-au-descoperit-cu-consternare-ca-Volvo-a-produs-doar-36-de-exemplare-de-EX60-in-Suedia-in-septembrie-riscand-sa-repede-esec-EX90/">Piata Auto MD</source>
       <description>Produccătorul auto Volvo a fabricat în luna septembrie doar 36 de unități ale noului model EX60 la uzina din Suedia, stârnind temeri privind repetarea problemelor întâmpinate anterior la lansarea SUV-ului electric EX90.</description>
-    </item>
-    <item>
-      <title>Cristiano Ronaldo a absentat de la antrenamentul Portugaliei din Suedia</title>
-      <link>https://izz.ro/sport/cristiano-ronaldo-a-absentat-de-la-antrenamentul-portugaliei-din-suedia/</link>
-      <guid>https://izz.ro/sport/cristiano-ronaldo-a-absentat-de-la-antrenamentul-portugaliei-din-suedia/</guid>
-      <pubDate>Tue, 29 Sep 2026 20:28:15 +0000</pubDate>
-      <description>Căpitanul naționalei Portugaliei, Cristiano Ronaldo, nu s-a antrenat alături de coechipierii săi la Malmo, alimentând speculațiile privind un posibil conflict cu selecționerul Jorge Jesus înaintea meciurilor din deplasare.</description>
-    </item>
-    <item>
-      <title>Un camion a pierdut tone de săpun lichid pe o șosea publică din Suedia</title>
-      <link>https://izz.ro/general/un-camion-a-pierdut-tone-de-sapun-lichid-pe-o-sosea-publica-din-suedia/</link>
-      <guid>https://izz.ro/general/un-camion-a-pierdut-tone-de-sapun-lichid-pe-o-sosea-publica-din-suedia/</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Traficul rutier pe traseul național 41 a fost grav afectat după ce un transportor a deversat cantități masive de substanță uleioasă, transformând carosabilul într-o suprafață extrem de periculoasă pe o lungime de zece kilometri.</description>
     </item>
 </channel></rss>

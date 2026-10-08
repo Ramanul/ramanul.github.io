@@ -1,23 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Franța — IZZ.ro</title>
   <link>https://izz.ro/subiect/franta/</link>
   <atom:link href="https://izz.ro/subiect/franta/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Franța pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
-      <title>Protestele liceenilor continuă în Franța în ciuda promisiunilor guvernamentale</title>
-      <link>https://izz.ro/extern/protestele-liceenilor-continua-in-franta-in-ciuda-promisiunilor-guvernamentale/</link>
-      <guid>https://izz.ro/extern/protestele-liceenilor-continua-in-franta-in-ciuda-promisiunilor-guvernamentale/</guid>
-      <pubDate>Thu, 08 Oct 2026 08:51:08 +0000</pubDate>
-      <description>Manifestanții francezi refuză soluțiile propuse de premierul Sébastien Lecornu privind reforma sistemului educațional, menținând protestele în stradă pe fondul unor presiuni internaționale exercitate de administrația americana.</description>
+      <title>Protele elevilor din Franța continuă în ciuda promisiunilor guvernamentale</title>
+      <link>https://izz.ro/extern/protele-elevilor-din-franta-continua-in-ciuda-promisiunilor-guvernamentale/</link>
+      <guid>https://izz.ro/extern/protele-elevilor-din-franta-continua-in-ciuda-promisiunilor-guvernamentale/</guid>
+      <pubDate>Thu, 08 Oct 2026 21:47:23 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/08/france-student-protests-schools-vow-to-continue">The Guardian</source>
+      <media:content url="https://izz.ro/extern/protele-elevilor-din-franta-continua-in-ciuda-promisiunilor-guvernamentale/cover.jpg?v=79afd4bc" medium="image" type="image/jpeg"/>
+      <description>Liceenii și cadrele didactice au blocat din nou unitățile de învățământ și au organizat marșuri în mai multe orașe franceze, cerând investiții reale pentru îmbunătățirea sistemului educațional.</description>
+    </item>
+    <item>
+      <title>General francez: Proiectul comun de tancuri cu Germania a eșuat</title>
+      <link>https://izz.ro/extern/general-francez-proiectul-comun-de-tancuri-cu-germania-a-esuat/</link>
+      <guid>https://izz.ro/extern/general-francez-proiectul-comun-de-tancuri-cu-germania-a-esuat/</guid>
+      <pubDate>Thu, 08 Oct 2026 17:37:30 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/french-top-general-acknowledges-franco-german-tank-program-failed/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/general-francez-proiectul-comun-de-tancuri-cu-germania-a-esuat/cover.jpg?v=6609bf73" medium="image" type="image/jpeg"/>
+      <description>Generalul Fabien Mandon a recunoscut că programul militar franco-german pentru un tanc de nouă generație s-a oprit, precizând că partea germană s-a retras din acest proiect strategic european.</description>
+    </item>
+    <item>
+      <title>Proteste violente ale elevilor și studenților în Franța și Belgia</title>
+      <link>https://izz.ro/extern/proteste-violente-ale-elevilor-si-studentilor-in-franta-si-belgia/</link>
+      <guid>https://izz.ro/extern/proteste-violente-ale-elevilor-si-studentilor-in-franta-si-belgia/</guid>
+      <pubDate>Thu, 08 Oct 2026 17:05:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/europa-sub-semnul-protestelor-ciocniri-intre-elevi-si-politie-in-franta-si-belgia-revolta-sociala-in-spania-668521.html">Observator</source>
+      <media:content url="https://izz.ro/extern/proteste-violente-ale-elevilor-si-studentilor-in-franta-si-belgia/cover.jpg?v=97567547" medium="image" type="image/jpeg"/>
+      <description>Mai multe orașe din vestul Europei sunt afectate de revolte sociale și manifestații stradale ample. Forțele de ordine au intervenit în forță în Franța și Belgia, unde mii de tineri protestează față de măsurile economice și majorarea taxelor de școlarizare.</description>
+    </item>
+    <item>
+      <title>Alegeri primare tensionate organizate de partidele de stânga din Franța</title>
+      <link>https://izz.ro/extern/alegeri-primare-tensionate-organizate-de-partidele-de-stanga-din-franta/</link>
+      <guid>https://izz.ro/extern/alegeri-primare-tensionate-organizate-de-partidele-de-stanga-din-franta/</guid>
+      <pubDate>Thu, 08 Oct 2026 16:45:15 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/playbook-paris-podcast/une-primaire-qui-va-laisser-des-traces/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/alegeri-primare-tensionate-organizate-de-partidele-de-stanga-din-franta/cover.jpg?v=42ee3ae7" medium="image" type="image/jpeg"/>
+      <description>Aproximativ 140.000 de alegători francezi votează în cadrul primarei organizate de Partidul Socialist și aliații săi, scrutin marcat de confruntări dure între favoritul Raphaël Glucksmann și contracandidații săi.</description>
     </item>
     <item>
       <title>Arestări masive și școli închise în Franța din cauza protestelor</title>
       <link>https://izz.ro/extern/arestari-masive-si-scoli-inchise-in-franta-din-cauza-protestelor/</link>
       <guid>https://izz.ro/extern/arestari-masive-si-scoli-inchise-in-franta-din-cauza-protestelor/</guid>
       <pubDate>Thu, 08 Oct 2026 08:05:12 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/protestele-continua-in-franta-224-de-scoli-sunt-inchise-iar-peste-6-000-de-persoane-au-fost-arestate-de-la-inceputul-manifestatiilor-3983375">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/arestari-masive-si-scoli-inchise-in-franta-din-cauza-protestelor/cover.jpg?v=e89e81b8" medium="image" type="image/jpeg"/>
       <description>Manifestațiile din Franța au dus la peste 6.000 de arestări de la sfârșitul lunii septembrie. Sute de școli au cursurile suspendate parțial sau total, iar autoritățile încearcă să redeschidă treptat unitățile de învățământ afectate de tensiuni.</description>
     </item>
     <item>
@@ -25,6 +61,9 @@
       <link>https://izz.ro/extern/elevii-din-franta-protesteaza-masiv-pe-strazile-marilor-orase-din-cauza/</link>
       <guid>https://izz.ro/extern/elevii-din-franta-protesteaza-masiv-pe-strazile-marilor-orase-din-cauza/</guid>
       <pubDate>Thu, 08 Oct 2026 05:43:48 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/08/thursday-briefing-why-young-people-are-taking-to-the-streets-across-france">The Guardian</source>
+      <media:content url="https://izz.ro/extern/elevii-din-franta-protesteaza-masiv-pe-strazile-marilor-orase-din-cauza/cover.jpg?v=d6845675" medium="image" type="image/jpeg"/>
       <description>O mișcare de protest condusă de tineri în Franța denunță degradarea clădirilor liceelor și deficitul de cadre didactice, atrâgând atenția publicului larg asupra inechităților majore din sistemul de învățământ.</description>
     </item>
     <item>
@@ -32,6 +71,9 @@
       <link>https://izz.ro/extern/comisarul-maros-sefcovic-incepe-o-vizita-oficiala-in-china/</link>
       <guid>https://izz.ro/extern/comisarul-maros-sefcovic-incepe-o-vizita-oficiala-in-china/</guid>
       <pubDate>Thu, 08 Oct 2026 04:05:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/brussels-playbook-podcast/can-europe-finally-get-tough-on-china/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/comisarul-maros-sefcovic-incepe-o-vizita-oficiala-in-china/cover.jpg?v=7b350023" medium="image" type="image/jpeg"/>
       <description>Oficialul european Maroš Šefčovič a călătorit în China pentru discuții axate pe deficitul comercial al Uniunii Europene, în contextul în care Franța și Germania cer o poziție comună mai fermă.</description>
     </item>
     <item>
@@ -39,6 +81,9 @@
       <link>https://izz.ro/extern/protestele-elevilor-din-franta-reflecta-nemultumiri-reale-si-traditia-strazii/</link>
       <guid>https://izz.ro/extern/protestele-elevilor-din-franta-reflecta-nemultumiri-reale-si-traditia-strazii/</guid>
       <pubDate>Thu, 08 Oct 2026 03:38:46 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/c6n9rgg80z94o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <media:content url="https://izz.ro/extern/protestele-elevilor-din-franta-reflecta-nemultumiri-reale-si-traditia-strazii/cover.jpg?v=3b3f6244" medium="image" type="image/jpeg"/>
       <description>Blocadele și marșurile organizate de elevi în Franța au la bază revendicări concrete legate de politici, urmând o metodă tradițională a cetățenilor de a-și exprima nemulțumirile direct în spațiul public.</description>
     </item>
     <item>
@@ -46,6 +91,9 @@
       <link>https://izz.ro/extern/politia-franceza-a-suspendat-folosirea-grenadelor-paralizante-la-protestele/</link>
       <guid>https://izz.ro/extern/politia-franceza-a-suspendat-folosirea-grenadelor-paralizante-la-protestele/</guid>
       <pubDate>Wed, 07 Oct 2026 20:04:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/07/french-police-suspend-use-stun-grenades-high-school-protester-loses-hand">The Guardian, Observator</source>
+      <media:content url="https://izz.ro/extern/politia-franceza-a-suspendat-folosirea-grenadelor-paralizante-la-protestele/cover.jpg?v=4aecee44" medium="image" type="image/jpeg"/>
       <description>Guvernul francez a oprit utilizarea grenadelor de către forțele de ordine în timpul demonstrațiilor liceenilor. Decizia a fost luată miercuri, după ce un adolescent de 15 ani și-a pierdut o mână în urma unor confruntări violente recente cu poliția antirevoltă.</description>
     </item>
     <item>
@@ -53,6 +101,9 @@
       <link>https://izz.ro/politic/premierul-frantei-a-promis-masuri-economice-si-deblocarea-rezervelor-de/</link>
       <guid>https://izz.ro/politic/premierul-frantei-a-promis-masuri-economice-si-deblocarea-rezervelor-de/</guid>
       <pubDate>Wed, 07 Oct 2026 20:02:07 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/pe-fondul-protestelor-studentilor-si-al-presiunii-exercitate-asupra-gospodariilor-de-preturile-la-combustibili-premierul-lecornu-a-promis-noi-masuri-pentru-a-face-fata-crizei-multiple-din-franta.html">G4Media</source>
+      <media:content url="https://izz.ro/politic/premierul-frantei-a-promis-masuri-economice-si-deblocarea-rezervelor-de/cover.jpg?v=85cbc59b" medium="image" type="image/jpeg"/>
       <description>Sébastien Lecornu a anunțat eliberarea stocurilor strategice de carburanți pentru temperarea prețurilor și a promis soluții pentru revendicările tinerilor care protestează pe fondul crizei multiple din țară.</description>
     </item>
     <item>
@@ -60,6 +111,9 @@
       <link>https://izz.ro/politic/romania-cumpara-12-elicoptere-airbus-h225m-prin-finantare-europeana/</link>
       <guid>https://izz.ro/politic/romania-cumpara-12-elicoptere-airbus-h225m-prin-finantare-europeana/</guid>
       <pubDate>Wed, 07 Oct 2026 19:35:11 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.zdp.ro/airbus-a-anuntat-ca-romania-a-semnat-contractul-pentru-achizitia-a-12-elicoptere-h225m.html">Ziarul de Ploiești</source>
+      <media:content url="https://izz.ro/politic/romania-cumpara-12-elicoptere-airbus-h225m-prin-finantare-europeana/cover.jpg?v=5daad8fa" medium="image" type="image/jpeg"/>
       <description>Guvernul român a contractat achiziția a 12 elicoptere militare H225M de la constructorul Airbus, tranzacția fiind sprijinită financiar prin fonduri europene asigurate prin programul SAFE.</description>
     </item>
     <item>
@@ -67,6 +121,9 @@
       <link>https://izz.ro/extern/profesorii-din-franta-se-confrunta-cu-violenta-si-teama-in-unitatile-de/</link>
       <guid>https://izz.ro/extern/profesorii-din-franta-se-confrunta-cu-violenta-si-teama-in-unitatile-de/</guid>
       <pubDate>Wed, 07 Oct 2026 19:11:27 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/educatie/profesorii-din-franta-au-ajuns-sa-se-teama-sa-intre-la-clasa-marturia-unei-romance-despre-cauza-profunda-a-protestelor-din-licee">Spotmedia</source>
+      <media:content url="https://izz.ro/extern/profesorii-din-franta-se-confrunta-cu-violenta-si-teama-in-unitatile-de/cover.jpg?v=9bb35ccf" medium="image" type="image/jpeg"/>
       <description>O profesoară româncă stabilită în Franța explică faptul că protestele din licee ascund o criză gravă de indisciplină și violență, cadrele didactice ajungând să se teamă în timpul orelor de curs.</description>
     </item>
     <item>
@@ -74,6 +131,9 @@
       <link>https://izz.ro/extern/premierul-frantei-promite-masuri-pentru-scoli-si-ieftinirea-carburantilor/</link>
       <guid>https://izz.ro/extern/premierul-frantei-promite-masuri-pentru-scoli-si-ieftinirea-carburantilor/</guid>
       <pubDate>Wed, 07 Oct 2026 18:45:33 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/france-prime-minister-sebastien-lecornu-schools-fuel-agriculture-speech/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/premierul-frantei-promite-masuri-pentru-scoli-si-ieftinirea-carburantilor/cover.jpg?v=453b2e71" medium="image" type="image/jpeg"/>
       <description>Sébastien Lecornu a anunțat eliberarea de rezerve strategice de combustibil pentru reducerea prețurilor și a promis soluții pentru problemele din unitățile de învățământ, încercând să tempereze protestele tinerilor.</description>
     </item>
     <item>
@@ -81,6 +141,9 @@
       <link>https://izz.ro/extern/franta-si-germania-cer-ue-un-instrument-comercial-agresiv-impotriva-chinei/</link>
       <guid>https://izz.ro/extern/franta-si-germania-cer-ue-un-instrument-comercial-agresiv-impotriva-chinei/</guid>
       <pubDate>Wed, 07 Oct 2026 17:11:20 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/mecanism-franco-german-anti-china-bazooka-comerciala-strategie-comert-arma-mercantilism-beijing.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/extern/franta-si-germania-cer-ue-un-instrument-comercial-agresiv-impotriva-chinei/cover.jpg?v=3019190a" medium="image" type="image/jpeg"/>
       <description>Emmanuel Macron și Friedrich Merz solicită Ursulei von der Leyen măsuri comerciale dure, inclusiv excluderea unor actori de pe piața internă, pentru a contracara dependențele economice și presiunile globale.</description>
     </item>
     <item>
@@ -88,6 +151,8 @@
       <link>https://izz.ro/economic/guvernul-romaniei-achizitioneaza-12-elicoptere-militare-airbus-pentru-757-de/</link>
       <guid>https://izz.ro/economic/guvernul-romaniei-achizitioneaza-12-elicoptere-militare-airbus-pentru-757-de/</guid>
       <pubDate>Wed, 07 Oct 2026 12:43:58 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://mytex.ro/expres/guvernul-romaniei-cumpara-12-elicoptere-airbus-h225m-care-vor-interactiona-cu-platforma-iar-ghimbav-brasov/">MyTex</source>
       <description>Executivul român a semnat contractul pentru cumpărarea a 12 elicoptere de transport Airbus H225M, o investiție derulată prin intermediul Franței și al Comisiei Europene care va sprijini activitatea platformei IAR din Ghimbav.</description>
     </item>
     <item>
@@ -95,6 +160,8 @@
       <link>https://izz.ro/extern/germania-si-franta-clarifica-faptul-ca-promisiunea-de-diesel-catre-sua-nu/</link>
       <guid>https://izz.ro/extern/germania-si-franta-clarifica-faptul-ca-promisiunea-de-diesel-catre-sua-nu/</guid>
       <pubDate>Wed, 07 Oct 2026 11:39:29 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/berlin-und-paris-diesel-versprechen-an-trump-erfordert-keine-neue-freigabe/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Berlinul și Parisul au anunțat că rezervele de combustibil promise anterior administrației Trump provin din stocuri deja aprobate în martie. Această decizie indică faptul că angajamentul recent al Europei este mai restrâns decât se anticipa.</description>
     </item>
     <item>
@@ -102,6 +169,8 @@
       <link>https://izz.ro/extern/franta-respinge-ajutorul-bce-in-plina-criza-a-datoriei-publice/</link>
       <guid>https://izz.ro/extern/franta-respinge-ajutorul-bce-in-plina-criza-a-datoriei-publice/</guid>
       <pubDate>Wed, 07 Oct 2026 08:05:28 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/franta-admite-ca-situatia-financiara-e-grava-dar-nu-are-nevoie-de-ajutorul-bce-in-acest-moment-de-ce-se-tem-unii-analisti-de-extinderea-crizei-2369310">HotNews</source>
       <description>Guvernul francez recunoaște dificultățile financiare majore prin care trece țara, dar exclude necesitatea unei intervenții din partea Băncii Centrale Europene, în timp ce moneda unică a înregistrat scăderi semnificative.</description>
     </item>
     <item>
@@ -109,6 +178,8 @@
       <link>https://izz.ro/extern/protestele-liceenilor-din-paris-au-fost-reprimate-cu-violenta-de-fortele-de/</link>
       <guid>https://izz.ro/extern/protestele-liceenilor-din-paris-au-fost-reprimate-cu-violenta-de-fortele-de/</guid>
       <pubDate>Wed, 07 Oct 2026 05:00:36 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/oct/07/mother-parisian-student-violence-schools-protest-presidential-election">The Guardian</source>
       <description>Elevii francezi au ieșit în stradă la Paris cerând investiții în școli, profesori suficienți și clase mai mici, dar cererile lor rezonabile s-au izbit de o violență extremă din partea autorităților.</description>
     </item>
     <item>
@@ -116,6 +187,8 @@
       <link>https://izz.ro/extern/donald-trump-atribuie-protestele-elevilor-din-franta-imigratiei-masive-si/</link>
       <guid>https://izz.ro/extern/donald-trump-atribuie-protestele-elevilor-din-franta-imigratiei-masive-si/</guid>
       <pubDate>Tue, 06 Oct 2026 19:32:09 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/trump-spune-ca-protestele-din-franta-nu-au-legatura-cu-scoala-islamul-si-imigratia-necontrolata-sunt-responsabile">Spotmedia</source>
       <description>Președintele american susține că manifestațiile ample din liceele franceze nu au legătură cu sistemul de învățământ, ci reflectă o migrație necontrolată care amenință identitatea națională a țării.</description>
     </item>
     <item>
@@ -123,6 +196,8 @@
       <link>https://izz.ro/extern/emmanuel-macron-convoaca-o-reuniune-de-criza-din-cauza-protestelor-violente-ale/</link>
       <guid>https://izz.ro/extern/emmanuel-macron-convoaca-o-reuniune-de-criza-din-cauza-protestelor-violente-ale/</guid>
       <pubDate>Tue, 06 Oct 2026 18:38:46 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/macron-convoaca-o-reuniune-de-criza-pe-fondul-extinderii-protestelor-elevilor-6-547-de-persoane-retinute-pana-acum-3981309">Digi24 Extern</source>
       <description>Președintele Franței organizează o ședință extraordinară alături de miniștrii cheie pentru a gestiona amplificarea demonstrațiilor și miile de rețineri înregistrate în rândul tinerilor.</description>
     </item>
     <item>
@@ -130,6 +205,8 @@
       <link>https://izz.ro/extern/presa-britanica-cere-atentie-fata-de-protestele-elevilor-din-franta/</link>
       <guid>https://izz.ro/extern/presa-britanica-cere-atentie-fata-de-protestele-elevilor-din-franta/</guid>
       <pubDate>Tue, 06 Oct 2026 18:31:54 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/oct/06/the-guardian-view-on-the-french-school-protests-the-political-class-needs-to-heed-the-voice-of-students">The Guardian</source>
       <description>Editorialul publicat de The Guardian subliniază că noua generație de elevi francezi se confruntă cu provocări majore și are nevoie de un sistem educațional finanțat corespunzător, nu de ignorarea revendicărilor actuale.</description>
     </item>
     <item>
@@ -137,20 +214,17 @@
       <link>https://izz.ro/extern/guvernul-francez-organizeaza-o-reuniune-de-criza-privind-protestele-din-scoli/</link>
       <guid>https://izz.ro/extern/guvernul-francez-organizeaza-o-reuniune-de-criza-privind-protestele-din-scoli/</guid>
       <pubDate>Tue, 06 Oct 2026 18:21:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/reuniune-de-urgenta-la-elysee-guvernul-francez-se-teme-de-o-contagiune-sociala-a-revoltei-din-scoli-pe-fondul-scumpirilor.html">G4Media</source>
       <description>Președintele Emmanuel Macron a convocat o ședință de urgență la Palatul Élysée, alături de premier și miniștrii cheie, din cauza extinderii revoltelor elevilor provocate de nemulțumirile sociale și scumpiri.</description>
-    </item>
-    <item>
-      <title>Protestele elevilor din Franța au degenerat în confruntări violente</title>
-      <link>https://izz.ro/extern/protestele-elevilor-din-franta-au-degenerat-in-confruntari-violente/</link>
-      <guid>https://izz.ro/extern/protestele-elevilor-din-franta-au-degenerat-in-confruntari-violente/</guid>
-      <pubDate>Tue, 06 Oct 2026 18:03:19 +0000</pubDate>
-      <description>Sute de adolescenți au ieșit pe străzile din Paris și Marsilia pentru a cere suplimentarea fondurilor școlare și oprirea violențelor polițiștilor, manifestațiile fiind dispersate cu gaze lacrimogene.</description>
     </item>
     <item>
       <title>Proteste ample ale liceenilor francezi din cauza infrastructurii precare</title>
       <link>https://izz.ro/extern/proteste-ample-ale-liceenilor-francezi-din-cauza-infrastructurii-precare/</link>
       <guid>https://izz.ro/extern/proteste-ample-ale-liceenilor-francezi-din-cauza-infrastructurii-precare/</guid>
       <pubDate>Tue, 06 Oct 2026 17:54:03 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/de-la-sobolani-si-tavane-degradate-la-clase-cu-36-de-elevi-nemultumirile-care-au-scos-sute-de-mii-de-liceeni-francezi-in-strada">Spotmedia</source>
       <description>Sute de licee din Franța au fost blocate de elevi în cadrul unor manifestații ample generate de inegalitățile din educație, starea avansată de degradare a clădirilor și aglomerația din sălile de clasă.</description>
     </item>
     <item>
@@ -158,6 +232,8 @@
       <link>https://izz.ro/extern/proteste-violente-de-amploare-cu-peste-250-000-de-participanti-in-franta/</link>
       <guid>https://izz.ro/extern/proteste-violente-de-amploare-cu-peste-250-000-de-participanti-in-franta/</guid>
       <pubDate>Tue, 06 Oct 2026 17:23:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/protestele-liceenilor-se-extind-in-franta-sindicatele-se-alatura-manifestatiilor-peste-5-000-de-de-persoane-au-fost-retinute-majoritatea-minori">Spotmedia</source>
       <description>Manifestațiile liceenilor și sindicaliștilor din Franța au degenerat în violențe în mai multe orașe, forțele de ordine intervenind cu gaze lacrimogene împotriva mulțimii.</description>
     </item>
     <item>
@@ -165,6 +241,8 @@
       <link>https://izz.ro/extern/protestele-masive-din-franta-si-spania-genereaza-tensiuni-majore-privind/</link>
       <guid>https://izz.ro/extern/protestele-masive-din-franta-si-spania-genereaza-tensiuni-majore-privind/</guid>
       <pubDate>Tue, 06 Oct 2026 17:10:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/europa-fierbe-elevii-se-lupta-cu-jandarmii-in-franta-iar-in-spania-oamenii-vor-solutii-pentru-chiriile-mari-668323.html">Observator</source>
       <description>Aproximativ o jumătate de milion de francezi au blocat străzile din Paris, elevii ciocnindu-se cu jandarmii împotriva sistemului educațional. În paralel, locuitorii din Barcelona protestează față de prețurile excesive ale chiriilor.</description>
     </item>
     <item>
@@ -172,6 +250,8 @@
       <link>https://izz.ro/extern/guvernul-francez-cauta-solutii-pentru-reducerea-cheltuielilor-publice-in-pline/</link>
       <guid>https://izz.ro/extern/guvernul-francez-cauta-solutii-pentru-reducerea-cheltuielilor-publice-in-pline/</guid>
       <pubDate>Tue, 06 Oct 2026 16:49:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dw.com/en/france-s-conundrum-how-to-cut-spending-amid-protests/a-79563475?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
       <description>Premierul Lecornu încearcă să îmbunătățească sistemul educațional în timp ce statul implementează măsuri de austeritate, o problemă întâlnită în mai multe state din Uniunea Europeană.</description>
     </item>
     <item>
@@ -179,6 +259,8 @@
       <link>https://izz.ro/extern/franta-a-testat-cu-succes-o-racheta-nucleara-m51-lansata-de-pe-un-submarin/</link>
       <guid>https://izz.ro/extern/franta-a-testat-cu-succes-o-racheta-nucleara-m51-lansata-de-pe-un-submarin/</guid>
       <pubDate>Tue, 06 Oct 2026 15:36:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.profit.ro/stiri/video-franta-a-testat-o-racheta-nucleara-m51-lansata-de-pe-un-submarin-22806096?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Armata franceză a efectuat în premieră un test cu o rachetă intercontinentală strategică M51, lansată de pe un submarin nuclear în largul coastelor din vestul țării, în prezența președintelui Emmanuel Macron.</description>
     </item>
     <item>
@@ -186,6 +268,8 @@
       <link>https://izz.ro/extern/premierul-francez-apara-interventia-fortelor-de-ordine-in-timpul-protestelor/</link>
       <guid>https://izz.ro/extern/premierul-francez-apara-interventia-fortelor-de-ordine-in-timpul-protestelor/</guid>
       <pubDate>Tue, 06 Oct 2026 15:13:35 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/sebastien-lecornu-defends-police-handling-france-student-protests/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Sébastien Lecornu a declarat în parlamentul de la Paris că acțiunile poliției au fost provocate de violențele urbane, respingând acuzațiile de brutalitate sistemică după ce doi adolescenți au suferit rani grave în timpul manifestațiilor.</description>
     </item>
     <item>
@@ -193,6 +277,8 @@
       <link>https://izz.ro/sport/franta-a-invins-belgia-cu-4-1-in-liga-natiunilor/</link>
       <guid>https://izz.ro/sport/franta-a-invins-belgia-cu-4-1-in-liga-natiunilor/</guid>
       <pubDate>Tue, 06 Oct 2026 05:25:45 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://cvlpress.ro/06.10.2026/liga-natiunilor-franta-nimicitoare-pe-final/">Cuvântul Libertății</source>
       <description>Deși Belgia a condus cu 1-0, reprezentativa Franței s-a impus categoric în etapa a patra din Liga Națiunilor, grație golurilor marcate pe final de meci de jucătorii reervă.</description>
     </item>
     <item>
@@ -200,6 +286,8 @@
       <link>https://izz.ro/economic/dacia-inregistreaza-un-nou-declin-pe-piata-auto-din-franta/</link>
       <guid>https://izz.ro/economic/dacia-inregistreaza-un-nou-declin-pe-piata-auto-din-franta/</guid>
       <pubDate>Tue, 06 Oct 2026 04:23:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/dacia-pierde-teren-in-fata-asaltului-masinilor-electrice-si-al-chinezilor-in-franta-22803728?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Marca Dacia a pierdut teren pe piața franceză în luna septembrie, confruntându-se cu o scădere a vânzărilor pe fondul concurenței tot mai puternice venite din partea automobilelor electrice și a producătorilor din China.</description>
     </item>
     <item>
@@ -207,6 +295,8 @@
       <link>https://izz.ro/extern/proteste-violente-in-franta-soldate-cu-mii-de-arestari-de-elevi/</link>
       <guid>https://izz.ro/extern/proteste-violente-in-franta-soldate-cu-mii-de-arestari-de-elevi/</guid>
       <pubDate>Tue, 06 Oct 2026 03:56:27 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.criticarad.ro/proteste-elevi-franta/">Critic Arad</source>
       <description>Manifestațiile pornite de la un liceu din Créteil au generat aproape două mii de rețineri, zeci de unități închise preventiv și numeroase incidente violente cu forțele de ordine.</description>
     </item>
     <item>
@@ -214,6 +304,8 @@
       <link>https://izz.ro/economic/costurile-de-imprumut-ale-frantei-cresc-din-cauza-riscului-unei-crize-a-datoriei/</link>
       <guid>https://izz.ro/economic/costurile-de-imprumut-ale-frantei-cresc-din-cauza-riscului-unei-crize-a-datoriei/</guid>
       <pubDate>Tue, 06 Oct 2026 02:00:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.politico.eu/article/france-debt-trouble-memories-euro-crisis/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Dobânzile uriașe la împrumuturile Franței amplifică temerile investitorilor privind o criză a datoriei publice în a doua economie a zonei euro, stârnind îngrijorări similare crizei financiare europene din urmă cu 15 ani.</description>
     </item>
     <item>
@@ -221,6 +313,8 @@
       <link>https://izz.ro/extern/jean-luc-melenchon-sustine-protestele-studentesti-din-franta-in-ciuda/</link>
       <guid>https://izz.ro/extern/jean-luc-melenchon-sustine-protestele-studentesti-din-franta-in-ciuda/</guid>
       <pubDate>Tue, 06 Oct 2026 02:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/france-jean-luc-melenchon-doubles-down-student-protests-despite-violent-clashes/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Liderul radical Jean-Luc Mélenchon îndeamnă cetățenii să participe la manifestațiile organizate în sprijinul elevilor și studenților care blochează unitățile de învățământ, comparând mișcarea cu cea din mai 1968.</description>
     </item>
     <item>
@@ -228,6 +322,8 @@
       <link>https://izz.ro/sport/franta-a-obtinut-o-victorie-categorica-impotriva-belgiei-in-liga-natiunilor/</link>
       <guid>https://izz.ro/sport/franta-a-obtinut-o-victorie-categorica-impotriva-belgiei-in-liga-natiunilor/</guid>
       <pubDate>Mon, 05 Oct 2026 21:02:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://observatornews.ro/sport/rezultate-uefa-nations-league-franta-demonstratie-de-forta-cu-belgia-668233.html">Observator</source>
       <description>Echipele naționale ale Franței, Italiei, Ungariei și Bosniei-Herțegovina au înregistrat victorii importante în partidele disputate luni seară în cadrul competiției UEFA Nations League.</description>
     </item>
     <item>
@@ -235,6 +331,8 @@
       <link>https://izz.ro/sport/prestatia-lui-andy-diouf-in-meciul-franta-belgia-imparte-suporterii-in-tabere/</link>
       <guid>https://izz.ro/sport/prestatia-lui-andy-diouf-in-meciul-franta-belgia-imparte-suporterii-in-tabere/</guid>
       <pubDate>Mon, 05 Oct 2026 20:51:22 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/nazionali/diouf-francia-belgio-tifosi-critica-elogi/">FC Inter 1908</source>
       <description>Mijlocașul Andy Diouf a fost integralist în victoria obținută de Franța cu 4-1 în fața Belgiei, însă evoluția sa a generat controverse în rândul fanilor din cauza unei erori la golul adversarilor.</description>
     </item>
     <item>
@@ -242,6 +340,8 @@
       <link>https://izz.ro/extern/proteste-masive-in-franta-dupa-ce-un-elev-si-a-pierdut-mana/</link>
       <guid>https://izz.ro/extern/proteste-masive-in-franta-dupa-ce-un-elev-si-a-pierdut-mana/</guid>
       <pubDate>Mon, 05 Oct 2026 15:50:50 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/05/schoolboy-loses-hand-police-stun-grenade-french-school-protests">The Guardian</source>
       <description>Mii de elevi francezi participă la manifestații și blocaje în toată țara, nemulțumiți de condițiile din școli și de violența intervenției forțelor de ordine, în urma unui incident grav în care un minor a fost rănit.</description>
     </item>
     <item>
@@ -249,6 +349,8 @@
       <link>https://izz.ro/extern/guvernul-francez-isi-schimba-strategia-si-incearca-sa-gestioneze-protestele/</link>
       <guid>https://izz.ro/extern/guvernul-francez-isi-schimba-strategia-si-incearca-sa-gestioneze-protestele/</guid>
       <pubDate>Mon, 05 Oct 2026 15:32:34 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/playbook-paris-podcast/blocages-lexecutif-change-de-strategie/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Înaintea marilor manifestații anunțate pentru începutul lunii octombrie și pe fondul tensiunilor din rândul elevilor, executivul de la Paris a demarat consultări pentru a soluționa revendicările tinerilor.</description>
     </item>
     <item>
@@ -256,6 +358,8 @@
       <link>https://izz.ro/politic/nicusor-dan-a-refuzat-cetatenia-franceza-primita-in-perioada-studiilor-la-paris/</link>
       <guid>https://izz.ro/politic/nicusor-dan-a-refuzat-cetatenia-franceza-primita-in-perioada-studiilor-la-paris/</guid>
       <pubDate>Mon, 05 Oct 2026 15:32:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.profit.ro/stiri/politic/nicusor-dan-divulga-mi-s-a-propus-sa-iau-si-cetatenia-franceza-am-zis-nu-amintiri-despre-cei-6-ani-de-studiu-in-franta-22803841?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Actualul politician a povestit că, în cei șase ani în care a urmat cursurile universitare în Franța, autoritățile locale i-au propus să obțină cetățenia franceză, însă a optat să refuze și să revină în România.</description>
     </item>
     <item>
@@ -263,6 +367,8 @@
       <link>https://izz.ro/extern/analiza-privind-riscurile-economice-si-politice-majore-cu-care-se-confrunta/</link>
       <guid>https://izz.ro/extern/analiza-privind-riscurile-economice-si-politice-majore-cu-care-se-confrunta/</guid>
       <pubDate>Mon, 05 Oct 2026 15:11:51 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/blogurile-adevarul/de-ce-franta-risca-sa-se-duca-de-rapa-2561959.html">Adevărul</source>
       <description>Un comentariu critic aduce în atenție problemele structurale grave prin care trece statul francez, avertizând asupra unei posibile crize majore în perioada următoare.</description>
     </item>
     <item>
@@ -270,6 +376,8 @@
       <link>https://izz.ro/extern/protestele-tinerilor-din-franta-si-spania-semnaleaza-o-nemultumire-profunda/</link>
       <guid>https://izz.ro/extern/protestele-tinerilor-din-franta-si-spania-semnaleaza-o-nemultumire-profunda/</guid>
       <pubDate>Mon, 05 Oct 2026 14:55:44 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/05/protests-in-france-and-spain-appear-disparate-but-core-issues-are-the-same">The Guardian</source>
       <description>Zeci de mii de persoane au ieșit în stradă în Spania din cauza crizei locuințelor, în timp ce în Franța elevii protestează împotriva sistemului educațional degradat, cerând măsuri concrete de la guvernanți.</description>
     </item>
     <item>
@@ -277,6 +385,8 @@
       <link>https://izz.ro/extern/bloomberg-considera-franta-noua-veriga-slaba-a-economiei-europene/</link>
       <guid>https://izz.ro/extern/bloomberg-considera-franta-noua-veriga-slaba-a-economiei-europene/</guid>
       <pubDate>Mon, 05 Oct 2026 12:14:18 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/bloomberg-franta-noua-veriga-slaba-a-europei-dupa-un-deceniu-cu-emmanuel-macron-presedinte.html">Curs de Guvernare</source>
       <description>Randamentul obligațiunilor suverane franceze pe zece ani a depășit temporar pragul de 5%, cel mai înalt nivel înregistrat din iulie 2002, iar prima de risc față de Germania a crescut semnificativ după un deceniu cu președintele Emmanuel Macron.</description>
     </item>
     <item>
@@ -284,6 +394,8 @@
       <link>https://izz.ro/auto/grupul-renault-va-investi-zece-miliarde-de-euro-in-vehicule-electrice-in/</link>
       <guid>https://izz.ro/auto/grupul-renault-va-investi-zece-miliarde-de-euro-in-vehicule-electrice-in/</guid>
       <pubDate>Mon, 05 Oct 2026 08:37:19 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.autocritica.ro/live-news/renault-va-investi-10-miliarde-de-euro-in-dezvoltarea-modelelor-electrice-in-urmatorii-5-ani/">AutoCritica</source>
       <description>Conducerea companiei auto franceze a anunțat un nou plan masiv de finanțare pentru a spori accesibilitatea mașinilor ecologice și a continua transformarea industrială începută în Franța.</description>
     </item>
     <item>
@@ -291,6 +403,8 @@
       <link>https://izz.ro/auto/un-sofer-elvetian-a-scapat-de-amenda-dupa-ce-a-condus-cu-312-km-h-in-franta/</link>
       <guid>https://izz.ro/auto/un-sofer-elvetian-a-scapat-de-amenda-dupa-ce-a-condus-cu-312-km-h-in-franta/</guid>
       <pubDate>Mon, 05 Oct 2026 06:25:43 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.g4media.ro/un-elvetian-a-fost-prins-cu-312-kilometri-pe-ora-pe-o-autostrada-franceza-ar-putea-scapa-de-pedeapsa-dupa-ce-i-a-fost-confiscat-autoturismul-un-porsche-gt3-radarele-franceze-daca-sunt-de-generat.html">G4Media</source>
       <description>Prins pe o autostradă franceză la volanul unui Porsche GT3 cu o viteză extremă, un elvețian ar putea evita sancțiunea deoarece radarele locale nu sunt calibrate pentru asemenea valori.</description>
     </item>
     <item>
@@ -298,6 +412,8 @@
       <link>https://izz.ro/tech/seria-oppo-find-x10-debuteaza-in-europa-la-preturi-ridicate/</link>
       <guid>https://izz.ro/tech/seria-oppo-find-x10-debuteaza-in-europa-la-preturi-ridicate/</guid>
       <pubDate>Mon, 05 Oct 2026 05:53:07 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/05/oppo-find-x10-preturi-europa/">Connect.ro</source>
       <description>Telefoanele Oppo Find X10 și X10 Pro Max vor fi lansate în Europa pe 21 octombrie, cu prețuri cuprinse între 1.299 și 1.799 de euro. Modelele destinate pieței europene vor avea baterii mai mici comparativ cu versiunile din China.</description>
     </item>
     <item>
@@ -305,6 +421,8 @@
       <link>https://izz.ro/extern/oficialii-comisiei-europene-manifesta-un-interes-neobisnuit-pentru-posturile/</link>
       <guid>https://izz.ro/extern/oficialii-comisiei-europene-manifesta-un-interes-neobisnuit-pentru-posturile/</guid>
       <pubDate>Mon, 05 Oct 2026 04:05:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/brussels-playbook-podcast/the-race-for-the-eus-plum-diplomatic-jobs-begins/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Lupta pentru funcțiile diplomatice de rang înalt din cadrul UE atrage numeroși oficiali din Comisie. Jurnaliștii analizează impactul acestui interes asupra atmosferei politice din Bruxelles, alături de evoluția protestelor studențești din Franța.</description>
     </item>
     <item>
@@ -312,6 +430,8 @@
       <link>https://izz.ro/sport/luca-marchegiani-a-analizat-parcursul-si-strategia-nationalei-italiei/</link>
       <guid>https://izz.ro/sport/luca-marchegiani-a-analizat-parcursul-si-strategia-nationalei-italiei/</guid>
       <pubDate>Sun, 04 Oct 2026 20:15:40 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/nazionali/marchegiani-italia-mancini-frattesi-inter/">FC Inter 1908</source>
       <description>Fostul portar italian a comentat evoluțiile echipei naționale sub conducerea lui Roberto Mancini, evidențiind aspecte tactice și perspectivele de viitor în Liga Națiunilor.</description>
     </item>
     <item>
@@ -319,6 +439,8 @@
       <link>https://izz.ro/extern/protestele-elevilor-francezi-afecteaza-sute-de-unitati-de-invatamant/</link>
       <guid>https://izz.ro/extern/protestele-elevilor-francezi-afecteaza-sute-de-unitati-de-invatamant/</guid>
       <pubDate>Sun, 04 Oct 2026 17:16:20 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/revolutia-elevilor-din-franta-un-licean-explica-2561732.html">Adevărul</source>
       <description>Mișcarea socială denumită „Revoluția Elevilor” continuă amplu pe teritoriul Franței, tinerii cerând autorităților să le ofere atenție reală și respect față de revendicările lor.</description>
     </item>
     <item>
@@ -326,6 +448,8 @@
       <link>https://izz.ro/economic/romania-ramane-liderul-european-in-productia-de-nuci-in-ciuda-secetei/</link>
       <guid>https://izz.ro/economic/romania-ramane-liderul-european-in-productia-de-nuci-in-ciuda-secetei/</guid>
       <pubDate>Sun, 04 Oct 2026 11:13:43 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/romania-va-asigura-43-din-productia-totala-de-nuci-a-ue-suntem-lideri-pe-aceasta-piata-iar-interesul-pentru-livezile-intensive-este-in-crestere_977736.html">Economica</source>
       <description>Conform unui studiu USDA, România estimează o producție de 59.000 de tone de nuci. Deși seceta a afectat vestul țării, statul român se menține pe primul loc în Europa, devansând Franța.</description>
     </item>
     <item>
@@ -333,6 +457,8 @@
       <link>https://izz.ro/sport/waly-diouf-comenteaza-ascensiunea-fratelui-sau-la-nationala-frantei/</link>
       <guid>https://izz.ro/sport/waly-diouf-comenteaza-ascensiunea-fratelui-sau-la-nationala-frantei/</guid>
       <pubDate>Sun, 04 Oct 2026 11:08:26 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/news/interviste/diouf-fratello-ruolo-inter-francia/">FC Inter 1908</source>
       <description>Înaintea meciului Franței cu Belgia, Waly Diouf a vorbit despre mândria familiei sale privind convocarea fratelui său la reprezentativă, subliniind importanța acestui obiectiv major atins.</description>
     </item>
     <item>
@@ -340,20 +466,8 @@
       <link>https://izz.ro/economic/renault-group-promite-investitii-uriase-in-franta-dar-solicita-predictibilitate/</link>
       <guid>https://izz.ro/economic/renault-group-promite-investitii-uriase-in-franta-dar-solicita-predictibilitate/</guid>
       <pubDate>Sun, 04 Oct 2026 05:38:33 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/renault-grup-investitii-franta_982596.html">Economica</source>
       <description>Șeful companiei auto, François Provost, a anunțat un plan de 10 miliarde de euro pentru producția de vehicule electrice. Solicitarea privind stabilitatea fiscală vine la scurt timp după prezentarea proiectului de buget pe 2027.</description>
-    </item>
-    <item>
-      <title>Renault investește peste 10 miliarde de euro în Franța pentru mașini electrice accesibile</title>
-      <link>https://izz.ro/auto/renault-investeste-peste-10-miliarde-de-euro-in-franta-pentru-masini-electrice/</link>
-      <guid>https://izz.ro/auto/renault-investeste-peste-10-miliarde-de-euro-in-franta-pentru-masini-electrice/</guid>
-      <pubDate>Sun, 04 Oct 2026 05:25:00 +0000</pubDate>
-      <description>Grupul francez Renault a anunțat un plan masiv de investiții de peste 10 miliarde de euro în Franța, întins pe o perioadă de cinci ani. Fondurile vor fi direcționate spre consolidarea industriei auto locale și dezvoltarea unei game noi de vehicule electrice cu prețuri mai accesibile. Această strategie urmărește contracararea concurenței venite din partea mărcilor chinezești pe piața europeană.</description>
-    </item>
-    <item>
-      <title>Protestele elevilor din Franța au scăpat de sub control, avertizează șeful poliției din Paris</title>
-      <link>https://izz.ro/extern/seful-politiei-din-paris-avertizeaza-ca-protestele-elevilor-din-franta-au/</link>
-      <guid>https://izz.ro/extern/seful-politiei-din-paris-avertizeaza-ca-protestele-elevilor-din-franta-au/</guid>
-      <pubDate>Sat, 03 Oct 2026 19:25:43 +0000</pubDate>
-      <description>Patrice Faure, șeful poliției din Paris, a declarat că mișcarea de protest a elevilor extinsă la nivel național a scăpat de sub control. Acesta a cerut manifestanților să revină la acțiuni pașnice și a avertizat că autoritățile vor interveni pentru menținerea ordinii publice.</description>
     </item>
 </channel></rss>

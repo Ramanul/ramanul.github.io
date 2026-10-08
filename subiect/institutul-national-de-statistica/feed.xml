@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Institutul Naţional de Statistică — IZZ.ro</title>
   <link>https://izz.ro/subiect/institutul-national-de-statistica/</link>
   <atom:link href="https://izz.ro/subiect/institutul-national-de-statistica/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Institutul Naţional de Statistică pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Capacitatea de cazare de pe Valea Prahovei a crescut considerabil</title>
       <link>https://izz.ro/economic/capacitatea-de-cazare-de-pe-valea-prahovei-a-crescut-considerabil/</link>
       <guid>https://izz.ro/economic/capacitatea-de-cazare-de-pe-valea-prahovei-a-crescut-considerabil/</guid>
       <pubDate>Wed, 07 Oct 2026 21:07:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/companii/pensiune-la-munte-caut-turisti-valea-prahovei-atrage-investitori-care-ridica-noi-unitati-de-cazare-dar-numarul-turistilor-scade-23255539">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/economic/capacitatea-de-cazare-de-pe-valea-prahovei-a-crescut-considerabil/cover.jpg?v=6afb9277" medium="image" type="image/jpeg"/>
       <description>Stațiunile montane de pe Valea Prahovei au extins infrastructura hotelieră cu circa 50% între 2019 și 2025, în timp ce numărul efectiv de turiști este în scădere, conform datelor statistice.</description>
     </item>
     <item>
@@ -18,6 +21,8 @@
       <link>https://izz.ro/economic/veniturile-medii-lunare-ale-unei-gospodarii-au-ajuns-la-10-204-lei/</link>
       <guid>https://izz.ro/economic/veniturile-medii-lunare-ale-unei-gospodarii-au-ajuns-la-10-204-lei/</guid>
       <pubDate>Wed, 07 Oct 2026 08:34:42 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.digi24.ro/stiri/economie/veniturile-unei-gospodarii-au-ajuns-la-10-204-lei-pe-luna-iar-cheltuielile-la-8-650-de-lei-pe-ce-se-duc-banii-3981885">Digi24, Profit.ro</source>
       <description>Institutul Național de Statistică a publicat datele pentru trimestrul al doilea din 2026, indicând că veniturile totale medii lunare ale unei gospodării au fost de 10.204 lei, ceea ce revine la 4.222 lei pe persoană. Cheltuielile s-au situat la 8.650 lei, reprezentând 84,8% din venituri. Sumele au înregistrat o creștere de 8% față de trimestrul precedent.</description>
     </item>
     <item>
@@ -25,6 +30,8 @@
       <link>https://izz.ro/economic/crestere-de-peste-9-a-turismului-romanesc-in-august-2026/</link>
       <guid>https://izz.ro/economic/crestere-de-peste-9-a-turismului-romanesc-in-august-2026/</guid>
       <pubDate>Wed, 07 Oct 2026 07:41:57 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/crestere-de-peste-9-a-sosirilor-si-innoptarilor-in-unitatile-de-cazare-din-romania-in-luna-august-2026.html">Economedia</source>
       <description>Institutul Național de Statistică a raportat că numărul sosirilor și al înnoptărilor în unitățile de cazare din țară a crescut semnificativ în ultima lună de vară a anului 2026 față de perioada similară anterioară.</description>
     </item>
     <item>
@@ -32,6 +39,8 @@
       <link>https://izz.ro/local/aproape-880-000-de-turisti-au-vizitat-brasovul-in-primele-opt-luni/</link>
       <guid>https://izz.ro/local/aproape-880-000-de-turisti-au-vizitat-brasovul-in-primele-opt-luni/</guid>
       <pubDate>Wed, 07 Oct 2026 07:23:34 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/880-000-de-turisti-au-ajuns-la-brasov/">News Brașov</source>
       <description>Institutul Național de Statistică raportează o creștere semnificativă a turismului în județul Brașov. Numărul sosirilor și al înnoptărilor a urcat cu peste nouă procente în luna august 2026 față de anul precedent.</description>
     </item>
     <item>
@@ -39,6 +48,8 @@
       <link>https://izz.ro/economic/veniturile-gospodariilor-din-romania-au-crescut-in-trimestrul-ii-2026-depasite/</link>
       <guid>https://izz.ro/economic/veniturile-gospodariilor-din-romania-au-crescut-in-trimestrul-ii-2026-depasite/</guid>
       <pubDate>Wed, 07 Oct 2026 07:14:06 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/grafice-veniturile-gospodariilor-din-romania-au-crescut-cu-74-intr-un-an-dar-cheltuielile-au-avansat-si-mai-mult-pe-ce-merg-cei-mai-multi-bani.html">Economedia, Observator</source>
       <description>Datele Institutului Național de Statistică arată că veniturile medii lunare pe gospodărie au ajuns în trimestrul II 2026 la 10.204 lei, în creștere cu 8% față de perioada anterioară și cu 7,4% comparativ cu anul trecut. Cu toate acestea, cheltuielile populației au avansat accelerat, ajungând la 8.650 de lei pe lună.</description>
     </item>
     <item>
@@ -46,6 +57,8 @@
       <link>https://izz.ro/economic/institutul-national-de-statistica-a-publicat-datele-despre-filialele-externe/</link>
       <guid>https://izz.ro/economic/institutul-national-de-statistica-a-publicat-datele-despre-filialele-externe/</guid>
       <pubDate>Tue, 06 Oct 2026 19:41:30 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/surpriza-intre-companiile-romanesti-cu-filiale-in-strainatate-un-mare-jucator-autohton-din-energie-a-devansat-banca-transilvania-top_981828.html">Economica</source>
       <description>Numărul companiilor românești extinse internațional a crescut la 269 în 2024, în timp ce afacerile generate de acestea în afara granițelor au înregistrat o scădere.</description>
     </item>
     <item>
@@ -53,6 +66,8 @@
       <link>https://izz.ro/economic/romanii-au-cumparat-mai-putin-in-2026-arata-datele-institutului-national-de/</link>
       <guid>https://izz.ro/economic/romanii-au-cumparat-mai-putin-in-2026-arata-datele-institutului-national-de/</guid>
       <pubDate>Tue, 06 Oct 2026 13:00:11 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://alba24.ro/romanii-au-redus-cumparaturile-in-2026-vanzarile-de-alimente-au-scazut-cu-42-cele-de-produse-nealimentare-cu-peste-6-1161272.html">Alba24</source>
       <description>Comerțul cu amănuntul din România a scăzut cu 5% în primele opt luni ale anului 2026, tranzacțiile cu produse alimentare reducându-se cu 4,2%, iar cele nealimentare cu peste 6%, conform INS.</description>
     </item>
     <item>
@@ -60,6 +75,8 @@
       <link>https://izz.ro/sanatate/programul-salvati-copiii-imbunatateste-accesul-medical-rural/</link>
       <guid>https://izz.ro/sanatate/programul-salvati-copiii-imbunatateste-accesul-medical-rural/</guid>
       <pubDate>Tue, 06 Oct 2026 09:37:58 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://newsbv.ro/servicii-medicale-mame-copii/">News Brașov</source>
       <description>Organizația Salvați Copiii și Fundația OMV Petrom implementează programul Primul pas spre sănătate pentru a reduce discrepanțele majore privind mortalitatea infantilă dintre mediul rural și cel urban din România.</description>
     </item>
     <item>
@@ -67,6 +84,8 @@
       <link>https://izz.ro/economic/romanii-cheltuiesc-mai-mult-pe-vicii-decat-pe-educatie/</link>
       <guid>https://izz.ro/economic/romanii-cheltuiesc-mai-mult-pe-vicii-decat-pe-educatie/</guid>
       <pubDate>Mon, 05 Oct 2026 17:15:14 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://newsbv.ro/buget-familii-educatie/">News Brașov</source>
       <description>Datele Institutului Național de Statistică arată că gospodăriile din România alocă lunar în medie 300 de lei pentru alcool și tutun, comparativ cu doar 23 de lei destinați educației.</description>
     </item>
     <item>
@@ -74,6 +93,8 @@
       <link>https://izz.ro/judetean/discrepante-mari-intre-salariile-medii-din-diverse-domenii-in-judetul-bihor/</link>
       <guid>https://izz.ro/judetean/discrepante-mari-intre-salariile-medii-din-diverse-domenii-in-judetul-bihor/</guid>
       <pubDate>Mon, 05 Oct 2026 05:15:35 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.bihon.ro/stirile-judetului-bihor/economic/salariul-mediu-in-bihor-de-la-3-397-la-peste-12-000-de-lei-diferente-uriase-intre-domenii-5415249/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Datele statistice arată că salariul mediu brut în județul Bihor a fost de 6.620 de lei lunar în 2024, existând diferențe majore între sectoarele de activitate, cu medii variind de la aproximativ 3.400 la peste 12.000 de lei.</description>
     </item>
     <item>
@@ -81,6 +102,8 @@
       <link>https://izz.ro/economic/preturile-productiei-industriale-in-romania-au-urcat-cu-118-in-august/</link>
       <guid>https://izz.ro/economic/preturile-productiei-industriale-in-romania-au-urcat-cu-118-in-august/</guid>
       <pubDate>Fri, 02 Oct 2026 07:09:12 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/preturile-productiei-industriale-au-crescut-cu-118-in-august-in-ritm-anual-date-ins_982161.html">Economica</source>
       <description>Institutul Național de Statistică raportează o majorare de 11,8% a prețurilor industriale în ritm anual pe total piață. Pe piața internă, creșterea față de aceeași lună din 2025 a ajuns la 12,52%.</description>
     </item>
     <item>
@@ -88,6 +111,8 @@
       <link>https://izz.ro/economic/cheltuielile-gospodariilor-din-romania-depasesc-cresterea-veniturilor-salariale/</link>
       <guid>https://izz.ro/economic/cheltuielile-gospodariilor-din-romania-depasesc-cresterea-veniturilor-salariale/</guid>
       <pubDate>Fri, 02 Oct 2026 05:00:50 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.digi24.ro/stiri/economie/nu-imi-mai-ajung-banii-romanii-castiga-mai-mult-dar-isi-permit-mai-putin-cum-explica-economistii-paradoxul-3972787">Digi24</source>
       <description>Datele Institutului Național de Statistică arată că veniturile familiilor au crescut cu 3,2%, în timp ce cheltuielile s-au majorat cu 4,5%. Aproape 85% din încasări merg pe utilități, taxe și produse alimentare.</description>
     </item>
     <item>
@@ -95,6 +120,8 @@
       <link>https://izz.ro/economic/ins-anticipeaza-o-economie-stabila-si-o-inflatie-in-scadere-moderata/</link>
       <guid>https://izz.ro/economic/ins-anticipeaza-o-economie-stabila-si-o-inflatie-in-scadere-moderata/</guid>
       <pubDate>Wed, 30 Sep 2026 13:25:15 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/tendinte-in-economie-relativa-stabilitate-a-activitatii-economice-in-urmatoarele-3-luni-si-o-inflatie-persistenta-dar-in-scadere.html">Curs de Guvernare</source>
       <description>Datele publicate de Institutul Național de Statistică arată că managerii se așteaptă la menținerea activității economice în următoarele trei luni. Se estimează scumpiri moderate în toate domeniile și o ușoară scădere a personalului în industrie.</description>
     </item>
     <item>
@@ -102,6 +129,8 @@
       <link>https://izz.ro/economic/crestere-de-75-a-volumului-de-lemn-exploatat-in-romania/</link>
       <guid>https://izz.ro/economic/crestere-de-75-a-volumului-de-lemn-exploatat-in-romania/</guid>
       <pubDate>Wed, 30 Sep 2026 06:48:38 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/volumul-de-lemn-exploatat-in-2025-a-fost-mai-mare-cu-75-fata-de-2024-ins-3970575">Digi24</source>
       <description>Institutul Național de Statistică raportează că firmele forestiere autorizate au exploatat cu 7,5% mai mult lemn în 2025 comparativ cu anul anterior, speciile de foioase reprezentând aproximativ 60% din totalul volumului rotund.</description>
     </item>
     <item>
@@ -109,6 +138,8 @@
       <link>https://izz.ro/sanatate/aproape-patru-milioane-de-romani-depind-de-fantani-pentru-alimentarea-cu-apa/</link>
       <guid>https://izz.ro/sanatate/aproape-patru-milioane-de-romani-depind-de-fantani-pentru-alimentarea-cu-apa/</guid>
       <pubDate>Tue, 29 Sep 2026 15:30:28 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://adevarul.ro/stil-de-viata/viata-sanatoasa/fantana-din-curte-5-probleme-pe-care-nu-le-vezi-2560652.html">Adevărul</source>
       <description>Conform datelor statistice recente, doar 77 la sută din populația țării este conectată la rețeaua publică, lăsând milioane de cetățeni să utilizeze surse nesatisfăcător monitorizate.</description>
     </item>
     <item>
@@ -116,6 +147,8 @@
       <link>https://izz.ro/economic/managerii-romani-prognozeaza-scumpiri-in-industrie-constructii-si-comert/</link>
       <guid>https://izz.ro/economic/managerii-romani-prognozeaza-scumpiri-in-industrie-constructii-si-comert/</guid>
       <pubDate>Mon, 28 Sep 2026 06:08:07 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/managerii-se-asteapta-la-cresteri-de-preturi-in-industrie-constructii-si-comert.html">Economedia</source>
       <description>O recentă anchetă statistică arată că prețurile vor crește în perioada septembrie-noiembrie în sectoarele industriale, de construcții și în comerțul cu amănuntul, în timp ce restul economiei rămâne stabil.</description>
     </item>
     <item>
@@ -123,6 +156,8 @@
       <link>https://izz.ro/economic/romanii-cheltuie-sume-mari-pe-alcool-si-tutun-fata-de-educatie/</link>
       <guid>https://izz.ro/economic/romanii-cheltuie-sume-mari-pe-alcool-si-tutun-fata-de-educatie/</guid>
       <pubDate>Sun, 27 Sep 2026 15:38:44 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/pe-ce-isi-cheltuiesc-romanii_980182.html">Economica</source>
       <description>Datele Institutului Național de Statistică arată că, în primul trimestru din 2026, gospodăriile din România au avut venituri medii lunare de 9444 lei, majoritatea banilor fiind direcționați spre consum curent.</description>
     </item>
     <item>
@@ -130,6 +165,8 @@
       <link>https://izz.ro/economic/diferentele-de-consum-intre-urban-si-rural-se-adancesc-din-cauza-masurilor/</link>
       <guid>https://izz.ro/economic/diferentele-de-consum-intre-urban-si-rural-se-adancesc-din-cauza-masurilor/</guid>
       <pubDate>Sun, 27 Sep 2026 05:31:53 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://mytex.ro/economic/efectele-masurilor-fiscale-prapastie-din-ce-in-ce-mai-mare-intre-urban-si-rural/">MyTex</source>
       <description>Datele statistice recente indică o prăpastie economică tot mai mare între mediul urban și cel rural din România, influențată de creșterea taxelor și a inflației din primul trimestru al anului.</description>
     </item>
 </channel></rss>

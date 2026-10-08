@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Paris — IZZ.ro</title>
   <link>https://izz.ro/subiect/paris/</link>
   <atom:link href="https://izz.ro/subiect/paris/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Paris pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Proteste violente la Paris pentru condițiile precare din școli</title>
+      <link>https://izz.ro/extern/proteste-violente-la-paris-pentru-conditiile-precare-din-scoli/</link>
+      <guid>https://izz.ro/extern/proteste-violente-la-paris-pentru-conditiile-precare-din-scoli/</guid>
+      <pubDate>Thu, 08 Oct 2026 19:00:05 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/video-proteste-violente-la-paris-politia-a-folosit-gaze-lacrimogene-pentru-a-dispersa-multimea-din-place-de-la-bastille-mii-de-oameni-protestau-fata-de-conditiilor-din-scoli.html">G4Media</source>
+      <media:content url="https://izz.ro/extern/proteste-violente-la-paris-pentru-conditiile-precare-din-scoli/cover.jpg?v=43037a64" medium="image" type="image/jpeg"/>
+      <description>Mii de elevi, studenți și sindicaliști au protestat în Piața Bastiliei din Paris cerând condiții mai bune în învățământ. Forțele de ordine au intervenit cu gaze lacrimogene pentru a dispersa mulțimea implicată în ciocniri violente.</description>
+    </item>
+    <item>
+      <title>Proteste violente ale elevilor și studenților în Franța și Belgia</title>
+      <link>https://izz.ro/extern/proteste-violente-ale-elevilor-si-studentilor-in-franta-si-belgia/</link>
+      <guid>https://izz.ro/extern/proteste-violente-ale-elevilor-si-studentilor-in-franta-si-belgia/</guid>
+      <pubDate>Thu, 08 Oct 2026 17:05:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/europa-sub-semnul-protestelor-ciocniri-intre-elevi-si-politie-in-franta-si-belgia-revolta-sociala-in-spania-668521.html">Observator</source>
+      <media:content url="https://izz.ro/extern/proteste-violente-ale-elevilor-si-studentilor-in-franta-si-belgia/cover.jpg?v=97567547" medium="image" type="image/jpeg"/>
+      <description>Mai multe orașe din vestul Europei sunt afectate de revolte sociale și manifestații stradale ample. Forțele de ordine au intervenit în forță în Franța și Belgia, unde mii de tineri protestează față de măsurile economice și majorarea taxelor de școlarizare.</description>
+    </item>
     <item>
       <title>Celine Dion a căzut accidental pe scenă în timpul unui concert la Paris</title>
       <link>https://izz.ro/lifestyle/celine-dion-a-cazut-accidental-pe-scena-in-timpul-unui-concert-la-paris/</link>
       <guid>https://izz.ro/lifestyle/celine-dion-a-cazut-accidental-pe-scena-in-timpul-unui-concert-la-paris/</guid>
       <pubDate>Thu, 08 Oct 2026 08:31:56 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://www.libertatea.ro/entertainment/celine-dion-a-cazut-pe-scena-in-timpul-unui-concert-la-paris-jpc71qr">Libertatea</source>
+      <media:content url="https://izz.ro/lifestyle/celine-dion-a-cazut-accidental-pe-scena-in-timpul-unui-concert-la-paris/cover.jpg?v=72c2a01b" medium="image" type="image/jpeg"/>
       <description>Artista canadiană s-a împiedicat de propriul toc în timpul unui spectacol în capitala Franței, dar a gestionat momentul cu profesionalism, continuând reprezentația fără probleme.</description>
     </item>
     <item>
@@ -18,6 +41,9 @@
       <link>https://izz.ro/extern/elevii-din-franta-protesteaza-masiv-pe-strazile-marilor-orase-din-cauza/</link>
       <guid>https://izz.ro/extern/elevii-din-franta-protesteaza-masiv-pe-strazile-marilor-orase-din-cauza/</guid>
       <pubDate>Thu, 08 Oct 2026 05:43:48 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/08/thursday-briefing-why-young-people-are-taking-to-the-streets-across-france">The Guardian</source>
+      <media:content url="https://izz.ro/extern/elevii-din-franta-protesteaza-masiv-pe-strazile-marilor-orase-din-cauza/cover.jpg?v=d6845675" medium="image" type="image/jpeg"/>
       <description>O mișcare de protest condusă de tineri în Franța denunță degradarea clădirilor liceelor și deficitul de cadre didactice, atrâgând atenția publicului larg asupra inechităților majore din sistemul de învățământ.</description>
     </item>
     <item>
@@ -25,6 +51,9 @@
       <link>https://izz.ro/lifestyle/saint-laurent-a-prezentat-colectia-opulenta-pentru-2027-la-paris/</link>
       <guid>https://izz.ro/lifestyle/saint-laurent-a-prezentat-colectia-opulenta-pentru-2027-la-paris/</guid>
       <pubDate>Wed, 07 Oct 2026 21:13:21 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://www.urban.ro/colectia-saint-laurent-ss2027/">Urban.ro</source>
+      <media:content url="https://izz.ro/lifestyle/saint-laurent-a-prezentat-colectia-opulenta-pentru-2027-la-paris/cover.jpg?v=8023ef13" medium="image" type="image/jpeg"/>
       <description>Casa de modă Saint Laurent a organizat una dintre cele mai spectaculoase defilări din cadrul Săptămânii Modei de la Paris, având ca fundal Turnul Eiffel și candelabre uriașe pentru noua colecție primăvară-vară.</description>
     </item>
     <item>
@@ -32,6 +61,8 @@
       <link>https://izz.ro/politic/alexandru-petrescu-participa-la-reuniunea-esma-de-la-paris-pentru-discutii/</link>
       <guid>https://izz.ro/politic/alexandru-petrescu-participa-la-reuniunea-esma-de-la-paris-pentru-discutii/</guid>
       <pubDate>Wed, 07 Oct 2026 11:22:34 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.ziuadevest.ro/alexandru-petrescu-asf-la-paris-dialog-european-privind-viitorul-pietelor-de-capital/">Ziua de Vest</source>
       <description>Șeful ASF ia parte la ședința Consiliului Supraveghetorilor din cadrul Autorității Europene pentru Valori Mobiliare și Piețe. Agenda include reglementarea finanțelor digitale, implementarea normelor MiCA și convergența supravegherii financiare.</description>
     </item>
     <item>
@@ -39,6 +70,8 @@
       <link>https://izz.ro/auto/saisprezece-marci-auto-din-china-vor-expune-la-salonul-auto-de-la-paris/</link>
       <guid>https://izz.ro/auto/saisprezece-marci-auto-din-china-vor-expune-la-salonul-auto-de-la-paris/</guid>
       <pubDate>Wed, 07 Oct 2026 10:41:15 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.autocritica.ro/live-news/salonul-auto-de-la-paris-16-marci-auto-din-china-vor-avea-un-stand-in-cadrul-evenimentului-din-franta/">AutoCritica</source>
       <description>Producătorii chinezi de autovehicule își sporesc prezența pe piața din Europa prin participarea activă la Salonul Auto de la Paris, unde 16 companii din China vor amenaja standuri dedicate între 12 și 18 octombrie.</description>
     </item>
     <item>
@@ -46,6 +79,8 @@
       <link>https://izz.ro/auto/dacia-striker-va-fi-prezentata-la-salonul-auto-de-la-paris/</link>
       <guid>https://izz.ro/auto/dacia-striker-va-fi-prezentata-la-salonul-auto-de-la-paris/</guid>
       <pubDate>Wed, 07 Oct 2026 08:30:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.antena3.ro/economic/auto/francezii-au-comparat-noua-dacia-striker-cu-skoda-octavia-combi-va-reusi-acest-cal-de-munca-romanesc-sa-detroneze-vedeta-gamei-806115.html">Antena 3 CNN</source>
       <description>Noul model hibrid Dacia Striker, care îmbină elemente de SUV, break și berlină, își va face debutul mondial la Salonul Auto de la Paris, stârnind interesul presei franceze cu privire la competitivitatea sa.</description>
     </item>
     <item>
@@ -53,20 +88,17 @@
       <link>https://izz.ro/extern/protestele-liceenilor-din-paris-au-fost-reprimate-cu-violenta-de-fortele-de/</link>
       <guid>https://izz.ro/extern/protestele-liceenilor-din-paris-au-fost-reprimate-cu-violenta-de-fortele-de/</guid>
       <pubDate>Wed, 07 Oct 2026 05:00:36 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/oct/07/mother-parisian-student-violence-schools-protest-presidential-election">The Guardian</source>
       <description>Elevii francezi au ieșit în stradă la Paris cerând investiții în școli, profesori suficienți și clase mai mici, dar cererile lor rezonabile s-au izbit de o violență extremă din partea autorităților.</description>
-    </item>
-    <item>
-      <title>Protestele elevilor din Franța au degenerat în confruntări violente</title>
-      <link>https://izz.ro/extern/protestele-elevilor-din-franta-au-degenerat-in-confruntari-violente/</link>
-      <guid>https://izz.ro/extern/protestele-elevilor-din-franta-au-degenerat-in-confruntari-violente/</guid>
-      <pubDate>Tue, 06 Oct 2026 18:03:19 +0000</pubDate>
-      <description>Sute de adolescenți au ieșit pe străzile din Paris și Marsilia pentru a cere suplimentarea fondurilor școlare și oprirea violențelor polițiștilor, manifestațiile fiind dispersate cu gaze lacrimogene.</description>
     </item>
     <item>
       <title>Proteste violente de amploare cu peste 250.000 de participanți în Franța</title>
       <link>https://izz.ro/extern/proteste-violente-de-amploare-cu-peste-250-000-de-participanti-in-franta/</link>
       <guid>https://izz.ro/extern/proteste-violente-de-amploare-cu-peste-250-000-de-participanti-in-franta/</guid>
       <pubDate>Tue, 06 Oct 2026 17:23:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/protestele-liceenilor-se-extind-in-franta-sindicatele-se-alatura-manifestatiilor-peste-5-000-de-de-persoane-au-fost-retinute-majoritatea-minori">Spotmedia</source>
       <description>Manifestațiile liceenilor și sindicaliștilor din Franța au degenerat în violențe în mai multe orașe, forțele de ordine intervenind cu gaze lacrimogene împotriva mulțimii.</description>
     </item>
     <item>
@@ -74,6 +106,8 @@
       <link>https://izz.ro/extern/protestele-masive-din-franta-si-spania-genereaza-tensiuni-majore-privind/</link>
       <guid>https://izz.ro/extern/protestele-masive-din-franta-si-spania-genereaza-tensiuni-majore-privind/</guid>
       <pubDate>Tue, 06 Oct 2026 17:10:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/europa-fierbe-elevii-se-lupta-cu-jandarmii-in-franta-iar-in-spania-oamenii-vor-solutii-pentru-chiriile-mari-668323.html">Observator</source>
       <description>Aproximativ o jumătate de milion de francezi au blocat străzile din Paris, elevii ciocnindu-se cu jandarmii împotriva sistemului educațional. În paralel, locuitorii din Barcelona protestează față de prețurile excesive ale chiriilor.</description>
     </item>
     <item>
@@ -81,6 +115,8 @@
       <link>https://izz.ro/extern/proteste-violente-la-paris-din-cauza-interventiilor-politiei-si-a-lipsei-de/</link>
       <guid>https://izz.ro/extern/proteste-violente-la-paris-din-cauza-interventiilor-politiei-si-a-lipsei-de/</guid>
       <pubDate>Tue, 06 Oct 2026 16:23:12 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/06/french-student-protests-barricades-paris-police">The Guardian</source>
       <description>Elevii de liceu din capitala Franței au ridicat baricade pe străzi și au intrat în conflict cu forțele de ordine, denunțând violența polițiștilor și măsurile guvernamentale.</description>
     </item>
     <item>
@@ -88,6 +124,8 @@
       <link>https://izz.ro/extern/premierul-francez-apara-interventia-fortelor-de-ordine-in-timpul-protestelor/</link>
       <guid>https://izz.ro/extern/premierul-francez-apara-interventia-fortelor-de-ordine-in-timpul-protestelor/</guid>
       <pubDate>Tue, 06 Oct 2026 15:13:35 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/sebastien-lecornu-defends-police-handling-france-student-protests/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Sébastien Lecornu a declarat în parlamentul de la Paris că acțiunile poliției au fost provocate de violențele urbane, respingând acuzațiile de brutalitate sistemică după ce doi adolescenți au suferit rani grave în timpul manifestațiilor.</description>
     </item>
     <item>
@@ -95,6 +133,8 @@
       <link>https://izz.ro/auto/prototipul-alpine-ps1-va-fi-dezvaluit-in-premiera-la-salonul-auto-de-la-paris/</link>
       <guid>https://izz.ro/auto/prototipul-alpine-ps1-va-fi-dezvaluit-in-premiera-la-salonul-auto-de-la-paris/</guid>
       <pubDate>Tue, 06 Oct 2026 11:09:29 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.autocritica.ro/live-news/alpine-va-prezenta-noul-concept-ps1-la-paris/">AutoCritica</source>
       <description>Producătorul francez de automobile sport se pregătească să expună noul concept PS1 în cadrul evenimentului parizian, alături de o sculptură a viitorului model electric A110, anticipând direcția de design și tehnologică a mărcii.</description>
     </item>
     <item>
@@ -102,6 +142,8 @@
       <link>https://izz.ro/auto/alpine-pregati-lansarea-noului-concept-ps1-la-paris/</link>
       <guid>https://izz.ro/auto/alpine-pregati-lansarea-noului-concept-ps1-la-paris/</guid>
       <pubDate>Tue, 06 Oct 2026 08:16:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.automarket.ro/stiri/alpine-primul-teaser-cu-viitorul-concept-ps1-prezentare-la-paris-128935.html">AutoMarket</source>
       <description>Producătorul francez de mașini sport Alpine a publicat prima imagine teaser a viitorului concept numit PS1, abreviere de la Projet Spécial 1, care va fi dezvăluit oficial la Salonul Auto de la Paris.</description>
     </item>
     <item>
@@ -109,6 +151,8 @@
       <link>https://izz.ro/cultura/saptamana-modei-de-la-paris-a-prezentat-colectii-neobisnuite-pentru-primavara/</link>
       <guid>https://izz.ro/cultura/saptamana-modei-de-la-paris-a-prezentat-colectii-neobisnuite-pentru-primavara/</guid>
       <pubDate>Sun, 04 Oct 2026 21:15:45 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://www.urban.ro/colectii-saptamana-modei-paris-primavara-2027/">Urban.ro</source>
       <description>Ediția curentă a Săptămânii Modei de la Paris a adus în fața publicului creații vestimentare inovatoare destinate sezonului cald din 2027. Pe podium au defilat atât ținute practice pentru stradă, cât și concepte artistice avangardiste.</description>
     </item>
     <item>
@@ -116,6 +160,8 @@
       <link>https://izz.ro/auto/hyundai-a-prezentat-noul-suv-tucson-la-paris/</link>
       <guid>https://izz.ro/auto/hyundai-a-prezentat-noul-suv-tucson-la-paris/</guid>
       <pubDate>Sun, 04 Oct 2026 12:49:26 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.economica.net/hyundai-tucson-2026-phev-292-cp_982640.html">Economica</source>
       <description>Constructorul auto coreean a lansat noua generație Tucson pentru piața europeană, modelul având dimensiuni mărite, un design bazat pe filosofia Art of Steel și o versiune plug-in hybrid de 292 de cai putere.</description>
     </item>
     <item>
@@ -123,6 +169,8 @@
       <link>https://izz.ro/sport/presa-italiana-lauda-prestatia-lui-alessandro-bastoni-si-a-lui-donnarumma/</link>
       <guid>https://izz.ro/sport/presa-italiana-lauda-prestatia-lui-alessandro-bastoni-si-a-lui-donnarumma/</guid>
       <pubDate>Sun, 04 Oct 2026 11:30:51 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/senza-categoria/bastoni-bar-chiacchiere-italia-rivincita/">FC Inter 1908</source>
       <description>Publicația Il Giornale a analizat remiza obținută de naționala Italiei în fața Franței la Paris, evidențiind evoluția decisivă a fostului portar milanez și contribuția defensivă și ofensivă a fundașului de la Inter.</description>
     </item>
     <item>
@@ -130,6 +178,8 @@
       <link>https://izz.ro/extern/seful-politiei-din-paris-avertizeaza-ca-protestele-elevilor-din-franta-au/</link>
       <guid>https://izz.ro/extern/seful-politiei-din-paris-avertizeaza-ca-protestele-elevilor-din-franta-au/</guid>
       <pubDate>Sat, 03 Oct 2026 19:25:43 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/seful-politiei-din-paris-afirma-ca-miscarea-de-protest-a-elevilor-a-scapat-de-sub-control-si-indeamna-la-calm.html">G4Media, Spotmedia, Antena 3 CNN</source>
       <description>Patrice Faure, șeful poliției din Paris, a declarat că mișcarea de protest a elevilor extinsă la nivel național a scăpat de sub control. Acesta a cerut manifestanților să revină la acțiuni pașnice și a avertizat că autoritățile vor interveni pentru menținerea ordinii publice.</description>
     </item>
     <item>
@@ -137,6 +187,8 @@
       <link>https://izz.ro/lifestyle/colectia-victoriei-beckham-a-atras-atentia-la-paris/</link>
       <guid>https://izz.ro/lifestyle/colectia-victoriei-beckham-a-atras-atentia-la-paris/</guid>
       <pubDate>Sat, 03 Oct 2026 17:20:00 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://observatornews.ro/extern/saptamana-modei-de-la-paris-cum-a-captat-toata-atentia-noua-colectie-a-victoriei-beckham-668091.html">Observator</source>
       <description>Victoria Beckham și-a prezentat noua colecție vestimentară la Saptămâna Modei de la Paris, eveniment la care a fost susținută de întreaga familie, cu excepția fiului Brooklyn, prezent la o altă manifestare din capitala Franței.</description>
     </item>
     <item>
@@ -144,6 +196,8 @@
       <link>https://izz.ro/extern/evenimentele-globale-ale-saptamanii-surprinse-in-douazeci-de-imagini-2/</link>
       <guid>https://izz.ro/extern/evenimentele-globale-ale-saptamanii-surprinse-in-douazeci-de-imagini-2/</guid>
       <pubDate>Fri, 02 Oct 2026 17:03:33 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/artanddesign/gallery/2026/oct/02/the-week-around-the-world-in-20-pictures">The Guardian</source>
       <description>Fotoreporterii internaționali au documentat principalele evenimente din ultimele șapte zile, de la atacurile rusești asupra Kievului și erupția Etnei, până la protestele studențești din Paris.</description>
     </item>
     <item>
@@ -151,6 +205,8 @@
       <link>https://izz.ro/extern/proteste-masive-ale-elevilor-francezi-la-paris-impotriva-conditiilor-din-scoli/</link>
       <guid>https://izz.ro/extern/proteste-masive-ale-elevilor-francezi-la-paris-impotriva-conditiilor-din-scoli/</guid>
       <pubDate>Fri, 02 Oct 2026 16:34:55 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/video/2026/oct/02/fires-burn-as-french-students-protest-against-lack-of-investment-in-education-video">The Guardian</source>
       <description>Mii de tineri au protestat în fața unităților de învățământ cerând investiții guvernamentale, reducerea claselor suprapopulate și îmbunătățirea infrastructurii școlare.</description>
     </item>
     <item>
@@ -158,6 +214,8 @@
       <link>https://izz.ro/auto/alfa-romeo-va-prezenta-conceptul-cuorerosso-la-salonul-auto-de-la-paris/</link>
       <guid>https://izz.ro/auto/alfa-romeo-va-prezenta-conceptul-cuorerosso-la-salonul-auto-de-la-paris/</guid>
       <pubDate>Fri, 02 Oct 2026 05:24:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.automarket.ro/stiri/alfa-romeo-dezvaluie-numele-noului-sau-concept-prezentare-la-paris-128887.html">AutoMarket</source>
       <description>Constructorul auto italian Alfa Romeo a dezvăluit denumirea noului său prototip pregătit pentru premiera mondială de la Paris. Viitorul concept se numește Cuorerosso și anunță dezvoltarea unui nou vehicul de performanță.</description>
     </item>
     <item>
@@ -165,6 +223,8 @@
       <link>https://izz.ro/extern/guvernul-francez-prezinta-proiectele-de-lege-privind-finantele-si-bugetul/</link>
       <guid>https://izz.ro/extern/guvernul-francez-prezinta-proiectele-de-lege-privind-finantele-si-bugetul/</guid>
       <pubDate>Thu, 01 Oct 2026 17:43:23 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/un-budget-reversible-ce-que-le-prochain-gouvernement-pourra-vraiment-defaire/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Miniștrii cabinetului francez au prezentat noile proiecte de lege pentru finanțele publice și bugetul de securitate socială, subliniind caracterul reversibil al măsurilor fiscale propuse în parlament.</description>
     </item>
     <item>
@@ -172,6 +232,8 @@
       <link>https://izz.ro/cultura/drew-henry-preia-conducerea-artistica-a-casei-de-moda-courreges/</link>
       <guid>https://izz.ro/cultura/drew-henry-preia-conducerea-artistica-a-casei-de-moda-courreges/</guid>
       <pubDate>Thu, 01 Oct 2026 14:30:00 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://www.elle.ro/fashion/first-trend/courreges-ss27-drew-henry-deschide-un-nou-capitol-pentru-casa-pariziana-1092433">Elle România</source>
       <description>Designerul sud-african aduce o viziune nouă asupra esteticii futuriste a celebrului brand parizian. Numirea sa marchează finalul unei ere și debutul unui capitol creativ diferit la Paris.</description>
     </item>
     <item>
@@ -179,6 +241,8 @@
       <link>https://izz.ro/lifestyle/stella-mccartney-a-prezentat-la-paris-o-colectie-vestimentara-fara-lana/</link>
       <guid>https://izz.ro/lifestyle/stella-mccartney-a-prezentat-la-paris-o-colectie-vestimentara-fara-lana/</guid>
       <pubDate>Wed, 30 Sep 2026 18:47:26 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://www.theguardian.com/fashion/2026/sep/30/stella-mccartney-sea-life-paris-fashion-week-animal-rights">The Guardian</source>
       <description>Designerul Stella McCartney a lansat în cadrul Săptămânii Modei de la Paris o colecție inspirată din mediul marin și realizată exclusiv fără lână, readucând în atenție drepturile animalelor și utilizarea materialelor alternative în modă.</description>
     </item>
     <item>
@@ -186,6 +250,8 @@
       <link>https://izz.ro/cultura/episcopul-martir-iuliu-hossu-omagiat-la-paris/</link>
       <guid>https://izz.ro/cultura/episcopul-martir-iuliu-hossu-omagiat-la-paris/</guid>
       <pubDate>Wed, 30 Sep 2026 17:25:05 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://alba24.ro/episcopul-martir-al-bisericii-romane-unite-cu-roma-iuliu-hossu-omagiat-la-paris-in-cadrul-premiului-literar-loeuvre-dorient-1160370.html">Alba24</source>
       <description>Memoria Cardinalului Iuliu Hossu a fost cinstită la Paris în cadrul Premiului literar L’Œuvre d’Orient, unde volumul dedicat vieții sale a primit o mențiune specială.</description>
     </item>
     <item>
@@ -193,6 +259,8 @@
       <link>https://izz.ro/lifestyle/nadia-comaneci-a-defilat-la-saptamana-modei-de-la-paris-alaturi-de-vedete/</link>
       <guid>https://izz.ro/lifestyle/nadia-comaneci-a-defilat-la-saptamana-modei-de-la-paris-alaturi-de-vedete/</guid>
       <pubDate>Tue, 29 Sep 2026 22:12:00 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://www.urban.ro/galerie-foto-nadia-comaneci-defilare-loreal/">Urban.ro</source>
       <description>Fosta mare gimnastă a României a urcat pe podiumul evenimentului L'Oréal Paris din capitala Franței purtând ținute create de designeri români, în fața unui public select și alături de celebrități globale.</description>
     </item>
     <item>
@@ -200,6 +268,8 @@
       <link>https://izz.ro/lifestyle/celine-dion-a-deschis-saptamana-modei-de-la-paris-cu-o-aparitie-surpriza/</link>
       <guid>https://izz.ro/lifestyle/celine-dion-a-deschis-saptamana-modei-de-la-paris-cu-o-aparitie-surpriza/</guid>
       <pubDate>Tue, 29 Sep 2026 10:20:14 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://www.bbc.co.uk/news/articles/cj207qk472zpo?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
       <description>Cunoscuta interpretă a urcat pe scenă în finalul show-ului anual organizat de L'Oreal, marcând un moment neașteptat la debutul evenimentului francez dedicat modei.</description>
     </item>
     <item>
@@ -207,20 +277,8 @@
       <link>https://izz.ro/extern/cum-au-spionat-sovieticii-proiectul-avionic-supersonic-concorde/</link>
       <guid>https://izz.ro/extern/cum-au-spionat-sovieticii-proiectul-avionic-supersonic-concorde/</guid>
       <pubDate>Mon, 28 Sep 2026 06:43:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/concordski-cum-au-incercat-sovieticii-sa-fure-drumul-spre-mach-2-2359803">HotNews</source>
       <description>În februarie 1965, contraspionajul francez l-a vizat pe Serghei Pavlov, șeful Aeroflot la Paris, suspectat că încearca să obțină informații secrete despre ambițiosul proiect european de aviație supersonică Concorde.</description>
-    </item>
-    <item>
-      <title>Trei gimnaste din România s-au calificat în finalele Cupei Mondiale de la Paris</title>
-      <link>https://izz.ro/sport/trei-gimnaste-din-romania-s-au-calificat-in-finalele-cupei-mondiale-de-la-paris/</link>
-      <guid>https://izz.ro/sport/trei-gimnaste-din-romania-s-au-calificat-in-finalele-cupei-mondiale-de-la-paris/</guid>
-      <pubDate>Sat, 26 Sep 2026 20:59:51 +0000</pubDate>
-      <description>Sabrina Voinea, Adelina Ionescu și Maria Ceplinschi au obținut calificarea în ultimul act al competiției internaționale de gimnastică artistică desfășurate sâmbătă în Accor Arena.</description>
-    </item>
-    <item>
-      <title>Papa a condus o slujbă în aer liber la Paris în fața a 700.000 de tineri</title>
-      <link>https://izz.ro/extern/papa-a-condus-o-slujba-in-aer-liber-la-paris-in-fata-a-700-000-de-tineri/</link>
-      <guid>https://izz.ro/extern/papa-a-condus-o-slujba-in-aer-liber-la-paris-in-fata-a-700-000-de-tineri/</guid>
-      <pubDate>Sat, 26 Sep 2026 19:48:06 +0000</pubDate>
-      <description>Suveranul Pontif s-a adresat mulțimii adunate în centrul capitalei Franței, lăudând energia și implicarea noilor generații în viața religioasă și socială.</description>
     </item>
 </channel></rss>

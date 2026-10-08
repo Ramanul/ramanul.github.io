@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Romgaz — IZZ.ro</title>
   <link>https://izz.ro/subiect/romgaz/</link>
   <atom:link href="https://izz.ro/subiect/romgaz/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Romgaz pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Platforma Azomureș își reia activitatea sub conducerea Romgaz</title>
       <link>https://izz.ro/economic/platforma-azomures-isi-reia-activitatea-sub-conducerea-romgaz/</link>
       <guid>https://izz.ro/economic/platforma-azomures-isi-reia-activitatea-sub-conducerea-romgaz/</guid>
       <pubDate>Tue, 06 Oct 2026 07:44:50 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/azomures-reporneste-sub-noul-proprietar-romgaz-angajatii-s-au-intors-pe-platforma-si-fac-probe-pe-instalatii.html">Curs de Guvernare</source>
       <description>Producătorul de îngrășăminte Azomureș pregătește repornirea instalațiilor după preluarea de către compania de stat Romgaz, angajații revenind pe platformă pentru teste și solicitând o linie de credit semnificativă.</description>
     </item>
     <item>
@@ -18,6 +20,8 @@
       <link>https://izz.ro/economic/romgaz-pregateste-repornirea-activitatii-la-combinatul-azomures/</link>
       <guid>https://izz.ro/economic/romgaz-pregateste-repornirea-activitatii-la-combinatul-azomures/</guid>
       <pubDate>Tue, 06 Oct 2026 03:46:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://hotnews.ro/combinat-urias-al-romaniei-gata-de-repornire-angajatii-au-revenit-deja-pe-platforma-2368123">HotNews</source>
       <description>Compania de stat a readus angajații pe platforma industrială pentru a demara procedurile necesare reluării producției la marele combinat chimic românesc.</description>
     </item>
     <item>
@@ -25,6 +29,8 @@
       <link>https://izz.ro/economic/profit-ro-publica-exclusivitati-despre-chirii-energie-si-despagubiri/</link>
       <guid>https://izz.ro/economic/profit-ro-publica-exclusivitati-despre-chirii-energie-si-despagubiri/</guid>
       <pubDate>Sat, 03 Oct 2026 22:38:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/exclusivitatile-saptamanii-apartamente-doi-cocosi-video-inchiriezi-casa-booking-airbnb-vor-veni-decizii-impunere-omv-petrom-romgaz-victime-bruxelles-despagubiri-uriase-cerute-romaniei-mega-proiect-22801441?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Portalul de știri detaliază decizii de impunere pentru închirieri pe platforme turistice, problemele companiilor energetice la Bruxelles și procese cu despăgubiri uriașe cerute României.</description>
     </item>
     <item>
@@ -32,6 +38,8 @@
       <link>https://izz.ro/local/bursa-de-la-bucuresti-a-inchis-sedinta-de-vineri-pe-crestere-generalizata/</link>
       <guid>https://izz.ro/local/bursa-de-la-bucuresti-a-inchis-sedinta-de-vineri-pe-crestere-generalizata/</guid>
       <pubDate>Fri, 02 Oct 2026 16:23:07 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.economica.net/bursa-de-la-bucuresti-a-inchis-pe-crestere-sedinta-de-tranzactionare-de-vineri-cele-mai-lichide-titluri-au-fost-cele-ale-romgaz_982437.html">Economica</source>
       <description>Piața de capital autohtonă a încheiat tranzacțiile de vineri pe un trend pozitiv, principalul indice BET apreciindu-se cu 1,76%, susținut de titlurile companiilor listate.</description>
     </item>
     <item>
@@ -39,6 +47,8 @@
       <link>https://izz.ro/economic/romgaz-estimeaza-cresterea-incasarilor-prin-preluarea-azomures/</link>
       <guid>https://izz.ro/economic/romgaz-estimeaza-cresterea-incasarilor-prin-preluarea-azomures/</guid>
       <pubDate>Thu, 01 Oct 2026 04:45:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/energie/document-preluarea-azomures-schimba-bugetul-romgaz-vanzarile-de-ingrasaminte-chimice-pot-ajunge-sa-reprezinte-peste-un-sfert-din-incasarile-totale-ale-companiei-de-stat-22793722?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Compania de stat Romgaz anticipează că preluarea activelor Azomureș va genera vânzări de îngrășăminte chimice reprezentând peste un sfert din veniturile sale totale până în 2028.</description>
     </item>
     <item>
@@ -46,6 +56,8 @@
       <link>https://izz.ro/economic/productia-interna-de-gaze-asigura-consumul-casnic-in-iarna-urmatoare/</link>
       <guid>https://izz.ro/economic/productia-interna-de-gaze-asigura-consumul-casnic-in-iarna-urmatoare/</guid>
       <pubDate>Wed, 30 Sep 2026 12:41:17 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/productia-interna-acopera-consumul-casnic-de-gaze-in-aceasta-iarna-seful-romgaz-birocratia-este-un-obstacol-in-livrarea-de-gaze-naturale.html">Economedia, G4Media</source>
       <description>Directorul general al Romgaz, Răzvan Popescu, a declarat în cadrul unei conferințe regionale că producția internă va acoperi în totalitate consumul casnic de gaze naturale în această iarnă, compania asigurând peste 80% din necesar. Totodată, oficialul a menținut îngrijorările legate de prețurile externe pentru sectorul industrial și a subliniat importanța strategică a zăcămintelor din Marea Neagră.</description>
     </item>
     <item>
@@ -53,6 +65,8 @@
       <link>https://izz.ro/economic/romgaz-estimeaza-venituri-de-126-miliarde-de-lei-pentru-anul-2028/</link>
       <guid>https://izz.ro/economic/romgaz-estimeaza-venituri-de-126-miliarde-de-lei-pentru-anul-2028/</guid>
       <pubDate>Wed, 30 Sep 2026 06:10:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-cum-va-arata-romgaz-in-doi-ani-in-t2-2027-incepe-repornirea-azomures-in-2028-gazul-va-genera-doar-62-din-venituri-ce-pondere-vor-avea-energia-si-ingrasamintele-23249293">Ziarul Financiar</source>
       <description>Cel mai important producător de gaze din România mizează pe o creștere semnificativă a cifrei de afaceri. Planul include redeschiderea platformei Azomureș și o diversificare a surselor de venit către energie și îngrășăminte chimice.</description>
     </item>
     <item>
@@ -60,6 +74,8 @@
       <link>https://izz.ro/economic/bogdan-ivan-a-trimis-corpul-de-control-la-romgaz-dupa-un-refuz-de-achizitie-gnl/</link>
       <guid>https://izz.ro/economic/bogdan-ivan-a-trimis-corpul-de-control-la-romgaz-dupa-un-refuz-de-achizitie-gnl/</guid>
       <pubDate>Wed, 30 Sep 2026 05:43:05 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/g4media-fostul-ministru-al-energiei-bogdan-ivan-a-trimis-corpul-de-control-al-ministerului-la-romgaz-dupa-ce-aceasta-a-refuzat-sa-semneze-un-contract-pentru-achizitia-de-gnl-din-sua-compania-conside.html">Economedia</source>
       <description>Fostul ministru al Energiei Bogdan Ivan a dispus verificări la Romgaz, după ce compania a refuzat să semneze un contract de import de gaze din SUA din cauza prețului considerat prea ridicat.</description>
     </item>
     <item>
@@ -67,6 +83,8 @@
       <link>https://izz.ro/economic/refuzul-importului-de-gaze-americane-genereaza-controverse-economice/</link>
       <guid>https://izz.ro/economic/refuzul-importului-de-gaze-americane-genereaza-controverse-economice/</guid>
       <pubDate>Tue, 29 Sep 2026 07:35:23 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://adevarul.ro/economie/de-ce-nu-cumparam-gaz-de-la-americani-un-2560386.html">Adevărul</source>
       <description>Romgaz a decis să nu cumpere gaze din SUA, considerând că piața internă nu are nevoie. Analiștii avertizează că această măsură avantajează compania, dar va duce la scumpiri pentru populație.</description>
     </item>
     <item>
@@ -74,6 +92,8 @@
       <link>https://izz.ro/politic/traian-basescu-lauda-refuzul-romgaz-de-a-cumpara-gaze-americane/</link>
       <guid>https://izz.ro/politic/traian-basescu-lauda-refuzul-romgaz-de-a-cumpara-gaze-americane/</guid>
       <pubDate>Mon, 28 Sep 2026 19:23:11 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://hotnews.ro/traian-basescu-lauda-o-companie-romaneasca-in-scandalul-ambasadoarei-americane-din-grecia-si-spune-ca-aceasta-doamna-are-un-obiectiv-2360734">HotNews</source>
       <description>Fostul președinte a apreciat decizia Romgaz de a respinge o achiziție nefavorabilă de gaze lichefiate. Reacția sa apare în contextul scandalului privind declarațiile ambasadoarei SUA din Grecia despre Guvernul României.</description>
     </item>
     <item>
@@ -81,6 +101,8 @@
       <link>https://izz.ro/economic/romgaz-infirmat-presiunile-politice-in-achizitia-de-gaze-naturale/</link>
       <guid>https://izz.ro/economic/romgaz-infirmat-presiunile-politice-in-achizitia-de-gaze-naturale/</guid>
       <pubDate>Mon, 28 Sep 2026 19:12:16 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/romgaz-sustine-ca-nimeni-nu-a-facut-presiuni-asupra-societatii-ca-sa-cumpere-gaze-americane_980711.html">Economica</source>
       <description>Conducerea Romgaz a emis clarificări oficiale în care susține că niciun oficial al statului român nu a impus sau influențat deciziile comerciale legate de cumpărarea sau vânzarea gazelor naturale.</description>
     </item>
     <item>
@@ -88,6 +110,8 @@
       <link>https://izz.ro/economic/extractia-gazelor-din-perimetrul-neptun-deep-incepe-in-prima-jumatate-a-lui-2027/</link>
       <guid>https://izz.ro/economic/extractia-gazelor-din-perimetrul-neptun-deep-incepe-in-prima-jumatate-a-lui-2027/</guid>
       <pubDate>Mon, 28 Sep 2026 19:02:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/eveniment/primele-extractii-de-gaze-de-la-neptun-deep-vor-incepe-in-prima-jumatate-a-anului-viitor-667543.html">Observator</source>
       <description>Companiile OMV Petrom și Romgaz au confirmat că proiectul Neptun Deep avansează conform planului, prima producție de gaze fiind programată pentru anul 2027, cu o estimare de opt miliarde de metri cubi anual.</description>
     </item>
     <item>
@@ -95,6 +119,8 @@
       <link>https://izz.ro/economic/romgaz-neaga-orice-imixtiune-politica-in-contractele-de-achizitie-si-vanzare-a/</link>
       <guid>https://izz.ro/economic/romgaz-neaga-orice-imixtiune-politica-in-contractele-de-achizitie-si-vanzare-a/</guid>
       <pubDate>Mon, 28 Sep 2026 16:42:55 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/compania-de-stat-romgaz-sustine-ca-niciun-oficial-al-statului-roman-nu-a-exercitat-presiuni-pentru-a-determina-conducerea-romgaz-sa-incheie-vreun-contract-de-achizitie-sau-vanzare-gaze.html">Economedia</source>
       <description>Compania de stat a precizat oficial că niciun oficial român nu a exercitat presiuni asupra conducerii privind tranzacțiile cu gaze, în contextul controversei legate de intermediarii americani.</description>
     </item>
     <item>
@@ -102,6 +128,8 @@
       <link>https://izz.ro/economic/romgaz-a-evitat-achizitia-de-gaze-americane-din-cauza-riscului-financiar/</link>
       <guid>https://izz.ro/economic/romgaz-a-evitat-achizitia-de-gaze-americane-din-cauza-riscului-financiar/</guid>
       <pubDate>Mon, 28 Sep 2026 05:46:22 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/de-ce-nu-a-cumparat-romgaz-gaze-americane-e-nergia-compania-estima-un-risc-de-pierderi-de-300-de-milioane-de-euro-pe-an.html">Economedia</source>
       <description>Producătorul Romgaz a renunțat să cumpere gaze naturale lichefiate din SUA deoarece estimările indicau un risc potențial de pierderi financiare de peste 300 de milioane de euro anual.</description>
     </item>
 </channel></rss>

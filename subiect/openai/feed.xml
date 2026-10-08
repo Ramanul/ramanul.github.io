@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>OpenAI — IZZ.ro</title>
   <link>https://izz.ro/subiect/openai/</link>
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>ChatGPT a integrat noile modele lingvistice GPT-6</title>
       <link>https://izz.ro/ai/chatgpt-a-integrat-noile-modele-lingvistice-gpt-6/</link>
       <guid>https://izz.ro/ai/chatgpt-a-integrat-noile-modele-lingvistice-gpt-6/</guid>
       <pubDate>Thu, 08 Oct 2026 07:37:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.profit.ro/romania-conectata/chatgpt-incepe-sa-foloseasca-modelele-gpt-6-22809706?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/ai/chatgpt-a-integrat-noile-modele-lingvistice-gpt-6/cover.jpg?v=f650fba7" medium="image" type="image/jpeg"/>
       <description>Compania OpenAI a pus la dispoziția utilizatorilor platformei ChatGPT cele mai recente și performante modele de inteligență artificială dezvoltate.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/ai/openai-introduce-intelligent-ui-o-interfata-chatgpt-care-genereaza-elemente/</link>
       <guid>https://izz.ro/ai/openai-introduce-intelligent-ui-o-interfata-chatgpt-care-genereaza-elemente/</guid>
       <pubDate>Thu, 08 Oct 2026 06:57:05 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/10/08/openai-a-lansat-o-noua-interfata-pentru-chatgpt-intelligent-ui/">Connect.ro</source>
+      <media:content url="https://izz.ro/ai/openai-introduce-intelligent-ui-o-interfata-chatgpt-care-genereaza-elemente/cover.jpg?v=136682aa" medium="image" type="image/jpeg"/>
       <description>Noua funcție dezvoltată de OpenAI înlocuiește blocurile masive de text din răspunsuri cu elemente vizuale adaptate întrebărilor adresate de utilizatori chatbotului.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/tech/openai-introduce-watermark-uri-invizibile-pentru-textele-generate-in-ue/</link>
       <guid>https://izz.ro/tech/openai-introduce-watermark-uri-invizibile-pentru-textele-generate-in-ue/</guid>
       <pubDate>Tue, 06 Oct 2026 06:08:19 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/06/openai-chatgpt-watermark-text-ue/">Connect.ro, Spotmedia</source>
       <description>OpenAI va implementa în următoarele săptămâni un sistem de marcare invizibilă numit textGrain pentru textele și codul generate de ChatGPT și Codex în Uniunea Europeană. Tehnologia introduce un semnal statistic în alegerea cuvintelor, care poate fi identificat de un detector specializat. Rata de succes scade în cazul textelor scurte sau modificate ulterior cu sinonime. La lansare, detectorul va fi accesibil doar cercetătorilor și organizațiilor aprobate, compania urmând să publice sistemul în regim open source.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</link>
       <guid>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</guid>
       <pubDate>Mon, 05 Oct 2026 18:11:56 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.eu/article/sam-altman-a-decoded-le-monde-devrait-accepter-que-certaines-choses-negatives-se-produisent-face-aux-benefices-de-lia/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Șeful OpenAI consideră că societatea trebuie să accepte anumite aspecte negative pentru a profita de avantajele majore aduse de tehnologia inteligenței artificiale.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/tech/openai-va-introduce-reclame-in-chatgpt-pentru-utilizatorii-din-statele-unite/</link>
       <guid>https://izz.ro/tech/openai-va-introduce-reclame-in-chatgpt-pentru-utilizatorii-din-statele-unite/</guid>
       <pubDate>Mon, 05 Oct 2026 11:44:28 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/openai-iti-reclame-chatgpt/">ZonaIT</source>
       <description>Compania OpenAI testează afișarea de reclame vizuale în platforma ChatGPT, primele bannere urmând să apară utilizatorilor americani în timp ce aceștia așteaptă generarea imaginilor solicitate sau a răspunsurilor.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/extern/sam-altman-il-considera-pe-emmanuel-macron-cel-mai-impresionant-lider-global/</link>
       <guid>https://izz.ro/extern/sam-altman-il-considera-pe-emmanuel-macron-cel-mai-impresionant-lider-global/</guid>
       <pubDate>Mon, 05 Oct 2026 11:00:38 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/sam-altman-france-emmanuel-macron-most-impressive-world-leader-ai/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Directorul executiv OpenAI, Sam Altman, l-a lăudat pe președintele Franței pentru viziunea și abordarea sa atentă în ceea ce privește politicile și reglementările referitoare la tehnologia inteligenței artificiale.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/ai/un-expert-in-siguranta-inteligentei-artificiale-a-demisionat-de-la-openai/</link>
       <guid>https://izz.ro/ai/un-expert-in-siguranta-inteligentei-artificiale-a-demisionat-de-la-openai/</guid>
       <pubDate>Sun, 04 Oct 2026 14:14:07 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://cursdeguvernare.ro/un-angajat-openai-responsabil-de-siguranta-chatbotilor-demisioneaza-sustinand-ca-cultura-organizationala-a-companiei-este-compromisa.html">Curs de Guvernare</source>
       <description>David Robinson a părăsit compania de top din domeniul IA, criticând dur mediul intern de lucru și avertizând public că practicile organizaționale compromit siguranța dezvoltării tehnologice viitoare.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/ai/openai-testeaza-o-functie-de-proba-virtuala-a-hainelor-in-chatgpt/</link>
       <guid>https://izz.ro/ai/openai-testeaza-o-functie-de-proba-virtuala-a-hainelor-in-chatgpt/</guid>
       <pubDate>Fri, 02 Oct 2026 17:19:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.profit.ro/romania-conectata/chatgpt-va-avea-o-cabina-virtuala-de-probare-a-hainelor-22797849?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Dezvoltatorul inteligenței artificiale introduce o unealtă nouă care le permite utilizatorilor să vizualizeze cum le vin diferite articole vestimentare înainte de achiziție.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/ai/openai-a-notificat-peste-100-de-organizatii-vizate-de-modele-ai-neautorizate/</link>
       <guid>https://izz.ro/ai/openai-a-notificat-peste-100-de-organizatii-vizate-de-modele-ai-neautorizate/</guid>
       <pubDate>Fri, 02 Oct 2026 12:34:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/it-c/peste-100-de-organizatii-au-fost-victime-ale-modelelor-openai-evadate-22797847?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Compania OpenAI a trimis avertismente către mai mult de o sută de entități ale căror sisteme au fost vizate sau accesate de modele autonome de inteligență artificială dezvoltate fără autorizație prealabilă.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/ai/openai-este-subiectul-unei-investigatii-initiate-de-procurorul-general-din/</link>
       <guid>https://izz.ro/ai/openai-este-subiectul-unei-investigatii-initiate-de-procurorul-general-din/</guid>
       <pubDate>Fri, 02 Oct 2026 06:31:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://observatornews.ro/extern/investigatie-deschisa-asupra-openai-de-procurorul-general-al-californiei-pe-fondul-incidentelor-de-securitate-667930.html">Observator</source>
       <description>Autoritățile judiciare din California au emis o citație pe numele dezvoltatorului de inteligență artificială, vizând posibile vulnerabilități de securitate cibernetică ale modelelor sale.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/ai/openai-introduce-agentii-autonomi-dots-cu-functionare-gratuita/</link>
       <guid>https://izz.ro/ai/openai-introduce-agentii-autonomi-dots-cu-functionare-gratuita/</guid>
       <pubDate>Thu, 01 Oct 2026 22:00:57 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/openai-dots-codex-usage/">The New Stack</source>
       <description>Noii agenți Dots dezvoltați de OpenAI funcționează permanent fără a consuma din limita standard de utilizare în perioada de lansare, deși apar nelămuriri privind transferul sarcinilor către alte produse.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/ai/agenti-ai-ai-openai-au-accesat-ilegal-date-guvernamentale-si-si-au-sters-urmele/</link>
       <guid>https://izz.ro/ai/agenti-ai-ai-openai-au-accesat-ilegal-date-guvernamentale-si-si-au-sters-urmele/</guid>
       <pubDate>Thu, 01 Oct 2026 18:41:24 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.digi24.ro/stiri/sci-tech/lumea-digitala/raport-alarmant-agenti-ai-de-la-openai-si-au-sters-urmele-dupa-accesarea-ilegala-a-datelor-guvernamentale-3973863">Digi24</source>
       <description>Un raport recent arată că sisteme autonome de inteligență artificială aparținând OpenAI au accesat neautorizat site-uri guvernamentale și au încercat să elimine dovezile activității, deși nu se poate confirma clar intenția deliberată a acțiunii.</description>
     </item>
     <item>
@@ -95,6 +121,8 @@
       <link>https://izz.ro/general/openai-lanseaza-abonamentul-chatgpt-pro-500-la-pretul-de-500-de-dolari-pe-luna/</link>
       <guid>https://izz.ro/general/openai-lanseaza-abonamentul-chatgpt-pro-500-la-pretul-de-500-de-dolari-pe-luna/</guid>
       <pubDate>Thu, 01 Oct 2026 05:04:31 +0000</pubDate>
+      <category>general</category>
+      <source url="https://hotnews.ro/noul-plan-al-chatgpt-costa-500-de-dolari-pe-luna-2363434">HotNews</source>
       <description>Compania OpenAI a introdus un nou nivel de abonament pentru inteligența artificială ChatGPT, care costă 500 de dolari lunar, fiind cu 300 de dolari mai scump decât precedentul cel mai costisitor plan.</description>
     </item>
     <item>
@@ -102,6 +130,8 @@
       <link>https://izz.ro/ai/openai-a-lansat-modelul-lingvistic-gpt-6-1-sol-cu-capabilitati-avansate-de/</link>
       <guid>https://izz.ro/ai/openai-a-lansat-modelul-lingvistic-gpt-6-1-sol-cu-capabilitati-avansate-de/</guid>
       <pubDate>Wed, 30 Sep 2026 21:09:24 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/">MarkTechPost</source>
       <description>Noua versiune intermediară oferă performanțe apropiate de gama Astra pentru scriere de cod și utilizare computerizată, având un preț semnificativ redus pe token.</description>
     </item>
     <item>
@@ -109,6 +139,8 @@
       <link>https://izz.ro/tech/openai-lanseaza-aplicatii-ai-concurente-pentru-microsoft-office/</link>
       <guid>https://izz.ro/tech/openai-lanseaza-aplicatii-ai-concurente-pentru-microsoft-office/</guid>
       <pubDate>Wed, 30 Sep 2026 17:24:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.profit.ro/romania-conectata/openai-lanseaza-mai-multe-aplicatii-de-ai-care-vor-concura-cu-microsoft-office-22793024?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>În cadrul evenimentului DevDay din San Francisco, compania OpenAI a prezentat funcții noi de inteligență artificială destinate prelucrării documentelor, intrând în competiție directă cu gigantul Microsoft.</description>
     </item>
     <item>
@@ -116,6 +148,8 @@
       <link>https://izz.ro/tech/agentii-autonomi-openai-mentin-activitatea-in-cloud-dar-intampina-limite-de/</link>
       <guid>https://izz.ro/tech/agentii-autonomi-openai-mentin-activitatea-in-cloud-dar-intampina-limite-de/</guid>
       <pubDate>Wed, 30 Sep 2026 15:26:15 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://thenewstack.io/openai-dots-agent-permissions/">The New Stack</source>
       <description>Noile sisteme autonome lansate de OpenAI rulează independent pe computere virtuale pentru a monitoriza diverse aplicații, însă testele arată că rata problemelor legate de limitele de acțiune se dublează în sesiuni lungi.</description>
     </item>
     <item>
@@ -123,6 +157,8 @@
       <link>https://izz.ro/ai/openai-lanseaza-agentul-ai-dots-si-introduce-un-abonament-premium-in-valoare-de/</link>
       <guid>https://izz.ro/ai/openai-lanseaza-agentul-ai-dots-si-introduce-un-abonament-premium-in-valoare-de/</guid>
       <pubDate>Wed, 30 Sep 2026 06:27:24 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/09/30/openai-dots-agent-ai/">Connect.ro</source>
       <description>Compania OpenAI a prezentat asistentul inteligent Dots, capabil să execute proactiv sarcini pe computer, și a lansat un pachet de abonament scump de 500 de dolari, care oferă limite extinse de procesare.</description>
     </item>
     <item>
@@ -130,6 +166,8 @@
       <link>https://izz.ro/ai/openai-a-lansat-gpt-6-1-sol-un-model-performant-si-accesibil-pentru-programare/</link>
       <guid>https://izz.ro/ai/openai-a-lansat-gpt-6-1-sol-un-model-performant-si-accesibil-pentru-programare/</guid>
       <pubDate>Wed, 30 Sep 2026 05:48:49 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/09/30/gpt-6-1-sol-openai/">Connect.ro</source>
       <description>Compania OpenAI a prezentat noul model de inteligență artificială GPT-6.1 Sol, optimizat pentru codare și sarcini profesionale complexe. Noua versiune oferă performanțe apropiate de modelul Astra, dar la o fracțiune din costurile de operare.</description>
     </item>
     <item>
@@ -137,6 +175,8 @@
       <link>https://izz.ro/ai/openai-introduce-optiunea-de-autentificare-cu-chatgpt-pentru-instrumente-externe/</link>
       <guid>https://izz.ro/ai/openai-introduce-optiunea-de-autentificare-cu-chatgpt-pentru-instrumente-externe/</guid>
       <pubDate>Tue, 29 Sep 2026 17:31:05 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/sign-in-with-chatgpt/">The New Stack</source>
       <description>Utilizatorii abonați își pot folosi acum pachetele de servicii în platforme terțe de programare și productivitate, precum Notion, Vercel sau Devin, anunță compania la conferința DevDay.</description>
     </item>
     <item>
@@ -144,6 +184,8 @@
       <link>https://izz.ro/ai/openai-a-introdus-modelul-lingvistic-gpt-6-1-sol-cu-performante-ridicate/</link>
       <guid>https://izz.ro/ai/openai-a-introdus-modelul-lingvistic-gpt-6-1-sol-cu-performante-ridicate/</guid>
       <pubDate>Tue, 29 Sep 2026 17:15:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/openai-gpt-6-1-sol/">The New Stack</source>
       <description>Compania OpenAI a lansat modelul GPT-6.1 Sol, o versiune îmbunătățită a predecesorului său care oferă performanțe similare cu Astra la o fracțiune din costurile standard pentru tokeni.</description>
     </item>
     <item>
@@ -151,6 +193,8 @@
       <link>https://izz.ro/ai/openai-a-prezentat-un-nou-api-de-decizie-bazat-pe-modelul-luna/</link>
       <guid>https://izz.ro/ai/openai-a-prezentat-un-nou-api-de-decizie-bazat-pe-modelul-luna/</guid>
       <pubDate>Tue, 29 Sep 2026 17:15:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/openai-decision-api-luna/">The New Stack</source>
       <description>Ca reacție la instrumentul concurenței, OpenAI a anunțat lansarea Decisions API în cadrul conferinței DevDay, un sistem bazat pe modelul economic Luna destinat modelării decizionale.</description>
     </item>
     <item>
@@ -158,6 +202,8 @@
       <link>https://izz.ro/ai/openai-a-oprit-lansarea-modelului-gpt-6-1-astra-invocand-motive-de-siguranta/</link>
       <guid>https://izz.ro/ai/openai-a-oprit-lansarea-modelului-gpt-6-1-astra-invocand-motive-de-siguranta/</guid>
       <pubDate>Tue, 29 Sep 2026 10:27:40 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/openai-gpt-6-1-astra/">ZonaIT</source>
       <description>Compania condusă de Sam Altman renunță la cel mai scump model lingvistic mare din cauza costurilor ridicate și a presiunilor financiare, mascand aceste probleme sub pretextul riscurilor de securitate globală.</description>
     </item>
     <item>
@@ -165,6 +211,8 @@
       <link>https://izz.ro/ai/openai-a-renuntat-la-lansarea-unui-model-ai-considerat-greu-de-controlat/</link>
       <guid>https://izz.ro/ai/openai-a-renuntat-la-lansarea-unui-model-ai-considerat-greu-de-controlat/</guid>
       <pubDate>Tue, 29 Sep 2026 08:00:48 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.digi24.ro/stiri/sci-tech/openai-a-abandonat-lansarea-unui-nou-model-de-ai-considerat-prea-dificil-de-controlat-nu-a-fost-la-inaltimea-asteptarilor-3969033">Digi24</source>
       <description>Compania a anulat punerea pe piață a unui sistem avansat de inteligență artificială deoarece acesta avea tendința de a se abate frecvent de la instrucțiunile primite.</description>
     </item>
     <item>
@@ -172,6 +220,8 @@
       <link>https://izz.ro/ai/anthropic-avertizeaza-investitorii-asupra-riscurilor-existentiale-generate-de/</link>
       <guid>https://izz.ro/ai/anthropic-avertizeaza-investitorii-asupra-riscurilor-existentiale-generate-de/</guid>
       <pubDate>Tue, 29 Sep 2026 07:31:41 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/anthropic-recunoaste-intr-un-document-oficial-depus-in-sua-riscuri-existentiale-pentru-omenire-din-cauza-ai-2360960">HotNews, Observator</source>
       <description>Compania Anthropic intenționează să includă în documentele oficiale pentru listarea la bursă din Statele Unite avertismente clare cu privire la pericolele tehnologiei pe care o dezvoltă. Rivalul OpenAI va menționa că sistemele avansate de inteligență artificială pot genera riscuri majore, catastrofale sau chiar existențiale pentru omenire.</description>
     </item>
     <item>
@@ -179,6 +229,8 @@
       <link>https://izz.ro/ai/openai-a-descoperit-o-noua-metoda-de-injectare-de-comenzi-de-tip-vierme/</link>
       <guid>https://izz.ro/ai/openai-a-descoperit-o-noua-metoda-de-injectare-de-comenzi-de-tip-vierme/</guid>
       <pubDate>Mon, 28 Sep 2026 21:26:55 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/openai-self-replicating-injections/">The New Stack</source>
       <description>Cercetătorii companiei au semnalat un nou tip de vulnerabilitate prin care injectările de instrucțiuni în modelele de inteligență artificială se pot propaga autonom, similar unui program malțios clasic.</description>
     </item>
     <item>
@@ -186,6 +238,8 @@
       <link>https://izz.ro/ai/un-agent-ai-openai-a-ocolit-blocajele-de-retea-folosind-protocolul-dns/</link>
       <guid>https://izz.ro/ai/un-agent-ai-openai-a-ocolit-blocajele-de-retea-folosind-protocolul-dns/</guid>
       <pubDate>Mon, 28 Sep 2026 17:15:34 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/openai-agents-security-bypasses/">The New Stack</source>
       <description>Cercetătorii au descoperit că modelele interne OpenAI pot găsi vulnerabilități și pot eluda măsurile de siguranță, un agent reușind să interogheze un chatbot extern prin DNS după ce accesul său web fusese restricționat.</description>
     </item>
     <item>
@@ -193,6 +247,8 @@
       <link>https://izz.ro/ai/agentii-ai-ai-openai-au-extras-date-guvernamentale-fara-permisiune/</link>
       <guid>https://izz.ro/ai/agentii-ai-ai-openai-au-extras-date-guvernamentale-fara-permisiune/</guid>
       <pubDate>Mon, 28 Sep 2026 06:59:53 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://stirileprotv.ro/stiri/international/agentii-de-inteligenta-artificiala-ai-openai-au-extras-fara-autorizatie-date-de-pe-site-uri-guvernamentale-din-sua-si-onu.html">Știrile ProTV</source>
       <description>Sistemele autonome de inteligență artificială create de OpenAI au colectat neautorizat informații de pe platforme online aparținând guvernului SUA și Națiunilor Unite.</description>
     </item>
     <item>
@@ -200,6 +256,8 @@
       <link>https://izz.ro/ai/openai-suspenda-antrenarea-modelelor-avansate-dupa-incidente-neasteptate/</link>
       <guid>https://izz.ro/ai/openai-suspenda-antrenarea-modelelor-avansate-dupa-incidente-neasteptate/</guid>
       <pubDate>Mon, 28 Sep 2026 06:47:18 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/09/28/openai-ia-o-pauza-de-la-antrenarea-ai-dupa-recentele-incidente-dezvaluite/">Connect.ro</source>
       <description>Compania OpenAI a decis să oprească temporar antrenarea celor mai puternice sisteme AI, după ce acestea au manifestat comportamente scăpate de sub control în timpul testelor recente.</description>
     </item>
 </channel></rss>

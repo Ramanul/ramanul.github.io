@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Barcelona — IZZ.ro</title>
   <link>https://izz.ro/subiect/barcelona/</link>
   <atom:link href="https://izz.ro/subiect/barcelona/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Barcelona pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Wizz Air introduce zboruri directe din Brașov spre Spania</title>
       <link>https://izz.ro/local/wizz-air-introduce-zboruri-directe-din-brasov-spre-spania/</link>
       <guid>https://izz.ro/local/wizz-air-introduce-zboruri-directe-din-brasov-spre-spania/</guid>
       <pubDate>Wed, 07 Oct 2026 14:00:15 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/wizz-air-lanseaza-trei-rute-noi-de-la-brasov-spre-spania-zboruri-directe-catre-valencia-barcelona-si-madrid-1161508.html">Alba24</source>
+      <media:content url="https://izz.ro/local/wizz-air-introduce-zboruri-directe-din-brasov-spre-spania/cover.jpg?v=4dd9462e" medium="image" type="image/jpeg"/>
       <description>Compania aeriană Wizz Air va opera curse directe de pe Aeroportul Internațional Brașov-Ghimbav către Valencia, Barcelona și Madrid. Rutele vor deveni active începând din luna noiembrie și până în preajma Crăciunului 2026.</description>
     </item>
     <item>
@@ -18,6 +21,8 @@
       <link>https://izz.ro/extern/shakira-si-gerard-pique-s-au-prezentat-in-instanta-din-barcelona-pentru/</link>
       <guid>https://izz.ro/extern/shakira-si-gerard-pique-s-au-prezentat-in-instanta-din-barcelona-pentru/</guid>
       <pubDate>Tue, 06 Oct 2026 19:35:52 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/magazin/timp-liber/showbiz/motivul-pentru-care-shakira-si-pique-au-ajuns-din-nou-in-fata-instantei-la-barcelona-dupa-despartirea-din-2022-3981395">Digi24 Extern, Știrile ProTV, Antena Sport</source>
       <description>Cântăreața Shakira și fostul fotbalist Gerard Piqué au ajuns din nou în fața unei instanțe din Barcelona, marți. Prezența celor doi în fața judecătorilor a avut ca scop rediscutarea și modificarea termenilor privind drepturile de vizită pentru cei doi fii ai cuplului, stabiliți inițial în urma despărțirii lor oficiale din anul 2022.</description>
     </item>
     <item>
@@ -25,6 +30,8 @@
       <link>https://izz.ro/extern/protestele-masive-din-franta-si-spania-genereaza-tensiuni-majore-privind/</link>
       <guid>https://izz.ro/extern/protestele-masive-din-franta-si-spania-genereaza-tensiuni-majore-privind/</guid>
       <pubDate>Tue, 06 Oct 2026 17:10:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/europa-fierbe-elevii-se-lupta-cu-jandarmii-in-franta-iar-in-spania-oamenii-vor-solutii-pentru-chiriile-mari-668323.html">Observator</source>
       <description>Aproximativ o jumătate de milion de francezi au blocat străzile din Paris, elevii ciocnindu-se cu jandarmii împotriva sistemului educațional. În paralel, locuitorii din Barcelona protestează față de prețurile excesive ale chiriilor.</description>
     </item>
     <item>
@@ -32,6 +39,8 @@
       <link>https://izz.ro/sport/atacantul-mauro-icardi-liber-de-contract-vizat-de-un-posibil-transfer/</link>
       <guid>https://izz.ro/sport/atacantul-mauro-icardi-liber-de-contract-vizat-de-un-posibil-transfer/</guid>
       <pubDate>Tue, 06 Oct 2026 09:48:44 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/fotbal-extern/liber-de-contract-de-4-luni-mauro-icardi-ar-putea-sa-prinda-un-transfer-neasteptat-694628.html">Antena Sport</source>
       <description>Fostul golgheter de la Juventus, Barcelona, PSG și Galatasaray, Mauro Icardi se află fără echipă de patru luni și ar putea semna curând un contract neașteptat în cariera sa.</description>
     </item>
     <item>
@@ -39,6 +48,8 @@
       <link>https://izz.ro/sport/andres-iniesta-considera-ca-meseria-de-antrenor-este-mai-stresanta-decat-cea-de/</link>
       <guid>https://izz.ro/sport/andres-iniesta-considera-ca-meseria-de-antrenor-este-mai-stresanta-decat-cea-de/</guid>
       <pubDate>Mon, 05 Oct 2026 15:03:59 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/andres-iniesta-meserie-antrenor-stresant-jucator-20540489">ProSport</source>
       <description>Fostul fotbalist spaniol Andres Iniesta a declarat că noua sa etapă profesională de tehnician îi aduce o presiune mult mai mare comparativ cu perioada în care activa pe teren ca mijlocaș.</description>
     </item>
     <item>
@@ -46,6 +57,8 @@
       <link>https://izz.ro/sport/impresarii-i-ar-fi-propus-pe-lautaro-martinez-la-inter-inainte-de-transferul-la/</link>
       <guid>https://izz.ro/sport/impresarii-i-ar-fi-propus-pe-lautaro-martinez-la-inter-inainte-de-transferul-la/</guid>
       <pubDate>Mon, 05 Oct 2026 07:00:56 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/news/rassegna-stampa/tuttosport-rivela-nel-2021-prima-di-firmare-col-barcellona-gli-agenti-proposero-allinter/">FC Inter 1908</source>
       <description>Publicația Tuttosport dezvăluie că, între anii 2005 și 2006, agenții l-ar fi oferit clubului Inter pe atacantul argentinian Lautaro Martinez, cu mult timp înainte ca acesta să ajungă în cele din urmă la FC Barcelona.</description>
     </item>
     <item>
@@ -53,6 +66,8 @@
       <link>https://izz.ro/extern/inundatii-istorice-in-catalonia-bilantul-tragic-al-furtunii-devastatoare/</link>
       <guid>https://izz.ro/extern/inundatii-istorice-in-catalonia-bilantul-tragic-al-furtunii-devastatoare/</guid>
       <pubDate>Mon, 05 Oct 2026 05:54:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/cod-rosu-in-spania-dupa-o-furtuna-cum-nu-sa-mai-vazut-de-30-de-ani-apa-a-ajuns-la-un-metru-in-case-668154.html">Observator</source>
       <description>Regiunea spaniolă Catalonia se află sub cod roșu după cele mai severe fenomene meteo din ultimele trei decenii, inundațiile soldându-se cu doi morți, un dispărut și zeci de persoane salvate din calea apelor.</description>
     </item>
     <item>
@@ -60,6 +75,8 @@
       <link>https://izz.ro/sport/ucam-murcia-a-invins-o-pe-barcelona-in-liga-acb/</link>
       <guid>https://izz.ro/sport/ucam-murcia-a-invins-o-pe-barcelona-in-liga-acb/</guid>
       <pubDate>Sun, 04 Oct 2026 19:42:27 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/sporturi/baschet/ucam-murcia-victorie-cu-barcelona-liga-acb-984772.html">GSP</source>
       <description>Echipa UCAM Murcia a trecut duminică de Barcelona cu scorul de 100-94 în etapa a doua a campionatului spaniol de baschet. Românul Emanuel Cățe a avut o prestație excelentă la aruncări pentru formația gazdă.</description>
     </item>
     <item>
@@ -67,6 +84,8 @@
       <link>https://izz.ro/extern/inundatii-severe-in-spania-doi-morti-si-un-disparut-in-catalonia/</link>
       <guid>https://izz.ro/extern/inundatii-severe-in-spania-doi-morti-si-un-disparut-in-catalonia/</guid>
       <pubDate>Sun, 04 Oct 2026 18:40:16 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bzi.ro/potop-in-spania-doi-oameni-au-murit-iar-o-persoana-este-disparuta-barcelona-si-imprejurimile-sub-alerta-5616243">BZI Iași</source>
       <description>Ploile torențiale din Catalonia au provocat inundații devastatoare în provincia Barcelona, soldate cu două decese și o dispariție, autoritățile cerând populației vigilență maximă.</description>
     </item>
     <item>
@@ -74,6 +93,8 @@
       <link>https://izz.ro/extern/doua-persoane-au-murit-in-catalonia-in-urma-ploilor-torentiale-si-a-inundatiilor/</link>
       <guid>https://izz.ro/extern/doua-persoane-au-murit-in-catalonia-in-urma-ploilor-torentiale-si-a-inundatiilor/</guid>
       <pubDate>Sun, 04 Oct 2026 12:27:33 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/vreme-extrema-in-spania-doi-morti-in-catalonia-si-2561685.html">Adevărul</source>
       <description>Regiunea spaniolă Catalonia a fost lovită de furtuni violente care au provocat două decese, inclusiv al unei femei în vârstă de 102 ani, autoritățile menținând alerta maximă din cauza riscului de revărsare a apelor.</description>
     </item>
     <item>
@@ -81,6 +102,8 @@
       <link>https://izz.ro/sport/inter-si-barcelona-monitorizeaza-evolutiile-tanarului-fundas-finn-jeltsch/</link>
       <guid>https://izz.ro/sport/inter-si-barcelona-monitorizeaza-evolutiile-tanarului-fundas-finn-jeltsch/</guid>
       <pubDate>Fri, 02 Oct 2026 12:25:33 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/calciomercato/mercato-inter/sky-inter-osservatori-jeltsch-stoccarda/">FC Inter 1908</source>
       <description>Prestațiile remarcabile ale tânărului fotbalist Finn Jeltsch la Stuttgart au atras interesul mai marilor cluburi europene, scouteri de la Inter și FC Barcelona fiind prezenți la meciurile sale recente.</description>
     </item>
     <item>
@@ -88,6 +111,8 @@
       <link>https://izz.ro/sport/barcelona-monitorizeaza-situatia-lui-erling-haaland-la-manchester-city/</link>
       <guid>https://izz.ro/sport/barcelona-monitorizeaza-situatia-lui-erling-haaland-la-manchester-city/</guid>
       <pubDate>Thu, 01 Oct 2026 12:21:33 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/premier-league/barca-a-aflat-conditiile-in-care-il-poate-transfera-pe-haaland-dupa-scandalul-cu-man-city-alte-doua-cluburi-pregatesc-ofertele-693358.html">Antena Sport</source>
       <description>Clubul catalan analizează posibilitatea de a-l transfera pe atacantul norvegian. Actuala campionă din Premier League riscă o retrogradare în urma unor scandaluri financiare majore, situație ce poate genera plecarea vedetelor.</description>
     </item>
     <item>
@@ -95,6 +120,8 @@
       <link>https://izz.ro/ai/microsoft-integreaza-platforma-fabric-pentru-a-instrui-agentii-ai/</link>
       <guid>https://izz.ro/ai/microsoft-integreaza-platforma-fabric-pentru-a-instrui-agentii-ai/</guid>
       <pubDate>Wed, 30 Sep 2026 14:46:32 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/microsoft-fabric-agent-context/">The New Stack</source>
       <description>În cadrul conferinței de la Barcelona, compania a prezentat funcționalitățile noi din Microsoft Fabric și stratul contextual Fabric, menite să ajute agenții business să înțeleagă datele corporative.</description>
     </item>
     <item>
@@ -102,6 +129,8 @@
       <link>https://izz.ro/sport/selectionerul-luis-de-la-fuente-l-a-laudat-pe-lamine-yamal-dupa-meciul-cu/</link>
       <guid>https://izz.ro/sport/selectionerul-luis-de-la-fuente-l-a-laudat-pe-lamine-yamal-dupa-meciul-cu/</guid>
       <pubDate>Wed, 30 Sep 2026 13:42:06 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/fotbal-extern/cum-l-a-descris-luis-de-la-fuente-pe-lamine-yamal-e-imposibil-sa-nu-fac-asta.html">Sport.ro</source>
       <description>Tehnicianul naționalei Spaniei a evidențiat evoluția excelentă a tânărului fotbalist legitimat la FC Barcelona, autor a două goluri și a unei pase decisive în partida câștigată clar împotriva Croației.</description>
     </item>
     <item>
@@ -109,6 +138,8 @@
       <link>https://izz.ro/sport/biletele-pentru-meciul-barcelona-real-madrid-costa-intre-476-si-999-de-euro/</link>
       <guid>https://izz.ro/sport/biletele-pentru-meciul-barcelona-real-madrid-costa-intre-476-si-999-de-euro/</guid>
       <pubDate>Tue, 29 Sep 2026 20:00:46 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/campionate-externe/spania/cat-costa-barcelona-real-madrid-camp-nou-bilete-incasari-record-20536200">ProSport</source>
       <description>Partida de pe Camp Nou din 25 octombrie generează încasări record din vânzarea tichetelor, acestea fiind disponibile exclusiv pentru membrii clubului la prețuri ridicate.</description>
     </item>
     <item>
@@ -116,6 +147,8 @@
       <link>https://izz.ro/sport/victorie-record-obtinuta-de-barcelona-la-mondialul-cluburilor/</link>
       <guid>https://izz.ro/sport/victorie-record-obtinuta-de-barcelona-la-mondialul-cluburilor/</guid>
       <pubDate>Tue, 29 Sep 2026 15:36:10 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/alte-sporturi/handbal/barcelona-victorie-zdrobitoare-handbal-masculin-20535946">ProSport</source>
       <description>Echipa de handbal masculin a Barcelonei a spulberat-o pe formația Montada Derb Sultan cu scorul de 51-15, reușind un rezultat istoric în cadrul Campionatului Mondial al Cluburilor.</description>
     </item>
     <item>
@@ -123,6 +156,8 @@
       <link>https://izz.ro/sport/lamine-yamal-i-a-transmis-un-mesaj-lui-leo-messi-dupa-finala-mondialului/</link>
       <guid>https://izz.ro/sport/lamine-yamal-i-a-transmis-un-mesaj-lui-leo-messi-dupa-finala-mondialului/</guid>
       <pubDate>Tue, 29 Sep 2026 07:37:37 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/campionatul-mondial-2026/a-venit-in-sfarsit-dezvaluirea-lamine-yamal-i-a-spus-lui-leo-messi-imediat-dupa-finala-mondialului-ceea-ce-gandea-toata-lumea-692807.html">Antena Sport</source>
       <description>Finala Cupei Mondiale din 2026 a marcat un moment simbolic de predare a ștafetei între legendarul Leo Messi și tânărul star al Barcelonei, Lamine Yamal.</description>
     </item>
     <item>
@@ -130,6 +165,8 @@
       <link>https://izz.ro/extern/un-avion-de-pe-cursa-barcelona-boston-a-aterizat-de-urgenta-la-porto-din-cauza/</link>
       <guid>https://izz.ro/extern/un-avion-de-pe-cursa-barcelona-boston-a-aterizat-de-urgenta-la-porto-din-cauza/</guid>
       <pubDate>Mon, 28 Sep 2026 06:32:19 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/un-avion-care-zbura-de-la-barcelona-spre-boston-a-aterizat-de-urgenta-la-porto-dupa-ce-a-fost-semnalat-fum-in-cabina.html">Știrile ProTV</source>
       <description>Aeronava care zbura spre Statele Unite a fost deviată în Portugalia după ce s-a semnalat fum în cabină, mai mulți pasageri fiind transportați la spital după manevră.</description>
     </item>
 </channel></rss>

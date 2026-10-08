@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Elveția — IZZ.ro</title>
   <link>https://izz.ro/subiect/elvetia/</link>
   <atom:link href="https://izz.ro/subiect/elvetia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Elveția pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Fotbalistul Granit Xhaka a primit o amendă uriașă pentru un certificat fals de vaccinare</title>
       <link>https://izz.ro/sport/fotbalistul-granit-xhaka-a-primit-o-amenda-uriasa-pentru-un-certificat-fals-de/</link>
       <guid>https://izz.ro/sport/fotbalistul-granit-xhaka-a-primit-o-amenda-uriasa-pentru-un-certificat-fals-de/</guid>
       <pubDate>Thu, 08 Oct 2026 15:36:58 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/granit-xhaka-pedeapsa-falsificare-vaccin-covid-19-985883.html">GSP</source>
+      <media:content url="https://izz.ro/sport/fotbalistul-granit-xhaka-a-primit-o-amenda-uriasa-pentru-un-certificat-fals-de/cover.jpg?v=9b3cd68f" medium="image" type="image/jpeg"/>
       <description>Căpitanul naționalei Elveției a fost sancționat financiar cu 161.000 de euro, după ce a admis că a folosit un act falsificat care atesta vaccinarea împotriva COVID-19.</description>
     </item>
     <item>
@@ -18,6 +21,8 @@
       <link>https://izz.ro/sport/manuel-akanji-confirma-ca-granit-xhaka-va-recupera-banderola-de-capitan/</link>
       <guid>https://izz.ro/sport/manuel-akanji-confirma-ca-granit-xhaka-va-recupera-banderola-de-capitan/</guid>
       <pubDate>Tue, 06 Oct 2026 22:25:18 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/news/interviste/akanji-post-svizzera-macedonia-xhaka/">FC Inter 1908</source>
       <description>Fundașul echipei naționale a Elveției a comentat situația din lot după partida din Liga Națiunilor, lăudând integrarea tinerilor jucători și explicând statutul căpitanului titular.</description>
     </item>
     <item>
@@ -25,6 +30,8 @@
       <link>https://izz.ro/sport/evolutiile-fotbalistilor-de-la-inter-milano-in-partidele-din-nations-league/</link>
       <guid>https://izz.ro/sport/evolutiile-fotbalistilor-de-la-inter-milano-in-partidele-din-nations-league/</guid>
       <pubDate>Tue, 06 Oct 2026 20:42:03 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/nazionali/sucic-e-akanji-in-campo-con-croazia-e-svizzera-ecco-come-e-andata-la-serata-degli-interisti/">FC Inter 1908</source>
       <description>Jucătorii legitimați la Inter Milano, Petar Sucic și Manuel Akanji, au evoluat pentru naționala Croației, respectiv a Elveției, în meciurile disputate în cadrul Ligii Națiunilor.</description>
     </item>
     <item>
@@ -32,6 +39,8 @@
       <link>https://izz.ro/tech/inginerii-elvetieni-au-inventat-un-sistem-de-alimentare-pentru-autobuze/</link>
       <guid>https://izz.ro/tech/inginerii-elvetieni-au-inventat-un-sistem-de-alimentare-pentru-autobuze/</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://piataauto.md/Stiri/2026/10/VIDEO-O-echipa-de-ingineri-din-Elvetia-a-creat-un-sistem-de-incarcare-a-autobuzelor-electrice-prin-anvelope-direct-la-statii/">Piata Auto MD</source>
       <description>Inovația tehnologică permite reîncărcarea bateriilor mijloacelor de transport în comun direct la stațiile de oprire, prin intermediul roților, optimizând transportul urban.</description>
     </item>
     <item>
@@ -39,6 +48,8 @@
       <link>https://izz.ro/extern/o-casiera-din-elvetia-a-furat-40-000-de-euro-dintr-un-supermarket/</link>
       <guid>https://izz.ro/extern/o-casiera-din-elvetia-a-furat-40-000-de-euro-dintr-un-supermarket/</guid>
       <pubDate>Mon, 05 Oct 2026 06:31:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/o-casiera-a-furat-40000-de-de-la-supermarket-cum-folosea-schema-pungilor-pentru-a-pacali-casa-de-marcat-668163.html">Observator</source>
       <description>Prin utilizarea unor scheme frauduloase la casa de marcat, angajata a sustras sume mari de bani, fiind acum obligată să restituie prejudiciul și să părăsească țara.</description>
     </item>
     <item>
@@ -46,6 +57,8 @@
       <link>https://izz.ro/sport/elvetia-bifeaza-a-treia-victorie-consecutiva-in-liga-natiunilor/</link>
       <guid>https://izz.ro/sport/elvetia-bifeaza-a-treia-victorie-consecutiva-in-liga-natiunilor/</guid>
       <pubDate>Sun, 04 Oct 2026 10:47:59 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://cvlpress.ro/04.10.2026/elvetia-nati-inca-o-victorie/">Cuvântul Libertății</source>
       <description>Reprezentativa de fotbal a Elveției s-a impus cu scorul de 2-1 în fața Sloveniei, la Lucerna, înregistrat al treilea succes consecutiv în Liga Națiunilor B. Echipa a demonstrat determinare pe teren, deși a evoluat fără titulari importanți și în plin...</description>
     </item>
     <item>
@@ -53,6 +66,8 @@
       <link>https://izz.ro/economic/elvetia-va-mentine-si-moderniza-sistemul-feroviar-de-transport-cargo-pentru/</link>
       <guid>https://izz.ro/economic/elvetia-va-mentine-si-moderniza-sistemul-feroviar-de-transport-cargo-pentru/</guid>
       <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://piataauto.md/Stiri/2026/10/Elvetia-a-decis-sa-mentina-in-viata-si-sa-revigoreze-sistem-transport-feroviar-cargo-cu-preluari-de-vagoane-individuale-direct-de-la-fabrici-companii/">Piata Auto MD</source>
       <description>Guvernul elvețian continuă să susțină transportul de mărfuri pe calea ferată, menținând serviciul de preluare a vagoanelor individuale direct de la platformele industriale și fabrici.</description>
     </item>
     <item>
@@ -60,6 +75,8 @@
       <link>https://izz.ro/sport/evolutiile-internationalilor-manuel-akanji-si-ange-yoan-bonny-la-echipele/</link>
       <guid>https://izz.ro/sport/evolutiile-internationalilor-manuel-akanji-si-ange-yoan-bonny-la-echipele/</guid>
       <pubDate>Sat, 03 Oct 2026 20:45:53 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/nazionali/nations-league-90-per-akanji-nella-vittoria-della-svizzera-contro-la-slovenia/">FC Inter 1908</source>
       <description>Fundașul Manuel Akanji a evoluat integral în victoria obținută de Elveția împotriva Sloveniei, în timp ce coechipierul său Ange-Yoan Bonny a jucat o repriză în amicalul Coastei de Fildes cu Camerun.</description>
     </item>
     <item>
@@ -67,6 +84,8 @@
       <link>https://izz.ro/economic/un-antreprenor-roman-a-devenit-unul-dintre-cei-mai-bogati-tineri-din-elvetia/</link>
       <guid>https://izz.ro/economic/un-antreprenor-roman-a-devenit-unul-dintre-cei-mai-bogati-tineri-din-elvetia/</guid>
       <pubDate>Sat, 03 Oct 2026 09:03:25 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/un-roman-a-fost-numit-unul-dintre-cei-mai-bogati-tineri-din-elvetia-care-este-povestea-lui.html">Economedia</source>
       <description>Plecat din România acum șase ani după falimentul afacerii de familie, Nimrod Malinas a fondat compania de robotică Robonnement și a ajuns pe lista bogaților din Elveția.</description>
     </item>
     <item>
@@ -74,6 +93,8 @@
       <link>https://izz.ro/general/cabana-monte-rosa-din-elvetia-functioneaza-independent-energetic/</link>
       <guid>https://izz.ro/general/cabana-monte-rosa-din-elvetia-functioneaza-independent-energetic/</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <category>general</category>
+      <source url="https://piataauto.md/Stiri/2026/10/Ingineria-si-arhitectura-Monte-Rosa-Hut-din-Elvetia-proiectata-studenti-ne-arata-cum-un-edificiu-poate-fi-autosuficient-in-energie-2900-m-altitudine/">Piata Auto MD</source>
       <description>Un edificiu montan situat la mare altitudine în Elveția, conceput de studenți, demonstrează că o clădire poate fi complet autosuficientă din punct de vedere energetic în condiții extreme.</description>
     </item>
     <item>
@@ -81,6 +102,8 @@
       <link>https://izz.ro/general/suspectul-principal-in-cazul-uciderii-valentinei-va-fi-extradat-in-romania/</link>
       <guid>https://izz.ro/general/suspectul-principal-in-cazul-uciderii-valentinei-va-fi-extradat-in-romania/</guid>
       <pubDate>Thu, 01 Oct 2026 13:13:00 +0000</pubDate>
+      <category>general</category>
+      <source url="https://observatornews.ro/eveniment/mama-a-ramas-socata-sora-valentinei-reactie-inainte-ca-ucigasul-sa-fie-adus-in-tara-667882.html">Observator</source>
       <description>Vlad Bălțăţeanu a acceptat extrădarea simplificată din Elveția, în timp ce familia tinerei ucise cere schimbarea mentalităților care favorizează violența împotriva femeilor.</description>
     </item>
     <item>
@@ -88,6 +111,8 @@
       <link>https://izz.ro/extern/ghetarii-din-elvetia-au-pierdut-o-cincime-din-volum-din-2021/</link>
       <guid>https://izz.ro/extern/ghetarii-din-elvetia-au-pierdut-o-cincime-din-volum-din-2021/</guid>
       <pubDate>Thu, 01 Oct 2026 05:52:10 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/an-catastrofal-pentru-ghetarii-din-elvetia-o-cincime-din-volum-a-disparut-din-2021-gheata-s-ar-putea-topi-definitiv-in-15-ani.html">G4Media</source>
       <description>Specialiștii elvețieni raportează un nou bilanț catastrofal, cu o topire masivă a ghețarilor de 20% în ultimii cinci ani, avertizând că aceștia ar putea dispărea complet în următoarele decenii.</description>
     </item>
     <item>
@@ -95,6 +120,8 @@
       <link>https://izz.ro/extern/ghetarii-din-elvetia-s-au-redus-cu-20-in-cinci-ani/</link>
       <guid>https://izz.ro/extern/ghetarii-din-elvetia-s-au-redus-cu-20-in-cinci-ani/</guid>
       <pubDate>Thu, 01 Oct 2026 04:00:27 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/environment/2026/oct/01/switzerland-glacier-loss-fossil-fuel-pollution-europe">The Guardian</source>
       <description>Valurile succesive de căldură și poluarea au provocat topirea masivă a ghețarilor alpini, transformând regiunile muntoase din Elveția în peisaje asemănătoare unor deșerturi de piatră.</description>
     </item>
     <item>
@@ -102,6 +129,8 @@
       <link>https://izz.ro/extern/ghetarii-din-elvetia-se-topesc-masiv-din-cauza-schimbarilor-climatice/</link>
       <guid>https://izz.ro/extern/ghetarii-din-elvetia-se-topesc-masiv-din-cauza-schimbarilor-climatice/</guid>
       <pubDate>Thu, 01 Oct 2026 00:08:23 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/c6n9w0ypjwl9o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
       <description>Oamenii de știință avertizează că anul curent aduce pierderi catastrofice de gheață pentru ghețarii elvețieni, un fenomen accelerat de încălzirea globală care periclitează resursele viitoare de apă.</description>
     </item>
     <item>
@@ -109,6 +138,8 @@
       <link>https://izz.ro/cultura/o-sculptura-din-marmura-de-500-de-tone-a-plecat-din-grecia-spre-elvetia/</link>
       <guid>https://izz.ro/cultura/o-sculptura-din-marmura-de-500-de-tone-a-plecat-din-grecia-spre-elvetia/</guid>
       <pubDate>Wed, 30 Sep 2026 20:45:00 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://www.antena3.ro/externe/mapamond/un-gigant-de-marmura-de-500-de-tone-a-plecat-din-grecia-spre-o-tara-din-inima-europei-calatoreste-noaptea-pe-uscat-pana-la-mare-805277.html">Antena 3 CNN</source>
       <description>O lucrare monumentală realizată dintr-un singur bloc de marmură pe o insulă grecească a fost expediată în Elveția, transportul terestru nocturn fiind organizat până la zona portuară.</description>
     </item>
     <item>
@@ -116,6 +147,8 @@
       <link>https://izz.ro/sport/fotbalistul-ardon-jashari-a-ales-sa-reprezinte-nationala-elvetiei/</link>
       <guid>https://izz.ro/sport/fotbalistul-ardon-jashari-a-ales-sa-reprezinte-nationala-elvetiei/</guid>
       <pubDate>Tue, 29 Sep 2026 08:06:26 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.digisport.ro/fotbal/un-cutit-in-inimile-albanezilor-ardon-jashari-a-ales-sa-joace-pentru-alta-nationala-si-a-spus-o-pe-fata-4514717">Digi Sport</source>
       <description>Mijlocașul legitimat la AC Milan a refuzat convocarea din partea Albaniei, țara sa de origine. Născut în Elveția, acesta a decis să evolueze în continuare pentru prima reprezentativă a Cantoanelor.</description>
     </item>
     <item>
@@ -123,6 +156,8 @@
       <link>https://izz.ro/extern/iubitul-valentinei-s-a-predat-politiei-din-elvetia-si-a-recunoscut-crima/</link>
       <guid>https://izz.ro/extern/iubitul-valentinei-s-a-predat-politiei-din-elvetia-si-a-recunoscut-crima/</guid>
       <pubDate>Tue, 29 Sep 2026 07:14:29 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.csid.ro/stiri/vlad-baltateanu-iubitul-valentinei-a-fost-arestat-in-elvetia-tanarul-s-a-predat-singur-autoritatilor-si-a-recunoscut-ca-a-ucis-o-pe-tanara-21321686/">CSÎD</source>
       <description>Vlad Bălțățeanu, principalul suspect în cazul uciderii Valentinei, s-a predat autorităților elvețiene. Tânărul în vârstă de 30 de ani era căutat de polițiștii români și a mărturisit fapta comisă.</description>
     </item>
     <item>
@@ -130,6 +165,8 @@
       <link>https://izz.ro/extern/democratia-directa-din-elvetia-limiteaza-ascensiunea-extremei-drepte/</link>
       <guid>https://izz.ro/extern/democratia-directa-din-elvetia-limiteaza-ascensiunea-extremei-drepte/</guid>
       <pubDate>Mon, 28 Sep 2026 04:00:24 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/sep/28/switzerlands-love-of-referendums-helps-us-keep-the-far-right-at-bay">The Guardian</source>
       <description>Sistemul elvețian bazat pe referendume frecvente blochează politicile extremiste, oferind un model eficient de combatere a populismului prin implicarea directă a cetățenilor în decizii.</description>
     </item>
     <item>
@@ -137,6 +174,8 @@
       <link>https://izz.ro/tech/performante-notabile-pentru-prima-cladire-baterie-gravitationala/</link>
       <guid>https://izz.ro/tech/performante-notabile-pentru-prima-cladire-baterie-gravitationala/</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://piataauto.md/Stiri/2026/09/Prima-cladire-din-lume-cu-rol-genial-de-baterie-gravitationala-a-indicat-un-randament-excelent-dar-constructia-a-avut-costuri-uriase/">Piata Auto MD</source>
       <description>Startup-ul elvețian Energy Vault a înregistrat un randament excelent cu prima clădire din lume care funcționează ca baterie gravitațională, deși costurile totale ale construcției s-au dovedit a fi extrem de ridicate.</description>
     </item>
     <item>
@@ -144,6 +183,8 @@
       <link>https://izz.ro/extern/cetatenii-elvetieni-au-respins-prin-referendum-o-neutralitate-mai-stricta/</link>
       <guid>https://izz.ro/extern/cetatenii-elvetieni-au-respins-prin-referendum-o-neutralitate-mai-stricta/</guid>
       <pubDate>Sun, 27 Sep 2026 17:03:23 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/elvetienii-spun-nu-unei-neutralitati-mai-stricte-propunerea-ar-fi-blocat-sanctiunile-impotriva-rusiei">Spotmedia</source>
       <description>Aproape 68 la sută dintre alegătorii elvețieni au votat împotriva unei inițiative care ar fi interzis statului să preia sancțiunile Uniunii Europene impuse împotriva Rusiei, păstrând legislația actuală.</description>
     </item>
     <item>
@@ -151,6 +192,8 @@
       <link>https://izz.ro/extern/elvetienii-voteaza-la-referendum-inasprirea-neutralitatii-si-limitarea/</link>
       <guid>https://izz.ro/extern/elvetienii-voteaza-la-referendum-inasprirea-neutralitatii-si-limitarea/</guid>
       <pubDate>Sun, 27 Sep 2026 08:07:49 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/referendumul-care-poate-schimba-relatia-elvetiei-2560092.html">Adevărul</source>
       <description>Cetățenii elvețieni sunt chemați la urne pentru a decide introducerea regulilor de neutralitate strictă direct în Constituție. Măsura propusă va restrânge parteneriatul militar al țării cu NATO, dar și implicarea în sancțiuni internaționale.</description>
     </item>
 </channel></rss>

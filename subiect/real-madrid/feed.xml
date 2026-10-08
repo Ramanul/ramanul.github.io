@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Real Madrid — IZZ.ro</title>
   <link>https://izz.ro/subiect/real-madrid/</link>
   <atom:link href="https://izz.ro/subiect/real-madrid/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Real Madrid pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Fostul fotbalist Cicinho vorbește despre credință și alcoolism</title>
       <link>https://izz.ro/general/fostul-fotbalist-cicinho-vorbeste-despre-credinta-si-alcoolism/</link>
       <guid>https://izz.ro/general/fostul-fotbalist-cicinho-vorbeste-despre-credinta-si-alcoolism/</guid>
       <pubDate>Thu, 08 Oct 2026 08:29:41 +0000</pubDate>
+      <category>general</category>
+      <source url="https://adevarul.ro/sport/cicinho-de-la-alcoolism-la-credinta-fostul-star-2562625.html">Adevărul</source>
+      <media:content url="https://izz.ro/general/fostul-fotbalist-cicinho-vorbeste-despre-credinta-si-alcoolism/cover.jpg?v=c29ac368" medium="image" type="image/jpeg"/>
       <description>Cunoscutul fost fundaș dreapta de la Real Madrid a făcut dezvăluiri emoționante despre lupta cu dependența de alcool și momentele de pe teren în care susține că l-a zărit pe Iisus.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/sport/publicatia-l-equipe-critica-evolutia-lui-kylian-mbappe-la-real-madrid/</link>
       <guid>https://izz.ro/sport/publicatia-l-equipe-critica-evolutia-lui-kylian-mbappe-la-real-madrid/</guid>
       <pubDate>Thu, 08 Oct 2026 08:18:47 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/mbappe-critici-real-madrid-lequipe-985692.html">GSP</source>
+      <media:content url="https://izz.ro/sport/publicatia-l-equipe-critica-evolutia-lui-kylian-mbappe-la-real-madrid/cover.jpg?v=218db6fe" medium="image" type="image/jpeg"/>
       <description>Jurnaliștii francezi de la L'Equipe au analizat primii doi ani ai atacantului Kylian Mbappe la Real Madrid, evidențiind nemulțumiri din interiorul clubului legate de integrarea și comportamentul său.</description>
     </item>
     <item>
@@ -25,6 +31,9 @@
       <link>https://izz.ro/sport/jose-mourinho-a-exclus-doi-jucatori-din-lotul-echipei-real-madrid/</link>
       <guid>https://izz.ro/sport/jose-mourinho-a-exclus-doi-jucatori-din-lotul-echipei-real-madrid/</guid>
       <pubDate>Wed, 07 Oct 2026 20:50:44 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/jose-mourinho-real-madrid-la-liga-985595.html">GSP</source>
+      <media:content url="https://izz.ro/sport/jose-mourinho-a-exclus-doi-jucatori-din-lotul-echipei-real-madrid/cover.jpg?v=384cf20a" medium="image" type="image/jpeg"/>
       <description>Antrenorul formației Real Madrid a decis să renunțe la serviciile fundașului Raul Asencio și ale unui alt fotbalist din cauza startului slab de sezon.</description>
     </item>
     <item>
@@ -32,6 +41,9 @@
       <link>https://izz.ro/sport/mariano-diaz-s-a-sarutat-cu-o-fana-dupa-esecul-nationalei/</link>
       <guid>https://izz.ro/sport/mariano-diaz-s-a-sarutat-cu-o-fana-dupa-esecul-nationalei/</guid>
       <pubDate>Wed, 07 Oct 2026 14:39:57 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/fotbal-extern/momente-uluitoare-o-fana-i-a-cerut-sa-faca-poza-iar-fostul-jucator-de-la-real-madrid-s-a-sarutat-cu-ea-695507.html">Antena Sport</source>
+      <media:content url="https://izz.ro/sport/mariano-diaz-s-a-sarutat-cu-o-fana-dupa-esecul-nationalei/cover.jpg?v=2d232067" medium="image" type="image/jpeg"/>
       <description>Atacantul Mariano Diaz, fost jucător la Real Madrid, a fost surprins sărutându-se cu o suporteră care îi ceruse o fotografie, imediat după ce echipa sa națională a pierdut meciul cu Haiti.</description>
     </item>
     <item>
@@ -39,6 +51,8 @@
       <link>https://izz.ro/sport/dani-carvajal-a-ajuns-la-un-acord-si-urmeaza-sa-semneze-cu-getafe/</link>
       <guid>https://izz.ro/sport/dani-carvajal-a-ajuns-la-un-acord-si-urmeaza-sa-semneze-cu-getafe/</guid>
       <pubDate>Tue, 06 Oct 2026 15:47:10 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/dani-carvajal-transfer-getafe-la-liga-985270.html">GSP</source>
       <description>Fostul fundaș dreapta de la Real Madrid, Dani Carvajal, a trecut vizita medicală și a bătut palma cu Getafe, transferul urmând să fie oficializat după aprobarea regulilor de fair-play financiar.</description>
     </item>
     <item>
@@ -46,6 +60,8 @@
       <link>https://izz.ro/sport/tensiuni-la-real-madrid-din-cauza-sustinerii-pentru-balonul-de-aur/</link>
       <guid>https://izz.ro/sport/tensiuni-la-real-madrid-din-cauza-sustinerii-pentru-balonul-de-aur/</guid>
       <pubDate>Tue, 06 Oct 2026 09:04:45 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/mbappe-conflict-real-madrid-balonul-de-aur-985127.html">GSP</source>
       <description>Atacantul Kylian Mbappe ar fi intrat într-un conflict cu conducerea clubului Real Madrid, fiind nemulțumit că oficialii spanioli nu i-au acordat sprijinul public pentru obținerea trofeului Balonul de Aur.</description>
     </item>
     <item>
@@ -53,6 +69,8 @@
       <link>https://izz.ro/sport/ac-milan-vrea-sa-il-transfere-pe-endrick-in-ianuarie/</link>
       <guid>https://izz.ro/sport/ac-milan-vrea-sa-il-transfere-pe-endrick-in-ianuarie/</guid>
       <pubDate>Sun, 04 Oct 2026 12:41:42 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/endrick-transfer-ac-milan-real-madrid-984620.html">GSP</source>
       <description>Atacantul brazilian legitimat la Real Madrid nu prinde minute sub comanda lui Jose Mourinho, motiv pentru care conducerea clubului milanez pregătește o ofertă pentru fereastra de transferuri din iarnă.</description>
     </item>
     <item>
@@ -60,6 +78,8 @@
       <link>https://izz.ro/sport/uefa-investigheaza-cazul-negreira-si-ia-in-calcul-excluderea-fc-barcelona-din/</link>
       <guid>https://izz.ro/sport/uefa-investigheaza-cazul-negreira-si-ia-in-calcul-excluderea-fc-barcelona-din/</guid>
       <pubDate>Sun, 04 Oct 2026 12:07:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://spotmedia.ro/stiri/sport/uefa-ar-putea-exclude-fc-barcelona-din-champions-league-presa">Spotmedia</source>
       <description>Forul fotbalistic european a redeschis ancheta vizând clubul FC Barcelona, bazându-se pe noi probe furnizate de Real Madrid, ceea ce ar putea activa reguli disciplinare severe privind excluderea din competiții.</description>
     </item>
     <item>
@@ -67,6 +87,8 @@
       <link>https://izz.ro/sport/dani-carvajal-ar-fi-fost-propus-mai-multor-cluburi-din-serie-a/</link>
       <guid>https://izz.ro/sport/dani-carvajal-ar-fi-fost-propus-mai-multor-cluburi-din-serie-a/</guid>
       <pubDate>Sat, 03 Oct 2026 12:41:09 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/calciomercato/mercato-squadre-avversarie/carvajal-serie-a-romano-proposto/">FC Inter 1908</source>
       <description>Conform jurnalistului Fabrizio Romano, fostul fundaș al echipei Real Madrid a fost oferit mai multor formații din campionatul italian și din alte ligi europene.</description>
     </item>
     <item>
@@ -74,6 +96,8 @@
       <link>https://izz.ro/sport/dinamo-bucuresti-este-aproape-sa-transfere-un-fost-jucator-de-la-real-madrid/</link>
       <guid>https://izz.ro/sport/dinamo-bucuresti-este-aproape-sa-transfere-un-fost-jucator-de-la-real-madrid/</guid>
       <pubDate>Sat, 03 Oct 2026 11:53:29 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/liga-1/dinamo-aproape-de-semnatura-jucatorului-trecut-pe-la-real-madrid-anuntul-conducatorului-sunt-increzator-ca-vom-reusi.html">Sport.ro</source>
       <description>Oficialii clubului Dinamo au confirmat că negocierile pentru aducerea unui fotbalist trecut pe la Real Madrid sunt avansate, conducerea exprimându-și încrederea în finalizarea mutării.</description>
     </item>
     <item>
@@ -81,6 +105,8 @@
       <link>https://izz.ro/sport/wesley-sneijder-a-dezvaluit-detalii-despre-transferul-de-la-real-madrid-la-inter/</link>
       <guid>https://izz.ro/sport/wesley-sneijder-a-dezvaluit-detalii-despre-transferul-de-la-real-madrid-la-inter/</guid>
       <pubDate>Thu, 01 Oct 2026 18:15:19 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/news/interviste/sneijder-dopo-due-anni-di-real-madrid-ho-vinto-tutto-allinter-mourinho/">FC Inter 1908</source>
       <description>Fostul mijlocaș olandez a rememorat în cadrul unui interviu momentele de succes trăite la Inter Milano după plecarea de la Real Madrid și colaborarea cu antrenorul Jose Mourinho.</description>
     </item>
     <item>
@@ -88,6 +114,8 @@
       <link>https://izz.ro/sport/un-jucator-de-la-real-madrid-va-suferi-o-interventie-chirurgicala-si-va-fi/</link>
       <guid>https://izz.ro/sport/un-jucator-de-la-real-madrid-va-suferi-o-interventie-chirurgicala-si-va-fi/</guid>
       <pubDate>Wed, 30 Sep 2026 20:25:24 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/spania/real-madrid-a-facut-anuntul-se-opereaza-si-e-out.html">Sport.ro</source>
       <description>Clubul Real Madrid a confirmat că un fotbalist din lot va fi operat în curând, urmând să rateze meciurile programate în perioada următoare din cauza recuperării.</description>
     </item>
     <item>
@@ -95,6 +123,8 @@
       <link>https://izz.ro/sport/biletele-pentru-meciul-barcelona-real-madrid-costa-intre-476-si-999-de-euro/</link>
       <guid>https://izz.ro/sport/biletele-pentru-meciul-barcelona-real-madrid-costa-intre-476-si-999-de-euro/</guid>
       <pubDate>Tue, 29 Sep 2026 20:00:46 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/campionate-externe/spania/cat-costa-barcelona-real-madrid-camp-nou-bilete-incasari-record-20536200">ProSport</source>
       <description>Partida de pe Camp Nou din 25 octombrie generează încasări record din vânzarea tichetelor, acestea fiind disponibile exclusiv pentru membrii clubului la prețuri ridicate.</description>
     </item>
     <item>
@@ -102,6 +132,8 @@
       <link>https://izz.ro/sport/kylian-mbappe-a-suferit-o-accidentare-usoara-la-genunchi/</link>
       <guid>https://izz.ro/sport/kylian-mbappe-a-suferit-o-accidentare-usoara-la-genunchi/</guid>
       <pubDate>Tue, 29 Sep 2026 15:01:18 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/detalii-accidentare-kylian-mbappe-20535948">ProSport</source>
       <description>Atacantul francez Kylian Mbappe a acuzat probleme medicale în timpul convocării la națională, însă investigațiile ulterioare au arătat că accidentarea la genunchi nu este gravă, evitându-se astfel o absență îndelungată.</description>
     </item>
     <item>
@@ -109,6 +141,8 @@
       <link>https://izz.ro/sport/legendele-werder-bremen-si-real-madrid-au-baut-bere-si-shoturi-la-meciul/</link>
       <guid>https://izz.ro/sport/legendele-werder-bremen-si-real-madrid-au-baut-bere-si-shoturi-la-meciul/</guid>
       <pubDate>Sun, 27 Sep 2026 18:47:38 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/meci-legende-werder-bremen-real-madrid-pauza-hidratare-bere-982733.html">GSP</source>
       <description>Stadionul Weserstadion a găzduit un meci demonstrativ câștigat de Werder cu 4-3 împotriva lui Real Madrid. Partida a devenit virală după ce foștii fotbalisti au înlocuit apa cu bere și băuturi spirtoase în prima repriză.</description>
     </item>
     <item>
@@ -116,13 +150,8 @@
       <link>https://izz.ro/sport/martin-odegaard-l-a-laudat-pe-cristiano-ronaldo-inaintea-meciului-direct/</link>
       <guid>https://izz.ro/sport/martin-odegaard-l-a-laudat-pe-cristiano-ronaldo-inaintea-meciului-direct/</guid>
       <pubDate>Sun, 27 Sep 2026 17:16:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/martin-odegaard-laude-cristiano-ronaldo-real-madrid-norvegia-portugalia-982700.html">GSP</source>
       <description>Căpitanul naționalei Norvegiei, Martin Odegaard, a avut numai cuvinte de laudă despre fostul său coleg de la Real Madrid, Cristiano Ronaldo, înainte de confruntarea din Liga Națiunilor.</description>
-    </item>
-    <item>
-      <title>Kylian Mbappe s-a accidentat la genunchi în meciul Turcia – Franța</title>
-      <link>https://izz.ro/sport/kylian-mbappe-s-a-accidentat-la-genunchi-in-meciul-turcia-franta/</link>
-      <guid>https://izz.ro/sport/kylian-mbappe-s-a-accidentat-la-genunchi-in-meciul-turcia-franta/</guid>
-      <pubDate>Sat, 26 Sep 2026 19:15:16 +0000</pubDate>
-      <description>Atacantul francez Kylian Mbappe a suferit o accidentare la genunchi în partida disputată vineri împotriva Turciei din Liga Națiunilor, după ce a marcat singurul gol al reprezentativei sale.</description>
     </item>
 </channel></rss>

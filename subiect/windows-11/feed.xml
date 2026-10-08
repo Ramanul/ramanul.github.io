@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Windows 11 — IZZ.ro</title>
   <link>https://izz.ro/subiect/windows-11/</link>
   <atom:link href="https://izz.ro/subiect/windows-11/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Windows 11 pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Microsoft introduce asistentul AI Copilot direct în bara de sarcini din Windows 11</title>
       <link>https://izz.ro/tech/microsoft-introduce-asistentul-ai-copilot-direct-in-bara-de-sarcini-din-windows/</link>
       <guid>https://izz.ro/tech/microsoft-introduce-asistentul-ai-copilot-direct-in-bara-de-sarcini-din-windows/</guid>
       <pubDate>Thu, 08 Oct 2026 08:18:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.profit.ro/romania-conectata/video-microsoft-integreaza-copilot-direct-in-bara-de-sarcini-din-windows-11-22809702?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/tech/microsoft-introduce-asistentul-ai-copilot-direct-in-bara-de-sarcini-din-windows/cover.jpg?v=785c3fec" medium="image" type="image/jpeg"/>
       <description>Utilizatorii sistemului de operare Windows 11 primesc acces rapid la inteligența artificială prin integrarea nativă a asistentului Copilot în bara de start, peremițând executarea diverselor comenzi scrise.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/tech/microsoft-a-actualizat-functia-de-cautare-din-windows-11-cu-inteligenta/</link>
       <guid>https://izz.ro/tech/microsoft-a-actualizat-functia-de-cautare-din-windows-11-cu-inteligenta/</guid>
       <pubDate>Thu, 08 Oct 2026 07:27:49 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/08/microsoft-a-refacut-cautarea-in-windows-11-inclusiv-cu-ai/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/microsoft-a-actualizat-functia-de-cautare-din-windows-11-cu-inteligenta/cover.jpg?v=8a3218cf" medium="image" type="image/jpeg"/>
       <description>Noua interfață de căutare din Windows 11, prezentată de Microsoft, permite utilizatorilor să modifice setările sistemului și să execute mii de comenzi rapide direct din bara de activități folosind comenzi simple.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/tech/actualizarea-windows-11-26h2-imbunatateste-viteza-sistemului-si-reduce-consumul/</link>
       <guid>https://izz.ro/tech/actualizarea-windows-11-26h2-imbunatateste-viteza-sistemului-si-reduce-consumul/</guid>
       <pubDate>Wed, 07 Oct 2026 06:34:31 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/07/windows-11-26h2-performanta-ram/">Connect.ro</source>
       <description>Microsoft a lansat pachetul 26H2 pentru Windows 11, care aduce optimizări majore pentru meniul Start și lansarea aplicațiilor. Funcția Low Latency Profile contribuie la o experiență de utilizare mai fluidă și eficientă.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/tech/microsoft-forteaza-trecerea-la-windows-11-prin-costurile-mari-ale-windows-10/</link>
       <guid>https://izz.ro/tech/microsoft-forteaza-trecerea-la-windows-11-prin-costurile-mari-ale-windows-10/</guid>
       <pubDate>Tue, 06 Oct 2026 14:24:46 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/windows-10-11-actualizari/">ZonaIT</source>
       <description>Politicile comerciale stricte și costurile ridicate impuse de Microsoft pentru menținerea vechiului sistem operare determină companiile și instituțiile să adopte mai rapid noua versiune Windows 11.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/tech/microsoft-a-lansat-oficial-actualizarea-windows-11-26h2/</link>
       <guid>https://izz.ro/tech/microsoft-a-lansat-oficial-actualizarea-windows-11-26h2/</guid>
       <pubDate>Mon, 05 Oct 2026 09:55:22 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/05/windows-11-26h2-este-live-ce-schimbari-aduce-noua-versiune/">Connect.ro</source>
       <description>Utilizatorii de PC-uri compatibile primesc treptat noul pachet de upgrade semestrial Windows 11 prin sistemul Windows Update, acesta aducând modificări importante interfeței din File Manager.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/tech/microsoft-testeaza-instalarea-automata-de-aplicatii-terte-in-windows-11/</link>
       <guid>https://izz.ro/tech/microsoft-testeaza-instalarea-automata-de-aplicatii-terte-in-windows-11/</guid>
       <pubDate>Sat, 03 Oct 2026 08:12:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/it-c/windows-11-ar-putea-instala-singur-aplicatii-terte-22799925?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Compania Microsoft experimentează o nouă versiune Windows 11 care va include preinstalarea unor programe externe precum Netflix sau Spotify pe dispozitivele utilizatorilor.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/tech/renuntarea-la-stergerea-cache-ului-in-windows-11-imbunatateste-performanta/</link>
       <guid>https://izz.ro/tech/renuntarea-la-stergerea-cache-ului-in-windows-11-imbunatateste-performanta/</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:18 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/clearing-your-cache-is-the-cleanup-tip-everyone-repeats-and-its-quietly-making-your-pc-slower/">XDA Developers</source>
       <description>Un utilizator descoperă că sfaturile frecvente de pe forumuri privind golirea cache-ului pentru economisirea spațiului pe SSD pot încetini de fapt sistemul de operare Windows.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/tech/windows-11-26h2-este-disponibil-oficial-pentru-download-si-instalare/</link>
       <guid>https://izz.ro/tech/windows-11-26h2-este-disponibil-oficial-pentru-download-si-instalare/</guid>
       <pubDate>Wed, 30 Sep 2026 11:06:16 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/windows-11-26h2-download-actualizare/">ZonaIT</source>
       <description>Microsoft a lansat oficial versiunea Windows 11 26H2, care poate fi descărcată curată sau instalată prin Windows Update. Actualizarea aduce funcții inteligente bazate pe inteligență artificială și un File Explorer îmbunătățit.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/tech/aplicatia-vlc-ruleaza-lent-pe-windows-11-din-cauza-unor-limitari-de-sistem/</link>
       <guid>https://izz.ro/tech/aplicatia-vlc-ruleaza-lent-pe-windows-11-din-cauza-unor-limitari-de-sistem/</guid>
       <pubDate>Tue, 29 Sep 2026 20:00:16 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/vlc-painfully-slow-windows-11-pc-change-this-setting/">XDA Developers</source>
       <description>Cel mai popular player multimedia pentru PC se confruntă cu probleme de performanță pe sistemul de operare Windows 11, în ciuda funcțiilor avansate pe care le oferă utilizatorilor.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/tech/conectarea-unui-vechi-telefon-android-la-windows-11-inlocuieste-webcamul/</link>
       <guid>https://izz.ro/tech/conectarea-unui-vechi-telefon-android-la-windows-11-inlocuieste-webcamul/</guid>
       <pubDate>Mon, 28 Sep 2026 21:00:16 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/windows-11-uses-my-old-phone-as-a-webcam/">XDA Developers</source>
       <description>Utilizatorii care nu sunt mulțumiți de camerele web integrate din laptopuri pot folosi un smartphone Android vechi împreună cu sistemul de operare Windows 11 pentru o calitate superioară a imaginii.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/tech/linux-revigoreaza-computerele-vechi-scoase-din-uz-de-windows/</link>
       <guid>https://izz.ro/tech/linux-revigoreaza-computerele-vechi-scoase-din-uz-de-windows/</guid>
       <pubDate>Sun, 27 Sep 2026 23:00:18 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/lightweight-linux-to-revive-a-windows-pc-that-is-not-ubuntu/">XDA Developers</source>
       <description>Cerințele stricte impuse de sistemul Windows 11 lasă în urmă numeroase echipamente hardware vechi lipsite de cipuri TPM. Utilizarea unei distribuții Linux ușoare reprezintă o soluție eficientă pentru a repune în funcțiune aceste dispozitive.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/tech/cerintele-pentru-drivere-din-windows-11-starnesc-controverse-privind-securitatea/</link>
       <guid>https://izz.ro/tech/cerintele-pentru-drivere-din-windows-11-starnesc-controverse-privind-securitatea/</guid>
       <pubDate>Sun, 27 Sep 2026 13:30:16 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/windows-11s-driver-signature-requirement-is-one-of-the-best-anti-consumer-security-features-out-there/">XDA Developers</source>
       <description>Politica Microsoft care impune semnătura digitală obligatorie pentru drivere în Windows 11 generează nemulțumiri, determinând utilizatorii să prefere versiuni vechi sau sisteme alternative.</description>
     </item>
 </channel></rss>

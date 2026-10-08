@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Regatul Unit — IZZ.ro</title>
   <link>https://izz.ro/subiect/regatul-unit/</link>
   <atom:link href="https://izz.ro/subiect/regatul-unit/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Regatul Unit pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Regatul Unit amenință cu expulzarea diplomaților israelieni din cauza consulatului din Ierusalim</title>
       <link>https://izz.ro/extern/regatul-unit-ameninta-cu-expulzarea-diplomatilor-israelieni-din-cauza/</link>
       <guid>https://izz.ro/extern/regatul-unit-ameninta-cu-expulzarea-diplomatilor-israelieni-din-cauza/</guid>
       <pubDate>Wed, 07 Oct 2026 19:20:09 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/reuters-tensiuni-intre-regatul-unit-si-israel-londra-ar-putea-expulza-zeci-de-diplomati-daca-va-fi-inchis-consulatul-din-ierusalim.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/extern/regatul-unit-ameninta-cu-expulzarea-diplomatilor-israelieni-din-cauza/cover.jpg?v=d39c933b" medium="image" type="image/jpeg"/>
       <description>Londra ia în calcul expulzarea unor diplomați israelieni dacă Israelul va închide consulatul britanic din Ierusalimul de Est, pe fondul unei dispute legate de sancțiunile impuse coloniilor.</description>
     </item>
     <item>
@@ -18,6 +21,8 @@
       <link>https://izz.ro/extern/donald-trump-explica-mutarea-bombardierelor-americane-din-regatul-unit/</link>
       <guid>https://izz.ro/extern/donald-trump-explica-mutarea-bombardierelor-americane-din-regatul-unit/</guid>
       <pubDate>Mon, 05 Oct 2026 20:55:51 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/reactia-lui-trump-dupa-repatrierea-bombardierelor-americane-din-regatul-unit-le-am-mutat-putin-nu-foarte-departe-3979593">Digi24 Extern</source>
       <description>Președintele american Donald Trump a declarat că retragerea bombardierelor staționate în Marea Britanie a fost decisă din cauza unor amenințări de securitate, precizând că aeronavele au fost mutate la distanță mică.</description>
     </item>
     <item>
@@ -25,6 +30,8 @@
       <link>https://izz.ro/ai/cercetatorii-britanici-digitalizeaza-70-de-milioane-de-exponate-muzeale-cu/</link>
       <guid>https://izz.ro/ai/cercetatorii-britanici-digitalizeaza-70-de-milioane-de-exponate-muzeale-cu/</guid>
       <pubDate>Sun, 04 Oct 2026 13:00:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/life/stiinta/de-la-gandaci-aurii-la-descoperirile-lui-darwin-70-de-milioane-de-exponate-de-muzeu-ajung-online-cu-ajutorul-inteligentei-artificiale-805414.html">Antena 3 CNN</source>
       <description>Oamenii de știință folosesc inteligența artificială pentru a muta în mediul online o colecție vastă de specimene din Regatul Unit. Proiectul include de la insecte rare până la descoperirile istorice ale lui Charles Darwin.</description>
     </item>
     <item>
@@ -32,6 +39,8 @@
       <link>https://izz.ro/economic/industria-auto-din-regatul-unit-se-afla-in-fata-unor-decizii-economice-dificile/</link>
       <guid>https://izz.ro/economic/industria-auto-din-regatul-unit-se-afla-in-fata-unor-decizii-economice-dificile/</guid>
       <pubDate>Sun, 04 Oct 2026 05:00:18 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.theguardian.com/business/2026/oct/04/uk-car-industry-trade-off-china-made-in-europe-laws">The Guardian</source>
       <description>Producătorii britanici de automobile trebuie să gestioneze riscurile comerciale dintre piețele din China și Uniunea Europeană, în contextul discuțiilor privind taxele vamale.</description>
     </item>
     <item>
@@ -39,6 +48,8 @@
       <link>https://izz.ro/extern/doi-cetateni-iranieni-au-fost-arestati-in-regatul-unit-pentru-un-complot/</link>
       <guid>https://izz.ro/extern/doi-cetateni-iranieni-au-fost-arestati-in-regatul-unit-pentru-un-complot/</guid>
       <pubDate>Sat, 03 Oct 2026 16:10:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dw.com/en/uk-remands-2-iranians-over-alleged-antisemitic-terror-plot/a-79532184?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
       <description>Autoritățile britanice au reținut doi bărganţi de origine iraniană acuzați că plănuiau atacuri antisemite împotriva unor obiective comunitare din orașul Manchester.</description>
     </item>
     <item>
@@ -46,6 +57,8 @@
       <link>https://izz.ro/extern/un-sondaj-arata-ca-jumatate-dintre-britanici-sustin-revenirea-in-uniunea-2/</link>
       <guid>https://izz.ro/extern/un-sondaj-arata-ca-jumatate-dintre-britanici-sustin-revenirea-in-uniunea-2/</guid>
       <pubDate>Sat, 03 Oct 2026 11:25:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.profit.ro/stiri/politic/tot-mai-multi-bitanici-vor-inapoi-in-ue-dupa-brexit-acum-sunt-in-proportie-de-50-in-favoarea-reintegrarii-regatului-unit-in-ue-sondaj-22800303?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Aproximativ 50% dintre alegătorii din Regatul Unit favorizează acum reintegrarea țării în Uniunea Europeană, la ani distanță de la producerea Brexitului.</description>
     </item>
     <item>
@@ -53,6 +66,8 @@
       <link>https://izz.ro/lifestyle/reguli-noi-privind-utilizarea-internetului-mobil-in-marea-britanie-dupa-brexit/</link>
       <guid>https://izz.ro/lifestyle/reguli-noi-privind-utilizarea-internetului-mobil-in-marea-britanie-dupa-brexit/</guid>
       <pubDate>Fri, 02 Oct 2026 06:05:27 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://as.ro/diverse/p-esim-uk-cum-ai-internet-in-marea-britanie-dupa-brexit-693541.html">Antena Sport</source>
       <description>Ieșirea Marii Britanii din Uniunea Europeană a eliminat gratuitatea roamingului, operatorii români și cei britanici aplicând taxe suplimentare pentru date mobile, aspect important pentru turiștii care vizitează Regatul Unit.</description>
     </item>
     <item>
@@ -60,6 +75,8 @@
       <link>https://izz.ro/extern/andy-burnham-ia-in-calcul-revizuirea-relatiei-regatului-unit-cu-uniunea/</link>
       <guid>https://izz.ro/extern/andy-burnham-ia-in-calcul-revizuirea-relatiei-regatului-unit-cu-uniunea/</guid>
       <pubDate>Wed, 30 Sep 2026 19:29:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/dupa-dezastrul-brexit-urmeaza-de-brexit-ce-optiuni-are-andy-burnham-in-relatia-cu-uniunea-europeana-pe-langa-revenirea-uk-in-ue-805198.html">Antena 3 CNN</source>
       <description>Premierul britanic Andy Burnham a recunoscut impactul negativ al Brexitului și a sugerat posibilitatea unui nou referendum pentru reintegrarea Regatului Unit în Uniunea Europeană.</description>
     </item>
     <item>
@@ -67,6 +84,8 @@
       <link>https://izz.ro/extern/acordul-migrationist-dintre-regatul-unit-si-franta-expira-joi/</link>
       <guid>https://izz.ro/extern/acordul-migrationist-dintre-regatul-unit-si-franta-expira-joi/</guid>
       <pubDate>Wed, 30 Sep 2026 12:52:16 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/uk-news/2026/sep/30/uk-france-one-in-one-out-deal-to-expire-on-thursday-say-sources">The Guardian</source>
       <description>Înțelegerea bilaterală menită să limiteze traversările ilegale cu bărci mici pe Canalul Mânecii se apropie de final, după ce negocierile de prelungire au eșuat din cauza divergențelor franco-britanice.</description>
     </item>
     <item>
@@ -74,6 +93,8 @@
       <link>https://izz.ro/extern/regatul-unit-renunta-la-taxa-de-intrare-in-muzee-pentru-straini/</link>
       <guid>https://izz.ro/extern/regatul-unit-renunta-la-taxa-de-intrare-in-muzee-pentru-straini/</guid>
       <pubDate>Tue, 29 Sep 2026 15:04:09 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/regatul-unit-nu-va-mai-impune-o-taxa-de-intrare-in-muzee-pentru-vizitatorii-straini.html">G4Media</source>
       <description>Guvernul britanic a infirmat zvonurile și a confirmat că muzeele naționale din Regatul Unit vor rămâne cu acces gratuit pentru turiștii străini, renunțând la planurile inițiale de taxare.</description>
     </item>
     <item>
@@ -81,6 +102,8 @@
       <link>https://izz.ro/extern/reducerea-imigratiei-in-regatul-unit-provoaca-pierderi-masive-la-bugetul-de-stat/</link>
       <guid>https://izz.ro/extern/reducerea-imigratiei-in-regatul-unit-provoaca-pierderi-masive-la-bugetul-de-stat/</guid>
       <pubDate>Tue, 29 Sep 2026 10:00:48 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/sep/29/cutting-uk-immigration-means-billions-less-for-the-treasury">The Guardian</source>
       <description>Oficiul pentru Responsabilitate Bugetară estimează că fiecare grup de o sută de mii de imigranți pierduți costă trezoreria britanică șapte miliarde de lire sterline, punând presiune pe finanțele publice.</description>
     </item>
     <item>
@@ -88,6 +111,8 @@
       <link>https://izz.ro/extern/ministrul-britanic-jonathan-reynolds-avertizeaza-asupra-incertitudinilor/</link>
       <guid>https://izz.ro/extern/ministrul-britanic-jonathan-reynolds-avertizeaza-asupra-incertitudinilor/</guid>
       <pubDate>Sun, 27 Sep 2026 18:05:42 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/eu-uk-rejoin-business-uncertainty-jonathan-reynolds/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Secretarul pentru Afaceri al Regatului Unit, Jonathan Reynolds, susține că discuțiile despre o potențială reintrare în Uniunea Europeană generează instabilitate economică, recomandând în schimb optimizarea relațiilor comerciale actuale.</description>
     </item>
 </channel></rss>

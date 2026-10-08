@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Berlin — IZZ.ro</title>
   <link>https://izz.ro/subiect/berlin/</link>
   <atom:link href="https://izz.ro/subiect/berlin/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Berlin pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Marea Britanie și Germania își reafirmă cooperarea militară în cadrul vizitei lui Andy Burnham la Berlin</title>
       <link>https://izz.ro/extern/marea-britanie-si-germania-isi-reafirma-cooperarea-militara-in-cadrul-vizitei/</link>
       <guid>https://izz.ro/extern/marea-britanie-si-germania-isi-reafirma-cooperarea-militara-in-cadrul-vizitei/</guid>
       <pubDate>Thu, 08 Oct 2026 15:15:53 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/marea-britanie-si-germania-vor-face-fata-impreuna-amenintarilor-afirma-premierul-andy-burnham-la-berlin.html">G4Media</source>
+      <media:content url="https://izz.ro/extern/marea-britanie-si-germania-isi-reafirma-cooperarea-militara-in-cadrul-vizitei/cover.jpg?v=7ce7a63a" medium="image" type="image/jpeg"/>
       <description>Premierul britanic a fost primit cu onoruri militare în capitala Germaniei, unde a discutat cu cancelarul Friedrich Merz despre consolidarea parteneriatului strategic de apărare și securitate comună.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/extern/premierul-britanic-discuta-la-berlin-cu-cancelarul-german-despre-securitate-si/</link>
       <guid>https://izz.ro/extern/premierul-britanic-discuta-la-berlin-cu-cancelarul-german-despre-securitate-si/</guid>
       <pubDate>Thu, 08 Oct 2026 08:15:56 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/cmwyq34qexdzo?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <media:content url="https://izz.ro/extern/premierul-britanic-discuta-la-berlin-cu-cancelarul-german-despre-securitate-si/cover.jpg?v=4daea7c8" medium="image" type="image/jpeg"/>
       <description>În cadrul primei sale vizite oficiale în Germania, prim-ministrul britanic va aborda cu oficialii germani teme legate de cooperarea bilaterală și contracararea amenințărilor hibride venite dinspre Rusia.</description>
     </item>
     <item>
@@ -25,6 +31,9 @@
       <link>https://izz.ro/economic/fondul-apollo-global-management-vrea-sa-cumpere-gigantul-energetic-uniper/</link>
       <guid>https://izz.ro/economic/fondul-apollo-global-management-vrea-sa-cumpere-gigantul-energetic-uniper/</guid>
       <pubDate>Wed, 07 Oct 2026 16:30:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/energie/gigantul-uniper-nationalizat-in-criza-energetica-si-scos-la-vanzare-de-berlin-atrage-noi-petitori-22808711?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/economic/fondul-apollo-global-management-vrea-sa-cumpere-gigantul-energetic-uniper/cover.jpg?v=65392941" medium="image" type="image/jpeg"/>
       <description>Compania Apollo Global Management a depus o ofertă preliminară pentru preluarea gigantului german Uniper, utilitate naționalizată în timpul crizei energetice și scoasă ulterior la vânzare.</description>
     </item>
     <item>
@@ -32,6 +41,9 @@
       <link>https://izz.ro/extern/dezbateri-politice-aprinse-in-germania-privind-posibila-interzicere-a/</link>
       <guid>https://izz.ro/extern/dezbateri-politice-aprinse-in-germania-privind-posibila-interzicere-a/</guid>
       <pubDate>Wed, 07 Oct 2026 13:17:22 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/inside-afd/die-brandmauer-vor-dem-aus/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/dezbateri-politice-aprinse-in-germania-privind-posibila-interzicere-a/cover.jpg?v=94fc5a39" medium="image" type="image/jpeg"/>
       <description>Formarea guvernelor regionale din Germania ar putea influența un potențial proces de interzicere a formațiunii AfD, în timp ce pe scena politică apar noi tensiuni electorale.</description>
     </item>
     <item>
@@ -39,6 +51,8 @@
       <link>https://izz.ro/extern/berlinul-este-zguduit-de-un-scandal-de-spionaj-si-discutii-politice/</link>
       <guid>https://izz.ro/extern/berlinul-este-zguduit-de-un-scandal-de-spionaj-si-discutii-politice/</guid>
       <pubDate>Wed, 07 Oct 2026 03:30:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/berlin-playbook-podcast/merz-in-der-therapiestunde-koalitionsausschuss/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Fostul șef al BND, August Hanning, este acuzat că ar fi transmis date secrete către Azerbaidjan. Între timp, liderii politici germani se reunesc la Cancelarie pentru negocieri privind coaliția de guvernare.</description>
     </item>
     <item>
@@ -46,6 +60,8 @@
       <link>https://izz.ro/extern/negocierile-politice-din-berlin-vizeaza-increderea-comunitatii-evreiesti/</link>
       <guid>https://izz.ro/extern/negocierile-politice-din-berlin-vizeaza-increderea-comunitatii-evreiesti/</guid>
       <pubDate>Wed, 07 Oct 2026 02:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/berlin-left-party-elif-eralp-jewish-community-antisemitism-mamdani/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Discuțiile pentru formarea noivei coaliții municipale din Berlin pun accent pe combaterea antisemitismului, în timp ce politicienii încearcă să obțină susținerea populației evreiești pentru extrema stângă.</description>
     </item>
     <item>
@@ -53,6 +69,8 @@
       <link>https://izz.ro/extern/discutii-politice-tensionate-intre-spd-verzi-si-die-linke-la-berlin/</link>
       <guid>https://izz.ro/extern/discutii-politice-tensionate-intre-spd-verzi-si-die-linke-la-berlin/</guid>
       <pubDate>Thu, 01 Oct 2026 04:08:20 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/berlin-playbook-podcast/grune-und-spd-die-linke-gewissensfrage-in-berlin/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Partidele din Berlin analizează posibile alianțe și linii roșii, fiind marcate de controverse legate de acuzații de antisemitism și relații cu clanurile.</description>
     </item>
     <item>
@@ -60,6 +78,8 @@
       <link>https://izz.ro/extern/aeroportul-din-berlin-a-devenit-primul-din-germania-dotat-cu-sistem-anti-drona/</link>
       <guid>https://izz.ro/extern/aeroportul-din-berlin-a-devenit-primul-din-germania-dotat-cu-sistem-anti-drona/</guid>
       <pubDate>Wed, 30 Sep 2026 05:56:37 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/primul-aeroport-din-germania-care-are-un-sistem-de-detectie-a-dronelor-luam-foarte-in-serios-amenintarile-3970533">Digi24 Extern, Antena 3 CNN, Adevărul</source>
       <description>Autoritatea de control al traficului aerian din Germania a instalat un nou sistem de detecție a dronelor pe Aeroportul Brandenburg din Berlin. Aceasta este prima infrastructură aeroportuară din țară dotată cu o astfel de tehnologie, decizia fiind luată pe fondul intensificării amenințărilor și a incidentelor recente raportate în apropierea zonelor de aviație civilă.</description>
     </item>
     <item>
@@ -67,6 +87,8 @@
       <link>https://izz.ro/extern/partidul-die-linke-vrea-nationalizarea-a-200-000-de-locuinte-in-berlin/</link>
       <guid>https://izz.ro/extern/partidul-die-linke-vrea-nationalizarea-a-200-000-de-locuinte-in-berlin/</guid>
       <pubDate>Wed, 30 Sep 2026 04:10:59 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/partidul-de-extrema-stanga-die-linke-vrea-sa-treaca-aproximativ-200-000-de-locuinte-din-berlin-in-proprietate-publica-3969611">Digi24 Extern</source>
       <description>Lidera formațiunii Die Linke din Berlin propune preluarea în proprietate publică a 200.000 de apartamente pentru a atenua criza locuințelor, stârnind îngrijorarea dezvoltatorilor imobiliari cu privire la un posibil haos administrativ.</description>
     </item>
     <item>
@@ -74,6 +96,8 @@
       <link>https://izz.ro/extern/partidul-die-linke-a-castigat-alegerile-regionale-din-berlin/</link>
       <guid>https://izz.ro/extern/partidul-die-linke-a-castigat-alegerile-regionale-din-berlin/</guid>
       <pubDate>Tue, 29 Sep 2026 04:00:53 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/sep/29/leftwing-victory-berlin-freedom-liberals-die-linke-far-right">The Guardian</source>
       <description>Formțiunea de stânga s-a impus în scrutinul din 20 septembrie promițând locuințe accesibile pentru cetățenii capitalei germane. Conducerea partidului urmărește preluarea primăriei și socializarea fondului imobiliar deținut de marile companii.</description>
     </item>
     <item>
@@ -81,6 +105,8 @@
       <link>https://izz.ro/economic/preturile-la-apa-in-republica-moldova-rivalizeaza-cu-cele-din-vest/</link>
       <guid>https://izz.ro/economic/preturile-la-apa-in-republica-moldova-rivalizeaza-cu-cele-din-vest/</guid>
       <pubDate>Mon, 28 Sep 2026 06:05:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.europalibera.md/a/harta-preturilor-la-apa-din-r-moldova-un-metru-cub-de-apa-costa-mai-mult-la-glodeni-decat-la-berlin/33864290.html">Europa Liberă</source>
       <description>Tariful mediu pentru apă și canalizare în Republica Moldova a ajuns la 44,57 lei per metru cub, depășind nivelul din unele metropole europene. Raportat la veniturile locale, costul utilităților devine extrem de împovărător pentru populație.</description>
     </item>
     <item>
@@ -88,13 +114,8 @@
       <link>https://izz.ro/politic/berlinul-analizeaza-limitarea-accesului-unui-guvern-afd-la-secretele-nato/</link>
       <guid>https://izz.ro/politic/berlinul-analizeaza-limitarea-accesului-unui-guvern-afd-la-secretele-nato/</guid>
       <pubDate>Sun, 27 Sep 2026 19:51:12 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/un-guvern-afd-ar-putea-primi-acces-la-secrete-nato-berlinul-cauta-o-solutie-pentru-a-proteja-informatiile-sensibile-3966755">Digi24 Extern</source>
       <description>Autoritățile federale germane iau în calcul măsuri preventive pentru a bloca accesul potențial al partidului AfD la informații clasificate despre Rusia și planurile militare aliate, de teama unor scurgeri de date.</description>
-    </item>
-    <item>
-      <title>Munchen va reprezenta Germania în cursa pentru Jocurile Olimpice</title>
-      <link>https://izz.ro/sport/munchen-va-reprezenta-germania-in-cursa-pentru-jocurile-olimpice/</link>
-      <guid>https://izz.ro/sport/munchen-va-reprezenta-germania-in-cursa-pentru-jocurile-olimpice/</guid>
-      <pubDate>Sat, 26 Sep 2026 19:19:25 +0000</pubDate>
-      <description>Confederația Germană a Sporturilor Olimpice a desemnat orașul Munchen drept candidat oficial pentru găzduirea Jocurilor Olimpice de vară din 2036, 2040 sau 2044, după retragerea orașului Berlin din competiție.</description>
     </item>
 </channel></rss>

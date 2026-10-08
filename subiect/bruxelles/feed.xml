@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Bruxelles — IZZ.ro</title>
   <link>https://izz.ro/subiect/bruxelles/</link>
   <atom:link href="https://izz.ro/subiect/bruxelles/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bruxelles pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Uniunea Europeană analizează separarea negocierilor de aderare pentru Ucraina și Moldova</title>
       <link>https://izz.ro/regional/uniunea-europeana-analizeaza-separarea-negocierilor-de-aderare-pentru-ucraina/</link>
       <guid>https://izz.ro/regional/uniunea-europeana-analizeaza-separarea-negocierilor-de-aderare-pentru-ucraina/</guid>
       <pubDate>Thu, 08 Oct 2026 08:33:43 +0000</pubDate>
+      <category>regional</category>
+      <source url="https://adevarul.ro/stiri-externe/republica-moldova/ue-ia-tot-mai-serios-in-calcul-separarea-2562631.html">Adevărul</source>
+      <media:content url="https://izz.ro/regional/uniunea-europeana-analizeaza-separarea-negocierilor-de-aderare-pentru-ucraina/cover.jpg?v=383e4373" medium="image" type="image/jpeg"/>
       <description>Oficiali diplomatici de la Bruxelles indică faptul că liderii europeni iau în calcul decuplarea parcursului european al celor două state, în timp ce Ungaria a permis recent deblocarea unor etape tehnice.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/lifestyle/teodora-virban-revine-in-romania-dupa-studii-si-cariera-internationala/</link>
       <guid>https://izz.ro/lifestyle/teodora-virban-revine-in-romania-dupa-studii-si-cariera-internationala/</guid>
       <pubDate>Thu, 08 Oct 2026 05:00:01 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://start-up.ro/dupa-o-cariera-la-bruxelles-paris-si-amsterdam-teodora-virban-construieste-un-nou-inceput-acasa-romani-din-lume/">Start-up.ro</source>
+      <media:content url="https://izz.ro/lifestyle/teodora-virban-revine-in-romania-dupa-studii-si-cariera-internationala/cover.jpg?v=db228f8e" medium="image" type="image/jpeg"/>
       <description>După ani de studiu și activitate profesională la Bruxelles, Paris și Amsterdam, Teodora Vîrban a decis să se întoarcă în țară pentru a începe un nou proiect personal și profesional acasă.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/ai/extinderea-competentelor-europol-in-domeniul-inteligentei-artificiale-starneste/</link>
       <guid>https://izz.ro/ai/extinderea-competentelor-europol-in-domeniul-inteligentei-artificiale-starneste/</guid>
       <pubDate>Tue, 06 Oct 2026 17:11:13 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.eu/article/les-renforts-deuropol-en-ia-suscitent-des-inquietudes-sur-la-protection-de-la-vie-privee/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Oficialii europeni avertizează că eforturile Uniunii Europene de a dota Europol cu instrumente avansate bazate pe inteligență artificială nu trebuie să afecteze confidențialitatea datelor personale ale cetățenilor.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/extern/oficialii-comisiei-europene-manifesta-un-interes-neobisnuit-pentru-posturile/</link>
       <guid>https://izz.ro/extern/oficialii-comisiei-europene-manifesta-un-interes-neobisnuit-pentru-posturile/</guid>
       <pubDate>Mon, 05 Oct 2026 04:05:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/brussels-playbook-podcast/the-race-for-the-eus-plum-diplomatic-jobs-begins/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Lupta pentru funcțiile diplomatice de rang înalt din cadrul UE atrage numeroși oficiali din Comisie. Jurnaliștii analizează impactul acestui interes asupra atmosferei politice din Bruxelles, alături de evoluția protestelor studențești din Franța.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/politic/romania-trebuie-sa-isi-stabileasca-prioritatile-economice-si-strategice-pentru/</link>
       <guid>https://izz.ro/politic/romania-trebuie-sa-isi-stabileasca-prioritatile-economice-si-strategice-pentru/</guid>
       <pubDate>Sun, 04 Oct 2026 14:23:21 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://cursdeguvernare.ro/tema-de-casa-ce-punem-pe-masa-la-bruxelles-in-afara-de-cereri.html">Curs de Guvernare</source>
       <description>Ultimul episod al seriei analizează capacitatea României de a genera politici proprii și soluții concrete în negocierile europene, dincolo de simpla solicitare de fonduri și respectarea normelor birocratice.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/extern/statele-vecine-ale-ue-refuza-cererea-ucrainei-de-a-debloca-exporturile-de/</link>
       <guid>https://izz.ro/extern/statele-vecine-ale-ue-refuza-cererea-ucrainei-de-a-debloca-exporturile-de/</guid>
       <pubDate>Sun, 04 Oct 2026 05:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/eu-neighbors-shun-kyivs-plea-to-free-trapped-grain/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Ministrul ucrainean al Agriculturii a cerut la Bruxelles facilitarea tranzitului de cereale prin Europa, însă fermierii locali se opun de teama unei crize și a pierderilor economice generate de blocada navală.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/extern/victor-negrescu-a-condus-o-reuniune-la-bruxelles-privind-securitatea-la-marea/</link>
       <guid>https://izz.ro/extern/victor-negrescu-a-condus-o-reuniune-la-bruxelles-privind-securitatea-la-marea/</guid>
       <pubDate>Sat, 03 Oct 2026 11:36:15 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.zf.ro/politica/discutii-in-parlamentul-european-despre-securitatea-europei-pe-flancul-estic-23252334">Ziarul Financiar</source>
       <description>Peste 50 de experți internaționali și reprezentanți din apărare s-au reunit pentru a analiza riscurile și măsurile de protecție pe Flancul Estic al NATO.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/politic/maria-grapini-avertizeaza-ca-romania-risca-sa-piarda-miliarde-europene/</link>
       <guid>https://izz.ro/politic/maria-grapini-avertizeaza-ca-romania-risca-sa-piarda-miliarde-europene/</guid>
       <pubDate>Sat, 03 Oct 2026 07:30:28 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.ziuadevest.ro/maria-grapini-avertisment-dur-de-la-bruxelles-fara-ministri-la-masa-negocierilor-romania-pierde-miliarde-europene/">Ziua de Vest</source>
       <description>Europarlamentarul Maria Grapini critică lipsa unei reprezentări adecvate a României la Bruxelles și avertizează că absența miniștrilor de la negocieri poate compromite fondurile europene alocate.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/politic/deputatul-ovidiu-cimpean-a-subliniat-potentialul-tehnologic-al-romaniei-la/</link>
       <guid>https://izz.ro/politic/deputatul-ovidiu-cimpean-a-subliniat-potentialul-tehnologic-al-romaniei-la/</guid>
       <pubDate>Sat, 03 Oct 2026 06:53:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://zcj.ro/politica/ovidiu-cimpean-prezent-la-conferinta-state-of-europe-2026-romania-are-oameni-capabili-sa-construiasca-tehnologiile-viitorului--302351.html">Ziua de Cluj</source>
       <description>Parlamentarul PNL Cluj a participat la reuniunea internațională organizată la Bruxelles de Friends of Europe, evidențiind competențele românilor în dezvoltarea inovațiilor pentru viitor.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/politic/siegfried-muresan-critica-dur-deciziile-politice-ale-conducerii-psd-la-bruxelles/</link>
       <guid>https://izz.ro/politic/siegfried-muresan-critica-dur-deciziile-politice-ale-conducerii-psd-la-bruxelles/</guid>
       <pubDate>Fri, 02 Oct 2026 17:59:29 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/politica/siegfried-muresan-un-nou-atac-la-sorin-grindeanu-2561466.html">Adevărul</source>
       <description>Europarlamentarul PNL Siegfried Mureșan a lansat noi acuzații la adresa social-democraților, afirmând că partidul este marginalizat în Parlamentul European după eșecul obținerii sprijinului politic necesar pentru guvern.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/politic/siegfried-muresan-sustine-ca-psd-a-pierdut-credibilitate-la-bruxelles/</link>
       <guid>https://izz.ro/politic/siegfried-muresan-sustine-ca-psd-a-pierdut-credibilitate-la-bruxelles/</guid>
       <pubDate>Fri, 02 Oct 2026 17:45:02 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/cum-vede-bruxelles-ul-criza-politica-din-romania-siegfried-muresan-psd-pierde-credibilitate-in-ue-prin-ceea-ce-a-facut-3975453">Digi24 Extern</source>
       <description>Eurodeputatul Siegfried Mureșan a declarat că eșecul numirii sale ca premier în Parlament a afectat puternic imaginea și încrederea de care partidul social-democrat beneficiază la nivelul Uniunii Europene.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/extern/printul-harry-a-transmis-un-apel-catre-nato-privind-reintegrarea-militarilor/</link>
       <guid>https://izz.ro/extern/printul-harry-a-transmis-un-apel-catre-nato-privind-reintegrarea-militarilor/</guid>
       <pubDate>Thu, 01 Oct 2026 19:18:31 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/apelul-printului-harry-catre-nato-puterea-unei-aliante-se-masoara-prin-societatile-in-care-militarii-se-intorc-acasa.html">G4Media</source>
       <description>În cadrul unei intervenții video adresate comitetului militar NATO de la Bruxelles, Prințul Harry a subliniat importanța sprijinului acordat foștilor soldați pentru a-și regăsi identitatea și rostul după încheierea carierei militare.</description>
     </item>
     <item>
@@ -95,6 +121,8 @@
       <link>https://izz.ro/extern/comisia-europeana-a-asigurat-finantarea-integrala-a-ucrainei-pentru-anul-2026/</link>
       <guid>https://izz.ro/extern/comisia-europeana-a-asigurat-finantarea-integrala-a-ucrainei-pentru-anul-2026/</guid>
       <pubDate>Thu, 01 Oct 2026 19:18:17 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/ue-spune-ca-a-acoperit-necesarul-financiar-si-militar-al-ucrainei-pentru-2026-ce-se-intampla-cu-deficitul-de-27-de-miliarde-de-dolari-3973903">Digi24 Extern</source>
       <description>Bruxelles-ul a acoperit deficitul bugetar și militar estimat anterior la 27 de miliarde de dolari pentru Ucraina, urmând să gestioneze provocările financiare suplimentare planificate pentru anul 2027.</description>
     </item>
     <item>
@@ -102,6 +130,8 @@
       <link>https://izz.ro/politic/ministrul-oana-toiu-a-deschis-seminarul-de-securitate-a-marii-negre/</link>
       <guid>https://izz.ro/politic/ministrul-oana-toiu-a-deschis-seminarul-de-securitate-a-marii-negre/</guid>
       <pubDate>Thu, 01 Oct 2026 18:19:27 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.dobrogeaonline.ro/oana-toiu-ministrul-afacerilor-externe-a-inaugurat-seminarul-dedicat-securitatii-marii-negre-care-a-avut-loc-la-bruxelles/">Dobrogea Online</source>
       <description>Șefa diplomației a inaugurat la Bruxelles conferința dedicată stabilității regionale, eveniment organizat de Institutul UE pentru Studii de Securitate.</description>
     </item>
     <item>
@@ -109,6 +139,8 @@
       <link>https://izz.ro/general/transportul-utilajelor-tbm-pentru-metroul-m6-spre-statia-bruxelles/</link>
       <guid>https://izz.ro/general/transportul-utilajelor-tbm-pentru-metroul-m6-spre-statia-bruxelles/</guid>
       <pubDate>Thu, 01 Oct 2026 16:52:34 +0000</pubDate>
+      <category>general</category>
+      <source url="https://b365.ro/video-metrorex-anunta-ca-muta-cartitele-sfanta-maria-si-sfanta-ana-care-sapa-tunelurile-metroului-m6-spre-otopeni-tbm-urile-sunt-transportate-catre-statia-de-met-622171/">B365, Profit.ro</source>
       <description>Metrorex a început operațiunea de mutare a celor două cârtițe mecanice, numite „Sfânta Maria” și „Sfânta Ana”, care sapă tunelurile pentru Magistrala 6 spre Otopeni. Utilajele TBM sunt transportate către șantierul viitoarei stații de metrou Bruxelles, marcând o nouă etapă în dezvoltarea secțiunii nordice a liniei feroviare subterane.</description>
     </item>
     <item>
@@ -116,6 +148,8 @@
       <link>https://izz.ro/politic/roxana-minzatu-cere-negocieri-colective-reale-pentru-angajati/</link>
       <guid>https://izz.ro/politic/roxana-minzatu-cere-negocieri-colective-reale-pentru-angajati/</guid>
       <pubDate>Wed, 30 Sep 2026 17:21:06 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://newsbv.ro/roxana-minzatu-negociere-colectiva-romania/">News Brașov</source>
       <description>Vicepreședinta Comisiei Europene a subliniat la Bruxelles, în discuțiile cu reprezentanții sindicatelor, că dialogul social și negocierile colective trebuie să ofere beneficii concrete salariaților, nu doar o simplă formalitate pe hârtie.</description>
     </item>
     <item>
@@ -123,6 +157,8 @@
       <link>https://izz.ro/extern/comisia-europeana-estimeaza-pierderi-de-pana-la-17-miliarde-de-euro-in/</link>
       <guid>https://izz.ro/extern/comisia-europeana-estimeaza-pierderi-de-pana-la-17-miliarde-de-euro-in/</guid>
       <pubDate>Wed, 30 Sep 2026 13:21:54 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/canicula-si-seceta-ar-putea-provoca-pierderi-de-pana-la-17-mld-e-agriculturii-ue.html">Curs de Guvernare</source>
       <description>Ministrii agriculturii din Uniunea Europeană au analizat impactul negativ al temperaturilor ridicate și al secetei prelungite. Estimările preliminare indică pagube majore pentru sectorul agricol comunitar, valoarea exactă urmând să fie calculată la finalul recoltării.</description>
     </item>
     <item>
@@ -130,6 +166,8 @@
       <link>https://izz.ro/economic/romania-si-alte-patru-state-cer-masuri-ue-pentru-sectorul-ovin-si-caprin/</link>
       <guid>https://izz.ro/economic/romania-si-alte-patru-state-cer-masuri-ue-pentru-sectorul-ovin-si-caprin/</guid>
       <pubDate>Tue, 29 Sep 2026 17:29:41 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/ministrul-tanczos-barna-anunta-ca-romania-si-alte-patru-state-din-ue-au-cerut-comisiei-masuri-urgente-pentru-sectorul-ovin-si-caprin-in-contextul-evolutiei-focarelor-de-boala_981058.html">Economica</source>
       <description>Ministrul Tanczos Barna a solicitat la Bruxelles, alături de omologii din Bulgaria, Cipru, Croația și Grecia, intervenția Comisiei Europene privind impactul economic al interzicerii exporturilor.</description>
     </item>
     <item>
@@ -137,6 +175,8 @@
       <link>https://izz.ro/extern/secretarul-de-stat-adrian-dan-pop-a-promovat-turismul-romanesc-la-bruxelles/</link>
       <guid>https://izz.ro/extern/secretarul-de-stat-adrian-dan-pop-a-promovat-turismul-romanesc-la-bruxelles/</guid>
       <pubDate>Tue, 29 Sep 2026 17:04:32 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://actualmm.ro/euronews-travel-tourism-summit-2026-romania-este-o-destinatie-sigura-pe-care-ii-invitam-pe-calatori-sa-o-descopere-direct-dincolo-de-perceptiile-legate-de-vecinatatea-cu-ucraina/">actualMM</source>
       <description>Prezent la Euronews Travel &amp; Tourism Summit 2026, oficialul român a subliniat că țara noastră reprezintă o destinație sigură pentru călători, independent de contextul geopolitic regional.</description>
     </item>
     <item>
@@ -144,6 +184,8 @@
       <link>https://izz.ro/economic/comisia-europeana-cere-economii-la-energie-pe-fondul-rezervelor-scazute/</link>
       <guid>https://izz.ro/economic/comisia-europeana-cere-economii-la-energie-pe-fondul-rezervelor-scazute/</guid>
       <pubDate>Sun, 27 Sep 2026 17:13:52 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://adevarul.ro/economie/bruxelles-cere-economii-la-energie-inainte-de-2560109.html">Adevărul</source>
       <description>Bruxelles-ul solicită reducerea consumului energetic înaintea sezonului rece, având rezervele de gaze sub nivelul de anul trecut. Experții români avertizează însă că principala problemă națională este pierderea de curent în rețea.</description>
     </item>
 </channel></rss>

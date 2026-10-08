@@ -33,5 +33,9 @@
   Cache-Control: public, max-age=86400
 /feed.xml
   Cache-Control: public, max-age=1800
+/*/feed.xml
+  Cache-Control: public, max-age=1800
+/*/*/feed.xml
+  Cache-Control: public, max-age=1800
 /build.json
   Cache-Control: public, max-age=0, must-revalidate

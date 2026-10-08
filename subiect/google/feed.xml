@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Google — IZZ.ro</title>
   <link>https://izz.ro/subiect/google/</link>
   <atom:link href="https://izz.ro/subiect/google/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Google pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Google a lansat gratuit la nivel global instrumentul SynthID Detector pentru imagini și clipuri AI</title>
       <link>https://izz.ro/ai/google-a-lansat-gratuit-la-nivel-global-instrumentul-synthid-detector-pentru/</link>
       <guid>https://izz.ro/ai/google-a-lansat-gratuit-la-nivel-global-instrumentul-synthid-detector-pentru/</guid>
       <pubDate>Thu, 08 Oct 2026 13:46:47 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://alba24.ro/cum-poti-verifica-daca-o-imagine-sau-un-videoclip-este-facut-cu-ai-google-a-deschis-gratuit-synthid-detector-1161729.html">Alba24</source>
+      <media:content url="https://izz.ro/ai/google-a-lansat-gratuit-la-nivel-global-instrumentul-synthid-detector-pentru/cover.jpg?v=b3a5e7f2" medium="image" type="image/jpeg"/>
       <description>Utilizatorii pot verifica acum dacă fișierele video, audio sau imagini au fost generate cu inteligența artificială, folosind noul instrument digital pus la dispoziție gratuit de Google.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/ai/google-utilizeaza-tehnologia-synthid-pentru-a-detecta-continutul-generat-de/</link>
       <guid>https://izz.ro/ai/google-utilizeaza-tehnologia-synthid-pentru-a-detecta-continutul-generat-de/</guid>
       <pubDate>Thu, 08 Oct 2026 08:18:13 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/10/08/google-te-ajuta-sa-identifici-mai-usor-continutul-ai-de-pe-internet/">Connect.ro</source>
+      <media:content url="https://izz.ro/ai/google-utilizeaza-tehnologia-synthid-pentru-a-detecta-continutul-generat-de/cover.jpg?v=cc859168" medium="image" type="image/jpeg"/>
       <description>Pentru a combate materialele false tot mai realiste, Google a lansat SynthID, un sistem ce aplică un marcaj digital invizibil pe fișierele audio, foto și video create de inteligența artificială, facilitând recunoașterea lor pe internet.</description>
     </item>
     <item>
@@ -25,6 +31,9 @@
       <link>https://izz.ro/tech/google-lanseaza-playground-o-unealta-ai-care-genereaza-jocuri-video-prin/</link>
       <guid>https://izz.ro/tech/google-lanseaza-playground-o-unealta-ai-care-genereaza-jocuri-video-prin/</guid>
       <pubDate>Thu, 08 Oct 2026 07:34:03 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/08/google-playground-te-lasa-sa-construiesti-jocuri-de-la-zero-fara-sa-stii-programare/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/google-lanseaza-playground-o-unealta-ai-care-genereaza-jocuri-video-prin/cover.jpg?v=5cd48e12" medium="image" type="image/jpeg"/>
       <description>Gigantul tehnologic a introdus un experiment bazat pe inteligență artificială ce permite utilizatorilor să creeze jocuri video funcționale folosind exclusiv limbajul natural, fără cunoștințe anterioare de programare.</description>
     </item>
     <item>
@@ -32,6 +41,9 @@
       <link>https://izz.ro/extern/finlanda-suspenda-lucrarile-la-centrele-de-date-pentru-inteligenta-artificiala/</link>
       <guid>https://izz.ro/extern/finlanda-suspenda-lucrarile-la-centrele-de-date-pentru-inteligenta-artificiala/</guid>
       <pubDate>Wed, 07 Oct 2026 14:19:30 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dobrogeaonline.ro/proiectele-pentru-centrele-ai-ale-companiei-google-sunt-suspendate/">Dobrogea Online</source>
+      <media:content url="https://izz.ro/extern/finlanda-suspenda-lucrarile-la-centrele-de-date-pentru-inteligenta-artificiala/cover.jpg?v=9eb0c96d" medium="image" type="image/jpeg"/>
       <description>Autoritățile finlandeze au oprit temporar investiția de 13 miliarde de euro derulată de compania Google, în urma unor contestații privind respectarea normelor ecologice.</description>
     </item>
     <item>
@@ -39,6 +51,8 @@
       <link>https://izz.ro/tech/comparatie-foto-si-video-intre-camerele-de-pe-iphone-18-pro-max-pixel-11-pro-xl/</link>
       <guid>https://izz.ro/tech/comparatie-foto-si-video-intre-camerele-de-pe-iphone-18-pro-max-pixel-11-pro-xl/</guid>
       <pubDate>Wed, 07 Oct 2026 05:39:21 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://start-up.ro/iphone-18-pro-max-vs-pixel-11-pro-xl-vs-samsung-galaxy-s26-ultra-care-are-cea-mai-buna-camera/">Start-up.ro</source>
       <description>Cele mai noi terminale de vârf dezvoltate de Apple, Google și Samsung au fost testate în diverse medii de luminozitate, realizare de portrete și captură nocturnă pentru determinarea celui mai performant sistem optic.</description>
     </item>
     <item>
@@ -46,6 +60,8 @@
       <link>https://izz.ro/tech/finlanda-a-blocat-construirea-a-doua-centre-de-date-google/</link>
       <guid>https://izz.ro/tech/finlanda-a-blocat-construirea-a-doua-centre-de-date-google/</guid>
       <pubDate>Tue, 06 Oct 2026 17:15:46 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.bbc.co.uk/news/articles/cvj6jkx6g1r0o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
       <description>Autoritățile finlandeze au ordonat suspendarea lucrărilor pentru două centre de date planificate de compania Google, ca urmare a protestelor legate de defrișarea masivă a pădurilor.</description>
     </item>
     <item>
@@ -53,6 +69,8 @@
       <link>https://izz.ro/tech/google-pregateste-lansarea-noului-smartphone-de-clasa-medie-pixel-11a/</link>
       <guid>https://izz.ro/tech/google-pregateste-lansarea-noului-smartphone-de-clasa-medie-pixel-11a/</guid>
       <pubDate>Tue, 06 Oct 2026 16:18:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.profit.ro/romania-conectata/foto-pixel-11a-google-pregateste-un-nou-smartphone-din-clasa-medie-22805985?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Compania Google dezvoltă un nou telefon mobil inteligent din gama mid-range, numit Pixel 11A, care urmează să fie pus în vânzare pe piață în următoarele luni.</description>
     </item>
     <item>
@@ -60,6 +78,8 @@
       <link>https://izz.ro/ai/google-ofera-studentilor-romani-un-an-de-inteligenta-artificiala-gratuit/</link>
       <guid>https://izz.ro/ai/google-ofera-studentilor-romani-un-an-de-inteligenta-artificiala-gratuit/</guid>
       <pubDate>Tue, 06 Oct 2026 15:00:56 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.emaramures.ro/esti-student-google-iti-ofera-12-luni-de-inteligenta-artificiala-gratuit/">eMaramureș</source>
       <description>Google pune la dispoziția studenților din România acces gratuit timp de 12 luni la pachetul AI Plus, destinat documentării, organizării textelor și realizării proiectelor academice.</description>
     </item>
     <item>
@@ -67,6 +87,8 @@
       <link>https://izz.ro/tech/google-va-lansa-o-actualizare-android-pentru-asocierea-facila-a-trackerelor-nfc/</link>
       <guid>https://izz.ro/tech/google-va-lansa-o-actualizare-android-pentru-asocierea-facila-a-trackerelor-nfc/</guid>
       <pubDate>Tue, 06 Oct 2026 13:51:56 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/google-find-hub-nfc/">ZonaIT</source>
       <description>Google pregătește o funcție nouă în Play Services care va simplifica conectarea accesoriilor Smart Tag la telefoanele Android. Utilizatorii vor putea folosi tehnologia NFC, eliminând necesitatea unor aplicații terțe complicate.</description>
     </item>
     <item>
@@ -74,6 +96,8 @@
       <link>https://izz.ro/tech/youtube-va-limita-vizibilitatea-anumitor-clipuri-shorts-generate-artificial/</link>
       <guid>https://izz.ro/tech/youtube-va-limita-vizibilitatea-anumitor-clipuri-shorts-generate-artificial/</guid>
       <pubDate>Mon, 05 Oct 2026 15:15:55 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/youtube-shorts/">ZonaIT</source>
       <description>Platforma video administrată de Google intenționează să scadă expunerea materialelor video automate pentru a-i sprijini pe creatorii clasici de conținut amenințați de invazia conținutului generat cu ajutorul inteligenței artificiale.</description>
     </item>
     <item>
@@ -81,6 +105,8 @@
       <link>https://izz.ro/tech/google-limiteaza-accesul-la-modelele-gemini-pentru-utilizatorii-fara-abonament/</link>
       <guid>https://izz.ro/tech/google-limiteaza-accesul-la-modelele-gemini-pentru-utilizatorii-fara-abonament/</guid>
       <pubDate>Mon, 05 Oct 2026 06:22:22 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/05/gemini-modele-acces-abonamente/">Connect.ro</source>
       <description>Începând din octombrie, conturile gratuite vor folosi doar varianta Flash-Lite, în timp ce versiunile Pro rămân rezervate exclusiv planurilor tarifare superioare.</description>
     </item>
     <item>
@@ -88,6 +114,8 @@
       <link>https://izz.ro/tech/bratara-de-fitness-google-fitbit-edge-vine-cu-gps-si-autonomie-extinsa/</link>
       <guid>https://izz.ro/tech/bratara-de-fitness-google-fitbit-edge-vine-cu-gps-si-autonomie-extinsa/</guid>
       <pubDate>Mon, 05 Oct 2026 05:34:34 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://start-up.ro/fitbit-edge-apare-in-imagini-inainte-de-lansare-noua-bratara-google-ar-avea-gps-si-autonomie-de-pana-la-7-zile/">Start-up.ro</source>
       <description>Viitoarea brățară Fitbit Edge creată de Google va include ecran color, modul GPS integrat, altimetru și o baterie care rezistă până la șapte zile.</description>
     </item>
     <item>
@@ -95,6 +123,8 @@
       <link>https://izz.ro/tech/google-implementeaza-verificarea-dezvoltatorilor-android-in-primele-tari/</link>
       <guid>https://izz.ro/tech/google-implementeaza-verificarea-dezvoltatorilor-android-in-primele-tari/</guid>
       <pubDate>Fri, 02 Oct 2026 07:11:08 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/02/android-verificare-dezvoltatori-instalare-aplicatii/">Connect.ro</source>
       <description>Google a început verificarea obligatorie a dezvoltatorilor în Brazilia, Indonezia, Singapore și Thailanda, urmând ca extinderea globală a măsurii de securitate să aibă loc până în anul 2027.</description>
     </item>
     <item>
@@ -102,6 +132,8 @@
       <link>https://izz.ro/ai/google-a-lansat-gemini-4-argon-cel-mai-avansat-model-lingvistic-ai/</link>
       <guid>https://izz.ro/ai/google-a-lansat-gemini-4-argon-cel-mai-avansat-model-lingvistic-ai/</guid>
       <pubDate>Thu, 01 Oct 2026 12:46:57 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/google-gemini-4-argon/">ZonaIT</source>
       <description>Alphabet a prezentat noul său sistem de inteligență artificială orientat spre procesarea de texte, activități de cercetare avansată și suport în programare informatică.</description>
     </item>
     <item>
@@ -109,6 +141,8 @@
       <link>https://izz.ro/ai/google-inlocuieste-functia-gems-cu-sistemul-skills-pentru-sarcini-repetitive-in/</link>
       <guid>https://izz.ro/ai/google-inlocuieste-functia-gems-cu-sistemul-skills-pentru-sarcini-repetitive-in/</guid>
       <pubDate>Wed, 30 Sep 2026 17:02:07 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.xda-developers.com/gemini-is-getting-rid-of-gems-and-its-replacement-aims-to-make-repetitive-work-a-lot-easier/">XDA Developers</source>
       <description>Platforma de inteligență artificială renunță la instrumentul anterior pentru a implementa o soluție optimizată, menită să elimine acțiunile manuale repetitive și să simplifice interacțiunea utilizatorului cu asistentul.</description>
     </item>
     <item>
@@ -116,6 +150,8 @@
       <link>https://izz.ro/tech/google-va-opri-suportul-pentru-chromeos-in-2034/</link>
       <guid>https://izz.ro/tech/google-va-opri-suportul-pentru-chromeos-in-2034/</guid>
       <pubDate>Wed, 30 Sep 2026 08:22:20 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/09/30/suportul-pentru-chromeos-se-incheie-in-2034/">Connect.ro</source>
       <description>Compania Google a anunțat că dispozitivele Chromebook vor beneficia de actualizări de securitate și mentenanță până la jumătatea anului 2034.</description>
     </item>
     <item>
@@ -123,6 +159,8 @@
       <link>https://izz.ro/ai/google-lanseaza-rrsi-un-sistem-ai-care-se-poate-optimiza-singur/</link>
       <guid>https://izz.ro/ai/google-lanseaza-rrsi-un-sistem-ai-care-se-poate-optimiza-singur/</guid>
       <pubDate>Tue, 29 Sep 2026 09:01:36 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/">MarkTechPost</source>
       <description>Cercetătorii Google au lansat framework-ul open-source RRSI, permițând agenților inteligenți să își îmbunătățească propriile prompturi, unelte și fluxuri de control fără a modifica ponderile modelului de bază.</description>
     </item>
     <item>
@@ -130,6 +168,8 @@
       <link>https://izz.ro/tech/un-instrument-gratuit-de-la-google-rivalizeaza-cu-celelalte-platforme-de/</link>
       <guid>https://izz.ro/tech/un-instrument-gratuit-de-la-google-rivalizeaza-cu-celelalte-platforme-de/</guid>
       <pubDate>Mon, 28 Sep 2026 21:30:18 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/favorite-claude-design-alternative-isnt-lovable-or-replit-its-free-google-tool/">XDA Developers</source>
       <description>Pe piața instrumentelor de tip prompt-to-prototype bazate pe inteligență artificială, dominate de Replit și Lovable, o aplicație gratuită dezvoltată de Google atrage atenția utilizatorilor.</description>
     </item>
     <item>
@@ -137,6 +177,8 @@
       <link>https://izz.ro/ai/cercetatorii-au-conectat-un-creier-digital-de-musca-la-un-raspberry-pi-5-pentru/</link>
       <guid>https://izz.ro/ai/cercetatorii-au-conectat-un-creier-digital-de-musca-la-un-raspberry-pi-5-pentru/</guid>
       <pubDate>Mon, 28 Sep 2026 05:29:50 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.xda-developers.com/someone-wired-up-a-digital-flys-brain-in-a-pi-5-to-play-pokmon-and-you-can-help-it-progress/">XDA Developers</source>
       <description>După publicarea hărții neuronale a unei muște de oțet, un utilizator a integrat creierul digital într-un minicalculator pentru a rula jocul Pokémon. Această premieră urmează tendinței internetului de a testa descoperirile științifice în moduri neobișnuite.</description>
     </item>
     <item>
@@ -144,6 +186,8 @@
       <link>https://izz.ro/economic/british-council-avertizeaza-ca-viitorul-economic-al-romaniei-este-amenintat-de/</link>
       <guid>https://izz.ro/economic/british-council-avertizeaza-ca-viitorul-economic-al-romaniei-este-amenintat-de/</guid>
       <pubDate>Sun, 27 Sep 2026 21:07:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/cec-bank-pentru-afaceri-romanesti/cec-bank-afaceri-romanesti-proiect-zf-cec-bank-abdi-hassan-british-council-romania-incaseaza-acum-dividendele-limbii-engleze-invatate-anii-90-intrebarea-google-big-four-vor-aici-2035-acum-jumatate-23247053">Ziarul Financiar</source>
       <description>Succesul centrelor de afaceri și IT din România se bazează pe generația care a învățat engleza din filme, dar declinul actual al alfabetizării funcționale amenință viitorul economic pe termen lung.</description>
     </item>
 </channel></rss>

@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Primăria Timișoara — IZZ.ro</title>
   <link>https://izz.ro/subiect/primaria-timisoara/</link>
   <atom:link href="https://izz.ro/subiect/primaria-timisoara/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Primăria Timișoara pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Primăria Timișoara colectează date de trafic pentru actualizarea Planului de Mobilitate Urbană</title>
       <link>https://izz.ro/local/primaria-timisoara-colecteaza-date-de-trafic-pentru-actualizarea-planului-de/</link>
       <guid>https://izz.ro/local/primaria-timisoara-colecteaza-date-de-trafic-pentru-actualizarea-planului-de/</guid>
       <pubDate>Thu, 08 Oct 2026 13:44:10 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.tion.ro/stirile-judetului-timis/se-colecteaza-date-primaria-timisoara-vrea-sa-afle-cum-se-deplaseaza-oamenii-din-oras-si-din-zona-metropolitana-2368557/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
+      <media:content url="https://izz.ro/local/primaria-timisoara-colecteaza-date-de-trafic-pentru-actualizarea-planului-de/cover.jpg?v=0aef6c2a" medium="image" type="image/jpeg"/>
       <description>Municipalitatea timișoreană a contractat o firmă pentru a realiza măsurători și interviuri menite să fundamenteze viitoarele investiții în infrastructura de transport din zona metropolitană.</description>
+    </item>
+    <item>
+      <title>Primăria Timișoara amână lucrările și restricțiile din zona Piața Mocioni</title>
+      <link>https://izz.ro/local/primaria-timisoara-amana-lucrarile-si-restrictiile-din-zona-piata-mocioni/</link>
+      <guid>https://izz.ro/local/primaria-timisoara-amana-lucrarile-si-restrictiile-din-zona-piata-mocioni/</guid>
+      <pubDate>Thu, 08 Oct 2026 10:24:15 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/se-amana-deschiderea-santierului-intre-piata-maria-si-piata-mocioni-restrictiile-de-trafic-modificate-si-reprogramate-anuntul-primariei-timisoara/08/10/2026">Opinia Timișoarei</source>
+      <media:content url="https://izz.ro/local/primaria-timisoara-amana-lucrarile-si-restrictiile-din-zona-piata-mocioni/cover.jpg?v=30bcd932" medium="image" type="image/jpeg"/>
+      <description>Startul șantierului de regenerare urbană dintre Piața Maria și Piața Mocioni a fost reprogramat pentru 26 octombrie, urmare a nemulțumirilor exprimate de cetățeni privind noile reguli de trafic.</description>
     </item>
     <item>
       <title>Alin Popoviciu critică Primăria Timișoara pentru desființarea băncilor din Circumvalațiunii</title>
       <link>https://izz.ro/local/alin-popoviciu-critica-primaria-timisoara-pentru-desfiintarea-bancilor-din/</link>
       <guid>https://izz.ro/local/alin-popoviciu-critica-primaria-timisoara-pentru-desfiintarea-bancilor-din/</guid>
       <pubDate>Thu, 08 Oct 2026 07:56:08 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.ziuadevest.ro/modernizare-cu-minus-la-banci-alin-popoviciu-intreaba-primaria-timisoara-unde-vor-sta-oamenii-din-circumvalatiunii/">Ziua de Vest</source>
+      <media:content url="https://izz.ro/local/alin-popoviciu-critica-primaria-timisoara-pentru-desfiintarea-bancilor-din/cover.jpg?v=b03b4178" medium="image" type="image/jpeg"/>
       <description>Eliminarea băncilor și a cupolelor metalice din cartierul timișorean Circumvalațiunii generează nemulțumiri privind lipsa de alternative pentru vârstnici și persoane cu mobilitate redusă.</description>
     </item>
     <item>
@@ -25,6 +41,8 @@
       <link>https://izz.ro/local/primaria-timisoara-incepe-noi-restrictii-de-trafic-si-lucrari-de-asfaltare-pe/</link>
       <guid>https://izz.ro/local/primaria-timisoara-incepe-noi-restrictii-de-trafic-si-lucrari-de-asfaltare-pe/</guid>
       <pubDate>Wed, 07 Oct 2026 09:46:32 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/pe-langa-santierele-ce-se-deschid-in-sud-vestul-orasului-primaria-timisoara-trece-la-asfaltat-bulevardul-republicii-partea-pe-care-n-a-reusit-s-o-termine-in-vara/07/10/2026">Opinia Timișoarei</source>
       <description>Timișoara instituie restricții rutiere din 12 octombrie pentru șantierele de regenerare urbană și linia de tramvai. Totodată, administrația locală reia lucrările de asfaltare pe tronsonul nefinalizat al Bulevardului Republicii.</description>
     </item>
     <item>
@@ -32,6 +50,8 @@
       <link>https://izz.ro/local/a-inceput-santierul-pentru-construirea-podului-solventul-din-timisoara/</link>
       <guid>https://izz.ro/local/a-inceput-santierul-pentru-construirea-podului-solventul-din-timisoara/</guid>
       <pubDate>Tue, 06 Oct 2026 12:27:56 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.tion.ro/stirile-judetului-timis/foto-primul-pas-a-fost-facut-incepe-si-santierul-podului-solventul-2366982/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Primăria Timișoara a predat amplasamentul constructorului, marcând debutul lucrărilor la Podul Solventul. Intervențiile inițiale din zona Splaiului Sofocle vizează relocarea utilităților și pregătirea fundațiilor.</description>
     </item>
     <item>
@@ -39,6 +59,8 @@
       <link>https://izz.ro/local/timisoara-va-monta-suporturi-speciale-pentru-ambalaje-cu-garantie-pe-cosurile/</link>
       <guid>https://izz.ro/local/timisoara-va-monta-suporturi-speciale-pentru-ambalaje-cu-garantie-pe-cosurile/</guid>
       <pubDate>Tue, 06 Oct 2026 06:41:25 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/de-300-de-cosuri-de-gunoi-din-timisoara-vor-fi-atasate-compartimente-de-colectare-pentru-sticle-pet-uri-si-doze-cu-garantie/06/10/2026">Opinia Timișoarei</source>
       <description>Primăria Timișoara va atașa 300 de coșuri de gunoi urbane cu recipiente dedicate pentru colectarea sticlelor, dozelor și peturilor cu garanție, facilitând astfel reciclarea rapidă direct pe stradă.</description>
     </item>
     <item>
@@ -46,6 +68,8 @@
       <link>https://izz.ro/local/primatria-timisoara-vrea-sa-transforme-centrul-orasului-cu-12-milioane-de-euro/</link>
       <guid>https://izz.ro/local/primatria-timisoara-vrea-sa-transforme-centrul-orasului-cu-12-milioane-de-euro/</guid>
       <pubDate>Mon, 05 Oct 2026 10:22:05 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/4-ani-de-studii-arata-ca-dispar-locuri-de-parcare-se-muta-o-statie-de-tramvai-doua-strazi-devin-partial-sau-total-pietonale-cum-vrea-primaria-timisoara-sa-schimbe-candva-traficul-in-centru-cu-12-mi/05/10/2026">Opinia Timișoarei</source>
       <description>Un proiect de regenerare urbană propune ca două străzi din Timișoara să devină pietonale, să elimine locuri de parcare și să mute o stație de tramvai, în urma unor studii întinse pe patru ani.</description>
     </item>
     <item>
@@ -53,6 +77,8 @@
       <link>https://izz.ro/local/primaria-timisoara-clarifica-statutul-locuintelor-din-cartierul-kuncz/</link>
       <guid>https://izz.ro/local/primaria-timisoara-clarifica-statutul-locuintelor-din-cartierul-kuncz/</guid>
       <pubDate>Fri, 02 Oct 2026 05:52:28 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.ziuadevest.ro/ilie-sirbu-un-pas-mic-pentru-cei-din-kuncz-primaria-clarifica-situatia-juridica-a-unor-imobile-din-cartier/">Ziua de Vest</source>
       <description>Consilierul local Ilie-Vasile Sîrbu anunță un progres administrativ privind identificarea imobilelor și intabularea construcțiilor nerezolvate de ani de zile din zona Kuncz.</description>
     </item>
     <item>
@@ -60,6 +86,8 @@
       <link>https://izz.ro/local/o-singura-oferta-pentru-construirea-cresei-de-pe-strada-ion-ionescu-de-la-brad/</link>
       <guid>https://izz.ro/local/o-singura-oferta-pentru-construirea-cresei-de-pe-strada-ion-ionescu-de-la-brad/</guid>
       <pubDate>Tue, 29 Sep 2026 08:45:38 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.pressalert.ro/2026/09/o-singura-oferta-depusa-pentru-construirea-noii-crese-de-pe-strada-ion-ionescu-de-la-brad-din-timisoara/">PressAlert Timișoara</source>
       <description>Primăria Timișoara a primit o singură propunere financiară, din partea asocierii conduse de Constructim SA, pentru proiectarea și ridicarea noilor spații educaționale destinate copiilor din zona de nord.</description>
     </item>
     <item>
@@ -67,6 +95,8 @@
       <link>https://izz.ro/local/timisoara-deschide-inscrierile-pentru-editia-din-2026-a-targului-de-craciun/</link>
       <guid>https://izz.ro/local/timisoara-deschide-inscrierile-pentru-editia-din-2026-a-targului-de-craciun/</guid>
       <pubDate>Tue, 29 Sep 2026 06:28:36 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.pressalert.ro/2026/09/timisoara-incepe-pregatirile-pentru-targul-de-craciun-2026-inscrierile-pentru-comercianti-si-furnizori-de-agrement-sunt-deschise/">PressAlert Timișoara</source>
       <description>Primăria Timișoara a dat startul înscrierilor pentru comercianți și furnizori în vederea celei de-a XIX-a ediții a Târgului de Crăciun, eveniment programat între 29 noiembrie 2026 și 7 ianuarie 2027.</description>
     </item>
     <item>
@@ -74,6 +104,8 @@
       <link>https://izz.ro/general/o-singura-oferta-depusa-la-licitatia-pentru-finalizarea-cresei-din-zona-lipovei/</link>
       <guid>https://izz.ro/general/o-singura-oferta-depusa-la-licitatia-pentru-finalizarea-cresei-din-zona-lipovei/</guid>
       <pubDate>Mon, 28 Sep 2026 14:20:00 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.tion.ro/stirile-judetului-timis/o-singura-oferta-pentru-finalizarea-noii-crese-din-lipovei-2361726/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Primăria Timișoara a primit o singură propunere financiară din partea asocierii conduse de Constructim SA pentru finalizarea lucrărilor la noua creșă destinată copiilor mici din cartierul Lipovei, proiect evaluat la peste șase milioane de lei.</description>
     </item>
     <item>
@@ -81,6 +113,8 @@
       <link>https://izz.ro/local/dominic-fritz-anunta-continuarea-misiunii-administrative-la-primatoria-timisoara/</link>
       <guid>https://izz.ro/local/dominic-fritz-anunta-continuarea-misiunii-administrative-la-primatoria-timisoara/</guid>
       <pubDate>Sun, 27 Sep 2026 15:00:31 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.tion.ro/stirile-judetului-timis/foto-dominic-fritz-inainte-de-plecarea-din-primaria-timisoara-au-putut-sa-mi-incheie-mandatul-nu-pot-sa-mi-incheie-misiunea-2361030/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Primarul Timișoarei a declarat, la finalul mandatului său actual, că nu intenționează să plece din oraș și că va continua proiectele începute pentru comunitatea locală, subliniind realizările din ultimii ani.</description>
     </item>
     <item>
@@ -88,6 +122,8 @@
       <link>https://izz.ro/local/dominic-fritz-prezinta-noua-conducere-a-primariei-timisoara/</link>
       <guid>https://izz.ro/local/dominic-fritz-prezinta-noua-conducere-a-primariei-timisoara/</guid>
       <pubDate>Sun, 27 Sep 2026 13:46:14 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.tion.ro/stirile-judetului-timis/video-dominic-fritz-prezinta-echipa-care-va-ramane-la-carma-primariei-dupa-plecarea-lui-2360958/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>După pierderea mandatului de primar din cauza Legii ANI, Dominic Fritz a anunțat echipa care va prelua conducerea primăriei și a confirmat că va continua să conducă USR.</description>
     </item>
 </channel></rss>

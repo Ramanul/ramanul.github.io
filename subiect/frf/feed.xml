@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>FRF — IZZ.ro</title>
   <link>https://izz.ro/subiect/frf/</link>
   <atom:link href="https://izz.ro/subiect/frf/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre FRF pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Critici la adresa reprezentanților FRF după apariția la o petrecere înainte de meciul naționalei U21</title>
+      <link>https://izz.ro/sport/critici-la-adresa-reprezentantilor-frf-dupa-aparitia-la-o-petrecere-inainte-de/</link>
+      <guid>https://izz.ro/sport/critici-la-adresa-reprezentantilor-frf-dupa-aparitia-la-o-petrecere-inainte-de/</guid>
+      <pubDate>Thu, 08 Oct 2026 20:34:42 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/andrei-vochin-ilie-dumitrescu-romania-u21-petrecere-ibiza-nicu-gheara-985986.html">GSP</source>
+      <media:content url="https://izz.ro/sport/critici-la-adresa-reprezentantilor-frf-dupa-aparitia-la-o-petrecere-inainte-de/cover.jpg?v=e3ce0170" medium="image" type="image/jpeg"/>
+      <description>Oficialii federali Andrei Vochin și Ilie Dumitrescu au comentat prezența unor membri din staff la un eveniment privat organizat de Nicu Gheară în Ibiza, urmat de eșecul drastic cu Spania U21.</description>
+    </item>
     <item>
       <title>FRF critică dur participarea oficialilor săi la o petrecere cu alcool în Ibiza</title>
       <link>https://izz.ro/sport/frf-critica-dur-participarea-oficialilor-sai-la-o-petrecere-cu-alcool-in-ibiza/</link>
       <guid>https://izz.ro/sport/frf-critica-dur-participarea-oficialilor-sai-la-o-petrecere-cu-alcool-in-ibiza/</guid>
       <pubDate>Thu, 08 Oct 2026 15:24:39 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/frf-razvan-burleanu-romania-u21-costin-curelea-nicu-gheara-985884.html">GSP</source>
+      <media:content url="https://izz.ro/sport/frf-critica-dur-participarea-oficialilor-sai-la-o-petrecere-cu-alcool-in-ibiza/cover.jpg?v=64f9907a" medium="image" type="image/jpeg"/>
       <description>Președintele Răzvan Burleanu a catalogat comportamentul angetaților federației drept o lipsă gravă de profesionalism, reacționând astfel după imaginile apărute înaintea eșecului usturător suferit de naționala U21.</description>
     </item>
     <item>
@@ -18,6 +31,9 @@
       <link>https://izz.ro/sport/cristi-sapunaru-a-avut-un-conflict-verbal-cu-florin-prunea-pe-aeroport/</link>
       <guid>https://izz.ro/sport/cristi-sapunaru-a-avut-un-conflict-verbal-cu-florin-prunea-pe-aeroport/</guid>
       <pubDate>Wed, 07 Oct 2026 19:39:51 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/contre-spumoase-intre-cristi-sapunaru-si-forin-prunea-eu-am-distrus-o-generatie-dar-tu-ai-distrus-o-tara-intreaga-20542239">ProSport</source>
+      <media:content url="https://izz.ro/sport/cristi-sapunaru-a-avut-un-conflict-verbal-cu-florin-prunea-pe-aeroport/cover.jpg?v=921d74f9" medium="image" type="image/jpeg"/>
       <description>Fundașul a rememorat un episod tensionat din trecut în care l-a apostrofat pe oficialul FRF Florin Prunea, în urma unui eșec usturător al naționalei de tineret.</description>
     </item>
     <item>
@@ -25,6 +41,8 @@
       <link>https://izz.ro/sport/federatia-romana-de-fotbal-a-luat-o-decizie-privind-viitorul-lui-gica-hagi/</link>
       <guid>https://izz.ro/sport/federatia-romana-de-fotbal-a-luat-o-decizie-privind-viitorul-lui-gica-hagi/</guid>
       <pubDate>Wed, 07 Oct 2026 08:17:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.digisport.ro/fotbal/echipa-nationala/e-gata-frf-a-luat-decizia-in-privinta-lui-gica-hagi-4529697">Digi Sport</source>
       <description>După o campanie ratată în Nations League, marcată de patru eșecuri consecutive și un golaveraj slab, conducerea FRF a analizat situația băncii tehnice și a stabilit viitorul selecționerului.</description>
     </item>
     <item>
@@ -32,20 +50,17 @@
       <link>https://izz.ro/sport/reactia-federatiei-romane-de-fotbal-dupa-infrangerea-drastica-a-nationalei-u21/</link>
       <guid>https://izz.ro/sport/reactia-federatiei-romane-de-fotbal-dupa-infrangerea-drastica-a-nationalei-u21/</guid>
       <pubDate>Tue, 06 Oct 2026 20:33:37 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/nationala/mesaj-frf-dupa-infrangerea-romaniei-u21-din-spania-20541617">ProSport</source>
       <description>FRF a publicat un scurt mesaj pe site-ul oficial după ce reprezentativa de tineret a României a fost învinsă de Spania cu scorul de 1-7 în preliminariile pentru Euro 2027.</description>
-    </item>
-    <item>
-      <title>Gheorghe Hagi va continua pe banca tehnică a naționalei României</title>
-      <link>https://izz.ro/sport/gheorghe-hagi-va-continua-pe-banca-tehnica-a-nationalei-romaniei/</link>
-      <guid>https://izz.ro/sport/gheorghe-hagi-va-continua-pe-banca-tehnica-a-nationalei-romaniei/</guid>
-      <pubDate>Tue, 06 Oct 2026 16:55:34 +0000</pubDate>
-      <description>Federația Română de Fotbal a confirmat menținerea selecționerului Gheorghe Hagi în funcție, în pofida parcursului slab înregistrat în primele patru etape din Liga Națiunilor.</description>
     </item>
     <item>
       <title>Dumitru Dragomir cere demisia șefilor FRF și LPF</title>
       <link>https://izz.ro/sport/dumitru-dragomir-cere-demisia-sefilor-frf-si-lpf/</link>
       <guid>https://izz.ro/sport/dumitru-dragomir-cere-demisia-sefilor-frf-si-lpf/</guid>
       <pubDate>Tue, 06 Oct 2026 16:10:18 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/mitica-dragomir-demitere-sefi-frf-lpf-burleanu-gino-iorgulescu-20541454">ProSport</source>
       <description>Fostul președinte al Ligii Profesioniste de Fotbal solicită îndepărtarea imediată din funcție a lui Răzvan Burleanu și Gino Iorgulescu, ca urmare a parcursului slab al echipei naționale.</description>
     </item>
     <item>
@@ -53,6 +68,8 @@
       <link>https://izz.ro/sport/reactia-selectionerului-gica-hagi-dupa-patru-esecuri-consecutive/</link>
       <guid>https://izz.ro/sport/reactia-selectionerului-gica-hagi-dupa-patru-esecuri-consecutive/</guid>
       <pubDate>Tue, 06 Oct 2026 08:06:58 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://jurnalulolteniei.ro/gica-hagi-a-reactionat-dupa-4-esecuri-la-rand-daca-e-bine-mergem-mai-departe/">Jurnalul Olteniei</source>
       <description>După ce echipa națională a încasat 13 goluri și a pierdut patru meciuri la rând, antrenorul Gică Hagi rămâne optimist și așteaptă deciziile conducerii Federației Române de Fotbal pentru viitorul său.</description>
     </item>
     <item>
@@ -60,6 +77,8 @@
       <link>https://izz.ro/sport/gica-hagi-va-avea-o-sedinta-de-urgenta-cu-conducerea-frf-dupa-al-patrulea-esec/</link>
       <guid>https://izz.ro/sport/gica-hagi-va-avea-o-sedinta-de-urgenta-cu-conducerea-frf-dupa-al-patrulea-esec/</guid>
       <pubDate>Mon, 05 Oct 2026 22:10:11 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/echipa-nationala/gica-hagi-sedinta-de-urgenta-cu-razvan-burleanu-dupa-patru-infrangeri-la-nationala-romaniei-de-ce-am-venit-695099.html">Antena Sport</source>
       <description>Selecționerul României a anunțat discuții oficiale cu președintele Răzvan Burleanu, în urma înfrângerii suferite în fața Suediei pe Arena Națională, a patra consecutivă pentru echipa națională.</description>
     </item>
     <item>
@@ -67,6 +86,8 @@
       <link>https://izz.ro/sport/protest-vulgar-al-unor-copii-la-adresa-lui-razvan-burleanu-dupa-meciul-cu-suedia/</link>
       <guid>https://izz.ro/sport/protest-vulgar-al-unor-copii-la-adresa-lui-razvan-burleanu-dupa-meciul-cu-suedia/</guid>
       <pubDate>Mon, 05 Oct 2026 21:10:18 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/razvan-burleanu-frf-romania-suedia-985080.html">GSP</source>
       <description>Imagini revoltătoare au fost surprinse la Arena Națională după eșecul României cu Suedia, unde doi minori au afișat un banner cu injurii la adresa șefului FRF, Răzvan Burleanu.</description>
     </item>
     <item>
@@ -74,6 +95,8 @@
       <link>https://izz.ro/sport/frf-pregateste-solutia-de-rezerva-in-cazul-plecarii-lui-gica-hagi/</link>
       <guid>https://izz.ro/sport/frf-pregateste-solutia-de-rezerva-in-cazul-plecarii-lui-gica-hagi/</guid>
       <pubDate>Mon, 05 Oct 2026 05:26:41 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/frf-solutie-de-avarie-gasita-daca-gica-hagi-va-demisiona-de-la-echipa-nationala-singurul-nume-aflat-pe-lista-694690.html">Antena Sport</source>
       <description>Selecționerul Gheorghe Hagi a sugerat posibilitatea unei demisii înaintea meciului cu Suedia, iar Federația Română de Fotbal analizează deja variante de rezervă pentru banca tehnică a echipei naționale de fotbal.</description>
     </item>
     <item>
@@ -81,6 +104,8 @@
       <link>https://izz.ro/sport/bogdan-stelea-sustine-ca-hagi-ar-putea-parasi-conducerea-frf/</link>
       <guid>https://izz.ro/sport/bogdan-stelea-sustine-ca-hagi-ar-putea-parasi-conducerea-frf/</guid>
       <pubDate>Sun, 04 Oct 2026 15:52:15 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/bogdan-stelea-surprinde-daca-as-fi-presedintele-frf-ar-exista-posibilitatea-despartirii-de-hagi.html">Sport.ro</source>
       <description>Fostul internațional român a făcut o declarație surprinzătoare privind o potențială despărțire de Gică Hagi dacă ar prelua conducerea Federației Române de Fotbal, în contextul meciului naționalei.</description>
     </item>
     <item>
@@ -88,6 +113,8 @@
       <link>https://izz.ro/sport/cornel-dinu-cere-demisii-la-frf-dupa-infrangerea-istorica-din-polonia/</link>
       <guid>https://izz.ro/sport/cornel-dinu-cere-demisii-la-frf-dupa-infrangerea-istorica-din-polonia/</guid>
       <pubDate>Fri, 02 Oct 2026 21:41:07 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/cornel-dinu-dupa-rusinea-cu-polonia-unic-in-istoria-fotbalului-romanesc-cere-demisii-la-frf-sa-arunce-prosopul-693967.html">Antena Sport</source>
       <description>Fostul tehnician a cerut conducerii Federației Române de Fotbal să demisioneze în urma eșecului cu 0-6, calificând rezultatul drept o premieră negativă absolută pentru fotbalul românesc.</description>
     </item>
     <item>
@@ -95,6 +122,8 @@
       <link>https://izz.ro/sport/a-murit-corneliu-costinescu-fost-vicepresedinte-al-federatiei-romane-de-fotbal/</link>
       <guid>https://izz.ro/sport/a-murit-corneliu-costinescu-fost-vicepresedinte-al-federatiei-romane-de-fotbal/</guid>
       <pubDate>Thu, 01 Oct 2026 19:24:27 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/a-murit-fostul-vicepresedinte-frf-chiar-de-ziua-lui-20537483">ProSport</source>
       <description>Fostul conducător fotbalistic Corneliu Costinescu s-a stins din viață la vârsta de 91 de ani, chiar în ziua aniversară. Acesta a condus clubul Sport Club Bacău și a ocupat funcția de vicepreședinte al FRF.</description>
     </item>
     <item>
@@ -102,6 +131,8 @@
       <link>https://izz.ro/sport/a-murit-corneliu-costinescu-fost-oficial-frf-la-91-de-ani/</link>
       <guid>https://izz.ro/sport/a-murit-corneliu-costinescu-fost-oficial-frf-la-91-de-ani/</guid>
       <pubDate>Thu, 01 Oct 2026 18:19:19 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/liga-1/a-murit-fostul-vicepresedinte-al-frf-corneliu-costinescu-somn-983880.html">GSP</source>
       <description>Corneliu Costinescu, fost președinte SC Bacău și vicepreședinte FRF, a decedat la 91 de ani. Acesta a suferit de o afecțiune rară care l-a lăsat fără somn timp de șase decenii.</description>
     </item>
     <item>
@@ -109,6 +140,8 @@
       <link>https://izz.ro/sport/frf-a-publicat-ghidul-oficial-pentru-suporterii-romani-prezenti-la-meciul-cu/</link>
       <guid>https://izz.ro/sport/frf-a-publicat-ghidul-oficial-pentru-suporterii-romani-prezenti-la-meciul-cu/</guid>
       <pubDate>Tue, 29 Sep 2026 19:23:26 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.digi24.ro/stiri/sport/fotbal/ghidul-suporterilor-romani-care-vor-asista-la-partida-polonia-romania-3970297">Digi24</source>
       <description>Federația Română de Fotbal a pus la dispoziția fanilor care se deplasează la Varșovia toate recomandările necesare pentru o siguranță sporită la partida din Liga Națiunilor.</description>
     </item>
     <item>
@@ -116,6 +149,8 @@
       <link>https://izz.ro/sport/cornel-dinu-l-a-criticat-dur-pe-un-angajat-al-federatiei-romane-de-fotbal/</link>
       <guid>https://izz.ro/sport/cornel-dinu-l-a-criticat-dur-pe-un-angajat-al-federatiei-romane-de-fotbal/</guid>
       <pubDate>Tue, 29 Sep 2026 18:46:38 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nationala/cornel-dinu-tirada-dupa-ce-un-angajat-frf-i-a-luat-apararea-lui-ilie-dumitrescu-pres-federal-servitor-si-numarator-de-cornere.html">Sport.ro</source>
       <description>Fostul fotbalist Cornel Dinu a avut o ieșire vehementă la adresa unui oficial din cadrul FRF, după ce acesta i-a luat apărarea lui Ilie Dumitrescu în spațiul public.</description>
     </item>
     <item>
@@ -123,6 +158,8 @@
       <link>https://izz.ro/sport/frf-anunta-ca-arena-nationala-va-fi-plina-la-meciul-cu-suedia/</link>
       <guid>https://izz.ro/sport/frf-anunta-ca-arena-nationala-va-fi-plina-la-meciul-cu-suedia/</guid>
       <pubDate>Sun, 27 Sep 2026 19:36:55 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/se-umple-arena-nationala-anuntul-frf-inaintea-meciului-in-care-uefa-ne-a-inchis-stadionul-982740.html">GSP</source>
       <description>Deși debutul în Liga Națiunilor cu Bosnia se va juca fără spectatori pe teren propriu din decizia UEFA, federația confirmă că suporterii vor umple stadionul la următoarea partidă acasă, împotriva Suediei.</description>
     </item>
 </channel></rss>

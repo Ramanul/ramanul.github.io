@@ -1,23 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>AUR — IZZ.ro</title>
   <link>https://izz.ro/subiect/aur/</link>
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Kelemen Hunor avertizează că alegerile anticipate ar aduce AUR la guvernare</title>
+      <link>https://izz.ro/politic/kelemen-hunor-avertizeaza-ca-alegerile-anticipate-ar-aduce-aur-la-guvernare/</link>
+      <guid>https://izz.ro/politic/kelemen-hunor-avertizeaza-ca-alegerile-anticipate-ar-aduce-aur-la-guvernare/</guid>
+      <pubDate>Thu, 08 Oct 2026 21:56:42 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/kelemen-hunor-anticipatele-nu-schimba-absolut-nimic-in-bine-in-jurul-partidului-aur-se-va-forma-un-guvern-3984737">Digi24</source>
+      <media:content url="https://izz.ro/politic/kelemen-hunor-avertizeaza-ca-alegerile-anticipate-ar-aduce-aur-la-guvernare/cover.jpg?v=90a67263" medium="image" type="image/jpeg"/>
+      <description>Liderul UDMR susține că organizarea unor alegeri anticipate nu aduce beneficii României, estimând că rezultatul ar impune formarea unui nou executiv în jurul partidului AUR.</description>
+    </item>
     <item>
       <title>UDMR anunță că va vota un nou Executiv, chiar fără a participa la guvernare</title>
       <link>https://izz.ro/politic/udmr-anunta-ca-va-vota-un-nou-executiv-chiar-fara-a-participa-la-guvernare/</link>
       <guid>https://izz.ro/politic/udmr-anunta-ca-va-vota-un-nou-executiv-chiar-fara-a-participa-la-guvernare/</guid>
       <pubDate>Thu, 08 Oct 2026 15:36:39 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.economica.net/antal-arpad-udmr-suntem-dispusi-sa-votam-un-guvern-chiar-daca-nu-vom-face-parte-din-acel-guvern_983995.html">Economica</source>
+      <media:content url="https://izz.ro/politic/udmr-anunta-ca-va-vota-un-nou-executiv-chiar-fara-a-participa-la-guvernare/cover.jpg?v=26c08c82" medium="image" type="image/jpeg"/>
       <description>Liderul UDMR a declarat că formațiunea susține instalarea unui guvern pentru stabilizarea economiei și protejarea locurilor de muncă, refuzând însă orice asociere cu AUR și S.O.S.</description>
+    </item>
+    <item>
+      <title>Liderul AUR Caraș-Severin cere demiterea președintelui României</title>
+      <link>https://izz.ro/judetean/liderul-aur-caras-severin-cere-demiterea-presedintelui-romaniei/</link>
+      <guid>https://izz.ro/judetean/liderul-aur-caras-severin-cere-demiterea-presedintelui-romaniei/</guid>
+      <pubDate>Thu, 08 Oct 2026 12:04:13 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://expressdebanat.ro/miclau-le-cere-parlamentarilor-psd-sa-se-solidarizeze-cu-aur-si-sa-l-trimita-acasa-pe-locatarul-de-la-cotroceni/">Express de Banat</source>
+      <media:content url="https://izz.ro/judetean/liderul-aur-caras-severin-cere-demiterea-presedintelui-romaniei/cover.jpg?v=f6b82713" medium="image" type="image/jpeg"/>
+      <description>Samuel Miclău solicită parlamentarilor PSD să se alăture demersului AUR pentru demiterea șefului statului, considerând nepotrivită numirea lui Luca Niculescu în funcția de premier.</description>
     </item>
     <item>
       <title>Aplicația mobilă a partidului AUR poate accesa date sensibile ale utilizatorilor</title>
       <link>https://izz.ro/politic/aplicatia-mobila-a-partidului-aur-poate-accesa-date-sensibile-ale-utilizatorilor/</link>
       <guid>https://izz.ro/politic/aplicatia-mobila-a-partidului-aur-poate-accesa-date-sensibile-ale-utilizatorilor/</guid>
       <pubDate>Thu, 08 Oct 2026 08:01:05 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/investigatie-snoop-aplicatia-aur-instalata-pe-telefoanele-a-sute-de-mii-de-romani-poate-accesa-locatia-contactele-si-microfonul-telefonului">Spotmedia</source>
+      <media:content url="https://izz.ro/politic/aplicatia-mobila-a-partidului-aur-poate-accesa-date-sensibile-ale-utilizatorilor/cover.jpg?v=28a42c95" medium="image" type="image/jpeg"/>
       <description>O investigație jurnaliștică arată că aplicația AUR colectează date personale, accesând locația, microfonul și contactele sutelor de mii de români care au instalat-o pentru mobilizare politică și comunicare.</description>
     </item>
     <item>
@@ -25,6 +51,9 @@
       <link>https://izz.ro/politic/investigatie-snoop-aplicatia-mobila-aur-cere-permisiuni-periculoase/</link>
       <guid>https://izz.ro/politic/investigatie-snoop-aplicatia-mobila-aur-cere-permisiuni-periculoase/</guid>
       <pubDate>Thu, 08 Oct 2026 07:30:07 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://bizbrasov.ro/2026/10/08/aplicatie-partid-aur-investigatie-snoop/">BizBrașov</source>
+      <media:content url="https://izz.ro/politic/investigatie-snoop-aplicatia-mobila-aur-cere-permisiuni-periculoase/cover.jpg?v=735f2736" medium="image" type="image/jpeg"/>
       <description>O investigație jurnalistică arată că aplicația partidului AUR, instalată de peste 260.000 de români, colectează date personale sensibile și utilizează permisiuni riscante pentru a urmări activitatea utilizatorilor.</description>
     </item>
     <item>
@@ -32,6 +61,9 @@
       <link>https://izz.ro/politic/aur-cere-adoptarea-legii-privind-transparenta-finantarii-ong-urilor/</link>
       <guid>https://izz.ro/politic/aur-cere-adoptarea-legii-privind-transparenta-finantarii-ong-urilor/</guid>
       <pubDate>Wed, 07 Oct 2026 16:35:38 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://newsbv.ro/dan-tanasa-deputat-aur-brasov-finantare-ong/">News Brașov</source>
+      <media:content url="https://izz.ro/politic/aur-cere-adoptarea-legii-privind-transparenta-finantarii-ong-urilor/cover.jpg?v=a15c9788" medium="image" type="image/jpeg"/>
       <description>Deputatul Dan Tanasă solicită partidelor din Parlament să deblocheze proiectul AUR care impune transparența finanțării asociațiilor și fundațiilor, acuzând actuala coaliție de blocaj.</description>
     </item>
     <item>
@@ -39,6 +71,9 @@
       <link>https://izz.ro/politic/fondatorul-aur-lulea-il-acuza-pe-george-simion-de-dictatura-in-partid/</link>
       <guid>https://izz.ro/politic/fondatorul-aur-lulea-il-acuza-pe-george-simion-de-dictatura-in-partid/</guid>
       <pubDate>Wed, 07 Oct 2026 15:56:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.antena3.ro/politica/fondatorul-aur-il-atac-dur-pe-george-simion-lulea-acuza-ca-in-partid-e-dictatura-si-spune-ca-sunt-multi-cei-care-vor-o-schimbare-806217.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/politic/fondatorul-aur-lulea-il-acuza-pe-george-simion-de-dictatura-in-partid/cover.jpg?v=edb38dbc" medium="image" type="image/jpeg"/>
       <description>Lulea a lansat acuzații dure la adresa conducerii formațiunii AUR, susținând că puterea absolută a creat o stare de dictatură și că mulți membri își doresc o schimbare urgentă.</description>
     </item>
     <item>
@@ -46,6 +81,8 @@
       <link>https://izz.ro/politic/aur-propune-in-parlament-un-ajutor-de-stat-pentru-industria-electro-intensiva/</link>
       <guid>https://izz.ro/politic/aur-propune-in-parlament-un-ajutor-de-stat-pentru-industria-electro-intensiva/</guid>
       <pubDate>Wed, 07 Oct 2026 12:12:09 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.ziuadevest.ro/aur-a-depus-in-parlament-un-proiect-de-lege-pentru-ca-energia-scumpa-sa-nu-mai-alunge-industria-din-romania/">Ziua de Vest</source>
       <description>Partidul AUR a depus un proiect legislativ care prevede o schemă de compensare temporară a prețului la energie pentru marile companii industriale, cu un buget maxim de 1,05 miliarde de euro.</description>
     </item>
     <item>
@@ -53,6 +90,8 @@
       <link>https://izz.ro/politic/george-simion-solicita-organizarea-de-alegeri-anticipate-in-romania/</link>
       <guid>https://izz.ro/politic/george-simion-solicita-organizarea-de-alegeri-anticipate-in-romania/</guid>
       <pubDate>Wed, 07 Oct 2026 08:24:28 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/politic/george-simion-cere-alegeri-anticipate-liderul-aur-il-ameninta-pe-nicusor-dan-cu-demiterea.html">Știrile ProTV</source>
       <description>Liderul AUR, George Simion, a declarat că va iniția o campanie de demitere împotriva președintelui Nicușor Dan dacă acesta refuză în continuare convocarea alegerilor anticipate pentru depășirea blocajului politic.</description>
     </item>
     <item>
@@ -60,6 +99,8 @@
       <link>https://izz.ro/politic/senatorul-costache-chertif-acuza-presiuni-politice-inaintea-votului-pentru/</link>
       <guid>https://izz.ro/politic/senatorul-costache-chertif-acuza-presiuni-politice-inaintea-votului-pentru/</guid>
       <pubDate>Wed, 07 Oct 2026 06:24:08 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://gazetadecluj.ro/senatorul-costache-chertif-denunta-presiuni-inaintea-votului-pentru-guvernul-niculescu/">Gazeta de Cluj</source>
       <description>Senatorul AUR susține că partidul său se confruntă cu intimidări și refuză să voteze cabinetul condus de Luca Niculescu, menținându-și solidaritatea cu Călin Georgescu.</description>
     </item>
     <item>
@@ -67,6 +108,8 @@
       <link>https://izz.ro/politic/george-simion-sustine-ca-aur-va-ajunge-curand-sa-guverneze-singur-romania/</link>
       <guid>https://izz.ro/politic/george-simion-sustine-ca-aur-va-ajunge-curand-sa-guverneze-singur-romania/</guid>
       <pubDate>Tue, 06 Oct 2026 19:53:40 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/politic/george-simion-mai-avem-pu-in-si-ajungem-sa-guvernam-singuri-e-o-problema-de-timp.html">Știrile ProTV, HotNews</source>
       <description>Preşedintele partidului AUR, George Simion, a declarat în cadrul unei emisiuni la TVR 1 că este doar o chestiune de timp până când formațiunea sa va prelua singură guvernarea. Liderul AUR a menționat că discuțiile cu investitorii străini arată că aceștia nu au nicio problemă cu o astfel de perspectivă și a abordat și subiectul demiterii lui Bolojan, pe care nu o regretă.</description>
     </item>
     <item>
@@ -74,6 +117,8 @@
       <link>https://izz.ro/politic/george-simion-sustine-ca-aur-va-prelua-guvernarea-in-viitorul-apropiat/</link>
       <guid>https://izz.ro/politic/george-simion-sustine-ca-aur-va-prelua-guvernarea-in-viitorul-apropiat/</guid>
       <pubDate>Tue, 06 Oct 2026 19:44:14 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/simion-mai-avem-putin-si-ajungem-sa-guvernam-singuri-e-o-problema-de-timp-3981407">Digi24, Știrile ProTV, HotNews, Adevărul</source>
       <description>Președintele AUR, George Simion, a declarat că partidul său va ajunge curând să guverneze singur, considerând acest lucru o chestiune de timp. Liderul formațiunii a menționat că discuțiile purtate cu investitorii străini indică faptul că mediul extern nu are rețineri față de o eventuală guvernare AUR. De asemenea, el a comentat pe marginea deciziilor politice recente și a presiunilor percepute asupra partidului.</description>
     </item>
     <item>
@@ -81,6 +126,8 @@
       <link>https://izz.ro/politic/george-simion-neaga-orice-implicare-a-partidului-in-finantari-ilegale-din-rusia/</link>
       <guid>https://izz.ro/politic/george-simion-neaga-orice-implicare-a-partidului-in-finantari-ilegale-din-rusia/</guid>
       <pubDate>Tue, 06 Oct 2026 18:57:12 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/politic/george-simion-respinge-acuzatiile-privind-donatii-din-rusia-daca-ne-scapa-una-singura-vedeau-tot.html">Știrile ProTV</source>
       <description>Liderul formațiunii AUR respinge public acuzațiile legate de utilizarea nelegală a subvențiilor de la bugetul de stat, susținând transparența totală a cheltuielilor partidului.</description>
     </item>
     <item>
@@ -88,6 +135,8 @@
       <link>https://izz.ro/politic/liderul-aur-george-simion-confirma-interventii-pentru-omul-de-afaceri-fanel/</link>
       <guid>https://izz.ro/politic/liderul-aur-george-simion-confirma-interventii-pentru-omul-de-afaceri-fanel/</guid>
       <pubDate>Tue, 06 Oct 2026 17:18:25 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/george-simion-a-venit-cineva-cu-acest-caz-al-domnului-bogos-ca-trebuie-sa-facem-ceva-liderul-aur-vine-cu-noi-detalii-dupa-acuzatiile-senatorului-ninel-peia-fratele-nost.html">G4Media</source>
       <description>Președintele partidului AUR, George Simion, a recunoscut într-o emisiune televizată că a fost abordat pentru a soluționa problemele omului de afaceri Fănel Bogos, în contextul unor suspiciuni vehiculate public.</description>
     </item>
     <item>
@@ -95,6 +144,8 @@
       <link>https://izz.ro/politic/psd-nu-ii-sanctioneaza-pe-parlamentarii-care-au-semnat-demersul-aur/</link>
       <guid>https://izz.ro/politic/psd-nu-ii-sanctioneaza-pe-parlamentarii-care-au-semnat-demersul-aur/</guid>
       <pubDate>Tue, 06 Oct 2026 17:04:13 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/politica/grindeanu-pune-capat-speculatiilor-ce-se-intampla-2562262.html">Adevărul</source>
       <description>Deputații și senatorii social-democrați care au aderat la listele formațiunii AUR pentru demiterea lui Nicușor Dan nu riscă nicio pedeapsă din partea conducerii partidului, a confirmat liderul Sorin Grindeanu.</description>
     </item>
     <item>
@@ -102,6 +153,8 @@
       <link>https://izz.ro/politic/marius-lulea-contesta-excluderea-sa-din-partidul-aur-si-motivele-invocate/</link>
       <guid>https://izz.ro/politic/marius-lulea-contesta-excluderea-sa-din-partidul-aur-si-motivele-invocate/</guid>
       <pubDate>Tue, 06 Oct 2026 16:40:52 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/politica/marius-lulea-contesta-motivele-excluderii-sale-2562244.html">Adevărul</source>
       <description>Fondatorul AUR Marius Lulea a respins acuzațiile conducerii privind neplata cotizațiilor, declanșând un conflict intern cu privire la decizia liderilor formațiunii politice de a-l îndepărta.</description>
     </item>
     <item>
@@ -109,6 +162,8 @@
       <link>https://izz.ro/local/psd-maramures-traverseaza-o-perioada-dificila-pe-scena-politica-locala/</link>
       <guid>https://izz.ro/local/psd-maramures-traverseaza-o-perioada-dificila-pe-scena-politica-locala/</guid>
       <pubDate>Tue, 06 Oct 2026 15:55:52 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.emaramures.ro/psd-maramures-intre-cadere-si-supravietuire-politica-isi-pregateste-gabriel-zetea-propriul-partid-pentru-disparitia-din-elita-politicii-judetene/">eMaramureș</source>
       <description>Organizația județeană a social-democraților resimte pierderea susținerii electorale în fața concurenței politice, în timp ce liderul Gabriel Zetea este subiectul unor speculații privind viitorul său.</description>
     </item>
     <item>
@@ -116,6 +171,8 @@
       <link>https://izz.ro/politic/initiative-parlamentare-pentru-demiterea-presedintelui-nicusor-dan-pe-fondul/</link>
       <guid>https://izz.ro/politic/initiative-parlamentare-pentru-demiterea-presedintelui-nicusor-dan-pe-fondul/</guid>
       <pubDate>Tue, 06 Oct 2026 13:15:30 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://alba24.ro/un-deputat-psd-a-inceput-strangerea-de-semnaturi-pentru-demiterea-presedintelui-nicusor-dan-1161359.html">Alba24, Observator</source>
       <description>Mai mulți parlamentari, inclusiv deputatul PSD Lucian Morar și reprezentanți ai formațiunii AUR, au început strângerea de semnături pentru demiterea sau suspendarea președintelui Nicușor Dan. Demersul vine pe fondul tensiunilor politice generate de nominalizarea pentru funcția de premier, unii lideri sociali-democrați exprimându-și nemulțumirea față de deciziile de la Palatul Cotroceni.</description>
     </item>
     <item>
@@ -123,6 +180,8 @@
       <link>https://izz.ro/politic/george-simion-cere-parlamentarilor-psd-sprijin-pentru-suspendarea-lui-nicusor/</link>
       <guid>https://izz.ro/politic/george-simion-cere-parlamentarilor-psd-sprijin-pentru-suspendarea-lui-nicusor/</guid>
       <pubDate>Tue, 06 Oct 2026 07:36:58 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/politica/george-simion-trimite-la-psd-tabelul-de-semnaturi-pentru-suspendarea-lui-nicusor-dan">Spotmedia, Bihon</source>
       <description>Liderul AUR, George Simion, a anunțat trimiterea unui tabel cu semnături către parlamentarii PSD pentru a iniția procedura de suspendare a președintelui Nicușor Dan. AUR susține că are deja 119 parlamentari și peste 409.000 de simpatizanți care susțin demersul prin platforma suspeND.ro, fiind necesare însă 155 de semnături pentru depunerea inițiativei în Parlament conform Constituției.</description>
     </item>
     <item>
@@ -130,6 +189,8 @@
       <link>https://izz.ro/politic/udmr-este-deschis-sa-il-voteze-pe-luca-niculescu-premier-cu-o-conditie/</link>
       <guid>https://izz.ro/politic/udmr-este-deschis-sa-il-voteze-pe-luca-niculescu-premier-cu-o-conditie/</guid>
       <pubDate>Mon, 05 Oct 2026 18:44:53 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/politic/umdr-il-putem-vota-pe-luca-niculescu-linia-rosie-e-sa-nu-purtam-negocieri-cu-aur-si-sos.html">Știrile ProTV, News Brașov, Economica</source>
       <description>Reprezentanții UDMR au anunțat că formațiunea ar putea vota în Parlament investirea lui Luca Niculescu în funcția de premier. Liderul deputaților UDMR, Csoma Botond, a precizat că singura „linie roșie” pentru partid o reprezintă refuzul oricăror negocieri politice cu formațiunile AUR și SOS România pentru constituirea majorității parlamentare.</description>
     </item>
     <item>
@@ -137,6 +198,8 @@
       <link>https://izz.ro/politic/partidul-aur-participa-la-consultarile-de-la-cotroceni-fara-presedintele-george/</link>
       <guid>https://izz.ro/politic/partidul-aur-participa-la-consultarile-de-la-cotroceni-fara-presedintele-george/</guid>
       <pubDate>Mon, 05 Oct 2026 09:00:12 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.monitorulbt.ro/national/2026/10/05/aur-merge-la-cotroceni-fara-george-simion-mesajul-partidului-pentru-nicusor-dan/">Monitorul de Botoșani</source>
       <description>Formațiunea politică a trimis o delegație la discuțiile cu președintele Nicușor Dan având o singură solicitare oficială: organizarea de alegeri anticipate, decizia fiind anunțată public pe rețelele sociale.</description>
     </item>
     <item>
@@ -144,6 +207,8 @@
       <link>https://izz.ro/local/reprezentantii-ambasadei-vietnamului-au-purtat-discutii-oficiale-cu/</link>
       <guid>https://izz.ro/local/reprezentantii-ambasadei-vietnamului-au-purtat-discutii-oficiale-cu/</guid>
       <pubDate>Mon, 05 Oct 2026 08:53:17 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/reprezentantii-ambasadei-vietnamului-in-dialog-cu-parlamentarii-aur-la-cluj/">Gazeta de Cluj</source>
       <description>Ambasadorul statului asiatic în România, Le Vinh Thang, s-a întâlnit la Cluj-Napoca cu membri ai formațiunii AUR pentru a dezvolta relațiile bilaterale și oportunitățile de cooperare economică.</description>
     </item>
     <item>
@@ -151,6 +216,8 @@
       <link>https://izz.ro/politic/eugen-tomac-avertizeaza-ca-participarea-aur-la-guvernare-poate-izola-extern/</link>
       <guid>https://izz.ro/politic/eugen-tomac-avertizeaza-ca-participarea-aur-la-guvernare-poate-izola-extern/</guid>
       <pubDate>Sun, 04 Oct 2026 21:17:24 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/eugen-tomac-despre-prezenta-aur-la-guvernare-romania-nu-are-nevoie-de-aventuri-care-ne-pot-izola-extern-3977421">Digi24</source>
       <description>Consilierul prezidențial Eugen Tomac consideră că actuala criză politică din România nu trebuie soluționată prin alegeri anticipate sau prin cooptarea AUR la guvernare. El susține că aceste opțiuni ar genera riscuri majore de izolare internațională.</description>
     </item>
     <item>
@@ -158,6 +225,8 @@
       <link>https://izz.ro/politic/traian-basescu-sustine-ca-aur-si-a-atins-potentialul-maxim-de-crestere/</link>
       <guid>https://izz.ro/politic/traian-basescu-sustine-ca-aur-si-a-atins-potentialul-maxim-de-crestere/</guid>
       <pubDate>Sun, 04 Oct 2026 19:04:33 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/fostul-presedinte-traian-basescu-predictie-despre-aur-si-a-terminat-potentialul-de-crestere-si-o-sa-o-ia-in-jos.html">G4Media, Digi24</source>
       <description>Fostul președinte Traian Băsescu a declarat în cadrul unei emisiuni televizate că partidul AUR și-a epuizat potențialul de creștere în preferințele alegătorilor și se îndreaptă spre o scădere. De asemenea, acesta a menționat că formațiunea politică va fi nevoită să ofere explicații cu privire la finanțarea și fondurile alocate posturilor de televiziune.</description>
     </item>
     <item>
@@ -165,6 +234,8 @@
       <link>https://izz.ro/politic/liderul-senatorilor-aur-l-a-ironizat-pe-nicusor-dan-inainte-de-consultari/</link>
       <guid>https://izz.ro/politic/liderul-senatorilor-aur-l-a-ironizat-pe-nicusor-dan-inainte-de-consultari/</guid>
       <pubDate>Sun, 04 Oct 2026 13:15:45 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://hotnews.ro/un-lider-aur-il-ironizeaza-pe-nicusor-dan-inaintea-discutiilor-de-la-cotroceni-melodia-postata-de-petrisor-peiu-2366278">HotNews, Antena 3 CNN</source>
       <description>Petrișor Peiu, liderul senatorilor AUR și președintele Consiliului Național de Conducere al partidului, a publicat duminică un mesaj ironic pe o rețea de socializare la adresa lui Nicușor Dan. Acesta a distribuit cântecul pentru copii „O lume minunată” de Mihai Constantinescu pentru a comenta modul în care se pregătește președintele pentru întâlnirea programată luni la Palatul Cotroceni cu reprezentanții partidelor politice.</description>
     </item>
     <item>
@@ -172,6 +243,8 @@
       <link>https://izz.ro/politic/senatorul-catalin-silegeanu-critica-utilizarea-ratingului-de-tara-in-politica/</link>
       <guid>https://izz.ro/politic/senatorul-catalin-silegeanu-critica-utilizarea-ratingului-de-tara-in-politica/</guid>
       <pubDate>Sun, 04 Oct 2026 11:32:41 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.monitorulbt.ro/local/2026/10/04/comunicat-de-presa-catalin-silegeanu-creditorilor-externi-le-datoram-bani-nu-buletine-de-vot/">Monitorul de Botoșani</source>
       <description>Parlamentarul a reacționat dur după ce formațiunea AUR a fost exclusă de la posibile alianțe de guvernare pe motiv că prezența sa ar afecta relațiile externe, subliniind că datoriile externe nu implică și cedarea voturilor.</description>
     </item>
     <item>
@@ -179,6 +252,8 @@
       <link>https://izz.ro/politic/partidul-aur-va-participa-la-consultarile-politice-convocate-de-nicusor-dan/</link>
       <guid>https://izz.ro/politic/partidul-aur-va-participa-la-consultarile-politice-convocate-de-nicusor-dan/</guid>
       <pubDate>Sun, 04 Oct 2026 06:44:56 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://hotnews.ro/cu-ce-mandat-merge-aur-la-consultarile-cu-nicusor-dan-pentru-un-nou-premier-dan-dungaciu-lucrurile-sunt-clare-2366071">HotNews</source>
       <description>Formațiunea AUR va trimite o delegație de cinci membri la discuțiile organizate de Nicușor Dan pentru formarea unui nou guvern, în ciuda mesajelor tensionate transmise anterior.</description>
     </item>
     <item>
@@ -186,6 +261,8 @@
       <link>https://izz.ro/politic/aur-va-participa-la-consultarile-de-la-cotroceni-fara-a-propune-un-premier/</link>
       <guid>https://izz.ro/politic/aur-va-participa-la-consultarile-de-la-cotroceni-fara-a-propune-un-premier/</guid>
       <pubDate>Sat, 03 Oct 2026 19:02:23 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/dungaciu-anunta-ca-liderii-aur-vor-merge-le-negocierile-de-la-cotroceni-privind-desemnarea-premierului-mergem-sa-continuam-dialogul-cu-institutiile-statului.html">G4Media, Digi24</source>
       <description>Reprezentanții partidului AUR, prin liderii Dan Dungaciu și alți membrii ai conducerii, au confirmat participarea la consultările organizate la Palatul Cotroceni de președintele Nicușor Dan. Formațiunea a precizat că dialogul institutional va continua, însă partidul nu urmărește negocierea vreunei funcții guvernamentale sau susținerea unui prim-ministru.</description>
     </item>
     <item>
@@ -193,6 +270,8 @@
       <link>https://izz.ro/politic/petrisor-peiu-il-acuza-pe-nicusor-dan-de-incalcarea-constitutiei-prin/</link>
       <guid>https://izz.ro/politic/petrisor-peiu-il-acuza-pe-nicusor-dan-de-incalcarea-constitutiei-prin/</guid>
       <pubDate>Sat, 03 Oct 2026 08:00:09 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/petrisor-peiu-spune-ca-nicusor-dan-incalca-constitutia-cu-buna-stiinta-si-la-lumina-zilei-excluzand-aur-de-la-guvernare-3976141">Digi24</source>
       <description>Senatorul AUR Petrișor Peiu susține că decizia președintelui Nicușor Dan de a bloca accesul formațiunii la guvernare reprezintă un atac grav la adresa democrației și a Constituției României.</description>
     </item>
     <item>
@@ -200,6 +279,8 @@
       <link>https://izz.ro/politic/aur-il-critica-dur-pe-presedintele-nicusor-dan-acuzandu-l-de-autoritarism/</link>
       <guid>https://izz.ro/politic/aur-il-critica-dur-pe-presedintele-nicusor-dan-acuzandu-l-de-autoritarism/</guid>
       <pubDate>Sat, 03 Oct 2026 07:30:43 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/politic/aur-il-acuza-pe-nicusor-dan-de-dictatura-personala-si-il-compara-cu-regele-carol-al-ii-lea-este-o-crima-monstruoasa.html">Știrile ProTV</source>
       <description>Liderul senatorilor AUR, Petrișor Peiu, a lansat acuzații grave la adresa șefului statului Nicușor Dan, comparându-i stilul de conducere cu cel al regelui Carol al II-lea și pretinzând că acesta ar încălca Constituția.</description>
     </item>
     <item>
@@ -207,6 +288,8 @@
       <link>https://izz.ro/politic/aur-va-oferi-asistenta-juridica-cetatenilor-sanctionati-la-proteste-recente/</link>
       <guid>https://izz.ro/politic/aur-va-oferi-asistenta-juridica-cetatenilor-sanctionati-la-proteste-recente/</guid>
       <pubDate>Fri, 02 Oct 2026 17:57:09 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://gazetadecluj.ro/aur-ii-va-asista-juridic-pe-cei-abuzati-de-statul-roman-dupa-protestele-ciobanilor-si-cele-pro-georgescu/">Gazeta de Cluj</source>
       <description>Alianța pentru Unirea Românilor a anunțat că va asigura sprijin legal pentru persoanele amendate sau anchetate de autorități în urma manifestațiilor publice organizate de crescătorii de animale și susținătorii lui Călin Georgescu.</description>
     </item>
     <item>
@@ -214,6 +297,8 @@
       <link>https://izz.ro/politic/siegfried-muresan-acuza-psd-si-aur-de-deprecierea-leului-prin-instabilitate/</link>
       <guid>https://izz.ro/politic/siegfried-muresan-acuza-psd-si-aur-de-deprecierea-leului-prin-instabilitate/</guid>
       <pubDate>Fri, 02 Oct 2026 11:56:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://observatornews.ro/economic/siegfried-muresan-spune-ca-psd-si-aur-sunt-de-vina-pentru-deprecierea-leului-au-creat-instabilitate-667988.html">Observator</source>
       <description>Eurodeputatul Siegfried Mureșan pune scăderea puternică a monedei naționale pe seama crizei politice provocate de PSD și AUR. Acesta critică voturile care au dus la căderea Guvernului Bolojan și respingerea noului Cabinet.</description>
     </item>
     <item>
@@ -221,6 +306,8 @@
       <link>https://izz.ro/politic/eurodeputatul-pnl-gheorghe-falca-sustine-ca-aur-ar-trebui-sa-preia-guvernarea/</link>
       <guid>https://izz.ro/politic/eurodeputatul-pnl-gheorghe-falca-sustine-ca-aur-ar-trebui-sa-preia-guvernarea/</guid>
       <pubDate>Fri, 02 Oct 2026 09:14:47 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://expressdebanat.ro/lider-pnl-e-foarte-bine-ca-aur-sa-ajunga-la-guvernare/">Express de Banat</source>
       <description>Liberalul Gheorghe Falcă a declarat că formațiunea sa trebuie să treacă în opoziție, lăsând puterea celor care au provocat căderea Cabinetului Bolojan. Acesta consideră că reprezentanții AUR ar trebui lăsați să guverneze pentru a-și demonstra competențele.</description>
     </item>
     <item>
@@ -228,6 +315,8 @@
       <link>https://izz.ro/politic/nicusor-dan-respinge-participarea-aur-la-guvernare/</link>
       <guid>https://izz.ro/politic/nicusor-dan-respinge-participarea-aur-la-guvernare/</guid>
       <pubDate>Thu, 01 Oct 2026 22:00:26 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/politica/nicusor-dan-incearca-sa-opreasca-apropierea-psd-de-2561198.html">Adevărul</source>
       <description>Președintele Nicușor Dan a intervenit public pentru a exclude formațiunea AUR de la o viitoare guvernare, pe fondul speculațiilor privind o potențială alianță politică între PSD și partidul condus de George Simion.</description>
     </item>
     <item>
@@ -235,6 +324,8 @@
       <link>https://izz.ro/politic/aur-il-acuza-pe-nicusor-dan-de-folosirea-justitiei-pentru-blocarea-alegerilor/</link>
       <guid>https://izz.ro/politic/aur-il-acuza-pe-nicusor-dan-de-folosirea-justitiei-pentru-blocarea-alegerilor/</guid>
       <pubDate>Thu, 01 Oct 2026 19:38:13 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/aur-il-acuza-pe-nicusor-dan-ca-foloseste-justitia-pentru-a-bloca-alegerile-anticipate-dupa-ce-ilie-bolojan-a-fost-citat-la-dna-ca-martor.html">G4Media</source>
       <description>Partidul AUR susține că președintele Nicușor Dan utilizează instituțiile statului și DNA pentru a împiedica organizarea alegerilor anticipate, invocând citarea liberalului Ilie Bolojan ca martor.</description>
     </item>
     <item>
@@ -242,6 +333,8 @@
       <link>https://izz.ro/politic/catalin-silegeanu-critica-gestionarea-crizei-politice-actuale/</link>
       <guid>https://izz.ro/politic/catalin-silegeanu-critica-gestionarea-crizei-politice-actuale/</guid>
       <pubDate>Thu, 01 Oct 2026 18:35:12 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.monitorulbt.ro/local/2026/10/01/comunicat-de-presa-catalin-silegeanu-organizarea-alegerilor-se-complica-pe-zi-ce-trece-presedintele-mai-baga-o-fisa/">Monitorul de Botoșani</source>
       <description>Senatorul a acuzat conducerea statului de adâncirea blocajului instituțional, după respingerea guvernului propus și excluderea formațiunii AUR de la negocieri. Parlamentarul susține că organizarea unor alegeri devine tot mai dificilă.</description>
     </item>
     <item>
@@ -249,6 +342,8 @@
       <link>https://izz.ro/politic/economistul-iancu-guda-critica-dur-clasa-politica-pentru-situatia-economica-a/</link>
       <guid>https://izz.ro/politic/economistul-iancu-guda-critica-dur-clasa-politica-pentru-situatia-economica-a/</guid>
       <pubDate>Thu, 01 Oct 2026 15:31:41 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://mytex.ro/economic/economistul-iancu-guda-atac-dur-la-adresa-clasei-politice-va-bateti-joc-in-ultimul-hal-de-tara-bnr-se-chinuie-sa-nu-deraieze-trenul/">MyTex</source>
       <description>Reprezentanții partidelor politice au fost acuzați de management defectuos al economiei naționale, în contextul în care Banca Națională depune eforturi majore pentru a preveni colapsul financiar.</description>
     </item>
     <item>
@@ -256,6 +351,8 @@
       <link>https://izz.ro/politic/partidele-negociaza-doua-scenarii-guvernamentale-dupa-consultarile-cu/</link>
       <guid>https://izz.ro/politic/partidele-negociaza-doua-scenarii-guvernamentale-dupa-consultarile-cu/</guid>
       <pubDate>Thu, 01 Oct 2026 12:35:43 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/surse-doua-variante-de-guvern-revin-in-prim-plan-dupa-conditia-pusa-de-nicusor-dan-ce-negociaza-acum-partidele-3972963">Digi24</source>
       <description>Înaintea desemnării celui de-al patrulea premier, formațiunile parlamentare discută variantele unui guvern condus de un tehnocrat sprijinit de miniștri politici sau realizarea unei rocade guvernamentale.</description>
     </item>
     <item>
@@ -263,6 +360,8 @@
       <link>https://izz.ro/politic/nusuor-dan-exclude-o-colaborare-politica-cu-aur-la-guvernare/</link>
       <guid>https://izz.ro/politic/nusuor-dan-exclude-o-colaborare-politica-cu-aur-la-guvernare/</guid>
       <pubDate>Thu, 01 Oct 2026 12:03:56 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://cvlpress.ro/01.10.2026/la-revedere-dar-raman-cu-tine/">Cuvântul Libertății</source>
       <description>Primarul general Nicușor Dan a trasat o linie roșie fermă privind viitoarea guvernare, menționând că partidul AUR nu poate fi acceptat la Palatul Victoria din cauza posibilelor consecințe nefavorabile în relațiile externe ale României.</description>
     </item>
     <item>
@@ -270,6 +369,8 @@
       <link>https://izz.ro/politic/aur-refuza-sa-voteze-un-guvern-din-care-nu-face-parte-anunta-samuel-miclau/</link>
       <guid>https://izz.ro/politic/aur-refuza-sa-voteze-un-guvern-din-care-nu-face-parte-anunta-samuel-miclau/</guid>
       <pubDate>Thu, 01 Oct 2026 11:24:37 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://expressdebanat.ro/samuel-miclau-aur-deschis-negocierilor-dar-nu-voteaza-un-guvern-din-care-nu-face-parte/">Express de Banat</source>
       <description>Liderul AUR Caraș-Severin dă vina pe Nicușor Dan pentru eșecul Cabinetului Mureșan și anunță că formațiunea politică va susține doar un executiv în care va deține efectiv portofolii ministeriale.</description>
     </item>
     <item>
@@ -277,6 +378,8 @@
       <link>https://izz.ro/politic/ramona-bruynseels-anunta-ca-aur-il-sustine-pe-calin-georgescu/</link>
       <guid>https://izz.ro/politic/ramona-bruynseels-anunta-ca-aur-il-sustine-pe-calin-georgescu/</guid>
       <pubDate>Thu, 01 Oct 2026 10:53:42 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://gazetadecluj.ro/ramona-ioana-bruynseels-afirma-ca-aur-ramane-alaturi-de-calin-georgescu-si-refuza-votul-pentru-guvernul-muresan/">Gazeta de Cluj</source>
       <description>Deputata formațiunii politice a declarat că partidul rămâne alături de Călin Georgescu și refuză să voteze Guvernul Mureșan, invocând prezumția de nevinovăție după arestarea preventivă a acestuia dispusă de instanță.</description>
     </item>
     <item>
@@ -284,6 +387,8 @@
       <link>https://izz.ro/politic/presedintele-exclude-anticipatele-si-aur-din-viitorul-guvern/</link>
       <guid>https://izz.ro/politic/presedintele-exclude-anticipatele-si-aur-din-viitorul-guvern/</guid>
       <pubDate>Thu, 01 Oct 2026 09:27:43 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://cursdeguvernare.ro/presaedintele-dan-fara-anticipate-fara-aur-guvern.html">Curs de Guvernare</source>
       <description>Șeful statului a anunțat că va face o nouă nominalizare de premier după consultările cu partidele, refuzând categoric dizolvarea parlamentului și includerea formațiunii AUR la guvernare.</description>
     </item>
     <item>
@@ -291,6 +396,8 @@
       <link>https://izz.ro/politic/presedintele-respinge-includerea-aur-in-viitorul-guvern/</link>
       <guid>https://izz.ro/politic/presedintele-respinge-includerea-aur-in-viitorul-guvern/</guid>
       <pubDate>Thu, 01 Oct 2026 06:39:26 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://expressdebanat.ro/nicusor-dan-traseaza-linia-rosie-pentru-viitorul-guvern-fara-aur-la-putere/">Express de Banat</source>
       <description>Șeful statului a declarat că formațiunea politică nu respectă criteriile privind orientarea pro-occidentală și menținerea stabilității financiare a țării, motiv pentru care nu va fi acceptată la guvernare.</description>
     </item>
     <item>
@@ -298,6 +405,8 @@
       <link>https://izz.ro/politic/presedintele-respinge-categoric-cooptarea-partidului-aur-la-guvernare/</link>
       <guid>https://izz.ro/politic/presedintele-respinge-categoric-cooptarea-partidului-aur-la-guvernare/</guid>
       <pubDate>Thu, 01 Oct 2026 04:58:22 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.economica.net/ce-spune-nicusor-dan-despre-un-guvern-cu-aur-in-componenta_981610.html">Economica</source>
       <description>Șeful statului a declarat la finalul unei vizite oficiale că va refuza să desemneze un premier care acceptă participarea formațiunii AUR la o viitoare guvernare, respectând mandatul primit de la cetățeni.</description>
     </item>
     <item>
@@ -305,6 +414,8 @@
       <link>https://izz.ro/politic/adrian-torma-sustine-ca-psd-trebuie-sa-intre-la-guvernare/</link>
       <guid>https://izz.ro/politic/adrian-torma-sustine-ca-psd-trebuie-sa-intre-la-guvernare/</guid>
       <pubDate>Thu, 01 Oct 2026 04:00:37 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://expressdebanat.ro/torma-psd-trebuie-sa-ajunga-la-guvernare-o-negociere-cu-aur-nu-este-un-lucru-rau/">Express de Banat</source>
       <description>Liderul social-democrat din Moldova Nouă afirmă că Sorin Grindeanu este potrivit pentru funcția de premier și nu exclude o eventuală înțelegere politică cu partidul AUR în actualul context dificil.</description>
     </item>
     <item>
@@ -312,6 +423,8 @@
       <link>https://izz.ro/politic/nicusor-dan-va-conditiona-partidele-sa-excluda-aur-de-la-guvernare/</link>
       <guid>https://izz.ro/politic/nicusor-dan-va-conditiona-partidele-sa-excluda-aur-de-la-guvernare/</guid>
       <pubDate>Wed, 30 Sep 2026 20:59:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.profit.ro/stiri/politic/nicusor-dan-anunta-fara-aur-la-guvernare-conditie-pentru-partide-22795162?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro, Spotmedia, Digi24</source>
       <description>Președintele Nicușor Dan a anunțat că va cere partidelor politice să nu coopteze formațiunea AUR la guvernare în cadrul viitoarelor consultări de la Cotroceni. Șeful statului a motivat decizia prin necesitatea menținerii direcției pro-occidentale și a stabilității financiare a României. Totodată, președintele a precizat că va face o nouă desemnare pentru funcția de premier luni după-amiază, având deja mai multe nume în vedere.</description>
     </item>
     <item>
@@ -319,6 +432,8 @@
       <link>https://izz.ro/politic/nicusor-dan-exclude-orice-alianta-guvernamentala-cu-aur/</link>
       <guid>https://izz.ro/politic/nicusor-dan-exclude-orice-alianta-guvernamentala-cu-aur/</guid>
       <pubDate>Wed, 30 Sep 2026 20:57:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.antena3.ro/politica/nicusor-dan-traseaza-linia-rosie-pentru-psd-fara-aur-la-guvernare-ar-afecta-relatiile-cu-partenerii-nostri-805312.html">Antena 3 CNN</source>
       <description>Edilul Capitalei avertizează că o coaliție cu AUR ar periclita parteneriatele strategice externe ale României, subliniind însă că decizia nu reprezintă o jignire la adresa alegătorilor acestei formațiuni.</description>
     </item>
     <item>
@@ -326,6 +441,8 @@
       <link>https://izz.ro/politic/presedintele-nicusor-dan-exclude-participarea-aur-la-viitoarea-guvernare/</link>
       <guid>https://izz.ro/politic/presedintele-nicusor-dan-exclude-participarea-aur-la-viitoarea-guvernare/</guid>
       <pubDate>Wed, 30 Sep 2026 20:27:29 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://hotnews.ro/nicusor-dan-anunta-conferinta-de-presa-aproape-de-miezul-noptii-a-doua-iesire-a-presedintelui-dupa-esecul-guvernului-muresan-2363247">HotNews</source>
       <description>Șeful statului a declarat, în cadrul unei conferințe susținute la Praga, că excluderea formațiunii AUR de la guvernare reprezintă o condiție obligatorie pentru rezolvarea crizei politice actuale.</description>
     </item>
     <item>
@@ -333,6 +450,8 @@
       <link>https://izz.ro/politic/traian-basescu-solicita-verificarea-finantarii-politice-a-liderului-aur/</link>
       <guid>https://izz.ro/politic/traian-basescu-solicita-verificarea-finantarii-politice-a-liderului-aur/</guid>
       <pubDate>Wed, 30 Sep 2026 17:57:59 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/politic/basescu-cere-verificarea-baii-de-bani-in-care-se-scalda-simion-arestarea-lui-georgescu-momentul-de-maxima-amplitudine.html">Știrile ProTV</source>
       <description>Fostul șef al statului a comentat evoluția scenei politice românești, estimând că formațiunea condusă de George Simion a ajuns la apogeul electoral și va înregistra un declin.</description>
     </item>
     <item>
@@ -340,20 +459,8 @@
       <link>https://izz.ro/politic/traian-basescu-cere-verificarea-finantelor-aur-si-sustine-ca-partidul-a-plafonat/</link>
       <guid>https://izz.ro/politic/traian-basescu-cere-verificarea-finantelor-aur-si-sustine-ca-partidul-a-plafonat/</guid>
       <pubDate>Wed, 30 Sep 2026 17:44:21 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://hotnews.ro/basescu-anticipeaza-multe-probleme-legate-de-contabilitatea-partidului-aur-ar-trebui-sa-ne-uitam-mai-atent-la-baia-de-bani-in-care-se-scalda-simion-2363123">HotNews, G4Media</source>
       <description>Fostul președinte Traian Băsescu a declarat că formațiunea AUR și-a atins potențialul electoral maxim și va intra pe o pantă descendentă. De asemenea, acesta a ridicat semne de întrebare cu privire la contabilitatea partidului și fondurile gestionate de liderul George Simion, sugerând necesitatea unui control financiar riguros pentru verificarea sumelor cheltuite.</description>
-    </item>
-    <item>
-      <title>Partidele din România își stabilesc strategiile pentru formarea noului guvern</title>
-      <link>https://izz.ro/politic/partidele-din-romania-isi-stabilesc-strategiile-pentru-formarea-noului-guvern/</link>
-      <guid>https://izz.ro/politic/partidele-din-romania-isi-stabilesc-strategiile-pentru-formarea-noului-guvern/</guid>
-      <pubDate>Wed, 30 Sep 2026 14:51:07 +0000</pubDate>
-      <description>După respingerea lui Siegfried Mureșan în Parlament, PSD dorește guvernarea, USR cere alegeri anticipate, iar AUR pune condiții stricte, în timp ce PNL încă analizează opțiunile.</description>
-    </item>
-    <item>
-      <title>Dominic Fritz încheie mandatul de primar al Timișoarei</title>
-      <link>https://izz.ro/local/dominic-fritz-incheie-mandatul-de-primar-al-timisoarei/</link>
-      <guid>https://izz.ro/local/dominic-fritz-incheie-mandatul-de-primar-al-timisoarei/</guid>
-      <pubDate>Wed, 30 Sep 2026 06:48:26 +0000</pubDate>
-      <description>Dominic Fritz a ajuns în ultima zi de mandat la conducerea primăriei Timișoara, după ce aplicarea legii integrității votată de PSD și AUR a impus încetarea prematură a activității sale administrative.</description>
     </item>
 </channel></rss>

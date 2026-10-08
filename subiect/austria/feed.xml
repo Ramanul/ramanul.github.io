@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Austria — IZZ.ro</title>
   <link>https://izz.ro/subiect/austria/</link>
   <atom:link href="https://izz.ro/subiect/austria/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Austria pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>UVT a găzduit o conferință despre diplomație susținută de Ambasadoarea Austriei</title>
       <link>https://izz.ro/cultura/uvt-a-gazduit-o-conferinta-despre-diplomatie-sustinuta-de-ambasadoarea-austriei/</link>
       <guid>https://izz.ro/cultura/uvt-a-gazduit-o-conferinta-despre-diplomatie-sustinuta-de-ambasadoarea-austriei/</guid>
       <pubDate>Thu, 08 Oct 2026 15:51:13 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://www.ziuadevest.ro/uvt-a-adus-in-prim-plan-puterea-diplomatiei-academice-si-culturale-alaturi-de-ambasadoarea-austriei-in-romania/">Ziua de Vest</source>
+      <media:content url="https://izz.ro/cultura/uvt-a-gazduit-o-conferinta-despre-diplomatie-sustinuta-de-ambasadoarea-austriei/cover.jpg?v=aefaca56" medium="image" type="image/jpeg"/>
       <description>Universitatea de Vest din Timișoara a organizat pe 8 octombrie 2026 o conferință despre cariera diplomatică, susținută de Ulla Krauss-Nussbaumer în cadrul Zilelor Culturii Austriece.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/extern/angajatul-unui-supermarket-din-austria-trimis-in-judecata-pentru-reduceri/</link>
       <guid>https://izz.ro/extern/angajatul-unui-supermarket-din-austria-trimis-in-judecata-pentru-reduceri/</guid>
       <pubDate>Wed, 07 Oct 2026 16:33:23 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/un-angajat-al-unui-supermarket-din-austria-le-acorda-pe-ascuns-clientilor-reduceri-de-pana-la-50-ce-a-urmat.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/extern/angajatul-unui-supermarket-din-austria-trimis-in-judecata-pentru-reduceri/cover.jpg?v=758d9888" medium="image" type="image/jpeg"/>
       <description>Un tânăr în vârstă de 23 de ani este judecat de Parchetul din Linz pentru abuz de încredere, după ce a oferit clienților discounturi neautorizate de până la 50%.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/lifestyle/un-om-de-afaceri-austriac-detine-o-colectie-de-80-de-automobile/</link>
       <guid>https://izz.ro/lifestyle/un-om-de-afaceri-austriac-detine-o-colectie-de-80-de-automobile/</guid>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://piataauto.md/Stiri/2026/10/Un-om-de-afaceri-din-Austria-a-adunat-o-colectie-de-peste-80-de-masini-in-decursul-vietii-majoritatea-Mercedes-S-Class/">Piata Auto MD</source>
       <description>Hannes Daxecker, antreprenor din Austria, a adunat de-a lungul vieții peste 80 de mașini, în special modele Mercedes S-Class cu nuanțe exterioare deosebite și diverse tipuri de motorizare.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/sport/meriton-korenica-a-evoluat-pentru-kosovo-in-partida-impotriva-austriei/</link>
       <guid>https://izz.ro/sport/meriton-korenica-a-evoluat-pentru-kosovo-in-partida-impotriva-austriei/</guid>
       <pubDate>Sun, 04 Oct 2026 20:48:44 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/liga-natiunilor/korenica-convocat-kosovo-austria-20540052">ProSport</source>
       <description>Mijlocașul Meriton Korenica de la FCSB a fost convocat la naționala din Kosovo ca înlocuitor pentru un jucător accidentat, evoluând în dificila partidă disputată împotriva reprezentativei Austriei.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/sport/kosovo-a-remizat-cu-austria-in-etapa-a-patra-din-liga-natiunilor/</link>
       <guid>https://izz.ro/sport/kosovo-a-remizat-cu-austria-in-etapa-a-patra-din-liga-natiunilor/</guid>
       <pubDate>Sun, 04 Oct 2026 20:17:14 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/kosovo-la-cinci-minute-distanta-de-un-rezultat-urias-in-liga-natiunilor-dezamagire-pentru-jucatorul-fcsb-ului-694658.html">Antena Sport</source>
       <description>Naționala din Kosovo a fost egalată pe final de Austria, scor 1-1, ratând la limită o victorie istorică pe teren propriu în runda curentă a competiției europene.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/regional/diicot-a-destructurat-o-retea-de-trafic-de-migranti-in-banat/</link>
       <guid>https://izz.ro/regional/diicot-a-destructurat-o-retea-de-trafic-de-migranti-in-banat/</guid>
       <pubDate>Sat, 03 Oct 2026 12:54:47 +0000</pubDate>
+      <category>regional</category>
+      <source url="https://www.pressalert.ro/2026/10/retea-de-trafic-de-persoane-destructurata-de-diicot-in-banat-de-unde-proveneau-migrantii/">PressAlert Timișoara</source>
       <description>Procurorii DIICOT au destructurat o grupare specializată în trafic de persoane, stabilind că zeci de cetățeni din state asiatice și africane au fost aduși ilegal în România pentru a fi duși în Germania și Austria.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/extern/elicopterul-campionului-thomas-morgenstern-a-fost-furat-dintr-un-hangar-din/</link>
       <guid>https://izz.ro/extern/elicopterul-campionului-thomas-morgenstern-a-fost-furat-dintr-un-hangar-din/</guid>
       <pubDate>Sat, 03 Oct 2026 07:45:03 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.newsbucovina.ro/social/451202/elicopterul-campionului-olimpic-thomas-morgenstern-furat-dintr-un-hangar-din-austria-proprietarul-cere-ajutor-international-pentru-regasirea-aparatului-oe-xhk">NewsBucovina</source>
       <description>Un aparat de zbor Robinson R44, operat de firma fostului sportiv Thomas Morgenstern, a fost sustras în noaptea de 28 septembrie de pe aerodromul Mauterndorf. Proprietarul a cerut sprijin internațional pentru recuperarea bunului.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/politic/comisia-europeana-cere-romaniei-date-despre-clima-si-energia/</link>
       <guid>https://izz.ro/politic/comisia-europeana-cere-romaniei-date-despre-clima-si-energia/</guid>
       <pubDate>Thu, 01 Oct 2026 11:44:35 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.economica.net/infringement-ue-indeamna-romania-si-austria-sa-prezinte-informatiile-lipsa-din-planurile-nationale-integrate-privind-energia-si-clima_981832.html">Economica</source>
       <description>Uniunea Europeană a trimis o somație oficială autorităților din România și Austria pentru a prezenta informațiile lipsă din planurile naționale privind energia și clima, conform obligațiilor de raportare la doi ani.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/extern/cinci-state-membre-ale-uniunii-europene-pregatesc-un-centru-de-deportare-in/</link>
       <guid>https://izz.ro/extern/cinci-state-membre-ale-uniunii-europene-pregatesc-un-centru-de-deportare-in/</guid>
       <pubDate>Wed, 30 Sep 2026 19:16:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dw.com/en/five-eu-states-plan-first-deportation-center-in-africa-for-2027/a-79490162?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
       <description>Germania, Grecia, Austria, Danemarca și Olanda colaborează pentru inaugurarea primului centru european de returnare a migranților pe teritoriul unui stat african, proiect programat pentru anul 2027.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/sanatate/austria-cere-reglementari-stricte-pentru-alimente-alcool-si-tutun-pentru/</link>
       <guid>https://izz.ro/sanatate/austria-cere-reglementari-stricte-pentru-alimente-alcool-si-tutun-pentru/</guid>
       <pubDate>Wed, 30 Sep 2026 05:00:00 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://www.politico.eu/article/time-to-get-tough-on-food-booze-and-tobacco/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Șeful agenției austriece pentru alimente și medicamente susține că este necesară reglementarea fermă a produselor alimentare nesănătoase, a alcoolului și a tutunului, considerate principalele motoare ale bolilor cronice din Europa.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/economic/pretul-gazelor-naturale-din-romania-s-a-dublat-in-ultimele-doua-luni/</link>
       <guid>https://izz.ro/economic/pretul-gazelor-naturale-din-romania-s-a-dublat-in-ultimele-doua-luni/</guid>
       <pubDate>Wed, 30 Sep 2026 03:00:31 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/analiza-pretul-gazelor-din-romania-aproape-ca-s-a-dublat-in-ultimele-doua-luni-acestea-sunt-mult-mai-scumpe-decat-in-austria.html">Economedia</source>
       <description>Cotațiile gazelor pe Bursa Română de Mărfuri au crescut de la 273 lei pe MWh în iulie până la peste 511 lei la mijlocul lunii septembrie, depășind nivelurile înregistrate în Austria.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/auto/o-soferita-din-austria-a-primit-amenzi-de-o-mie-de-euro-din-cauza-unei-erori/</link>
       <guid>https://izz.ro/auto/o-soferita-din-austria-a-primit-amenzi-de-o-mie-de-euro-din-cauza-unei-erori/</guid>
       <pubDate>Mon, 28 Sep 2026 06:37:48 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://stirileprotv.ro/stiri/international/o-soferita-din-austria-a-platit-vinieta-online-si-s-a-trezit-cu-amenzi-de-peste-1-000-de-euro-nu-am-facut-nimic-gresit.html">Știrile ProTV</source>
       <description>O pensionară în vârstă de 73 de ani din Austria se confruntă cu amenzi de peste o mie de euro, după ce o problemă tehnică a făcut ca vinieta achiziționată online să fie înregistrată drept invalidă.</description>
     </item>
 </channel></rss>

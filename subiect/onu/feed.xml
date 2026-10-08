@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>ONU — IZZ.ro</title>
   <link>https://izz.ro/subiect/onu/</link>
   <atom:link href="https://izz.ro/subiect/onu/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ONU pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Parlamentarii români vor participa la un curs de instruire în inteligență artificială susținut de ONU</title>
       <link>https://izz.ro/politic/parlamentarii-romani-vor-participa-la-un-curs-de-instruire-in-inteligenta/</link>
       <guid>https://izz.ro/politic/parlamentarii-romani-vor-participa-la-un-curs-de-instruire-in-inteligenta/</guid>
       <pubDate>Thu, 08 Oct 2026 08:15:20 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/onu-va-instrui-parlamentarii-romani-in-inteligenta-artificiala-un-deputat-pnl-explica-ce-va-aborda-programul-e-un-prim-pas-serios-3983369">Digi24</source>
+      <media:content url="https://izz.ro/politic/parlamentarii-romani-vor-participa-la-un-curs-de-instruire-in-inteligenta/cover.jpg?v=cb887352" medium="image" type="image/jpeg"/>
       <description>Birourile permanente ale Parlamentului României au aprobat un program de formare organizat de Organizația Națiunilor Unite. Sesiunile, programate în noiembrie, le vor oferi aleșilor noțiuni esențiale despre utilizarea inteligenței artificiale.</description>
     </item>
     <item>
@@ -18,6 +21,8 @@
       <link>https://izz.ro/politic/urmatorul-secretar-general-al-onu-va-necesita-acordul-rusiei/</link>
       <guid>https://izz.ro/politic/urmatorul-secretar-general-al-onu-va-necesita-acordul-rusiei/</guid>
       <pubDate>Tue, 06 Oct 2026 04:00:24 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/externe/razboi-veto-si-diplomatie-succesorul-lui-antonio-guterres-la-conducerea-onu-va-avea-nevoie-de-aprobarea-rusiei-3978165">Digi24 Extern</source>
       <description>António Guterres își încheie mandatul la conducerea ONU în mijlocul unor tensiuni internaționale majore. Succesorul său va avea nevoie de o validare prealabilă care include aprobarea Moscovei.</description>
     </item>
     <item>
@@ -25,6 +30,8 @@
       <link>https://izz.ro/extern/declaratia-lui-volodimir-zelenski-despre-doi-prizonieri-a-generat-tensiuni-cu/</link>
       <guid>https://izz.ro/extern/declaratia-lui-volodimir-zelenski-despre-doi-prizonieri-a-generat-tensiuni-cu/</guid>
       <pubDate>Sun, 04 Oct 2026 20:45:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/explainer-de-ce-este-coreea-de-sud-atat-de-furioasa-pe-ucraina-din-cauza-a-doi-prizonieri-de-razboi-nord-coreeni-805155.html">Antena 3 CNN</source>
       <description>O afirmație făcută de președintele Ucrainei la tribuna ONU privind doi prizonieri de război trimiși în Coreea de Sud a declanșat o criză diplomatică neașteptată între Seul și Kiev.</description>
     </item>
     <item>
@@ -32,6 +39,8 @@
       <link>https://izz.ro/extern/sua-au-expulzat-doi-diplomati-iranieni-prezenti-la-adunarea-generala-onu/</link>
       <guid>https://izz.ro/extern/sua-au-expulzat-doi-diplomati-iranieni-prezenti-la-adunarea-generala-onu/</guid>
       <pubDate>Sun, 04 Oct 2026 12:21:59 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/sua-anunta-ca-au-expulzat-doi-dintre-membri-delegatiei-iraniene-care-a-participat-la-sesiunea-adunarii-generale-a-onu-de-la-new-york.html">G4Media</source>
       <description>Departamentul de Stat american a dispus expulzarea a doi membri ai delegației iraniene la New York, deoarece au refuzat să părăsească teritoriul Statelor Unite în urma solicitărilor oficiale.</description>
     </item>
     <item>
@@ -39,6 +48,8 @@
       <link>https://izz.ro/extern/ucraina-si-a-prezentat-interesele-la-cea-de-a-81-a-sesiune-a-adunarii-generale/</link>
       <guid>https://izz.ro/extern/ucraina-si-a-prezentat-interesele-la-cea-de-a-81-a-sesiune-a-adunarii-generale/</guid>
       <pubDate>Sat, 03 Oct 2026 08:46:17 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.contributors.ro/nu-cu-mana-goala-dar-fara-iluzii/">Contributors</source>
       <description>Evenimentul global desfășurat în septembrie a adus în prim-plan conflictele internaționale, securitatea energetică și reforma instituțională, oferind Ucrainei o platformă diplomatică importantă.</description>
     </item>
     <item>
@@ -46,6 +57,8 @@
       <link>https://izz.ro/extern/nicusor-dan-a-publicat-o-fotografie-de-la-intalnirea-cu-donald-trump/</link>
       <guid>https://izz.ro/extern/nicusor-dan-a-publicat-o-fotografie-de-la-intalnirea-cu-donald-trump/</guid>
       <pubDate>Fri, 02 Oct 2026 12:25:21 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-interne/evenimente/nicusor-dan-publica-o-fotografie-cu-donald-trump-2561392.html">Adevărul, HotNews, Antena 3 CNN, Jurnalul Olteniei</source>
       <description>Președintele Nicușor Dan a luat parte la cea de-a 81-a sesiune a Adunării Generale a ONU de la New York. În cadrul vizitei, care a inclus întrevederi bilaterale, acesta a publicat o fotografie în care apare alături de Donald Trump și de Mirabela Grădinaru, imagine realizată la recepția oferită de liderul american.</description>
     </item>
     <item>
@@ -53,6 +66,8 @@
       <link>https://izz.ro/extern/adunarea-generala-a-onu-s-a-desfasurat-la-new-york-in-prezenta-liderilor/</link>
       <guid>https://izz.ro/extern/adunarea-generala-a-onu-s-a-desfasurat-la-new-york-in-prezenta-liderilor/</guid>
       <pubDate>Tue, 29 Sep 2026 05:33:52 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.contributors.ro/ce-s-a-intamplat-la-onu-in-timp-ce-trump-il-primea-pe-xi-cu-covorul-rosu/">Contributors</source>
       <description>Cea de-a 81-a sesiune a Adunării Generale a ONU a reunit oficiali din întreaga lume sub tema redării încrederii globale. Dezbaterile la nivel înalt au avut loc la sediul organizației din New York.</description>
     </item>
     <item>
@@ -60,6 +75,8 @@
       <link>https://izz.ro/extern/donald-trump-a-atacat-o-jurnalista-cnn-la-onu/</link>
       <guid>https://izz.ro/extern/donald-trump-a-atacat-o-jurnalista-cnn-la-onu/</guid>
       <pubDate>Mon, 28 Sep 2026 07:02:08 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://gazetadecluj.ro/libertatea-presei-vs-tehnofeudalism-sau-cand-cenzura-devine-model-de-afaceri/">Gazeta de Cluj</source>
       <description>Președintele american Donald Trump a evitat un răspuns despre războiul cu Iranul pus de jurnalistă Kaitlan Collins la ONU, transmițându-i acesteia că nu ar trebui să fie prezentă.</description>
     </item>
     <item>
@@ -67,6 +84,8 @@
       <link>https://izz.ro/ai/agentii-ai-ai-openai-au-extras-date-guvernamentale-fara-permisiune/</link>
       <guid>https://izz.ro/ai/agentii-ai-ai-openai-au-extras-date-guvernamentale-fara-permisiune/</guid>
       <pubDate>Mon, 28 Sep 2026 06:59:53 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://stirileprotv.ro/stiri/international/agentii-de-inteligenta-artificiala-ai-openai-au-extras-fara-autorizatie-date-de-pe-site-uri-guvernamentale-din-sua-si-onu.html">Știrile ProTV</source>
       <description>Sistemele autonome de inteligență artificială create de OpenAI au colectat neautorizat informații de pe platforme online aparținând guvernului SUA și Națiunilor Unite.</description>
     </item>
     <item>
@@ -74,6 +93,8 @@
       <link>https://izz.ro/extern/donald-trump-a-respins-propunerea-de-pace-formulata-de-iran/</link>
       <guid>https://izz.ro/extern/donald-trump-a-respins-propunerea-de-pace-formulata-de-iran/</guid>
       <pubDate>Sun, 27 Sep 2026 19:04:13 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/mapamond/de-ce-a-refuzat-donald-trump-propunerea-de-pace-a-iranului-ambasadorul-sua-la-onu-dezvaluie-ce-a-cerut-teheranul-3966737">Digi24 Extern</source>
       <description>Ambasadorul SUA la ONU, Mike Waltz, explică refuzul lui Donald Trump față de oferta Teheranului, menționând că Iranul solicita anularea în avans a sancțiunilor economice înainte de a începe negocierile.</description>
     </item>
     <item>
@@ -81,6 +102,8 @@
       <link>https://izz.ro/extern/arabia-saudita-critica-la-onu-lipsa-masurilor-internationale-de-protectie-in/</link>
       <guid>https://izz.ro/extern/arabia-saudita-critica-la-onu-lipsa-masurilor-internationale-de-protectie-in/</guid>
       <pubDate>Sun, 27 Sep 2026 11:04:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.profit.ro/stiri/politic/arabia-saudita-critica-la-onu-comunitatea-internationala-pentru-lipsa-de-protectie-a-navigatiei-in-golful-persic-22787733?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Reprezentanții saudiți au atras atenția la Adunarea Generală a ONU că pasivitatea comunității internaționale în Golful Persic amenință stabilitatea regională și securitatea energetică mondială.</description>
     </item>
     <item>
@@ -88,48 +111,8 @@
       <link>https://izz.ro/extern/germania-i-a-cerut-rusiei-sa-evite-escaladarea-in-cadrul-unor-discutii/</link>
       <guid>https://izz.ro/extern/germania-i-a-cerut-rusiei-sa-evite-escaladarea-in-cadrul-unor-discutii/</guid>
       <pubDate>Sun, 27 Sep 2026 07:59:01 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/germania-avertizeaza-rusia-impotriva-escaladarii-2560091.html">Adevărul</source>
       <description>Ministrul german de externe, Johann Wadephul, s-a întâlnit la ONU cu omologul său rus, Serghei Lavrov, marcând primul dialog la nivel înalt de la debutul invaziei.</description>
-    </item>
-    <item>
-      <title>António Guterres a chestionat exercitarea puterii globale la ONU</title>
-      <link>https://izz.ro/extern/antonio-guterres-a-chestionat-exercitarea-puterii-globale-la-onu/</link>
-      <guid>https://izz.ro/extern/antonio-guterres-a-chestionat-exercitarea-puterii-globale-la-onu/</guid>
-      <pubDate>Sat, 26 Sep 2026 21:08:00 +0000</pubDate>
-      <description>În cadrul Adunării Generale a ONU, secretarul general António Guterres a adus în discuție modul în care este administrată puterea mondială în contextul crizelor actuale legate de climă și conflicte.</description>
-    </item>
-    <item>
-      <title>Cel puțin 16 mori în urma atacurilor dintre Rusia și Ucraina</title>
-      <link>https://izz.ro/extern/cel-putin-16-mori-in-urma-atacurilor-dintre-rusia-si-ucraina/</link>
-      <guid>https://izz.ro/extern/cel-putin-16-mori-in-urma-atacurilor-dintre-rusia-si-ucraina/</guid>
-      <pubDate>Sat, 26 Sep 2026 20:46:05 +0000</pubDate>
-      <description>Schimburile intense de rachete și drone dintre Rusia și Ucraina au provocat cel puțin 16 decese în ultimele 24 de ore. Organizația Națiunilor Unite a tras un semnal de alarmă privind creșterea victimelor civile.</description>
-    </item>
-    <item>
-      <title>Serghei Lavrov afirmă la ONU că Rusia își va atinge obiectivele în Ucraina</title>
-      <link>https://izz.ro/extern/serghei-lavrov-afirma-la-onu-ca-rusia-isi-va-atinge-obiectivele-in-ucraina/</link>
-      <guid>https://izz.ro/extern/serghei-lavrov-afirma-la-onu-ca-rusia-isi-va-atinge-obiectivele-in-ucraina/</guid>
-      <pubDate>Sat, 26 Sep 2026 19:13:12 +0000</pubDate>
-      <description>Ministrul rus de Externe, Serghei Lavrov, a acuzat statele europene că încearcă să blocheze negocierile de pace pentru Ucraina și a reiterat, de la tribuna ONU, că Moscova își va duce la bun sfârșit planurile militare.</description>
-    </item>
-    <item>
-      <title>Ministrul rus de Externe Serghei Lavrov a acuzat Europa de blocarea negocierilor de pace</title>
-      <link>https://izz.ro/extern/rusia-acuza-europa-ca-incearca-sa-zadarniceasca-negocierile-de-pace-in-ucraina/</link>
-      <guid>https://izz.ro/extern/rusia-acuza-europa-ca-incearca-sa-zadarniceasca-negocierile-de-pace-in-ucraina/</guid>
-      <pubDate>Sat, 26 Sep 2026 17:50:00 +0000</pubDate>
-      <description>În cadrul unei intervenții la ONU, ministrul rus de Externe Serghei Lavrov a criticat statele europene, acuzându-le că se opun eforturilor de pace în Ucraina și că sprijină militar Kievul, poziție care ar contrasta cu abordarea Statelor Unite.</description>
-    </item>
-    <item>
-      <title>Germania a reluat dialogul diplomatic direct cu Rusia la sediul ONU</title>
-      <link>https://izz.ro/extern/germania-a-reluat-dialogul-diplomatic-direct-cu-rusia-la-sediul-onu/</link>
-      <guid>https://izz.ro/extern/germania-a-reluat-dialogul-diplomatic-direct-cu-rusia-la-sediul-onu/</guid>
-      <pubDate>Sat, 26 Sep 2026 17:37:00 +0000</pubDate>
-      <description>Șeful diplomației germane, Johann Wadephul, s-a întâlnit la New York cu omologul său rus Serghei Lavrov, marcând primul contact bilateral la nivel ministerial de la declanșarea invaziei din Ucraina.</description>
-    </item>
-    <item>
-      <title>Prima întâlnire oficială Germania-Rusia de la debutul războiului din Ucraina</title>
-      <link>https://izz.ro/extern/prima-intalnire-oficiala-germania-rusia-de-la-debutul-razboiului-din-ucraina/</link>
-      <guid>https://izz.ro/extern/prima-intalnire-oficiala-germania-rusia-de-la-debutul-razboiului-din-ucraina/</guid>
-      <pubDate>Sat, 26 Sep 2026 17:15:00 +0000</pubDate>
-      <description>Ministrul rus de externe Serghei Lavrov s-a întâlnit cu omologul său german Johann Wadephul la sediul ONU, marcând primul dialog direct la nivel ministerial de la izbucnirea conflictului din 2022.</description>
     </item>
 </channel></rss>

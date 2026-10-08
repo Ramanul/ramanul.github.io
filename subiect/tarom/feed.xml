@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>TAROM — IZZ.ro</title>
   <link>https://izz.ro/subiect/tarom/</link>
   <atom:link href="https://izz.ro/subiect/tarom/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre TAROM pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Noutăți tehnologice și economice: centrale pe gaz, auto și AI</title>
       <link>https://izz.ro/local/noutati-tehnologice-si-economice-centrale-pe-gaz-auto-si-ai/</link>
       <guid>https://izz.ro/local/noutati-tehnologice-si-economice-centrale-pe-gaz-auto-si-ai/</guid>
       <pubDate>Wed, 07 Oct 2026 03:44:04 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-7-octombrie-2026-inclusiv-noile-bmw-x5/">NwRadu</source>
       <description>A fost autorizată o centrală pe gaz la Câmpia Turzii, TAROM și-a actualizat site-ul, iar sectorul fotovoltaic a asigurat două treimi din energia țării. În același timp, ChatGPT domină piața inteligenței artificiale.</description>
     </item>
     <item>
@@ -18,6 +20,8 @@
       <link>https://izz.ro/economic/tarom-raporteaza-dificultati-tehnice-la-rezervarea-online-a-biletelor/</link>
       <guid>https://izz.ro/economic/tarom-raporteaza-dificultati-tehnice-la-rezervarea-online-a-biletelor/</guid>
       <pubDate>Tue, 06 Oct 2026 15:47:03 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/tarom-probleme-la-rezervarea-biletelor-online-ce-trebuie-sa-faca-pasagerii.html">Economedia, Profit.ro</source>
       <description>Compania națională TAROM a informat că pasagerii întâmpină probleme temporare la achiziționarea biletelor de zbor prin intermediul site-ului oficial, din cauza unor lucrări de actualizare. Reprezentanții companiei au recomandat utilizatorilor să apeleze serviciul de Call Center pentru asistență la rezervări.</description>
     </item>
     <item>
@@ -25,6 +29,8 @@
       <link>https://izz.ro/economic/probleme-tehnice-temporare-la-achizitionarea-biletelor-pe-site-ul-tarom/</link>
       <guid>https://izz.ro/economic/probleme-tehnice-temporare-la-achizitionarea-biletelor-pe-site-ul-tarom/</guid>
       <pubDate>Tue, 06 Oct 2026 15:19:23 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.dobrogeaonline.ro/anunt-crucial-pentru-pasagerii-tarom-este-posibil-sa-aveti-dificultati/">Dobrogea Online</source>
       <description>Compania aeriană națională avertizează pasagerii că platforma online trece prin lucrări de actualizare, situație care poate afecta procesul de cumpărare a biletelor și afișarea corectă a locurilor libere. Compania recomandă contactarea directă a serviciului de relații cu clienții.</description>
     </item>
     <item>
@@ -32,6 +38,8 @@
       <link>https://izz.ro/economic/tarom-semnaleaza-disfunctionalitati-temporare-ale-sistemului-online-de-rezervari/</link>
       <guid>https://izz.ro/economic/tarom-semnaleaza-disfunctionalitati-temporare-ale-sistemului-online-de-rezervari/</guid>
       <pubDate>Tue, 06 Oct 2026 15:07:57 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/anunt-de-la-tarom-actualizarile-website-ului-pot-afecta-temporar-achizitia-biletelor-si-afisarea-disponibilitatii-locurilor-pe-zborurile-internationale_983248.html">Economica</source>
       <description>Compania aeriană anunță că lucrările de mentenanță la site-ul oficial pot genera erori în achiziția biletelor și afișarea locurilor disponibile pentru zborurile externe, punând la dispoziție centrul telefonic pentru suportul clienților.</description>
     </item>
     <item>
@@ -39,6 +47,8 @@
       <link>https://izz.ro/extern/tarom-a-introdus-in-flota-al-doilea-boeing-737-max-8/</link>
       <guid>https://izz.ro/extern/tarom-a-introdus-in-flota-al-doilea-boeing-737-max-8/</guid>
       <pubDate>Sat, 03 Oct 2026 16:09:43 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.economica.net/flota-tarom-boeing-737-max-8_982575.html">Economica</source>
       <description>Compania aeriană națională a preluat direct din Seattle o nouă aeronavă botezată Ivan Patzaichin. Aparatul a debutat comercial pe ruta spre Chișinău, marcând un secol de la primele zboruri interne românești.</description>
     </item>
     <item>
@@ -46,6 +56,8 @@
       <link>https://izz.ro/local/noul-avion-tarom-botezat-ivan-patzaichin-a-efectuat-primul-zbor-spre-chisinau/</link>
       <guid>https://izz.ro/local/noul-avion-tarom-botezat-ivan-patzaichin-a-efectuat-primul-zbor-spre-chisinau/</guid>
       <pubDate>Sat, 03 Oct 2026 07:48:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://observatornews.ro/eveniment/boeingul-ivan-patzaichin-la-primul-zbor-decolare-spre-chisinau-alaturi-de-familia-fostului-campion-668052.html">Observator, Ziarul Financiar, Dobrogea Online, G4Media</source>
       <description>Compania TAROM a introdus în flotă cel de-al doilea Boeing 737 MAX 8, botezat în onoarea fostului campion olimpic Ivan Patzaichin. Aeronava a efectuat primul zbor oficial pe ruta București – Chișinău, marcând totodată un secol de aviație bilaterală și fiind primită cu tunuri de apă pe aeroportul din Republica Moldova.</description>
     </item>
     <item>
@@ -53,6 +65,8 @@
       <link>https://izz.ro/politic/alexandru-rogobete-cere-protejarea-companiei-aeriene-tarom-de-influentele/</link>
       <guid>https://izz.ro/politic/alexandru-rogobete-cere-protejarea-companiei-aeriene-tarom-de-influentele/</guid>
       <pubDate>Fri, 02 Oct 2026 17:34:34 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.dobrogeaonline.ro/nu-este-un-instrument-politic-cei-nemultumiti-pot-opta-pentru-trotineta-electrica/">Dobrogea Online</source>
       <description>Un oficial a subliniat necesitatea ca operatorul național de transport aerian să beneficieze de o strategie solidă de investiții, fără ingerințe sau experimente politice.</description>
     </item>
     <item>
@@ -60,6 +74,8 @@
       <link>https://izz.ro/economic/compania-tarom-dezminte-zvonurile-privind-un-faliment-iminent-si-garanteaza/</link>
       <guid>https://izz.ro/economic/compania-tarom-dezminte-zvonurile-privind-un-faliment-iminent-si-garanteaza/</guid>
       <pubDate>Fri, 02 Oct 2026 09:31:38 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/tarom-respinge-afirmatiile-privind-falimentul-iminent-al-companiei-si-afirma-ca-isi-desfasoara-activitatea-in-conditii-de-siguranta-si-eficienta.html">Curs de Guvernare</source>
       <description>Operatorul aerian național a catalogat drept iresponsabile declarațiile unui parlamentar USR legate de o insolvență apropiată. Conducerea companiei a subliniat că activitatea comercială se desfășoară în parametri optimi de siguranță și eficiență economică.</description>
     </item>
     <item>
@@ -67,6 +83,8 @@
       <link>https://izz.ro/politic/avertismentul-privind-falimentul-tarom-lansat-de-cristian-ghinea-genereaza/</link>
       <guid>https://izz.ro/politic/avertismentul-privind-falimentul-tarom-lansat-de-cristian-ghinea-genereaza/</guid>
       <pubDate>Thu, 01 Oct 2026 20:43:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.antena3.ro/economic/scandal-dupa-ce-cristian-ghinea-a-anuntat-ca-tarom-va-da-faliment-in-6-luni-sfatul-meu-este-sa-nu-cumparati-bilet-reactia-companiei-805471.html">Antena 3 CNN</source>
       <description>Declarația senatorului USR care susține că operatorul aerian național ar putea intra în faliment în scurt timp a stârnit critici dure și un avertisment public adresat pasagerilor.</description>
     </item>
     <item>
@@ -74,6 +92,8 @@
       <link>https://izz.ro/local/tarom-introduce-zboruri-promotionale-pe-ruta-bucuresti-baia-mare-pentru/</link>
       <guid>https://izz.ro/local/tarom-introduce-zboruri-promotionale-pe-ruta-bucuresti-baia-mare-pentru/</guid>
       <pubDate>Thu, 01 Oct 2026 14:37:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://actualmm.ro/aeroportul-international-maramures-anunta-tarom-lanseaza-zbor-promotional-bucuresti-baia-mare-de-sarbatori-bilete-de-la-89-e-dus-intors-cu-bagaj-de-23-kg-inclus-oferta-expira-pe-15-octo/">actualMM</source>
       <description>Compania aeriană TAROM a pus în vânzare bilete dus-întors de la 89 de euro pentru zborurile dintre București și Baia Mare. Oferta valabilă până la mijlocul lunii octombrie include și bagajul de cală și acoperă călătoriile efectuate până la finalul...</description>
     </item>
     <item>
@@ -81,6 +101,8 @@
       <link>https://izz.ro/tech/noile-evolutii-din-tehnologie-includ-anchete-lansari-si-amenzi-uriase/</link>
       <guid>https://izz.ro/tech/noile-evolutii-din-tehnologie-includ-anchete-lansari-si-amenzi-uriase/</guid>
       <pubDate>Mon, 28 Sep 2026 03:44:33 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.nwradu.ro/2026/09/stirile-zilei-despre-tehnologie-28-septembrie-2026/">NwRadu</source>
       <description>Printre noutățile din IT și industrie se numără sosirea unui nou avion TAROM, extinderea măsurilor de verificare a vârstei pe Discord și o sancțiune uriașă pentru Apple.</description>
     </item>
     <item>
@@ -88,6 +110,8 @@
       <link>https://izz.ro/local/un-avion-tarom-cu-170-de-pasageri-spre-antalya-a-aterizat-de-urgenta-la-otopeni/</link>
       <guid>https://izz.ro/local/un-avion-tarom-cu-170-de-pasageri-spre-antalya-a-aterizat-de-urgenta-la-otopeni/</guid>
       <pubDate>Sun, 27 Sep 2026 05:18:06 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/avion-tarom-redirectionat-la-otopeni-dupa-un-posibil-impact-cu-pasari-170-de-pasageri-au-aterizat-in-siguranta/">Gazeta de Cluj</source>
       <description>O aeronavă charter TAROM care efectua cursa Cluj-Napoca – Antalya s-a întors și a aterizat în siguranță la București, după ce a lovit un stol de păsări la scurt timp după decolare.</description>
     </item>
 </channel></rss>

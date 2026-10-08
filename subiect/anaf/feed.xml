@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>ANAF — IZZ.ro</title>
   <link>https://izz.ro/subiect/anaf/</link>
   <atom:link href="https://izz.ro/subiect/anaf/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ANAF pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>ANAF folosește sistemul e-Factura pentru a monitoriza stilul de viață al contribuabililor</title>
       <link>https://izz.ro/economic/anaf-foloseste-sistemul-e-factura-pentru-a-monitoriza-stilul-de-viata-al/</link>
       <guid>https://izz.ro/economic/anaf-foloseste-sistemul-e-factura-pentru-a-monitoriza-stilul-de-viata-al/</guid>
       <pubDate>Thu, 08 Oct 2026 08:30:58 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.g4media.ro/sef-anaf-controale-venituri-romani.html">G4Media</source>
+      <media:content url="https://izz.ro/economic/anaf-foloseste-sistemul-e-factura-pentru-a-monitoriza-stilul-de-viata-al/cover.jpg?v=6c2da5de" medium="image" type="image/jpeg"/>
       <description>Șeful ANAF, Adrian Nica, a explicat că instituția poate analiza veniturile nedeclarate și proprietățile cetățenilor prin corelarea datelor financiare obținute din noile instrumente digitale.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/economic/anaf-verifica-conturile-bancare-si-incasarile-prin-curier-pentru-comertul-online/</link>
       <guid>https://izz.ro/economic/anaf-verifica-conturile-bancare-si-incasarile-prin-curier-pentru-comertul-online/</guid>
       <pubDate>Thu, 08 Oct 2026 08:07:43 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://alba24.ro/seful-anaf-pentru-cei-care-vand-online-noi-va-verificam-conturile-bancare-inclusiv-banii-incasati-prin-curier-1161628.html">Alba24</source>
+      <media:content url="https://izz.ro/economic/anaf-verifica-conturile-bancare-si-incasarile-prin-curier-pentru-comertul-online/cover.jpg?v=2f5bd125" medium="image" type="image/jpeg"/>
       <description>Instituția fiscală a transmis un avertisment ferm comercianților care își desfășoară activitatea pe platforme online, precizând că monitorizează atât tranzacțiile bancare, cât și sumele ramburs colectate prin firmele de curierat.</description>
     </item>
     <item>
@@ -25,6 +31,9 @@
       <link>https://izz.ro/economic/anaf-monitorizeaza-vanzarile-nedeclarate-prin-intermediul-conturilor-bancare-si/</link>
       <guid>https://izz.ro/economic/anaf-monitorizeaza-vanzarile-nedeclarate-prin-intermediul-conturilor-bancare-si/</guid>
       <pubDate>Thu, 08 Oct 2026 06:01:32 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/video-harta-de-impact-presedintele-anaf-adrian-nica-mesaj-pentru-cei-care-vand-fara-factura-va-vedem-prin-conturile-bancare-si-curier-faceti-facturi-ca-va-fi-mai-usor.html">Economedia</source>
+      <media:content url="https://izz.ro/economic/anaf-monitorizeaza-vanzarile-nedeclarate-prin-intermediul-conturilor-bancare-si/cover.jpg?v=d9276062" medium="image" type="image/jpeg"/>
       <description>Președintele ANAF, Adrian Nica, a avertizat că instituția fiscală poate identifica persoanele care comercializează bunuri fără a emite facturi, analizând tranzacțiile financiare și livrările efectuate prin firmele de curierat.</description>
     </item>
     <item>
@@ -32,6 +41,8 @@
       <link>https://izz.ro/economic/prabusirea-livrarilor-de-colete-ieftine-din-china-dupa-introducerea-taxei-ue/</link>
       <guid>https://izz.ro/economic/prabusirea-livrarilor-de-colete-ieftine-din-china-dupa-introducerea-taxei-ue/</guid>
       <pubDate>Wed, 07 Oct 2026 11:11:43 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/prabusire-colete-mici-ieftine-china-livrari-comenzi-incasari-buget-introducere-taxe.html">Curs de Guvernare, Spotmedia</source>
       <description>Numărul coletelor extracomunitare cu o valoare sub 150 de euro livrate în România a scăzut cu 72% în august comparativ cu luna martie. Declinul a fost accelerat de introducerea, la 1 iulie, a noilor taxe vamale europene, cumulate cu taxa logistică națională de 25 de lei aplicată din ianuarie. Această reducere a volumului a generat și o prăbușire corespunzătoare a încasărilor bugetare din taxele aferente.</description>
     </item>
     <item>
@@ -39,6 +50,8 @@
       <link>https://izz.ro/economic/croma-pharma-contesta-in-instanta-o-decizie-a-anaf-privind-impozitul-pe-profit/</link>
       <guid>https://izz.ro/economic/croma-pharma-contesta-in-instanta-o-decizie-a-anaf-privind-impozitul-pe-profit/</guid>
       <pubDate>Wed, 07 Oct 2026 09:34:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://gazetadecluj.ro/croma-pharma-in-razboi-cu-anaf-pentru-aproape-jumatate-de-milion-de-lei/">Gazeta de Cluj</source>
       <description>Distribuitorul farmaceutic Croma Pharma România a deschis un proces împotriva ANAF. Compania contestă plata suplimentară a aproape jumătate de milion de lei reprezentând impozit pe profit, stabilită în urma unui control fiscal.</description>
     </item>
     <item>
@@ -46,6 +59,8 @@
       <link>https://izz.ro/tech/o-noua-platforma-online-centralizeaza-gratuit-date-despre-companiile-din-romania/</link>
       <guid>https://izz.ro/tech/o-noua-platforma-online-centralizeaza-gratuit-date-despre-companiile-din-romania/</guid>
       <pubDate>Wed, 07 Oct 2026 05:09:52 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://transilvaniaon.ro/harta-firmelor-ro-platforma-gratuita-care-arata-cine-se-afla-in-spatele-companiilor-din-romania/">Ziarul Transilvaniei</source>
       <description>Site-ul harta-firmelor.ro reunește informații oficiale preluate de la Registrul Comerțului, ANAF și alte instituții, oferind publicului posibilitatea de a verifica rapid acționarii, istoricul și litigiile firmelor dintr-un singur loc.</description>
     </item>
     <item>
@@ -53,6 +68,8 @@
       <link>https://izz.ro/economic/anaf-propune-modificarea-procedurii-de-atragere-a-raspunderii-fiscale-solidare/</link>
       <guid>https://izz.ro/economic/anaf-propune-modificarea-procedurii-de-atragere-a-raspunderii-fiscale-solidare/</guid>
       <pubDate>Fri, 02 Oct 2026 11:00:13 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://alba24.ro/anaf-schimba-procedura-prin-care-o-persoana-poate-ajunge-sa-plateasca-datoriile-fiscale-ale-unei-firme-noile-reguli-propuse-1160660.html">Alba24</source>
       <description>Fiscul român vrea să schimbe normele prin care anumite persoane fizice sau juridice pot fi obligate să plătească datoriile restante ale companiilor, bazându-se pe o analiză strictă a fiecărui caz în parte.</description>
     </item>
     <item>
@@ -60,6 +77,8 @@
       <link>https://izz.ro/economic/specialistii-noa-au-prezentat-noul-cadru-legislativ-privind-preturile-de/</link>
       <guid>https://izz.ro/economic/specialistii-noa-au-prezentat-noul-cadru-legislativ-privind-preturile-de/</guid>
       <pubDate>Fri, 02 Oct 2026 10:25:39 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://spotmedia.ro/stiri/economie/preturile-de-transfer-in-2027-specialistii-noa-despre-noile-cerinte-de-conformare">Spotmedia</source>
       <description>Reprezentanții NOA au organizat un seminar dedicat noilor reguli de conformare fiscală introduse prin Ordinul ANAF nr. 828/2026. La eveniment au participat numeroși profesioniști implicați în gestionarea relațiilor intragrup.</description>
     </item>
     <item>
@@ -67,6 +86,8 @@
       <link>https://izz.ro/economic/anaf-introduce-popriri-la-firmele-de-curierat-pentru-retailerii-straini-care-nu/</link>
       <guid>https://izz.ro/economic/anaf-introduce-popriri-la-firmele-de-curierat-pentru-retailerii-straini-care-nu/</guid>
       <pubDate>Thu, 01 Oct 2026 21:02:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/taxe-si-consultanta/ultima-ora-anaf-ia-masuri-impotriva-retailerilor-straini-vand-romania-platesc-taxele-introduce-formular-popri-banii-curieri-contul-datoriilor-firmelor-nerezidente-vand-tara-22796425?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Autoritatea fiscală din România pregătește un formular special pentru a bloca sumele datorate de companiile nerezidente care vând produse online și încasează banii prin intermediul curierilor locali.</description>
     </item>
     <item>
@@ -74,6 +95,8 @@
       <link>https://izz.ro/economic/anaf-verifica-parcurile-auto-si-comerciantii-de-masini-second-hand/</link>
       <guid>https://izz.ro/economic/anaf-verifica-parcurile-auto-si-comerciantii-de-masini-second-hand/</guid>
       <pubDate>Thu, 01 Oct 2026 12:36:58 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.monitorulbt.ro/national/2026/10/01/anaf-intra-in-parcurile-auto-controale-la-comerciantii-de-masini-second-hand/">Monitorul de Botoșani</source>
       <description>Inspectorii fiscali au demarat o acțiune națională de control care vizează stocurile și prețurile declarate de primele 35 de firme care comercializează autoturisme rulate.</description>
     </item>
     <item>
@@ -81,6 +104,8 @@
       <link>https://izz.ro/economic/anaf-incepe-controale-pentru-firmele-cu-bunuri-de-lux-si-agrement/</link>
       <guid>https://izz.ro/economic/anaf-incepe-controale-pentru-firmele-cu-bunuri-de-lux-si-agrement/</guid>
       <pubDate>Thu, 01 Oct 2026 05:58:13 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://alba24.ro/anaf-anunta-controale-la-firmele-care-au-cumparat-bunuri-de-lux-sau-au-amenajat-spatii-de-agrement-pentru-administratori-1160394.html">Alba24, G4Media</source>
       <description>Agenția Națională de Administrare Fiscală a anunțat demararea unor controale punctuale la societățile comerciale care au achiziționat bunuri de lux sau au investit în amenajări de agrement fără o justificare economică clară legată de activitatea lor. Selecția companiilor vizate se realizează pe baza datelor din declarațiile fiscale depuse la instituție.</description>
     </item>
     <item>
@@ -88,6 +113,8 @@
       <link>https://izz.ro/economic/anaf-va-verifica-firmele-care-au-decontat-bunuri-de-lux/</link>
       <guid>https://izz.ro/economic/anaf-va-verifica-firmele-care-au-decontat-bunuri-de-lux/</guid>
       <pubDate>Thu, 01 Oct 2026 05:50:57 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://hotnews.ro/cand-firma-ta-te-paraste-anaf-cauta-luxul-trecut-pe-cheltuiala-societatii-folosind-datele-pe-care-firmele-le-trimit-singure-2363498">HotNews</source>
       <description>Inspectorii fiscali din România vor demara controale punctuale la societățile comerciale care au achiziționat produse de lux sau servicii de agrement din bugetul firmei fără o justificare economică reală.</description>
     </item>
     <item>
@@ -95,6 +122,8 @@
       <link>https://izz.ro/general/anaf-a-publicat-calendarul-obligatiilor-fiscale-pentru-firme-valabil-in/</link>
       <guid>https://izz.ro/general/anaf-a-publicat-calendarul-obligatiilor-fiscale-pentru-firme-valabil-in/</guid>
       <pubDate>Thu, 01 Oct 2026 05:09:50 +0000</pubDate>
+      <category>general</category>
+      <source url="https://hotnews.ro/calendar-anaf-octombrie-2026-obligatii-fiscale-si-termene-de-depunere-pentru-firme-si-alti-contribuabili-2363451">HotNews</source>
       <description>Contribuabilii din România trebuie să depună în octombrie 2026 mai multe documente fiscale obligatorii, printre care formularul 100 pentru bugetul de stat, decontul de TVA 300 și declarația informativă 395.</description>
     </item>
     <item>
@@ -102,6 +131,8 @@
       <link>https://izz.ro/economic/anaf-a-incasat-peste-30-de-milioane-de-lei-din-taxa-de-recuperare-a-bunurilor/</link>
       <guid>https://izz.ro/economic/anaf-a-incasat-peste-30-de-milioane-de-lei-din-taxa-de-recuperare-a-bunurilor/</guid>
       <pubDate>Wed, 30 Sep 2026 21:12:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/taxe-si-consultanta/exclusiv-zeci-de-milioane-lei-din-taxa-rusinii-la-anaf-cel-mai-recent-caz-un-dezvoltator-imobiliar-care-a-platit-5-milioane-de-lei-22794723?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Fiscul român a colectat fonduri importante prin platforma sa de licitații, cel mai recent exemplu fiind un dezvoltator imobiliar care a achitat voluntar cinci milioane lei.</description>
     </item>
     <item>
@@ -109,6 +140,8 @@
       <link>https://izz.ro/economic/romanii-liciteaza-masiv-pe-platforma-anaf-pentru-bunuri-confiscate-de-stat/</link>
       <guid>https://izz.ro/economic/romanii-liciteaza-masiv-pe-platforma-anaf-pentru-bunuri-confiscate-de-stat/</guid>
       <pubDate>Tue, 29 Sep 2026 19:20:05 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/de-la-locomotive-si-vagoane-la-genti-romanii-se-dueleaza-pentru-bunurile-scoase-la-licitatie-de-anaf-unele-preturi-au-urcat-cu-peste-1-400_980616.html">Economica</source>
       <description>Platforma online a ANAF a atras mii de participanți care se întrec în licitații pentru produse variate, de la vehicule feroviare până la accesorii, unele prețuri urcând cu peste 1400% față de pragul inițial.</description>
     </item>
     <item>
@@ -116,6 +149,8 @@
       <link>https://izz.ro/economic/anaf-a-vandut-primele-locomotive-si-masini-de-la-cfr-marfa/</link>
       <guid>https://izz.ro/economic/anaf-a-vandut-primele-locomotive-si-masini-de-la-cfr-marfa/</guid>
       <pubDate>Tue, 29 Sep 2026 14:40:44 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/anaf-a-vandut-primele-locomotive-cfr-marfa-scoase-la-licitatie-cat-a-incasat-fiscul.html">Economedia</source>
       <description>Fiscul a valorificat trei locomotive și unsprezece autoturisme din patrimoniul CFR Marfă prin licitație online, vizând recuperarea datoriilor uriașe ale companiei către stat.</description>
     </item>
     <item>
@@ -123,6 +158,8 @@
       <link>https://izz.ro/local/anaf-scoate-la-vanzare-un-apartament-nou-in-bucuresti-la-pret-redus/</link>
       <guid>https://izz.ro/local/anaf-scoate-la-vanzare-un-apartament-nou-in-bucuresti-la-pret-redus/</guid>
       <pubDate>Tue, 29 Sep 2026 08:23:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://observatornews.ro/economic/anaf-vinde-cu-56000-de-euro-unapartament-cu-2-camere-in-bucuresti-blocul-e-din-2022-667591.html">Observator</source>
       <description>Fiscul vinde prin licitație un apartament cu două camere, construit în 2022 în sectorul 5 al Capitalei. Locuința de peste 43 de metri pătrați are prețul inițial redus cu un sfert.</description>
     </item>
     <item>
@@ -130,6 +167,8 @@
       <link>https://izz.ro/economic/anaf-stabileste-tva-ul-din-oficiu-in-cazul-nedepunerii-formularului-300/</link>
       <guid>https://izz.ro/economic/anaf-stabileste-tva-ul-din-oficiu-in-cazul-nedepunerii-formularului-300/</guid>
       <pubDate>Mon, 28 Sep 2026 19:36:03 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/cum-stabileste-anaf-tva-din-oficiu-efectele-nedepunerii-formularului-300-avocati_978651.html">Economica</source>
       <description>Specialiștii explică mecanismul prin care autoritățile fiscale identifică contribuabilii care omit să depună decontul de TVA, precum și excepțiile legale aplicabile anumitor categorii de firme.</description>
     </item>
     <item>
@@ -137,6 +176,8 @@
       <link>https://izz.ro/economic/anaf-va-impune-taxe-pentru-veniturile-nedeclarate-din-chirii-prin-booking-si/</link>
       <guid>https://izz.ro/economic/anaf-va-impune-taxe-pentru-veniturile-nedeclarate-din-chirii-prin-booking-si/</guid>
       <pubDate>Mon, 28 Sep 2026 19:34:18 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/anaf-pune-lupa-pe-inchirierile-prin-booking-si-airbnb-datele-din-europa-arata-diferente-fata-de-sumele-declarate-in-romania-declarati-veniturile-urmeaza-sa-trimitem-deciziile-de-impunere_980597.html">Economica</source>
       <description>Inspectorii fiscali au descoperit diferențe majore între datele raportate de platformele europene de turism și sumele declarate de proprietarii din România. Instituția va emite decizii de impunere pentru sumele nedeclarate începând de anul viitor.</description>
     </item>
     <item>
@@ -144,6 +185,8 @@
       <link>https://izz.ro/economic/un-pasager-a-obtinut-despagubiri-pentru-zbor-intarziat-dupa-interventia-anaf/</link>
       <guid>https://izz.ro/economic/un-pasager-a-obtinut-despagubiri-pentru-zbor-intarziat-dupa-interventia-anaf/</guid>
       <pubDate>Mon, 28 Sep 2026 18:05:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/eveniment/despagubit-dupa-ce-avionul-a-intarziat-5-ore-compania-ia-raspuns-doar-dupa-ce-a-intervenit-anaf-667530.html">Observator</source>
       <description>Numărul reclamațiilor privind zborurile anulate sau întârziate aproape s-a dublat la Protecția Consumatorilor. Un român și-a recuperat banii de la compania aeriană abia după ce instituțiile statului au intervenit oficial.</description>
     </item>
     <item>
@@ -151,6 +194,8 @@
       <link>https://izz.ro/economic/anaf-isi-adapteaza-controalele-fiscale-prin-utilizarea-masiva-a-datelor-digitale/</link>
       <guid>https://izz.ro/economic/anaf-isi-adapteaza-controalele-fiscale-prin-utilizarea-masiva-a-datelor-digitale/</guid>
       <pubDate>Mon, 28 Sep 2026 16:22:08 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://bizbrasov.ro/2026/09/28/controale-anaf-atentie-antreprenori/">BizBrașov</source>
       <description>Fiscul avertizează că deținerea unor documente contabile corecte nu mai este suficientă pentru companii în era digitalizării, instituția analizând un volum uriaș de informații financiare în cadrul controalelor.</description>
     </item>
     <item>
@@ -158,6 +203,8 @@
       <link>https://izz.ro/local/o-administratoare-de-firma-din-oradea-obligata-sa-achite-milioane-de-lei-catre/</link>
       <guid>https://izz.ro/local/o-administratoare-de-firma-din-oradea-obligata-sa-achite-milioane-de-lei-catre/</guid>
       <pubDate>Mon, 28 Sep 2026 14:16:08 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.bihon.ro/stirile-judetului-bihor/administratoarea-unei-firme-din-oradea-obligata-sa-achite-anaf-27-milioane-de-lei-intr-un-dosar-de-evaziune-5413794/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Tribunalul Bihor a dispus încetarea laturii penale într-un dosar de evaziune fiscală din cauza prescripției, însă a obligat fosta administratoare să plătească fiscului peste 2,7 milioane de lei reprezentând taxe și impozite restante.</description>
     </item>
     <item>
@@ -165,6 +212,8 @@
       <link>https://izz.ro/economic/vanzarile-online-pe-vinted-sau-olx-nu-inseamna-automat-impozitare-sau/</link>
       <guid>https://izz.ro/economic/vanzarile-online-pe-vinted-sau-olx-nu-inseamna-automat-impozitare-sau/</guid>
       <pubDate>Mon, 28 Sep 2026 06:32:44 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.bihon.ro/stirile-judetului-bihor/economic/vinzi-pe-vinted-sau-olx-cand-poate-ajunge-activitatea-ta-in-atentia-anaf-5412834/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Operatorii platformelor digitale raportează vânzările conform regulilor europene DAC7, însă pragurile de 30 de tranzacții sau 2.000 de euro nu obligă automat la plata taxelor către ANAF.</description>
     </item>
 </channel></rss>

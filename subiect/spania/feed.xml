@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Spania — IZZ.ro</title>
   <link>https://izz.ro/subiect/spania/</link>
   <atom:link href="https://izz.ro/subiect/spania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Spania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Peisajul Creasta Cocoșului din Maramureș promovează România în Spania</title>
+      <link>https://izz.ro/judetean/peisajul-creasta-cocosului-din-maramures-promoveaza-romania-in-spania/</link>
+      <guid>https://izz.ro/judetean/peisajul-creasta-cocosului-din-maramures-promoveaza-romania-in-spania/</guid>
+      <pubDate>Thu, 08 Oct 2026 16:00:49 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.emaramures.ro/creasta-cocosului-printre-cele-opt-imagini-care-promoveaza-romania-in-spania/">eMaramureș</source>
+      <media:content url="https://izz.ro/judetean/peisajul-creasta-cocosului-din-maramures-promoveaza-romania-in-spania/cover.jpg?v=09f19a7f" medium="image" type="image/jpeg"/>
+      <description>O imagine reprezentativă din Munții Gutâi a fost inclusă pe un tramvai decorat care circulă pe străzile din Sevilla, făcând parte din campania turistică națională desfășurată pe parcursul a patru săptămâni.</description>
+    </item>
     <item>
       <title>Un român a fost arestat în Spania după ce a fost prins cu 1,5 tone de cocaină</title>
       <link>https://izz.ro/extern/un-roman-a-fost-arestat-in-spania-dupa-ce-a-fost-prins-cu-15-tone-de-cocaina/</link>
       <guid>https://izz.ro/extern/un-roman-a-fost-arestat-in-spania-dupa-ce-a-fost-prins-cu-15-tone-de-cocaina/</guid>
       <pubDate>Thu, 08 Oct 2026 15:26:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/roman-venit-din-ibiza-prins-in-spania-cu-15-tone-de-cocaina-detaliul-care-ia-facut-pe-vamesi-sa-verifice-668507.html">Observator</source>
+      <media:content url="https://izz.ro/extern/un-roman-a-fost-arestat-in-spania-dupa-ce-a-fost-prins-cu-15-tone-de-cocaina/cover.jpg?v=5dcd09e2" medium="image" type="image/jpeg"/>
       <description>Vameșii spanioli au descoperit cantitatea masivă de droguri în camionul unui șofer român sosit din Ibiza, captura fiind realizată cu ajutorul scanerului cu raze X în portul Valencia.</description>
     </item>
     <item>
@@ -18,6 +31,9 @@
       <link>https://izz.ro/extern/partidul-de-extrema-dreapta-vox-vede-alegerile-anticipate-din-spania-ca-pe-o/</link>
       <guid>https://izz.ro/extern/partidul-de-extrema-dreapta-vox-vede-alegerile-anticipate-din-spania-ca-pe-o/</guid>
       <pubDate>Thu, 08 Oct 2026 02:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/spain-election-2026-polls-far-right-vox-santiago-abascal/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/partidul-de-extrema-dreapta-vox-vede-alegerile-anticipate-din-spania-ca-pe-o/cover.jpg?v=7ce7a63a" medium="image" type="image/jpeg"/>
       <description>Formațiunea anti-imigrație Vox speră să obțină funcții ministeriale cheie în urma scrutinului anticipat convocat de premierul Pedro Sánchez, vizând o schimbare radicală a direcției politice a țării.</description>
     </item>
     <item>
@@ -25,6 +41,9 @@
       <link>https://izz.ro/extern/o-spaniola-de-87-de-ani-a-murit-dupa-o-evacuare-fortata/</link>
       <guid>https://izz.ro/extern/o-spaniola-de-87-de-ani-a-murit-dupa-o-evacuare-fortata/</guid>
       <pubDate>Wed, 07 Oct 2026 21:40:24 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <media:content url="https://izz.ro/extern/o-spaniola-de-87-de-ani-a-murit-dupa-o-evacuare-fortata/cover.jpg?v=64c4b3cd" medium="image" type="image/jpeg"/>
       <description>Maricarmen Abascal, în vârstă de 87 de ani, a decedat la scurt timp după ce a fost evacuată cu forța din locuința sa în care trăise peste șapte decenii, eveniment ce a declanșat proteste naționale.</description>
     </item>
     <item>
@@ -32,6 +51,9 @@
       <link>https://izz.ro/extern/a-murit-maria-del-carmen-abascal-simbolul-protestelor-pentru-locuinte-din-spania/</link>
       <guid>https://izz.ro/extern/a-murit-maria-del-carmen-abascal-simbolul-protestelor-pentru-locuinte-din-spania/</guid>
       <pubDate>Wed, 07 Oct 2026 20:57:51 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/07/maria-del-carmen-abascal-spain-housing-protests-dies">The Guardian</source>
+      <media:content url="https://izz.ro/extern/a-murit-maria-del-carmen-abascal-simbolul-protestelor-pentru-locuinte-din-spania/cover.jpg?v=de7d9b2f" medium="image" type="image/jpeg"/>
       <description>Spanioloaica în vârstă de 87 de ani, a cărei evacuare dintr-un apartament din Madrid a declanșat ample manifestații împotriva crizei imobiliare, a încetat din viață.</description>
     </item>
     <item>
@@ -39,6 +61,9 @@
       <link>https://izz.ro/extern/sindicatele-din-spania-anunta-greva-generala-pe-11-noiembrie-din-cauza-crizei/</link>
       <guid>https://izz.ro/extern/sindicatele-din-spania-anunta-greva-generala-pe-11-noiembrie-din-cauza-crizei/</guid>
       <pubDate>Wed, 07 Oct 2026 16:04:10 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/cele-mai-mari-sindicate-ale-spaniei-anunta-prima-greva-generala-sustinuta-de-ambele-organizatii-din-ultimii-14-ani-2369956">HotNews</source>
+      <media:content url="https://izz.ro/extern/sindicatele-din-spania-anunta-greva-generala-pe-11-noiembrie-din-cauza-crizei/cover.jpg?v=8b122736" medium="image" type="image/jpeg"/>
       <description>Cele mai mari sindicate spaniole, UGT și CCOO, declanșează prima grevă generală comună din ultimii 14 ani. Protestul național programat pentru 11 noiembrie vine ca reacție la grava criză din sectorul imobiliar și al locuințelor.</description>
     </item>
     <item>
@@ -46,6 +71,9 @@
       <link>https://izz.ro/politic/alegerile-anticipate-din-spania-pot-destabiliza-coalitia-europeana/</link>
       <guid>https://izz.ro/politic/alegerile-anticipate-din-spania-pot-destabiliza-coalitia-europeana/</guid>
       <pubDate>Wed, 07 Oct 2026 15:32:15 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/alegerile-anticipate-din-spania-ar-putea-schimba-2562237.html">Adevărul</source>
+      <media:content url="https://izz.ro/politic/alegerile-anticipate-din-spania-pot-destabiliza-coalitia-europeana/cover.jpg?v=4b243777" medium="image" type="image/jpeg"/>
       <description>O potențială înfrângere a premierului Pedro Sánchez la urne riscă să provoace consecințe politice majore la nivelul Uniunii Europene, punând la încercare sprijinul acordat Ursulei von der Leyen.</description>
     </item>
     <item>
@@ -53,6 +81,9 @@
       <link>https://izz.ro/sport/fotbalistul-david-silva-revine-pe-teren-dupa-o-pauza-de-trei-ani/</link>
       <guid>https://izz.ro/sport/fotbalistul-david-silva-revine-pe-teren-dupa-o-pauza-de-trei-ani/</guid>
       <pubDate>Wed, 07 Oct 2026 15:19:22 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/fotbal-extern/uluitor-a-revenit-in-fotbal-la-mai-bine-de-trei-ani-de-cand-si-a-anuntat-retragerea-clubul-cu-care-a-semnat-695524.html">Antena Sport</source>
+      <media:content url="https://izz.ro/sport/fotbalistul-david-silva-revine-pe-teren-dupa-o-pauza-de-trei-ani/cover.jpg?v=c06bda5c" medium="image" type="image/jpeg"/>
       <description>Fostul internațional spaniol David Silva a semnat un contract surprinzător, revenind în activitatea competițională la mai mult de trei ani de la retragerea cauzată de o accidentare gravă.</description>
     </item>
     <item>
@@ -60,6 +91,9 @@
       <link>https://izz.ro/sport/fotbalistul-pedro-si-a-anuntat-retragerea-din-activitatea-sportiva/</link>
       <guid>https://izz.ro/sport/fotbalistul-pedro-si-a-anuntat-retragerea-din-activitatea-sportiva/</guid>
       <pubDate>Wed, 07 Oct 2026 15:11:22 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/fotbal-extern/s-a-retras-pedro-campionul-mondial-din-2010-mesaj-emotionant-simt-ca-a-sosit-momentul.html">Sport.ro</source>
+      <media:content url="https://izz.ro/sport/fotbalistul-pedro-si-a-anuntat-retragerea-din-activitatea-sportiva/cover.jpg?v=9b5501bb" medium="image" type="image/jpeg"/>
       <description>Atacantul spaniol Pedro Rodriguez a pus capăt unei cariere de două decenii marcate de 25 de trofee majore, inclusiv titlul mondial cucerit în 2010 alături de naționala Spaniei.</description>
     </item>
     <item>
@@ -67,6 +101,8 @@
       <link>https://izz.ro/economic/ikea-testeaza-in-spania-si-portugalia-serviciul-online-de-rascumparare-a-mobilei/</link>
       <guid>https://izz.ro/economic/ikea-testeaza-in-spania-si-portugalia-serviciul-online-de-rascumparare-a-mobilei/</guid>
       <pubDate>Tue, 06 Oct 2026 23:01:26 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.theguardian.com/business/2026/oct/07/ikea-to-pilot-online-buyback-service-for-secondhand-furniture">The Guardian</source>
       <description>Retailerul suedez introduce o platformă digitală unde clienții pot vinde mobilierul vechi contra unor vouchere valorice. Programul va fi extins în Marea Britanie dacă testul din Peninsula Iberică va avea succes.</description>
     </item>
     <item>
@@ -74,6 +110,8 @@
       <link>https://izz.ro/sport/spania-si-anglia-au-obtinut-victorii-in-meciurile-din-liga-natiunilor/</link>
       <guid>https://izz.ro/sport/spania-si-anglia-au-obtinut-victorii-in-meciurile-din-liga-natiunilor/</guid>
       <pubDate>Tue, 06 Oct 2026 21:20:58 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nations-league/spania-succes-cu-emotii-contra-croatiei-anglia-a-zdrobit-o-pe-cehia-rezultatele-zilei-din-liga-natiunilor.html">Sport.ro</source>
       <description>Echipa națională a Spaniei s-a impus cu emoții în fața Croației, în timp ce reprezentativa Angliei a învins categoric formația Cehiei în partidele disputate marți.</description>
     </item>
     <item>
@@ -81,6 +119,8 @@
       <link>https://izz.ro/sport/spania-a-invins-croatia-si-a-ajuns-la-42-de-meciuri-fara-infrangere/</link>
       <guid>https://izz.ro/sport/spania-a-invins-croatia-si-a-ajuns-la-42-de-meciuri-fara-infrangere/</guid>
       <pubDate>Tue, 06 Oct 2026 21:09:57 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.g4media.ro/spania-invinge-croatia-cu-o-remontada-si-numara-al-42-lea-meci-fara-esec-in-toate-competitiile-rezultatele-serii-in-liga-natiunilor.html">G4Media</source>
       <description>Reprezentativa Spaniei s-a impus cu scorul de 2-1 în partida disputată împotriva Croației în Liga Națiunilor, menținându-și seria istorică de invincibilitate de 42 de meciuri consecutive în toate competițiile.</description>
     </item>
     <item>
@@ -88,6 +128,8 @@
       <link>https://izz.ro/sport/romania-u21-a-fost-invinsa-drastic-de-spania/</link>
       <guid>https://izz.ro/sport/romania-u21-a-fost-invinsa-drastic-de-spania/</guid>
       <pubDate>Tue, 06 Oct 2026 20:14:12 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/echipa-nationala/ingropata-distrusa-de-spania-presa-iberica-da-de-pamant-cu-romania-u21-dupa-incredibilul-7-1-695371.html">Antena Sport</source>
       <description>Reprezentativa de tineret a României a pierdut categoric meciul disputat împotriva Spaniei, scor 1-7, în ultima etapă a preliminariilor pentru Euro 2027. Presa iberică a evidențiat evoluția remarcabilă a echipei gazdă.</description>
     </item>
     <item>
@@ -95,6 +137,8 @@
       <link>https://izz.ro/sport/nationala-under-21-a-romaniei-a-fost-invinsa-categoric-de-spania-scor-7-1/</link>
       <guid>https://izz.ro/sport/nationala-under-21-a-romaniei-a-fost-invinsa-categoric-de-spania-scor-7-1/</guid>
       <pubDate>Tue, 06 Oct 2026 20:02:19 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/presa-spaniola-reactie-spania-romania-20541605">ProSport, Antena Sport</source>
       <description>Reprezentativa de tineret a României U21 a pierdut meciul disputat în deplasare împotriva Spaniei, cu scorul de 7-1, în ultima etapă a grupei de calificare pentru Campionatul European din 2027. Presa iberică a relatat pe larg despre această partidă, subliniind victoria clară a echipei gazdă și ratarea șanselor de calificare pentru tricolori.</description>
     </item>
     <item>
@@ -102,6 +146,8 @@
       <link>https://izz.ro/sport/esec-categoric-pentru-nationala-u21-a-romaniei/</link>
       <guid>https://izz.ro/sport/esec-categoric-pentru-nationala-u21-a-romaniei/</guid>
       <pubDate>Tue, 06 Oct 2026 19:55:47 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://cvlpress.ro/06.10.2026/romania-s-a-facut-de-ras-si-la-u21-1-7-cu-spania/">Cuvântul Libertății</source>
       <description>Naționala de tineret a încheiat preliminariile printr-o înfrângere umilitoare pe terenul Spaniei, scor 1-7. Rezultatul reflectă problemele majore din fotbalul juvenil românesc, după ce calificarea fusese deja ratată.</description>
     </item>
     <item>
@@ -109,6 +155,8 @@
       <link>https://izz.ro/sport/croatia-a-invins-spania-in-preliminarii-prin-golul-lui-ivan-perisic/</link>
       <guid>https://izz.ro/sport/croatia-a-invins-spania-in-preliminarii-prin-golul-lui-ivan-perisic/</guid>
       <pubDate>Tue, 06 Oct 2026 19:52:38 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/croatia-a-rupt-blestemul-dupa-mai-bine-de-doi-ani-ce-s-a-intamplat-la-partida-cu-spania-695362.html">Antena Sport</source>
       <description>Selecționata croată a deschis scorul rapid în partida împotriva Spaniei, prin reușita lui Ivan Perisic, căutând recuperarea după eșecul anterior cu Anglia.</description>
     </item>
     <item>
@@ -116,6 +164,8 @@
       <link>https://izz.ro/sport/presa-spaniola-a-criticat-evolutia-romaniei-dupa-esecul-dur-cu-1-7/</link>
       <guid>https://izz.ro/sport/presa-spaniola-a-criticat-evolutia-romaniei-dupa-esecul-dur-cu-1-7/</guid>
       <pubDate>Tue, 06 Oct 2026 19:44:03 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/reactii-dupa-1-7-ibiza-vartejul-spaniol-distruge-romania-scorul-putea-fi-mai-dur-noapte-de-pomina-985335.html">GSP</source>
       <description>Jurnaliștii iberici au catalogat drept un adevărat taifun victoria obținută de naționala U21 a Spaniei împotriva reprezentativei similare a României la Ibiza.</description>
     </item>
     <item>
@@ -123,6 +173,8 @@
       <link>https://izz.ro/sport/meciurile-serii-din-liga-natiunilor-aduc-dueluri-tari-in-prima-liga/</link>
       <guid>https://izz.ro/sport/meciurile-serii-din-liga-natiunilor-aduc-dueluri-tari-in-prima-liga/</guid>
       <pubDate>Tue, 06 Oct 2026 17:10:41 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/anglia-cehia-si-croatia-spania-live-score-2145-programul-complet-al-serii-din-liga-natiunilor-695291.html">Antena Sport</source>
       <description>Partidele decisive din Liga Națiunilor programează confruntări spectaculoase între selecționate de top precum Anglia, Cehia, Croația și Spania, transmise în format live pe platformele media.</description>
     </item>
     <item>
@@ -130,6 +182,8 @@
       <link>https://izz.ro/extern/protestele-masive-din-franta-si-spania-genereaza-tensiuni-majore-privind/</link>
       <guid>https://izz.ro/extern/protestele-masive-din-franta-si-spania-genereaza-tensiuni-majore-privind/</guid>
       <pubDate>Tue, 06 Oct 2026 17:10:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/europa-fierbe-elevii-se-lupta-cu-jandarmii-in-franta-iar-in-spania-oamenii-vor-solutii-pentru-chiriile-mari-668323.html">Observator</source>
       <description>Aproximativ o jumătate de milion de francezi au blocat străzile din Paris, elevii ciocnindu-se cu jandarmii împotriva sistemului educațional. În paralel, locuitorii din Barcelona protestează față de prețurile excesive ale chiriilor.</description>
     </item>
     <item>
@@ -137,6 +191,8 @@
       <link>https://izz.ro/politic/guvernul-spaniol-a-aprobat-noi-decrete-privind-piata-imobiliara/</link>
       <guid>https://izz.ro/politic/guvernul-spaniol-a-aprobat-noi-decrete-privind-piata-imobiliara/</guid>
       <pubDate>Tue, 06 Oct 2026 16:00:41 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.bzi.ro/alegeri-anticipate-pe-fondul-crizei-locuintelor-pedro-sanchez-incearca-din-nou-sa-si-impuna-planul-5617446">BZI Iași</source>
       <description>Premierul Pedro Sanchez a adoptat reglementări care plafonează chiriile și suspendă anumite evacuări, după ce Parlamentul a respins măsurile anterioare și au fost convocate alegeri anticipate.</description>
     </item>
     <item>
@@ -144,6 +200,8 @@
       <link>https://izz.ro/extern/carles-puigdemont-poate-reveni-in-spania-dupa-ridicarea-mandatului-de-arestare/</link>
       <guid>https://izz.ro/extern/carles-puigdemont-poate-reveni-in-spania-dupa-ridicarea-mandatului-de-arestare/</guid>
       <pubDate>Tue, 06 Oct 2026 15:56:51 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/liderul-separatist-catalan-carles-puigdemont-poate-reveni-in-spania-dupa-aproape-un-deceniu-de-exil">Spotmedia</source>
       <description>Liderul separatist catalan se poate întoarce în țară după nouă ani petrecuți în Belgia, Curtea Supremă anulând mandatul pe numele său înaintea alegerilor anticipate din noiembrie.</description>
     </item>
     <item>
@@ -151,6 +209,8 @@
       <link>https://izz.ro/sport/alexandru-zotica-devine-primul-culturist-cu-sindrom-down-care-concureaza-la-un/</link>
       <guid>https://izz.ro/sport/alexandru-zotica-devine-primul-culturist-cu-sindrom-down-care-concureaza-la-un/</guid>
       <pubDate>Tue, 06 Oct 2026 15:29:21 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/sporturi/premiera-istorica-in-culturism-alexandru-zotica-sportiv-cu-sindrom-down-merge-la-campionatul-mondial.html">Sport.ro</source>
       <description>Sportivul român Alexandru Zotica va concura în premieră la Campionatul Mondial de Culturism și Fitness din Spania, la categoria special creată pentru sportivii cu sindrom Down în cadrul federației internaționale.</description>
     </item>
     <item>
@@ -158,6 +218,8 @@
       <link>https://izz.ro/extern/pedro-sanchez-se-confrunta-cu-riscuri-majore-in-politica-spaniola/</link>
       <guid>https://izz.ro/extern/pedro-sanchez-se-confrunta-cu-riscuri-majore-in-politica-spaniola/</guid>
       <pubDate>Tue, 06 Oct 2026 14:57:19 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/oct/06/pedro-sanchez-snap-election-spain-economy-green-transition-progressives">The Guardian</source>
       <description>Premierul Spaniei, recunoscut pentru abilitățile sale politice, se află într-o situație dificilă în spitele unor reușite economice și ecologice, riscantul său apel la alegeri anticipate stârnind îngrijorare.</description>
     </item>
     <item>
@@ -165,6 +227,8 @@
       <link>https://izz.ro/local/universitatea-de-stiintele-vietii-din-timisoara-s-a-intalnit-cu-romanii-din/</link>
       <guid>https://izz.ro/local/universitatea-de-stiintele-vietii-din-timisoara-s-a-intalnit-cu-romanii-din/</guid>
       <pubDate>Tue, 06 Oct 2026 14:04:09 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.ziuadevest.ro/oportunitati-de-cariera-pentru-romanii-din-spania-delegatia-usvt-timisoara-s-a-intalnit-cu-comunitatea-din-pamplona/">Ziua de Vest</source>
       <description>O delegație universitară timișoreană a discutat cu aproximativ o sută de membri ai comunității românești din Pamplona, prezentând oportunități educaționale și programe de formare profesională din România.</description>
     </item>
     <item>
@@ -172,6 +236,8 @@
       <link>https://izz.ro/politic/spania-se-pregateste-pentru-alegeri-anticipate-decisive/</link>
       <guid>https://izz.ro/politic/spania-se-pregateste-pentru-alegeri-anticipate-decisive/</guid>
       <pubDate>Mon, 05 Oct 2026 17:48:14 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.politico.eu/article/spain-rent-crisis-donald-trump-5-things-snap-election/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Spania organizează alegeri anticipate pe 29 noiembrie, electoratul urmând să decizie între continuarea guvernării socialiste a premierului Pedro Sánchez sau instalarea unei administrații de dreapta.</description>
     </item>
     <item>
@@ -179,6 +245,8 @@
       <link>https://izz.ro/extern/protestele-tinerilor-din-franta-si-spania-semnaleaza-o-nemultumire-profunda/</link>
       <guid>https://izz.ro/extern/protestele-tinerilor-din-franta-si-spania-semnaleaza-o-nemultumire-profunda/</guid>
       <pubDate>Mon, 05 Oct 2026 14:55:44 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/05/protests-in-france-and-spain-appear-disparate-but-core-issues-are-the-same">The Guardian</source>
       <description>Zeci de mii de persoane au ieșit în stradă în Spania din cauza crizei locuințelor, în timp ce în Franța elevii protestează împotriva sistemului educațional degradat, cerând măsuri concrete de la guvernanți.</description>
     </item>
     <item>
@@ -186,6 +254,8 @@
       <link>https://izz.ro/politic/evolutiile-politice-din-america-latina-si-europa-sporesc-volatilitatea/</link>
       <guid>https://izz.ro/politic/evolutiile-politice-din-america-latina-si-europa-sporesc-volatilitatea/</guid>
       <pubDate>Mon, 05 Oct 2026 14:13:52 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://cursdeguvernare.ro/evolutiile-politice-din-brazilia-si-spania-au-sporit-volatilitatea-pe-anumite-piete-externe-evidentiind-tot-mai-mult-declinul-guvernelor-de-stanga.html">Curs de Guvernare</source>
       <description>Scrutinele din Brazilia, unde candidatul de dreapta Flavio Bolsonaro avansează în fața președintelui socialist Lula da Silva, și din Spania accentuează incertitudinile geopolitice și economice internaționale.</description>
     </item>
     <item>
@@ -193,6 +263,8 @@
       <link>https://izz.ro/extern/premierul-spaniei-pedro-sanchez-a-convocat-alegeri-anticipate-pe-fondul-crizei/</link>
       <guid>https://izz.ro/extern/premierul-spaniei-pedro-sanchez-a-convocat-alegeri-anticipate-pe-fondul-crizei/</guid>
       <pubDate>Mon, 05 Oct 2026 10:18:47 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&amp;at_campaign=rss">BBC Europe, Politico EU, The Guardian, Cuvântul Libertății</source>
       <description>Ca urmare a protestelor legate de criza locuințelor, a scandalurilor de corupție și a respingerii măsurilor guvernamentale în Parlament, premierul spaniol Pedro Sánchez a decis organizarea de alegeri parlamentare anticipate pe 29 noiembrie. Decizia vine după blocarea unor inițiative precum suspendarea evacuărilor pentru persoanele vulnerabile.</description>
     </item>
     <item>
@@ -200,6 +272,8 @@
       <link>https://izz.ro/extern/inundatii-istorice-in-catalonia-bilantul-tragic-al-furtunii-devastatoare/</link>
       <guid>https://izz.ro/extern/inundatii-istorice-in-catalonia-bilantul-tragic-al-furtunii-devastatoare/</guid>
       <pubDate>Mon, 05 Oct 2026 05:54:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/cod-rosu-in-spania-dupa-o-furtuna-cum-nu-sa-mai-vazut-de-30-de-ani-apa-a-ajuns-la-un-metru-in-case-668154.html">Observator</source>
       <description>Regiunea spaniolă Catalonia se află sub cod roșu după cele mai severe fenomene meteo din ultimele trei decenii, inundațiile soldându-se cu doi morți, un dispărut și zeci de persoane salvate din calea apelor.</description>
     </item>
     <item>
@@ -207,6 +281,8 @@
       <link>https://izz.ro/politic/gruparea-de-dreapta-din-parlamentul-european-cere-investigarea-aliantei-stangii/</link>
       <guid>https://izz.ro/politic/gruparea-de-dreapta-din-parlamentul-european-cere-investigarea-aliantei-stangii/</guid>
       <pubDate>Mon, 05 Oct 2026 04:00:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.politico.eu/article/push-to-ban-eu-left-group-over-french-riots/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Un eurodeputat conservator strânge semnături pentru a declanșa o investigație împotriva Alianței Stângii Europene, acuzată de încălcarea valorilor comunitare. Demersul ar putea duce la pierderea finanțării și interzicerea formațiunii.</description>
     </item>
     <item>
@@ -214,6 +290,8 @@
       <link>https://izz.ro/extern/inundatii-severe-in-spania-doi-morti-si-un-disparut-in-catalonia/</link>
       <guid>https://izz.ro/extern/inundatii-severe-in-spania-doi-morti-si-un-disparut-in-catalonia/</guid>
       <pubDate>Sun, 04 Oct 2026 18:40:16 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bzi.ro/potop-in-spania-doi-oameni-au-murit-iar-o-persoana-este-disparuta-barcelona-si-imprejurimile-sub-alerta-5616243">BZI Iași</source>
       <description>Ploile torențiale din Catalonia au provocat inundații devastatoare în provincia Barcelona, soldate cu două decese și o dispariție, autoritățile cerând populației vigilență maximă.</description>
     </item>
     <item>
@@ -221,6 +299,8 @@
       <link>https://izz.ro/extern/blogger-pro-rus-din-spania-investigat-pentru-legaturi-cu-serviciile-secrete/</link>
       <guid>https://izz.ro/extern/blogger-pro-rus-din-spania-investigat-pentru-legaturi-cu-serviciile-secrete/</guid>
       <pubDate>Sun, 04 Oct 2026 15:32:15 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/blogger-pro-rus-stabilit-in-spania-suspectat-de-2561694.html">Adevărul</source>
       <description>Anatoli Șari, un blogger ucrainean stabilit în Spania, este vizat de percheziții în cadrul unei anchete privind spălarea de bani și posibile colaborări cu agenția rusă FSB.</description>
     </item>
     <item>
@@ -228,6 +308,8 @@
       <link>https://izz.ro/general/peste-51-milioane-de-romani-traiesc-in-diaspora/</link>
       <guid>https://izz.ro/general/peste-51-milioane-de-romani-traiesc-in-diaspora/</guid>
       <pubDate>Sun, 04 Oct 2026 14:00:36 +0000</pubDate>
+      <category>general</category>
+      <source url="https://alba24.ro/cati-romani-traiesc-si-muncesc-in-diaspora-tarile-cu-cele-mai-mari-comunitati-1160970.html">Alba24</source>
       <description>Datele Ministerului Muncii arată că peste 5,1 milioane de cetățeni români s-au stabilit în state europene, Marea Britanie, Spania și Italia concentrând cele mai numeroase comunități de expatriați.</description>
     </item>
     <item>
@@ -235,6 +317,8 @@
       <link>https://izz.ro/extern/doua-persoane-au-murit-in-catalonia-in-urma-ploilor-torentiale-si-a-inundatiilor/</link>
       <guid>https://izz.ro/extern/doua-persoane-au-murit-in-catalonia-in-urma-ploilor-torentiale-si-a-inundatiilor/</guid>
       <pubDate>Sun, 04 Oct 2026 12:27:33 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/vreme-extrema-in-spania-doi-morti-in-catalonia-si-2561685.html">Adevărul</source>
       <description>Regiunea spaniolă Catalonia a fost lovită de furtuni violente care au provocat două decese, inclusiv al unei femei în vârstă de 102 ani, autoritățile menținând alerta maximă din cauza riscului de revărsare a apelor.</description>
     </item>
     <item>
@@ -242,6 +326,8 @@
       <link>https://izz.ro/extern/proteste-masive-in-spania-impotriva-crizei-locuintelor-si-posibile-alegeri/</link>
       <guid>https://izz.ro/extern/proteste-masive-in-spania-impotriva-crizei-locuintelor-si-posibile-alegeri/</guid>
       <pubDate>Sun, 04 Oct 2026 07:32:07 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/proteste-masive-in-spania-fata-de-criza-locuintelor-premierul-pedro-sanchez-ar-putea-organiza-alegeri-anticipate-dupa-ce-a-pierdut-majoritatea-in-parlament.html">Curs de Guvernare</source>
       <description>Sute de mii de spanioli au protestat cerând locuințe accesibile, după ce parlamentul a respins măsuri urgente pentru chiriași. Premierul Pedro Sanchez riscă organizarea de alegeri anticipate în urma pierderii majorității legislative.</description>
     </item>
     <item>
@@ -249,6 +335,8 @@
       <link>https://izz.ro/judetean/politia-romana-a-adus-din-strainatate-doi-fugari-condamnati-in-bihor/</link>
       <guid>https://izz.ro/judetean/politia-romana-a-adus-din-strainatate-doi-fugari-condamnati-in-bihor/</guid>
       <pubDate>Sun, 04 Oct 2026 06:49:57 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.bihon.ro/stirile-judetului-bihor/doi-urmariti-international-condamnati-cu-executare-de-instante-din-bihor-adusi-de-politie-din-spania-si-germania-5419530/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Un cetățean din Republica Moldova condamnat pentru furt și conducere fără permis a fost extrădat din Germania, fiind escortat în țară alături de un alt urmărire internațional.</description>
     </item>
     <item>
@@ -256,6 +344,8 @@
       <link>https://izz.ro/sport/lamine-yamal-a-inscris-rapid-pentru-spania-in-meciul-cu-cehia/</link>
       <guid>https://izz.ro/sport/lamine-yamal-a-inscris-rapid-pentru-spania-in-meciul-cu-cehia/</guid>
       <pubDate>Sun, 04 Oct 2026 05:24:56 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/lamine-yamal-gol-spania-cehia-de-la-fuente-984561.html">GSP</source>
       <description>Fotbalistul Barcelonei, Lamine Yamal, a marcat în minutul șase al partidei câștigate de Spania în fața Cehiei, menținându-și ritmul ofensiv din Liga Națiunilor.</description>
     </item>
     <item>
@@ -263,6 +353,8 @@
       <link>https://izz.ro/sanatate/cercetatorii-spanioli-au-descoperit-cum-creierul-pastreaza-amintirile-vechi-in/</link>
       <guid>https://izz.ro/sanatate/cercetatorii-spanioli-au-descoperit-cum-creierul-pastreaza-amintirile-vechi-in/</guid>
       <pubDate>Sun, 04 Oct 2026 05:02:31 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://hotnews.ro/cum-stie-creierul-tau-ca-ai-renovat-casa-fara-sa-stearga-amintirea-veche-secretul-gardienilor-din-hipocamp-2365992">HotNews</source>
       <description>Un studiu efectuat în Spania explică modul în care anumite celule nervoase din hipocamp reușesc să protejeze informațiile anterioare atunci când persoana asimilează experiențe noi.</description>
     </item>
     <item>
@@ -270,6 +362,8 @@
       <link>https://izz.ro/sport/spania-s-a-impus-cu-emotii-in-partida-disputata-impotriva-cehiei/</link>
       <guid>https://izz.ro/sport/spania-s-a-impus-cu-emotii-in-partida-disputata-impotriva-cehiei/</guid>
       <pubDate>Sat, 03 Oct 2026 20:43:19 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nations-league/spania-victorie-cu-emotii-impotriva-cehiei-rezultatele-zilei-din-liga-natiunilor.html">Sport.ro</source>
       <description>Opt meciuri din cadrul Ligii Națiunilor s-au disputat sâmbătă, printre care și confruntarea în care reprezentativa Spaniei a obținut o victorie dificilă în fața selecționatei Cehiei.</description>
     </item>
     <item>
@@ -277,6 +371,8 @@
       <link>https://izz.ro/sport/fabian-ruiz-a-parasit-cantonamentul-spaniei-pentru-nasterea-fiului-sau/</link>
       <guid>https://izz.ro/sport/fabian-ruiz-a-parasit-cantonamentul-spaniei-pentru-nasterea-fiului-sau/</guid>
       <pubDate>Sat, 03 Oct 2026 19:12:51 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/nations-league/motivul-emotionant-pentru-care-fabian-ruiz-a-parasit-nationala-spaniei.html">Sport.ro</source>
       <description>Mijlocașul spaniol în vârstă de 30 de ani a întrerupt activitatea la națională pentru a fi prezent la nașterea primului său copil.</description>
     </item>
     <item>
@@ -284,6 +380,8 @@
       <link>https://izz.ro/extern/proteste-masive-in-spania-pentru-locuinte-la-preturi-accesibile/</link>
       <guid>https://izz.ro/extern/proteste-masive-in-spania-pentru-locuinte-la-preturi-accesibile/</guid>
       <pubDate>Sat, 03 Oct 2026 17:05:26 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/zeci-de-mii-de-oameni-au-iesit-in-strada-in-spania-pentru-a-cere-locuinte-la-preturi-accesibile-cerem-stabilitate.html">Știrile ProTV</source>
       <description>Zeci de mii de spanioli au ieșit în stradă pentru a cere măsuri guvernamentale în domeniul locuințelor, imediat după ce parlamentul a respins două proiecte legislative de sprijin pentru chiriași.</description>
     </item>
     <item>
@@ -291,6 +389,8 @@
       <link>https://izz.ro/extern/inundatii-severe-si-distrugeri-majore-in-sud-estul-spaniei/</link>
       <guid>https://izz.ro/extern/inundatii-severe-si-distrugeri-majore-in-sud-estul-spaniei/</guid>
       <pubDate>Sat, 03 Oct 2026 17:04:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/spania-lovita-de-inundatii-severe-sute-de-persoane-evacuate-iar-planul-de-urgenta-a-fost-activat-668089.html">Observator</source>
       <description>Ploile torențiale extreme au provocat inundații catastrofale în Spania, generând evacuări masive și pagube însemnate, în timp ce fenomene similare au afectat și insula Creta.</description>
     </item>
     <item>
@@ -298,6 +398,8 @@
       <link>https://izz.ro/extern/proteste-de-amploare-in-spania-privind-locuintele-marcate-de-incidente/</link>
       <guid>https://izz.ro/extern/proteste-de-amploare-in-spania-privind-locuintele-marcate-de-incidente/</guid>
       <pubDate>Sat, 03 Oct 2026 16:25:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/criza-locuintelor-din-spania-protest-masiv-la-madrid-incidente-in-valencia-video">Spotmedia</source>
       <description>Mii de spanioli au protestat la Madrid și Valencia împotriva costului ridicat al chiriilor și evacuărilor forțate, nemulțumirile fiind amplificate de respingerea legii locuinței și cazul unei pensionare evacuate.</description>
     </item>
     <item>
@@ -305,6 +407,8 @@
       <link>https://izz.ro/extern/proteste-violente-in-spania-din-cauza-preturilor-exorbitante-la-chirii/</link>
       <guid>https://izz.ro/extern/proteste-violente-in-spania-din-cauza-preturilor-exorbitante-la-chirii/</guid>
       <pubDate>Sat, 03 Oct 2026 16:22:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/proteste-violente-la-madrid-si-in-alte-orase-din-spania-legat-de-preturile-la-locuinte-revolta-s-a-prins-dupa-ce-unei-pensionare-de-87-de-ani-i-a-fost-majorata-chiria-cu-275.html">G4Media</source>
       <description>Zeci de mii de manifestanți au participat la proteste violente în Madrid și Valencia împotriva scumpirii locuințelor, revolta izbucnind după creșterea masivă a chiriei aplicată unei pensionare de opt parlamentari și șapte ani.</description>
     </item>
     <item>
@@ -312,6 +416,8 @@
       <link>https://izz.ro/sport/cosmin-contra-a-dezvaluit-motivul-plecarii-de-la-nationala-romaniei/</link>
       <guid>https://izz.ro/sport/cosmin-contra-a-dezvaluit-motivul-plecarii-de-la-nationala-romaniei/</guid>
       <pubDate>Sat, 03 Oct 2026 16:05:58 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/romania-cosmin-contra-spania-preliminarii-984472.html">GSP</source>
       <description>Fostul selecționer și-a amintit momentul tensionat de după înfrângerea severă cu Spania din 2019, când mai mulți fotbaliști au râs în hohote în timpul vestiarului, determinându-l să renunțe la post.</description>
     </item>
     <item>
@@ -319,6 +425,8 @@
       <link>https://izz.ro/extern/zeci-de-mii-de-spanioli-protesteaza-in-masa-impotriva-crizei-locuintelor/</link>
       <guid>https://izz.ro/extern/zeci-de-mii-de-spanioli-protesteaza-in-masa-impotriva-crizei-locuintelor/</guid>
       <pubDate>Sat, 03 Oct 2026 14:19:46 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/03/spain-housing-protest">The Guardian</source>
       <description>Locuitorii din Madrid și alte orașe spaniole au ieșit în stradă pentru a cere măsuri urgente împotriva crizei imobiliare, după ce proiectele guvernamentale au fost respinse de opoziție.</description>
     </item>
     <item>
@@ -326,6 +434,8 @@
       <link>https://izz.ro/sport/nationala-under-20-a-italiei-a-invins-franta-cu-3-0-in-spania/</link>
       <guid>https://izz.ro/sport/nationala-under-20-a-italiei-a-invins-franta-cu-3-0-in-spania/</guid>
       <pubDate>Sat, 03 Oct 2026 13:15:22 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/nazionali/francia-italia-under-20-lavelli-mosconi/">FC Inter 1908</source>
       <description>Reprezentativa de fotbal Under 20 a Italiei s-a impus categoric în fața Franței, scor 3-0, la turneul din Spania, asigurându-și locul al treilea în clasament grație reușitelor semnate de jucătorii formației Inter.</description>
     </item>
     <item>
@@ -333,6 +443,8 @@
       <link>https://izz.ro/economic/peste-5-milioane-de-romani-locuiesc-in-europa-cei-mai-multi-fiind-in-marea/</link>
       <guid>https://izz.ro/economic/peste-5-milioane-de-romani-locuiesc-in-europa-cei-mai-multi-fiind-in-marea/</guid>
       <pubDate>Sat, 03 Oct 2026 12:26:24 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/harta-diasporei-romanesti-peste-5-milioane-de-romani-traiesc-in-europa-in-ce-tari-sunt-cei-mai-multi-romani.html">Economedia, Profit.ro</source>
       <description>Datele oficiale publicate de Ministerul Muncii indică faptul că aproximativ 5,1 milioane de români trăiesc în Europa. Cele mai importante comunități de compatrioți sunt stabilite în Marea Britanie, Spania și Italia.</description>
     </item>
     <item>
@@ -340,6 +452,8 @@
       <link>https://izz.ro/extern/regiunea-spaniola-la-rioja-ofera-40-000-euro-tinerilor-mutati-la-sat/</link>
       <guid>https://izz.ro/extern/regiunea-spaniola-la-rioja-ofera-40-000-euro-tinerilor-mutati-la-sat/</guid>
       <pubDate>Sat, 03 Oct 2026 12:18:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/mapamond/40000-de-euro-pentru-cei-care-aleg-sa-se-mute-la-sat-regiunea-care-vrea-sa-atraga-tineri-inclusiv-romani-668070.html">Observator</source>
       <description>Autoritățile din La Rioja acordă subvenții de până la 40.000 de euro persoanelor sub 45 de ani care achiziționează locuințe în satele mici, pentru a contracara depopularea zonei rurale.</description>
     </item>
     <item>
@@ -347,13 +461,8 @@
       <link>https://izz.ro/lifestyle/romanii-consuma-80-din-cafea-acasa-spre-deosebire-de-tarile-mediteraneene/</link>
       <guid>https://izz.ro/lifestyle/romanii-consuma-80-din-cafea-acasa-spre-deosebire-de-tarile-mediteraneene/</guid>
       <pubDate>Fri, 02 Oct 2026 21:05:00 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://www.zf.ro/companii/retail-agrobusiness/unde-isi-beau-europenii-cafeaua-in-romania-80-din-consum-se-intampla-acasa-pe-cand-grecia-e-campioana-la-iesitul-in-oras-urmata-indeaproape-de-croatia-si-spania-23251174">Ziarul Financiar</source>
       <description>Spre deosebire de state precum Grecia, Croația sau Spania, unde socializarea matinală la terase și baruri reprezintă un obicei zilnic înrădăcinat, în România preferința principală rămâne consumul casnic.</description>
-    </item>
-    <item>
-      <title>Parlamentul spaniol a respins blocarea evacuărilor pentru chiriașii vulnerabili</title>
-      <link>https://izz.ro/extern/parlamentul-spaniol-a-respins-blocarea-evacuarilor-pentru-chiriasii-vulnerabili/</link>
-      <guid>https://izz.ro/extern/parlamentul-spaniol-a-respins-blocarea-evacuarilor-pentru-chiriasii-vulnerabili/</guid>
-      <pubDate>Fri, 02 Oct 2026 19:34:14 +0000</pubDate>
-      <description>Aleșii spanioli au respins măsura guvernamentală de protejare a chiriașilor în contextul crizei locuințelor, declanșând continuarea protestelor de stradă din Madrid.</description>
     </item>
 </channel></rss>

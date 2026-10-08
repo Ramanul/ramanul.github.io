@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Vâlcea — IZZ.ro</title>
   <link>https://izz.ro/subiect/valcea/</link>
   <atom:link href="https://izz.ro/subiect/valcea/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Vâlcea pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Vlad Bălțățeanu ar fi lovit-o pe Valentina cu o coadă de mătură</title>
       <link>https://izz.ro/judetean/vlad-baltateanu-ar-fi-lovit-o-pe-valentina-cu-o-coada-de-matura/</link>
       <guid>https://izz.ro/judetean/vlad-baltateanu-ar-fi-lovit-o-pe-valentina-cu-o-coada-de-matura/</guid>
       <pubDate>Thu, 08 Oct 2026 08:26:30 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.bzi.ro/noi-detalii-in-cazul-valentinei-ce-i-ar-fi-povestit-vlad-baltateanu-prietenului-sau-despre-noaptea-mortii-5618942">BZI Iași</source>
+      <media:content url="https://izz.ro/judetean/vlad-baltateanu-ar-fi-lovit-o-pe-valentina-cu-o-coada-de-matura/cover.jpg?v=2f31fd2e" medium="image" type="image/jpeg"/>
       <description>Noi detalii din ancheta privind moartea tinerei de 28 de ani, găsită în râul Olt din Vâlcea, arată că suspectul i-ar fi mărturisit unui prieten că a agresat fizic victima înainte de deces.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/judetean/politistii-din-valcea-au-sustinut-o-lectie-de-siguranta-pentru-elevi/</link>
       <guid>https://izz.ro/judetean/politistii-din-valcea-au-sustinut-o-lectie-de-siguranta-pentru-elevi/</guid>
       <pubDate>Thu, 08 Oct 2026 07:29:31 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://jurnalulolteniei.ro/lectie-de-siguranta-pentru-elevii-din-ramnicu-valcea/">Jurnalul Olteniei</source>
+      <media:content url="https://izz.ro/judetean/politistii-din-valcea-au-sustinut-o-lectie-de-siguranta-pentru-elevi/cover.jpg?v=bea4018a" medium="image" type="image/jpeg"/>
       <description>Oamenii legii din județul Vâlcea s-au întâlnit cu liceenii pentru a discuta despre riscurile din mediul online, prevenirea delincvenței juvenile și reguli de comportament civic.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/judetean/spitalele-din-valcea-primesc-dotari-medicale-de-33-milioane-euro/</link>
       <guid>https://izz.ro/judetean/spitalele-din-valcea-primesc-dotari-medicale-de-33-milioane-euro/</guid>
       <pubDate>Wed, 07 Oct 2026 12:18:32 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://jurnalulolteniei.ro/investitii-de-33-milioane-de-euro-in-spitalele-din-valcea/">Jurnalul Olteniei</source>
       <description>Unitățile sanitare din județul Vâlcea beneficiază de echipamente medicale moderne, mobilier și sisteme IT, în valoare totală de 3,3 milioane de euro, fonduri obținute prin Programul Sănătate.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/local/stafeta-veteranilor-a-ajuns-in-judetul-valcea-pe-traseul-albastru/</link>
       <guid>https://izz.ro/local/stafeta-veteranilor-a-ajuns-in-judetul-valcea-pe-traseul-albastru/</guid>
       <pubDate>Wed, 07 Oct 2026 10:25:07 +0000</pubDate>
+      <category>local</category>
+      <source url="https://jurnalulolteniei.ro/stafeta-veteranilor-a-trecut-prin-valcea-si-merge-spre-slatina/">Jurnalul Olteniei</source>
       <description>Ediția a XIII-a a Ștafetei Veteranilor a tranzitat județul Vâlcea, fiind întâmpinată de efectivele Jandarmeriei locale. Participanții își continuă marșul pe Traseul Albastru către municipiul Slatina.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/local/politisti-din-dolj-au-recuperat-un-portofel-pierdut-si-l-au-inapoiat/</link>
       <guid>https://izz.ro/local/politisti-din-dolj-au-recuperat-un-portofel-pierdut-si-l-au-inapoiat/</guid>
       <pubDate>Wed, 07 Oct 2026 10:08:52 +0000</pubDate>
+      <category>local</category>
+      <source url="https://cronicaolteniei.ro/au-gasit-un-portofel-pe-o-strada-din-craiova-si-au-identificat-proprietara-la-30-de-kilometri-distanta/">Cronica Olteniei, Jurnalul Olteniei</source>
       <description>Doi polițiști din cadrul Serviciului Rutier Dolj, aflați în misiune pe o stradă din Craiova, au găsit un portofel căzut pe carosabil, ce conținea bani și documente. Aceștia au identificat proprietara, o femeie în vârstă de 67 de ani din județul Vâlcea, și au urmărit-o în trafic pe o distanță de aproximativ 30 de kilometri pentru a-i restitui bunurile în siguranță.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/local/un-barbat-din-valcea-a-fost-retinut-pentru-furt-calificat-de-motorina/</link>
       <guid>https://izz.ro/local/un-barbat-din-valcea-a-fost-retinut-pentru-furt-calificat-de-motorina/</guid>
       <pubDate>Wed, 07 Oct 2026 07:28:31 +0000</pubDate>
+      <category>local</category>
+      <source url="https://jurnalulolteniei.ro/barbat-retinut-pentru-furt-de-motorina-si-9-perchezitii/">Jurnalul Olteniei</source>
       <description>Polițiștii din Vâlcea au reținut un tânăr de 30 de ani din Bălcești, suspectat de comiterea a nouă acte materiale de furt calificat, în urma unor percheziții domiciliare efectuate de oamenii legii.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/judetean/tanarul-suspect-in-cazul-femeii-ucise-si-ascunse-in-valiza-pe-olt-a-fost-adus/</link>
       <guid>https://izz.ro/judetean/tanarul-suspect-in-cazul-femeii-ucise-si-ascunse-in-valiza-pe-olt-a-fost-adus/</guid>
       <pubDate>Tue, 06 Oct 2026 15:49:51 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.bihon.ro/stiri-internationale/romania/tanarul-suspect-in-cazul-femeii-gasite-moarte-intr-o-valiza-pe-olt-a-fost-adus-in-tara-5421909/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Autoritățile române l-au adus în țară pe principalul suspect în cazul omorului comis în județul Vâlcea, în urma unei cooperări strânse cu instituțiile judiciare din Elveția.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/judetean/barbatul-acuzat-de-uciderea-valentinei-adus-in-tara-de-politisti/</link>
       <guid>https://izz.ro/judetean/barbatul-acuzat-de-uciderea-valentinei-adus-in-tara-de-politisti/</guid>
       <pubDate>Tue, 06 Oct 2026 10:58:49 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://jurnalulolteniei.ro/valcea-iubitul-valentinei-adus-in-tara/">Jurnalul Olteniei</source>
       <description>Vlad Băltățeanu, suspectat că și-a ucis iubita în vârstă de 28 de ani al cărei trup a fost găsit într-o valiză în râul Olt, a fost extrădat și preluat de autoritățile din Vâlcea.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/judetean/un-barbat-de-40-de-ani-a-fost-ranit-de-o-semiremorca-in-targu-neamt/</link>
       <guid>https://izz.ro/judetean/un-barbat-de-40-de-ani-a-fost-ranit-de-o-semiremorca-in-targu-neamt/</guid>
       <pubDate>Mon, 05 Oct 2026 08:50:20 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zch.ro/pieton-ranit-dupa-ce-a-fost-acrosat-de-o-semiremorca-la-targu-neamt/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
       <description>Pietonul a fost acroșat de un ansamblu de vehicule condus de un șofer din județul Vâlcea, incidentul petrecându-se pe o stradă din Târgu-Neamț în primele ore ale nopții de 5 octombrie.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/judetean/incendiul-forestier-din-zona-baile-olanicesti-persista-de-noua-zile/</link>
       <guid>https://izz.ro/judetean/incendiul-forestier-din-zona-baile-olanicesti-persista-de-noua-zile/</guid>
       <pubDate>Sun, 04 Oct 2026 06:28:26 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://jurnalulolteniei.ro/valcea-incendiul-de-la-baile-olanesti-nestins-de-9-zile/">Jurnalul Olteniei</source>
       <description>Forțele de intervenție continuă operațiunile de stingere a focului izbucnit într-o zonă muntoasă greu accesibilă din Vâlcea, misiunea fiind îngreunată de terenul accidentat și vegetația uscată.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/local/incendiu-puternic-la-o-hala-de-vopseluri-din-sutesti-valcea/</link>
       <guid>https://izz.ro/local/incendiu-puternic-la-o-hala-de-vopseluri-din-sutesti-valcea/</guid>
       <pubDate>Sat, 03 Oct 2026 16:53:16 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/social/incendiu-la-o-hala-cu-vopseluri-si-diluanti-in-valcea-doua-mesaje-ro-alert-din-cauza-fumului-3976573">Digi24, Adevărul, Observator</source>
       <description>Un incendiu violent a izbucnit sâmbătă la o hală din comuna Sutești, județul Vâlcea, unde erau depozitate aproximativ 30-35 de tone de solventi, rășini, pigmenți, vopseluri și diluanți. Pompierii militari intervin la fața locului cu mai multe echipaje pentru stingerea flăcărilor care au cuprins clădirea. Din cauza degajărilor masive de fum, locuitorii din zona adiacentă au primit mesaje de avertizare prin sistemul RO-Alert.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/local/aeronave-militare-sting-un-incendiu-de-padure-in-valcea/</link>
       <guid>https://izz.ro/local/aeronave-militare-sting-un-incendiu-de-padure-in-valcea/</guid>
       <pubDate>Fri, 02 Oct 2026 11:53:06 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.g4media.ro/doua-aeronave-c-27j-spartan-ale-fortelor-aeriene-romane-actioneaza-si-vineri-pentru-stingerea-incendiului-de-padure-declansat-in-zona-baile-olanesti.html">G4Media</source>
       <description>Două avioane C-27J Spartan aparținând Forțelor Aeriene Române intervin în zona Băile Olănești pentru a lichida un incendiu forestier, la solicitarea autorităților locale.</description>
     </item>
     <item>
@@ -95,6 +121,8 @@
       <link>https://izz.ro/judetean/tehnologia-si-fermele-moderne-asigura-productia-de-carne-de-pui-si-oua-bio/</link>
       <guid>https://izz.ro/judetean/tehnologia-si-fermele-moderne-asigura-productia-de-carne-de-pui-si-oua-bio/</guid>
       <pubDate>Thu, 01 Oct 2026 05:25:38 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://hotnews.ro/cum-ajung-puiul-si-ouale-bio-pe-rafturile-lidl-de-la-ferme-si-pasune-la-roboti-si-inteligenta-artificiala-2363455">HotNews</source>
       <description>Un reportaj realizat la o fermă din județul Vâlcea prezintă procesul tehnologizat prin care produsele avicole bio ajung pe rafturile magazinelor Lidl.</description>
     </item>
     <item>
@@ -102,6 +130,8 @@
       <link>https://izz.ro/judetean/primarii-din-valcea-au-discutat-despre-noul-cod-al-urbanismului/</link>
       <guid>https://izz.ro/judetean/primarii-din-valcea-au-discutat-despre-noul-cod-al-urbanismului/</guid>
       <pubDate>Tue, 29 Sep 2026 07:14:40 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://jurnalulolteniei.ro/valcea-primarii-sprijiniti-in-fata-noilor-reguli-de-urbanism/">Jurnalul Olteniei</source>
       <description>Reprezentanții administrațiilor locale din Vâlcea s-au reunit în cadrul ACoR pentru a analiza efectele noului Cod al urbanismului. La eveniment a participat și președintele Consiliului Județean, Constantin Rădulescu.</description>
     </item>
 </channel></rss>

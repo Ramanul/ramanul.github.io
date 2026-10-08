@@ -10,6 +10,13 @@
 
   var root = document.documentElement;
   var KEY = "izz_theme";
+  var TEXT = "izz_text";
+
+  function applyText(v) {
+    if (v === "mare" || v === "spatiu") root.setAttribute("data-text", v);
+    else root.removeAttribute("data-text");
+  }
+  try { applyText(localStorage.getItem(TEXT) || ""); } catch (e) { /* private mode */ }
 
   function read() {
     try { return localStorage.getItem(KEY); } catch (e) { return null; }
@@ -49,14 +56,38 @@
   }
 
   /* Delegare pe document: scriptul ruleaza in <head>, butoanele inca nu exista. */
+  function syncCitire() {
+    var curent = root.getAttribute("data-text") || "normal";
+    var butoane = document.querySelectorAll(".izz-citire button");
+    for (var i = 0; i < butoane.length; i++) {
+      var act = butoane[i].getAttribute("data-text");
+      if (act === "print") continue;
+      butoane[i].setAttribute("aria-pressed", act === curent ? "true" : "false");
+    }
+  }
+
   document.addEventListener("click", function (ev) {
-    var el = ev.target && ev.target.closest ? ev.target.closest(".theme-toggle, .back-to-top") : null;
+    var el = ev.target && ev.target.closest ? ev.target.closest(".theme-toggle, .back-to-top, .izz-citire button") : null;
     if (!el) return;
     if (el.classList.contains("theme-toggle")) {
       var dark = !isDark();
       apply(dark);
       write(dark ? "dark" : "light");
       syncToggle();
+    } else if (el.closest && el.closest(".izz-citire")) {
+      var act = el.getAttribute("data-text");
+      if (act === "print") {
+        window.print();
+        return;
+      }
+      if (act === "normal") {
+        try { localStorage.removeItem(TEXT); } catch (e) { /* private mode */ }
+        applyText("");
+      } else {
+        try { localStorage.setItem(TEXT, act); } catch (e) { /* private mode */ }
+        applyText(act);
+      }
+      syncCitire();
     } else {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
@@ -68,5 +99,20 @@
     if (backBtn) backBtn.classList.toggle("visible", window.scrollY > 300);
   }, { passive: true });
 
-  document.addEventListener("DOMContentLoaded", syncToggle);
+  function homeWide() {
+    if (!window.matchMedia || !window.matchMedia("(min-width: 641px)").matches) return;
+    var nodes = document.querySelectorAll("template.home-wide");
+    for (var i = 0; i < nodes.length; i++) {
+      var tpl = nodes[i];
+      var grid = tpl.previousElementSibling;
+      if (!grid || !grid.classList.contains("grid")) continue;
+      grid.appendChild(tpl.content);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    syncToggle();
+    syncCitire();
+    homeWide();
+  });
 })();

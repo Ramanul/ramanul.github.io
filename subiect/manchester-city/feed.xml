@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Manchester City — IZZ.ro</title>
   <link>https://izz.ro/subiect/manchester-city/</link>
   <atom:link href="https://izz.ro/subiect/manchester-city/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Manchester City pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Pep Guardiola a confirmat că rămâne la clubul său actual</title>
       <link>https://izz.ro/sport/pep-guardiola-a-confirmat-ca-ramane-la-clubul-sau-actual/</link>
       <guid>https://izz.ro/sport/pep-guardiola-a-confirmat-ca-ramane-la-clubul-sau-actual/</guid>
       <pubDate>Thu, 08 Oct 2026 08:02:01 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/liga-campionilor/pep-guardiola-a-confirmat-vreau-ca-fiecare-fan-sa-stie-ca-sunt-aici.html">Sport.ro</source>
+      <media:content url="https://izz.ro/sport/pep-guardiola-a-confirmat-ca-ramane-la-clubul-sau-actual/cover.jpg?v=3e323e42" medium="image" type="image/jpeg"/>
       <description>După despărțirea din vară de Manchester City, antrenorul Pep Guardiola a transmis un mesaj clar suporterilor, asigurându-i de prezența și implicarea sa totală la noua echipă.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/sport/autoritatile-fiscale-din-marea-britanie-au-investigat-manchester-city-inca-din/</link>
       <guid>https://izz.ro/sport/autoritatile-fiscale-din-marea-britanie-au-investigat-manchester-city-inca-din/</guid>
       <pubDate>Wed, 07 Oct 2026 16:00:24 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/ultimora/ft-manchester-city-gia-nel-2018-le-autorita-fiscali-britanniche-avevano-svolto-indagini/">FC Inter 1908</source>
+      <media:content url="https://izz.ro/sport/autoritatile-fiscale-din-marea-britanie-au-investigat-manchester-city-inca-din/cover.jpg?v=6bf0722a" medium="image" type="image/jpeg"/>
       <description>Fiscul britanic a deschis o investigație asupra clubului Manchester City în 2018. Ancheta a vizat posibile structuri societare complexe folosite pentru reducerea taxelor, fiind declanșată după scurgerea unor e-mailuri confidențiale publicate de Der Spiegel.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/extern/platforma-cripto-okx-sponsorul-lui-manchester-city-amendata-cu-504-milioane-de/</link>
       <guid>https://izz.ro/extern/platforma-cripto-okx-sponsorul-lui-manchester-city-amendata-cu-504-milioane-de/</guid>
       <pubDate>Tue, 06 Oct 2026 09:43:56 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.gsp.ro/international/campionate/manchester-city-okx-amenda-sua-985146.html">GSP</source>
       <description>Compania de criptomonede OKX, principalul sponsor al clubului Manchester City, a primit o amendă uriașă în Statele Unite din cauza nerespectării reglementărilor legale privind combaterea spălării banilor.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/sport/selectionerul-jesse-marsch-cere-retrogradarea-clubului-manchester-city/</link>
       <guid>https://izz.ro/sport/selectionerul-jesse-marsch-cere-retrogradarea-clubului-manchester-city/</guid>
       <pubDate>Mon, 05 Oct 2026 05:04:30 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/jesse-marsch-selectioner-canada-manchester-city-retrogradata-pedeapsa-maxima-20540122">ProSport</source>
       <description>Antrenorul naționalei Canadei, Jesse Marsch, solicită pedeapsa maximă pentru clubul englez Manchester City din cauza neregulilor financiare comise, considerând că clemența ar crea un precedent periculos.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/sport/manchester-city-gasita-vinovata-de-incalcarea-fairplay-ului-financiar/</link>
       <guid>https://izz.ro/sport/manchester-city-gasita-vinovata-de-incalcarea-fairplay-ului-financiar/</guid>
       <pubDate>Sun, 04 Oct 2026 17:30:40 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/anglia/acuzatii-grave-legate-de-transferul-lui-erling-haaland-la-manchester-city-ar-trebui-o-pedeapsa-severa.html">Sport.ro</source>
       <description>Gruparea engleză Manchester City a fost sancționată după ce s-a constatat că a încălcat în mod grav regulamentele privind fair-play-ul financiar impuse în fotbal.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/sport/psg-vrea-sa-il-transfere-gratuit-pe-un-star-de-la-manchester-city/</link>
       <guid>https://izz.ro/sport/psg-vrea-sa-il-transfere-gratuit-pe-un-star-de-la-manchester-city/</guid>
       <pubDate>Sun, 04 Oct 2026 12:38:02 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/franta/psg-vrea-sa-l-transfere-pe-starul-lui-manchester-city-mutarea-fara-bani.html">Sport.ro</source>
       <description>Clubul parizian pregătește mutarea unui jucător important de la Manchester City, tranzacția urmând să se realizeze fără nicio sumă de transfer plătită între cele două echipe.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/sport/manchester-city-risca-sanctiuni-severe-in-premier-league-dupa-acuzatii/</link>
       <guid>https://izz.ro/sport/manchester-city-risca-sanctiuni-severe-in-premier-league-dupa-acuzatii/</guid>
       <pubDate>Sun, 04 Oct 2026 06:32:57 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/premier-league/cum-arata-dezastrul-pentru-manchester-city-jucatorii-vor-da-in-judecata-clubul-poate-rupe-haaland-contractul-694268.html">Antena Sport</source>
       <description>Clubul englez Manchester City a fost găsit vinovat de o comisie independentă pentru numeroase nereguli financiare, riscând depunctarea sau excluderea din campionat, în timp ce reprezentanții clubului neagă acuzațiile și au contestat decizia.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/sport/paul-scholes-il-contrazice-pe-wayne-rooney-privind-trofeele-lui-manchester-city/</link>
       <guid>https://izz.ro/sport/paul-scholes-il-contrazice-pe-wayne-rooney-privind-trofeele-lui-manchester-city/</guid>
       <pubDate>Sat, 03 Oct 2026 20:53:35 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/scholes-rooney-medalie-manchester-city-2012-984473.html">GSP</source>
       <description>Fostul fotbalist Paul Scholes a exprimat opinii diferite față de coechipierul său Wayne Rooney, susținând că și-ar dori să primească retroactiv medalia din sezonul 2011-2012 dacă Manchester City va fi sancționată.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/extern/amenintari-privind-retragerea-unor-investitii-britanice-din-cauza-manchester/</link>
       <guid>https://izz.ro/extern/amenintari-privind-retragerea-unor-investitii-britanice-din-cauza-manchester/</guid>
       <pubDate>Sat, 03 Oct 2026 16:23:25 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/sport/fotbal/eau-il-ameninta-pe-premierul-britanic-ca-vor-retrage-investitii-de-miliarde-de-lire-dupa-acuzatiile-impotriva-manchester-city-presa-3976491">Digi24 Extern</source>
       <description>Emiratele Arabe Unite ar putea retrage miliarde de lire investite în Marea Britanie, ca reacție la acuzațiile financiare grave formulate împotriva clubului de fotbal Manchester City.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/sport/manchester-city-a-folosit-cinci-jucatori-achizitionati-cu-bugete-inflatate-in/</link>
       <guid>https://izz.ro/sport/manchester-city-a-folosit-cinci-jucatori-achizitionati-cu-bugete-inflatate-in/</guid>
       <pubDate>Thu, 01 Oct 2026 18:19:16 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/ultimora/man-city-gli-acquisti-top-coi-bilanci-gonfiati-5-erano-in-campo-nella-finale-contro-linter/">FC Inter 1908</source>
       <description>Presa italiană notează că cinci fotbaliști transferați de Manchester City prin metode financiare suspecte au evoluat în finala Ligii Campionilor împotriva celor de la Inter Milano.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/sport/jurnalistul-enzo-bucchioni-comenteaza-scandalul-financiar-al-clubului/</link>
       <guid>https://izz.ro/sport/jurnalistul-enzo-bucchioni-comenteaza-scandalul-financiar-al-clubului/</guid>
       <pubDate>Thu, 01 Oct 2026 13:20:35 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/social/bucchioni-sbilancia-champions-cartone-moratti-direbbe-se-fossi-tifoso-inter/">FC Inter 1908</source>
       <description>Presupusele încălcări ale regulilor fair-play-ului financiar comise de Manchester City au generat reacții puternice în presa sportivă italiană. Comentatorul Enzo Bucchioni analizează consecințele acestui scandal asupra competițiilor europene.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/sport/barcelona-monitorizeaza-situatia-lui-erling-haaland-la-manchester-city/</link>
       <guid>https://izz.ro/sport/barcelona-monitorizeaza-situatia-lui-erling-haaland-la-manchester-city/</guid>
       <pubDate>Thu, 01 Oct 2026 12:21:33 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/premier-league/barca-a-aflat-conditiile-in-care-il-poate-transfera-pe-haaland-dupa-scandalul-cu-man-city-alte-doua-cluburi-pregatesc-ofertele-693358.html">Antena Sport</source>
       <description>Clubul catalan analizează posibilitatea de a-l transfera pe atacantul norvegian. Actuala campionă din Premier League riscă o retrogradare în urma unor scandaluri financiare majore, situație ce poate genera plecarea vedetelor.</description>
     </item>
     <item>
@@ -95,6 +121,8 @@
       <link>https://izz.ro/sport/premierul-britanic-isi-exprima-ingrijorarea-privind-vanzarea-clubului/</link>
       <guid>https://izz.ro/sport/premierul-britanic-isi-exprima-ingrijorarea-privind-vanzarea-clubului/</guid>
       <pubDate>Thu, 01 Oct 2026 09:35:53 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.politico.eu/article/burnham-really-concerned-if-man-city-owners-sell-up-after-rule-breaches/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Liderul britanic Andy Burnham a declarat că ar fi extrem de îngrijorat dacă proprietarii din Emirate ar vinde clubul după încălcarea regulilor financiare.</description>
     </item>
     <item>
@@ -102,6 +130,8 @@
       <link>https://izz.ro/sport/presa-britanica-critica-dur-finantele-clubului-manchester-city/</link>
       <guid>https://izz.ro/sport/presa-britanica-critica-dur-finantele-clubului-manchester-city/</guid>
       <pubDate>Wed, 30 Sep 2026 18:37:29 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/ultimora/manchester-city-the-athletic-retrocessione-verdetto-900-milioni/">FC Inter 1908</source>
       <description>Jurnaliștii de la The Athletic au publicat un articol vehement privind neregulile financiare și contractele de sponsorizare de 950 de milioane de lire sterline ale clubului englez.</description>
     </item>
     <item>
@@ -109,6 +139,8 @@
       <link>https://izz.ro/sport/pep-guardiola-isi-reafirma-sprijinul-total-pentru-manchester-city-in-urma/</link>
       <guid>https://izz.ro/sport/pep-guardiola-isi-reafirma-sprijinul-total-pentru-manchester-city-in-urma/</guid>
       <pubDate>Wed, 30 Sep 2026 13:15:42 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/ultimora/manchester-city-guardiola-saro-sempre-accanto-al-mio-club-ce-la-faremo-insieme/">FC Inter 1908</source>
       <description>Antrenorul spaniol a transmis un mesaj ferm suporterilor, garantând că va rămâne alături de clubul englez indiferent de sancțiunile primite pentru încălcarea regulilor financiare din Premier League.</description>
     </item>
     <item>
@@ -116,6 +148,8 @@
       <link>https://izz.ro/sport/pep-guardiola-a-transmis-un-mesaj-de-sustinere-pentru-manchester-city/</link>
       <guid>https://izz.ro/sport/pep-guardiola-a-transmis-un-mesaj-de-sustinere-pentru-manchester-city/</guid>
       <pubDate>Wed, 30 Sep 2026 12:51:20 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/anglia/mesajul-lui-pep-guardiola-dupa-verdictul-primit-de-manchester-city-sa-fie-clar.html">Sport.ro, Antena Sport, GSP</source>
       <description>Fostul antrenor al echipei Manchester City, Pep Guardiola, a oferit o declarație de susținere necondiționată pentru clubul englez, după ce acesta a fost găsit vinovat de încălcarea gravă a regulamentului privind fair-play-ul financiar în perioada 2009-2018, fiind vizat de acuzații majore.</description>
     </item>
     <item>
@@ -123,6 +157,8 @@
       <link>https://izz.ro/sport/guido-vaciago-vorbeste-despre-posibilele-sanctiuni-pentru-manchester-city/</link>
       <guid>https://izz.ro/sport/guido-vaciago-vorbeste-despre-posibilele-sanctiuni-pentru-manchester-city/</guid>
       <pubDate>Wed, 30 Sep 2026 12:40:38 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/news/gossip-e-curiosita/vaciago-manchester-city-sanzioni-mi-arriva-questa-indiscrezione/">FC Inter 1908</source>
       <description>Jurnalistul Guido Vaciago a comentat la Radio Sportiva posibilele sancțiuni cu care se confruntă Manchester City după încălcarea normelor financiare stabilite în Premier League.</description>
     </item>
     <item>
@@ -130,6 +166,8 @@
       <link>https://izz.ro/sport/micah-richards-este-dezamagit-de-sanctiunile-primite-de-manchester-city/</link>
       <guid>https://izz.ro/sport/micah-richards-este-dezamagit-de-sanctiunile-primite-de-manchester-city/</guid>
       <pubDate>Wed, 30 Sep 2026 12:22:48 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/micah-richards-as-fi-murit-pentru-manchester-city-absolut-devastator-983455.html">GSP</source>
       <description>Fostul fundaș englez s-a declarat trist și confuz după ce clubul său de suflet a fost găsit vinovat de încălcări financiare grave în Premier League pe parcursul a nouă sezoane.</description>
     </item>
     <item>
@@ -137,6 +175,8 @@
       <link>https://izz.ro/sport/rui-pinto-denuntatorul-digital-care-a-zguduit-fotbalul-european/</link>
       <guid>https://izz.ro/sport/rui-pinto-denuntatorul-digital-care-a-zguduit-fotbalul-european/</guid>
       <pubDate>Wed, 30 Sep 2026 10:02:55 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://cvlpress.ro/30.09.2026/rui-pinto-denuntatorul-care-a-pus-o-pe-manchester-city-in-genunchi/">Cuvântul Libertății</source>
       <description>Rui Pinto, în vârstă de 37 de ani, a expus nereguli majore din fotbalul internațional prin dezvăluiri din apartamentul său din Budapesta, devenind o figură centrală în anchetele privind cluburile și agenții.</description>
     </item>
     <item>
@@ -144,6 +184,8 @@
       <link>https://izz.ro/sport/manchester-city-a-continuat-investitiile-masive-in-despitele-riscurilor/</link>
       <guid>https://izz.ro/sport/manchester-city-a-continuat-investitiile-masive-in-despitele-riscurilor/</guid>
       <pubDate>Tue, 29 Sep 2026 21:08:38 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.digi24.ro/stiri/sport/fotbal/manchester-city-ar-fi-cheltuit-sume-uriase-pe-piata-transferurilor-desi-clubul-era-constient-ca-incalca-regulamentul-financiar-3970373">Digi24</source>
       <description>Gruparea engleză ar fi alocat peste 500 de milioane de euro pentru transferurile estivale, deși conducerea clubului avea cunoștință despre presupuse încălcări ale regulamentului financiar fair-play.</description>
     </item>
     <item>
@@ -151,6 +193,8 @@
       <link>https://izz.ro/sport/manchester-city-gasit-vinovat-pentru-incalcarea-regulilor-financiare/</link>
       <guid>https://izz.ro/sport/manchester-city-gasit-vinovat-pentru-incalcarea-regulilor-financiare/</guid>
       <pubDate>Tue, 29 Sep 2026 18:12:27 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.economica.net/clubul-de-fotbal-manchester-city-a-fost-gasit-vinovat-ca-a-incalcat-sistematic-si-grav-reglementarile-financiare-in-perioada-2009-2018_981061.html">Economica</source>
       <description>Premier League a stabilit că gruparea engleză a încălcat sistematic reglementările financiare timp de un deceniu. Clubul contestă acuzațiile și urmează să primească o sancțiune.</description>
     </item>
     <item>
@@ -158,6 +202,8 @@
       <link>https://izz.ro/sport/fostul-fotbalist-courtney-meppen-walter-a-decedat-la-varsta-de-32-de-ani/</link>
       <guid>https://izz.ro/sport/fostul-fotbalist-courtney-meppen-walter-a-decedat-la-varsta-de-32-de-ani/</guid>
       <pubDate>Tue, 29 Sep 2026 15:48:54 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/fostul-mare-talent-al-lui-manchester-city-a-decedat-la-32-de-ani-in-2013-era-arestat-dupa-ce-ucidea-doua-persoane-983201.html">GSP</source>
       <description>Fostul internațional de juniori englez Courtney Meppen-Walter, crescut în academia clubului Manchester City, a încetat din viață la 32 de ani, vestea fiind confirmată oficial de clubul Bury.</description>
     </item>
     <item>
@@ -165,6 +211,8 @@
       <link>https://izz.ro/sport/leicester-city-solicita-daune-de-1-miliard-de-euro-de-la-manchester-city/</link>
       <guid>https://izz.ro/sport/leicester-city-solicita-daune-de-1-miliard-de-euro-de-la-manchester-city/</guid>
       <pubDate>Tue, 29 Sep 2026 07:26:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/anglia/leicester-city-vrea-daune-de-1-miliard-de-euro-dupa-ce-manchester-city-a-lasat-o-in-afara-champions-league-in-2020.html">Sport.ro</source>
       <description>Clubul englez aflat în League One cere despuneri masive, acuzând că rivalii de la Manchester City au încălcat în mod repetat regulamentele financiare, lăsându-i în afara Ligii Campionilor în sezonul 2020 fără a fi sancționați.</description>
     </item>
     <item>
@@ -172,6 +220,8 @@
       <link>https://izz.ro/sport/oficialii-clubului-manchester-city-mentin-o-pozitie-ferma-dupa-verdictul-de/</link>
       <guid>https://izz.ro/sport/oficialii-clubului-manchester-city-mentin-o-pozitie-ferma-dupa-verdictul-de/</guid>
       <pubDate>Tue, 29 Sep 2026 07:02:23 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/premier-league/ceo-ul-lui-man-city-sfidator-in-fata-rivalilor-daca-a-durat-8-ani-sa-ajungem-aici-692800.html">Antena Sport</source>
       <description>Conducerea echipei Manchester City continuă să transmită mesaje sfidătoare în spaţiul public, în timp ce lumea fotbalului aşteaptă măsurile oficiale din partea Premier League.</description>
     </item>
     <item>
@@ -179,6 +229,8 @@
       <link>https://izz.ro/sport/atacantul-cody-gakpo-s-a-accidentat-la-nationala-provocand-o-criza-de-lot-la/</link>
       <guid>https://izz.ro/sport/atacantul-cody-gakpo-s-a-accidentat-la-nationala-provocand-o-criza-de-lot-la/</guid>
       <pubDate>Sun, 27 Sep 2026 17:34:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/pauza-internationala-horror-pentru-liverpool-dupa-isak-s-a-accidentat-si-cody-gakpo-692311.html">Antena Sport</source>
       <description>După problemele medicale suferite de Alexander Isak, gruparea FC Liverpool a pierdut un nou titular important, Cody Gakpo, accidentat în meciul Serbiei cu Olanda.</description>
     </item>
     <item>
@@ -186,6 +238,8 @@
       <link>https://izz.ro/sport/roy-keane-a-criticat-dur-clubul-manchester-city-pentru-frauda-financiara/</link>
       <guid>https://izz.ro/sport/roy-keane-a-criticat-dur-clubul-manchester-city-pentru-frauda-financiara/</guid>
       <pubDate>Sun, 27 Sep 2026 13:50:16 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://stirileprotv.ro/stiri/sport/roy-keane-critici-dure-la-adresa-lui-manchester-city-merita-sa-fie-sanc-ionat-pentru-ca-a-trisat-cu-buna-stiin-a.html">Știrile ProTV</source>
       <description>Fostul fotbalist Roy Keane a lansat acuzații dure la adresa clubului Manchester City, considerând că echipa merită sancțiuni aspre după ce a fost găsită vinovată de încălcarea regulamentului financiar.</description>
     </item>
     <item>
@@ -193,13 +247,8 @@
       <link>https://izz.ro/sport/roy-keane-cere-sanctiuni-aspre-pentru-manchester-city/</link>
       <guid>https://izz.ro/sport/roy-keane-cere-sanctiuni-aspre-pentru-manchester-city/</guid>
       <pubDate>Sun, 27 Sep 2026 13:31:33 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/premier-league/sa-fie-sanctionati-au-ales-sa-triseze-legenda-rivalei-lui-city-cere-o-pedeapsa-aspra-pentru-cetateni-e-socant-692205.html">Antena Sport</source>
       <description>Fostul fotbalist Roy Keane a criticat dur clubul Manchester City după ce a fost găsit vinovat de încălcarea regulamentului financiar din Premier League, cerând o pedeapsă severă pentru fraudă.</description>
-    </item>
-    <item>
-      <title>Manchester City a primit verdictul preliminar în cazul celor 115 acuzații</title>
-      <link>https://izz.ro/sport/manchester-city-a-primit-verdictul-preliminar-in-cazul-celor-115-acuzatii/</link>
-      <guid>https://izz.ro/sport/manchester-city-a-primit-verdictul-preliminar-in-cazul-celor-115-acuzatii/</guid>
-      <pubDate>Sat, 26 Sep 2026 17:15:41 +0000</pubDate>
-      <description>Un tribunal independent a găsit Manchester City vinovată pentru majoritatea acuzațiilor de încălcare a regulilor financiare, urmând ca procedura să continue prin depunerea unui apel.</description>
     </item>
 </channel></rss>

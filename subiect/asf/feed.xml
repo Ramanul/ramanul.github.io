@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>ASF — IZZ.ro</title>
   <link>https://izz.ro/subiect/asf/</link>
   <atom:link href="https://izz.ro/subiect/asf/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ASF pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Activele fondurilor de pensii private din România au ajuns la 246 miliarde lei</title>
       <link>https://izz.ro/economic/activele-fondurilor-de-pensii-private-din-romania-au-ajuns-la-246-miliarde-lei/</link>
       <guid>https://izz.ro/economic/activele-fondurilor-de-pensii-private-din-romania-au-ajuns-la-246-miliarde-lei/</guid>
       <pubDate>Thu, 08 Oct 2026 08:58:36 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.ziuadevest.ro/alexandru-petrescu-presedinte-asf-sistemul-de-pensii-private-componenta-structurala-a-economiei-romanesti/">Ziua de Vest</source>
+      <media:content url="https://izz.ro/economic/activele-fondurilor-de-pensii-private-din-romania-au-ajuns-la-246-miliarde-lei/cover.jpg?v=bedbed17" medium="image" type="image/jpeg"/>
       <description>Conducerea Autorității de Supraveghere Financiară subliniază rolul esențial al sistemului de pensii private în economia națională. Activele totale au înregistrat o creștere semnificativă, reprezentând o cotă importantă din Produsul Intern Brut.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/economic/autoritatea-de-supraveghere-financiara-anunta-noi-scumpiri-pentru-politele-rca/</link>
       <guid>https://izz.ro/economic/autoritatea-de-supraveghere-financiara-anunta-noi-scumpiri-pentru-politele-rca/</guid>
       <pubDate>Thu, 08 Oct 2026 08:48:48 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://bizbrasov.ro/2026/10/08/preturi-asigurari-rca-cresc-sase-luni/">BizBrașov</source>
+      <media:content url="https://izz.ro/economic/autoritatea-de-supraveghere-financiara-anunta-noi-scumpiri-pentru-politele-rca/cover.jpg?v=de49cfa5" medium="image" type="image/jpeg"/>
       <description>Tarifele asigurărilor auto obligatorii vor continua să crească în perioada următoare, pe fondul inflației și al costurilor ridicate pentru reparații. Noile date vin după ce primele șase luni ale anului 2026 au adus deja o majorare medie de 15% a...</description>
     </item>
     <item>
@@ -25,6 +31,9 @@
       <link>https://izz.ro/economic/mii-de-reclamatii-depuse-impotriva-asiguratorilor-rca-la-asf/</link>
       <guid>https://izz.ro/economic/mii-de-reclamatii-depuse-impotriva-asiguratorilor-rca-la-asf/</guid>
       <pubDate>Wed, 07 Oct 2026 21:08:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/insider/auto-transporturi/exclusiv-reclamatiile-soferilor-rezolvate-asiguratorii-rca-cele-multe-plangeri-pagubiti-aproape-3-750-reclamatii-depuse-asf-opt-luni-foarte-multe-solutii-nefavorabile-lista-22808475?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/economic/mii-de-reclamatii-depuse-impotriva-asiguratorilor-rca-la-asf/cover.jpg?v=1f10474e" medium="image" type="image/jpeg"/>
       <description>Păgubiții RCA au înregistrat aproape 3.750 de plângeri la ASF în primele opt luni, acuzând plata parțială sau refuzul despăgubirilor, nivelul ajungând la 70% din totalul sesizărilor din anul precedent.</description>
     </item>
     <item>
@@ -32,6 +41,9 @@
       <link>https://izz.ro/economic/preturile-politelor-rca-au-crescut-cu-15-in-prima-jumatate-a-anului/</link>
       <guid>https://izz.ro/economic/preturile-politelor-rca-au-crescut-cu-15-in-prima-jumatate-a-anului/</guid>
       <pubDate>Wed, 07 Oct 2026 19:17:05 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/vesti-proaste-pentru-soferi-datele-oficiale-care-arata-ca-vor-plati-tot-mai-mult-pe-rca-pretul-a-crescut-deja-cu-15-tras-inainte-de-inflatie-top-preturi-mici_983675.html">Economica</source>
+      <media:content url="https://izz.ro/economic/preturile-politelor-rca-au-crescut-cu-15-in-prima-jumatate-a-anului/cover.jpg?v=eb37c8a6" medium="image" type="image/jpeg"/>
       <description>Datele publicate de Autoritatea de Supraveghere Financiară arată că șoferii plătesc sume considerabil mai mari pentru asigurările auto, alimentate de inflație și de scumpirea reparațiilor tehnice.</description>
     </item>
     <item>
@@ -39,6 +51,8 @@
       <link>https://izz.ro/politic/alexandru-petrescu-participa-la-reuniunea-esma-de-la-paris-pentru-discutii/</link>
       <guid>https://izz.ro/politic/alexandru-petrescu-participa-la-reuniunea-esma-de-la-paris-pentru-discutii/</guid>
       <pubDate>Wed, 07 Oct 2026 11:22:34 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.ziuadevest.ro/alexandru-petrescu-asf-la-paris-dialog-european-privind-viitorul-pietelor-de-capital/">Ziua de Vest</source>
       <description>Șeful ASF ia parte la ședința Consiliului Supraveghetorilor din cadrul Autorității Europene pentru Valori Mobiliare și Piețe. Agenda include reglementarea finanțelor digitale, implementarea normelor MiCA și convergența supravegherii financiare.</description>
     </item>
     <item>
@@ -46,6 +60,8 @@
       <link>https://izz.ro/economic/noi-programe-de-educatie-financiara-lansate-pentru-elevi-studenti-si-profesori/</link>
       <guid>https://izz.ro/economic/noi-programe-de-educatie-financiara-lansate-pentru-elevi-studenti-si-profesori/</guid>
       <pubDate>Tue, 06 Oct 2026 17:16:21 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/isf-asf-si-afer-lanseaza-noi-editii-ale-programelor-de-educatie-financiara-acestea-sunt-destinate-elevilor-studentilor-si-cadrelor-didactice.html">Economedia</source>
       <description>Institutul de Studii Financiare, alături de ASF și AFER, a pus la dispoziție un pachet educațional dedicat școlilor și universităților, menit să îmbunătățească cunoștințele economice ale elevilor, studenților și cadrelor didactice.</description>
     </item>
     <item>
@@ -53,6 +69,8 @@
       <link>https://izz.ro/economic/asf-promoveaza-dezvoltarea-unei-piete-de-capital-competitive-in-europa-centrala/</link>
       <guid>https://izz.ro/economic/asf-promoveaza-dezvoltarea-unei-piete-de-capital-competitive-in-europa-centrala/</guid>
       <pubDate>Fri, 02 Oct 2026 12:36:23 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.ziuadevest.ro/alexandru-petrescu-presedinte-asf-consolidarea-unei-piete-de-capital-competitive-in-europa-centrala-si-de-est/">Ziua de Vest</source>
       <description>Președintele Autorității de Supraveghere Financiară, Alexandru Petrescu, a participat la un eveniment financiar regional pentru a discuta despre reziliența economică și atragerea de capital alături de instituții globale de rating.</description>
     </item>
     <item>
@@ -60,6 +78,8 @@
       <link>https://izz.ro/economic/preturile-politelor-rca-au-crescut-cu-21-in-trimestrul-al-doilea-din-2026/</link>
       <guid>https://izz.ro/economic/preturile-politelor-rca-au-crescut-cu-21-in-trimestrul-al-doilea-din-2026/</guid>
       <pubDate>Fri, 02 Oct 2026 10:18:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/insider/auto-transporturi/oficial-cat-au-crescut-preturile-rca-soferii-de-autoturisme-au-platit-in-medie-in-t2-aproape-2-100-de-lei-cu-21-mai-mult-decat-anul-trecut-explicatiile-asf-22798341?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Conform unui raport al ASF, prima medie pentru asigurarea obligatorie auto a ajuns la 2.093 de lei în T2 2026. Aceasta reprezintă o majorare de 21% comparativ cu perioada similară a anului anterior.</description>
     </item>
     <item>
@@ -67,6 +87,8 @@
       <link>https://izz.ro/economic/asf-a-amendat-compania-padrom-pentru-nereguli-la-politele-de-locuinte/</link>
       <guid>https://izz.ro/economic/asf-a-amendat-compania-padrom-pentru-nereguli-la-politele-de-locuinte/</guid>
       <pubDate>Thu, 01 Oct 2026 21:12:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/financiar/asigurari/document-premiera-asf-a-amendat-compania-care-emite-polite-de-asigurare-obligatorie-a-locuintelor-22796681?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Autoritatea de Supraveghere Financiară a sancționat cu 44.700 de lei societatea PADROM, care emite asigurările obligatorii pentru locuințe, din cauza întârzierilor la plata daunelor și a evaluării deficitare a clienților.</description>
     </item>
     <item>
@@ -74,6 +96,8 @@
       <link>https://izz.ro/economic/asf-pregateste-modificarea-regulamentului-5-2018-pentru-piata-de-capital/</link>
       <guid>https://izz.ro/economic/asf-pregateste-modificarea-regulamentului-5-2018-pentru-piata-de-capital/</guid>
       <pubDate>Wed, 30 Sep 2026 13:02:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/opinii/opinii-regula-buna-este-cea-care-functioneaza-si-in-piata-cum-modificam-regulamentul-asf-nr-5-2018-pentru-a-l-adapta-la-noile-realitati-ale-pietei-de-capital-22794204?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Prim-vicepreședintele ASF, Gabriel-Ioan Avrămescu, anunță schimbări legislative menite să protejeze investitorii și să elimine barierele birocratice care frânează dezvoltarea bursei de valori.</description>
     </item>
     <item>
@@ -81,6 +105,8 @@
       <link>https://izz.ro/economic/hellas-direct-atrage-tot-mai-multi-soferi-romani-pe-piata-rca-in-ciuda/</link>
       <guid>https://izz.ro/economic/hellas-direct-atrage-tot-mai-multi-soferi-romani-pe-piata-rca-in-ciuda/</guid>
       <pubDate>Mon, 28 Sep 2026 19:31:14 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/preturile-rca-s-au-calmat-in-sfarsit-hd-firma-din-afara-tarii-cu-care-scapa-de-grija-rca-tot-mai-multi-soferi-date-in-premiera_980657.html">Economica</source>
       <description>Compania asiguratoare autorizată în Cipru își continuă expansiunea pe piața polițelor obligatorii din România. Creșterea tarifelor medii din septembrie nu a oprit fluxul clienților care aleg această firmă ieftină pentru asigurări.</description>
     </item>
     <item>
@@ -88,6 +114,8 @@
       <link>https://izz.ro/economic/alexandru-petrescu-sustine-ca-piata-de-capital-din-romania-are-resurse/</link>
       <guid>https://izz.ro/economic/alexandru-petrescu-sustine-ca-piata-de-capital-din-romania-are-resurse/</guid>
       <pubDate>Mon, 28 Sep 2026 06:00:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/special/piata-capital-oglindeste-capacitatea-economiei-atrage-capital-crea-oportunitati-bursa-mare-ambitia-capitalului-romanesc-bani-sunt-foarte-multi-bani-piata-23247686">Ziarul Financiar</source>
       <description>Șeful ASF, Alexandru Petrescu, afirmă că bursa românească dispune de fonduri substanțiale și reflectă potențialul economic de atragere a capitalului, în pofida provocărilor recente din piață.</description>
     </item>
 </channel></rss>

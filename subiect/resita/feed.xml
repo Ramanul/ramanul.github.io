@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Reșița — IZZ.ro</title>
   <link>https://izz.ro/subiect/resita/</link>
   <atom:link href="https://izz.ro/subiect/resita/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Reșița pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Clubul Reșița 07 a obținut zeci de medalii la înot masters</title>
       <link>https://izz.ro/sport/clubul-resita-07-a-obtinut-zeci-de-medalii-la-inot-masters/</link>
       <guid>https://izz.ro/sport/clubul-resita-07-a-obtinut-zeci-de-medalii-la-inot-masters/</guid>
       <pubDate>Wed, 07 Oct 2026 11:59:12 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://expressdebanat.ro/48-de-medalii-de-aur-castigate-de-resita-07-la-memorial-ioan-schuster-concursul-de-inot-masters/">Express de Banat</source>
       <description>Sportivii de la Reșița 07 au cucerit numeroase distincții, inclusiv 48 de medalii de aur la probele individuale, în cadrul celei de-a XII-a ediții a concursului Memorial Ioan Schuster.</description>
     </item>
     <item>
@@ -18,6 +20,8 @@
       <link>https://izz.ro/local/alimentarea-cu-apa-potabila-a-fost-intrerupta-pe-calea-caransebesului-si-valea/</link>
       <guid>https://izz.ro/local/alimentarea-cu-apa-potabila-a-fost-intrerupta-pe-calea-caransebesului-si-valea/</guid>
       <pubDate>Wed, 07 Oct 2026 11:21:47 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/calea-caransebesului-si-valea-terovei-din-resita-raman-fara-apa-avarie/">Express de Banat</source>
       <description>Compania Aquacaraș execută lucrări de urgență pentru remedierea unei avarii majore apărute la rețea. Consumatorii din zonele afectate au rămas fără servicii de alimentare până la finalizarea reparațiilor.</description>
     </item>
     <item>
@@ -25,6 +29,8 @@
       <link>https://izz.ro/local/medicul-cosmin-librimir-candideaza-la-conducerea-spitalului-din-resita/</link>
       <guid>https://izz.ro/local/medicul-cosmin-librimir-candideaza-la-conducerea-spitalului-din-resita/</guid>
       <pubDate>Wed, 07 Oct 2026 10:04:33 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/medicul-librimir-a-picat-examenul-in-fata-comisiei-de-malpraxis-dar-vrea-sefia-spitalului-in-care-i-a-murit-pacientul/">Express de Banat</source>
       <description>Doctorul vrea să devină managerul spitalului unde a tratat un pacient decedat, caz în care Comisia de malpraxis a constatat oficial erori profesionale, legislația permițând această candidatură.</description>
     </item>
     <item>
@@ -32,6 +38,8 @@
       <link>https://izz.ro/judetean/seism-de-suprafata-inregistrat-in-vestul-romaniei/</link>
       <guid>https://izz.ro/judetean/seism-de-suprafata-inregistrat-in-vestul-romaniei/</guid>
       <pubDate>Wed, 07 Oct 2026 06:19:55 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.bihon.ro/stirile-judetului-bihor/cutremur-in-vestul-tarii-la-aproximativ-110-kilometri-de-oradea-ce-magnitudine-a-avut-seismul-5422023/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Un cutremur cu magnitudinea de 2,8 s-a produs la o adâncime de cinci kilometri, având epicentrul localizat în județul Arad, la mică distanță de mai multe orașe din regiune.</description>
     </item>
     <item>
@@ -39,6 +47,8 @@
       <link>https://izz.ro/local/cartierul-stavila-din-resita-ramane-fara-apa-potabila-din-cauza-unei-avarii/</link>
       <guid>https://izz.ro/local/cartierul-stavila-din-resita-ramane-fara-apa-potabila-din-cauza-unei-avarii/</guid>
       <pubDate>Wed, 07 Oct 2026 05:41:38 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/cartierul-stavila-din-resita-ramane-fara-apa-avarie/">Express de Banat</source>
       <description>Compania Aquacaraș execută lucrări de remediere a unei defecțiuni apărute la rețeaua de alimentare, sistând furnizarea apei pentru consumatorii din zona menționată până la finalizarea intervenției.</description>
     </item>
     <item>
@@ -46,6 +56,8 @@
       <link>https://izz.ro/general/primarul-resitei-respinge-acuzatiile-ong-ului-agent-green-privind-proiectul/</link>
       <guid>https://izz.ro/general/primarul-resitei-respinge-acuzatiile-ong-ului-agent-green-privind-proiectul/</guid>
       <pubDate>Tue, 06 Oct 2026 12:10:36 +0000</pubDate>
+      <category>general</category>
+      <source url="https://expressdebanat.ro/pe-partiile-de-pe-semenic-nelu-popa-slalomeaza-printre-minciunile-si-mizeriile-agent-green/">Express de Banat</source>
       <description>Edilul Nelu Popa contrazice afirmațiile ecologiștilor legate de blocarea finanțării pentru complexul turistic Semenic, susținând că există oferte bancare concrete pentru continuarea lucrărilor.</description>
     </item>
     <item>
@@ -53,6 +65,8 @@
       <link>https://izz.ro/local/critici-aduse-primarului-din-resita-privind-starea-orasului-si-aliantele/</link>
       <guid>https://izz.ro/local/critici-aduse-primarului-din-resita-privind-starea-orasului-si-aliantele/</guid>
       <pubDate>Sat, 03 Oct 2026 07:43:25 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/nelu-popa-si-golaneala-politica/">Express de Banat</source>
       <description>Cartierul Micro IV din Reșița se confruntă cu probleme majore de infrastructură și iluminat, în timp ce edilul local este criticat pentru sprijinul acordat conducerii centrale a partidului său.</description>
     </item>
     <item>
@@ -60,6 +74,8 @@
       <link>https://izz.ro/local/primaria-resita-incetineste-lucrarile-la-campusul-dual/</link>
       <guid>https://izz.ro/local/primaria-resita-incetineste-lucrarile-la-campusul-dual/</guid>
       <pubDate>Sat, 03 Oct 2026 04:00:23 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/constructorul-campusului-dual-de-la-resita-la-fara-frecventa/">Express de Banat</source>
       <description>Din cauza epuizării fondurilor din PNRR înainte de finalizare, municipalitatea din Reșița a solicitat constructorului diminuarea ritmului de lucru până la identificarea unei noi surse de finanțare bugetară.</description>
     </item>
     <item>
@@ -67,6 +83,8 @@
       <link>https://izz.ro/politic/nelu-popa-ii-ia-apararea-lui-ilie-bolojan-dupa-audierea-de-la-dna/</link>
       <guid>https://izz.ro/politic/nelu-popa-ii-ia-apararea-lui-ilie-bolojan-dupa-audierea-de-la-dna/</guid>
       <pubDate>Fri, 02 Oct 2026 13:28:05 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://expressdebanat.ro/nelu-popa-dupa-audierea-lui-bolojan-la-dna-un-adevarat-patriot-golanii-politici-si-ticalosii-il-terfelesc-de-mai-bine-de-un-an/">Express de Banat</source>
       <description>Edilul Reșiței a transmis un mesaj dur la adresa criticilor, lăudând etica profesională și capacitatea de muncă a lui Ilie Bolojan în urma prezenței acestuia la DNA Iași.</description>
     </item>
     <item>
@@ -74,6 +92,8 @@
       <link>https://izz.ro/local/un-tanar-din-resita-trimis-in-judecata-pentru-act-sexual-cu-un-minor/</link>
       <guid>https://izz.ro/local/un-tanar-din-resita-trimis-in-judecata-pentru-act-sexual-cu-un-minor/</guid>
       <pubDate>Fri, 02 Oct 2026 11:11:11 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.pressalert.ro/2026/10/tanar-trimis-in-judecata-pentru-act-sexual-cu-un-minor-la-cinci-ani-de-la-comiterea-faptei/">PressAlert Timișoara</source>
       <description>Parchetul de pe lângă Judecătoria Reșița l-a trimis în judecată pe un bărbat de 22 de ani pentru o faptă de act sexual cu un minor comisă în data de 20 august 2021, la cinci ani după producerea incidentului.</description>
     </item>
     <item>
@@ -81,6 +101,8 @@
       <link>https://izz.ro/local/un-autoturism-s-a-rasturnat-in-raul-barzava-din-resita-provocand-doi-raniti/</link>
       <guid>https://izz.ro/local/un-autoturism-s-a-rasturnat-in-raul-barzava-din-resita-provocand-doi-raniti/</guid>
       <pubDate>Fri, 02 Oct 2026 08:40:32 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/autoturism-rasturnat-in-raul-barzava-doi-raniti/">Express de Banat</source>
       <description>Un șofer de 28 de ani a pierdut controlul volanului într-o curbă periculoasă de pe strada Țerovei, mașina căzând direct în albia râului.</description>
     </item>
     <item>
@@ -88,6 +110,8 @@
       <link>https://izz.ro/local/criza-locurilor-in-capelele-funerare-din-resita/</link>
       <guid>https://izz.ro/local/criza-locurilor-in-capelele-funerare-din-resita/</guid>
       <pubDate>Thu, 01 Oct 2026 04:30:02 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/la-resita-mortii-nu-mai-au-loc-in-capele-priveghiul-costa-peste-100-de-euro-pe-metrul-patrat/">Express de Banat</source>
       <description>Primăria Reșița intenționează să achiziționeze un teren scump pentru a extinde spațiile funerare, deoarece capelele actuale sunt supraaglomerate din cauza numărului ridicat de decedați.</description>
     </item>
     <item>
@@ -95,6 +119,8 @@
       <link>https://izz.ro/local/clinica-vestmed-din-resita-angajeaza-receptioner/</link>
       <guid>https://izz.ro/local/clinica-vestmed-din-resita-angajeaza-receptioner/</guid>
       <pubDate>Wed, 30 Sep 2026 10:21:50 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/clinica-vestmed-resita-isi-extinde-echipa-se-cauta-receptioner-receptionera/">Express de Banat</source>
       <description>Centrul medical privat Vestmed din Reșița își extinde echipa și recrutează un recepționer organizat și comunicativ, orientat spre relația cu pacienții și oferirea unui serviciu medical de calitate.</description>
     </item>
     <item>
@@ -102,6 +128,8 @@
       <link>https://izz.ro/local/optsprezece-trasee-de-drumetie-recomandate-in-banatul-montan-pentru-sezonul-de/</link>
       <guid>https://izz.ro/local/optsprezece-trasee-de-drumetie-recomandate-in-banatul-montan-pentru-sezonul-de/</guid>
       <pubDate>Wed, 30 Sep 2026 04:45:34 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.tion.ro/turism/foto-18-idei-de-drumetii-in-banatul-montan-pentru-aceasta-toamna-de-la-plimbari-usoare-la-trasee-pentru-turisti-experimentati-2362458/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Comunitatea Banatul Montan propune turiștilor 18 rute de drumeție în zone precum Reșița, Cazanele Dunării, Cheile Nerei, Băile Herculane și masivele Semenic sau Țarcu, adaptate pentru toate nivelurile de experiență.</description>
     </item>
     <item>
@@ -109,6 +137,8 @@
       <link>https://izz.ro/local/conferinta-smartbanat-2026-debuteaza-la-resita-cu-accent-pe-mobilitatea-urbana/</link>
       <guid>https://izz.ro/local/conferinta-smartbanat-2026-debuteaza-la-resita-cu-accent-pe-mobilitatea-urbana/</guid>
       <pubDate>Tue, 29 Sep 2026 11:26:11 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/resita-devine-laboratorul-mobilitatii-inteligente-smart-mobility-in-smart-cities-doua-zile-de-dialog-despre-orasele-care-se-misca-altfel/">Express de Banat</source>
       <description>Specialiști în transporturi și tehnologie se reunesc timp de două zile la Reșița, în cadrul conferinței SmartBanat 2026, pentru a dezbate soluții moderne de mobilitate pentru orașele viitorului.</description>
     </item>
     <item>
@@ -116,6 +146,8 @@
       <link>https://izz.ro/local/intreruperea-furnizarii-apei-pe-doua-strazi-din-resita-din-cauza-unei-avarii/</link>
       <guid>https://izz.ro/local/intreruperea-furnizarii-apei-pe-doua-strazi-din-resita-din-cauza-unei-avarii/</guid>
       <pubDate>Tue, 29 Sep 2026 09:19:38 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/strazile-romul-ladea-si-nicolae-grigorescu-din-resita-raman-fara-apa-avarie/">Express de Banat</source>
       <description>Compania SC AQUACARAȘ SA a sistat alimentarea cu apă potabilă pe străzile Romul Ladea și Nicolae Grigorescu din Reșița pentru remedierea unei avarii majore apărute la rețeaua principală.</description>
     </item>
     <item>
@@ -123,6 +155,8 @@
       <link>https://izz.ro/local/crestere-semnificativa-a-valorii-imobilelor-dgaspc-din-caras-severin/</link>
       <guid>https://izz.ro/local/crestere-semnificativa-a-valorii-imobilelor-dgaspc-din-caras-severin/</guid>
       <pubDate>Tue, 29 Sep 2026 08:58:44 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/peste-63-milioane-de-lei-in-plus-in-patrimoniul-judetului-dupa-reevaluarea-apartamentelor-dgaspc/">Express de Banat</source>
       <description>Consiliul Județean Caraș-Severin a aprobat reevaluarea a 43 de apartamente administrate de DGASPC în Reșița și Caransebeș, a căror valoare contabilă a urcat de la 1,7 milioane la 8,1 milioane de lei.</description>
     </item>
     <item>
@@ -130,6 +164,8 @@
       <link>https://izz.ro/local/copiii-din-resita-au-fost-premiati-la-muzeul-banatului-montan-pentru-fotografii/</link>
       <guid>https://izz.ro/local/copiii-din-resita-au-fost-premiati-la-muzeul-banatului-montan-pentru-fotografii/</guid>
       <pubDate>Sun, 27 Sep 2026 07:00:02 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/copiii-resitei-premiati-la-muzeul-banatului-montan-in-cadrul-concursului-muzeul-din-cartierul-meu/">Express de Banat</source>
       <description>Muzeul Banatului Montan din Reșița a găzduit festivitatea concursului de fotografie pentru copii „Muzeul din cartierul meu”, eveniment organizat în colaborare cu Asociația Culturală ArtVibe.</description>
     </item>
     <item>
@@ -137,6 +173,8 @@
       <link>https://izz.ro/local/a-editia-a-xii-a-a-evenimentului-alergand-la-padure-sprijina-reabilitarea/</link>
       <guid>https://izz.ro/local/a-editia-a-xii-a-a-evenimentului-alergand-la-padure-sprijina-reabilitarea/</guid>
       <pubDate>Sun, 27 Sep 2026 06:00:02 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/resita-alearga-pentru-natura-comunitate-si-salvarea-serelor-uzinale-o-noua-editie-alergand-la-padure/">Express de Banat</source>
       <description>Pe 24 octombrie, iubitorii de alergare montană din Reșița participă la noua ediție a competiției de trail, având ca scop ecologic și social strângerea de fonduri pentru salvarea Serelor Uzinale din localitate.</description>
     </item>
 </channel></rss>

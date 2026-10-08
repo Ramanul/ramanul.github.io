@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>NATO — IZZ.ro</title>
   <link>https://izz.ro/subiect/nato/</link>
   <atom:link href="https://izz.ro/subiect/nato/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NATO pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Marco Rubio avertizează că războiul din Ucraina a ajuns într-un impas periculos</title>
+      <link>https://izz.ro/politic/marco-rubio-avertizeaza-ca-razboiul-din-ucraina-a-ajuns-intr-un-impas-periculos/</link>
+      <guid>https://izz.ro/politic/marco-rubio-avertizeaza-ca-razboiul-din-ucraina-a-ajuns-intr-un-impas-periculos/</guid>
+      <pubDate>Thu, 08 Oct 2026 18:49:45 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/international/marco-rubio-razboiul-ruso-ucrainean-a-ajuns-intr-un-impas-foarte-periculos-si-ar-putea-urma-sabotaje-in-ari-vecine.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/politic/marco-rubio-avertizeaza-ca-razboiul-din-ucraina-a-ajuns-intr-un-impas-periculos/cover.jpg?v=70f96731" medium="image" type="image/jpeg"/>
+      <description>Secretarul de stat american Marco Rubio a declarat că conflictul armat din Ucraina se află într-un impas periculos care riscă să provoace o escaladare a tensiunilor și campanii de sabotaj în țările vecine NATO.</description>
+    </item>
+    <item>
+      <title>NATO organizează exercițiul nuclear Steadfast Noon pentru a calma tensiunile</title>
+      <link>https://izz.ro/extern/nato-organizeaza-exercitiul-nuclear-steadfast-noon-pentru-a-calma-tensiunile/</link>
+      <guid>https://izz.ro/extern/nato-organizeaza-exercitiul-nuclear-steadfast-noon-pentru-a-calma-tensiunile/</guid>
+      <pubDate>Thu, 08 Oct 2026 17:47:53 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/nato-attempts-to-cool-tensions-with-russia-ahead-of-key-nuclear-exercise/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/nato-organizeaza-exercitiul-nuclear-steadfast-noon-pentru-a-calma-tensiunile/cover.jpg?v=84e1f9ef" medium="image" type="image/jpeg"/>
+      <description>Alianța Nord-Atlantică desfășoară manevre nucleare în Italia cu participarea a 17 aliați, încercând să transmită un mesaj de transparență către Moscova pe fondul disputelor recente.</description>
+    </item>
     <item>
       <title>Danemarca acuză Rusia de operațiuni de sabotaj împotriva industriei de apărare</title>
       <link>https://izz.ro/extern/danemarca-acuza-rusia-de-operatiuni-de-sabotaj-impotriva-industriei-de-aparare/</link>
       <guid>https://izz.ro/extern/danemarca-acuza-rusia-de-operatiuni-de-sabotaj-impotriva-industriei-de-aparare/</guid>
       <pubDate>Thu, 08 Oct 2026 12:25:27 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.europalibera.md/a/danemarca-acuza-rusia-de-sabotaje-impotriva-companiilor-care-sprijina-ucraina-foloseste-si-civili-care-au-nevoie-pur-si-simplu-de-bani/33872764.html">Europa Liberă</source>
+      <media:content url="https://izz.ro/extern/danemarca-acuza-rusia-de-operatiuni-de-sabotaj-impotriva-industriei-de-aparare/cover.jpg?v=de2f049f" medium="image" type="image/jpeg"/>
       <description>Serviciile secrete daneze avertizează că Moscova folosește cetățeni plătiți pentru a sabota companiile locale care sprijină Ucraina cu echipamente militare.</description>
     </item>
     <item>
@@ -18,6 +41,9 @@
       <link>https://izz.ro/extern/uniunea-europeana-pregateste-masuri-secrete-pentru-un-atac-hibrid-major/</link>
       <guid>https://izz.ro/extern/uniunea-europeana-pregateste-masuri-secrete-pentru-un-atac-hibrid-major/</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:25 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/ue-se-pregateste-discret-pentru-scenariul-cel-mai-2562453.html">Adevărul</source>
+      <media:content url="https://izz.ro/extern/uniunea-europeana-pregateste-masuri-secrete-pentru-un-atac-hibrid-major/cover.jpg?v=3cee5db3" medium="image" type="image/jpeg"/>
       <description>Diplomații europeni negociază crearea unor echipe speciale de urgență și alocarea de fonduri pentru gestionarea crizelor, în timp ce unele state avertizează că aceste demersuri s-ar suprapune peste atribuțiile NATO.</description>
     </item>
     <item>
@@ -25,6 +51,9 @@
       <link>https://izz.ro/extern/nato-testeaza-drone-militare-rezistente-la-bruiaj-electronic-fara-semnal-gps/</link>
       <guid>https://izz.ro/extern/nato-testeaza-drone-militare-rezistente-la-bruiaj-electronic-fara-semnal-gps/</guid>
       <pubDate>Wed, 07 Oct 2026 16:08:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/aliat/nato/dronele-care-pot-lovi-fara-gps-lectia-razboiului-din-ucraina-nato-testeaza-o-noua-generatie-de-arme-rezistente-la-bruiaj-806222.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/extern/nato-testeaza-drone-militare-rezistente-la-bruiaj-electronic-fara-semnal-gps/cover.jpg?v=11e88038" medium="image" type="image/jpeg"/>
       <description>Experiența conflictului din Ucraina determină NATO să testeze o nouă generație de drone capabile să execute misiuni de luptă în zone cu interferențe electronice puternice, fără a depinde de sistemul de navigație GPS.</description>
     </item>
     <item>
@@ -32,6 +61,9 @@
       <link>https://izz.ro/extern/bulgaria-va-achizitiona-cinci-sisteme-antiaeriene-germane-iris-t/</link>
       <guid>https://izz.ro/extern/bulgaria-va-achizitiona-cinci-sisteme-antiaeriene-germane-iris-t/</guid>
       <pubDate>Wed, 07 Oct 2026 15:26:05 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.economica.net/bulgaria-anunta-ca-va-cumpara-inca-cinci-sisteme-antiaeriene-iris-t-de-fabricatie-germana_983674.html">Economica</source>
+      <media:content url="https://izz.ro/extern/bulgaria-va-achizitiona-cinci-sisteme-antiaeriene-germane-iris-t/cover.jpg?v=a995a419" medium="image" type="image/jpeg"/>
       <description>Guvernul de la Sofia negociază un contract de achiziție pentru tehnică militară germană finanțat prin mecanismul european SAFE, armamentul urmând să fie integrat în Scutul Cerului European.</description>
     </item>
     <item>
@@ -39,6 +71,8 @@
       <link>https://izz.ro/extern/nato-pregateste-teoria-victoriei-pentru-apararea-flancului-estic/</link>
       <guid>https://izz.ro/extern/nato-pregateste-teoria-victoriei-pentru-apararea-flancului-estic/</guid>
       <pubDate>Tue, 06 Oct 2026 21:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/opinii-si-analize/cum-functioneaza-teoria-victoriei-pregatita-de-nato-daca-rusia-ataca-drone-ai-si-lectiile-razboiului-din-ucraina">Spotmedia</source>
       <description>Comandamentul aliat a conceput o strategie militară inovatoare care utilizează inteligența artificială și drone economice. Planul urmărește oprirea rapidă și respingerea oricărei posibile agresiuni rusești pe teritoriul statelor membre.</description>
     </item>
     <item>
@@ -46,6 +80,8 @@
       <link>https://izz.ro/extern/suedia-va-disloca-sisteme-de-aparare-patriot-in-estul-poloniei/</link>
       <guid>https://izz.ro/extern/suedia-va-disloca-sisteme-de-aparare-patriot-in-estul-poloniei/</guid>
       <pubDate>Tue, 06 Oct 2026 16:54:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/dupa-ce-a-desfasurat-avioane-de-vanatoare-gripen-suedia-mai-face-o-mutare-pentru-hubul-strategic-din-polonia-ce-furnizeaza-arme-ucrainei-2369018">HotNews</source>
       <description>Guvernul de la Stockholm a anunțat trimiterea de rachete antiaeriene în Polonia începând din decembrie, preluând misiunea de securizare a hubului logistic militar de la Olanda.</description>
     </item>
     <item>
@@ -53,6 +89,8 @@
       <link>https://izz.ro/extern/comandantul-nato-va-prezenta-un-plan-de-aparare-impotriva-rusiei/</link>
       <guid>https://izz.ro/extern/comandantul-nato-va-prezenta-un-plan-de-aparare-impotriva-rusiei/</guid>
       <pubDate>Mon, 05 Oct 2026 20:31:19 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/teoria-victoriei-in-cazul-unui-atac-al-rusiei-miscarea-pregatita-de-generalul-care-conduce-nato-2368058">HotNews</source>
       <description>Generalul american Alexus Grynkewich, liderul forțelor NATO din Europa, urmează să își facă publică strategia militară concepută pentru a respinge eventuale agresiuni venite dinspre Rusia.</description>
     </item>
     <item>
@@ -60,6 +98,8 @@
       <link>https://izz.ro/extern/estonia-si-germania-avertizeaza-asupra-unui-posibil-conflict-militar-cu-rusia/</link>
       <guid>https://izz.ro/extern/estonia-si-germania-avertizeaza-asupra-unui-posibil-conflict-militar-cu-rusia/</guid>
       <pubDate>Mon, 05 Oct 2026 19:34:10 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/la-repubblica-estonia-isi-apropie-trupele-de-granita-cu-rusia-germania-risca-sa-fie-tarata-intr-un-conflict-armat-cu-rusia-nato-isi-revizuieste-planurile.html">G4Media</source>
       <description>Serviciile de informații din Estonia și Berlin semnalează riscul unui atac iminent din partea Rusiei. În acest context tensionat, alianța nord-atlantică își revizuiește planurile strategice de apărare.</description>
     </item>
     <item>
@@ -67,6 +107,8 @@
       <link>https://izz.ro/general/studentul-oradean-aris-dejeu-a-fost-premiat-la-competitia-internationala-nato/</link>
       <guid>https://izz.ro/general/studentul-oradean-aris-dejeu-a-fost-premiat-la-competitia-internationala-nato/</guid>
       <pubDate>Mon, 05 Oct 2026 11:29:40 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.bihon.ro/stirile-judetului-bihor/educatie/student-al-universitatii-din-oradea-premiat-de-nato-aris-dejeu-a-urcat-pe-podium-si-a-castigat-si-votul-publicului-5420532/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Tânărul a creat un scurtmetraj informativ despre comportamentul recomandat în cazul unei pene majore de curent, obținând un loc pe podium și simpatia publicului.</description>
     </item>
     <item>
@@ -74,6 +116,8 @@
       <link>https://izz.ro/extern/congresul-sua-vrea-sa-legifereze-permanenta-tarii-in-alianta-nord-atlantica/</link>
       <guid>https://izz.ro/extern/congresul-sua-vrea-sa-legifereze-permanenta-tarii-in-alianta-nord-atlantica/</guid>
       <pubDate>Mon, 05 Oct 2026 07:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.europalibera.md/a/russia-tests-nato-us-bill/33870089.html">Europa Liberă</source>
       <description>Pe fondul escaladării tensiunilor dintre Rusia și Occident, parlamentarii americani iau măsuri legislative ferme pentru a garanta că Statele Unite vor rămâne permanent membre ale NATO.</description>
     </item>
     <item>
@@ -81,6 +125,8 @@
       <link>https://izz.ro/extern/estonia-isi-muta-trupele-aproape-de-granita-rusa-si-cumpara-armament-nou/</link>
       <guid>https://izz.ro/extern/estonia-isi-muta-trupele-aproape-de-granita-rusa-si-cumpara-armament-nou/</guid>
       <pubDate>Mon, 05 Oct 2026 06:52:29 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/strategie-de-aparare-activa-un-stat-baltic-isi-muta-trupele-mai-aproape-de-granita-cu-rusia-obiectivul-nostru-este-clar-3977727">Digi24 Extern</source>
       <description>Statul baltic își repoziționează permanent efectivele militare și achiziționează rachete cu rază lungă de acțiune. Măsura vine pe fondul pregătirilor defensive în fața unei posibile agresiuni din partea Rusiei.</description>
     </item>
     <item>
@@ -88,6 +134,8 @@
       <link>https://izz.ro/extern/rusia-pregateste-actiuni-hibride-in-svalbard-pentru-a-testa-articolul-5-nato/</link>
       <guid>https://izz.ro/extern/rusia-pregateste-actiuni-hibride-in-svalbard-pentru-a-testa-articolul-5-nato/</guid>
       <pubDate>Sun, 04 Oct 2026 11:29:09 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/sub-gheata-svalbardului-strategiile-secrete-ale-rusiei-care-ar-putea-forta-activarea-articolului-5-nato-3976989">Digi24 Extern</source>
       <description>Experții avertizează că intensificarea acțiunilor subversive rusești în arhipelagul arctic Svalbard urmărește declanșarea unui conflict care ar putea testa clauza de apărare reciprocă a Alianței Nord-Atlantice.</description>
     </item>
     <item>
@@ -95,6 +143,8 @@
       <link>https://izz.ro/extern/avioane-nato-mobilizate-de-urgenta-la-vilnius-din-cauza-unei-drone/</link>
       <guid>https://izz.ro/extern/avioane-nato-mobilizate-de-urgenta-la-vilnius-din-cauza-unei-drone/</guid>
       <pubDate>Sat, 03 Oct 2026 07:23:57 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/alerta-pe-aeroportul-din-vilinius-avioanele-nato-au-fost-mobilizate-de-urgenta-2365508">HotNews</source>
       <description>Aeroportul din Vilnius a fost închis temporar, iar avioanele misiunii de poliție aeriană NATO au intervenit după ce o presupusă dronă venită dinspre Belarus s-a îndreptat către spa Măsura a fost luată de Centrul Național de Managementul Crizelor din Lituania.</description>
     </item>
     <item>
@@ -102,6 +152,8 @@
       <link>https://izz.ro/extern/expertul-carlo-masala-analizeaza-provocarile-ruse-la-adresa-nato/</link>
       <guid>https://izz.ro/extern/expertul-carlo-masala-analizeaza-provocarile-ruse-la-adresa-nato/</guid>
       <pubDate>Sat, 03 Oct 2026 04:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/berlin-playbook-podcast/wie-russland-die-nato-provoziert-mit-carlo-masala/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Incidentele recente de sabotaj maritim și atacurile cu explozibili din Europa indică intensificarea războiului hibrid dus de Rusia, testând limitele de reacție ale Alianței Nord-Atlantice, explică profesorul Carlo Masala.</description>
     </item>
     <item>
@@ -109,6 +161,8 @@
       <link>https://izz.ro/extern/analist-polonez-polonia-si-romania-trebuie-sa-conduca-eforturile-nato/</link>
       <guid>https://izz.ro/extern/analist-polonez-polonia-si-romania-trebuie-sa-conduca-eforturile-nato/</guid>
       <pubDate>Fri, 02 Oct 2026 12:05:44 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/securitate-si-aparare/polonia-si-romania-ar-trebui-sa-preia-conducerea-2560924.html">Adevărul</source>
       <description>Un specialist polon susține că Bucureștiul și Varșovia trebuie să adopte o strategie comună la Bruxelles, să mențină parteneriatul ferm cu SUA și să contracareze amenințările hibride rusești.</description>
     </item>
     <item>
@@ -116,6 +170,8 @@
       <link>https://izz.ro/extern/vladimir-putin-ameninta-occidentul-cu-armele-nucleare-in-cazul-unui-atac-asupra/</link>
       <guid>https://izz.ro/extern/vladimir-putin-ameninta-occidentul-cu-armele-nucleare-in-cazul-unui-atac-asupra/</guid>
       <pubDate>Fri, 02 Oct 2026 06:38:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://zcj.ro/eveniment/putin-ameninta-din-nou-occidentul-cu-armele-nucleare--302296.html">Ziua de Cluj</source>
       <description>Liderul de la Kremlin reiterează utilizarea întregului arsenal nuclear rus dacă regiunea Kaliningrad va fi atacată, stârnind critici ferme din partea NATO, care cataloghează mesajul drept o retorică iresponsabilă.</description>
     </item>
     <item>
@@ -123,6 +179,8 @@
       <link>https://izz.ro/sanatate/seful-medical-nato-cere-masuri-urgente-pentru-securitatea-sanitara-a-europei/</link>
       <guid>https://izz.ro/sanatate/seful-medical-nato-cere-masuri-urgente-pentru-securitatea-sanitara-a-europei/</guid>
       <pubDate>Fri, 02 Oct 2026 05:00:00 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://www.politico.eu/article/speed-up-eu-health-security-prep-says-nato-chief-medic/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Medicul șef al NATO a avertizat la Forumul de Sănătate Gastein că Europa trebuie să își consolideze urgent infrastructura medicală și capacitățile de apărare împotriva crizelor sanitare majore.</description>
     </item>
     <item>
@@ -130,6 +188,8 @@
       <link>https://izz.ro/extern/vladimir-putin-avertizeaza-ca-riscul-utilizarii-armelor-nucleare-intr-un/</link>
       <guid>https://izz.ro/extern/vladimir-putin-avertizeaza-ca-riscul-utilizarii-armelor-nucleare-intr-un/</guid>
       <pubDate>Fri, 02 Oct 2026 04:54:46 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/putin-avertizeaza-asupra-riscului-nuclear-arma-agatata-pe-perete-va-fi-mai-devreme-sau-mai-tarziu-folosita">Spotmedia</source>
       <description>Liderul de la Kremlin a declarat că Rusia ar putea apela la arsenalul nuclear în cazul unui conflict direct cu NATO, subliniind superioritatea adversarului și importanța propriei apărări.</description>
     </item>
     <item>
@@ -137,6 +197,8 @@
       <link>https://izz.ro/extern/printul-harry-a-transmis-un-apel-catre-nato-privind-reintegrarea-militarilor/</link>
       <guid>https://izz.ro/extern/printul-harry-a-transmis-un-apel-catre-nato-privind-reintegrarea-militarilor/</guid>
       <pubDate>Thu, 01 Oct 2026 19:18:31 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/apelul-printului-harry-catre-nato-puterea-unei-aliante-se-masoara-prin-societatile-in-care-militarii-se-intorc-acasa.html">G4Media</source>
       <description>În cadrul unei intervenții video adresate comitetului militar NATO de la Bruxelles, Prințul Harry a subliniat importanța sprijinului acordat foștilor soldați pentru a-și regăsi identitatea și rostul după încheierea carierei militare.</description>
     </item>
     <item>
@@ -144,6 +206,8 @@
       <link>https://izz.ro/extern/printul-harry-a-vorbit-despre-pierderea-identitatii-dupa-retragerea-din-armata/</link>
       <guid>https://izz.ro/extern/printul-harry-a-vorbit-despre-pierderea-identitatii-dupa-retragerea-din-armata/</guid>
       <pubDate>Thu, 01 Oct 2026 18:13:25 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/mesajul-emotionant-al-printului-harry-pentru-nato-am-pierdut-o-parte-din-identitatea-mea-cand-am-agatat-uniforma-in-cui-3973797">Digi24 Extern</source>
       <description>Prințul Harry al Marii Britanii a mărturisit că a simțit un gol puternic în viața sa și a pierdut o parte din identitate după ce a renunțat la uniforma militară.</description>
     </item>
     <item>
@@ -151,6 +215,8 @@
       <link>https://izz.ro/extern/premierul-olandez-avertizeaza-ca-rusia-reprezinta-o-amenintare-majora-si-in/</link>
       <guid>https://izz.ro/extern/premierul-olandez-avertizeaza-ca-rusia-reprezinta-o-amenintare-majora-si-in/</guid>
       <pubDate>Thu, 01 Oct 2026 13:05:46 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/live/2026/oct/01/europe-latest-news-updates-russia-strikes-ukraine-nato">The Guardian</source>
       <description>Oficialii din statele europene își intensifică schimburile de informații secrete pentru a contracara pericolele actuale, în timp ce Uniunea Europeană analizează eliberarea rezervelor strategice de motorină.</description>
     </item>
     <item>
@@ -158,6 +224,8 @@
       <link>https://izz.ro/extern/ministrul-leton-al-apararii-considera-atacurile-hibride-drept-o-amenintare/</link>
       <guid>https://izz.ro/extern/ministrul-leton-al-apararii-considera-atacurile-hibride-drept-o-amenintare/</guid>
       <pubDate>Thu, 01 Oct 2026 12:49:25 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.europalibera.md/a/ministrul-leton-al-apararii-atacurile-hibride-ale-rusiei-nu-retorica-nucleara-reprezinta-principala-amenintare/33867832.html">Europa Liberă</source>
       <description>Oficialul leton a minimalizat riscurile nucleare invocate de Moscova la adresa NATO, subliniind că acțiunile hibride rusești reprezintă pericolul real actual.</description>
     </item>
     <item>
@@ -165,6 +233,8 @@
       <link>https://izz.ro/extern/administratia-trump-exclude-aliati-europeni-de-la-o-reuniune-nato/</link>
       <guid>https://izz.ro/extern/administratia-trump-exclude-aliati-europeni-de-la-o-reuniune-nato/</guid>
       <pubDate>Thu, 01 Oct 2026 11:39:33 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/trump-imparte-aliatii-sua-in-buni-si-rai-doua-tari-importante-lasate-pe-dinafara-la-reuniunea-unui-grup-nato">Spotmedia</source>
       <description>Statele Unite au lăsat pe dinafara unui grup de lucru restrâns din cadrul NATO țări precum Marea Britanie, Franța și statele baltice, alimentând suspiciuni că Washingtonul împarte membrii alianței în două categorii.</description>
     </item>
     <item>
@@ -172,6 +242,8 @@
       <link>https://izz.ro/extern/mark-rutte-recunoaste-dependenta-militara-a-europei-fata-de-statele-unite/</link>
       <guid>https://izz.ro/extern/mark-rutte-recunoaste-dependenta-militara-a-europei-fata-de-statele-unite/</guid>
       <pubDate>Thu, 01 Oct 2026 05:27:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/seful-nato-recunoaste-frustrarea-sua-fata-de-europa-suntem-total-dependenti-de-o-tara-aflata-atat-de-departe-805320.html">Antena 3 CNN</source>
       <description>Secretarul general al NATO, Mark Rutte, a declarat că SUA mențin angajamentul de apărare pentru continentul european, însă a admis existența nemulțumirilor de la Washington legate de această subordonare strategică.</description>
     </item>
     <item>
@@ -179,6 +251,8 @@
       <link>https://izz.ro/extern/germania-investeste-15-miliarde-euro-intr-un-hub-strategic-nato/</link>
       <guid>https://izz.ro/extern/germania-investeste-15-miliarde-euro-intr-un-hub-strategic-nato/</guid>
       <pubDate>Thu, 01 Oct 2026 04:00:48 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/germania-va-transforma-un-port-si-un-aeroport-din-nord-intr-un-nod-strategic-al-nato-investitie-de-15-miliarde-de-euro-3971527">Digi24 Extern</source>
       <description>Autoritățile de la Berlin modernizează portul Bremerhaven și infrastructura adiacentă pentru a facilita transferul rapid de trupe aliate și echipamente grele pe teritoriul european până în 2031.</description>
     </item>
     <item>
@@ -186,6 +260,8 @@
       <link>https://izz.ro/extern/rusia-ameninta-nato-cu-represalii-nucleare-pentru-kaliningrad/</link>
       <guid>https://izz.ro/extern/rusia-ameninta-nato-cu-represalii-nucleare-pentru-kaliningrad/</guid>
       <pubDate>Thu, 01 Oct 2026 04:00:47 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/rusia/kaliningradul-un-potential-focar-de-tensiune-rusia-nato-ce-ar-putea-duce-la-o-confruntare-militara-directa-3971909">Digi24 Extern</source>
       <description>Moscova a lansat un avertisment oficial către alianța occidentală, semnalând că poate recurge la arme nucleare dacă statele membre încearcă să blocheze sau să atace enclava rusă.</description>
     </item>
     <item>
@@ -193,6 +269,8 @@
       <link>https://izz.ro/extern/ambasadorul-sua-la-nato-dezminte-retragerea-trupelor-americane-din-europa/</link>
       <guid>https://izz.ro/extern/ambasadorul-sua-la-nato-dezminte-retragerea-trupelor-americane-din-europa/</guid>
       <pubDate>Wed, 30 Sep 2026 20:11:22 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/sua-neaga-retragerea-masiva-a-trupelor-din-europa-ambasadorul-american-spune-ca-planul-nu-este-finalizat.html">Știrile ProTV</source>
       <description>Reprezentantul american la NATO, Matthew Whitaker, a infirmat zvonurile privind o plecare masivă a militarilor SUA de pe continentul european, precizând că nu există un plan finalizat.</description>
     </item>
     <item>
@@ -200,6 +278,8 @@
       <link>https://izz.ro/extern/moscova-ameninta-nato-cu-utilizarea-armamentului-nuclear-daca-enclava/</link>
       <guid>https://izz.ro/extern/moscova-ameninta-nato-cu-utilizarea-armamentului-nuclear-daca-enclava/</guid>
       <pubDate>Wed, 30 Sep 2026 18:52:20 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/rusia-lanseaza-o-amenintare-nucleara-la-adresa-nato-teritoriul-de-care-moscova-se-teme-ca-ar-putea-fi-izolat-de-alianta.html">Știrile ProTV</source>
       <description>Autoritățile ruse au transmis un avertisment ferm către alianța nord-atlantică, precizând că sunt pregătite de un răspuns atomic în cazul unor acțiuni menite să blocheze teritoriul baltic rus.</description>
     </item>
     <item>
@@ -207,6 +287,8 @@
       <link>https://izz.ro/extern/sua-contrazic-zvonurile-despre-retragerea-a-40-000-de-militari-din-europa/</link>
       <guid>https://izz.ro/extern/sua-contrazic-zvonurile-despre-retragerea-a-40-000-de-militari-din-europa/</guid>
       <pubDate>Wed, 30 Sep 2026 18:16:05 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/sua-dezmint-ca-vor-retrage-40000-de-militari-din-2560959.html">Adevărul</source>
       <description>Ambasadorul american la NATO, Matthew Whitaker, a infirmat informațiile vehiculate în presă privind planurile Pentagonului de a retrage zeci de mii de militari americani de pe continentul european.</description>
     </item>
     <item>
@@ -214,6 +296,8 @@
       <link>https://izz.ro/extern/mark-rutte-respinge-amenintarile-nucleare-ale-rusiei-la-adresa-nato/</link>
       <guid>https://izz.ro/extern/mark-rutte-respinge-amenintarile-nucleare-ale-rusiei-la-adresa-nato/</guid>
       <pubDate>Wed, 30 Sep 2026 15:13:21 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/no-way-they-can-beat-us-mark-rutte-rebuffs-russian-nuclear-threats-to-nato/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU, G4Media</source>
       <description>Secretarul general al NATO, Mark Rutte, a declarat că alianța are un caracter defensiv și dispune de o forță considerabilă, catalogând amenințările nucleare ale Moscovei drept inutile. Totodată, oficialul a menționat că nu există o amenințare iminentă din partea Rusiei la adresa teritoriului aliat, evaluarea situației menținându-se neschimbată față de perioadele anterioare.</description>
     </item>
     <item>
@@ -221,6 +305,8 @@
       <link>https://izz.ro/local/fabrica-redeschisa-la-sebes-si-licitatie-de-300-de-milioane-pentru-baza-nato/</link>
       <guid>https://izz.ro/local/fabrica-redeschisa-la-sebes-si-licitatie-de-300-de-milioane-pentru-baza-nato/</guid>
       <pubDate>Tue, 29 Sep 2026 18:02:02 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.turnulsfatului.ro/2026/09/29/rezumatul-zilei-fabrica-din-sebes-relansata-300-de-milioane-de-lei-pentru-baza-nato-si-documente-vechi-gasite-in-turnul-sfatului/">Turnul Sfatului</source>
       <description>Producția a fost reluată la fabrica Ciserom din Sebeș, în timp ce 11 constructori s-au înscris pentru contractul bazei NATO de lângă Sibiu, unde s-au descoperit documente istorice.</description>
     </item>
     <item>
@@ -228,6 +314,8 @@
       <link>https://izz.ro/local/unsprezece-oferte-depuse-pentru-constructia-bazei-nato-de-langa-aeroportul-sibiu/</link>
       <guid>https://izz.ro/local/unsprezece-oferte-depuse-pentru-constructia-bazei-nato-de-langa-aeroportul-sibiu/</guid>
       <pubDate>Tue, 29 Sep 2026 14:22:56 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.turnulsfatului.ro/2026/09/29/cei-mai-mari-constructori-din-romania-interesati-de-contractul-de-300-de-milioane-de-lei-pentru-baza-de-sprijin-nato-de-langa-aeroportul-sibiu-strabag-porr-erbasu-bogart-geiger-concelex-si-sibienii-d/">Turnul Sfatului</source>
       <description>Mari companii din domeniul construcțiilor s-au înscris la licitația în valoare de aproximativ 300 de milioane de lei. Proiectul vizează ridicarea noii unități militare destinate Regimentului 46 sprijin al Comandamentului NATO.</description>
     </item>
     <item>
@@ -235,6 +323,8 @@
       <link>https://izz.ro/extern/nato-respinge-avertismentul-moscovei-despre-kaliningrad-si-promite-autoaparare/</link>
       <guid>https://izz.ro/extern/nato-respinge-avertismentul-moscovei-despre-kaliningrad-si-promite-autoaparare/</guid>
       <pubDate>Tue, 29 Sep 2026 13:25:06 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/mapamond/tensiuni-explozive-la-granita-nato-alianta-militara-respinge-avertismentul-rusiei-privind-kaliningrad-si-promite-autoaparare-totala-3969733">Digi24 Extern</source>
       <description>Alianța Nord-Atlantică a respins ferm avertismentul transmis de Moscova privind o posibilă escaladare militară în zona Kaliningrad, garantând că va asigura autoapărarea totală a statelor membre în fața oricărei amenințări.</description>
     </item>
     <item>
@@ -242,6 +332,8 @@
       <link>https://izz.ro/extern/rusia-testeaza-rezistenta-nato-in-arhipelagul-svalbard/</link>
       <guid>https://izz.ro/extern/rusia-testeaza-rezistenta-nato-in-arhipelagul-svalbard/</guid>
       <pubDate>Mon, 28 Sep 2026 20:53:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/putin-a-devenit-amenintarea-numarul-1-pe-un-arhipelag-inghetat-din-nord-cum-pregateste-rusia-razboiul-contra-nato-in-svalbard-804940.html">Antena 3 CNN</source>
       <description>Regimul de la Kremlin intensifică presiunile militare și diplomatice în regiunea arctică Svalbard, urmărind reacția alianței nord-atlantice în fața noilor amenințări strategice din nord.</description>
     </item>
     <item>
@@ -249,6 +341,8 @@
       <link>https://izz.ro/extern/comandantul-nato-cere-statelor-europene-sa-denunte-public-sabotajele-rusesti/</link>
       <guid>https://izz.ro/extern/comandantul-nato-cere-statelor-europene-sa-denunte-public-sabotajele-rusesti/</guid>
       <pubDate>Mon, 28 Sep 2026 20:13:01 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/comandantul-fortelor-nato-din-europa-generalul-alexus-grynkewich-indeamna-statele-sa-condamne-actele-de-sabotaj-ale-rusiei-2360767">HotNews</source>
       <description>Generalul american Alexus Grynkewich îndeamnă guvernele din Europa să indice clar responsabilitatea Moscovei pentru acțiunile de destabilizare și să intensifice sprijinul militar pentru Ucraina.</description>
     </item>
     <item>
@@ -256,6 +350,8 @@
       <link>https://izz.ro/extern/ministrii-apararii-din-ue-dezbat-un-nou-protocol-de-securitate/</link>
       <guid>https://izz.ro/extern/ministrii-apararii-din-ue-dezbat-un-nou-protocol-de-securitate/</guid>
       <pubDate>Mon, 28 Sep 2026 04:05:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/brussels-playbook-podcast/a-new-era-for-european-defense/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Oficialii europeni analizează oportunitatea creării unui mecanism similar articolului 4 din NATO, care să permită intervenția comună în caz de criză, propunerea generând însă controverse privind competențele statelor.</description>
     </item>
     <item>
@@ -263,6 +359,8 @@
       <link>https://izz.ro/politic/berlinul-analizeaza-limitarea-accesului-unui-guvern-afd-la-secretele-nato/</link>
       <guid>https://izz.ro/politic/berlinul-analizeaza-limitarea-accesului-unui-guvern-afd-la-secretele-nato/</guid>
       <pubDate>Sun, 27 Sep 2026 19:51:12 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/un-guvern-afd-ar-putea-primi-acces-la-secrete-nato-berlinul-cauta-o-solutie-pentru-a-proteja-informatiile-sensibile-3966755">Digi24 Extern</source>
       <description>Autoritățile federale germane iau în calcul măsuri preventive pentru a bloca accesul potențial al partidului AfD la informații clasificate despre Rusia și planurile militare aliate, de teama unor scurgeri de date.</description>
     </item>
     <item>
@@ -270,6 +368,8 @@
       <link>https://izz.ro/extern/cristian-diaconescu-avertizeaza-asupra-provocarilor-rusiei-la-adresa-nato/</link>
       <guid>https://izz.ro/extern/cristian-diaconescu-avertizeaza-asupra-provocarilor-rusiei-la-adresa-nato/</guid>
       <pubDate>Sun, 27 Sep 2026 18:27:37 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/rusia/romania-in-prima-linie-a-provocarilor-rusiei-cristian-diaconescu-nu-cred-ca-moscova-ar-exclude-o-tara-3966711">Digi24 Extern</source>
       <description>Fostul ministru de Externe Cristian Diaconescu susține că Rusia ar putea testa reziliența NATO prin acțiuni hibride și incursiuni cu drone, menținute sub pragul unui conflict armat deschis, cerând autorităților o comunicare publică mai transparentă.</description>
     </item>
     <item>
@@ -277,6 +377,8 @@
       <link>https://izz.ro/extern/elvetienii-voteaza-la-referendum-inasprirea-neutralitatii-si-limitarea/</link>
       <guid>https://izz.ro/extern/elvetienii-voteaza-la-referendum-inasprirea-neutralitatii-si-limitarea/</guid>
       <pubDate>Sun, 27 Sep 2026 08:07:49 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/referendumul-care-poate-schimba-relatia-elvetiei-2560092.html">Adevărul</source>
       <description>Cetățenii elvețieni sunt chemați la urne pentru a decide introducerea regulilor de neutralitate strictă direct în Constituție. Măsura propusă va restrânge parteneriatul militar al țării cu NATO, dar și implicarea în sancțiuni internaționale.</description>
     </item>
     <item>
@@ -284,13 +386,8 @@
       <link>https://izz.ro/extern/nato-cere-aliatilor-intensificarea-schimbului-de-date-despre-atacurile-hibride/</link>
       <guid>https://izz.ro/extern/nato-cere-aliatilor-intensificarea-schimbului-de-date-despre-atacurile-hibride/</guid>
       <pubDate>Sun, 27 Sep 2026 05:46:25 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/comandantul-suprem-al-nato-solicita-aliatilor-intensificarea-schimbului-de-informatii-privind-atacurile-hibride-3966203">Digi24 Extern</source>
       <description>Comandantul suprem al NATO pentru Europa solicită statelor membre să îmbunătățească partajarea de informații referitoare la amenințările cibernetice și hibride rusești în creștere pe continent.</description>
-    </item>
-    <item>
-      <title>Rusia își intensifică operațiunile ostile și sabotajele în Europa, stârnind îngrijorarea statelor NATO</title>
-      <link>https://izz.ro/extern/rusia-isi-intensifica-operatiunile-ostile-si-sabotajele-in-europa-starnind/</link>
-      <guid>https://izz.ro/extern/rusia-isi-intensifica-operatiunile-ostile-si-sabotajele-in-europa-starnind/</guid>
-      <pubDate>Sat, 26 Sep 2026 18:10:23 +0000</pubDate>
-      <description>Liderii europeni cer măsuri ferme de descurajare, după ce Germania și Danemarca au acuzat Moscova de atacuri cu drone și incidente armate periculoase în apropierea frontierelor alianței.</description>
     </item>
 </channel></rss>

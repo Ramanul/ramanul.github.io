@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Argentina — IZZ.ro</title>
   <link>https://izz.ro/subiect/argentina/</link>
   <atom:link href="https://izz.ro/subiect/argentina/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Argentina pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Lionel Messi s-a retras din naționala Argentinei, primind mesaje emoționante</title>
       <link>https://izz.ro/sport/lionel-messi-s-a-retras-din-nationala-argentinei-primind-mesaje-emotionante/</link>
       <guid>https://izz.ro/sport/lionel-messi-s-a-retras-din-nationala-argentinei-primind-mesaje-emotionante/</guid>
       <pubDate>Wed, 07 Oct 2026 19:06:28 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/fotbal-extern/lionel-messi-confesiuni-emotionante-dupa-retragerea-din-nationala-argentinei-a-meritat-fiecare-pas-facut-695616.html">Antena Sport, Sport.ro</source>
+      <media:content url="https://izz.ro/sport/lionel-messi-s-a-retras-din-nationala-argentinei-primind-mesaje-emotionante/cover.jpg?v=e8467666" medium="image" type="image/jpeg"/>
       <description>Lionel Messi a disputat ultimul său meci pentru echipa națională a Argentinei pe stadionul Monumental din Buenos Aires, marcând momentul printr-o retragere emoționantă în fața publicului. Cu această ocazie, starul argentinian a primit un mesaj de apreciere din partea rivalului său, Cristiano Ronaldo.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/sport/fostul-fotbalist-interist-tomas-palacios-a-debutat-in-nationala-argentinei/</link>
       <guid>https://izz.ro/sport/fostul-fotbalist-interist-tomas-palacios-a-debutat-in-nationala-argentinei/</guid>
       <pubDate>Wed, 07 Oct 2026 15:10:52 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/calciomercato/mercato-inter/palacios-debutto-argentina-ancora-inter-tutta-verita-cessione/">FC Inter 1908</source>
+      <media:content url="https://izz.ro/sport/fostul-fotbalist-interist-tomas-palacios-a-debutat-in-nationala-argentinei/cover.jpg?v=f6340817" medium="image" type="image/jpeg"/>
       <description>Jucătorul legitimat în prezent la Estudiantes a bifat prima sa apariție în tricoul primei reprezentative a Argentinei, în timpul victoriei cu 7-0 împotriva formației din Burkina Faso.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/sport/lionel-messi-a-impresionat-suporterii-argentinieni-cu-un-discurs-emotionant/</link>
       <guid>https://izz.ro/sport/lionel-messi-a-impresionat-suporterii-argentinieni-cu-un-discurs-emotionant/</guid>
       <pubDate>Wed, 07 Oct 2026 10:22:28 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://cvlpress.ro/07.10.2026/discursul-de-adio-al-lui-messi-a-provocat-emotie-si-lacrimi/">Cuvântul Libertății</source>
       <description>Meciul disputat de naționala Argentinei împotriva Beninului pe stadionul Monumental din Buenos Aires a fost marcat de momente deosebite. Publicul a reacționat cu emoție și lacrimi la discursul de adio al celebrului fotbalist.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/sport/lionel-messi-si-a-incheiat-cariera-internationala-in-fata-beninului/</link>
       <guid>https://izz.ro/sport/lionel-messi-si-a-incheiat-cariera-internationala-in-fata-beninului/</guid>
       <pubDate>Wed, 07 Oct 2026 08:12:32 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/scandal-la-retragerea-lui-leo-messi-sobolanule-pleaca-985408.html">GSP</source>
       <description>Lionel Messi a disputat ultimul său meci pentru naționala Argentinei, o victorie cu 3-0 împotriva Beninului pe stadionul din Buenos Aires, eveniment marcat însă de proteste vehemente ale fanilor împotriva șefului fotbalului local.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/sport/lionel-messi-se-retrage-de-la-nationala-argentinei/</link>
       <guid>https://izz.ro/sport/lionel-messi-se-retrage-de-la-nationala-argentinei/</guid>
       <pubDate>Tue, 06 Oct 2026 19:42:50 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://stirileprotv.ro/stiri/sport/messi-isi-incheie-povestea-la-nationala-argentinei-dupa-21-de-ani-70-000-de-bilete-s-au-vandut-pentru-ultimul-sau-meci.html">Știrile ProTV, Antena Sport</source>
       <description>Căpitanul reprezentativei argentiniene, Lionel Messi, s-a întors în țara natală pentru a disputa partida de adio, punând capăt unei cariere de 21 de ani la cel mai înalt nivel al echipei naționale. Selecționerul Lionel Scaloni a comentat și el situația dificilă a echipei după această retragere istorică, în cadrul conferinței de presă de la finalul meciului în care Argentina s-a impus cu 3-0 în fața Beninului.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/sport/lionel-messi-isi-anunta-retragerea-din-fotbalul-international-la-varsta-de-39/</link>
       <guid>https://izz.ro/sport/lionel-messi-isi-anunta-retragerea-din-fotbalul-international-la-varsta-de-39/</guid>
       <pubDate>Tue, 06 Oct 2026 19:06:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.profit.ro/stiri/life/video-adio-messi-ultimul-tango-in-aceasta-seara-lionel-messi-se-retrage-din-fotbalul-international-cu-un-mesaj-video-22806825?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Fotbalistul argentinian Lionel Messi a publicat un mesaj video în care confirmă că meciul împotriva Beninului va fi ultimul său joc oficial pentru echipa națională a Argentinei.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/sport/lionel-messi-a-transmis-un-mesaj-scurt-inaintea-ultimului-sau-meci-pentru/</link>
       <guid>https://izz.ro/sport/lionel-messi-a-transmis-un-mesaj-scurt-inaintea-ultimului-sau-meci-pentru/</guid>
       <pubDate>Tue, 06 Oct 2026 09:30:43 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/mesaj-lionel-messi-retragere-argentina-20541220">ProSport, Știrile ProTV, Digi24</source>
       <description>Atacantul Lionel Messi se pregătește pentru partida de retragere din naționala Argentinei, programată împotriva Beninului. Cu această ocazie, fotbalistul a publicat imagini de la ultimul antrenament și un mesaj video emoționant în care a transmis că a dat totul pentru prima reprezentativă.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/sport/probleme-logistice-majore-in-argentina-inainte-de-retragerea-lui-lionel-messi/</link>
       <guid>https://izz.ro/sport/probleme-logistice-majore-in-argentina-inainte-de-retragerea-lui-lionel-messi/</guid>
       <pubDate>Sun, 04 Oct 2026 16:58:35 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/lionel-messi-argentina-benin-984728.html">GSP</source>
       <description>Meciul amical dintre Argentina și Benin, organizat pentru retragerea lui Lionel Messi la Buenos Aires, este umbrit de condiții precare la hotel, probleme de transport aerian și un gazon de slabă calitate.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/sport/atacantul-lautaro-martinez-urca-pe-podiumul-marcatorilor-istorici-ai-nationalei/</link>
       <guid>https://izz.ro/sport/atacantul-lautaro-martinez-urca-pe-podiumul-marcatorilor-istorici-ai-nationalei/</guid>
       <pubDate>Sun, 04 Oct 2026 06:00:25 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/nazionali/argentina-lautaro-storia-terzo-marcatore-all-time/">FC Inter 1908</source>
       <description>Capitanul echipei Inter Milano a stabilit un nou record personal si a devenit al treilea cel mai bun marcator din istoria nationalei Argentinei, dupa o victorie categorica obtinuta in partida amicala disputata impotriva reprezentativei din Burkina Faso.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/sport/argentina-a-invins-reprezentativa-din-burkina-faso-intr-un-meci-amical-la/</link>
       <guid>https://izz.ro/sport/argentina-a-invins-reprezentativa-din-burkina-faso-intr-un-meci-amical-la/</guid>
       <pubDate>Sun, 04 Oct 2026 05:46:33 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/fotbal-extern/seara-umilintelor-dupa-anglia-si-argentina-a-castigat-cu-7-marcatori-diferiti-694252.html">Antena Sport</source>
       <description>Vicecampioana mondială s-a impus categoric pe teren propriu, având șapte marcatori diferiți în partida de test. Evenimentul a precedat meciul de retragere al căpitanului Leo Messi din prima reprezentativă.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/sport/nationala-argentinei-disputa-meciuri-amicale-inainte-de-retragerea-lui-leo-messi/</link>
       <guid>https://izz.ro/sport/nationala-argentinei-disputa-meciuri-amicale-inainte-de-retragerea-lui-leo-messi/</guid>
       <pubDate>Sun, 04 Oct 2026 05:45:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/fotbal-extern/fiasco-sub-ochii-lui-messi-argentina-burkina-faso-un-macel-pe-teren-precedat-de-un-scandal-monstru.html">Sport.ro</source>
       <description>Vicecampioana mondială a programat partide de verificare împotriva unor adversari facili pentru a pregăti momentul de adio al căpitanului său în vârstă de 39 de ani.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/sport/argentina-il-foloseste-titular-pe-lautaro-martinez-impotriva-burkinei-faso/</link>
       <guid>https://izz.ro/sport/argentina-il-foloseste-titular-pe-lautaro-martinez-impotriva-burkinei-faso/</guid>
       <pubDate>Sat, 03 Oct 2026 23:17:54 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/ultimora/argentina-la-formazione-ufficiale-contro-il-burkina-faso-lautaro-martinez-titolare/">FC Inter 1908</source>
       <description>Selecționerul Lionel Scaloni a stabilit primul unsprezece al naționalei Argentinei pentru meciul amical cu Burkina Faso, mizând pe atacantul Lautaro Martinez din primul minut.</description>
     </item>
     <item>
@@ -95,6 +121,8 @@
       <link>https://izz.ro/economic/toyota-pregateste-o-investitie-record-pentru-o-noua-fabrica-in-argentina/</link>
       <guid>https://izz.ro/economic/toyota-pregateste-o-investitie-record-pentru-o-noua-fabrica-in-argentina/</guid>
       <pubDate>Thu, 01 Oct 2026 08:47:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.automarket.ro/stiri/toyota-pregateste-o-investitie-record-in-argentina-134-miliarde-de-dolari-128875.html">AutoMarket</source>
       <description>Producătorul auto Toyota va construi o nouă unitate de producție în orașul argentinian Zárate, proiectul beneficiind de programul guvernamental de stimulente RIGI pentru exporturi majore.</description>
     </item>
     <item>
@@ -102,6 +130,8 @@
       <link>https://izz.ro/sport/lionel-scaloni-a-dezvaluit-motivele-pentru-care-walter-samuel-a-refuzat-oferta/</link>
       <guid>https://izz.ro/sport/lionel-scaloni-a-dezvaluit-motivele-pentru-care-walter-samuel-a-refuzat-oferta/</guid>
       <pubDate>Tue, 29 Sep 2026 19:27:08 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/nazionali/scaloni-samuel-inter/">FC Inter 1908</source>
       <description>Selecționerul Argentinei, Lionel Scaloni, a explicat că staff-ul său tehnic a primit propuneri din Italia, dar Walter Samuel a ales să rămână alături de naționala sud-americană.</description>
     </item>
     <item>
@@ -109,6 +139,8 @@
       <link>https://izz.ro/extern/argentina-ameninta-marea-britanie-cu-actiuni-legale-privind-exploatarea/</link>
       <guid>https://izz.ro/extern/argentina-ameninta-marea-britanie-cu-actiuni-legale-privind-exploatarea/</guid>
       <pubDate>Tue, 29 Sep 2026 07:50:33 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/presedintele-argentinei-ameninta-ca-va-da-in-judecata-marea-britanie-privind-proiectul-petrolier-din-insulele-falkland-3969043">Digi24 Extern</source>
       <description>Președintele argentinian Javier Milei a anunțat intenția de a da în judecată Marea Britanie din cauza proiectului petrolier Sea Lion din arhipelagul Falkland, teritoriu disputat istoric între cele două state.</description>
     </item>
 </channel></rss>

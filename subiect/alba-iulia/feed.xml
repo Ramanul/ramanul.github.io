@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Alba Iulia — IZZ.ro</title>
   <link>https://izz.ro/subiect/alba-iulia/</link>
   <atom:link href="https://izz.ro/subiect/alba-iulia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Alba Iulia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Bursa locurilor de muncă organizată vineri la Alba Iulia</title>
+      <link>https://izz.ro/local/bursa-locurilor-de-munca-organizata-vineri-la-alba-iulia/</link>
+      <guid>https://izz.ro/local/bursa-locurilor-de-munca-organizata-vineri-la-alba-iulia/</guid>
+      <pubDate>Thu, 08 Oct 2026 16:40:28 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/vineri-bursa-locurilor-de-munca-la-alba-iulia-oportunitati-de-angajare-pentru-absolventi-si-alte-categorii-de-persoane-1161740.html">Alba24</source>
+      <media:content url="https://izz.ro/local/bursa-locurilor-de-munca-organizata-vineri-la-alba-iulia/cover.jpg?v=20d3a923" medium="image" type="image/jpeg"/>
+      <description>Absolvenții și persoanele aflate în căutarea unui job pot participa vineri dimineață la evenimentul găzduit de Carolina Mall din Alba Iulia, care oferă numeroase oportunități de angajare și recalificare.</description>
+    </item>
     <item>
       <title>Lucrări de înlocuire a conductelor de gaz pe mai multe străzi din Alba Iulia</title>
       <link>https://izz.ro/local/lucrari-de-inlocuire-a-conductelor-de-gaz-pe-mai-multe-strazi-din-alba-iulia/</link>
       <guid>https://izz.ro/local/lucrari-de-inlocuire-a-conductelor-de-gaz-pe-mai-multe-strazi-din-alba-iulia/</guid>
       <pubDate>Thu, 08 Oct 2026 07:50:58 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/lucrari-pe-mai-multe-strazi-din-centrul-municipiului-alba-iulia-din-12-octombrie-se-inlocuiesc-conducte-si-bransamente-de-gaz-1161626.html">Alba24</source>
+      <media:content url="https://izz.ro/local/lucrari-de-inlocuire-a-conductelor-de-gaz-pe-mai-multe-strazi-din-alba-iulia/cover.jpg?v=15d8fffe" medium="image" type="image/jpeg"/>
       <description>Primăria Alba Iulia anunță restricții de trafic timp de cinci luni, începând din 12 octombrie, pe șapte străzi centrale pentru modernizarea rețelei de gaz.</description>
     </item>
     <item>
@@ -18,6 +31,9 @@
       <link>https://izz.ro/local/alba-iulia-gazduieste-primul-campionat-european-de-airsoft/</link>
       <guid>https://izz.ro/local/alba-iulia-gazduieste-primul-campionat-european-de-airsoft/</guid>
       <pubDate>Wed, 07 Oct 2026 19:30:07 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/campionat-european-de-airsoft-la-alba-iulia-aproximativ-80-de-sportivi-din-opt-tari-vor-intra-in-competitie-1161584.html">Alba24</source>
+      <media:content url="https://izz.ro/local/alba-iulia-gazduieste-primul-campionat-european-de-airsoft/cover.jpg?v=373a981a" medium="image" type="image/jpeg"/>
       <description>Cetatea Alba Carolina va fi gazda competiției internaționale programată între 23 și 25 octombrie, reunind aproximativ 80 de sportivi din opt state europene sub egida Federației Române de Airsoft.</description>
     </item>
     <item>
@@ -25,6 +41,9 @@
       <link>https://izz.ro/local/gala-tineretului-din-romania-se-va-desfasura-la-alba-iulia/</link>
       <guid>https://izz.ro/local/gala-tineretului-din-romania-se-va-desfasura-la-alba-iulia/</guid>
       <pubDate>Wed, 07 Oct 2026 14:30:38 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/24-octombrie-gala-tineretului-din-romania-la-alba-iulia-peste-125-de-initiative-inscrise-in-competitie-1161478.html">Alba24</source>
+      <media:content url="https://izz.ro/local/gala-tineretului-din-romania-se-va-desfasura-la-alba-iulia/cover.jpg?v=fe5ea4f6" medium="image" type="image/jpeg"/>
       <description>Municipiul Alba Iulia va găzdui pe 24 octombrie Gala Tineretului din România 2026, eveniment în cadrul căruia peste 125 de inițiative dedicate tinerilor s-au înscris în competiție.</description>
     </item>
     <item>
@@ -32,6 +51,8 @@
       <link>https://izz.ro/local/teatrul-prichindel-din-alba-iulia-participa-la-festivaluri/</link>
       <guid>https://izz.ro/local/teatrul-prichindel-din-alba-iulia-participa-la-festivaluri/</guid>
       <pubDate>Wed, 07 Oct 2026 08:30:23 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/teatrul-de-papusi-prichindel-din-alba-iulia-prezinta-spectacole-la-iasi-si-arad-in-cadrul-unor-festivaluri-program-1161436.html">Alba24</source>
       <description>Instituția culturală din Alba Iulia susține spectacole de teatru de păpuși la Iași și Arad, în cadrul unor evenimente de profil organizate în cele două orașe.</description>
     </item>
     <item>
@@ -39,6 +60,8 @@
       <link>https://izz.ro/local/alba-iulia-scoate-la-licitatie-organizarea-targurilor-de-craciun-si-paste/</link>
       <guid>https://izz.ro/local/alba-iulia-scoate-la-licitatie-organizarea-targurilor-de-craciun-si-paste/</guid>
       <pubDate>Wed, 07 Oct 2026 07:00:24 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/licitatie-pentru-organizarea-targurilor-de-craciun-si-de-paste-la-alba-iulia-ce-vor-cuprinde-evenimentele-in-urmatorii-4-ani-1161408.html">Alba24</source>
       <description>Primăria Alba Iulia caută un prestator pentru următoarele patru ediții ale târgurilor sezoniere, contractul incluzând zeci de căsuțe, zone de spectacole și un patinoar de minimum 250 de metri pătrați.</description>
     </item>
     <item>
@@ -46,6 +69,8 @@
       <link>https://izz.ro/judetean/petreceri-pentru-copii-cu-realitate-virtuala-la-alba-mall/</link>
       <guid>https://izz.ro/judetean/petreceri-pentru-copii-cu-realitate-virtuala-la-alba-mall/</guid>
       <pubDate>Tue, 06 Oct 2026 16:10:54 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://alba24.ro/video-cum-se-organizeaza-o-zi-de-nastere-la-arena-play-din-alba-mall-petrecere-cu-realitate-virtuala-si-simulatoare-p-1161291.html">Alba24</source>
       <description>Centrul Arena Play din Alba Mall oferă posibilitatea organizării unor zile de naștere inedite pentru copii, punând la dispoziție ochelari de realitate virtuală și simulatoare moderne de zbor și curse auto.</description>
     </item>
     <item>
@@ -53,6 +78,8 @@
       <link>https://izz.ro/judetean/festivalul-poeziei-cantate-debuteaza-in-judetul-alba/</link>
       <guid>https://izz.ro/judetean/festivalul-poeziei-cantate-debuteaza-in-judetul-alba/</guid>
       <pubDate>Tue, 06 Oct 2026 10:00:56 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://alba24.ro/festivalul-cele-mai-frumoase-poezii-romanesti-cantate-in-9-15-octombrie-la-alba-iulia-si-in-alte-localitati-din-judet-program-1161290.html">Alba24</source>
       <description>Mai multe orașe din județul Alba găzduiesc a doua ediție a evenimentului cultural dedicat versurilor românești puse pe muzică, aducând în fața publicului spectacole susținute de artiști renumiți.</description>
     </item>
     <item>
@@ -60,6 +87,8 @@
       <link>https://izz.ro/local/incendiu-izbucnit-la-terasa-unei-pensiuni-din-municipiul-alba-iulia/</link>
       <guid>https://izz.ro/local/incendiu-izbucnit-la-terasa-unei-pensiuni-din-municipiul-alba-iulia/</guid>
       <pubDate>Mon, 05 Oct 2026 21:52:24 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/incendiu-la-terasa-unei-pensiuni-din-alba-iulia-pe-strada-ariesului-actioneaza-pompierii-cu-doua-autospeciale-1161239.html">Alba24</source>
       <description>Pompierii au intervenit cu două autospeciale pe strada Arieșului din Alba Iulia, după ce o terasă a fost cuprinsă de flăcări, patru persoane autoevacuându-se în siguranță.</description>
     </item>
     <item>
@@ -67,6 +96,8 @@
       <link>https://izz.ro/local/primaria-alba-iulia-reorganizeaza-avizarea-in-constructii/</link>
       <guid>https://izz.ro/local/primaria-alba-iulia-reorganizeaza-avizarea-in-constructii/</guid>
       <pubDate>Mon, 05 Oct 2026 17:30:40 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/reguli-noi-pentru-constructii-si-urbanism-cum-vor-fi-obtinute-avizele-in-alba-iulia-doua-comisii-infiintate-si-taxe-din-2027-1161203.html">Alba24</source>
       <description>Administrația locală din Alba Iulia pregătește înființarea a două noi comisii pentru simplificarea circuitului de avizare în urbanism, conform noului Cod al construcțiilor.</description>
     </item>
     <item>
@@ -74,6 +105,8 @@
       <link>https://izz.ro/local/primaria-alba-iulia-reia-procedura-pentru-angajarea-administratorilor/</link>
       <guid>https://izz.ro/local/primaria-alba-iulia-reia-procedura-pentru-angajarea-administratorilor/</guid>
       <pubDate>Mon, 05 Oct 2026 17:00:49 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/primaria-alba-iulia-cauta-din-nou-administratori-pentru-societatea-de-transport-local-inca-o-procedura-de-selectie-conditii-1161180.html">Alba24</source>
       <description>Municipalitatea din Alba Iulia a lansat o nouă sesiune de selecție pentru ocuparea a trei poziții de administrator la firma locală de transport public, stabilind cerințe clare de studii și experiență profesională pentru candidați.</description>
     </item>
     <item>
@@ -81,6 +114,8 @@
       <link>https://izz.ro/local/incendiu-la-o-balotiera-in-zona-balastiera-santimbru/</link>
       <guid>https://izz.ro/local/incendiu-la-o-balotiera-in-zona-balastiera-santimbru/</guid>
       <pubDate>Mon, 05 Oct 2026 13:50:35 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/incendiu-la-santimbru-zona-balastiera-actioneaza-pompierii-din-alba-iulia-1161184.html">Alba24</source>
       <description>Pompierii din Alba Iulia au intervenit de urgență pentru a stinge un incendiu izbucnit la o balotieră în localitatea Sântimbru. Flăcările au fost lichidate rapid fără a fi raportate victime.</description>
     </item>
     <item>
@@ -88,6 +123,8 @@
       <link>https://izz.ro/local/opera-echilibru-donata-muzeului-national-al-unirii-din-alba-iulia/</link>
       <guid>https://izz.ro/local/opera-echilibru-donata-muzeului-national-al-unirii-din-alba-iulia/</guid>
       <pubDate>Sun, 04 Oct 2026 18:45:33 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/foto-omagiu-adus-artistului-eugen-cioanca-la-alba-iulia-opera-echilibru-donata-de-fiul-acestuia-muzeului-national-al-unirii-1161022.html">Alba24</source>
       <description>Fiul ceramistului Eugen Cioancă a donat lucrarea „Echilibru” Muzeului Național al Unirii din Alba Iulia, în cadrul unui eveniment dedicat memoriei artistului.</description>
     </item>
     <item>
@@ -95,6 +132,8 @@
       <link>https://izz.ro/local/imagini-de-arhiva-din-1980-cu-orasul-alba-iulia-au-fost-publicate-online/</link>
       <guid>https://izz.ro/local/imagini-de-arhiva-din-1980-cu-orasul-alba-iulia-au-fost-publicate-online/</guid>
       <pubDate>Sun, 04 Oct 2026 16:00:24 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/video-cum-arata-alba-iulia-in-1980-imagini-filmate-in-mai-multe-orase-din-romania-postate-de-fm-images-balkans-1160952.html">Alba24</source>
       <description>O înregistrare video din anul 1980 prezintă aspecte istorice din Alba Iulia, alături de cadre din Timișoara și Sibiu, fiind distribuită pe rețelele de socializare.</description>
     </item>
     <item>
@@ -102,6 +141,8 @@
       <link>https://izz.ro/local/colectionari-de-masini-de-epoca-s-au-adunat-pentru-o-parada-la-alba-iulia/</link>
       <guid>https://izz.ro/local/colectionari-de-masini-de-epoca-s-au-adunat-pentru-o-parada-la-alba-iulia/</guid>
       <pubDate>Sun, 04 Oct 2026 06:48:35 +0000</pubDate>
+      <category>local</category>
+      <source url="https://stirileprotv.ro/divers/valoarea-nu-se-masoara-in-bani-povestea-colectionarilor-de-masini-de-epoca-la-alba-iulia-bijuterii-pe-patru-roti.html">Știrile ProTV</source>
       <description>Zeci de proprietari de automobile istorice au organizat o paradă pe străzile cetății din Alba Iulia, stârnind interesul turiștilor și al localnicilor prezenți la plimbare.</description>
     </item>
     <item>
@@ -109,6 +150,8 @@
       <link>https://izz.ro/local/incendiu-la-un-utilaj-agricol-in-localitatea-telna-din-judetul-alba/</link>
       <guid>https://izz.ro/local/incendiu-la-un-utilaj-agricol-in-localitatea-telna-din-judetul-alba/</guid>
       <pubDate>Sat, 03 Oct 2026 20:53:47 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/incendiu-in-localitatea-telna-la-un-utilaj-agricol-actioneaza-pompierii-din-alba-iulia-1160908.html">Alba24</source>
       <description>Un tractor a luat foc sâmbătă seara în localitatea Țelna din județul Alba, la fața locului intervenind echipaje de pompieri din Alba Iulia și voluntari locali pentru stingerea flăcărilor.</description>
     </item>
     <item>
@@ -116,6 +159,8 @@
       <link>https://izz.ro/local/incendiu-de-vegetatie-uscata-in-santurile-cetatii-din-alba-iulia/</link>
       <guid>https://izz.ro/local/incendiu-de-vegetatie-uscata-in-santurile-cetatii-din-alba-iulia/</guid>
       <pubDate>Sat, 03 Oct 2026 15:41:26 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/foto-incendiu-de-vegetatie-uscata-in-santurile-cetatii-la-alba-iulia-actioneaza-pompierii-din-municipiu-1160852.html">Alba24</source>
       <description>Pompierii din Alba Iulia au intervenit cu o autospecială pentru stingerea unui foc izbucnit pe o suprafață de 150 de metri pătrați în apropierea unui restaurant din zonă.</description>
     </item>
     <item>
@@ -123,6 +168,8 @@
       <link>https://izz.ro/local/incendiu-de-vegetatie-izbucnit-intr-o-padure-din-sasciori/</link>
       <guid>https://izz.ro/local/incendiu-de-vegetatie-izbucnit-intr-o-padure-din-sasciori/</guid>
       <pubDate>Sat, 03 Oct 2026 13:00:22 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/incendiu-la-o-suprafata-de-padure-din-zona-rachita-comuna-sasciori-intervin-pompierii-din-alba-iulia-1160839.html">Alba24</source>
       <description>Pompierii din Alba Iulia au intervenit sâmbătă după-amiază pentru stingerea unui incendiu de litieră semnalat în zona Răchita din comuna Săsciori, acționând alături de serviciul local de voluntari.</description>
     </item>
     <item>
@@ -130,6 +177,8 @@
       <link>https://izz.ro/local/o-ursoaica-cu-trei-pui-a-fost-filmata-pe-dn1-intre-alba-iulia-si-lancram/</link>
       <guid>https://izz.ro/local/o-ursoaica-cu-trei-pui-a-fost-filmata-pe-dn1-intre-alba-iulia-si-lancram/</guid>
       <pubDate>Sat, 03 Oct 2026 09:19:21 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/video-stirea-ta-ursoaica-cu-trei-pui-filmata-in-trafic-pe-dn1-podul-peste-autostrada-intre-alba-iulia-si-lancram-1160809.html">Alba24</source>
       <description>Animalele sălbatice au fost surprinse de un șofer alergând minute în șir pe carosabil, în zona podului rutier peste autostrada A10, fără să se sperie de prezența mașinilor.</description>
     </item>
     <item>
@@ -137,6 +186,8 @@
       <link>https://izz.ro/local/alba-iulia-gazduieste-campionatul-national-de-arc-istoric-2/</link>
       <guid>https://izz.ro/local/alba-iulia-gazduieste-campionatul-national-de-arc-istoric-2/</guid>
       <pubDate>Sat, 03 Oct 2026 08:10:32 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/video-campionatul-de-arc-istoric-la-alba-iulia-zeci-de-participanti-din-tara-la-proba-organizata-in-cetatea-alba-carolina-1160778.html">Alba24</source>
       <description>Zeci de pasionați de tir cu arcul din întreaga țară s-au reunit în Cetatea Alba Carolina pentru a concura la probele oficiale ale campionatului.</description>
     </item>
     <item>
@@ -144,6 +195,8 @@
       <link>https://izz.ro/local/soferi-prinsi-beti-la-volan-in-alba-iulia-si-cercetati-penal/</link>
       <guid>https://izz.ro/local/soferi-prinsi-beti-la-volan-in-alba-iulia-si-cercetati-penal/</guid>
       <pubDate>Sat, 03 Oct 2026 07:20:32 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/soferi-cu-dosare-penale-dupa-ce-au-fost-prinsi-sub-influenta-alcoolului-la-volan-in-alba-iulia-unde-au-fost-opriti-de-politisti-1160779.html">Alba24</source>
       <description>Polițiștii din Alba Iulia au depistat în trafic, în noaptea de vineri spre sâmbătă, mai mulți conducători auto care au urcat la volan sub influența alcoolului, aceștia alegându-se cu dosare penale.</description>
     </item>
     <item>
@@ -151,6 +204,8 @@
       <link>https://izz.ro/local/judetul-alba-gazduieste-competitii-sportive-si-targuri-traditionale-in-weekend/</link>
       <guid>https://izz.ro/local/judetul-alba-gazduieste-competitii-sportive-si-targuri-traditionale-in-weekend/</guid>
       <pubDate>Sat, 03 Oct 2026 05:00:54 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/evenimente-de-weekend-in-alba-3-4-octombrie-competitii-de-arc-istoric-cros-si-atv-arta-traditii-si-spectacole-program-1160675.html">Alba24</source>
       <description>Localitățile din județul Alba organizează în acest weekend evenimente diverse, incluzând întreceri de arc istoric, cros și curse ATV la Alba Iulia. De asemenea, la Aiud și Câmpeni se desfășoară manifestări dedicate tradițiilor locale și produselor specifice de toamnă.</description>
     </item>
     <item>
@@ -158,6 +213,8 @@
       <link>https://izz.ro/local/primaria-alba-iulia-nu-poate-preciza-fondurile-alocate-sectiei-de-fotbal-a-csm/</link>
       <guid>https://izz.ro/local/primaria-alba-iulia-nu-poate-preciza-fondurile-alocate-sectiei-de-fotbal-a-csm/</guid>
       <pubDate>Fri, 02 Oct 2026 16:00:33 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/ce-buget-total-are-csm-unirea-alba-iulia-in-acest-an-primaria-nu-stie-cati-bani-se-duc-spre-sectia-de-fotbal-1160717.html">Alba24</source>
       <description>Deși a publicat bugetul total al clubului CSM Unirea Alba Iulia pentru anul curent, primăria a evitat să indice suma exactă direcționat către secția de fotbal, deși obiectivul rămâne promovarea în Liga a II-a.</description>
     </item>
     <item>
@@ -165,6 +222,8 @@
       <link>https://izz.ro/local/parintele-ioan-cojan-a-fost-inmormantat-la-manastirea-valea-popii-din-alba-iulia/</link>
       <guid>https://izz.ro/local/parintele-ioan-cojan-a-fost-inmormantat-la-manastirea-valea-popii-din-alba-iulia/</guid>
       <pubDate>Fri, 02 Oct 2026 15:19:09 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/foto-parintele-ioan-condus-pe-ultimul-drum-la-manastirea-valea-popii-din-alba-iulia-de-numar-mare-de-preoti-si-credinciosi-1160731.html">Alba24</source>
       <description>Sute de credincioși și numeroși preoți l-au condus pe ultimul drum pe Părintele Ioan Cojan. Slujba religioasă de la Mănăstirea din Alba Iulia a fost oficiată de Arhiepiscopul Irineu.</description>
     </item>
     <item>
@@ -172,6 +231,8 @@
       <link>https://izz.ro/local/accident-rutier-intre-alba-iulia-si-santimbru-cu-doua-masini-implicate/</link>
       <guid>https://izz.ro/local/accident-rutier-intre-alba-iulia-si-santimbru-cu-doua-masini-implicate/</guid>
       <pubDate>Fri, 02 Oct 2026 14:29:05 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/accident-intre-alba-iulia-si-santimbru-doua-autoturisme-implicate-1160724.html">Alba24</source>
       <description>Două autovehicule au intrat într-o coliziune pe șoseaua dintre Alba Iulia și Sântimbru. Pompierii din cadrul Detașamentului Alba Iulia s-au deplasat la fața locului pentru acordarea primului ajutor medical, nefiind înregistrate persoane încarcerate.</description>
     </item>
     <item>
@@ -179,6 +240,8 @@
       <link>https://izz.ro/local/spitalul-de-cardiologie-din-alba-iulia-este-gata-in-proportie-de-95/</link>
       <guid>https://izz.ro/local/spitalul-de-cardiologie-din-alba-iulia-este-gata-in-proportie-de-95/</guid>
       <pubDate>Fri, 02 Oct 2026 12:00:14 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/video-noul-spital-de-radiologie-si-cardiologie-interventionala-din-alba-iulia-finalizat-in-proportie-de-95-1160700.html">Alba24</source>
       <description>Noua unitate medicală de radiologie și cardiologie intervențională din Alba Iulia, finanțată prin PNRR, a ajuns la un stadiu de execuție de 95%, fiind prima clădire de spital construită de la zero în județ în ultimele decenii.</description>
     </item>
     <item>
@@ -186,6 +249,8 @@
       <link>https://izz.ro/local/catedrala-incoronarii-din-alba-iulia-organizeaza-slujba-de-priveghere/</link>
       <guid>https://izz.ro/local/catedrala-incoronarii-din-alba-iulia-organizeaza-slujba-de-priveghere/</guid>
       <pubDate>Fri, 02 Oct 2026 07:00:58 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/slujba-de-priveghere-la-catedrala-incoronarii-din-alba-iulia-vineri-seara-de-la-ce-ora-sunt-asteptati-credinciosii-2-1160611.html">Alba24</source>
       <description>Credincioșii sunt așteptați vineri seară, de la ora 22:00, la rânduiala tradițională oficiată în prima noapte de vineri spre sâmbătă a fiecărei luni.</description>
     </item>
     <item>
@@ -193,6 +258,8 @@
       <link>https://izz.ro/local/persoana-decedata-dupa-ce-a-fost-lovita-de-tren-la-alba-iulia/</link>
       <guid>https://izz.ro/local/persoana-decedata-dupa-ce-a-fost-lovita-de-tren-la-alba-iulia/</guid>
       <pubDate>Fri, 02 Oct 2026 03:34:38 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/accident-grav-la-alba-iulia-o-persoana-a-fost-lovita-de-un-tren-in-statia-barabant-1160585.html">Alba24</source>
       <description>Un accident feroviar mortal a avut loc în cartierul Bărăbanț din Alba Iulia, unde o persoană a fost lovită de tren, polițiștii deschizând o anchetă pentru a stabili circumstanțele exacte.</description>
     </item>
     <item>
@@ -200,13 +267,26 @@
       <link>https://izz.ro/local/caminul-pentru-varstnici-alba-iulia-organizeaza-concurs-pentru-angajari/</link>
       <guid>https://izz.ro/local/caminul-pentru-varstnici-alba-iulia-organizeaza-concurs-pentru-angajari/</guid>
       <pubDate>Wed, 30 Sep 2026 15:00:34 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/locuri-de-munca-vacante-la-caminul-pentru-persoane-varstnice-din-alba-iulia-ce-posturi-sunt-disponibile-conditii-de-participare-1160297.html">Alba24</source>
       <description>Instituția din Alba Iulia a scos la concurs mai multe posturi vacante, printre care kinetoterapeut, infirmieri, asistent social și instalator, probele urmând să se desfășoare în octombrie 2026.</description>
+    </item>
+    <item>
+      <title>Universitatea din Alba Iulia organizează deschiderea noului an universitar pe 1 octombrie</title>
+      <link>https://izz.ro/local/universitatea-din-alba-iulia-organizeaza-deschiderea-noului-an-universitar-pe-1/</link>
+      <guid>https://izz.ro/local/universitatea-din-alba-iulia-organizeaza-deschiderea-noului-an-universitar-pe-1/</guid>
+      <pubDate>Wed, 30 Sep 2026 05:00:18 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/cand-are-loc-deschiderea-noului-an-universitar-la-universitatea-1-decembrie-1918-din-alba-iulia-evenimente-pentru-studenti-1160213.html">Alba24</source>
+      <description>Studenții Universității „1 Decembrie 1918” din Alba Iulia sunt așteptați în 1 octombrie, de la ora 11:00, la Casa de Cultură a Studenților, pentru ceremonia oficială de inaugurare a anului universitar.</description>
     </item>
     <item>
       <title>Eveniment simbolic la Palatul Apor pentru Luna Roz în Alba Iulia</title>
       <link>https://izz.ro/local/eveniment-simbolic-la-palatul-apor-pentru-luna-roz-in-alba-iulia/</link>
       <guid>https://izz.ro/local/eveniment-simbolic-la-palatul-apor-pentru-luna-roz-in-alba-iulia/</guid>
       <pubDate>Tue, 29 Sep 2026 16:00:02 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/octombrie-luna-roz-dedicata-constientizarii-cancerului-de-san-eveniment-simbolic-la-palatul-apor-din-alba-iulia-1160183.html">Alba24</source>
       <description>Alba Iulia marchează debutul lunii octombrie, dedicată conștientizării cancerului de sân, printr-un eveniment organizat la Palatul Apor, menit să promoveze prevenția și să ofere sprijin pentru sănătatea femeilor.</description>
     </item>
     <item>
@@ -214,6 +294,8 @@
       <link>https://izz.ro/local/expozitia-inzidiri-reuneste-lucrari-de-pictura-la-sala-unirii-din-alba-iulia/</link>
       <guid>https://izz.ro/local/expozitia-inzidiri-reuneste-lucrari-de-pictura-la-sala-unirii-din-alba-iulia/</guid>
       <pubDate>Tue, 29 Sep 2026 15:30:05 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/lucrari-semnate-de-artistii-crinela-antonescu-alexandru-antonescu-si-daniela-burnete-la-sala-unirii-din-alba-iulia-1160085.html">Alba24</source>
       <description>Muzeul Național al Unirii din Alba Iulia găzduiește expoziția de pictură „ÎnZidiri”, eveniment care prezintă viziunile artistice distincte semnate de Crinela Antonescu, Alexandru Antonescu și Daniela Burnete.</description>
     </item>
     <item>
@@ -221,6 +303,8 @@
       <link>https://izz.ro/local/primaria-alba-iulia-pregateste-iluminatul-arhitectural-la-colegiul-national/</link>
       <guid>https://izz.ro/local/primaria-alba-iulia-pregateste-iluminatul-arhitectural-la-colegiul-national/</guid>
       <pubDate>Tue, 29 Sep 2026 14:00:41 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/cladirea-colegiului-national-horea-closca-si-crisan-din-alba-iulia-va-fi-iluminata-arhitectural-planurile-primariei-1160081.html">Alba24</source>
       <description>Administrația locală din Alba Iulia a demarat licitația pentru studiul de fezabilitate necesar iluminatului arhitectural al clădirii istorice a Colegiului Național Horea, Cloșca și Crișan, proiectul aflându-se în faza de analiză și proiectare.</description>
     </item>
     <item>
@@ -228,6 +312,8 @@
       <link>https://izz.ro/local/alba-iulia-va-introduce-o-taxa-turistica-din-2027/</link>
       <guid>https://izz.ro/local/alba-iulia-va-introduce-o-taxa-turistica-din-2027/</guid>
       <pubDate>Mon, 28 Sep 2026 16:00:44 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/taxa-de-promovare-turistica-la-alba-iulia-din-2027-primaria-si-firme-horeca-infiinteaza-o-organizatie-pentru-turism-1159995.html">Alba24</source>
       <description>Primăria Alba Iulia și reprezentanții HoReCa pun bazele unei organizații de management al destinației, prin parteneriat public-privat, pentru a impune o nouă taxă de promovare turistică începând cu anul 2027.</description>
     </item>
     <item>
@@ -235,6 +321,8 @@
       <link>https://izz.ro/local/politistul-dan-groza-din-alba-iulia-si-a-lansat-un-volum-memorialistic/</link>
       <guid>https://izz.ro/local/politistul-dan-groza-din-alba-iulia-si-a-lansat-un-volum-memorialistic/</guid>
       <pubDate>Sun, 27 Sep 2026 14:19:41 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/agentul-dan-groza-de-la-politia-alba-iulia-a-lansat-duminica-un-volum-memorialistic-dupa-ani-de-documentare-1159865.html">Alba24</source>
       <description>Agentul-șef adjunct Dan Groza, din cadrul Poliției Municipiului Alba Iulia, a publicat o nouă carte autobiografică intitulată „Cezar-Mihai, un vlăstar născut din neam în neam”, după ani de documentare istorică și literară.</description>
     </item>
 </channel></rss>

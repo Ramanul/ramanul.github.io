@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Guvernul României — IZZ.ro</title>
   <link>https://izz.ro/subiect/guvernul-romaniei/</link>
   <atom:link href="https://izz.ro/subiect/guvernul-romaniei/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Guvernul României pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Statul român va putea cumpăra companii strategice aflate în dificultate financiară</title>
+      <link>https://izz.ro/economic/statul-roman-va-putea-cumpara-companii-strategice-aflate-in-dificultate/</link>
+      <guid>https://izz.ro/economic/statul-roman-va-putea-cumpara-companii-strategice-aflate-in-dificultate/</guid>
+      <pubDate>Thu, 08 Oct 2026 21:06:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/perspective/schimbari-legislative-pentru-firme/ultima-ora-este-pregatita-achizitionarea-de-catre-stat-a-unor-companii-strategice-aflate-in-dificultate-precum-in-insolventa-si-fara-cumparatori-inclusiv-in-schimbul-unor-creante-22810922?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/economic/statul-roman-va-putea-cumpara-companii-strategice-aflate-in-dificultate/cover.jpg?v=b5570d12" medium="image" type="image/jpeg"/>
+      <description>Guvernul pregătește un proiect prin care va putea prelua active sau companii strategice intrate în insolvență, având posibilitatea de a stinge creanțele statului prin acest transfer pentru a menține în funcțiune capacitățile economice esențiale.</description>
+    </item>
     <item>
       <title>Guvernul României achiziționează 12 elicoptere militare Airbus pentru 757 de milioane de euro</title>
       <link>https://izz.ro/economic/guvernul-romaniei-achizitioneaza-12-elicoptere-militare-airbus-pentru-757-de/</link>
       <guid>https://izz.ro/economic/guvernul-romaniei-achizitioneaza-12-elicoptere-militare-airbus-pentru-757-de/</guid>
       <pubDate>Wed, 07 Oct 2026 12:43:58 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://mytex.ro/expres/guvernul-romaniei-cumpara-12-elicoptere-airbus-h225m-care-vor-interactiona-cu-platforma-iar-ghimbav-brasov/">MyTex</source>
       <description>Executivul român a semnat contractul pentru cumpărarea a 12 elicoptere de transport Airbus H225M, o investiție derulată prin intermediul Franței și al Comisiei Europene care va sprijini activitatea platformei IAR din Ghimbav.</description>
     </item>
     <item>
@@ -18,6 +30,8 @@
       <link>https://izz.ro/politic/deputatul-liberal-robert-sighiartau-a-declarat-ca-pnl-nu-va-intra-in-guvernul/</link>
       <guid>https://izz.ro/politic/deputatul-liberal-robert-sighiartau-a-declarat-ca-pnl-nu-va-intra-in-guvernul/</guid>
       <pubDate>Wed, 07 Oct 2026 08:15:14 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://hotnews.ro/mesaj-transant-al-unui-lider-liberal-pnl-nu-va-face-parte-din-guvernul-niculescu-de-ce-depinde-votul-pentru-investire-2369395">HotNews</source>
       <description>Formațiunea liberală poate susține prin vot învestirea noului Executiv condus de Luca Niculescu, însă decizia finală depinde strict de măsurile incluse în programul de guvernare și de numele miniștrilor propuși.</description>
     </item>
     <item>
@@ -25,6 +39,8 @@
       <link>https://izz.ro/sanatate/guvernul-deblocheaza-peste-6-800-de-posturi-in-unitatile-sanitare-publice-din/</link>
       <guid>https://izz.ro/sanatate/guvernul-deblocheaza-peste-6-800-de-posturi-in-unitatile-sanitare-publice-din/</guid>
       <pubDate>Wed, 07 Oct 2026 07:20:04 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://www.csid.ro/stiri/mii-de-posturi-scoase-la-concurs-in-spitalele-din-romania-peste-6-800-de-locuri-de-munca-au-fost-deblocate-21328177/">CSÎD</source>
       <description>Ministerul Sănătății scoate la concurs mii de locuri de muncă în spitalele din România, în urma unei decizii guvernamentale recente menite să acopere deficitul acut de personal medical din sistemul public.</description>
     </item>
     <item>
@@ -32,6 +48,8 @@
       <link>https://izz.ro/politic/ccr-judeca-disputa-financiara-de-48-miliarde-lei-dintre-guvern-si-iccj/</link>
       <guid>https://izz.ro/politic/ccr-judeca-disputa-financiara-de-48-miliarde-lei-dintre-guvern-si-iccj/</guid>
       <pubDate>Wed, 07 Oct 2026 06:50:12 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://gazetadecluj.ro/ccr-este-asteptata-sa-ia-o-decizie-in-disputa-de-48-miliarde-de-lei-dintre-guvern-si-iccj/">Gazeta de Cluj</source>
       <description>Curtea Constituțională urmează să se pronunțe asupra sesizării depuse de Ilie Bolojan privind conflictul juridic dintre executiv și instanța supremă legat de achitarea salariilor restante datorate magistraților.</description>
     </item>
     <item>
@@ -39,6 +57,8 @@
       <link>https://izz.ro/economic/alocatia-de-plasament-ramane-1-194-lei-lunar-in-2026/</link>
       <guid>https://izz.ro/economic/alocatia-de-plasament-ramane-1-194-lei-lunar-in-2026/</guid>
       <pubDate>Tue, 06 Oct 2026 04:00:43 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/social/cat-este-alocatia-de-plasament-in-2026-cine-primeste-suma-majorata-si-indemnizatia-suplimentara-pentru-ingrijirea-copiilor-3978627">Digi24</source>
       <description>Valoarea alocației de plasament se menține la 1.194 de lei pe lună în anul 2026, deoarece indicatorul social de referință nu a fost majorat. Pentru copiii cu handicap, suma urcă la 1.791 de lei.</description>
     </item>
     <item>
@@ -46,6 +66,8 @@
       <link>https://izz.ro/general/pensionarii-cu-venituri-sub-3-000-de-lei-primesc-un-ajutor-financiar-de-pana-la/</link>
       <guid>https://izz.ro/general/pensionarii-cu-venituri-sub-3-000-de-lei-primesc-un-ajutor-financiar-de-pana-la/</guid>
       <pubDate>Mon, 05 Oct 2026 11:32:48 +0000</pubDate>
+      <category>general</category>
+      <source url="https://zch.ro/in-atentia-pensionarilor-cu-venituri-mici-ajutor-financiar-de-pana-la-500-de-lei-in-decembrie/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
       <description>Guvernul acordă a doua tranșă a sprijinului financiar pentru seniori în funcție de nivelul pensiei din luna noiembrie 2026, conform prevederilor legale stabilite prin ordonanță de urgență.</description>
     </item>
     <item>
@@ -53,6 +75,8 @@
       <link>https://izz.ro/general/peste-70-de-ong-uri-protesteaza-in-capitala-pentru-drepturile-animalelor/</link>
       <guid>https://izz.ro/general/peste-70-de-ong-uri-protesteaza-in-capitala-pentru-drepturile-animalelor/</guid>
       <pubDate>Sun, 04 Oct 2026 13:11:56 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.g4media.ro/protest-in-capitala-de-ziua-internationala-a-animalelor-participa-peste-70-de-ong-uri-din-toata-tara-ce-masuri-cer-autoritatilor.html">G4Media</source>
       <description>Mai multe organizații civice și iubitori de animale au marcat Ziua Internațională a Animalelor printr-un marș de la Teatrul Național până în Piața Victoriei, cerând măsuri ferme de la Guvern.</description>
     </item>
     <item>
@@ -60,6 +84,8 @@
       <link>https://izz.ro/economic/s-p-mentine-ratingul-romaniei-premierul-interimar-subliniaza-eforturile/</link>
       <guid>https://izz.ro/economic/s-p-mentine-ratingul-romaniei-premierul-interimar-subliniaza-eforturile/</guid>
       <pubDate>Sat, 03 Oct 2026 06:25:36 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/ilie-bolojan-sp-mentine-ratingul-romaniei-datorita-rezultatelor-guvernului-am-redus-deficitul-fara-sa-oprim-investitiile.html">Economedia, Economica</source>
       <description>Agenția Standard &amp; Poor's a confirmat ratingul suveran al României la nivelul BBB-/A-3 cu perspectivă negativă. Premierul interimar Ilie Bolojan a precizat că această menținere se datorează disciplinei bugetare și reducerii deficitului cu 27 de miliarde de lei, în timp ce investițiile publice au crescut semnificativ, în ciuda crizei politice.</description>
     </item>
     <item>
@@ -67,6 +93,8 @@
       <link>https://izz.ro/politic/unsprezece-hotarari-de-guvern-contestate-de-psd-au-redevenit-active/</link>
       <guid>https://izz.ro/politic/unsprezece-hotarari-de-guvern-contestate-de-psd-au-redevenit-active/</guid>
       <pubDate>Fri, 02 Oct 2026 17:05:51 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/cele-11-hotarari-de-guvern-suspendate-la-cererea-psd-au-reintrat-in-vigoare-ce-masuri-sunt-vizate-3975423">Digi24</source>
       <description>Secretariatul General al Guvernului a confirmat repunerea în vigoare a actelor normative suspendate anterior, inclusiv măsurile de plată destinate persoanelor cu dizabilități, după expirarea termenului legal.</description>
     </item>
     <item>
@@ -74,6 +102,8 @@
       <link>https://izz.ro/judetean/dumitru-paris-preia-interimatul-functiei-de-prefect-al-judetului-constanta/</link>
       <guid>https://izz.ro/judetean/dumitru-paris-preia-interimatul-functiei-de-prefect-al-judetului-constanta/</guid>
       <pubDate>Fri, 02 Oct 2026 13:50:37 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.dobrogeanews.ro/noul-prefect-al-judetului-constanta-este-dumitru-paris/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=noul-prefect-al-judetului-constanta-este-dumitru-paris">DobrogeaNews</source>
       <description>Guvernul României l-a demis pe Adrian Teodor Picoiu din funcția de prefect din cauza neefectuării unui curs obligatoriu, numindu-l temporar pe Dumitru Paris la conducerea instituției județene.</description>
     </item>
     <item>
@@ -81,6 +111,8 @@
       <link>https://izz.ro/general/programul-de-burse-flex-pentru-studiul-in-sua-continua-in-anul-2027/</link>
       <guid>https://izz.ro/general/programul-de-burse-flex-pentru-studiul-in-sua-continua-in-anul-2027/</guid>
       <pubDate>Fri, 02 Oct 2026 13:50:00 +0000</pubDate>
+      <category>general</category>
+      <source url="https://zcj.ro/educatie/bursele-flex-continua-si-in-2027-zeci-de-liceeni-romani-vor-putea-studia-un-an-in-sua--302345.html">Ziua de Cluj</source>
       <description>Guvernul a aprobat prelungirea programului educațional prin care zeci de liceeni români vor putea să urmeze gratuit cursurile unei unități de învățământ liceal din Statele Unite în sezonul 2027-2028.</description>
     </item>
     <item>
@@ -88,6 +120,8 @@
       <link>https://izz.ro/economic/nova-power-gas-confirma-memorandumul-pentru-lng-sua-la-solicitarea-guvernului/</link>
       <guid>https://izz.ro/economic/nova-power-gas-confirma-memorandumul-pentru-lng-sua-la-solicitarea-guvernului/</guid>
       <pubDate>Fri, 02 Oct 2026 07:04:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/energie/documente-scandalul-presiunilor-politice-lng-sua-nova-power-gas-semnat-memorandum-neangajant-rugamintea-reprezentantilor-guvernului-romaniei-import-consum-intern-s-ar-facut-incepand-2036-22797914?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Compania românească precizează că a semnat acordul neangajant cu traderul elen la cererea autorităților de la București, importurile pentru consum intern fiind programate abia din 2036.</description>
     </item>
     <item>
@@ -95,6 +129,8 @@
       <link>https://izz.ro/economic/guvernul-a-prelungit-cu-sase-luni-termenul-pentru-tranzitia-la-codurile-caen/</link>
       <guid>https://izz.ro/economic/guvernul-a-prelungit-cu-sase-luni-termenul-pentru-tranzitia-la-codurile-caen/</guid>
       <pubDate>Fri, 02 Oct 2026 06:31:01 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.criticarad.ro/tranzitia-la-caen-rev-3-prelungita-inca-6-luni/">Critic Arad</source>
       <description>Companiile și PFA-urile din România au primit o extindere de șase luni, având timp până la 25 martie 2027 pentru a actualiza oficial codurile de activitate economică.</description>
     </item>
     <item>
@@ -102,6 +138,8 @@
       <link>https://izz.ro/politic/ministrul-finantelor-asigura-plata-pensiilor-si-salariilor/</link>
       <guid>https://izz.ro/politic/ministrul-finantelor-asigura-plata-pensiilor-si-salariilor/</guid>
       <pubDate>Fri, 02 Oct 2026 03:38:25 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://jurnalulolteniei.ro/alexandru-nazare-pensiile-si-salariile-vor-fi-platite/">Jurnalul Olteniei</source>
       <description>Alexandru Nazare a declarat că pensiile și salariile vor fi achitate la termen, deși este necesar un plan bugetar pentru 2027, iar rectificarea este blocată de statutul Guvernului interimar.</description>
     </item>
     <item>
@@ -109,6 +147,8 @@
       <link>https://izz.ro/politic/guvernul-interimar-garanteaza-plata-la-timp-a-pensiilor-si-salariilor/</link>
       <guid>https://izz.ro/politic/guvernul-interimar-garanteaza-plata-la-timp-a-pensiilor-si-salariilor/</guid>
       <pubDate>Thu, 01 Oct 2026 20:19:34 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/anuntul-ministrului-demis-nazare-despre-pensii-si-salarii-guvernul-interimar-blocat-in-fata-rectificarii-bugetare.html">Știrile ProTV</source>
       <description>Ministrul demis Alexandru Nazare a declarat că statul deține resursele financiare necesare achitării drepturilor salariale și a pensiilor, în ciuda blocajului generat de criza politică actuală și de întârzierea rectificării bugetare.</description>
     </item>
     <item>
@@ -116,6 +156,8 @@
       <link>https://izz.ro/local/guvernul-a-prelungit-starea-de-alerta-in-sectorul-energetic-din-romania/</link>
       <guid>https://izz.ro/local/guvernul-a-prelungit-starea-de-alerta-in-sectorul-energetic-din-romania/</guid>
       <pubDate>Thu, 01 Oct 2026 17:57:05 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/stare-alerta-energie-2026-cernavoda-transelectrica/">News Brașov</source>
       <description>Autoritățile de la București au menținut măsurile speciale de siguranță pe piața de energie electrică până la sfârșitul lunii octombrie, în timp ce centrala Cernavodă rămâne oprită din cauza nivelului scăzut al Dunării.</description>
     </item>
     <item>
@@ -123,6 +165,8 @@
       <link>https://izz.ro/politic/patromil-solicita-transparenta-privind-capacitatile-de-productie-militara/</link>
       <guid>https://izz.ro/politic/patromil-solicita-transparenta-privind-capacitatile-de-productie-militara/</guid>
       <pubDate>Thu, 01 Oct 2026 15:29:14 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://cursdeguvernare.ro/patromil-cere-ca-fondurile-safe-sa-lase-in-romania-capacitati-reale-de-productie-si-ofera-autoritatilor-expertiza-tehnica-industriala-si-de-business.html">Curs de Guvernare</source>
       <description>Asociația producătorilor de tehnică militară cer Guvernului clarificări legate de investițiile industriale rămase în țară și oferă suport tehnic gratuit pentru accelerarea contractelor.</description>
     </item>
     <item>
@@ -130,6 +174,8 @@
       <link>https://izz.ro/economic/transelectrica-a-fost-autorizata-sa-limiteze-exportul-de-energie-in-caz-de-criza/</link>
       <guid>https://izz.ro/economic/transelectrica-a-fost-autorizata-sa-limiteze-exportul-de-energie-in-caz-de-criza/</guid>
       <pubDate>Thu, 01 Oct 2026 13:16:25 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.g4media.ro/transelectrica-abilitata-de-guvern-sa-ia-masuri-in-situatii-de-criza-inclusiv-prin-reducerea-exportului-de-energie-electrica-sau-limitarea-consumului-intern.html">G4Media</source>
       <description>Guvernul a aprobat măsuri speciale pentru siguranța sistemului energetic național. În situații de criză, Transelectrica poate crește rezervele tehnologice, poate reduce exporturile de energie sau poate limita treptat consumul intern.</description>
     </item>
     <item>
@@ -137,6 +183,8 @@
       <link>https://izz.ro/politic/partidele-negociaza-doua-scenarii-guvernamentale-dupa-consultarile-cu/</link>
       <guid>https://izz.ro/politic/partidele-negociaza-doua-scenarii-guvernamentale-dupa-consultarile-cu/</guid>
       <pubDate>Thu, 01 Oct 2026 12:35:43 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/surse-doua-variante-de-guvern-revin-in-prim-plan-dupa-conditia-pusa-de-nicusor-dan-ce-negociaza-acum-partidele-3972963">Digi24</source>
       <description>Înaintea desemnării celui de-al patrulea premier, formațiunile parlamentare discută variantele unui guvern condus de un tehnocrat sprijinit de miniștri politici sau realizarea unei rocade guvernamentale.</description>
     </item>
     <item>
@@ -144,6 +192,8 @@
       <link>https://izz.ro/economic/motorina-risca-sa-depaseasca-12-lei-pe-litru-fara-prelungirea-reducerii-de/</link>
       <guid>https://izz.ro/economic/motorina-risca-sa-depaseasca-12-lei-pe-litru-fara-prelungirea-reducerii-de/</guid>
       <pubDate>Wed, 30 Sep 2026 10:27:56 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://gazetadecluj.ro/motorina-ar-putea-sari-de-12-lei-pe-litru-de-maine-daca-guvernul-nu-prelungeste-reducerea-accizei/">Gazeta de Cluj</source>
       <description>Transportatorii și șoferii români așteaptă o decizie urgentă a Guvernului privind menținerea facilității fiscale la carburanți, a cărei valabilitate expiră oficial la data de 1 octombrie.</description>
     </item>
     <item>
@@ -151,6 +201,8 @@
       <link>https://izz.ro/sport/gheorghe-hagi-cere-sprijin-guvernamental-pentru-fotbalul-romanesc/</link>
       <guid>https://izz.ro/sport/gheorghe-hagi-cere-sprijin-guvernamental-pentru-fotbalul-romanesc/</guid>
       <pubDate>Tue, 29 Sep 2026 07:45:07 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/nationala/gica-hagi-mesaj-guvern-20535643">ProSport</source>
       <description>Selecționerul Gheorghe Hagi a lansat un apel către clasa politică din România, cerând măsuri concrete de susținere a sportului, după rezultatele slabe obținute de prima reprezentativă în startul Ligii Națiunilor.</description>
     </item>
     <item>
@@ -158,6 +210,8 @@
       <link>https://izz.ro/politic/guvernul-muresan-intentioneaza-listarea-companiilor-de-stat-la-bursa/</link>
       <guid>https://izz.ro/politic/guvernul-muresan-intentioneaza-listarea-companiilor-de-stat-la-bursa/</guid>
       <pubDate>Sun, 27 Sep 2026 15:29:29 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://economedia.ro/programul-de-guvernare-ce-companii-de-stat-ar-putea-fi-listate-din-2027.html">Economedia</source>
       <description>Programul de guvernare propus de premierul desemnat Siegfried Mureșan prevede vânzarea de pachete minoritare la entitățile statului începând din 2027, menținând însă controlul strategic.</description>
     </item>
     <item>
@@ -165,6 +219,8 @@
       <link>https://izz.ro/local/guvernul-a-publicat-costurile-estimate-pentru-constructia-autostrazii-brasov/</link>
       <guid>https://izz.ro/local/guvernul-a-publicat-costurile-estimate-pentru-constructia-autostrazii-brasov/</guid>
       <pubDate>Sun, 27 Sep 2026 13:00:10 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/au-fost-publicate-costurile-si-indicatorii-autostrazii-dintre-brasov-fagaras-cat-vor-dura-lucrarile-si-ce-prevede-proiectul-1159720.html">Alba24</source>
       <description>Executivul a alocat aproape 9,4 miliarde de lei pentru realizarea celor aproape 50 de kilometri ai autostrăzii Brașov-Făgăraș, proiect ce va include numeroase pasaje, poduri și structuri de tip tunel finalizate în trei ani.</description>
     </item>
 </channel></rss>

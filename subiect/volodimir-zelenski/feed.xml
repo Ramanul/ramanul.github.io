@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Volodimir Zelenski — IZZ.ro</title>
   <link>https://izz.ro/subiect/volodimir-zelenski/</link>
   <atom:link href="https://izz.ro/subiect/volodimir-zelenski/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Volodimir Zelenski pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Negociatorii ucraineni se întâlnesc cu emisarii lui Trump în SUA</title>
+      <link>https://izz.ro/extern/negociatorii-ucraineni-se-intalnesc-cu-emisarii-lui-trump-in-sua/</link>
+      <guid>https://izz.ro/extern/negociatorii-ucraineni-se-intalnesc-cu-emisarii-lui-trump-in-sua/</guid>
+      <pubDate>Thu, 08 Oct 2026 20:34:21 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/negociatorii-ucraineni-se-intalnesc-cu-emisarii-lui-trump-vineri-si-sambata-in-sua-anunta-zelenski.html">G4Media</source>
+      <media:content url="https://izz.ro/extern/negociatorii-ucraineni-se-intalnesc-cu-emisarii-lui-trump-in-sua/cover.jpg?v=0179a1b9" medium="image" type="image/jpeg"/>
+      <description>Președintele ucrainean Volodimir Zelenski a anunțat că trimișii Kievului se vor întâlni vineri și sâmbătă, în Statele Unite, cu Jared Kushner și Steve Witkoff, emisarii președintelui Donald Trump, pentru a discuta despre încheierea războiului.</description>
+    </item>
+    <item>
+      <title>Negociatorii ucraineni se întâlnesc în SUA pentru noi tratative de pace</title>
+      <link>https://izz.ro/extern/negociatorii-ucraineni-se-intalnesc-in-sua-pentru-noi-tratative-de-pace/</link>
+      <guid>https://izz.ro/extern/negociatorii-ucraineni-se-intalnesc-in-sua-pentru-noi-tratative-de-pace/</guid>
+      <pubDate>Thu, 08 Oct 2026 19:21:04 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/noi-incercari-de-a-pune-capat-razboiului-din-ucraina-negociatorii-lui-zelenski-merg-in-sua-pentru-noi-discutii-de-pace.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/extern/negociatorii-ucraineni-se-intalnesc-in-sua-pentru-noi-tratative-de-pace/cover.jpg?v=888953cb" medium="image" type="image/jpeg"/>
+      <description>Reprezentanții președintelui Volodimir Zelenski vor purta discuții în Statele Unite cu emisarii administrației americane, Jared Kushner și Steve Witkoff, în vederea identificării unor soluții diplomatice pentru oprirea conflictului armat.</description>
+    </item>
     <item>
       <title>Bombardamente masive rusești în Ucraina soldate cu 32 de morți</title>
       <link>https://izz.ro/extern/bombardamente-masive-rusesti-in-ucraina-soldate-cu-32-de-morti/</link>
       <guid>https://izz.ro/extern/bombardamente-masive-rusesti-in-ucraina-soldate-cu-32-de-morti/</guid>
       <pubDate>Thu, 08 Oct 2026 06:45:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/bilantul-dupa-ziua-lui-putin-valuri-de-rachete-si-drone-32-de-morti-dintre-care-cinci-copii-intr-o-cladire-rezidentiala-din-priluki-3983241">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/bombardamente-masive-rusesti-in-ucraina-soldate-cu-32-de-morti/cover.jpg?v=c104c974" medium="image" type="image/jpeg"/>
       <description>Atacurile cu rachete și drone lansate de Rusia au ucis cel puțin 32 de persoane, inclusiv cinci copii, într-un imobil din Priluki, afectând grav și infrastructura energetică și industrială a Ucrainei.</description>
     </item>
     <item>
@@ -18,6 +41,9 @@
       <link>https://izz.ro/extern/atacurile-rusesti-din-ucraina-provoaca-28-de-morti-de-ziua-lui-vladimir-putin/</link>
       <guid>https://izz.ro/extern/atacurile-rusesti-din-ucraina-provoaca-28-de-morti-de-ziua-lui-vladimir-putin/</guid>
       <pubDate>Wed, 07 Oct 2026 20:10:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/ziua-1687-rusia-se-dezlantuie-de-ziua-tarului-11-morti-bloc-facut-zob-de-o-racheta-video-cadoul-ucrainei-trump-vrea-sa-vorbeasca-cu-putin-despre-ciuma">Spotmedia</source>
+      <media:content url="https://izz.ro/extern/atacurile-rusesti-din-ucraina-provoaca-28-de-morti-de-ziua-lui-vladimir-putin/cover.jpg?v=b67aa79c" medium="image" type="image/jpeg"/>
       <description>În ziua în care Vladimir Putin împlinește 74 de ani, un bombardament masiv al Rusiei a ucis cel puțin 28 de persoane în Ucraina, distrugând un bloc de locuințe din regiunea Cernigău.</description>
     </item>
     <item>
@@ -25,6 +51,9 @@
       <link>https://izz.ro/extern/atacul-masiv-al-rusiei-asupra-ucrainei-s-a-soldat-cu-25-de-morti/</link>
       <guid>https://izz.ro/extern/atacul-masiv-al-rusiei-asupra-ucrainei-s-a-soldat-cu-25-de-morti/</guid>
       <pubDate>Wed, 07 Oct 2026 19:31:37 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/galerie-foto-volodimir-zelenski-25-de-oameni-au-fost-ucisi-in-acest-atac-masiv-al-rusiei-asupra-ucrainei-o-suta-de-oameni-au-fost-raniti-acesta-este-genul-de-cadou-pe-care-putin.html">G4Media</source>
+      <media:content url="https://izz.ro/extern/atacul-masiv-al-rusiei-asupra-ucrainei-s-a-soldat-cu-25-de-morti/cover.jpg?v=28402059" medium="image" type="image/jpeg"/>
       <description>Președintele Volodimir Zelenski a anunțat un bilanț tragic în urma loviturilor masive cu drone și rachete rusești, înregistrate pe parcursul ultimelor 24 de ore, soldate și cu o sută de răniți.</description>
     </item>
     <item>
@@ -32,6 +61,9 @@
       <link>https://izz.ro/extern/presedintele-volodimir-zelenski-condamna-atacurile-rusesti-soldate-cu-24-de/</link>
       <guid>https://izz.ro/extern/presedintele-volodimir-zelenski-condamna-atacurile-rusesti-soldate-cu-24-de/</guid>
       <pubDate>Wed, 07 Oct 2026 14:53:43 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <media:content url="https://izz.ro/extern/presedintele-volodimir-zelenski-condamna-atacurile-rusesti-soldate-cu-24-de/cover.jpg?v=44d8458a" medium="image" type="image/jpeg"/>
       <description>Echipele de salvare continuă operațiunile de căutare a supraviețuitorilor sub dărâmături. Un bloc de apartamente a fost distrus complet în urma unei serii de bombardamente masive lansate asupra localității Priluki.</description>
     </item>
     <item>
@@ -39,6 +71,8 @@
       <link>https://izz.ro/extern/krivoi-rog-se-confrunta-cu-o-criza-bugetara-severa-din-cauza-atacurilor-rusesti/</link>
       <guid>https://izz.ro/extern/krivoi-rog-se-confrunta-cu-o-criza-bugetara-severa-din-cauza-atacurilor-rusesti/</guid>
       <pubDate>Tue, 06 Oct 2026 04:00:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/e-vorba-de-supravietuire-ucraina-se-confrunta-cu-cea-mai-grava-criza-bugetara-de-la-invazie-cheltuielile-neesentiale-inghetate-3978103">Digi24 Extern</source>
       <description>Orașul natal al președintelui Volodimir Zelenski trece printr-o gravă criză economică după ce bombardamentele au paralizat minele și oțelăria locală. Cheltuielile neesențiale au fost complet înghețate.</description>
     </item>
     <item>
@@ -46,6 +80,8 @@
       <link>https://izz.ro/extern/nava-turceasca-lovita-de-drone-in-marea-neagra-soldata-cu-victime/</link>
       <guid>https://izz.ro/extern/nava-turceasca-lovita-de-drone-in-marea-neagra-soldata-cu-victime/</guid>
       <pubDate>Mon, 05 Oct 2026 09:24:15 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://gazetadecluj.ro/nava-turceasca-lovita-de-o-drona-in-marea-neagra-interventie-in-curs-a-autoritatilor-romane/">Gazeta de Cluj, Ziarul de Ploiești, Spotmedia, BZI Iași</source>
       <description>O navă comercială sub pavilion turcesc, care transporta cereale din Ucraina spre Italia, a fost lovită de drone în Marea Neagră, în zona economică exclusivă a României, în apropierea platformei Pescăruș. Vasul s-a scufundat în urma unui incendiu izbucnit la bord. Autoritățile române au intervenit pentru operațiuni de căutare și salvare, 11 membri ai echipajului fiind salvați, în timp ce două persoane au decedat.</description>
     </item>
     <item>
@@ -53,6 +89,8 @@
       <link>https://izz.ro/extern/declaratia-lui-volodimir-zelenski-despre-doi-prizonieri-a-generat-tensiuni-cu/</link>
       <guid>https://izz.ro/extern/declaratia-lui-volodimir-zelenski-despre-doi-prizonieri-a-generat-tensiuni-cu/</guid>
       <pubDate>Sun, 04 Oct 2026 20:45:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/explainer-de-ce-este-coreea-de-sud-atat-de-furioasa-pe-ucraina-din-cauza-a-doi-prizonieri-de-razboi-nord-coreeni-805155.html">Antena 3 CNN</source>
       <description>O afirmație făcută de președintele Ucrainei la tribuna ONU privind doi prizonieri de război trimiși în Coreea de Sud a declanșat o criză diplomatică neașteptată între Seul și Kiev.</description>
     </item>
     <item>
@@ -60,6 +98,8 @@
       <link>https://izz.ro/extern/zelenski-acuza-rusia-ca-a-transferat-coreei-de-nord-tehnologia-dronelor-cu/</link>
       <guid>https://izz.ro/extern/zelenski-acuza-rusia-ca-a-transferat-coreei-de-nord-tehnologia-dronelor-cu/</guid>
       <pubDate>Sun, 04 Oct 2026 16:40:07 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/kievul-crede-ca-moscova-a-transmis-phenianului-tehnologia-dronelor-cu-reactie-zelenski-rusia-impartaseste-cu-coreea-de-nord-toate-tehnologiile-2366468">HotNews</source>
       <description>Liderul de la Kiev susține că Moscova a împărtășit regimului de la Phenian inovații tehnologice militare privind dronele propulsate de motoare cu reacție, utilizate frecvent în conflict.</description>
     </item>
     <item>
@@ -67,6 +107,8 @@
       <link>https://izz.ro/extern/statele-unite-propun-o-intalnire-trilaterala-rusiei-si-ucrainei/</link>
       <guid>https://izz.ro/extern/statele-unite-propun-o-intalnire-trilaterala-rusiei-si-ucrainei/</guid>
       <pubDate>Sun, 04 Oct 2026 16:17:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/propunerea-facuta-de-sua-pentru-rusia-si-ucraina-zelenski-le-am-confirmat-ca-suntem-gata-sa-sustinem-acest-calendar-2366458">HotNews</source>
       <description>Președintele ucrainean Volodimir Zelenski a confirmat disponibilitatea țării sale pentru un nou calendar de discuții tehnice propus de Washington, în timp ce atenția americană este parțial distrasă de conflictul cu Iranul.</description>
     </item>
     <item>
@@ -74,6 +116,8 @@
       <link>https://izz.ro/extern/rusia-intensifica-atacurile-asupra-ucrainei-dupa-amenintari-cu-rafinarii/</link>
       <guid>https://izz.ro/extern/rusia-intensifica-atacurile-asupra-ucrainei-dupa-amenintari-cu-rafinarii/</guid>
       <pubDate>Sun, 04 Oct 2026 13:10:23 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/moscow-says-it-will-step-up-strikes-on-ukraine-after-kyiv-vows-to-hit-russian-oil-refineries/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Ministerul Apărării de la Moscova a anunțat represalii militare și lovituri masive asupra infrastructurii industriale din Kiev, ca replică la avertismentele lansate anterior de președintele Volodimir Zelenski.</description>
     </item>
     <item>
@@ -81,6 +125,8 @@
       <link>https://izz.ro/extern/escaladarea-atacurilor-ucraina-vizeaza-rafinarii-rusesti-iar-moscova-ameninta/</link>
       <guid>https://izz.ro/extern/escaladarea-atacurilor-ucraina-vizeaza-rafinarii-rusesti-iar-moscova-ameninta/</guid>
       <pubDate>Sun, 04 Oct 2026 07:27:21 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.monitorulbt.ro/international/2026/10/04/kievul-se-pregateste-pentru-o-noua-iarna-sub-atacuri-zelenski-anunta-cum-va-raspunde-ucraina/">Monitorul de Botoșani, Digi24 Extern, Observator</source>
       <description>Președintele ucrainean Volodimir Zelenski a anunțat că Ucraina va intensifica atacurile asupra rafinăriilor rusești, ca răspuns la o nouă strategie a Moscovei de a lovi infrastructura civilă și energetică pentru a goli orașele ucrainene înaintea iernii. În replică, Rusia a declarat că va intensifica la rândul său atacurile asupra obiectivelor militare și industriale din Kiev și alte regiuni.</description>
     </item>
     <item>
@@ -88,6 +134,8 @@
       <link>https://izz.ro/extern/ucraina-va-ataca-rafinariile-rusesti-ca-riposta-la-bombardamente/</link>
       <guid>https://izz.ro/extern/ucraina-va-ataca-rafinariile-rusesti-ca-riposta-la-bombardamente/</guid>
       <pubDate>Sat, 03 Oct 2026 18:16:57 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.zf.ro/business-international/zelenski-ucraina-va-lansa-atacuri-asupra-rafinariilor-rusesti-23252447">Ziarul Financiar</source>
       <description>Președintele Volodimir Zelenski a anunțat că Ucraina va intensifica raidurile cu drone asupra rafinăriilor de petrol din Rusia, ca răspuns direct la noua doctrină militară a Moscovei care vizează orașele ucrainene.</description>
     </item>
     <item>
@@ -95,6 +143,8 @@
       <link>https://izz.ro/extern/coreea-de-sud-cere-scuze-ucrainei-dupa-dezvaluirea-unui-transfer-secret-de/</link>
       <guid>https://izz.ro/extern/coreea-de-sud-cere-scuze-ucrainei-dupa-dezvaluirea-unui-transfer-secret-de/</guid>
       <pubDate>Fri, 02 Oct 2026 07:04:27 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/coreea-de-sud-ameninta-cu-masuri-suplimentare-daca-ucraina-nu-isi-va-cere-scuze-pentru-ca-zelenski-a-dezvaluit-un-transfer-secret-de-prizonieri-nord-coreeni.html">G4Media, Antena 3 CNN</source>
       <description>Președintele Coreei de Sud, Lee Jae Myung, a avertizat că Seulul va lua măsuri suplimentare dacă Ucraina nu își cere oficial scuze. Solicitarea vine după ce președintele ucrainean Volodimir Zelenski a dezvăluit public detalii despre transferul secret a doi prizonieri de război nord-coreeni în Coreea de Sud.</description>
     </item>
     <item>
@@ -102,6 +152,8 @@
       <link>https://izz.ro/extern/volodimir-zelenski-anunta-prima-utilizare-pe-front-a-rachetei-balistice-fp-7/</link>
       <guid>https://izz.ro/extern/volodimir-zelenski-anunta-prima-utilizare-pe-front-a-rachetei-balistice-fp-7/</guid>
       <pubDate>Thu, 01 Oct 2026 19:34:13 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/premiera-pe-front-ucraina-a-aruncat-in-lupta-racheta-tactica-balistica-fp-7-informatia-pe-care-kievul-refuza-categoric-sa-o-dezvaluie-2364320">HotNews</source>
       <description>Liderul ucrainean Volodimir Zelenski a declarat pe o rețea de socializare că racheta balistică tactică FP-7 a fost folosită în luptă pentru prima oară, mulțumind pentru rezultatul obținut.</description>
     </item>
     <item>
@@ -109,6 +161,8 @@
       <link>https://izz.ro/extern/ucraina-a-utilizat-in-premiera-racheta-balistica-tactica-fp-7/</link>
       <guid>https://izz.ro/extern/ucraina-a-utilizat-in-premiera-racheta-balistica-tactica-fp-7/</guid>
       <pubDate>Thu, 01 Oct 2026 19:11:44 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/zelenski-ucraina-foloseste-pentru-prima-data-in-lupta-racheta-balistica-tactica-fp-7.html">G4Media, Antena 3 CNN</source>
       <description>Președintele ucrainean Volodimir Zelenski a anunțat joi că Ucraina a folosit pentru prima dată în luptă racheta balistică tactică FP-7. Șeful statului a mulțumit pentru rezultatul obținut și a menționat că următorul pas vizat este producția în masă a acestui tip de armă, fără a preciza însă zona exactă în care a fost utilizată.</description>
     </item>
     <item>
@@ -116,6 +170,8 @@
       <link>https://izz.ro/extern/ucraina-pregateste-faza-a-patra-a-operatiunii-vivaldi/</link>
       <guid>https://izz.ro/extern/ucraina-pregateste-faza-a-patra-a-operatiunii-vivaldi/</guid>
       <pubDate>Wed, 30 Sep 2026 18:38:30 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/zelenski-anunta-faza-a-patra-a-operatiunii-vivaldi-cum-a-folosit-ucraina-roboti-pentru-a-reduce-expunerea-soldatilor-pe-front-3972019">Digi24 Extern</source>
       <description>Președintele Volodimir Zelenski a anunțat continuarea ofensivei care utilizează sisteme robotizate terestre pe front, reușind până în prezent recucerirea a 176 de kilometri pătrați și oprirea înaintării ruse.</description>
     </item>
     <item>
@@ -123,6 +179,8 @@
       <link>https://izz.ro/extern/volodimir-zelenski-a-vizitat-soldatii-pe-frontul-din-sectorul-liman/</link>
       <guid>https://izz.ro/extern/volodimir-zelenski-a-vizitat-soldatii-pe-frontul-din-sectorul-liman/</guid>
       <pubDate>Wed, 30 Sep 2026 12:57:05 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/zelenski-a-mers-personal-pe-front-pentru-a-felicita-militarii-care-au-participat-in-spectaculoasa-operatiune-vivaldi-3971461">Digi24 Extern</source>
       <description>Președintele ucrainean Volodimir Zelenski s-a deplasat pe linia frontului pentru a felicita personal militarii implicați în desfășurarea Operațiunii Vivaldi.</description>
     </item>
     <item>
@@ -130,6 +188,8 @@
       <link>https://izz.ro/extern/belgia-va-transfera-ucrainei-trei-avioane-de-vanatoare-f-16-pana-la-finalul/</link>
       <guid>https://izz.ro/extern/belgia-va-transfera-ucrainei-trei-avioane-de-vanatoare-f-16-pana-la-finalul/</guid>
       <pubDate>Wed, 30 Sep 2026 06:29:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/ajutor-primit-de-ucraina-din-partea-unei-tari-europene-anuntul-lui-zelenski-despre-avioanele-de-vanatoare-f-16-care-ajung-la-kiev-805166.html">Antena 3 CNN</source>
       <description>Președintele Volodimir Zelenski a anunțat că guvernul din Belgia va livra Ucrainei trei avioane de luptă de tip F-16 în cursul acestui an, pentru a sprijini efortul de apărare în conflictul armat.</description>
     </item>
     <item>
@@ -137,6 +197,8 @@
       <link>https://izz.ro/extern/belgia-trimite-ucrainei-trei-aeronave-f-16-pana-la-sfarsitul-acestui-an/</link>
       <guid>https://izz.ro/extern/belgia-trimite-ucrainei-trei-aeronave-f-16-pana-la-sfarsitul-acestui-an/</guid>
       <pubDate>Tue, 29 Sep 2026 19:56:29 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/belgia-va-transfera-ucrainei-trei-avioane-f-16-pana-la-sfarsitul-anului-anunta-volodimir-zelenski-exista-un-acord-important-3970329">Digi24 Extern</source>
       <description>Liderul de la Kiev a anunțat finalizarea unui nou acord militar de sprijin cu guvernul belgian, destinat consolidării apărării aeriene împotriva atacurilor rusești.</description>
     </item>
     <item>
@@ -144,6 +206,8 @@
       <link>https://izz.ro/extern/ucraina-sustine-ca-coreea-de-nord-pregateste-10-000-de-soldati-pentru-rusia/</link>
       <guid>https://izz.ro/extern/ucraina-sustine-ca-coreea-de-nord-pregateste-10-000-de-soldati-pentru-rusia/</guid>
       <pubDate>Tue, 29 Sep 2026 07:17:03 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/coreea-de-nord-pregateste-desfasurarea-a-inca-10-000-de-soldati-in-rusia-sustine-zelenski-3968995">Digi24 Extern</source>
       <description>Președintele Volodimir Zelenski a declarat că peste 8.000 militari nord-coreeni se află deja pe teritoriul rus. Kievul avertizează că Phenianul pregătește trimiterea unui nou contingent de 10.000 de soldați.</description>
     </item>
     <item>
@@ -151,6 +215,8 @@
       <link>https://izz.ro/extern/un-sondaj-arata-ca-cetatenii-ucraineni-sunt-mai-ingrijorati-de-coruptie-decat/</link>
       <guid>https://izz.ro/extern/un-sondaj-arata-ca-cetatenii-ucraineni-sunt-mai-ingrijorati-de-coruptie-decat/</guid>
       <pubDate>Mon, 28 Sep 2026 19:24:54 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ucrainenii-se-tem-mai-mult-de-coruptie-decat-de-bombele-rusilor-multi-dintre-ei-arata-cu-degetul-catre-presedintele-zelenski-sondaj-3968489">Digi24 Extern</source>
       <description>Percepția publică din Ucraina indică o teamă mai mare față de rețelele corupte decât față de atacurile rusești. Majoritatea populației îl consideră pe președintele Volodimir Zelenski responsabil pentru scandalurile din partidul de guvernământ.</description>
     </item>
     <item>
@@ -158,6 +224,8 @@
       <link>https://izz.ro/extern/donald-trump-i-a-cerut-din-nou-lui-volodimir-zelenski-oprirea-atacurilor-asupra/</link>
       <guid>https://izz.ro/extern/donald-trump-i-a-cerut-din-nou-lui-volodimir-zelenski-oprirea-atacurilor-asupra/</guid>
       <pubDate>Mon, 28 Sep 2026 06:58:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/trump-a-cerut-din-nou-ucrainei-sa-reduca-atacurile-asupra-rafinariilor-de-petrol-rusesti.html">Știrile ProTV</source>
       <description>Fostul președinte american Donald Trump a reiterat solicitarea adresată liderului de la Kiev, Volodimir Zelenski, de a sista raidurile cu drone vizând infrastructura petrolieră din Rusia.</description>
     </item>
     <item>
@@ -165,6 +233,8 @@
       <link>https://izz.ro/extern/armata-ucraineana-anunta-progrese-teritoriale-in-sectorul-liman/</link>
       <guid>https://izz.ro/extern/armata-ucraineana-anunta-progrese-teritoriale-in-sectorul-liman/</guid>
       <pubDate>Sun, 27 Sep 2026 19:56:37 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/zelenski-anunta-rezultate-importante-pe-frontul-din-est-care-e-noua-tinta-a-atacurilor-rusiei-in-ucraina-2359626">HotNews</source>
       <description>Președintele Volodimir Zelenski a confirmat realizarea unor obiective militare majore în regiunea Donețk, în urma operațiunilor ofensive conduse de forțele armate pe frontul din estul țării.</description>
     </item>
     <item>
@@ -172,6 +242,8 @@
       <link>https://izz.ro/extern/volodimir-zelenski-anunta-progrese-militare-majore-pe-frontul-din-estul-ucrainei/</link>
       <guid>https://izz.ro/extern/volodimir-zelenski-anunta-progrese-militare-majore-pe-frontul-din-estul-ucrainei/</guid>
       <pubDate>Sun, 27 Sep 2026 18:47:55 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/zelenski-a-anuntat-rezultate-importante-pe-frontul-de-la-liman-si-noi-progrese-ale-trupelor-ucrainene-in-regiunea-donetk.html">Știrile ProTV, HotNews</source>
       <description>Președintele ucrainean Volodimir Zelenski a anunțat duminică obținerea unor rezultate importante și progrese ale trupelor pe frontul de la Liman, în regiunea Donețk. Informațiile i-au fost transmise oficial de către comandantul-șef al armatei ucrainene, Mihailo Drapatîi, acțiunile făcând parte din operațiunea militară denumită „Vivaldi”. Sursele nu prezintă contraziceri.</description>
     </item>
     <item>
@@ -179,6 +251,8 @@
       <link>https://izz.ro/extern/ucraina-isi-intensifica-productia-de-drone-interceptoare-impotriva-armamentului/</link>
       <guid>https://izz.ro/extern/ucraina-isi-intensifica-productia-de-drone-interceptoare-impotriva-armamentului/</guid>
       <pubDate>Sun, 27 Sep 2026 06:48:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.economica.net/razbouiul-dronelor-zelenski-spune-ca-rusia-aloca-miliarde-de-dolari-pe-drone-cu-motor-cu-reactie-anul-viitor_980253.html">Economica</source>
       <description>Președintele Volodimir Zelenski a anunțat că Rusia investește sume uriașe în drone cu reacție pentru anul viitor. În replică, Ucraina testează în luptă noi prototipuri de drone interceptoare pentru a îmbunătăți rata actuală de doborâre.</description>
     </item>
 </channel></rss>

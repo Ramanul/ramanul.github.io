@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Parlamentul României — IZZ.ro</title>
   <link>https://izz.ro/subiect/parlamentul-romaniei/</link>
   <atom:link href="https://izz.ro/subiect/parlamentul-romaniei/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Parlamentul României pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Dezbateri confidențiale în Parlament privind suplimentarea efectivelor militare</title>
+      <link>https://izz.ro/politic/dezbateri-confidentiale-in-parlament-privind-suplimentarea-efectivelor-militare/</link>
+      <guid>https://izz.ro/politic/dezbateri-confidentiale-in-parlament-privind-suplimentarea-efectivelor-militare/</guid>
+      <pubDate>Thu, 08 Oct 2026 14:50:37 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.europalibera.md/a/reactii-dupa-votul-secret-din-parlament-privind-armata/33872966.html">Europa Liberă</source>
+      <media:content url="https://izz.ro/politic/dezbateri-confidentiale-in-parlament-privind-suplimentarea-efectivelor-militare/cover.jpg?v=ad531c3f" medium="image" type="image/jpeg"/>
+      <description>Deputații români au analizat cu ușile închise un proiect propus de Ministerul Apărării care vizează modernizarea armatei și creșterea numărului de militari active, stârnind reacții divergente în rândul opoziției.</description>
+    </item>
     <item>
       <title>Parlamentarii români vor participa la un curs de instruire în inteligență artificială susținut de ONU</title>
       <link>https://izz.ro/politic/parlamentarii-romani-vor-participa-la-un-curs-de-instruire-in-inteligenta/</link>
       <guid>https://izz.ro/politic/parlamentarii-romani-vor-participa-la-un-curs-de-instruire-in-inteligenta/</guid>
       <pubDate>Thu, 08 Oct 2026 08:15:20 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/onu-va-instrui-parlamentarii-romani-in-inteligenta-artificiala-un-deputat-pnl-explica-ce-va-aborda-programul-e-un-prim-pas-serios-3983369">Digi24</source>
+      <media:content url="https://izz.ro/politic/parlamentarii-romani-vor-participa-la-un-curs-de-instruire-in-inteligenta/cover.jpg?v=cb887352" medium="image" type="image/jpeg"/>
       <description>Birourile permanente ale Parlamentului României au aprobat un program de formare organizat de Organizația Națiunilor Unite. Sesiunile, programate în noiembrie, le vor oferi aleșilor noțiuni esențiale despre utilizarea inteligenței artificiale.</description>
     </item>
     <item>
@@ -18,6 +31,9 @@
       <link>https://izz.ro/politic/parlamentul-a-votat-scutirea-de-accize-pentru-200-de-litri-de-palinca/</link>
       <guid>https://izz.ro/politic/parlamentul-a-votat-scutirea-de-accize-pentru-200-de-litri-de-palinca/</guid>
       <pubDate>Wed, 07 Oct 2026 17:05:53 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://newsbv.ro/razboiul-pentru-palinca-de-acasa-200-litri-fara-accize/">News Brașov</source>
+      <media:content url="https://izz.ro/politic/parlamentul-a-votat-scutirea-de-accize-pentru-200-de-litri-de-palinca/cover.jpg?v=3b7441cc" medium="image" type="image/jpeg"/>
       <description>Deputații au reintrodus plafonul anual de producție casnică fără taxe pentru băuturile tradiționale, respingând cererea de reexaminare venită din partea președintelui Nicușor Dan.</description>
     </item>
     <item>
@@ -25,6 +41,9 @@
       <link>https://izz.ro/general/parlamentul-a-aprobat-reguli-noi-care-permit-motociclistilor-sa-circule-printre/</link>
       <guid>https://izz.ro/general/parlamentul-a-aprobat-reguli-noi-care-permit-motociclistilor-sa-circule-printre/</guid>
       <pubDate>Wed, 07 Oct 2026 16:10:25 +0000</pubDate>
+      <category>general</category>
+      <source url="https://adevarul.ro/stil-de-viata/auto/se-schimba-regulile-in-trafic-in-ce-conditii-pot-2562499.html">Adevărul</source>
+      <media:content url="https://izz.ro/general/parlamentul-a-aprobat-reguli-noi-care-permit-motociclistilor-sa-circule-printre/cover.jpg?v=3c60d737" medium="image" type="image/jpeg"/>
       <description>Conducătorii de mopede și motociclete primesc dreptul legal de a se deplasa printre șirurile de autovehicule oprite la semafoare sau la trecerile la nivel cu calea ferată, conform unui proiect adoptat de Parlament pentru fluidizarea traficului.</description>
     </item>
     <item>
@@ -32,6 +51,8 @@
       <link>https://izz.ro/local/parlamentarul-ariana-bucur-solicita-suplimentarea-personalului-din-cresele/</link>
       <guid>https://izz.ro/local/parlamentarul-ariana-bucur-solicita-suplimentarea-personalului-din-cresele/</guid>
       <pubDate>Tue, 06 Oct 2026 15:16:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/politic/criza-din-cresele-brasovene-a-ajuns-in-parlament-deputatul-ariana-bucur-a-cerut-de-urgenta-personal-suficient-pentru-siguranta-copiilor/">MyTex</source>
       <description>Deputatul PSD de Brașov a tras un semnal de alarmă în Parlament cu privire la deficitul major de angajați din unitățile de educație timpurie, avertizând că reglementările învechite și lipsa de personal pun în pericol siguranța copiilor.</description>
     </item>
     <item>
@@ -39,6 +60,8 @@
       <link>https://izz.ro/politic/initiativa-usr-privind-obligatii-stricte-pentru-creditorii-ifn/</link>
       <guid>https://izz.ro/politic/initiativa-usr-privind-obligatii-stricte-pentru-creditorii-ifn/</guid>
       <pubDate>Tue, 06 Oct 2026 10:49:50 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.zdp.ro/initiativa-legislativa-creditorii-ifn-vor-fi-obligati-sa-verifice-identitatea-clientilor-si-sa-transmita-situatia-finala-a-creditului-in-maximum-5-zile.html">Ziarul de Ploiești</source>
       <description>Un nou proiect legislativ propune ca instituțiile financiare nebancare să verifice riguros identitatea clienților și să transmită situația finală a creditului în cel mult cinci zile pentru combaterea fraudelor.</description>
     </item>
     <item>
@@ -46,6 +69,8 @@
       <link>https://izz.ro/politic/procedura-constitutionala-privind-alegerile-anticipate-in-romania/</link>
       <guid>https://izz.ro/politic/procedura-constitutionala-privind-alegerile-anticipate-in-romania/</guid>
       <pubDate>Tue, 06 Oct 2026 09:54:19 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/politic/alegeri-anticipate-in-romania-ce-sunt-cand-pot-fi-organizate-si-ce-prevede-constitutia.html">Știrile ProTV</source>
       <description>Prevederile constituționale din România permit organizarea de alegeri anticipate în situația dizolvării Parlamentului înainte de termenul legal, moment în care cetățenii sunt chemați la urne pentru a desemna un nou Legislativ.</description>
     </item>
     <item>
@@ -53,6 +78,8 @@
       <link>https://izz.ro/economic/romania-intarzie-aplicarea-normelor-europene-privind-transparenta-salariala-in/</link>
       <guid>https://izz.ro/economic/romania-intarzie-aplicarea-normelor-europene-privind-transparenta-salariala-in/</guid>
       <pubDate>Tue, 06 Oct 2026 04:04:32 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/transparenta-salariala-intarzie-in-romania-ce-obligatii-vor-avea-angajatorii-si-ce-riscuri-aduce-noul-cadru-op-ed.html">Economedia</source>
       <description>Proiectul de lege pentru transparența salariilor a depășit termenul limită european, lăsând companiile fără reguli clare privind recrutarea, raportarea diferențelor salariale și justificarea discrepanțelor.</description>
     </item>
     <item>
@@ -60,6 +87,8 @@
       <link>https://izz.ro/politic/gigi-becali-propune-modificarea-codului-urbanismului-pentru-biserici/</link>
       <guid>https://izz.ro/politic/gigi-becali-propune-modificarea-codului-urbanismului-pentru-biserici/</guid>
       <pubDate>Tue, 06 Oct 2026 04:00:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.profit.ro/perspective/gigi-becali-propune-schimbarea-codului-urbanismului-pentru-biserici-in-arii-protejate-22804183?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Deputatul Gigi Becali a inițiat un proiect legislativ care permite ridicarea de lăcașuri de cult în arii protejate doar prin simpla notificare a primăriei, eliminând avizele de mediu.</description>
     </item>
     <item>
@@ -67,6 +96,8 @@
       <link>https://izz.ro/politic/nicusor-dan-convoaca-partidele-la-cotroceni-pentru-desemnarea-unui-nou-premier/</link>
       <guid>https://izz.ro/politic/nicusor-dan-convoaca-partidele-la-cotroceni-pentru-desemnarea-unui-nou-premier/</guid>
       <pubDate>Fri, 02 Oct 2026 10:42:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.profit.ro/stiri/politic/nicusor-dan-cheama-iar-partidele-la-palatul-cotroceni-luni-presedintele-va-anunta-numele-noului-premier-desemnat-22798461?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro, News Brașov, Adevărul, Alba24</source>
       <description>Președintele României, Nicușor Dan, a programat pentru ziua de luni o nouă rundă de consultări cu liderii formațiunilor politice parlamentare la Palatul Cotroceni. Discuțiile vin după ce Guvernul condus de Siegfried Mureșan a fost respins în Parlament. Programul oficial începe la ora 14:00 cu reprezentanții PSD și continuă succesiv cu celelalte partide și grupuri parlamentare.</description>
     </item>
     <item>
@@ -74,6 +105,8 @@
       <link>https://izz.ro/politic/kritici-la-adresa-discursului-sustinut-de-siegfried-muresan-in-parlament/</link>
       <guid>https://izz.ro/politic/kritici-la-adresa-discursului-sustinut-de-siegfried-muresan-in-parlament/</guid>
       <pubDate>Thu, 01 Oct 2026 10:04:35 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://cvlpress.ro/01.10.2026/discursul-prost-croit-al-lui-siegfried-muresan-in-plenul-parlamentului/">Cuvântul Libertății</source>
       <description>Premierul desemnat Siegfried Mureșan a primit critici pentru intervenția sa din plenul Parlamentului României, discursul fiind considerat lipsit de substanță și generând rezerve în rândul partenerilor politici.</description>
     </item>
     <item>
@@ -81,6 +114,8 @@
       <link>https://izz.ro/economic/cursul-valutar-interbancar-pentru-euro-la-inceputul-lunii-octombrie/</link>
       <guid>https://izz.ro/economic/cursul-valutar-interbancar-pentru-euro-la-inceputul-lunii-octombrie/</guid>
       <pubDate>Thu, 01 Oct 2026 05:13:31 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/cum-incepe-leul-luna-octombrie-la-o-zi-dupa-ce-guvernul-siegfried-muresan-nu-a-trecut-de-votul-parlamentului-curs-valutar-interbancar-1-10-2026_981614.html">Economica</source>
       <description>Moneda europeană a depășit pragul de 5,28 lei pe piața interbancară în contextul respingerii Guvernului condus de Siegfried Mureșan de către Parlamentul României.</description>
     </item>
     <item>
@@ -88,6 +123,8 @@
       <link>https://izz.ro/politic/guvernul-bolojan-ramane-interimar-dupa-respingerea-cabinetului-muresan/</link>
       <guid>https://izz.ro/politic/guvernul-bolojan-ramane-interimar-dupa-respingerea-cabinetului-muresan/</guid>
       <pubDate>Wed, 30 Sep 2026 21:07:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.zf.ro/eveniment/guvernul-bolojan-ramane-in-functie-dupa-votul-din-parlament-asupra-guvernului-propus-al-lui-siegfried-muresan-nimeni-nu-stie-cata-vreme-ramane-in-functie-guvernul-demis-la-5-mai-al-lui-ilie-bolojan-23250235">Ziarul Financiar</source>
       <description>Cabinetul propus de Siegfried Mureșan a fost respins de legislativ din cauza absenteismului masiv, lăsând în funcție executivul condus anterior de Ilie Bolojan, fără o claritate privind durata.</description>
     </item>
     <item>
@@ -95,6 +132,8 @@
       <link>https://izz.ro/politic/ilie-bolojan-considera-ca-votul-din-parlament-deschide-calea-spre-anticipate/</link>
       <guid>https://izz.ro/politic/ilie-bolojan-considera-ca-votul-din-parlament-deschide-calea-spre-anticipate/</guid>
       <pubDate>Wed, 30 Sep 2026 19:14:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/politica/bolojan-nu-considera-un-esec-votul-din-parlament-si-arata-spre-cotroceni-presedintele-are-din-acest-moment-o-parghie-foarte-importanta">Spotmedia</source>
       <description>Respingerea guvernului condus de Siegfried Mureșan nu reprezintă un eșec, ci o etapă care îi oferă președintelui Nicușor Dan instrumentul necesar pentru a debloca criza politică și a accelera numirea unui nou premier.</description>
     </item>
     <item>
@@ -102,6 +141,8 @@
       <link>https://izz.ro/politic/ilie-bolojan-considera-ca-dreapta-si-a-atins-limita-politica/</link>
       <guid>https://izz.ro/politic/ilie-bolojan-considera-ca-dreapta-si-a-atins-limita-politica/</guid>
       <pubDate>Wed, 30 Sep 2026 18:40:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.antena3.ro/politica/bolojan-spune-ca-la-votul-pentru-muresan-partidele-de-dreapta-si-au-atins-limita-am-adunat-40-atat-putem-face-805296.html">Antena 3 CNN</source>
       <description>Premierul interimar a declarat că respingerea Guvernului Mureșan nu reprezintă un eșec, ci reflectă capacitatea maximă de mobilizare a partidelor de dreapta, oprite la pragul de 40% din voturi.</description>
     </item>
     <item>
@@ -109,6 +150,8 @@
       <link>https://izz.ro/general/radu-miruta-respinge-criticile-privind-prezenta-militarilor-la-audierile-din/</link>
       <guid>https://izz.ro/general/radu-miruta-respinge-criticile-privind-prezenta-militarilor-la-audierile-din/</guid>
       <pubDate>Wed, 30 Sep 2026 12:49:35 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.dobrogeaonline.ro/controversa-nefondata-din-parlament-radu-miruta-raspunde-criticilor-legate-de-prezenta-militarilor-la-audieri-prezentand-lista-celor-5-predecesori/">Dobrogea Online</source>
       <description>Parlamentarul a demontat acuzațiile opoziției referitoare la participarea unor cadre militare în comisiile de specialitate, demonstrând că această practică a fost utilizată și de cinci foști miniștri.</description>
     </item>
     <item>
@@ -116,6 +159,8 @@
       <link>https://izz.ro/politic/primarul-constantei-vergil-chitac-se-indoieste-ca-guvernul-muresan-va-trece-de/</link>
       <guid>https://izz.ro/politic/primarul-constantei-vergil-chitac-se-indoieste-ca-guvernul-muresan-va-trece-de/</guid>
       <pubDate>Wed, 30 Sep 2026 05:49:24 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.dobrogeaonline.ro/primarul-chitac-indoieste-ca-guvernul-muresan-va-obtine-aprobarea-parlamentului/">Dobrogea Online</source>
       <description>Edilul liberal Vergil Chițac consideră puțin probabil ca viitorul Guvern Mureșan să primească votul de investitură în parlament. El a avertizat că un asemenea eșec ar putea apropia România de organizarea unor noi alegeri anticipate.</description>
     </item>
     <item>
@@ -123,6 +168,8 @@
       <link>https://izz.ro/politic/declaratia-presedintelui-romaniei-lasa-neclarificate-solutiile-pentru-criza/</link>
       <guid>https://izz.ro/politic/declaratia-presedintelui-romaniei-lasa-neclarificate-solutiile-pentru-criza/</guid>
       <pubDate>Tue, 29 Sep 2026 21:09:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/opinii-si-analize/o-declaratie-a-presedintelui-ca-o-ecuatie-cu-prea-multe-necunoscute">Spotmedia</source>
       <description>Șeful statului a susținut o declarație publică în pline negocieri parlamentare pentru formarea unei majorități, evitând însă să ofere sprijin premierului desemnat sau să indice soluții pentru ieșirea din impasul guvernamental.</description>
     </item>
     <item>
@@ -130,6 +177,8 @@
       <link>https://izz.ro/politic/parlamentul-voteaza-instalarea-guvernului-muresan-in-context-de-criza/</link>
       <guid>https://izz.ro/politic/parlamentul-voteaza-instalarea-guvernului-muresan-in-context-de-criza/</guid>
       <pubDate>Tue, 29 Sep 2026 21:07:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.zf.ro/eveniment/guvernul-muresan-la-votul-parlamentului-parlamentul-decide-azi-daca-vom-avea-un-guvern-de-criza-sau-alegeri-anticipate-23249335">Ziarul Financiar</source>
       <description>După căderea executivului condus anterior de Ilie Bolojan, legislativul decide dacă va aproba noul cabinet sau va declanșa alegeri anticipate, în timp ce bursa a depășit șocul inițial.</description>
     </item>
     <item>
@@ -137,6 +186,8 @@
       <link>https://izz.ro/economic/parlamentul-din-romania-pregateste-libertatea-sumelor-la-bancomate/</link>
       <guid>https://izz.ro/economic/parlamentul-din-romania-pregateste-libertatea-sumelor-la-bancomate/</guid>
       <pubDate>Tue, 29 Sep 2026 21:02:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/financiar/ultima-ora-schimbare-majora-bani-scosi-bancomat-vine-prima-decizie-obliga-toate-bancile-elibereze-bancomate-clientii-altor-banci-sume-personalizate-prestabilite-dupa-bnr-guvernul-au-dat-acordul-22792182?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Senatorii urmează să voteze un proiect legislativ care permite clienților bancari să retragă orice sumă dorită de la bancomatele altor bănci, eliminând opțiunile fixe obligatorii.</description>
     </item>
     <item>
@@ -144,6 +195,8 @@
       <link>https://izz.ro/politic/parlamentul-romaniei-va-decide-prin-vot-viitorul-politic-al-tarii/</link>
       <guid>https://izz.ro/politic/parlamentul-romaniei-va-decide-prin-vot-viitorul-politic-al-tarii/</guid>
       <pubDate>Tue, 29 Sep 2026 18:59:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://observatornews.ro/politic/muresan-parlamentarii-vor-decide-maine-prin-vot-daca-romania-intra-intro-perioada-de-stabilitate-sau-nu-667677.html">Observator</source>
       <description>Premierul desemnat Siegfried Mureșan a subliniat că votul decisiv din Parlament va stabili dacă România va intra într-o etapă de stabilitate guvernamentală sau va continua starea de criză politică.</description>
     </item>
     <item>
@@ -151,6 +204,8 @@
       <link>https://izz.ro/politic/legea-de-sprijin-pentru-crescatorii-de-animale-a-fost-trimisa-spre-promulgare/</link>
       <guid>https://izz.ro/politic/legea-de-sprijin-pentru-crescatorii-de-animale-a-fost-trimisa-spre-promulgare/</guid>
       <pubDate>Tue, 29 Sep 2026 08:31:10 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://bizbrasov.ro/2026/09/29/crescatorii-deputatul-sebastian-rusu/">BizBrașov</source>
       <description>Parlamentul României a votat proiectul de lege destinat ajutorării fermierilor afectați de scumpiri, actul normativ fiind înaintat spre promulgare, conform anunțului făcut de deputatul Sebastian Rusu.</description>
     </item>
     <item>
@@ -158,6 +213,8 @@
       <link>https://izz.ro/politic/continua-audierile-ministrilor-din-cabinetul-muresan-in-comisiile-parlamentare/</link>
       <guid>https://izz.ro/politic/continua-audierile-ministrilor-din-cabinetul-muresan-in-comisiile-parlamentare/</guid>
       <pubDate>Tue, 29 Sep 2026 06:53:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/politica/a-doua-zi-de-audieri-in-parlament-pentru-cabinetul-muresan-10-ministri-merg-in-fata-comisiilor-de-specialitate">Spotmedia</source>
       <description>Alți zece miniștri propuși în Guvernul condus de Siegfried Mureșan se prezintă în fața comisiilor din Parlament pentru avizare, după ce primii șase candidați au fost audiați la începutul săptămânii.</description>
     </item>
     <item>
@@ -165,6 +222,8 @@
       <link>https://izz.ro/politic/radu-miruta-a-primit-aviz-negativ-pentru-portofoliul-apararii/</link>
       <guid>https://izz.ro/politic/radu-miruta-a-primit-aviz-negativ-pentru-portofoliul-apararii/</guid>
       <pubDate>Mon, 28 Sep 2026 20:40:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.antena3.ro/politica/radu-miruta-a-mers-cu-trei-generali-la-audierile-din-parlament-nu-trebuia-sa-faca-asa-ceva-804968.html">Antena 3 CNN</source>
       <description>Ministrul propus pentru conducerea Ministerului Apărării Naționale a fost respins în comisiile parlamentare reunite, obținând 17 voturi pentru și 21 împotrivă în urma audierilor.</description>
     </item>
     <item>
@@ -172,6 +231,8 @@
       <link>https://izz.ro/politic/alexandru-nazare-exclude-modificarea-tva-in-anul-2027/</link>
       <guid>https://izz.ro/politic/alexandru-nazare-exclude-modificarea-tva-in-anul-2027/</guid>
       <pubDate>Mon, 28 Sep 2026 17:19:09 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.tion.ro/romania/alexandru-nazare-ministrul-interimar-la-finante-nu-cred-ca-pentru-anul-2027-putem-vorbi-despre-o-modificare-a-tva-2361774/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Ministrul interimar al Finanțelor a declarat, în timpul audierilor parlamentare pentru noul cabinet condus de Siegfried Mureșan, că o creștere a TVA nu este dorită, însă o eventuală scădere depinde de spațiul fiscal al României.</description>
     </item>
     <item>
@@ -179,6 +240,8 @@
       <link>https://izz.ro/economic/transportatorii-rutieri-cer-suspendarea-sanctiunilor-pentru-sistemul-tollro/</link>
       <guid>https://izz.ro/economic/transportatorii-rutieri-cer-suspendarea-sanctiunilor-pentru-sistemul-tollro/</guid>
       <pubDate>Mon, 28 Sep 2026 05:55:51 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://mytex.ro/expres/transportatorii-cer-amanarea-amenzilor-tollro-sistemul-de-taxare-este-inca-in-teste-dar-sanctiunile-incep-de-la-1-octombrie/">MyTex</source>
       <description>COTAR solicită Parlamentului adoptarea urgentă a unei legi care să amendeze aplicarea sancțiunilor și a tarifului fix pentru taxa de drum TollRo, invocând stadiul de teste al platformei.</description>
     </item>
     <item>
@@ -186,6 +249,8 @@
       <link>https://izz.ro/politic/programul-de-guvernare-propune-un-ghiseu-unic-pentru-avize-si-autorizatii-in/</link>
       <guid>https://izz.ro/politic/programul-de-guvernare-propune-un-ghiseu-unic-pentru-avize-si-autorizatii-in/</guid>
       <pubDate>Mon, 28 Sep 2026 05:00:30 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://alba24.ro/romania-ar-putea-introduce-un-ghiseu-unic-pentru-avize-si-autorizatii-in-cadrul-unui-plan-de-debirocratizare-a-investitiilor-1159851.html">Alba24</source>
       <description>Premierul desemnat Siegfried Mureșan a inclus în planul depus la Parlament o măsură de debirocratizare care prevede unificarea procedurilor de avizare și stabilirea unor termene administrative stricte.</description>
     </item>
     <item>
@@ -193,6 +258,8 @@
       <link>https://izz.ro/politic/mihai-dimian-propus-in-continuare-la-ministerul-educatiei/</link>
       <guid>https://izz.ro/politic/mihai-dimian-propus-in-continuare-la-ministerul-educatiei/</guid>
       <pubDate>Sun, 27 Sep 2026 11:56:20 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://zch.ro/in-lista-de-propuneri-a-premierului-siegfrid-muresan-suceveanul-mihai-dimian-ramane-la-educatie/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
       <description>Premierul desemnat Siegfried Mureșan l-a nominalizat pe Mihai Dimian pentru portofoliul Educației în viitorul Guvern. Acesta ocupă funcția cu statut interimar din luna martie și așteaptă votul de investitură din Parlamentul României.</description>
     </item>
     <item>
@@ -200,13 +267,8 @@
       <link>https://izz.ro/politic/parlamentul-stabileste-calendarul-de-investire-pentru-guvernul-muresan/</link>
       <guid>https://izz.ro/politic/parlamentul-stabileste-calendarul-de-investire-pentru-guvernul-muresan/</guid>
       <pubDate>Sun, 27 Sep 2026 11:39:31 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.emaramures.ro/calendarul-investirii-guvernului-muresan-audieri-la-inceputul-saptamanii-si-vot-final-miercuri/">eMaramureș</source>
       <description>Birourile permanente reunite au decis ca audierile miniștrilor propuși să aibă loc luni și marți, urmând ca votul final din plenul comun al Parlamentului să se desfășoare miercuri la ora 13:00.</description>
-    </item>
-    <item>
-      <title>Siegfried Mureșan a criticat inechitățile din sistemul de pensii speciale</title>
-      <link>https://izz.ro/politic/siegfried-muresan-a-criticat-inechitatile-din-sistemul-de-pensii-speciale/</link>
-      <guid>https://izz.ro/politic/siegfried-muresan-a-criticat-inechitatile-din-sistemul-de-pensii-speciale/</guid>
-      <pubDate>Sat, 26 Sep 2026 18:02:35 +0000</pubDate>
-      <description>Premierul desemnat Siegfried Mureșan a subliniat necesitatea reformării pensiilor speciale, considerând aberantă situația în care anumiți magistrați încasează indemnizații lunare mai mari decât propriile salarii anterioare.</description>
     </item>
 </channel></rss>

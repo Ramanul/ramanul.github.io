@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Samsung — IZZ.ro</title>
   <link>https://izz.ro/subiect/samsung/</link>
   <atom:link href="https://izz.ro/subiect/samsung/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Samsung pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Apple pregăteste lansarea iPhone Air 2 cu baterie avansată și carcasă de 5,2 mm</title>
       <link>https://izz.ro/tech/apple-pregateste-lansarea-iphone-air-2-cu-baterie-avansata-si-carcasa-de-52-mm/</link>
       <guid>https://izz.ro/tech/apple-pregateste-lansarea-iphone-air-2-cu-baterie-avansata-si-carcasa-de-52-mm/</guid>
       <pubDate>Thu, 08 Oct 2026 14:23:21 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/iphone-air-2-2/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/apple-pregateste-lansarea-iphone-air-2-cu-baterie-avansata-si-carcasa-de-52-mm/cover.jpg?v=8b12ba47" medium="image" type="image/jpeg"/>
       <description>Gigantul american Apple dezvoltă viitorul model iPhone Air 2, echipat cu un acumulator Si-C de capacitate mare. Telefonul va folosi o ramă subțire din titan și va măsura doar 5,2 milimetri în grosime.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/tech/samsung-reduce-productia-de-telefoane-si-pregateste-majorari-de-preturi/</link>
       <guid>https://izz.ro/tech/samsung-reduce-productia-de-telefoane-si-pregateste-majorari-de-preturi/</guid>
       <pubDate>Thu, 08 Oct 2026 12:32:34 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/samsung-pret-telefoane-galaxy/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/samsung-reduce-productia-de-telefoane-si-pregateste-majorari-de-preturi/cover.jpg?v=37ca2beb" medium="image" type="image/jpeg"/>
       <description>Compania coreeană scade volumele de fabricație pentru seriile Galaxy ca răspuns la scumpirea componentelor de memorie DRAM. Această decizie va genera scumpiri generalizate pentru dispozitivele sale mobile.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/tech/comparatie-foto-si-video-intre-camerele-de-pe-iphone-18-pro-max-pixel-11-pro-xl/</link>
       <guid>https://izz.ro/tech/comparatie-foto-si-video-intre-camerele-de-pe-iphone-18-pro-max-pixel-11-pro-xl/</guid>
       <pubDate>Wed, 07 Oct 2026 05:39:21 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://start-up.ro/iphone-18-pro-max-vs-pixel-11-pro-xl-vs-samsung-galaxy-s26-ultra-care-are-cea-mai-buna-camera/">Start-up.ro</source>
       <description>Cele mai noi terminale de vârf dezvoltate de Apple, Google și Samsung au fost testate în diverse medii de luminozitate, realizare de portrete și captură nocturnă pentru determinarea celui mai performant sistem optic.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/tech/viitorul-smartphone-samsung-galaxy-s27-ultra-va-adopta-un-design-similar-cu/</link>
       <guid>https://izz.ro/tech/viitorul-smartphone-samsung-galaxy-s27-ultra-va-adopta-un-design-similar-cu/</guid>
       <pubDate>Mon, 05 Oct 2026 14:01:53 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/galaxy-s27-ultra-capacitate-baterie-culori/">ZonaIT</source>
       <description>Samsung pregătește un compromis de design pentru viitorul model Galaxy S27 Ultra, adoptând o carcasă mai groasă din aluminiu și o insulă foto dreptunghiulară, urmând tendințele estetice ale produselor Apple.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/local/amfiteatrul-terra-din-cluj-napoca-introduce-un-ecran-led-samsung-de-ultima/</link>
       <guid>https://izz.ro/local/amfiteatrul-terra-din-cluj-napoca-introduce-un-ecran-led-samsung-de-ultima/</guid>
       <pubDate>Mon, 05 Oct 2026 11:48:52 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/amfiteatrul-terra-face-pasul-spre-o-noua-generatie-de-evenimente-prin-introducerea-led-wall-ului-samsung/">Gazeta de Cluj</source>
       <description>Centrul de Conferințe al Hotelului Univers din Cluj-Napoca și-a modernizat Amfiteatrul Terra prin instalarea unui LED Wall Samsung. Noua tehnologie oferă randare vizuală superioară calității Full HD pentru evenimentele găzduite.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/tech/samsung-galaxy-s26-fe-aduce-specificatii-similare-cu-generatiile-anterioare/</link>
       <guid>https://izz.ro/tech/samsung-galaxy-s26-fe-aduce-specificatii-similare-cu-generatiile-anterioare/</guid>
       <pubDate>Mon, 05 Oct 2026 05:35:56 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://start-up.ro/review-samsung-galaxy-s26-fe-fanii-samsung-cred-ca-vor-si-altceva/">Start-up.ro</source>
       <description>Noul smartphone Samsung Galaxy S26 FE este criticat pentru lipsa de noutate, păstrând aproape aceleași dotări tehnice pentru al treilea an consecutiv.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/discounturi/monitorul-de-gaming-samsung-de-27-inch-si-180hz-are-o-reducere-majora-de-pret/</link>
       <guid>https://izz.ro/discounturi/monitorul-de-gaming-samsung-de-27-inch-si-180hz-are-o-reducere-majora-de-pret/</guid>
       <pubDate>Fri, 02 Oct 2026 20:03:18 +0000</pubDate>
+      <category>discounturi</category>
+      <source url="https://www.xda-developers.com/this-samsung-27-inch-180hz-gaming-monitor-is-hard-to-ignore-at-150/">XDA Developers</source>
       <description>Un popular monitor pentru jocuri produs de Samsung, dotat cu rată de refresh de 180Hz și timp de răspuns de 1ms, este comercializat la cel mai mic preț înregistrat până în prezent, de doar 150 de dolari.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/tech/transformarea-unui-telefon-vechi-intr-un-server-media-cu-jellyfin/</link>
       <guid>https://izz.ro/tech/transformarea-unui-telefon-vechi-intr-un-server-media-cu-jellyfin/</guid>
       <pubDate>Fri, 02 Oct 2026 17:30:17 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/turn-old-galaxy-phone-into-a-media-server/">XDA Developers</source>
       <description>Un utilizator a renunțat la programul de reciclare Samsung pentru a reutiliza un smartphone Android vechi, transformându-l într-un server funcțional pentru conținut multimedia prin intermediul aplicației Jellyfin.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/tech/folosirea-zilnica-a-hibernarii-pe-pc-uzeaza-ssd-ul-in-timp/</link>
       <guid>https://izz.ro/tech/folosirea-zilnica-a-hibernarii-pe-pc-uzeaza-ssd-ul-in-timp/</guid>
       <pubDate>Fri, 02 Oct 2026 17:00:19 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/five-years-daily-hibernation-impact-on-ssd/">XDA Developers</source>
       <description>Utilizarea funcției de hibernare timp de cinci ani pe un SSD Samsung a redus sănătatea acestuia la 90 la sută. Deși acceptabil pentru utilizatorii obișnuiți, uzura poate afecta stabilitatea sistemelor de performanță.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/tech/instrument-gratuit-utilizat-pentru-recuperarea-datelor-de-pe-un-telefon-cu/</link>
       <guid>https://izz.ro/tech/instrument-gratuit-utilizat-pentru-recuperarea-datelor-de-pe-un-telefon-cu/</guid>
       <pubDate>Fri, 02 Oct 2026 16:31:18 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/recover-data-from-old-phone-with-unresponsive-display/">XDA Developers</source>
       <description>Un utilizator a folosit o aplicație gratuită pentru a prelua controlul și datele de pe un smartphone cu ecranul stricat, oferind o soluție practică pentru telefoanele vechi cu porturi funcționale.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/tech/producatorul-chinez-cxmt-vinde-memorii-dram-la-preturi-ridicate/</link>
       <guid>https://izz.ro/tech/producatorul-chinez-cxmt-vinde-memorii-dram-la-preturi-ridicate/</guid>
       <pubDate>Fri, 02 Oct 2026 16:00:19 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/we-thought-chinese-companies-could-save-us-from-the-ram-crisis-but-theyre-charging-just-as-much-as-the-big-three/">XDA Developers</source>
       <description>Așteptările consumatorilor privind ieftinirea memoriilor DDR5 prin intrarea pe piață a gigantului chinez CXMT au fost infirmat, compania practicând tarife similare cu cele ale marilor producători mondiali.</description>
     </item>
     <item>
@@ -88,6 +112,8 @@
       <link>https://izz.ro/tech/samsung-a-scumpit-seria-de-telefoane-galaxy-s26-pe-piata-europeana/</link>
       <guid>https://izz.ro/tech/samsung-a-scumpit-seria-de-telefoane-galaxy-s26-pe-piata-europeana/</guid>
       <pubDate>Fri, 02 Oct 2026 10:04:01 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/pret-samsung-galaxy-s26-s27/">ZonaIT, Start-up.ro</source>
       <description>Compania Samsung a majorat prețurile noilor telefoane din seria Galaxy S26 pentru consumatorii de pe piața europeană, după o măsură similară aplicată în Statele Unite. Analiștii din industrie estimează noi creșteri de preț și odată cu lansarea viitoarei generații de dispozitive, urmând tendința actuală din sectorul de tehnologie.</description>
     </item>
     <item>
@@ -95,6 +121,8 @@
       <link>https://izz.ro/tech/viitoarele-telefoane-samsung-galaxy-s27-ar-putea-fi-mai-scumpe/</link>
       <guid>https://izz.ro/tech/viitoarele-telefoane-samsung-galaxy-s27-ar-putea-fi-mai-scumpe/</guid>
       <pubDate>Fri, 02 Oct 2026 07:44:22 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://start-up.ro/telefoanele-samsung-galaxy-s27-cel-mai-probabil-vor-fi-mai-scumpe-decat-cele-din-seria-s26/">Start-up.ro</source>
       <description>Viitoarea serie de smartphone-uri Samsung Galaxy S27 va înregistra probabil o creștere de preț față de generația anterioară, fondată pe actualul context nefavorabil din industria globală de tehnologie.</description>
     </item>
     <item>
@@ -102,6 +130,8 @@
       <link>https://izz.ro/tech/samsung-lanseaza-galaxy-buds-on-primele-casti-clip-on/</link>
       <guid>https://izz.ro/tech/samsung-lanseaza-galaxy-buds-on-primele-casti-clip-on/</guid>
       <pubDate>Fri, 02 Oct 2026 07:26:48 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/02/galaxy-buds-on-samung-a-lansat-primele-casti-clip-on/">Connect.ro</source>
       <description>Producătorul tech a prezentat oficial modelul Galaxy Buds On, căști care se fixează pe ureche fără a bloca canalul auditiv, programate pentru lansare în octombrie la 220 de dolari.</description>
     </item>
     <item>
@@ -109,6 +139,8 @@
       <link>https://izz.ro/tech/un-utilizator-si-a-transformat-vechiul-telefon-samsung-intr-un-hub-smart-home/</link>
       <guid>https://izz.ro/tech/un-utilizator-si-a-transformat-vechiul-telefon-samsung-intr-un-hub-smart-home/</guid>
       <pubDate>Thu, 01 Oct 2026 19:31:19 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/turned-old-samsung-galaxy-200-smart-home-hub-replaced-three-separate-devices/">XDA Developers</source>
       <description>Proiectul de reutilizare a smartphone-urilor vechi a permis înlocuirea a trei dispozitive separate cu un singur terminal polivalent, optimizat pentru automatizarea locuinței.</description>
     </item>
     <item>
@@ -116,6 +148,8 @@
       <link>https://izz.ro/tech/animawings-a-intrat-in-insolventa-iar-diverse-companii-lanseaza-noutati/</link>
       <guid>https://izz.ro/tech/animawings-a-intrat-in-insolventa-iar-diverse-companii-lanseaza-noutati/</guid>
       <pubDate>Thu, 01 Oct 2026 03:44:46 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-1-octombrie-2026/">NwRadu</source>
       <description>Compania aeriană AnimaWings și-a cerut insolvența, în timp ce marile firme de tehnologie pregătesc actualizări de securitate și lansează noi gadgeturi pe piața globală.</description>
     </item>
     <item>
@@ -123,6 +157,8 @@
       <link>https://izz.ro/discounturi/monitorul-samsung-de-43-de-inci-cu-functii-de-smart-tv-are-o-reducere-de-44/</link>
       <guid>https://izz.ro/discounturi/monitorul-samsung-de-43-de-inci-cu-functii-de-smart-tv-are-o-reducere-de-44/</guid>
       <pubDate>Wed, 30 Sep 2026 19:11:13 +0000</pubDate>
+      <category>discounturi</category>
+      <source url="https://www.xda-developers.com/samsung-43-inch-smart-monitor-m7-m70f-280-deal/">XDA Developers</source>
       <description>Modelul M70F 4K de la Samsung, care funcționează atât ca afișaj pentru birou, cât și ca televizor inteligent, beneficiază de o promoție limitată pe platforma Woot, prețul scăzând de la 500 la 280 de dolari.</description>
     </item>
     <item>
@@ -130,6 +166,8 @@
       <link>https://izz.ro/tech/setari-ascunse-pe-telefoanele-samsung-galaxy-pentru-o-viteza-sporita/</link>
       <guid>https://izz.ro/tech/setari-ascunse-pe-telefoanele-samsung-galaxy-pentru-o-viteza-sporita/</guid>
       <pubDate>Wed, 30 Sep 2026 16:31:17 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/enabled-this-hidden-samsung-setting-my-galaxy-feels-like-new-phone/">XDA Developers</source>
       <description>Un utilizator de Samsung Galaxy S25 Ultra explică cum activarea unei opțiuni ascunse din interfața One UI îmbunătățește considerabil fluiditatea tranzițiilor și viteza de operare a telefonului.</description>
     </item>
     <item>
@@ -137,6 +175,8 @@
       <link>https://izz.ro/tech/samsung-a-lansat-seria-de-tablete-galaxy-tab-s12-cu-functii-avansate-de/</link>
       <guid>https://izz.ro/tech/samsung-a-lansat-seria-de-tablete-galaxy-tab-s12-cu-functii-avansate-de/</guid>
       <pubDate>Wed, 30 Sep 2026 14:41:13 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/samsung-lanseaza-galaxy-tab-s12/">ZonaIT</source>
       <description>Noua gamă Galaxy Tab S12 a fost prezentată oficial de Samsung, aducând performanțe ridicate, autonomie extinsă a bateriei, un profil extrem de subțire și tehnologii integrate bazate pe Galaxy AI.</description>
     </item>
     <item>
@@ -144,6 +184,8 @@
       <link>https://izz.ro/tech/samsung-lanseaza-tabletele-galaxy-tab-s12-si-trackerul-smarttag3-compatibil-cu/</link>
       <guid>https://izz.ro/tech/samsung-lanseaza-tabletele-galaxy-tab-s12-si-trackerul-smarttag3-compatibil-cu/</guid>
       <pubDate>Wed, 30 Sep 2026 13:20:39 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/09/30/samsung-tab-s12-smarttag3-lansare/">Connect.ro</source>
       <description>Compania tech a prezentat seria Galaxy Tab S12 și noul dispozitiv SmartTag3, axat pe localizare extinsă și compatibilitate în premieră cu telefoanele iPhone. Produsele vor deveni disponibile pe piață începând cu luna octombrie.</description>
     </item>
     <item>
@@ -151,6 +193,8 @@
       <link>https://izz.ro/tech/husele-pentru-galaxy-s27-ultra-dezvaluie-noutati-despre-camere/</link>
       <guid>https://izz.ro/tech/husele-pentru-galaxy-s27-ultra-dezvaluie-noutati-despre-camere/</guid>
       <pubDate>Mon, 28 Sep 2026 06:17:29 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/09/28/galaxy-s27-ultra-camere-huse/">Connect.ro</source>
       <description>Noile accesorii analizate de Ice Universe sugerează modificări în amplasarea camerelor pe viitorul smartphone Samsung Galaxy S27 Ultra, lăsând totuși neclară poziția senzorului Laser AF.</description>
     </item>
     <item>
@@ -158,6 +202,8 @@
       <link>https://izz.ro/tech/transformarea-unui-telefon-android-defect-intr-un-server-casnic/</link>
       <guid>https://izz.ro/tech/transformarea-unui-telefon-android-defect-intr-un-server-casnic/</guid>
       <pubDate>Sun, 27 Sep 2026 18:30:16 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/turn-a-barely-working-phone-screen-into-home-server/">XDA Developers</source>
       <description>Un ecran spart nu face un telefon complet inutilizabil. Un vechi dispozitiv Samsung, abandonat din cauza display-ului defect, a fost reutilizat cu succes pentru a construi un server funcțional pentru locuință.</description>
     </item>
 </channel></rss>

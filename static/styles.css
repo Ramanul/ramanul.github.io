@@ -230,7 +230,8 @@ main { max-width: var(--maxw); margin: 0 auto; padding: var(--s-34) var(--s-34);
 /* ---- INDEX editorial: fara chenare, separator-linie, inaltime naturala ---- */
 /* Coloane de ziar: gap mare pe orizontala, fiecare stire = bloc tipografic. */
 .grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  /* min(310px, 100%): la 320 px, după padding, coloana nu mai e mai lată decât ecranul. */
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(min(310px, 100%), 1fr));
   column-gap: var(--s-55); row-gap: 0; align-items: start;
 }
 .card {
@@ -465,6 +466,8 @@ picture { display: contents; }
   .grid { column-gap: var(--s-34); }
 }
 @media (max-width: 640px) {
+  .lead-feature { padding: var(--s-21); }
+  .lead-feature h2.lead-title { font-size: var(--fs-lg); margin-bottom: var(--s-13); }
   main { padding: var(--s-21) var(--s-21); }
   .dateline { padding: var(--s-5) var(--s-21); }
   .day-numbers { display: none; }   /* mobil: primul ecran ramane al stirilor */
@@ -679,11 +682,17 @@ picture { display: contents; }
 #izz-consent {
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 40;
   background: var(--paper-2); border-top: 2px solid var(--gold);
-  padding: var(--s-13) var(--s-21);
-  display: flex; flex-wrap: wrap; gap: var(--s-13); align-items: center; justify-content: center;
+  padding: var(--s-8) var(--s-13);
+  display: flex; flex-wrap: nowrap; gap: var(--s-13); align-items: center; justify-content: space-between;
   box-shadow: 0 -2px 8px rgba(21, 23, 28, .06);
 }
-#izz-consent p { margin: 0; font-size: var(--fs-xs); color: var(--ink-2); max-width: var(--measure); }
+body:has(#izz-consent) { padding-bottom: 4.5rem; }
+#izz-consent p {
+  margin: 0; font-size: var(--fs-xs); color: var(--ink-2); max-width: var(--measure);
+  flex: 1 1 auto; min-width: 0;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+#izz-consent .consent-actions { flex: 0 0 auto; }
 /* linkuri inline in proza: subliniate ca sa NU se distinga doar prin culoare (WCAG link-in-text-block) */
 #izz-consent p a, .topics a, .share a, .follow a, .page-intro a, .summary a { text-decoration: underline; }
 #izz-consent .consent-actions { display: flex; gap: var(--s-8); }
@@ -1058,6 +1067,11 @@ picture { display: contents; }
 .search-results li { border-top: 1px solid var(--line); padding: var(--s-13) 0; }
 .search-results a { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-md); color: var(--ink); }
 .search-results a:hover { color: var(--gold-strong); }
+.search-more {
+  font-family: var(--font-mono); font-size: var(--fs-xs); font-weight: 700;
+  margin: var(--s-13) 0 var(--s-21); padding: var(--s-8) var(--s-13); cursor: pointer;
+  background: transparent; color: var(--ink-2); border: 1px solid var(--line-strong);
+}
 .search-meta { color: var(--ink-3); font-size: var(--fs-eyebrow); font-family: var(--font-mono); }
 /* Controalele de sub casuta de cautare (categorie + ordonare) stau pe un rand cat incape. */
 .search-controls {
@@ -1216,6 +1230,8 @@ picture { display: contents; }
 .article-trust { margin: var(--s-8) 0 var(--s-13); }
 .verification-note { margin: var(--s-21) 0; padding: var(--s-13) var(--s-21); color: var(--ink-2); background: var(--paper-2); border-left: 3px solid var(--gold); font-size: var(--fs-xs); line-height: 1.55; }
 @media (max-width: 720px) {
+  /* Sub 720px antetul nu mai stă lipit: primul titlu trebuie să încapă în primul ecran. */
+  .site-header-group { position: static; }
   .editorial-guide { grid-template-columns: 1fr; padding: var(--s-13); }
 }
 [data-theme="dark"] .editorial-guide, [data-theme="dark"] .verification-note { background: var(--paper-2); }
@@ -1230,3 +1246,33 @@ picture { display: contents; }
 .section-tile span { color: var(--ink-2); font-size: .85rem; }
 .subnav-more summary a { color: inherit; text-decoration: none; }
 .subnav-more summary a:hover, .subnav-more summary a:focus-visible { text-decoration: underline; }
+
+/* Briefing, județ ales, timeline, citire. Fără display:none pe cardurile de acasă:
+   mobilul vede aceleași știri ca desktopul, nu o listă tăiată din CSS. */
+.briefing-azi { margin: 0 0 var(--s-34); }
+.briefing-azi ol { margin: 0; padding-left: 1.2rem; }
+.briefing-azi li { margin: var(--s-8) 0; }
+.briefing-azi span { color: var(--ink-3); font-family: var(--font-mono); font-size: var(--fs-eyebrow); }
+.judet-pin { display: flex; flex-wrap: wrap; gap: var(--s-8); align-items: center; margin-top: var(--s-13); }
+.judet-pin label { font-family: var(--font-mono); font-size: var(--fs-eyebrow); color: var(--gold-strong); }
+.judet-pin select { font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--line-strong); border-radius: 4px; padding: var(--s-5) var(--s-8); }
+.card-al-meu { box-shadow: inset 3px 0 0 var(--gold); }
+.ghid-legat, .timeline { margin: var(--s-21) 0; padding: var(--s-13) var(--s-21); background: var(--paper-2); border-left: 3px solid var(--gold); }
+.timeline ol { margin: var(--s-8) 0 0; padding-left: 1.2rem; }
+.timeline li { margin: var(--s-8) 0; }
+.cat-feed { margin: 0 0 var(--s-21); font-size: var(--fs-xs); }
+.izz-citire { display: flex; flex-wrap: wrap; gap: var(--s-8); align-items: center; margin-top: var(--s-13); }
+.izz-citire span { font-family: var(--font-mono); font-size: var(--fs-eyebrow); color: var(--ink-3); }
+.izz-citire button {
+  margin: 0; padding: var(--s-5) var(--s-8);
+  background: none; border: 1px solid var(--line-strong); border-radius: 4px;
+  color: var(--ink-2); font-size: var(--fs-xs); cursor: pointer;
+}
+.izz-citire button[aria-pressed="true"] { border-color: var(--gold-strong); color: var(--gold-strong); }
+html[data-text="mare"] { font-size: 112.5%; }
+html[data-text="spatiu"] { --lh-body: 1.85; }
+@media print {
+  .site-header-group, .subnav, #izz-consent, .izz-install, .site-footer, .izz-citire, .progress, .back-to-top { display: none !important; }
+  body { background: #fff; color: #000; }
+  a { text-decoration: underline; }
+}

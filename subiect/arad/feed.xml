@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Arad — IZZ.ro</title>
   <link>https://izz.ro/subiect/arad/</link>
   <atom:link href="https://izz.ro/subiect/arad/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Arad pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Campanie gratuită de screening pentru cancerul de sân lansată la Arad</title>
+      <link>https://izz.ro/local/campanie-gratuita-de-screening-pentru-cancerul-de-san-lansata-la-arad/</link>
+      <guid>https://izz.ro/local/campanie-gratuita-de-screening-pentru-cancerul-de-san-lansata-la-arad/</guid>
+      <pubDate>Thu, 08 Oct 2026 14:55:25 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/campanie-gratuita-de-screening-pentru-cancerul-de-san-la-arad/">Critic Arad</source>
+      <media:content url="https://izz.ro/local/campanie-gratuita-de-screening-pentru-cancerul-de-san-lansata-la-arad/cover.jpg?v=ff492304" medium="image" type="image/jpeg"/>
+      <description>Centrul MamoCare din Arad, în parteneriat cu autorități locale și universitare, a anunțat începerea unei campanii de testări gratuite pentru depistarea precoce a cancerului mamar, începând din 12 octombrie.</description>
+    </item>
     <item>
       <title>Fosta fabrică P.A.B. România din Arad a fost vândută pentru 4,5 milioane de euro</title>
       <link>https://izz.ro/local/fosta-fabrica-p-a-b-romania-din-arad-a-fost-vanduta-pentru-45-milioane-de-euro/</link>
       <guid>https://izz.ro/local/fosta-fabrica-p-a-b-romania-din-arad-a-fost-vanduta-pentru-45-milioane-de-euro/</guid>
       <pubDate>Thu, 08 Oct 2026 09:06:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/foto-fabrica-vanduta-in-romania-a-lucrat-pentru-dedeman-si-lidl-fosta-fabrica-de-confectii-metalice-p-a-b-romania-a-fost-vanduta-cu-4-5-milioane-euro-22810101?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/local/fosta-fabrica-p-a-b-romania-din-arad-a-fost-vanduta-pentru-45-milioane-de-euro/cover.jpg?v=d14c108d" medium="image" type="image/jpeg"/>
       <description>Un producător concurent din același sector a preluat fosta unitate de confecții metalice, cunoscută pentru colaborările cu branduri mari precum Dedeman și Lidl.</description>
     </item>
     <item>
@@ -18,6 +31,8 @@
       <link>https://izz.ro/local/pompieri-romani-si-maghiari-se-antreneaza-impreuna-in-simulatoare-performante/</link>
       <guid>https://izz.ro/local/pompieri-romani-si-maghiari-se-antreneaza-impreuna-in-simulatoare-performante/</guid>
       <pubDate>Wed, 07 Oct 2026 12:48:22 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.pressalert.ro/2026/10/antrenamente-comune-la-granita-100-de-pompieri-din-romania-si-ungaria-se-pregatesc-in-simulatoare-de-ultima-generatie-foto/">PressAlert Timișoara</source>
       <description>O sută de cadre, formate din 50 de pompieri militari din Arad și 50 voluntari din Ungaria, participă până la jumătatea lunii octombrie la un program intensiv de pregătire transfrontalieră.</description>
     </item>
     <item>
@@ -25,6 +40,8 @@
       <link>https://izz.ro/local/patru-tineri-din-arad-sunt-cercetati-penal-dupa-ce-au-desfigurat-un-barbat/</link>
       <guid>https://izz.ro/local/patru-tineri-din-arad-sunt-cercetati-penal-dupa-ce-au-desfigurat-un-barbat/</guid>
       <pubDate>Wed, 07 Oct 2026 12:47:12 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/au-batut-cu-bestialitate-un-alt-tanar-la-arad/">Critic Arad</source>
       <description>Procurorii au plasat sub control judiciar patru suspecți cu vârste între 19 și 20 de ani, acuzați că au agresat violent un alt tânăr, provocându-i pierderea unui ochi în urma unui conflict spontan.</description>
     </item>
     <item>
@@ -32,6 +49,8 @@
       <link>https://izz.ro/local/teatrul-prichindel-din-alba-iulia-participa-la-festivaluri/</link>
       <guid>https://izz.ro/local/teatrul-prichindel-din-alba-iulia-participa-la-festivaluri/</guid>
       <pubDate>Wed, 07 Oct 2026 08:30:23 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/teatrul-de-papusi-prichindel-din-alba-iulia-prezinta-spectacole-la-iasi-si-arad-in-cadrul-unor-festivaluri-program-1161436.html">Alba24</source>
       <description>Instituția culturală din Alba Iulia susține spectacole de teatru de păpuși la Iași și Arad, în cadrul unor evenimente de profil organizate în cele două orașe.</description>
     </item>
     <item>
@@ -39,6 +58,8 @@
       <link>https://izz.ro/local/un-cutremur-slab-s-a-produs-in-apropiere-de-judetele-arad-si-timis/</link>
       <guid>https://izz.ro/local/un-cutremur-slab-s-a-produs-in-apropiere-de-judetele-arad-si-timis/</guid>
       <pubDate>Wed, 07 Oct 2026 06:44:43 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.tion.ro/eveniment/cutremur-in-apropiere-de-timisoara-inregistrat-in-timpul-noptii-2367285/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Un seism cu magnitudinea de cel mult 3 grade pe scara Richter a fost înregistrat în zori în zona localității arădene Păuliș, fiind resimțit la zeci de kilometri distanță de Timișoara.</description>
     </item>
     <item>
@@ -46,6 +67,8 @@
       <link>https://izz.ro/judetean/cutremur-slab-in-judetul-arad-la-mica-adancime/</link>
       <guid>https://izz.ro/judetean/cutremur-slab-in-judetul-arad-la-mica-adancime/</guid>
       <pubDate>Wed, 07 Oct 2026 06:29:50 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.pressalert.ro/2026/10/cutremur-produs-la-mica-adancime-in-vestul-tarii/">PressAlert Timișoara</source>
       <description>Un seism cu magnitudinea de 2,8 s-a produs miercuri dimineață înzona Banat, având epicentrul în județul Arad, la o adâncime de doar cinci kilometri, conform datelor oficiale.</description>
     </item>
     <item>
@@ -53,6 +76,8 @@
       <link>https://izz.ro/judetean/seism-de-suprafata-inregistrat-in-vestul-romaniei/</link>
       <guid>https://izz.ro/judetean/seism-de-suprafata-inregistrat-in-vestul-romaniei/</guid>
       <pubDate>Wed, 07 Oct 2026 06:19:55 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.bihon.ro/stirile-judetului-bihor/cutremur-in-vestul-tarii-la-aproximativ-110-kilometri-de-oradea-ce-magnitudine-a-avut-seismul-5422023/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Un cutremur cu magnitudinea de 2,8 s-a produs la o adâncime de cinci kilometri, având epicentrul localizat în județul Arad, la mică distanță de mai multe orașe din regiune.</description>
     </item>
     <item>
@@ -60,6 +85,8 @@
       <link>https://izz.ro/local/transportatorii-din-arad-protesteaza-din-nou-impotriva-sistemului-tollro/</link>
       <guid>https://izz.ro/local/transportatorii-din-arad-protesteaza-din-nou-impotriva-sistemului-tollro/</guid>
       <pubDate>Wed, 07 Oct 2026 04:58:53 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/transportatorii-aradeni-au-organizat-un-nou-protest-cerem-remedierea-urgenta-a-sistemului-tollro/">Critic Arad</source>
       <description>Companiile de transport din Arad cer remedierea urgentă a problemelor generate de sistemul TollRo, reclamând facturarea excesivă, tarifele neconforme și procedurile birocratice greoaie.</description>
     </item>
     <item>
@@ -67,6 +94,8 @@
       <link>https://izz.ro/local/exercitii-militare-cu-semnale-sonore-la-unitatea-militara-din-arad/</link>
       <guid>https://izz.ro/local/exercitii-militare-cu-semnale-sonore-la-unitatea-militara-din-arad/</guid>
       <pubDate>Tue, 06 Oct 2026 15:33:10 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/exercitiu-militar-la-arad/">Critic Arad</source>
       <description>Unitatea Militară Arad organizează sesiuni de pregătire și antrenament în două zile din luna octombrie 2026, populația fiind avertizată că va auzi semnale sonore specifice, dar nu se află în pericol.</description>
     </item>
     <item>
@@ -74,6 +103,8 @@
       <link>https://izz.ro/local/artistul-sorin-bijan-si-a-expus-seria-de-lucrari-intitulata-enter-la-galeria/</link>
       <guid>https://izz.ro/local/artistul-sorin-bijan-si-a-expus-seria-de-lucrari-intitulata-enter-la-galeria/</guid>
       <pubDate>Tue, 06 Oct 2026 09:30:05 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/sorin-bijan-prezinta-seria-enter-la-galeria-after5-din-arad/">Critic Arad</source>
       <description>În cadrul evenimentului Noaptea Galeriilor, spațiul cultural After5 din Arad a găzduit turul ghidat al expoziției semnate de artistul vizual Sorin Bijan, reunind creații reprezentative din cariera sa de aproape trei decenii.</description>
     </item>
     <item>
@@ -81,6 +112,8 @@
       <link>https://izz.ro/local/un-adolescent-din-arad-este-cercetat-penal-dupa-o-agresiune-intr-un-club/</link>
       <guid>https://izz.ro/local/un-adolescent-din-arad-este-cercetat-penal-dupa-o-agresiune-intr-un-club/</guid>
       <pubDate>Tue, 06 Oct 2026 08:35:36 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/bataie-in-baia-unui-club-de-pe-strandul-neptun/">Critic Arad</source>
       <description>Un minor de 17 ani se află sub control judiciar după ce a agresat fizic un bărbat de 27 de ani în toaleta unui club din zona Ștrandului Neptun din Arad.</description>
     </item>
     <item>
@@ -88,6 +121,8 @@
       <link>https://izz.ro/local/bilantul-pompierilor-aradeni-897-de-misiuni-in-septembrie/</link>
       <guid>https://izz.ro/local/bilantul-pompierilor-aradeni-897-de-misiuni-in-septembrie/</guid>
       <pubDate>Tue, 06 Oct 2026 08:10:53 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/isu-arad-897-de-misiuni-ale-pompierilor-aradeni-in-luna-septembrie/">Critic Arad</source>
       <description>Inspectoratul pentru Situații de Urgență Arad a gestionat 897 de evenimente în luna septembrie, cele mai multe intervenții fiind asigurate de echipajele medicale SMURD, care au răspuns la 741 de solicitări.</description>
     </item>
     <item>
@@ -95,6 +130,8 @@
       <link>https://izz.ro/local/fals-politist-din-arad-condamnat-la-inchisoare-cu-suspendare-pentru-santaj/</link>
       <guid>https://izz.ro/local/fals-politist-din-arad-condamnat-la-inchisoare-cu-suspendare-pentru-santaj/</guid>
       <pubDate>Tue, 06 Oct 2026 04:57:03 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/fals-politist-din-arad-condamnat-la-inchisoare-cu-suspendare/">Critic Arad</source>
       <description>Un bărbat care a simulat o anchetă penală, a dat declarații false și a cerut bani unei victime în Arad a primit o sentință de 2 ani și 4 luni de închisoare cu suspendare.</description>
     </item>
     <item>
@@ -102,6 +139,8 @@
       <link>https://izz.ro/local/podul-hobanat-din-arad-intra-in-reparatii-la-noua-luni-de-la-deschidere/</link>
       <guid>https://izz.ro/local/podul-hobanat-din-arad-intra-in-reparatii-la-noua-luni-de-la-deschidere/</guid>
       <pubDate>Tue, 06 Oct 2026 04:15:55 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.g4media.ro/reparatii-la-doar-noua-luni-de-la-inaugurare-problemele-continua-la-podul-hobanat-din-arad-s-a-desprins-tartanul-de-pe-trotuare-si-pista-de-biciclete.html">G4Media</source>
       <description>Infrastructura podului hobanat peste Mureș din Arad a necesitat lucrări de remediere la doar nouă luni de la inaugurare, după ce stratul de tartan de pe trotuare și pista destinată bicicliștilor a început să se desprindă.</description>
     </item>
     <item>
@@ -109,6 +148,8 @@
       <link>https://izz.ro/local/universitatea-aurel-vlaicu-a-organizat-editia-2026-a-zilei-cercetatorilor/</link>
       <guid>https://izz.ro/local/universitatea-aurel-vlaicu-a-organizat-editia-2026-a-zilei-cercetatorilor/</guid>
       <pubDate>Tue, 06 Oct 2026 04:14:38 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/ziua-cercetatorilor-la-uav/">Critic Arad</source>
       <description>Instituția academică din Arad a găzduit evenimentul Ziua Cercetătorilor, reunind studenți, cadre didactice și numeroși elevi într-o manifestare menită să apropie tinerii de domeniul științei și al inovării.</description>
     </item>
     <item>
@@ -116,6 +157,8 @@
       <link>https://izz.ro/local/aradean-condamnat-pentru-santaj-dupa-ce-s-a-dat-politist/</link>
       <guid>https://izz.ro/local/aradean-condamnat-pentru-santaj-dupa-ce-s-a-dat-politist/</guid>
       <pubDate>Mon, 05 Oct 2026 13:41:52 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.ziuadevest.ro/s-a-dat-drept-politist-si-a-promis-ca-le-face-dosar-penal-vecinilor-unei-femei-aradean-condamnat-la-2-ani-si-4-luni-cu-60-de-zile-de-munca-in-folosul-comunitatii/">Ziua de Vest</source>
       <description>Un bărbat din Arad a primit o sentință cu suspendare și muncă în folosul comunității. El a cerut bani de la o femeie, pretinzând că este polițist și că le poate face dosar penal vecinilor acesteia.</description>
     </item>
     <item>
@@ -123,6 +166,8 @@
       <link>https://izz.ro/local/spitalul-judetean-arad-scoate-din-nou-la-concurs-posturile-vacante-de-personal/</link>
       <guid>https://izz.ro/local/spitalul-judetean-arad-scoate-din-nou-la-concurs-posturile-vacante-de-personal/</guid>
       <pubDate>Mon, 05 Oct 2026 10:17:03 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/un-nou-concurs-pentru-posturi-la-spitalul-judetean-arad/">Critic Arad</source>
       <description>Unitatea medicală din Arad organizează în octombrie o nouă sesiune pentru ocuparea posturilor de brancardieri și infirmieri rămase libere, programând și o ședință publică de informare pentru candidați.</description>
     </item>
     <item>
@@ -130,6 +175,8 @@
       <link>https://izz.ro/local/rezolv-energy-va-construi-un-parc-fotovoltaic-gigant-la-arad-cu-o-finantare-de/</link>
       <guid>https://izz.ro/local/rezolv-energy-va-construi-un-parc-fotovoltaic-gigant-la-arad-cu-o-finantare-de/</guid>
       <pubDate>Mon, 05 Oct 2026 06:34:37 +0000</pubDate>
+      <category>local</category>
+      <source url="https://economedia.ro/rezolv-energy-pregateste-la-arad-un-parc-fotovoltaic-cu-o-capacitate-de-13-gw-finantare-bei-de-100-de-milioane-de-euro.html">Economedia</source>
       <description>Compania va dezvolta în vestul României o centrală fotovoltaică de 1,3 GW, printr-o investiție de 728 de milioane de euro, susținută parțial printr-un împrumut de 100 de milioane de euro de la Banca Europeană de Investiții.</description>
     </item>
     <item>
@@ -137,6 +184,8 @@
       <link>https://izz.ro/local/renewacad-deschide-un-centru-de-formare-profesionala-la-arad/</link>
       <guid>https://izz.ro/local/renewacad-deschide-un-centru-de-formare-profesionala-la-arad/</guid>
       <pubDate>Sun, 04 Oct 2026 06:06:41 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.economica.net/renewacad-deschide-centru-de-pregatire-la-arad-unde-va-aparea-parcul-fotovoltaic-mamut-de-13-gw-1-000-de-oameni-vor-trece-pe-aici_982605.html">Economica</source>
       <description>Un nou centru de pregătire va fi inaugurat în octombrie 2026 lângă parcul fotovoltaic Dama Solar, urmând să instruiască peste o mie de persoane pentru operarea și construcția viitoarei infrastructuri energetice.</description>
     </item>
     <item>
@@ -144,6 +193,8 @@
       <link>https://izz.ro/local/presa-din-ungaria-lauda-parcul-fotovoltaic-gigant-construit-in-arad/</link>
       <guid>https://izz.ro/local/presa-din-ungaria-lauda-parcul-fotovoltaic-gigant-construit-in-arad/</guid>
       <pubDate>Fri, 02 Oct 2026 11:12:53 +0000</pubDate>
+      <category>local</category>
+      <source url="https://spotmedia.ro/stiri/mediu/presa-maghiara-admira-cel-mai-mare-parc-fotovoltaic-din-europa-care-se-construieste-in-romania">Spotmedia</source>
       <description>Vecinii maghiari analizează proiectul solar transfrontalier valued la peste 500 de milioane de euro. Viitorul parc fotovoltaic din județul Arad se va întinde pe o mie de hectare și va furniza energie verde la standarde europene.</description>
     </item>
     <item>
@@ -151,6 +202,8 @@
       <link>https://izz.ro/local/inscrierile-pentru-prima-editie-together-run-arad-au-fost-deschise-oficial/</link>
       <guid>https://izz.ro/local/inscrierile-pentru-prima-editie-together-run-arad-au-fost-deschise-oficial/</guid>
       <pubDate>Thu, 01 Oct 2026 13:10:27 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/s-a-dat-startul-inscrierilor-la-prima-editie-together-run-arad-alergare-familie-si-implicare-pentru-o-cauza-caritabila/">Critic Arad</source>
       <description>Evenimentul sportiv caritabil programat pe 10 octombrie invită familiile, copiii și comunitatea locală să participe la curse pentru susținerea unei cauze sociale.</description>
     </item>
     <item>
@@ -158,6 +211,8 @@
       <link>https://izz.ro/judetean/protest-spontan-al-transportatorilor-inainte-de-lansarea-platformei-tollro/</link>
       <guid>https://izz.ro/judetean/protest-spontan-al-transportatorilor-inainte-de-lansarea-platformei-tollro/</guid>
       <pubDate>Thu, 01 Oct 2026 05:37:53 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.criticarad.ro/protest-al-transportatorilor-impotriva-tollro/">Critic Arad</source>
       <description>Mai mulți operatori de transport au ieșit în stradă, inclusiv în județul Arad, cerând amânarea introducerii noului sistem digital pentru plata rovinietei și a taxelor de drum, operațional de la 1 octombrie.</description>
     </item>
     <item>
@@ -165,6 +220,8 @@
       <link>https://izz.ro/local/clasarea-dosarului-dintre-un-om-de-afaceri-si-un-politist/</link>
       <guid>https://izz.ro/local/clasarea-dosarului-dintre-un-om-de-afaceri-si-un-politist/</guid>
       <pubDate>Thu, 01 Oct 2026 04:30:21 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/dosarul-in-care-un-om-de-afaceri-din-arad-a-cazut-pe-manevra-unui-politist-clasat/">Critic Arad</source>
       <description>A fost clasată ancheta care îl viza pe un om de afaceri din Arad, implicat într-un conflict cu un polițist rutier din Eforie, ambele părți fiind anterior implicate în acuzații reciproce.</description>
     </item>
     <item>
@@ -172,6 +229,8 @@
       <link>https://izz.ro/local/asociatia-semne-in-timp-a-amenajat-instalatii-participative-pe-malul-muresului/</link>
       <guid>https://izz.ro/local/asociatia-semne-in-timp-a-amenajat-instalatii-participative-pe-malul-muresului/</guid>
       <pubDate>Wed, 30 Sep 2026 09:50:59 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/semne-in-timp-cuiburi-malul-muresului/">Critic Arad</source>
       <description>Proiectul „Cuiburi”, creat pe malul Mureșului în cadrul Festivalului Particles din Arad, oferă spații de recreere interactive destinate atât copiilor, cât și adulților.</description>
     </item>
     <item>
@@ -179,6 +238,8 @@
       <link>https://izz.ro/general/incendiu-violent-la-o-anexa-gospodareasca-de-pe-strada-baba-novac/</link>
       <guid>https://izz.ro/general/incendiu-violent-la-o-anexa-gospodareasca-de-pe-strada-baba-novac/</guid>
       <pubDate>Tue, 29 Sep 2026 16:50:40 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.criticarad.ro/incendiu-la-o-anexa-gospodareasca-pe-strada-baba-novac/">Critic Arad</source>
       <description>Un incendiu puternic a izbucnit la o anexă dintr-o gospodărie arădeană, flăcările cuprinzând materiale lemnoase și plastice. Pompierii militari au intervenit rapid cu două autospeciale de stingere pentru a lichida focul.</description>
     </item>
     <item>
@@ -186,6 +247,8 @@
       <link>https://izz.ro/local/aeroportul-arad-preia-zborurile-timisoarei-in-luna-noiembrie/</link>
       <guid>https://izz.ro/local/aeroportul-arad-preia-zborurile-timisoarei-in-luna-noiembrie/</guid>
       <pubDate>Tue, 29 Sep 2026 09:34:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/se-preda-stafeta-arad-devine-pentru-trei-saptamani-poarta-aeriana-a-vestului/">Express de Banat</source>
       <description>Cursele aeriene programate pe Aeroportul Internațional Traian Vuia din Timișoara vor fi mutate temporar la Arad între 2 și 22 noiembrie 2026, din cauza unor lucrări de întreținere la pistă.</description>
     </item>
     <item>
@@ -193,6 +256,8 @@
       <link>https://izz.ro/local/transformarea-unui-atelier-scolar-din-arad-in-lacas-de-cult/</link>
       <guid>https://izz.ro/local/transformarea-unui-atelier-scolar-din-arad-in-lacas-de-cult/</guid>
       <pubDate>Tue, 29 Sep 2026 09:26:52 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/dintr-un-atelier-o-comunitate-povestea-unei-biserici-dincolo-de-ziduri/">Critic Arad</source>
       <description>Un fost atelier tehnologic din cadrul Liceului Național de Informatică din Arad a fost amenajat ca biserică în urmă, în jurul său dezvoltându-se în ultimii șase ani o comunitate parohială activă.</description>
     </item>
     <item>
@@ -200,6 +265,8 @@
       <link>https://izz.ro/local/parcul-ared-active-din-arad-va-gazdui-aniversarea-a-22-de-ani-de-activitate/</link>
       <guid>https://izz.ro/local/parcul-ared-active-din-arad-va-gazdui-aniversarea-a-22-de-ani-de-activitate/</guid>
       <pubDate>Tue, 29 Sep 2026 08:35:28 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/zilele-ared-22-de-ani/">Critic Arad</source>
       <description>Complexul ARED organizează pe 2 și 3 octombrie două seri festive cu dans modern susținut de Quiz Dance Team și concerte susținute de formații locale, marcând două decenii și doi ani de existență.</description>
     </item>
     <item>
@@ -207,6 +274,8 @@
       <link>https://izz.ro/local/nita-mocanu-expune-la-galeria-de-arta-alfa-din-arad/</link>
       <guid>https://izz.ro/local/nita-mocanu-expune-la-galeria-de-arta-alfa-din-arad/</guid>
       <pubDate>Mon, 28 Sep 2026 12:57:58 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/nita-mocanu-deschide-expo-galeria-alfa/">Critic Arad</source>
       <description>Artista deschide expoziția personală intitulată „Imagini dintr-o perioadă nedefinită”, vernisajul urmând să aibă loc la începutul lunii octombrie la galeria arădeană.</description>
     </item>
     <item>
@@ -214,6 +283,8 @@
       <link>https://izz.ro/local/un-tanar-din-arad-a-fost-dezarmat-de-victime-si-retinut-de-politisti/</link>
       <guid>https://izz.ro/local/un-tanar-din-arad-a-fost-dezarmat-de-victime-si-retinut-de-politisti/</guid>
       <pubDate>Sun, 27 Sep 2026 13:51:10 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.pressalert.ro/2026/09/un-tanar-care-a-amenintat-doi-barbati-cu-un-pistol-pe-strada-a-fost-dezarmat-de-catre-victime-si-retinut-de-politisti/">PressAlert Timișoara</source>
       <description>Un bărbat de 25 de ani a fost reținut pentru 24 de ore de polițiștii din Sebiș, județul Arad, după ce a amenințat doi oameni cu un pistol pe stradă și a fost pus la pământ de aceștia.</description>
     </item>
 </channel></rss>

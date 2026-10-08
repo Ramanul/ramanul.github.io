@@ -1,37 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Marea Neagră — IZZ.ro</title>
   <link>https://izz.ro/subiect/marea-neagra/</link>
   <atom:link href="https://izz.ro/subiect/marea-neagra/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Marea Neagră pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Opoziția din Bulgaria susține că nava scufundată în Marea Neagră transporta trupe</title>
       <link>https://izz.ro/extern/opozitia-din-bulgaria-sustine-ca-nava-scufundata-in-marea-neagra-transporta/</link>
       <guid>https://izz.ro/extern/opozitia-din-bulgaria-sustine-ca-nava-scufundata-in-marea-neagra-transporta/</guid>
       <pubDate>Thu, 08 Oct 2026 15:44:07 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/liderul-opozitiei-din-bulgaria-afirma-ca-nava-sufundata-in-marea-neagra-ar-fi-putut-transporta-trupe-3984341">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/opozitia-din-bulgaria-sustine-ca-nava-scufundata-in-marea-neagra-transporta/cover.jpg?v=55f07edd" medium="image" type="image/jpeg"/>
       <description>Liderul partidului GERB, Boiko Borissov, a declarat că rapoartele serviciilor secrete arată că nava prăbușită în Marea Neagră ar fi putut avea la bord personal militar sau trupe.</description>
+    </item>
+    <item>
+      <title>Securitatea în Marea Neagră: riscuri și incidente navale recente</title>
+      <link>https://izz.ro/extern/securitatea-in-marea-neagra-riscuri-si-incidente-navale-recente/</link>
+      <guid>https://izz.ro/extern/securitatea-in-marea-neagra-riscuri-si-incidente-navale-recente/</guid>
+      <pubDate>Thu, 08 Oct 2026 11:45:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dw.com/en/security-in-the-black-sea-region-is-bulgaria-the-weak-link-in-europe-s-defense-against-threats-from-russia/a-79592663?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
+      <media:content url="https://izz.ro/extern/securitatea-in-marea-neagra-riscuri-si-incidente-navale-recente/cover.jpg?v=a49f1fbe" medium="image" type="image/jpeg"/>
+      <description>Două nave s-au scufundat în apropierea coastelor Bulgariei și României în urma unor atacuri cu drone, punând sub semnul întrebării nivelul de apărare al regiunii și poziția Bulgariei.</description>
     </item>
     <item>
       <title>Bulgaria convoacă România și Turcia pentru securitatea în Marea Neagră</title>
       <link>https://izz.ro/extern/bulgaria-convoaca-romania-si-turcia-pentru-securitatea-in-marea-neagra/</link>
       <guid>https://izz.ro/extern/bulgaria-convoaca-romania-si-turcia-pentru-securitatea-in-marea-neagra/</guid>
       <pubDate>Thu, 08 Oct 2026 07:34:54 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/bulgaria-convoaca-romania-si-turcia-la-consultari-privind-securitatea-navelor-comerciale-in-marea-neagra-dupa-lovirea-a-trei-nave-in-doua-zile.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/extern/bulgaria-convoaca-romania-si-turcia-pentru-securitatea-in-marea-neagra/cover.jpg?v=e55a18dc" medium="image" type="image/jpeg"/>
       <description>Autoritățile bulgare cer consultări regionale după ce trei nave comerciale au fost avariate în ultimele zile în zona economică exclusivă din Marea Neagră.</description>
-    </item>
-    <item>
-      <title>Atacurile cu drone din Marea Neagră pot scumpi transportul și mărfurile în România</title>
-      <link>https://izz.ro/economic/atacurile-cu-drone-din-marea-neagra-pot-scumpi-transportul-si-marfurile-in/</link>
-      <guid>https://izz.ro/economic/atacurile-cu-drone-din-marea-neagra-pot-scumpi-transportul-si-marfurile-in/</guid>
-      <pubDate>Thu, 08 Oct 2026 01:37:25 +0000</pubDate>
-      <description>Incidente recente care au vizat nave comerciale în Marea Neagră riscă să majoreze tarifele de transport și asigurare, afectând negativ economia națională și activitatea din Portul Constanța.</description>
     </item>
     <item>
       <title>Riscul de război din Marea Neagră scumpește motorina pentru șoferii români</title>
       <link>https://izz.ro/economic/riscul-de-razboi-din-marea-neagra-scumpeste-motorina-pentru-soferii-romani/</link>
       <guid>https://izz.ro/economic/riscul-de-razboi-din-marea-neagra-scumpeste-motorina-pentru-soferii-romani/</guid>
       <pubDate>Wed, 07 Oct 2026 08:44:03 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.digi24.ro/stiri/economie/cum-ajunge-riscul-de-razboi-din-marea-neagra-in-pretul-motorinei-asigurarile-pot-adauga-pana-la-15-bani-pe-litru-3981949">Digi24</source>
       <description>Majorarea primelor de asigurare împotriva riscului de război în Marea Neagră poate adăuga până la 15 bani pe litru la prețul motorinei comercializate în România, conform unei analize recente.</description>
     </item>
     <item>
@@ -39,6 +50,8 @@
       <link>https://izz.ro/local/deputatul-cristian-sipos-a-sustinut-modernizarea-legii-offshore-in-comisia-de/</link>
       <guid>https://izz.ro/local/deputatul-cristian-sipos-a-sustinut-modernizarea-legii-offshore-in-comisia-de/</guid>
       <pubDate>Wed, 07 Oct 2026 06:42:59 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/cristian-sipos-am-sustinut-in-comisia-de-energie-o-initiativa-legislativa-care-modernizeaza-legea-offshore/">Gazeta de Cluj</source>
       <description>Parlamentarul Cristian Sipoș a prezentat o inițiativă legislativă pentru actualizarea cadrului legal privind resursele din Marea Neagra, vizând beneficii economice sporite și angajarea de personal român.</description>
     </item>
     <item>
@@ -46,6 +59,8 @@
       <link>https://izz.ro/extern/un-petrolier-din-flota-rusa-a-luat-foc-langa-soci/</link>
       <guid>https://izz.ro/extern/un-petrolier-din-flota-rusa-a-luat-foc-langa-soci/</guid>
       <pubDate>Tue, 06 Oct 2026 20:53:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/flacari-uriase-la-marea-neagra-arde-un-petrolier-din-flota-fantoma-a-rusiei-langa-soci-dupa-ce-ar-fi-fost-lovit-de-drone-806090.html">Antena 3 CNN</source>
       <description>O navă petrolieră din flota fantomă a Rusiei a fost cuprinsă de flăcări uriașe pe Marea Neagră, în apropierea orașului Soci. Incidentul a survenit în urma unui presupus atac cu drone navale raportat pe canalele de comunicare.</description>
     </item>
     <item>
@@ -53,6 +68,8 @@
       <link>https://izz.ro/extern/incendiu-la-un-petrolier-in-marea-neagra-in-apropiere-de-soci/</link>
       <guid>https://izz.ro/extern/incendiu-la-un-petrolier-in-marea-neagra-in-apropiere-de-soci/</guid>
       <pubDate>Tue, 06 Oct 2026 18:28:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/petrolier-in-flacari-in-marea-neagra-dupa-ce-ar-fi-fost-atacat-langa-soci-rusia-a-inchis-plajele-din-zona-668328.html">Observator, Antena 3 CNN</source>
       <description>Un incendiu a izbucnit marți la bordul unui petrolier aflat în Marea Neagră, lângă orașul rus Soci, nava fiind suspectată de un atac cu drone. În urma incidentului, autoritățile au închis plajele din zona Sirius și au intensificat monitorizarea calității apei și a aerului.</description>
     </item>
     <item>
@@ -60,6 +77,8 @@
       <link>https://izz.ro/extern/doua-nave-au-fost-lovite-de-drone-in-marea-neagra-in-zona-bulgariei/</link>
       <guid>https://izz.ro/extern/doua-nave-au-fost-lovite-de-drone-in-marea-neagra-in-zona-bulgariei/</guid>
       <pubDate>Tue, 06 Oct 2026 09:20:14 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/doua-nave-lovite-de-drone-in-zona-economica-a-bulgariei-din-marea-neagra.html">Curs de Guvernare, Adevărul</source>
       <description>Autoritățile din Bulgaria au anunțat că două nave aflate în zona economică exclusivă a țării din Marea Neagră, la circa 80 de mile marine de Byala, au fost ținta unor atacuri. Potrivit premierului Rumen Radev, agresiunea a fost comisă utilizând atât drone maritime, cât și aeriene.</description>
     </item>
     <item>
@@ -67,6 +86,8 @@
       <link>https://izz.ro/extern/opt-marinari-straini-au-fost-spitalizati-dupa-un-atac-cu-drona/</link>
       <guid>https://izz.ro/extern/opt-marinari-straini-au-fost-spitalizati-dupa-un-atac-cu-drona/</guid>
       <pubDate>Tue, 06 Oct 2026 09:19:26 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dobrogeaonline.ro/crina-kibedi-ofera-informatii-despre-starea-marinarilor/">Dobrogea Online</source>
       <description>Opt marinari răniți în urma incidentului naval din Marea Neagră au fost internați la Spitalul din Constanța, în timp ce echipele de salvare continuă căutările bucătarului navei, care este dispărut.</description>
     </item>
     <item>
@@ -74,6 +95,8 @@
       <link>https://izz.ro/extern/tragedie-navala-pe-marea-neagra-doi-morti-pe-nava-royad-mammadov/</link>
       <guid>https://izz.ro/extern/tragedie-navala-pe-marea-neagra-doi-morti-pe-nava-royad-mammadov/</guid>
       <pubDate>Mon, 05 Oct 2026 16:04:36 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dobrogeaonline.ro/tragedie-pe-marea-neagra-nava-royad-mammadov-grav-avariata-iar-marinarii-salvati-printre-care-comandantul-si-bucatarul-au-decedat/">Dobrogea Online</source>
       <description>Autoritatea Navală Română a coordonat o misiune de salvare pe Marea Neagră, după ce nava Royad Mammadov a suferit avarii majore; în ciuda intervenției cu elicoptere și nave SAR, comandantul și bucătarul au decedat.</description>
     </item>
     <item>
@@ -81,6 +104,8 @@
       <link>https://izz.ro/local/unsprezece-marinari-salvati-din-marea-neagra-au-ajuns-in-siguranta-la-constanta/</link>
       <guid>https://izz.ro/local/unsprezece-marinari-salvati-din-marea-neagra-au-ajuns-in-siguranta-la-constanta/</guid>
       <pubDate>Mon, 05 Oct 2026 15:12:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.antena3.ro/actualitate/imagini-cu-nava-distrusa-de-dronele-rusesti-in-marea-neagra-cei-11-marinari-salvati-de-romani-au-ajuns-la-constanta-805886.html">Antena 3 CNN</source>
       <description>Poliția de Frontieră i-a recuperat pe marinarii aflați într-o plută de salvare, după ce nava acestora a fost lovită de drone rusești în largul Mării Negre.</description>
     </item>
     <item>
@@ -88,6 +113,8 @@
       <link>https://izz.ro/extern/nava-turceasca-lovita-de-drone-in-marea-neagra-soldata-cu-victime/</link>
       <guid>https://izz.ro/extern/nava-turceasca-lovita-de-drone-in-marea-neagra-soldata-cu-victime/</guid>
       <pubDate>Mon, 05 Oct 2026 09:24:15 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://gazetadecluj.ro/nava-turceasca-lovita-de-o-drona-in-marea-neagra-interventie-in-curs-a-autoritatilor-romane/">Gazeta de Cluj, Ziarul de Ploiești, Spotmedia, BZI Iași</source>
       <description>O navă comercială sub pavilion turcesc, care transporta cereale din Ucraina spre Italia, a fost lovită de drone în Marea Neagră, în zona economică exclusivă a României, în apropierea platformei Pescăruș. Vasul s-a scufundat în urma unui incendiu izbucnit la bord. Autoritățile române au intervenit pentru operațiuni de căutare și salvare, 11 membri ai echipajului fiind salvați, în timp ce două persoane au decedat.</description>
     </item>
     <item>
@@ -95,6 +122,8 @@
       <link>https://izz.ro/general/noi-specii-de-pesti-exotici-isi-fac-aparitia-in-apele-marii-negre/</link>
       <guid>https://izz.ro/general/noi-specii-de-pesti-exotici-isi-fac-aparitia-in-apele-marii-negre/</guid>
       <pubDate>Sun, 04 Oct 2026 16:51:36 +0000</pubDate>
+      <category>general</category>
+      <source url="https://stirileprotv.ro/divers/cocoselul-de-mare-catelul-si-hiena-ajung-pe-harta-noilor-pesti-exotici-din-marea-neagra.html">Știrile ProTV</source>
       <description>Marea Neagră a devenit habitatul unor specii marine exotice provenite din zone cu ape mai calde, printre care se numără cocoșelul de mare, cățelul și hiena, extinzând astfel biodiversitatea locală.</description>
     </item>
     <item>
@@ -102,6 +131,8 @@
       <link>https://izz.ro/politic/victor-negrescu-sustine-ca-romania-trebuie-sa-devina-producator-de-tehnica/</link>
       <guid>https://izz.ro/politic/victor-negrescu-sustine-ca-romania-trebuie-sa-devina-producator-de-tehnica/</guid>
       <pubDate>Sat, 03 Oct 2026 11:20:29 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/victor-negrescu-de-ce-romania-trebuie-sa-devina-producator-de-tehnologie-militara-la-marea-neagra-nu-doar-beneficiar-3976277">Digi24 Extern</source>
       <description>Europarlamentarul Victor Negrescu afirmă că țara noastră trebuie să dezvolte o industrie proprie de apărare la Marea Neagră, devenind furnizor de tehnologie, nu doar simplu beneficiar.</description>
     </item>
     <item>
@@ -109,6 +140,8 @@
       <link>https://izz.ro/lifestyle/kitesurferii-au-profitat-de-vantul-puternic-pe-litoralul-marii-negre/</link>
       <guid>https://izz.ro/lifestyle/kitesurferii-au-profitat-de-vantul-puternic-pe-litoralul-marii-negre/</guid>
       <pubDate>Fri, 02 Oct 2026 17:24:40 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://stirileprotv.ro/divers/kitesurferii-au-animat-litoralul-in-octombrie-a-fost-spectacol-pe-valurile-marii-negre.html">Știrile ProTV</source>
       <description>Condițiile meteorologice din luna octombrie, caracterizate prin rafale de vânt de peste 50 km/h și vreme însorită, au atras zeci de practicanți de kitesurfing pe plajele de pe litoralul românesc.</description>
     </item>
     <item>
@@ -116,6 +149,8 @@
       <link>https://izz.ro/lifestyle/cerere-uriasa-pentru-tratamentele-balneare-pe-litoralul-romanesc-in-sezonul-de/</link>
       <guid>https://izz.ro/lifestyle/cerere-uriasa-pentru-tratamentele-balneare-pe-litoralul-romanesc-in-sezonul-de/</guid>
       <pubDate>Fri, 02 Oct 2026 05:36:00 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://observatornews.ro/eveniment/unii-isi-rezerva-locul-cu-un-an-inainte-tratamentele-de-pe-litoral-care-atrag-mii-de-romani-si-toamna-667922.html">Observator</source>
       <description>Mii de turiști aleg stațiunile de la Marea Neagră toamna pentru procedurile cu nămol sapropelic și terapii de recuperare, mulți dintre ei rezervându-locurile cu un an înainte.</description>
     </item>
     <item>
@@ -123,6 +158,8 @@
       <link>https://izz.ro/extern/rafinaria-kulevi-din-georgia-a-procesat-un-nou-transport-de-petrol-libian/</link>
       <guid>https://izz.ro/extern/rafinaria-kulevi-din-georgia-a-procesat-un-nou-transport-de-petrol-libian/</guid>
       <pubDate>Wed, 30 Sep 2026 14:31:37 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/sponsored-content/europes-energy-security-has-a-black-sea-opportunity/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>O navă cu 90.000 de tone de țiței din Libia a ajuns la terminalul Kulevi de la Marea Neagră, reprezentând al doilea transport procesat de rafinăria georgiană care utilizează exclusiv resurse non-rusești.</description>
     </item>
     <item>
@@ -130,6 +167,8 @@
       <link>https://izz.ro/extern/marea-neagra-si-marea-mediterana-se-incalzesc-accelerat-avertizeaza-comisia/</link>
       <guid>https://izz.ro/extern/marea-neagra-si-marea-mediterana-se-incalzesc-accelerat-avertizeaza-comisia/</guid>
       <pubDate>Wed, 30 Sep 2026 11:30:37 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/mediu/marea-neagra-si-marea-mediterana-printre-regiunile-maritime-care-se-incalzesc-cel-mai-rapid-raport-al-comisiei-europene">Spotmedia</source>
       <description>Un raport Copernicus arată că Marea Neagră și Marea Mediterană înregistrează creșteri rapide de temperatură, valurile de căldură marină devenind frecvente. Fenomenul afectează grav ecosistemele acvatice, turismul, sectorul pescăresc și comunitățile litorale.</description>
     </item>
     <item>
@@ -137,13 +176,8 @@
       <link>https://izz.ro/economic/graul-se-scumpeste-global-din-cauza-atacurilor-din-marea-neagra/</link>
       <guid>https://izz.ro/economic/graul-se-scumpeste-global-din-cauza-atacurilor-din-marea-neagra/</guid>
       <pubDate>Mon, 28 Sep 2026 10:23:03 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.monitorulbt.ro/national/2026/09/28/graul-se-scumpeste-pe-fondul-atacurilor-din-marea-neagra-romania-printre-alternativele-cautate-de-importatori/">Monitorul de Botoșani</source>
       <description>Prețurile grâului au atins cel mai ridicat nivel din ultimii trei ani, după ce atacurile asupra porturilor din Marea Neagră au afectat exporturile din Rusia și Ucraina. Importatorii mari caută acum alternative sigure, printre care și România.</description>
-    </item>
-    <item>
-      <title>Egiptul ar putea contribui la securizarea transportului de cereale prin Marea Neagră</title>
-      <link>https://izz.ro/extern/egiptul-ar-putea-contribui-la-securizarea-transportului-de-cereale-prin-marea/</link>
-      <guid>https://izz.ro/extern/egiptul-ar-putea-contribui-la-securizarea-transportului-de-cereale-prin-marea/</guid>
-      <pubDate>Sat, 26 Sep 2026 20:57:00 +0000</pubDate>
-      <description>Statul african cu cea mai puternică armată a fost inclus pe lista guvernelor care propun soluții pentru reluarea comerțului maritim de cereale, alături de Turcia și India, în contextul războiului din Ucraina.</description>
     </item>
 </channel></rss>

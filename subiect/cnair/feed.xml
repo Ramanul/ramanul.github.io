@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>CNAIR — IZZ.ro</title>
   <link>https://izz.ro/subiect/cnair/</link>
   <atom:link href="https://izz.ro/subiect/cnair/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre CNAIR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Rompetrol a introdus vânzarea rovinietelor CNAIR direct la casele de marcat</title>
       <link>https://izz.ro/economic/rompetrol-a-introdus-vanzarea-rovinietelor-cnair-direct-la-casele-de-marcat/</link>
       <guid>https://izz.ro/economic/rompetrol-a-introdus-vanzarea-rovinietelor-cnair-direct-la-casele-de-marcat/</guid>
       <pubDate>Thu, 08 Oct 2026 15:49:27 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.dobrogeaonline.ro/rompetrol-a-integrat-rovinieta-electronica-cnair-in-sistemul-informatic-de-retail-utilizat-in-statiile-companiei/">Dobrogea Online</source>
+      <media:content url="https://izz.ro/economic/rompetrol-a-introdus-vanzarea-rovinietelor-cnair-direct-la-casele-de-marcat/cover.jpg?v=b5570d12" medium="image" type="image/jpeg"/>
       <description>Rețeaua de benzinării Rompetrol a integrat în sistemul propriu de retail achiziția electronică a rovinietelor furnizate de CNAIR, devenind primul mare retailer de carburanți din România cu acest serviciu.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/general/ministerul-transporturilor-impune-reguli-noi-impotriva-inchiderilor-arbitrare/</link>
       <guid>https://izz.ro/general/ministerul-transporturilor-impune-reguli-noi-impotriva-inchiderilor-arbitrare/</guid>
       <pubDate>Thu, 08 Oct 2026 14:10:04 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.turnulsfatului.ro/2026/10/08/romanii-ii-platesc-salariul-gras-cosma-nou-atac-la-directorul-cnair-dupa-inchiderea-a1-sibiu-boita-ordinul-impotriva-inchiderilor-discretionare-de-autostrazi/">Turnul Sfatului</source>
+      <media:content url="https://izz.ro/general/ministerul-transporturilor-impune-reguli-noi-impotriva-inchiderilor-arbitrare/cover.jpg?v=ded55d11" medium="image" type="image/jpeg"/>
       <description>Administratorii de infrastructură vor fi obligați să justifice în scris orice blocaj major și să prezinte rute alternative. Ordinul a fost semnat după închiderea nejustificată a autostrăzii A1 între Sibiu și Boița.</description>
     </item>
     <item>
@@ -25,6 +31,9 @@
       <link>https://izz.ro/local/directorul-cnair-a-parcurs-ruta-ocolitoare-de-la-sibiu-boita-in-19-minute/</link>
       <guid>https://izz.ro/local/directorul-cnair-a-parcurs-ruta-ocolitoare-de-la-sibiu-boita-in-19-minute/</guid>
       <pubDate>Wed, 07 Oct 2026 16:19:57 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.turnulsfatului.ro/2026/10/07/directorul-cnair-spune-ca-a-facut-in-19-minute-ruta-ocolitoare-de-la-autostrada-inchisa-sibiu-boita-cu-maximum-zece-minute-mai-mult/">Turnul Sfatului, Economedia</source>
+      <media:content url="https://izz.ro/local/directorul-cnair-a-parcurs-ruta-ocolitoare-de-la-sibiu-boita-in-19-minute/cover.jpg?v=c4e46d57" medium="image" type="image/jpeg"/>
       <description>Cristian Pistol, șeful CNAIR, a parcurs personal varianta ocolitoare de pe autostrada A1 Sibiu-Boița în 19 minute. Acesta a menționat că noua rută, instituită temporar din cauza lucrărilor la pasaj, adaugă cel mult zece minute la timpul obișnuit de deplasare și că traficul se desfășoară în siguranță.</description>
     </item>
     <item>
@@ -32,6 +41,9 @@
       <link>https://izz.ro/local/noul-pod-peste-tisa-si-punctul-de-trecere-a-frontierei-sighetu-marmatiei-ii-se/</link>
       <guid>https://izz.ro/local/noul-pod-peste-tisa-si-punctul-de-trecere-a-frontierei-sighetu-marmatiei-ii-se/</guid>
       <pubDate>Wed, 07 Oct 2026 13:54:17 +0000</pubDate>
+      <category>local</category>
+      <source url="https://economedia.ro/foto-un-nou-punct-de-trecere-a-frontierei-intre-romania-si-ucraina-se-deschide-la-sighetu-marmatiei-podul-peste-tisa-va-fi-deschis-joi.html">Economedia, Spotmedia, Observator, Piata Auto MD</source>
+      <media:content url="https://izz.ro/local/noul-pod-peste-tisa-si-punctul-de-trecere-a-frontierei-sighetu-marmatiei-ii-se/cover.jpg?v=52c3160f" medium="image" type="image/jpeg"/>
       <description>Noul pod peste râul Tisa și Punctul de Trecere a Frontierei Sighetu Marmației II se deschid circulației joi, începând cu ora 12:30, potrivit CNAIR. Proiectat să reziste o sută de ani și adaptat pentru traficul greu, obiectivul asigură o legătură rutieră directă între România și Ucraina, facilitând tranzitarea rutieră internațională după finalizarea lucrărilor.</description>
     </item>
     <item>
@@ -39,6 +51,8 @@
       <link>https://izz.ro/auto/cnair-anunta-ca-platforma-tollro-functioneaza-normal-dupa-remedierea/</link>
       <guid>https://izz.ro/auto/cnair-anunta-ca-platforma-tollro-functioneaza-normal-dupa-remedierea/</guid>
       <pubDate>Tue, 06 Oct 2026 15:28:01 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://economedia.ro/platforma-tollro-functioneaza-normal-fara-amenzi-pentru-soferi-in-caz-de-defectiuni-tehnice.html">Economedia, Digi24, Economica, Alba24</source>
       <description>CNAIR a anunțat că problemele tehnice de la lansarea platformei TollRo au fost remediate, sistemul funcționând în parametri normali la cinci zile de la implementare. Reprezentanții companiei au precizat că șoferii care nu și-au putut achita taxele înainte de deplasare din cauza erorilor nu vor fi sancționați contravențional în această perioadă.</description>
     </item>
     <item>
@@ -46,6 +60,8 @@
       <link>https://izz.ro/local/autostrada-bucurestiului-ar-putea-fi-complet-finalizata-in-luna-decembrie/</link>
       <guid>https://izz.ro/local/autostrada-bucurestiului-ar-putea-fi-complet-finalizata-in-luna-decembrie/</guid>
       <pubDate>Mon, 05 Oct 2026 22:00:24 +0000</pubDate>
+      <category>local</category>
+      <source url="https://b365.ro/esential-scenariu-de-craciun-autostrada-bucurestiului-inel-complet-in-decembrie-cnair-antreprenorul-face-eforturi-ca-lotul-1-al-a0-nord-sa-fie-gata-anul-acesta-622606/">B365</source>
       <description>CNAIR anunță că antreprenorul depune eforturi susținute pentru deschiderea traficului pe Lotul 1 al A0 Nord, lucrările ajungând la un stadiu de execuție de 82%.</description>
     </item>
     <item>
@@ -53,6 +69,8 @@
       <link>https://izz.ro/local/circulatia-rutiera-pe-autostrada-a1-intre-sibiu-si-boita-va-fi-inchisa-temporar/</link>
       <guid>https://izz.ro/local/circulatia-rutiera-pe-autostrada-a1-intre-sibiu-si-boita-va-fi-inchisa-temporar/</guid>
       <pubDate>Sat, 03 Oct 2026 14:37:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/mare-atentie-soferi-se-inchide-circulatia-pe-o-bucata-din-autostrada-a1-sibiu-pitesti--302365.html">Ziua de Cluj</source>
       <description>Compania Națională de Administrare a Infrastructurii Rutiere anunță suspendarea traficului pe tronsonul Sibiu-Boița începând de luni, 5 octombrie 2026. Măsura este impusă de continuarea lucrărilor la lotul 2 al autostrăzii.</description>
     </item>
     <item>
@@ -60,6 +78,8 @@
       <link>https://izz.ro/general/viaductele-de-pe-autostrada-transilvania-au-ajuns-la-un-stadiu-de-86/</link>
       <guid>https://izz.ro/general/viaductele-de-pe-autostrada-transilvania-au-ajuns-la-un-stadiu-de-86/</guid>
       <pubDate>Fri, 02 Oct 2026 07:24:52 +0000</pubDate>
+      <category>general</category>
+      <source url="https://economedia.ro/video-autostrada-transilvania-a3-viaductele-de-pe-nadaselu-mihaiesti-si-mihaiesti-zimbor-au-ajuns-la-un-stadiu-fizic-de-86.html">Economedia</source>
       <description>Șeful CNAIR a confirmat progresul șantierului pe secțiunile Nădășelu – Mihăiești și Mihăiești – Zimbor, lucrările fiind finanțate prin contractul în valoare de aproape un miliard de lei.</description>
     </item>
     <item>
@@ -67,6 +87,8 @@
       <link>https://izz.ro/local/lucrari-avansate-pe-autostrada-transilvania-la-viaductele-nadaselu-zimbor/</link>
       <guid>https://izz.ro/local/lucrari-avansate-pe-autostrada-transilvania-la-viaductele-nadaselu-zimbor/</guid>
       <pubDate>Fri, 02 Oct 2026 07:13:59 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.economica.net/autostrada-transilvania-44_982160.html">Economica</source>
       <description>Constructorii au finalizat placa de suprabetonare și au început montarea hidroizolației la Viaductul Topa Mică, cel mai lung de pe traseu, tronsoanele ajungând la un stadiu fizic de 86%.</description>
     </item>
     <item>
@@ -74,6 +96,8 @@
       <link>https://izz.ro/economic/ministrul-transporturilor-a-semnat-un-ordin-pentru-protejarea-soferilor-de/</link>
       <guid>https://izz.ro/economic/ministrul-transporturilor-a-semnat-un-ordin-pentru-protejarea-soferilor-de/</guid>
       <pubDate>Thu, 01 Oct 2026 18:43:12 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/miruta-a-semnat-un-ordin-prin-care-utilizatorii-tollro-nu-pot-fi-sanctionati-daca-aplicatia-are-disfunctionalitati">Spotmedia, G4Media, Economica, Știrile ProTV</source>
       <description>Ministrul interimar al Transporturilor, Radu Miruță, a semnat un ordin prin care utilizatorii Sistemului de Tarifare Electronică Rutieră (TollRo) nu pot fi sancționați contravențional în cazul în care aplicația întâmpină disfuncționalități tehnice. Decizia vine în urma volumului mare de accesări înregistrat în primele zile de la lansarea din 1 octombrie, care a generat blocaje temporare în funcționarea platformei digitale.</description>
     </item>
     <item>
@@ -81,6 +105,8 @@
       <link>https://izz.ro/economic/platforma-de-tarifare-rutiera-tollro-intampina-blocaje-tehnice-masive/</link>
       <guid>https://izz.ro/economic/platforma-de-tarifare-rutiera-tollro-intampina-blocaje-tehnice-masive/</guid>
       <pubDate>Thu, 01 Oct 2026 16:49:50 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.dobrogeaonline.ro/care-este-situatia-platilor-tollro-si-cand-se-va-normaliza-complet-sistemul/">Dobrogea Online</source>
       <description>Sistemul de plată TollRo a înregistrat aproximativ 4 milioane de accesări în primele 12 ore de la lansare, generând dificultăți majore. Compania de drumuri estimează că remedierea problemelor tehnice va dura până la 72 de ore.</description>
     </item>
     <item>
@@ -88,6 +114,8 @@
       <link>https://izz.ro/auto/cnair-a-remediat-disfunctionalitatile-initiale-ale-platformei-de-taxare/</link>
       <guid>https://izz.ro/auto/cnair-a-remediat-disfunctionalitatile-initiale-ale-platformei-de-taxare/</guid>
       <pubDate>Thu, 01 Oct 2026 16:26:48 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://alba24.ro/cnair-despre-situatia-platformei-tollro-ce-s-a-remediat-si-ce-urmeaza-recomandari-pentru-utilizatori-1160571.html">Alba24</source>
       <description>După lansarea sistemului de tarifare electronică din 1 octombrie 2026, echipele tehnice CNAIR au intervenit pentru a rezolva problemele tehnice apărute în primele ore din cauza traficului intens pe platforma TollRo.</description>
     </item>
     <item>
@@ -95,6 +123,8 @@
       <link>https://izz.ro/auto/platforma-tollro-a-intampinat-blocaje-majore-la-lansare-dar-soferii-nu-vor-fi/</link>
       <guid>https://izz.ro/auto/platforma-tollro-a-intampinat-blocaje-majore-la-lansare-dar-soferii-nu-vor-fi/</guid>
       <pubDate>Thu, 01 Oct 2026 16:18:04 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://actualmm.ro/treaba-romaneasca-prima-zi-de-tollro-prima-pana-plati-blocate-si-conturi-care-nu-se-pot-crea-cnair-anunta-ca-soferii-nu-vor-fi-amendati-pana-la-remedierea-problemelor/">actualMM</source>
       <description>Noul sistem de tarifare electronică rutieră, lansat la 1 octombrie 2026, a generat erori de plată și conturi blocate, determinând autoritățile să anunțe că șoferii nu vor primi amenzi până la remediere.</description>
     </item>
     <item>
@@ -102,6 +132,8 @@
       <link>https://izz.ro/local/lotul-nadaselu-zimbor-al-autostrazii-transilvania-a-ajuns-la-gradul-de-executie/</link>
       <guid>https://izz.ro/local/lotul-nadaselu-zimbor-al-autostrazii-transilvania-a-ajuns-la-gradul-de-executie/</guid>
       <pubDate>Thu, 01 Oct 2026 12:28:50 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/video-autostrada-transilvania-lotul-nadaselu-zimbor-a-ajuns-la-992-cand-se-va-putea-circula-pe-cei-306-km-1160485.html">Alba24</source>
       <description>Lucrurile pe cei 30 de kilometri ai sectorului Nădășelu-Zimbor de pe Autostrada Transilvania sunt aproape finalizate, constructorul mobilizând sute de muncitori pentru terminarea viaductelor necesare deschiderii traficului.</description>
     </item>
     <item>
@@ -109,6 +141,8 @@
       <link>https://izz.ro/economic/platforma-rutiera-tollro-s-a-blocat-in-prima-zi-de-la-lansarea-obligatorie/</link>
       <guid>https://izz.ro/economic/platforma-rutiera-tollro-s-a-blocat-in-prima-zi-de-la-lansarea-obligatorie/</guid>
       <pubDate>Thu, 01 Oct 2026 12:24:25 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://hotnews.ro/cine-a-construit-tollro-si-cat-a-costat-sistemul-de-taxare-rutiera-care-s-a-blocat-in-ziua-lansarii-care-este-situatia-acum-2363888">HotNews</source>
       <description>Sistemul electronic pentru taxarea transporturilor de marfă, dezvoltat în baza unui contract de peste 44 de milioane de euro, a suferit un incident tehnic grav chiar la debut.</description>
     </item>
     <item>
@@ -116,6 +150,8 @@
       <link>https://izz.ro/economic/blocaj-major-in-transporturi-dupa-defectarea-noului-sistem-tollro/</link>
       <guid>https://izz.ro/economic/blocaj-major-in-transporturi-dupa-defectarea-noului-sistem-tollro/</guid>
       <pubDate>Thu, 01 Oct 2026 11:06:29 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://mytex.ro/expres/blocaj-major-in-transporturi-la-lansarea-tollro-camioane-oprite-pagube-economice-si-haos-in-lanturile-de-aprovizionare-untrr-cere-masuri-de-urgenta/">MyTex</source>
       <description>Lansarea platformei de taxare rutieră TollRo administrată de CNAIR a generat un blocaj sever în logistică, lăsând sute de camioane oprite pe marginea drumurilor și provocând pierderi economice semnificative.</description>
     </item>
     <item>
@@ -123,6 +159,8 @@
       <link>https://izz.ro/economic/probleme-tehnice-la-lansarea-platformei-tollro-si-suspendarea-sanctiunilor/</link>
       <guid>https://izz.ro/economic/probleme-tehnice-la-lansarea-platformei-tollro-si-suspendarea-sanctiunilor/</guid>
       <pubDate>Thu, 01 Oct 2026 08:38:08 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.criticarad.ro/incident-tehnic-pe-platforma-tollro-chiar-in-ziua-lansarii/">Critic Arad, Jurnalul Olteniei</source>
       <description>Platforma electronică de tarifare rutieră TollRo s-a confruntat cu disfuncționalități tehnice chiar în ziua lansării sale, pe 1 octombrie 2026. Compania Națională de Administrare a Infrastructurii Rutiere (CNAIR) a anunțat că utilizatorii afectați nu vor primi amenzi până la remedierea problemelor și stabilirea modalităților de plată.</description>
     </item>
     <item>
@@ -130,6 +168,8 @@
       <link>https://izz.ro/general/cnair-a-realizat-un-nou-sondaj-de-trafic-direct-in-soferi-pe-drumurile-din-tara/</link>
       <guid>https://izz.ro/general/cnair-a-realizat-un-nou-sondaj-de-trafic-direct-in-soferi-pe-drumurile-din-tara/</guid>
       <pubDate>Thu, 01 Oct 2026 05:40:40 +0000</pubDate>
+      <category>general</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/un-drum-expres-din-romania-a-fost-construit-dupa-un-chestionar-al-cnair-in-trafic-cum-raspund-acum-soferii-la-intrebari.html">Știrile ProTV</source>
       <description>Compania Națională de Administrare a Infrastructurii Rutiere desfășoară o amplă cercetare în trafic pe autostrăzi, drumuri expres și drumuri naționale, colectând răspunsuri de la conducătorii auto.</description>
     </item>
     <item>
@@ -137,6 +177,8 @@
       <link>https://izz.ro/auto/platforma-digitala-tollro-a-devenit-operationala-pentru-plata-rovinietei/</link>
       <guid>https://izz.ro/auto/platforma-digitala-tollro-a-devenit-operationala-pentru-plata-rovinietei/</guid>
       <pubDate>Thu, 01 Oct 2026 05:26:28 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://economedia.ro/platforma-tollro-intra-in-functiune-de-azi-cum-platesti-taxele.html">Economedia</source>
       <description>CNAIR a lansat oficial noul portal online destinat achitării taxelor de drum și a rovinietelor, șoferii putând folosi începând de astăzi adresa etoll.ro pentru înregistrarea autovehiculelor și efectuarea plăților.</description>
     </item>
     <item>
@@ -144,6 +186,8 @@
       <link>https://izz.ro/general/cnair-organizeaza-anchete-de-trafic-pe-soselele-din-romania/</link>
       <guid>https://izz.ro/general/cnair-organizeaza-anchete-de-trafic-pe-soselele-din-romania/</guid>
       <pubDate>Thu, 01 Oct 2026 04:15:09 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.bihon.ro/stiri-internationale/romania/controale-pe-autostrazi-si-drumuri-nationale-soferii-vor-fi-opriti-si-chestionati-in-anchetele-cnair-5415972/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Șoferii vor fi opriți pe autostrăzi și drumuri naționale în anumite intervale orare pentru colectarea datelor necesare viitoarelor proiecte de infrastructură rutieră.</description>
     </item>
     <item>
@@ -151,6 +195,8 @@
       <link>https://izz.ro/auto/cnair-impune-reinstalarea-aplicatiei-tollro-pentru-plata-rovinietei/</link>
       <guid>https://izz.ro/auto/cnair-impune-reinstalarea-aplicatiei-tollro-pentru-plata-rovinietei/</guid>
       <pubDate>Wed, 30 Sep 2026 21:40:04 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.digi24.ro/stiri/economie/transporturi/transportatorii-scapa-de-reintroducerea-datelor-in-tollro-cnair-anunta-pasii-pentru-un-acces-rapid-la-noul-sistem-din-1-octombrie-3971685">Digi24</source>
       <description>Compania Națională de Administrare a Infrastructurii Rutiere solicită transportatorilor să își refacă conturile și să instaleze noua versiune a platformei TollRo începând cu 1 octombrie, avertizând că datele anterioare nu se migrează automat.</description>
     </item>
     <item>
@@ -158,6 +204,8 @@
       <link>https://izz.ro/auto/cnair-lanseaza-portalul-etoll-ro-pentru-inregistrarea-vehiculelor-si-crearea/</link>
       <guid>https://izz.ro/auto/cnair-lanseaza-portalul-etoll-ro-pentru-inregistrarea-vehiculelor-si-crearea/</guid>
       <pubDate>Wed, 30 Sep 2026 20:34:25 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.dobrogeaonline.ro/comunicat-important-de-la-cnair-pentru-persoane-fizice-si-companii-de-transport/">Dobrogea Online</source>
       <description>Începând cu 30 septembrie 2026, șoferii și firmele de transport pot accesa platforma eToll.ro pentru a-și configura profilurile și a înscrie autovehiculele de mare tonaj în noul sistem rutier administrat de CNAIR.</description>
     </item>
     <item>
@@ -165,6 +213,8 @@
       <link>https://izz.ro/local/centura-comarnic-se-deschide-circulatiei-auto-in-luna-octombrie-2026/</link>
       <guid>https://izz.ro/local/centura-comarnic-se-deschide-circulatiei-auto-in-luna-octombrie-2026/</guid>
       <pubDate>Wed, 30 Sep 2026 20:25:28 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.zdp.ro/centura-comarnic-va-fi-deschisa-oficial-traficului-auto-incepand-cu-luna-octombrie-2026.html">Ziarul de Ploiești, Spotmedia</source>
       <description>Noua variantă ocolitoare a orașului Comarnic va fi deschisă oficial traficului auto în luna octombrie 2026, la aproape trei ani de la începerea lucrărilor. Șoseaua are o lungime de aproape 6 kilometri, scopul fiind preluarea unei părți din traficul de pe DN1 și fluidizarea circulației spre zona montană. Proiectul include poduri și un pasaj de aproximativ 380 de metri peste râul Prahova și calea ferată, valoarea totală a investiției ridicându-se la 470 de milioane de lei, finanțați din fonduri europene și bugetul de stat.</description>
     </item>
     <item>
@@ -172,6 +222,8 @@
       <link>https://izz.ro/auto/cnair-impune-utilizarea-exclusiva-a-canalelor-oficiale-pentru-noul-sistem-tollro/</link>
       <guid>https://izz.ro/auto/cnair-impune-utilizarea-exclusiva-a-canalelor-oficiale-pentru-noul-sistem-tollro/</guid>
       <pubDate>Wed, 30 Sep 2026 19:40:20 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://hotnews.ro/continua-controversele-cu-noul-sistem-de-taxare-rutiera-cnair-avertizeaza-cei-care-platesc-in-conturile-companiei-risca-sa-fie-sanctionati-transportatorii-cer-amanarea-tollro-2363214">HotNews</source>
       <description>Autoritățile rutiere avertizează șoferii că plata rovinietei și a noilor tarife se face doar prin mijloacele electronice autorizate, în timp ce transportatorii cer amânarea măsurii.</description>
     </item>
     <item>
@@ -179,6 +231,8 @@
       <link>https://izz.ro/auto/cnair-anunta-schimbari-majore-privind-achitarea-rovinietei-din-octombrie/</link>
       <guid>https://izz.ro/auto/cnair-anunta-schimbari-majore-privind-achitarea-rovinietei-din-octombrie/</guid>
       <pubDate>Wed, 30 Sep 2026 19:20:22 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/cum-se-va-achita-rovinieta-de-la-1-octombrie-schimbarea-majora-la-sistemul-de-tarifare.html">Știrile ProTV</source>
       <description>Începând cu data de 1 octombrie, rovinieta și tarifele TollRo vor putea fi plătite exclusiv prin intermediul noului Sistem de Tarifare Rutieră Electronică administrat de CNAIR.</description>
     </item>
     <item>
@@ -186,6 +240,8 @@
       <link>https://izz.ro/economic/platforma-tollro-devine-operationala-pentru-plata-rovinietei/</link>
       <guid>https://izz.ro/economic/platforma-tollro-devine-operationala-pentru-plata-rovinietei/</guid>
       <pubDate>Wed, 30 Sep 2026 18:38:51 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.turnulsfatului.ro/2026/09/30/tollro-noua-platforma-pentru-plata-rovinietei-si-a-celorlalte-taxe-pentru-operatorii-de-transport-devine-operationala-de-la-1-octombrie/">Turnul Sfatului, Economica</source>
       <description>Compania Națională de Administrare a Infrastructurii Rutiere introduce începând cu 1 octombrie noul portal și aplicația mobilă TollRo pentru achitarea rovinietei și a taxelor de drum. CNAIR a avertizat șoferii să nu efectueze viramente bancare directe în conturile instituției, deoarece acestea nu reprezintă o plată valabilă și pot atrage sancțiuni, dar sumele deja virate pot fi recuperate la cerere. Rovinietele achiziționate anterior rămân valabile până la data expirării.</description>
     </item>
     <item>
@@ -193,6 +249,8 @@
       <link>https://izz.ro/economic/sistemul-de-taxare-tollro-a-generat-proteste-si-mii-de-erori-reclamate-de/</link>
       <guid>https://izz.ro/economic/sistemul-de-taxare-tollro-a-generat-proteste-si-mii-de-erori-reclamate-de/</guid>
       <pubDate>Wed, 30 Sep 2026 17:27:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://spotmedia.ro/stiri/economie/tollro-intra-in-vigoare-cu-sistemul-plin-de-erori-80-dintre-testele-transportatorilor-au-indicat-probleme">Spotmedia</source>
       <description>Platforma rutieră TollRo a devenit operațională în pline nemulțumiri ale transportatorilor, care acuză rate ridicate de erori în teste și au declanșat proteste stradale, în timp ce CNAIR a emis precizări oficiale.</description>
     </item>
     <item>
@@ -200,6 +258,8 @@
       <link>https://izz.ro/general/cnair-anunta-lansarea-aplicatiei-tollro-in-productie-si-obliga-soferii-la/</link>
       <guid>https://izz.ro/general/cnair-anunta-lansarea-aplicatiei-tollro-in-productie-si-obliga-soferii-la/</guid>
       <pubDate>Wed, 30 Sep 2026 13:04:24 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.dobrogeaonline.ro/anunt-oficial-de-la-cnair-tollro-intra-in-etapa-de-productie-iar-aplicatia-necesita-reinstalare-si-recrearea-conturilor-incepand-cu-1-octombrie/">Dobrogea Online</source>
       <description>Începând cu 1 octombrie 2026, noua versiune a platformei devine activă, iar utilizatorii sunt nevoiți să reinstaleze aplicația și să-și refacă conturile, deoarece datele din perioada pilot nu vor fi migrate.</description>
     </item>
     <item>
@@ -207,6 +267,8 @@
       <link>https://izz.ro/general/ancheta-de-circulatie-origine-destinatie-se-desfasoara-pe-drumurile-nationale/</link>
       <guid>https://izz.ro/general/ancheta-de-circulatie-origine-destinatie-se-desfasoara-pe-drumurile-nationale/</guid>
       <pubDate>Wed, 30 Sep 2026 11:00:14 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.newsbucovina.ro/actualitate/450919/ancheta-de-circulatie-origine-destinatie-are-loc-astazi-pe-drumurile-nationale-din-moldova">NewsBucovina, ZCH News</source>
       <description>CNAIR organizează o anchetă de circulație pe rețeaua rutieră națională pentru actualizarea bazelor de date și a matricelor de mobilitate. Acțiunea are loc în intervalele orare 08:00–12:00 și 14:00–18:00, șoferii fiind invitați să răspundă anonim la un chestionar despre rute, scopul deplasării și tipul de transport.</description>
     </item>
     <item>
@@ -214,6 +276,8 @@
       <link>https://izz.ro/general/cnair-va-chestiona-soferii-despre-rutele-originea-si-destinatia-calatoriilor/</link>
       <guid>https://izz.ro/general/cnair-va-chestiona-soferii-despre-rutele-originea-si-destinatia-calatoriilor/</guid>
       <pubDate>Tue, 29 Sep 2026 21:19:30 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.dobrogeaonline.ro/soferii-vor-fi-interogati-in-perioada-urmatoare-cu-privire-la-originea-si-destinatia-calatoriilor-lor/">Dobrogea Online</source>
       <description>În cadrul unei noi anchete derulate de CNAIR, conducătorii auto vor fi chestionați de recenzori cu privire la punctele de plecare, destinațiile alese și motivele deplasărilor.</description>
     </item>
     <item>
@@ -221,6 +285,8 @@
       <link>https://izz.ro/politic/ministrul-transporturilor-refuza-amendarea-transportatorilor-fara-sistemul/</link>
       <guid>https://izz.ro/politic/ministrul-transporturilor-refuza-amendarea-transportatorilor-fara-sistemul/</guid>
       <pubDate>Mon, 28 Sep 2026 15:54:03 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://economedia.ro/radu-miruta-nu-semnez-niciun-ordin-care-sa-amendeze-transportatorii-daca-tollro-nu-va-functiona-la-1-octombrie.html">Economedia</source>
       <description>Ministrul interimar Radu Miruță a anunțat că nu va semna ordine de sancționare pentru companiile de transport dacă platforma digitală TollRo administrată de CNAIR nu va deveni pe deplin operațională la data de 1 octombrie.</description>
     </item>
     <item>
@@ -228,6 +294,8 @@
       <link>https://izz.ro/economic/fonduri-de-495-milioane-euro-pentru-statii-de-incarcare-electrica/</link>
       <guid>https://izz.ro/economic/fonduri-de-495-milioane-euro-pentru-statii-de-incarcare-electrica/</guid>
       <pubDate>Sun, 27 Sep 2026 12:00:14 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://alba24.ro/495-milioane-de-euro-pentru-statii-de-incarcare-pe-autostrazi-si-drumuri-nationale-proiectele-se-depun-din-28-septembrie-1159848.html">Alba24</source>
       <description>Ministerul Transporturilor lansează apelul de proiecte 'e-Mobility RO' pentru dezvoltarea infrastructurii auto ecologice. Începând cu 28 septembrie, companiile pot accesa finanțări destinate instalării de stații pe autostrăzi și drumuri naționale.</description>
     </item>
 </channel></rss>

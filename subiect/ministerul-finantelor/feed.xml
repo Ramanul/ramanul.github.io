@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Ministerul Finanțelor — IZZ.ro</title>
   <link>https://izz.ro/subiect/ministerul-finantelor/</link>
   <atom:link href="https://izz.ro/subiect/ministerul-finantelor/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ministerul Finanțelor pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Înalta Curte amână din nou verdictul în procesul de un miliard de euro privind salariile magistraților</title>
       <link>https://izz.ro/general/inalta-curte-amana-din-nou-verdictul-in-procesul-de-un-miliard-de-euro-privind/</link>
       <guid>https://izz.ro/general/inalta-curte-amana-din-nou-verdictul-in-procesul-de-un-miliard-de-euro-privind/</guid>
       <pubDate>Thu, 08 Oct 2026 15:20:28 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.bzi.ro/asteptarea-continua-in-dosarul-de-1-miliard-de-euro-inalta-curte-a-anuntat-noul-termen-5619404">BZI Iași</source>
+      <media:content url="https://izz.ro/general/inalta-curte-amana-din-nou-verdictul-in-procesul-de-un-miliard-de-euro-privind/cover.jpg?v=1923b8e9" medium="image" type="image/jpeg"/>
       <description>Instanța supremă a amânat pentru a șaptea oară pronunțarea în dosarul de cinci miliarde de lei, care vizează drepturile salariale restante revendicate de magistrați în procesul cu Guvernul.</description>
     </item>
     <item>
@@ -18,6 +21,8 @@
       <link>https://izz.ro/economic/proprietarii-de-locuinte-cumparate-prin-credit-au-nevoie-de-acordul-bancii/</link>
       <guid>https://izz.ro/economic/proprietarii-de-locuinte-cumparate-prin-credit-au-nevoie-de-acordul-bancii/</guid>
       <pubDate>Tue, 06 Oct 2026 16:35:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/economic/romanii-care-nu-isi-pot-inchiria-apartamentul-fara-acordul-bancii-sau-al-ministerului-finantelor-668320.html">Observator</source>
       <description>Cei care dețin apartamente achiziționate prin ipotecă trebuie să obțină permisiunea instituției finanțatoare înainte de a le închiria, altfel riscă scadența anticipată a creditului.</description>
     </item>
     <item>
@@ -25,6 +30,8 @@
       <link>https://izz.ro/economic/cresteri-pentru-valoarea-tichetelor-de-cresa-incepand-din-octombrie/</link>
       <guid>https://izz.ro/economic/cresteri-pentru-valoarea-tichetelor-de-cresa-incepand-din-octombrie/</guid>
       <pubDate>Tue, 06 Oct 2026 07:49:13 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.tion.ro/romania/tichetele-de-cresa-si-culturale-valori-noi-din-octombrie-cati-bani-pot-primi-angajatii-2366667/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Ministerul Finanțelor și Ministerul Muncii au stabilit prin ordin oficial publicat în Monitorul Oficial că valoarea lunară a tichetelor de creșă va ajunge la 770 de lei.</description>
     </item>
     <item>
@@ -32,6 +39,8 @@
       <link>https://izz.ro/economic/ministerul-finantelor-a-imprumutat-532-de-milioane-de-lei-de-la-banci/</link>
       <guid>https://izz.ro/economic/ministerul-finantelor-a-imprumutat-532-de-milioane-de-lei-de-la-banci/</guid>
       <pubDate>Mon, 05 Oct 2026 15:24:03 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/ministerul-finantelor-a-imprumutat-532-de-milioane-lei-de-la-banci_982932.html">Economica</source>
       <description>Statul a atras fonduri suplimentare de la băncile comerciale printr-o emisiune de titluri de stat, având programată o nouă licitație pentru a atrage sume suplimentare la randamentul stabilit.</description>
     </item>
     <item>
@@ -39,6 +48,8 @@
       <link>https://izz.ro/economic/ministerul-finantelor-a-lansat-o-noua-editie-a-titlurilor-de-stat-tezaur-cu/</link>
       <guid>https://izz.ro/economic/ministerul-finantelor-a-lansat-o-noua-editie-a-titlurilor-de-stat-tezaur-cu/</guid>
       <pubDate>Mon, 05 Oct 2026 05:21:19 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/ministerul-finantelor-lanseaza-luni-o-noua-editie-a-programului-tezaur-cand-si-unde-pot-fi-cumparate-titlurile-de-stat.html">Economedia, Economica, Profit.ro</source>
       <description>Ministerul Finanțelor a lansat o nouă ediție a programului Tezaur, valabilă în perioada 5 octombrie – 6 noiembrie 2026. Românii majori pot investi în titluri de stat cu maturități de 1, 3 și 5 ani, beneficiind de dobânzi anuale de 6,50%, 7% și respectiv 7,50%, veniturile obținute fiind neimpozabile. Achiziția se poate face online prin Ghișeul.ro și SPV, prin Poșta Română sau direct la unitățile Trezoreriei Statului.</description>
     </item>
     <item>
@@ -46,6 +57,8 @@
       <link>https://izz.ro/economic/ministerul-finantelor-a-majorat-dobanzile-pentru-titlurile-de-stat-fidelis/</link>
       <guid>https://izz.ro/economic/ministerul-finantelor-a-majorat-dobanzile-pentru-titlurile-de-stat-fidelis/</guid>
       <pubDate>Fri, 02 Oct 2026 06:52:38 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://bizbrasov.ro/2026/10/02/dobanzile-titluri-de-stat-fidelis/">BizBrașov</source>
       <description>Cea de-a zecea ediție din acest an a programului de titluri de stat aduce câștiguri mai mari pentru investitorii persoane fizice, dobânzile fiind crescute comparativ cu luna septembrie.</description>
     </item>
     <item>
@@ -53,6 +66,8 @@
       <link>https://izz.ro/economic/criza-politica-provoaca-deprecierea-leului-si-cresterea-robor/</link>
       <guid>https://izz.ro/economic/criza-politica-provoaca-deprecierea-leului-si-cresterea-robor/</guid>
       <pubDate>Thu, 01 Oct 2026 15:40:14 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/pietele-intra-in-agitatie-costul-crizei-politice-se-amplifica-cursul-euro-sare-la-537-lei-robor-face-un-nou-salt-finantele-rateaza-complet-un-imprumut-bet-o-ia-in-sens-invers.html">Curs de Guvernare</source>
       <description>Moneda națională s-a depreciat puternic față de euro, atingând un curs de 5,37 lei, pe fondul instabilității politice și al problemelor de finanțare înregistrate de Ministerul Finanțelor.</description>
     </item>
     <item>
@@ -60,6 +75,8 @@
       <link>https://izz.ro/economic/ministerul-finantelor-va-imprumuta-58-miliarde-de-lei-de-la-banci-in-octombrie/</link>
       <guid>https://izz.ro/economic/ministerul-finantelor-va-imprumuta-58-miliarde-de-lei-de-la-banci-in-octombrie/</guid>
       <pubDate>Thu, 01 Oct 2026 05:27:52 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/planul-de-imprumuturi-de-la-bancile-comerciale-pentru-luna-octombrie-2026-58-miliarde-de-lei-anunt-de-la-ministerul-finantelor_981632.html">Economica</source>
       <description>Guvernul a stabilit un plan de finanțare prin certificate de trezorerie și obligațiuni de stat în valoare de 5,8 miliarde de lei, sumă destinată acoperirii deficitului bugetar și rostogolirii datoriei publice.</description>
     </item>
     <item>
@@ -67,6 +84,8 @@
       <link>https://izz.ro/economic/reducerea-accizei-la-motorina-a-fost-prelungita-pana-la-mijlocul-lunii-octombrie/</link>
       <guid>https://izz.ro/economic/reducerea-accizei-la-motorina-a-fost-prelungita-pana-la-mijlocul-lunii-octombrie/</guid>
       <pubDate>Thu, 01 Oct 2026 02:59:17 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://newsbv.ro/acciza-la-motorina-ramane-redusa-15-octombrie/">News Brașov</source>
       <description>Ministerul Finanțelor a decis menținerea reducerii de 25% a accizei la motorina standard până la data de 15 octombrie 2026.</description>
     </item>
     <item>
@@ -74,6 +93,8 @@
       <link>https://izz.ro/local/spitalele-regionale-primesc-finantari-bei-de-923-milioane-euro/</link>
       <guid>https://izz.ro/local/spitalele-regionale-primesc-finantari-bei-de-923-milioane-euro/</guid>
       <pubDate>Wed, 30 Sep 2026 18:41:17 +0000</pubDate>
+      <category>local</category>
+      <source url="https://economedia.ro/spitalele-regionale-din-iasi-cluj-si-craiova-vor-primi-finantari-bei-de-923-milioane-de-euro.html">Economedia</source>
       <description>Ministerul Finanțelor prelungește termenele și flexibilizează accesul la fondurile europene de la Banca Europeană de Investiții, destinate construcției spitalelor regionale din Iași, Cluj și Craiova.</description>
     </item>
     <item>
@@ -81,6 +102,8 @@
       <link>https://izz.ro/economic/ministerul-finantelor-mentine-reducerea-accizei-la-motorina-cu-25-la-inceputul/</link>
       <guid>https://izz.ro/economic/ministerul-finantelor-mentine-reducerea-accizei-la-motorina-cu-25-la-inceputul/</guid>
       <pubDate>Wed, 30 Sep 2026 18:17:50 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/acciza-la-motorina-va-ramane-redusa-cu-25-si-intre-1-si-15-octombrie.html">Economedia, Adevărul</source>
       <description>Ministerul Finanțelor a anunțat că acciza aplicată motorinei standard va fi menținută la un nivel redus cu 25% în perioada 1-15 octombrie 2026. Măsura este o continuare a mecanismului de ajustare bilunară stabilit prin lege, având ca scop limitarea presiunilor exercitate de evoluția cotațiilor internaționale asupra prețurilor practicate la pompă.</description>
     </item>
     <item>
@@ -88,6 +111,8 @@
       <link>https://izz.ro/economic/pretul-motorinei-poate-creste-cu-42-de-lei-per-plin-de-la-1-octombrie/</link>
       <guid>https://izz.ro/economic/pretul-motorinei-poate-creste-cu-42-de-lei-per-plin-de-la-1-octombrie/</guid>
       <pubDate>Wed, 30 Sep 2026 10:33:13 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.monitorulbt.ro/economic/2026/09/30/soferii-in-fata-unei-noi-posibile-scumpiri-ce-se-intampla-cu-acciza-la-motorina-de-la-1-octombrie/">Monitorul de Botoșani</source>
       <description>Șoferii riscă costuri suplimentare substanțiale la carburanți dacă Ministerul Finanțelor nu prelungește reducerea fiscală de 25% la acciza pentru motorină, valabilă inițial până la sfârșitul lunii septembrie.</description>
     </item>
     <item>
@@ -95,6 +120,8 @@
       <link>https://izz.ro/politic/ministrul-finantelor-exclude-noi-taxe-in-2027-dar-mizeaza-pe-o-crestere/</link>
       <guid>https://izz.ro/politic/ministrul-finantelor-exclude-noi-taxe-in-2027-dar-mizeaza-pe-o-crestere/</guid>
       <pubDate>Mon, 28 Sep 2026 16:18:41 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://economedia.ro/ministrul-finantelor-alexandru-nazare-nu-ne-dorim-taxe-noi-in-2027-dar-avem-nevoie-de-resurse-sa-realizam-ajustarea-de-1-de-deficit-putem-lua-in-calcul-o-crestere-prudenta-de-pensii.html">Economedia</source>
       <description>Alexandru Nazare a declarat că ajustarea deficitului cu 1% programată pentru 2027 nu va necesita introducerea de noi impozite, însă Executivul va lua în calcul o majorare moderată a pensiilor în funcție de resurse.</description>
     </item>
     <item>
@@ -102,6 +129,8 @@
       <link>https://izz.ro/economic/alexandru-nazare-avertizeaza-ca-urmatorul-an-bugetar-va-fi-extrem-de-dificil/</link>
       <guid>https://izz.ro/economic/alexandru-nazare-avertizeaza-ca-urmatorul-an-bugetar-va-fi-extrem-de-dificil/</guid>
       <pubDate>Sun, 27 Sep 2026 18:02:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.antena3.ro/politica/alexandru-nazare-avertizeaza-anul-viitor-poate-fi-chiar-mai-dificil-decat-2026-ce-a-spus-despre-evaluarea-agentiei-s-p-804796.html">Antena 3 CNN</source>
       <description>Ministrul interimar al Finanțelor, Alexandru Nazare, a semnalat că anul viitor ar putea aduce dificultăți bugetare și mai mari decât cele din 2026, aspect luat în calcul la fundamentarea viitoarelor cheltuieli ale statului.</description>
     </item>
     <item>
@@ -109,6 +138,8 @@
       <link>https://izz.ro/economic/ministrul-finantelor-sustine-trecerea-de-la-stabilizare-la-crestere-economica/</link>
       <guid>https://izz.ro/economic/ministrul-finantelor-sustine-trecerea-de-la-stabilizare-la-crestere-economica/</guid>
       <pubDate>Sun, 27 Sep 2026 12:06:16 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/ministrul-finantelor-reducerea-deficitului-continua-nu-avem-motive-de-relaxare-dar-trebuie-trecem-de-la-stabilizare-la-crestere-provocarile-bugetului-pe-2027.html">Economedia</source>
       <description>Alexandru Nazare a afirmat că reducerea deficitului bugetar sub 3% din PIB continuă fără abateri, subliniind că România trebuie să treacă acum de la etapa de stabilizare la cea de dezvoltare economică pentru provocările viitoare.</description>
     </item>
 </channel></rss>

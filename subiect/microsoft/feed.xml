@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Microsoft — IZZ.ro</title>
   <link>https://izz.ro/subiect/microsoft/</link>
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft aduce titluri noi în catalogul PC Game Pass pentru octombrie</title>
+      <link>https://izz.ro/tech/microsoft-aduce-titluri-noi-in-catalogul-pc-game-pass-pentru-octombrie/</link>
+      <guid>https://izz.ro/tech/microsoft-aduce-titluri-noi-in-catalogul-pc-game-pass-pentru-octombrie/</guid>
+      <pubDate>Thu, 08 Oct 2026 13:25:23 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/08/pc-game-pass-octombrie-2026/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/microsoft-aduce-titluri-noi-in-catalogul-pc-game-pass-pentru-octombrie/cover.jpg?v=cb41db80" medium="image" type="image/jpeg"/>
+      <description>Platforma PC Game Pass va integra nouă jocuri video între 8 și 16 octombrie, printre care Battlefield 6 și Valor Mortis, majoritatea fiind disponibile chiar de la data lansării oficiale.</description>
+    </item>
     <item>
       <title>Microsoft introduce asistentul AI Copilot direct în bara de sarcini din Windows 11</title>
       <link>https://izz.ro/tech/microsoft-introduce-asistentul-ai-copilot-direct-in-bara-de-sarcini-din-windows/</link>
       <guid>https://izz.ro/tech/microsoft-introduce-asistentul-ai-copilot-direct-in-bara-de-sarcini-din-windows/</guid>
       <pubDate>Thu, 08 Oct 2026 08:18:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.profit.ro/romania-conectata/video-microsoft-integreaza-copilot-direct-in-bara-de-sarcini-din-windows-11-22809702?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/tech/microsoft-introduce-asistentul-ai-copilot-direct-in-bara-de-sarcini-din-windows/cover.jpg?v=785c3fec" medium="image" type="image/jpeg"/>
       <description>Utilizatorii sistemului de operare Windows 11 primesc acces rapid la inteligența artificială prin integrarea nativă a asistentului Copilot în bara de start, peremițând executarea diverselor comenzi scrise.</description>
     </item>
     <item>
@@ -18,6 +31,9 @@
       <link>https://izz.ro/tech/microsoft-a-actualizat-functia-de-cautare-din-windows-11-cu-inteligenta/</link>
       <guid>https://izz.ro/tech/microsoft-a-actualizat-functia-de-cautare-din-windows-11-cu-inteligenta/</guid>
       <pubDate>Thu, 08 Oct 2026 07:27:49 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/08/microsoft-a-refacut-cautarea-in-windows-11-inclusiv-cu-ai/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/microsoft-a-actualizat-functia-de-cautare-din-windows-11-cu-inteligenta/cover.jpg?v=8a3218cf" medium="image" type="image/jpeg"/>
       <description>Noua interfață de căutare din Windows 11, prezentată de Microsoft, permite utilizatorilor să modifice setările sistemului și să execute mii de comenzi rapide direct din bara de activități folosind comenzi simple.</description>
     </item>
     <item>
@@ -25,6 +41,8 @@
       <link>https://izz.ro/tech/microsoft-a-obtinut-drepturile-de-streaming-pentru-jocul-gta-6/</link>
       <guid>https://izz.ro/tech/microsoft-a-obtinut-drepturile-de-streaming-pentru-jocul-gta-6/</guid>
       <pubDate>Wed, 07 Oct 2026 07:28:04 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/07/xbox-a-obtinut-drepturile-de-streaming-pentru-gta-6/">Connect.ro</source>
       <description>Divizia Xbox de la Microsoft a confirmat achiziționarea drepturilor de transmisie prin cloud pentru mult aşteptatul titlu GTA 6, permițând utilizatorilor să joace titlul produs de Rockstar Games direct prin streaming din prima zi.</description>
     </item>
     <item>
@@ -32,6 +50,8 @@
       <link>https://izz.ro/tech/actualizarea-windows-11-26h2-imbunatateste-viteza-sistemului-si-reduce-consumul/</link>
       <guid>https://izz.ro/tech/actualizarea-windows-11-26h2-imbunatateste-viteza-sistemului-si-reduce-consumul/</guid>
       <pubDate>Wed, 07 Oct 2026 06:34:31 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/07/windows-11-26h2-performanta-ram/">Connect.ro</source>
       <description>Microsoft a lansat pachetul 26H2 pentru Windows 11, care aduce optimizări majore pentru meniul Start și lansarea aplicațiilor. Funcția Low Latency Profile contribuie la o experiență de utilizare mai fluidă și eficientă.</description>
     </item>
     <item>
@@ -39,6 +59,8 @@
       <link>https://izz.ro/tech/microsoft-forteaza-trecerea-la-windows-11-prin-costurile-mari-ale-windows-10/</link>
       <guid>https://izz.ro/tech/microsoft-forteaza-trecerea-la-windows-11-prin-costurile-mari-ale-windows-10/</guid>
       <pubDate>Tue, 06 Oct 2026 14:24:46 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/windows-10-11-actualizari/">ZonaIT</source>
       <description>Politicile comerciale stricte și costurile ridicate impuse de Microsoft pentru menținerea vechiului sistem operare determină companiile și instituțiile să adopte mai rapid noua versiune Windows 11.</description>
     </item>
     <item>
@@ -46,6 +68,8 @@
       <link>https://izz.ro/tech/microsoft-pregati-controllerul-xbox-elite-series-3-cu-tehnologie-tmr/</link>
       <guid>https://izz.ro/tech/microsoft-pregati-controllerul-xbox-elite-series-3-cu-tehnologie-tmr/</guid>
       <pubDate>Tue, 06 Oct 2026 08:12:38 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/06/noul-controller-xbox-elite-series-3-are-stick-uri-tmr-si-feedback-haptic-ca-pe-dualsense/">Connect.ro</source>
       <description>Viitorul controller Xbox Elite Series 3 va integra stick-uri cu tehnologie TMR pentru eliminarea defectului de stick-drift și un sistema avansat de feedback haptic inspirat de la controlerele PlayStation.</description>
     </item>
     <item>
@@ -53,6 +77,8 @@
       <link>https://izz.ro/tech/microsoft-a-lansat-oficial-actualizarea-windows-11-26h2/</link>
       <guid>https://izz.ro/tech/microsoft-a-lansat-oficial-actualizarea-windows-11-26h2/</guid>
       <pubDate>Mon, 05 Oct 2026 09:55:22 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/05/windows-11-26h2-este-live-ce-schimbari-aduce-noua-versiune/">Connect.ro</source>
       <description>Utilizatorii de PC-uri compatibile primesc treptat noul pachet de upgrade semestrial Windows 11 prin sistemul Windows Update, acesta aducând modificări importante interfeței din File Manager.</description>
     </item>
     <item>
@@ -60,6 +86,8 @@
       <link>https://izz.ro/tech/microsoft-testeaza-instalarea-automata-de-aplicatii-terte-in-windows-11/</link>
       <guid>https://izz.ro/tech/microsoft-testeaza-instalarea-automata-de-aplicatii-terte-in-windows-11/</guid>
       <pubDate>Sat, 03 Oct 2026 08:12:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/it-c/windows-11-ar-putea-instala-singur-aplicatii-terte-22799925?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Compania Microsoft experimentează o nouă versiune Windows 11 care va include preinstalarea unor programe externe precum Netflix sau Spotify pe dispozitivele utilizatorilor.</description>
     </item>
     <item>
@@ -67,6 +95,8 @@
       <link>https://izz.ro/tech/un-utilizator-descopera-ca-foloseste-aplicatii-open-source-create-partial-de/</link>
       <guid>https://izz.ro/tech/un-utilizator-descopera-ca-foloseste-aplicatii-open-source-create-partial-de/</guid>
       <pubDate>Fri, 02 Oct 2026 23:00:19 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/open-source-apps-have-taken-over-windows-pc-microsoft-wrote-half-of-them/">XDA Developers</source>
       <description>Mai multe instrumente software open-source utilizate frecvent pe un PC cu Windows s-au dovedit a fi dezvoltate sau susținute parțial chiar de compania Microsoft, fără ca utilizatorul să conștientizeze acest lucru timp de ani de zile.</description>
     </item>
     <item>
@@ -74,6 +104,8 @@
       <link>https://izz.ro/tech/folosirea-zilnica-a-hibernarii-pe-pc-uzeaza-ssd-ul-in-timp/</link>
       <guid>https://izz.ro/tech/folosirea-zilnica-a-hibernarii-pe-pc-uzeaza-ssd-ul-in-timp/</guid>
       <pubDate>Fri, 02 Oct 2026 17:00:19 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/five-years-daily-hibernation-impact-on-ssd/">XDA Developers</source>
       <description>Utilizarea funcției de hibernare timp de cinci ani pe un SSD Samsung a redus sănătatea acestuia la 90 la sută. Deși acceptabil pentru utilizatorii obișnuiți, uzura poate afecta stabilitatea sistemelor de performanță.</description>
     </item>
     <item>
@@ -81,6 +113,8 @@
       <link>https://izz.ro/tech/windows-include-un-instrument-pentru-dezactivarea-serviciilor-inutile/</link>
       <guid>https://izz.ro/tech/windows-include-un-instrument-pentru-dezactivarea-serviciilor-inutile/</guid>
       <pubDate>Thu, 01 Oct 2026 13:00:21 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/windows-has-100-services-running-you-can-safely-disable-many/">XDA Developers</source>
       <description>Sistemele de operare Windows rulează numeroase procese în fundal, iar utilizatorii pot dezactiva serviciile non-critice pentru a îmbunătăți performanța calculatoarelor mai vechi sau lente.</description>
     </item>
     <item>
@@ -88,6 +122,8 @@
       <link>https://izz.ro/tech/un-utilizator-a-inlocuit-aplicatiile-native-din-windows-cu-alternative-open/</link>
       <guid>https://izz.ro/tech/un-utilizator-a-inlocuit-aplicatiile-native-din-windows-cu-alternative-open/</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:17 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/replaced-microsoft-default-windows-apps-with-open-source-alternatives-and-never-looked-back/">XDA Developers</source>
       <description>Programele preinstalate oferite de Microsoft pe sistemul de operare Windows au fost înlocuite cu succes de aplicații open-source, considerate de utilizator mult mai rapide, flexibile și eficiente în gestionarea resurselor.</description>
     </item>
     <item>
@@ -95,6 +131,8 @@
       <link>https://izz.ro/tech/prima-versiune-a-jocului-halo-poate-fi-jucata-gratuit-in-browser/</link>
       <guid>https://izz.ro/tech/prima-versiune-a-jocului-halo-poate-fi-jucata-gratuit-in-browser/</guid>
       <pubDate>Wed, 30 Sep 2026 20:38:56 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/you-can-now-play-the-original-halo-for-free-in-your-browser-with-128-player-multiplayer/">XDA Developers</source>
       <description>Jucătorii pot accesa acum originalul titlu Halo direct din browser, beneficiind de un mod multiplayer extins care permite participarea a până la 128 de utilizatori simultan.</description>
     </item>
     <item>
@@ -102,6 +140,8 @@
       <link>https://izz.ro/tech/openai-lanseaza-aplicatii-ai-concurente-pentru-microsoft-office/</link>
       <guid>https://izz.ro/tech/openai-lanseaza-aplicatii-ai-concurente-pentru-microsoft-office/</guid>
       <pubDate>Wed, 30 Sep 2026 17:24:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.profit.ro/romania-conectata/openai-lanseaza-mai-multe-aplicatii-de-ai-care-vor-concura-cu-microsoft-office-22793024?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>În cadrul evenimentului DevDay din San Francisco, compania OpenAI a prezentat funcții noi de inteligență artificială destinate prelucrării documentelor, intrând în competiție directă cu gigantul Microsoft.</description>
     </item>
     <item>
@@ -109,6 +149,8 @@
       <link>https://izz.ro/ai/microsoft-integreaza-platforma-fabric-pentru-a-instrui-agentii-ai/</link>
       <guid>https://izz.ro/ai/microsoft-integreaza-platforma-fabric-pentru-a-instrui-agentii-ai/</guid>
       <pubDate>Wed, 30 Sep 2026 14:46:32 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/microsoft-fabric-agent-context/">The New Stack</source>
       <description>În cadrul conferinței de la Barcelona, compania a prezentat funcționalitățile noi din Microsoft Fabric și stratul contextual Fabric, menite să ajute agenții business să înțeleagă datele corporative.</description>
     </item>
     <item>
@@ -116,6 +158,8 @@
       <link>https://izz.ro/tech/windows-11-26h2-este-disponibil-oficial-pentru-download-si-instalare/</link>
       <guid>https://izz.ro/tech/windows-11-26h2-este-disponibil-oficial-pentru-download-si-instalare/</guid>
       <pubDate>Wed, 30 Sep 2026 11:06:16 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/windows-11-26h2-download-actualizare/">ZonaIT</source>
       <description>Microsoft a lansat oficial versiunea Windows 11 26H2, care poate fi descărcată curată sau instalată prin Windows Update. Actualizarea aduce funcții inteligente bazate pe inteligență artificială și un File Explorer îmbunătățit.</description>
     </item>
     <item>
@@ -123,6 +167,8 @@
       <link>https://izz.ro/tech/microsoft-a-lansat-oficial-sistemul-de-trofee-xbox-mythic-achievement/</link>
       <guid>https://izz.ro/tech/microsoft-a-lansat-oficial-sistemul-de-trofee-xbox-mythic-achievement/</guid>
       <pubDate>Wed, 30 Sep 2026 10:30:09 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.kitguru.net/gaming/mustafa-mahmoud/microsoft-officially-announces-and-details-xbox-mythic-achievement/">KitGuru</source>
       <description>Gigantul american a confirmat oficial introducerea unui nou sistem de realizări pentru consolele Xbox, conceput ca o alternativă directă la trofeele Platinum de pe platforma PlayStation.</description>
     </item>
     <item>
@@ -130,6 +176,8 @@
       <link>https://izz.ro/tech/recenziile-pentru-jocul-gears-of-war-e-day-vor-fi-publicate-in-curand/</link>
       <guid>https://izz.ro/tech/recenziile-pentru-jocul-gears-of-war-e-day-vor-fi-publicate-in-curand/</guid>
       <pubDate>Tue, 29 Sep 2026 10:30:22 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.kitguru.net/tech-news/mustafa-mahmoud/gears-of-war-e-day-review-embargo-will-be-lifted-this-thursday/">KitGuru</source>
       <description>Publicațiile de specialitate își vor exprima opiniile despre noul titlu exclusiv Xbox dezvoltat de Microsoft, cu puțin timp înainte de lansarea oficială programată pentru 6 octombrie.</description>
     </item>
     <item>
@@ -137,6 +185,8 @@
       <link>https://izz.ro/tech/studioul-id-software-se-confrunta-cu-instabilitate-dupa-concedieri/</link>
       <guid>https://izz.ro/tech/studioul-id-software-se-confrunta-cu-instabilitate-dupa-concedieri/</guid>
       <pubDate>Tue, 29 Sep 2026 09:30:21 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.kitguru.net/tech-news/mustafa-mahmoud/new-report-offers-insight-into-morale-at-id-software-following-xbox-reset/">KitGuru</source>
       <description>După valul masiv de disponibilizări efectuat de Microsoft în iulie 2026, care a afectat jumătate din personal, studioul id Software rămâne într-o stare de haos operațional, potrivit angajaților.</description>
     </item>
     <item>
@@ -144,6 +194,8 @@
       <link>https://izz.ro/tech/microsoft-recunoaste-o-eroare-ce-dezactiveaza-licentele-office-2016-si-2019/</link>
       <guid>https://izz.ro/tech/microsoft-recunoaste-o-eroare-ce-dezactiveaza-licentele-office-2016-si-2019/</guid>
       <pubDate>Mon, 28 Sep 2026 08:55:50 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/actualizare-windows-licente-office-2016-office-2019/">ZonaIT</source>
       <description>O actualizare destinată abonaților Microsoft 365 este livrată accidental pe calculatoarele echipate cu versiuni Office mai vechi, eliminând cheile de activare perpetuă și afectând funcționarea pachetului.</description>
     </item>
     <item>
@@ -151,6 +203,8 @@
       <link>https://izz.ro/extern/bill-gates-cere-congresului-sua-o-lege-stricta-pentru-siguranta-ai/</link>
       <guid>https://izz.ro/extern/bill-gates-cere-congresului-sua-o-lege-stricta-pentru-siguranta-ai/</guid>
       <pubDate>Mon, 28 Sep 2026 06:07:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/sci-tech/lumea-digitala/bill-gates-incearca-sa-l-convinga-pe-trump-ca-e-nevoie-de-o-lege-pentru-siguranta-ai-sper-ca-experienta-mea-va-conta-3966929">Digi24 Extern</source>
       <description>Cofondatorul Microsoft a subliniat într-un interviu televizat că industria tehnologică nu se poate autoreglementa eficient și este nevoie de o legislație federală dedicată inteligenței artificiale.</description>
     </item>
     <item>
@@ -158,6 +212,8 @@
       <link>https://izz.ro/tech/windows-comprima-automat-memoria-ram-pentru-performanta/</link>
       <guid>https://izz.ro/tech/windows-comprima-automat-memoria-ram-pentru-performanta/</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:16 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/windows-has-been-compressing-your-memory-in-the-background-for-years/">XDA Developers</source>
       <description>Sistemul de operare Windows utilizează de ani de zile funcția de compresie a memoriei în fundal. Această tehnologie ajută la optimizarea resurselor hardware disponibile, deși mulți utilizatori preferă să o dezactiveze manual.</description>
     </item>
     <item>
@@ -165,6 +221,8 @@
       <link>https://izz.ro/tech/linux-revigoreaza-computerele-vechi-scoase-din-uz-de-windows/</link>
       <guid>https://izz.ro/tech/linux-revigoreaza-computerele-vechi-scoase-din-uz-de-windows/</guid>
       <pubDate>Sun, 27 Sep 2026 23:00:18 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/lightweight-linux-to-revive-a-windows-pc-that-is-not-ubuntu/">XDA Developers</source>
       <description>Cerințele stricte impuse de sistemul Windows 11 lasă în urmă numeroase echipamente hardware vechi lipsite de cipuri TPM. Utilizarea unei distribuții Linux ușoare reprezintă o soluție eficientă pentru a repune în funcțiune aceste dispozitive.</description>
     </item>
     <item>
@@ -172,6 +230,8 @@
       <link>https://izz.ro/ai/bill-gates-sustine-ca-butonul-de-oprire-de-urgenta-nu-este-suficient-pentru/</link>
       <guid>https://izz.ro/ai/bill-gates-sustine-ca-butonul-de-oprire-de-urgenta-nu-este-suficient-pentru/</guid>
       <pubDate>Sun, 27 Sep 2026 18:02:33 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.com/news/2026/09/27/bill-gates-ai-kill-switch-01094236?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Fondatorul Microsoft a declarat că simpla existență a unui mecanism de oprire pentru sistemele de inteligență artificială nu garantează prevenirea atacurilor cibernetice sau a riscurilor majore asociate acestei tehnologii.</description>
     </item>
     <item>
@@ -179,6 +239,8 @@
       <link>https://izz.ro/tech/microsoft-a-concediat-jumatate-din-studioul-age-of-empires-si-a-anulat-jocul/</link>
       <guid>https://izz.ro/tech/microsoft-a-concediat-jumatate-din-studioul-age-of-empires-si-a-anulat-jocul/</guid>
       <pubDate>Sun, 27 Sep 2026 17:03:51 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/microsofts-latest-xbox-layoffs-have-reportedly-gutted-the-age-of-empires-studio-cancelling-its-next-game/">XDA Developers</source>
       <description>În urma unor restructurări masive la Microsoft, studioul responsabil pentru seria Age of Empires a fost redus la jumătate, iar cel mai nou proiect de joc aflat în dezvoltare a fost anulat.</description>
     </item>
     <item>
@@ -186,6 +248,8 @@
       <link>https://izz.ro/tech/cerintele-pentru-drivere-din-windows-11-starnesc-controverse-privind-securitatea/</link>
       <guid>https://izz.ro/tech/cerintele-pentru-drivere-din-windows-11-starnesc-controverse-privind-securitatea/</guid>
       <pubDate>Sun, 27 Sep 2026 13:30:16 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/windows-11s-driver-signature-requirement-is-one-of-the-best-anti-consumer-security-features-out-there/">XDA Developers</source>
       <description>Politica Microsoft care impune semnătura digitală obligatorie pentru drivere în Windows 11 generează nemulțumiri, determinând utilizatorii să prefere versiuni vechi sau sisteme alternative.</description>
     </item>
     <item>
@@ -193,6 +257,8 @@
       <link>https://izz.ro/tech/microsoft-introduce-o-functie-in-outlook-pentru-prevenirea-trimiterii-de-mesaje/</link>
       <guid>https://izz.ro/tech/microsoft-introduce-o-functie-in-outlook-pentru-prevenirea-trimiterii-de-mesaje/</guid>
       <pubDate>Sun, 27 Sep 2026 04:51:20 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/microsoft-outlooks-new-feature-will-stop-you-from-accidentally-sending-embarrassing-typos-to-your-boss/">XDA Developers</source>
       <description>Gigantul american testează o opțiune suplimentară în aplicația Outlook care avertizează utilizatorii imediat după apăsarea butonului de trimitere, dacă mesajele conțin erori flagrante de scriere.</description>
     </item>
     <item>
@@ -200,6 +266,8 @@
       <link>https://izz.ro/tech/microsoft-sustine-ca-asistentul-ai-copilot-ramane-extrem-de-popular/</link>
       <guid>https://izz.ro/tech/microsoft-sustine-ca-asistentul-ai-copilot-ramane-extrem-de-popular/</guid>
       <pubDate>Sun, 27 Sep 2026 04:20:10 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/despite-canning-the-copilot-brand-most-people-love-its-ai-assistant-says-microsoft/">XDA Developers</source>
       <description>Deși compania a renunțat la brandingul Copilot+ pentru laptopuri, reprezentanții gigantului din Redmond afirmă că utilizatorii apreciază în continuare asistentul bazat pe inteligență artificială, acesta având o evoluție foarte bună.</description>
     </item>
     <item>
@@ -207,13 +275,8 @@
       <link>https://izz.ro/tech/un-utilizator-a-renuntat-la-sistemul-dual-boot-dupa-o-eroare-critica-de-windows/</link>
       <guid>https://izz.ro/tech/un-utilizator-a-renuntat-la-sistemul-dual-boot-dupa-o-eroare-critica-de-windows/</guid>
       <pubDate>Sun, 27 Sep 2026 00:00:17 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.xda-developers.com/ditch-dual-boot-for-wsl-vm/">XDA Developers</source>
       <description>O actualizare de securitate Microsoft lansată în august 2024 a blocat accesul la parteneriile Ubuntu prin modificări ale sistemului Secure Boot, determinând trecerea la mașini virtuale și WSL.</description>
-    </item>
-    <item>
-      <title>Microsoft renunță la denumirea Copilot+ pentru laptopurile recente</title>
-      <link>https://izz.ro/ai/microsoft-renunta-la-denumirea-copilot-pentru-laptopurile-recente/</link>
-      <guid>https://izz.ro/ai/microsoft-renunta-la-denumirea-copilot-pentru-laptopurile-recente/</guid>
-      <pubDate>Sat, 26 Sep 2026 18:18:11 +0000</pubDate>
-      <description>După doi ani de critici privind brandul lansat în 2024 pentru laptopurile cu capabilități AI locale, gigantul Microsoft a eliminat în mod discret denumirea Copilot+ de pe noile sale dispozitive Surface.</description>
     </item>
 </channel></rss>

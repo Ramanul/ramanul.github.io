@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Washington — IZZ.ro</title>
   <link>https://izz.ro/subiect/washington/</link>
   <atom:link href="https://izz.ro/subiect/washington/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Washington pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Acuzații de corupție la adresa ambasadoarei SUA în Grecia</title>
       <link>https://izz.ro/politic/acuzatii-de-coruptie-la-adresa-ambasadoarei-sua-in-grecia/</link>
       <guid>https://izz.ro/politic/acuzatii-de-coruptie-la-adresa-ambasadoarei-sua-in-grecia/</guid>
       <pubDate>Thu, 08 Oct 2026 05:33:11 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/ambasadoarea-sua-implicata-in-controversa-privind-caderea-guvernului-bolojan-acuzata-ca-a-cerut-100-000-de-dolari-pentru-interventii-la-washington">Spotmedia</source>
+      <media:content url="https://izz.ro/politic/acuzatii-de-coruptie-la-adresa-ambasadoarei-sua-in-grecia/cover.jpg?v=6afab736" medium="image" type="image/jpeg"/>
       <description>Diplomata americană Kimberly Guilfoyle este acuzată că i-ar fi cerut unui donator republican achitarea unei datorii personale de 100.000 de dolari, promițând în schimb trafic de influență la Washington.</description>
     </item>
     <item>
@@ -18,6 +21,9 @@
       <link>https://izz.ro/extern/washingtonul-solicita-iranului-reducerea-capacitatilor-de-imbogatire-a-uraniului/</link>
       <guid>https://izz.ro/extern/washingtonul-solicita-iranului-reducerea-capacitatilor-de-imbogatire-a-uraniului/</guid>
       <pubDate>Wed, 07 Oct 2026 21:04:17 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/washingtonul-pune-o-noua-conditie-iranului-ce-a-cerut-jd-vance-pentru-un-acord-care-sa-puna-capat-razboiului-3983013">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/washingtonul-solicita-iranului-reducerea-capacitatilor-de-imbogatire-a-uraniului/cover.jpg?v=d39c933b" medium="image" type="image/jpeg"/>
       <description>Oficialul american JD Vance a menționat o nouă precondiție pentru încheierea conflictului militar, cerând Teheranului diminuarea stocurilor nucleare, ceea ce sugerează o posibilă nuanțare a poziției inițiale a SUA.</description>
     </item>
     <item>
@@ -25,6 +31,8 @@
       <link>https://izz.ro/extern/statele-unite-au-cerut-rusiei-explicatii-privind-un-focar-suspect-de-ciuma/</link>
       <guid>https://izz.ro/extern/statele-unite-au-cerut-rusiei-explicatii-privind-un-focar-suspect-de-ciuma/</guid>
       <pubDate>Wed, 07 Oct 2026 08:40:22 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/rusia/ciuma-din-rusia-starneste-ingrijorare-in-sua-washington-a-trimis-nota-diplomatica-oficiala-pentru-a-obtine-mai-multe-informatii-wapo-3981869">Digi24 Extern</source>
       <description>Washingtonul a trimis o notă diplomatică oficială către Moscova pentru a obține detalii despre decesul unui cercetător la un institut anti-ciumă din Irkutsk, invocând tratatele internaționale privind bolile infecțioase.</description>
     </item>
     <item>
@@ -32,6 +40,8 @@
       <link>https://izz.ro/extern/elon-musk-revine-in-administratia-sua-prin-echipa-lui-pete-hegseth/</link>
       <guid>https://izz.ro/extern/elon-musk-revine-in-administratia-sua-prin-echipa-lui-pete-hegseth/</guid>
       <pubDate>Sun, 04 Oct 2026 10:25:27 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/sua/elon-musk-se-intoarce-la-washington-iar-odata-cu-el-vin-si-suspiciunile-privind-conflictele-de-interese-legate-de-cel-mai-bogat-om-3976951">Digi24 Extern</source>
       <description>Cooptarea miliardarului în grupul de experți militari coordonat de secretarul apărării redeschide dezbaterea privind riscurile majore de conflict de interese la Washington.</description>
     </item>
     <item>
@@ -39,6 +49,8 @@
       <link>https://izz.ro/extern/washingtonul-a-gazduit-un-eveniment-dedicat-memoriei-lui-elie-wiesel-si-romaniei/</link>
       <guid>https://izz.ro/extern/washingtonul-a-gazduit-un-eveniment-dedicat-memoriei-lui-elie-wiesel-si-romaniei/</guid>
       <pubDate>Sat, 03 Oct 2026 16:35:30 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/ambasada-romaniei-in-sua-legatura-lui-elie-wiesel-cu-romania-evocata-la-washington-in-prezenta-oficialilor-americani.html">G4Media</source>
       <description>Ambasada României în SUA și Muzeul Holocaustului au organizat la Washington un eveniment de comemorare a lui Elie Wiesel, marcând zece ani de la decesul scriitorului care a ajutat România să își confrunte trecutul.</description>
     </item>
     <item>
@@ -46,6 +58,8 @@
       <link>https://izz.ro/extern/franta-analizeaza-eliberarea-rezervelor-petroliere-dupa-presiunile-americane/</link>
       <guid>https://izz.ro/extern/franta-analizeaza-eliberarea-rezervelor-petroliere-dupa-presiunile-americane/</guid>
       <pubDate>Fri, 02 Oct 2026 10:57:29 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/frankreich-erwaegt-freigabe-von-oel-und-dieselreserven-nach-us-druck/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Oficialii guvernamentali de la Paris au propus deblocarea stocurilor strategice de țiței și motorină în cadrul unor discuții de criză, cedând astfel avertismentelor venite de la Washington privind exporturile.</description>
     </item>
     <item>
@@ -53,6 +67,8 @@
       <link>https://izz.ro/extern/apare-primele-semne-ale-unei-posibile-victorii-a-lui-trump-in-conflictul-cu/</link>
       <guid>https://izz.ro/extern/apare-primele-semne-ale-unei-posibile-victorii-a-lui-trump-in-conflictul-cu/</guid>
       <pubDate>Fri, 02 Oct 2026 04:34:57 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/cele-cinci-semne-care-arata-ca-trump-ar-putea-fi-aproape-de-victorie-in-razboiul-cu-iranul-gestul-de-disperare-al-regimului-iranian-3973183">Digi24 Extern</source>
       <description>Deși regimul de la Teheran a rezistat presiunilor inițiale, analiștii remarcă indicii recente care sugerează că strategia președintelui american Donald Trump privind Iranul s-ar putea apropia de un deznodământ favorabil.</description>
     </item>
     <item>
@@ -60,6 +76,8 @@
       <link>https://izz.ro/politic/instabilitatea-legislativa-din-romania-ingrijoreaza-oficialii-de-la-washington/</link>
       <guid>https://izz.ro/politic/instabilitatea-legislativa-din-romania-ingrijoreaza-oficialii-de-la-washington/</guid>
       <pubDate>Thu, 01 Oct 2026 18:50:11 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/securitate-si-aparare/washingtonul-are-nevoie-de-romania-dar-se-2561225.html">Adevărul</source>
       <description>Un nou raport publicat în SUA arată că instabilitatea fiscală și criza de încredere instituțională afectează ratingul țării. Analistul Cătălin Done avertizează că aceste probleme îndepărtează România de la obiectivul aderării la OCDE.</description>
     </item>
     <item>
@@ -67,6 +85,8 @@
       <link>https://izz.ro/politic/negocieri-energetice-secrete-intre-administratia-trump-si-un-emisar-al-lui/</link>
       <guid>https://izz.ro/politic/negocieri-energetice-secrete-intre-administratia-trump-si-un-emisar-al-lui/</guid>
       <pubDate>Tue, 29 Sep 2026 19:06:59 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/echipa-lui-trump-negociaza-la-washington-cu-trimisul-lui-putin-acorduri-energetice-dupa-terminarea-razboiului-din-ucraina-si-ridicarea-sanctiunilor-impotriva-rusiei.html">G4Media</source>
       <description>Oficiali americani au purtat discuții la Washington cu un trimis al Kremlinului pentru a analiza posibile acorduri în domeniul energiei și ridicarea sancțiunilor economice aplicate Rusiei.</description>
     </item>
     <item>
@@ -74,6 +94,8 @@
       <link>https://izz.ro/extern/un-jurnalist-cnn-afirma-ca-donald-trump-a-mintit-constant-in-ultimul-deceniu/</link>
       <guid>https://izz.ro/extern/un-jurnalist-cnn-afirma-ca-donald-trump-a-mintit-constant-in-ultimul-deceniu/</guid>
       <pubDate>Tue, 29 Sep 2026 00:30:25 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/sua/a-verificat-declaratiile-lui-trump-timp-de-10-ani-2560399.html">Adevărul</source>
       <description>Daniel Dale, specialist în verificarea discursurilor politice la CNN, concluzionează după zece ani de monitorizare că fostul președinte american depășește orice oficial din Washington în privința declarațiilor false.</description>
     </item>
     <item>
@@ -81,6 +103,8 @@
       <link>https://izz.ro/politic/analiza-critica-privind-situatia-economica-actuala-a-romaniei/</link>
       <guid>https://izz.ro/politic/analiza-critica-privind-situatia-economica-actuala-a-romaniei/</guid>
       <pubDate>Mon, 28 Sep 2026 04:30:19 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.monitorulbt.ro/editorial/2026/09/28/romania-pe-avarie-cinismul-de-la-washington-si-arta-alibiului-de-la-cotroceni-virgil-cosma-jurnalist/">Monitorul de Botoșani</source>
       <description>Jurnalistul Virgil Cosma critică pasivitatea autorităților române în fața crizelor actuale, făcând referire la declarațiile ministrului interimar al Finanțelor, Alexandru Nazare, după întâlnirile oficiale de la Washington și Wall Street.</description>
     </item>
     <item>
@@ -88,13 +112,8 @@
       <link>https://izz.ro/extern/dialogul-dintre-statele-unite-si-china-continua-sa-fie-ghidat-de-interese/</link>
       <guid>https://izz.ro/extern/dialogul-dintre-statele-unite-si-china-continua-sa-fie-ghidat-de-interese/</guid>
       <pubDate>Sun, 27 Sep 2026 05:09:57 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.criticarad.ro/xi-jinping-la-washington-cand-interesele-vorbesc/">Critic Arad</source>
       <description>Relația bilaterală dintre Washington și Beijing demonstrează că diferențele de regim social pot fi depășite prin negocieri pragmatice atunci când interesele comune o cer.</description>
-    </item>
-    <item>
-      <title>Statele Unite și China convin asupra unei relații bazate pe stabilitate strategică</title>
-      <link>https://izz.ro/extern/statele-unite-si-china-convin-asupra-unei-relatii-bazate-pe-stabilitate/</link>
-      <guid>https://izz.ro/extern/statele-unite-si-china-convin-asupra-unei-relatii-bazate-pe-stabilitate/</guid>
-      <pubDate>Sat, 26 Sep 2026 19:00:10 +0000</pubDate>
-      <description>Președintele american Donald Trump și omologul său chinez Xi Jinping au stabilit la Washington direcții comune pentru cooperare comercială, inteligență artificială, securitate și gestionarea tensiunilor legate de Taiwan.</description>
     </item>
 </channel></rss>

@@ -183,7 +183,7 @@
       <div class="stats-backdrop"></div>
       <div class="stats-box" role="dialog" aria-label="Profilul tău de cititor">
         <div class="stats-header">
-          <span class="stats-title">Profilul tău</span>
+          <span class="stats-title" id="izz-profil-titlu">Profilul tău</span>
           <button class="stats-close" aria-label="Închide">✕</button>
         </div>
         <div class="stats-body">
@@ -216,12 +216,34 @@
         </div>
       </div>`;
 
-    panel.querySelector('.stats-close').onclick = () => panel.remove();
-    panel.querySelector('.stats-backdrop').onclick = () => panel.remove();
+    const declansator = document.activeElement;
+    function inchide() {
+      document.removeEventListener('keydown', peTasta);
+      panel.remove();
+      if (declansator && declansator.focus) declansator.focus();
+    }
+    function peTasta(ev) {
+      if (ev.key === 'Escape') { inchide(); return; }
+      if (ev.key !== 'Tab') return;
+      const focusabile = panel.querySelectorAll('button, a[href]');
+      if (!focusabile.length) return;
+      const prim = focusabile[0];
+      const ultim = focusabile[focusabile.length - 1];
+      if (ev.shiftKey && document.activeElement === prim) {
+        ev.preventDefault();
+        ultim.focus();
+      } else if (!ev.shiftKey && document.activeElement === ultim) {
+        ev.preventDefault();
+        prim.focus();
+      }
+    }
+    panel.querySelector('.stats-close').onclick = inchide;
+    panel.querySelector('.stats-backdrop').onclick = inchide;
+    document.addEventListener('keydown', peTasta);
     panel.querySelector('.stats-reset').onclick = () => {
       localStorage.removeItem(KEY);
-      panel.remove();
       document.getElementById('pentru-tine')?.remove();
+      inchide();
     };
     // Retragerea/reactivarea, la fel de usoara ca acordarea (GDPR art. 7 alin. 3). Butonul
     // ◎ e singurul control persistent: bara de consimtamant apare o data, apoi dispare.
@@ -238,7 +260,7 @@
         loadAnalytics();
         loadClarity();
       }
-      panel.remove();
+      inchide();
     };
     document.body.appendChild(panel);
   }
@@ -248,6 +270,7 @@
     const btn = document.createElement('button');
     btn.className = 'izz-profile-btn';
     btn.title = 'Profilul tău de cititor';
+    btn.setAttribute('aria-label', 'Profilul tău de cititor');
     btn.textContent = '◎';
     btn.onclick = buildStatsPanel;
     document.body.appendChild(btn);
@@ -400,7 +423,67 @@
     document.body.appendChild(bar);
   }
 
+  function pinJudet() {
+    var sel = document.getElementById('judet-meu');
+    var cutie = document.getElementById('din-judet');
+    if (!sel || !cutie) return;
+    var KEYJ = 'izz_judet';
+    try {
+      var salvat = localStorage.getItem(KEYJ) || '';
+      if (salvat && /^[A-Z0-9]+$/.test(salvat)) sel.value = salvat;
+    } catch (e) { /* private mode */ }
+    sel.addEventListener('change', function () {
+      try { localStorage.setItem(KEYJ, sel.value); } catch (e) { /* private mode */ }
+      deseneazaJudet();
+    });
+    deseneazaJudet();
+
+    function deseneazaJudet() {
+      var code = sel.value;
+      cutie.replaceChildren();
+      if (!code || !/^[A-Z0-9]+$/.test(code)) {
+        cutie.hidden = true;
+        return;
+      }
+      var opt = sel.options[sel.selectedIndex];
+      var slug = opt.getAttribute('data-slug') || '';
+      var label = opt.textContent || code;
+      var titlu = document.createElement('h2');
+      titlu.className = 'section-title';
+      titlu.id = 'din-judet-title';
+      titlu.textContent = 'Din județul tău';
+      cutie.appendChild(titlu);
+      var cards = Array.prototype.filter.call(
+        document.querySelectorAll('.card[data-judet]'),
+        function (card) {
+          var alMeu = card.getAttribute('data-judet') === code && !cutie.contains(card);
+          card.classList.toggle('card-al-meu', alMeu);
+          return alMeu;
+        }
+      );
+      if (!cards.length) {
+        var p = document.createElement('p');
+        p.className = 'empty';
+        p.appendChild(document.createTextNode('Pe prima pagină nu e încă o știre din ' + label + '. '));
+        if (slug) {
+          var a = document.createElement('a');
+          a.href = '/harta/' + slug + '/';
+          a.textContent = 'Vezi județul pe hartă';
+          p.appendChild(a);
+        }
+        cutie.appendChild(p);
+      } else {
+        var grid = document.createElement('section');
+        grid.className = 'grid';
+        cards.slice(0, 6).forEach(function (card) { grid.appendChild(card.cloneNode(true)); });
+        cutie.appendChild(grid);
+      }
+      cutie.hidden = false;
+    }
+  }
+
   function boot() {
+    pinJudet();
     // Butonul de INSTALARE a aplicatiei NU e aici: din 2026-10-03 traieste in
     // `static/pwa.js`, impreuna cu inregistrarea service workerului. Cele doua ascultau
     // ambele dupa `beforeinstallprompt` si ambele chemau `prompt()` pe acelasi buton —

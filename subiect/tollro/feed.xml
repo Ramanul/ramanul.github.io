@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>TollRo — IZZ.ro</title>
   <link>https://izz.ro/subiect/tollro/</link>
   <atom:link href="https://izz.ro/subiect/tollro/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre TollRo pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
     <item>
       <title>Asociațiile de transportatori cer suspendarea amenzilor pentru noul sistem TollRo</title>
       <link>https://izz.ro/economic/transportatorii-cer-suspendarea-amenzilor-pentru-sistemul-tollro-pana-in-aprilie/</link>
       <guid>https://izz.ro/economic/transportatorii-cer-suspendarea-amenzilor-pentru-sistemul-tollro-pana-in-aprilie/</guid>
       <pubDate>Wed, 07 Oct 2026 21:07:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/companii/transportatorii-cer-suspendarea-amenzilor-pana-rezolvarea-problemelor-sistemul-tollro-faptul-solicitam-suspendarea-amenzilor-inseamna-solicitam-platim-taxa-platim-ceea-folosim-23255545">Ziarul Financiar, Curs de Guvernare</source>
+      <media:content url="https://izz.ro/economic/transportatorii-cer-suspendarea-amenzilor-pentru-sistemul-tollro-pana-in-aprilie/cover.jpg?v=eb37c8a6" medium="image" type="image/jpeg"/>
       <description>UNTRR și Confederația Patronală Concordia solicită Parlamentului adoptarea în regim de urgență a unui proiect de lege pentru suspendarea sancțiunilor generate de sistemul informatic TollRo. Transportatorii cer ca amenzile să fie oprite până la 1 aprilie 2027 sau până când platforma de taxare va deveni complet funcțională, menționând că își susțin obligația de a achita taxele legale pentru rutele parcurse.</description>
     </item>
     <item>
@@ -18,6 +21,8 @@
       <link>https://izz.ro/politic/deputatul-ciprian-varsan-critica-disfunctionalitatile-sistemului-tollro/</link>
       <guid>https://izz.ro/politic/deputatul-ciprian-varsan-critica-disfunctionalitatile-sistemului-tollro/</guid>
       <pubDate>Wed, 07 Oct 2026 07:31:02 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.criticarad.ro/ciprian-varsan-interpelare-tollro/">Critic Arad</source>
       <description>Parlamentarul a adresat o interpelare Ministerului Transporturilor privind problemele tehnice și administrative generate de noul sistem pentru transportatorii rutieri din România.</description>
     </item>
     <item>
@@ -25,6 +30,8 @@
       <link>https://izz.ro/local/transportatorii-din-arad-protesteaza-din-nou-impotriva-sistemului-tollro/</link>
       <guid>https://izz.ro/local/transportatorii-din-arad-protesteaza-din-nou-impotriva-sistemului-tollro/</guid>
       <pubDate>Wed, 07 Oct 2026 04:58:53 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.criticarad.ro/transportatorii-aradeni-au-organizat-un-nou-protest-cerem-remedierea-urgenta-a-sistemului-tollro/">Critic Arad</source>
       <description>Companiile de transport din Arad cer remedierea urgentă a problemelor generate de sistemul TollRo, reclamând facturarea excesivă, tarifele neconforme și procedurile birocratice greoaie.</description>
     </item>
     <item>
@@ -32,6 +39,8 @@
       <link>https://izz.ro/economic/transportatorii-cer-prelungirea-perioadei-fara-sanctiuni-pentru-sistemul-tollro/</link>
       <guid>https://izz.ro/economic/transportatorii-cer-prelungirea-perioadei-fara-sanctiuni-pentru-sistemul-tollro/</guid>
       <pubDate>Tue, 06 Oct 2026 22:03:25 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://adevarul.ro/economie/haosul-tollro-nerezolvat-la-o-saptamana-de-la-2562109.html">Adevărul</source>
       <description>Problemele informatice ale sistemului TollRo persistă la o săptămână de la lansare, generând blocaje la plăți și erori de tarifare, motiv pentru care transportatorii solicită amânarea aplicării amenzilor.</description>
     </item>
     <item>
@@ -39,6 +48,8 @@
       <link>https://izz.ro/auto/cnair-anunta-ca-platforma-tollro-functioneaza-normal-dupa-remedierea/</link>
       <guid>https://izz.ro/auto/cnair-anunta-ca-platforma-tollro-functioneaza-normal-dupa-remedierea/</guid>
       <pubDate>Tue, 06 Oct 2026 15:28:01 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://economedia.ro/platforma-tollro-functioneaza-normal-fara-amenzi-pentru-soferi-in-caz-de-defectiuni-tehnice.html">Economedia, Digi24, Economica, Alba24</source>
       <description>CNAIR a anunțat că problemele tehnice de la lansarea platformei TollRo au fost remediate, sistemul funcționând în parametri normali la cinci zile de la implementare. Reprezentanții companiei au precizat că șoferii care nu și-au putut achita taxele înainte de deplasare din cauza erorilor nu vor fi sancționați contravențional în această perioadă.</description>
     </item>
     <item>
@@ -46,6 +57,8 @@
       <link>https://izz.ro/economic/sistemul-nou-de-taxare-rutiera-a-intrat-in-vigoare-la-1-octombrie/</link>
       <guid>https://izz.ro/economic/sistemul-nou-de-taxare-rutiera-a-intrat-in-vigoare-la-1-octombrie/</guid>
       <pubDate>Sat, 03 Oct 2026 09:30:24 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.bihon.ro/stirile-judetului-bihor/economic/noua-taxare-a-drumurilor-de-la-1-octombrie-cum-vor-plati-soferii-si-transportatorii-2-5415225/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Autoritățile au separat taxarea prin menținerea rovinietei pentru autoturisme și introducerea sistemului TollRo bazat pe distanță pentru vehiculele de marfă de peste 3,5 tone, cu opțiuni extinse de plată online.</description>
     </item>
     <item>
@@ -53,6 +66,8 @@
       <link>https://izz.ro/economic/transportatorii-cer-autoritatilor-monitorizarea-problemelor-platformei-tollro/</link>
       <guid>https://izz.ro/economic/transportatorii-cer-autoritatilor-monitorizarea-problemelor-platformei-tollro/</guid>
       <pubDate>Fri, 02 Oct 2026 05:28:23 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/transportatorii-cer-monitorizarea-problemelor-tollro-si-reevaluarea-taxei-costurile-suplimentare-vor-fi-transferate-catre-consumatori.html">Economedia</source>
       <description>Reprezentanții din transporturi avertizează că disfuncționalitățile noului sistem și costurile suplimentare ale taxei vor genera probleme de aprovizionare și vor fi suportate în final de consumatori.</description>
     </item>
     <item>
@@ -60,6 +75,8 @@
       <link>https://izz.ro/politic/transportatorii-scapa-de-amenzi-in-cazul-unor-defectiuni-ale-sistemului-tollro/</link>
       <guid>https://izz.ro/politic/transportatorii-scapa-de-amenzi-in-cazul-unor-defectiuni-ale-sistemului-tollro/</guid>
       <pubDate>Thu, 01 Oct 2026 19:34:12 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/transportatorii-nu-vor-fi-amendati-daca-tollro-are-probleme-ordinul-semnat-de-ministrul-miruta.html">Știrile ProTV</source>
       <description>Ministrul interimar al Transporturilor, Radu Miruță, a emis un ordin prin care utilizatorii sistemului TollRo nu vor fi sancționați dacă aplicația întâmpină probleme tehnice.</description>
     </item>
     <item>
@@ -67,6 +84,8 @@
       <link>https://izz.ro/economic/soferii-nu-vor-fi-amendati-pentru-erorile-din-aplicatia-tollro/</link>
       <guid>https://izz.ro/economic/soferii-nu-vor-fi-amendati-pentru-erorile-din-aplicatia-tollro/</guid>
       <pubDate>Thu, 01 Oct 2026 19:08:02 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/veste-buna-pentru-soferi-miruta-a-semnat-un-ordin-prin-care-utilizatorii-tollro-nu-pot-fi-amendati-daca-aplicatia-are-disfunctionalitati_982047.html">Economica</source>
       <description>Ministrul a semnat un ordin oficial prin care se anulează sancțiunile aplicate conducătorilor auto din cauza disfuncționalităților tehnice ale sistemului de taxare. Măsura vine în sprijinul transportatorilor nemulțumiți de platformă.</description>
     </item>
     <item>
@@ -74,6 +93,8 @@
       <link>https://izz.ro/economic/ministrul-transporturilor-a-semnat-un-ordin-pentru-protejarea-soferilor-de/</link>
       <guid>https://izz.ro/economic/ministrul-transporturilor-a-semnat-un-ordin-pentru-protejarea-soferilor-de/</guid>
       <pubDate>Thu, 01 Oct 2026 18:43:12 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/miruta-a-semnat-un-ordin-prin-care-utilizatorii-tollro-nu-pot-fi-sanctionati-daca-aplicatia-are-disfunctionalitati">Spotmedia, G4Media, Economica, Știrile ProTV</source>
       <description>Ministrul interimar al Transporturilor, Radu Miruță, a semnat un ordin prin care utilizatorii Sistemului de Tarifare Electronică Rutieră (TollRo) nu pot fi sancționați contravențional în cazul în care aplicația întâmpină disfuncționalități tehnice. Decizia vine în urma volumului mare de accesări înregistrat în primele zile de la lansarea din 1 octombrie, care a generat blocaje temporare în funcționarea platformei digitale.</description>
     </item>
     <item>
@@ -81,6 +102,8 @@
       <link>https://izz.ro/tech/dezvoltatorul-platformei-tollro-explica-problemele-tehnice-din-prima-zi/</link>
       <guid>https://izz.ro/tech/dezvoltatorul-platformei-tollro-explica-problemele-tehnice-din-prima-zi/</guid>
       <pubDate>Thu, 01 Oct 2026 17:47:24 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://hotnews.ro/compania-care-a-dezvoltat-tollro-explicatii-despre-disfunctionalitatile-din-prima-zi-o-problema-de-volum-nu-de-dezvoltare-ce-intrebare-a-evitat-2364246">HotNews</source>
       <description>Reprezentanții companiei care au creat platforma digitală de taxare rutieră TollRo au atribuit disfuncționalitățile inițiale volumului excesiv de accesări simultane, respingând ideea unor erori de programare.</description>
     </item>
     <item>
@@ -88,6 +111,8 @@
       <link>https://izz.ro/economic/platforma-de-tarifare-rutiera-tollro-intampina-blocaje-tehnice-masive/</link>
       <guid>https://izz.ro/economic/platforma-de-tarifare-rutiera-tollro-intampina-blocaje-tehnice-masive/</guid>
       <pubDate>Thu, 01 Oct 2026 16:49:50 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.dobrogeaonline.ro/care-este-situatia-platilor-tollro-si-cand-se-va-normaliza-complet-sistemul/">Dobrogea Online</source>
       <description>Sistemul de plată TollRo a înregistrat aproximativ 4 milioane de accesări în primele 12 ore de la lansare, generând dificultăți majore. Compania de drumuri estimează că remedierea problemelor tehnice va dura până la 72 de ore.</description>
     </item>
     <item>
@@ -95,6 +120,8 @@
       <link>https://izz.ro/auto/cnair-a-remediat-disfunctionalitatile-initiale-ale-platformei-de-taxare/</link>
       <guid>https://izz.ro/auto/cnair-a-remediat-disfunctionalitatile-initiale-ale-platformei-de-taxare/</guid>
       <pubDate>Thu, 01 Oct 2026 16:26:48 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://alba24.ro/cnair-despre-situatia-platformei-tollro-ce-s-a-remediat-si-ce-urmeaza-recomandari-pentru-utilizatori-1160571.html">Alba24</source>
       <description>După lansarea sistemului de tarifare electronică din 1 octombrie 2026, echipele tehnice CNAIR au intervenit pentru a rezolva problemele tehnice apărute în primele ore din cauza traficului intens pe platforma TollRo.</description>
     </item>
     <item>
@@ -102,6 +129,8 @@
       <link>https://izz.ro/auto/platforma-tollro-a-intampinat-blocaje-majore-la-lansare-dar-soferii-nu-vor-fi/</link>
       <guid>https://izz.ro/auto/platforma-tollro-a-intampinat-blocaje-majore-la-lansare-dar-soferii-nu-vor-fi/</guid>
       <pubDate>Thu, 01 Oct 2026 16:18:04 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://actualmm.ro/treaba-romaneasca-prima-zi-de-tollro-prima-pana-plati-blocate-si-conturi-care-nu-se-pot-crea-cnair-anunta-ca-soferii-nu-vor-fi-amendati-pana-la-remedierea-problemelor/">actualMM</source>
       <description>Noul sistem de tarifare electronică rutieră, lansat la 1 octombrie 2026, a generat erori de plată și conturi blocate, determinând autoritățile să anunțe că șoferii nu vor primi amenzi până la remediere.</description>
     </item>
     <item>
@@ -109,6 +138,8 @@
       <link>https://izz.ro/economic/problemele-sistemului-tollro-blocheaza-transporturile-rutiere-in-romania/</link>
       <guid>https://izz.ro/economic/problemele-sistemului-tollro-blocheaza-transporturile-rutiere-in-romania/</guid>
       <pubDate>Thu, 01 Oct 2026 12:56:54 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.digi24.ro/stiri/economie/transporturi/transportatorii-avertizeaza-ca-problemele-tollro-afecteaza-economia-romaniei-camioanele-sunt-oprite-iar-livrarile-intarzie-3973073">Digi24</source>
       <description>Asociația UNTRR raportează disfuncționalități majore la lansarea TollRo, cauzând oprirea camioanelor, întârzieri în livrări și erori grave de sistem la frontieră.</description>
     </item>
     <item>
@@ -116,6 +147,8 @@
       <link>https://izz.ro/economic/platforma-rutiera-tollro-s-a-blocat-in-prima-zi-de-la-lansarea-obligatorie/</link>
       <guid>https://izz.ro/economic/platforma-rutiera-tollro-s-a-blocat-in-prima-zi-de-la-lansarea-obligatorie/</guid>
       <pubDate>Thu, 01 Oct 2026 12:24:25 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://hotnews.ro/cine-a-construit-tollro-si-cat-a-costat-sistemul-de-taxare-rutiera-care-s-a-blocat-in-ziua-lansarii-care-este-situatia-acum-2363888">HotNews</source>
       <description>Sistemul electronic pentru taxarea transporturilor de marfă, dezvoltat în baza unui contract de peste 44 de milioane de euro, a suferit un incident tehnic grav chiar la debut.</description>
     </item>
     <item>
@@ -123,6 +156,8 @@
       <link>https://izz.ro/economic/blocaj-major-in-transporturi-dupa-defectarea-noului-sistem-tollro/</link>
       <guid>https://izz.ro/economic/blocaj-major-in-transporturi-dupa-defectarea-noului-sistem-tollro/</guid>
       <pubDate>Thu, 01 Oct 2026 11:06:29 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://mytex.ro/expres/blocaj-major-in-transporturi-la-lansarea-tollro-camioane-oprite-pagube-economice-si-haos-in-lanturile-de-aprovizionare-untrr-cere-masuri-de-urgenta/">MyTex</source>
       <description>Lansarea platformei de taxare rutieră TollRo administrată de CNAIR a generat un blocaj sever în logistică, lăsând sute de camioane oprite pe marginea drumurilor și provocând pierderi economice semnificative.</description>
     </item>
     <item>
@@ -130,6 +165,8 @@
       <link>https://izz.ro/auto/noile-tarife-pentru-rovinieta-bazate-pe-normele-de-poluare-se-aplica-din-2026/</link>
       <guid>https://izz.ro/auto/noile-tarife-pentru-rovinieta-bazate-pe-normele-de-poluare-se-aplica-din-2026/</guid>
       <pubDate>Thu, 01 Oct 2026 09:35:07 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://cronicaolteniei.ro/rovinieta-se-schimba-de-la-1-octombrie-2026-tarife-diferite-in-functie-de-norma-de-poluare/">Cronica Olteniei</source>
       <description>Începând cu 1 octombrie 2026, șoferii vor plăti roviniete diferențiate după gradul de poluare, iar vehiculele grele de marfă vor trece la sistemul TollRo.</description>
     </item>
     <item>
@@ -137,6 +174,8 @@
       <link>https://izz.ro/economic/probleme-tehnice-la-lansarea-platformei-tollro-si-suspendarea-sanctiunilor/</link>
       <guid>https://izz.ro/economic/probleme-tehnice-la-lansarea-platformei-tollro-si-suspendarea-sanctiunilor/</guid>
       <pubDate>Thu, 01 Oct 2026 08:38:08 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.criticarad.ro/incident-tehnic-pe-platforma-tollro-chiar-in-ziua-lansarii/">Critic Arad, Jurnalul Olteniei</source>
       <description>Platforma electronică de tarifare rutieră TollRo s-a confruntat cu disfuncționalități tehnice chiar în ziua lansării sale, pe 1 octombrie 2026. Compania Națională de Administrare a Infrastructurii Rutiere (CNAIR) a anunțat că utilizatorii afectați nu vor primi amenzi până la remedierea problemelor și stabilirea modalităților de plată.</description>
     </item>
     <item>
@@ -144,6 +183,8 @@
       <link>https://izz.ro/judetean/protest-spontan-al-transportatorilor-inainte-de-lansarea-platformei-tollro/</link>
       <guid>https://izz.ro/judetean/protest-spontan-al-transportatorilor-inainte-de-lansarea-platformei-tollro/</guid>
       <pubDate>Thu, 01 Oct 2026 05:37:53 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.criticarad.ro/protest-al-transportatorilor-impotriva-tollro/">Critic Arad</source>
       <description>Mai mulți operatori de transport au ieșit în stradă, inclusiv în județul Arad, cerând amânarea introducerii noului sistem digital pentru plata rovinietei și a taxelor de drum, operațional de la 1 octombrie.</description>
     </item>
     <item>
@@ -151,6 +192,8 @@
       <link>https://izz.ro/auto/cnair-impune-reinstalarea-aplicatiei-tollro-pentru-plata-rovinietei/</link>
       <guid>https://izz.ro/auto/cnair-impune-reinstalarea-aplicatiei-tollro-pentru-plata-rovinietei/</guid>
       <pubDate>Wed, 30 Sep 2026 21:40:04 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.digi24.ro/stiri/economie/transporturi/transportatorii-scapa-de-reintroducerea-datelor-in-tollro-cnair-anunta-pasii-pentru-un-acces-rapid-la-noul-sistem-din-1-octombrie-3971685">Digi24</source>
       <description>Compania Națională de Administrare a Infrastructurii Rutiere solicită transportatorilor să își refacă conturile și să instaleze noua versiune a platformei TollRo începând cu 1 octombrie, avertizând că datele anterioare nu se migrează automat.</description>
     </item>
     <item>
@@ -158,6 +201,8 @@
       <link>https://izz.ro/auto/cnair-impune-utilizarea-exclusiva-a-canalelor-oficiale-pentru-noul-sistem-tollro/</link>
       <guid>https://izz.ro/auto/cnair-impune-utilizarea-exclusiva-a-canalelor-oficiale-pentru-noul-sistem-tollro/</guid>
       <pubDate>Wed, 30 Sep 2026 19:40:20 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://hotnews.ro/continua-controversele-cu-noul-sistem-de-taxare-rutiera-cnair-avertizeaza-cei-care-platesc-in-conturile-companiei-risca-sa-fie-sanctionati-transportatorii-cer-amanarea-tollro-2363214">HotNews</source>
       <description>Autoritățile rutiere avertizează șoferii că plata rovinietei și a noilor tarife se face doar prin mijloacele electronice autorizate, în timp ce transportatorii cer amânarea măsurii.</description>
     </item>
     <item>
@@ -165,6 +210,8 @@
       <link>https://izz.ro/economic/platforma-tollro-devine-operationala-pentru-plata-rovinietei/</link>
       <guid>https://izz.ro/economic/platforma-tollro-devine-operationala-pentru-plata-rovinietei/</guid>
       <pubDate>Wed, 30 Sep 2026 18:38:51 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.turnulsfatului.ro/2026/09/30/tollro-noua-platforma-pentru-plata-rovinietei-si-a-celorlalte-taxe-pentru-operatorii-de-transport-devine-operationala-de-la-1-octombrie/">Turnul Sfatului, Economica</source>
       <description>Compania Națională de Administrare a Infrastructurii Rutiere introduce începând cu 1 octombrie noul portal și aplicația mobilă TollRo pentru achitarea rovinietei și a taxelor de drum. CNAIR a avertizat șoferii să nu efectueze viramente bancare directe în conturile instituției, deoarece acestea nu reprezintă o plată valabilă și pot atrage sancțiuni, dar sumele deja virate pot fi recuperate la cerere. Rovinietele achiziționate anterior rămân valabile până la data expirării.</description>
     </item>
     <item>
@@ -172,6 +219,8 @@
       <link>https://izz.ro/economic/sistemul-de-taxare-tollro-a-generat-proteste-si-mii-de-erori-reclamate-de/</link>
       <guid>https://izz.ro/economic/sistemul-de-taxare-tollro-a-generat-proteste-si-mii-de-erori-reclamate-de/</guid>
       <pubDate>Wed, 30 Sep 2026 17:27:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://spotmedia.ro/stiri/economie/tollro-intra-in-vigoare-cu-sistemul-plin-de-erori-80-dintre-testele-transportatorilor-au-indicat-probleme">Spotmedia</source>
       <description>Platforma rutieră TollRo a devenit operațională în pline nemulțumiri ale transportatorilor, care acuză rate ridicate de erori în teste și au declanșat proteste stradale, în timp ce CNAIR a emis precizări oficiale.</description>
     </item>
     <item>
@@ -179,6 +228,8 @@
       <link>https://izz.ro/general/cnair-anunta-lansarea-aplicatiei-tollro-in-productie-si-obliga-soferii-la/</link>
       <guid>https://izz.ro/general/cnair-anunta-lansarea-aplicatiei-tollro-in-productie-si-obliga-soferii-la/</guid>
       <pubDate>Wed, 30 Sep 2026 13:04:24 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.dobrogeaonline.ro/anunt-oficial-de-la-cnair-tollro-intra-in-etapa-de-productie-iar-aplicatia-necesita-reinstalare-si-recrearea-conturilor-incepand-cu-1-octombrie/">Dobrogea Online</source>
       <description>Începând cu 1 octombrie 2026, noua versiune a platformei devine activă, iar utilizatorii sunt nevoiți să reinstaleze aplicația și să-și refacă conturile, deoarece datele din perioada pilot nu vor fi migrate.</description>
     </item>
     <item>
@@ -186,6 +237,8 @@
       <link>https://izz.ro/auto/noua-taxa-de-drum-tollro-devine-operationala-in-functie-de-kilometri-si-poluare/</link>
       <guid>https://izz.ro/auto/noua-taxa-de-drum-tollro-devine-operationala-in-functie-de-kilometri-si-poluare/</guid>
       <pubDate>Wed, 30 Sep 2026 12:47:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/de-maine-vine-taxa-de-drum-pe-care-o-vei-plati-in-functie-de-cati-kilometri-mergi-si-cat-poluezi-cum-va-fi-aplicata-22794113?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Platforma digitală TollRo își începe activitatea oficială pentru emiterea rovinietelor și a documentelor de plată rutieră bazate pe distanța parcursă și gradul de emisii poluante al autovehiculelor.</description>
     </item>
     <item>
@@ -193,6 +246,8 @@
       <link>https://izz.ro/local/taxa-de-pod-de-la-fetesti-si-vadu-oii-va-fi-eliminata-de-la-1-octombrie/</link>
       <guid>https://izz.ro/local/taxa-de-pod-de-la-fetesti-si-vadu-oii-va-fi-eliminata-de-la-1-octombrie/</guid>
       <pubDate>Wed, 30 Sep 2026 09:32:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/taxa-de-pod-de-la-fetesti-si-vadu-oii-dispare-de-la-1-octombrie-odata-cu-intrarea-in-vigoare-a-noului-sistem-tollro/">Gazeta de Cluj</source>
       <description>Șoferii nu vor mai plăti trecerea peste Dunăre la Fetești și Vadu Oii începând cu 1 octombrie, prin implementarea noului sistem TollRo prevăzut în Planul Național de Redresare și Reziliență.</description>
     </item>
     <item>
@@ -200,6 +255,8 @@
       <link>https://izz.ro/economic/sistemul-tollro-poate-scumpi-transportul-intern-cu-pana-la-opt-procente/</link>
       <guid>https://izz.ro/economic/sistemul-tollro-poate-scumpi-transportul-intern-cu-pana-la-opt-procente/</guid>
       <pubDate>Tue, 29 Sep 2026 15:32:46 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/untrr-tollro-poate-majora-cu-pana-la-8-costurile-transportului-intern-transportatorii-cer-amanarea-sanctiunilor.html">Economedia</source>
       <description>Uniunea Națională a Transportatorilor Rutieri avertizează că noul sistem va crește tarifele și solicită eliminarea temporară a sancțiunilor fixe pentru disfuncționalitățile informatice.</description>
     </item>
     <item>
@@ -207,6 +264,8 @@
       <link>https://izz.ro/politic/ministrul-transporturilor-refuza-amendarea-transportatorilor-fara-sistemul/</link>
       <guid>https://izz.ro/politic/ministrul-transporturilor-refuza-amendarea-transportatorilor-fara-sistemul/</guid>
       <pubDate>Mon, 28 Sep 2026 15:54:03 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://economedia.ro/radu-miruta-nu-semnez-niciun-ordin-care-sa-amendeze-transportatorii-daca-tollro-nu-va-functiona-la-1-octombrie.html">Economedia</source>
       <description>Ministrul interimar Radu Miruță a anunțat că nu va semna ordine de sancționare pentru companiile de transport dacă platforma digitală TollRo administrată de CNAIR nu va deveni pe deplin operațională la data de 1 octombrie.</description>
     </item>
     <item>
@@ -214,6 +273,8 @@
       <link>https://izz.ro/economic/transportatorii-rutieri-cer-suspendarea-sanctiunilor-pentru-sistemul-tollro/</link>
       <guid>https://izz.ro/economic/transportatorii-rutieri-cer-suspendarea-sanctiunilor-pentru-sistemul-tollro/</guid>
       <pubDate>Mon, 28 Sep 2026 05:55:51 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://mytex.ro/expres/transportatorii-cer-amanarea-amenzilor-tollro-sistemul-de-taxare-este-inca-in-teste-dar-sanctiunile-incep-de-la-1-octombrie/">MyTex</source>
       <description>COTAR solicită Parlamentului adoptarea urgentă a unei legi care să amendeze aplicarea sancțiunilor și a tarifului fix pentru taxa de drum TollRo, invocând stadiul de teste al platformei.</description>
     </item>
 </channel></rss>

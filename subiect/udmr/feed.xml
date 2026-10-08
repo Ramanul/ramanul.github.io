@@ -1,16 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>UDMR — IZZ.ro</title>
   <link>https://izz.ro/subiect/udmr/</link>
   <atom:link href="https://izz.ro/subiect/udmr/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre UDMR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Kelemen Hunor avertizează că alegerile anticipate ar aduce AUR la guvernare</title>
+      <link>https://izz.ro/politic/kelemen-hunor-avertizeaza-ca-alegerile-anticipate-ar-aduce-aur-la-guvernare/</link>
+      <guid>https://izz.ro/politic/kelemen-hunor-avertizeaza-ca-alegerile-anticipate-ar-aduce-aur-la-guvernare/</guid>
+      <pubDate>Thu, 08 Oct 2026 21:56:42 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/kelemen-hunor-anticipatele-nu-schimba-absolut-nimic-in-bine-in-jurul-partidului-aur-se-va-forma-un-guvern-3984737">Digi24</source>
+      <media:content url="https://izz.ro/politic/kelemen-hunor-avertizeaza-ca-alegerile-anticipate-ar-aduce-aur-la-guvernare/cover.jpg?v=90a67263" medium="image" type="image/jpeg"/>
+      <description>Liderul UDMR susține că organizarea unor alegeri anticipate nu aduce beneficii României, estimând că rezultatul ar impune formarea unui nou executiv în jurul partidului AUR.</description>
+    </item>
+    <item>
+      <title>Kelemen Hunor estimează șanse mari pentru validarea lui Luca Niculescu</title>
+      <link>https://izz.ro/politic/kelemen-hunor-estimeaza-sanse-mari-pentru-validarea-lui-luca-niculescu/</link>
+      <guid>https://izz.ro/politic/kelemen-hunor-estimeaza-sanse-mari-pentru-validarea-lui-luca-niculescu/</guid>
+      <pubDate>Thu, 08 Oct 2026 21:45:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.antena3.ro/politica/kelemen-hunor-spune-ca-luca-niculescu-are-80-sanse-sa-treaca-sunt-convins-ca-vrea-si-grindeanu-vrea-si-bolojan-si-eu-vreau-806430.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/politic/kelemen-hunor-estimeaza-sanse-mari-pentru-validarea-lui-luca-niculescu/cover.jpg?v=08caa682" medium="image" type="image/jpeg"/>
+      <description>Președintele UDMR a declarat că viitorul premier desemnat are o probabilitate ridicată de a primi votul favorabil din partea Parlamentului, bucurându-se de sprijinul mai multor formațiuni politice.</description>
+    </item>
+    <item>
+      <title>UDMR exclude formarea unui guvern alături de PSD și PNL</title>
+      <link>https://izz.ro/politic/udmr-exclude-formarea-unui-guvern-alaturi-de-psd-si-pnl/</link>
+      <guid>https://izz.ro/politic/udmr-exclude-formarea-unui-guvern-alaturi-de-psd-si-pnl/</guid>
+      <pubDate>Thu, 08 Oct 2026 21:04:31 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://hotnews.ro/dupa-ce-psd-a-cerut-pnl-si-udmr-sa-intre-la-guvernare-csoma-botond-explica-transant-este-imposibil-2371169">HotNews</source>
+      <media:content url="https://izz.ro/politic/udmr-exclude-formarea-unui-guvern-alaturi-de-psd-si-pnl/cover.jpg?v=08caa682" medium="image" type="image/jpeg"/>
+      <description>Liderul deputaților UDMR, Csoma Botond, a afirmat că o alianță guvernamentală cu social-democrații și liberalii este imposibilă, deoarece PNL refuză să guverneze cu PSD, iar o formulă fără liberali ar obliga la o alianță cu extremiștii.</description>
+    </item>
     <item>
       <title>PSD condiționează intrarea la guvernare de o alianță cu PNL și UDMR</title>
       <link>https://izz.ro/politic/psd-conditioneaza-intrarea-la-guvernare-de-o-alianta-cu-pnl-si-udmr/</link>
       <guid>https://izz.ro/politic/psd-conditioneaza-intrarea-la-guvernare-de-o-alianta-cu-pnl-si-udmr/</guid>
       <pubDate>Thu, 08 Oct 2026 16:13:36 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/politic/psd-a-pus-o-conditie-care-i-ar-putea-fi-fatala-guvernului-niculescu-ce-a-raspuns-pnl.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/politic/psd-conditioneaza-intrarea-la-guvernare-de-o-alianta-cu-pnl-si-udmr/cover.jpg?v=67edb883" medium="image" type="image/jpeg"/>
       <description>În cadrul negocierilor politice pentru noul Executiv, reprezentantul PSD Sorin Grindeanu a anunțat că formațiunea sa va intra la guvernare doar împreună cu PNL și UDMR.</description>
     </item>
     <item>
@@ -18,6 +51,9 @@
       <link>https://izz.ro/politic/udmr-anunta-ca-va-vota-un-nou-executiv-chiar-fara-a-participa-la-guvernare/</link>
       <guid>https://izz.ro/politic/udmr-anunta-ca-va-vota-un-nou-executiv-chiar-fara-a-participa-la-guvernare/</guid>
       <pubDate>Thu, 08 Oct 2026 15:36:39 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.economica.net/antal-arpad-udmr-suntem-dispusi-sa-votam-un-guvern-chiar-daca-nu-vom-face-parte-din-acel-guvern_983995.html">Economica</source>
+      <media:content url="https://izz.ro/politic/udmr-anunta-ca-va-vota-un-nou-executiv-chiar-fara-a-participa-la-guvernare/cover.jpg?v=26c08c82" medium="image" type="image/jpeg"/>
       <description>Liderul UDMR a declarat că formațiunea susține instalarea unui guvern pentru stabilizarea economiei și protejarea locurilor de muncă, refuzând însă orice asociere cu AUR și S.O.S.</description>
     </item>
     <item>
@@ -25,6 +61,9 @@
       <link>https://izz.ro/politic/luca-niculescu-va-avea-consultari-cu-psd-pnl-si-udmr/</link>
       <guid>https://izz.ro/politic/luca-niculescu-va-avea-consultari-cu-psd-pnl-si-udmr/</guid>
       <pubDate>Wed, 07 Oct 2026 18:59:13 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.economica.net/luca-niculescu-se-va-intalni-joi-cu-psd-pnl-si-udmr-discutiile-vor-avea-loc-la-sediile-partidelor_983728.html">Economica</source>
+      <media:content url="https://izz.ro/politic/luca-niculescu-va-avea-consultari-cu-psd-pnl-si-udmr/cover.jpg?v=1aa50f35" medium="image" type="image/jpeg"/>
       <description>Reprezentantul va purta discuții oficiale la sediile partidelor parlamentare, întâlnirile începând de la ora 11:00 cu PSD, continuând cu PNL și finalizându-se cu UDMR.</description>
     </item>
     <item>
@@ -32,6 +71,9 @@
       <link>https://izz.ro/politic/motociclistii-vor-putea-circula-pe-benzile-unice-stb-decis-in-parlament/</link>
       <guid>https://izz.ro/politic/motociclistii-vor-putea-circula-pe-benzile-unice-stb-decis-in-parlament/</guid>
       <pubDate>Wed, 07 Oct 2026 15:37:14 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/kelemen-hunor-dupa-adoptarea-proiectului-de-lege-care-i-vizeaza-pe-motociclisti-in-ultimii-ani-am-discutat-cu-multi-dintre-colegii-mei-motociclisti-despre-ce-le-ingreuneaza-deplasarea-si-ce-i-ar-fa.html">G4Media</source>
+      <media:content url="https://izz.ro/politic/motociclistii-vor-putea-circula-pe-benzile-unice-stb-decis-in-parlament/cover.jpg?v=5108ae79" medium="image" type="image/jpeg"/>
       <description>Camera Deputaților a adoptat proiectul de lege inițiat de UDMR care permite utilizarea benzilor dedicate transportului în comun de către mopede și motociclete, în baza reglementărilor stabilite de administratorul rutier.</description>
     </item>
     <item>
@@ -39,6 +81,8 @@
       <link>https://izz.ro/politic/udmr-este-deschis-sa-il-voteze-pe-luca-niculescu-premier-cu-o-conditie/</link>
       <guid>https://izz.ro/politic/udmr-este-deschis-sa-il-voteze-pe-luca-niculescu-premier-cu-o-conditie/</guid>
       <pubDate>Mon, 05 Oct 2026 18:44:53 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/politic/umdr-il-putem-vota-pe-luca-niculescu-linia-rosie-e-sa-nu-purtam-negocieri-cu-aur-si-sos.html">Știrile ProTV, News Brașov, Economica</source>
       <description>Reprezentanții UDMR au anunțat că formațiunea ar putea vota în Parlament investirea lui Luca Niculescu în funcția de premier. Liderul deputaților UDMR, Csoma Botond, a precizat că singura „linie roșie” pentru partid o reprezintă refuzul oricăror negocieri politice cu formațiunile AUR și SOS România pentru constituirea majorității parlamentare.</description>
     </item>
     <item>
@@ -46,6 +90,8 @@
       <link>https://izz.ro/politic/kelemen-hunor-exclude-participarea-udmr-in-viitorul-guvern/</link>
       <guid>https://izz.ro/politic/kelemen-hunor-exclude-participarea-udmr-in-viitorul-guvern/</guid>
       <pubDate>Mon, 05 Oct 2026 13:54:08 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/politica/kelemen-hunor-nu-vom-face-parte-din-urmatorul-guvern-aproape-100-exclud-nu-poti-sa-sari-dintr-un-tren-in-altul">Spotmedia, Economica, Ziua de Cluj</source>
       <description>Președintele UDMR, Kelemen Hunor, a declarat, în urma consultărilor de la Palatul Cotroceni, că formațiunea sa nu va face parte din următorul Executiv, explicând că nu se poate trece imediat de la o coaliție eșuată la alta. Totuși, liderul UDMR a menționat că partidul ar putea asigura voturile necesare pentru învestirea unui guvern format în jurul PSD, dar exclude categoric colaborarea cu AUR sau SOS și respinge soluția alegerilor anticipate.</description>
     </item>
     <item>
@@ -53,6 +99,8 @@
       <link>https://izz.ro/politic/partidele-politice-isi-prezinta-optiunile-de-guvernare-la-consultarile-de-la/</link>
       <guid>https://izz.ro/politic/partidele-politice-isi-prezinta-optiunile-de-guvernare-la-consultarile-de-la/</guid>
       <pubDate>Sun, 04 Oct 2026 16:19:58 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.monitorulbt.ro/national/2026/10/04/psd-vrea-premierul-usr-cere-anticipate-cu-ce-pozitii-merg-partidele-la-cotroceni/">Monitorul de Botoșani</source>
       <description>Liderii formațiunilor politice merg la președintele Nicușor Dan cu poziții divergente: PSD dorește funcția de premier, USR cere alegeri anticipate, iar UDMR susține refacerea fostei coaliții parlamentare.</description>
     </item>
     <item>
@@ -60,6 +108,8 @@
       <link>https://izz.ro/politic/proiect-udmr-de-reducere-a-amenzilor-pentru-uciderea-ursilor-criticat-de-agent/</link>
       <guid>https://izz.ro/politic/proiect-udmr-de-reducere-a-amenzilor-pentru-uciderea-ursilor-criticat-de-agent/</guid>
       <pubDate>Fri, 02 Oct 2026 18:11:57 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/politica/udmr-vrea-sa-scada-de-la-40-000-la-500-de-euro-despagubirea-pentru-un-urs-ucis-ilegal-agent-green-victimele-paravan-pentru-ieftinirea-braconajului">Spotmedia</source>
       <description>O inițiativă legislativă a parlamentarilor UDMR propune scăderea despăgubirilor pentru braconajul urșilor de la 40.000 la 500 de euro, stârnind acuzații din partea organizației de mediu Agent Green.</description>
     </item>
     <item>
@@ -67,6 +117,8 @@
       <link>https://izz.ro/politic/kelemen-hunor-avertizeaza-asupra-riscului-ascensiunii-extremiste/</link>
       <guid>https://izz.ro/politic/kelemen-hunor-avertizeaza-asupra-riscului-ascensiunii-extremiste/</guid>
       <pubDate>Wed, 30 Sep 2026 13:49:17 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/kelemen-hunor-nici-dupa-148-de-zile-nu-suntem-capabili-sa-instalam-un-guvern-cu-puteri-depline-partidele-ofera-pe-tava-conducerea-extremistilor.html">G4Media</source>
       <description>Liderul UDMR critică lipsa unui guvern stabil după 148 de zile și avertizează că eșecul partidelor parlamentare de a instala un Executiv favorizează direct ascensiunea formațiunilor extremiste.</description>
     </item>
     <item>
@@ -74,6 +126,8 @@
       <link>https://izz.ro/politic/kelemen-hunor-indeamna-la-flexibilitate-politica-dupa-votul-din-parlament/</link>
       <guid>https://izz.ro/politic/kelemen-hunor-indeamna-la-flexibilitate-politica-dupa-votul-din-parlament/</guid>
       <pubDate>Wed, 30 Sep 2026 13:23:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.antena3.ro/politica/ce-e-intampla-dupa-votul-de-miercuri-cetatenii-isi-pierd-rabdarea-kelemen-hunor-toti-trebuie-sa-fie-un-pic-mai-flexibili-805250.html">Antena 3 CNN</source>
       <description>Liderul UDMR subliniază că cetățenii își pierd răbdarea din cauza blocajele politice și cere actorilor implicați o atitudine mai flexibilă pentru a evita sancționarea electorala a clasei politice.</description>
     </item>
     <item>
@@ -81,6 +135,8 @@
       <link>https://izz.ro/politic/kelemen-hunor-solicita-indexarea-obligatorie-a-pensiilor-cu-rata-inflatiei-din/</link>
       <guid>https://izz.ro/politic/kelemen-hunor-solicita-indexarea-obligatorie-a-pensiilor-cu-rata-inflatiei-din/</guid>
       <pubDate>Wed, 30 Sep 2026 13:21:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.antena3.ro/politica/kelemen-hunor-cere-indexarea-obligatorie-a-pensiilor-de-la-1-ianuarie-2027-cu-rata-inflatiei-din-2025-puterea-de-cumparare-a-cazut-805257.html">Antena 3 CNN</source>
       <description>Liderul UDMR cere ca pensiile să fie indexate automat începând cu 1 ianuarie 2027, invocând scăderea puterii de cumpărare. De asemenea, acesta susține necesitatea majorării veniturilor salariale din sectorul bugetar.</description>
     </item>
     <item>
@@ -88,6 +144,8 @@
       <link>https://izz.ro/politic/kelemen-hunor-respinge-teoria-implicarii-statelor-unite-in-caderea-guvernului/</link>
       <guid>https://izz.ro/politic/kelemen-hunor-respinge-teoria-implicarii-statelor-unite-in-caderea-guvernului/</guid>
       <pubDate>Wed, 30 Sep 2026 13:21:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.antena3.ro/politica/kelemen-hunor-despre-presupusa-interventie-a-sua-in-caderea-guvernului-bolojan-noi-suntem-in-stare-sa-ne-facem-rau-singuri-805254.html">Antena 3 CNN</source>
       <description>Liderul formațiunii UDMR exclude ipoteza unei intervenții americane în demiterea Executivului condus de Ilie Bolojan. Acesta afirmă că scena politică autohtonă nu are nevoie de factori externi pentru a genera crize guvernamentale.</description>
     </item>
     <item>
@@ -95,6 +153,8 @@
       <link>https://izz.ro/politic/kelemen-hunor-admite-ca-guvernul-muresan-nu-are-suficiente-voturi/</link>
       <guid>https://izz.ro/politic/kelemen-hunor-admite-ca-guvernul-muresan-nu-are-suficiente-voturi/</guid>
       <pubDate>Tue, 29 Sep 2026 14:58:18 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/kelemen-hunor-sansele-ca-guvernul-muresan-sa-treaca-nu-sunt-mari-nu-exista-233-de-voturi-presedintele-nicusor-dan-nu-e-obligat-sa-dizolve-parlamentul-constitutia-ii-lasa-libertatea-sa-decida-daca.html">G4Media</source>
       <description>Liderul UDMR susține că Executivul propus de Siegfried Mureșan nu dispune momentan de cele 233 de voturi necesare în Parlament. Totodată, el a precizat că președintele Nicușor Dan acționează constituțional și nu poate fi suspendat.</description>
     </item>
     <item>
@@ -102,6 +162,8 @@
       <link>https://izz.ro/politic/propunerile-lui-siegfried-muresan-privind-pensiile-depind-de-buget/</link>
       <guid>https://izz.ro/politic/propunerile-lui-siegfried-muresan-privind-pensiile-depind-de-buget/</guid>
       <pubDate>Sun, 27 Sep 2026 13:52:31 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://bizbrasov.ro/2026/09/27/bani-propune-programul-siegfried-muresan/">BizBrașov</source>
       <description>Programul de guvernare susținut de PNL, UDMR și USR, prezentat de Siegfried Mureșan, include mai multe măsuri pentru segmentul de pensii, aplicarea acestora fiind condiționată însă de existența fondurilor necesare.</description>
     </item>
 </channel></rss>

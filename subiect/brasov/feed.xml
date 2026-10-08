@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Brașov — IZZ.ro</title>
   <link>https://izz.ro/subiect/brasov/</link>
   <atom:link href="https://izz.ro/subiect/brasov/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Brașov pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+    <item>
+      <title>Jandarmi brașoveni agrestați la Sibiu de suporteri de fotbal</title>
+      <link>https://izz.ro/sport/jandarmi-brasoveni-agrestati-la-sibiu-de-suporteri-de-fotbal/</link>
+      <guid>https://izz.ro/sport/jandarmi-brasoveni-agrestati-la-sibiu-de-suporteri-de-fotbal/</guid>
+      <pubDate>Thu, 08 Oct 2026 16:55:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://bizbrasov.ro/2026/10/08/jandarmii-agresati-la-sibiu/">BizBrașov</source>
+      <media:content url="https://izz.ro/sport/jandarmi-brasoveni-agrestati-la-sibiu-de-suporteri-de-fotbal/cover.jpg?v=edf2b6a1" medium="image" type="image/jpeg"/>
+      <description>Membrii Grupării de Jandarmi Mobile Brașov au fost atacați la Sibiu de fanii echipelor CSA Steaua București și Politehnica Timișoara, înaintea unui meci direct din campionat.</description>
+    </item>
+    <item>
+      <title>Restaurantul Panoramic din Brașov organizează prima ediție a Sărbătorii Vinului</title>
+      <link>https://izz.ro/local/restaurantul-panoramic-din-brasov-organizeaza-prima-editie-a-sarbatorii-vinului/</link>
+      <guid>https://izz.ro/local/restaurantul-panoramic-din-brasov-organizeaza-prima-editie-a-sarbatorii-vinului/</guid>
+      <pubDate>Thu, 08 Oct 2026 15:52:46 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/timp-liber/oaza-de-bachus-pe-tampa-la-brasov-se-merita-250-de-lei-pentru-sarbatoarea-vinului-la-restaurantul-panoramic/">MyTex</source>
+      <media:content url="https://izz.ro/local/restaurantul-panoramic-din-brasov-organizeaza-prima-editie-a-sarbatorii-vinului/cover.jpg?v=5c2a1360" medium="image" type="image/jpeg"/>
+      <description>În weekendul 24-25 octombrie, localul deținut de George Copos pe Tâmpa va găzdui un eveniment gastronomic ce combină preparatele transilvănene cu vinuri alese, la prețul de 250 de lei biletul.</description>
+    </item>
+    <item>
+      <title>Spectacol omagial dedicat împlinirii a 150 de ani de la nașterea lui Constantin Brâncuși</title>
+      <link>https://izz.ro/local/spectacol-omagial-dedicat-implinirii-a-150-de-ani-de-la-nasterea-lui-constantin/</link>
+      <guid>https://izz.ro/local/spectacol-omagial-dedicat-implinirii-a-150-de-ani-de-la-nasterea-lui-constantin/</guid>
+      <pubDate>Thu, 08 Oct 2026 14:44:43 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/08/brasov-spectacol-de-exceptie-brancusi/">BizBrașov</source>
+      <media:content url="https://izz.ro/local/spectacol-omagial-dedicat-implinirii-a-150-de-ani-de-la-nasterea-lui-constantin/cover.jpg?v=a0bef07a" medium="image" type="image/jpeg"/>
+      <description>Centrul Cultural Reduta din Brașov va găzdui pe 11 octombrie 2026 reprezentația artistică „Nesfârșitul Brâncuși”, un eveniment dedicat marcării a un secol și jumătate de la nașterea marelui sculptor.</description>
+    </item>
+    <item>
+      <title>Ceremonie la Brașov pentru eroii care au apărat „Tranșeea Morții”</title>
+      <link>https://izz.ro/local/ceremonie-la-brasov-pentru-eroii-care-au-aparat-transeea-mortii/</link>
+      <guid>https://izz.ro/local/ceremonie-la-brasov-pentru-eroii-care-au-aparat-transeea-mortii/</guid>
+      <pubDate>Thu, 08 Oct 2026 12:12:49 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/comemorarea-eroilor-romani/">News Brașov</source>
+      <media:content url="https://izz.ro/local/ceremonie-la-brasov-pentru-eroii-care-au-aparat-transeea-mortii/cover.jpg?v=0908f592" medium="image" type="image/jpeg"/>
+      <description>Viceprimarul Lucian Patrașcu a participat la monumentul din Bartolomeu la un eveniment comemorativ dedicat ostașilor căzuți în lupta din 1916 pentru apărarea orașului în fața Puterilor Centrale.</description>
+    </item>
     <item>
       <title>Modernizarea DN 73 Brașov-Câmpulung Muscel este aproape finalizată după 15 ani</title>
       <link>https://izz.ro/local/modernizarea-dn-73-brasov-campulung-muscel-este-aproape-finalizata-dupa-15-ani/</link>
       <guid>https://izz.ro/local/modernizarea-dn-73-brasov-campulung-muscel-este-aproape-finalizata-dupa-15-ani/</guid>
       <pubDate>Thu, 08 Oct 2026 11:53:01 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/expres/veste-uriasa-pentru-soferi-si-turisti-modernizarea-dn-73-brasov-campulung-muscel-aproape-gata-dupa-15-ani-de-santiere/">MyTex</source>
+      <media:content url="https://izz.ro/local/modernizarea-dn-73-brasov-campulung-muscel-este-aproape-finalizata-dupa-15-ani/cover.jpg?v=5cd73347" medium="image" type="image/jpeg"/>
       <description>Traseul rutier de 74 de kilometri care leagă Brașovul de Câmpulung Muscel a fost reabilitat complet, punând capăt restricțiilor de trafic de pe această importantă arteră turistică.</description>
     </item>
     <item>
@@ -18,13 +61,29 @@
       <link>https://izz.ro/judetean/cutremur-cu-magnitudinea-34-produs-in-zona-vrancea-judetul-buzau/</link>
       <guid>https://izz.ro/judetean/cutremur-cu-magnitudinea-34-produs-in-zona-vrancea-judetul-buzau/</guid>
       <pubDate>Thu, 08 Oct 2026 11:46:54 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://mytex.ro/expres/cutremur-la-53-km-de-brasov/">MyTex</source>
+      <media:content url="https://izz.ro/judetean/cutremur-cu-magnitudinea-34-produs-in-zona-vrancea-judetul-buzau/cover.jpg?v=15566d3a" medium="image" type="image/jpeg"/>
       <description>Un seism slab, cu magnitudinea de 3,4 pe scara Richter, s-a înregistrat la o adâncime de peste 130 de kilometri în județul Buzău, fiind resimțit la zeci de kilometri distanță.</description>
+    </item>
+    <item>
+      <title>Primarii din Brașov ezită să împuște urșii din cauza dosarelor penale</title>
+      <link>https://izz.ro/local/primarii-din-brasov-ezita-sa-impuste-ursii-din-cauza-dosarelor-penale/</link>
+      <guid>https://izz.ro/local/primarii-din-brasov-ezita-sa-impuste-ursii-din-cauza-dosarelor-penale/</guid>
+      <pubDate>Thu, 08 Oct 2026 09:14:43 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/evita-primarii-din-brasov-sa-ordone-impuscarea-ursilor/">News Brașov</source>
+      <media:content url="https://izz.ro/local/primarii-din-brasov-ezita-sa-impuste-ursii-din-cauza-dosarelor-penale/cover.jpg?v=48f0936a" medium="image" type="image/jpeg"/>
+      <description>În urma unui atac mortal la Hoghiz, Prefectura Brașov a convocat edilii locali pentru a clarifica procedurile legale, primarii temându-se de anchete penale și presiuni venite din partea organizațiilor neguvernamentale.</description>
     </item>
     <item>
       <title>Un șofer de 74 de ani a fost rănit într-un accident pe DN1</title>
       <link>https://izz.ro/local/un-sofer-de-74-de-ani-a-fost-ranit-intr-un-accident-pe-dn1/</link>
       <guid>https://izz.ro/local/un-sofer-de-74-de-ani-a-fost-ranit-intr-un-accident-pe-dn1/</guid>
       <pubDate>Thu, 08 Oct 2026 08:59:30 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/accident-pe-dn1-intre-persani-si-vladeni/">News Brașov</source>
+      <media:content url="https://izz.ro/local/un-sofer-de-74-de-ani-a-fost-ranit-intr-un-accident-pe-dn1/cover.jpg?v=bda5bb3a" medium="image" type="image/jpeg"/>
       <description>Un eveniment rutier s-a produs pe DN1, între localitățile brașovene Perșani și Vlădeni, fiind implicate un autoturism și un ansamblu de vehicule. În urma impactului, conducătorul auto în vârstă de 74 de ani a suferit leziuni și a primit îngrijiri...</description>
     </item>
     <item>
@@ -32,6 +91,9 @@
       <link>https://izz.ro/local/cimitirul-municipal-din-brasov-va-fi-modernizat-cu-panouri-interactive/</link>
       <guid>https://izz.ro/local/cimitirul-municipal-din-brasov-va-fi-modernizat-cu-panouri-interactive/</guid>
       <pubDate>Thu, 08 Oct 2026 08:50:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/cimitirul-municipal-din-brasov-va-fi-modernizat/">News Brașov</source>
+      <media:content url="https://izz.ro/local/cimitirul-municipal-din-brasov-va-fi-modernizat-cu-panouri-interactive/cover.jpg?v=bda5bb3a" medium="image" type="image/jpeg"/>
       <description>Primarul George Scripcaru a cerut finalizarea lucrărilor de modernizare de la cimitirul din Brașov până la sfârșitul lunii octombrie, acestea incluzând panouri cu coduri QR pentru orientare.</description>
     </item>
     <item>
@@ -39,6 +101,9 @@
       <link>https://izz.ro/local/soferul-care-a-provocat-accidentul-mortal-de-pe-strada-muresenilor-a-fost/</link>
       <guid>https://izz.ro/local/soferul-care-a-provocat-accidentul-mortal-de-pe-strada-muresenilor-a-fost/</guid>
       <pubDate>Thu, 08 Oct 2026 08:04:35 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/sofer-accident-muresenilor-trimis-in-judecata/">News Brașov, MyTex, BizBrașov</source>
+      <media:content url="https://izz.ro/local/soferul-care-a-provocat-accidentul-mortal-de-pe-strada-muresenilor-a-fost/cover.jpg?v=eaea871d" medium="image" type="image/jpeg"/>
       <description>Parchetul de pe lângă Tribunalul Brașov a finalizat ancheta și a trimis în judecată șoferul responsabil de accidentul produs în august 2026. Acesta este acuzat de ucidere din culpă și vătămare corporală din culpă, după ce a pierdut controlul mașinii și a lovit trei pietoni pe trotuar, provocând moartea a două persoane și rănirea gravă a alteia. Anchetatorii arată că inculpatul suferea de o afecțiune incompatibilă cu șofatul și rula cu o viteză peste limita legală. Rudele victimelor și spitalul au cerut despăgubiri majore.</description>
     </item>
     <item>
@@ -46,6 +111,9 @@
       <link>https://izz.ro/local/clienti-wolt-din-brasov-au-ramas-fara-comenzi-si-bani/</link>
       <guid>https://izz.ro/local/clienti-wolt-din-brasov-au-ramas-fara-comenzi-si-bani/</guid>
       <pubDate>Thu, 08 Oct 2026 07:58:21 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/expres/clienti-wolt-din-brasov-lasati-fara-mancare-si-cu-banii-luati-metoda-prin-care-se-fura-comenzile-chiar-din-mall-au-mancat-o-ei/">MyTex</source>
+      <media:content url="https://izz.ro/local/clienti-wolt-din-brasov-au-ramas-fara-comenzi-si-bani/cover.jpg?v=173fb4b7" medium="image" type="image/jpeg"/>
       <description>Utilizatorii platformelor de livrare semnalează practici abuzive în care produsele comandate din mall-uri sunt marcate drept livrate, deși nu ajung niciodată la cumpărători, generând discuții aprinse în mediul online.</description>
     </item>
     <item>
@@ -53,6 +121,9 @@
       <link>https://izz.ro/local/autoritatile-si-producatorii-locali-din-brasov-dezbat-accesul-la-produse/</link>
       <guid>https://izz.ro/local/autoritatile-si-producatorii-locali-din-brasov-dezbat-accesul-la-produse/</guid>
       <pubDate>Thu, 08 Oct 2026 07:32:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/cum-ajung-produsele-locale-mai-aproape/">News Brașov</source>
+      <media:content url="https://izz.ro/local/autoritatile-si-producatorii-locali-din-brasov-dezbat-accesul-la-produse/cover.jpg?v=14c95ce2" medium="image" type="image/jpeg"/>
       <description>Reprezentanți ai primăriei brașovene, ai mediului academic și ai organizației WWF-România s-au reunit pentru a găsi soluții concrete de aprovizionare a consumatorilor cu mărfuri locale și prietenoase cu mediul.</description>
     </item>
     <item>
@@ -60,6 +131,9 @@
       <link>https://izz.ro/local/teatrul-sica-alexandrescu-din-brasov-programeaza-patru-spectacole-in-aceasta/</link>
       <guid>https://izz.ro/local/teatrul-sica-alexandrescu-din-brasov-programeaza-patru-spectacole-in-aceasta/</guid>
       <pubDate>Thu, 08 Oct 2026 07:32:05 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/08/teatru-spectacole-de-exceptie-oferta/">BizBrașov</source>
+      <media:content url="https://izz.ro/local/teatrul-sica-alexandrescu-din-brasov-programeaza-patru-spectacole-in-aceasta/cover.jpg?v=3862b181" medium="image" type="image/jpeg"/>
       <description>Instituția culturală brașoveană oferă publicului larg o serie de reprezentații teatrale programate începând de joi seară la Sala Studio, adresate spectatorilor de toate vârstele.</description>
     </item>
     <item>
@@ -67,6 +141,9 @@
       <link>https://izz.ro/local/cresterea-costului-vietii-in-brasov-in-ciuda-dezvoltarii-economice/</link>
       <guid>https://izz.ro/local/cresterea-costului-vietii-in-brasov-in-ciuda-dezvoltarii-economice/</guid>
       <pubDate>Thu, 08 Oct 2026 06:29:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/economic/cat-costa-de-fapt-sa-fii-bine-in-brasov-de-ce-salariul-bun-din-economia-locala-nu-mai-ofera-liniste-financiara/">MyTex</source>
+      <media:content url="https://izz.ro/local/cresterea-costului-vietii-in-brasov-in-ciuda-dezvoltarii-economice/cover.jpg?v=07dbdf54" medium="image" type="image/jpeg"/>
       <description>Dezvoltarea economică accelerată din Brașov, impulsionată de IT și turism, vine la pachet cu un paradox financiar, în care locuitorii cu venituri peste medie se confruntă cu lipsa siguranței financiare.</description>
     </item>
     <item>
@@ -74,6 +151,9 @@
       <link>https://izz.ro/local/fotografia-istorica-de-la-bartolomeu-comemoreaza-eroii-cazuti-la-brasov-in-1916/</link>
       <guid>https://izz.ro/local/fotografia-istorica-de-la-bartolomeu-comemoreaza-eroii-cazuti-la-brasov-in-1916/</guid>
       <pubDate>Wed, 07 Oct 2026 16:10:19 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/07/fotografie-memoria-eroilor-bartolomeu/">BizBrașov</source>
+      <media:content url="https://izz.ro/local/fotografia-istorica-de-la-bartolomeu-comemoreaza-eroii-cazuti-la-brasov-in-1916/cover.jpg?v=8256e7f4" medium="image" type="image/jpeg"/>
       <description>O imagine de arhivă din timpul luptelor armate de la Bartolomeu, desfășurate în octombrie 1916, este readusă în atenția publicului din Brașov ca un simbol al memoriei colective și al omagiului adus soldaților căzuți pe front.</description>
     </item>
     <item>
@@ -81,6 +161,9 @@
       <link>https://izz.ro/local/compania-aeriana-fly-lili-isi-reevalueaza-strategia-dupa-retragerea-de-la-brasov/</link>
       <guid>https://izz.ro/local/compania-aeriana-fly-lili-isi-reevalueaza-strategia-dupa-retragerea-de-la-brasov/</guid>
       <pubDate>Wed, 07 Oct 2026 14:51:48 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/expres/fly-lili-si-amintirea-amara-de-la-ghimbav-mai-are-vreo-sansa-aeroportul-brasov-sa-redevina-baza-pentru-compania-lui-jurgen-faff/">MyTex</source>
+      <media:content url="https://izz.ro/local/compania-aeriana-fly-lili-isi-reevalueaza-strategia-dupa-retragerea-de-la-brasov/cover.jpg?v=38dc398c" medium="image" type="image/jpeg"/>
       <description>Operatorul aerian analizează noi oportunități pe alte aeroporturi regionale din Transilvania, precum cel din Sibiu. Incertitudinea persistă totuși în rândul comunității locale privind viitorul zborurilor comerciale pe pista de la Ghimbav.</description>
     </item>
     <item>
@@ -88,6 +171,9 @@
       <link>https://izz.ro/local/scadere-a-infectiilor-respiratorii-si-crestere-a-pneumoniilor-la-brasov/</link>
       <guid>https://izz.ro/local/scadere-a-infectiilor-respiratorii-si-crestere-a-pneumoniilor-la-brasov/</guid>
       <pubDate>Wed, 07 Oct 2026 14:50:33 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/07/brasov-infectii-respiratorii-pneumonii/">BizBrașov</source>
+      <media:content url="https://izz.ro/local/scadere-a-infectiilor-respiratorii-si-crestere-a-pneumoniilor-la-brasov/cover.jpg?v=780fc4d4" medium="image" type="image/jpeg"/>
       <description>Direcția de Sănătate Publică Brașov raportează mai puține cazuri de viroze respiratorii, dar un număr mai mare de pneumonii la începutul acestui sezon rece, comparativ cu anul anterior.</description>
     </item>
     <item>
@@ -95,6 +181,9 @@
       <link>https://izz.ro/local/un-sofer-baut-si-fara-permis-a-fost-retinut-in-brasov-dupa-ce-a-accidentat-doua/</link>
       <guid>https://izz.ro/local/un-sofer-baut-si-fara-permis-a-fost-retinut-in-brasov-dupa-ce-a-accidentat-doua/</guid>
       <pubDate>Wed, 07 Oct 2026 14:38:52 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/112/brasovean-fara-permis-cu-071-mg-l-alcool-in-aerul-expirat-retinut-dupa-ce-a-lovit-doua-masini/">MyTex, News Brașov</source>
+      <media:content url="https://izz.ro/local/un-sofer-baut-si-fara-permis-a-fost-retinut-in-brasov-dupa-ce-a-accidentat-doua/cover.jpg?v=18242f34" medium="image" type="image/jpeg"/>
       <description>Un bărbat în vârstă de 38 de ani din Brașov a fost reținut pentru 24 de ore după ce a condus fără permis și sub influența alcoolului pe strada Zorilor, avariind două autoturisme parcate. Incidentul a avut loc în seara de 6 octombrie, șoferul înregistrând o alcoolemie de 0,71 mg/l în aerul expirat și refuzând ulterior recoltarea probelor biologice.</description>
     </item>
     <item>
@@ -102,6 +191,9 @@
       <link>https://izz.ro/local/dsp-brasov-raporteaza-primele-cazuri-de-gripa-si-mii-de-infectii-respiratorii/</link>
       <guid>https://izz.ro/local/dsp-brasov-raporteaza-primele-cazuri-de-gripa-si-mii-de-infectii-respiratorii/</guid>
       <pubDate>Wed, 07 Oct 2026 14:35:11 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/sanatate/a-aparut-gripa-in-judetul-brasov-sute-de-cazuri-de-pneumonie-si-infectii-respiratorii-raportate-intr-o-singura-saptamana/">MyTex</source>
+      <media:content url="https://izz.ro/local/dsp-brasov-raporteaza-primele-cazuri-de-gripa-si-mii-de-infectii-respiratorii/cover.jpg?v=58a58b86" medium="image" type="image/jpeg"/>
       <description>Autoritățile medicale din județul Brașov au înregistrat primele îmbolnăviri de gripă clinică din acest sezon și aproape două mii de cazuri de infecții respiratorii acute, alături de o creștere a numărului de pneumonii față de anul trecut.</description>
     </item>
     <item>
@@ -109,6 +201,9 @@
       <link>https://izz.ro/local/turneul-national-de-muzica-baroca-bach-2-0-ajunge-la-brasov/</link>
       <guid>https://izz.ro/local/turneul-national-de-muzica-baroca-bach-2-0-ajunge-la-brasov/</guid>
       <pubDate>Wed, 07 Oct 2026 14:18:41 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/07/brasov-bach-proiect-muzicii-baroce-vine/">BizBrașov</source>
+      <media:content url="https://izz.ro/local/turneul-national-de-muzica-baroca-bach-2-0-ajunge-la-brasov/cover.jpg?v=4fdbf9c0" medium="image" type="image/jpeg"/>
       <description>Biserica Sfântul Bartolomeu din Brașov găzduiește vineri primul concert din cadrul proiectului cultural BACH 2.0, dedicat iubitorilor de clavecin și muzică clasică.</description>
     </item>
     <item>
@@ -116,6 +211,9 @@
       <link>https://izz.ro/local/wizz-air-introduce-zboruri-directe-din-brasov-spre-spania/</link>
       <guid>https://izz.ro/local/wizz-air-introduce-zboruri-directe-din-brasov-spre-spania/</guid>
       <pubDate>Wed, 07 Oct 2026 14:00:15 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/wizz-air-lanseaza-trei-rute-noi-de-la-brasov-spre-spania-zboruri-directe-catre-valencia-barcelona-si-madrid-1161508.html">Alba24</source>
+      <media:content url="https://izz.ro/local/wizz-air-introduce-zboruri-directe-din-brasov-spre-spania/cover.jpg?v=4dd9462e" medium="image" type="image/jpeg"/>
       <description>Compania aeriană Wizz Air va opera curse directe de pe Aeroportul Internațional Brașov-Ghimbav către Valencia, Barcelona și Madrid. Rutele vor deveni active începând din luna noiembrie și până în preajma Crăciunului 2026.</description>
     </item>
     <item>
@@ -123,6 +221,9 @@
       <link>https://izz.ro/local/arme-si-articole-pirotehnice-ilegale-confiscate-in-urma-unor-perchezitii-la/</link>
       <guid>https://izz.ro/local/arme-si-articole-pirotehnice-ilegale-confiscate-in-urma-unor-perchezitii-la/</guid>
       <pubDate>Wed, 07 Oct 2026 13:24:38 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/arme-articole-perchezitii/">News Brașov</source>
+      <media:content url="https://izz.ro/local/arme-si-articole-pirotehnice-ilegale-confiscate-in-urma-unor-perchezitii-la/cover.jpg?v=54746104" medium="image" type="image/jpeg"/>
       <description>Polițiștii din Brașov au descoperit arme, muniție și peste 130 de materiale pirotehnice deținute fără drept, în urma unor descinderi efectuate în orașul Ghimbav.</description>
     </item>
     <item>
@@ -130,6 +231,8 @@
       <link>https://izz.ro/local/un-barbat-a-fost-retinut-in-prahova-si-brasov-pentru-falsificare-de-avize/</link>
       <guid>https://izz.ro/local/un-barbat-a-fost-retinut-in-prahova-si-brasov-pentru-falsificare-de-avize/</guid>
       <pubDate>Wed, 07 Oct 2026 10:03:43 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/barbat-retinut-perchezitii/">News Brașov</source>
       <description>Polițiștii au efectuat percheziții în mai multe localități și l-au reținut pe un suspect de 58 de ani, vizat într-un dosar de fals informatic legat de documente din sectorul forestier.</description>
     </item>
     <item>
@@ -137,6 +240,8 @@
       <link>https://izz.ro/local/poiana-marului-lupta-pentru-titlul-de-sat-european-de-tineret-2027/</link>
       <guid>https://izz.ro/local/poiana-marului-lupta-pentru-titlul-de-sat-european-de-tineret-2027/</guid>
       <pubDate>Wed, 07 Oct 2026 08:37:07 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/07/poiana-marului-tinerii-finala-nationala/">BizBrașov</source>
       <description>Comuna brașoveană Poiana Mărului a ajuns în finala națională a competiției, având șansa de a aduce în premieră acest titlu european prestigios în județul Brașov.</description>
     </item>
     <item>
@@ -144,6 +249,8 @@
       <link>https://izz.ro/local/sanctuarul-pentru-pisici-din-halchiu-are-nevoie-de-o-curte-mai-mare/</link>
       <guid>https://izz.ro/local/sanctuarul-pentru-pisici-din-halchiu-are-nevoie-de-o-curte-mai-mare/</guid>
       <pubDate>Wed, 07 Oct 2026 08:03:17 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/07/pisici-povestea-sanctuarului-casuta/">BizBrașov</source>
       <description>Doi soți din Hălchiu, județul Brașov, care îngrijesc 61 de feline salvate, cer ajutor financiar pentru a muta animalele din țarcuri într-un spațiu de 1.100 de metri pătrați.</description>
     </item>
     <item>
@@ -151,6 +258,8 @@
       <link>https://izz.ro/local/aproape-880-000-de-turisti-au-vizitat-brasovul-in-primele-opt-luni/</link>
       <guid>https://izz.ro/local/aproape-880-000-de-turisti-au-vizitat-brasovul-in-primele-opt-luni/</guid>
       <pubDate>Wed, 07 Oct 2026 07:23:34 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/880-000-de-turisti-au-ajuns-la-brasov/">News Brașov</source>
       <description>Institutul Național de Statistică raportează o creștere semnificativă a turismului în județul Brașov. Numărul sosirilor și al înnoptărilor a urcat cu peste nouă procente în luna august 2026 față de anul precedent.</description>
     </item>
     <item>
@@ -158,6 +267,8 @@
       <link>https://izz.ro/local/consiliul-judetean-brasov-redistribuie-fonduri-pentru-bugetul-de-la-finalul/</link>
       <guid>https://izz.ro/local/consiliul-judetean-brasov-redistribuie-fonduri-pentru-bugetul-de-la-finalul/</guid>
       <pubDate>Wed, 07 Oct 2026 06:24:04 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/07/final-dificil-bugegt-judet-brasov-cheltui/">BizBrașov</source>
       <description>Administrația publică din Brașov întâmpină dificultăți bugetare în ultimul trimestru și va redistribui sumele neutilizate de la anumite capitole pentru a acoperi cheltuielile crescute.</description>
     </item>
     <item>
@@ -165,6 +276,8 @@
       <link>https://izz.ro/local/ordin-de-protectie-emis-pentru-un-barbat-din-brasov-care-si-ar-fi-amenintat/</link>
       <guid>https://izz.ro/local/ordin-de-protectie-emis-pentru-un-barbat-din-brasov-care-si-ar-fi-amenintat/</guid>
       <pubDate>Wed, 07 Oct 2026 06:19:29 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/112/brasov-si-ar-fi-amenintat-sotia-intr-un-magazin-politistii-au-emis-ordin-de-protectie/">MyTex</source>
       <description>Polițiștii brașoveni au intervenit după ce o femeie de 43 de ani a sunat la numărul de urgență 112 pentru a reclama că a fost amenințată de soțul său într-un magazin.</description>
     </item>
     <item>
@@ -172,6 +285,8 @@
       <link>https://izz.ro/local/un-minor-de-11-ani-din-harman-este-cautat-de-politisti-dupa-ce-a-plecat-de-acasa/</link>
       <guid>https://izz.ro/local/un-minor-de-11-ani-din-harman-este-cautat-de-politisti-dupa-ce-a-plecat-de-acasa/</guid>
       <pubDate>Tue, 06 Oct 2026 19:41:16 +0000</pubDate>
+      <category>local</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/un-baiat-de-11-ani-din-brasov-este-cautat-de-autorita-i-dupa-ce-ar-fi-plecat-de-acasa-politia-cere-ajutorul-populatiei.html">Știrile ProTV</source>
       <description>Autoritățile din județul Brașov efectuează căutări pentru găsirea unui băiat în vârstă de 11 ani, cerând sprijinul cetățenilor prin apel la numărul 112.</description>
     </item>
     <item>
@@ -179,6 +294,8 @@
       <link>https://izz.ro/local/accident-rutier-intre-un-autoturism-si-un-camion-in-judetul-brasov/</link>
       <guid>https://izz.ro/local/accident-rutier-intre-un-autoturism-si-un-camion-in-judetul-brasov/</guid>
       <pubDate>Tue, 06 Oct 2026 17:24:56 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/112/brasov-accident-intre-un-autoturism-si-un-camion-la-hanul-din-ardeal/">MyTex</source>
       <description>Traficul rutier a fost temporar restricționat în zona Hanul din Ardeal din Brașov, în urma unei coliziuni dintre un camion și un autoturism.</description>
     </item>
     <item>
@@ -186,6 +303,8 @@
       <link>https://izz.ro/local/trafic-rutier-blocat-pe-dn-13-din-cauza-unui-accident-la-feldioara/</link>
       <guid>https://izz.ro/local/trafic-rutier-blocat-pe-dn-13-din-cauza-unui-accident-la-feldioara/</guid>
       <pubDate>Tue, 06 Oct 2026 15:59:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/06/trafic-blocat-feldioara-brasov/">BizBrașov</source>
       <description>Circulația mașinilor dinspre Feldioara spre Brașov a fost oprită în urma unui eveniment rutier produs pe podul din zona Hanul din Ardeal.</description>
     </item>
     <item>
@@ -193,6 +312,8 @@
       <link>https://izz.ro/local/parlamentarul-ariana-bucur-solicita-suplimentarea-personalului-din-cresele/</link>
       <guid>https://izz.ro/local/parlamentarul-ariana-bucur-solicita-suplimentarea-personalului-din-cresele/</guid>
       <pubDate>Tue, 06 Oct 2026 15:16:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/politic/criza-din-cresele-brasovene-a-ajuns-in-parlament-deputatul-ariana-bucur-a-cerut-de-urgenta-personal-suficient-pentru-siguranta-copiilor/">MyTex</source>
       <description>Deputatul PSD de Brașov a tras un semnal de alarmă în Parlament cu privire la deficitul major de angajați din unitățile de educație timpurie, avertizând că reglementările învechite și lipsa de personal pun în pericol siguranța copiilor.</description>
     </item>
     <item>
@@ -200,6 +321,8 @@
       <link>https://izz.ro/local/o-casa-din-satul-holbav-a-ars-complet-lasand-o-familie-fara-adapost-si-provizii/</link>
       <guid>https://izz.ro/local/o-casa-din-satul-holbav-a-ars-complet-lasand-o-familie-fara-adapost-si-provizii/</guid>
       <pubDate>Tue, 06 Oct 2026 14:41:21 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/112/brasov-casa-unei-familii-cu-5-copii-din-holbav-a-ars-apel-pentru-ajutor/">MyTex</source>
       <description>Un incendiu violent a distrus o locuință și o șură din județul Brașov, lăsând o mamă și cei cinci copii ai săi fără acte, bani, haine sau rezerve de iarnă. Cunoscuții au lansat un apel public pentru donații.</description>
     </item>
     <item>
@@ -207,6 +330,8 @@
       <link>https://izz.ro/local/patru-autoturisme-implicate-intr-o-coliziune-pe-calea-fagarasului/</link>
       <guid>https://izz.ro/local/patru-autoturisme-implicate-intr-o-coliziune-pe-calea-fagarasului/</guid>
       <pubDate>Tue, 06 Oct 2026 13:55:35 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/calea-fagarasului-accident/">News Brașov</source>
       <description>Un accident rutier în lanț s-a produs pe o arteră din municipiul Brașov, după ce ultimul vehicul dintr-o coloană oprită a lovit mașinile din față, o persoană necesitând îngrijiri medicale.</description>
     </item>
     <item>
@@ -214,6 +339,8 @@
       <link>https://izz.ro/local/carambol-intre-patru-autovehicule-pe-calea-fagarasului-din-brasov/</link>
       <guid>https://izz.ro/local/carambol-intre-patru-autovehicule-pe-calea-fagarasului-din-brasov/</guid>
       <pubDate>Tue, 06 Oct 2026 13:34:03 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/06/accident-lant-calea-fagarasului-brasov/">BizBrașov, News Brașov</source>
       <description>Un accident rutier în lanț, în care au fost implicate patru autovehicule, s-a produs pe Calea Făgărașului din Brașov, după ce o mașină a frânat brusc și a fost lovită din spate. La fața locului au intervenit echipaje de poliție și de descarcerare. O persoană a fost rănită și a primit îngrijiri medicale, iar traficul în zonă a fost afectat temporar.</description>
     </item>
     <item>
@@ -221,6 +348,8 @@
       <link>https://izz.ro/local/un-spatiu-comercial-de-peste-500-mp-din-centrul-civic-brasov-a-fost-scos-la/</link>
       <guid>https://izz.ro/local/un-spatiu-comercial-de-peste-500-mp-din-centrul-civic-brasov-a-fost-scos-la/</guid>
       <pubDate>Tue, 06 Oct 2026 12:50:52 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/economic/cu-cat-se-vinde-un-spatiu-comercial-de-peste-500-mp-in-zona-centrului-civic-din-brasov-merita-pretul/">MyTex</source>
       <description>Un spațiu comercial pe două niveluri, în suprafață de peste 537 metri pătrați, amplasat pe strada Brândușelor din Brașov, a fost listat pe piața imobiliară. Proprietatea are destinație multiplă, pretabilă pentru birouri sau clinici, fără comision la cumpărare.</description>
     </item>
     <item>
@@ -228,6 +357,8 @@
       <link>https://izz.ro/local/primaria-brasov-modernizeaza-un-loc-de-joaca-in-cartierul-bartolomeu/</link>
       <guid>https://izz.ro/local/primaria-brasov-modernizeaza-un-loc-de-joaca-in-cartierul-bartolomeu/</guid>
       <pubDate>Tue, 06 Oct 2026 12:20:24 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/expres/modernizare-in-bartolomeu-brasov-castel-de-joaca-echipamente-pentru-copiii-cu-dizabilitati-si-zona-de-fitness-pentru-adulti-pe-strada-gospodarilor/">MyTex</source>
       <description>Un nou spațiu recreativ este amenajat pe strada Gospodarilor din Brașov, incluzând un castel de joacă, echipamente pentru copii cu dizabilități și o zonă de fitness destinată adulților din cartierul Bartolomeu.</description>
     </item>
     <item>
@@ -235,6 +366,8 @@
       <link>https://izz.ro/local/investitie-majora-in-energie-solara-pentru-institutiile-publice-din-brasov/</link>
       <guid>https://izz.ro/local/investitie-majora-in-energie-solara-pentru-institutiile-publice-din-brasov/</guid>
       <pubDate>Tue, 06 Oct 2026 12:14:57 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/investitie-de-17-milioane-de-lei-pentru-energie/">News Brașov</source>
       <description>Consiliul Județean Brașov alocă aproape 17 milioane de lei pentru instalarea de panouri fotovoltaice, sisteme de stocare și pompe de căldură destinate spitalelor, școlilor și aeroportului local.</description>
     </item>
     <item>
@@ -242,6 +375,8 @@
       <link>https://izz.ro/local/judetul-brasov-intarzie-implementarea-sistemului-de-management-integrat-al/</link>
       <guid>https://izz.ro/local/judetul-brasov-intarzie-implementarea-sistemului-de-management-integrat-al/</guid>
       <pubDate>Tue, 06 Oct 2026 09:10:47 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/smid-brasov-proiect/">News Brașov</source>
       <description>Proiectul SMID în valoare de peste 185 de milioane de euro din Brașov bate pasul pe loc, afectând tarifele de salubrizare ale populației, în condițiile în care aproape toată cantitatea de deșeuri ajunge la depozitare.</description>
     </item>
     <item>
@@ -249,6 +384,8 @@
       <link>https://izz.ro/local/cercetatorii-au-descoperit-picturi-medievale-unice-cu-expresii-umane-in/</link>
       <guid>https://izz.ro/local/cercetatorii-au-descoperit-picturi-medievale-unice-cu-expresii-umane-in/</guid>
       <pubDate>Tue, 06 Oct 2026 02:33:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/06/personaje-biserici-fortificat-brasov/">BizBrașov</source>
       <description>Lăcașurile de cult fortificate din Transilvania adăsgă fresce vechi ce înfățișează personaje cu trăsături comice sau critice, botezate simbolic de experți în funcție de fizionomia surprinsă pe altare.</description>
     </item>
     <item>
@@ -256,6 +393,8 @@
       <link>https://izz.ro/local/muzeul-de-etnografie-din-brasov-expune-piese-rare-ale-breaslei-olarilor/</link>
       <guid>https://izz.ro/local/muzeul-de-etnografie-din-brasov-expune-piese-rare-ale-breaslei-olarilor/</guid>
       <pubDate>Tue, 06 Oct 2026 01:42:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/06/brasov-breasla-olarilor-istoria-ceramica/">BizBrașov</source>
       <description>O expoziție temporară dedicată olăritului aduce în atenția publicului tradițiile de secole ale meșteșugarilor sași și piesele istorice realizate de vechea breaslă din Brașov, atestată documentar acum 473 de ani.</description>
     </item>
     <item>
@@ -263,6 +402,8 @@
       <link>https://izz.ro/local/o-pacienta-imobilizata-a-murit-carbonizata-in-patul-sau-la-un-spital-din-brasov/</link>
       <guid>https://izz.ro/local/o-pacienta-imobilizata-a-murit-carbonizata-in-patul-sau-la-un-spital-din-brasov/</guid>
       <pubDate>Mon, 05 Oct 2026 20:10:52 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.bzi.ro/cum-s-a-produs-tragedia-de-la-spitalul-din-brasov-pacienta-era-singura-si-nu-s-ar-fi-putut-ridica-din-pat-5617010">BZI Iași</source>
       <description>Ancheta autorităților din Brașov încearcă să stabilească circumstanțele în care o pacientă imobilizată a ars de vie în salon, după ce salteaua a luat foc, cel mai probabil de la o țigară aprinsă, în lipsa supravegherii medicale.</description>
     </item>
     <item>
@@ -270,6 +411,8 @@
       <link>https://izz.ro/local/detalii-noi-despre-pacienta-decedata-in-incendiul-de-la-spitalul-marzescu/</link>
       <guid>https://izz.ro/local/detalii-noi-despre-pacienta-decedata-in-incendiul-de-la-spitalul-marzescu/</guid>
       <pubDate>Mon, 05 Oct 2026 18:39:59 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/112/brasov-noi-informatii-despre-tragedia-de-la-spitalul-marzescu/">MyTex</source>
       <description>Tânăra de 27 de ani care și-a pierdut viața în urma incendiului izbucnit la etajul întâi al spitalului din Brașov era singură în salon și nu se putea deplasa din cauza stării de slăbiciune.</description>
     </item>
     <item>
@@ -277,6 +420,8 @@
       <link>https://izz.ro/local/autostrada-ploiesti-brasov-ramane-neconstruita-dupa-aproape-trei-decenii-de/</link>
       <guid>https://izz.ro/local/autostrada-ploiesti-brasov-ramane-neconstruita-dupa-aproape-trei-decenii-de/</guid>
       <pubDate>Mon, 05 Oct 2026 16:23:08 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/expres/autostrada-ploiesti-brasov-o-fantoma-de-peste-doua-decenii-va-mai-fi-realizat-vreodata-proiectul-de-pe-valea-prahovei/">MyTex</source>
       <description>Proiectul rutier de pe Valea Prahovei nu are niciun kilometru construit pe segmentul critic, deși primele demersuri au început acum aproape treizeci de ani, lăsând DN 1 la fel de aglomerat.</description>
     </item>
     <item>
@@ -284,6 +429,8 @@
       <link>https://izz.ro/local/brasovul-intarzie-promovarea-targului-de-craciun-2026/</link>
       <guid>https://izz.ro/local/brasovul-intarzie-promovarea-targului-de-craciun-2026/</guid>
       <pubDate>Mon, 05 Oct 2026 16:04:49 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/expres/batalia-targurilor-de-craciun-2026-in-timp-ce-craiova-si-sibiul-isi-tureaza-deja-motoarele-promovarii-brasovul-pastreaza-tacerea/">MyTex</source>
       <description>În timp ce orașe precum Craiova și Sibiu au demarat campanii ample de atragere a turiștilor pentru sărbătorile de iarnă din perioada noiembrie 2026 - ianuarie 2027, Brașovul menține tăcerea asupra strategiei sale.</description>
     </item>
     <item>
@@ -291,20 +438,17 @@
       <link>https://izz.ro/general/apel-umanitar-lansat-de-un-politist-pentru-un-baietel-bolnav-si-mama-sa/</link>
       <guid>https://izz.ro/general/apel-umanitar-lansat-de-un-politist-pentru-un-baietel-bolnav-si-mama-sa/</guid>
       <pubDate>Mon, 05 Oct 2026 15:05:47 +0000</pubDate>
+      <category>general</category>
+      <source url="https://mytex.ro/expres/dani-cek-apel-pentru-o-mama-si-un-baietel-loviti-deja-de-prea-multe-tragedii/">MyTex</source>
       <description>Polițistul brașovean Dani Cek cere sprijin financiar pentru micuțul Luca, în vârstă de patru ani și jumătate, și pentru mama acestuia, Gina, aflați într-o situație familială extrem de dificilă.</description>
-    </item>
-    <item>
-      <title>Bursă a locurilor de muncă organizată la Brașov cu peste 350 de oferte</title>
-      <link>https://izz.ro/local/bursa-a-locurilor-de-munca-organizata-la-brasov-cu-peste-350-de-oferte/</link>
-      <guid>https://izz.ro/local/bursa-a-locurilor-de-munca-organizata-la-brasov-cu-peste-350-de-oferte/</guid>
-      <pubDate>Mon, 05 Oct 2026 13:33:26 +0000</pubDate>
-      <description>Agenția Județeană pentru Ocuparea Forței de Muncă Brașov organizează vineri un eveniment dedicat persoanelor aflate în căutarea unui job. Sunt puse la dispoziție peste 350 de posturi vacante în diferite domenii de activitate.</description>
     </item>
     <item>
       <title>Campanie de colectare a deșeurilor electrice și electronice în Brașov</title>
       <link>https://izz.ro/local/campanie-de-colectare-a-deseurilor-electrice-si-electronice-in-brasov/</link>
       <guid>https://izz.ro/local/campanie-de-colectare-a-deseurilor-electrice-si-electronice-in-brasov/</guid>
       <pubDate>Mon, 05 Oct 2026 12:38:03 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bizbrasov.ro/2026/10/05/reciclare-deseuri-electrice-brasov-3/">BizBrașov, MyTex</source>
       <description>În weekendul 10-11 octombrie 2026, Asociația ECOTIC, în parteneriat cu Primăria Brașov și alți colaboratori, organizează campania „Brașov Reciclează”. Locuitorii pot preda gratuit echipamentele vechi sau defecte la 11 puncte provizorii amplasate în diverse cartiere, între orele 10:00 și 17:00. De asemenea, pentru obiecte voluminoase, cum ar fi mașini de spălat sau frigidere, este disponibil un serviciu gratuit de preluare direct de la domiciliu, pe baza unei programări telefonice sau prin e-mail.</description>
     </item>
     <item>
@@ -312,6 +456,8 @@
       <link>https://izz.ro/local/incepe-furnizarea-energiei-termice-pentru-incalzire-in-municipiul-brasov/</link>
       <guid>https://izz.ro/local/incepe-furnizarea-energiei-termice-pentru-incalzire-in-municipiul-brasov/</guid>
       <pubDate>Mon, 05 Oct 2026 12:05:35 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/incepe-furnizarea-energiei-termice/">News Brașov, MyTex</source>
       <description>Serviciul Public Local de Termoficare Brașov anunță pornirea furnizării agentului termic pentru încălzire începând cu data de 7 octombrie 2026, pe fondul scăderii temperaturilor exterioare. Operațiunea este precedată de reverificări ale etanșeității rețelei efectuate pe 6 octombrie. Distribuția se realizează eșalonat, pe zone și puncte termice. Autoritățile recomandă asociațiilor de proprietari și locatarilor să finalizeze verificarea instalațiilor interioare și aerisirea caloriferelor pentru a preveni posibile incidente sau inundații.</description>
     </item>
     <item>
@@ -319,6 +465,8 @@
       <link>https://izz.ro/sport/trofeul-poiana-brasov-programeaza-o-finala-cu-traseu-nou-in-octombrie/</link>
       <guid>https://izz.ro/sport/trofeul-poiana-brasov-programeaza-o-finala-cu-traseu-nou-in-octombrie/</guid>
       <pubDate>Mon, 05 Oct 2026 10:47:01 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://newsbv.ro/trofeul-poiana-brasov-incheie-sezonul-viteza-in-coasta/">News Brașov</source>
       <description>Ultima etapă din Campionatul Național de Viteză în Coastă 2026 se va desfășura la Brașov între 23 și 25 octombrie, aducând o configurație inedită a traseului.</description>
     </item>
     <item>
@@ -326,34 +474,8 @@
       <link>https://izz.ro/local/trafic-blocat-si-coloane-de-masini-pe-valea-prahovei-din-cauza-lucrarilor-si-a/</link>
       <guid>https://izz.ro/local/trafic-blocat-si-coloane-de-masini-pe-valea-prahovei-din-cauza-lucrarilor-si-a/</guid>
       <pubDate>Mon, 05 Oct 2026 10:35:02 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/circulatie-de-cosmar-pe-valea-prahovei-spre-brasov/">News Brașov</source>
       <description>Șoferii care au circulat pe DN1 spre Brașov s-au confruntat cu ambuteiaje severe în zona Posada și pe noua centură a Comarnicului, din cauza unor lucrări și a fluxului ridicat de autovehicule.</description>
-    </item>
-    <item>
-      <title>Sute de brașoveni au încercat să fugă în Ungaria după revolta din 1987</title>
-      <link>https://izz.ro/general/sute-de-brasoveni-au-incercat-sa-fuga-in-ungaria-dupa-revolta-din-1987/</link>
-      <guid>https://izz.ro/general/sute-de-brasoveni-au-incercat-sa-fuga-in-ungaria-dupa-revolta-din-1987/</guid>
-      <pubDate>Mon, 05 Oct 2026 07:07:29 +0000</pubDate>
-      <description>Documente publicate de CNSAS arată că 215 cetățeni au încercat să treacă ilegal granița pentru a scăpa de regimul comunist până la căderea acestuia în 1989.</description>
-    </item>
-    <item>
-      <title>O țigară aprinsă ar fi provocat incendiul mortal de la Spitalul Mârzescu</title>
-      <link>https://izz.ro/local/o-tigara-aprinsa-ar-fi-provocat-incendiul-mortal-de-la-spitalul-marzescu/</link>
-      <guid>https://izz.ro/local/o-tigara-aprinsa-ar-fi-provocat-incendiul-mortal-de-la-spitalul-marzescu/</guid>
-      <pubDate>Mon, 05 Oct 2026 06:52:29 +0000</pubDate>
-      <description>O pacientă a decedat după ce salteaua din salon i-a luat foc la unitatea medicală din Brașov. Specialiștii avertizează asupra riscurilor fumatului în spitale și cer tratarea dependențelor încă de la internare.</description>
-    </item>
-    <item>
-      <title>Restricții de circulație timp de o lună pe DN11 între Brașov și Bacău</title>
-      <link>https://izz.ro/local/restrictii-de-circulatie-timp-de-o-luna-pe-dn11-intre-brasov-si-bacau/</link>
-      <guid>https://izz.ro/local/restrictii-de-circulatie-timp-de-o-luna-pe-dn11-intre-brasov-si-bacau/</guid>
-      <pubDate>Mon, 05 Oct 2026 06:47:08 +0000</pubDate>
-      <description>Șoferii care tranzitează ruta dintre județul Brașov și zona Moldovei se confruntă cu restricții de trafic pe DN11, instituite din cauza unor lucrări de infrastructură de amploare desfășurate de DRDP în județul Covasna.</description>
-    </item>
-    <item>
-      <title>Cererea pentru servicii de wellness a crescut semnificativ în România</title>
-      <link>https://izz.ro/judetean/cererea-pentru-servicii-de-wellness-a-crescut-semnificativ-in-romania/</link>
-      <guid>https://izz.ro/judetean/cererea-pentru-servicii-de-wellness-a-crescut-semnificativ-in-romania/</guid>
-      <pubDate>Mon, 05 Oct 2026 06:19:48 +0000</pubDate>
-      <description>Interesul pentru sănătate și relaxare a urcat cu 64% anul acesta, județul Brașov plasându-se pe locul al patrulea la nivel național în preferințele clienților.</description>
     </item>
 </channel></rss>
