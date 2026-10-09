@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 16:32:36 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 21:57:56 +0000</lastBuildDate>
+    <item>
+      <title>Studiu: Agenții AI feminini sunt remunerați mai puțin</title>
+      <link>https://izz.ro/ai/studiu-agentii-ai-feminini-sunt-remunerati-mai-putin/</link>
+      <guid>https://izz.ro/ai/studiu-agentii-ai-feminini-sunt-remunerati-mai-putin/</guid>
+      <pubDate>Fri, 09 Oct 2026 20:45:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/high-tech/discriminarea-a-ajuns-si-la-inteligenta-artificiala-agentii-ai-femei-sunt-platiti-cu-10-mai-putin-decat-cei-barbati-805919.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/ai/studiu-agentii-ai-feminini-sunt-remunerati-mai-putin/cover.jpg?v=15d808c9" medium="image" type="image/jpeg"/>
+      <description>O cercetare recentă arată că utilizatorii au o încredere mai scăzută în asistenții virtuali cu trăsături feminine, plătindu-i cu zece la sută mai puțin decât pe cei masculini.</description>
+    </item>
+    <item>
+      <title>Compania National Compute donează Casei Albe resurse AI de 100 de milioane de dolari</title>
+      <link>https://izz.ro/ai/compania-national-compute-doneaza-casei-albe-resurse-ai-de-100-de-milioane-de/</link>
+      <guid>https://izz.ro/ai/compania-national-compute-doneaza-casei-albe-resurse-ai-de-100-de-milioane-de/</guid>
+      <pubDate>Fri, 09 Oct 2026 20:41:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/high-tech/o-companie-noua-doneaza-casei-albe-100-de-milioane-de-dolari-in-putere-de-calcul-pentru-a-accelera-descoperirile-stiintifice-cu-ai-806221.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/ai/compania-national-compute-doneaza-casei-albe-resurse-ai-de-100-de-milioane-de/cover.jpg?v=1528866e" medium="image" type="image/jpeg"/>
+      <description>Noua entitate tehnologică oferă putere de calcul guvernamentalului american pentru a sprijini cercetarea științifică avansată bazată pe inteligență artificială.</description>
+    </item>
     <item>
       <title>Google Cloud lansează Agentul Gemini pentru sarcini complexe de AI</title>
       <link>https://izz.ro/ai/google-cloud-lanseaza-agentul-gemini-pentru-sarcini-complexe-de-ai/</link>
@@ -43,7 +63,6 @@
       <pubDate>Thu, 08 Oct 2026 11:02:14 +0000</pubDate>
       <category>ai</category>
       <source url="https://zonait.ro/windows-search-agent/">ZonaIT</source>
-      <media:content url="https://izz.ro/ai/microsoft-testeaza-integrarea-unui-asistent-ai-in-functia-windows-search/cover.jpg?v=27129877" medium="image" type="image/jpeg"/>
       <description>După eliminarea rezultatelor web pline de reclame, compania Microsoft dezvoltă un sistem bazat pe inteligență artificială conversațională pentru a îmbunătăți experiența de căutare în sistemul operativ Windows.</description>
     </item>
     <item>
@@ -53,7 +72,6 @@
       <pubDate>Thu, 08 Oct 2026 09:00:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.zf.ro/zf-live/zf-live-radu-constantinescu-cofondator-veridica-technologies-platforma-le-spune-firmelor-promotie-crestere-pret-le-aduce-profit-le-distruge-platforma-similara-departament-data-science-intr-companie-23255291">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/ai/lansarea-unei-platforme-software-pentru-optimizarea-profitului-promotiilor/cover.jpg?v=fb51eb42" medium="image" type="image/jpeg"/>
       <description>Compania Veridica AI Technologies propune o soluție digitală dedicată firmelor pentru a evalua impactul financiar al reducerilor de preț. Sistemul funcționează similar unui departament avansat de analiză a datelor pentru mediul de afaceri.</description>
     </item>
     <item>
@@ -442,23 +460,5 @@
       <category>ai</category>
       <source url="https://www.profit.ro/romania-conectata/chatgpt-va-avea-o-cabina-virtuala-de-probare-a-hainelor-22797849?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Dezvoltatorul inteligenței artificiale introduce o unealtă nouă care le permite utilizatorilor să vizualizeze cum le vin diferite articole vestimentare înainte de achiziție.</description>
-    </item>
-    <item>
-      <title>Evoluția sistemelor de operare pentru agenții AI înaintea conferinței KubeCon</title>
-      <link>https://izz.ro/ai/evolutia-sistemelor-de-operare-pentru-agentii-ai-inaintea-conferintei-kubecon/</link>
-      <guid>https://izz.ro/ai/evolutia-sistemelor-de-operare-pentru-agentii-ai-inaintea-conferintei-kubecon/</guid>
-      <pubDate>Fri, 02 Oct 2026 16:31:26 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/kubecon-agent-harness-koordinator/">The New Stack</source>
-      <description>Organizatorii evenimentului din Salt Lake City analizează progresele tehnologice recente privind instrumentele cloud-native, containerele Kubernetes și utilizarea plăcilor video.</description>
-    </item>
-    <item>
-      <title>Abilitățile esențiale pentru pregătirea copiilor într-o piață a muncii dominată de inteligența artificială</title>
-      <link>https://izz.ro/ai/abilitatile-esentiale-pentru-pregatirea-copiilor-intr-o-piata-a-muncii-dominata/</link>
-      <guid>https://izz.ro/ai/abilitatile-esentiale-pentru-pregatirea-copiilor-intr-o-piata-a-muncii-dominata/</guid>
-      <pubDate>Fri, 02 Oct 2026 16:16:12 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.avantaje.ro/articol/cum-pregatim-copiii-pentru-viitor-abilitatile-care-vor-conta-intr-o-lume-schimbata-de-ai">Avantaje</source>
-      <description>Evoluția inteligenței artificiale schimbă radical cerințele educaționale, transformând memorarea clasică în favoarea competențelor adaptabile pentru viitoarele meserii digitalizate.</description>
     </item>
 </channel></rss>

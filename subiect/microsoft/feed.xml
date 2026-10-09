@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 21:57:50 +0000</lastBuildDate>
     <item>
       <title>Aplicația XBOX pentru PC va primi o interfață nouă</title>
       <link>https://izz.ro/tech/aplicatia-xbox-pentru-pc-va-primi-o-interfata-noua/</link>
@@ -53,7 +53,6 @@
       <pubDate>Thu, 08 Oct 2026 11:02:14 +0000</pubDate>
       <category>ai</category>
       <source url="https://zonait.ro/windows-search-agent/">ZonaIT</source>
-      <media:content url="https://izz.ro/ai/microsoft-testeaza-integrarea-unui-asistent-ai-in-functia-windows-search/cover.jpg?v=27129877" medium="image" type="image/jpeg"/>
       <description>După eliminarea rezultatelor web pline de reclame, compania Microsoft dezvoltă un sistem bazat pe inteligență artificială conversațională pentru a îmbunătăți experiența de căutare în sistemul operativ Windows.</description>
     </item>
     <item>
@@ -262,23 +261,5 @@
       <category>tech</category>
       <source url="https://www.xda-developers.com/lightweight-linux-to-revive-a-windows-pc-that-is-not-ubuntu/">XDA Developers</source>
       <description>Cerințele stricte impuse de sistemul Windows 11 lasă în urmă numeroase echipamente hardware vechi lipsite de cipuri TPM. Utilizarea unei distribuții Linux ușoare reprezintă o soluție eficientă pentru a repune în funcțiune aceste dispozitive.</description>
-    </item>
-    <item>
-      <title>Bill Gates susține că butonul de oprire de urgență nu este suficient pentru controlul inteligenței artificiale</title>
-      <link>https://izz.ro/ai/bill-gates-sustine-ca-butonul-de-oprire-de-urgenta-nu-este-suficient-pentru/</link>
-      <guid>https://izz.ro/ai/bill-gates-sustine-ca-butonul-de-oprire-de-urgenta-nu-este-suficient-pentru/</guid>
-      <pubDate>Sun, 27 Sep 2026 18:02:33 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.politico.com/news/2026/09/27/bill-gates-ai-kill-switch-01094236?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Fondatorul Microsoft a declarat că simpla existență a unui mecanism de oprire pentru sistemele de inteligență artificială nu garantează prevenirea atacurilor cibernetice sau a riscurilor majore asociate acestei tehnologii.</description>
-    </item>
-    <item>
-      <title>Microsoft a concediat jumătate din studioul Age of Empires și a anulat jocul</title>
-      <link>https://izz.ro/tech/microsoft-a-concediat-jumatate-din-studioul-age-of-empires-si-a-anulat-jocul/</link>
-      <guid>https://izz.ro/tech/microsoft-a-concediat-jumatate-din-studioul-age-of-empires-si-a-anulat-jocul/</guid>
-      <pubDate>Sun, 27 Sep 2026 17:03:51 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/microsofts-latest-xbox-layoffs-have-reportedly-gutted-the-age-of-empires-studio-cancelling-its-next-game/">XDA Developers</source>
-      <description>În urma unor restructurări masive la Microsoft, studioul responsabil pentru seria Age of Empires a fost redus la jumătate, iar cel mai nou proiect de joc aflat în dezvoltare a fost anulat.</description>
     </item>
 </channel></rss>

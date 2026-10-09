@@ -1,30 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
-  <title>SuperLiga — IZZ.ro</title>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
+  <title>Superliga — IZZ.ro</title>
   <link>https://izz.ro/subiect/superliga/</link>
   <atom:link href="https://izz.ro/subiect/superliga/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre SuperLiga pe IZZ.ro</description>
+  <description>Știri despre Superliga pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 02:11:03 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 21:57:50 +0000</lastBuildDate>
+    <item>
+      <title>Dinamo București a învins Sepsi și s-a instalat lider în Superliga</title>
+      <link>https://izz.ro/sport/dinamo-bucuresti-a-invins-sepsi-si-s-a-instalat-lider-in-superliga/</link>
+      <guid>https://izz.ro/sport/dinamo-bucuresti-a-invins-sepsi-si-s-a-instalat-lider-in-superliga/</guid>
+      <pubDate>Fri, 09 Oct 2026 21:42:06 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://adevarul.ro/sport/dinamo-a-castigat-la-sf-gheorghe-si-si-a-2563057.html">Adevărul</source>
+      <media:content url="https://izz.ro/sport/dinamo-bucuresti-a-invins-sepsi-si-s-a-instalat-lider-in-superliga/cover.jpg?v=5a0329ad" medium="image" type="image/jpeg"/>
+      <description>Gruparea din Ștefan cel Mare s-a impus cu scorul de 2-0 în deplasarea de la Sfântu Gheorghe, consolidându-și prima poziție în clasamentul primei ligi de fotbal după runda a unsprezecea.</description>
+    </item>
+    <item>
+      <title>Dinamo București s-a impus în deplasare cu Sepsi</title>
+      <link>https://izz.ro/sport/dinamo-bucuresti-s-a-impus-in-deplasare-cu-sepsi/</link>
+      <guid>https://izz.ro/sport/dinamo-bucuresti-s-a-impus-in-deplasare-cu-sepsi/</guid>
+      <pubDate>Fri, 09 Oct 2026 20:47:27 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/opinii/opinie-dinamo-know-how-titlu-986350.html">GSP</source>
+      <media:content url="https://izz.ro/sport/dinamo-bucuresti-s-a-impus-in-deplasare-cu-sepsi/cover.jpg?v=2d66c765" medium="image" type="image/jpeg"/>
+      <description>Gruparea alb-roșie a obținut o victorie categorică, scor 2-0, pe terenul celor de la Sepsi Sfântu Gheorghe, consolidându-și astfel prima poziție în clasamentul Superligii.</description>
+    </item>
+    <item>
+      <title>O companie negociază preluarea clubului Steaua București</title>
+      <link>https://izz.ro/sport/o-companie-negociaza-preluarea-clubului-steaua-bucuresti/</link>
+      <guid>https://izz.ro/sport/o-companie-negociaza-preluarea-clubului-steaua-bucuresti/</guid>
+      <pubDate>Fri, 09 Oct 2026 20:41:43 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/liga-2/o-companie-negociaza-preluarea-stelei-militarii-ar-putea-promova-in-superliga.html">Sport.ro</source>
+      <media:content url="https://izz.ro/sport/o-companie-negociaza-preluarea-clubului-steaua-bucuresti/cover.jpg?v=430bc290" medium="image" type="image/jpeg"/>
+      <description>Gruparea din Liga 2 ar putea obține în curând mult doritul drept de promovare în Superliga, în urma unor discuții avansate pentru achiziționarea clubului de către un investitor.</description>
+    </item>
+    <item>
+      <title>Sepsi întâlnește Dinamo în etapa a unsprezecea din Superliga României</title>
+      <link>https://izz.ro/sport/sepsi-intalneste-dinamo-in-etapa-a-unsprezecea-din-superliga-romaniei/</link>
+      <guid>https://izz.ro/sport/sepsi-intalneste-dinamo-in-etapa-a-unsprezecea-din-superliga-romaniei/</guid>
+      <pubDate>Fri, 09 Oct 2026 15:45:35 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/superliga/sepsi-dinamo-live-cronica-20543221">ProSport</source>
+      <media:content url="https://izz.ro/sport/sepsi-intalneste-dinamo-in-etapa-a-unsprezecea-din-superliga-romaniei/cover.jpg?v=f7a9c60c" medium="image" type="image/jpeg"/>
+      <description>În runda a unsprezecea din Superliga, prima după pauza meciurilor internaționale, formația Dinamo își apără prima poziție în clasament în partida programată vineri seară.</description>
+    </item>
+    <item>
+      <title>CFR Cluj traversează un moment critic după înfrângerea cu U Cluj</title>
+      <link>https://izz.ro/sport/cfr-cluj-traverseaza-un-moment-critic-dupa-infrangerea-cu-u-cluj/</link>
+      <guid>https://izz.ro/sport/cfr-cluj-traverseaza-un-moment-critic-dupa-infrangerea-cu-u-cluj/</guid>
+      <pubDate>Fri, 09 Oct 2026 15:43:20 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/liga-1/scenariu-negru-pentru-cfr-cluj-dupa-1-3-cu-u-cel-mai-delicat-moment-al-existentei-sale-se-desfiinteaza.html">Sport.ro</source>
+      <media:content url="https://izz.ro/sport/cfr-cluj-traverseaza-un-moment-critic-dupa-infrangerea-cu-u-cluj/cover.jpg?v=b6e424b2" medium="image" type="image/jpeg"/>
+      <description>Echipa CFR Cluj se confruntă cu o criză majoră după ce a pierdut meciul restant din SuperLiga împotriva rivalei U Cluj cu scorul de 1-3.</description>
+    </item>
     <item>
       <title>O legendă din SuperLiga numește favorita certă la titlu în campionat</title>
       <link>https://izz.ro/sport/o-legenda-din-superliga-numeste-favorita-certa-la-titlu-in-campionat/</link>
       <guid>https://izz.ro/sport/o-legenda-din-superliga-numeste-favorita-certa-la-titlu-in-campionat/</guid>
       <pubDate>Wed, 07 Oct 2026 14:29:43 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/liga-1/legenda-superligii-a-numit-favorita-la-trofeu-nu-are-cum-sa-piarda.html">Sport.ro</source>
       <description>Lupta pentru trofeul din SuperLiga rămâne deschisă după primele zece etape disputate, însă un fost fotbalist important a desemnat deja echipa cu cele mai mari șanse la câștigarea campionatului.</description>
-    </item>
-    <item>
-      <title>Ricardo Sousa vorbește despre parcursul echipei Petrolul Ploiești</title>
-      <link>https://izz.ro/sport/ricardo-sousa-vorbeste-despre-parcursul-echipei-petrolul-ploiesti/</link>
-      <guid>https://izz.ro/sport/ricardo-sousa-vorbeste-despre-parcursul-echipei-petrolul-ploiesti/</guid>
-      <pubDate>Wed, 07 Oct 2026 08:24:54 +0000</pubDate>
-      <description>Tehnicianul Ricardo Sousa a condus formația Petrolul Ploiești pe locul 4 în Superligă, în ciuda problemelor financiare și a insolvenței declarate în vară, reușind să construiască o echipă competitivă.</description>
     </item>
     <item>
       <title>Un fost jucător de bază de la FCSB traversează o perioadă slabă de formă</title>
       <link>https://izz.ro/sport/un-fost-jucator-de-baza-de-la-fcsb-traverseaza-o-perioada-slaba-de-forma/</link>
       <guid>https://izz.ro/sport/un-fost-jucator-de-baza-de-la-fcsb-traverseaza-o-perioada-slaba-de-forma/</guid>
       <pubDate>Tue, 06 Oct 2026 20:57:54 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/stranieri/diamantul-lui-gigi-becali-fantoma-la-echipa-nationala-si-in-strainatate-era-unul-dintre-cei-mai-buni-din-superliga.html">Sport.ro</source>
       <description>Un fotbalist considerat anterior printre cei mai valoroși din Superligă nu reușește să se impună în acest start de sezon, evoluțiile sale fiind sub așteptări la echipa națională și în competițiile externe.</description>
     </item>
     <item>
@@ -32,6 +79,8 @@
       <link>https://izz.ro/sport/situatie-financiara-stabila-si-profitabila-pentru-clubul-u-cluj/</link>
       <guid>https://izz.ro/sport/situatie-financiara-stabila-si-profitabila-pentru-clubul-u-cluj/</guid>
       <pubDate>Mon, 05 Oct 2026 16:01:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://zcj.ro/sport/intr-o-superliga-macintata-de-probleme-financiare-u-cluj-e-pe-un-drum-diferit-clubul-are-depozite-si-investitii-bancare--302449.html">Ziua de Cluj</source>
       <description>Vicecampioana României se diferențiază de rivalii din Superligă printr-un management economic prudent, deținând depozite și investiții bancare în ciuda problemelor financiare generale din fotbalul românesc.</description>
     </item>
     <item>
@@ -39,6 +88,8 @@
       <link>https://izz.ro/sport/dan-petrescu-a-analizat-echipele-din-superliga-si-a-dat-favorita-la-titlu/</link>
       <guid>https://izz.ro/sport/dan-petrescu-a-analizat-echipele-din-superliga-si-a-dat-favorita-la-titlu/</guid>
       <pubDate>Sat, 03 Oct 2026 12:36:58 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/liga-1/dan-petrescu-a-urmarit-un-club-din-superliga-si-a-dat-verdictul-se-va-bate-la-titlu.html">Sport.ro</source>
       <description>Antrenorul liber de contract Dan Petrescu a urmărit meciurile din Superliga și a exprimat public o opinie fermă privind formația care va cuceri campionatul în acest sezon.</description>
     </item>
     <item>
@@ -46,6 +97,8 @@
       <link>https://izz.ro/sport/fcsb-mizeaza-pe-un-transfer-important-in-perioada-de-iarna/</link>
       <guid>https://izz.ro/sport/fcsb-mizeaza-pe-un-transfer-important-in-perioada-de-iarna/</guid>
       <pubDate>Thu, 01 Oct 2026 19:50:18 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/liga-1/fcsb-transferul-iernii-in-superliga-cireasa-de-pe-tort-sunt-sigur-ca-si-el-isi-doreste.html">Sport.ro</source>
       <description>Numirea lui Laurențiu Reghecampf pe banca tehnică a adus un val de optimism în lotul vicecampioanei României. Clubul pregătit de patronul Gigi Becali țintește noi achiziții pentru a domina competiția internă.</description>
     </item>
     <item>
@@ -53,6 +106,8 @@
       <link>https://izz.ro/sport/costin-lazar-lauda-un-antrenor-din-superliga-pentru-munca-sa/</link>
       <guid>https://izz.ro/sport/costin-lazar-lauda-un-antrenor-din-superliga-pentru-munca-sa/</guid>
       <pubDate>Wed, 30 Sep 2026 18:20:12 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/liga-1/costin-lazar-dat-pe-spate-de-un-antrenor-din-superliga-face-lucruri-extraordinare.html">Sport.ro</source>
       <description>După primele zece etape din sezonul regulat al Superligii României, tehnicianul Costin Lazăr a remarcat activitatea remarcabilă a unui antrenor din campionatul intern, apreciind parcursul echipei sale.</description>
     </item>
     <item>
@@ -60,6 +115,8 @@
       <link>https://izz.ro/sport/nuno-campos-lauda-nivelul-competitional-din-superliga-romaniei/</link>
       <guid>https://izz.ro/sport/nuno-campos-lauda-nivelul-competitional-din-superliga-romaniei/</guid>
       <pubDate>Wed, 30 Sep 2026 18:12:32 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/liga-1/nuno-campos-dat-pe-spate-dupa-venirea-in-superliga-mult-mai-bun-decat-in-ungaria.html">Sport.ro</source>
       <description>Antrenorul Nuno Campos a analizat diferențele fotbalistice dintre România și Ungaria, concluzionând că întrecerea internă din SuperLigă oferă un nivel sportiv net superior.</description>
     </item>
     <item>
@@ -67,27 +124,8 @@
       <link>https://izz.ro/sport/antrenorul-din-superliga-acuza-o-criza-severa-din-cauza-accidentarilor-multiple/</link>
       <guid>https://izz.ro/sport/antrenorul-din-superliga-acuza-o-criza-severa-din-cauza-accidentarilor-multiple/</guid>
       <pubDate>Wed, 30 Sep 2026 06:44:05 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-intern/fisura-la-coasta-genunchi-operat-sapte-copci-la-cap-antrenorul-din-superliga-dezvaluie-blestemul-celor-noua-accidentati-simultan-20535073">ProSport</source>
       <description>O echipă din Superliga se confruntă cu o situație fără precedent, având nouă jucători accidentați simultan, printre care sportivi cu fracturi și operații recente, ceea ce blochează alcătuirea primului unsprezece.</description>
-    </item>
-    <item>
-      <title>Daniel Pancu numește principala favorită la câștigarea trofeului în SuperLiga</title>
-      <link>https://izz.ro/sport/daniel-pancu-numeste-principala-favorita-la-castigarea-trofeului-in-superliga/</link>
-      <guid>https://izz.ro/sport/daniel-pancu-numeste-principala-favorita-la-castigarea-trofeului-in-superliga/</guid>
-      <pubDate>Sun, 27 Sep 2026 17:32:43 +0000</pubDate>
-      <description>Fostul internațional Daniel Pancu a analizat lupta la vârf din campionatul intern și a desemnat echipa care are prima șansă la titlul de campioană.</description>
-    </item>
-    <item>
-      <title>Atacantul Mendy Mamadou a semnat un contract în Superliga României</title>
-      <link>https://izz.ro/sport/atacantul-mendy-mamadou-a-semnat-un-contract-in-superliga-romaniei/</link>
-      <guid>https://izz.ro/sport/atacantul-mendy-mamadou-a-semnat-un-contract-in-superliga-romaniei/</guid>
-      <pubDate>Sat, 26 Sep 2026 16:00:17 +0000</pubDate>
-      <description>Fotbalistul senegalez Mendy Mamadou și-a dat acordul pentru a evolua în prima ligă din România, semnând o înțelegere cu o grupare din Superliga.</description>
-    </item>
-    <item>
-      <title>Doi jucători din fotbalul românesc au fost vânduți pentru câte 3 milioane de euro</title>
-      <link>https://izz.ro/sport/doi-jucatori-din-fotbalul-romanesc-au-fost-vanduti-pentru-cate-3-milioane-de/</link>
-      <guid>https://izz.ro/sport/doi-jucatori-din-fotbalul-romanesc-au-fost-vanduti-pentru-cate-3-milioane-de/</guid>
-      <pubDate>Sat, 26 Sep 2026 12:28:23 +0000</pubDate>
-      <description>Piața transferurilor din primul eșalon fotbalistic al României înregistrează mutări importante, doi fotbalști fiind achiziționați în schimbul sumei de trei milioane de euro fiecare.</description>
     </item>
 </channel></rss>
