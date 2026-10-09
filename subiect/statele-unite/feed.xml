@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/statele-unite/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Statele Unite pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
+    <item>
+      <title>Președintele iranian condiționează reluarea dialogului cu SUA</title>
+      <link>https://izz.ro/extern/presedintele-iranian-conditioneaza-reluarea-dialogului-cu-sua/</link>
+      <guid>https://izz.ro/extern/presedintele-iranian-conditioneaza-reluarea-dialogului-cu-sua/</guid>
+      <pubDate>Fri, 09 Oct 2026 15:03:14 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/presedintele-iranian-afirma-ca-reluarea-dialogului-cu-statele-unite-va-avea-loc-doar-in-absenta-presiunilor-si-amenintarilor.html">G4Media</source>
+      <media:content url="https://izz.ro/extern/presedintele-iranian-conditioneaza-reluarea-dialogului-cu-sua/cover.jpg?v=6fce086a" medium="image" type="image/jpeg"/>
+      <description>Liderul de la Teheran a declarat în cadrul unui summit regional că discuțiile cu Washingtonul pot reîncepe doar dacă sunt înlăturate amenințările și presiunile politice. Negocierile pentru soluționarea conflictului din Orientul Mijlociu rămân în continuare blocate.</description>
+    </item>
+    <item>
+      <title>ONU critică decizia SUA de a transmite public o execuție</title>
+      <link>https://izz.ro/extern/onu-critica-decizia-sua-de-a-transmite-public-o-executie/</link>
+      <guid>https://izz.ro/extern/onu-critica-decizia-sua-de-a-transmite-public-o-executie/</guid>
+      <pubDate>Fri, 09 Oct 2026 15:01:22 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/reactia-onu-dupa-anuntul-sua-ca-vor-transmite-in-direct-executia-unui-om-este-tortura-3985867">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/onu-critica-decizia-sua-de-a-transmite-public-o-executie/cover.jpg?v=bfccf68a" medium="image" type="image/jpeg"/>
+      <description>Înaltul Comisariat ONU pentru Drepturile Omului a condamnat intenția Statelor Unite de a difuza în direct uciderea unui atacator dintr-o bază militară, calificând gestul drept o formă gravă de tortură.</description>
+    </item>
     <item>
       <title>Ministerul Afacerilor Externe a găzduit o masă rotundă cu oficiali americani pe teme economice și de securitate</title>
       <link>https://izz.ro/politic/ministerul-afacerilor-externe-a-gazduit-o-masa-rotunda-cu-oficiali-americani-pe/</link>
@@ -443,23 +463,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/uk-business-minister-jonathan-reynolds-us-diesel-export-ban-significant-concern/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Secretarul de stat pentru afaceri, Jonathan Reynolds, a subliniat că eventualul blocaj al livrărilor de carburant din Statele Unite reprezintă un motiv serios de îngrijorare pentru stabilitatea pieței britanice.</description>
-    </item>
-    <item>
-      <title>Un oraș din SUA este locuit și administrat de o singură persoană</title>
-      <link>https://izz.ro/extern/un-oras-din-sua-este-locuit-si-administrat-de-o-singura-persoana/</link>
-      <guid>https://izz.ro/extern/un-oras-din-sua-este-locuit-si-administrat-de-o-singura-persoana/</guid>
-      <pubDate>Sun, 27 Sep 2026 17:48:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://observatornews.ro/extern/orasul-in-care-traieste-o-singura-persoana-femeia-de-92-de-ani-este-primar-barman-si-bucatar-667406.html">Observator</source>
-      <description>O femeie în vârstă de 92 de ani reprezintă singurul locuitor dintr-o așezare izolată din Statele Unite. Aceasta ocupă simultan funcțiile de primar, barman și bucătar, gestionând singură toate aspectele administrative ale localității.</description>
-    </item>
-    <item>
-      <title>Siegfried Mureșan cere clarificări privind întâlnirile politice cu un diplomat american</title>
-      <link>https://izz.ro/politic/siegfried-muresan-cere-clarificari-privind-intalnirile-politice-cu-un-diplomat/</link>
-      <guid>https://izz.ro/politic/siegfried-muresan-cere-clarificari-privind-intalnirile-politice-cu-un-diplomat/</guid>
-      <pubDate>Sun, 27 Sep 2026 15:12:18 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.economica.net/siegfried-muresan-despre-dezvaluirile-wall-street-journal-oamenii-politici-care-au-avut-contacte-cu-doamna-ambasador-trebuie-sa-explice-cu-ce-scop-daca-au-ajutat-romania-si-daca-au-servit-interesel_980348.html">Economica</source>
-      <description>Eurodeputatul Siegfried Mureșan a cerut explicații politicienilor români care s-au întâlnit cu ambasadoarea SUA în Grecia. Dezvăluirile din presă sugerează posibile discuții despre schimbarea guvernului de la București.</description>
     </item>
 </channel></rss>

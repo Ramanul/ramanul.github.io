@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/ucraina/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ucraina pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
+    <item>
+      <title>Ascensiunea extremei drepte în Europa pune sub semnul întrebării planurile militare</title>
+      <link>https://izz.ro/politic/ascensiunea-extremei-drepte-in-europa-pune-sub-semnul-intrebarii-planurile/</link>
+      <guid>https://izz.ro/politic/ascensiunea-extremei-drepte-in-europa-pune-sub-semnul-intrebarii-planurile/</guid>
+      <pubDate>Fri, 09 Oct 2026 15:30:24 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/ascensiunea-extremei-drepte-ameninta-planurile-2562735.html">Adevărul</source>
+      <media:content url="https://izz.ro/politic/ascensiunea-extremei-drepte-in-europa-pune-sub-semnul-intrebarii-planurile/cover.jpg?v=b1662848" medium="image" type="image/jpeg"/>
+      <description>Oficialii NATO exprimă temeri că extinderea influenței politice radicale ar putea diminua sprijinul public pentru majorarea bugetelor de apărare și pentru continuarea ajutoarelor destinate Ucrainei.</description>
+    </item>
+    <item>
+      <title>ONG-ul unei refugiate ucrainene din Polonia se confruntă cu epuizarea fondurilor</title>
+      <link>https://izz.ro/extern/ong-ul-unei-refugiate-ucrainene-din-polonia-se-confrunta-cu-epuizarea-fondurilor/</link>
+      <guid>https://izz.ro/extern/ong-ul-unei-refugiate-ucrainene-din-polonia-se-confrunta-cu-epuizarea-fondurilor/</guid>
+      <pubDate>Fri, 09 Oct 2026 12:50:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dw.com/en/poland-lifeline-for-ukrainian-refugees-confronts-donor-fatigue-and-online-abuse-as-anti-ukrainian-sentiment-grows/a-79613292?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
+      <media:content url="https://izz.ro/extern/ong-ul-unei-refugiate-ucrainene-din-polonia-se-confrunta-cu-epuizarea-fondurilor/cover.jpg?v=c4866191" medium="image" type="image/jpeg"/>
+      <description>Organizația condusă de o femeie refugiată din Ucraina în Polonia întâmpină dificultăți financiare majore, reduceri de bugete și manifestări de ostilitate din cauza scăderii sprijinului public.</description>
+    </item>
     <item>
       <title>Ucraineanul a cumpărat o casă cu teren la prețul unui telefon</title>
       <link>https://izz.ro/lifestyle/ucraineanul-a-cumparat-o-casa-cu-teren-la-pretul-unui-telefon/</link>
@@ -35,6 +55,16 @@
       <source url="https://www.dw.com/en/finland-the-world-s-happiest-country-has-a-debt-problem-it-can-no-longer-ignore/a-79544348?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
       <media:content url="https://izz.ro/extern/finlanda-se-confrunta-cu-probleme-majore-legate-de-datoria-publica/cover.jpg?v=b7704637" medium="image" type="image/jpeg"/>
       <description>Deși considerată cea mai fericită țară din lume, Finlanda resimte o presiune fiscală în creștere, accentuată și de conflictul din Ucraina, punând la încercare stabilitatea economică a statului nordic.</description>
+    </item>
+    <item>
+      <title>Finlanda se confruntă cu dificultăți economice majore pe timp de iarnă</title>
+      <link>https://izz.ro/extern/finlanda-se-confrunta-cu-dificultati-economice-majore-pe-timp-de-iarna/</link>
+      <guid>https://izz.ro/extern/finlanda-se-confrunta-cu-dificultati-economice-majore-pe-timp-de-iarna/</guid>
+      <pubDate>Fri, 09 Oct 2026 08:12:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dw.com/en/finland-the-world-s-happiest-nation-faces-a-glum-winter/a-79544348?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
+      <media:content url="https://izz.ro/extern/finlanda-se-confrunta-cu-dificultati-economice-majore-pe-timp-de-iarna/cover.jpg?v=01b2ed31" medium="image" type="image/jpeg"/>
+      <description>Deși este considerată cea mai fericită națiune din lume, Finlanda resimte o presiune financiară crescută din cauza datoriei publice ridicate și a efectelor generate de conflictul din Ucraina.</description>
     </item>
     <item>
       <title>Ucraina a rămas fără curent electric în urma unor atacuri rusești</title>
@@ -173,7 +203,7 @@
       <pubDate>Thu, 08 Oct 2026 08:48:11 +0000</pubDate>
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/republica-moldova/republica-moldova-amenajeaza-zone-de-protectie-la-2562637.html">Adevărul</source>
-      <media:content url="https://izz.ro/extern/republica-moldova-construieste-adaposturi-la-frontiera-impotriva-atacurilor-cu/cover.jpg?v=6d941760" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/republica-moldova-construieste-adaposturi-la-frontiera-impotriva-atacurilor-cu/cover.jpg?v=3f0c181c" medium="image" type="image/jpeg"/>
       <description>Ministerul Afacerilor Interne de la Chișinău a anunțat amenajarea unor zone speciale de protecție la punctele de trecere a graniței cu Ucraina. Aceste spații sunt destinate protejării personalului vamal și a cetățenilor în cazul unor eventuale incidente armate cu drone.</description>
     </item>
     <item>
@@ -183,7 +213,6 @@
       <pubDate>Thu, 08 Oct 2026 08:33:43 +0000</pubDate>
       <category>regional</category>
       <source url="https://adevarul.ro/stiri-externe/republica-moldova/ue-ia-tot-mai-serios-in-calcul-separarea-2562631.html">Adevărul</source>
-      <media:content url="https://izz.ro/regional/uniunea-europeana-analizeaza-separarea-negocierilor-de-aderare-pentru-ucraina/cover.jpg?v=383e4373" medium="image" type="image/jpeg"/>
       <description>Oficiali diplomatici de la Bruxelles indică faptul că liderii europeni iau în calcul decuplarea parcursului european al celor două state, în timp ce Ungaria a permis recent deblocarea unor etape tehnice.</description>
     </item>
     <item>
@@ -193,7 +222,6 @@
       <pubDate>Thu, 08 Oct 2026 07:45:46 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.economica.net/rusia-primeste-o-lovitura-dura-gigantul-ai-yandex-a-fost-lovit-de-un-atac-cu-drone-din-ucraina_983820.html">Economica</source>
-      <media:content url="https://izz.ro/extern/centru-de-inteligenta-artificiala-yandex-din-rusia-lovit-de-drone-ucrainene/cover.jpg?v=b8274820" medium="image" type="image/jpeg"/>
       <description>Gigantul rus de inteligență artificială Yandex a suferit un atac cu drone care a provocat un incendiu și probleme de alimentare, forțând suspendarea parțială a activității centrului afectat, deși serviciile principale pentru clienți au rămas funcționale.</description>
     </item>
     <item>
@@ -203,7 +231,6 @@
       <pubDate>Thu, 08 Oct 2026 07:42:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://observatornews.ro/extern/coreea-de-sud-se-apara-dupa-ce-a-fost-acuzata-ca-livreaza-carburanti-rusiei-si-anunta-verificari-suplimentare-668454.html">Observator</source>
-      <media:content url="https://izz.ro/extern/seulul-sustine-ca-vanzarile-de-motorina-catre-rusia-respecta-normele/cover.jpg?v=8d7e04b6" medium="image" type="image/jpeg"/>
       <description>Autoritățile din Coreea de Sud au infirmat acuzațiile formulate de Ucraina, explicând că livrările recente de carburant către Moscova nu încalcă reglementările internaționale privind controalele la export.</description>
     </item>
     <item>
@@ -213,7 +240,6 @@
       <pubDate>Thu, 08 Oct 2026 06:45:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/bilantul-dupa-ziua-lui-putin-valuri-de-rachete-si-drone-32-de-morti-dintre-care-cinci-copii-intr-o-cladire-rezidentiala-din-priluki-3983241">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/bombardamente-masive-rusesti-in-ucraina-soldate-cu-32-de-morti/cover.jpg?v=c104c974" medium="image" type="image/jpeg"/>
       <description>Atacurile cu rachete și drone lansate de Rusia au ucis cel puțin 32 de persoane, inclusiv cinci copii, într-un imobil din Priluki, afectând grav și infrastructura energetică și industrială a Ucrainei.</description>
     </item>
     <item>
@@ -223,7 +249,6 @@
       <pubDate>Thu, 08 Oct 2026 00:35:25 +0000</pubDate>
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/europa/iranul-ar-fi-planuit-un-atac-cu-drone-asupra-bazei-2562449.html">Adevărul</source>
-      <media:content url="https://izz.ro/extern/iranul-ar-fi-planificat-un-atac-cu-drone-impotriva-unei-baze-militare-britanice/cover.jpg?v=e6bef250" medium="image" type="image/jpeg"/>
       <description>Gărzile Revoluționare iraniene ar fi recrutat cetățeni din Marea Britanie pentru a organiza un raid aerian asupra bazei Fairford, folosind tactici similare celor utilizate de Ucraina în operațiunile recente.</description>
     </item>
     <item>
@@ -233,7 +258,6 @@
       <pubDate>Wed, 07 Oct 2026 20:51:08 +0000</pubDate>
       <category>extern</category>
       <source url="https://hotnews.ro/replica-de-la-seul-dupa-ce-ucraina-a-acuzat-coreea-de-sud-ca-a-ajutat-rusia-2370039">HotNews</source>
-      <media:content url="https://izz.ro/extern/coreea-de-sud-a-respins-acuzatiile-ucrainei-privind-importurile-de-petrol-rusesc/cover.jpg?v=79ce8abf" medium="image" type="image/jpeg"/>
       <description>Președinția de la Seul a negat că porturile sud-coreene ar fi permis tranzacții cu produse petroliere rusești destinate compensării crizei provocate de atacurile cu drone.</description>
     </item>
     <item>
@@ -451,32 +475,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/cum-a-transformat-estonia-educatia-copiii-invata-sa-piloteze-drone-pentru-aparare-inspirati-de-lectiile-ucrainei-3978871">Digi24 Extern</source>
       <description>Liceenii din Tallinn folosesc simulatoare de zbor pentru a învăța manevrarea dronelor, ca parte a pregătirii obligatorii de apărare. Această inițiativă este inspirată direct din experiența conflictului din Ucraina.</description>
-    </item>
-    <item>
-      <title>Ucraina folosește tunuri cu inteligență artificială și respinge atacurile rusești</title>
-      <link>https://izz.ro/extern/ucraina-foloseste-tunuri-cu-inteligenta-artificiala-si-respinge-atacurile/</link>
-      <guid>https://izz.ro/extern/ucraina-foloseste-tunuri-cu-inteligenta-artificiala-si-respinge-atacurile/</guid>
-      <pubDate>Mon, 05 Oct 2026 13:16:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/ziua-1685-dubla-lovitura-mortala-cu-banderol-4-ambasade-straine-sfideaza-rusia-la-moscova-s-a-strigat-jos-cu-tarul-video">Spotmedia</source>
-      <description>În a 1685-a zi de conflict, un atac rusesc cu drone în Harkov s-a soldat cu un mort și opt răniți. În replică, armata ucraineană a utilizat tunuri ghidate de AI pentru a doborî drone rapide și a lovit infrastructura...</description>
-    </item>
-    <item>
-      <title>Poliția română îl caută pe ucraineanul Hryhor Mykaylo, condamnat la 5 ani de închisoare pentru contrabandă</title>
-      <link>https://izz.ro/politic/politia-romana-il-cauta-pe-ucraineanul-hryhor-mykaylo-condamnat-la-5-ani-de/</link>
-      <guid>https://izz.ro/politic/politia-romana-il-cauta-pe-ucraineanul-hryhor-mykaylo-condamnat-la-5-ani-de/</guid>
-      <pubDate>Mon, 05 Oct 2026 09:10:12 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://gazetadecluj.ro/contrabandist-ucrainean-condamnat-la-5-ani-de-inchisoare-cautat-de-politistii-romani/">Gazeta de Cluj</source>
-      <description>Un cetățean ucrainean a fost dat în urmărire națională de autoritățile din România după ce a dispărut înainte de a fi încarcerat pentru o condamnare de cinci ani pentru contrabandă.</description>
-    </item>
-    <item>
-      <title>Campania masivă de bombardamente a Rusiei nu va frânge rezistența ucrainenilor</title>
-      <link>https://izz.ro/extern/campania-masiva-de-bombardamente-a-rusiei-nu-va-frange-rezistenta-ucrainenilor/</link>
-      <guid>https://izz.ro/extern/campania-masiva-de-bombardamente-a-rusiei-nu-va-frange-rezistenta-ucrainenilor/</guid>
-      <pubDate>Mon, 05 Oct 2026 07:00:50 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/commentisfree/2026/oct/05/putin-escalating-bombing-campaign-ukrainian-resolve-russia-invasion">The Guardian</source>
-      <description>În pragul iernii și aproape de împlinirea a cinci ani de la invazie, atacurile aeriene constante lansate de Vladimir Putin asupra orașelor din Ucraina eșuează în tentativa de a distruge moralul populației civile.</description>
     </item>
 </channel></rss>

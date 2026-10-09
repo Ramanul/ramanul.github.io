@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
+    <item>
+      <title>Aplicația XBOX pentru PC va primi o interfață nouă</title>
+      <link>https://izz.ro/tech/aplicatia-xbox-pentru-pc-va-primi-o-interfata-noua/</link>
+      <guid>https://izz.ro/tech/aplicatia-xbox-pentru-pc-va-primi-o-interfata-noua/</guid>
+      <pubDate>Fri, 09 Oct 2026 10:25:23 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/09/aplicatia-xbox-pentru-pc-va-primi-un-facelift-bine-meritat/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/aplicatia-xbox-pentru-pc-va-primi-o-interfata-noua/cover.jpg?v=e11d74e4" medium="image" type="image/jpeg"/>
+      <description>Microsoft pregătește o actualizare vizuală majoră pentru aplicația XBOX de pe PC, punând accent pe fluiditate și optimizarea performanței, conform primelor imagini apărute în mediul online.</description>
+    </item>
     <item>
       <title>SUA au suspendat companii mari dintr-un program de vize</title>
       <link>https://izz.ro/judetean/sua-au-suspendat-companii-mari-dintr-un-program-de-vize/</link>
@@ -53,7 +63,6 @@
       <pubDate>Thu, 08 Oct 2026 08:18:00 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.profit.ro/romania-conectata/video-microsoft-integreaza-copilot-direct-in-bara-de-sarcini-din-windows-11-22809702?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/tech/microsoft-introduce-asistentul-ai-copilot-direct-in-bara-de-sarcini-din-windows/cover.jpg?v=785c3fec" medium="image" type="image/jpeg"/>
       <description>Utilizatorii sistemului de operare Windows 11 primesc acces rapid la inteligența artificială prin integrarea nativă a asistentului Copilot în bara de start, peremițând executarea diverselor comenzi scrise.</description>
     </item>
     <item>
@@ -63,7 +72,6 @@
       <pubDate>Thu, 08 Oct 2026 07:27:49 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/08/microsoft-a-refacut-cautarea-in-windows-11-inclusiv-cu-ai/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/microsoft-a-actualizat-functia-de-cautare-din-windows-11-cu-inteligenta/cover.jpg?v=8a3218cf" medium="image" type="image/jpeg"/>
       <description>Noua interfață de căutare din Windows 11, prezentată de Microsoft, permite utilizatorilor să modifice setările sistemului și să execute mii de comenzi rapide direct din bara de activități folosind comenzi simple.</description>
     </item>
     <item>
@@ -272,14 +280,5 @@
       <category>tech</category>
       <source url="https://www.xda-developers.com/microsofts-latest-xbox-layoffs-have-reportedly-gutted-the-age-of-empires-studio-cancelling-its-next-game/">XDA Developers</source>
       <description>În urma unor restructurări masive la Microsoft, studioul responsabil pentru seria Age of Empires a fost redus la jumătate, iar cel mai nou proiect de joc aflat în dezvoltare a fost anulat.</description>
-    </item>
-    <item>
-      <title>Cerințele pentru drivere din Windows 11 stârnesc controverse privind securitatea</title>
-      <link>https://izz.ro/tech/cerintele-pentru-drivere-din-windows-11-starnesc-controverse-privind-securitatea/</link>
-      <guid>https://izz.ro/tech/cerintele-pentru-drivere-din-windows-11-starnesc-controverse-privind-securitatea/</guid>
-      <pubDate>Sun, 27 Sep 2026 13:30:16 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/windows-11s-driver-signature-requirement-is-one-of-the-best-anti-consumer-security-features-out-there/">XDA Developers</source>
-      <description>Politica Microsoft care impune semnătura digitală obligatorie pentru drivere în Windows 11 generează nemulțumiri, determinând utilizatorii să prefere versiuni vechi sau sisteme alternative.</description>
     </item>
 </channel></rss>

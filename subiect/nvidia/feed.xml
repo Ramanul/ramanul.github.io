@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
     <item>
       <title>ASUS a deschis precomenzile pentru laptopurile ProArt P16 și P14 cu NVIDIA RTX Spark</title>
       <link>https://izz.ro/tech/asus-a-lansat-precomenzile-pentru-laptopurile-proart-cu-nvidia-rtx-spark/</link>
@@ -177,14 +177,5 @@
       <category>ai</category>
       <source url="https://www.marktechpost.com/2026/09/28/nvidia-launches-open-agent-safety-platform/">MarkTechPost</source>
       <description>Noua platformă software dezvoltată de NVIDIA combină sistemul OpenShell cu tehnologia Sentry pe unități BlueField-4 pentru a izola și monitoriza agenții bazați pe inteligență artificială în milisecunde.</description>
-    </item>
-    <item>
-      <title>O funcție Nvidia a ocupat spațiu masiv pe unitatea de stocare</title>
-      <link>https://izz.ro/tech/o-functie-nvidia-a-ocupat-spatiu-masiv-pe-unitatea-de-stocare/</link>
-      <guid>https://izz.ro/tech/o-functie-nvidia-a-ocupat-spatiu-masiv-pe-unitatea-de-stocare/</guid>
-      <pubDate>Sun, 27 Sep 2026 11:00:17 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/nvidia-had-quietly-taken-40gb-of-my-c-drive-for-a-feature-that-i-was-barely-using-at-all/">XDA Developers</source>
-      <description>Un utilitar Nvidia a ocupat discret aproximativ 40GB pe partiția de sistem a unui utilizator, subliniind tendința aplicațiilor software moderne de a consuma spațiu valoros pe SSD-uri fără o înștiințare prealabilă.</description>
     </item>
 </channel></rss>

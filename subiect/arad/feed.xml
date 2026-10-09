@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/arad/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Arad pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
+    <item>
+      <title>Traficul rutier din județul Arad, monitorizat din aer</title>
+      <link>https://izz.ro/local/traficul-rutier-din-judetul-arad-monitorizat-din-aer/</link>
+      <guid>https://izz.ro/local/traficul-rutier-din-judetul-arad-monitorizat-din-aer/</guid>
+      <pubDate>Fri, 09 Oct 2026 10:43:37 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.pressalert.ro/2026/10/traficul-din-judetul-arad-monitorizat-din-aer-elicopterele-igav-survoleaza-zonele-de-risc/">PressAlert Timișoara</source>
+      <media:content url="https://izz.ro/local/traficul-rutier-din-judetul-arad-monitorizat-din-aer/cover.jpg?v=165ccb49" medium="image" type="image/jpeg"/>
+      <description>Polițiștii folosesc elicoptere ale Inspectoratului General de Aviație pentru a supraveghea principalele șosele din Arad. Acțiunea aeriană are ca scop prevenirea accidentelor și creșterea gradului de siguranță pe sectoarele cu risc ridicat.</description>
+    </item>
     <item>
       <title>Fosta fabrică P.A.B. din Arad, vândută la licitație pentru 4,5 milioane de euro</title>
       <link>https://izz.ro/local/fosta-fabrica-p-a-b-din-arad-vanduta-la-licitatie-pentru-45-milioane-de-euro/</link>
@@ -287,14 +297,5 @@
       <category>local</category>
       <source url="https://www.criticarad.ro/nita-mocanu-deschide-expo-galeria-alfa/">Critic Arad</source>
       <description>Artista deschide expoziția personală intitulată „Imagini dintr-o perioadă nedefinită”, vernisajul urmând să aibă loc la începutul lunii octombrie la galeria arădeană.</description>
-    </item>
-    <item>
-      <title>Un tânăr din Arad a fost dezarmat de victime și reținut de polițiști</title>
-      <link>https://izz.ro/local/un-tanar-din-arad-a-fost-dezarmat-de-victime-si-retinut-de-politisti/</link>
-      <guid>https://izz.ro/local/un-tanar-din-arad-a-fost-dezarmat-de-victime-si-retinut-de-politisti/</guid>
-      <pubDate>Sun, 27 Sep 2026 13:51:10 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.pressalert.ro/2026/09/un-tanar-care-a-amenintat-doi-barbati-cu-un-pistol-pe-strada-a-fost-dezarmat-de-catre-victime-si-retinut-de-politisti/">PressAlert Timișoara</source>
-      <description>Un bărbat de 25 de ani a fost reținut pentru 24 de ore de polițiștii din Sebiș, județul Arad, după ce a amenințat doi oameni cu un pistol pe stradă și a fost pus la pământ de aceștia.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/beijing/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Beijing pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
+    <item>
+      <title>Iga Swiątek egalează un record istoric deținut de Simona Halep</title>
+      <link>https://izz.ro/sport/iga-swiatek-egaleaza-un-record-istoric-detinut-de-simona-halep/</link>
+      <guid>https://izz.ro/sport/iga-swiatek-egaleaza-un-record-istoric-detinut-de-simona-halep/</guid>
+      <pubDate>Fri, 09 Oct 2026 15:20:29 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/alte-sporturi/tenis/un-record-al-simonei-halep-a-fost-egalat-dupa-multi-ani-20543429">ProSport</source>
+      <media:content url="https://izz.ro/sport/iga-swiatek-egaleaza-un-record-istoric-detinut-de-simona-halep/cover.jpg?v=663dc676" medium="image" type="image/jpeg"/>
+      <description>Jucătoarea poloneză Iga Swiątek a ajuns în sferturile de la Beijing și a devenit a doua sportivă din istorie care atinge această fază în cel puțin șase turnee WTA 1000 consecutive.</description>
+    </item>
     <item>
       <title>Novak Djokovic vizează un parcurs lung la turneul de la Shanghai</title>
       <link>https://izz.ro/sport/novak-djokovic-vizeaza-un-parcurs-lung-la-turneul-de-la-shanghai/</link>
@@ -33,7 +43,6 @@
       <pubDate>Thu, 08 Oct 2026 08:41:18 +0000</pubDate>
       <category>sport</category>
       <source url="https://www.gsp.ro/sporturi/tenis/rybakina-coco-gauff-naomi-osaka-acum-paula-badosa-985657.html">GSP</source>
-      <media:content url="https://izz.ro/sport/paula-badosa-a-anulat-participarea-la-turneul-wta-1000-de-la-wuhan/cover.jpg?v=f1a3a181" medium="image" type="image/jpeg"/>
       <description>Jucătoarea spaniolă de tenis Paula Badosa, ocupanta locului 59 WTA, a decis să sară peste ultimul turneu WTA 1000 al sezonului programat la Wuhan, invocând nevoia de odihnă după meciurile solicitante de la Beijing.</description>
     </item>
     <item>
@@ -43,7 +52,6 @@
       <pubDate>Thu, 08 Oct 2026 07:16:48 +0000</pubDate>
       <category>sport</category>
       <source url="https://as.ro/tenis/atp/daniil-medvedev-a-incercat-sa-isi-repare-greseala-dupa-ce-a-lovit-un-fan-la-beijing-cadoul-oferit-de-rus-dupa-descalificare-695687.html">Antena Sport</source>
-      <media:content url="https://izz.ro/sport/daniil-medvedev-a-oferit-un-cadou-unui-fan-dupa-descalificarea-de-la-beijing/cover.jpg?v=2bb9e7ae" medium="image" type="image/jpeg"/>
       <description>Tenismenul rus Daniil Medvedev a încercat să repare incidentul care a dus la descalificarea sa în semifinala cu Novak Djokovic de la turneul din Beijing. Sportivul l-a căutat pe spectatorul lovit accidental de minge pentru a-i oferi un cadou de...</description>
     </item>
     <item>
@@ -180,14 +188,5 @@
       <category>sport</category>
       <source url="https://www.gsp.ro/sporturi/tenis/novak-djokovic-declatatii-inaintea-revenirii-de-la-beijing-983103.html">GSP</source>
       <description>Tenismenul sârb Novak Djokovic a declarat înaintea competiției din China că își propune să se bucure de fiecare moment rămas în circuitul profesionist ATP, turneu pe care l-a câștigat de șase ori.</description>
-    </item>
-    <item>
-      <title>Sorana Cîrstea s-a retras de la turneul WTA de la Beijing</title>
-      <link>https://izz.ro/sport/sorana-cirstea-s-a-retras-de-la-turneul-wta-de-la-beijing/</link>
-      <guid>https://izz.ro/sport/sorana-cirstea-s-a-retras-de-la-turneul-wta-de-la-beijing/</guid>
-      <pubDate>Sun, 27 Sep 2026 12:42:19 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.prosport.ro/alte-sporturi/tenis/sorana-cirstea-decizie-wta-1-000-beijing-20533997">ProSport</source>
-      <description>Aflată în cel mai bun moment al carierei sale și ocupând locul 15 în ierarhia mondială, tenismena Sorana Cîrstea a decis să nu participe la competiția importantă din capitala Chinei.</description>
     </item>
 </channel></rss>

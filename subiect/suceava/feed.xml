@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/suceava/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Suceava pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
+    <item>
+      <title>Filiala Nord-Est a Ordinului Arhitecților a aniversat 25 de ani la Suceava</title>
+      <link>https://izz.ro/local/filiala-nord-est-a-ordinului-arhitectilor-a-aniversat-25-de-ani-la-suceava/</link>
+      <guid>https://izz.ro/local/filiala-nord-est-a-ordinului-arhitectilor-a-aniversat-25-de-ani-la-suceava/</guid>
+      <pubDate>Fri, 09 Oct 2026 12:15:30 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.newsbucovina.ro/actualitate/451757/ordinul-arhitectilor-din-romania-nord-est-25-de-ani-la-suceava-cj-suceava-deschis-pentru-noi-colaborari-pentru-solutii-si-de-asistenta-pentru-administratiile-locale">NewsBucovina</source>
+      <media:content url="https://izz.ro/local/filiala-nord-est-a-ordinului-arhitectilor-a-aniversat-25-de-ani-la-suceava/cover.jpg?v=049852b8" medium="image" type="image/jpeg"/>
+      <description>Palatul Administrativ din Suceava a găzduit evenimentul aniversar al Ordinului Arhitecților, reunind specialiști și autorități pentru a dezbate rolul urbanismului în dezvoltarea comunităților locale din regiune.</description>
+    </item>
     <item>
       <title>Primarul Vasile Rîmbu prezintă noile amenajări urbane din cartierul Burdujeni</title>
       <link>https://izz.ro/general/primarul-vasile-rimbu-prezinta-noile-amenajari-urbane-din-cartierul-burdujeni/</link>
@@ -451,14 +461,5 @@
       <category>local</category>
       <source url="https://www.newsbucovina.ro/actualitate/450916/comisia-judeteana-de-fond-funciar-suceava-35-de-puncte-pe-ordinea-de-zi-si-68-de-titluri-de-proprietate-semnate">NewsBucovina</source>
       <description>Membrii Comisiei Județene Suceava au analizat 35 de puncte pe ordinea de zi, incluzând solicitări ale comisiilor locale și dosare aflate pe rolul instanțelor de judecată.</description>
-    </item>
-    <item>
-      <title>Viceprimarul Sucevei a participat la aniversarea Moldovei</title>
-      <link>https://izz.ro/general/viceprimarul-sucevei-a-participat-la-aniversarea-moldovei/</link>
-      <guid>https://izz.ro/general/viceprimarul-sucevei-a-participat-la-aniversarea-moldovei/</guid>
-      <pubDate>Wed, 30 Sep 2026 10:49:55 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.newsbucovina.ro/actualitate/450911/viceprimarul-daniel-ungurian-la-receptia-de-35-de-ani-a-independentei-republicii-moldova-discutii-despre-o-misiune-economica-si-o-delegatie-de-antreprenori-in-bucovina">NewsBucovina</source>
-      <description>Daniel Ungurian a fost prezent la recepția organizată la București pentru marcarea a 35 de ani de independență a Republicii Moldova, purtând discuții despre o viitoare misiune economică.</description>
     </item>
 </channel></rss>

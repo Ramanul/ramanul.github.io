@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/onu/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ONU pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
+    <item>
+      <title>ONU critică decizia SUA de a transmite public o execuție</title>
+      <link>https://izz.ro/extern/onu-critica-decizia-sua-de-a-transmite-public-o-executie/</link>
+      <guid>https://izz.ro/extern/onu-critica-decizia-sua-de-a-transmite-public-o-executie/</guid>
+      <pubDate>Fri, 09 Oct 2026 15:01:22 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/reactia-onu-dupa-anuntul-sua-ca-vor-transmite-in-direct-executia-unui-om-este-tortura-3985867">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/onu-critica-decizia-sua-de-a-transmite-public-o-executie/cover.jpg?v=bfccf68a" medium="image" type="image/jpeg"/>
+      <description>Înaltul Comisariat ONU pentru Drepturile Omului a condamnat intenția Statelor Unite de a difuza în direct uciderea unui atacator dintr-o bază militară, calificând gestul drept o formă gravă de tortură.</description>
+    </item>
     <item>
       <title>Etiopia acuză Eritrea de invazie și cere sprijinul ONU</title>
       <link>https://izz.ro/extern/etiopia-acuza-eritrea-de-invazie-si-cere-sprijinul-onu/</link>
@@ -33,7 +43,6 @@
       <pubDate>Thu, 08 Oct 2026 08:15:20 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.digi24.ro/stiri/actualitate/onu-va-instrui-parlamentarii-romani-in-inteligenta-artificiala-un-deputat-pnl-explica-ce-va-aborda-programul-e-un-prim-pas-serios-3983369">Digi24</source>
-      <media:content url="https://izz.ro/politic/parlamentarii-romani-vor-participa-la-un-curs-de-instruire-in-inteligenta/cover.jpg?v=cb887352" medium="image" type="image/jpeg"/>
       <description>Birourile permanente ale Parlamentului României au aprobat un program de formare organizat de Organizația Națiunilor Unite. Sesiunile, programate în noiembrie, le vor oferi aleșilor noțiuni esențiale despre utilizarea inteligenței artificiale.</description>
     </item>
     <item>
@@ -116,14 +125,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/mapamond/de-ce-a-refuzat-donald-trump-propunerea-de-pace-a-iranului-ambasadorul-sua-la-onu-dezvaluie-ce-a-cerut-teheranul-3966737">Digi24 Extern</source>
       <description>Ambasadorul SUA la ONU, Mike Waltz, explică refuzul lui Donald Trump față de oferta Teheranului, menționând că Iranul solicita anularea în avans a sancțiunilor economice înainte de a începe negocierile.</description>
-    </item>
-    <item>
-      <title>Arabia Saudită critică la ONU lipsa măsurilor internaționale de protecție în Golful Persic</title>
-      <link>https://izz.ro/extern/arabia-saudita-critica-la-onu-lipsa-masurilor-internationale-de-protectie-in/</link>
-      <guid>https://izz.ro/extern/arabia-saudita-critica-la-onu-lipsa-masurilor-internationale-de-protectie-in/</guid>
-      <pubDate>Sun, 27 Sep 2026 11:04:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.profit.ro/stiri/politic/arabia-saudita-critica-la-onu-comunitatea-internationala-pentru-lipsa-de-protectie-a-navigatiei-in-golful-persic-22787733?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Reprezentanții saudiți au atras atenția la Adunarea Generală a ONU că pasivitatea comunității internaționale în Golful Persic amenință stabilitatea regională și securitatea energetică mondială.</description>
     </item>
 </channel></rss>

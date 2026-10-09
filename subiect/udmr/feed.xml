@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/udmr/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre UDMR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
+    <item>
+      <title>Negocieri politice între PSD, PNL și UDMR pentru noul guvern</title>
+      <link>https://izz.ro/politic/negocieri-politice-intre-psd-pnl-si-udmr-pentru-noul-guvern/</link>
+      <guid>https://izz.ro/politic/negocieri-politice-intre-psd-pnl-si-udmr-pentru-noul-guvern/</guid>
+      <pubDate>Fri, 09 Oct 2026 10:16:06 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://gazetadecluj.ro/luca-niculescu-anunta-progrese-in-negocierile-cu-psd-pnl-si-udmr-pentru-viitorul-guvern/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/politic/negocieri-politice-intre-psd-pnl-si-udmr-pentru-noul-guvern/cover.jpg?v=2006cdcf" medium="image" type="image/jpeg"/>
+      <description>Liderii principalelor formațiuni politice au purtat prima rundă de consultări oficiale vizând viitorul program de guvernare, concentrându-se pe sănătate, agricultură, administrație și reducerea inegalităților sociale.</description>
+    </item>
     <item>
       <title>Kelemen Hunor avertizează că alegerile anticipate ar aduce AUR la guvernare</title>
       <link>https://izz.ro/politic/kelemen-hunor-avertizeaza-ca-alegerile-anticipate-ar-aduce-aur-la-guvernare/</link>
@@ -154,14 +164,5 @@
       <category>politic</category>
       <source url="https://www.g4media.ro/kelemen-hunor-sansele-ca-guvernul-muresan-sa-treaca-nu-sunt-mari-nu-exista-233-de-voturi-presedintele-nicusor-dan-nu-e-obligat-sa-dizolve-parlamentul-constitutia-ii-lasa-libertatea-sa-decida-daca.html">G4Media</source>
       <description>Liderul UDMR susține că Executivul propus de Siegfried Mureșan nu dispune momentan de cele 233 de voturi necesare în Parlament. Totodată, el a precizat că președintele Nicușor Dan acționează constituțional și nu poate fi suspendat.</description>
-    </item>
-    <item>
-      <title>Propunerile lui Siegfried Mureșan privind pensiile depind de buget</title>
-      <link>https://izz.ro/politic/propunerile-lui-siegfried-muresan-privind-pensiile-depind-de-buget/</link>
-      <guid>https://izz.ro/politic/propunerile-lui-siegfried-muresan-privind-pensiile-depind-de-buget/</guid>
-      <pubDate>Sun, 27 Sep 2026 13:52:31 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://bizbrasov.ro/2026/09/27/bani-propune-programul-siegfried-muresan/">BizBrașov</source>
-      <description>Programul de guvernare susținut de PNL, UDMR și USR, prezentat de Siegfried Mureșan, include mai multe măsuri pentru segmentul de pensii, aplicarea acestora fiind condiționată însă de existența fondurilor necesare.</description>
     </item>
 </channel></rss>

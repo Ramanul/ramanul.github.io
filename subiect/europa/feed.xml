@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 16:32:30 +0000</lastBuildDate>
+    <item>
+      <title>Mercedes-Benz raportează o creștere de 40% a vânzărilor de mașini electrice</title>
+      <link>https://izz.ro/economic/mercedes-benz-raporteaza-o-crestere-de-40-a-vanzarilor-de-masini-electrice/</link>
+      <guid>https://izz.ro/economic/mercedes-benz-raporteaza-o-crestere-de-40-a-vanzarilor-de-masini-electrice/</guid>
+      <pubDate>Fri, 09 Oct 2026 09:36:52 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.autocritica.ro/live-news/mercedes-vanzarile-de-electrice-au-crescut-cu-40-in-primele-9-luni/">AutoCritica</source>
+      <media:content url="https://izz.ro/economic/mercedes-benz-raporteaza-o-crestere-de-40-a-vanzarilor-de-masini-electrice/cover.jpg?v=f5f413f0" medium="image" type="image/jpeg"/>
+      <description>Constructorul german a comercializat 1,24 milioane de autovehicule în primele nouă luni ale anului, înregistrând o scădere generală de șapte procente, în timp ce segmentul mașinilor electrice a urcat semnificativ.</description>
+    </item>
     <item>
       <title>Noua variantă de coronavirus XFG, denumită „Stratus”, monitorizată în Europa</title>
       <link>https://izz.ro/sanatate/noua-varianta-de-coronavirus-xfg-denumita-stratus-monitorizata-in-europa/</link>
@@ -23,7 +33,7 @@
       <pubDate>Thu, 08 Oct 2026 09:04:20 +0000</pubDate>
       <category>politic</category>
       <source url="https://stirileprotv.ro/stiri/international/marco-rubio-avertizeaza-europa-ca-se-afla-la-o-rascruce-si-ii-cere-sa-se-trezeasca-astazi-ne-aflam-la-o-rascruce.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/politic/marco-rubio-indeamna-europa-sa-isi-schimbe-abordarea-strategica-actuala/cover.jpg?v=47196b95" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/politic/marco-rubio-indeamna-europa-sa-isi-schimbe-abordarea-strategica-actuala/cover.jpg?v=88a0a557" medium="image" type="image/jpeg"/>
       <description>Secretarul de stat american i-a cerut continentului european să renunțe la pasivitate, aliniindu-se la retrica fermă promovată de administrația condusă de Donald Trump.</description>
     </item>
     <item>
@@ -33,7 +43,6 @@
       <pubDate>Wed, 07 Oct 2026 21:14:47 +0000</pubDate>
       <category>lifestyle</category>
       <source url="https://www.urban.ro/cele-mai-bune-zece-regiuni-viticole-din-europa-pentru-o-mini-vacanta-in-toamna-lui-2025/">Urban.ro</source>
-      <media:content url="https://izz.ro/lifestyle/zece-regiuni-viticole-din-europa-ofera-destinatii-ideale-pentru-vacantele-de/cover.jpg?v=678ced0f" medium="image" type="image/jpeg"/>
       <description>Sezonul de toamnă transformă peisajele viticole europene în destinații perfecte pentru minivacanțe relaxante, datorită temperaturilor blânde, atmosferei liniștite și peisajelor spectaculoase.</description>
     </item>
     <item>
@@ -449,14 +458,5 @@
       <category>auto</category>
       <source url="https://piataauto.md/Stiri/2026/09/VW-a-lansat-un-sedan-electric-de-10500-euro-in-China-de-marimea-lui-Passat-in-timp-ce-in-Europa-vinde-ID7-de-cinci-ori-mai-scump/">Piata Auto MD</source>
       <description>Grupul Volkswagen a lansat pe piața din China un sedan electric de dimensiunile unui Passat, cu un preț de pornire de 10.500 de euro, în timp ce pe piața europeană comercializează modele semnificativ mai scumpe.</description>
-    </item>
-    <item>
-      <title>Un dom de căldură a adus temperaturi de vară în vestul și centrul Europei</title>
-      <link>https://izz.ro/extern/un-dom-de-caldura-a-adus-temperaturi-de-vara-in-vestul-si-centrul-europei/</link>
-      <guid>https://izz.ro/extern/un-dom-de-caldura-a-adus-temperaturi-de-vara-in-vestul-si-centrul-europei/</guid>
-      <pubDate>Sun, 27 Sep 2026 20:46:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/meteo/domul-de-caldura-s-a-asezat-peste-vestul-si-centrul-europei-si-a-adus-temperaturi-nefiresti-pentru-septembrie-unde-sunt-41-de-grade-804776.html">Antena 3 CNN</source>
-      <description>Meteorologii raportează valori termice neobișnuit de ridicate pentru finalul lunii septembrie în Europa, în unele regiuni din Spania temperaturile atingând pragul de 41 de grade Celsius.</description>
     </item>
 </channel></rss>
