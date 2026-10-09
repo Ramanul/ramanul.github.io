@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 22:23:56 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 02:24:58 +0000</lastBuildDate>
     <item>
       <title>Orange România dezvoltă zeci de proiecte de inteligență artificială</title>
       <link>https://izz.ro/tech/orange-romania-dezvolta-zeci-de-proiecte-de-inteligenta-artificiala/</link>
@@ -17,13 +17,23 @@
       <description>Divizia Orange Business derulează aproximativ 80 de inițiative de automatizare și inteligență artificială destinate instituțiilor și companiilor locale, de la gestionarea documentelor până la fluxuri operaționale complexe.</description>
     </item>
     <item>
+      <title>Administrația Trump blochează marile companii IT să ceară rezidență pentru străini</title>
+      <link>https://izz.ro/tech/administratia-trump-blocheaza-marile-companii-it-sa-ceara-rezidenta-pentru/</link>
+      <guid>https://izz.ro/tech/administratia-trump-blocheaza-marile-companii-it-sa-ceara-rezidenta-pentru/</guid>
+      <pubDate>Thu, 08 Oct 2026 20:58:54 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://spotmedia.ro/stiri/economie/administratia-trump-blocheaza-microsoft-si-alte-companii-de-tehnologie-sa-ceara-rezidenta-permanenta-pentru-angajatii-straini">Spotmedia</source>
+      <media:content url="https://izz.ro/tech/administratia-trump-blocheaza-marile-companii-it-sa-ceara-rezidenta-pentru/cover.jpg?v=9c8951a3" medium="image" type="image/jpeg"/>
+      <description>Guvernul SUA a suspendat accesul firmelor Microsoft și Adobe la procedura de obținere a rezidenței permanente pentru angajații străini, acuzându-le că înlocuiesc lucrătorii americani.</description>
+    </item>
+    <item>
       <title>Astronomii au detectat un semnal radio cosmic vechi de 10 miliarde de ani</title>
       <link>https://izz.ro/tech/astronomii-au-detectat-un-semnal-radio-cosmic-vechi-de-10-miliarde-de-ani/</link>
       <guid>https://izz.ro/tech/astronomii-au-detectat-un-semnal-radio-cosmic-vechi-de-10-miliarde-de-ani/</guid>
       <pubDate>Thu, 08 Oct 2026 19:03:59 +0000</pubDate>
       <category>tech</category>
       <source url="https://stirileprotv.ro/stiri/stiinta/un-semnal-misterios-dintr-o-galaxie-indepartata-a-fost-detectat-de-astronomi-undele-a-calatorit-peste-10-miliarde-de.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/tech/astronomii-au-detectat-un-semnal-radio-cosmic-vechi-de-10-miliarde-de-ani/cover.jpg?v=39ae2337" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/astronomii-au-detectat-un-semnal-radio-cosmic-vechi-de-10-miliarde-de-ani/cover.jpg?v=fb79dd7e" medium="image" type="image/jpeg"/>
       <description>O explozie de unde radio a călătorit peste 10 miliarde de ani până pe Pământ, fiind considerată de către cercetători drept cea mai îndepărtată sursă de acest tip descoperită până în prezent.</description>
     </item>
     <item>
@@ -475,14 +485,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/06/poco-f9-ultra-review-mai-este-acesta-un-brand-de-buget/">Connect.ro</source>
       <description>Cel mai nou dispozitiv al brandului chinezesc subliniază o schimbare de strategie, renunțând parțial la statutul tradițional de opțiune accesibilă prin costuri majorate și îmbunătățiri tehnologice limitate față de generațiile anterioare.</description>
-    </item>
-    <item>
-      <title>Microsoft forțează trecerea la Windows 11 prin costurile mari ale Windows 10</title>
-      <link>https://izz.ro/tech/microsoft-forteaza-trecerea-la-windows-11-prin-costurile-mari-ale-windows-10/</link>
-      <guid>https://izz.ro/tech/microsoft-forteaza-trecerea-la-windows-11-prin-costurile-mari-ale-windows-10/</guid>
-      <pubDate>Tue, 06 Oct 2026 14:24:46 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/windows-10-11-actualizari/">ZonaIT</source>
-      <description>Politicile comerciale stricte și costurile ridicate impuse de Microsoft pentru menținerea vechiului sistem operare determină companiile și instituțiile să adopte mai rapid noua versiune Windows 11.</description>
     </item>
 </channel></rss>

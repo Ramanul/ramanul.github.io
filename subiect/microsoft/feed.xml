@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 02:24:49 +0000</lastBuildDate>
+    <item>
+      <title>Administrația Trump blochează marile companii IT să ceară rezidență pentru străini</title>
+      <link>https://izz.ro/tech/administratia-trump-blocheaza-marile-companii-it-sa-ceara-rezidenta-pentru/</link>
+      <guid>https://izz.ro/tech/administratia-trump-blocheaza-marile-companii-it-sa-ceara-rezidenta-pentru/</guid>
+      <pubDate>Thu, 08 Oct 2026 20:58:54 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://spotmedia.ro/stiri/economie/administratia-trump-blocheaza-microsoft-si-alte-companii-de-tehnologie-sa-ceara-rezidenta-permanenta-pentru-angajatii-straini">Spotmedia</source>
+      <media:content url="https://izz.ro/tech/administratia-trump-blocheaza-marile-companii-it-sa-ceara-rezidenta-pentru/cover.jpg?v=9c8951a3" medium="image" type="image/jpeg"/>
+      <description>Guvernul SUA a suspendat accesul firmelor Microsoft și Adobe la procedura de obținere a rezidenței permanente pentru angajații străini, acuzându-le că înlocuiesc lucrătorii americani.</description>
+    </item>
     <item>
       <title>Microsoft aduce titluri noi în catalogul PC Game Pass pentru octombrie</title>
       <link>https://izz.ro/tech/microsoft-aduce-titluri-noi-in-catalogul-pc-game-pass-pentru-octombrie/</link>
@@ -15,6 +25,16 @@
       <source url="https://www.connect.ro/2026/10/08/pc-game-pass-octombrie-2026/">Connect.ro</source>
       <media:content url="https://izz.ro/tech/microsoft-aduce-titluri-noi-in-catalogul-pc-game-pass-pentru-octombrie/cover.jpg?v=cb41db80" medium="image" type="image/jpeg"/>
       <description>Platforma PC Game Pass va integra nouă jocuri video între 8 și 16 octombrie, printre care Battlefield 6 și Valor Mortis, majoritatea fiind disponibile chiar de la data lansării oficiale.</description>
+    </item>
+    <item>
+      <title>Microsoft testează integrarea unui asistent AI în funcția Windows Search</title>
+      <link>https://izz.ro/ai/microsoft-testeaza-integrarea-unui-asistent-ai-in-functia-windows-search/</link>
+      <guid>https://izz.ro/ai/microsoft-testeaza-integrarea-unui-asistent-ai-in-functia-windows-search/</guid>
+      <pubDate>Thu, 08 Oct 2026 11:02:14 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/windows-search-agent/">ZonaIT</source>
+      <media:content url="https://izz.ro/ai/microsoft-testeaza-integrarea-unui-asistent-ai-in-functia-windows-search/cover.jpg?v=27129877" medium="image" type="image/jpeg"/>
+      <description>După eliminarea rezultatelor web pline de reclame, compania Microsoft dezvoltă un sistem bazat pe inteligență artificială conversațională pentru a îmbunătăți experiența de căutare în sistemul operativ Windows.</description>
     </item>
     <item>
       <title>Microsoft introduce asistentul AI Copilot direct în bara de sarcini din Windows 11</title>
@@ -269,14 +289,5 @@
       <category>tech</category>
       <source url="https://www.xda-developers.com/despite-canning-the-copilot-brand-most-people-love-its-ai-assistant-says-microsoft/">XDA Developers</source>
       <description>Deși compania a renunțat la brandingul Copilot+ pentru laptopuri, reprezentanții gigantului din Redmond afirmă că utilizatorii apreciază în continuare asistentul bazat pe inteligență artificială, acesta având o evoluție foarte bună.</description>
-    </item>
-    <item>
-      <title>Un utilizator a renunțat la sistemul dual-boot după o eroare critică de Windows</title>
-      <link>https://izz.ro/tech/un-utilizator-a-renuntat-la-sistemul-dual-boot-dupa-o-eroare-critica-de-windows/</link>
-      <guid>https://izz.ro/tech/un-utilizator-a-renuntat-la-sistemul-dual-boot-dupa-o-eroare-critica-de-windows/</guid>
-      <pubDate>Sun, 27 Sep 2026 00:00:17 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/ditch-dual-boot-for-wsl-vm/">XDA Developers</source>
-      <description>O actualizare de securitate Microsoft lansată în august 2024 a blocat accesul la parteneriile Ubuntu prin modificări ale sistemului Secure Boot, determinând trecerea la mașini virtuale și WSL.</description>
     </item>
 </channel></rss>

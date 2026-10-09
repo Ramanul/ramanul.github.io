@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 22:23:56 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 02:24:58 +0000</lastBuildDate>
+    <item>
+      <title>Agențiile UE testează modele de inteligență artificială provenite din China</title>
+      <link>https://izz.ro/ai/agentiile-ue-testeaza-modele-de-inteligenta-artificiala-provenite-din-china/</link>
+      <guid>https://izz.ro/ai/agentiile-ue-testeaza-modele-de-inteligenta-artificiala-provenite-din-china/</guid>
+      <pubDate>Thu, 08 Oct 2026 20:54:20 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.eu/article/eu-cybersecurity-and-science-researchers-are-testing-chinese-ai-models/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/ai/agentiile-ue-testeaza-modele-de-inteligenta-artificiala-provenite-din-china/cover.jpg?v=68118c34" medium="image" type="image/jpeg"/>
+      <description>Centrul de cercetare al Comisiei Europene și agenția de securitate cibernetică ENISA evaluează modele open-source de inteligență artificială dezvoltate în China, conform unor oficiali europeni.</description>
+    </item>
     <item>
       <title>Google a lansat gratuit la nivel global instrumentul SynthID Detector pentru imagini și clipuri AI</title>
       <link>https://izz.ro/ai/google-a-lansat-gratuit-la-nivel-global-instrumentul-synthid-detector-pentru/</link>
@@ -15,6 +25,16 @@
       <source url="https://alba24.ro/cum-poti-verifica-daca-o-imagine-sau-un-videoclip-este-facut-cu-ai-google-a-deschis-gratuit-synthid-detector-1161729.html">Alba24</source>
       <media:content url="https://izz.ro/ai/google-a-lansat-gratuit-la-nivel-global-instrumentul-synthid-detector-pentru/cover.jpg?v=b3a5e7f2" medium="image" type="image/jpeg"/>
       <description>Utilizatorii pot verifica acum dacă fișierele video, audio sau imagini au fost generate cu inteligența artificială, folosind noul instrument digital pus la dispoziție gratuit de Google.</description>
+    </item>
+    <item>
+      <title>Microsoft testează integrarea unui asistent AI în funcția Windows Search</title>
+      <link>https://izz.ro/ai/microsoft-testeaza-integrarea-unui-asistent-ai-in-functia-windows-search/</link>
+      <guid>https://izz.ro/ai/microsoft-testeaza-integrarea-unui-asistent-ai-in-functia-windows-search/</guid>
+      <pubDate>Thu, 08 Oct 2026 11:02:14 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/windows-search-agent/">ZonaIT</source>
+      <media:content url="https://izz.ro/ai/microsoft-testeaza-integrarea-unui-asistent-ai-in-functia-windows-search/cover.jpg?v=27129877" medium="image" type="image/jpeg"/>
+      <description>După eliminarea rezultatelor web pline de reclame, compania Microsoft dezvoltă un sistem bazat pe inteligență artificială conversațională pentru a îmbunătăți experiența de căutare în sistemul operativ Windows.</description>
     </item>
     <item>
       <title>Lansarea unei platforme software pentru optimizarea profitului promoțiilor</title>
@@ -446,23 +466,5 @@
       <category>ai</category>
       <source url="https://www.unica.ro/stiri/cum-echipam-copiii-pentru-ziua-de-maine-marea-provocare-educationala-a-erei-inteligentei-artificiale-837415">Unica</source>
       <description>Avansul tehnologic rapid impune schimbarea radicală a metodelor de predare din școli, deoarece copiii de astăzi vor profesa în domenii inovatoare care încă nu au fost inventate.</description>
-    </item>
-    <item>
-      <title>Datalab lansează OmniExtractBench pentru evaluarea documentelor</title>
-      <link>https://izz.ro/ai/datalab-lanseaza-omniextractbench-pentru-evaluarea-documentelor/</link>
-      <guid>https://izz.ro/ai/datalab-lanseaza-omniextractbench-pentru-evaluarea-documentelor/</guid>
-      <pubDate>Fri, 02 Oct 2026 15:23:35 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.marktechpost.com/2026/10/02/datalab-introduces-omniextractbench-to-fix-bias-and-opacity-in-extraction-benchmarks/">MarkTechPost</source>
-      <description>Platforma Datalab a pus la dispoziție un benchmark deschis numit OmniExtractBench, destinat testării precise a sistemelor de extragere a datelor din documente PDF pe baza unor scheme JSON unificate.</description>
-    </item>
-    <item>
-      <title>Anthropic lansează funcția de moduri pentru personalizarea lui Claude Code</title>
-      <link>https://izz.ro/ai/anthropic-lanseaza-functia-de-moduri-pentru-personalizarea-lui-claude-code/</link>
-      <guid>https://izz.ro/ai/anthropic-lanseaza-functia-de-moduri-pentru-personalizarea-lui-claude-code/</guid>
-      <pubDate>Fri, 02 Oct 2026 14:07:50 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/anthropic-claude-code-mods-plugins/">The New Stack</source>
-      <description>Dezvoltatorii pot modifica acum interfața și comportamentul instrumentului Claude Code prin intermediul unor noi opțiuni avansate de personalizare introduse de compania Anthropic, oferind un control mult mai detaliat asupra funcțiilor.</description>
     </item>
 </channel></rss>

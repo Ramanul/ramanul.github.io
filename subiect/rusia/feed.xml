@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/rusia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Rusia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 22:23:49 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 02:24:49 +0000</lastBuildDate>
     <item>
       <title>Kremlinul confirmă evaluarea lui Marco Rubio privind impasul din Ucraina</title>
       <link>https://izz.ro/extern/kremlinul-confirma-evaluarea-lui-marco-rubio-privind-impasul-din-ucraina/</link>
@@ -33,7 +33,7 @@
       <pubDate>Thu, 08 Oct 2026 18:49:45 +0000</pubDate>
       <category>politic</category>
       <source url="https://stirileprotv.ro/stiri/international/marco-rubio-razboiul-ruso-ucrainean-a-ajuns-intr-un-impas-foarte-periculos-si-ar-putea-urma-sabotaje-in-ari-vecine.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/politic/marco-rubio-avertizeaza-ca-razboiul-din-ucraina-a-ajuns-intr-un-impas-periculos/cover.jpg?v=70f96731" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/politic/marco-rubio-avertizeaza-ca-razboiul-din-ucraina-a-ajuns-intr-un-impas-periculos/cover.jpg?v=47196b95" medium="image" type="image/jpeg"/>
       <description>Secretarul de stat american Marco Rubio a declarat că conflictul armat din Ucraina se află într-un impas periculos care riscă să provoace o escaladare a tensiunilor și campanii de sabotaj în țările vecine NATO.</description>
     </item>
     <item>
@@ -43,8 +43,18 @@
       <pubDate>Thu, 08 Oct 2026 18:41:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/eveniment/ziua-1688-morti-si-raniti-de-ziua-lui-putin-lovitura-la-la-google-ul-rusiei-varsovia-a-gasit-drone-cu-sim-uri-poloneze">Spotmedia</source>
-      <media:content url="https://izz.ro/extern/zeci-de-morti-in-urma-unor-atacuri-cu-drone-si-bombe-in-ucraina/cover.jpg?v=9550988a" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/zeci-de-morti-in-urma-unor-atacuri-cu-drone-si-bombe-in-ucraina/cover.jpg?v=0a859636" medium="image" type="image/jpeg"/>
       <description>Atacurile rusești cu drone și o bombă planantă care a lovit două autobuze în Kramatorsk s-au soldat cu zeci de morți și numeroși răniți în mai multe regiuni din Ucraina.</description>
+    </item>
+    <item>
+      <title>Atacurile rusești din Ucraina au ucis cel puțin 30 de oameni în autobuze</title>
+      <link>https://izz.ro/extern/atacurile-rusesti-din-ucraina-au-ucis-cel-putin-30-de-oameni-in-autobuze/</link>
+      <guid>https://izz.ro/extern/atacurile-rusesti-din-ucraina-au-ucis-cel-putin-30-de-oameni-in-autobuze/</guid>
+      <pubDate>Thu, 08 Oct 2026 16:31:29 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <media:content url="https://izz.ro/extern/atacurile-rusesti-din-ucraina-au-ucis-cel-putin-30-de-oameni-in-autobuze/cover.jpg?v=906d69a3" medium="image" type="image/jpeg"/>
+      <description>Oficialii ucraineni acuză Rusia că a vizat două vehicule aglomerate în orașul de pe linia frontului Kramatorsk, provocând moartea a cel puțin 30 de civili într-un nou atac sângeros.</description>
     </item>
     <item>
       <title>Danemarca acuză Rusia de operațiuni de sabotaj împotriva industriei de apărare</title>
@@ -65,6 +75,16 @@
       <source url="https://www.europalibera.md/a/harta-interactiva-ploaia-de-drone-cum-s-a-mutat-pericolul-de-la-granita-spre-centrul-r-moldova/33871506.html">Europa Liberă</source>
       <media:content url="https://izz.ro/extern/hharta-interactiva-a-dronelor-cazute-pe-teritoriul-republicii-moldova-de-la/cover.jpg?v=9190da9f" medium="image" type="image/jpeg"/>
       <description>Ministerul Apărării de la Chișinău a înregistrat zeci de încălcări ale spațiului aerian, aproape jumătate dintre drone și rachete prăbușindu-se pe teritoriul moldovean, situație ilustrată printr-o hartă dedicată.</description>
+    </item>
+    <item>
+      <title>Atacurile ruse asupra centrelor de date din Ucraina nu vor prăbuși internetul țării</title>
+      <link>https://izz.ro/extern/atacurile-ruse-asupra-centrelor-de-date-din-ucraina-nu-vor-prabusi-internetul/</link>
+      <guid>https://izz.ro/extern/atacurile-ruse-asupra-centrelor-de-date-din-ucraina-nu-vor-prabusi-internetul/</guid>
+      <pubDate>Thu, 08 Oct 2026 10:52:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dw.com/en/as-russia-steps-up-attacks-on-ukrainian-data-centers-could-ukraine-soon-be-offline/a-79582503?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
+      <media:content url="https://izz.ro/extern/atacurile-ruse-asupra-centrelor-de-date-din-ucraina-nu-vor-prabusi-internetul/cover.jpg?v=bbb4d392" medium="image" type="image/jpeg"/>
+      <description>Deși Rusia își intensifică atacurile cibernetice și fizice asupra infrastructurii digitale ucrainene, specialiștii susțin că sistemul de internet este suficient de rezistent, chiar dacă serviciile ar putea deveni mai costisitoare.</description>
     </item>
     <item>
       <title>Coreea de Sud verifică transporturile de combustibil cu destinația Rusia</title>
@@ -137,14 +157,14 @@
       <description>Autoritățile din Coreea de Sud au infirmat acuzațiile formulate de Ucraina, explicând că livrările recente de carburant către Moscova nu încalcă reglementările internaționale privind controalele la export.</description>
     </item>
     <item>
-      <title>Maia Sandu acuză Rusia că a încercat transformarea Republicii Moldova într-un al doilea Belarus</title>
+      <title>Maia Sandu acuză Rusia de planuri pentru transformarea Moldovei într-un al doilea Belarus</title>
       <link>https://izz.ro/extern/maia-sandu-acuza-rusia-ca-a-vrut-sa-transforme-moldova-in-alt-belarus/</link>
       <guid>https://izz.ro/extern/maia-sandu-acuza-rusia-ca-a-vrut-sa-transforme-moldova-in-alt-belarus/</guid>
       <pubDate>Thu, 08 Oct 2026 07:35:39 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/moldova/putin-a-incercat-sa-transforme-republica-moldova-in-al-doilea-belarus-si-s-o-foloseasca-impotriva-ue-si-a-ucrainei-sustine-maia-sandu-3983325">Digi24 Extern, Jurnalul Olteniei</source>
-      <media:content url="https://izz.ro/extern/maia-sandu-acuza-rusia-ca-a-vrut-sa-transforme-moldova-in-alt-belarus/cover.jpg?v=ca524199" medium="image" type="image/jpeg"/>
-      <description>Președinta Republicii Moldova, Maia Sandu, susține că planurile Moscovei au urmărit transformarea statului într-un al doilea Belarus pentru a fi folosit împotriva Ucrainei și a Uniunii Europene. Aceasta a precizat că acțiunile au fost dejucate prin votul cetățenilor și a subliniat că Rusia continuă campaniile de dezinformare pentru a sabota modernizarea armatei și a discredita instituțiile.</description>
+      <media:content url="https://izz.ro/extern/maia-sandu-acuza-rusia-ca-a-vrut-sa-transforme-moldova-in-alt-belarus/cover.jpg?v=329d6057" medium="image" type="image/jpeg"/>
+      <description>Președinta Republicii Moldova, Maia Sandu, a declarat că Rusia a urmărit transformarea țării într-un al doilea Belarus și utilizarea teritoriului național împotriva Ucrainei și Uniunii Europene. Aceasta a subliniat că planurile Moscovei au fost dejucate prin votul cetățenilor, în timp ce autoritățile ruse continuă campaniile de dezinformare pentru a discredita instituțiile statului.</description>
     </item>
     <item>
       <title>Ciuma pneumonică atrage atenția după decesul unei cercetătoare din Rusia</title>
@@ -195,16 +215,6 @@
       <source url="https://hotnews.ro/rusia-cere-vietnamului-avioane-cu-tot-cu-echipaje-pe-masura-ce-flota-occidentala-confiscata-se-degradeaza-2370044">HotNews</source>
       <media:content url="https://izz.ro/extern/rusia-solicita-vietnamului-avioane-de-pasageri-cu-tot-cu-echipaj-din-cauza/cover.jpg?v=e768047b" medium="image" type="image/jpeg"/>
       <description>Moscova a cerut autorităților vietnameze închirierea de aeronave și servicii de întreținere, după ce flota confiscată de la companiile occidentale s-a degradat, lăsând aproape o cincime din avioane la sol.</description>
-    </item>
-    <item>
-      <title>Atacurile rusești din Ucraina provoacă 28 de morți de ziua lui Vladimir Putin</title>
-      <link>https://izz.ro/extern/atacurile-rusesti-din-ucraina-provoaca-28-de-morti-de-ziua-lui-vladimir-putin/</link>
-      <guid>https://izz.ro/extern/atacurile-rusesti-din-ucraina-provoaca-28-de-morti-de-ziua-lui-vladimir-putin/</guid>
-      <pubDate>Wed, 07 Oct 2026 20:10:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/ziua-1687-rusia-se-dezlantuie-de-ziua-tarului-11-morti-bloc-facut-zob-de-o-racheta-video-cadoul-ucrainei-trump-vrea-sa-vorbeasca-cu-putin-despre-ciuma">Spotmedia</source>
-      <media:content url="https://izz.ro/extern/atacurile-rusesti-din-ucraina-provoaca-28-de-morti-de-ziua-lui-vladimir-putin/cover.jpg?v=b67aa79c" medium="image" type="image/jpeg"/>
-      <description>În ziua în care Vladimir Putin împlinește 74 de ani, un bombardament masiv al Rusiei a ucis cel puțin 28 de persoane în Ucraina, distrugând un bloc de locuințe din regiunea Cernigău.</description>
     </item>
     <item>
       <title>OMS a infirmat existența cazurilor de ciumă pulmonară în regiunea rusă Irkutsk</title>
@@ -333,7 +343,6 @@
       <pubDate>Wed, 07 Oct 2026 13:45:16 +0000</pubDate>
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/eveniment/ciuma-din-rusia-a-mai-murit-un-om-200-de-persoane-sunt-in-carantina-oms-si-trump-vor-sa-afle-ce-se-intampla">Spotmedia</source>
-      <media:content url="https://izz.ro/extern/suspiciuni-privind-un-al-doilea-deces-de-ciuma-in-rusia/cover.jpg?v=fc2b518e" medium="image" type="image/jpeg"/>
       <description>OMS și liderul american Donald Trump cer transparență autorităților ruse în urma apariției unui posibil al doilea caz mortal de ciumă pneumonică în Siberia, unde circa 200 de persoane sunt în carantină.</description>
     </item>
     <item>
@@ -343,7 +352,6 @@
       <pubDate>Wed, 07 Oct 2026 13:33:20 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/un-aparat-de-zbor-neidentificat-a-intrat-neautorizat-in-spatiul-aerian-al-republicii-moldova-in-timp-ce-ucraina-era-atacata-3982597">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/aparat-de-zbor-neidentificat-detectat-in-spatiul-aerian-al-republicii-moldova/cover.jpg?v=f804f237" medium="image" type="image/jpeg"/>
       <description>Un zbor neautorizat a fost semnalat deasupra teritoriului moldovean pe fondul atacurilor aeriene lansate de Rusia asupra Ucrainei, conform informațiilor furnizate de Armata Națională.</description>
     </item>
     <item>
@@ -480,14 +488,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ucraina-critica-coreea-de-sud-pentru-transporturile-de-combustibil-catre-rusia-au-inceput-exact-cand-atacurile-au-provocat-o-penurie-3981205">Digi24 Extern</source>
       <description>Kievul susține că transporturile petroliere asigurate prin intermediul statului asiatic ajută Moscova să acopere deficitul de rafinare provocat de atacurile ucrainene asupra infrastructurii.</description>
-    </item>
-    <item>
-      <title>OMS investighează riscul de ciumă în Rusia după decesul unei laborante</title>
-      <link>https://izz.ro/sanatate/oms-investigheaza-riscul-de-ciuma-in-rusia-dupa-decesul-unei-laborante/</link>
-      <guid>https://izz.ro/sanatate/oms-investigheaza-riscul-de-ciuma-in-rusia-dupa-decesul-unei-laborante/</guid>
-      <pubDate>Tue, 06 Oct 2026 16:01:26 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://hotnews.ro/evaluarea-oms-privind-riscul-de-ciuma-in-europa-dupa-moartea-unei-laborante-la-irkutk-2368966">HotNews</source>
-      <description>Organizația Mondială a Sănătății analizează autoritățile sanitare ruse în urma decesului unei angajate de la un institut din Siberia, estimând că pericolul de contaminare este redus.</description>
     </item>
 </channel></rss>
