@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/resita/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Reșița pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 02:24:49 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+    <item>
+      <title>Cartierul reșițean Stavila rămâne temporar fără apă din cauza unei avarii</title>
+      <link>https://izz.ro/general/cartierul-resitean-stavila-ramane-temporar-fara-apa-din-cauza-unei-avarii/</link>
+      <guid>https://izz.ro/general/cartierul-resitean-stavila-ramane-temporar-fara-apa-din-cauza-unei-avarii/</guid>
+      <pubDate>Fri, 09 Oct 2026 06:35:43 +0000</pubDate>
+      <category>general</category>
+      <source url="https://expressdebanat.ro/cartierul-resitean-stavila-ramane-fara-apa-avarie/">Express de Banat</source>
+      <media:content url="https://izz.ro/general/cartierul-resitean-stavila-ramane-temporar-fara-apa-din-cauza-unei-avarii/cover.jpg?v=62d88825" medium="image" type="image/jpeg"/>
+      <description>Locuitorii din cartierul Stavila vor fi afectați de oprirea furnizării apei potabile astăzi, începând cu ora 09:30, din cauza unei defecțiuni remediate de SC Aquacaraș SA.</description>
+    </item>
     <item>
       <title>Bursa locurilor de muncă pentru absolvenți oferă 260 de posturi la Reșița</title>
       <link>https://izz.ro/local/bursa-locurilor-de-munca-pentru-absolventi-ofera-260-de-posturi-la-resita/</link>
@@ -51,15 +61,6 @@
       <category>judetean</category>
       <source url="https://www.bihon.ro/stirile-judetului-bihor/cutremur-in-vestul-tarii-la-aproximativ-110-kilometri-de-oradea-ce-magnitudine-a-avut-seismul-5422023/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Un cutremur cu magnitudinea de 2,8 s-a produs la o adâncime de cinci kilometri, având epicentrul localizat în județul Arad, la mică distanță de mai multe orașe din regiune.</description>
-    </item>
-    <item>
-      <title>Cartierul Stavila din Reșița rămâne fără apă potabilă din cauza unei avarii</title>
-      <link>https://izz.ro/local/cartierul-stavila-din-resita-ramane-fara-apa-potabila-din-cauza-unei-avarii/</link>
-      <guid>https://izz.ro/local/cartierul-stavila-din-resita-ramane-fara-apa-potabila-din-cauza-unei-avarii/</guid>
-      <pubDate>Wed, 07 Oct 2026 05:41:38 +0000</pubDate>
-      <category>local</category>
-      <source url="https://expressdebanat.ro/cartierul-stavila-din-resita-ramane-fara-apa-avarie/">Express de Banat</source>
-      <description>Compania Aquacaraș execută lucrări de remediere a unei defecțiuni apărute la rețeaua de alimentare, sistând furnizarea apei pentru consumatorii din zona menționată până la finalizarea intervenției.</description>
     </item>
     <item>
       <title>Primarul Reșiței respinge acuzațiile ONG-ului Agent Green privind proiectul Semenic</title>
@@ -168,23 +169,5 @@
       <category>local</category>
       <source url="https://expressdebanat.ro/peste-63-milioane-de-lei-in-plus-in-patrimoniul-judetului-dupa-reevaluarea-apartamentelor-dgaspc/">Express de Banat</source>
       <description>Consiliul Județean Caraș-Severin a aprobat reevaluarea a 43 de apartamente administrate de DGASPC în Reșița și Caransebeș, a căror valoare contabilă a urcat de la 1,7 milioane la 8,1 milioane de lei.</description>
-    </item>
-    <item>
-      <title>Copiii din Reșița au fost premiați la Muzeul Banatului Montan pentru fotografii locale</title>
-      <link>https://izz.ro/local/copiii-din-resita-au-fost-premiati-la-muzeul-banatului-montan-pentru-fotografii/</link>
-      <guid>https://izz.ro/local/copiii-din-resita-au-fost-premiati-la-muzeul-banatului-montan-pentru-fotografii/</guid>
-      <pubDate>Sun, 27 Sep 2026 07:00:02 +0000</pubDate>
-      <category>local</category>
-      <source url="https://expressdebanat.ro/copiii-resitei-premiati-la-muzeul-banatului-montan-in-cadrul-concursului-muzeul-din-cartierul-meu/">Express de Banat</source>
-      <description>Muzeul Banatului Montan din Reșița a găzduit festivitatea concursului de fotografie pentru copii „Muzeul din cartierul meu”, eveniment organizat în colaborare cu Asociația Culturală ArtVibe.</description>
-    </item>
-    <item>
-      <title>A ediția a XII-a a evenimentului «AlerGând la Pădure» sprijină reabilitarea Serelor Uzinale din Reșița</title>
-      <link>https://izz.ro/local/a-editia-a-xii-a-a-evenimentului-alergand-la-padure-sprijina-reabilitarea/</link>
-      <guid>https://izz.ro/local/a-editia-a-xii-a-a-evenimentului-alergand-la-padure-sprijina-reabilitarea/</guid>
-      <pubDate>Sun, 27 Sep 2026 06:00:02 +0000</pubDate>
-      <category>local</category>
-      <source url="https://expressdebanat.ro/resita-alearga-pentru-natura-comunitate-si-salvarea-serelor-uzinale-o-noua-editie-alergand-la-padure/">Express de Banat</source>
-      <description>Pe 24 octombrie, iubitorii de alergare montană din Reșița participă la noua ediție a competiției de trail, având ca scop ecologic și social strângerea de fonduri pentru salvarea Serelor Uzinale din localitate.</description>
     </item>
 </channel></rss>

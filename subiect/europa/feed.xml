@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 02:24:49 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+    <item>
+      <title>Noua variantă de coronavirus XFG, denumită „Stratus”, monitorizată în Europa</title>
+      <link>https://izz.ro/sanatate/noua-varianta-de-coronavirus-xfg-denumita-stratus-monitorizata-in-europa/</link>
+      <guid>https://izz.ro/sanatate/noua-varianta-de-coronavirus-xfg-denumita-stratus-monitorizata-in-europa/</guid>
+      <pubDate>Fri, 09 Oct 2026 06:30:28 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://www.csid.ro/stiri/o-noua-varianta-de-coronavirus-circula-in-europa-ce-se-stie-despre-xfg-numita-si-stratus-21329552/">CSÎD</source>
+      <media:content url="https://izz.ro/sanatate/noua-varianta-de-coronavirus-xfg-denumita-stratus-monitorizata-in-europa/cover.jpg?v=bf905acf" medium="image" type="image/jpeg"/>
+      <description>Autoritățile sanitare europene urmăresc răspândirea tulpinii XFG de coronavirus, supranumită „Stratus”, care a fost detectată deja în mai multe state de pe continent.</description>
+    </item>
     <item>
       <title>Marco Rubio îndeamnă Europa să își schimbe abordarea strategică actuală</title>
       <link>https://izz.ro/politic/marco-rubio-indeamna-europa-sa-isi-schimbe-abordarea-strategica-actuala/</link>
@@ -23,7 +33,7 @@
       <pubDate>Wed, 07 Oct 2026 21:14:47 +0000</pubDate>
       <category>lifestyle</category>
       <source url="https://www.urban.ro/cele-mai-bune-zece-regiuni-viticole-din-europa-pentru-o-mini-vacanta-in-toamna-lui-2025/">Urban.ro</source>
-      <media:content url="https://izz.ro/lifestyle/zece-regiuni-viticole-din-europa-ofera-destinatii-ideale-pentru-vacantele-de/cover.jpg?v=d319aa1b" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/lifestyle/zece-regiuni-viticole-din-europa-ofera-destinatii-ideale-pentru-vacantele-de/cover.jpg?v=678ced0f" medium="image" type="image/jpeg"/>
       <description>Sezonul de toamnă transformă peisajele viticole europene în destinații perfecte pentru minivacanțe relaxante, datorită temperaturilor blânde, atmosferei liniștite și peisajelor spectaculoase.</description>
     </item>
     <item>
@@ -448,14 +458,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/meteo/domul-de-caldura-s-a-asezat-peste-vestul-si-centrul-europei-si-a-adus-temperaturi-nefiresti-pentru-septembrie-unde-sunt-41-de-grade-804776.html">Antena 3 CNN</source>
       <description>Meteorologii raportează valori termice neobișnuit de ridicate pentru finalul lunii septembrie în Europa, în unele regiuni din Spania temperaturile atingând pragul de 41 de grade Celsius.</description>
-    </item>
-    <item>
-      <title>Criză de cartofi în Europa din cauza trecerii rapide la deficit</title>
-      <link>https://izz.ro/economic/criza-de-cartofi-in-europa-din-cauza-trecerii-rapide-la-deficit/</link>
-      <guid>https://izz.ro/economic/criza-de-cartofi-in-europa-din-cauza-trecerii-rapide-la-deficit/</guid>
-      <pubDate>Sun, 27 Sep 2026 17:07:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/companii/retail-agrobusiness/in-europa-umilul-cartof-devine-un-aliment-de-baza-tot-mai-greu-de-gasit-23247765">Ziarul Financiar</source>
-      <description>Piața europeană a cartofilor a suferit o schimbare majoră în doar câteva luni, trecând de la o producție excedentară la o criză de aprovizionare care afectează consumatorii și industria.</description>
     </item>
 </channel></rss>

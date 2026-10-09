@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 02:24:49 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+    <item>
+      <title>Aplicațiile mobile ale partidelor politice devin riscuri majore de manipulare</title>
+      <link>https://izz.ro/politic/aplicatiile-mobile-ale-partidelor-politice-devin-riscuri-majore-de-manipulare/</link>
+      <guid>https://izz.ro/politic/aplicatiile-mobile-ale-partidelor-politice-devin-riscuri-majore-de-manipulare/</guid>
+      <pubDate>Fri, 09 Oct 2026 03:04:56 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.nwradu.ro/2026/10/ma-sperie-ideea-aplicatii-oficiale-ale-partidelor-politice-instrumente-excelente-manipulare/">NwRadu</source>
+      <media:content url="https://izz.ro/politic/aplicatiile-mobile-ale-partidelor-politice-devin-riscuri-majore-de-manipulare/cover.jpg?v=9d3edb0d" medium="image" type="image/jpeg"/>
+      <description>Aplicațiile oficiale lansate de partidele politice pentru comunicarea directă cu cetățenii ridică semne de alarmă privind propagarea de știri false și manipularea electoratului în contextul tehnologiilor moderne.</description>
+    </item>
     <item>
       <title>Kelemen Hunor avertizează că alegerile anticipate ar aduce AUR la guvernare</title>
       <link>https://izz.ro/politic/kelemen-hunor-avertizeaza-ca-alegerile-anticipate-ar-aduce-aur-la-guvernare/</link>
@@ -63,7 +73,6 @@
       <pubDate>Wed, 07 Oct 2026 16:35:38 +0000</pubDate>
       <category>politic</category>
       <source url="https://newsbv.ro/dan-tanasa-deputat-aur-brasov-finantare-ong/">News Brașov</source>
-      <media:content url="https://izz.ro/politic/aur-cere-adoptarea-legii-privind-transparenta-finantarii-ong-urilor/cover.jpg?v=a15c9788" medium="image" type="image/jpeg"/>
       <description>Deputatul Dan Tanasă solicită partidelor din Parlament să deblocheze proiectul AUR care impune transparența finanțării asociațiilor și fundațiilor, acuzând actuala coaliție de blocaj.</description>
     </item>
     <item>
@@ -73,7 +82,6 @@
       <pubDate>Wed, 07 Oct 2026 15:56:00 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.antena3.ro/politica/fondatorul-aur-il-atac-dur-pe-george-simion-lulea-acuza-ca-in-partid-e-dictatura-si-spune-ca-sunt-multi-cei-care-vor-o-schimbare-806217.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/politic/fondatorul-aur-lulea-il-acuza-pe-george-simion-de-dictatura-in-partid/cover.jpg?v=a55a23d7" medium="image" type="image/jpeg"/>
       <description>Lulea a lansat acuzații dure la adresa conducerii formațiunii AUR, susținând că puterea absolută a creat o stare de dictatură și că mulți membri își doresc o schimbare urgentă.</description>
     </item>
     <item>
@@ -453,14 +461,5 @@
       <category>politic</category>
       <source url="https://stirileprotv.ro/stiri/politic/basescu-cere-verificarea-baii-de-bani-in-care-se-scalda-simion-arestarea-lui-georgescu-momentul-de-maxima-amplitudine.html">Știrile ProTV</source>
       <description>Fostul șef al statului a comentat evoluția scenei politice românești, estimând că formațiunea condusă de George Simion a ajuns la apogeul electoral și va înregistra un declin.</description>
-    </item>
-    <item>
-      <title>Traian Băsescu cere verificarea finanțelor AUR și susține că partidul a plafonat</title>
-      <link>https://izz.ro/politic/traian-basescu-cere-verificarea-finantelor-aur-si-sustine-ca-partidul-a-plafonat/</link>
-      <guid>https://izz.ro/politic/traian-basescu-cere-verificarea-finantelor-aur-si-sustine-ca-partidul-a-plafonat/</guid>
-      <pubDate>Wed, 30 Sep 2026 17:44:21 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://hotnews.ro/basescu-anticipeaza-multe-probleme-legate-de-contabilitatea-partidului-aur-ar-trebui-sa-ne-uitam-mai-atent-la-baia-de-bani-in-care-se-scalda-simion-2363123">HotNews, G4Media</source>
-      <description>Fostul președinte Traian Băsescu a declarat că formațiunea AUR și-a atins potențialul electoral maxim și va intra pe o pantă descendentă. De asemenea, acesta a ridicat semne de întrebare cu privire la contabilitatea partidului și fondurile gestionate de liderul George Simion, sugerând necesitatea unui control financiar riguros pentru verificarea sumelor cheltuite.</description>
     </item>
 </channel></rss>

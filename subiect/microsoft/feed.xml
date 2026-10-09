@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 02:24:49 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+    <item>
+      <title>SUA au suspendat companii mari dintr-un program de vize</title>
+      <link>https://izz.ro/judetean/sua-au-suspendat-companii-mari-dintr-un-program-de-vize/</link>
+      <guid>https://izz.ro/judetean/sua-au-suspendat-companii-mari-dintr-un-program-de-vize/</guid>
+      <pubDate>Fri, 09 Oct 2026 08:41:45 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-9-octombrie-2026/">NwRadu</source>
+      <media:content url="https://izz.ro/judetean/sua-au-suspendat-companii-mari-dintr-un-program-de-vize/cover.jpg?v=fdbb9c94" medium="image" type="image/jpeg"/>
+      <description>Statele Unite au scos temporar corporații precum Microsoft și Adobe dintr-un program care facilita obținerea cărților verzi pentru angajații străini. Între timp, la Cluj se pregătește deschiderea unui nou institut de inteligență artificială.</description>
+    </item>
     <item>
       <title>Administrația Trump blochează marile companii IT să ceară rezidență pentru străini</title>
       <link>https://izz.ro/tech/administratia-trump-blocheaza-marile-companii-it-sa-ceara-rezidenta-pentru/</link>
@@ -271,23 +281,5 @@
       <category>tech</category>
       <source url="https://www.xda-developers.com/windows-11s-driver-signature-requirement-is-one-of-the-best-anti-consumer-security-features-out-there/">XDA Developers</source>
       <description>Politica Microsoft care impune semnătura digitală obligatorie pentru drivere în Windows 11 generează nemulțumiri, determinând utilizatorii să prefere versiuni vechi sau sisteme alternative.</description>
-    </item>
-    <item>
-      <title>Microsoft introduce o funcție în Outlook pentru prevenirea trimiterii de mesaje cu greșeli</title>
-      <link>https://izz.ro/tech/microsoft-introduce-o-functie-in-outlook-pentru-prevenirea-trimiterii-de-mesaje/</link>
-      <guid>https://izz.ro/tech/microsoft-introduce-o-functie-in-outlook-pentru-prevenirea-trimiterii-de-mesaje/</guid>
-      <pubDate>Sun, 27 Sep 2026 04:51:20 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/microsoft-outlooks-new-feature-will-stop-you-from-accidentally-sending-embarrassing-typos-to-your-boss/">XDA Developers</source>
-      <description>Gigantul american testează o opțiune suplimentară în aplicația Outlook care avertizează utilizatorii imediat după apăsarea butonului de trimitere, dacă mesajele conțin erori flagrante de scriere.</description>
-    </item>
-    <item>
-      <title>Microsoft susține că asistentul AI Copilot rămâne extrem de popular</title>
-      <link>https://izz.ro/tech/microsoft-sustine-ca-asistentul-ai-copilot-ramane-extrem-de-popular/</link>
-      <guid>https://izz.ro/tech/microsoft-sustine-ca-asistentul-ai-copilot-ramane-extrem-de-popular/</guid>
-      <pubDate>Sun, 27 Sep 2026 04:20:10 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/despite-canning-the-copilot-brand-most-people-love-its-ai-assistant-says-microsoft/">XDA Developers</source>
-      <description>Deși compania a renunțat la brandingul Copilot+ pentru laptopuri, reprezentanții gigantului din Redmond afirmă că utilizatorii apreciază în continuare asistentul bazat pe inteligență artificială, acesta având o evoluție foarte bună.</description>
     </item>
 </channel></rss>

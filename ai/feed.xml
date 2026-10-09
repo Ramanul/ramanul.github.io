@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 02:24:58 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 09:26:38 +0000</lastBuildDate>
+    <item>
+      <title>Google Cloud lansează Agentul Gemini pentru sarcini complexe de AI</title>
+      <link>https://izz.ro/ai/google-cloud-lanseaza-agentul-gemini-pentru-sarcini-complexe-de-ai/</link>
+      <guid>https://izz.ro/ai/google-cloud-lanseaza-agentul-gemini-pentru-sarcini-complexe-de-ai/</guid>
+      <pubDate>Fri, 09 Oct 2026 08:03:40 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.economica.net/google-cloud-prezinta-agentul-gemini-conceput-pentru-a-transforma-modul-in-care-companiile-lucreaza-cu-ai_984133.html">Economica</source>
+      <media:content url="https://izz.ro/ai/google-cloud-lanseaza-agentul-gemini-pentru-sarcini-complexe-de-ai/cover.jpg?v=58b788c6" medium="image" type="image/jpeg"/>
+      <description>Gigantul tehnologic a introdus un asistent universal capabil să genereze conținut media, să scrie cod și să răspundă la întrebări. Această tehnologie este integrată direct în suita Google Workspace pentru eficientizarea activităților office.</description>
+    </item>
     <item>
       <title>Agențiile UE testează modele de inteligență artificială provenite din China</title>
       <link>https://izz.ro/ai/agentiile-ue-testeaza-modele-de-inteligenta-artificiala-provenite-din-china/</link>
@@ -93,7 +103,7 @@
       <pubDate>Wed, 07 Oct 2026 22:12:11 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.urban.ro/primul-film-realizat-cu-inteligenta-artificiala-in-cursa-pentru-oscar/">Urban.ro</source>
-      <media:content url="https://izz.ro/ai/un-lungmetraj-creat-integral-cu-inteligenta-artificiala-intra-in-cursa-pentru/cover.jpg?v=48a9ca21" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/un-lungmetraj-creat-integral-cu-inteligenta-artificiala-intra-in-cursa-pentru/cover.jpg?v=a141aec0" medium="image" type="image/jpeg"/>
       <description>Pelicula „Gods Don’t Give Gifts”, realizată de creatorul de conținut cunoscut ca Gossip Goblin, a lansat trailerul oficial și candidează pentru o nominalizare la premiile Academiei Americane de Film.</description>
     </item>
     <item>
@@ -103,7 +113,6 @@
       <pubDate>Wed, 07 Oct 2026 15:37:13 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.politico.eu/article/super-intelligence-force-ce-que-la-maison-blanche-attend-de-cette-task-force-sur-lia/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <media:content url="https://izz.ro/ai/casa-alba-acorda-puteri-extinse-unei-noi-task-force-dedicate-inteligentei/cover.jpg?v=a768808e" medium="image" type="image/jpeg"/>
       <description>Administrația americană a împuternicit noua structură "Super Intelligence Force" să evalueze riscurile pe care evoluția rapidă a inteligenței artificiale le aduce asupra securității naționale și a libertăților civile.</description>
     </item>
     <item>
@@ -113,7 +122,6 @@
       <pubDate>Wed, 07 Oct 2026 14:28:15 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.politico.eu/podcast/playbook-paris-podcast/mistral-le-retour-dans-la-course-du-champion-de-lelysee/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <media:content url="https://izz.ro/ai/compania-franceza-mistral-a-lansat-noul-model-de-inteligenta-artificiala-large-4/cover.jpg?v=b41aeba9" medium="image" type="image/jpeg"/>
       <description>Startup-ul francez Mistral revine în cursa globală a tehnologiilor generative prin lansarea modelului Large 4, recâștigând astfel susținerea oficială a statului francez și a clasei politice locale.</description>
     </item>
     <item>
@@ -457,14 +465,5 @@
       <category>ai</category>
       <source url="https://www.avantaje.ro/articol/cum-pregatim-copiii-pentru-viitor-abilitatile-care-vor-conta-intr-o-lume-schimbata-de-ai">Avantaje</source>
       <description>Evoluția inteligenței artificiale schimbă radical cerințele educaționale, transformând memorarea clasică în favoarea competențelor adaptabile pentru viitoarele meserii digitalizate.</description>
-    </item>
-    <item>
-      <title>Sistemul educațional se confruntă cu provocarea pregătirii elevilor pentru era inteligenței artificiale</title>
-      <link>https://izz.ro/ai/sistemul-educational-se-confrunta-cu-provocarea-pregatirii-elevilor-pentru-era/</link>
-      <guid>https://izz.ro/ai/sistemul-educational-se-confrunta-cu-provocarea-pregatirii-elevilor-pentru-era/</guid>
-      <pubDate>Fri, 02 Oct 2026 15:34:36 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.unica.ro/stiri/cum-echipam-copiii-pentru-ziua-de-maine-marea-provocare-educationala-a-erei-inteligentei-artificiale-837415">Unica</source>
-      <description>Avansul tehnologic rapid impune schimbarea radicală a metodelor de predare din școli, deoarece copiii de astăzi vor profesa în domenii inovatoare care încă nu au fost inventate.</description>
     </item>
 </channel></rss>

@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Consiliul Județean Cluj — IZZ.ro</title>
   <link>https://izz.ro/subiect/consiliul-judetean-cluj/</link>
   <atom:link href="https://izz.ro/subiect/consiliul-judetean-cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Consiliul Județean Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 02:11:03 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 09:26:29 +0000</lastBuildDate>
+    <item>
+      <title>Comuna clujeană Așchileu a finalizat noi investiții în infrastructură și educație</title>
+      <link>https://izz.ro/local/comuna-clujeana-aschileu-a-finalizat-noi-investitii-in-infrastructura-si/</link>
+      <guid>https://izz.ro/local/comuna-clujeana-aschileu-a-finalizat-noi-investitii-in-infrastructura-si/</guid>
+      <pubDate>Fri, 09 Oct 2026 07:53:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/administratie/investitii-inainte-de-venirea-iernii-intr-o-comuna-din-cluj-drumuri-pietruite-si-centrala-noua-pentru-scoala--302622.html">Ziua de Cluj</source>
+      <media:content url="https://izz.ro/local/comuna-clujeana-aschileu-a-finalizat-noi-investitii-in-infrastructura-si/cover.jpg?v=f8895bf5" medium="image" type="image/jpeg"/>
+      <description>Primăria a modernizat drumurile locale prin pietruire și a instalat o centrală termică nouă la școală, cu sprijin financiar din fondul de rezervă al Consiliului Județean Cluj.</description>
+    </item>
     <item>
       <title>Consiliul Județean Cluj, acuzat de lucrări nefinalizate în Băișoara</title>
       <link>https://izz.ro/local/consiliul-judetean-cluj-acuzat-de-lucrari-nefinalizate-in-baisoara/</link>
       <guid>https://izz.ro/local/consiliul-judetean-cluj-acuzat-de-lucrari-nefinalizate-in-baisoara/</guid>
       <pubDate>Wed, 07 Oct 2026 12:04:50 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/consiliul-judetean-cluj-este-acuzat-ca-a-receptionat-lucrari-nefinalizate-pe-drumurile-din-baisoara/">Gazeta de Cluj</source>
       <description>Locuitorii din Băișoara reclamă probleme majore pe drumurile județene DJ 107N și DJ 107R, reabilitate recent. Aceștia acuză autoritățile județene de recepționarea unor lucrări cu rigole lipsă și canalizări inaccesibile.</description>
     </item>
     <item>
@@ -18,6 +30,8 @@
       <link>https://izz.ro/judetean/consiliul-judetean-cluj-a-desemnat-firmele-pentru-deszapezirea-drumurilor/</link>
       <guid>https://izz.ro/judetean/consiliul-judetean-cluj-a-desemnat-firmele-pentru-deszapezirea-drumurilor/</guid>
       <pubDate>Wed, 07 Oct 2026 10:43:11 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/consiliul-judetean-cluj-a-desemnat-firmele-care-vor-asigura-deszapezirea-drumurilor-in-urmatorii-patru-ani/">Gazeta de Cluj</source>
       <description>Instituția a finalizat licitația publică pentru serviciile de deszăpezire a celor peste 1.200 de kilometri de drumuri județene, încheind acorduri-cadru valabile pentru următorii patru ani cu mai mulți operatori economici specializați.</description>
     </item>
     <item>
@@ -25,6 +39,8 @@
       <link>https://izz.ro/local/monumentul-rascoalei-de-la-bobalna-va-fi-reabilitat-cu-fonduri-judetene/</link>
       <guid>https://izz.ro/local/monumentul-rascoalei-de-la-bobalna-va-fi-reabilitat-cu-fonduri-judetene/</guid>
       <pubDate>Tue, 06 Oct 2026 12:16:48 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/monumentul-rascoalei-de-la-bobalna-intra-in-reabilitare-cu-fonduri-alocate-de-consiliul-judetean-cluj/">Gazeta de Cluj</source>
       <description>Primăria Bobâlna a demarat proiectul de conservare a monumentului istoric, finanțat din fondul de rezervă al Consiliului Județean Cluj. Lucrările includ sablarea cu nisip și tratamente de hidrofobizare împotriva intemperiilor.</description>
     </item>
     <item>
@@ -32,6 +48,8 @@
       <link>https://izz.ro/judetean/consiliul-judetean-cluj-sustine-o-conferinta-de-prevenire-a-dependentei/</link>
       <guid>https://izz.ro/judetean/consiliul-judetean-cluj-sustine-o-conferinta-de-prevenire-a-dependentei/</guid>
       <pubDate>Mon, 05 Oct 2026 08:44:20 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/consiliul-judetean-cluj-sustine-lupta-impotriva-dependentei-de-jocuri-de-noroc-si-a-consumului-digital-excesiv/">Gazeta de Cluj</source>
       <description>Sala Cluj Arena a găzduit un eveniment dedicat combaterii adicțiilor comportamentale la tineri, organizat de Asociația Română pentru Studiul Jocurilor de Noroc cu sprijinul autorităților județene.</description>
     </item>
     <item>
@@ -39,6 +57,8 @@
       <link>https://izz.ro/politic/alin-tise-ii-cere-lui-nicusor-dan-implicare-in-formarea-unui-nou-guvern/</link>
       <guid>https://izz.ro/politic/alin-tise-ii-cere-lui-nicusor-dan-implicare-in-formarea-unui-nou-guvern/</guid>
       <pubDate>Mon, 05 Oct 2026 07:02:41 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://gazetadecluj.ro/alin-tise-ii-cere-lui-nicusor-dan-sa-isi-asume-formarea-unui-guvern-din-oameni-competenti/">Gazeta de Cluj</source>
       <description>Președintele CJ Cluj i-a solicitat lui Nicușor Dan să găsească o soluție pentru blocajul politic actual și să propună un Executiv format din experți giranți public de președinte.</description>
     </item>
     <item>
@@ -46,6 +66,8 @@
       <link>https://izz.ro/local/tribunalul-arad-sesizeaza-ccr-privind-legea-numelor-de-lideri-fascisti/</link>
       <guid>https://izz.ro/local/tribunalul-arad-sesizeaza-ccr-privind-legea-numelor-de-lideri-fascisti/</guid>
       <pubDate>Mon, 05 Oct 2026 05:02:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/octavian-goga-un-judecator-curajos-si-o-decizie-fundamentala-a-curtii-constitutionale-a-romaniei/">Gazeta de Cluj</source>
       <description>O instanță din Arad a trimis Curții Constituționale o excepție de neconstituționalitate referitoare la interzicerea atribuirii numelor unor lideri legionari sau fasciști pe spațiile publice, într-un proces vizând Consiliul Județean Cluj.</description>
     </item>
     <item>
@@ -53,6 +75,8 @@
       <link>https://izz.ro/judetean/cluj-arena-ar-putea-fi-redenumita-printr-un-contract-de-sponsorizare/</link>
       <guid>https://izz.ro/judetean/cluj-arena-ar-putea-fi-redenumita-printr-un-contract-de-sponsorizare/</guid>
       <pubDate>Fri, 02 Oct 2026 06:53:33 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/cluj-arena-ar-putea-primi-numele-unei-companii-dupa-modelul-marilor-stadioane-europene/">Gazeta de Cluj</source>
       <description>Consiliul Județean Cluj analizează posibilitatea de a scoate la licitație dreptul de denumire a stadionului Cluj Arena, măsură menită să aducă venituri suplimentare la bugetul local.</description>
     </item>
     <item>
@@ -60,6 +84,8 @@
       <link>https://izz.ro/judetean/se-propune-scoaterea-la-licitatie-a-numelui-stadionului-cluj-arena-pentru/</link>
       <guid>https://izz.ro/judetean/se-propune-scoaterea-la-licitatie-a-numelui-stadionului-cluj-arena-pentru/</guid>
       <pubDate>Thu, 01 Oct 2026 12:23:56 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.prosport.ro/fotbal-intern/superliga/schimbare-nume-stadion-cluj-arena-licitatie-marius-sironka-20537233">ProSport</source>
       <description>Inițiativa aparține unui consilier județean care susține că vânzarea drepturilor de denumire prin licitație simplificată ar atrage sponsori și fonduri importante pentru bugetul local.</description>
     </item>
     <item>
@@ -67,6 +93,8 @@
       <link>https://izz.ro/general/comisia-de-urbanism-a-respins-proiectul-imobiliar-al-fostului-strand-municipal/</link>
       <guid>https://izz.ro/general/comisia-de-urbanism-a-respins-proiectul-imobiliar-al-fostului-strand-municipal/</guid>
       <pubDate>Thu, 01 Oct 2026 10:02:45 +0000</pubDate>
+      <category>general</category>
+      <source url="https://gazetadecluj.ro/mega-proiectul-de-pe-amplasamentul-fostului-strand-municipal-franat-in-comisia-de-urbanism/">Gazeta de Cluj</source>
       <description>Inițiativa companiei Winners Center S.A. de a transforma zona de 1,2 hectare dintre Cluj Arena și BT Arena a primit aviz nefavorabil din cauza unor neconcordanțe tehnice în documentație.</description>
     </item>
     <item>
@@ -74,6 +102,8 @@
       <link>https://izz.ro/judetean/consiliul-judetean-cluj-repara-pista-de-la-cluj-arena/</link>
       <guid>https://izz.ro/judetean/consiliul-judetean-cluj-repara-pista-de-la-cluj-arena/</guid>
       <pubDate>Wed, 30 Sep 2026 08:39:04 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/pista-de-atletism-de-la-cluj-arena-intra-in-reparatii-pentru-6-milioane-de-lei/">Gazeta de Cluj</source>
       <description>Autoritățile din Cluj au lansat o licitație de aproape 6 milioane de lei pentru modernizarea pistei exterioare de atletism, vizând omologarea internațională și siguranța sportivilor.</description>
     </item>
     <item>
@@ -81,13 +111,8 @@
       <link>https://izz.ro/judetean/consiliul-judetean-cluj-investeste-in-energie-verde-pentru-spitale/</link>
       <guid>https://izz.ro/judetean/consiliul-judetean-cluj-investeste-in-energie-verde-pentru-spitale/</guid>
       <pubDate>Mon, 28 Sep 2026 04:13:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/administratie/noi-investitii-in-infrastructura-spitalelor-clujene--302030.html">Ziua de Cluj</source>
       <description>Două unități sanitare din subordinea Consiliului Județean Cluj vor beneficia de fonduri nerambursabile pentru producția de energie regenerabilă, reducând astfel costurile de funcționare și crescând independența energetică.</description>
-    </item>
-    <item>
-      <title>Investiții de milioane de lei în independența energetică a două spitale din Cluj</title>
-      <link>https://izz.ro/local/investitii-de-milioane-de-lei-in-independenta-energetica-a-doua-spitale-din-cluj/</link>
-      <guid>https://izz.ro/local/investitii-de-milioane-de-lei-in-independenta-energetica-a-doua-spitale-din-cluj/</guid>
-      <pubDate>Sat, 26 Sep 2026 06:19:07 +0000</pubDate>
-      <description>Consiliul Județean Cluj a aprobat fonduri pentru instalarea de panouri fotovoltaice și centrale la Spitalul de Pneumoftiziologie din Cluj-Napoca și la sanatoriul din Săvădisla, reducând astfel costurile.</description>
     </item>
 </channel></rss>
