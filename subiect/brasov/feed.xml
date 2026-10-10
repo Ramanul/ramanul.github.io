@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/brasov/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Brașov pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 21:57:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 01:59:04 +0000</lastBuildDate>
     <item>
       <title>330 de abateri rutiere pe DN1 în doar patru ore</title>
       <link>https://izz.ro/local/330-de-abateri-rutiere-pe-dn1-in-doar-patru-ore/</link>
@@ -55,6 +55,16 @@
       <source url="https://newsbv.ro/sebastian-rusu-impotriva-dezincriminarii-drogurilor/">News Brașov</source>
       <media:content url="https://izz.ro/politic/deputatul-pnl-sebastian-rusu-se-opune-dezincriminarii-consumului-de-droguri/cover.jpg?v=4837a369" medium="image" type="image/jpeg"/>
       <description>Parlamentarul brașovean critică inițiativa legislativă privind relaxarea legislației pentru posesia de droguri în vederea consumului propriu, susținând că prioritatea o reprezintă prevenția, educația și protejarea tinerilor.</description>
+    </item>
+    <item>
+      <title>Condiții stabilite pentru sportivii din Rusia și Belarus la FOTE Brașov 2027</title>
+      <link>https://izz.ro/sport/conditii-stabilite-pentru-sportivii-din-rusia-si-belarus-la-fote-brasov-2027/</link>
+      <guid>https://izz.ro/sport/conditii-stabilite-pentru-sportivii-din-rusia-si-belarus-la-fote-brasov-2027/</guid>
+      <pubDate>Fri, 09 Oct 2026 11:56:26 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://newsbv.ro/sportivi-din-rusia-si-belarus-la-fote/">News Brașov, BizBrașov, MyTex</source>
+      <media:content url="https://izz.ro/sport/conditii-stabilite-pentru-sportivii-din-rusia-si-belarus-la-fote-brasov-2027/cover.jpg?v=3d5efcd8" medium="image" type="image/jpeg"/>
+      <description>Comitetul Executiv al Asociației Comitetelor Olimpice Europene a stabilit la Split condițiile de participare pentru sportivii tineri din Rusia și Belarus la Festivalul Olimpic al Tineretului European Brașov 2027. Aceștia vor concura sub denumirile Comitetul Olimpic din Rusia și Comitetul Olimpic din Belarus, sub drapelul EOC, iar la premiere se va folosi imnul olimpic utilizat la Jocurile Olimpice Paris 2024.</description>
     </item>
     <item>
       <title>Lanțul KronBurger deschide un nou restaurant pe Strada Republicii din Brașov</title>
@@ -183,7 +193,6 @@
       <pubDate>Thu, 08 Oct 2026 12:12:49 +0000</pubDate>
       <category>local</category>
       <source url="https://newsbv.ro/comemorarea-eroilor-romani/">News Brașov</source>
-      <media:content url="https://izz.ro/local/ceremonie-la-brasov-pentru-eroii-care-au-aparat-transeea-mortii/cover.jpg?v=0908f592" medium="image" type="image/jpeg"/>
       <description>Viceprimarul Lucian Patrașcu a participat la monumentul din Bartolomeu la un eveniment comemorativ dedicat ostașilor căzuți în lupta din 1916 pentru apărarea orașului în fața Puterilor Centrale.</description>
     </item>
     <item>
@@ -464,14 +473,5 @@
       <category>local</category>
       <source url="https://newsbv.ro/calea-fagarasului-accident/">News Brașov</source>
       <description>Un accident rutier în lanț s-a produs pe o arteră din municipiul Brașov, după ce ultimul vehicul dintr-o coloană oprită a lovit mașinile din față, o persoană necesitând îngrijiri medicale.</description>
-    </item>
-    <item>
-      <title>Carambol între patru autovehicule pe Calea Făgărașului din Brașov</title>
-      <link>https://izz.ro/local/carambol-intre-patru-autovehicule-pe-calea-fagarasului-din-brasov/</link>
-      <guid>https://izz.ro/local/carambol-intre-patru-autovehicule-pe-calea-fagarasului-din-brasov/</guid>
-      <pubDate>Tue, 06 Oct 2026 13:34:03 +0000</pubDate>
-      <category>local</category>
-      <source url="https://bizbrasov.ro/2026/10/06/accident-lant-calea-fagarasului-brasov/">BizBrașov, News Brașov</source>
-      <description>Un accident rutier în lanț, în care au fost implicate patru autovehicule, s-a produs pe Calea Făgărașului din Brașov, după ce o mașină a frânat brusc și a fost lovită din spate. La fața locului au intervenit echipaje de poliție și de descarcerare. O persoană a fost rănită și a primit îngrijiri medicale, iar traficul în zonă a fost afectat temporar.</description>
     </item>
 </channel></rss>

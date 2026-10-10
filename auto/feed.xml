@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/auto/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Auto pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 21:57:57 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 01:59:09 +0000</lastBuildDate>
+    <item>
+      <title>BMW a lansat noul SUV coupé electric iX4 cu o autonomie de 828 km</title>
+      <link>https://izz.ro/auto/bmw-a-lansat-noul-suv-coupe-electric-ix4-cu-o-autonomie-de-828-km/</link>
+      <guid>https://izz.ro/auto/bmw-a-lansat-noul-suv-coupe-electric-ix4-cu-o-autonomie-de-828-km/</guid>
+      <pubDate>Fri, 09 Oct 2026 22:38:48 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.economica.net/bmw-ix4-autonomie-828-km-469-cp_984405.html">Economica</source>
+      <media:content url="https://izz.ro/auto/bmw-a-lansat-noul-suv-coupe-electric-ix4-cu-o-autonomie-de-828-km/cover.jpg?v=91a6fc8b" medium="image" type="image/jpeg"/>
+      <description>Modelul face parte din noua gamă electrică Neue Klasse și aduce tehnologii avansate, inclusiv propulsie eDrive de generația a șasea, arhitectură de 800V și celule cilindrice pentru baterii.</description>
+    </item>
     <item>
       <title>Autostrada A0 Nord nu va fi finalizată complet în acest an</title>
       <link>https://izz.ro/auto/autostrada-a0-nord-nu-va-fi-finalizata-complet-in-acest-an/</link>
@@ -23,7 +33,7 @@
       <pubDate>Fri, 09 Oct 2026 18:29:39 +0000</pubDate>
       <category>auto</category>
       <source url="https://alba24.ro/foto-butuci-de-lemn-in-loc-de-suspensii-chei-tubulare-pe-teava-de-esapament-si-frane-anulate-ce-bombe-pe-roti-trec-pragul-rar-1161971.html">Alba24</source>
-      <media:content url="https://izz.ro/auto/registrul-auto-roman-publica-imagini-cu-improvizatii-periculoase-descoperite-la/cover.jpg?v=533f4f8c" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/auto/registrul-auto-roman-publica-imagini-cu-improvizatii-periculoase-descoperite-la/cover.jpg?v=32dd509b" medium="image" type="image/jpeg"/>
       <description>Inspectorii RAR au descoperit în toată țara vehicule cu improvizații majore pentru verificări, cum ar fi butuci de lemn în loc de suspensii, chei tubulare pe eșapament sau sisteme de frânare complet anulate.</description>
     </item>
     <item>
@@ -393,7 +403,6 @@
       <pubDate>Thu, 08 Oct 2026 12:01:38 +0000</pubDate>
       <category>auto</category>
       <source url="https://www.autocritica.ro/live-news/renault-4-va-primi-o-versiune-de-baza-cu-110-cp-si-autonomie-de-305-km/">AutoCritica</source>
-      <media:content url="https://izz.ro/auto/renault-pregati-o-versiune-de-baza-pentru-modelul-electric-renault-4/cover.jpg?v=66918391" medium="image" type="image/jpeg"/>
       <description>Constructorul francez introduce îmbunătățiri de autonomie pentru gama Renault 4 și anunță o variantă entry-level echipată cu motor de 110 cai puteri și o baterie LFP.</description>
     </item>
     <item>
@@ -485,14 +494,5 @@
       <category>auto</category>
       <source url="https://piataauto.md/Stiri/2026/10/BMW-a-lansat-noul-iX4-primul-sau-SUV-Coupe-electric-care-vine-si-cu-o-versiune-ultra-performanta-M60-xDrive/">Piata Auto MD</source>
       <description>Constructorul german a prezentat primul său SUV Coupe cu propulsie electrică, construit pe platforma Neue Klasse, care oferă autonomie extinsă, eficiență energetică și pachetul sportiv M Sport.</description>
-    </item>
-    <item>
-      <title>Riscul de acvaplanare nu depinde exclusiv de tipul motorului electric</title>
-      <link>https://izz.ro/auto/riscul-de-acvaplanare-nu-depinde-exclusiv-de-tipul-motorului-electric/</link>
-      <guid>https://izz.ro/auto/riscul-de-acvaplanare-nu-depinde-exclusiv-de-tipul-motorului-electric/</guid>
-      <pubDate>Wed, 07 Oct 2026 19:01:00 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.automarket.ro/stiri/p-este-mai-mare-riscul-de-acvaplanare-la-o-masina-electrica-128977.html">AutoMarket</source>
-      <description>Specialiștii explică faptul că riscul de acvaplanare pe carosabilul umed este dictat de starea anvelopelor, viteza de deplasare și adâncimea apei, mașinile electrice nefiind automat mai vulnerabile sau mai sigure față de cele clasice.</description>
     </item>
 </channel></rss>

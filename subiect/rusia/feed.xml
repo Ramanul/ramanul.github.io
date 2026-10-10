@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/rusia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Rusia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 21:57:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 01:59:04 +0000</lastBuildDate>
+    <item>
+      <title>Zelenskyy exprimă nemulțumirea față de acordul petrolier încheiat de Trump cu Rusia</title>
+      <link>https://izz.ro/extern/zelenskyy-exprima-nemultumirea-fata-de-acordul-petrolier-incheiat-de-trump-cu/</link>
+      <guid>https://izz.ro/extern/zelenskyy-exprima-nemultumirea-fata-de-acordul-petrolier-incheiat-de-trump-cu/</guid>
+      <pubDate>Fri, 09 Oct 2026 23:39:31 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/us-news/2026/oct/09/trump-putin-russian-diesel-ukraine">The Guardian</source>
+      <media:content url="https://izz.ro/extern/zelenskyy-exprima-nemultumirea-fata-de-acordul-petrolier-incheiat-de-trump-cu/cover.jpg?v=d9d7e2bb" medium="image" type="image/jpeg"/>
+      <description>Președintele Ucrainei a reacționat dur după ce liderul american a decis reluarea achizițiilor de motorină din Rusia, riscând tensiuni majore cu aliații din NATO.</description>
+    </item>
     <item>
       <title>Atacurile rusești asupra infrastructurii pun în pericol economia și finanțarea Ucrainei</title>
       <link>https://izz.ro/extern/atacurile-rusesti-asupra-infrastructurii-pun-in-pericol-economia-si-finantarea/</link>
@@ -33,7 +43,7 @@
       <pubDate>Fri, 09 Oct 2026 19:48:50 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.g4media.ro/zelenski-intalnire-cu-reprezentanti-ai-congresului-sua-le-am-transmis-ca-orice-relaxare-a-sanctiunilor-impotriva-rusiei-fara-un-acord-clar-si-durabil-de-dezamorsare-a-conflictului-cu-rusia-reprezi.html">G4Media</source>
-      <media:content url="https://izz.ro/extern/volodimir-zelenski-a-cerut-oficialilor-americani-mentinerea-sanctiunilor-contra/cover.jpg?v=ca4db45c" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/volodimir-zelenski-a-cerut-oficialilor-americani-mentinerea-sanctiunilor-contra/cover.jpg?v=289e194c" medium="image" type="image/jpeg"/>
       <description>Președintele ucrainean s-a întâlnit la Kiev cu parlamentari din SUA, avertizând că orice slăbire a măsurilor punitive fără un acord de pace durabil reprezintă o dovadă de slăbiciune.</description>
     </item>
     <item>
@@ -153,7 +163,6 @@
       <pubDate>Thu, 08 Oct 2026 12:25:27 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.europalibera.md/a/danemarca-acuza-rusia-de-sabotaje-impotriva-companiilor-care-sprijina-ucraina-foloseste-si-civili-care-au-nevoie-pur-si-simplu-de-bani/33872764.html">Europa Liberă</source>
-      <media:content url="https://izz.ro/extern/danemarca-acuza-rusia-de-operatiuni-de-sabotaj-impotriva-industriei-de-aparare/cover.jpg?v=de2f049f" medium="image" type="image/jpeg"/>
       <description>Serviciile secrete daneze avertizează că Moscova folosește cetățeni plătiți pentru a sabota companiile locale care sprijină Ucraina cu echipamente militare.</description>
     </item>
     <item>
@@ -461,14 +470,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/podcast/brussels-playbook-podcast/behind-closed-doors-europe-braces-for-a-deadly-attack/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Diplomații europeni poartă discuții confidențiale pentru a stabili măsuri de urgență în cazul în care agresiunile hibride și cibernetice orchestrate de Rusia ar genera pierderi masive de vieți omenești pe continent.</description>
-    </item>
-    <item>
-      <title>OMS anunță risc scăzut de epidemie de ciumă în Rusia</title>
-      <link>https://izz.ro/sanatate/oms-anunta-risc-scazut-de-epidemie-de-ciuma-in-rusia/</link>
-      <guid>https://izz.ro/sanatate/oms-anunta-risc-scazut-de-epidemie-de-ciuma-in-rusia/</guid>
-      <pubDate>Tue, 06 Oct 2026 23:14:32 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://www.theguardian.com/world/2026/oct/06/plague-epidemic-risk-russia-low-death-darya-shipilova-who">The Guardian</source>
-      <description>Organizația Mondială a Sănătății a confirmat că pericolul unei răspândiri a ciumei este minim în Rusia, după decesul subit al unei tehniciene de laborator de la un institut de cercetare din Siberia.</description>
     </item>
 </channel></rss>

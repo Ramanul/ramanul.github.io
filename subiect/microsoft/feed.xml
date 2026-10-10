@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 21:57:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 01:59:04 +0000</lastBuildDate>
     <item>
       <title>Aplicația XBOX pentru PC va primi o interfață nouă</title>
       <link>https://izz.ro/tech/aplicatia-xbox-pentru-pc-va-primi-o-interfata-noua/</link>
@@ -243,23 +243,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/sci-tech/lumea-digitala/bill-gates-incearca-sa-l-convinga-pe-trump-ca-e-nevoie-de-o-lege-pentru-siguranta-ai-sper-ca-experienta-mea-va-conta-3966929">Digi24 Extern</source>
       <description>Cofondatorul Microsoft a subliniat într-un interviu televizat că industria tehnologică nu se poate autoreglementa eficient și este nevoie de o legislație federală dedicată inteligenței artificiale.</description>
-    </item>
-    <item>
-      <title>Windows comprimă automat memoria RAM pentru performanță</title>
-      <link>https://izz.ro/tech/windows-comprima-automat-memoria-ram-pentru-performanta/</link>
-      <guid>https://izz.ro/tech/windows-comprima-automat-memoria-ram-pentru-performanta/</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:16 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/windows-has-been-compressing-your-memory-in-the-background-for-years/">XDA Developers</source>
-      <description>Sistemul de operare Windows utilizează de ani de zile funcția de compresie a memoriei în fundal. Această tehnologie ajută la optimizarea resurselor hardware disponibile, deși mulți utilizatori preferă să o dezactiveze manual.</description>
-    </item>
-    <item>
-      <title>Linux revigorează computerele vechi scoase din uz de Windows</title>
-      <link>https://izz.ro/tech/linux-revigoreaza-computerele-vechi-scoase-din-uz-de-windows/</link>
-      <guid>https://izz.ro/tech/linux-revigoreaza-computerele-vechi-scoase-din-uz-de-windows/</guid>
-      <pubDate>Sun, 27 Sep 2026 23:00:18 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/lightweight-linux-to-revive-a-windows-pc-that-is-not-ubuntu/">XDA Developers</source>
-      <description>Cerințele stricte impuse de sistemul Windows 11 lasă în urmă numeroase echipamente hardware vechi lipsite de cipuri TPM. Utilizarea unei distribuții Linux ușoare reprezintă o soluție eficientă pentru a repune în funcțiune aceste dispozitive.</description>
     </item>
 </channel></rss>

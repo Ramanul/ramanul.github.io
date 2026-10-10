@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 21:57:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 01:59:04 +0000</lastBuildDate>
     <item>
       <title>Susținătorii lui Călin Georgescu au protestat în centrul Clujului</title>
       <link>https://izz.ro/local/sustinatorii-lui-calin-georgescu-au-protestat-in-centrul-clujului/</link>
@@ -47,6 +47,16 @@
       <description>Daniel Călin contrazice afirmațiile liderului local AUR, susținând că Poliția Locală nu vânează șoferii pentru amenzi și că opoziția inventează scandaluri politice pentru vizibilitate publică.</description>
     </item>
     <item>
+      <title>George Simion și Anca Alexandrescu s-au certat în direct la televiziune</title>
+      <link>https://izz.ro/politic/george-simion-si-anca-alexandrescu-s-au-certat-in-direct-la-televiziune/</link>
+      <guid>https://izz.ro/politic/george-simion-si-anca-alexandrescu-s-au-certat-in-direct-la-televiziune/</guid>
+      <pubDate>Fri, 09 Oct 2026 11:51:57 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://jurnalulolteniei.ro/george-simion-si-anca-alexandrescu-scandal-in-direct/">Jurnalul Olteniei</source>
+      <media:content url="https://izz.ro/politic/george-simion-si-anca-alexandrescu-s-au-certat-in-direct-la-televiziune/cover.jpg?v=47b958a3" medium="image" type="image/jpeg"/>
+      <description>Liderul partidului AUR, George Simion, și moderatoarea Anca Alexandrescu au avut un schimb dur de replici într-o emisiune TV, conflictul pornind de la un apelativ considerat lipsit de respect.</description>
+    </item>
+    <item>
       <title>Consilierii locali din Craiova s-au contrazis pe proiecte de salubrizare</title>
       <link>https://izz.ro/local/consilierii-locali-din-craiova-s-au-contrazis-pe-proiecte-de-salubrizare/</link>
       <guid>https://izz.ro/local/consilierii-locali-din-craiova-s-au-contrazis-pe-proiecte-de-salubrizare/</guid>
@@ -83,7 +93,7 @@
       <pubDate>Thu, 08 Oct 2026 15:36:39 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.economica.net/antal-arpad-udmr-suntem-dispusi-sa-votam-un-guvern-chiar-daca-nu-vom-face-parte-din-acel-guvern_983995.html">Economica</source>
-      <media:content url="https://izz.ro/politic/udmr-anunta-ca-va-vota-un-nou-executiv-chiar-fara-a-participa-la-guvernare/cover.jpg?v=26c08c82" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/politic/udmr-anunta-ca-va-vota-un-nou-executiv-chiar-fara-a-participa-la-guvernare/cover.jpg?v=8116d621" medium="image" type="image/jpeg"/>
       <description>Liderul UDMR a declarat că formațiunea susține instalarea unui guvern pentru stabilizarea economiei și protejarea locurilor de muncă, refuzând însă orice asociere cu AUR și S.O.S.</description>
     </item>
     <item>
@@ -93,7 +103,6 @@
       <pubDate>Thu, 08 Oct 2026 12:04:13 +0000</pubDate>
       <category>judetean</category>
       <source url="https://expressdebanat.ro/miclau-le-cere-parlamentarilor-psd-sa-se-solidarizeze-cu-aur-si-sa-l-trimita-acasa-pe-locatarul-de-la-cotroceni/">Express de Banat</source>
-      <media:content url="https://izz.ro/judetean/liderul-aur-caras-severin-cere-demiterea-presedintelui-romaniei/cover.jpg?v=f6b82713" medium="image" type="image/jpeg"/>
       <description>Samuel Miclău solicită parlamentarilor PSD să se alăture demersului AUR pentru demiterea șefului statului, considerând nepotrivită numirea lui Luca Niculescu în funcția de premier.</description>
     </item>
     <item>
@@ -455,14 +464,5 @@
       <category>politic</category>
       <source url="https://expressdebanat.ro/nicusor-dan-traseaza-linia-rosie-pentru-viitorul-guvern-fara-aur-la-putere/">Express de Banat</source>
       <description>Șeful statului a declarat că formațiunea politică nu respectă criteriile privind orientarea pro-occidentală și menținerea stabilității financiare a țării, motiv pentru care nu va fi acceptată la guvernare.</description>
-    </item>
-    <item>
-      <title>Președintele respinge categoric cooptarea partidului AUR la guvernare</title>
-      <link>https://izz.ro/politic/presedintele-respinge-categoric-cooptarea-partidului-aur-la-guvernare/</link>
-      <guid>https://izz.ro/politic/presedintele-respinge-categoric-cooptarea-partidului-aur-la-guvernare/</guid>
-      <pubDate>Thu, 01 Oct 2026 04:58:22 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.economica.net/ce-spune-nicusor-dan-despre-un-guvern-cu-aur-in-componenta_981610.html">Economica</source>
-      <description>Șeful statului a declarat la finalul unei vizite oficiale că va refuza să desemneze un premier care acceptă participarea formațiunii AUR la o viitoare guvernare, respectând mandatul primit de la cetățeni.</description>
     </item>
 </channel></rss>

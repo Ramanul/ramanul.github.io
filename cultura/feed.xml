@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/cultura/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Cultură pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 09 Oct 2026 21:57:57 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 01:59:10 +0000</lastBuildDate>
+    <item>
+      <title>Istoria primelor cabane și poteci turistice construite în Carpații românești</title>
+      <link>https://izz.ro/cultura/istoria-primelor-cabane-si-poteci-turistice-construite-in-carpatii-romanesti/</link>
+      <guid>https://izz.ro/cultura/istoria-primelor-cabane-si-poteci-turistice-construite-in-carpatii-romanesti/</guid>
+      <pubDate>Fri, 09 Oct 2026 22:32:25 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://adevarul.ro/stil-de-viata/magazin/oamenii-care-au-imblanzit-carpatii-cum-au-fost-2562757.html">Adevărul</source>
+      <media:content url="https://izz.ro/cultura/istoria-primelor-cabane-si-poteci-turistice-construite-in-carpatii-romanesti/cover.jpg?v=855029d5" medium="image" type="image/jpeg"/>
+      <description>Primele adăposturi montane din Carpați au început să apară în secolul al XIX-lea, fiind inițiate de primele asociații de turism pentru a sprijini drumețiile în zonele sălbatice.</description>
+    </item>
     <item>
       <title>Scriitoarea Anne Carson a câștigat Premiul Nobel pentru Literatură</title>
       <link>https://izz.ro/cultura/scriitoarea-anne-carson-a-castigat-premiul-nobel-pentru-literatura/</link>
@@ -474,14 +484,5 @@
       <category>cultura</category>
       <source url="https://www.g4media.ro/kompus-6-expozitie-colectiva-de-arta-plastica-in-cartierul-armenesc.html">G4Media</source>
       <description>Grupul artistic Kompus organizează între 7 și 16 octombrie ediția numărul șase a expoziției sale colective. Evenimentul se desfășoară într-o clădire istorică din Cartierul Armenesc din Capitală.</description>
-    </item>
-    <item>
-      <title>Primăria Capitalei a deschis înscrierile pentru manageri de teatru</title>
-      <link>https://izz.ro/cultura/primaria-capitalei-a-deschis-inscrierile-pentru-manageri-de-teatru/</link>
-      <guid>https://izz.ro/cultura/primaria-capitalei-a-deschis-inscrierile-pentru-manageri-de-teatru/</guid>
-      <pubDate>Wed, 07 Oct 2026 08:26:24 +0000</pubDate>
-      <category>cultura</category>
-      <source url="https://b365.ro/inscrieri-deschise-la-concursurile-pentru-manageri-de-teatru-la-metropolis-evreiesc-de-stat-dramaturgilor-romani-pana-cand-se-depun-candidaturile-622826/">B365</source>
-      <description>Candidaturile pentru conducerea instituțiilor de spectacole Metropolis, Evreiesc de Stat și Dramaturgilor Români pot fi depuse în perioada următoare conform calendarului oficial.</description>
     </item>
 </channel></rss>
