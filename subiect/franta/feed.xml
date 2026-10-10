@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Franța — IZZ.ro</title>
+  <title>Franta — IZZ.ro</title>
   <link>https://izz.ro/subiect/franta/</link>
   <atom:link href="https://izz.ro/subiect/franta/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Franța pe IZZ.ro</description>
+  <description>Știri despre Franta pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 15:40:29 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 20:21:09 +0000</lastBuildDate>
+    <item>
+      <title>Cartea Cu noaptea în inimă aduce în literatura din România perspectiva emoțională a femicidului</title>
+      <link>https://izz.ro/cultura/cartea-cu-noaptea-in-inima-aduce-in-literatura-din-romania-perspectiva/</link>
+      <guid>https://izz.ro/cultura/cartea-cu-noaptea-in-inima-aduce-in-literatura-din-romania-perspectiva/</guid>
+      <pubDate>Sat, 10 Oct 2026 18:03:00 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://observatornews.ro/eveniment/sa-nu-te-izolezi-continua-sa-vorbesti-mesajul-autoarei-cartii-cu-noaptea-in-inima-pentru-romance-668682.html">Observator</source>
+      <media:content url="https://izz.ro/cultura/cartea-cu-noaptea-in-inima-aduce-in-literatura-din-romania-perspectiva/cover.jpg?v=524cce5c" medium="image" type="image/jpeg"/>
+      <description>Romanul de succes care a emoționat publicul din Franța a fost tradus în limba română, oferind o perspectivă profund umană asupra fenomenului tot mai frecvent al violenței domestice.</description>
+    </item>
     <item>
       <title>Diferențe culturale majore între elevii francezi și cei britanici în fața protestelor</title>
       <link>https://izz.ro/extern/diferente-culturale-majore-intre-elevii-francezi-si-cei-britanici-in-fata/</link>
@@ -455,14 +465,5 @@
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/bloomberg-franta-noua-veriga-slaba-a-europei-dupa-un-deceniu-cu-emmanuel-macron-presedinte.html">Curs de Guvernare</source>
       <description>Randamentul obligațiunilor suverane franceze pe zece ani a depășit temporar pragul de 5%, cel mai înalt nivel înregistrat din iulie 2002, iar prima de risc față de Germania a crescut semnificativ după un deceniu cu președintele Emmanuel Macron.</description>
-    </item>
-    <item>
-      <title>Grupul Renault va investi zece miliarde de euro în vehicule electrice în următorii cinci ani</title>
-      <link>https://izz.ro/auto/grupul-renault-va-investi-zece-miliarde-de-euro-in-vehicule-electrice-in/</link>
-      <guid>https://izz.ro/auto/grupul-renault-va-investi-zece-miliarde-de-euro-in-vehicule-electrice-in/</guid>
-      <pubDate>Mon, 05 Oct 2026 08:37:19 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.autocritica.ro/live-news/renault-va-investi-10-miliarde-de-euro-in-dezvoltarea-modelelor-electrice-in-urmatorii-5-ani/">AutoCritica</source>
-      <description>Conducerea companiei auto franceze a anunțat un nou plan masiv de finanțare pentru a spori accesibilitatea mașinilor ecologice și a continua transformarea industrială începută în Franța.</description>
     </item>
 </channel></rss>

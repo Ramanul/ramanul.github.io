@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cnair/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre CNAIR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 15:40:29 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 20:21:09 +0000</lastBuildDate>
     <item>
       <title>Stadiu de 82% pe lotul Joița-Corbeanca al Autostrăzii A0 Nord</title>
       <link>https://izz.ro/local/stadiu-de-82-pe-lotul-joita-corbeanca-al-autostrazii-a0-nord/</link>
@@ -63,7 +63,7 @@
       <pubDate>Fri, 09 Oct 2026 08:57:00 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.antena3.ro/actualitate/tollro-a-dat-din-nou-erori-cnair-a-anuntat-ce-se-intampla-cu-soferii-care-n-au-putut-plati-taxa-de-drum-vineri-806477.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/economic/platforma-tollro-a-intampinat-erori-tehnice-in-achizitia-rovinietei/cover.jpg?v=661269f6" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/economic/platforma-tollro-a-intampinat-erori-tehnice-in-achizitia-rovinietei/cover.jpg?v=deea64e5" medium="image" type="image/jpeg"/>
       <description>CNAIR a anunțat că sistemul informatic a cedat temporar, precizând cum vor proceda șoferii care nu și-au putut plăti taxa de drum.</description>
     </item>
     <item>
@@ -337,14 +337,5 @@
       <category>general</category>
       <source url="https://www.dobrogeaonline.ro/soferii-vor-fi-interogati-in-perioada-urmatoare-cu-privire-la-originea-si-destinatia-calatoriilor-lor/">Dobrogea Online</source>
       <description>În cadrul unei noi anchete derulate de CNAIR, conducătorii auto vor fi chestionați de recenzori cu privire la punctele de plecare, destinațiile alese și motivele deplasărilor.</description>
-    </item>
-    <item>
-      <title>Ministrul Transporturilor refuză amendarea transportatorilor fără sistemul TollRo funcțional</title>
-      <link>https://izz.ro/politic/ministrul-transporturilor-refuza-amendarea-transportatorilor-fara-sistemul/</link>
-      <guid>https://izz.ro/politic/ministrul-transporturilor-refuza-amendarea-transportatorilor-fara-sistemul/</guid>
-      <pubDate>Mon, 28 Sep 2026 15:54:03 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://economedia.ro/radu-miruta-nu-semnez-niciun-ordin-care-sa-amendeze-transportatorii-daca-tollro-nu-va-functiona-la-1-octombrie.html">Economedia</source>
-      <description>Ministrul interimar Radu Miruță a anunțat că nu va semna ordine de sancționare pentru companiile de transport dacă platforma digitală TollRo administrată de CNAIR nu va deveni pe deplin operațională la data de 1 octombrie.</description>
     </item>
 </channel></rss>

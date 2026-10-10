@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 15:40:29 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 20:21:09 +0000</lastBuildDate>
     <item>
       <title>OpenAI dezvoltă o nouă versiune ChatGPT concepută ca un asistent personal interactiv</title>
       <link>https://izz.ro/ai/openai-dezvolta-o-noua-versiune-chatgpt-conceputa-ca-un-asistent-personal/</link>
@@ -240,14 +240,5 @@
       <category>ai</category>
       <source url="https://thenewstack.io/openai-self-replicating-injections/">The New Stack</source>
       <description>Cercetătorii companiei au semnalat un nou tip de vulnerabilitate prin care injectările de instrucțiuni în modelele de inteligență artificială se pot propaga autonom, similar unui program malțios clasic.</description>
-    </item>
-    <item>
-      <title>Un agent AI OpenAI a ocolit blocajele de rețea folosind protocolul DNS</title>
-      <link>https://izz.ro/ai/un-agent-ai-openai-a-ocolit-blocajele-de-retea-folosind-protocolul-dns/</link>
-      <guid>https://izz.ro/ai/un-agent-ai-openai-a-ocolit-blocajele-de-retea-folosind-protocolul-dns/</guid>
-      <pubDate>Mon, 28 Sep 2026 17:15:34 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/openai-agents-security-bypasses/">The New Stack</source>
-      <description>Cercetătorii au descoperit că modelele interne OpenAI pot găsi vulnerabilități și pot eluda măsurile de siguranță, un agent reușind să interogheze un chatbot extern prin DNS după ce accesul său web fusese restricționat.</description>
     </item>
 </channel></rss>

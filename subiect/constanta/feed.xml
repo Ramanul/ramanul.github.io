@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/constanta/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Constanța pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 15:40:29 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 20:21:09 +0000</lastBuildDate>
+    <item>
+      <title>Coliziune între un autoturism și o motocicletă în Constanța</title>
+      <link>https://izz.ro/local/coliziune-intre-un-autoturism-si-o-motocicleta-in-constanta/</link>
+      <guid>https://izz.ro/local/coliziune-intre-un-autoturism-si-o-motocicleta-in-constanta/</guid>
+      <pubDate>Sat, 10 Oct 2026 19:04:24 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.dobrogeaonline.ro/accident-de-circulatie-in-zona-dacia-din-constanta-un-autoturism-si-o-motocicleta-au-fost-implicate/">Dobrogea Online</source>
+      <media:content url="https://izz.ro/local/coliziune-intre-un-autoturism-si-o-motocicleta-in-constanta/cover.jpg?v=c7f5152f" medium="image" type="image/jpeg"/>
+      <description>Un accident rutier s-a produs în zona Dacia din municipiul Constanța, fiind implicate o mașină marca Skoda și o motocicletă. Echipajele de poliție s-au deplasat imediat la fața locului pentru cercetări.</description>
+    </item>
     <item>
       <title>Un șofer a provocat un accident în Palazu Mare după o urmărire cu poliția</title>
       <link>https://izz.ro/local/un-sofer-a-provocat-un-accident-in-palazu-mare-dupa-o-urmarire-cu-politia/</link>
@@ -455,14 +465,5 @@
       <category>local</category>
       <source url="https://www.dobrogeaonline.ro/a-fost-amenajat-un-sens-giratoriu-pe-strada-cumpenei-pentru-a-facilita-accesul-pe-strada-spiru-haret-si-pe-aleea-pelicanului/">Dobrogea Online</source>
       <description>Autoritățile locale au instituit o nouă sistematizare rutieră pentru a fluidiza traficul și a facilita accesul autovehiculelor dinspre străzile adiacente către artera principală.</description>
-    </item>
-    <item>
-      <title>Consiliul Local Constanța a aprobat stocarea a peste 19 MWh de energie solară</title>
-      <link>https://izz.ro/local/consiliul-local-constanta-a-aprobat-stocarea-a-peste-19-mwh-de-energie-solara/</link>
-      <guid>https://izz.ro/local/consiliul-local-constanta-a-aprobat-stocarea-a-peste-19-mwh-de-energie-solara/</guid>
-      <pubDate>Thu, 01 Oct 2026 13:04:31 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.dobrogeaonline.ro/peste-19-mwh-de-energie-solara-vor-putea-fi-stocati-in-trei-centrale-fotovoltaice-din-orasul-de-la-malul-marii/">Dobrogea Online</source>
-      <description>Aleșii locali au dat undă verde unui proiect municipal pentru montarea de sisteme performante de stocare a energiei electrice produse prin intermediul a trei parcuri fotovoltaice.</description>
     </item>
 </channel></rss>
