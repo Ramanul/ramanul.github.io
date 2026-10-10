@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/google/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Google pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 20:21:09 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 23:48:55 +0000</lastBuildDate>
     <item>
       <title>Google actualizează bara de căutare pentru dispozitivele mobile</title>
       <link>https://izz.ro/tech/google-actualizeaza-bara-de-cautare-pentru-dispozitivele-mobile/</link>
@@ -168,14 +168,5 @@
       <category>ai</category>
       <source url="https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/">MarkTechPost</source>
       <description>Cercetătorii Google au lansat framework-ul open-source RRSI, permițând agenților inteligenți să își îmbunătățească propriile prompturi, unelte și fluxuri de control fără a modifica ponderile modelului de bază.</description>
-    </item>
-    <item>
-      <title>Un instrument gratuit de la Google rivalizează cu celelalte platforme de prototipare</title>
-      <link>https://izz.ro/tech/un-instrument-gratuit-de-la-google-rivalizeaza-cu-celelalte-platforme-de/</link>
-      <guid>https://izz.ro/tech/un-instrument-gratuit-de-la-google-rivalizeaza-cu-celelalte-platforme-de/</guid>
-      <pubDate>Mon, 28 Sep 2026 21:30:18 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/favorite-claude-design-alternative-isnt-lovable-or-replit-its-free-google-tool/">XDA Developers</source>
-      <description>Pe piața instrumentelor de tip prompt-to-prototype bazate pe inteligență artificială, dominate de Replit și Lovable, o aplicație gratuită dezvoltată de Google atrage atenția utilizatorilor.</description>
     </item>
 </channel></rss>

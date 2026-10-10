@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 20:21:09 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 23:48:55 +0000</lastBuildDate>
     <item>
       <title>OpenAI dezvoltă o nouă versiune ChatGPT concepută ca un asistent personal interactiv</title>
       <link>https://izz.ro/ai/openai-dezvolta-o-noua-versiune-chatgpt-conceputa-ca-un-asistent-personal/</link>
@@ -231,14 +231,5 @@
       <category>ai</category>
       <source url="https://hotnews.ro/anthropic-recunoaste-intr-un-document-oficial-depus-in-sua-riscuri-existentiale-pentru-omenire-din-cauza-ai-2360960">HotNews, Observator</source>
       <description>Compania Anthropic intenționează să includă în documentele oficiale pentru listarea la bursă din Statele Unite avertismente clare cu privire la pericolele tehnologiei pe care o dezvoltă. Rivalul OpenAI va menționa că sistemele avansate de inteligență artificială pot genera riscuri majore, catastrofale sau chiar existențiale pentru omenire.</description>
-    </item>
-    <item>
-      <title>OpenAI a descoperit o nouă metodă de injectare de comenzi de tip vierme informatic</title>
-      <link>https://izz.ro/ai/openai-a-descoperit-o-noua-metoda-de-injectare-de-comenzi-de-tip-vierme/</link>
-      <guid>https://izz.ro/ai/openai-a-descoperit-o-noua-metoda-de-injectare-de-comenzi-de-tip-vierme/</guid>
-      <pubDate>Mon, 28 Sep 2026 21:26:55 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/openai-self-replicating-injections/">The New Stack</source>
-      <description>Cercetătorii companiei au semnalat un nou tip de vulnerabilitate prin care injectările de instrucțiuni în modelele de inteligență artificială se pot propaga autonom, similar unui program malțios clasic.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/auto/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Auto pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 20:21:15 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 23:49:01 +0000</lastBuildDate>
+    <item>
+      <title>Peste 100 de șoferi amendați în Olanda pentru folosirea telefonului la volan</title>
+      <link>https://izz.ro/auto/peste-100-de-soferi-amendati-in-olanda-pentru-folosirea-telefonului-la-volan/</link>
+      <guid>https://izz.ro/auto/peste-100-de-soferi-amendati-in-olanda-pentru-folosirea-telefonului-la-volan/</guid>
+      <pubDate>Sat, 10 Oct 2026 20:05:52 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.libertatea.ro/stiri/amenzi-440-euro-106-soferi-prinsi-cu-telefonul-la-volan-politisti-urmarit-din-autocar-olanda-d1ykmg8">Libertatea</source>
+      <media:content url="https://izz.ro/auto/peste-100-de-soferi-amendati-in-olanda-pentru-folosirea-telefonului-la-volan/cover.jpg?v=b9a4b806" medium="image" type="image/jpeg"/>
+      <description>Poliția olandeză a utilizat un autocar de monitorizare pe autostrăzi pentru a depista șoferii distrași de telefoane. Peste 100 de persoane au fost sancționate, iar patru permise au fost suspendate pentru viteză.</description>
+    </item>
     <item>
       <title>Renault susține că mașinile sale electrice rivalizează cu succes tehnologia chineză</title>
       <link>https://izz.ro/auto/renault-sustine-ca-masinile-sale-electrice-rivalizeaza-cu-succes-tehnologia/</link>
@@ -313,7 +323,6 @@
       <pubDate>Fri, 09 Oct 2026 08:00:00 +0000</pubDate>
       <category>auto</category>
       <source url="https://www.automarket.ro/stiri/premiera-noul-volkswagen-id-tiguan-autonomie-pana-la-600-de-kilometri-128987.html">AutoMarket, AutoCritica</source>
-      <media:content url="https://izz.ro/auto/volkswagen-a-prezentat-noul-suv-electric-id-tiguan-cu-o-autonomie-de-pana-la/cover.jpg?v=297acb46" medium="image" type="image/jpeg"/>
       <description>Producătorul german Volkswagen a dezvăluit noul model electric ID. Tiguan, succesorul SUV-urilor ID.4 și ID.5. Vehiculul va fi disponibil în trei variante de motorizare, cu o autonomie maximă de până la 600 de kilometri și un interior echipat cu până la trei ecrane. Producția va începe la uzina din Emden, iar lansarea comercială este programată pentru anul 2027, cu pre-comenzi deschise din toamna acestui an.</description>
     </item>
     <item>
@@ -323,7 +332,6 @@
       <pubDate>Fri, 09 Oct 2026 07:47:51 +0000</pubDate>
       <category>auto</category>
       <source url="https://www.connect.ro/2026/10/09/tesla-assisted-driving-europa/">Connect.ro</source>
-      <media:content url="https://izz.ro/auto/tesla-a-redenumit-sistemul-full-self-driving-in-tesla-assisted-driving-in-europa/cover.jpg?v=4a9cac37" medium="image" type="image/jpeg"/>
       <description>Constructorul auto Tesla a modificat denumirea pachetului său de asistență pentru a respecta cerințele autorităților din Germania, un pas necesar în vederea obținerii aprobării oficiale la nivelul Uniunii Europene.</description>
     </item>
     <item>
@@ -333,7 +341,6 @@
       <pubDate>Fri, 09 Oct 2026 07:45:00 +0000</pubDate>
       <category>auto</category>
       <source url="https://spotmedia.ro/stiri/eveniment/noul-sistem-de-taxare-a-drumurilor-tollro-are-din-nou-probleme-cnair-anunta-defectiuni">Spotmedia</source>
-      <media:content url="https://izz.ro/auto/sistemul-national-de-taxare-rutiera-tollro-intampina-noi-defectiuni-tehnice/cover.jpg?v=cfcbdcff" medium="image" type="image/jpeg"/>
       <description>Platforma digitală TollRo pentru plata taxelor de drum a înregistrat probleme tehnice la doar opt zile de la lansare, iar echipele CNAIR lucrează în prezent pentru remedierea disfuncționalităților apărute.</description>
     </item>
     <item>
@@ -479,14 +486,5 @@
       <category>auto</category>
       <source url="https://www.autocritica.ro/live-news/skoda-va-introduce-echiparea-sportline-pe-suv-ul-electric-epiq/">AutoCritica</source>
       <description>Producătorul auto Škoda a anunțat introducerea pachetului Sportline pe viitorul său model complet electric, Epiq. SUV-ul va fi prezentat în cadrul Salonului Auto de la Paris, aducând dotări estetice și tehnice superioare.</description>
-    </item>
-    <item>
-      <title>Renault pregăti o versiune de bază pentru modelul electric Renault 4</title>
-      <link>https://izz.ro/auto/renault-pregati-o-versiune-de-baza-pentru-modelul-electric-renault-4/</link>
-      <guid>https://izz.ro/auto/renault-pregati-o-versiune-de-baza-pentru-modelul-electric-renault-4/</guid>
-      <pubDate>Thu, 08 Oct 2026 12:01:38 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.autocritica.ro/live-news/renault-4-va-primi-o-versiune-de-baza-cu-110-cp-si-autonomie-de-305-km/">AutoCritica</source>
-      <description>Constructorul francez introduce îmbunătățiri de autonomie pentru gama Renault 4 și anunță o variantă entry-level echipată cu motor de 110 cai puteri și o baterie LFP.</description>
     </item>
 </channel></rss>
