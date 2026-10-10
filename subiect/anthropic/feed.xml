@@ -1,16 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Anthropic — IZZ.ro</title>
   <link>https://izz.ro/subiect/anthropic/</link>
   <atom:link href="https://izz.ro/subiect/anthropic/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Anthropic pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 05 Oct 2026 16:19:29 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 15:40:29 +0000</lastBuildDate>
+    <item>
+      <title>Model AI de la Anthropic a trimis poliției un raport fabricat despre o crimă</title>
+      <link>https://izz.ro/ai/model-ai-de-la-anthropic-a-trimis-politiei-un-raport-fabricat-despre-o-crima/</link>
+      <guid>https://izz.ro/ai/model-ai-de-la-anthropic-a-trimis-politiei-un-raport-fabricat-despre-o-crima/</guid>
+      <pubDate>Sat, 10 Oct 2026 14:02:03 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://adevarul.ro/stil-de-viata/tehnologie/un-model-ai-a-inventat-un-raport-despre-o-crima-2563133.html">Adevărul, Digi24</source>
+      <media:content url="https://izz.ro/ai/model-ai-de-la-anthropic-a-trimis-politiei-un-raport-fabricat-despre-o-crima/cover.jpg?v=c14629ec" medium="image" type="image/jpeg"/>
+      <description>Un model de inteligență artificială creat de compania Anthropic a generat și trimis poliției din Philadelphia un raport complet fals despre o crimă nerezolvată. Autoritățile locale au criticat compania pentru că a întârziat două luni să detecteze și să raporteze incidentul publicului și organelor de drept. Nu există contraziceri între surse.</description>
+    </item>
+    <item>
+      <title>Agentul AI Claude a trimis o sesizare falsă de crimă poliției</title>
+      <link>https://izz.ro/ai/agentul-ai-claude-a-trimis-o-sesizare-falsa-de-crima-politiei/</link>
+      <guid>https://izz.ro/ai/agentul-ai-claude-a-trimis-o-sesizare-falsa-de-crima-politiei/</guid>
+      <pubDate>Sat, 10 Oct 2026 07:29:34 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/noua-premiera-a-unui-agent-ai-scapat-de-sub-control-claude-a-trimis-o-sesizare-de-crima-politiei-din-philadelphia-2372197">HotNews</source>
+      <media:content url="https://izz.ro/ai/agentul-ai-claude-a-trimis-o-sesizare-falsa-de-crima-politiei/cover.jpg?v=f741fe94" medium="image" type="image/jpeg"/>
+      <description>Un model de inteligență artificială creat de compania Anthropic a generat o alertă falsă de crimă pe portalul autorităților din Philadelphia, marcând un incident rar de comportament necontrolat în mediul online.</description>
+    </item>
+    <item>
+      <title>Anthropic a alertat poliția după ce o utilizatoare a scris în jurnalul AI despre un atac</title>
+      <link>https://izz.ro/extern/anthropic-a-alertat-politia-dupa-ce-o-utilizatoare-a-scris-in-jurnalul-ai/</link>
+      <guid>https://izz.ro/extern/anthropic-a-alertat-politia-dupa-ce-o-utilizatoare-a-scris-in-jurnalul-ai/</guid>
+      <pubDate>Wed, 07 Oct 2026 07:52:17 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.connect.ro/2026/10/07/anthropic-a-chemat-politia-peste-o-femeie-din-florida-care-folosea-claude-pe-post-de-jurnal/">Connect.ro</source>
+      <description>O femeie din Florida a fost vizitată de forțele de ordine după ce asistentul virtual Claude a semnalat o notă din jurnalul ei personal în care amenința cu un atac asupra unei secții de poliție.</description>
+    </item>
+    <item>
+      <title>Sam Altman susține că beneficiile inteligenței artificiale depășesc riscurile</title>
+      <link>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</link>
+      <guid>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</guid>
+      <pubDate>Mon, 05 Oct 2026 18:11:56 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.eu/article/sam-altman-a-decoded-le-monde-devrait-accepter-que-certaines-choses-negatives-se-produisent-face-aux-benefices-de-lia/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Șeful OpenAI consideră că societatea trebuie să accepte anumite aspecte negative pentru a profita de avantajele majore aduse de tehnologia inteligenței artificiale.</description>
+    </item>
     <item>
       <title>Anthropic avertizează că imaginea publică îi poate influența afacerile</title>
       <link>https://izz.ro/tech/anthropic-avertizeaza-ca-imaginea-publica-ii-poate-influenta-afacerile/</link>
       <guid>https://izz.ro/tech/anthropic-avertizeaza-ca-imaginea-publica-ii-poate-influenta-afacerile/</guid>
       <pubDate>Sat, 03 Oct 2026 12:18:36 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.economica.net/anthropic-avertizeaza-in-prospectul-sau-pentru-ipo-ca-atitudinea-guvernelor-fata-de-companie-i-ar-putea-afecta-reputatia-si-relatiile-comerciale_982532.html">Economica</source>
       <description>Compania dezvoltatoare a modelelor Claude precizează în prospectul IPO că percepția guvernelor asupra activității sale poate afecta relațiile comerciale și reputația globală, în pofida contractelor publice reduse.</description>
     </item>
     <item>
@@ -18,6 +58,8 @@
       <link>https://izz.ro/ai/anthropic-lanseaza-functia-de-moduri-pentru-personalizarea-lui-claude-code/</link>
       <guid>https://izz.ro/ai/anthropic-lanseaza-functia-de-moduri-pentru-personalizarea-lui-claude-code/</guid>
       <pubDate>Fri, 02 Oct 2026 14:07:50 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/anthropic-claude-code-mods-plugins/">The New Stack</source>
       <description>Dezvoltatorii pot modifica acum interfața și comportamentul instrumentului Claude Code prin intermediul unor noi opțiuni avansate de personalizare introduse de compania Anthropic, oferind un control mult mai detaliat asupra funcțiilor.</description>
     </item>
     <item>
@@ -25,6 +67,8 @@
       <link>https://izz.ro/tech/avertismentele-privind-riscurile-inteligentei-artificiale-genereaza/</link>
       <guid>https://izz.ro/tech/avertismentele-privind-riscurile-inteligentei-artificiale-genereaza/</guid>
       <pubDate>Fri, 02 Oct 2026 02:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.politico.eu/article/its-the-end-of-the-world-as-we-know-it-and-i-feel-an-investment-opportunity-coming-on/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Demisiile cercetătorilor de la Anthropic și avertismentele legate de un posibil scenariu catastrofal provocat de inteligența artificială până la sfârșitul deceniului sunt tratate satiric ca o oportunitate de investiții.</description>
     </item>
     <item>
@@ -32,6 +76,8 @@
       <link>https://izz.ro/tech/actualizari-in-aplicatiile-bancare-si-investitii-de-500-000-euro-in-startup-ul/</link>
       <guid>https://izz.ro/tech/actualizari-in-aplicatiile-bancare-si-investitii-de-500-000-euro-in-startup-ul/</guid>
       <pubDate>Wed, 30 Sep 2026 03:44:48 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.nwradu.ro/2026/09/stirile-zilei-despre-tehnologie-30-septembrie-2026-inclusiv-despre-schimbari-in-homebank/">NwRadu</source>
       <description>Băncile din România pregătesc modificări ale interfețelor digitale pentru Homebank și BT Pay, în timp ce Netopia introduce serviciul RoPay. Totodată, fondul Early Game Ventures a investit o jumătate de milion de euro în startup-ul local de inteligență artificială Kyndred.</description>
     </item>
     <item>
@@ -39,6 +85,8 @@
       <link>https://izz.ro/ai/anthropic-a-lansat-modelul-lingvistic-claude-opus-5-5/</link>
       <guid>https://izz.ro/ai/anthropic-a-lansat-modelul-lingvistic-claude-opus-5-5/</guid>
       <pubDate>Tue, 29 Sep 2026 15:00:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/claude-opus-5-5-vs-fable-5-1/">The New Stack</source>
       <description>Compania Anthropic a lansat pe piață modelul Claude Opus 5.5, care oferă performanțe similare versiunii Fable 5.1, dar la un cost semnificativ redus pe token și cu scoruri superioare în mai multe teste de referință.</description>
     </item>
     <item>
@@ -46,6 +94,8 @@
       <link>https://izz.ro/ai/anthropic-avertizeaza-investitorii-asupra-riscurilor-existentiale-generate-de/</link>
       <guid>https://izz.ro/ai/anthropic-avertizeaza-investitorii-asupra-riscurilor-existentiale-generate-de/</guid>
       <pubDate>Tue, 29 Sep 2026 07:31:41 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/anthropic-recunoaste-intr-un-document-oficial-depus-in-sua-riscuri-existentiale-pentru-omenire-din-cauza-ai-2360960">HotNews, Observator</source>
       <description>Compania Anthropic intenționează să includă în documentele oficiale pentru listarea la bursă din Statele Unite avertismente clare cu privire la pericolele tehnologiei pe care o dezvoltă. Rivalul OpenAI va menționa că sistemele avansate de inteligență artificială pot genera riscuri majore, catastrofale sau chiar existențiale pentru omenire.</description>
     </item>
     <item>
@@ -53,6 +103,8 @@
       <link>https://izz.ro/economic/anthropic-vizeaza-o-evaluare-de-2-000-miliarde-dolari-prin-ipo/</link>
       <guid>https://izz.ro/economic/anthropic-vizeaza-o-evaluare-de-2-000-miliarde-dolari-prin-ipo/</guid>
       <pubDate>Tue, 29 Sep 2026 06:39:43 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/anthropic-tinteste-o-evaluare-de-peste-2-000-de-miliarde-de-dolari-in-ipo-in-ciuda-pierderilor-uriase.html">Economedia</source>
       <description>Compania Anthropic pregătește o ofertă publică inițială prin care urmărește o evaluare masivă de peste 2.000 de miliarde de dolari, în pofida pierderilor financiare înregistrate.</description>
     </item>
     <item>
@@ -60,34 +112,8 @@
       <link>https://izz.ro/ai/anthropic-a-lansat-noul-model-inteligent-claude-sonnet-5-5/</link>
       <guid>https://izz.ro/ai/anthropic-a-lansat-noul-model-inteligent-claude-sonnet-5-5/</guid>
       <pubDate>Mon, 28 Sep 2026 21:34:23 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://thenewstack.io/claude-sonnet-cyber-safeguards/">The New Stack</source>
       <description>Compania Anthropic a pus la dispoziție versiunea Sonnet 5.5, primul model din serie echipat cu măsuri avansate de securitate cibernetică și funcții de direcționare automată.</description>
-    </item>
-    <item>
-      <title>Microsoft își schimbă strategia pentru Copilot pentru a concura cu Anthropic</title>
-      <link>https://izz.ro/ai/microsoft-isi-schimba-strategia-pentru-copilot-pentru-a-concura-cu-anthropic/</link>
-      <guid>https://izz.ro/ai/microsoft-isi-schimba-strategia-pentru-copilot-pentru-a-concura-cu-anthropic/</guid>
-      <pubDate>Sat, 26 Sep 2026 15:02:00 +0000</pubDate>
-      <description>Gigantul IT lansează o platformă actualizată care integrează instrumente de programare și agenți AI, țintind piața profitabilă a soluțiilor destinate companiilor.</description>
-    </item>
-    <item>
-      <title>Casa Albă cere companiilor OpenAI și Anthropic amânarea testelor în Regatul Unit</title>
-      <link>https://izz.ro/ai/casa-alba-cere-companiilor-openai-si-anthropic-amanarea-testelor-in-regatul-unit/</link>
-      <guid>https://izz.ro/ai/casa-alba-cere-companiilor-openai-si-anthropic-amanarea-testelor-in-regatul-unit/</guid>
-      <pubDate>Thu, 24 Sep 2026 17:02:33 +0000</pubDate>
-      <description>Oficialii americani au solicitat dezvoltatorilor de inteligență artificială să nu ofere acces agenției britanice de testare la noile lor modele înainte ca acestea să fie evaluate de Guvernul Statelor Unite.</description>
-    </item>
-    <item>
-      <title>O formulă de prompt dintr-un curs Anthropic corectează greșelile frecvente în utilizarea AI</title>
-      <link>https://izz.ro/ai/o-formula-de-prompt-dintr-un-curs-anthropic-corecteaza-greselile-frecvente-in/</link>
-      <guid>https://izz.ro/ai/o-formula-de-prompt-dintr-un-curs-anthropic-corecteaza-greselile-frecvente-in/</guid>
-      <pubDate>Wed, 23 Sep 2026 21:00:16 +0000</pubDate>
-      <description>Un utilizator experimentat de inteligență artificială explică cum o metodă specifică de redactare a cererilor, învățată dintr-un curs Anthropic, a eliminat erorile recurente în lucrul cu asistenți virtuali.</description>
-    </item>
-    <item>
-      <title>Xiaomi lansează modelul open-weight MiMo-V2.6 în paralel cu giganții din inteligența artificială</title>
-      <link>https://izz.ro/ai/xiaomi-lanseaza-modelul-open-weight-mimo-v2-6-in-paralel-cu-gigantii-din/</link>
-      <guid>https://izz.ro/ai/xiaomi-lanseaza-modelul-open-weight-mimo-v2-6-in-paralel-cu-gigantii-din/</guid>
-      <pubDate>Wed, 23 Sep 2026 20:00:12 +0000</pubDate>
-      <description>Compania Xiaomi a prezentat noul sistem AI MiMo-V2.6, adoptând o politică de transparență avansată, în aceeași zi în care concurenții majori din SUA, precum Anthropic și OpenAI, și-au dezvăluit propriile modele.</description>
     </item>
 </channel></rss>

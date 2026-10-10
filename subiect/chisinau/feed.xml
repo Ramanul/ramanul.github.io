@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/chisinau/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Chișinău pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 08:47:45 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 15:40:30 +0000</lastBuildDate>
+    <item>
+      <title>Republica Moldova vrea să dezvolte o industrie militară proprie</title>
+      <link>https://izz.ro/extern/republica-moldova-vrea-sa-dezvolte-o-industrie-militara-proprie/</link>
+      <guid>https://izz.ro/extern/republica-moldova-vrea-sa-dezvolte-o-industrie-militara-proprie/</guid>
+      <pubDate>Fri, 09 Oct 2026 05:05:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.europalibera.md/a/drone-made-in-moldova-chisinaul-vrea-sa-atraga-investitori-straini-dar-lipseste-legislatia/33872948.html">Europa Liberă</source>
+      <media:content url="https://izz.ro/extern/republica-moldova-vrea-sa-dezvolte-o-industrie-militara-proprie/cover.jpg?v=a3f85649" medium="image" type="image/jpeg"/>
+      <description>Autoritățile de la Chișinău intenționează să atragă investitori străini în producția de drone, deși cadrul legal lipsește. Guvernul promite adoptarea unui pachet legislativ favorabil afacerilor din sectorul de apărare până la sfârșitul anului.</description>
+    </item>
     <item>
       <title>Ministrul interimar Radu Miruță subliniază legătura dintre securitatea Moldovei și a României</title>
       <link>https://izz.ro/politic/ministrul-interimar-radu-miruta-subliniaza-legatura-dintre-securitatea-moldovei/</link>
@@ -122,14 +132,5 @@
       <category>politic</category>
       <source url="https://www.europalibera.md/a/pe-agenda-cu-lilian-carp-printre-drone-si-scumpiri-mai-ataca-si-chicu-cum-vrea-pas-sa-faca-fata-crizelor-suprapuse/33867268.html">Europa Liberă</source>
       <description>Autoritățile moldovene abordează individual provocările actuale, incluzând scumpirile la gaze, atacurile cu drone și acțiunile opoziției, conform declarațiilor deputatului PAS Lilian Carp.</description>
-    </item>
-    <item>
-      <title>Bursa Internațională a Moldovei a fost lansată oficial la Chișinău</title>
-      <link>https://izz.ro/economic/bursa-internationala-a-moldovei-a-fost-lansata-oficial-la-chisinau/</link>
-      <guid>https://izz.ro/economic/bursa-internationala-a-moldovei-a-fost-lansata-oficial-la-chisinau/</guid>
-      <pubDate>Mon, 28 Sep 2026 14:55:29 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://cursdeguvernare.ro/lansare-bursa-internationala-moldova-chisinau-tranzactionare-listare-parteneriat-bvb-actionar-semnificativ.html">Curs de Guvernare</source>
-      <description>Autoritățile din Chișinău, în parteneriat cu Bursa de Valori București, au inaugurat platforma BIMx. Prima listare pe această nouă piață de capital este programată să aibă loc până la sfârșitul anului 2026.</description>
     </item>
 </channel></rss>

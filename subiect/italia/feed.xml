@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/italia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Italia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 08:47:45 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 15:40:29 +0000</lastBuildDate>
+    <item>
+      <title>Zeci de răniți după ce două tornade au lovit Sicilia</title>
+      <link>https://izz.ro/extern/zeci-de-raniti-dupa-ce-doua-tornade-au-lovit-sicilia/</link>
+      <guid>https://izz.ro/extern/zeci-de-raniti-dupa-ce-doua-tornade-au-lovit-sicilia/</guid>
+      <pubDate>Sat, 10 Oct 2026 11:00:31 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/10/tornado-hit-marsala-sicily-injuries-damage">The Guardian</source>
+      <media:content url="https://izz.ro/extern/zeci-de-raniti-dupa-ce-doua-tornade-au-lovit-sicilia/cover.jpg?v=1ed92f5b" medium="image" type="image/jpeg"/>
+      <description>Orașul costier Marsala din vestul insulei italiene a fost lovit de furtuni violente venite din Marea Mediterană, provocând rănirea a zeci de persoane, distrugerea mai multor clădiri și avarierea gravă a autovehiculelor.</description>
+    </item>
     <item>
       <title>Salvamontiștii români participă la stagii de pregătire în Italia și Austria</title>
       <link>https://izz.ro/general/salvamontistii-romani-participa-la-stagii-de-pregatire-in-italia-si-austria/</link>
@@ -103,7 +113,6 @@
       <pubDate>Thu, 08 Oct 2026 21:30:43 +0000</pubDate>
       <category>sport</category>
       <source url="https://www.fcinter1908.it/nazionali/euro-2032-regola-posti-seduti/">FC Inter 1908</source>
-      <media:content url="https://izz.ro/sport/uefa-impune-exclusiv-locuri-pe-scaune-pe-stadioane-pentru-euro-2032/cover.jpg?v=b7a47c76" medium="image" type="image/jpeg"/>
       <description>Ministrul Sportului, Andrea Abodi, a anunțat că regulile UEFA pentru Campionatul European din 2032 interzic locurile în picioare pe stadioanele din Italia, obligând toate arenele gazdă să ofere exclusiv scaune.</description>
     </item>
     <item>
@@ -113,7 +122,6 @@
       <pubDate>Thu, 08 Oct 2026 21:00:19 +0000</pubDate>
       <category>sport</category>
       <source url="https://www.fcinter1908.it/ultimora/bucchioni-esposito-vieri/">FC Inter 1908</source>
-      <media:content url="https://izz.ro/sport/enzo-bucchioni-il-lauda-pe-tanarul-fotbalist-pio-esposito/cover.jpg?v=da3e2b95" medium="image" type="image/jpeg"/>
       <description>Jurnalistul italian Enzo Bucchioni a evidențiat evoluțiile excelente ale atacantului Pio Esposito în meciurile recente din naționala Italiei, remarcându-i maturitatea și calitățile tehnice deosebite la vârsta de 21 de ani.</description>
     </item>
     <item>
@@ -123,7 +131,6 @@
       <pubDate>Thu, 08 Oct 2026 20:17:10 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/comisia-europeana-a-respins-solicitarile-italiei-si-greciei-de-relaxare-a-regulilor-fiscale-in-contextul-scumpirii-energiei-3984671">Digi24 Extern</source>
-      <media:content url="https://izz.ro/economic/comisia-europeana-a-respins-cererile-de-relaxare-fiscala-ale-italiei-si-greciei/cover.jpg?v=67aff0e1" medium="image" type="image/jpeg"/>
       <description>Executivul UE a refuzat cererea venită din partea Italiei și Greciei de a obține o flexibilitate bugetară suplimentară destinată combaterii inflației energetice și susținerii populației afectate de prețurile mari.</description>
     </item>
     <item>
@@ -458,14 +465,5 @@
       <category>sport</category>
       <source url="https://cvlpress.ro/03.10.2026/liga-natiunilor-franta-a-remizat-cu-italia/">Cuvântul Libertății</source>
       <description>Reprezentativele de fotbal ale Franței și Italiei au încheiat la egalitate, scor 1-1, partida disputată pe arena Stade de France din cadrul Ligii Națiunilor.</description>
-    </item>
-    <item>
-      <title>Craiova a găzduit evenimentul cultural Ponti di Cultura</title>
-      <link>https://izz.ro/local/craiova-a-gazduit-evenimentul-cultural-ponti-di-cultura/</link>
-      <guid>https://izz.ro/local/craiova-a-gazduit-evenimentul-cultural-ponti-di-cultura/</guid>
-      <pubDate>Sat, 03 Oct 2026 05:26:28 +0000</pubDate>
-      <category>local</category>
-      <source url="https://jurnalulolteniei.ro/ponti-di-cultura-punte-intre-romania-si-italia-la-craiova/">Jurnalul Olteniei</source>
-      <description>Municipiul Craiova a fost gazda manifestării dedicate relațiilor culturale dintre România și Italia, organizată în memoria fostului viceconsul onorific Marco Oletti pentru comunitatea locală.</description>
     </item>
 </channel></rss>

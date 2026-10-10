@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/spania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Spania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 08:47:45 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 15:40:29 +0000</lastBuildDate>
+    <item>
+      <title>Un specialist IT din Spania a câștigat în instanță plata orelor suplimentare</title>
+      <link>https://izz.ro/economic/un-specialist-it-din-spania-a-castigat-in-instanta-plata-orelor-suplimentare/</link>
+      <guid>https://izz.ro/economic/un-specialist-it-din-spania-a-castigat-in-instanta-plata-orelor-suplimentare/</guid>
+      <pubDate>Sat, 10 Oct 2026 13:42:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/extern/un-itst-sia-dat-angajatorul-in-judecata-pentru-166-de-ore-suplimentare-ce-suma-a-obtinut-in-instanta-668660.html">Observator</source>
+      <media:content url="https://izz.ro/economic/un-specialist-it-din-spania-a-castigat-in-instanta-plata-orelor-suplimentare/cover.jpg?v=3e57df2c" medium="image" type="image/jpeg"/>
+      <description>Tribunalul Superior din Aragon a decis ca un angajator să achite peste 5.600 de euro pentru 166 de ore prestate suplimentar de un angajat în urma unui incident cibernetic.</description>
+    </item>
     <item>
       <title>Mașina fiicei lui Luis Enrique, implicată într-un accident în Spania</title>
       <link>https://izz.ro/extern/masina-fiicei-lui-luis-enrique-implicata-intr-un-accident-in-spania/</link>
@@ -63,7 +73,6 @@
       <pubDate>Thu, 08 Oct 2026 19:10:06 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <media:content url="https://izz.ro/extern/proteste-masive-in-madrid-impotriva-crizei-locuintelor/cover.jpg?v=c8dda93d" medium="image" type="image/jpeg"/>
       <description>Sute de cetățeni au amplasat corturi în centrul capitalei Spaniei pentru a acuza fondurile de investiții de criza imobiliară, în timp ce premierul a convocat alegeri anticipate.</description>
     </item>
     <item>
@@ -452,14 +461,5 @@
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/eveniment/criza-locuintelor-din-spania-protest-masiv-la-madrid-incidente-in-valencia-video">Spotmedia</source>
       <description>Mii de spanioli au protestat la Madrid și Valencia împotriva costului ridicat al chiriilor și evacuărilor forțate, nemulțumirile fiind amplificate de respingerea legii locuinței și cazul unei pensionare evacuate.</description>
-    </item>
-    <item>
-      <title>Proteste violente în Spania din cauza prețurilor exorbitante la chirii</title>
-      <link>https://izz.ro/extern/proteste-violente-in-spania-din-cauza-preturilor-exorbitante-la-chirii/</link>
-      <guid>https://izz.ro/extern/proteste-violente-in-spania-din-cauza-preturilor-exorbitante-la-chirii/</guid>
-      <pubDate>Sat, 03 Oct 2026 16:22:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.g4media.ro/proteste-violente-la-madrid-si-in-alte-orase-din-spania-legat-de-preturile-la-locuinte-revolta-s-a-prins-dupa-ce-unei-pensionare-de-87-de-ani-i-a-fost-majorata-chiria-cu-275.html">G4Media</source>
-      <description>Zeci de mii de manifestanți au participat la proteste violente în Madrid și Valencia împotriva scumpirii locuințelor, revolta izbucnind după creșterea masivă a chiriei aplicată unei pensionare de opt parlamentari și șapte ani.</description>
     </item>
 </channel></rss>

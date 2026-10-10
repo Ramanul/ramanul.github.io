@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 08:47:45 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 15:40:30 +0000</lastBuildDate>
     <item>
       <title>Aplicația XBOX pentru PC va primi o interfață nouă</title>
       <link>https://izz.ro/tech/aplicatia-xbox-pentru-pc-va-primi-o-interfata-noua/</link>
@@ -33,7 +33,6 @@
       <pubDate>Thu, 08 Oct 2026 20:58:54 +0000</pubDate>
       <category>tech</category>
       <source url="https://spotmedia.ro/stiri/economie/administratia-trump-blocheaza-microsoft-si-alte-companii-de-tehnologie-sa-ceara-rezidenta-permanenta-pentru-angajatii-straini">Spotmedia</source>
-      <media:content url="https://izz.ro/tech/administratia-trump-blocheaza-marile-companii-it-sa-ceara-rezidenta-pentru/cover.jpg?v=ff7e94d0" medium="image" type="image/jpeg"/>
       <description>Guvernul SUA a suspendat accesul firmelor Microsoft și Adobe la procedura de obținere a rezidenței permanente pentru angajații străini, acuzându-le că înlocuiesc lucrătorii americani.</description>
     </item>
     <item>
@@ -224,14 +223,5 @@
       <category>tech</category>
       <source url="https://www.kitguru.net/tech-news/mustafa-mahmoud/new-report-offers-insight-into-morale-at-id-software-following-xbox-reset/">KitGuru</source>
       <description>După valul masiv de disponibilizări efectuat de Microsoft în iulie 2026, care a afectat jumătate din personal, studioul id Software rămâne într-o stare de haos operațional, potrivit angajaților.</description>
-    </item>
-    <item>
-      <title>Microsoft recunoaște o eroare ce dezactivează licențele Office 2016 și 2019</title>
-      <link>https://izz.ro/tech/microsoft-recunoaste-o-eroare-ce-dezactiveaza-licentele-office-2016-si-2019/</link>
-      <guid>https://izz.ro/tech/microsoft-recunoaste-o-eroare-ce-dezactiveaza-licentele-office-2016-si-2019/</guid>
-      <pubDate>Mon, 28 Sep 2026 08:55:50 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/actualizare-windows-licente-office-2016-office-2019/">ZonaIT</source>
-      <description>O actualizare destinată abonaților Microsoft 365 este livrată accidental pe calculatoarele echipate cu versiuni Office mai vechi, eliminând cheile de activare perpetuă și afectând funcționarea pachetului.</description>
     </item>
 </channel></rss>
