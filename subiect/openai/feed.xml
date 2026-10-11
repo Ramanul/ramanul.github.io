@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 18:22:07 +0000</lastBuildDate>
     <item>
       <title>OpenAI dezvoltă o nouă versiune ChatGPT concepută ca un asistent personal interactiv</title>
       <link>https://izz.ro/ai/openai-dezvolta-o-noua-versiune-chatgpt-conceputa-ca-un-asistent-personal/</link>
@@ -177,32 +177,5 @@
       <category>ai</category>
       <source url="https://www.connect.ro/2026/09/30/gpt-6-1-sol-openai/">Connect.ro</source>
       <description>Compania OpenAI a prezentat noul model de inteligență artificială GPT-6.1 Sol, optimizat pentru codare și sarcini profesionale complexe. Noua versiune oferă performanțe apropiate de modelul Astra, dar la o fracțiune din costurile de operare.</description>
-    </item>
-    <item>
-      <title>OpenAI introduce opțiunea de autentificare cu ChatGPT pentru instrumente externe</title>
-      <link>https://izz.ro/ai/openai-introduce-optiunea-de-autentificare-cu-chatgpt-pentru-instrumente-externe/</link>
-      <guid>https://izz.ro/ai/openai-introduce-optiunea-de-autentificare-cu-chatgpt-pentru-instrumente-externe/</guid>
-      <pubDate>Tue, 29 Sep 2026 17:31:05 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/sign-in-with-chatgpt/">The New Stack</source>
-      <description>Utilizatorii abonați își pot folosi acum pachetele de servicii în platforme terțe de programare și productivitate, precum Notion, Vercel sau Devin, anunță compania la conferința DevDay.</description>
-    </item>
-    <item>
-      <title>OpenAI a introdus modelul lingvistic GPT-6.1 Sol cu performanțe ridicate</title>
-      <link>https://izz.ro/ai/openai-a-introdus-modelul-lingvistic-gpt-6-1-sol-cu-performante-ridicate/</link>
-      <guid>https://izz.ro/ai/openai-a-introdus-modelul-lingvistic-gpt-6-1-sol-cu-performante-ridicate/</guid>
-      <pubDate>Tue, 29 Sep 2026 17:15:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/openai-gpt-6-1-sol/">The New Stack</source>
-      <description>Compania OpenAI a lansat modelul GPT-6.1 Sol, o versiune îmbunătățită a predecesorului său care oferă performanțe similare cu Astra la o fracțiune din costurile standard pentru tokeni.</description>
-    </item>
-    <item>
-      <title>OpenAI a prezentat un nou API de decizie bazat pe modelul Luna</title>
-      <link>https://izz.ro/ai/openai-a-prezentat-un-nou-api-de-decizie-bazat-pe-modelul-luna/</link>
-      <guid>https://izz.ro/ai/openai-a-prezentat-un-nou-api-de-decizie-bazat-pe-modelul-luna/</guid>
-      <pubDate>Tue, 29 Sep 2026 17:15:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/openai-decision-api-luna/">The New Stack</source>
-      <description>Ca reacție la instrumentul concurenței, OpenAI a anunțat lansarea Decisions API în cadrul conferinței DevDay, un sistem bazat pe modelul economic Luna destinat modelării decizionale.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 18:22:07 +0000</lastBuildDate>
     <item>
       <title>ASUS a deschis precomenzile pentru laptopurile ProArt P16 și P14 cu NVIDIA RTX Spark</title>
       <link>https://izz.ro/tech/asus-a-lansat-precomenzile-pentru-laptopurile-proart-cu-nvidia-rtx-spark/</link>
@@ -122,41 +122,5 @@
       <category>tech</category>
       <source url="https://www.xda-developers.com/dlss-5-is-the-new-ray-tracing-and-its-going-to-be-inescapable-soon/">XDA Developers</source>
       <description>Nvidia a prezentat DLSS 5 drept cel mai important progres în domeniul graficii pe computer de la introducerea ray tracing-ului în timp real, compania pregătind adoptarea pe scară largă a noii tehnologii.</description>
-    </item>
-    <item>
-      <title>Nebius și NVIDIA lansează ediția 2026 a premiilor pentru AI fizic</title>
-      <link>https://izz.ro/ai/nebius-si-nvidia-lanseaza-editia-2026-a-premiilor-pentru-ai-fizic/</link>
-      <guid>https://izz.ro/ai/nebius-si-nvidia-lanseaza-editia-2026-a-premiilor-pentru-ai-fizic/</guid>
-      <pubDate>Tue, 29 Sep 2026 17:48:10 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.marktechpost.com/2026/09/29/nebius-opens-2026-physical-ai-awards-five-150k-compute-prizes/">MarkTechPost</source>
-      <description>Competiția sprijină startup-urile din inteligența artificială fizică oferind credite de calcul în valoare totală considerabilă pentru echipele care demonstrează produse funcționale pe piață.</description>
-    </item>
-    <item>
-      <title>Testarea neautorizată a DLSS 5 pe jocuri clasice</title>
-      <link>https://izz.ro/tech/testarea-neautorizata-a-dlss-5-pe-jocuri-clasice/</link>
-      <guid>https://izz.ro/tech/testarea-neautorizata-a-dlss-5-pe-jocuri-clasice/</guid>
-      <pubDate>Tue, 29 Sep 2026 16:00:19 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/i-tested-dlss-5-on-games-it-wasnt-designed-for-the-results-were-bizarre/">XDA Developers</source>
-      <description>Un specialist a experimentat implementarea tehnologiei DLSS 5 în jocuri retro de PS2 şi PS3, demonstrând versatilitatea sistemului de redare bazat pe inteligenţă artificială.</description>
-    </item>
-    <item>
-      <title>Modificarea unui fișier DLSS 5 îmbunătățește rata cadrelor pe secundă</title>
-      <link>https://izz.ro/tech/modificarea-unui-fisier-dlss-5-imbunatateste-rata-cadrelor-pe-secunda/</link>
-      <guid>https://izz.ro/tech/modificarea-unui-fisier-dlss-5-imbunatateste-rata-cadrelor-pe-secunda/</guid>
-      <pubDate>Tue, 29 Sep 2026 15:30:18 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/i-moved-dlss-5-pipeline-in-optiscaler-and-got-back-50-of-my-frame-rate/">XDA Developers</source>
-      <description>Specialiștii în modificări software au reușit să extragă și să implementeze fișierele de randare neuronală DLSS 5 în afara plăcilor video din seria RTX 50, obținând randamente grafice superioare.</description>
-    </item>
-    <item>
-      <title>Jocul 007 First Light a primit o actualizare grafică majoră</title>
-      <link>https://izz.ro/tech/jocul-007-first-light-a-primit-o-actualizare-grafica-majora/</link>
-      <guid>https://izz.ro/tech/jocul-007-first-light-a-primit-o-actualizare-grafica-majora/</guid>
-      <pubDate>Tue, 29 Sep 2026 15:01:51 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/09/29/007-first-light-a-primit-upgrade-ul-cu-nvidia-path-tracing-si-rupe-placi-video-pe-genunchi/">Connect.ro</source>
-      <description>Noul titlu digital cu James Bond, dezvoltat de studioul IO Interactive, impresionează publicul prin implementarea tehnologiei NVIDIA Path Tracing, care ridică semnificativ standardele de fidelitate vizuală.</description>
     </item>
 </channel></rss>

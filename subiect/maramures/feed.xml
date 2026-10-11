@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/maramures/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Maramureș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 18:22:07 +0000</lastBuildDate>
+    <item>
+      <title>Poliția monitorizează traficul rutier din Maramureș din elicopter</title>
+      <link>https://izz.ro/judetean/politia-monitorizeaza-traficul-rutier-din-maramures-din-elicopter/</link>
+      <guid>https://izz.ro/judetean/politia-monitorizeaza-traficul-rutier-din-maramures-din-elicopter/</guid>
+      <pubDate>Sun, 11 Oct 2026 17:47:10 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.emaramures.ro/traficul-din-maramures-monitorizat-din-elicopter-in-11-si-16-octombrie-politia-anunta-controale-aeriene/">eMaramureș</source>
+      <media:content url="https://izz.ro/judetean/politia-monitorizeaza-traficul-rutier-din-maramures-din-elicopter/cover.jpg?v=50fc57e7" medium="image" type="image/jpeg"/>
+      <description>Inspectoratul de Poliție Județean Maramureș anunță că arterele rutiere din județ vor fi supravegheate din elicopterele Inspectoratului General de Aviație în zilele de 11 și 16 octombrie.</description>
+    </item>
     <item>
       <title>O șoferiță fără permis din Maramureș a fost reținută de polițiști</title>
       <link>https://izz.ro/local/o-soferita-fara-permis-din-maramures-a-fost-retinuta-de-politisti/</link>
@@ -53,7 +63,6 @@
       <pubDate>Fri, 09 Oct 2026 16:00:50 +0000</pubDate>
       <category>judetean</category>
       <source url="https://www.emaramures.ro/un-an-de-liceu-in-america-pentru-elevii-din-maramures-inscrierile-sunt-deschise-pana-pe-22-octombrie/">eMaramureș</source>
-      <media:content url="https://izz.ro/judetean/liceenii-din-maramures-pot-aplica-pentru-un-an-de-studiu-in-sua/cover.jpg?v=0d5ebe6c" medium="image" type="image/jpeg"/>
       <description>Tinerii din județ au oportunitatea să participe la programul educațional FLEX Global, care le permite să urmeze un an academic complet într-o instituție de învățământ americană, având termenul limită în octombrie.</description>
     </item>
     <item>
@@ -352,23 +361,5 @@
       <category>local</category>
       <source url="https://www.emaramures.ro/numarul-furturilor-din-autoturisme-a-crescut-in-maramures-cu-24-de-cazuri-in-plus-fata-de-anul-trecut-politistii-avertizeaza/">eMaramureș</source>
       <description>Poliția Maramureș raportează o creștere cu 24 de cazuri a furturilor din mașini comparativ cu anul trecut. Autoritățile au intensificat acțiunile de informare în parcările din Baia Mare pentru a-i avertiza pe șoferi și pasageri asupra riscurilor.</description>
-    </item>
-    <item>
-      <title>Tineri din Baia Mare au reprezentat Maramureșul la festivalul din Cehia</title>
-      <link>https://izz.ro/local/tineri-din-baia-mare-au-reprezentat-maramuresul-la-festivalul-din-cehia/</link>
-      <guid>https://izz.ro/local/tineri-din-baia-mare-au-reprezentat-maramuresul-la-festivalul-din-cehia/</guid>
-      <pubDate>Tue, 29 Sep 2026 16:00:07 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.emaramures.ro/maramuresul-a-ajuns-in-cehia-tineri-din-baia-mare-au-dus-muzica-si-traditiile-la-world-celebration-festival-2026/">eMaramureș</source>
-      <description>Orchestra Comorile Maramureșului și Ansamblul Folcloric Hori și Joc au dus tradițiile și muzica românească în localitatea Břeclav, participând la ediția din 2026 a World Celebration Festival.</description>
-    </item>
-    <item>
-      <title>Șofer de 24 de ani cercetat după ce a rulat cu 168 km/h pe DN1C</title>
-      <link>https://izz.ro/judetean/sofer-de-24-de-ani-cercetat-dupa-ce-a-rulat-cu-168-km-h-pe-dn1c/</link>
-      <guid>https://izz.ro/judetean/sofer-de-24-de-ani-cercetat-dupa-ce-a-rulat-cu-168-km-h-pe-dn1c/</guid>
-      <pubDate>Tue, 29 Sep 2026 13:30:49 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://www.emaramures.ro/168-km-h-pe-dn1c-la-ora-3-dimineata-un-tanar-de-24-de-ani-a-refuzat-recoltarea-probelor-biologice/">eMaramureș</source>
-      <description>Polițiștii din Maramureș au depistat în trafic un tânăr care circula cu viteză excesivă în noaptea de 29 septembrie și care a refuzat recoltarea probelor biologice.</description>
     </item>
 </channel></rss>
