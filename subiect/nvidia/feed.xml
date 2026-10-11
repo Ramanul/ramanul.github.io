@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 18:22:07 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 22:15:08 +0000</lastBuildDate>
     <item>
       <title>ASUS a deschis precomenzile pentru laptopurile ProArt P16 și P14 cu NVIDIA RTX Spark</title>
       <link>https://izz.ro/tech/asus-a-lansat-precomenzile-pentru-laptopurile-proart-cu-nvidia-rtx-spark/</link>
@@ -113,14 +113,5 @@
       <category>ai</category>
       <source url="https://www.marktechpost.com/2026/09/30/nvidia-researchers-introduce-physis-lang-self-evolving-physical-language-that-lifts-cosmos-3-past-veo-3-1-on-physics-benchmarks/">MarkTechPost</source>
       <description>Echipe de la NVIDIA, MIT și Oxford au dezvoltat un cadru de reprezentare bazat pe text pentru a îmbunătăți acuratețea fizică în modelele video generative, depășind performanțele anterioare în clasamentele de specialitate.</description>
-    </item>
-    <item>
-      <title>Nvidia lansează tehnologia grafică DLSS 5 la conferința GTC</title>
-      <link>https://izz.ro/tech/nvidia-lanseaza-tehnologia-grafica-dlss-5-la-conferinta-gtc/</link>
-      <guid>https://izz.ro/tech/nvidia-lanseaza-tehnologia-grafica-dlss-5-la-conferinta-gtc/</guid>
-      <pubDate>Tue, 29 Sep 2026 20:30:18 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/dlss-5-is-the-new-ray-tracing-and-its-going-to-be-inescapable-soon/">XDA Developers</source>
-      <description>Nvidia a prezentat DLSS 5 drept cel mai important progres în domeniul graficii pe computer de la introducerea ray tracing-ului în timp real, compania pregătind adoptarea pe scară largă a noii tehnologii.</description>
     </item>
 </channel></rss>

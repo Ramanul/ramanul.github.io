@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/arabia-saudita/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Arabia Saudită pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 18:22:07 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 22:15:07 +0000</lastBuildDate>
+    <item>
+      <title>Ministrul german al economiei este blocat în Riad din cauza atacurilor asupra aeroportului</title>
+      <link>https://izz.ro/extern/ministrul-german-al-economiei-este-blocat-in-riad-din-cauza-atacurilor-asupra/</link>
+      <guid>https://izz.ro/extern/ministrul-german-al-economiei-este-blocat-in-riad-din-cauza-atacurilor-asupra/</guid>
+      <pubDate>Sun, 11 Oct 2026 19:44:37 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/ministrul-german-al-economiei-este-blocat-la-riad-dupa-atacurile-impotriva-aeroportului.html">G4Media, Digi24 Extern, Antena 3 CNN</source>
+      <media:content url="https://izz.ro/extern/ministrul-german-al-economiei-este-blocat-in-riad-din-cauza-atacurilor-asupra/cover.jpg?v=9c202595" medium="image" type="image/jpeg"/>
+      <description>Katherina Reiche, ministrul german al economiei, a rămas blocată în capitala Arabiei Saudite, Riad, după un atac mortal asupra aeroportului comis de rebelii houthi din Yemen. Plecarea sa a fost amânată până marți, conform anunțului făcut duminică de Ministerul Economiei din Germania.</description>
+    </item>
     <item>
       <title>Rebelii houthi amenință aeroporturile saudite după un atac armat</title>
       <link>https://izz.ro/extern/rebelii-houthi-ameninta-aeroporturile-saudite-dupa-un-atac-armat/</link>
@@ -15,16 +25,6 @@
       <source url="https://stirileprotv.ro/stiri/international/rebelii-houthi-au-amenintat-aeroporturile-din-arabia-saudita-dupa-atacul-sangeros-de-la-riad-trump-pregateste-un-raspuns.html">Știrile ProTV</source>
       <media:content url="https://izz.ro/extern/rebelii-houthi-ameninta-aeroporturile-saudite-dupa-un-atac-armat/cover.jpg?v=12445cbf" medium="image" type="image/jpeg"/>
       <description>Gruparea din Yemen a avertizat companiile aeriene să evite spațiul aerian al Arabiei Saudite, în timp ce administrația Americană analizază un răspuns la aceste amenințări.</description>
-    </item>
-    <item>
-      <title>Aeroportul din Riad, vizat de un nou atac care a provocat un incendiu la terminalul de pasageri</title>
-      <link>https://izz.ro/extern/aeroportul-din-riad-vizat-de-un-nou-atac-care-a-provocat-un-incendiu-la/</link>
-      <guid>https://izz.ro/extern/aeroportul-din-riad-vizat-de-un-nou-atac-care-a-provocat-un-incendiu-la/</guid>
-      <pubDate>Sun, 11 Oct 2026 15:29:36 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://hotnews.ro/aeroportul-din-riad-atacat-din-nou-a-fost-vizat-un-terminal-de-pasageri-2372966">HotNews, Știrile ProTV, Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/aeroportul-din-riad-vizat-de-un-nou-atac-care-a-provocat-un-incendiu-la/cover.jpg?v=bd640d4c" medium="image" type="image/jpeg"/>
-      <description>Aeroportul internațional din Riad a fost ținta unui nou atac, al patrulea dintr-o săptămână, care a generat un incendiu la un terminal de pasageri. Incidentul survine la scurt timp după o altă lovitură soldată cu cel puțin 12 morți, conform anunțului făcut de coaliția militară condusă de Arabia Saudită, care susține guvernul recunoscut internațional al Yemenului.</description>
     </item>
     <item>
       <title>Rebelii Houthi cer evitarea spațiului aerian al Arabiei Saudite</title>
@@ -135,14 +135,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/arabia-saudita-neaga-ca-ar-fi-participat-la-o-intalnire-cu-netanyahu-in-emiratele-arabe-unite-3970965">Digi24 Extern</source>
       <description>Un oficial saudit a respins informațiile privind prezența unor reprezentanți ai regatului la întâlnirea din Abu Dhabi dintre premierul israelian Benjamin Netanyahu și președintele EAU, Mohamed bin Zayed Al-Nahyan.</description>
-    </item>
-    <item>
-      <title>Regele Marocului condamnă orice atac armat îndreptat împotriva Arabiei Saudite</title>
-      <link>https://izz.ro/extern/regele-marocului-condamna-orice-atac-armat-indreptat-impotriva-arabiei-saudite/</link>
-      <guid>https://izz.ro/extern/regele-marocului-condamna-orice-atac-armat-indreptat-impotriva-arabiei-saudite/</guid>
-      <pubDate>Tue, 29 Sep 2026 19:23:37 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://stirileprotv.ro/stiri/international/cel-mai-bogat-rege-al-africii-declara-ca-orice-atac-asupra-arabiei-saudite-reprezinta-un-atac-asupra-regatului-sau.html">Știrile ProTV</source>
-      <description>Monarhul marocan Mohammed al VI-lea și-a manifestat solidaritatea totală cu Arabia Saudită, subliniind că orice agresiune asupra regatului din Golf afectează direct interesele sale.</description>
     </item>
 </channel></rss>

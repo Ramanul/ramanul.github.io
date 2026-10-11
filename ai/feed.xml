@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 18:22:15 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 22:15:16 +0000</lastBuildDate>
+    <item>
+      <title>Centrele de date pentru inteligența artificială provoacă o criză de cupru</title>
+      <link>https://izz.ro/ai/centrele-de-date-pentru-inteligenta-artificiala-provoaca-o-criza-de-cupru/</link>
+      <guid>https://izz.ro/ai/centrele-de-date-pentru-inteligenta-artificiala-provoaca-o-criza-de-cupru/</guid>
+      <pubDate>Sun, 11 Oct 2026 21:10:25 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://adevarul.ro/economie/centrele-de-date-consuma-tot-mai-mult-cupru-doua-2562915.html">Adevărul</source>
+      <media:content url="https://izz.ro/ai/centrele-de-date-pentru-inteligenta-artificiala-provoaca-o-criza-de-cupru/cover.jpg?v=0dc04ba6" medium="image" type="image/jpeg"/>
+      <description>Dezvoltarea accelerată a tehnologiilor AI amplifică cererea de cupru pentru infrastructură, forțând industria să caute alternative din cauza deficitului estimat de aprovizionare.</description>
+    </item>
     <item>
       <title>Oamenii de știință avertizează că utilizarea malefică a inteligenței artificiale amenință umanitatea</title>
       <link>https://izz.ro/ai/oamenii-de-stiinta-avertizeaza-ca-utilizarea-malefica-a-inteligentei/</link>
@@ -458,14 +468,5 @@
       <category>ai</category>
       <source url="https://www.antena3.ro/life/stiinta/de-la-gandaci-aurii-la-descoperirile-lui-darwin-70-de-milioane-de-exponate-de-muzeu-ajung-online-cu-ajutorul-inteligentei-artificiale-805414.html">Antena 3 CNN</source>
       <description>Oamenii de știință folosesc inteligența artificială pentru a muta în mediul online o colecție vastă de specimene din Regatul Unit. Proiectul include de la insecte rare până la descoperirile istorice ale lui Charles Darwin.</description>
-    </item>
-    <item>
-      <title>Campanie de fraudă prin SMS folosind numele TPARK</title>
-      <link>https://izz.ro/ai/campanie-de-frauda-prin-sms-folosind-numele-tpark/</link>
-      <guid>https://izz.ro/ai/campanie-de-frauda-prin-sms-folosind-numele-tpark/</guid>
-      <pubDate>Sun, 04 Oct 2026 11:55:16 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://stirileprotv.ro/stiri/actualitate/sms-uri-frauduloase-in-numele-tpark-utilizatorii-sunt-pacaliti-sa-plateasca-presupuse-datorii-pentru-parcare.html">Știrile ProTV</source>
-      <description>Directoratul Naţional de Securitate Cibernetică avertizează cetățenii despre mesaje false atribuite TPARK care solicită plata unor presupuse dări pentru parcare.</description>
     </item>
 </channel></rss>

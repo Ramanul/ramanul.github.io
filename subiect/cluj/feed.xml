@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 18:22:07 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 22:15:07 +0000</lastBuildDate>
+    <item>
+      <title>Patru femei au fost rănite într-un accident rutier produs pe drumul Cluj - Gherla</title>
+      <link>https://izz.ro/local/patru-femei-au-fost-ranite-intr-un-accident-rutier-produs-pe-drumul-cluj-gherla/</link>
+      <guid>https://izz.ro/local/patru-femei-au-fost-ranite-intr-un-accident-rutier-produs-pe-drumul-cluj-gherla/</guid>
+      <pubDate>Sun, 11 Oct 2026 19:58:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/noi-informatii-despre-accidentul-care-a-blocat-traficul-pe-cluj-gherla-patru-femei-au-fost-ranite--302704.html">Ziua de Cluj</source>
+      <media:content url="https://izz.ro/local/patru-femei-au-fost-ranite-intr-un-accident-rutier-produs-pe-drumul-cluj-gherla/cover.jpg?v=7010be16" medium="image" type="image/jpeg"/>
+      <description>Polițiștii din județul Cluj au furnizat detalii noi despre coliziunea violentă înregistrată duminică seară pe DN1C, în zona localității Livada, eveniment care a provocat blocarea traficului și rănirea a patru persoane.</description>
+    </item>
     <item>
       <title>Meteorologii au emis o avertizare cod galben de ploi și vijelii valabilă în mai multe localități din Cluj</title>
       <link>https://izz.ro/judetean/meteorologii-au-emis-o-avertizare-cod-galben-de-ploi-si-vijelii-valabila-in-mai/</link>
@@ -459,14 +469,5 @@
       <category>judetean</category>
       <source url="https://zcj.ro/eveniment/tragedie-cumplita-pe-un-drum-din-cluj-un-pieton-a-fost-spulberat-de-o-masina-victima-nu-a-mai-avut-nicio-sansa--302342.html">Ziua de Cluj</source>
       <description>Un accident rutier mortal s-a înregistrat joi seara pe un sector de drum național din județul Cluj, victima pierzându-viața în urma impactului violent cu un autoturism.</description>
-    </item>
-    <item>
-      <title>Elena Udrea îl susține pe Alin Tișe pentru funcția de premier</title>
-      <link>https://izz.ro/judetean/elena-udrea-il-sustine-pe-alin-tise-pentru-functia-de-premier/</link>
-      <guid>https://izz.ro/judetean/elena-udrea-il-sustine-pe-alin-tise-pentru-functia-de-premier/</guid>
-      <pubDate>Fri, 02 Oct 2026 07:26:00 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://zcj.ro/politica/elena-udrea-dintre-toate-numele-vehiculate-ca-posibili-viitori-premieri-il-consider-cel-mai-potrivit-pe-alin-tise--302303.html">Ziua de Cluj</source>
-      <description>Fostul ministru consideră că președintele Consiliului Județean Cluj este cel mai potrivit candidat pentru conducerea guvernului, lăudându-i cariera politică și curajul decizional.</description>
     </item>
 </channel></rss>

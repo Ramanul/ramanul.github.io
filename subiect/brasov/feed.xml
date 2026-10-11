@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/brasov/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Brașov pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 18:22:07 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 22:15:07 +0000</lastBuildDate>
     <item>
       <title>Zece incendii de vegetație au fost semnalate într-o singură zi în județul Brașov</title>
       <link>https://izz.ro/local/zece-incendii-de-vegetatie-au-fost-semnalate-intr-o-singura-zi-in-judetul-brasov/</link>
@@ -55,6 +55,16 @@
       <source url="https://mytex.ro/112/brasov-barbat-de-65-de-ani-disparut-din-bod-a-plecat-de-la-serviciu-si-nu-a-mai-ajuns-acasa/">MyTex</source>
       <media:content url="https://izz.ro/local/barbat-de-65-de-ani-din-comuna-bod-dat-disparut-dupa-ce-a-plecat-la-serviciu/cover.jpg?v=59873491" medium="image" type="image/jpeg"/>
       <description>Polițiștii din Brașov caută un locuitor din satul Bod în vârstă de 65 de ani, numit Gheorghe Jan, care a părăsit locul de muncă și nu a mai ajuns acasă.</description>
+    </item>
+    <item>
+      <title>Doi tineri de 19 ani arestați pentru șantaj la Brașov</title>
+      <link>https://izz.ro/local/doi-tineri-de-19-ani-arestati-pentru-santaj-la-brasov/</link>
+      <guid>https://izz.ro/local/doi-tineri-de-19-ani-arestati-pentru-santaj-la-brasov/</guid>
+      <pubDate>Sun, 11 Oct 2026 13:55:21 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/delicte/video-santaj-si-violenta-pentru-bani-la-brasov-doi-tineri-de-19-ani-au-fost-arestati-preventiv/">MyTex</source>
+      <media:content url="https://izz.ro/local/doi-tineri-de-19-ani-arestati-pentru-santaj-la-brasov/cover.jpg?v=60cc4cfa" medium="image" type="image/jpeg"/>
+      <description>Polițiștii din Brașov au reținut doi tineri acuzați că au agresat fizic și șantajat un bărbat, obligându-l prin violență și amenințări să contracteze împrumuturi bancare pentru a obține bani.</description>
     </item>
     <item>
       <title>Bărbat din Brașov, reținut după ce și-a agresat partenera</title>
@@ -203,7 +213,6 @@
       <pubDate>Fri, 09 Oct 2026 18:13:30 +0000</pubDate>
       <category>local</category>
       <source url="https://mytex.ro/expres/330-de-abateri-pe-dn1-in-doar-patru-ore-in-brasov-si-sibiu-amenzi-de-153-000-de-lei-si-permise-retinute/">MyTex</source>
-      <media:content url="https://izz.ro/local/330-de-abateri-rutiere-pe-dn1-in-doar-patru-ore/cover.jpg?v=94100a63" medium="image" type="image/jpeg"/>
       <description>Polițiștii din Brașov și Sibiu au aplicat amenzi de 153.000 de lei și au reținut permise în cadrul unei acțiuni organizate pe DN1, majoritatea sancțiunilor fiind pentru viteză excesivă.</description>
     </item>
     <item>
@@ -466,14 +475,5 @@
       <category>local</category>
       <source url="https://mytex.ro/economic/cat-costa-de-fapt-sa-fii-bine-in-brasov-de-ce-salariul-bun-din-economia-locala-nu-mai-ofera-liniste-financiara/">MyTex</source>
       <description>Dezvoltarea economică accelerată din Brașov, impulsionată de IT și turism, vine la pachet cu un paradox financiar, în care locuitorii cu venituri peste medie se confruntă cu lipsa siguranței financiare.</description>
-    </item>
-    <item>
-      <title>Fotografia istorică de la Bartolomeu comemorează eroii căzuți la Brașov în 1916</title>
-      <link>https://izz.ro/local/fotografia-istorica-de-la-bartolomeu-comemoreaza-eroii-cazuti-la-brasov-in-1916/</link>
-      <guid>https://izz.ro/local/fotografia-istorica-de-la-bartolomeu-comemoreaza-eroii-cazuti-la-brasov-in-1916/</guid>
-      <pubDate>Wed, 07 Oct 2026 16:10:19 +0000</pubDate>
-      <category>local</category>
-      <source url="https://bizbrasov.ro/2026/10/07/fotografie-memoria-eroilor-bartolomeu/">BizBrașov</source>
-      <description>O imagine de arhivă din timpul luptelor armate de la Bartolomeu, desfășurate în octombrie 1916, este readusă în atenția publicului din Brașov ca un simbol al memoriei colective și al omagiului adus soldaților căzuți pe front.</description>
     </item>
 </channel></rss>
