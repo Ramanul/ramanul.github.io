@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 06:03:03 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 13:08:30 +0000</lastBuildDate>
+    <item>
+      <title>Compania Anthropic va interzice utilizatorii care abuzează verbal chatbotul Claude</title>
+      <link>https://izz.ro/ai/compania-anthropic-va-interzice-utilizatorii-care-abuzeaza-verbal-chatbotul/</link>
+      <guid>https://izz.ro/ai/compania-anthropic-va-interzice-utilizatorii-care-abuzeaza-verbal-chatbotul/</guid>
+      <pubDate>Sun, 11 Oct 2026 07:00:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/anthropic-va-pedepsi-utilizatorii-claude/">ZonaIT</source>
+      <media:content url="https://izz.ro/ai/compania-anthropic-va-interzice-utilizatorii-care-abuzeaza-verbal-chatbotul/cover.jpg?v=8556c0b3" medium="image" type="image/jpeg"/>
+      <description>Dezvoltatorul inteligenței artificiale Claude a decis blocarea conturilor pentru persoanele care folosesc frecvent insulte sau afișează comportamente agresive în interacțiunile textuale cu asistentul virtual.</description>
+    </item>
     <item>
       <title>Un robot umanoid și un câine-robot au fost asigurați în premieră națională pentru peste 140.000 de euro</title>
       <link>https://izz.ro/ai/un-robot-umanoid-si-un-caine-robot-au-fost-asigurati-in-premiera-nationala/</link>
@@ -455,14 +465,5 @@
       <category>ai</category>
       <source url="https://economedia.ro/acelasi-big-mac-preturi-diferite-de-la-un-cartier-la-altul-in-sua-cum-foloseste-mcdonalds-algoritmul-ai.html">Economedia</source>
       <description>Lanțul de restaurante fast-food folosește algoritmi bazați pe inteligență artificială ca să stabilească prețurile meniurilor în funcție de locație. Această strategie urmărește maximizarea profitului, dar stârnește îngrijorări concurențiale.</description>
-    </item>
-    <item>
-      <title>Canada a înființat un Consiliu Național pentru Inteligență Artificială</title>
-      <link>https://izz.ro/ai/canada-a-infiintat-un-consiliu-national-pentru-inteligenta-artificiala/</link>
-      <guid>https://izz.ro/ai/canada-a-infiintat-un-consiliu-national-pentru-inteligenta-artificiala/</guid>
-      <pubDate>Sat, 03 Oct 2026 07:53:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.g4media.ro/canada-a-infiintat-un-consiliu-national-privind-inteligenta-artificiala.html">G4Media</source>
-      <description>Guvernul canadian a creat o nouă structură consultativă menită să ofere sfaturi independente pentru o dezvoltare responsabilă și suverană a tehnologiei IA.</description>
     </item>
 </channel></rss>

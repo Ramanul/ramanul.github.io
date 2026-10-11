@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/uefa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre UEFA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 06:02:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
+    <item>
+      <title>FRF a fost amendată de UEFA după meciul cu Suedia</title>
+      <link>https://izz.ro/sport/frf-a-fost-amendata-de-uefa-dupa-meciul-cu-suedia/</link>
+      <guid>https://izz.ro/sport/frf-a-fost-amendata-de-uefa-dupa-meciul-cu-suedia/</guid>
+      <pubDate>Sun, 11 Oct 2026 11:39:15 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/fotbal/nationala/frf-sanctiune-uefa-incidente-suedia-986878.html">GSP, Spotmedia</source>
+      <media:content url="https://izz.ro/sport/frf-a-fost-amendata-de-uefa-dupa-meciul-cu-suedia/cover.jpg?v=9ace03a7" medium="image" type="image/jpeg"/>
+      <description>Federația Română de Fotbal a primit o amendă de 4.000 de euro din partea UEFA, în urma incidentelor provocate de suporteri la partida pierdută acasă cu Suedia, scor 0-1. Sancțiunea a fost dictată pentru utilizarea de material pirotehnic și înjurături la adresa adversarilor. De asemenea, FRF riscă noi sancțiuni disciplinare din cauza comportamentului recidivist al fanilor.</description>
+    </item>
     <item>
       <title>UEFA impune exclusiv locuri pe scaune pe stadioane pentru Euro 2032</title>
       <link>https://izz.ro/sport/uefa-impune-exclusiv-locuri-pe-scaune-pe-stadioane-pentru-euro-2032/</link>
@@ -104,14 +114,5 @@
       <category>sport</category>
       <source url="https://as.ro/fotbal/universitatea-craiova/universitatea-craiova-amendata-de-uefa-inainte-de-meciul-cu-getafe-din-ce-motiv-au-fost-penalizati-oltenii-692939.html">Antena Sport</source>
       <description>Gruparea din Bănie, singura echipă românească rămasă în competițiile continentale, a primit o amendă din partea UEFA cu puțin timp înainte de primul meci din faza principală a Conference League împotriva celor de la Getafe.</description>
-    </item>
-    <item>
-      <title>Gianni Infantino promite distribuirea echitabilă a fondurilor FIFA</title>
-      <link>https://izz.ro/sport/gianni-infantino-promite-distribuirea-echitabila-a-fondurilor-fifa/</link>
-      <guid>https://izz.ro/sport/gianni-infantino-promite-distribuirea-echitabila-a-fondurilor-fifa/</guid>
-      <pubDate>Tue, 29 Sep 2026 07:26:14 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.economica.net/scandalul-miliardelor-din-fotbalul-international-infantino-promite-distribuirea-echitabila-a-banilor-fifa-catre-federatii_980786.html">Economica</source>
-      <description>Președintele FIFA a răspuns solicitării venite de la UEFA și CONCACAF privind alocarea a cel puțin 10 milioane de dolari către fiecare dintre cele 211 federații membre. Cererea va fi analizată în cadrul următoarei reuniuni oficiale a forului internațional.</description>
     </item>
 </channel></rss>

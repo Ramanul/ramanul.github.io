@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/apple/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Apple pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 06:02:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
     <item>
       <title>Apple organizează un eveniment de lansare pentru produse noi</title>
       <link>https://izz.ro/tech/apple-organizeaza-un-eveniment-de-lansare-pentru-produse-noi/</link>
@@ -33,7 +33,6 @@
       <pubDate>Fri, 09 Oct 2026 10:09:47 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/apple-componente-iphone-18-pro/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/apple-reduce-comenzile-pentru-componentele-de-iphone-18-pro/cover.jpg?v=6f2e7ff0" medium="image" type="image/jpeg"/>
       <description>Compania Apple a cerut furnizorilor să scadă producția de piese pentru viitoarele modele Pro cu aproximativ 15%, anticipând o scădere a vânzărilor provocată de politica de prețuri ridicate.</description>
     </item>
     <item>
@@ -197,23 +196,5 @@
       <category>tech</category>
       <source url="https://start-up.ro/review-iphone-18-pro-max-3-surprize-si-o-dezamagire/">Start-up.ro</source>
       <description>Cel mai recent model vârf de gamă de la Apple aduce îmbunătățiri hardware notabile, fiind considerat un update important în ciuda menținerii designului general.</description>
-    </item>
-    <item>
-      <title>O aplicație transformă viitorul iPhone pliabil într-un aparat Walkman</title>
-      <link>https://izz.ro/tech/o-aplicatie-transforma-viitorul-iphone-pliabil-intr-un-aparat-walkman/</link>
-      <guid>https://izz.ro/tech/o-aplicatie-transforma-viitorul-iphone-pliabil-intr-un-aparat-walkman/</guid>
-      <pubDate>Tue, 29 Sep 2026 08:59:45 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/09/29/iphone-duo-poate-fi-transformat-in-walkman/">Connect.ro</source>
-      <description>Viitorul model iPhone Duo va putea rula o aplicație dedicată care imită clasicul Walkman, incluzând chiar și sunetele originale înregistrate de la dispozitivele Sony pentru o experiență nostalgică pe două ecrane.</description>
-    </item>
-    <item>
-      <title>Apple, condamnată la plata unor despăgubiri uriașe pentru patente încălcate</title>
-      <link>https://izz.ro/tech/apple-condamnata-la-plata-unor-despagubiri-uriase-pentru-patente-incalcate/</link>
-      <guid>https://izz.ro/tech/apple-condamnata-la-plata-unor-despagubiri-uriase-pentru-patente-incalcate/</guid>
-      <pubDate>Tue, 29 Sep 2026 08:05:42 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/09/29/apple-a-fost-condamnata-la-daune-de-5-7-miliarde-de-dolari-pentru-taptic-engine-din-iphone/">Connect.ro</source>
-      <description>Un judecător a obligat gigantul tech să achite daune de 5,7 miliarde de dolari companiei Taction Technology. Litigiul vizează tehnologia Taptic Engine utilizată pentru vibrațiile telefoanelor iPhone.</description>
     </item>
 </channel></rss>

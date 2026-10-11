@@ -1,23 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>FC Barcelona — IZZ.ro</title>
   <link>https://izz.ro/subiect/fc-barcelona/</link>
   <atom:link href="https://izz.ro/subiect/fc-barcelona/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre FC Barcelona pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 09:18:29 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
     <item>
-      <title>FC Barcelona întâlnește formația Dinamo București în Liga Campionilor</title>
-      <link>https://izz.ro/sport/fc-barcelona-intalneste-formatia-dinamo-bucuresti-in-liga-campionilor/</link>
-      <guid>https://izz.ro/sport/fc-barcelona-intalneste-formatia-dinamo-bucuresti-in-liga-campionilor/</guid>
-      <pubDate>Thu, 08 Oct 2026 08:43:42 +0000</pubDate>
-      <description>Echipa de handbal Dinamo București joacă joi seară, de la ora 21:45, în deplasare împotriva puternicei formații FC Barcelona, într-o partidă contând pentru grupele Ligii Campionilor.</description>
+      <title>Joan Laporta acuză Real Madrid că folosește cazul Negreira pentru a ascunde dominația Barcelonei</title>
+      <link>https://izz.ro/sport/joan-laporta-acuza-real-madrid-ca-foloseste-cazul-negreira-pentru-a-ascunde/</link>
+      <guid>https://izz.ro/sport/joan-laporta-acuza-real-madrid-ca-foloseste-cazul-negreira-pentru-a-ascunde/</guid>
+      <pubDate>Sun, 11 Oct 2026 11:47:17 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://adevarul.ro/sport/presedintele-barcelonei-a-lansat-un-atac-dur-la-2563217.html">Adevărul</source>
+      <media:content url="https://izz.ro/sport/joan-laporta-acuza-real-madrid-ca-foloseste-cazul-negreira-pentru-a-ascunde/cover.jpg?v=390f0659" medium="image" type="image/jpeg"/>
+      <description>Președintele clubului FC Barcelona, Joan Laporta, a lansat un atac dur la adresa rivalilor de la Real Madrid, susținând că aceștia exploatează cazul Negreira doar pentru a deturna atenția publicului de la succesul sportiv catalan.</description>
+    </item>
+    <item>
+      <title>Barcelona, Atletico Madrid și Real Madrid au obținut victorii în etapa din La Liga</title>
+      <link>https://izz.ro/sport/barcelona-atletico-madrid-si-real-madrid-au-obtinut-victorii-in-etapa-din-la/</link>
+      <guid>https://izz.ro/sport/barcelona-atletico-madrid-si-real-madrid-au-obtinut-victorii-in-etapa-din-la/</guid>
+      <pubDate>Sat, 10 Oct 2026 22:09:07 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://cvlpress.ro/11.10.2026/la-liga-victorii-pentru-barca-atletico-si-real-madrid/">Cuvântul Libertății</source>
+      <media:content url="https://izz.ro/sport/barcelona-atletico-madrid-si-real-madrid-au-obtinut-victorii-in-etapa-din-la/cover.jpg?v=2a1b2725" medium="image" type="image/jpeg"/>
+      <description>Liderul FC Barcelona s-a impus categoric cu scorul de 3-0 în fața formației Getafe, în timp ce Atletico Madrid a învins-o în deplasare pe Alaves, ambele echipe bifând rezultate pozitive în campionat.</description>
+    </item>
+    <item>
+      <title>FC Barcelona a învins-o categoric pe Getafe cu scorul de trei la zero</title>
+      <link>https://izz.ro/sport/fc-barcelona-a-invins-o-categoric-pe-getafe-cu-scorul-de-trei-la-zero/</link>
+      <guid>https://izz.ro/sport/fc-barcelona-a-invins-o-categoric-pe-getafe-cu-scorul-de-trei-la-zero/</guid>
+      <pubDate>Sat, 10 Oct 2026 20:01:06 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://adevarul.ro/sport/adversara-de-joia-viitoare-a-craiovei-a-fost-2563174.html">Adevărul</source>
+      <media:content url="https://izz.ro/sport/fc-barcelona-a-invins-o-categoric-pe-getafe-cu-scorul-de-trei-la-zero/cover.jpg?v=70474a7f" medium="image" type="image/jpeg"/>
+      <description>Formația FC Barcelona s-a impus cu scorul de 3-0 în partida disputată pe Camp Nou împotriva celor de la Getafe, echipă care urmează să joace împotriva Universității Craiova în Conference League.</description>
+    </item>
+    <item>
+      <title>Dinamo București a fost învinsă de FC Barcelona în Liga Campionilor</title>
+      <link>https://izz.ro/sport/dinamo-bucuresti-invinsa-de-fc-barcelona-in-etapa-a-treia-a-ligii-campionilor/</link>
+      <guid>https://izz.ro/sport/dinamo-bucuresti-invinsa-de-fc-barcelona-in-etapa-a-treia-a-ligii-campionilor/</guid>
+      <pubDate>Thu, 08 Oct 2026 20:10:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/sporturi/handbal/barcelona-dinamo-etapa-3-liga-campionilor-handbal-985808.html">GSP, Sport.ro, ProSport</source>
+      <description>Echipa de handbal masculin Dinamo București a pierdut meciul disputat în deplasare împotriva formației FC Barcelona, în etapa a treia a Grupei E din Liga Campionilor. Campioana României a rezistat doar în prima repriză în fața campioanei Europei, rămânând astfel cu un singur punct acumulat după primele trei etape ale competiției.</description>
+    </item>
+    <item>
+      <title>Fotbalistul Xavi Espart și-a prelungit contractul cu FC Barcelona până în 2030</title>
+      <link>https://izz.ro/sport/fotbalistul-xavi-espart-si-a-prelungit-contractul-cu-fc-barcelona-pana-in-2030/</link>
+      <guid>https://izz.ro/sport/fotbalistul-xavi-espart-si-a-prelungit-contractul-cu-fc-barcelona-pana-in-2030/</guid>
+      <pubDate>Thu, 08 Oct 2026 18:54:12 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/la-liga/viitorul-este-al-lui-fc-barcelona-a-facut-anuntul-oficial-semneaza-pana-in-2030-695899.html">Antena Sport</source>
+      <description>Tânărul fundaș stânga Xavi Espart, în vârstă de 19 ani, a semnat prelungirea înțelegerii cu FC Barcelona până în anul 2030, după evoluții apreciate și un gol marcat recent în campionat.</description>
     </item>
     <item>
       <title>Massimo Moratti a încercat să îl transfere pe Lionel Messi la Inter Milano în 2012</title>
       <link>https://izz.ro/sport/massimo-moratti-a-incercat-sa-il-transfere-pe-lionel-messi-la-inter-milano-in/</link>
       <guid>https://izz.ro/sport/massimo-moratti-a-incercat-sa-il-transfere-pe-lionel-messi-la-inter-milano-in/</guid>
       <pubDate>Wed, 07 Oct 2026 08:13:58 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/ultimora/moratti-follia-messi-500-milioni/">FC Inter 1908</source>
       <description>Fostul președinte al clubului italian a dezvăluit că a pregătit o ofertă uriașă, în valoare de 500 de milioane de euro, pentru a-l aduce pe jucătorul argentinian de la FC Barcelona.</description>
     </item>
     <item>
@@ -25,6 +68,8 @@
       <link>https://izz.ro/sport/fc-barcelona-a-publicat-un-mesaj-dupa-retragerea-lui-lionel-messi/</link>
       <guid>https://izz.ro/sport/fc-barcelona-a-publicat-un-mesaj-dupa-retragerea-lui-lionel-messi/</guid>
       <pubDate>Wed, 07 Oct 2026 07:34:37 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/barcelona-reactie-retragere-lionel-messi-mesaj-meci-benin-20541773">ProSport</source>
       <description>Gruparea catalană a reacționat printr-o postare emoționantă pe rețelele sociale, marți seară, în urma retragerii din activitate a fotbalistului argentinian în vârstă de 39 de ani.</description>
     </item>
     <item>
@@ -32,6 +77,8 @@
       <link>https://izz.ro/sport/presa-din-spania-il-compara-pe-lamine-yamal-cu-lionel-messi/</link>
       <guid>https://izz.ro/sport/presa-din-spania-il-compara-pe-lamine-yamal-cu-lionel-messi/</guid>
       <pubDate>Sun, 04 Oct 2026 12:26:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/lamine-yamal-recorduri-leo-messi-20539653">ProSport</source>
       <description>După un nou gol spectaculos marcat pentru națională, jurnaliștii spanioli sunt convinși că tânărul Lamine Yamal de la FC Barcelona are potențialul de a-i călca pe urme lui Lionel Messi și de a stabili noi recorduri.</description>
     </item>
     <item>
@@ -39,6 +86,8 @@
       <link>https://izz.ro/sport/uefa-investigheaza-cazul-negreira-si-ia-in-calcul-excluderea-fc-barcelona-din/</link>
       <guid>https://izz.ro/sport/uefa-investigheaza-cazul-negreira-si-ia-in-calcul-excluderea-fc-barcelona-din/</guid>
       <pubDate>Sun, 04 Oct 2026 12:07:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://spotmedia.ro/stiri/sport/uefa-ar-putea-exclude-fc-barcelona-din-champions-league-presa">Spotmedia</source>
       <description>Forul fotbalistic european a redeschis ancheta vizând clubul FC Barcelona, bazându-se pe noi probe furnizate de Real Madrid, ceea ce ar putea activa reguli disciplinare severe privind excluderea din competiții.</description>
     </item>
     <item>
@@ -46,6 +95,8 @@
       <link>https://izz.ro/sport/un-junior-a-parasit-academia-manchester-united-pentru-fc-barcelona/</link>
       <guid>https://izz.ro/sport/un-junior-a-parasit-academia-manchester-united-pentru-fc-barcelona/</guid>
       <pubDate>Sat, 03 Oct 2026 12:17:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/fotbal-extern/micul-messi-a-fugit-de-la-academia-lui-manchester-united-pentru-a-semna-cu-barcelona.html">Sport.ro</source>
       <description>Supranumit „Micul Messi”, un tânăr fotbalist a plecat de la clubul englez Manchester United și va semna oficial cu formația catalană FC Barcelona imediat ce va împlini vârsta de 16 ani.</description>
     </item>
     <item>
@@ -53,6 +104,8 @@
       <link>https://izz.ro/sport/andrei-ratiu-este-dorit-de-fc-barcelona-la-cererea-directorului-deco/</link>
       <guid>https://izz.ro/sport/andrei-ratiu-este-dorit-de-fc-barcelona-la-cererea-directorului-deco/</guid>
       <pubDate>Wed, 30 Sep 2026 20:31:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.prosport.ro/fotbal-extern/campionate-externe/spania/andrei-ratiu-departe-barcelona-deco-fotbalistul-clauza-80-000-000-de-euro-ivan-fresneda-20536910">ProSport</source>
       <description>Transferul fundașului român Andrei Rațiu la FC Barcelona devine puțin probabil după ce conducerea tehnică, prin Deco și Hansi Flick, s-ar orienta spre alte opțiuni pentru flancul drept.</description>
     </item>
     <item>
@@ -60,34 +113,8 @@
       <link>https://izz.ro/sport/joan-laporta-confirma-interesul-barcelonei-pentru-transferul-lui-lautaro/</link>
       <guid>https://izz.ro/sport/joan-laporta-confirma-interesul-barcelonei-pentru-transferul-lui-lautaro/</guid>
       <pubDate>Wed, 30 Sep 2026 06:00:42 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/news/interviste/laporta-volevo-lautaro-fermato-marotta/">FC Inter 1908</source>
       <description>Președintele clubului FC Barcelona, Joan Laporta, a recunoscut că a dorit transferul atacantului Lautaro Martinez pentru a-l înlocui pe Robert Lewandowski, confirmând discuțiile purtate anterior.</description>
-    </item>
-    <item>
-      <title>Jules Kounde vrea să plece de la Barcelona, redeschizând interesul pentru Andrei Rațiu</title>
-      <link>https://izz.ro/sport/jules-kounde-vrea-sa-plece-de-la-barcelona-redeschizand-interesul-pentru-andrei/</link>
-      <guid>https://izz.ro/sport/jules-kounde-vrea-sa-plece-de-la-barcelona-redeschizand-interesul-pentru-andrei/</guid>
-      <pubDate>Sun, 27 Sep 2026 18:18:25 +0000</pubDate>
-      <description>Nemulțumit de statutul de rezervă după ce a pierdut postul de titular în fața lui Eric Garcia, fundașul francez ia în calcul despărțirea de clubul catalan, situație ce relansează speculațiile despre transferul românului.</description>
-    </item>
-    <item>
-      <title>FC Barcelona monitorizează un tânăr atacant brazilian cu puține minute jucate în acest sezon</title>
-      <link>https://izz.ro/sport/fc-barcelona-monitorizeaza-un-tanar-atacant-brazilian-cu-putine-minute-jucate/</link>
-      <guid>https://izz.ro/sport/fc-barcelona-monitorizeaza-un-tanar-atacant-brazilian-cu-putine-minute-jucate/</guid>
-      <pubDate>Sun, 27 Sep 2026 13:46:35 +0000</pubDate>
-      <description>Oficialii clubului catalan urmăresc atent evoluția unuia dintre cei mai promițători tineri fotbaliști din Brazilia, în pofida faptului că acesta a bifat o prezență foarte redusă pe teren în ultimele meciuri.</description>
-    </item>
-    <item>
-      <title>Lamine Yamal a preluat stilul lui Neymar</title>
-      <link>https://izz.ro/sport/lamine-yamal-a-preluat-stilul-lui-neymar/</link>
-      <guid>https://izz.ro/sport/lamine-yamal-a-preluat-stilul-lui-neymar/</guid>
-      <pubDate>Sat, 26 Sep 2026 20:48:51 +0000</pubDate>
-      <description>Fotbalistul spaniol Lamine Yamal a recunoscut că a preluat elemente de joc de la brazilianul Neymar, menționând că deține acea scânteie creativă necesară pentru a combate stereotipiile din fotbalul actual.</description>
-    </item>
-    <item>
-      <title>Ciprian Marica propune un tricolor la FC Barcelona</title>
-      <link>https://izz.ro/sport/ciprian-marica-propune-un-tricolor-la-fc-barcelona/</link>
-      <guid>https://izz.ro/sport/ciprian-marica-propune-un-tricolor-la-fc-barcelona/</guid>
-      <pubDate>Sat, 26 Sep 2026 12:59:26 +0000</pubDate>
-      <description>Fostul internațional român consideră că un tricolor a avut o evoluție foarte bună în partida pierdută împotriva Suediei și merită să joace la clubul catalan datorită calităților sale.</description>
     </item>
 </channel></rss>

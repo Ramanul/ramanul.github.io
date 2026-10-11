@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/google/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Google pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 06:02:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
     <item>
       <title>Google actualizează bara de căutare pentru dispozitivele mobile</title>
       <link>https://izz.ro/tech/google-actualizeaza-bara-de-cautare-pentru-dispozitivele-mobile/</link>
@@ -13,7 +13,6 @@
       <pubDate>Fri, 09 Oct 2026 11:44:13 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/google-search-bar/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/google-actualizeaza-bara-de-cautare-pentru-dispozitivele-mobile/cover.jpg?v=887fcb46" medium="image" type="image/jpeg"/>
       <description>Aplicația Google pentru telefoane primește un nou design inspirat din Android 17, integrând funcții avansate bazate pe inteligență artificială și un buton plus pentru încărcarea rapidă de imagini sau fișiere.</description>
     </item>
     <item>
@@ -159,14 +158,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/09/30/suportul-pentru-chromeos-se-incheie-in-2034/">Connect.ro</source>
       <description>Compania Google a anunțat că dispozitivele Chromebook vor beneficia de actualizări de securitate și mentenanță până la jumătatea anului 2034.</description>
-    </item>
-    <item>
-      <title>Google lansează RRSI, un sistem AI care se poate optimiza singur</title>
-      <link>https://izz.ro/ai/google-lanseaza-rrsi-un-sistem-ai-care-se-poate-optimiza-singur/</link>
-      <guid>https://izz.ro/ai/google-lanseaza-rrsi-un-sistem-ai-care-se-poate-optimiza-singur/</guid>
-      <pubDate>Tue, 29 Sep 2026 09:01:36 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.marktechpost.com/2026/09/29/google-research-open-sources-rrsi-ai-agents-that-improve-their-own-harness-without-overfitting/">MarkTechPost</source>
-      <description>Cercetătorii Google au lansat framework-ul open-source RRSI, permițând agenților inteligenți să își îmbunătățească propriile prompturi, unelte și fluxuri de control fără a modifica ponderile modelului de bază.</description>
     </item>
 </channel></rss>

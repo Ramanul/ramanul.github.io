@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/eurostat/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Eurostat pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 06:02:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
+    <item>
+      <title>România se află în fruntea statelor UE cu vulnerabilitate financiară ridicată</title>
+      <link>https://izz.ro/economic/romania-se-afla-in-fruntea-statelor-ue-cu-vulnerabilitate-financiara-ridicata/</link>
+      <guid>https://izz.ro/economic/romania-se-afla-in-fruntea-statelor-ue-cu-vulnerabilitate-financiara-ridicata/</guid>
+      <pubDate>Sun, 11 Oct 2026 12:00:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/must-read/grafic-romania-e-in-topul-vulnerabilitatii-financiare-din-ue-4-din-10-romani-nu-pot-face-fata-unei-cheltuieli-neprevazute-22816849?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/economic/romania-se-afla-in-fruntea-statelor-ue-cu-vulnerabilitate-financiara-ridicata/cover.jpg?v=3ce2d639" medium="image" type="image/jpeg"/>
+      <description>Conform datelor publicate de Eurostat, 40% din populația României nu deține rezervele financiare necesare pentru a acoperi o cheltuială neprevăzută în anul 2025.</description>
+    </item>
     <item>
       <title>România a înregistrat cele mai mari scumpiri la energie din Uniunea Europeană</title>
       <link>https://izz.ro/economic/romania-a-inregistrat-cele-mai-mari-scumpiri-la-energie-din-uniunea-europeana/</link>
@@ -124,14 +134,5 @@
       <category>regional</category>
       <source url="https://cronicaolteniei.ro/oltenia-in-topul-european-al-deceselor-provocate-de-bolile-circulatorii/">Cronica Olteniei</source>
       <description>Regiunea Sud-Vest Oltenia înregistrează cea mai mare pondere a deceselor provocate de afecțiuni cardiovasculare din România, atingând 63,8% conform datelor publicate de Eurostat.</description>
-    </item>
-    <item>
-      <title>Uniunea Europeană a generat peste 58 de milioane de tone de deşeuri alimentare</title>
-      <link>https://izz.ro/economic/uniunea-europeana-a-generat-peste-58-de-milioane-de-tone-de-deseuri-alimentare/</link>
-      <guid>https://izz.ro/economic/uniunea-europeana-a-generat-peste-58-de-milioane-de-tone-de-deseuri-alimentare/</guid>
-      <pubDate>Tue, 29 Sep 2026 08:34:09 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.g4media.ro/uniunea-europeana-genereaza-anual-peste-58-de-milioane-de-tone-de-deseuri-alimentare-potrivit-datelor-eurostat-mai-mult-de-jumatate-din-aceasta-cantitate-provine-din-gospodarii.html">G4Media</source>
-      <description>Datele Eurostat arată că statele membre UE au produs în 2023 o cantitate masivă de risipă alimentară, cel puțin jumătate din acest total provenind direct din gospodăriile populației.</description>
     </item>
 </channel></rss>

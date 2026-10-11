@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/giurgiu/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Giurgiu pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 23:48:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
+    <item>
+      <title>Temperaturi de vară în România, urmate de o răcire bruscă a vremii</title>
+      <link>https://izz.ro/general/temperaturi-de-vara-in-romania-urmate-de-o-racire-brusca-a-vremii/</link>
+      <guid>https://izz.ro/general/temperaturi-de-vara-in-romania-urmate-de-o-racire-brusca-a-vremii/</guid>
+      <pubDate>Sun, 11 Oct 2026 11:03:00 +0000</pubDate>
+      <category>general</category>
+      <source url="https://observatornews.ro/vremea/locul-din-romania-unde-sau-inregistrat-31c-in-plina-toamna-de-luni-vine-frigul-668718.html">Observator</source>
+      <media:content url="https://izz.ro/general/temperaturi-de-vara-in-romania-urmate-de-o-racire-brusca-a-vremii/cover.jpg?v=ae891ac1" medium="image" type="image/jpeg"/>
+      <description>Mai multe orașe din sudul țării au înregistrat duminică maxime de 31 de grade Celsius, în timp ce meteorologii anunță că un val de aer rece va pătrunde în țară începând de luni.</description>
+    </item>
     <item>
       <title>Întreruperi programate de curent electric în București, Ilfov și Giurgiu</title>
       <link>https://izz.ro/local/intreruperi-programate-de-curent-electric-in-bucuresti-ilfov-si-giurgiu/</link>
@@ -107,14 +117,5 @@
       <category>local</category>
       <source url="https://saptamanagiurgiuveana.ro/wp/2026/09/30/comunicat-de-presa-8/">Săptămâna Giurgiuveană</source>
       <description>Asociația ADI a anunțat finalizarea investiției pentru introducerea unui sistem inteligent de distribuție a gazelor naturale în localitățile Slobozia, Malu și Vedea din județul Giurgiu, conform codului SMIS 149143.</description>
-    </item>
-    <item>
-      <title>Proiectul rezidențial TOFF Residence din Giurgiu a lansat vânzările</title>
-      <link>https://izz.ro/local/proiectul-rezidential-toff-residence-din-giurgiu-a-lansat-vanzarile/</link>
-      <guid>https://izz.ro/local/proiectul-rezidential-toff-residence-din-giurgiu-a-lansat-vanzarile/</guid>
-      <pubDate>Tue, 29 Sep 2026 04:21:24 +0000</pubDate>
-      <category>local</category>
-      <source url="https://saptamanagiurgiuveana.ro/wp/2026/09/29/toff-residence-giurgiu-a-dat-startul-vanzarilor-de-apartamente/">Săptămâna Giurgiuveană</source>
-      <description>Reprezentanții ansamblului TOFF Residence au organizat o conferință unde au detaliat prețurile locuințelor, graficul de execuție și planurile pentru noul cartier din Giurgiu.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 06:02:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
     <item>
       <title>OpenAI dezvoltă o nouă versiune ChatGPT concepută ca un asistent personal interactiv</title>
       <link>https://izz.ro/ai/openai-dezvolta-o-noua-versiune-chatgpt-conceputa-ca-un-asistent-personal/</link>
@@ -204,32 +204,5 @@
       <category>ai</category>
       <source url="https://thenewstack.io/openai-decision-api-luna/">The New Stack</source>
       <description>Ca reacție la instrumentul concurenței, OpenAI a anunțat lansarea Decisions API în cadrul conferinței DevDay, un sistem bazat pe modelul economic Luna destinat modelării decizionale.</description>
-    </item>
-    <item>
-      <title>OpenAI a oprit lansarea modelului GPT-6.1 Astra invocând motive de siguranță</title>
-      <link>https://izz.ro/ai/openai-a-oprit-lansarea-modelului-gpt-6-1-astra-invocand-motive-de-siguranta/</link>
-      <guid>https://izz.ro/ai/openai-a-oprit-lansarea-modelului-gpt-6-1-astra-invocand-motive-de-siguranta/</guid>
-      <pubDate>Tue, 29 Sep 2026 10:27:40 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/openai-gpt-6-1-astra/">ZonaIT</source>
-      <description>Compania condusă de Sam Altman renunță la cel mai scump model lingvistic mare din cauza costurilor ridicate și a presiunilor financiare, mascand aceste probleme sub pretextul riscurilor de securitate globală.</description>
-    </item>
-    <item>
-      <title>OpenAI a renunțat la lansarea unui model AI considerat greu de controlat</title>
-      <link>https://izz.ro/ai/openai-a-renuntat-la-lansarea-unui-model-ai-considerat-greu-de-controlat/</link>
-      <guid>https://izz.ro/ai/openai-a-renuntat-la-lansarea-unui-model-ai-considerat-greu-de-controlat/</guid>
-      <pubDate>Tue, 29 Sep 2026 08:00:48 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.digi24.ro/stiri/sci-tech/openai-a-abandonat-lansarea-unui-nou-model-de-ai-considerat-prea-dificil-de-controlat-nu-a-fost-la-inaltimea-asteptarilor-3969033">Digi24</source>
-      <description>Compania a anulat punerea pe piață a unui sistem avansat de inteligență artificială deoarece acesta avea tendința de a se abate frecvent de la instrucțiunile primite.</description>
-    </item>
-    <item>
-      <title>Anthropic avertizează investitorii asupra riscurilor existențiale generate de inteligența artificială</title>
-      <link>https://izz.ro/ai/anthropic-avertizeaza-investitorii-asupra-riscurilor-existentiale-generate-de/</link>
-      <guid>https://izz.ro/ai/anthropic-avertizeaza-investitorii-asupra-riscurilor-existentiale-generate-de/</guid>
-      <pubDate>Tue, 29 Sep 2026 07:31:41 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://hotnews.ro/anthropic-recunoaste-intr-un-document-oficial-depus-in-sua-riscuri-existentiale-pentru-omenire-din-cauza-ai-2360960">HotNews, Observator</source>
-      <description>Compania Anthropic intenționează să includă în documentele oficiale pentru listarea la bursă din Statele Unite avertismente clare cu privire la pericolele tehnologiei pe care o dezvoltă. Rivalul OpenAI va menționa că sistemele avansate de inteligență artificială pot genera riscuri majore, catastrofale sau chiar existențiale pentru omenire.</description>
     </item>
 </channel></rss>

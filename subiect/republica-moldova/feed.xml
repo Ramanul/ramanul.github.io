@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/republica-moldova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Republica Moldova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 06:02:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
+    <item>
+      <title>Mamele singure din Republica Moldova riscă să fie exploatate în străinătate</title>
+      <link>https://izz.ro/extern/mamele-singure-din-republica-moldova-risca-sa-fie-exploatate-in-strainatate/</link>
+      <guid>https://izz.ro/extern/mamele-singure-din-republica-moldova-risca-sa-fie-exploatate-in-strainatate/</guid>
+      <pubDate>Sun, 11 Oct 2026 07:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.europalibera.md/a/partea-intunecata-a-migratiei-ce-se-intampla-cu-mamele-singure-cu-copii-din-r-moldova-care-nu-reusesc-sa-se-integreze-in-diaspora/33871953.html">Europa Liberă</source>
+      <media:content url="https://izz.ro/extern/mamele-singure-din-republica-moldova-risca-sa-fie-exploatate-in-strainatate/cover.jpg?v=39689e59" medium="image" type="image/jpeg"/>
+      <description>Multe femei plecate din Republica Moldova din cauza violenței domestice eșuează în integrarea socială pe piețele externe. Lipsite de sprijin, acestea devin ținte sigure pentru grupările infracționale care le exploatează sexual sau prin cerșetorie.</description>
+    </item>
     <item>
       <title>Republica Moldova va modifica legislația pentru a produce drone militare interne</title>
       <link>https://izz.ro/extern/republica-moldova-va-modifica-legislatia-pentru-a-produce-drone-militare/</link>
@@ -222,14 +232,5 @@
       <category>extern</category>
       <source url="https://www.g4media.ro/alerta-in-republica-moldova-o-drona-a-survolat-un-oras-si-a-explodat-dupa-ce-s-a-prabusit.html">G4Media</source>
       <description>Un aparat de zbor fără pilot a survolat teritoriul moldovean și s-a prăbușit în raionul Anenii Noi, unde a detonat, în contextul unor atacuri aeriene rusești masive îndreptate împotriva Ucrainei vecine.</description>
-    </item>
-    <item>
-      <title>Republica Moldova avertizează că șocurile energetice îi afectează economia</title>
-      <link>https://izz.ro/extern/republica-moldova-avertizeaza-ca-socurile-energetice-ii-afecteaza-economia/</link>
-      <guid>https://izz.ro/extern/republica-moldova-avertizeaza-ca-socurile-energetice-ii-afecteaza-economia/</guid>
-      <pubDate>Tue, 29 Sep 2026 08:18:45 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/moldova/premierul-r-moldova-suntem-importatori-mari-de-energie-fiecare-soc-extern-agraveaza-situatia-3969073">Digi24 Extern</source>
-      <description>Premierul moldovean subliniază că facturile mari la importurile de energie pun presiune uriașă pe PIB-ul țării, mulțumind României pentru ajutorul constant oferit în acest sector sensibil.</description>
     </item>
 </channel></rss>
