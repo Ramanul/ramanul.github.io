@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 23:48:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 06:02:54 +0000</lastBuildDate>
+    <item>
+      <title>Fenomenul El Nino poate aduce ger sever în Europa la iarnă</title>
+      <link>https://izz.ro/extern/fenomenul-el-nino-poate-aduce-ger-sever-in-europa-la-iarna/</link>
+      <guid>https://izz.ro/extern/fenomenul-el-nino-poate-aduce-ger-sever-in-europa-la-iarna/</guid>
+      <pubDate>Sun, 11 Oct 2026 04:00:57 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/sci-tech/natura-si-mediu/el-nino-ar-putea-schimba-vremea-in-europa-ce-legatura-exista-intre-incalzirea-pacificului-si-riscul-de-ger-la-iarna-3985247">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/fenomenul-el-nino-poate-aduce-ger-sever-in-europa-la-iarna/cover.jpg?v=c3c79f65" medium="image" type="image/jpeg"/>
+      <description>Specialiștii avertizează că încălzirea Oceanului Pacific ar putea slăbi vortexul polar. Această modificare crește probabilitatea unor episoade de frig extrem pe continentul european în sezonul rece 2026-2027, deși nu sunt garantate.</description>
+    </item>
     <item>
       <title>August Hanning a generat un mare scandal de spionaj în Europa post-Război Rece</title>
       <link>https://izz.ro/extern/august-hanning-a-generat-un-mare-scandal-de-spionaj-in-europa-post-razboi-rece/</link>
@@ -452,14 +462,5 @@
       <category>economic</category>
       <source url="https://economedia.ro/peste-5-milioane-de-roboti-industriali-lucreaza-in-fabrici-china-domina-piata-europa-franeaza.html">Economedia</source>
       <description>Federația Internațională de Robotică raportează o creștere de nouă la sută a parcului mondial de roboți industriali, China menținându-și dominația pe piață în timp ce statele europene înregistrează o încetinire.</description>
-    </item>
-    <item>
-      <title>Volkswagen cedează partenerilor chinezi controlul fabricilor europene de baterii auto</title>
-      <link>https://izz.ro/economic/volkswagen-cedeaza-partenerilor-chinezi-controlul-fabricilor-europene-de/</link>
-      <guid>https://izz.ro/economic/volkswagen-cedeaza-partenerilor-chinezi-controlul-fabricilor-europene-de/</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://piataauto.md/Stiri/2026/09/Spaniolii-si-germanii-au-aflat-cu-stupoare-ca-VW-cedeaza-catre-chinezi-controlul-fabricilor-baterii-detinute-in-Europa-si-construite-partial-subventii/">Piata Auto MD</source>
-      <description>Constructorul german transferă acțiuni majoritare din unitățile de producție construite cu fonduri europene către investitori din China, compromitând strategia autonomiei industriale a continentului în sectorul electric.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/comisia-europeana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Comisia Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 23:48:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 06:02:54 +0000</lastBuildDate>
+    <item>
+      <title>Uniunea Europeană pregătește reguli mai stricte de viză pentru cetățenii ruși</title>
+      <link>https://izz.ro/extern/uniunea-europeana-pregateste-reguli-mai-stricte-de-viza-pentru-cetatenii-rusi/</link>
+      <guid>https://izz.ro/extern/uniunea-europeana-pregateste-reguli-mai-stricte-de-viza-pentru-cetatenii-rusi/</guid>
+      <pubDate>Sun, 11 Oct 2026 02:01:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/russia-visa-passport-control-face-eu-travel-curbs-to-prevent-hybrid-attacks/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/uniunea-europeana-pregateste-reguli-mai-stricte-de-viza-pentru-cetatenii-rusi/cover.jpg?v=210bddfd" medium="image" type="image/jpeg"/>
+      <description>Comisia Europeană finalizează propuneri de limitare a accesului turistic pentru sute de mii de cetățenii ruși, la cererea unor state precum Polonia și Suedia, în vederea creșterii securității blocului comunitar împotriva atacurilor hibride.</description>
+    </item>
     <item>
       <title>România poate încasa fonduri pentru apărare în 2027</title>
       <link>https://izz.ro/politic/romania-poate-incasa-fonduri-pentru-aparare-in-2027/</link>
@@ -73,7 +83,6 @@
       <pubDate>Fri, 09 Oct 2026 08:36:49 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.monitorulbt.ro/national/2026/10/09/oficialii-europeni-nemultumiti-de-colectarea-taxelor-digitalizarea-anaf-nu-a-adus-rezultatele-promise/">Monitorul de Botoșani</source>
-      <media:content url="https://izz.ro/politic/comisia-europeana-considera-ca-digitalizarea-anaf-nu-a-generat-rezultatele/cover.jpg?v=7f099d57" medium="image" type="image/jpeg"/>
       <description>Oficialii europeni sunt nemulțumiți de nivelul actual al colectării taxelor în România. Surse politice arată că viitorul Executiv va trebui să îmbunătățească colectarea bugetară pentru a susține creșterile salariale și de pensii preconizate pentru 2027.</description>
     </item>
     <item>
@@ -453,14 +462,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/bruxelles-veut-clarifier-les-responsabilites-des-autorites-face-aux-catastrophes-climatiques/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Comisia Europeană propune stabilirea exactă a atribuțiilor pentru autoritățile centrale și locale în gestionarea situațiilor de urgență generate de inundații și incendii forestiere.</description>
-    </item>
-    <item>
-      <title>România și alte patru state cer măsuri UE pentru sectorul ovin și caprin</title>
-      <link>https://izz.ro/economic/romania-si-alte-patru-state-cer-masuri-ue-pentru-sectorul-ovin-si-caprin/</link>
-      <guid>https://izz.ro/economic/romania-si-alte-patru-state-cer-masuri-ue-pentru-sectorul-ovin-si-caprin/</guid>
-      <pubDate>Tue, 29 Sep 2026 17:29:41 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.economica.net/ministrul-tanczos-barna-anunta-ca-romania-si-alte-patru-state-din-ue-au-cerut-comisiei-masuri-urgente-pentru-sectorul-ovin-si-caprin-in-contextul-evolutiei-focarelor-de-boala_981058.html">Economica</source>
-      <description>Ministrul Tanczos Barna a solicitat la Bruxelles, alături de omologii din Bulgaria, Cipru, Croația și Grecia, intervenția Comisiei Europene privind impactul economic al interzicerii exporturilor.</description>
     </item>
 </channel></rss>

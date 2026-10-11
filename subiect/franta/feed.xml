@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Franta — IZZ.ro</title>
+  <title>Franța — IZZ.ro</title>
   <link>https://izz.ro/subiect/franta/</link>
   <atom:link href="https://izz.ro/subiect/franta/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Franta pe IZZ.ro</description>
+  <description>Știri despre Franța pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 23:48:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 06:02:54 +0000</lastBuildDate>
+    <item>
+      <title>Zece obiective istorice emblematice din Franța recomandate pentru o vacanță memorabilă</title>
+      <link>https://izz.ro/extern/zece-obiective-istorice-emblematice-din-franta-recomandate-pentru-o-vacanta/</link>
+      <guid>https://izz.ro/extern/zece-obiective-istorice-emblematice-din-franta-recomandate-pentru-o-vacanta/</guid>
+      <pubDate>Sun, 11 Oct 2026 05:16:18 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.tion.ro/turism/zece-locuri-istorice-din-franta-pe-care-nu-trebuie-sa-le-ratezi-2362422/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
+      <media:content url="https://izz.ro/extern/zece-obiective-istorice-emblematice-din-franta-recomandate-pentru-o-vacanta/cover.jpg?v=5dc5b5ae" medium="image" type="image/jpeg"/>
+      <description>Ghidul turistic al Franței include zece atracții culturale și monumente istorice remarcabile din afara Parisului, în frunte cu celebra catedrală gotică Notre-Dame de Paris.</description>
+    </item>
     <item>
       <title>Cartea Cu noaptea în inimă aduce în literatura din România perspectiva emoțională a femicidului</title>
       <link>https://izz.ro/cultura/cartea-cu-noaptea-in-inima-aduce-in-literatura-din-romania-perspectiva/</link>
@@ -456,14 +466,5 @@
       <category>extern</category>
       <source url="https://www.theguardian.com/world/2026/oct/05/protests-in-france-and-spain-appear-disparate-but-core-issues-are-the-same">The Guardian</source>
       <description>Zeci de mii de persoane au ieșit în stradă în Spania din cauza crizei locuințelor, în timp ce în Franța elevii protestează împotriva sistemului educațional degradat, cerând măsuri concrete de la guvernanți.</description>
-    </item>
-    <item>
-      <title>Bloomberg consideră Franța noua verigă slabă a economiei europene</title>
-      <link>https://izz.ro/extern/bloomberg-considera-franta-noua-veriga-slaba-a-economiei-europene/</link>
-      <guid>https://izz.ro/extern/bloomberg-considera-franta-noua-veriga-slaba-a-economiei-europene/</guid>
-      <pubDate>Mon, 05 Oct 2026 12:14:18 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://cursdeguvernare.ro/bloomberg-franta-noua-veriga-slaba-a-europei-dupa-un-deceniu-cu-emmanuel-macron-presedinte.html">Curs de Guvernare</source>
-      <description>Randamentul obligațiunilor suverane franceze pe zece ani a depășit temporar pragul de 5%, cel mai înalt nivel înregistrat din iulie 2002, iar prima de risc față de Germania a crescut semnificativ după un deceniu cu președintele Emmanuel Macron.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/spania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Spania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 10 Oct 2026 23:48:55 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 06:02:54 +0000</lastBuildDate>
+    <item>
+      <title>Alimentele de bază sunt mai ieftine în Brașov decât în Spania</title>
+      <link>https://izz.ro/local/alimentele-de-baza-sunt-mai-ieftine-in-brasov-decat-in-spania/</link>
+      <guid>https://izz.ro/local/alimentele-de-baza-sunt-mai-ieftine-in-brasov-decat-in-spania/</guid>
+      <pubDate>Sun, 11 Oct 2026 05:54:40 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/economic/cat-costa-alimentele-in-brasov-fata-de-spania-ce-cumparam-cu-45-de-euro-la-supermarketul-din-cartier/">MyTex</source>
+      <media:content url="https://izz.ro/local/alimentele-de-baza-sunt-mai-ieftine-in-brasov-decat-in-spania/cover.jpg?v=74ca67cf" medium="image" type="image/jpeg"/>
+      <description>Un coș săptămânal cu produse esențiale costă circa 45 de euro în supermarketurile din Brașov, fiind mai ieftin decât în Spania, unde prețul urcă la 56 de euro. Diferența de putere de cumpărare este însă influențată semnificativ de nivelul salariilor...</description>
+    </item>
     <item>
       <title>Un specialist IT din Spania a câștigat în instanță plata orelor suplimentare</title>
       <link>https://izz.ro/economic/un-specialist-it-din-spania-a-castigat-in-instanta-plata-orelor-suplimentare/</link>
@@ -452,14 +462,5 @@
       <category>extern</category>
       <source url="https://observatornews.ro/extern/spania-lovita-de-inundatii-severe-sute-de-persoane-evacuate-iar-planul-de-urgenta-a-fost-activat-668089.html">Observator</source>
       <description>Ploile torențiale extreme au provocat inundații catastrofale în Spania, generând evacuări masive și pagube însemnate, în timp ce fenomene similare au afectat și insula Creta.</description>
-    </item>
-    <item>
-      <title>Proteste de amploare în Spania privind locuințele, marcate de incidente</title>
-      <link>https://izz.ro/extern/proteste-de-amploare-in-spania-privind-locuintele-marcate-de-incidente/</link>
-      <guid>https://izz.ro/extern/proteste-de-amploare-in-spania-privind-locuintele-marcate-de-incidente/</guid>
-      <pubDate>Sat, 03 Oct 2026 16:25:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/criza-locuintelor-din-spania-protest-masiv-la-madrid-incidente-in-valencia-video">Spotmedia</source>
-      <description>Mii de spanioli au protestat la Madrid și Valencia împotriva costului ridicat al chiriilor și evacuărilor forțate, nemulțumirile fiind amplificate de respingerea legii locuinței și cazul unei pensionare evacuate.</description>
     </item>
 </channel></rss>
