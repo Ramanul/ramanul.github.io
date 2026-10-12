@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 01:33:51 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 19:27:05 +0000</lastBuildDate>
+    <item>
+      <title>NVIDIA intenționează să oprească producția plăcii video RTX 5090</title>
+      <link>https://izz.ro/tech/nvidia-intentioneaza-sa-opreasca-productia-placii-video-rtx-5090/</link>
+      <guid>https://izz.ro/tech/nvidia-intentioneaza-sa-opreasca-productia-placii-video-rtx-5090/</guid>
+      <pubDate>Mon, 12 Oct 2026 13:20:12 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/rtx-5090-nvidia-rtx-5080/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/nvidia-intentioneaza-sa-opreasca-productia-placii-video-rtx-5090/cover.jpg?v=c6e15fa1" medium="image" type="image/jpeg"/>
+      <description>Surse din industrie anunță că NVIDIA ar putea sista fabricarea seriei de plăci video RTX 5090 pentru a redirecționa liniile de producție exclusiv către gama profesională RTX PRO, lăsând cumpărătorii fără un înlocuitor direct pe piață.</description>
+    </item>
+    <item>
+      <title>Un programator a lansat HelixSR pentru a rula DLSS 3.7 pe plăci AMD Radeon</title>
+      <link>https://izz.ro/tech/un-programator-a-lansat-helixsr-pentru-a-rula-dlss-3-7-pe-placi-amd-radeon/</link>
+      <guid>https://izz.ro/tech/un-programator-a-lansat-helixsr-pentru-a-rula-dlss-3-7-pe-placi-amd-radeon/</guid>
+      <pubDate>Mon, 12 Oct 2026 12:19:19 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/12/un-modder-aduce-dlss-3-7-pe-placile-video-amd-radeon/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/un-programator-a-lansat-helixsr-pentru-a-rula-dlss-3-7-pe-placi-amd-radeon/cover.jpg?v=40c7b5de" medium="image" type="image/jpeg"/>
+      <description>Dezvoltatorul aplicației HelixSR a extins funcționalitatea programului, permițând utilizatorilor de plăci video AMD Radeon să beneficieze de tehnologia DLSS 3.7, depășind limitările implementării native FSR oferite de AMD.</description>
+    </item>
     <item>
       <title>ASUS a deschis precomenzile pentru laptopurile ProArt P16 și P14 cu NVIDIA RTX Spark</title>
       <link>https://izz.ro/tech/asus-a-lansat-precomenzile-pentru-laptopurile-proart-cu-nvidia-rtx-spark/</link>
@@ -95,23 +115,5 @@
       <category>tech</category>
       <source url="https://www.marktechpost.com/2026/09/30/nvidia-releases-kumo-tabular/">MarkTechPost</source>
       <description>Compania NVIDIA a introdus familia de modele Kumo Tabular, capabile să prezică rânduri noi pentru clasificare și regresie dintr-o singură trecere, eliminând necesitatea antrenării sau a reglajului hiperparametric.</description>
-    </item>
-    <item>
-      <title>Platforma OpenClaw intră în mediul corporate cu sprijinul Nvidia și Red Hat</title>
-      <link>https://izz.ro/ai/platforma-openclaw-intra-in-mediul-corporate-cu-sprijinul-nvidia-si-red-hat/</link>
-      <guid>https://izz.ro/ai/platforma-openclaw-intra-in-mediul-corporate-cu-sprijinul-nvidia-si-red-hat/</guid>
-      <pubDate>Wed, 30 Sep 2026 10:36:01 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/openclaw-enterprise-kubernetes-agents/">The New Stack</source>
-      <description>Proiectul de agenți AI OpenClaw, creat de Peter Steinberger și achiziționat parțial de OpenAI după ce a depășit 100.000 de stele pe GitHub, se extinde oficial în mediul enterprise.</description>
-    </item>
-    <item>
-      <title>Cercetătorii NVIDIA au introdus limbajul fizic Physis-Lang pentru modele video</title>
-      <link>https://izz.ro/ai/cercetatorii-nvidia-au-introdus-limbajul-fizic-physis-lang-pentru-modele-video/</link>
-      <guid>https://izz.ro/ai/cercetatorii-nvidia-au-introdus-limbajul-fizic-physis-lang-pentru-modele-video/</guid>
-      <pubDate>Wed, 30 Sep 2026 07:32:34 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.marktechpost.com/2026/09/30/nvidia-researchers-introduce-physis-lang-self-evolving-physical-language-that-lifts-cosmos-3-past-veo-3-1-on-physics-benchmarks/">MarkTechPost</source>
-      <description>Echipe de la NVIDIA, MIT și Oxford au dezvoltat un cadru de reprezentare bazat pe text pentru a îmbunătăți acuratețea fizică în modelele video generative, depășind performanțele anterioare în clasamentele de specialitate.</description>
     </item>
 </channel></rss>

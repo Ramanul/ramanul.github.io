@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/barcelona/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Barcelona pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 09:31:48 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 19:27:05 +0000</lastBuildDate>
+    <item>
+      <title>Evoluțiile lui Andy Diouf atrag atenția marilor cluburi europene</title>
+      <link>https://izz.ro/sport/evolutiile-lui-andy-diouf-atrag-atentia-marilor-cluburi-europene/</link>
+      <guid>https://izz.ro/sport/evolutiile-lui-andy-diouf-atrag-atentia-marilor-cluburi-europene/</guid>
+      <pubDate>Mon, 12 Oct 2026 18:54:19 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/calciomercato/mercato-inter/diouf-chelsea-arsenal-psg-barcellona/">FC Inter 1908</source>
+      <media:content url="https://izz.ro/sport/evolutiile-lui-andy-diouf-atrag-atentia-marilor-cluburi-europene/cover.jpg?v=1e59b6df" medium="image" type="image/jpeg"/>
+      <description>Mutat pe bandă de tehnicianul de la Inter, fotbalistul francez Andy Diouf a impresionat prin prestațiile sale și a intrat în vizorul unor echipe de top precum PSG și Barcelona.</description>
+    </item>
     <item>
       <title>Critici din partea fostului președinte Joan Gaspart la adresa lui Lionel Messi</title>
       <link>https://izz.ro/sport/critici-din-partea-fostului-presedinte-joan-gaspart-la-adresa-lui-lionel-messi/</link>
@@ -23,7 +33,7 @@
       <pubDate>Sun, 11 Oct 2026 04:40:07 +0000</pubDate>
       <category>sport</category>
       <source url="https://www.gsp.ro/international/campionate/mourinho-refuza-conferinta-real-madrid-villarreal-986786.html">GSP</source>
-      <media:content url="https://izz.ro/sport/mourinho-refuza-conferinta-de-presa-si-vrea-sa-fie-prezent-pe-banca-tehnica/cover.jpg?v=7b6817d7" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/sport/mourinho-refuza-conferinta-de-presa-si-vrea-sa-fie-prezent-pe-banca-tehnica/cover.jpg?v=d1e44548" medium="image" type="image/jpeg"/>
       <description>Antrenorul refuză dialogul cu presa înaintea partidelor importante cu Sevilla și Barcelona, concentrându-se exclusiv pe prezența sa la marginea terenului pentru a conduce echipa.</description>
     </item>
     <item>
@@ -33,7 +43,6 @@
       <pubDate>Sun, 11 Oct 2026 03:00:30 +0000</pubDate>
       <category>tech</category>
       <source url="https://economedia.ro/start-up-ul-clujean-lumen-castigatorul-competitiei-internationale-glovo-startup-campus-2026-cornel-amariei-fondator-premiul-ne-arata-cat-de-importanta-este-tehnologia-integrata-in-ochela.html">Economedia, Ziua de Cluj</source>
-      <media:content url="https://izz.ro/tech/start-up-ul-clujean-lumen-a-castigat-competitia-internationala-glovo-startup/cover.jpg?v=2837dfd7" medium="image" type="image/jpeg"/>
       <description>Compania din Cluj .lumen a obținut marele premiu în cadrul competiției Glovo Startup Campus 2026, desfășurată la Barcelona. Proiectul premiat constă în ochelari inteligenți dotați cu inteligență artificială, destinați persoanelor nevăzătoare. Fondatorul Cornel Amariei a precizat că tehnologia va fi extinsă și în sectorul robotic.</description>
     </item>
     <item>
@@ -152,23 +161,5 @@
       <category>sport</category>
       <source url="https://as.ro/fotbal/premier-league/barca-a-aflat-conditiile-in-care-il-poate-transfera-pe-haaland-dupa-scandalul-cu-man-city-alte-doua-cluburi-pregatesc-ofertele-693358.html">Antena Sport</source>
       <description>Clubul catalan analizează posibilitatea de a-l transfera pe atacantul norvegian. Actuala campionă din Premier League riscă o retrogradare în urma unor scandaluri financiare majore, situație ce poate genera plecarea vedetelor.</description>
-    </item>
-    <item>
-      <title>Microsoft integrează platforma Fabric pentru a instrui agenții AI</title>
-      <link>https://izz.ro/ai/microsoft-integreaza-platforma-fabric-pentru-a-instrui-agentii-ai/</link>
-      <guid>https://izz.ro/ai/microsoft-integreaza-platforma-fabric-pentru-a-instrui-agentii-ai/</guid>
-      <pubDate>Wed, 30 Sep 2026 14:46:32 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/microsoft-fabric-agent-context/">The New Stack</source>
-      <description>În cadrul conferinței de la Barcelona, compania a prezentat funcționalitățile noi din Microsoft Fabric și stratul contextual Fabric, menite să ajute agenții business să înțeleagă datele corporative.</description>
-    </item>
-    <item>
-      <title>Selecționerul Luis de la Fuente l-a lăudat pe Lamine Yamal după meciul cu Croația</title>
-      <link>https://izz.ro/sport/selectionerul-luis-de-la-fuente-l-a-laudat-pe-lamine-yamal-dupa-meciul-cu/</link>
-      <guid>https://izz.ro/sport/selectionerul-luis-de-la-fuente-l-a-laudat-pe-lamine-yamal-dupa-meciul-cu/</guid>
-      <pubDate>Wed, 30 Sep 2026 13:42:06 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.sport.ro/fotbal-extern/cum-l-a-descris-luis-de-la-fuente-pe-lamine-yamal-e-imposibil-sa-nu-fac-asta.html">Sport.ro</source>
-      <description>Tehnicianul naționalei Spaniei a evidențiat evoluția excelentă a tânărului fotbalist legitimat la FC Barcelona, autor a două goluri și a unei pase decisive în partida câștigată clar împotriva Croației.</description>
     </item>
 </channel></rss>
