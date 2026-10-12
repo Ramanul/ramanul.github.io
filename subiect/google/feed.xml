@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/google/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Google pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 01:33:51 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 09:31:48 +0000</lastBuildDate>
+    <item>
+      <title>Rezumatul știrilor din tehnologie: lansări Tesla, Google și Microsoft</title>
+      <link>https://izz.ro/tech/rezumatul-stirilor-din-tehnologie-lansari-tesla-google-si-microsoft/</link>
+      <guid>https://izz.ro/tech/rezumatul-stirilor-din-tehnologie-lansari-tesla-google-si-microsoft/</guid>
+      <pubDate>Mon, 12 Oct 2026 03:44:29 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-12-octombrie-2026/">NwRadu</source>
+      <media:content url="https://izz.ro/tech/rezumatul-stirilor-din-tehnologie-lansari-tesla-google-si-microsoft/cover.jpg?v=da41d694" medium="image" type="image/jpeg"/>
+      <description>Tesla a deschis primul supercharger în zona Iași, startup-ul .lumen a câștigat o competiție importantă, iar Google lucrează la emoji-uri în format HDR, în timp ce Microsoft lansează un nou model decizional.</description>
+    </item>
     <item>
       <title>Google actualizează bara de căutare pentru dispozitivele mobile</title>
       <link>https://izz.ro/tech/google-actualizeaza-bara-de-cautare-pentru-dispozitivele-mobile/</link>
@@ -140,14 +150,5 @@
       <category>ai</category>
       <source url="https://www.xda-developers.com/gemini-is-getting-rid-of-gems-and-its-replacement-aims-to-make-repetitive-work-a-lot-easier/">XDA Developers</source>
       <description>Platforma de inteligență artificială renunță la instrumentul anterior pentru a implementa o soluție optimizată, menită să elimine acțiunile manuale repetitive și să simplifice interacțiunea utilizatorului cu asistentul.</description>
-    </item>
-    <item>
-      <title>Google va opri suportul pentru ChromeOS în 2034</title>
-      <link>https://izz.ro/tech/google-va-opri-suportul-pentru-chromeos-in-2034/</link>
-      <guid>https://izz.ro/tech/google-va-opri-suportul-pentru-chromeos-in-2034/</guid>
-      <pubDate>Wed, 30 Sep 2026 08:22:20 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/09/30/suportul-pentru-chromeos-se-incheie-in-2034/">Connect.ro</source>
-      <description>Compania Google a anunțat că dispozitivele Chromebook vor beneficia de actualizări de securitate și mentenanță până la jumătatea anului 2034.</description>
     </item>
 </channel></rss>

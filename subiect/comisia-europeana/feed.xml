@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/comisia-europeana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Comisia Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 01:33:51 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 09:31:48 +0000</lastBuildDate>
+    <item>
+      <title>România se află la coada Uniunii Europene în privința utilizării inteligenței artificiale în școli</title>
+      <link>https://izz.ro/ai/romania-se-afla-la-coada-uniunii-europene-in-privinta-utilizarii-inteligentei/</link>
+      <guid>https://izz.ro/ai/romania-se-afla-la-coada-uniunii-europene-in-privinta-utilizarii-inteligentei/</guid>
+      <pubDate>Mon, 12 Oct 2026 08:21:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/educatie/romania-printre-ultimele-state-ue-la-integrarea-ai-in-scoli-doar-un-sfert-dintre-tineri-o-folosesc-la-invatare">Spotmedia</source>
+      <media:content url="https://izz.ro/ai/romania-se-afla-la-coada-uniunii-europene-in-privinta-utilizarii-inteligentei/cover.jpg?v=3443be0b" medium="image" type="image/jpeg"/>
+      <description>Un raport recent al Comisiei Europene arată că doar un sfert dintre tinerii români cu vârste între șaisprezece și douăzeci și patru de ani folosesc instrumente de inteligență artificială pentru învățare.</description>
+    </item>
     <item>
       <title>România va produce 1,2 milioane de tone de cartofi, sub consumul național</title>
       <link>https://izz.ro/economic/romania-va-produce-12-milioane-de-tone-de-cartofi-sub-consumul-national/</link>
@@ -63,7 +73,6 @@
       <pubDate>Fri, 09 Oct 2026 20:36:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/ue-reactioneaza-la-sanctiunile-sua-la-adresa-curtii-penale-internationale-vom-continua-colaborarea-stransa-cu-cpi-806576.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/extern/comisia-europeana-continua-colaborarea-cu-cpi-dupa-sanctiunile-sua/cover.jpg?v=eec7e2ea" medium="image" type="image/jpeg"/>
       <description>Comisia Europeană a anunțat că va menține un parteneriat strâns cu Curtea Penală Internațională, criticând decizia Statelor Unite de a sancționa această instituție globală de justiție.</description>
     </item>
     <item>
@@ -452,14 +461,5 @@
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/mediu/marea-neagra-si-marea-mediterana-printre-regiunile-maritime-care-se-incalzesc-cel-mai-rapid-raport-al-comisiei-europene">Spotmedia</source>
       <description>Un raport Copernicus arată că Marea Neagră și Marea Mediterană înregistrează creșteri rapide de temperatură, valurile de căldură marină devenind frecvente. Fenomenul afectează grav ecosistemele acvatice, turismul, sectorul pescăresc și comunitățile litorale.</description>
-    </item>
-    <item>
-      <title>UE oferă acces la piața unică pentru țările candidate</title>
-      <link>https://izz.ro/extern/ue-ofera-acces-la-piata-unica-pentru-tarile-candidate/</link>
-      <guid>https://izz.ro/extern/ue-ofera-acces-la-piata-unica-pentru-tarile-candidate/</guid>
-      <pubDate>Wed, 30 Sep 2026 08:39:52 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/ursula-von-der-leyen-eu-offer-single-market-access-to-candidate-countries/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Comisia Europeană propune integrarea treptată a statelor care așteaptă aderarea la blocul comunitar, oferindu-le comerț fără bariere și acces la cercetare, cu condiția alinierii politice externe.</description>
     </item>
 </channel></rss>

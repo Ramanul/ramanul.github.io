@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/dunarea/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Dunărea pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 01:33:51 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 09:31:48 +0000</lastBuildDate>
+    <item>
+      <title>Nuclearelectrica aplică măsuri de mentenanță din cauza debitului scăzut al Dunării</title>
+      <link>https://izz.ro/local/nuclearelectrica-aplica-masuri-de-mentenanta-din-cauza-debitului-scazut-al/</link>
+      <guid>https://izz.ro/local/nuclearelectrica-aplica-masuri-de-mentenanta-din-cauza-debitului-scazut-al/</guid>
+      <pubDate>Mon, 12 Oct 2026 07:15:55 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.economica.net/ce-face-nuclearelectrica-pentru-a-reduce-impactul-scaderii-debitului-dunarii-asupra-centralei-de-la-cernavoda-explicatiile-sefului-companiei_984643.html">Economica</source>
+      <media:content url="https://izz.ro/local/nuclearelectrica-aplica-masuri-de-mentenanta-din-cauza-debitului-scazut-al/cover.jpg?v=f4f3d8bf" medium="image" type="image/jpeg"/>
+      <description>Centrala de la Cernavodă folosește perioada de oprire controlată pentru lucrări de mentenanță și creștere a rezilienței. Conducerea poartă discuții cu experți pentru a găsi soluții pe termen lung împotriva efectelor secetei.</description>
+    </item>
     <item>
       <title>Prețurile la electricitate vor crește din cauza crizei de la Cernavodă</title>
       <link>https://izz.ro/local/preturile-la-electricitate-vor-creste-din-cauza-crizei-de-la-cernavoda/</link>
@@ -193,14 +203,5 @@
       <category>local</category>
       <source url="https://newsbv.ro/stare-alerta-energie-2026-cernavoda-transelectrica/">News Brașov</source>
       <description>Autoritățile de la București au menținut măsurile speciale de siguranță pe piața de energie electrică până la sfârșitul lunii octombrie, în timp ce centrala Cernavodă rămâne oprită din cauza nivelului scăzut al Dunării.</description>
-    </item>
-    <item>
-      <title>Redeschiderea punctului de trecere a Dunării de la Tudor Vladimirescu</title>
-      <link>https://izz.ro/local/redeschiderea-punctului-de-trecere-a-dunarii-de-la-tudor-vladimirescu/</link>
-      <guid>https://izz.ro/local/redeschiderea-punctului-de-trecere-a-dunarii-de-la-tudor-vladimirescu/</guid>
-      <pubDate>Wed, 30 Sep 2026 06:48:41 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.dobrogeanews.ro/pontonul-de-trecere-a-dunarii-de-la-suburbia-tudor-vladimirescu-reparat-dupa-un-accident-naval-revine-la-pozitia-initiala/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=pontonul-de-trecere-a-dunarii-de-la-suburbia-tudor-vladimirescu-reparat-dupa-un-accident-naval-revine-la-pozitia-initiala">DobrogeaNews</source>
-      <description>Pontonul de trecere a Dunării din suburbia gălățeană Tudor Vladimirescu a fost reparat în urma unui accident naval, iar autoritățile au reluat programul normal de transport după finalizarea ancorării de siguranță.</description>
     </item>
 </channel></rss>

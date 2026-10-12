@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 01:33:51 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 09:31:48 +0000</lastBuildDate>
     <item>
       <title>Companiile de inteligență artificială pregătesc planuri pentru riscuri catastrofale</title>
       <link>https://izz.ro/ai/companiile-de-inteligenta-artificiala-pregatesc-planuri-pentru-riscuri/</link>
@@ -23,7 +23,6 @@
       <pubDate>Sat, 10 Oct 2026 07:00:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://zonait.ro/openai-chatgpt-intelligent-ui/">ZonaIT</source>
-      <media:content url="https://izz.ro/ai/openai-dezvolta-o-noua-versiune-chatgpt-conceputa-ca-un-asistent-personal/cover.jpg?v=b2530ae6" medium="image" type="image/jpeg"/>
       <description>Compania OpenAI pregătește o transformare majoră a modelului ChatGPT, renunțând la formatul clasic de chatbot bazat pe întrebări și răspunsuri standard în favoarea unei interacțiuni asemănătoare unui prieten digital.</description>
     </item>
     <item>
@@ -169,23 +168,5 @@
       <category>tech</category>
       <source url="https://thenewstack.io/openai-dots-agent-permissions/">The New Stack</source>
       <description>Noile sisteme autonome lansate de OpenAI rulează independent pe computere virtuale pentru a monitoriza diverse aplicații, însă testele arată că rata problemelor legate de limitele de acțiune se dublează în sesiuni lungi.</description>
-    </item>
-    <item>
-      <title>OpenAI lansează agentul AI Dots și introduce un abonament premium în valoare de 500 de dolari</title>
-      <link>https://izz.ro/ai/openai-lanseaza-agentul-ai-dots-si-introduce-un-abonament-premium-in-valoare-de/</link>
-      <guid>https://izz.ro/ai/openai-lanseaza-agentul-ai-dots-si-introduce-un-abonament-premium-in-valoare-de/</guid>
-      <pubDate>Wed, 30 Sep 2026 06:27:24 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.connect.ro/2026/09/30/openai-dots-agent-ai/">Connect.ro</source>
-      <description>Compania OpenAI a prezentat asistentul inteligent Dots, capabil să execute proactiv sarcini pe computer, și a lansat un pachet de abonament scump de 500 de dolari, care oferă limite extinse de procesare.</description>
-    </item>
-    <item>
-      <title>OpenAI a lansat GPT-6.1 Sol, un model performant și accesibil pentru programare</title>
-      <link>https://izz.ro/ai/openai-a-lansat-gpt-6-1-sol-un-model-performant-si-accesibil-pentru-programare/</link>
-      <guid>https://izz.ro/ai/openai-a-lansat-gpt-6-1-sol-un-model-performant-si-accesibil-pentru-programare/</guid>
-      <pubDate>Wed, 30 Sep 2026 05:48:49 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.connect.ro/2026/09/30/gpt-6-1-sol-openai/">Connect.ro</source>
-      <description>Compania OpenAI a prezentat noul model de inteligență artificială GPT-6.1 Sol, optimizat pentru codare și sarcini profesionale complexe. Noua versiune oferă performanțe apropiate de modelul Astra, dar la o fracțiune din costurile de operare.</description>
     </item>
 </channel></rss>

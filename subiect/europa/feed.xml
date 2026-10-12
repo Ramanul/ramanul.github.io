@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 01:33:51 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 12 Oct 2026 09:31:48 +0000</lastBuildDate>
+    <item>
+      <title>Provocările Europei privind suveranitatea datelor în cloud</title>
+      <link>https://izz.ro/tech/provocarile-europei-privind-suveranitatea-datelor-in-cloud/</link>
+      <guid>https://izz.ro/tech/provocarile-europei-privind-suveranitatea-datelor-in-cloud/</guid>
+      <pubDate>Mon, 12 Oct 2026 03:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.politico.eu/sponsored-content/how-can-europe-leverage-laws-to-secure-cloud-sovereignty/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/tech/provocarile-europei-privind-suveranitatea-datelor-in-cloud/cover.jpg?v=a2a0236e" medium="image" type="image/jpeg"/>
+      <description>Organizațiile europene caută soluții pentru a adopta inteligența artificială și serviciile cloud moderne fără a compromite controlul asupra propriilor date, în contextul instabilității geopolitice actuale.</description>
+    </item>
     <item>
       <title>FMI avertizează asupra creșterii istorice a datoriilor în statele dezvoltate</title>
       <link>https://izz.ro/extern/fmi-avertizeaza-asupra-cresterii-istorice-a-datoriilor-in-statele-dezvoltate/</link>
@@ -458,14 +468,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/seful-nato-recunoaste-frustrarea-sua-fata-de-europa-suntem-total-dependenti-de-o-tara-aflata-atat-de-departe-805320.html">Antena 3 CNN</source>
       <description>Secretarul general al NATO, Mark Rutte, a declarat că SUA mențin angajamentul de apărare pentru continentul european, însă a admis existența nemulțumirilor de la Washington legate de această subordonare strategică.</description>
-    </item>
-    <item>
-      <title>Mărcile auto chinezești depășesc producătorii japonezi în Europa</title>
-      <link>https://izz.ro/auto/marcile-auto-chinezesti-depasesc-producatorii-japonezi-in-europa/</link>
-      <guid>https://izz.ro/auto/marcile-auto-chinezesti-depasesc-producatorii-japonezi-in-europa/</guid>
-      <pubDate>Thu, 01 Oct 2026 04:52:00 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/tabel-chinezii-au-depasit-in-premiera-in-europa-marcile-japoneze-cu-tot-cu-toyota-marile-grupuri-auto-din-china-in-statisticile-oficiale-acea-22783594?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Statisticile oficiale ACEA arată că grupurile auto din China au depășit pentru prima dată volumul vânzărilor brandurilor din Japonia pe piața europeană, consolidându-și o poziție dominantă în fața concurenței asiatice.</description>
     </item>
 </channel></rss>
