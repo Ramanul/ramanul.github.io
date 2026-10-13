@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bursa-de-valori-bucuresti/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bursa de Valori București pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 19:27:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 01:41:33 +0000</lastBuildDate>
+    <item>
+      <title>Factorii de creșteri financiare pentru companiile listate la bursă</title>
+      <link>https://izz.ro/economic/factorii-de-cresteri-financiare-pentru-companiile-listate-la-bursa/</link>
+      <guid>https://izz.ro/economic/factorii-de-cresteri-financiare-pentru-companiile-listate-la-bursa/</guid>
+      <pubDate>Mon, 12 Oct 2026 21:07:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/burse-fonduri-mutuale/care-sunt-factorii-de-crestere-pentru-companiile-unora-dintre-cei-mai-cunoscuti-antreprenori-de-la-bursa-de-valori-23258413">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/economic/factorii-de-cresteri-financiare-pentru-companiile-listate-la-bursa/cover.jpg?v=acf6f9db" medium="image" type="image/jpeg"/>
+      <description>Reprezentanții mai multor companii prezente la Bursa de Valori București au explicat că investițiile în producție, achizițiile strategice și optimizarea costurilor reprezintă principalele motoare de dezvoltare economică.</description>
+    </item>
     <item>
       <title>Bursa de la București a închis în scădere pe fondul deprecierii acțiunilor Hidroelectrica</title>
       <link>https://izz.ro/local/bursa-de-la-bucuresti-a-inchis-in-scadere-pe-fondul-deprecierii-actiunilor/</link>
@@ -225,14 +235,5 @@
       <category>economic</category>
       <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-de-la-bucuresti-incheie-pe-plus-dupa-respingerea-guvernului-muresan-indicele-castiga-1-dupa-oscilatii-puternice-si-un-maxim-de-plus-2-broker-nu-gasesc-o-explicatie-pentru-revenire-23250141">Ziarul Financiar</source>
       <description>Indicele principal BET a urcat cu 0,9 la sută la finalul ședinței de tranzacționare, deși Parlamentul tocmai respinsese cabinetul condus de premierul desemnat Siegfried Mureșan, care nu a întrunit voturile necesare.</description>
-    </item>
-    <item>
-      <title>Bursa locală trece printr-o corecție, dar rămâne pe plus anual</title>
-      <link>https://izz.ro/economic/bursa-locala-trece-printr-o-corectie-dar-ramane-pe-plus-anual/</link>
-      <guid>https://izz.ro/economic/bursa-locala-trece-printr-o-corectie-dar-ramane-pe-plus-anual/</guid>
-      <pubDate>Wed, 30 Sep 2026 21:07:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/zf-gen-z/cinci-lectii-bursa-generatia-z-dupa-prima-corectie-volatilitatea-merge-ambele-sensuri-100-lei-luna-conteaza-iar-scadere-inseamna-regula-s-schimbat-continua-investesti-disciplinat-obiectiv-setat-23250225">Ziarul Financiar</source>
-      <description>După atingerea unui record istoric în august, indicele BET a scăzut cu 15%, însă specialiștii recomandă tinerilor investitori să își mențină disciplina și strategia pe termen lung.</description>
     </item>
 </channel></rss>

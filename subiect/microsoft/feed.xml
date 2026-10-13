@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 19:27:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 01:41:34 +0000</lastBuildDate>
+    <item>
+      <title>Bill Gates avertizează că utilizarea malintenționată a inteligenței artificiale reprezintă riscul principal</title>
+      <link>https://izz.ro/ai/bill-gates-avertizeaza-ca-utilizarea-malintentionata-a-inteligentei-artificiale/</link>
+      <guid>https://izz.ro/ai/bill-gates-avertizeaza-ca-utilizarea-malintentionata-a-inteligentei-artificiale/</guid>
+      <pubDate>Mon, 12 Oct 2026 19:30:39 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/bill-gates-indica-adevaratul-pericol-la-aceasta-ora-in-privinta-ai-si-avertizeaza-vom-avea-multe-surprize-neplacute-2374216">HotNews</source>
+      <media:content url="https://izz.ro/ai/bill-gates-avertizeaza-ca-utilizarea-malintentionata-a-inteligentei-artificiale/cover.jpg?v=cef52f70" medium="image" type="image/jpeg"/>
+      <description>Fondatorul Microsoft consideră că pericolul real generat de inteligența artificială nu constă în pierderea controlului tehnologic, ci în folosirea ei de către infractori pentru intensificarea atacurilor cibernetice și provocarea de pagube.</description>
+    </item>
     <item>
       <title>Șeful Microsoft cere reglementări stricte la nivel global pentru inteligența artificială</title>
       <link>https://izz.ro/ai/seful-microsoft-cere-reglementari-stricte-la-nivel-global-pentru-inteligenta/</link>
@@ -179,23 +189,5 @@
       <category>tech</category>
       <source url="https://www.xda-developers.com/windows-has-100-services-running-you-can-safely-disable-many/">XDA Developers</source>
       <description>Sistemele de operare Windows rulează numeroase procese în fundal, iar utilizatorii pot dezactiva serviciile non-critice pentru a îmbunătăți performanța calculatoarelor mai vechi sau lente.</description>
-    </item>
-    <item>
-      <title>Un utilizator a înlocuit aplicațiile native din Windows cu alternative open-source</title>
-      <link>https://izz.ro/tech/un-utilizator-a-inlocuit-aplicatiile-native-din-windows-cu-alternative-open/</link>
-      <guid>https://izz.ro/tech/un-utilizator-a-inlocuit-aplicatiile-native-din-windows-cu-alternative-open/</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:17 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/replaced-microsoft-default-windows-apps-with-open-source-alternatives-and-never-looked-back/">XDA Developers</source>
-      <description>Programele preinstalate oferite de Microsoft pe sistemul de operare Windows au fost înlocuite cu succes de aplicații open-source, considerate de utilizator mult mai rapide, flexibile și eficiente în gestionarea resurselor.</description>
-    </item>
-    <item>
-      <title>Prima versiune a jocului Halo poate fi jucată gratuit în browser</title>
-      <link>https://izz.ro/tech/prima-versiune-a-jocului-halo-poate-fi-jucata-gratuit-in-browser/</link>
-      <guid>https://izz.ro/tech/prima-versiune-a-jocului-halo-poate-fi-jucata-gratuit-in-browser/</guid>
-      <pubDate>Wed, 30 Sep 2026 20:38:56 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/you-can-now-play-the-original-halo-for-free-in-your-browser-with-128-player-multiplayer/">XDA Developers</source>
-      <description>Jucătorii pot accesa acum originalul titlu Halo direct din browser, beneficiind de un mod multiplayer extins care permite participarea a până la 128 de utilizatori simultan.</description>
     </item>
 </channel></rss>

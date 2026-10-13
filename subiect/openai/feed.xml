@@ -5,16 +5,16 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 19:27:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 01:41:34 +0000</lastBuildDate>
     <item>
-      <title>Meta a lansat Muse Wonder, un model AI de nivelul OpenAI</title>
+      <title>Compania Meta a lansat noul model de inteligență artificială Muse Wonder</title>
       <link>https://izz.ro/ai/meta-a-lansat-muse-wonder-un-model-ai-de-nivelul-openai/</link>
       <guid>https://izz.ro/ai/meta-a-lansat-muse-wonder-un-model-ai-de-nivelul-openai/</guid>
       <pubDate>Mon, 12 Oct 2026 18:38:08 +0000</pubDate>
       <category>ai</category>
-      <source url="https://www.g4media.ro/meta-a-prezentat-un-nou-model-de-ai-despre-care-sustine-ca-este-la-nivelul-openai-si-anthropic.html">G4Media</source>
+      <source url="https://www.g4media.ro/meta-a-prezentat-un-nou-model-de-ai-despre-care-sustine-ca-este-la-nivelul-openai-si-anthropic.html">G4Media, Antena 3 CNN</source>
       <media:content url="https://izz.ro/ai/meta-a-lansat-muse-wonder-un-model-ai-de-nivelul-openai/cover.jpg?v=98266ed2" medium="image" type="image/jpeg"/>
-      <description>Compania Meta a prezentat noul sistem de inteligență artificială Muse Wonder, conceput să egaleze performanțele tehnologiilor dezvoltate de OpenAI și Anthropic pentru a sprijini agenții autonomi.</description>
+      <description>Meta a prezentat sistemul de inteligență artificială Muse Wonder, conceput pentru a concura direct cu tehnologiile dezvoltate de OpenAI și Anthropic. Noua soluție este destinată susținerii agenților autonomi și poziționează compania în fruntea inovațiilor din domeniu.</description>
     </item>
     <item>
       <title>OpenAI pregătește lansarea propriilor telefoane mobile cu inteligență artificială</title>
@@ -161,14 +161,5 @@
       <category>general</category>
       <source url="https://hotnews.ro/noul-plan-al-chatgpt-costa-500-de-dolari-pe-luna-2363434">HotNews</source>
       <description>Compania OpenAI a introdus un nou nivel de abonament pentru inteligența artificială ChatGPT, care costă 500 de dolari lunar, fiind cu 300 de dolari mai scump decât precedentul cel mai costisitor plan.</description>
-    </item>
-    <item>
-      <title>OpenAI a lansat modelul lingvistic GPT-6.1 Sol cu capabilități avansate de programare</title>
-      <link>https://izz.ro/ai/openai-a-lansat-modelul-lingvistic-gpt-6-1-sol-cu-capabilitati-avansate-de/</link>
-      <guid>https://izz.ro/ai/openai-a-lansat-modelul-lingvistic-gpt-6-1-sol-cu-capabilitati-avansate-de/</guid>
-      <pubDate>Wed, 30 Sep 2026 21:09:24 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.marktechpost.com/2026/09/30/openai-releases-gpt-6-1-sol-near-astra-coding-and-computer-use-at-one-fifth-of-astras-token-price/">MarkTechPost</source>
-      <description>Noua versiune intermediară oferă performanțe apropiate de gama Astra pentru scriere de cod și utilizare computerizată, având un preț semnificativ redus pe token.</description>
     </item>
 </channel></rss>

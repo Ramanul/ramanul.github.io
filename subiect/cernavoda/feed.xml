@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/cernavoda/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cernavodă pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 19:27:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 01:41:33 +0000</lastBuildDate>
+    <item>
+      <title>Gradul de umplere a lacurilor de acumulare a scăzut la 51% în octombrie</title>
+      <link>https://izz.ro/economic/gradul-de-umplere-a-lacurilor-de-acumulare-a-scazut-la-51-in-octombrie/</link>
+      <guid>https://izz.ro/economic/gradul-de-umplere-a-lacurilor-de-acumulare-a-scazut-la-51-in-octombrie/</guid>
+      <pubDate>Mon, 12 Oct 2026 21:07:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/companii/energie/avertisment-luat-seama-jumatate-goale-gradul-umplere-lacurilor-acumulare-51-inceput-octombrie-cel-scazut-nivel-aceasta-data-2018-cernavoda-e-oprita-energia-hidro-e-afectata-23258367">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/economic/gradul-de-umplere-a-lacurilor-de-acumulare-a-scazut-la-51-in-octombrie/cover.jpg?v=0523b9da" medium="image" type="image/jpeg"/>
+      <description>Seceta severă a redus nivelul apei din lacurile de acumulare la cel mai mic procent din 2018 încoace, afectând grav producția de energie hidroenergetică și bugetul Hidroelectrica.</description>
+    </item>
     <item>
       <title>Centrala de la Cernavodă rămâne oprită, iar facturile la curent pot crește</title>
       <link>https://izz.ro/local/centrala-de-la-cernavoda-ramane-oprita-iar-facturile-la-curent-pot-creste/</link>
@@ -73,7 +83,7 @@
       <pubDate>Sun, 11 Oct 2026 11:56:59 +0000</pubDate>
       <category>local</category>
       <source url="https://hotnews.ro/nuclearelectrica-despre-situatia-de-la-centrala-cernavoda-nu-prezinta-niciun-risc-pentru-securitatea-nucleara-2372871">HotNews</source>
-      <media:content url="https://izz.ro/local/nuclearelectrica-anunta-ca-oprirea-temporara-a-reactorului-de-la-cernavoda-nu/cover.jpg?v=38a576de" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/nuclearelectrica-anunta-ca-oprirea-temporara-a-reactorului-de-la-cernavoda-nu/cover.jpg?v=e24e221d" medium="image" type="image/jpeg"/>
       <description>Unitățile 1 și 2 ale centralei Cernavodă au fost oprite preventiv din cauza nivelului scăzut al Dunării, compania asigurând că instalațiile rămân în deplină siguranță nucleară.</description>
     </item>
     <item>
@@ -222,14 +232,5 @@
       <category>local</category>
       <source url="https://www.dobrogeaonline.ro/restrictii-pe-autostrada-a2-in-apropierea-podului-cernavoda-traficul-se-desfasoara-pe-o-singura-banda/">Dobrogea Online</source>
       <description>Centrul Infotrafic semnalează circulație îngreunată pe o singură bandă pe Autostrada A2 lângă Cernavodă și trafic complet oprit pe DN 67D din cauza unui incendiu de vegetație care afectează zona forestieră din Băile Herculane.</description>
-    </item>
-    <item>
-      <title>România prelungește restricțiile de consum energetic pentru mari anumiți consumatori</title>
-      <link>https://izz.ro/local/romania-prelungeste-restrictiile-de-consum-energetic-pentru-mari-anumiti/</link>
-      <guid>https://izz.ro/local/romania-prelungeste-restrictiile-de-consum-energetic-pentru-mari-anumiti/</guid>
-      <pubDate>Wed, 30 Sep 2026 21:10:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/energie/ultima-ora-romania-fara-energie-nucleara-vesti-proaste-e-pregatita-prelungirea-posibilitatii-ca-marilor-consumatori-industriali-sa-li-se-limiteze-consumul-22794357?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Transelectrica va putea limita livrările către industria mare până la finalul lunii octombrie, din cauza opririi reactoarelor de la Cernavodă provocate de secetă.</description>
     </item>
 </channel></rss>

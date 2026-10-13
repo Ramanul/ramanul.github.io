@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 12 Oct 2026 19:27:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 01:41:34 +0000</lastBuildDate>
+    <item>
+      <title>Senatul a adoptat o declarație AUR referitoare la politica externă a Uniunii Europene</title>
+      <link>https://izz.ro/politic/senatul-a-adoptat-o-declaratie-aur-referitoare-la-politica-externa-a-uniunii/</link>
+      <guid>https://izz.ro/politic/senatul-a-adoptat-o-declaratie-aur-referitoare-la-politica-externa-a-uniunii/</guid>
+      <pubDate>Mon, 12 Oct 2026 21:02:28 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/politica/o-declaratie-aur-privind-dreptul-romaniei-de-a-si-proteja-interesele-in-politica-externa-a-ue-aprobata-de-senat-reactia-oanei-toiu-3989293">Digi24</source>
+      <media:content url="https://izz.ro/politic/senatul-a-adoptat-o-declaratie-aur-referitoare-la-politica-externa-a-uniunii/cover.jpg?v=ab95ef9c" medium="image" type="image/jpeg"/>
+      <description>Camera superioară a Parlamentului a aprobat o inițiativă legislativă care cere Guvernului să clarifice mandatul delegației române privind limitarea dreptului de veto și votul cu majoritate calificată în structurile europene.</description>
+    </item>
     <item>
       <title>Erodat de guvernarea comună, PSD a lăsat spațiu ascensiunii AUR, explică un cercetător</title>
       <link>https://izz.ro/politic/erodat-de-guvernarea-comuna-psd-a-lasat-spatiu-ascensiunii-aur-explica-un/</link>
@@ -33,7 +43,7 @@
       <pubDate>Sun, 11 Oct 2026 12:21:32 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.digi24.ro/stiri/actualitate/politica/rectorul-univ-bucuresti-avertizeaza-asupra-ascensiunii-aur-ii-tinem-in-afara-guvernarii-pana-ajung-majoritari-si-schimba-constitutia-3986947">Digi24</source>
-      <media:content url="https://izz.ro/politic/marian-preda-avertizeaza-asupra-riscurilor-asociate-ascensiunii-politice-a/cover.jpg?v=df73b028" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/politic/marian-preda-avertizeaza-asupra-riscurilor-asociate-ascensiunii-politice-a/cover.jpg?v=c775d578" medium="image" type="image/jpeg"/>
       <description>Rectorul Universității din București atrage atenția asupra pericolului pe care îl reprezintă menținerea formațiunii conduse de George Simion în afara puterii până când aceasta ar putea obține o majoritate parlamentară.</description>
     </item>
     <item>
@@ -43,7 +53,6 @@
       <pubDate>Sun, 11 Oct 2026 05:42:59 +0000</pubDate>
       <category>politic</category>
       <source url="https://adevarul.ro/politica/paul-stanescu-rupe-tacerea-dupa-zvonurile-privind-2563180.html">Adevărul</source>
-      <media:content url="https://izz.ro/politic/paul-stanescu-neaga-negocierile-pentru-o-trecere-la-partidul-aur/cover.jpg?v=e2789a09" medium="image" type="image/jpeg"/>
       <description>Senatorul PSD Paul Stănescu a infirmat zvonurile privind o posibilă ofertă sau negociere cu formațiunea AUR, susținând că informațiile apărute în spațiul public referitoare la un transfer politic sunt complet false.</description>
     </item>
     <item>
@@ -450,14 +459,5 @@
       <category>politic</category>
       <source url="https://gazetadecluj.ro/aur-ii-va-asista-juridic-pe-cei-abuzati-de-statul-roman-dupa-protestele-ciobanilor-si-cele-pro-georgescu/">Gazeta de Cluj</source>
       <description>Alianța pentru Unirea Românilor a anunțat că va asigura sprijin legal pentru persoanele amendate sau anchetate de autorități în urma manifestațiilor publice organizate de crescătorii de animale și susținătorii lui Călin Georgescu.</description>
-    </item>
-    <item>
-      <title>Siegfried Mureșan acuză PSD și AUR de deprecierea leului prin instabilitate politică</title>
-      <link>https://izz.ro/politic/siegfried-muresan-acuza-psd-si-aur-de-deprecierea-leului-prin-instabilitate/</link>
-      <guid>https://izz.ro/politic/siegfried-muresan-acuza-psd-si-aur-de-deprecierea-leului-prin-instabilitate/</guid>
-      <pubDate>Fri, 02 Oct 2026 11:56:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://observatornews.ro/economic/siegfried-muresan-spune-ca-psd-si-aur-sunt-de-vina-pentru-deprecierea-leului-au-creat-instabilitate-667988.html">Observator</source>
-      <description>Eurodeputatul Siegfried Mureșan pune scăderea puternică a monedei naționale pe seama crizei politice provocate de PSD și AUR. Acesta critică voturile care au dus la căderea Guvernului Bolojan și respingerea noului Cabinet.</description>
     </item>
 </channel></rss>
