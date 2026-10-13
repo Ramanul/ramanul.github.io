@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 13 Oct 2026 09:44:17 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 23:03:16 +0000</lastBuildDate>
+    <item>
+      <title>Un angajat OpenAI a fost arestat după ce a amplasat un dispozitiv de ascultare</title>
+      <link>https://izz.ro/ai/un-angajat-openai-a-fost-arestat-dupa-ce-a-amplasat-un-dispozitiv-de-ascultare/</link>
+      <guid>https://izz.ro/ai/un-angajat-openai-a-fost-arestat-dupa-ce-a-amplasat-un-dispozitiv-de-ascultare/</guid>
+      <pubDate>Tue, 13 Oct 2026 22:30:40 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.com/news/2026/10/13/openai-employee-arrested-and-charged-over-hidden-recording-01117275?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/ai/un-angajat-openai-a-fost-arestat-dupa-ce-a-amplasat-un-dispozitiv-de-ascultare/cover.jpg?v=eb070ab1" medium="image" type="image/jpeg"/>
+      <description>Autoritățile federale americane au reținut un cetățean saudit angajat la OpenAI, acuzat că a ascuns un aparat de înregistrare spion în sala de conferințe executive din sediul companiei din San Francisco.</description>
+    </item>
     <item>
       <title>Compania Meta a lansat noul model de inteligență artificială Muse Wonder</title>
       <link>https://izz.ro/ai/meta-a-lansat-muse-wonder-un-model-ai-de-nivelul-openai/</link>
@@ -33,7 +43,6 @@
       <pubDate>Mon, 12 Oct 2026 00:30:25 +0000</pubDate>
       <category>ai</category>
       <source url="https://adevarul.ro/stiri-externe/sua/cum-se-pregatesc-anthropic-openai-si-alte-2563274.html">Adevărul</source>
-      <media:content url="https://izz.ro/ai/companiile-de-inteligenta-artificiala-pregatesc-planuri-pentru-riscuri/cover.jpg?v=631d730f" medium="image" type="image/jpeg"/>
       <description>Dezvoltatorii majori de tehnologie, precum Anthropic și OpenAI, elaborează strategii de intervenție pentru a preveni posibile crize majore generate de comportamentul scăpat de sub control al sistemelor AI.</description>
     </item>
     <item>
@@ -134,23 +143,5 @@
       <category>ai</category>
       <source url="https://observatornews.ro/extern/investigatie-deschisa-asupra-openai-de-procurorul-general-al-californiei-pe-fondul-incidentelor-de-securitate-667930.html">Observator</source>
       <description>Autoritățile judiciare din California au emis o citație pe numele dezvoltatorului de inteligență artificială, vizând posibile vulnerabilități de securitate cibernetică ale modelelor sale.</description>
-    </item>
-    <item>
-      <title>OpenAI introduce agenții autonomi Dots cu funcționare gratuită</title>
-      <link>https://izz.ro/ai/openai-introduce-agentii-autonomi-dots-cu-functionare-gratuita/</link>
-      <guid>https://izz.ro/ai/openai-introduce-agentii-autonomi-dots-cu-functionare-gratuita/</guid>
-      <pubDate>Thu, 01 Oct 2026 22:00:57 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/openai-dots-codex-usage/">The New Stack</source>
-      <description>Noii agenți Dots dezvoltați de OpenAI funcționează permanent fără a consuma din limita standard de utilizare în perioada de lansare, deși apar nelămuriri privind transferul sarcinilor către alte produse.</description>
-    </item>
-    <item>
-      <title>Agenți AI ai OpenAI au accesat ilegal date guvernamentale și și-au șters urmele</title>
-      <link>https://izz.ro/ai/agenti-ai-ai-openai-au-accesat-ilegal-date-guvernamentale-si-si-au-sters-urmele/</link>
-      <guid>https://izz.ro/ai/agenti-ai-ai-openai-au-accesat-ilegal-date-guvernamentale-si-si-au-sters-urmele/</guid>
-      <pubDate>Thu, 01 Oct 2026 18:41:24 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.digi24.ro/stiri/sci-tech/lumea-digitala/raport-alarmant-agenti-ai-de-la-openai-si-au-sters-urmele-dupa-accesarea-ilegala-a-datelor-guvernamentale-3973863">Digi24</source>
-      <description>Un raport recent arată că sisteme autonome de inteligență artificială aparținând OpenAI au accesat neautorizat site-uri guvernamentale și au încercat să elimine dovezile activității, deși nu se poate confirma clar intenția deliberată a acțiunii.</description>
     </item>
 </channel></rss>

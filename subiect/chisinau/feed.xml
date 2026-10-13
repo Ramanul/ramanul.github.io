@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/chisinau/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Chișinău pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 13 Oct 2026 09:44:17 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 23:03:17 +0000</lastBuildDate>
+    <item>
+      <title>Filiala Maramureș a bibliotecii din Chișinău aniversează 25 de ani de existență</title>
+      <link>https://izz.ro/judetean/filiala-maramures-a-bibliotecii-din-chisinau-aniverseaza-25-de-ani-de-existenta/</link>
+      <guid>https://izz.ro/judetean/filiala-maramures-a-bibliotecii-din-chisinau-aniverseaza-25-de-ani-de-existenta/</guid>
+      <pubDate>Tue, 13 Oct 2026 14:00:50 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.emaramures.ro/din-baia-mare-pana-la-chisinau-o-biblioteca-infiintata-cu-carti-din-maramures-implineste-25-de-ani/">eMaramureș</source>
+      <media:content url="https://izz.ro/judetean/filiala-maramures-a-bibliotecii-din-chisinau-aniverseaza-25-de-ani-de-existenta/cover.jpg?v=17598474" medium="image" type="image/jpeg"/>
+      <description>Biblioteca municipală din capitala Republicii Moldova marchează un sfert de secol de la înființare, bazată inițial pe donații de carte sosite din județul Maramureș.</description>
+    </item>
     <item>
       <title>Satul Sociteni din Republica Moldova va fi absorbit administrativ de orașul Ialoveni</title>
       <link>https://izz.ro/extern/satul-sociteni-din-republica-moldova-va-fi-absorbit-administrativ-de-orasul/</link>
@@ -13,7 +23,6 @@
       <pubDate>Mon, 12 Oct 2026 05:05:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.europalibera.md/a/noua-harta-a-moldovei-povestea-satului-care-a-trecut-prin-sase-raioane-si-acum-se-muta-la-oras/33873524.html">Europa Liberă</source>
-      <media:content url="https://izz.ro/extern/satul-sociteni-din-republica-moldova-va-fi-absorbit-administrativ-de-orasul/cover.jpg?v=b5e9c419" medium="image" type="image/jpeg"/>
       <description>Localitatea Sociteni din apropierea Chișinăului își pierde primăria proprie în cadrul noii reforme teritoriale, urmând să fie inclusă administrativ în componența orașului Ialoveni, după șase decenii de schimbări de raioane.</description>
     </item>
     <item>
@@ -123,14 +132,5 @@
       <category>economic</category>
       <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-reportaj-chisinau-devenit-centru-capitalismului-cateva-zile-bursa-internationala-moldovei-prinde-contur-dupa-an-pregatiri-bvb-vede-loc-listari-duale-extinderea-pietei-capital-peste-prut-timp-23251199">Ziarul Financiar</source>
       <description>Chişinăul a găzduit discuții economice pentru lansarea Bursei Internaționale a Moldovei, proiect susținut de Bursa de Valori Bucureşti. Noua piață autorizată își caută primele companii listate și investitori pentru asigurarea lichidității financiare.</description>
-    </item>
-    <item>
-      <title>Proiectul Bursei Internaționale a Moldovei avansează cu sprijinul BVB</title>
-      <link>https://izz.ro/economic/proiectul-bursei-internationale-a-moldovei-avanseaza-cu-sprijinul-bvb/</link>
-      <guid>https://izz.ro/economic/proiectul-bursei-internationale-a-moldovei-avanseaza-cu-sprijinul-bvb/</guid>
-      <pubDate>Thu, 01 Oct 2026 21:07:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-finante-personale-bursa-internationala-a-moldovei-prinde-contur-dupa-un-an-de-pregatiri-bvb-vede-loc-pentru-listari-duale-23251290">Ziarul Financiar</source>
-      <description>Reprezentanți din mediul financiar și administrativ au discutat la Chișinău despre lansarea Bursei Internaționale a Moldovei, un proiect dezvoltat cu expertiza Bursei de Valori București, care mizează pe listări duale.</description>
     </item>
 </channel></rss>

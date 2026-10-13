@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 13 Oct 2026 09:44:17 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 23:03:17 +0000</lastBuildDate>
     <item>
       <title>Bill Gates avertizează că utilizarea malintenționată a inteligenței artificiale reprezintă riscul principal</title>
       <link>https://izz.ro/ai/bill-gates-avertizeaza-ca-utilizarea-malintentionata-a-inteligentei-artificiale/</link>
@@ -23,7 +23,7 @@
       <pubDate>Mon, 12 Oct 2026 09:15:28 +0000</pubDate>
       <category>ai</category>
       <source url="https://stirileprotv.ro/stiri/international/seful-microsoft-declaratie-surprinzatoare-despre-ia-masinile-de-spalat-sunt-supuse-mai-multor-reguli-de-siguranta.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/ai/seful-microsoft-cere-reglementari-stricte-la-nivel-global-pentru-inteligenta/cover.jpg?v=a954c418" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/seful-microsoft-cere-reglementari-stricte-la-nivel-global-pentru-inteligenta/cover.jpg?v=d6c3da6d" medium="image" type="image/jpeg"/>
       <description>Președintele companiei Microsoft, Brad Smith, solicită introducerea unor standarde globale obligatorii de siguranță pentru tehnologiile de inteligență artificială, argumentând că acestea beneficiază în prezent de mai puțin control legislativ decât electrocasnicele.</description>
     </item>
     <item>
@@ -33,7 +33,6 @@
       <pubDate>Mon, 12 Oct 2026 03:44:29 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-12-octombrie-2026/">NwRadu</source>
-      <media:content url="https://izz.ro/tech/rezumatul-stirilor-din-tehnologie-lansari-tesla-google-si-microsoft/cover.jpg?v=da41d694" medium="image" type="image/jpeg"/>
       <description>Tesla a deschis primul supercharger în zona Iași, startup-ul .lumen a câștigat o competiție importantă, iar Google lucrează la emoji-uri în format HDR, în timp ce Microsoft lansează un nou model decizional.</description>
     </item>
     <item>
@@ -43,7 +42,6 @@
       <pubDate>Mon, 12 Oct 2026 03:25:54 +0000</pubDate>
       <category>lifestyle</category>
       <source url="https://www.nwradu.ro/2026/10/am-analizat-colectia-ikea-xbox-yxstaby-magazine/">NwRadu</source>
-      <media:content url="https://izz.ro/lifestyle/ikea-si-xbox-lanseaza-colectia-de-mobilier-si-accesorii-yxstaby/cover.jpg?v=344cef2b" medium="image" type="image/jpeg"/>
       <description>Cele două companii au creat o gamă dedicată camerelor de gaming, adaptată portofoliului existent de birouri și scaune IKEA, în pofida problemelor recente de strategie ale brandului Xbox.</description>
     </item>
     <item>
@@ -180,14 +178,5 @@
       <category>tech</category>
       <source url="https://www.xda-developers.com/five-years-daily-hibernation-impact-on-ssd/">XDA Developers</source>
       <description>Utilizarea funcției de hibernare timp de cinci ani pe un SSD Samsung a redus sănătatea acestuia la 90 la sută. Deși acceptabil pentru utilizatorii obișnuiți, uzura poate afecta stabilitatea sistemelor de performanță.</description>
-    </item>
-    <item>
-      <title>Windows include un instrument pentru dezactivarea serviciilor inutile</title>
-      <link>https://izz.ro/tech/windows-include-un-instrument-pentru-dezactivarea-serviciilor-inutile/</link>
-      <guid>https://izz.ro/tech/windows-include-un-instrument-pentru-dezactivarea-serviciilor-inutile/</guid>
-      <pubDate>Thu, 01 Oct 2026 13:00:21 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/windows-has-100-services-running-you-can-safely-disable-many/">XDA Developers</source>
-      <description>Sistemele de operare Windows rulează numeroase procese în fundal, iar utilizatorii pot dezactiva serviciile non-critice pentru a îmbunătăți performanța calculatoarelor mai vechi sau lente.</description>
     </item>
 </channel></rss>

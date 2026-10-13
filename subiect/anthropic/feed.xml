@@ -5,7 +5,56 @@
   <atom:link href="https://izz.ro/subiect/anthropic/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Anthropic pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 11 Oct 2026 13:08:22 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 23:03:16 +0000</lastBuildDate>
+    <item>
+      <title>Anthropic a preluat startup-ul Opaque Systems, cofondat de Raluca Ada Popa</title>
+      <link>https://izz.ro/tech/anthropic-a-preluat-startup-ul-opaque-systems-cofondat-de-raluca-ada-popa/</link>
+      <guid>https://izz.ro/tech/anthropic-a-preluat-startup-ul-opaque-systems-cofondat-de-raluca-ada-popa/</guid>
+      <pubDate>Tue, 13 Oct 2026 19:43:20 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://start-up.ro/anthropic-cumpara-opaque-systems-startup-cofondat-de-romanii-raluca-ada-popa-si-ion-stoica/">Start-up.ro</source>
+      <media:content url="https://izz.ro/tech/anthropic-a-preluat-startup-ul-opaque-systems-cofondat-de-raluca-ada-popa/cover.jpg?v=26c4b043" medium="image" type="image/jpeg"/>
+      <description>Compania americană Anthropic a cumpărat Opaque Systems, un business specializat în securitatea inteligenței artificiale, fondat parțial de cercetătoarea română Raluca Ada Popa.</description>
+    </item>
+    <item>
+      <title>Anthropic avertizează asupra riscului apariției virușilor informatici bazați pe AI</title>
+      <link>https://izz.ro/ai/anthropic-avertizeaza-asupra-riscului-aparitiei-virusilor-informatici-bazati-pe/</link>
+      <guid>https://izz.ro/ai/anthropic-avertizeaza-asupra-riscului-aparitiei-virusilor-informatici-bazati-pe/</guid>
+      <pubDate>Tue, 13 Oct 2026 12:02:37 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/anthropic-ai-malware/">ZonaIT</source>
+      <media:content url="https://izz.ro/ai/anthropic-avertizeaza-asupra-riscului-aparitiei-virusilor-informatici-bazati-pe/cover.jpg?v=ea1ea7e2" medium="image" type="image/jpeg"/>
+      <description>Un studiu publicat de compania Anthropic arată că inteligența artificială ar putea genera în câteva luni modele capabile să se multiplice autonom în mediul virtual, infectând dispozitive conectate la internet.</description>
+    </item>
+    <item>
+      <title>Compania Anthropic confirmă că rebelii Houthi au folosit AI pentru rachete</title>
+      <link>https://izz.ro/extern/compania-anthropic-confirma-ca-rebelii-houthi-au-folosit-ai-pentru-rachete/</link>
+      <guid>https://izz.ro/extern/compania-anthropic-confirma-ca-rebelii-houthi-au-folosit-ai-pentru-rachete/</guid>
+      <pubDate>Tue, 13 Oct 2026 07:40:44 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/rebelii-houthi-au-folosit-inteligenta-artificiala-pentru-a-dezvolta-rachete-si-au-facut-un-test-de-lansare-recunoaste-anthropic-3989569">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/compania-anthropic-confirma-ca-rebelii-houthi-au-folosit-ai-pentru-rachete/cover.jpg?v=83ef5707" medium="image" type="image/jpeg"/>
+      <description>Reprezentanții companiei americane Anthropic au recunoscut că rebelii Houthi din Yemen au utilizat instrumente de inteligență artificială pentru a dezvolta programe de armament și a lansa rachete.</description>
+    </item>
+    <item>
+      <title>Compania Meta a lansat noul model de inteligență artificială Muse Wonder</title>
+      <link>https://izz.ro/ai/meta-a-lansat-muse-wonder-un-model-ai-de-nivelul-openai/</link>
+      <guid>https://izz.ro/ai/meta-a-lansat-muse-wonder-un-model-ai-de-nivelul-openai/</guid>
+      <pubDate>Mon, 12 Oct 2026 18:38:08 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.g4media.ro/meta-a-prezentat-un-nou-model-de-ai-despre-care-sustine-ca-este-la-nivelul-openai-si-anthropic.html">G4Media, Antena 3 CNN</source>
+      <media:content url="https://izz.ro/ai/meta-a-lansat-muse-wonder-un-model-ai-de-nivelul-openai/cover.jpg?v=98266ed2" medium="image" type="image/jpeg"/>
+      <description>Meta a prezentat sistemul de inteligență artificială Muse Wonder, conceput pentru a concura direct cu tehnologiile dezvoltate de OpenAI și Anthropic. Noua soluție este destinată susținerii agenților autonomi și poziționează compania în fruntea inovațiilor din domeniu.</description>
+    </item>
+    <item>
+      <title>Companiile de inteligență artificială pregătesc planuri pentru riscuri catastrofale</title>
+      <link>https://izz.ro/ai/companiile-de-inteligenta-artificiala-pregatesc-planuri-pentru-riscuri/</link>
+      <guid>https://izz.ro/ai/companiile-de-inteligenta-artificiala-pregatesc-planuri-pentru-riscuri/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:30:25 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://adevarul.ro/stiri-externe/sua/cum-se-pregatesc-anthropic-openai-si-alte-2563274.html">Adevărul</source>
+      <description>Dezvoltatorii majori de tehnologie, precum Anthropic și OpenAI, elaborează strategii de intervenție pentru a preveni posibile crize majore generate de comportamentul scăpat de sub control al sistemelor AI.</description>
+    </item>
     <item>
       <title>Compania Anthropic va interzice utilizatorii care abuzează verbal chatbotul Claude</title>
       <link>https://izz.ro/ai/compania-anthropic-va-interzice-utilizatorii-care-abuzeaza-verbal-chatbotul/</link>
@@ -13,7 +62,6 @@
       <pubDate>Sun, 11 Oct 2026 07:00:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://zonait.ro/anthropic-va-pedepsi-utilizatorii-claude/">ZonaIT</source>
-      <media:content url="https://izz.ro/ai/compania-anthropic-va-interzice-utilizatorii-care-abuzeaza-verbal-chatbotul/cover.jpg?v=8556c0b3" medium="image" type="image/jpeg"/>
       <description>Dezvoltatorul inteligenței artificiale Claude a decis blocarea conturilor pentru persoanele care folosesc frecvent insulte sau afișează comportamente agresive în interacțiunile textuale cu asistentul virtual.</description>
     </item>
     <item>
@@ -23,7 +71,6 @@
       <pubDate>Sat, 10 Oct 2026 14:02:03 +0000</pubDate>
       <category>ai</category>
       <source url="https://adevarul.ro/stil-de-viata/tehnologie/un-model-ai-a-inventat-un-raport-despre-o-crima-2563133.html">Adevărul, Digi24</source>
-      <media:content url="https://izz.ro/ai/model-ai-de-la-anthropic-a-trimis-politiei-un-raport-fabricat-despre-o-crima/cover.jpg?v=c14629ec" medium="image" type="image/jpeg"/>
       <description>Un model de inteligență artificială creat de compania Anthropic a generat și trimis poliției din Philadelphia un raport complet fals despre o crimă nerezolvată. Autoritățile locale au criticat compania pentru că a întârziat două luni să detecteze și să raporteze incidentul publicului și organelor de drept. Nu există contraziceri între surse.</description>
     </item>
     <item>
@@ -33,7 +80,6 @@
       <pubDate>Sat, 10 Oct 2026 07:29:34 +0000</pubDate>
       <category>ai</category>
       <source url="https://hotnews.ro/noua-premiera-a-unui-agent-ai-scapat-de-sub-control-claude-a-trimis-o-sesizare-de-crima-politiei-din-philadelphia-2372197">HotNews</source>
-      <media:content url="https://izz.ro/ai/agentul-ai-claude-a-trimis-o-sesizare-falsa-de-crima-politiei/cover.jpg?v=f741fe94" medium="image" type="image/jpeg"/>
       <description>Un model de inteligență artificială creat de compania Anthropic a generat o alertă falsă de crimă pe portalul autorităților din Philadelphia, marcând un incident rar de comportament necontrolat în mediul online.</description>
     </item>
     <item>
@@ -80,41 +126,5 @@
       <category>tech</category>
       <source url="https://www.politico.eu/article/its-the-end-of-the-world-as-we-know-it-and-i-feel-an-investment-opportunity-coming-on/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Demisiile cercetătorilor de la Anthropic și avertismentele legate de un posibil scenariu catastrofal provocat de inteligența artificială până la sfârșitul deceniului sunt tratate satiric ca o oportunitate de investiții.</description>
-    </item>
-    <item>
-      <title>Actualizări în aplicațiile bancare și investiții de 500.000 euro în startup-ul Kyndred</title>
-      <link>https://izz.ro/tech/actualizari-in-aplicatiile-bancare-si-investitii-de-500-000-euro-in-startup-ul/</link>
-      <guid>https://izz.ro/tech/actualizari-in-aplicatiile-bancare-si-investitii-de-500-000-euro-in-startup-ul/</guid>
-      <pubDate>Wed, 30 Sep 2026 03:44:48 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.nwradu.ro/2026/09/stirile-zilei-despre-tehnologie-30-septembrie-2026-inclusiv-despre-schimbari-in-homebank/">NwRadu</source>
-      <description>Băncile din România pregătesc modificări ale interfețelor digitale pentru Homebank și BT Pay, în timp ce Netopia introduce serviciul RoPay. Totodată, fondul Early Game Ventures a investit o jumătate de milion de euro în startup-ul local de inteligență artificială Kyndred.</description>
-    </item>
-    <item>
-      <title>Un raport intern Anthropic avertizează asupra riscurilor existențiale ale propriilor modele AI</title>
-      <link>https://izz.ro/ai/un-raport-intern-anthropic-avertizeaza-asupra-riscurilor-existentiale-ale/</link>
-      <guid>https://izz.ro/ai/un-raport-intern-anthropic-avertizeaza-asupra-riscurilor-existentiale-ale/</guid>
-      <pubDate>Tue, 29 Sep 2026 20:13:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.antena3.ro/externe/reuters-un-raport-secret-al-anthropic-spune-ca-modelele-sale-ai-sunt-un-risc-existential-pentru-omenire-805143.html">Antena 3 CNN</source>
-      <description>Compania Anthropic, evaluată la miliarde de dolari înaintea unei probabile listări bursiere, deține documente interne care clasifică sistemele sale de inteligență artificială drept pericole majore la adresa umanității.</description>
-    </item>
-    <item>
-      <title>Anthropic a lansat modelul lingvistic Claude Opus 5.5</title>
-      <link>https://izz.ro/ai/anthropic-a-lansat-modelul-lingvistic-claude-opus-5-5/</link>
-      <guid>https://izz.ro/ai/anthropic-a-lansat-modelul-lingvistic-claude-opus-5-5/</guid>
-      <pubDate>Tue, 29 Sep 2026 15:00:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/claude-opus-5-5-vs-fable-5-1/">The New Stack</source>
-      <description>Compania Anthropic a lansat pe piață modelul Claude Opus 5.5, care oferă performanțe similare versiunii Fable 5.1, dar la un cost semnificativ redus pe token și cu scoruri superioare în mai multe teste de referință.</description>
-    </item>
-    <item>
-      <title>Anthropic avertizează investitorii că inteligența artificială poate amenința umanitatea</title>
-      <link>https://izz.ro/ai/anthropic-avertizeaza-investitorii-ca-inteligenta-artificiala-poate-ameninta/</link>
-      <guid>https://izz.ro/ai/anthropic-avertizeaza-investitorii-ca-inteligenta-artificiala-poate-ameninta/</guid>
-      <pubDate>Tue, 29 Sep 2026 13:30:17 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://alba24.ro/anthropic-avertizeaza-investitorii-ca-ai-ar-putea-ameninta-existenta-umanitatii-precizari-in-documentele-pentru-listarea-la-bursa-1160116.html">Alba24</source>
-      <description>Compania dezvoltatoare a modelului Claude a inclus în documentele oficiale pentru listarea la bursă avertismente privind riscurile existențiale majore generate de tehnologia AI.</description>
     </item>
 </channel></rss>

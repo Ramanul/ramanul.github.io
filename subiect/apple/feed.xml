@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/apple/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Apple pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 13 Oct 2026 09:44:17 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 23:03:16 +0000</lastBuildDate>
+    <item>
+      <title>Apple lansează dispozitivul HomeView pentru case inteligente la 299 de dolari</title>
+      <link>https://izz.ro/tech/apple-lanseaza-dispozitivul-homeview-pentru-case-inteligente-la-299-de-dolari/</link>
+      <guid>https://izz.ro/tech/apple-lanseaza-dispozitivul-homeview-pentru-case-inteligente-la-299-de-dolari/</guid>
+      <pubDate>Tue, 13 Oct 2026 19:06:09 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://stirileprotv.ro/stiri/ilikeit/apple-a-lansat-un-nou-dispozitiv-la-doar-299-de-dolari-ce-functii-are-produsul.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/tech/apple-lanseaza-dispozitivul-homeview-pentru-case-inteligente-la-299-de-dolari/cover.jpg?v=aa0e2c4c" medium="image" type="image/jpeg"/>
+      <description>Compania Apple a introdus pe piață noul produs HomeView, conceput pentru a extinde ecosistemul de dispozitive destinate locuințelor inteligente, comercializat la prețul de 299 de dolari.</description>
+    </item>
     <item>
       <title>OpenAI pregătește lansarea propriilor telefoane mobile cu inteligență artificială</title>
       <link>https://izz.ro/ai/openai-pregateste-lansarea-propriilor-telefoane-mobile-cu-inteligenta/</link>
@@ -23,7 +33,7 @@
       <pubDate>Mon, 12 Oct 2026 09:17:03 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/scumpiri-galaxy-s27/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/samsung-analizeaza-o-noua-scumpire-cu-100-de-dolari-pentru-viitorul-model/cover.jpg?v=8d2a7964" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/samsung-analizeaza-o-noua-scumpire-cu-100-de-dolari-pentru-viitorul-model/cover.jpg?v=0212cf7c" medium="image" type="image/jpeg"/>
       <description>Surse din industrie indică faptul că producătorul sud-coreean ia în calcul majorarea prețului de pornire pentru seria de telefoane flagship, urmând o tendință similară adoptată deja anul precedent.</description>
     </item>
     <item>
@@ -43,7 +53,6 @@
       <pubDate>Mon, 12 Oct 2026 07:06:27 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/12/vanzarile-iphone-18-pro-si-max-nu-merg-foarte-bine/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/apple-reduce-comenzile-pentru-componentele-iphone-18-pro/cover.jpg?v=ad92a5f0" medium="image" type="image/jpeg"/>
       <description>Presa din Japonia anunță că Apple a scăzut cu 15% comenzile de componente pentru seria iPhone 18 Pro în luna octombrie. Măsura vine pe fondul unei cereri mai scăzute decât estimările inițiale pe piață.</description>
     </item>
     <item>
@@ -198,14 +207,5 @@
       <category>tech</category>
       <source url="https://www.nwradu.ro/2026/10/cat-battery-health-are-iphone-17-pro-max-dupa-un-an/">NwRadu</source>
       <description>Un utilizator raportează că telefonul său a rămas la o sănătate a acumulatorului de 100% după douăsprezece luni de alimentare zilnică printr-unstand wireless nocturn de 15W, contrazicând temerile privind degradarea termică accelerată provocată de acest mod de încărcare.</description>
-    </item>
-    <item>
-      <title>Jocul Zelda: The Wind Waker are o versiune nativă pentru PC</title>
-      <link>https://izz.ro/tech/jocul-zelda-the-wind-waker-are-o-versiune-nativa-pentru-pc/</link>
-      <guid>https://izz.ro/tech/jocul-zelda-the-wind-waker-are-o-versiune-nativa-pentru-pc/</guid>
-      <pubDate>Thu, 01 Oct 2026 17:57:34 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/zelda-the-wind-waker-finally-has-native-pc-port-fans-waited-decades-for-120fps/">XDA Developers</source>
-      <description>Un port software neoficial, dar extrem de apreciat, permite rularea clasicului titlu Nintendo Zelda pe computere cu Windows, dar și pe dispozitive mobile Apple, oferind suport pentru 120fps.</description>
     </item>
 </channel></rss>

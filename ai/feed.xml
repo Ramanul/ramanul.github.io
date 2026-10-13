@@ -5,7 +5,37 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 13 Oct 2026 09:44:25 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 23:03:24 +0000</lastBuildDate>
+    <item>
+      <title>Un angajat OpenAI a fost arestat după ce a amplasat un dispozitiv de ascultare</title>
+      <link>https://izz.ro/ai/un-angajat-openai-a-fost-arestat-dupa-ce-a-amplasat-un-dispozitiv-de-ascultare/</link>
+      <guid>https://izz.ro/ai/un-angajat-openai-a-fost-arestat-dupa-ce-a-amplasat-un-dispozitiv-de-ascultare/</guid>
+      <pubDate>Tue, 13 Oct 2026 22:30:40 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.com/news/2026/10/13/openai-employee-arrested-and-charged-over-hidden-recording-01117275?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/ai/un-angajat-openai-a-fost-arestat-dupa-ce-a-amplasat-un-dispozitiv-de-ascultare/cover.jpg?v=eb070ab1" medium="image" type="image/jpeg"/>
+      <description>Autoritățile federale americane au reținut un cetățean saudit angajat la OpenAI, acuzat că a ascuns un aparat de înregistrare spion în sala de conferințe executive din sediul companiei din San Francisco.</description>
+    </item>
+    <item>
+      <title>Nvidia îmbunătățește performanțele DLSS 5 printr-un update de driver</title>
+      <link>https://izz.ro/ai/nvidia-imbunatateste-performantele-dlss-5-printr-un-update-de-driver/</link>
+      <guid>https://izz.ro/ai/nvidia-imbunatateste-performantele-dlss-5-printr-un-update-de-driver/</guid>
+      <pubDate>Tue, 13 Oct 2026 13:15:11 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/nvidia-dubleaza-performantele-dlss-5/">ZonaIT</source>
+      <media:content url="https://izz.ro/ai/nvidia-imbunatateste-performantele-dlss-5-printr-un-update-de-driver/cover.jpg?v=64da3504" medium="image" type="image/jpeg"/>
+      <description>Compania aduce actualizări pentru tehnologia de augmentare a calității imaginii prin procesare neurală, utilizată în titlurile majore de PC.</description>
+    </item>
+    <item>
+      <title>Anthropic avertizează asupra riscului apariției virușilor informatici bazați pe AI</title>
+      <link>https://izz.ro/ai/anthropic-avertizeaza-asupra-riscului-aparitiei-virusilor-informatici-bazati-pe/</link>
+      <guid>https://izz.ro/ai/anthropic-avertizeaza-asupra-riscului-aparitiei-virusilor-informatici-bazati-pe/</guid>
+      <pubDate>Tue, 13 Oct 2026 12:02:37 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/anthropic-ai-malware/">ZonaIT</source>
+      <media:content url="https://izz.ro/ai/anthropic-avertizeaza-asupra-riscului-aparitiei-virusilor-informatici-bazati-pe/cover.jpg?v=ea1ea7e2" medium="image" type="image/jpeg"/>
+      <description>Un studiu publicat de compania Anthropic arată că inteligența artificială ar putea genera în câteva luni modele capabile să se multiplice autonom în mediul virtual, infectând dispozitive conectate la internet.</description>
+    </item>
     <item>
       <title>O aplicație bazată pe inteligență artificială previne fraudele financiare</title>
       <link>https://izz.ro/ai/o-aplicatie-bazata-pe-inteligenta-artificiala-previne-fraudele-financiare/</link>
@@ -103,7 +133,7 @@
       <pubDate>Mon, 12 Oct 2026 09:15:28 +0000</pubDate>
       <category>ai</category>
       <source url="https://stirileprotv.ro/stiri/international/seful-microsoft-declaratie-surprinzatoare-despre-ia-masinile-de-spalat-sunt-supuse-mai-multor-reguli-de-siguranta.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/ai/seful-microsoft-cere-reglementari-stricte-la-nivel-global-pentru-inteligenta/cover.jpg?v=a954c418" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/seful-microsoft-cere-reglementari-stricte-la-nivel-global-pentru-inteligenta/cover.jpg?v=d6c3da6d" medium="image" type="image/jpeg"/>
       <description>Președintele companiei Microsoft, Brad Smith, solicită introducerea unor standarde globale obligatorii de siguranță pentru tehnologiile de inteligență artificială, argumentând că acestea beneficiază în prezent de mai puțin control legislativ decât electrocasnicele.</description>
     </item>
     <item>
@@ -113,7 +143,6 @@
       <pubDate>Mon, 12 Oct 2026 08:21:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://spotmedia.ro/stiri/educatie/romania-printre-ultimele-state-ue-la-integrarea-ai-in-scoli-doar-un-sfert-dintre-tineri-o-folosesc-la-invatare">Spotmedia</source>
-      <media:content url="https://izz.ro/ai/romania-se-afla-la-coada-uniunii-europene-in-privinta-utilizarii-inteligentei/cover.jpg?v=3443be0b" medium="image" type="image/jpeg"/>
       <description>Un raport recent al Comisiei Europene arată că doar un sfert dintre tinerii români cu vârste între șaisprezece și douăzeci și patru de ani folosesc instrumente de inteligență artificială pentru învățare.</description>
     </item>
     <item>
@@ -123,7 +152,6 @@
       <pubDate>Mon, 12 Oct 2026 00:30:25 +0000</pubDate>
       <category>ai</category>
       <source url="https://adevarul.ro/stiri-externe/sua/cum-se-pregatesc-anthropic-openai-si-alte-2563274.html">Adevărul</source>
-      <media:content url="https://izz.ro/ai/companiile-de-inteligenta-artificiala-pregatesc-planuri-pentru-riscuri/cover.jpg?v=631d730f" medium="image" type="image/jpeg"/>
       <description>Dezvoltatorii majori de tehnologie, precum Anthropic și OpenAI, elaborează strategii de intervenție pentru a preveni posibile crize majore generate de comportamentul scăpat de sub control al sistemelor AI.</description>
     </item>
     <item>
@@ -133,7 +161,6 @@
       <pubDate>Sun, 11 Oct 2026 21:10:25 +0000</pubDate>
       <category>ai</category>
       <source url="https://adevarul.ro/economie/centrele-de-date-consuma-tot-mai-mult-cupru-doua-2562915.html">Adevărul</source>
-      <media:content url="https://izz.ro/ai/centrele-de-date-pentru-inteligenta-artificiala-provoaca-o-criza-de-cupru/cover.jpg?v=03a2cf42" medium="image" type="image/jpeg"/>
       <description>Dezvoltarea accelerată a tehnologiilor AI amplifică cererea de cupru pentru infrastructură, forțând industria să caute alternative din cauza deficitului estimat de aprovizionare.</description>
     </item>
     <item>
@@ -441,32 +468,5 @@
       <category>ai</category>
       <source url="https://start-up.ro/romania-ultima-din-ue-la-adoptia-ai-in-companii-cine-raspunde-cand-sistemele-gresesc/">Start-up.ro</source>
       <description>Datele Eurostat arată că doar 5,2% dintre companiile românești foloseau inteligența artificială în 2025, plasând țara pe ultimul loc în Uniunea Europeană, unde media atinge pragul de 20 de procente.</description>
-    </item>
-    <item>
-      <title>Companiile riscă furtul de date criptate păstrate pentru decriptare ulterioară</title>
-      <link>https://izz.ro/ai/companiile-risca-furtul-de-date-criptate-pastrate-pentru-decriptare-ulterioara/</link>
-      <guid>https://izz.ro/ai/companiile-risca-furtul-de-date-criptate-pastrate-pentru-decriptare-ulterioara/</guid>
-      <pubDate>Tue, 06 Oct 2026 05:05:02 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://start-up.ro/orange-business-tech-now-cum-protejezi-datele-pe-termen-lung-cand-si-algoritmii-pot-deveni-nesiguri/">Start-up.ro</source>
-      <description>Datele furate astăzi de hackeri pot fi stocate până când tehnologia viitorului va permite spargerea criptării, devenind astfel un pericol major pe termen lung pentru securitatea companiilor.</description>
-    </item>
-    <item>
-      <title>Agenții AI trec la producție și execută sarcini complexe în companii</title>
-      <link>https://izz.ro/ai/agentii-ai-trec-la-productie-si-executa-sarcini-complexe-in-companii/</link>
-      <guid>https://izz.ro/ai/agentii-ai-trec-la-productie-si-executa-sarcini-complexe-in-companii/</guid>
-      <pubDate>Mon, 05 Oct 2026 21:07:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.zf.ro/business-hi-tech/agentii-au-iesit-demonstratii-au-intrat-productie-suna-clienti-emit-facturi-verifica-documente-opereaza-roboti-5g-ul-face-magie-proiectele-reusesc-acolo-unde-compania-isi-cunoaste-procesele-stie-23253740">Ziarul Financiar</source>
-      <description>Programele de inteligență artificială au depășit faza de testare, fiind utilizate în companii pentru a suna clienți, a emite facturi, a procesa documente financiare și a opera roboți industriali.</description>
-    </item>
-    <item>
-      <title>Sam Altman susține că beneficiile inteligenței artificiale depășesc riscurile</title>
-      <link>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</link>
-      <guid>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</guid>
-      <pubDate>Mon, 05 Oct 2026 18:11:56 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.politico.eu/article/sam-altman-a-decoded-le-monde-devrait-accepter-que-certaines-choses-negatives-se-produisent-face-aux-benefices-de-lia/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Șeful OpenAI consideră că societatea trebuie să accepte anumite aspecte negative pentru a profita de avantajele majore aduse de tehnologia inteligenței artificiale.</description>
     </item>
 </channel></rss>
