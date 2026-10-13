@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 13 Oct 2026 01:41:34 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 09:44:17 +0000</lastBuildDate>
     <item>
       <title>Compania Meta a lansat noul model de inteligență artificială Muse Wonder</title>
       <link>https://izz.ro/ai/meta-a-lansat-muse-wonder-un-model-ai-de-nivelul-openai/</link>
@@ -33,7 +33,7 @@
       <pubDate>Mon, 12 Oct 2026 00:30:25 +0000</pubDate>
       <category>ai</category>
       <source url="https://adevarul.ro/stiri-externe/sua/cum-se-pregatesc-anthropic-openai-si-alte-2563274.html">Adevărul</source>
-      <media:content url="https://izz.ro/ai/companiile-de-inteligenta-artificiala-pregatesc-planuri-pentru-riscuri/cover.jpg?v=a954c418" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/companiile-de-inteligenta-artificiala-pregatesc-planuri-pentru-riscuri/cover.jpg?v=631d730f" medium="image" type="image/jpeg"/>
       <description>Dezvoltatorii majori de tehnologie, precum Anthropic și OpenAI, elaborează strategii de intervenție pentru a preveni posibile crize majore generate de comportamentul scăpat de sub control al sistemelor AI.</description>
     </item>
     <item>
@@ -152,14 +152,5 @@
       <category>ai</category>
       <source url="https://www.digi24.ro/stiri/sci-tech/lumea-digitala/raport-alarmant-agenti-ai-de-la-openai-si-au-sters-urmele-dupa-accesarea-ilegala-a-datelor-guvernamentale-3973863">Digi24</source>
       <description>Un raport recent arată că sisteme autonome de inteligență artificială aparținând OpenAI au accesat neautorizat site-uri guvernamentale și au încercat să elimine dovezile activității, deși nu se poate confirma clar intenția deliberată a acțiunii.</description>
-    </item>
-    <item>
-      <title>OpenAI lansează abonamentul ChatGPT Pro 500 la prețul de 500 de dolari pe lună</title>
-      <link>https://izz.ro/general/openai-lanseaza-abonamentul-chatgpt-pro-500-la-pretul-de-500-de-dolari-pe-luna/</link>
-      <guid>https://izz.ro/general/openai-lanseaza-abonamentul-chatgpt-pro-500-la-pretul-de-500-de-dolari-pe-luna/</guid>
-      <pubDate>Thu, 01 Oct 2026 05:04:31 +0000</pubDate>
-      <category>general</category>
-      <source url="https://hotnews.ro/noul-plan-al-chatgpt-costa-500-de-dolari-pe-luna-2363434">HotNews</source>
-      <description>Compania OpenAI a introdus un nou nivel de abonament pentru inteligența artificială ChatGPT, care costă 500 de dolari lunar, fiind cu 300 de dolari mai scump decât precedentul cel mai costisitor plan.</description>
     </item>
 </channel></rss>
