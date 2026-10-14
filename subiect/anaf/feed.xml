@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/anaf/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ANAF pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 07:57:08 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 14:04:04 +0000</lastBuildDate>
+    <item>
+      <title>ANAF propune noi modificări pentru rambursarea TVA în 2026</title>
+      <link>https://izz.ro/economic/anaf-propune-noi-modificari-pentru-rambursarea-tva-in-2026/</link>
+      <guid>https://izz.ro/economic/anaf-propune-noi-modificari-pentru-rambursarea-tva-in-2026/</guid>
+      <pubDate>Wed, 14 Oct 2026 13:22:33 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://hotnews.ro/rambursare-tva-2026-anaf-propune-acum-alte-modificari-2375955">HotNews</source>
+      <media:content url="https://izz.ro/economic/anaf-propune-noi-modificari-pentru-rambursarea-tva-in-2026/cover.jpg?v=acbc056e" medium="image" type="image/jpeg"/>
+      <description>Fiscul a lansat în dezbatere clarificări suplimentare privind soluționarea deconturilor negative de TVA, la scurt timp după publicarea altor reguli în Monitorul Oficial.</description>
+    </item>
     <item>
       <title>ING Bank avertizează asupra fraudelor prin mesaje false atribuite ANAF</title>
       <link>https://izz.ro/tech/ing-bank-avertizeaza-asupra-fraudelor-prin-mesaje-false-atribuite-anaf/</link>
@@ -43,7 +53,6 @@
       <pubDate>Mon, 12 Oct 2026 19:19:41 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.economica.net/exceptia-naste-monstri-top-venituri-din-drepturi-de-autor-de-la-25-de-milioane-de-lei-la-peste-5-milioane-lei-in-2025-nu-s-a-datorat-cas-pentru-majoritatea-cass-s-a-platit-plafonat-exclu_983151.html">Economica</source>
-      <media:content url="https://izz.ro/economic/anaf-a-inregistrat-venituri-nete-din-drepturi-de-autor-de-pana-la-25-de/cover.jpg?v=22f91929" medium="image" type="image/jpeg"/>
       <description>Cele mai mari 40 de câștiguri din drepturi de proprietate intelectuală anul trecut au provenit în principal din jurnalism și videochat, beneficiind de contribuții CASS plafonate.</description>
     </item>
     <item>
@@ -53,7 +62,6 @@
       <pubDate>Mon, 12 Oct 2026 16:26:00 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.zf.ro/business-hi-tech/urbio-producator-local-echipamente-dezvoltator-solutii-iluminatul-public-estimeaza-platformele-combina-corpuri-led-senzori-sisteme-control-management-bazat-pot-reduce-peste-60-costurile-energia-23258353">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/economic/urbio-estimeaza-reduceri-masive-de-energie-prin-iluminat-inteligent-cu-led/cover.jpg?v=e86b694f" medium="image" type="image/jpeg"/>
       <description>Producătorul român URBIO susține că modernizarea iluminatului public cu corpuri LED, senzori și management bazat pe inteligență artificială poate reduce consumul energetic cu peste 60%, compania raportând afaceri în creștere în 2025.</description>
     </item>
     <item>
@@ -136,23 +144,5 @@
       <category>tech</category>
       <source url="https://transilvaniaon.ro/harta-firmelor-ro-platforma-gratuita-care-arata-cine-se-afla-in-spatele-companiilor-din-romania/">Ziarul Transilvaniei</source>
       <description>Site-ul harta-firmelor.ro reunește informații oficiale preluate de la Registrul Comerțului, ANAF și alte instituții, oferind publicului posibilitatea de a verifica rapid acționarii, istoricul și litigiile firmelor dintr-un singur loc.</description>
-    </item>
-    <item>
-      <title>ANAF propune modificarea procedurii de atragere a răspunderii fiscale solidare</title>
-      <link>https://izz.ro/economic/anaf-propune-modificarea-procedurii-de-atragere-a-raspunderii-fiscale-solidare/</link>
-      <guid>https://izz.ro/economic/anaf-propune-modificarea-procedurii-de-atragere-a-raspunderii-fiscale-solidare/</guid>
-      <pubDate>Fri, 02 Oct 2026 11:00:13 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://alba24.ro/anaf-schimba-procedura-prin-care-o-persoana-poate-ajunge-sa-plateasca-datoriile-fiscale-ale-unei-firme-noile-reguli-propuse-1160660.html">Alba24</source>
-      <description>Fiscul român vrea să schimbe normele prin care anumite persoane fizice sau juridice pot fi obligate să plătească datoriile restante ale companiilor, bazându-se pe o analiză strictă a fiecărui caz în parte.</description>
-    </item>
-    <item>
-      <title>Specialiștii NOA au prezentat noul cadru legislativ privind prețurile de transfer pentru 2027</title>
-      <link>https://izz.ro/economic/specialistii-noa-au-prezentat-noul-cadru-legislativ-privind-preturile-de/</link>
-      <guid>https://izz.ro/economic/specialistii-noa-au-prezentat-noul-cadru-legislativ-privind-preturile-de/</guid>
-      <pubDate>Fri, 02 Oct 2026 10:25:39 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://spotmedia.ro/stiri/economie/preturile-de-transfer-in-2027-specialistii-noa-despre-noile-cerinte-de-conformare">Spotmedia</source>
-      <description>Reprezentanții NOA au organizat un seminar dedicat noilor reguli de conformare fiscală introduse prin Ordinul ANAF nr. 828/2026. La eveniment au participat numeroși profesioniști implicați în gestionarea relațiilor intragrup.</description>
     </item>
 </channel></rss>

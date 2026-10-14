@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/portugalia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Portugalia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 07:57:08 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 14:04:04 +0000</lastBuildDate>
+    <item>
+      <title>Lufthansa a câștigat cursa pentru preluarea companiei aeriene TAP</title>
+      <link>https://izz.ro/economic/lufthansa-a-castigat-cursa-pentru-preluarea-companiei-aeriene-tap/</link>
+      <guid>https://izz.ro/economic/lufthansa-a-castigat-cursa-pentru-preluarea-companiei-aeriene-tap/</guid>
+      <pubDate>Wed, 14 Oct 2026 12:38:26 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/odiseea-tap-a-ajuns-la-final-portugalia-a-ales-oferta-gigantului-german-lufthansa_985559.html">Economica</source>
+      <media:content url="https://izz.ro/economic/lufthansa-a-castigat-cursa-pentru-preluarea-companiei-aeriene-tap/cover.jpg?v=01fe146a" medium="image" type="image/jpeg"/>
+      <description>Guvernul portughez a selectat oferta îmbunătățită în numerar înaintată de gigantul german Lufthansa, devansând astfel concurența din partea grupului Air France-KLM pentru privatizarea transportatorului.</description>
+    </item>
     <item>
       <title>Cristiano Ronaldo riscă suspendare lungă după părăsirea cantonamentului Portugaliei</title>
       <link>https://izz.ro/sport/cristiano-ronaldo-risca-suspendare-lunga-dupa-parasirea-cantonamentului/</link>
@@ -23,7 +33,6 @@
       <pubDate>Mon, 12 Oct 2026 17:51:42 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.g4media.ro/trei-muncitori-in-constructii-gasiti-morti-pe-santierul-unui-rezervor-de-apa-din-portugalia-potrivit-presei-ar-fi-romani.html">G4Media, Observator, HotNews</source>
-      <media:content url="https://izz.ro/extern/trei-muncitori-romani-au-murit-pe-un-santier-din-portugalia/cover.jpg?v=1e778f88" medium="image" type="image/jpeg"/>
       <description>Trei muncitori în construcții, despre care presa locală susține că sunt cetățeni români, au fost găsiți fără suflare într-un rezervor de apă situat pe o proprietate privată din apropierea orașului Loulé, în sudul Portugaliei. Jandarmeria a precizat că incidentul s-a produs în timpul unor lucrări și este tratat drept un accident de muncă, deși originea exactă a victimelor nu a primit o confirmare oficială definitivă.</description>
     </item>
     <item>
@@ -178,14 +187,5 @@
       <category>sport</category>
       <source url="https://www.sport.ro/fotbal-extern/pace-fortata-la-nationala-portugaliei-planul-federatiei-dupa-conflictul-dintre-cristiano-ronaldo-si-selectionerul-jorge-jesus.html">Sport.ro</source>
       <description>Conducerea fotbalului portughez intervine pentru a aplana conflictul apărut în presă între jucătorul Cristiano Ronaldo și selecționerul Jorge Jesus, căutând o soluție amiabilă pentru stabilitatea lotului.</description>
-    </item>
-    <item>
-      <title>Rugbiștii români vor juca în noua competiție Alianța Celor Patru Națiuni</title>
-      <link>https://izz.ro/sport/rugbistii-romani-vor-juca-in-noua-competitie-alianta-celor-patru-natiuni/</link>
-      <guid>https://izz.ro/sport/rugbistii-romani-vor-juca-in-noua-competitie-alianta-celor-patru-natiuni/</guid>
-      <pubDate>Fri, 02 Oct 2026 12:31:48 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.g4media.ro/echipa-de-rugby-a-romaniei-va-participa-la-o-noua-competitie-alianta-celor-patru-natiuni.html">G4Media</source>
-      <description>Echipa națională de rugby a României va evolua în Alianța Celor Patru Națiuni, o colaborare strategică alături de formațiile din Georgia, Portugalia și Spania, adresată statelor din afara Turneului celor Șase Națiuni.</description>
     </item>
 </channel></rss>

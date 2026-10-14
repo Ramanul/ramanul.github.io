@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 07:57:08 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 14:04:04 +0000</lastBuildDate>
+    <item>
+      <title>Noul procesor NVIDIA RTX Spark aduce gaming AAA și DLSS 5 pe laptopuri</title>
+      <link>https://izz.ro/tech/noul-procesor-nvidia-rtx-spark-aduce-gaming-aaa-si-dlss-5-pe-laptopuri/</link>
+      <guid>https://izz.ro/tech/noul-procesor-nvidia-rtx-spark-aduce-gaming-aaa-si-dlss-5-pe-laptopuri/</guid>
+      <pubDate>Wed, 14 Oct 2026 09:14:04 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/14/nvidia-rtx-spark-este-pregatit-pentru-gaming-aaa-cu-dlss-5-si-suport-pentru-sisteme-anti-cheat/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/noul-procesor-nvidia-rtx-spark-aduce-gaming-aaa-si-dlss-5-pe-laptopuri/cover.jpg?v=ca93dbf0" medium="image" type="image/jpeg"/>
+      <description>Dispozitivele echipate cu cipul NVIDIA RTX Spark se lansează în curând, oferind performanțe pentru jocuri la rezoluție 1440p, grafică fotorealistă prin DLSS 5 și compatibilitate cu sisteme anti-cheat.</description>
+    </item>
     <item>
       <title>NVIDIA lansează tehnologia DLSS 5 cu randare neurală accelerată</title>
       <link>https://izz.ro/ai/nvidia-lanseaza-tehnologia-dlss-5-cu-randare-neurala-accelerata/</link>
@@ -33,7 +43,6 @@
       <pubDate>Tue, 13 Oct 2026 07:18:57 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/13/msi-afterburner-introduce-setari-noi-de-overclock-pe-placile-geforce-rtx-dar-le-scoate-din-garantie/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/msi-afterburner-ofera-optiuni-noi-de-overclocking-pentru-geforce-rtx/cover.jpg?v=113f01da" medium="image" type="image/jpeg"/>
       <description>Noua versiune beta a aplicației MSI Afterburner aduce publicului setări avansate de overclock pentru plăcile video NVIDIA GeForce RTX. Utilizatorii trebuie să știe însă că aceste modificări anulează garanția produsului.</description>
     </item>
     <item>
@@ -107,14 +116,5 @@
       <category>tech</category>
       <source url="https://zonait.ro/nvidia-lanseaza-un-nou-dgx-spark-acum-cu-64gb/">ZonaIT</source>
       <description>NVIDIA a introdus o nouă configurație pentru echipamentul DGX Spark, oferind dezvoltatorilor și cercetătorilor din domeniul inteligenței artificiale 64 GB de memorie unificată și capabilități avansate de scalare locală.</description>
-    </item>
-    <item>
-      <title>Un utilizator a deblocat funcții din seria RTX 50 pe o placă video RTX 4070 Ti</title>
-      <link>https://izz.ro/tech/un-utilizator-a-deblocat-functii-din-seria-rtx-50-pe-o-placa-video-rtx-4070-ti/</link>
-      <guid>https://izz.ro/tech/un-utilizator-a-deblocat-functii-din-seria-rtx-50-pe-o-placa-video-rtx-4070-ti/</guid>
-      <pubDate>Fri, 02 Oct 2026 11:00:17 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/i-unlocked-rtx-50-series-features-on-my-4070-ti-nvidia-gpu-generations-dont-make-sense-anymore/">XDA Developers</source>
-      <description>Un pasionat de hardware a reușit să activeze tehnologii exclusive noilor generații grafice pe un model mai vechi de la Nvidia, punând sub semnul întrebării diferențele rigide dintre serii.</description>
     </item>
 </channel></rss>
