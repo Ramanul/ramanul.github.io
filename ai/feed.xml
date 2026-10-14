@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 18:58:23 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 22:36:30 +0000</lastBuildDate>
+    <item>
+      <title>Opt state din SUA dau în judecată compania OpenAI</title>
+      <link>https://izz.ro/ai/opt-state-din-sua-dau-in-judecata-compania-openai/</link>
+      <guid>https://izz.ro/ai/opt-state-din-sua-dau-in-judecata-compania-openai/</guid>
+      <pubDate>Wed, 14 Oct 2026 20:07:46 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.g4media.ro/opt-state-americane-anunta-ca-dau-in-judecata-openai-dupa-ce-chatgpt-ar-fi-incitat-copiii-sa-se-raneasca-singuri.html">G4Media</source>
+      <media:content url="https://izz.ro/ai/opt-state-din-sua-dau-in-judecata-compania-openai/cover.jpg?v=ad83300e" medium="image" type="image/jpeg"/>
+      <description>Mai multe state americane, printre care Iowa și Kansas, acționează OpenAI în justiție deoarece chatbotul ChatGPT ar fi încurajat copiii să își provoace răni fizice.</description>
+    </item>
     <item>
       <title>Cercetători în inteligență artificială fumează optimiști că tehnologia va vindeca cancerul</title>
       <link>https://izz.ro/ai/cercetatori-in-inteligenta-artificiala-fumeaza-optimisti-ca-tehnologia-va/</link>
@@ -103,7 +113,7 @@
       <pubDate>Tue, 13 Oct 2026 21:00:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://spotmedia.ro/stiri/it/nasul-ai-construim-fiinte-extraterestre-sunt-egoist-si-aleg-oamenii">Spotmedia</source>
-      <media:content url="https://izz.ro/ai/geoffrey-hinton-avertizeaza-ca-inteligenta-artificiala-poate-deveni-scapata-de/cover.jpg?v=4a8810fc" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/geoffrey-hinton-avertizeaza-ca-inteligenta-artificiala-poate-deveni-scapata-de/cover.jpg?v=711a9d25" medium="image" type="image/jpeg"/>
       <description>Pionierul AI susține că omenirea are la dispoziție doar câțiva ani pentru a gestiona apariția unor sisteme mai inteligente decât oamenii, criticând marile companii pentru lipsa reglementărilor.</description>
     </item>
     <item>
@@ -123,7 +133,6 @@
       <pubDate>Tue, 13 Oct 2026 13:15:11 +0000</pubDate>
       <category>ai</category>
       <source url="https://zonait.ro/nvidia-dubleaza-performantele-dlss-5/">ZonaIT</source>
-      <media:content url="https://izz.ro/ai/nvidia-imbunatateste-performantele-dlss-5-printr-un-update-de-driver/cover.jpg?v=64da3504" medium="image" type="image/jpeg"/>
       <description>Compania aduce actualizări pentru tehnologia de augmentare a calității imaginii prin procesare neurală, utilizată în titlurile majore de PC.</description>
     </item>
     <item>
@@ -133,7 +142,6 @@
       <pubDate>Tue, 13 Oct 2026 12:02:37 +0000</pubDate>
       <category>ai</category>
       <source url="https://zonait.ro/anthropic-ai-malware/">ZonaIT</source>
-      <media:content url="https://izz.ro/ai/anthropic-avertizeaza-asupra-riscului-aparitiei-virusilor-informatici-bazati-pe/cover.jpg?v=ea1ea7e2" medium="image" type="image/jpeg"/>
       <description>Un studiu publicat de compania Anthropic arată că inteligența artificială ar putea genera în câteva luni modele capabile să se multiplice autonom în mediul virtual, infectând dispozitive conectate la internet.</description>
     </item>
     <item>
@@ -459,14 +467,5 @@
       <category>ai</category>
       <source url="https://start-up.ro/aiultra-asistent-ai-pentru-primarii-notari-si-profesionisti-din-domeniul-juridic-in-final-documentele-sunt-asumate-si-semnate-de-un-om/">Start-up.ro</source>
       <description>A fost lansată aiUltra, o asistentă bazată pe inteligență artificială destinată primăriilor, notarilor și juriștilor pentru redactarea și verificarea documentelor oficiale.</description>
-    </item>
-    <item>
-      <title>Studiu MKOR: 22% dintre angajații români apelează mai întâi la AI</title>
-      <link>https://izz.ro/ai/studiu-mkor-22-dintre-angajatii-romani-apeleaza-mai-intai-la-ai/</link>
-      <guid>https://izz.ro/ai/studiu-mkor-22-dintre-angajatii-romani-apeleaza-mai-intai-la-ai/</guid>
-      <pubDate>Wed, 07 Oct 2026 08:35:57 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://economedia.ro/studiu-mkor-22-dintre-angajatii-romani-cer-mai-intai-ajutor-de-la-ai-nu-de-la-colegi-posturile-pentru-juniori-sunt-cele-mai-vulnerabile.html">Economedia</source>
-      <description>Conform unui studiu recent privind adoptarea inteligenței artificiale în România, unu din cinci salariați preferă să consulte un instrument AI înaintea unui coleg atunci când întâmpină dificultăți la serviciu.</description>
     </item>
 </channel></rss>
