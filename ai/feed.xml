@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 13 Oct 2026 23:03:24 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 02:15:00 +0000</lastBuildDate>
     <item>
       <title>Un angajat OpenAI a fost arestat după ce a amplasat un dispozitiv de ascultare</title>
       <link>https://izz.ro/ai/un-angajat-openai-a-fost-arestat-dupa-ce-a-amplasat-un-dispozitiv-de-ascultare/</link>
@@ -15,6 +15,16 @@
       <source url="https://www.politico.com/news/2026/10/13/openai-employee-arrested-and-charged-over-hidden-recording-01117275?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <media:content url="https://izz.ro/ai/un-angajat-openai-a-fost-arestat-dupa-ce-a-amplasat-un-dispozitiv-de-ascultare/cover.jpg?v=eb070ab1" medium="image" type="image/jpeg"/>
       <description>Autoritățile federale americane au reținut un cetățean saudit angajat la OpenAI, acuzat că a ascuns un aparat de înregistrare spion în sala de conferințe executive din sediul companiei din San Francisco.</description>
+    </item>
+    <item>
+      <title>Geoffrey Hinton avertizează că inteligența artificială poate deveni scăpată de sub control</title>
+      <link>https://izz.ro/ai/geoffrey-hinton-avertizeaza-ca-inteligenta-artificiala-poate-deveni-scapata-de/</link>
+      <guid>https://izz.ro/ai/geoffrey-hinton-avertizeaza-ca-inteligenta-artificiala-poate-deveni-scapata-de/</guid>
+      <pubDate>Tue, 13 Oct 2026 21:00:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/it/nasul-ai-construim-fiinte-extraterestre-sunt-egoist-si-aleg-oamenii">Spotmedia</source>
+      <media:content url="https://izz.ro/ai/geoffrey-hinton-avertizeaza-ca-inteligenta-artificiala-poate-deveni-scapata-de/cover.jpg?v=4a8810fc" medium="image" type="image/jpeg"/>
+      <description>Pionierul AI susține că omenirea are la dispoziție doar câțiva ani pentru a gestiona apariția unor sisteme mai inteligente decât oamenii, criticând marile companii pentru lipsa reglementărilor.</description>
     </item>
     <item>
       <title>Nvidia îmbunătățește performanțele DLSS 5 printr-un update de driver</title>
@@ -162,15 +172,6 @@
       <category>ai</category>
       <source url="https://adevarul.ro/economie/centrele-de-date-consuma-tot-mai-mult-cupru-doua-2562915.html">Adevărul</source>
       <description>Dezvoltarea accelerată a tehnologiilor AI amplifică cererea de cupru pentru infrastructură, forțând industria să caute alternative din cauza deficitului estimat de aprovizionare.</description>
-    </item>
-    <item>
-      <title>Inteligența artificială poate deveni periculoasă pentru omenire până în 2100</title>
-      <link>https://izz.ro/ai/inteligenta-artificiala-poate-deveni-periculoasa-pentru-omenire-pana-in-2100/</link>
-      <guid>https://izz.ro/ai/inteligenta-artificiala-poate-deveni-periculoasa-pentru-omenire-pana-in-2100/</guid>
-      <pubDate>Sun, 11 Oct 2026 17:39:37 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://stirileprotv.ro/stiri/international/cum-ar-putea-inteligenta-artificiala-sa-puna-in-pericol-omenirea-avertismentul-expertilor-pana-in-anul-2100.html">Știrile ProTV</source>
-      <description>Un raport al Comisiei Lancet avertizează că utilizarea malefică a inteligenței artificiale reprezintă o amenințare majoră la adresa umanității până la sfârșitul secolului, alături de riscuri sanitare și de mediu.</description>
     </item>
     <item>
       <title>Compania Anthropic va interzice utilizatorii care abuzează verbal chatbotul Claude</title>

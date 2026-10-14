@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/anthropic/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Anthropic pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 13 Oct 2026 23:03:16 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 02:14:55 +0000</lastBuildDate>
     <item>
       <title>Anthropic a preluat startup-ul Opaque Systems, cofondat de Raluca Ada Popa</title>
       <link>https://izz.ro/tech/anthropic-a-preluat-startup-ul-opaque-systems-cofondat-de-raluca-ada-popa/</link>
@@ -13,7 +13,7 @@
       <pubDate>Tue, 13 Oct 2026 19:43:20 +0000</pubDate>
       <category>tech</category>
       <source url="https://start-up.ro/anthropic-cumpara-opaque-systems-startup-cofondat-de-romanii-raluca-ada-popa-si-ion-stoica/">Start-up.ro</source>
-      <media:content url="https://izz.ro/tech/anthropic-a-preluat-startup-ul-opaque-systems-cofondat-de-raluca-ada-popa/cover.jpg?v=26c4b043" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/anthropic-a-preluat-startup-ul-opaque-systems-cofondat-de-raluca-ada-popa/cover.jpg?v=7a7b4c4b" medium="image" type="image/jpeg"/>
       <description>Compania americană Anthropic a cumpărat Opaque Systems, un business specializat în securitatea inteligenței artificiale, fondat parțial de cercetătoarea română Raluca Ada Popa.</description>
     </item>
     <item>
@@ -117,14 +117,5 @@
       <category>ai</category>
       <source url="https://thenewstack.io/anthropic-claude-code-mods-plugins/">The New Stack</source>
       <description>Dezvoltatorii pot modifica acum interfața și comportamentul instrumentului Claude Code prin intermediul unor noi opțiuni avansate de personalizare introduse de compania Anthropic, oferind un control mult mai detaliat asupra funcțiilor.</description>
-    </item>
-    <item>
-      <title>Avertismentele privind riscurile inteligenței artificiale generează oportunități financiare</title>
-      <link>https://izz.ro/tech/avertismentele-privind-riscurile-inteligentei-artificiale-genereaza/</link>
-      <guid>https://izz.ro/tech/avertismentele-privind-riscurile-inteligentei-artificiale-genereaza/</guid>
-      <pubDate>Fri, 02 Oct 2026 02:00:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.politico.eu/article/its-the-end-of-the-world-as-we-know-it-and-i-feel-an-investment-opportunity-coming-on/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Demisiile cercetătorilor de la Anthropic și avertismentele legate de un posibil scenariu catastrofal provocat de inteligența artificială până la sfârșitul deceniului sunt tratate satiric ca o oportunitate de investiții.</description>
     </item>
 </channel></rss>
