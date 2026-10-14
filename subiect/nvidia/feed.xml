@@ -5,7 +5,37 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 13 Oct 2026 01:41:34 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 07:57:08 +0000</lastBuildDate>
+    <item>
+      <title>NVIDIA lansează tehnologia DLSS 5 cu randare neurală accelerată</title>
+      <link>https://izz.ro/ai/nvidia-lanseaza-tehnologia-dlss-5-cu-randare-neurala-accelerata/</link>
+      <guid>https://izz.ro/ai/nvidia-lanseaza-tehnologia-dlss-5-cu-randare-neurala-accelerata/</guid>
+      <pubDate>Wed, 14 Oct 2026 05:17:04 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/10/14/nvidia-dlss-5-hogwarts-legacy/">Connect.ro</source>
+      <media:content url="https://izz.ro/ai/nvidia-lanseaza-tehnologia-dlss-5-cu-randare-neurala-accelerata/cover.jpg?v=97b8b095" medium="image" type="image/jpeg"/>
+      <description>Compania NVIDIA a introdus o versiune actualizată a tehnologiei DLSS 5 bazată pe inteligență artificială, care oferă o viteză dublă și un consum redus de resurse grafice.</description>
+    </item>
+    <item>
+      <title>Nvidia îmbunătățește performanțele DLSS 5 printr-un update de driver</title>
+      <link>https://izz.ro/ai/nvidia-imbunatateste-performantele-dlss-5-printr-un-update-de-driver/</link>
+      <guid>https://izz.ro/ai/nvidia-imbunatateste-performantele-dlss-5-printr-un-update-de-driver/</guid>
+      <pubDate>Tue, 13 Oct 2026 13:15:11 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/nvidia-dubleaza-performantele-dlss-5/">ZonaIT</source>
+      <media:content url="https://izz.ro/ai/nvidia-imbunatateste-performantele-dlss-5-printr-un-update-de-driver/cover.jpg?v=64da3504" medium="image" type="image/jpeg"/>
+      <description>Compania aduce actualizări pentru tehnologia de augmentare a calității imaginii prin procesare neurală, utilizată în titlurile majore de PC.</description>
+    </item>
+    <item>
+      <title>MSI Afterburner oferă opțiuni noi de overclocking pentru GeForce RTX</title>
+      <link>https://izz.ro/tech/msi-afterburner-ofera-optiuni-noi-de-overclocking-pentru-geforce-rtx/</link>
+      <guid>https://izz.ro/tech/msi-afterburner-ofera-optiuni-noi-de-overclocking-pentru-geforce-rtx/</guid>
+      <pubDate>Tue, 13 Oct 2026 07:18:57 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/13/msi-afterburner-introduce-setari-noi-de-overclock-pe-placile-geforce-rtx-dar-le-scoate-din-garantie/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/msi-afterburner-ofera-optiuni-noi-de-overclocking-pentru-geforce-rtx/cover.jpg?v=113f01da" medium="image" type="image/jpeg"/>
+      <description>Noua versiune beta a aplicației MSI Afterburner aduce publicului setări avansate de overclock pentru plăcile video NVIDIA GeForce RTX. Utilizatorii trebuie să știe însă că aceste modificări anulează garanția produsului.</description>
+    </item>
     <item>
       <title>NVIDIA intenționează să oprească producția plăcii video RTX 5090</title>
       <link>https://izz.ro/tech/nvidia-intentioneaza-sa-opreasca-productia-placii-video-rtx-5090/</link>
@@ -13,7 +43,6 @@
       <pubDate>Mon, 12 Oct 2026 13:20:12 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/rtx-5090-nvidia-rtx-5080/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/nvidia-intentioneaza-sa-opreasca-productia-placii-video-rtx-5090/cover.jpg?v=c6e15fa1" medium="image" type="image/jpeg"/>
       <description>Surse din industrie anunță că NVIDIA ar putea sista fabricarea seriei de plăci video RTX 5090 pentru a redirecționa liniile de producție exclusiv către gama profesională RTX PRO, lăsând cumpărătorii fără un înlocuitor direct pe piață.</description>
     </item>
     <item>
@@ -23,7 +52,6 @@
       <pubDate>Mon, 12 Oct 2026 12:19:19 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/12/un-modder-aduce-dlss-3-7-pe-placile-video-amd-radeon/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/un-programator-a-lansat-helixsr-pentru-a-rula-dlss-3-7-pe-placi-amd-radeon/cover.jpg?v=40c7b5de" medium="image" type="image/jpeg"/>
       <description>Dezvoltatorul aplicației HelixSR a extins funcționalitatea programului, permițând utilizatorilor de plăci video AMD Radeon să beneficieze de tehnologia DLSS 3.7, depășind limitările implementării native FSR oferite de AMD.</description>
     </item>
     <item>
@@ -88,32 +116,5 @@
       <category>tech</category>
       <source url="https://www.xda-developers.com/i-unlocked-rtx-50-series-features-on-my-4070-ti-nvidia-gpu-generations-dont-make-sense-anymore/">XDA Developers</source>
       <description>Un pasionat de hardware a reușit să activeze tehnologii exclusive noilor generații grafice pe un model mai vechi de la Nvidia, punând sub semnul întrebării diferențele rigide dintre serii.</description>
-    </item>
-    <item>
-      <title>Plăcile video vechi de șase ani fac față jocurilor moderne</title>
-      <link>https://izz.ro/tech/placile-video-vechi-de-sase-ani-fac-fata-jocurilor-moderne/</link>
-      <guid>https://izz.ro/tech/placile-video-vechi-de-sase-ani-fac-fata-jocurilor-moderne/</guid>
-      <pubDate>Thu, 01 Oct 2026 20:30:18 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/old-gpu-still-handles-modern-games-better-than-marketing-says/">XDA Developers</source>
-      <description>În pofida campaniilor de marketing care promovează noile generații hardware de la Nvidia și AMD ca fiind indispensabile, plăcile grafice mai vechi reușesc în continuare să ruleze satisfăcător titlurile recente.</description>
-    </item>
-    <item>
-      <title>Aplicația Borderless Gaming aduce funcții NVIDIA pe plăci incompatibile</title>
-      <link>https://izz.ro/tech/aplicatia-borderless-gaming-aduce-functii-nvidia-pe-placi-incompatibile/</link>
-      <guid>https://izz.ro/tech/aplicatia-borderless-gaming-aduce-functii-nvidia-pe-placi-incompatibile/</guid>
-      <pubDate>Thu, 01 Oct 2026 09:13:25 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/01/nvidia-dlss-5-in-toate-jocurile-aplicatia-asta-te-lasa-sa-l-rulezi-si-pe-placi-video-incompatibile/">Connect.ro</source>
-      <description>Software-ul dezvoltat recent permite utilizatorilor cu hardware suficient de puternic să ruleze tehnologii avansate precum Frame Generation și Neural Rendering pe plăci video care nu le suportă nativ.</description>
-    </item>
-    <item>
-      <title>NVIDIA a lansat Kumo Tabular, modele fundamentale pentru date tabulare</title>
-      <link>https://izz.ro/tech/nvidia-a-lansat-kumo-tabular-modele-fundamentale-pentru-date-tabulare/</link>
-      <guid>https://izz.ro/tech/nvidia-a-lansat-kumo-tabular-modele-fundamentale-pentru-date-tabulare/</guid>
-      <pubDate>Thu, 01 Oct 2026 06:57:50 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.marktechpost.com/2026/09/30/nvidia-releases-kumo-tabular/">MarkTechPost</source>
-      <description>Compania NVIDIA a introdus familia de modele Kumo Tabular, capabile să prezică rânduri noi pentru clasificare și regresie dintr-o singură trecere, eliminând necesitatea antrenării sau a reglajului hiperparametric.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 02:14:55 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 07:57:08 +0000</lastBuildDate>
+    <item>
+      <title>George Simion critică noua alianță politică dintre PSD și PNL</title>
+      <link>https://izz.ro/politic/george-simion-critica-noua-alianta-politica-dintre-psd-si-pnl/</link>
+      <guid>https://izz.ro/politic/george-simion-critica-noua-alianta-politica-dintre-psd-si-pnl/</guid>
+      <pubDate>Wed, 14 Oct 2026 07:13:07 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/politica/george-simion-psd-se-impaca-cu-ilie-bolojan-2563876.html">Adevărul</source>
+      <media:content url="https://izz.ro/politic/george-simion-critica-noua-alianta-politica-dintre-psd-si-pnl/cover.jpg?v=dd02263d" medium="image" type="image/jpeg"/>
+      <description>Liderul formațiunii AUR a anunțat că parlamentarii partidului nu vor acorda votul de învestitură cabinetului condus de Luca Niculescu, acuzând partidele tradiționale de negocieri netransparente.</description>
+    </item>
     <item>
       <title>Senatul a adoptat o declarație AUR referitoare la politica externă a Uniunii Europene</title>
       <link>https://izz.ro/politic/senatul-a-adoptat-o-declaratie-aur-referitoare-la-politica-externa-a-uniunii/</link>
@@ -23,7 +33,7 @@
       <pubDate>Mon, 12 Oct 2026 19:01:25 +0000</pubDate>
       <category>politic</category>
       <source url="https://adevarul.ro/politica/criza-din-romania-nu-e-de-ieri-de-azi-un-2563541.html">Adevărul</source>
-      <media:content url="https://izz.ro/politic/erodat-de-guvernarea-comuna-psd-a-lasat-spatiu-ascensiunii-aur-explica-un/cover.jpg?v=2d1df6f0" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/politic/erodat-de-guvernarea-comuna-psd-a-lasat-spatiu-ascensiunii-aur-explica-un/cover.jpg?v=fb5da39a" medium="image" type="image/jpeg"/>
       <description>Actuala criză politică din România provine din estomparea diferențelor ideologice dintre PSD și PNL în timpul coaliției de guvernare, ceea ce a facilitat creșterea partidului AUR, menționează specialistul Vlad Bujdei.</description>
     </item>
     <item>
@@ -449,14 +459,5 @@
       <category>politic</category>
       <source url="https://stirileprotv.ro/stiri/politic/aur-il-acuza-pe-nicusor-dan-de-dictatura-personala-si-il-compara-cu-regele-carol-al-ii-lea-este-o-crima-monstruoasa.html">Știrile ProTV</source>
       <description>Liderul senatorilor AUR, Petrișor Peiu, a lansat acuzații grave la adresa șefului statului Nicușor Dan, comparându-i stilul de conducere cu cel al regelui Carol al II-lea și pretinzând că acesta ar încălca Constituția.</description>
-    </item>
-    <item>
-      <title>AUR va oferi asistență juridică cetățenilor sancționați la proteste recente</title>
-      <link>https://izz.ro/politic/aur-va-oferi-asistenta-juridica-cetatenilor-sanctionati-la-proteste-recente/</link>
-      <guid>https://izz.ro/politic/aur-va-oferi-asistenta-juridica-cetatenilor-sanctionati-la-proteste-recente/</guid>
-      <pubDate>Fri, 02 Oct 2026 17:57:09 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://gazetadecluj.ro/aur-ii-va-asista-juridic-pe-cei-abuzati-de-statul-roman-dupa-protestele-ciobanilor-si-cele-pro-georgescu/">Gazeta de Cluj</source>
-      <description>Alianța pentru Unirea Românilor a anunțat că va asigura sprijin legal pentru persoanele amendate sau anchetate de autorități în urma manifestațiilor publice organizate de crescătorii de animale și susținătorii lui Călin Georgescu.</description>
     </item>
 </channel></rss>

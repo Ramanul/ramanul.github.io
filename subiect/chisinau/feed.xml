@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/chisinau/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Chișinău pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 02:14:55 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 07:57:08 +0000</lastBuildDate>
+    <item>
+      <title>Istoricul Sergiu Musteață analizează transformarea Chișinăului în capitală</title>
+      <link>https://izz.ro/cultura/istoricul-sergiu-musteata-analizeaza-transformarea-chisinaului-in-capitala/</link>
+      <guid>https://izz.ro/cultura/istoricul-sergiu-musteata-analizeaza-transformarea-chisinaului-in-capitala/</guid>
+      <pubDate>Wed, 14 Oct 2026 05:30:00 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://www.europalibera.md/a/pe-agenda-cu-sergiu-musteata-chisinaul-de-la-targ-moldovenesc-si-provincie-tarista-la-capitala-europeana/33875842.html">Europa Liberă</source>
+      <media:content url="https://izz.ro/cultura/istoricul-sergiu-musteata-analizeaza-transformarea-chisinaului-in-capitala/cover.jpg?v=afd9ab88" medium="image" type="image/jpeg"/>
+      <description>În cadrul unui podcast dedicat Hramului orașului, istoricul Sergiu Musteață a descris evoluția Chișinăului de la un simplu târg la o capitală europeană modernă și multiculturală.</description>
+    </item>
     <item>
       <title>Filiala Maramureș a bibliotecii din Chișinău aniversează 25 de ani de existență</title>
       <link>https://izz.ro/judetean/filiala-maramures-a-bibliotecii-din-chisinau-aniverseaza-25-de-ani-de-existenta/</link>
@@ -123,14 +133,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/alerta-falsa-cu-bomba-vineri-la-aeroportul-din-chisinau-pasagerii-au-fost-evacuati-iar-programul-zborurilor-a-fost-afectat-805632.html">Antena 3 CNN</source>
       <description>Aeroportul Internațional din Chișinău a fost evacuat vineri după-amiază în urma unei alerte cu bombă, măsură care a generat blocaje și a dat peste cap programul curselor aeriene planificate pentru acea zi.</description>
-    </item>
-    <item>
-      <title>Bursa Internațională a Moldovei a devenit operațională cu sprijinul BVB</title>
-      <link>https://izz.ro/economic/bursa-internationala-a-moldovei-a-devenit-operationala-cu-sprijinul-bvb/</link>
-      <guid>https://izz.ro/economic/bursa-internationala-a-moldovei-a-devenit-operationala-cu-sprijinul-bvb/</guid>
-      <pubDate>Fri, 02 Oct 2026 05:10:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-reportaj-chisinau-devenit-centru-capitalismului-cateva-zile-bursa-internationala-moldovei-prinde-contur-dupa-an-pregatiri-bvb-vede-loc-listari-duale-extinderea-pietei-capital-peste-prut-timp-23251199">Ziarul Financiar</source>
-      <description>Chişinăul a găzduit discuții economice pentru lansarea Bursei Internaționale a Moldovei, proiect susținut de Bursa de Valori Bucureşti. Noua piață autorizată își caută primele companii listate și investitori pentru asigurarea lichidității financiare.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 02:14:55 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 07:57:09 +0000</lastBuildDate>
     <item>
       <title>Cizecinci de directori școlari din Cluj au picat evaluarea managerială</title>
       <link>https://izz.ro/judetean/cizecinci-de-directori-scolari-din-cluj-au-picat-evaluarea-manageriala/</link>
@@ -53,7 +53,6 @@
       <pubDate>Mon, 12 Oct 2026 09:05:00 +0000</pubDate>
       <category>sanatate</category>
       <source url="https://zcj.ro/sanatate/serviciul-clujean-alopedi-tot-mai-utilizat-8400-de-parinti-au-apelat-in-primele-noua-luni-din-2026--302730.html">Ziua de Cluj</source>
-      <media:content url="https://izz.ro/sanatate/aproape-8-400-de-parinti-au-folosit-serviciul-medical-alopedi-in-primele-noua/cover.jpg?v=57cc9275" medium="image" type="image/jpeg"/>
       <description>Părinții clujeni au apelat frecvent la serviciul pediatric telefonic ALOPEDI, majoritatea solicitărilor soldându-se cu sfaturi medicale utile pentru tratarea sigură a minorilor direct la domiciliu.</description>
     </item>
     <item>
@@ -82,6 +81,15 @@
       <category>local</category>
       <source url="https://primaria-medgidia.ro/2026/10/12/anunt-de-interes-public-intrerupere-alimentare-cu-energie-electrica/">Primăria Medgidia, Ziua de Cluj</source>
       <description>Operatorii de distribuție a energiei electrice au anunțat întreruperi programate în alimentarea cu electricitate. În municipiul Medgidia, oprirea este programată pentru luni, 12 octombrie 2026, în intervalul 08:00-16:00, afectând anumite zone precum cartierul IMUM și platoul Intim, în timp ce în județul Cluj au fost anunțate lucrări similare de către distribuitorul regional.</description>
+    </item>
+    <item>
+      <title>Meteorologii au emis o avertizare cod galben de ploi și vijelii valabilă în mai multe localități din Cluj</title>
+      <link>https://izz.ro/judetean/meteorologii-au-emis-o-avertizare-cod-galben-de-ploi-si-vijelii-valabila-in-mai/</link>
+      <guid>https://izz.ro/judetean/meteorologii-au-emis-o-avertizare-cod-galben-de-ploi-si-vijelii-valabila-in-mai/</guid>
+      <pubDate>Sun, 11 Oct 2026 15:26:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/utile/avertizare-nowcasting-cod-galben-la-cluj-ploi-grindina-descarcari-electrice-si-intensificari-ale-vantului--302698.html">Ziua de Cluj</source>
+      <description>Administrația Națională de Meteorologie a emis o avertizare nowcasting de tip cod galben, semnalând precipitații însemnate cantitativ, descărcări electrice frecvente, grindină și intensificări puternice ale vântului în județul Cluj.</description>
     </item>
     <item>
       <title>Un restaurant fast-food din Cluj avertizează asupra unei înșelăciuni cu bancnote</title>
@@ -451,14 +459,5 @@
       <category>local</category>
       <source url="https://zcj.ro/eveniment/urs-lovit-mortal-de-o-masina-pe-un-drum-din-judetul-cluj--302376.html">Ziua de Cluj</source>
       <description>Un accident rutier grav s-a petrecut în noaptea de sâmbătă spre duminică pe DN1-E60, în localitatea Dumbrava, unde un autoturism a lovit mortal un exemplar urs.</description>
-    </item>
-    <item>
-      <title>Un tânăr urmărit internațional pentru un jaf de 40.000 euro a fost prins la Jucu</title>
-      <link>https://izz.ro/local/un-tanar-urmarit-international-pentru-un-jaf-de-40-000-euro-a-fost-prins-la-jucu/</link>
-      <guid>https://izz.ro/local/un-tanar-urmarit-international-pentru-un-jaf-de-40-000-euro-a-fost-prins-la-jucu/</guid>
-      <pubDate>Sun, 04 Oct 2026 05:46:17 +0000</pubDate>
-      <category>local</category>
-      <source url="https://gazetadecluj.ro/urmarit-pentru-un-jaf-de-40-000-de-euro-un-tanar-din-botosani-a-fost-prins-in-trafic-la-jucu-de-politistii-clujeni/">Gazeta de Cluj</source>
-      <description>Polițiștii clujeni au oprit în trafic un autovehicul condus de un bărbat de 20 de ani din Botoșani. În urma verificărilor pe DN1C, s-a constatat că acesta figura cu mandat de urmărire pentru furt calificat.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/tulcea/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Tulcea pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 02:14:55 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 07:57:08 +0000</lastBuildDate>
+    <item>
+      <title>Orașul Babadag a transmis mesaje de sărbătoare și a prezentat noi proiecte de infrastructură</title>
+      <link>https://izz.ro/local/orasul-babadag-a-transmis-mesaje-de-sarbatoare-si-a-prezentat-noi-proiecte-de/</link>
+      <guid>https://izz.ro/local/orasul-babadag-a-transmis-mesaje-de-sarbatoare-si-a-prezentat-noi-proiecte-de/</guid>
+      <pubDate>Wed, 14 Oct 2026 07:40:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.dobrogeanews.ro/mesaj-de-sfanta-parascheva-orasul-babadag/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=mesaj-de-sfanta-parascheva-orasul-babadag">DobrogeaNews</source>
+      <media:content url="https://izz.ro/local/orasul-babadag-a-transmis-mesaje-de-sarbatoare-si-a-prezentat-noi-proiecte-de/cover.jpg?v=91b5c19e" medium="image" type="image/jpeg"/>
+      <description>Administrația locală a marcat sărbătoarea Sfintei Parascheva printr-un mesaj public și a anunțat stadiul lucrărilor de asfaltare și construcție a unei noi creșe.</description>
+    </item>
+    <item>
+      <title>Mesaj de felicitare pentru locuitorii din Sarichioi de Sfânta Parascheva</title>
+      <link>https://izz.ro/local/mesaj-de-felicitare-pentru-locuitorii-din-sarichioi-de-sfanta-parascheva/</link>
+      <guid>https://izz.ro/local/mesaj-de-felicitare-pentru-locuitorii-din-sarichioi-de-sfanta-parascheva/</guid>
+      <pubDate>Wed, 14 Oct 2026 07:32:52 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.dobrogeanews.ro/mesaj-de-sfanta-parascheva-comuna-sarichioi/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=mesaj-de-sfanta-parascheva-comuna-sarichioi">DobrogeaNews</source>
+      <media:content url="https://izz.ro/local/mesaj-de-felicitare-pentru-locuitorii-din-sarichioi-de-sfanta-parascheva/cover.jpg?v=bc8733d7" medium="image" type="image/jpeg"/>
+      <description>Administrația locală a transmis urări de sănătate și liniște comunității din județul Tulcea cu ocazia sărbătorii religioase închinate Sfintei Cuvioase Parascheva.</description>
+    </item>
     <item>
       <title>Primăria Tulcea începe lucrările de modernizare pe strada Meduzei</title>
       <link>https://izz.ro/local/primaria-tulcea-incepe-lucrarile-de-modernizare-pe-strada-meduzei/</link>
@@ -267,23 +287,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/actualitate/imagini-exclusive-cu-drona-prabusita-in-plauru-localnicii-spun-ca-nu-au-primit-ro-alert-iar-radarele-mapn-nu-au-detectat-o-3974951">Digi24</source>
       <description>O dronă implicată în atacurile asupra Ucrainei a căzut la Plauru, provocând un incendiu și un crater. Localnicii afirmă că nu au primit mesaj RO-Alert, iar radarele MApN nu au detectat aparatul.</description>
-    </item>
-    <item>
-      <title>O dronă militară a căzut la Plauru, provocând un incendiu</title>
-      <link>https://izz.ro/judetean/o-drona-militara-a-cazut-la-plauru-provocand-un-incendiu/</link>
-      <guid>https://izz.ro/judetean/o-drona-militara-a-cazut-la-plauru-provocand-un-incendiu/</guid>
-      <pubDate>Fri, 02 Oct 2026 05:49:24 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://www.dobrogeaonline.ro/mapn-atacuri-recente-cu-drone-in-apropierea-granitei-romanesti-o-drona-a-cazut-la-plaur-judetul-tulcea/">Dobrogea Online</source>
-      <description>Ministerul Apărării Naționale a detectat atacuri rusești cu drone în Ucraina, lângă granița românească. Un aparat a căzut în noaptea de 1 spre 2 octombrie în localitatea Plauru din județul Tulcea, generând un incendiu, fără victime.</description>
-    </item>
-    <item>
-      <title>O dronă a căzut în județul Tulcea în timpul atacurilor din Ucraina</title>
-      <link>https://izz.ro/local/o-drona-a-cazut-in-judetul-tulcea-in-timpul-atacurilor-din-ucraina/</link>
-      <guid>https://izz.ro/local/o-drona-a-cazut-in-judetul-tulcea-in-timpul-atacurilor-din-ucraina/</guid>
-      <pubDate>Fri, 02 Oct 2026 05:04:58 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.economica.net/drona-cazuta-in-tulcea-echipele-mapn-fac-cercetari-la-fata-locului_982072.html">Economica</source>
-      <description>Sistemul radar al Ministerului Apărării Naţionale a detectat atacuri cu drone aproape de frontiera fluvială. Un obiect a căzut în localitatea Plauru din Tulcea, provocând un incendiu, dar fără a genera victime sau pagube materiale.</description>
     </item>
 </channel></rss>
