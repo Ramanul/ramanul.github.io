@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 14:04:12 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 18:58:23 +0000</lastBuildDate>
     <item>
       <title>Cercetători în inteligență artificială fumează optimiști că tehnologia va vindeca cancerul</title>
       <link>https://izz.ro/ai/cercetatori-in-inteligenta-artificiala-fumeaza-optimisti-ca-tehnologia-va/</link>
@@ -77,6 +77,16 @@
       <description>Noul model de inteligență artificială Google aduce capabilități avansate pentru programare și analiză, fiind disponibil abonaților platformei și dezvoltatorilor printr-un pachet major de actualizări software.</description>
     </item>
     <item>
+      <title>Honda dezvoltă un robot umanoid controlat de la distanță ca avatar</title>
+      <link>https://izz.ro/ai/honda-dezvolta-un-robot-umanoid-controlat-de-la-distanta-ca-avatar/</link>
+      <guid>https://izz.ro/ai/honda-dezvolta-un-robot-umanoid-controlat-de-la-distanta-ca-avatar/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://piataauto.md/Stiri/2026/10/VIDEO-Inginerii-Honda-au-creat-un-nou-robot-umanoid-care-devine-avatarul-unui-om-muncind-distanta-si-folosind-priceperea-omului-care-dirijeaza/">Piata Auto MD</source>
+      <media:content url="https://izz.ro/ai/honda-dezvolta-un-robot-umanoid-controlat-de-la-distanta-ca-avatar/cover.jpg?v=be6c3e09" medium="image" type="image/jpeg"/>
+      <description>Inginerii companiei Honda au creat un robot umanoid avansat care funcționează ca un avatar uman. Tehnologia permite operatorului să execute sarcini complexe de la distanță prin intermediul mișcărilor preluate de sistem.</description>
+    </item>
+    <item>
       <title>Un angajat OpenAI a fost arestat după ce a amplasat un dispozitiv de ascultare</title>
       <link>https://izz.ro/ai/un-angajat-openai-a-fost-arestat-dupa-ce-a-amplasat-un-dispozitiv-de-ascultare/</link>
       <guid>https://izz.ro/ai/un-angajat-openai-a-fost-arestat-dupa-ce-a-amplasat-un-dispozitiv-de-ascultare/</guid>
@@ -133,7 +143,6 @@
       <pubDate>Tue, 13 Oct 2026 08:57:18 +0000</pubDate>
       <category>ai</category>
       <source url="https://stirileprotv.ro/stiri/international/o-aplica-ie-bazata-pe-inteligen-a-artificiala-poate-detecta-fraudele-financiare-inainte-ca-acestea-sa-produca-pierderi.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/ai/o-aplicatie-bazata-pe-inteligenta-artificiala-previne-fraudele-financiare/cover.jpg?v=496ac612" medium="image" type="image/jpeg"/>
       <description>O companie italiană a creat un program informatic inovator bazat pe inteligență artificială capabil să identifice rapid neregulile financiare înainte ca acestea să genereze pagube majore.</description>
     </item>
     <item>
@@ -143,7 +152,6 @@
       <pubDate>Tue, 13 Oct 2026 08:46:25 +0000</pubDate>
       <category>ai</category>
       <source url="https://adevarul.ro/adevarul-juridic/psihologie-cu-chatgpt-riscurile-terapiei-cu-2563345.html">Adevărul</source>
-      <media:content url="https://izz.ro/ai/specialistii-avertizeaza-asupra-riscurilor-utilizarii-inteligentei-artificiale/cover.jpg?v=342bcdad" medium="image" type="image/jpeg"/>
       <description>Folosirea chatboturilor precum ChatGPT pentru terapie psihologică prezintă riscuri majore legate de exploatarea vulnerabilităților umane și distorsionarea comportamentală, aspecte strict reglementate.</description>
     </item>
     <item>
@@ -460,14 +468,5 @@
       <category>ai</category>
       <source url="https://economedia.ro/studiu-mkor-22-dintre-angajatii-romani-cer-mai-intai-ajutor-de-la-ai-nu-de-la-colegi-posturile-pentru-juniori-sunt-cele-mai-vulnerabile.html">Economedia</source>
       <description>Conform unui studiu recent privind adoptarea inteligenței artificiale în România, unu din cinci salariați preferă să consulte un instrument AI înaintea unui coleg atunci când întâmpină dificultăți la serviciu.</description>
-    </item>
-    <item>
-      <title>Companiile adoptă inteligența artificială fără protocoale de securitate pentru date</title>
-      <link>https://izz.ro/ai/companiile-adopta-inteligenta-artificiala-fara-protocoale-de-securitate-pentru/</link>
-      <guid>https://izz.ro/ai/companiile-adopta-inteligenta-artificiala-fara-protocoale-de-securitate-pentru/</guid>
-      <pubDate>Wed, 07 Oct 2026 07:40:55 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://start-up.ro/ai-ul-intra-in-companii-mai-repede-decat-regulile-de-securitate-o-treime-din-companii-nu-verifica-securitatea-instrumentelor-folosite/">Start-up.ro</source>
-      <description>O treime dintre firme nu auditează instrumentele de AI folosite de angajați, riscând scurgerea unor documente confidențiale, rapoarte financiare și date despre clienți în doar câteva secunde.</description>
     </item>
 </channel></rss>

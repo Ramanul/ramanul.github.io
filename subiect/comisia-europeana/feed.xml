@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/comisia-europeana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Comisia Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 14:04:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 18:58:17 +0000</lastBuildDate>
+    <item>
+      <title>Comisia Europeană confirmă conflictul de interese al premierului Cehiei</title>
+      <link>https://izz.ro/politic/comisia-europeana-confirma-conflictul-de-interese-al-premierului-cehiei/</link>
+      <guid>https://izz.ro/politic/comisia-europeana-confirma-conflictul-de-interese-al-premierului-cehiei/</guid>
+      <pubDate>Wed, 14 Oct 2026 15:06:52 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.politico.eu/article/ngo-brussels-confirms-czech-pm-andrej-babis-agri-business-conflict-of-interest/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/politic/comisia-europeana-confirma-conflictul-de-interese-al-premierului-cehiei/cover.jpg?v=bfe64e07" medium="image" type="image/jpeg"/>
+      <description>Un ONG susține că Bruxelles-ul a transmis că legăturile dintre fostul premier ceh Andrej Babiš și gigantul Agrofert reprezintă un conflict de interese, riscând pierderea fondurilor europene.</description>
+    </item>
     <item>
       <title>Comisia Europeană pregătește sisteme AI pentru combaterea atacurilor cibernetice</title>
       <link>https://izz.ro/tech/comisia-europeana-pregateste-sisteme-ai-pentru-combaterea-atacurilor-cibernetice/</link>
@@ -65,16 +75,6 @@
       <source url="https://cursdeguvernare.ro/comisia-europeana-vrea-sa-limiteze-suprareglementarea-la-nivel-national-care-afecteaza-piata-unica.html">Curs de Guvernare</source>
       <media:content url="https://izz.ro/economic/comisia-europeana-propune-limitarea-suprareglementarii-nationale/cover.jpg?v=2b5a8075" medium="image" type="image/jpeg"/>
       <description>Președinta instituției, Ursula von der Leyen, a înaintat un pact menit să oprească statele membre din practica adăugării unor cerințe legislative suplimentare care afectează negativ piața unică comunitară.</description>
-    </item>
-    <item>
-      <title>Regiunea Nord-Est a României, desemnată Regiune Europeană Antreprenorială 2027</title>
-      <link>https://izz.ro/general/regiunea-nord-est-a-romaniei-a-fost-desemnata-regiune-europeana-antreprenoriala/</link>
-      <guid>https://izz.ro/general/regiunea-nord-est-a-romaniei-a-fost-desemnata-regiune-europeana-antreprenoriala/</guid>
-      <pubDate>Wed, 14 Oct 2026 07:10:52 +0000</pubDate>
-      <category>general</category>
-      <source url="https://stirileprotv.ro/stiri/eu-romania/sase-judete-din-romania-premiate-de-comisia-europeana-cum-a-ajuns-cea-mai-saraca-regiune-a-tarii-un-model-de-inovare.html">Știrile ProTV, NewsBucovina</source>
-      <media:content url="https://izz.ro/general/regiunea-nord-est-a-romaniei-a-fost-desemnata-regiune-europeana-antreprenoriala/cover.jpg?v=b602e62a" medium="image" type="image/jpeg"/>
-      <description>Comitetul European al Regiunilor a premiat Regiunea Nord-Est cu titlul de „Regiune europeană întreprinzătoare” pentru anul 2027, devenind prima zonă din România care obține această distincție. Anunțul a fost făcut în cadrul sesiunii plenare de la Bruxelles, recunoscând strategiile inovatoare ale regiunii în sprijinul întreprinderilor mici și mijlocii, al ecosistemelor pentru start-up-uri și al dezvoltării economice.</description>
     </item>
     <item>
       <title>Comisia Europeană se confruntă cu o dilemă privind fondurile de dezvoltare</title>
@@ -440,23 +440,5 @@
       <category>tech</category>
       <source url="https://economedia.ro/comisia-europeana-a-lansat-o-alternativa-la-microsoft-teams-dar-oficialii-sunt-nemultumiti-o-mizerie-absoluta.html">Economedia</source>
       <description>Instituția europeană a introdus platforma Element Pro ca soluție suverană de rezervă, însă angajații au criticat dur noul instrument digital.</description>
-    </item>
-    <item>
-      <title>Comisia Europeană respinge presiunile SUA privind rezervele de combustibil</title>
-      <link>https://izz.ro/extern/comisia-europeana-respinge-presiunile-sua-privind-rezervele-de-combustibil/</link>
-      <guid>https://izz.ro/extern/comisia-europeana-respinge-presiunile-sua-privind-rezervele-de-combustibil/</guid>
-      <pubDate>Fri, 02 Oct 2026 15:34:59 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.economica.net/comisia-europeana-respinge-santajul-administratiei-trump-care-a-amenintat-ca-va-bloca-exporturile-de-motorina-daca-statele-ue-nu-scot-combustibili-din-rezervele-lor-strategice_982422.html">Economica</source>
-      <description>Executivul comunitar a respins amenințările administrației americane legate de blocarea exporturilor de motorină, subliniind că astfel de măsuri unilaterale afectează încrederea în parteneriatul transatlantic.</description>
-    </item>
-    <item>
-      <title>Comisia Europeană susține aderarea Muntenegrului la UE până în 2028</title>
-      <link>https://izz.ro/extern/comisia-europeana-sustine-aderarea-muntenegrului-la-ue-pana-in-2028/</link>
-      <guid>https://izz.ro/extern/comisia-europeana-sustine-aderarea-muntenegrului-la-ue-pana-in-2028/</guid>
-      <pubDate>Fri, 02 Oct 2026 14:26:41 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://cursdeguvernare.ro/muntenegru-aderare-ue-comisia-europeana-tratat-pachet-financiar-von-der-leyen-turneu-balcanii-de-vest.html">Curs de Guvernare</source>
-      <description>Președinta Comisiei Europene, Ursula von der Leyen, a reiterat sprijinul pentru integrarea Muntenegrului ca al 28-lea stat membru al Uniunii. Instituția europeană pregătește deja proiectul tratatului de aderare și un pachet financiar dedicat.</description>
     </item>
 </channel></rss>

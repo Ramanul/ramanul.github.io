@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 14:04:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 18:58:17 +0000</lastBuildDate>
     <item>
       <title>Alin Tișe acuză Guvernul PNL pentru lipsa finanțării Spitalului Pediatric Monobloc</title>
       <link>https://izz.ro/judetean/alin-tise-acuza-guvernul-pnl-pentru-lipsa-finantarii-spitalului-pediatric/</link>
@@ -43,7 +43,6 @@
       <pubDate>Tue, 13 Oct 2026 09:07:00 +0000</pubDate>
       <category>judetean</category>
       <source url="https://zcj.ro/economie/start-up-ul-clujean-lumen-pregateste-proiecte-pilot-cu-roboti-in-2027-cum-vrea-sa-i-faca-autonomi--302786.html">Ziua de Cluj</source>
-      <media:content url="https://izz.ro/judetean/start-up-ul-clujean-lumen-dezvolta-roboti-autonomi-pentru-proiecte-pilot/cover.jpg?v=0eeceb21" medium="image" type="image/jpeg"/>
       <description>Compania din Cluj, recunoscută pentru ochelarii bazați pe inteligență artificială destinați nevăzătorilor, pregătește o nouă etapă tehnologică și testează sisteme robotizate autonome.</description>
     </item>
     <item>
@@ -63,15 +62,6 @@
       <category>local</category>
       <source url="https://www.libertatea.ro/stiri/padis-ic-ponor-drum-leaga-bihor-cluj-prin-muntii-apuseni-stadiu-lucrari-bxnnj37">Libertatea</source>
       <description>Modernizarea drumului județean dintre Padiș și Ic Ponor, evaluată la peste 81 de milioane de lei, avansează în Parcul Natural Apuseni, circulația fiind oprită pentru lucrări complexe.</description>
-    </item>
-    <item>
-      <title>Aproape 8.400 de părinți au folosit serviciul medical ALOPEDI în primele nouă luni din 2026</title>
-      <link>https://izz.ro/sanatate/aproape-8-400-de-parinti-au-folosit-serviciul-medical-alopedi-in-primele-noua/</link>
-      <guid>https://izz.ro/sanatate/aproape-8-400-de-parinti-au-folosit-serviciul-medical-alopedi-in-primele-noua/</guid>
-      <pubDate>Mon, 12 Oct 2026 09:05:00 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://zcj.ro/sanatate/serviciul-clujean-alopedi-tot-mai-utilizat-8400-de-parinti-au-apelat-in-primele-noua-luni-din-2026--302730.html">Ziua de Cluj</source>
-      <description>Părinții clujeni au apelat frecvent la serviciul pediatric telefonic ALOPEDI, majoritatea solicitărilor soldându-se cu sfaturi medicale utile pentru tratarea sigură a minorilor direct la domiciliu.</description>
     </item>
     <item>
       <title>Peste zece mii de cetățeni ucraineni s-au stabilit oficial în Brașov</title>
@@ -459,5 +449,14 @@
       <category>local</category>
       <source url="https://zcj.ro/eveniment/accident-pe-dn1-e60-in-floresti-provocat-de-un-sofer-de-21-de-ani-5-victime-printre-care-3-minori--302387.html">Ziua de Cluj</source>
       <description>Traficul a fost complet blocat pe DN1 E60 în urma unei coliziuni violente produse în comuna Florești, accident în care au fost rănite cinci persoane, inclusiv trei minori.</description>
+    </item>
+    <item>
+      <title>Peste 37.000 de companii românești și-au închis activitatea în primele opt luni</title>
+      <link>https://izz.ro/local/peste-37-000-de-companii-romanesti-si-au-inchis-activitatea-in-primele-opt-luni/</link>
+      <guid>https://izz.ro/local/peste-37-000-de-companii-romanesti-si-au-inchis-activitatea-in-primele-opt-luni/</guid>
+      <pubDate>Sun, 04 Oct 2026 12:28:21 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.economica.net/val-de-dizolvari-de-firme-peste-37-000-de-companii-si-au-inchis-portile-in-opt-luni_982636.html">Economica</source>
+      <description>Economia României a înregistrat un val masiv de dizolvări de firme între ianuarie și august, cele mai multe închideri de companii fiind raportate în București, Cluj și Ilfov.</description>
     </item>
 </channel></rss>

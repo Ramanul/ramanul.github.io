@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/anm/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ANM pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 14:04:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 18:58:17 +0000</lastBuildDate>
     <item>
       <title>Elena Mateescu suspectează sabotaj intern la conducerea ANM</title>
       <link>https://izz.ro/general/elena-mateescu-suspecteaza-sabotaj-intern-la-conducerea-anm/</link>
@@ -53,7 +53,6 @@
       <pubDate>Tue, 13 Oct 2026 09:10:39 +0000</pubDate>
       <category>politic</category>
       <source url="https://stirileprotv.ro/stiri/actualitate/diana-buzoianu-despre-scandalul-anm-decizia-privind-men-inerea-in-func-ie-a-directoarei-apar-ine-consiliului-de-administra-ie.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/politic/viitorul-sefei-anm-depinde-de-consiliul-de-administratie/cover.jpg?v=837dbda1" medium="image" type="image/jpeg"/>
       <description>Ministra interimară a Mediului, Diana Buzoianu, a declarat că menținerea Elena Mateescu la conducerea ANM este atributul Consiliului de Administrație, organism care momentan nu poate lua hotărâri din cauza lipsei de cvorum.</description>
     </item>
     <item>
@@ -63,7 +62,6 @@
       <pubDate>Tue, 13 Oct 2026 08:52:29 +0000</pubDate>
       <category>local</category>
       <source url="https://hotnews.ro/vremea-in-bucuresti-pana-maine-seara-termometrele-se-misca-1-2-grade-2374498">HotNews</source>
-      <media:content url="https://izz.ro/local/vreme-rece-si-ploi-slabe-in-bucuresti/cover.jpg?v=cb9f83b7" medium="image" type="image/jpeg"/>
       <description>Capitala se confruntă cu o vreme închisă și temperaturi maxime de cel mult 17 grade. Meteorologii anunță ploi slabe și vânt moderat pentru următoarea perioadă.</description>
     </item>
     <item>
@@ -236,14 +234,5 @@
       <category>general</category>
       <source url="https://b365.ro/se-anunta-vreme-calda-in-bucuresti-cu-temperaturi-de-pana-la-27-de-grade-anm-anunta-prognoza-pana-pe-11-octombrie-622462/">B365, Ziua de Cluj</source>
       <description>Meteorologii anunță o perioadă cu vreme deosebit de caldă pentru începutul lunii octombrie în România. În Capitală și în regiunile din sudul țării, temperaturile atipice vor urca până la 27-28 de grade Celsius. Acest episod cald va fi urmat ulterior de o răcire a vremii.</description>
-    </item>
-    <item>
-      <title>ANM anunță temperaturi peste media obișnuită și precipitații puține până în noiembrie</title>
-      <link>https://izz.ro/general/anm-anunta-temperaturi-peste-media-obisnuita-si-precipitatii-putine-pana-in/</link>
-      <guid>https://izz.ro/general/anm-anunta-temperaturi-peste-media-obisnuita-si-precipitatii-putine-pana-in/</guid>
-      <pubDate>Fri, 02 Oct 2026 15:16:35 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.monitorulbt.ro/local/2026/10/02/octombrie-mai-cald-decat-de-obicei-prognoza-anm-pana-la-inceputul-lui-noiembrie/">Monitorul de Botoșani</source>
-      <description>Meteorologii estimează că vremea va rămâne mai caldă decât normalul perioadei în toată țara până la începutul lunii noiembrie, abaterile termice cele mai mari urmând să se înregistreze în vestul teritoriului, în timp ce ploile vor fi deficitare.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 14:04:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 18:58:17 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft a lansat Xbox Nano Controller, cel mai mic controler pentru gameri</title>
+      <link>https://izz.ro/tech/microsoft-a-lansat-xbox-nano-controller-cel-mai-mic-controler-pentru-gameri/</link>
+      <guid>https://izz.ro/tech/microsoft-a-lansat-xbox-nano-controller-cel-mai-mic-controler-pentru-gameri/</guid>
+      <pubDate>Wed, 14 Oct 2026 16:30:51 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/14/xbox-nano-controller-pret-lansare/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/microsoft-a-lansat-xbox-nano-controller-cel-mai-mic-controler-pentru-gameri/cover.jpg?v=fa221bcc" medium="image" type="image/jpeg"/>
+      <description>Gigantul american a prezentat un nou model compact de controler destinat utilizatorilor cu mâini mici și sesiunilor de gaming portabile, care păstrează toate cele 18 butoane standard la prețul de 50 de dolari.</description>
+    </item>
     <item>
       <title>Microsoft lansează XBOX Labs pentru gestionarea jocurilor create cu inteligență artificială</title>
       <link>https://izz.ro/tech/microsoft-lanseaza-xbox-labs-pentru-gestionarea-jocurilor-create-cu-inteligenta/</link>
@@ -177,14 +187,5 @@
       <category>tech</category>
       <source url="https://www.xda-developers.com/open-source-apps-have-taken-over-windows-pc-microsoft-wrote-half-of-them/">XDA Developers</source>
       <description>Mai multe instrumente software open-source utilizate frecvent pe un PC cu Windows s-au dovedit a fi dezvoltate sau susținute parțial chiar de compania Microsoft, fără ca utilizatorul să conștientizeze acest lucru timp de ani de zile.</description>
-    </item>
-    <item>
-      <title>Folosirea zilnică a hibernării pe PC uzează SSD-ul în timp</title>
-      <link>https://izz.ro/tech/folosirea-zilnica-a-hibernarii-pe-pc-uzeaza-ssd-ul-in-timp/</link>
-      <guid>https://izz.ro/tech/folosirea-zilnica-a-hibernarii-pe-pc-uzeaza-ssd-ul-in-timp/</guid>
-      <pubDate>Fri, 02 Oct 2026 17:00:19 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.xda-developers.com/five-years-daily-hibernation-impact-on-ssd/">XDA Developers</source>
-      <description>Utilizarea funcției de hibernare timp de cinci ani pe un SSD Samsung a redus sănătatea acestuia la 90 la sută. Deși acceptabil pentru utilizatorii obișnuiți, uzura poate afecta stabilitatea sistemelor de performanță.</description>
     </item>
 </channel></rss>

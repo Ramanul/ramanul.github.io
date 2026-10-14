@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/paris/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Paris pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 14:04:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 18:58:17 +0000</lastBuildDate>
     <item>
       <title>Ford lansează ediția specială Ranger MS-RT Champion Edition</title>
       <link>https://izz.ro/auto/ford-lanseaza-editia-speciala-ranger-ms-rt-champion-edition/</link>
@@ -45,6 +45,16 @@
       <source url="https://www.autocritica.ro/prezentari/conceptele-salonului-auto-de-la-paris-2026/">AutoCritica</source>
       <media:content url="https://izz.ro/auto/salonul-auto-de-la-paris-2026-aduce-in-prim-plan-concepte-auto-futuriste/cover.jpg?v=44fa111b" medium="image" type="image/jpeg"/>
       <description>Expoziția auto din 2026 readuce în atenția publicului prototipurile inovatoare și studiile de design avansate prezentate de constructorii internaționali.</description>
+    </item>
+    <item>
+      <title>Fiat lansează modelul Multiplay pe baza controversatei Multipla</title>
+      <link>https://izz.ro/auto/fiat-lanseaza-modelul-multiplay-pe-baza-controversatei-multipla/</link>
+      <guid>https://izz.ro/auto/fiat-lanseaza-modelul-multiplay-pe-baza-controversatei-multipla/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://piataauto.md/Stiri/2026/10/Italienii-au-lansat-Fiat-Multiplay-revigorand-modelul-care-era-numit-cel-mai-urat-din-lume-intr-o-noua-formula-multifunctionala/">Piata Auto MD</source>
+      <media:content url="https://izz.ro/auto/fiat-lanseaza-modelul-multiplay-pe-baza-controversatei-multipla/cover.jpg?v=1723ec07" medium="image" type="image/jpeg"/>
+      <description>Constructorul italian Fiat a prezentat la Salonul Auto de la Paris noul model Multiplay. Vehiculul reinventează conceptul clasic al fostului model considerat extrem de neobișnuit, adoptând o nouă configurație multifuncțională.</description>
     </item>
     <item>
       <title>Peste 160.000 de elevi au protestat în Franța față de condițiile din școli</title>
@@ -327,23 +337,5 @@
       <category>lifestyle</category>
       <source url="https://observatornews.ro/extern/saptamana-modei-de-la-paris-cum-a-captat-toata-atentia-noua-colectie-a-victoriei-beckham-668091.html">Observator</source>
       <description>Victoria Beckham și-a prezentat noua colecție vestimentară la Saptămâna Modei de la Paris, eveniment la care a fost susținută de întreaga familie, cu excepția fiului Brooklyn, prezent la o altă manifestare din capitala Franței.</description>
-    </item>
-    <item>
-      <title>Evenimentele globale ale săptămânii surprinse în douăzeci de imagini</title>
-      <link>https://izz.ro/extern/evenimentele-globale-ale-saptamanii-surprinse-in-douazeci-de-imagini-2/</link>
-      <guid>https://izz.ro/extern/evenimentele-globale-ale-saptamanii-surprinse-in-douazeci-de-imagini-2/</guid>
-      <pubDate>Fri, 02 Oct 2026 17:03:33 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/artanddesign/gallery/2026/oct/02/the-week-around-the-world-in-20-pictures">The Guardian</source>
-      <description>Fotoreporterii internaționali au documentat principalele evenimente din ultimele șapte zile, de la atacurile rusești asupra Kievului și erupția Etnei, până la protestele studențești din Paris.</description>
-    </item>
-    <item>
-      <title>Proteste masive ale elevilor francezi la Paris împotriva condițiilor din școli</title>
-      <link>https://izz.ro/extern/proteste-masive-ale-elevilor-francezi-la-paris-impotriva-conditiilor-din-scoli/</link>
-      <guid>https://izz.ro/extern/proteste-masive-ale-elevilor-francezi-la-paris-impotriva-conditiilor-din-scoli/</guid>
-      <pubDate>Fri, 02 Oct 2026 16:34:55 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/video/2026/oct/02/fires-burn-as-french-students-protest-against-lack-of-investment-in-education-video">The Guardian</source>
-      <description>Mii de tineri au protestat în fața unităților de învățământ cerând investiții guvernamentale, reducerea claselor suprapopulate și îmbunătățirea infrastructurii școlare.</description>
     </item>
 </channel></rss>

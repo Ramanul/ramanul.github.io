@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/anthropic/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Anthropic pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 14:04:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 18:58:17 +0000</lastBuildDate>
     <item>
       <title>Compania românească Neurony a obținut statutul Anthropic Claude Select Partner</title>
       <link>https://izz.ro/ai/compania-romaneasca-neurony-a-obtinut-statutul-anthropic-claude-select-partner/</link>
@@ -83,7 +83,6 @@
       <pubDate>Tue, 13 Oct 2026 07:40:44 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/rebelii-houthi-au-folosit-inteligenta-artificiala-pentru-a-dezvolta-rachete-si-au-facut-un-test-de-lansare-recunoaste-anthropic-3989569">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/compania-anthropic-confirma-ca-rebelii-houthi-au-folosit-ai-pentru-rachete/cover.jpg?v=83ef5707" medium="image" type="image/jpeg"/>
       <description>Reprezentanții companiei americane Anthropic au recunoscut că rebelii Houthi din Yemen au utilizat instrumente de inteligență artificială pentru a dezvolta programe de armament și a lansa rachete.</description>
     </item>
     <item>
@@ -157,14 +156,5 @@
       <category>tech</category>
       <source url="https://www.economica.net/anthropic-avertizeaza-in-prospectul-sau-pentru-ipo-ca-atitudinea-guvernelor-fata-de-companie-i-ar-putea-afecta-reputatia-si-relatiile-comerciale_982532.html">Economica</source>
       <description>Compania dezvoltatoare a modelelor Claude precizează în prospectul IPO că percepția guvernelor asupra activității sale poate afecta relațiile comerciale și reputația globală, în pofida contractelor publice reduse.</description>
-    </item>
-    <item>
-      <title>Anthropic lansează funcția de moduri pentru personalizarea lui Claude Code</title>
-      <link>https://izz.ro/ai/anthropic-lanseaza-functia-de-moduri-pentru-personalizarea-lui-claude-code/</link>
-      <guid>https://izz.ro/ai/anthropic-lanseaza-functia-de-moduri-pentru-personalizarea-lui-claude-code/</guid>
-      <pubDate>Fri, 02 Oct 2026 14:07:50 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://thenewstack.io/anthropic-claude-code-mods-plugins/">The New Stack</source>
-      <description>Dezvoltatorii pot modifica acum interfața și comportamentul instrumentului Claude Code prin intermediul unor noi opțiuni avansate de personalizare introduse de compania Anthropic, oferind un control mult mai detaliat asupra funcțiilor.</description>
     </item>
 </channel></rss>
