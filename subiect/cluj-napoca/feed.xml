@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/cluj-napoca/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj-Napoca pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 07:48:06 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 13:47:02 +0000</lastBuildDate>
+    <item>
+      <title>City Grill deschide Hanu’ Berarilor în Palatul Mikes din Cluj-Napoca</title>
+      <link>https://izz.ro/local/city-grill-deschide-hanu-berarilor-in-palatul-mikes-din-cluj-napoca/</link>
+      <guid>https://izz.ro/local/city-grill-deschide-hanu-berarilor-in-palatul-mikes-din-cluj-napoca/</guid>
+      <pubDate>Thu, 15 Oct 2026 12:11:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/economie/hanu-berarilor-ajunge-la-cluj-investitie-de-jumatate-de-milion-de-euro-intr-un-palat-din-piata-muzeuluia--302939.html">Ziua de Cluj</source>
+      <media:content url="https://izz.ro/local/city-grill-deschide-hanu-berarilor-in-palatul-mikes-din-cluj-napoca/cover.jpg?v=7cdc1b22" medium="image" type="image/jpeg"/>
+      <description>Cel mai mare lanț românesc de restaurante investește jumătate de milion de euro pentru a inaugura o unitate Hanu’ Berarilor în clădirea istorică din Piața Muzeului.</description>
+    </item>
     <item>
       <title>Clujul va găzdui o panglică umană în semn de solidaritate împotriva cancerului</title>
       <link>https://izz.ro/local/clujul-va-gazdui-o-panglica-umana-in-semn-de-solidaritate-impotriva-cancerului/</link>
@@ -93,7 +103,6 @@
       <pubDate>Wed, 14 Oct 2026 09:17:41 +0000</pubDate>
       <category>judetean</category>
       <source url="https://gazetadecluj.ro/firma-controlata-de-fiul-directorului-economic-de-la-tci-a-anulat-pug-ul-pentru-a-ridica-locuinte-pe-un-teren-agricol/">Gazeta de Cluj</source>
-      <media:content url="https://izz.ro/judetean/tribunalul-cluj-a-anulat-partial-pug-pentru-un-teren-agricol/cover.jpg?v=1348bec5" medium="image" type="image/jpeg"/>
       <description>Magistrații clujeni au dat câștig de cauză unei firme controlate de familia unui oficial TCI, obligând municipalitatea să transforme un teren agricol în zonă rezidențială.</description>
     </item>
     <item>
@@ -103,7 +112,6 @@
       <pubDate>Wed, 14 Oct 2026 08:52:45 +0000</pubDate>
       <category>local</category>
       <source url="https://gazetadecluj.ro/mrb-electric-castiga-contractul-de-35-milioane-de-lei-pentru-copertinele-din-statiile-de-autobuz-dupa-o-disputa-in-instanta/">Gazeta de Cluj</source>
-      <media:content url="https://izz.ro/local/mrb-electric-va-monta-noile-copertine-in-statiile-de-autobuz-din-cluj-napoca/cover.jpg?v=69e0a273" medium="image" type="image/jpeg"/>
       <description>Primătria Cluj-Napoca a atribuit contractul de peste 3,5 milioane de lei firmei MRB Electric SRL pentru livrarea a maximum 200 de copertine, în urma unei contestații câștigate în instanță.</description>
     </item>
     <item>
@@ -113,7 +121,6 @@
       <pubDate>Wed, 14 Oct 2026 08:28:01 +0000</pubDate>
       <category>local</category>
       <source url="https://gazetadecluj.ro/cea-mai-mare-cresa-din-cluj-napoca-are-110-locuri-dar-numai-sase-parinti-au-cerut-inscrierea-copiilor/">Gazeta de Cluj</source>
-      <media:content url="https://izz.ro/local/cea-mai-mare-cresa-din-cluj-napoca-are-doar-sase-cereri-de-inscriere/cover.jpg?v=785fe322" medium="image" type="image/jpeg"/>
       <description>Deși are o capacitate de 110 locuri, noua creșă din cartierul Borhanci a înregistrat un interes extrem de scăzut, determinând primăria să prelungească perioada de înscrieri.</description>
     </item>
     <item>
@@ -123,7 +130,6 @@
       <pubDate>Wed, 14 Oct 2026 07:43:48 +0000</pubDate>
       <category>economic</category>
       <source url="https://start-up.ro/de-la-sub-1-la-30-din-venituri-linnify-isi-creste-businessul-cu-agenti-ai-si-devine-partener-anthropic-openai-si-google-cloud/">Start-up.ro</source>
-      <media:content url="https://izz.ro/economic/compania-linnify-a-inregistrat-o-crestere-semnificativa-a-veniturilor-din/cover.jpg?v=23c9069a" medium="image" type="image/jpeg"/>
       <description>Afacerile dezvoltate de firma clujeană Linnify prin intermediul agenților AI au ajuns să reprezinte treizeci la sută din totalul veniturilor, devenind partener pentru giganții tehnologici.</description>
     </item>
     <item>
@@ -133,7 +139,6 @@
       <pubDate>Wed, 14 Oct 2026 07:00:54 +0000</pubDate>
       <category>local</category>
       <source url="https://www.emaramures.ro/o-angajata-a-penitenciarului-baia-mare-pe-scena-unui-eveniment-dedicat-cantecelor-patriotice-si-ostasesti/">eMaramureș</source>
-      <media:content url="https://izz.ro/local/o-politista-din-baia-mare-a-cantat-pe-scena-la-un-eveniment-cu-muzica-ostaseasca/cover.jpg?v=09331ad0" medium="image" type="image/jpeg"/>
       <description>Agentul principal de poliție penitenciară Ștefania Achim-Domuța a participat ca interpretă la Cluj-Napoca, la lansarea unui album de cântece patriotice organizat de Muzica Militară a Diviziei 4 Infanterie.</description>
     </item>
     <item>
@@ -459,14 +464,5 @@
       <category>local</category>
       <source url="https://gazetadecluj.ro/un-parc-din-cluj-napoca-a-ajuns-un-haos-total-ignorat-complet-de-autoritati/">Gazeta de Cluj</source>
       <description>Un locuitor a sesizat autoritățile locale prin platforma My Cluj privind starea deplorabilă a parcului de lângă Calea Baciului, unde lipsesc coșurile de gunoi și întreținerea elementară.</description>
-    </item>
-    <item>
-      <title>Clujul înființează o comisie metropolitană pentru simplificarea urbanismului</title>
-      <link>https://izz.ro/local/clujul-infiinteaza-o-comisie-metropolitana-pentru-simplificarea-urbanismului/</link>
-      <guid>https://izz.ro/local/clujul-infiinteaza-o-comisie-metropolitana-pentru-simplificarea-urbanismului/</guid>
-      <pubDate>Fri, 09 Oct 2026 06:03:23 +0000</pubDate>
-      <category>local</category>
-      <source url="https://gazetadecluj.ro/clujul-pregateste-o-comisie-metropolitana-care-promite-sa-reduca-birocratia-din-urbanism/">Gazeta de Cluj</source>
-      <description>Autoritățile locale pregătesc crearea unei Comisii Locale de Avizare Integrată destinată Zonei Metropolitane Cluj. Noua structură administrativă va reduce birocrația prin unificarea avizelor necesare proiectelor din Cluj-Napoca și localitățile limitrofe.</description>
     </item>
 </channel></rss>

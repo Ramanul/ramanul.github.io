@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 07:48:06 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 13:47:03 +0000</lastBuildDate>
     <item>
       <title>Microsoft a blocat cea mai simplă metodă de ocolire a contului online în Windows 11</title>
       <link>https://izz.ro/tech/microsoft-a-blocat-cea-mai-simpla-metoda-de-ocolire-a-contului-online-in/</link>
@@ -33,7 +33,6 @@
       <pubDate>Wed, 14 Oct 2026 10:28:35 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/14/xbox-labs-este-solutia-celor-de-la-microsoft-pentru-jocurile-si-mod-urile-realizate-cu-ai/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/microsoft-lanseaza-xbox-labs-pentru-gestionarea-jocurilor-create-cu-inteligenta/cover.jpg?v=26347879" medium="image" type="image/jpeg"/>
       <description>Gigantul tehnologic a introdus o nouă platformă menită să centralizeze titlurile și modurile inovatoare dezvoltate de comunitate cu ajutorul uneltelor bazate pe inteligență artificială.</description>
     </item>
     <item>
@@ -179,14 +178,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/05/windows-11-26h2-este-live-ce-schimbari-aduce-noua-versiune/">Connect.ro</source>
       <description>Utilizatorii de PC-uri compatibile primesc treptat noul pachet de upgrade semestrial Windows 11 prin sistemul Windows Update, acesta aducând modificări importante interfeței din File Manager.</description>
-    </item>
-    <item>
-      <title>Microsoft testează instalarea automată de aplicații terțe în Windows 11</title>
-      <link>https://izz.ro/tech/microsoft-testeaza-instalarea-automata-de-aplicatii-terte-in-windows-11/</link>
-      <guid>https://izz.ro/tech/microsoft-testeaza-instalarea-automata-de-aplicatii-terte-in-windows-11/</guid>
-      <pubDate>Sat, 03 Oct 2026 08:12:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/it-c/windows-11-ar-putea-instala-singur-aplicatii-terte-22799925?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Compania Microsoft experimentează o nouă versiune Windows 11 care va include preinstalarea unor programe externe precum Netflix sau Spotify pe dispozitivele utilizatorilor.</description>
     </item>
 </channel></rss>

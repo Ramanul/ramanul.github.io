@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Maramures — IZZ.ro</title>
+  <title>Maramureș — IZZ.ro</title>
   <link>https://izz.ro/subiect/maramures/</link>
   <atom:link href="https://izz.ro/subiect/maramures/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Maramures pe IZZ.ro</description>
+  <description>Știri despre Maramureș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 07:48:06 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 13:47:03 +0000</lastBuildDate>
+    <item>
+      <title>Un bărbat din Maramureș a fost reținut după ce a condus băut fără a avea permis</title>
+      <link>https://izz.ro/judetean/un-barbat-din-maramures-a-fost-retinut-dupa-ce-a-condus-baut-fara-a-avea-permis/</link>
+      <guid>https://izz.ro/judetean/un-barbat-din-maramures-a-fost-retinut-dupa-ce-a-condus-baut-fara-a-avea-permis/</guid>
+      <pubDate>Thu, 15 Oct 2026 10:52:34 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.emaramures.ro/prins-de-doua-ori-baut-la-volan-desi-avea-permisul-suspendat-maramureseanul-a-fost-retinut/">eMaramureș</source>
+      <media:content url="https://izz.ro/judetean/un-barbat-din-maramures-a-fost-retinut-dupa-ce-a-condus-baut-fara-a-avea-permis/cover.jpg?v=78e6706e" medium="image" type="image/jpeg"/>
+      <description>Polițiștii rutieri din Maramureș au dispus reținerea unui șofer prins în repetate rânduri la volan sub influența alcoolului. Suspectul circula pe drumurile publice deși avea deja dreptul de a conduce suspendat.</description>
+    </item>
+    <item>
+      <title>Autoritățile din Maramureș au aplicat amenzi de 45.000 de lei în urma unor controale</title>
+      <link>https://izz.ro/judetean/autoritatile-din-maramures-au-aplicat-amenzi-de-45-000-de-lei-in-urma-unor/</link>
+      <guid>https://izz.ro/judetean/autoritatile-din-maramures-au-aplicat-amenzi-de-45-000-de-lei-in-urma-unor/</guid>
+      <pubDate>Thu, 15 Oct 2026 10:38:16 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.emaramures.ro/controale-in-7-localitati-din-maramures-amenzi-de-45-000-de-lei-si-marfa-confiscata/">eMaramureș</source>
+      <media:content url="https://izz.ro/judetean/autoritatile-din-maramures-au-aplicat-amenzi-de-45-000-de-lei-in-urma-unor/cover.jpg?v=9eb19a02" medium="image" type="image/jpeg"/>
+      <description>Polițiștii, inspectorii antifraudă și reprezentanții silvici au efectuat verificări în șapte localități maramureșene, sancționând neregulile din domeniul transportului de mărfuri și confiscând bunuri.</description>
+    </item>
     <item>
       <title>Temperaturi negative și brumă înregistrate în județul Maramureș</title>
       <link>https://izz.ro/judetean/temperaturi-negative-si-bruma-inregistrate-in-judetul-maramures/</link>
@@ -13,7 +33,6 @@
       <pubDate>Wed, 14 Oct 2026 05:32:37 +0000</pubDate>
       <category>judetean</category>
       <source url="https://www.emaramures.ro/bruma-si-temperaturi-sub-zero-grade-in-maramures-cum-va-fi-vremea-astazi/">eMaramureș</source>
-      <media:content url="https://izz.ro/judetean/temperaturi-negative-si-bruma-inregistrate-in-judetul-maramures/cover.jpg?v=378e359f" medium="image" type="image/jpeg"/>
       <description>Județul Maramureș s-a confruntat cu primele temperaturi sub zero grade și apariția brumei, stația meteo Iezer înregistrând valoarea minimă de -3 grade Celsius.</description>
     </item>
     <item>
@@ -366,14 +385,5 @@
       <category>judetean</category>
       <source url="https://www.emaramures.ro/din-ce-invatau-bunicii-nostri-cum-s-au-schimbat-manualele-scolare-in-maramures/">eMaramureș</source>
       <description>O analiză a modului în care au evoluat mijloacele de învățare și manualele folosite de generațiile trecute în școlile din Maramureș, comparativ cu realitățile educaționale actuale.</description>
-    </item>
-    <item>
-      <title>Meseria tradițională de coșar se menține activă în gospodăriile din județul Maramureș</title>
-      <link>https://izz.ro/judetean/meseria-traditionala-de-cosar-se-mentine-activa-in-gospodariile-din-judetul/</link>
-      <guid>https://izz.ro/judetean/meseria-traditionala-de-cosar-se-mentine-activa-in-gospodariile-din-judetul/</guid>
-      <pubDate>Sat, 03 Oct 2026 13:00:52 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://www.emaramures.ro/cosarul-omul-care-aduce-noroc-o-meserie-veche-care-inca-protejeaza-casele-din-maramures/">eMaramureș</source>
-      <description>Deși considerată o ocupație de altădată, activitatea coșarului rămâne esențială în zonele maramureșene unde încălzirea locuințelor se face pe bază de sobe pe lemne în sezonul rece.</description>
     </item>
 </channel></rss>

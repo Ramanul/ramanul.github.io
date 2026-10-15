@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/ungaria/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ungaria pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 07:48:06 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 13:47:02 +0000</lastBuildDate>
+    <item>
+      <title>Ungaria, condamnată de CJUE pentru eliberarea traficanților</title>
+      <link>https://izz.ro/extern/ungaria-condamnata-de-cjue-pentru-eliberarea-traficantilor/</link>
+      <guid>https://izz.ro/extern/ungaria-condamnata-de-cjue-pentru-eliberarea-traficantilor/</guid>
+      <pubDate>Thu, 15 Oct 2026 12:51:17 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/ungaria-condamnata-de-curtea-de-justitie-a-ue-pentru-o-decizie-a-fostului-guvern-condus-de-viktor-orban-2377101">HotNews</source>
+      <media:content url="https://izz.ro/extern/ungaria-condamnata-de-cjue-pentru-eliberarea-traficantilor/cover.jpg?v=35a5d43c" medium="image" type="image/jpeg"/>
+      <description>Curtea de Justiție a Uniunii Europene a sancționat Ungaria din cauza transformării pedepselor cu închisoarea pentru traficanții de persoane în măsuri care au permis expulzarea rapidă a acestora.</description>
+    </item>
     <item>
       <title>Guvernele conduse de Viktor Orbán au alocat fonduri publice netransparente pentru comunitățile maghiare din Transilvania</title>
       <link>https://izz.ro/regional/guvernele-conduse-de-viktor-orban-au-alocat-fonduri-publice-netransparente/</link>
@@ -43,7 +53,6 @@
       <pubDate>Wed, 14 Oct 2026 10:51:06 +0000</pubDate>
       <category>general</category>
       <source url="https://www.emaramures.ro/cfr-calatori-anunta-modificari-temporare-in-circulatia-trenurilor-internationale/">eMaramureș</source>
-      <media:content url="https://izz.ro/general/modificari-de-orar-pentru-trenurile-internationale-spre-viena-din-cauza-unor/cover.jpg?v=15d6fd30" medium="image" type="image/jpeg"/>
       <description>CFR Călători anunță că trenurile pe rutele București Nord – Viena și Baia Mare – Viena vor circula după un program modificat pe teritoriul Ungariei, în intervalul 27-29 octombrie, din cauza unor lucrări la infrastructura feroviară.</description>
     </item>
     <item>
@@ -207,14 +216,5 @@
       <category>sport</category>
       <source url="https://cvlpress.ro/04.10.2026/liga-natiunilor-coechipieri-doar-la-echipa-de-club/">Cuvântul Libertății</source>
       <description>Reprezentativa de fotbal a Ungariei a câștigat cu 1-0 meciul disputat la Budapesta împotriva Georgiei, singurul gol al partidei fiind marcat de Milos Kerkez în prima repriză a confruntării.</description>
-    </item>
-    <item>
-      <title>Conferință la Budapesta despre Tratatul româno-ungar la 30 de ani</title>
-      <link>https://izz.ro/politic/conferinta-la-budapesta-despre-tratatul-romano-ungar-la-30-de-ani/</link>
-      <guid>https://izz.ro/politic/conferinta-la-budapesta-despre-tratatul-romano-ungar-la-30-de-ani/</guid>
-      <pubDate>Sat, 03 Oct 2026 12:19:26 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.g4media.ro/30-de-ani-de-la-semnarea-tratatului-de-intelegere-cooperare-si-buna-vecinatate-dintre-romania-si-ungari.html">G4Media</source>
-      <description>Universitatea Catolică Pazmany Peter din Budapesta, alături de Ambasada României în Ungaria, a organizat o conferință aniversară dedicată cooperării strategice și Tratatului de bună vecinătate semnat acum trei decenii.</description>
     </item>
 </channel></rss>
