@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 13:47:02 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 18:37:26 +0000</lastBuildDate>
     <item>
       <title>Fostul prefect Florian Marin s-a înscris în filiala Vâlcea a partidului AUR</title>
       <link>https://izz.ro/judetean/fostul-prefect-florian-marin-s-a-inscris-in-filiala-valcea-a-partidului-aur/</link>
@@ -53,7 +53,6 @@
       <pubDate>Wed, 14 Oct 2026 13:20:18 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.prosport.ro/diverse/mitica-dragomir-arestare-george-simion-aur-20547167">ProSport</source>
-      <media:content url="https://izz.ro/politic/mitica-dragomir-prognozeaza-viitorul-politic-al-lui-george-simion/cover.jpg?v=6bb4a90c" medium="image" type="image/jpeg"/>
       <description>Fostul conducător al Ligii Profesioniste de Fotbal, Dumitru Dragomir, a comentat scenariul ipotetic al unei posibile rețineri a liderului AUR, George Simion, făcând paralele cu situația lui Călin Georgescu.</description>
     </item>
     <item>
@@ -91,6 +90,15 @@
       <category>politic</category>
       <source url="https://stirileprotv.ro/stiri/politic/batalie-in-senat-pe-tema-suveranitatii-aur-acuza-guvernul-ca-cedeaza-dreptul-de-veto-in-ue-toiu-minciuna-cap-coada.html">Știrile ProTV</source>
       <description>Senatul României a votat o moțiune inițiată de AUR care cere Guvernului și ministrului interimar de Externe explicații referitoare la presupusa cedare a dreptului de veto în Uniunea Europeană.</description>
+    </item>
+    <item>
+      <title>George Simion reia caravana prin țară și îi ia apărarea lui Călin Georgescu</title>
+      <link>https://izz.ro/politic/george-simion-reia-caravana-prin-tara-si-ii-ia-apararea-lui-calin-georgescu/</link>
+      <guid>https://izz.ro/politic/george-simion-reia-caravana-prin-tara-si-ii-ia-apararea-lui-calin-georgescu/</guid>
+      <pubDate>Sun, 11 Oct 2026 16:25:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/politica/george-simion-2563288.html">Adevărul</source>
+      <description>Liderul AUR, George Simion, a reluat întâlnirile cu electoratul în județe și a transmis un nou mesaj de solidaritate pentru Călin Georgescu, aflat în prezent în arest preventiv.</description>
     </item>
     <item>
       <title>Marian Preda avertizează asupra riscurilor asociate ascensiunii politice a partidului AUR</title>
@@ -451,14 +459,5 @@
       <category>politic</category>
       <source url="https://hotnews.ro/un-lider-aur-il-ironizeaza-pe-nicusor-dan-inaintea-discutiilor-de-la-cotroceni-melodia-postata-de-petrisor-peiu-2366278">HotNews, Antena 3 CNN</source>
       <description>Petrișor Peiu, liderul senatorilor AUR și președintele Consiliului Național de Conducere al partidului, a publicat duminică un mesaj ironic pe o rețea de socializare la adresa lui Nicușor Dan. Acesta a distribuit cântecul pentru copii „O lume minunată” de Mihai Constantinescu pentru a comenta modul în care se pregătește președintele pentru întâlnirea programată luni la Palatul Cotroceni cu reprezentanții partidelor politice.</description>
-    </item>
-    <item>
-      <title>Senatorul Cătălin Silegeanu critică utilizarea ratingului de țară în politica internă</title>
-      <link>https://izz.ro/politic/senatorul-catalin-silegeanu-critica-utilizarea-ratingului-de-tara-in-politica/</link>
-      <guid>https://izz.ro/politic/senatorul-catalin-silegeanu-critica-utilizarea-ratingului-de-tara-in-politica/</guid>
-      <pubDate>Sun, 04 Oct 2026 11:32:41 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.monitorulbt.ro/local/2026/10/04/comunicat-de-presa-catalin-silegeanu-creditorilor-externi-le-datoram-bani-nu-buletine-de-vot/">Monitorul de Botoșani</source>
-      <description>Parlamentarul a reacționat dur după ce formațiunea AUR a fost exclusă de la posibile alianțe de guvernare pe motiv că prezența sa ar afecta relațiile externe, subliniind că datoriile externe nu implică și cedarea voturilor.</description>
     </item>
 </channel></rss>

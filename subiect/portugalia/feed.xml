@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/portugalia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Portugalia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 13:47:03 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 18:37:26 +0000</lastBuildDate>
     <item>
       <title>Lufthansa a câștigat cursa pentru preluarea companiei aeriene TAP</title>
       <link>https://izz.ro/economic/lufthansa-a-castigat-cursa-pentru-preluarea-companiei-aeriene-tap/</link>
@@ -13,7 +13,6 @@
       <pubDate>Wed, 14 Oct 2026 12:38:26 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.economica.net/odiseea-tap-a-ajuns-la-final-portugalia-a-ales-oferta-gigantului-german-lufthansa_985559.html">Economica</source>
-      <media:content url="https://izz.ro/economic/lufthansa-a-castigat-cursa-pentru-preluarea-companiei-aeriene-tap/cover.jpg?v=01fe146a" medium="image" type="image/jpeg"/>
       <description>Guvernul portughez a selectat oferta îmbunătățită în numerar înaintată de gigantul german Lufthansa, devansând astfel concurența din partea grupului Air France-KLM pentru privatizarea transportatorului.</description>
     </item>
     <item>
@@ -134,6 +133,15 @@
       <description>Reprezentativa Portugaliei a învins pe teren propriu echipa Norvegiei cu scorul de 2-1, fără Cristiano Ronaldo în lot, în etapa a patra din Liga Națiunilor. Golurile gazdelor au fost marcate de Joao Cancelo și G. Ramos, în timp ce pentru oaspeți a înscris Ajer. Această victorie aduce maximum de puncte și asigură echipei prima poziție în grupa din Divizia A.</description>
     </item>
     <item>
+      <title>Portugalia a învins Norvegia cu scorul de 2-1 în Liga Națiunilor</title>
+      <link>https://izz.ro/sport/portugalia-a-invins-norvegia-cu-scorul-de-2-1-in-liga-natiunilor/</link>
+      <guid>https://izz.ro/sport/portugalia-a-invins-norvegia-cu-scorul-de-2-1-in-liga-natiunilor/</guid>
+      <pubDate>Sun, 04 Oct 2026 21:15:31 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://cvlpress.ro/05.10.2026/liga-natiunilor-portugalia-revine-si-castiga-cu-norvegia/">Cuvântul Libertății</source>
+      <description>În etapa a patra din Liga Națiunilor, reprezentativa Portugaliei a învins Norvegia cu 2-1, prin golurile marcate de Joao Cancelo și G. Ramos, în timp ce Olanda s-a impus în fața Serbiei, iar Grecia cu Germania au remizat.</description>
+    </item>
+    <item>
       <title>Naționala Portugaliei a obținut patru victorii consecutive în Nations League</title>
       <link>https://izz.ro/sport/nationala-portugaliei-a-obtinut-patru-victorii-consecutive-in-nations-league/</link>
       <guid>https://izz.ro/sport/nationala-portugaliei-a-obtinut-patru-victorii-consecutive-in-nations-league/</guid>
@@ -159,23 +167,5 @@
       <category>sport</category>
       <source url="https://as.ro/fotbal/liga-natiunilor/grecia-germania-portugalia-norvegia-live-2145-klopp-vrea-revansa-primul-meci-in-portugalia-dupa-scandal-meciurile-serii-694433.html">Antena Sport</source>
       <description>Ultima etapă din faza grupelor Ligii Națiunilor aduce dueluri importante precum Grecia cu Germania și Portugalia cu Norvegia, aducând o presiune suplimentară asupra selecționerilor.</description>
-    </item>
-    <item>
-      <title>Bruno Fernandes a comentat plecarea lui Cristiano Ronaldo</title>
-      <link>https://izz.ro/sport/bruno-fernandes-a-comentat-plecarea-lui-cristiano-ronaldo/</link>
-      <guid>https://izz.ro/sport/bruno-fernandes-a-comentat-plecarea-lui-cristiano-ronaldo/</guid>
-      <pubDate>Sat, 03 Oct 2026 17:42:41 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://as.ro/fotbal/liga-natiunilor/bruno-fernandes-prima-reactie-dupa-ruptura-dintre-ronaldo-si-nationala-portugaliei-cea-mai-mare-emblema-694174.html">Antena Sport</source>
-      <description>Mijlocașul Bruno Fernandes a reacționat public după ce Cristiano Ronaldo a părăsit cantonamentul naționalei Portugaliei în urma unor neînțelegeri cu selecționerul.</description>
-    </item>
-    <item>
-      <title>Portugalia anchetează legalitatea utilizării bazei Lajes de către SUA în Iran</title>
-      <link>https://izz.ro/extern/portugalia-ancheteaza-legalitatea-utilizarii-bazei-lajes-de-catre-sua-in-iran/</link>
-      <guid>https://izz.ro/extern/portugalia-ancheteaza-legalitatea-utilizarii-bazei-lajes-de-catre-sua-in-iran/</guid>
-      <pubDate>Sat, 03 Oct 2026 15:14:37 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/portugalia-ancheteaza-legalitatea-utilizarii-de-catre-sua-a-bazei-aeriene-lajes-in-razboiul-din-iran-3976443">Digi24 Extern, HotNews</source>
-      <description>Procurorii din Portugalia au inițiat o investigație pentru a stabili dacă autorizația acordată SUA privind folosirea bazei aeriene Lajes din arhipelagul Azore în conflictul din Iran respectă cadrul legal. Demersul vine în urma unei plângeri oficiale înaintate de partidul de opoziție Blocul de Stânga.</description>
     </item>
 </channel></rss>
