@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/the-guardian/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre The Guardian pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 01:44:16 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 07:48:06 +0000</lastBuildDate>
+    <item>
+      <title>Ministrul francez de Externe îl acuză pe Elon Musk de campanii de hărțuire</title>
+      <link>https://izz.ro/extern/ministrul-francez-de-externe-il-acuza-pe-elon-musk-de-campanii-de-hartuire/</link>
+      <guid>https://izz.ro/extern/ministrul-francez-de-externe-il-acuza-pe-elon-musk-de-campanii-de-hartuire/</guid>
+      <pubDate>Thu, 15 Oct 2026 06:38:08 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ministrul-francez-de-externe-spune-ca-elon-musk-este-in-spatele-campaniilor-de-hartuire-online-a-liderilor-europeni-3993097">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/ministrul-francez-de-externe-il-acuza-pe-elon-musk-de-campanii-de-hartuire/cover.jpg?v=14f372c0" medium="image" type="image/jpeg"/>
+      <description>Oficialul francez susține că miliardarul folosește rețeaua de socializare pentru a ataca liderii europeni și a influența instabilitatea politică dinaintea alegerilor.</description>
+    </item>
     <item>
       <title>Cartelurile latino-americane de droguri s-au extins în 12 state europene</title>
       <link>https://izz.ro/extern/cartelurile-latino-americane-de-droguri-s-au-extins-in-12-state-europene/</link>
@@ -104,14 +114,5 @@
       <category>sanatate</category>
       <source url="https://www.digi24.ro/stiri/sci-tech/descoperiri/timpul-indelungat-petrecut-in-fata-ecranului-poate-afecta-performantele-scolare-si-abilitatile-lingvistice-ale-copiilor-studiu-3968561">Digi24</source>
       <description>Un studiu internațional arată că timpul prelungit petrecut de copii în fața dispozitivelor digitale le afectează negativ abilitățile lingvistice și rezultatele școlare, impactul fiind comparabil cu alți factori majori de mediu.</description>
-    </item>
-    <item>
-      <title>Yanis Varoufakis a discutat despre democrație și criza euro într-un podcast</title>
-      <link>https://izz.ro/extern/yanis-varoufakis-a-discutat-despre-democratie-si-criza-euro-intr-un-podcast/</link>
-      <guid>https://izz.ro/extern/yanis-varoufakis-a-discutat-despre-democratie-si-criza-euro-intr-un-podcast/</guid>
-      <pubDate>Sat, 03 Oct 2026 06:50:52 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/politics/audio/2026/oct/03/theres-no-such-thing-as-democracy-yanis-varoufakis-radical-thinking-with-aditya-chakrabortty-podcast">The Guardian</source>
-      <description>Fostul ministru grec de finanțe Yanis Varoufakis a analizat influența piețelor asupra politicii și confruntările din perioada crizei din zona euro în cadrul primului episod al noii serii de podcast realizată de cotidianul The Guardian.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/ungaria/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ungaria pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 01:44:16 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 07:48:06 +0000</lastBuildDate>
+    <item>
+      <title>Guvernele conduse de Viktor Orbán au alocat fonduri publice netransparente pentru comunitățile maghiare din Transilvania</title>
+      <link>https://izz.ro/regional/guvernele-conduse-de-viktor-orban-au-alocat-fonduri-publice-netransparente/</link>
+      <guid>https://izz.ro/regional/guvernele-conduse-de-viktor-orban-au-alocat-fonduri-publice-netransparente/</guid>
+      <pubDate>Thu, 15 Oct 2026 06:46:44 +0000</pubDate>
+      <category>regional</category>
+      <source url="https://www.contributors.ro/bani-publici-hotarari-nepublicate-ce-dezvaluie-documentele-guvernelor-orban-despre-transilvania/">Contributors</source>
+      <media:content url="https://izz.ro/regional/guvernele-conduse-de-viktor-orban-au-alocat-fonduri-publice-netransparente/cover.jpg?v=8b13625a" medium="image" type="image/jpeg"/>
+      <description>O analiză a documentelor guvernamentale maghiare arată că sprijinul financiar acordat minorităților din afara granițelor a fost gestionat prin hotărâri nepublicate, vizând educația și cultura.</description>
+    </item>
     <item>
       <title>Ungaria salută deblocarea fondurilor europene și revenirea în programul Erasmus+</title>
       <link>https://izz.ro/extern/ungaria-saluta-deblocarea-fondurilor-europene-si-revenirea-in-programul-erasmus/</link>
@@ -43,7 +53,6 @@
       <pubDate>Tue, 13 Oct 2026 19:44:44 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ucraina-mai-aproape-de-aderarea-la-ue-dupa-ce-ungaria-a-renuntat-la-veto-zelenski-si-magyar-ar-putea-avea-prima-intalnire-3990893">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/ungaria-ridica-dreptul-de-veto-iar-ucraina-avanseaza-in-negocierile-pentru/cover.jpg?v=9f19c16b" medium="image" type="image/jpeg"/>
       <description>Budapesta a deblocat procesul de integrare europeană pentru Kiev după un acord privind minoritățile. Această evoluție diplomatică ar putea facilita o întrevedere bilaterală între Volodimir Zelenski și Péter Magyar la Bruxelles.</description>
     </item>
     <item>
@@ -207,23 +216,5 @@
       <category>politic</category>
       <source url="https://www.g4media.ro/30-de-ani-de-la-semnarea-tratatului-de-intelegere-cooperare-si-buna-vecinatate-dintre-romania-si-ungari.html">G4Media</source>
       <description>Universitatea Catolică Pazmany Peter din Budapesta, alături de Ambasada României în Ungaria, a organizat o conferință aniversară dedicată cooperării strategice și Tratatului de bună vecinătate semnat acum trei decenii.</description>
-    </item>
-    <item>
-      <title>Musca lanternă pătată amenință livezile din Europa și se apropie de România</title>
-      <link>https://izz.ro/sanatate/musca-lanterna-patata-ameninta-livezile-din-europa-si-se-apropie-de-romania/</link>
-      <guid>https://izz.ro/sanatate/musca-lanterna-patata-ameninta-livezile-din-europa-si-se-apropie-de-romania/</guid>
-      <pubDate>Sat, 03 Oct 2026 07:29:00 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://www.antena3.ro/emisiuni/agricool/musca-lanterna-patata-face-ravagii-in-livezile-europei-daunatorul-care-se-hraneste-cu-100-de-specii-de-plante-se-apropie-de-romania-805656.html">Antena 3 CNN</source>
-      <description>Dăunătorul invaziv originar din Asia, capabil să afecteze peste o sută de specii de plante, a fost detectat în Ungaria și alte țări europene, punând în pericol agricultura și pădurile.</description>
-    </item>
-    <item>
-      <title>Doi foști miniștri din Guvernul Orban au fost reținuți în Ungaria pentru corupție</title>
-      <link>https://izz.ro/extern/doi-fosti-ministri-din-guvernul-orban-au-fost-retinuti-in-ungaria-pentru/</link>
-      <guid>https://izz.ro/extern/doi-fosti-ministri-din-guvernul-orban-au-fost-retinuti-in-ungaria-pentru/</guid>
-      <pubDate>Sat, 03 Oct 2026 07:11:25 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://stirileprotv.ro/stiri/international/premiera-in-ungaria-postcomunista-doi-fosti-ministri-au-fost-arestati-au-facut-parte-din-guvernul-orban.html">Știrile ProTV</source>
-      <description>Autoritățile judiciare din Ungaria au dispus arestarea a doi foști membri ai executivului condus de Viktor Orban, aceștia fiind investigați penal pentru fapte de corupție în premieră politică recentă.</description>
     </item>
 </channel></rss>
