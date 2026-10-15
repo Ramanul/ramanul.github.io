@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/ucraina/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ucraina pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 22:36:22 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 01:44:16 +0000</lastBuildDate>
     <item>
       <title>Elon Musk susține că SpaceX nu decide limitările sistemului Starshield din Ucraina</title>
       <link>https://izz.ro/extern/elon-musk-sustine-ca-spacex-nu-decide-limitarile-sistemului-starshield-din/</link>
@@ -23,7 +23,7 @@
       <pubDate>Wed, 14 Oct 2026 19:34:26 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ce-este-starshield-serviciul-de-internet-prin-satelit-de-nivel-militar-al-spacex-de-care-ucraina-depinde-in-razboiul-cu-rusii-3992795">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/operatiunile-militare-ale-ucrainei-sunt-afectate-de-restrictiile-starshield/cover.jpg?v=39f4cf97" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/operatiunile-militare-ale-ucrainei-sunt-afectate-de-restrictiile-starshield/cover.jpg?v=f4ae68d6" medium="image" type="image/jpeg"/>
       <description>Forțele armate ucrainene se confruntă cu dificultăți majore pe front din cauza limitărilor impuse serviciului de internet prin satelit de nivel militar furnizat de compania SpaceX.</description>
     </item>
     <item>
@@ -35,16 +35,6 @@
       <source url="https://www.theguardian.com/world/2026/oct/14/ukraine-starlink-civilian-casualties-death-toll">The Guardian</source>
       <media:content url="https://izz.ro/extern/restrictiile-aduse-sistemului-starlink-agraveaza-situatia-civililor-din-ucraina/cover.jpg?v=8daa1dca" medium="image" type="image/jpeg"/>
       <description>Limitarea accesului la internetul mobil afectează capacitatea de apărare antiaeriană a Kievului în fața bombardamentelor rusești tot mai intense, pe fondul creșterii numărului de victime civile odată cu venirea sezonului rece.</description>
-    </item>
-    <item>
-      <title>Volodimir Zelenski i-a cerut public lui Elon Musk restabilirea serviciilor Starlink în Ucraina</title>
-      <link>https://izz.ro/extern/volodimir-zelenski-i-a-cerut-public-lui-elon-musk-restabilirea-serviciilor/</link>
-      <guid>https://izz.ro/extern/volodimir-zelenski-i-a-cerut-public-lui-elon-musk-restabilirea-serviciilor/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:51:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://observatornews.ro/extern/zelenski-ii-cere-lui-elon-musk-sa-restabileasca-starlink-in-ucraina-oameni-vor-muri-669116.html">Observator, Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/volodimir-zelenski-i-a-cerut-public-lui-elon-musk-restabilirea-serviciilor/cover.jpg?v=a835eadf" medium="image" type="image/jpeg"/>
-      <description>Președintele Ucrainei, Volodimir Zelenski, i-a solicitat miercuri lui Elon Musk să repornească rețeaua de sateliți Starlink. Liderul de la Kiev a avertizat, într-un interviu, că întreruperea serviciilor poate provoca pierderi de vieți omenești pe front și a catalogat situația drept o eroare majoră, exprimându-și speranța că problemele sunt de natură tehnică.</description>
     </item>
     <item>
       <title>Al patrulea mesaj RO-ALERT emis în Tulcea din cauza dronelor</title>
@@ -107,6 +97,16 @@
       <description>Negocierile pentru extinderea UE au avansat puternic: Muntenegru conduce cu 21 de capitole închise din 33, Albania a deschis toate capitolele, în timp ce Republica Moldova și Ucraina au progresat prin deschiderea a câte patru clustere.</description>
     </item>
     <item>
+      <title>Polonia îl chestionează pe Elon Musk privind serviciile Starlink în Ucraina</title>
+      <link>https://izz.ro/extern/polonia-il-chestioneaza-pe-elon-musk-privind-serviciile-starlink-in-ucraina/</link>
+      <guid>https://izz.ro/extern/polonia-il-chestioneaza-pe-elon-musk-privind-serviciile-starlink-in-ucraina/</guid>
+      <pubDate>Wed, 14 Oct 2026 13:38:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/polonia-il-acuza-pe-elon-musk-ca-face-jocuri-politice-cu-starlink-in-ucraina-suntem-cu-ochii-pe-tine-807214.html">Antena 3 CNN, HotNews</source>
+      <media:content url="https://izz.ro/extern/polonia-il-chestioneaza-pe-elon-musk-privind-serviciile-starlink-in-ucraina/cover.jpg?v=9a6f02e2" medium="image" type="image/jpeg"/>
+      <description>Ministrul de Externe al Poloniei, Radoslaw Sikorski, i-a cerut explicații lui Elon Musk, acuzându-l de implicare în jocuri politice cu privire la utilizarea rețelei Starlink în Ucraina. Reacția oficialului de la Varșovia a apărut după ce autoritățile de la Kiev au semnalat că SpaceX a impus restricții asupra unor servicii, afectând misiunile dronelor de luptă ucrainene.</description>
+    </item>
+    <item>
       <title>Accesul militarilor ucraineni la internetul prin satelit Starlink a fost restricționat</title>
       <link>https://izz.ro/extern/accesul-militarilor-ucraineni-la-internetul-prin-satelit-starlink-a-fost/</link>
       <guid>https://izz.ro/extern/accesul-militarilor-ucraineni-la-internetul-prin-satelit-starlink-a-fost/</guid>
@@ -165,16 +165,6 @@
       <source url="https://www.digi24.ro/stiri/externe/reactia-kremlinului-dupa-informatiile-ca-serviciile-starlink-ar-fi-fost-restrictionate-pentru-armata-ucraineana-3991969">Digi24 Extern</source>
       <media:content url="https://izz.ro/extern/kremlinul-comenteaza-informatiile-privind-restrictionarea-serviciilor-starlink/cover.jpg?v=04ae9caa" medium="image" type="image/jpeg"/>
       <description>Purtătorul de cuvânt al președinției ruse, Dmitri Peskov, a reacționat oficial la controversele legate de utilizarea sateliților companiei SpaceX și eventualele limitări ale acestora în conflictul din Ucraina.</description>
-    </item>
-    <item>
-      <title>Ministrul polonez de Externe îi cere explicații lui Elon Musk privind rețeaua Starlink</title>
-      <link>https://izz.ro/extern/ministrul-polonez-de-externe-ii-cere-explicatii-lui-elon-musk-privind-reteaua/</link>
-      <guid>https://izz.ro/extern/ministrul-polonez-de-externe-ii-cere-explicatii-lui-elon-musk-privind-reteaua/</guid>
-      <pubDate>Wed, 14 Oct 2026 11:53:49 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/faci-jocuri-politice-ministrul-polonez-de-externe-il-confrunta-pe-marele-om-musk-in-legatura-cu-functionarea-starlink-in-ucraina-3991915">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/ministrul-polonez-de-externe-ii-cere-explicatii-lui-elon-musk-privind-reteaua/cover.jpg?v=fa184cd7" medium="image" type="image/jpeg"/>
-      <description>Oficialul din Polonia l-a interpelat pe fondatorul SpaceX după ce autoritățile ucrainene au acuzat limitarea unor servicii de internet esențiale pentru coordonarea atacurilor cu drone.</description>
     </item>
     <item>
       <title>Uniunea Europeană exclude noi programe de finanțare pentru Ucraina</title>
@@ -273,7 +263,7 @@
       <pubDate>Tue, 13 Oct 2026 21:12:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/zelenski-sustine-ca-ucraina-nu-a-fost-avertizata-de-aliati-cu-privire-la-un-atac-deosebit-de-ticalos-al-rusilor-trump-ii-ajutam-807084.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/extern/volodimir-zelenski-acuza-aliatii-ca-nu-l-au-avertizat-despre-atacul-rusesc/cover.jpg?v=15e74518" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/volodimir-zelenski-acuza-aliatii-ca-nu-l-au-avertizat-despre-atacul-rusesc/cover.jpg?v=14d6edd3" medium="image" type="image/jpeg"/>
       <description>Președintele ucrainean Volodimir Zelenski a afirmat că partenerii occidentali nu au informat Kievul în legătură cu recentele lovituri cu rachete balistice lansate de Rusia asupra capitalei.</description>
     </item>
     <item>
@@ -488,5 +478,14 @@
       <category>extern</category>
       <source url="https://www.g4media.ro/intreruperi-de-curent-in-ucraina-dupa-atacuri-rusesti-asupra-infrastructurii-energetice.html">G4Media</source>
       <description>Forțele ruse au bombardat în timpul nopții obiective energetice și căi ferate din Ucraina. În regiunea Dnipropetrovsk, atacurile cu artilerie au vizat trei raioane, afectând și zone civile.</description>
+    </item>
+    <item>
+      <title>Ungaria cere Ucrainei respectarea drepturilor educaționale pentru minorități</title>
+      <link>https://izz.ro/extern/ungaria-cere-ucrainei-respectarea-drepturilor-educationale-pentru-minoritati/</link>
+      <guid>https://izz.ro/extern/ungaria-cere-ucrainei-respectarea-drepturilor-educationale-pentru-minoritati/</guid>
+      <pubDate>Mon, 12 Oct 2026 08:39:01 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/ungaria-ucraina-sa-si-respecte-angajamentele-privind-invatamantul-pentru-minoritati-anita-orban-ungaria-va-monitoriza-implementarea-legislatiei-ucrainene.html">G4Media</source>
+      <description>Ministrul de externe ungar Anita Orban a subliniat la Luxemburg necesitatea ca Ucraina să garanteze învățământul în limba maghiară și securitatea juridică a școlilor pentru minorități, Budapesta urmând să monitorizeze legislația de la Kiev.</description>
     </item>
 </channel></rss>

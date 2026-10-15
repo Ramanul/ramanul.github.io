@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/franta/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Franța pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 22:36:22 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 01:44:16 +0000</lastBuildDate>
     <item>
       <title>Muntele Mont Blanc a pierdut peste un metru din înălțime anul trecut</title>
       <link>https://izz.ro/extern/muntele-mont-blanc-a-pierdut-peste-un-metru-din-inaltime-anul-trecut/</link>
@@ -15,6 +15,16 @@
       <source url="https://hotnews.ro/acoperisul-europei-pierde-mai-mult-de-1-metru-din-inaltime-intr-un-an-fenomenul-ciudat-observat-de-cercetatori-cu-ochiul-liber-la-inaltimi-ametitoare-2376445">HotNews</source>
       <media:content url="https://izz.ro/extern/muntele-mont-blanc-a-pierdut-peste-un-metru-din-inaltime-anul-trecut/cover.jpg?v=d8403417" medium="image" type="image/jpeg"/>
       <description>Cel mai înalt vârf din Europa de Vest, situat în Franța, continuă să scadă din cauza schimbărilor climatice din Alpi, măsurând în prezent 4.807 metri deasupra nivelului mării.</description>
+    </item>
+    <item>
+      <title>Dispozitivele inteligente din locuințe devin ținte vulnerabile pentru atacurile cibernetice</title>
+      <link>https://izz.ro/tech/dispozitivele-inteligente-din-locuinte-devin-tinte-vulnerabile-pentru-atacurile/</link>
+      <guid>https://izz.ro/tech/dispozitivele-inteligente-din-locuinte-devin-tinte-vulnerabile-pentru-atacurile/</guid>
+      <pubDate>Wed, 14 Oct 2026 21:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://spotmedia.ro/stiri/it/ar-putea-hackerii-sa-ajunga-la-frigiderul-tau-portitele-prin-care-se-pot-strecura-in-casa">Spotmedia</source>
+      <media:content url="https://izz.ro/tech/dispozitivele-inteligente-din-locuinte-devin-tinte-vulnerabile-pentru-atacurile/cover.jpg?v=f3af5bba" medium="image" type="image/jpeg"/>
+      <description>Specialiștii avertizează că aparatele electrocasnice conectate la internet, precum frigiderele, televizoarele smart sau sistemele de climatizare, pot fi exploatate de hackeri pentru a pătrunde în rețelele casnice și a prelua controlul de la distanță.</description>
     </item>
     <item>
       <title>Marine Le Pen propune reducerea drastică a atribuțiilor Uniunii Europene</title>
@@ -456,14 +466,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/france-prime-minister-sebastien-lecornu-schools-fuel-agriculture-speech/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Sébastien Lecornu a anunțat eliberarea de rezerve strategice de combustibil pentru reducerea prețurilor și a promis soluții pentru problemele din unitățile de învățământ, încercând să tempereze protestele tinerilor.</description>
-    </item>
-    <item>
-      <title>Franța și Germania cer UE un instrument comercial agresiv împotriva Chinei</title>
-      <link>https://izz.ro/extern/franta-si-germania-cer-ue-un-instrument-comercial-agresiv-impotriva-chinei/</link>
-      <guid>https://izz.ro/extern/franta-si-germania-cer-ue-un-instrument-comercial-agresiv-impotriva-chinei/</guid>
-      <pubDate>Wed, 07 Oct 2026 17:11:20 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://cursdeguvernare.ro/mecanism-franco-german-anti-china-bazooka-comerciala-strategie-comert-arma-mercantilism-beijing.html">Curs de Guvernare</source>
-      <description>Emmanuel Macron și Friedrich Merz solicită Ursulei von der Leyen măsuri comerciale dure, inclusiv excluderea unor actori de pe piața internă, pentru a contracara dependențele economice și presiunile globale.</description>
     </item>
 </channel></rss>
