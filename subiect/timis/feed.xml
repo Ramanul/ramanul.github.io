@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/timis/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Timiș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 18:37:26 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 22:34:58 +0000</lastBuildDate>
     <item>
       <title>Locuitorii d dintr-o localitate din Timiș sunt avertizați privind lucrări la rețeaua de apă</title>
       <link>https://izz.ro/judetean/locuitorii-d-dintr-o-localitate-din-timis-sunt-avertizati-privind-lucrari-la/</link>
@@ -53,7 +53,6 @@
       <pubDate>Wed, 14 Oct 2026 14:03:36 +0000</pubDate>
       <category>local</category>
       <source url="https://newsbv.ro/smurd-interventii/">News Brașov</source>
-      <media:content url="https://izz.ro/local/echipajele-smurd-au-efectuat-aproape-370-000-de-interventii-medicale-in-primele/cover.jpg?v=6d662cbe" medium="image" type="image/jpeg"/>
       <description>Inspectoratul General pentru Situații de Urgență raportează peste 370 de mii de persoane asistate de SMURD în primele trei trimestre ale anului. Cele mai multe solicitări s-au înregistrat în București-Ilfov, Timiș și Mureș.</description>
     </item>
     <item>
@@ -300,6 +299,15 @@
       <description>Conducerea Consiliului Județean Timiș critică decizia prefectului de a contesta o hotărâre a instituției, în timp ce ignoră un act administrativ identic emis de Primăria Timișoara.</description>
     </item>
     <item>
+      <title>Accident rutier pe DN6 în județul Timiș după un impact cu un TIR</title>
+      <link>https://izz.ro/judetean/accident-rutier-pe-dn6-in-judetul-timis-dupa-un-impact-cu-un-tir/</link>
+      <guid>https://izz.ro/judetean/accident-rutier-pe-dn6-in-judetul-timis-dupa-un-impact-cu-un-tir/</guid>
+      <pubDate>Sun, 04 Oct 2026 17:35:04 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.opiniatimisoarei.ro/impact-intre-un-microbuz-care-tracta-un-slep-cu-masina-pe-el-si-un-tir-pe-dn6-in-timis-video/04/10/2026">Opinia Timișoarei</source>
+      <description>Un microbuz care tracta o platformă cu o mașină a intrat în balans pe DN6, în județul Timiș, și s-a ciocnit violent cu un TIR care circula regulamentar pe sensul opus.</description>
+    </item>
+    <item>
       <title>Nouă schimbare la conducerea clasamentului în Liga a IV-a Timiș</title>
       <link>https://izz.ro/local/noua-schimbare-la-conducerea-clasamentului-in-liga-a-iv-a-timis/</link>
       <guid>https://izz.ro/local/noua-schimbare-la-conducerea-clasamentului-in-liga-a-iv-a-timis/</guid>
@@ -334,14 +342,5 @@
       <category>judetean</category>
       <source url="https://www.ziuadevest.ro/aproape-4-800-de-firme-si-pfa-au-intrat-in-insolventa-in-primele-opt-luni-timisul-printre-judetele-cu-cele-mai-multe-cazuri/">Ziua de Vest</source>
       <description>Economia românească înregistrează mii de insolvențe în primele opt luni ale anului, pe fondul inflației ridicate și al dobânzilor mari, județul Timiș fiind pe locul cinci.</description>
-    </item>
-    <item>
-      <title>Un tânăr a murit și altul a fost rănit într-un accident rutier în Timiș</title>
-      <link>https://izz.ro/local/un-tanar-a-murit-si-altul-a-fost-ranit-intr-un-accident-rutier-in-timis/</link>
-      <guid>https://izz.ro/local/un-tanar-a-murit-si-altul-a-fost-ranit-intr-un-accident-rutier-in-timis/</guid>
-      <pubDate>Sat, 03 Oct 2026 19:44:17 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.ziuadevest.ro/tragedie-pe-un-drum-forestier-din-timis-un-tanar-de-25-de-ani-a-murit-dupa-ce-masina-s-a-rasturnat/">Ziua de Vest, Digi24</source>
-      <description>Un tânăr de 25 de ani și-a pierdut viața, iar un alt bărbat a fost rănit după ce mașina în care se aflau s-a răsturnat pe un drum forestier din comuna Tomești, județul Timiș. Autoturismul a lovit un colț de stâncă în timp ce cobora de pe Vârful Padeș spre Tomești. Victima a decedat pe loc, fiind prinsă sub autovehicul, în timp ce șoferul a fost transportat la spitalul din Făget.</description>
     </item>
 </channel></rss>
