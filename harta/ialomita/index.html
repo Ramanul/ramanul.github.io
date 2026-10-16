@@ -13,7 +13,7 @@
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
-  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=41b314c9">
   <link rel="canonical" href="https://izz.ro/harta/ialomita/">
   <meta property="og:title" content="Știri din Ialomița — Harta știrilor IZZ.ro">
   <meta property="og:description" content="Știri locale și județene localizate în Ialomița, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
@@ -66,10 +66,11 @@
       </fieldset>
       <fieldset class="filter-group">
         <legend>Grupează rezultatele ca</legend>
-        <div class="segmented" role="radiogroup" aria-label="Grupează rezultatele ca">
+        <div class="segmented" role="radiogroup" aria-label="Grupează rezultatele ca" aria-describedby="view-hint">
           <button type="button" class="active" role="radio" aria-checked="true" data-view="events">Evenimente</button>
           <button type="button" role="radio" aria-checked="false" data-view="articles">Relatări</button>
         </div>
+        <p id="view-hint" class="filter-hint">Un eveniment adună toate relatările despre aceeași întâmplare, din una sau mai multe surse.</p>
       </fieldset>
       <label class="search">
         <span>Caută loc, titlu sau sursă</span>
@@ -163,6 +164,6 @@
     </section>
   </main>
 
-  <script src="/static/harta-stiri/harta-stiri.js" defer></script>
+  <script src="/static/harta-stiri/harta-stiri.js?v=bb92f753" defer></script>
 </body>
 </html>

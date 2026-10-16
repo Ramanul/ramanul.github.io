@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cernavoda/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cernavodă pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 12:49:37 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 17:48:19 +0000</lastBuildDate>
     <item>
       <title>Nuclearelectrica reduce estimarea de profit pe 2026 și prognoza dividendelor</title>
       <link>https://izz.ro/local/nuclearelectrica-reduce-estimarea-de-profit-pe-2026-si-prognoza-dividendelor/</link>
@@ -15,6 +15,16 @@
       <source url="https://cursdeguvernare.ro/nuclearelectrica-isi-reduce-cu-43-estimarea-de-profit-pentru-2026-dividendele-prognozate-scad-cu-65-compania-mizeaza-pe-repornirea-reactoarelor-de-la-1-noiembrie.html">Curs de Guvernare</source>
       <media:content url="https://izz.ro/local/nuclearelectrica-reduce-estimarea-de-profit-pe-2026-si-prognoza-dividendelor/cover.jpg?v=f3fb788e" medium="image" type="image/jpeg"/>
       <description>Compania a propus scăderea profitului net prognozat la 1,18 miliarde de lei din cauza opririlor neplanificate de la Cernavodă, urmând ca acționarii să voteze rectificarea bugetară.</description>
+    </item>
+    <item>
+      <title>Specialiștii analizează vulnerabilitatea centralelor nucleare românești la secetă</title>
+      <link>https://izz.ro/local/specialistii-analizeaza-vulnerabilitatea-centralelor-nucleare-romanesti-la/</link>
+      <guid>https://izz.ro/local/specialistii-analizeaza-vulnerabilitatea-centralelor-nucleare-romanesti-la/</guid>
+      <pubDate>Fri, 16 Oct 2026 04:08:18 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.contributors.ro/fratilor-solutia-nu-e-hidro/">Contributors</source>
+      <media:content url="https://izz.ro/local/specialistii-analizeaza-vulnerabilitatea-centralelor-nucleare-romanesti-la/cover.jpg?v=aaf84857" medium="image" type="image/jpeg"/>
+      <description>Reducerea debitului Dunării ridică probleme tehnice pentru funcționarea centralei de la Cernavodă, în timp ce vecinii precum Cehia și Slovacia își mențin producția nucleară activă indiferent de nivelul cursurilor de apă.</description>
     </item>
     <item>
       <title>Gradul de umplere a lacurilor de acumulare a scăzut la 51% în octombrie</title>
@@ -159,23 +169,5 @@
       <category>local</category>
       <source url="https://adevarul.ro/economie/unul-dintre-cei-mai-mari-furnizori-de-energie-din-2561794.html">Adevărul</source>
       <description>Compania Getica 95, al șaselea furnizor de energie electrică din România, a cerut insolvența după ce a înregistrat pierderi uriașe de 230 de milioane de lei, fiind obligată să cumpere scump energie din piața liberă.</description>
-    </item>
-    <item>
-      <title>România a importat sâmbătă seară o cantitate record de energie electrică</title>
-      <link>https://izz.ro/economic/romania-a-importat-sambata-seara-o-cantitate-record-de-energie-electrica/</link>
-      <guid>https://izz.ro/economic/romania-a-importat-sambata-seara-o-cantitate-record-de-energie-electrica/</guid>
-      <pubDate>Sun, 04 Oct 2026 16:56:47 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.g4media.ro/romania-a-importat-sambata-seara-aproape-3-400-mw-mai-mult-decat-toata-productia-de-energie-electrica-a-tarii-capacitatea-maxima-de-import-este-de-4-000-mw.html">G4Media</source>
-      <description>Consumul intern a fost acoperit sâmbătă seara prin importuri de aproape 3.400 MW, o valoare ce a depășit producția națională proprie și s-a apropiat de pragul maxim de interconexiune de 4.000 MW.</description>
-    </item>
-    <item>
-      <title>Sistemul energetic românesc depinde masiv de importuri din cauza secetei și a producției scăzute</title>
-      <link>https://izz.ro/economic/sistemul-energetic-romanesc-depinde-masiv-de-importuri-din-cauza-secetei-si-a/</link>
-      <guid>https://izz.ro/economic/sistemul-energetic-romanesc-depinde-masiv-de-importuri-din-cauza-secetei-si-a/</guid>
-      <pubDate>Sun, 04 Oct 2026 12:57:03 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.economica.net/sistemul-energetic-se-apropie-de-limite-sambata-seara-importul-s-a-apropiat-de-3-400-mw-si-a-fost-mai-mare-decat-toata-productia-tarii-capacitatea-maxima-de-import-este-de-4-000-mw_982646.html">Economica</source>
-      <description>Producția internă de electricitate a scăzut la 2.900 MW sâmbătă seară, fiind depășită de importurile care s-au apropiat de 3.400 MW. Seceta severă a redus aportul hidrocentralelor, apropiind sistemul de capacitatea maximă de import.</description>
     </item>
 </channel></rss>

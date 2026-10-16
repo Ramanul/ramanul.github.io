@@ -13,7 +13,7 @@
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
-  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=41b314c9">
   <link rel="canonical" href="https://izz.ro/harta/bucuresti/">
   <meta property="og:title" content="Știri din București — Harta știrilor IZZ.ro">
   <meta property="og:description" content="Știri locale și județene localizate în București, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
@@ -66,10 +66,11 @@
       </fieldset>
       <fieldset class="filter-group">
         <legend>Grupează rezultatele ca</legend>
-        <div class="segmented" role="radiogroup" aria-label="Grupează rezultatele ca">
+        <div class="segmented" role="radiogroup" aria-label="Grupează rezultatele ca" aria-describedby="view-hint">
           <button type="button" class="active" role="radio" aria-checked="true" data-view="events">Evenimente</button>
           <button type="button" role="radio" aria-checked="false" data-view="articles">Relatări</button>
         </div>
+        <p id="view-hint" class="filter-hint">Un eveniment adună toate relatările despre aceeași întâmplare, din una sau mai multe surse.</p>
       </fieldset>
       <label class="search">
         <span>Caută loc, titlu sau sursă</span>
@@ -149,20 +150,20 @@
           <span id="panel-count"></span>
         </div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/anunt-privind-desfasurarea-licitatiei-publice-pentru-inchiriere-spatii/">Anunț privind desfășurarea licitației publice pentru închiriere spații comerciale în complexul Agroalimentar…</a> <span>Primăria Bucuresti Sectorul 4 · 16 octombrie 2026, 14:07</span></li>
+          <li><a href="/local/dispozitia-de-convocare-cu-ordinea-de-zi-a-sedintei-ordinare-a-consiliului/">Dispoziția de convocare cu ordinea de zi a ședinței ordinare a Consiliului Local al Sectorului 1 convocată…</a> <span>Primăria Bucuresti Sectorul 1 · 16 octombrie 2026, 18:26</span></li>
+<li><a href="/local/modificari-ale-traseelor-stb-in-bucuresti-pentru-evenimentul-pajura-district/">Modificări ale traseelor STB în București pentru evenimentul Pajura District Fest</a> <span>B365 · 16 octombrie 2026, 15:05</span></li>
+<li><a href="/local/anunt-privind-desfasurarea-licitatiei-publice-pentru-inchiriere-spatii/">Anunț privind desfășurarea licitației publice pentru închiriere spații comerciale în complexul Agroalimentar…</a> <span>Primăria Bucuresti Sectorul 4 · 16 octombrie 2026, 14:07</span></li>
+<li><a href="/local/colegiul-dinu-lipatti-din-bucuresti-a-fost-modernizat-si-consolidat/">Colegiul „Dinu Lipatti” din București a fost modernizat și consolidat</a> <span>B365 · 16 octombrie 2026, 14:07</span></li>
 <li><a href="/local/comunicat-de-presa-canotaj-pe-lacul-morii/">Comunicat de presa - Canotaj pe Lacul Morii</a> <span>Primăria Bucuresti Sectorul 6 · 16 octombrie 2026, 13:35</span></li>
 <li><a href="/local/piata-volanta-se-muta-in-zona-romana-intre-16-si-18-octombrie/">Piața volantă se mută în zona Romană, între 16 și 18 octombrie</a> <span>Primăria Bucuresti Sectorul 1 · 16 octombrie 2026, 13:18</span></li>
 <li><a href="/local/dispozitia-emisa-de-primarul-sectorului-5-nr-2774-16-10-2026/">Dispoziția emisă de Primarul Sectorului 5 nr. 2774/16.10.2026</a> <span>Primăria Bucuresti Sectorul 5 · 16 octombrie 2026, 13:13</span></li>
 <li><a href="/local/dispozitia-emisa-de-primarul-sectorului-5-nr-2773-16-10-2026/">Dispoziția emisă de Primarul Sectorului 5 nr. 2773/16.10.2026</a> <span>Primăria Bucuresti Sectorul 5 · 16 octombrie 2026, 13:12</span></li>
-<li><a href="/local/dispozitia-emisa-de-primarul-sectorului-5-nr-2772-16-10-2026/">Dispoziția emisă de Primarul Sectorului 5 nr. 2772/16.10.2026</a> <span>Primăria Bucuresti Sectorul 5 · 16 octombrie 2026, 13:11</span></li>
-<li><a href="/local/hotarare-privind-aprobarea-participarii-directiei-generale-de-asistenta-sociala/">Hotărâre de consiliu: aprobarea participării Direcției Generale de Asistență Socială și Protecția…</a> <span>Primăria Bucuresti Sectorul 6 · 16 octombrie 2026, 11:55</span></li>
-<li><a href="/local/hotarare-pentru-modificarea-si-completarea-hotararii-consiliului-local-al/">Hotărâre de consiliu: solicitarea către Consiliul General al Municipiului București de emitere a…</a> <span>Primăria Bucuresti Sectorul 6 · 16 octombrie 2026, 11:49</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>
     </section>
   </main>
 
-  <script src="/static/harta-stiri/harta-stiri.js" defer></script>
+  <script src="/static/harta-stiri/harta-stiri.js?v=bb92f753" defer></script>
 </body>
 </html>

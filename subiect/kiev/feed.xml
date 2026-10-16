@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/kiev/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Kiev pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 12:49:37 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 17:48:19 +0000</lastBuildDate>
+    <item>
+      <title>Atacurile rusești asupra infrastructurii energetice paralizează orașele ucrainene</title>
+      <link>https://izz.ro/extern/atacurile-rusesti-asupra-infrastructurii-energetice-paralizeaza-orasele/</link>
+      <guid>https://izz.ro/extern/atacurile-rusesti-asupra-infrastructurii-energetice-paralizeaza-orasele/</guid>
+      <pubDate>Fri, 16 Oct 2026 15:28:10 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/16/attacks-on-ukraine-power-plants-show-russia-has-given-up-on-military-victory">The Guardian</source>
+      <media:content url="https://izz.ro/extern/atacurile-rusesti-asupra-infrastructurii-energetice-paralizeaza-orasele/cover.jpg?v=0e2093ac" medium="image" type="image/jpeg"/>
+      <description>Forțele ruse au intensificat bombardamentele cu rusești și drone asupra centralelor electrice din Kiev și Harkov, provocând pene majore de curent și întreruperi ale alimentării cu apă. Aceste acțiuni urmăresc să facă marile orașe din Ucraina de nelocuit.</description>
+    </item>
     <item>
       <title>Ucrainenii se pregătesc pentru o iarnă extrem de dificilă în pline atacuri</title>
       <link>https://izz.ro/extern/ucrainenii-se-pregatesc-pentru-o-iarna-extrem-de-dificila-in-pline-atacuri/</link>
@@ -167,23 +177,5 @@
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/europa/momentul-in-care-un-pod-important-din-kiev-este-2561788.html">Adevărul</source>
       <description>O dronă rusă a lovit Podul de Nord peste râul Nipru din capitala Ucrainei, provocând o explozie soldată cu doi răniți. Incidentul a avut loc în timp ce cancelarul Germaniei, Friedrich Merz, se afla în vizită oficială la Kiev.</description>
-    </item>
-    <item>
-      <title>Cancelarul german Friedrich Merz a anunțat un nou ajutor militar la Kiev</title>
-      <link>https://izz.ro/extern/cancelarul-german-friedrich-merz-a-anuntat-un-nou-ajutor-militar-la-kiev/</link>
-      <guid>https://izz.ro/extern/cancelarul-german-friedrich-merz-a-anuntat-un-nou-ajutor-militar-la-kiev/</guid>
-      <pubDate>Sun, 04 Oct 2026 16:22:34 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/in-vizita-la-kiev-friedrich-merz-a-anuntat-un-nou-pachet-de-ajutor-pentru-ucraina-3977247">Digi24 Extern, Știrile ProTV, Antena 3 CNN</source>
-      <description>În timpul unei vizite oficiale la Kiev, cancelarul german Friedrich Merz a declarat că Germania nu se va lăsa intimidată de atacurile Rusiei. Oficialul a prezentat un nou pachet de sprijin militar și financiar destinat Ucrainei, evaluat la peste un miliard de euro, menit să susțină țara în fața intensificării ofensivei ruse.</description>
-    </item>
-    <item>
-      <title>Rusia intensifică atacurile asupra Ucrainei după amenințări cu rafinării</title>
-      <link>https://izz.ro/extern/rusia-intensifica-atacurile-asupra-ucrainei-dupa-amenintari-cu-rafinarii/</link>
-      <guid>https://izz.ro/extern/rusia-intensifica-atacurile-asupra-ucrainei-dupa-amenintari-cu-rafinarii/</guid>
-      <pubDate>Sun, 04 Oct 2026 13:10:23 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/moscow-says-it-will-step-up-strikes-on-ukraine-after-kyiv-vows-to-hit-russian-oil-refineries/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Ministerul Apărării de la Moscova a anunțat represalii militare și lovituri masive asupra infrastructurii industriale din Kiev, ca replică la avertismentele lansate anterior de președintele Volodimir Zelenski.</description>
     </item>
 </channel></rss>

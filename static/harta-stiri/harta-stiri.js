@@ -1213,6 +1213,8 @@
       used.add(entry.id);
       entry.group.setAttribute("transform", `translate(${fmt(candidate.x)} ${fmt(candidate.y)})`);
       entry.fit.setAttribute("transform", `scale(${fmt(1 / screenScale(view))})`);
+      // Eticheta urmeaza forma: la cautare, „Satu Mare 0" se estompeaza odata cu judetul.
+      entry.group.classList.toggle("is-empty", !candidate.count);
       if (candidate.kind === "uat") {
         // Pastila inversa (disc alb, cifra inchisa) pentru TOATE UAT-urile: si cele fara stiri
         // arata „0" (cerinta editorului, 7 oct); aglomerarea o taie placeLabels pe prioritate,
@@ -1348,6 +1350,9 @@
     syncBasemapToView(view);
     stage.classList.toggle("is-zoomed", state.userZoom.k > 1);
     stage.classList.toggle("is-regional", state.level === "regional");
+    // Cu o cautare activa, unitatile fara nicio potrivire se estompeaza: altfel cele 41 de
+    // judete cu „0" par parte din rezultat (auditul UX din 2026-10-16, P0.2).
+    stage.classList.toggle("is-filtered", Boolean(norm(state.search)));
 
     const counts = new Map();
     for (const item of state.visible) {
@@ -1388,6 +1393,7 @@
 
     // UAT-urile județului deschis, taiate pe silueta lui (clip-path), fara siluetele vecinilor.
     const showUats = Boolean(state.zoomCounty && state.uats.length);
+    syncScaleScope(showUats);
     state.layers.uats.hidden = !showUats;
     state.layers.outline.hidden = !showUats;
     if (showUats) {
@@ -2270,15 +2276,22 @@
       titlu.textContent = item.title || "Fără titlu";
       const meta = document.createElement("span");
       const source = item.source_name || item.source;
-      meta.textContent = [item.locality, item.county, item.region, source, dateLabel(item.published)]
+      // Judetul se afiseaza cu eticheta lui („Brașov"), nu cu codul din date („BRASOV").
+      meta.textContent = [item.locality_label || item.locality, item.county ? judetLabel(item.county) : "",
+        item.region, source,
+        dateLabel(item.published)]
         .filter(Boolean).join(" · ");
       li.append(titlu, meta);
       if (state.viewMode === "events" && (item.eventArticleCount > 1 || item.eventSourceCount > 1)) {
         const context = document.createElement("span");
         context.className = "event-context";
-        context.textContent = item.eventArticleCount > 1
-          ? `${item.eventArticleCount} relatări · ${item.eventSourceCount} surse despre același eveniment`
-          : `${item.eventSourceCount} surse despre același eveniment`;
+        // „3 relatări · 1 surse" era si gramatical gresit, si neinformativ: aceeasi sursa
+        // care republica e alt fapt decat trei redactii diferite (vazut pe live 2026-10-16).
+        context.textContent = item.eventArticleCount > 1 && item.eventSourceCount <= 1
+          ? `${item.eventArticleCount} relatări din aceeași sursă`
+          : item.eventArticleCount > 1
+            ? `${item.eventArticleCount} relatări · ${item.eventSourceCount} surse despre același eveniment`
+            : `${item.eventSourceCount} surse despre același eveniment`;
         li.appendChild(context);
       }
       list.appendChild(li);
@@ -2324,6 +2337,44 @@
     const span = document.createElement("span");
     span.textContent = `${state.rawVisible.length} relatări · ${regions} regiuni · ${counties} județe · ${localities} localități confirmate · actualizat ${latest}`;
     stats.append(strong, span);
+    const note = levelNote();
+    if (note) {
+      const small = document.createElement("small");
+      small.className = "level-note";
+      small.textContent = note;
+      stats.append(small);
+    }
+  }
+
+  // Cifra mare se schimba intre niveluri fiindca nivelul e PRECIZIA localizarii (vezi
+  // `geo_level` in tools/build_harta_data.py), nu rubrica. Nota spune lucrul asta langa
+  // cifra, cu numarul exact de relatari care raman in afara — altfel 645 -> 596 arata a
+  // eroare de numarare (auditul UX din 2026-10-16, P0.1).
+  function levelNote() {
+    if (!state.level || state.level === "all") return "";
+    const saved = state.level;
+    // Comparatia e cu nivelul IMEDIAT mai larg, ca nota sa spuna exact unde apar restul:
+    // de la Local, cele doar cu judet (nu si cele doar cu regiune, care nu sunt la Judetean).
+    const wider = { local: "judetean", judetean: "all" }[saved];
+    let outside = 0;
+    if (wider) {
+      try {
+        state.level = wider;
+        outside = Math.max(0, filtered().length - state.rawVisible.length);
+      } finally {
+        state.level = saved;
+      }
+    }
+    const rest = outside === 1 ? "o relatare" : `${outside} relatări`;
+    if (saved === "local") {
+      return "Nivel local: numai știrile cu oraș sau comună identificată."
+        + (outside ? ` Încă ${rest} au doar județul și apar la „Județean”.` : "");
+    }
+    if (saved === "judetean") {
+      return "Nivel județean: știrile cu județ identificat, inclusiv cele locale."
+        + (outside ? ` Încă ${rest} au doar regiunea și apar la „Regional”.` : "");
+    }
+    return "Nivel regional: toate știrile localizate, grupate pe cele 7 regiuni editoriale.";
   }
 
   function syncLevelButtons() {
@@ -2435,6 +2486,21 @@
     if (push) {
       const url = urlForState();
       history.pushState({}, "", url);
+    }
+  }
+
+  // „Pe locuitor" are numitor doar pe judete. In interiorul unui judet butonul ramane
+  // activabil (starea se pastreaza la intoarcere), dar eticheta spune ce face efectiv acolo,
+  // langa control, nu doar in nota de sub harta (auditul UX din 2026-10-16, P0.3).
+  function syncScaleScope(insideCounty) {
+    const button = $('.segmented [data-scale="locuitori"]');
+    if (!button) return;
+    const label = insideCounty ? "Pe locuitor · doar județe" : "Pe locuitor";
+    if (button.textContent !== label) button.textContent = label;
+    if (insideCounty) {
+      button.title = "În interiorul unui județ nu avem populația pe orașe și comune, deci cifrele rămân volum.";
+    } else {
+      button.removeAttribute("title");
     }
   }
 

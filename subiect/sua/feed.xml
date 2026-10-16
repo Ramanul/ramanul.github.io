@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/sua/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SUA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 12:49:37 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 17:48:19 +0000</lastBuildDate>
+    <item>
+      <title>Volodimir Zelenski anunță că accesul la Starlink nu a fost complet restabilit</title>
+      <link>https://izz.ro/extern/volodimir-zelenski-anunta-ca-accesul-la-starlink-nu-a-fost-complet-restabilit/</link>
+      <guid>https://izz.ro/extern/volodimir-zelenski-anunta-ca-accesul-la-starlink-nu-a-fost-complet-restabilit/</guid>
+      <pubDate>Fri, 16 Oct 2026 15:39:41 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy">The Guardian</source>
+      <media:content url="https://izz.ro/extern/volodimir-zelenski-anunta-ca-accesul-la-starlink-nu-a-fost-complet-restabilit/cover.jpg?v=cf459437" medium="image" type="image/jpeg"/>
+      <description>Președintele ucrainean a declarat înus la Bruxelles că limitarea serviciului de internet prin satelit de către SUA a reprezentat o surpriză neplăcută, în timp ce solicită Uniunii Europene fonduri suplimentare de 70 de miliarde de euro.</description>
+    </item>
     <item>
       <title>Kimberly Guilfoyle și Paolo Zampolli au fost eliberați din funcții</title>
       <link>https://izz.ro/extern/kimberly-guilfoyle-si-paolo-zampolli-au-fost-eliberati-din-functii/</link>
@@ -103,7 +113,6 @@
       <pubDate>Thu, 15 Oct 2026 11:11:00 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.profit.ro/povesti-cu-profit/financiar/ultima-ora-dobanzile-romaniei-scad-la-cel-mai-redus-nivel-din-ultima-luna-sperante-pentru-a-avea-in-sfarsit-un-nou-guvern-22831131?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/economic/dobanzile-romaniei-au-scazut-la-cel-mai-redus-nivel-din-ultima-luna/cover.jpg?v=1def3092" medium="image" type="image/jpeg"/>
       <description>Costurile de împrumut ale statului român au înregistrat o scădere semnificativă pe fondul perspectivelor pozitive privind instalarea unui nou guvern cu puteri depline și al evoluțiilor favorabile de pe piețele internaționale.</description>
     </item>
     <item>
@@ -456,14 +465,5 @@
       <category>general</category>
       <source url="https://zch.ro/burse-pentru-liceenii-romani-care-vor-sa-studieze-un-an-in-sua-inscrierile-sunt-deschise-pana-pe-22-octombrie/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
       <description>Elevii din România au termen până la 22 octombrie să aplice pentru programul FLEX Global, care le oferă oportunitatea de a studia un an în America și de a locui cu o familie-gazdă.</description>
-    </item>
-    <item>
-      <title>O cântăreață ucraineană s-a întors din SUA pentru a susține soldații de pe front</title>
-      <link>https://izz.ro/extern/o-cantareata-ucraineana-s-a-intors-din-sua-pentru-a-sustine-soldatii-de-pe-front/</link>
-      <guid>https://izz.ro/extern/o-cantareata-ucraineana-s-a-intors-din-sua-pentru-a-sustine-soldatii-de-pe-front/</guid>
-      <pubDate>Sun, 11 Oct 2026 09:00:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.europalibera.md/a/o-cantareata-ucraineana-revine-din-sua-ca-sa-cante-pentru-soldati-aproape-de-front/33872049.html">Europa Liberă</source>
-      <description>După studii la New York, artista Valeriia Vovk a revenit în Ucraina pentru a cânta în fața trupelor militare și a aduce un suport moral direct în apropierea liniei de front.</description>
     </item>
 </channel></rss>

@@ -1004,6 +1004,15 @@ body:has(#izz-consent) { padding-bottom: 4.5rem; }
   width: 100%; height: 100%; object-fit: cover; object-position: center 20%;
   display: block; filter: contrast(1.04) saturate(.92);
 }
+/* Decupaj pe FATA (tools/incadrare_portrete.py): imaginea e asezata in medalion exact cat sa
+   cuprinda capul si umerii, oricum ar fi fotografia sursa (oficiala, de meci, in picioare).
+   Selectorul are doua clase ca sa bata `.card-media img` (width/height 100%), altfel
+   decupajul ar fi intins inapoi pe tot medalionul. `center 20%` de mai sus ramane doar
+   pentru portretele fara fata detectata (harti, cladiri). */
+.art-portret-wrap .art-portret--fata {
+  position: absolute; left: var(--px); top: var(--py);
+  width: var(--pw); height: auto; max-width: none; object-fit: fill;
+}
 
 /* Locurile in care intra arta. `--radius`/marginile raman ale locului, nu ale artei. */
 .card-media > .art { height: 100%; border-radius: inherit; }

@@ -75,6 +75,7 @@ button,input { font:inherit; }
 .map-county:hover,.map-uat:hover,.map-county.is-hover,.map-uat.is-hover{stroke:var(--map-hot);stroke-width:2.4}
 .map-county.is-selected,.map-uat.is-selected{stroke:var(--map-hot);stroke-width:2.6}
 .map-county.is-dim,.map-uat.is-dim{opacity:.28}
+.is-filtered .map-county.is-empty:not(.is-selected),.is-filtered .map-uat.is-empty,.is-filtered .map-label.is-empty{opacity:.35}
 .map-uat{stroke:var(--map-line);stroke-width:.9;cursor:pointer}
 .map-county{cursor:pointer}
 .map-county-hit{fill:#000;fill-opacity:0;stroke:transparent;pointer-events:all;cursor:pointer}
@@ -185,3 +186,6 @@ button,input { font:inherit; }
   .news-panel::before{content:"";display:block;width:44px;height:5px;border-radius:3px;background:var(--border);margin:.55rem auto 0}
 }
 @media (max-width:560px){.map-card{top:52px}}
+.map-stats .level-note{display:block;max-width:320px;margin:.4rem 0 0 auto;color:var(--muted);font-size:.76rem;line-height:1.35}
+.filter-hint{max-width:270px;margin:.3rem 0 0;color:var(--muted);font-size:.72rem;line-height:1.35}
+@media (max-width:900px){.map-stats .level-note{margin-left:0;max-width:none}.filter-hint{max-width:none}}

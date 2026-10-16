@@ -7,27 +7,41 @@
      · shellul (prima pagina, pagina de offline, CSS-urile, fonturile, iconitele) se
        PRECACHEAZA la instalare — fara asta, prima deschidere fara net arata o eroare de
        browser in loc de site;
-     · articolele si restul paginilor merg pe stale-while-revalidate: se raspunde din cache
-       imediat si se reimprospateaza in fundal. Un ziar se citeste si in metrou; a astepta
-       reteaua inseamna a afisa „pagina nu poate fi incarcata" exact cand cititorul are
-       continutul deja pe telefon.
-     · /static/* e servit cu cheia FARA query: activele poarta ?v=<hash> ca sa sparga
-       cache-ul de 30 de zile, iar altfel fiecare deploy ar lasa o copie noua in cache.
+     · paginile (prima pagina, articolele, categoriile) merg pe RETEA INTAI, cu termen:
+       daca reteaua raspunde in TERMEN_RETEA ms, cititorul vede site-ul de acum; daca nu
+       (metrou, semnal slab) sau pica, primeste copia salvata. Pana pe 2026-10-16 era
+       stale-while-revalidate: fiecare intoarcere pe site arata INTAI prima pagina de la
+       vizita trecuta — la un agregator de stiri, stirile de ieri, prezentate ca azi.
+     · /static/*?v=<hash> e cheiat pe URL-ul EXACT si servit din cache doar daca e
+       EXACT versiunea ceruta; altfel din retea, iar copiile cu alt hash ale aceluiasi
+       fisier se sterg (un singur exemplar per fisier, ca inainte). Doar FARA retea se
+       accepta alta versiune decat cea ceruta — mai bine o pagina cu stilul de ieri decat
+       niciuna.
+       De ce nu mai e cheia fara query (cum a fost pana pe 2026-10-16): asa, `?v=` — singurul
+       mecanism care sparge cache-ul de 30 de zile — nu mai sparge nimic pentru cine are
+       service workerul. HTML-ul nou venea cu `styles.css` VECHI: reprodus in Chromium
+       headless pe /extern/ (coperta cu portret randata cu CSS-ul de dinainte de 3 oct.:
+       poza pe tot cardul, taiata la frunte, cu sigiliul datei peste ea) si masurat: dupa
+       orice schimbare de CSS, prima vizita a fiecarui cititor iesea rupta.
 
    CE NU INTERCEPTEAZA, deliberat:
      · orice altceva decat GET;
      · domenii straine (n-avem ce cache-ui, si am deveni o problema de confidentialitate);
      · /push/* — abonarea e o operatiune, nu un document;
      · /build.json, /feed.xml, sitemapuri: sunt date vii, citite de unelte, si un raspuns
-       servit din cache ar minti despre versiunea publicata.
+       servit din cache ar minti despre versiunea publicata;
+     · /static/harta-stiri/data/*: datele hartii (map.json, UAT-uri) sunt date vii ale
+       ultimei rulari, nevesionate — prin stale-while-revalidate, harta arata la prima
+       deschidere stirile de la vizita trecuta (citit 2026-10-16).
 
    LIMITA ASUMATA: cache-ul de articole e plafonat la MAX_ARTICOLE intrari, taiate de la cea
    mai veche. Nu e o arhiva: e „ce ai mai citit". Articolele expirate din fereastra TTL nu
    sunt recuperate aici — pentru ele exista fallback-ul de oglinda din infra/worker-404-mirror.js.
 */
 
-const SHELL = 'izz-shell-v1';
-const ARTICOLE = 'izz-articole-v1';
+const SHELL = 'izz-shell-v2';   // v2: cheile v1 tin CSS cu versiune amestecata — se sterg la activare
+const ARTICOLE = 'izz-articole-v2';
+const TERMEN_RETEA = 2500;   // ms pana cand o pagina cade pe copia salvata
 const MAX_ARTICOLE = 60;
 const OFFLINE = '/offline/';
 
@@ -50,11 +64,9 @@ const PRECACHE = [
   '/static/fonts/PlayfairDisplay-800.ro.woff2',
 ];
 
-/* Cheia de cache: fara `?v=` pentru active, cu tot restul pentru pagini. */
+/* Cheia de cache: URL-ul intreg. Un activ versionat (`?v=`) e alt fisier la alt hash. */
 function cheie(request) {
-  const url = new URL(request.url);
-  if (url.pathname.startsWith('/static/')) return url.origin + url.pathname;
-  return url.href;
+  return new URL(request.url).href;
 }
 
 function eNavigare(request) {
@@ -116,6 +128,52 @@ async function staleWhileRevalidate(request, cacheNume, event) {
   });
 }
 
+/* Activ versionat: continutul de la un `?v=` dat nu se schimba niciodata (hash de continut,
+   `render._asset_ver`), deci copia EXACTA din cache e mereu corecta, iar lipsa ei inseamna
+   un deploy nou — care se ia din retea, nu se ghiceste din cache. */
+async function activVersionat(request) {
+  const cache = await caches.open(SHELL);
+  const exact = await cache.match(request.url);
+  if (exact) return exact;
+  try {
+    const raspuns = await fetch(request);
+    if (raspuns && raspuns.ok) {
+      const url = new URL(request.url);
+      await puneIn(SHELL, url.href, raspuns);
+      // Cel mult DOUA copii per fisier (cea noua + cea dinainte), altfel fiecare deploy ar
+      // lasa inca un styles.css in telefon. A doua ramane pentru o pagina salvata offline
+      // care inca cere hash-ul vechi. Cheile vin in ordinea insertiei: primele sunt vechi.
+      const aceleasi = (await cache.keys()).filter((k) => new URL(k.url).pathname === url.pathname);
+      for (const k of aceleasi.slice(0, Math.max(0, aceleasi.length - 2))) await cache.delete(k);
+      return raspuns;
+    }
+    if (raspuns) return raspuns;
+  } catch { /* offline: cadem pe orice versiune a fisierului */ }
+  // `match` ar da PRIMA copie (cea mai veche); vrem ultima pusa.
+  const toate = await cache.matchAll(request, { ignoreSearch: true });
+  return toate[toate.length - 1] || new Response('', { status: 504 });
+}
+
+/* Pagini: reteaua castiga daca raspunde in TERMEN_RETEA; altfel copia salvata, iar
+   raspunsul care vine mai tarziu tot ajunge in cache (`waitUntil`). */
+async function reteaIntai(request, cacheNume, event) {
+  const promisiune = reimprospateaza(request, cacheNume);
+  if (event && event.waitUntil) event.waitUntil(promisiune);
+  const termen = new Promise((rezolva) => setTimeout(() => rezolva(undefined), TERMEN_RETEA));
+  const primul = await Promise.race([promisiune, termen]);
+  if (primul) return primul;
+  const cache = await caches.open(cacheNume);
+  const gasit = await cache.match(cheie(request));
+  if (gasit) return gasit;
+  const viu = await promisiune;   // nici copie, nici retea in termen: asteptam reteaua
+  if (viu) return viu;
+  const ofl = await caches.match(OFFLINE);
+  return ofl || new Response('Fără conexiune și fără copie salvată.', {
+    status: 503,
+    headers: { 'content-type': 'text/plain; charset=utf-8' },
+  });
+}
+
 self.addEventListener('install', (event) => {
   event.waitUntil((async () => {
     const cache = await caches.open(SHELL);
@@ -146,15 +204,20 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
   if (url.pathname.startsWith('/push/')) return;
+  if (url.pathname.startsWith('/static/harta-stiri/data/')) return;
 
   if (url.pathname.startsWith('/static/')) {
-    event.respondWith(staleWhileRevalidate(request, SHELL, event));
+    // Versionat -> URL exact; nevesionat (fonturi, iconite: nume stabile) -> din cache,
+    // reimprospatat in fundal.
+    event.respondWith(url.searchParams.has('v')
+      ? activVersionat(request)
+      : staleWhileRevalidate(request, SHELL, event));
     return;
   }
   if (eNavigare(request)) {
     // Prima pagina sta in cache-ul de shell (e precache-uita); restul paginilor, in cel de
     // articole, care e plafonat si se taie.
-    event.respondWith(staleWhileRevalidate(request, url.pathname === '/' ? SHELL : ARTICOLE, event));
+    event.respondWith(reteaIntai(request, url.pathname === '/' ? SHELL : ARTICOLE, event));
   }
 });
 

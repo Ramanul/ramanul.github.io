@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/donald-trump/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Donald Trump pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 12:49:37 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 17:48:19 +0000</lastBuildDate>
     <item>
       <title>Membrii FIFA cer retragerea Premiului pentru Pace acordat lui Gianni Infantino</title>
       <link>https://izz.ro/sport/membrii-fifa-cer-retragerea-premiului-pentru-pace-acordat-lui-gianni-infantino/</link>
@@ -55,16 +55,6 @@
       <source url="https://www.digi24.ro/stiri/externe/mapamond/ucraina-ar-fi-ramas-fara-rachete-interceptoare-patriot-surse-criza-majora-in-apararea-antiaeriana-pe-fondul-tensiunilor-cu-trump-3994829">Digi24 Extern</source>
       <media:content url="https://izz.ro/extern/ucraina-ar-fi-epuizat-stocul-de-rachete-interceptoare-patriot-pe-fondul/cover.jpg?v=af83c34a" medium="image" type="image/jpeg"/>
       <description>Apărarea antiaeriană ucraineană se confruntă cu o criză majoră după ce ar fi rămas fără rachete Patriot, în timp ce relațiile cu administrația Trump sunt tensionate din cauza divergențelor legate de atacurile asupra infrastructurii petroliere rusești.</description>
-    </item>
-    <item>
-      <title>Președintele Zelenski cere sprijin financiar suplimentar liderilor europeni la Bruxelles</title>
-      <link>https://izz.ro/extern/presedintele-zelenski-cere-sprijin-financiar-suplimentar-liderilor-europeni-la/</link>
-      <guid>https://izz.ro/extern/presedintele-zelenski-cere-sprijin-financiar-suplimentar-liderilor-europeni-la/</guid>
-      <pubDate>Fri, 16 Oct 2026 00:39:32 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/trump-putin-terrible-alliance-threatens-strain-eu-resolve-ukraine/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <media:content url="https://izz.ro/extern/presedintele-zelenski-cere-sprijin-financiar-suplimentar-liderilor-europeni-la/cover.jpg?v=efae0037" medium="image" type="image/jpeg"/>
-      <description>În cadrul summitului UE de la Bruxelles, Volodimir Zelenski solicită ajutor militar și financiar urgent din partea statelor membre, pe fondul îngrijorărilor generate de poziția administrației Trump față de Rusia.</description>
     </item>
     <item>
       <title>Ucraina își reorientează atacurile economice asupra Rusiei după acordul cu Trump</title>
@@ -143,7 +133,6 @@
       <pubDate>Thu, 15 Oct 2026 10:14:49 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.theguardian.com/world/2026/oct/15/us-effort-to-get-russia-ukraine-energy-ceasefire-collapses">The Guardian</source>
-      <media:content url="https://izz.ro/extern/atacurile-cu-drone-si-rachete-reizbucnesc-intre-rusia-si-ucraina/cover.jpg?v=b4cb1a3b" medium="image" type="image/jpeg"/>
       <description>Inițiativa Casei Albe privind un armistițiu energetic a eșuat după ce Moscova a lansat drone asupra infrastructurii centrale din Ucraina. În replică, Kievul a reluat loviturile asupra rafinăriilor petroliere rusești.</description>
     </item>
     <item>
@@ -469,5 +458,14 @@
       <category>extern</category>
       <source url="https://stirileprotv.ro/stiri/international/ap-marco-rubio-deosebit-de-iritat-de-ambasadoarea-sua-in-grecia-kimberly-guilfoyle-trump-ia-in-calcul-demiterea-ei.html">Știrile ProTV</source>
       <description>Donald Trump și Marco Rubio iau în considerare înlocuirea ambasadoarei americane în Grecia, Kimberly Guilfoyle, din cauza unor acuzații referitoare la un comportament necorespunzător și potențial ilegal înexercițiul funcției.</description>
+    </item>
+    <item>
+      <title>Rusia a atacat infrastructura energetică din Ucraina în ciuda armistițiului</title>
+      <link>https://izz.ro/extern/rusia-a-atacat-infrastructura-energetica-din-ucraina-in-ciuda-armistitiului/</link>
+      <guid>https://izz.ro/extern/rusia-a-atacat-infrastructura-energetica-din-ucraina-in-ciuda-armistitiului/</guid>
+      <pubDate>Sun, 11 Oct 2026 18:45:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/zelenski-sustine-ca-rusia-a-atacat-instalatii-energetice-din-ucraina-dupa-anuntul-lui-trump-668753.html">Observator</source>
+      <description>Imediat după anunțul unui armistițiu privind sectorul energetic, președintele ucrainean Volodimir Zelenski a acuzat Rusia de noi atacuri asupra orașelor Kiev și Harkov, în timp ce Washingtonul presează Kievul să oprească ripostele.</description>
     </item>
 </channel></rss>

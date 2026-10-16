@@ -13,7 +13,7 @@
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
-  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=41b314c9">
   <link rel="canonical" href="https://izz.ro/harta/maramures/">
   <meta property="og:title" content="Știri din Maramureș — Harta știrilor IZZ.ro">
   <meta property="og:description" content="Știri locale și județene localizate în Maramureș, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
@@ -66,10 +66,11 @@
       </fieldset>
       <fieldset class="filter-group">
         <legend>Grupează rezultatele ca</legend>
-        <div class="segmented" role="radiogroup" aria-label="Grupează rezultatele ca">
+        <div class="segmented" role="radiogroup" aria-label="Grupează rezultatele ca" aria-describedby="view-hint">
           <button type="button" class="active" role="radio" aria-checked="true" data-view="events">Evenimente</button>
           <button type="button" role="radio" aria-checked="false" data-view="articles">Relatări</button>
         </div>
+        <p id="view-hint" class="filter-hint">Un eveniment adună toate relatările despre aceeași întâmplare, din una sau mai multe surse.</p>
       </fieldset>
       <label class="search">
         <span>Caută loc, titlu sau sursă</span>
@@ -149,20 +150,20 @@
           <span id="panel-count"></span>
         </div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/politistii-din-baia-sprie-au-aplicat-amenzi-de-peste-11-000-de-lei-in-trafic/">Polițiștii din Baia Sprie au aplicat amenzi de peste 11.000 de lei în trafic</a> <span>eMaramureș · 16 octombrie 2026, 15:15</span></li>
+          <li><a href="/local/gabriel-zetea-a-refuzat-portofoliul-ministerului-dezvoltarii/">Gabriel Zetea a refuzat portofoliul Ministerului Dezvoltării</a> <span>actualMM · 16 octombrie 2026, 19:06</span></li>
+<li><a href="/local/asociatiile-fight-for-animals-si-kola-kariola-s-au-aliat-pentru-protectia/">Asociațiile Fight for Animals și Kola Kariola s-au aliat pentru protecția animalelor în Baia Mare</a> <span>eMaramureș · 16 octombrie 2026, 17:00</span></li>
+<li><a href="/local/politistii-din-baia-sprie-au-aplicat-amenzi-de-peste-11-000-de-lei-in-trafic/">Polițiștii din Baia Sprie au aplicat amenzi de peste 11.000 de lei în trafic</a> <span>eMaramureș · 16 octombrie 2026, 15:15</span></li>
 <li><a href="/local/intalnire-de-rugaciune-dedicata-familiilor-la-manastirea-din-baia-mare/">Întâlnire de rugăciune dedicată familiilor la Mănăstirea din Baia Mare</a> <span>eMaramureș · 16 octombrie 2026, 15:00</span></li>
 <li><a href="/local/taierea-arborilor-din-baia-mare-provoaca-nemultumiri-publice/">Tăierea arborilor din Baia Mare provoacă nemulțumiri publice</a> <span>eMaramureș · 16 octombrie 2026, 14:35</span></li>
 <li><a href="/local/barbat-din-sasar-condamnat-la-inchisoare-pentru-infractiunea-de-lovire/">Bărbat din Săsar condamnat la închisoare pentru infracțiunea de lovire</a> <span>eMaramureș · 16 octombrie 2026, 14:30</span></li>
 <li><a href="/local/spitalul-din-baia-mare-ofera-spirometrii-gratuite-in-cadrul-festivalului/">Spitalul din Baia Mare oferă spirometrii gratuite în cadrul festivalului Equilibrum Fest</a> <span>eMaramureș · 16 octombrie 2026, 13:00</span></li>
 <li><a href="/local/politia-din-maramures-investigheaza-disparitia-si-decesul-unui-padurar-din/">Poliția din Maramureș investighează dispariția și decesul unui pădurar din Șomcuta Mare</a> <span>eMaramureș · 16 octombrie 2026, 12:11</span></li>
-<li><a href="/local/accident-rutier-in-baia-mare-provocat-de-o-soferita-de-21-de-ani-care-n-a/">Accident rutier în Baia Mare provocat de o șoferiță de 21 de ani care n-a acordat prioritate</a> <span>eMaramureș · 16 octombrie 2026, 08:50</span></li>
-<li><a href="/local/un-barbat-de-44-de-ani-a-fost-gasit-decedat-intr-un-imobil-din-baia-mare/">Un bărbat de 44 de ani a fost găsit decedat într-un imobil din Baia Mare</a> <span>eMaramureș · 16 octombrie 2026, 08:37</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>
     </section>
   </main>
 
-  <script src="/static/harta-stiri/harta-stiri.js" defer></script>
+  <script src="/static/harta-stiri/harta-stiri.js?v=bb92f753" defer></script>
 </body>
 </html>

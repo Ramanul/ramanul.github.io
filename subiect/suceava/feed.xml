@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/suceava/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Suceava pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 12:49:37 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 17:48:18 +0000</lastBuildDate>
+    <item>
+      <title>Stațiunea Vama din Bucovina atrage turiștii prin peisaje și tradiții</title>
+      <link>https://izz.ro/local/statiunea-vama-din-bucovina-atrage-turistii-prin-peisaje-si-traditii/</link>
+      <guid>https://izz.ro/local/statiunea-vama-din-bucovina-atrage-turistii-prin-peisaje-si-traditii/</guid>
+      <pubDate>Fri, 16 Oct 2026 17:30:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://observatornews.ro/travel/statiunea-unica-din-bucovina-care-ia-lasat-fara-cuvinte-pe-turisti-aici-este-adevarata-romanie-669410.html">Observator</source>
+      <media:content url="https://izz.ro/local/statiunea-vama-din-bucovina-atrage-turistii-prin-peisaje-si-traditii/cover.jpg?v=f08e15fe" medium="image" type="image/jpeg"/>
+      <description>Localitatea Vama din județul Suceava este promovată drept o destinație turistică unică în Bucovina, unde vizitatorii pot descoperi o combinație armonioasă între peisaje montane spectaculoase, istorie și patrimoniu cultural.</description>
+    </item>
     <item>
       <title>Doi bărbați din Suceava, reținuți pentru șantaj și tâlhărie calificată</title>
       <link>https://izz.ro/local/doi-barbati-din-suceava-retinuti-pentru-santaj-si-talharie-calificata/</link>
@@ -143,7 +153,6 @@
       <pubDate>Thu, 15 Oct 2026 10:00:08 +0000</pubDate>
       <category>judetean</category>
       <source url="https://www.emaramures.ro/parohia-greco-catolica-maidan-sarbatoreste-200-de-ani-de-existenta-episcopul-vasile-bizau-va-oficia-sfanta-liturghie/">eMaramureș</source>
-      <media:content url="https://izz.ro/judetean/parohia-greco-catolica-maidan-implineste-200-de-ani-de-existenta/cover.jpg?v=1431d5ce" medium="image" type="image/jpeg"/>
       <description>Comunitatea greco-catolică din Maidan, județul Suceava, sărbătorește duminică două secole de la înființare, eveniment religios la care va participa și Episcopul Vasile Bizău.</description>
     </item>
     <item>
@@ -460,14 +469,5 @@
       <category>local</category>
       <source url="https://www.newsbucovina.ro/falticeni/451591/barbat-retinut-24-de-ore-in-arest-dupa-ce-a-lovit-cu-pumnul-si-cu-o-sticla-de-bere-un-alt-barbat-pe-o-strada-din-falticeni">NewsBucovina</source>
       <description>Polițiștii din Fălticeni au încarcerat un bărbat care a agresat fizic un alt localnic cu pumnii și o sticlă de bere. Incidentul a izbucnit pe fondul unor vechi neînțelegeri financiare și consum de alcool.</description>
-    </item>
-    <item>
-      <title>Program nou de slujbe la Catedrala din Suceava pe perioada lucrărilor</title>
-      <link>https://izz.ro/local/program-nou-de-slujbe-la-catedrala-din-suceava-pe-perioada-lucrarilor/</link>
-      <guid>https://izz.ro/local/program-nou-de-slujbe-la-catedrala-din-suceava-pe-perioada-lucrarilor/</guid>
-      <pubDate>Wed, 07 Oct 2026 10:41:57 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.newsbucovina.ro/actualitate/451570/program-nou-de-slujbe-la-catedrala-arhiepiscopala-din-suceava-pe-durata-restaurarii-manastirii-sfantului-ioan-cel-nou">NewsBucovina</source>
-      <description>Catedrala Arhiepiscopală din Suceava a introdus un nou program liturgic valabil pe durata proiectului de restaurare și consolidare a ansamblului Mănăstirii Sfântului Ioan cel Nou.</description>
     </item>
 </channel></rss>

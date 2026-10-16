@@ -13,7 +13,7 @@
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
-  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=41b314c9">
   <link rel="canonical" href="https://izz.ro/harta/sibiu/">
   <meta property="og:title" content="Știri din Sibiu — Harta știrilor IZZ.ro">
   <meta property="og:description" content="Știri locale și județene localizate în Sibiu, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
@@ -66,10 +66,11 @@
       </fieldset>
       <fieldset class="filter-group">
         <legend>Grupează rezultatele ca</legend>
-        <div class="segmented" role="radiogroup" aria-label="Grupează rezultatele ca">
+        <div class="segmented" role="radiogroup" aria-label="Grupează rezultatele ca" aria-describedby="view-hint">
           <button type="button" class="active" role="radio" aria-checked="true" data-view="events">Evenimente</button>
           <button type="button" role="radio" aria-checked="false" data-view="articles">Relatări</button>
         </div>
+        <p id="view-hint" class="filter-hint">Un eveniment adună toate relatările despre aceeași întâmplare, din una sau mai multe surse.</p>
       </fieldset>
       <label class="search">
         <span>Caută loc, titlu sau sursă</span>
@@ -149,20 +150,20 @@
           <span id="panel-count"></span>
         </div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/primaria-rosia-primeste-cereri-pentru-ajutorul-de-incalzire-cu-lemne/">Primăria Roșia primește cereri pentru ajutorul de încălzire cu lemne</a> <span>Turnul Sfatului · 16 octombrie 2026, 15:11</span></li>
+          <li><a href="/local/copiii-din-sibiu-au-fotografiat-fosta-fabrica-independenta-in-cadrul/">Copiii din Sibiu au fotografiat fosta fabrică Independența în cadrul proiectului Urban Layers</a> <span>Turnul Sfatului · 16 octombrie 2026, 20:03</span></li>
+<li><a href="/local/ziua-recoltei-ocna-sibiului-24-octombrie-2026/">🍁 Ziua Recoltei – Ocna Sibiului 24 octombrie 2026 🍂</a> <span>Primăria Ocna Sibiului · 16 octombrie 2026, 19:13</span></li>
+<li><a href="/local/adolescentul-ranit-la-o-balotiera-in-targu-mures-este-in-stare-stabila/">Adolescentul rănit la o balotieră în Târgu Mureș este în stare stabilă</a> <span>Turnul Sfatului · 16 octombrie 2026, 19:05</span></li>
+<li><a href="/local/interpreta-lucretia-ciobanu-va-fi-omagiata-la-toparcea-si-ocna-sibiului-prin/">Interpreta Lucreția Ciobanu va fi omagiată la Topârcea și Ocna Sibiului prin lansarea unui chatbot AI</a> <span>Turnul Sfatului · 16 octombrie 2026, 17:12</span></li>
+<li><a href="/local/primaria-rosia-primeste-cereri-pentru-ajutorul-de-incalzire-cu-lemne/">Primăria Roșia primește cereri pentru ajutorul de încălzire cu lemne</a> <span>Turnul Sfatului · 16 octombrie 2026, 15:11</span></li>
 <li><a href="/local/un-sibian-de-75-de-ani-a-fost-retinut-dupa-ce-si-a-hartuit-fosta-iubita/">Un sibian de 75 de ani a fost reținut după ce și-a hărțuit fosta iubită</a> <span>Turnul Sfatului · 16 octombrie 2026, 14:06</span></li>
 <li><a href="/local/ofiterii-anticoruptie-au-desfasurat-activitati-educationale-la-rar-sibiu/">Ofițerii anticorupție au desfășurat activități educaționale la RAR Sibiu</a> <span>Turnul Sfatului · 16 octombrie 2026, 13:38</span></li>
 <li><a href="/local/o-plimbare-stradala-pentru-posesorii-de-caini-este-organizata-duminica-la-sibiu/">O plimbare stradală pentru posesorii de câini este organizată duminică la Sibiu</a> <span>Turnul Sfatului · 16 octombrie 2026, 13:31</span></li>
-<li><a href="/judetean/trafic-fara-restrictii-pe-valea-oltului-datorita-suspendarii-lucrarilor/">Trafic fără restricții pe Valea Oltului datorită suspendării lucrărilor</a> <span>Turnul Sfatului · 16 octombrie 2026, 12:40</span></li>
-<li><a href="/local/40-oferta-teren-baltes-isaia/">40 Oferta teren Baltes Isaia</a> <span>Primăria Ocna Sibiului · 16 octombrie 2026, 10:43</span></li>
-<li><a href="/local/diana-buzoianu-il-contrazice-pe-sorin-grindeanu-privind-acordul-de-mediu-pentru/">Diana Buzoianu îl contrazice pe Sorin Grindeanu privind acordul de mediu pentru autostrada Sibiu-Pitești</a> <span>Turnul Sfatului · 16 octombrie 2026, 09:28</span></li>
-<li><a href="/local/mineral-proiect-invest-continua-proiectul-minei-de-magneziu-de-la-rasinari/">Mineral Proiect Invest continuă proiectul minei de magneziu de la Rășinari</a> <span>Turnul Sfatului · 15 octombrie 2026, 22:16</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>
     </section>
   </main>
 
-  <script src="/static/harta-stiri/harta-stiri.js" defer></script>
+  <script src="/static/harta-stiri/harta-stiri.js?v=bb92f753" defer></script>
 </body>
 </html>
