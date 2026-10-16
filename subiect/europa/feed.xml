@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 01:35:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 07:29:48 +0000</lastBuildDate>
+    <item>
+      <title>Cererea globală de mașini electrice a scăzut ușor în septembrie, afectată de Americi și China</title>
+      <link>https://izz.ro/auto/cererea-globala-de-masini-electrice-a-scazut-usor-in-septembrie-afectata-de/</link>
+      <guid>https://izz.ro/auto/cererea-globala-de-masini-electrice-a-scazut-usor-in-septembrie-afectata-de/</guid>
+      <pubDate>Fri, 16 Oct 2026 06:07:25 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://economedia.ro/cererea-globala-de-vehicule-electrice-a-scazut-cu-2-in-luna-septembrie-vanzari-record-in-europa.html">Economedia, Economica</source>
+      <media:content url="https://izz.ro/auto/cererea-globala-de-masini-electrice-a-scazut-usor-in-septembrie-afectata-de/cover.jpg?v=6931479d" medium="image" type="image/jpeg"/>
+      <description>Vânzările globale de vehicule electrice au înregistrat o scădere de 2% în luna septembrie, ajungând la 2,15 milioane de unități și întrerupând o serie de șase luni de creștere. În timp ce Europa a atins un nivel record de aproape 600.000 de unități vândute, piețele din America de Nord și China au suferit reduceri semnificative de 44%, respectiv 18%, determinate de factori legislativi și regionali.</description>
+    </item>
     <item>
       <title>Beijingul încearcă să exporte indiferența politică și să obțină tăcerea Europei</title>
       <link>https://izz.ro/extern/beijingul-incearca-sa-exporte-indiferenta-politica-si-sa-obtina-tacerea-europei/</link>
@@ -113,7 +123,6 @@
       <pubDate>Wed, 14 Oct 2026 20:56:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.antena3.ro/meteo/europa-tremura-in-asteptarea-momentului-cand-se-va-rupe-vortexul-polar-consumul-de-curent-va-exploda-am-fost-avertizati-in-2018-807273.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/extern/specialistii-avertizeaza-ca-o-rupere-a-vortexului-polar-va-creste-masiv/cover.jpg?v=89bd1218" medium="image" type="image/jpeg"/>
       <description>Un studiu recent arată că destabilizarea vortexului polar ar putea tripla necesarul de energie electrică la nivel european, punând o presiune majoră asupra rețelelor interconectate de alimentare și infrastructură.</description>
     </item>
     <item>
@@ -123,7 +132,6 @@
       <pubDate>Wed, 14 Oct 2026 20:21:56 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.bzi.ro/rusia-face-publice-sumele-incasate-de-la-europa-pentru-energia-din-ultimii-ani-cifrele-declanseaza-o-disputa-cu-ue-5623828">BZI Iași</source>
-      <media:content url="https://izz.ro/economic/rusia-dezvaluie-sumele-uriase-incasate-de-la-europa-pentru-energie/cover.jpg?v=8d911a91" medium="image" type="image/jpeg"/>
       <description>Ambasada Rusiei a publicat date financiare indicând că statele europene au plătit peste 320 de miliarde de dolari pentru energie începând din 2022, declanșând noi tensiuni legate de importurile de GNL.</description>
     </item>
     <item>
@@ -431,14 +439,5 @@
       <category>auto</category>
       <source url="https://piataauto.md/Stiri/2026/10/Producatorul-chinez-CATL-a-inaugurat-primul-service-baterii-Europa-unde-proprietarii-masini-electrice-vor-putea-merge-pentru-reparatii-si-inspectii/">Piata Auto MD</source>
       <description>Cel mai mare producător mondial de baterii, compania chineză CATL, a inaugurat în Europa o unitate specializată în reparații și inspecții pentru acumulatorii mașinilor electrice.</description>
-    </item>
-    <item>
-      <title>Meteorologii anunță o iarnă severă în Europa după un octombrie foarte cald</title>
-      <link>https://izz.ro/general/meteorologii-anunta-o-iarna-severa-in-europa-dupa-un-octombrie-foarte-cald/</link>
-      <guid>https://izz.ro/general/meteorologii-anunta-o-iarna-severa-in-europa-dupa-un-octombrie-foarte-cald/</guid>
-      <pubDate>Sun, 04 Oct 2026 06:41:04 +0000</pubDate>
-      <category>general</category>
-      <source url="https://bizbrasov.ro/2026/10/04/octombrie-cald-iarna-severa-meteo/">BizBrașov</source>
-      <description>Specialiștii în meteorologie avertizează că temperaturile ridicate de la începutul lunii octombrie în Europa vor fi urmate de o schimbare radicală și severă a vremii în sezonul rece.</description>
     </item>
 </channel></rss>

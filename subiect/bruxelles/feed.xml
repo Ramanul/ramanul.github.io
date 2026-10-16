@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/bruxelles/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bruxelles pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 01:35:38 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 07:29:48 +0000</lastBuildDate>
     <item>
       <title>Președintele Zelenski cere sprijin financiar suplimentar liderilor europeni la Bruxelles</title>
       <link>https://izz.ro/extern/presedintele-zelenski-cere-sprijin-financiar-suplimentar-liderilor-europeni-la/</link>
@@ -45,16 +45,6 @@
       <source url="https://www.politico.eu/article/eu-budget-cyprus-president-euco-summit-politico/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <media:content url="https://izz.ro/politic/presedintele-ciprului-propune-reducerea-bugetului-uniunii-europene-la-trei-sau/cover.jpg?v=e4b5a0af" medium="image" type="image/jpeg"/>
       <description>Liderul cipriot susține că planificarea financiară pe termen lung a blocului comunitar ar trebui scurtată pentru a fi mai ușor de gestionat de către statele membre.</description>
-    </item>
-    <item>
-      <title>Liderii Uniunii Europene discută la Bruxelles sursele alternative de energie</title>
-      <link>https://izz.ro/extern/liderii-uniunii-europene-discuta-la-bruxelles-sursele-alternative-de-energie/</link>
-      <guid>https://izz.ro/extern/liderii-uniunii-europene-discuta-la-bruxelles-sursele-alternative-de-energie/</guid>
-      <pubDate>Thu, 15 Oct 2026 17:59:16 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://adevarul.ro/blogurile-adevarul/in-plina-criza-structurala-privind-sursele-de-2564328.html">Adevărul</source>
-      <media:content url="https://izz.ro/extern/liderii-uniunii-europene-discuta-la-bruxelles-sursele-alternative-de-energie/cover.jpg?v=447fc55d" medium="image" type="image/jpeg"/>
-      <description>Oficialii europeni analizează strategii pentru eliminarea totală a dependenței de resursele energetice rusești. Reuniunea din capitala belgiană se concentrează pe identificarea unor furnizori alternativi stabili pentru statele membre.</description>
     </item>
     <item>
       <title>Liderii UE s-au contrazis trei ore privind taxarea emisiilor auto</title>
@@ -185,6 +175,15 @@
       <source url="https://www.politico.eu/article/frontex-suspends-reintegration-program-after-blowing-through-its-budget/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <media:content url="https://izz.ro/extern/frontex-a-suspendat-programul-de-reintegrare-pentru-migranti-din-cauza/cover.jpg?v=346f40d6" medium="image" type="image/jpeg"/>
       <description>Agenția europeană pentru frontieră a oprit primirea noilor cereri de sprijin la începutul lunii octombrie, directorul executiv notificând personalul că fondurile anuale alocate s-au epuizat prematur.</description>
+    </item>
+    <item>
+      <title>Liderii Uniunii Europene s-au reunit la Bruxelles pentru criza energetică</title>
+      <link>https://izz.ro/extern/liderii-uniunii-europene-s-au-reunit-la-bruxelles-pentru-criza-energetica/</link>
+      <guid>https://izz.ro/extern/liderii-uniunii-europene-s-au-reunit-la-bruxelles-pentru-criza-energetica/</guid>
+      <pubDate>Wed, 14 Oct 2026 17:40:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/eu-leaders-talk-energy-crisis-and-budget-european-council-summit-live-updates/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Șefii de stat și de guvern din blocul comunitar dezbat la summitul din Belgia bugetul pe termen lung, sprijinul acordat Ucrainei, securitatea energetică și măsurile împotriva atacurilor hibride.</description>
     </item>
     <item>
       <title>Șase județe din Regiunea Nord-Est au fost premiate la Bruxelles</title>
@@ -383,14 +382,5 @@
       <category>politic</category>
       <source url="https://cursdeguvernare.ro/tema-de-casa-ce-punem-pe-masa-la-bruxelles-in-afara-de-cereri.html">Curs de Guvernare</source>
       <description>Ultimul episod al seriei analizează capacitatea României de a genera politici proprii și soluții concrete în negocierile europene, dincolo de simpla solicitare de fonduri și respectarea normelor birocratice.</description>
-    </item>
-    <item>
-      <title>Statele vecine ale UE refuză cererea Ucrainei de a debloca exporturile de cereale</title>
-      <link>https://izz.ro/extern/statele-vecine-ale-ue-refuza-cererea-ucrainei-de-a-debloca-exporturile-de/</link>
-      <guid>https://izz.ro/extern/statele-vecine-ale-ue-refuza-cererea-ucrainei-de-a-debloca-exporturile-de/</guid>
-      <pubDate>Sun, 04 Oct 2026 05:00:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/eu-neighbors-shun-kyivs-plea-to-free-trapped-grain/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Ministrul ucrainean al Agriculturii a cerut la Bruxelles facilitarea tranzitului de cereale prin Europa, însă fermierii locali se opun de teama unei crize și a pierderilor economice generate de blocada navală.</description>
     </item>
 </channel></rss>
