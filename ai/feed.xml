@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 17:48:28 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 21:29:15 +0000</lastBuildDate>
     <item>
       <title>Fost director Google X consideră că inteligența artificială nu va elimina automat locurile de muncă</title>
       <link>https://izz.ro/ai/fost-director-google-x-considera-ca-inteligenta-artificiala-nu-va-elimina/</link>
@@ -15,6 +15,16 @@
       <source url="https://stirileprotv.ro/stiri/ilikeit/fost-director-google-x-inteligenta-artificiala-nu-ne-va-lua-neaparat-locurile-de-munca-trebuie-sa-invatam-sa-o-folosim.html">Știrile ProTV</source>
       <media:content url="https://izz.ro/ai/fost-director-google-x-considera-ca-inteligenta-artificiala-nu-va-elimina/cover.jpg?v=f170ddb7" medium="image" type="image/jpeg"/>
       <description>Specialistul susține că nivelul actual de inteligență al sistemelor nu înseamnă automat dispariția posturilor de lucru, ci necesită adaptare și învățare continuă din partea angajaților pentru a utiliza eficient noua tehnologie.</description>
+    </item>
+    <item>
+      <title>Uniunea Europeană își propune să accelereze dezvoltarea inteligenței artificiale</title>
+      <link>https://izz.ro/ai/uniunea-europeana-isi-propune-sa-accelereze-dezvoltarea-inteligentei-artificiale/</link>
+      <guid>https://izz.ro/ai/uniunea-europeana-isi-propune-sa-accelereze-dezvoltarea-inteligentei-artificiale/</guid>
+      <pubDate>Fri, 16 Oct 2026 13:12:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.dw.com/en/the-eu-wants-an-ai-revolution-but-on-whose-terms/a-79673456?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
+      <media:content url="https://izz.ro/ai/uniunea-europeana-isi-propune-sa-accelereze-dezvoltarea-inteligentei-artificiale/cover.jpg?v=88063395" medium="image" type="image/jpeg"/>
+      <description>În timp ce SUA și China domină sectorul tehnologic, Uniunea Europeană încearcă să stimuleze economia prin inteligență artificială, încercând în același timp să protejeze drepturile lucrătorilor și standardele climatice.</description>
     </item>
     <item>
       <title>OpenAI donează 5 milioane de dolari unei fundații de matematică</title>
@@ -452,14 +462,5 @@
       <category>ai</category>
       <source url="https://zonait.ro/windows-search-agent/">ZonaIT</source>
       <description>După eliminarea rezultatelor web pline de reclame, compania Microsoft dezvoltă un sistem bazat pe inteligență artificială conversațională pentru a îmbunătăți experiența de căutare în sistemul operativ Windows.</description>
-    </item>
-    <item>
-      <title>Lansarea unei platforme software pentru optimizarea profitului promoțiilor</title>
-      <link>https://izz.ro/ai/lansarea-unei-platforme-software-pentru-optimizarea-profitului-promotiilor/</link>
-      <guid>https://izz.ro/ai/lansarea-unei-platforme-software-pentru-optimizarea-profitului-promotiilor/</guid>
-      <pubDate>Thu, 08 Oct 2026 09:00:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.zf.ro/zf-live/zf-live-radu-constantinescu-cofondator-veridica-technologies-platforma-le-spune-firmelor-promotie-crestere-pret-le-aduce-profit-le-distruge-platforma-similara-departament-data-science-intr-companie-23255291">Ziarul Financiar</source>
-      <description>Compania Veridica AI Technologies propune o soluție digitală dedicată firmelor pentru a evalua impactul financiar al reducerilor de preț. Sistemul funcționează similar unui departament avansat de analiză a datelor pentru mediul de afaceri.</description>
     </item>
 </channel></rss>

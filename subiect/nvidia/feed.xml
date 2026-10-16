@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 14 Oct 2026 14:04:04 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 21:29:05 +0000</lastBuildDate>
+    <item>
+      <title>Calculatoarele NVIDIA RTX Spark cu Windows au fost lansate pe piață</title>
+      <link>https://izz.ro/tech/calculatoarele-nvidia-rtx-spark-cu-windows-au-fost-lansate-pe-piata/</link>
+      <guid>https://izz.ro/tech/calculatoarele-nvidia-rtx-spark-cu-windows-au-fost-lansate-pe-piata/</guid>
+      <pubDate>Fri, 16 Oct 2026 13:04:50 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/calculatoarele-nvidia-rtx-spark-disponibile-windows/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/calculatoarele-nvidia-rtx-spark-cu-windows-au-fost-lansate-pe-piata/cover.jpg?v=27676601" medium="image" type="image/jpeg"/>
+      <description>Noile sisteme PC echipate cu tehnologii NVIDIA Blackwell RTX și inteligență artificială sunt disponibile începând de astăzi prin intermediul marilor producători mondiali de hardware.</description>
+    </item>
+    <item>
+      <title>Lansarea noilor laptopuri subțiri NVIDIA RTX Spark cu tehnologie AI</title>
+      <link>https://izz.ro/tech/lansarea-noilor-laptopuri-subtiri-nvidia-rtx-spark-cu-tehnologie-ai/</link>
+      <guid>https://izz.ro/tech/lansarea-noilor-laptopuri-subtiri-nvidia-rtx-spark-cu-tehnologie-ai/</guid>
+      <pubDate>Fri, 16 Oct 2026 12:24:06 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.gsp.ro/comercial/advertorial/laptopurile-nvidia-rtx-spark-sunt-disponibile-acum-988795.html">GSP</source>
+      <media:content url="https://izz.ro/tech/lansarea-noilor-laptopuri-subtiri-nvidia-rtx-spark-cu-tehnologie-ai/cover.jpg?v=eb40cd8c" medium="image" type="image/jpeg"/>
+      <description>Noile laptopuri NVIDIA RTX Spark sunt disponibile pe piață, oferind utilizatorilor grafică avansată, integrare cu ecosistemul de inteligență artificială și o memorie unificată de până la 128 GB.</description>
+    </item>
     <item>
       <title>Noul procesor NVIDIA RTX Spark aduce gaming AAA și DLSS 5 pe laptopuri</title>
       <link>https://izz.ro/tech/noul-procesor-nvidia-rtx-spark-aduce-gaming-aaa-si-dlss-5-pe-laptopuri/</link>
@@ -13,7 +33,6 @@
       <pubDate>Wed, 14 Oct 2026 09:14:04 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/14/nvidia-rtx-spark-este-pregatit-pentru-gaming-aaa-cu-dlss-5-si-suport-pentru-sisteme-anti-cheat/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/noul-procesor-nvidia-rtx-spark-aduce-gaming-aaa-si-dlss-5-pe-laptopuri/cover.jpg?v=ca93dbf0" medium="image" type="image/jpeg"/>
       <description>Dispozitivele echipate cu cipul NVIDIA RTX Spark se lansează în curând, oferind performanțe pentru jocuri la rezoluție 1440p, grafică fotorealistă prin DLSS 5 și compatibilitate cu sisteme anti-cheat.</description>
     </item>
     <item>
@@ -23,7 +42,6 @@
       <pubDate>Wed, 14 Oct 2026 05:17:04 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.connect.ro/2026/10/14/nvidia-dlss-5-hogwarts-legacy/">Connect.ro</source>
-      <media:content url="https://izz.ro/ai/nvidia-lanseaza-tehnologia-dlss-5-cu-randare-neurala-accelerata/cover.jpg?v=97b8b095" medium="image" type="image/jpeg"/>
       <description>Compania NVIDIA a introdus o versiune actualizată a tehnologiei DLSS 5 bazată pe inteligență artificială, care oferă o viteză dublă și un consum redus de resurse grafice.</description>
     </item>
     <item>
@@ -33,7 +51,6 @@
       <pubDate>Tue, 13 Oct 2026 13:15:11 +0000</pubDate>
       <category>ai</category>
       <source url="https://zonait.ro/nvidia-dubleaza-performantele-dlss-5/">ZonaIT</source>
-      <media:content url="https://izz.ro/ai/nvidia-imbunatateste-performantele-dlss-5-printr-un-update-de-driver/cover.jpg?v=64da3504" medium="image" type="image/jpeg"/>
       <description>Compania aduce actualizări pentru tehnologia de augmentare a calității imaginii prin procesare neurală, utilizată în titlurile majore de PC.</description>
     </item>
     <item>
@@ -98,23 +115,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/05/nvidia-shield-tv-pro-s-a-scumpit-cu-100-la-7-ani-dupa-lansare-din-cauza-crizei-de-memorie/">Connect.ro</source>
       <description>Din cauza crizei globale de memorie care a majorat costurile componentelor, compania NVIDIA a decis să scumpească neașteptat consola Shield TV Pro cu 100 de dolari, la șapte ani de la lansarea sa pe piață.</description>
-    </item>
-    <item>
-      <title>NVIDIA lansează sistemul DGX Spark de tip desktop pentru inteligență artificială</title>
-      <link>https://izz.ro/ai/nvidia-lanseaza-sistemul-dgx-spark-de-tip-desktop-pentru-inteligenta-artificiala/</link>
-      <guid>https://izz.ro/ai/nvidia-lanseaza-sistemul-dgx-spark-de-tip-desktop-pentru-inteligenta-artificiala/</guid>
-      <pubDate>Fri, 02 Oct 2026 18:04:56 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.marktechpost.com/2026/10/02/nvidia-announces-dgx-spark-64gb-a-1-petaflop-grace-blackwell-desktop-for-local-ai-agents-fine-tuning-and-inference/">MarkTechPost</source>
-      <description>NVIDIA a prezentat configurația DGX Spark de 64GB echipată cu cipuri GB10, destinată dezvoltatorilor pentru rularea modelelor locale de inteligență artificială. Sistemul permite interconectarea a două unități pentru a obține o memorie totală de 128GB.</description>
-    </item>
-    <item>
-      <title>NVIDIA lansează supercomputerul personal DGX Spark cu 64GB memorie</title>
-      <link>https://izz.ro/tech/nvidia-lanseaza-supercomputerul-personal-dgx-spark-cu-64gb-memorie/</link>
-      <guid>https://izz.ro/tech/nvidia-lanseaza-supercomputerul-personal-dgx-spark-cu-64gb-memorie/</guid>
-      <pubDate>Fri, 02 Oct 2026 17:48:33 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/nvidia-lanseaza-un-nou-dgx-spark-acum-cu-64gb/">ZonaIT</source>
-      <description>NVIDIA a introdus o nouă configurație pentru echipamentul DGX Spark, oferind dezvoltatorilor și cercetătorilor din domeniul inteligenței artificiale 64 GB de memorie unificată și capabilități avansate de scalare locală.</description>
     </item>
 </channel></rss>
