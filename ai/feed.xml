@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 21:29:15 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 23:51:00 +0000</lastBuildDate>
     <item>
       <title>Fost director Google X consideră că inteligența artificială nu va elimina automat locurile de muncă</title>
       <link>https://izz.ro/ai/fost-director-google-x-considera-ca-inteligenta-artificiala-nu-va-elimina/</link>
@@ -35,6 +35,16 @@
       <source url="https://www.antena3.ro/high-tech/openai-doneaza-5-milioane-de-dolari-matematicienilor-dupa-acuzatii-de-plagiat-pentru-rezolvarea-unei-probleme-vechi-de-un-secol-807509.html">Antena 3 CNN</source>
       <media:content url="https://izz.ro/ai/openai-doneaza-5-milioane-de-dolari-unei-fundatii-de-matematica/cover.jpg?v=8dabe7ab" medium="image" type="image/jpeg"/>
       <description>Compania OpenAI a decis să ofere milioane de dolari unei organizații matematice, în urma criticilor primite după ce a rezolvat cu inteligența artificială o problemă istorică veche de un secol.</description>
+    </item>
+    <item>
+      <title>Evenimentul „Educația NEXT” a analizat rolul tehnologiei și al profesorilor în școala viitorului</title>
+      <link>https://izz.ro/ai/evenimentul-educatia-next-a-analizat-rolul-tehnologiei-si-al-profesorilor-in/</link>
+      <guid>https://izz.ro/ai/evenimentul-educatia-next-a-analizat-rolul-tehnologiei-si-al-profesorilor-in/</guid>
+      <pubDate>Fri, 16 Oct 2026 11:54:10 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.avantaje.ro/articol/educatia-next-scoala-viitorului-prin-ochii-copiilor-de-ce-nu-poate-inteligenta-artificiala-sa-inlocuiasca-un-profesor">Avantaje, Unica</source>
+      <media:content url="https://izz.ro/ai/evenimentul-educatia-next-a-analizat-rolul-tehnologiei-si-al-profesorilor-in/cover.jpg?v=62e95802" medium="image" type="image/jpeg"/>
+      <description>Bucureștiul a găzduit evenimentul „Educația NEXT”, organizat de Libertatea și British Council, unde copii, părinți și profesori au dezbătut impactul inteligenței artificiale în școli. Participanții au subliniat că tehnologia și instrumentele digitale sunt esențiale pentru meseriile viitorului, însă elevii au atras atenția că roboții nu pot înlocui empatia, sprijinul emoțional și relația directă cu profesorii.</description>
     </item>
     <item>
       <title>Platformele tehnologice reprezintă o amenințare majoră la adresa democrației</title>
@@ -453,14 +463,5 @@
       <category>ai</category>
       <source url="https://alba24.ro/cum-poti-verifica-daca-o-imagine-sau-un-videoclip-este-facut-cu-ai-google-a-deschis-gratuit-synthid-detector-1161729.html">Alba24</source>
       <description>Utilizatorii pot verifica acum dacă fișierele video, audio sau imagini au fost generate cu inteligența artificială, folosind noul instrument digital pus la dispoziție gratuit de Google.</description>
-    </item>
-    <item>
-      <title>Microsoft testează integrarea unui asistent AI în funcția Windows Search</title>
-      <link>https://izz.ro/ai/microsoft-testeaza-integrarea-unui-asistent-ai-in-functia-windows-search/</link>
-      <guid>https://izz.ro/ai/microsoft-testeaza-integrarea-unui-asistent-ai-in-functia-windows-search/</guid>
-      <pubDate>Thu, 08 Oct 2026 11:02:14 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/windows-search-agent/">ZonaIT</source>
-      <description>După eliminarea rezultatelor web pline de reclame, compania Microsoft dezvoltă un sistem bazat pe inteligență artificială conversațională pentru a îmbunătăți experiența de căutare în sistemul operativ Windows.</description>
     </item>
 </channel></rss>

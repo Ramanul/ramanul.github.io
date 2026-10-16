@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/italia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Italia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 21:29:05 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 23:50:51 +0000</lastBuildDate>
     <item>
       <title>Zboruri oprite complet pe aeroporturile din Italia din cauza unor defecțiuni tehnice</title>
       <link>https://izz.ro/extern/zboruri-oprite-complet-pe-aeroporturile-din-italia-din-cauza-unor-defectiuni/</link>
@@ -17,13 +17,23 @@
       <description>Traficul aerian din Italia a fost grav afectat după ce probleme majore la sistemul radar au impus suspendarea totală a zborurilor, generând anulări masive și întârzieri prelungite.</description>
     </item>
     <item>
+      <title>Proteste și tensiuni sociale în creștere pe teritoriul Italiei</title>
+      <link>https://izz.ro/extern/proteste-si-tensiuni-sociale-in-crestere-pe-teritoriul-italiei/</link>
+      <guid>https://izz.ro/extern/proteste-si-tensiuni-sociale-in-crestere-pe-teritoriul-italiei/</guid>
+      <pubDate>Fri, 16 Oct 2026 20:03:27 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.libertatea.ro/stiri/italia-risca-proteste-ca-in-franta-ciocniri-intre-studenti-si-politie-la-roma-si-torino-rj9v0t5">Libertatea</source>
+      <media:content url="https://izz.ro/extern/proteste-si-tensiuni-sociale-in-crestere-pe-teritoriul-italiei/cover.jpg?v=0f624913" medium="image" type="image/jpeg"/>
+      <description>Cetățenii italieni au blocat mai multe artere rutiere din cauza scumpirilor majore la carburanți și alimente, manifestațiile violente din marile orașe amintind de mișcările ample din Franța.</description>
+    </item>
+    <item>
       <title>Danemarca, Italia și Polonia cer măsuri drastice împotriva imigrației ilegale în UE</title>
       <link>https://izz.ro/extern/danemarca-italia-si-polonia-cer-masuri-drastice-impotriva-imigratiei-ilegale-in/</link>
       <guid>https://izz.ro/extern/danemarca-italia-si-polonia-cer-masuri-drastice-impotriva-imigratiei-ilegale-in/</guid>
       <pubDate>Fri, 16 Oct 2026 19:04:53 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.economica.net/danemarca-italia-si-polonia-fac-presiuni-pentru-reducerea-efectul-de-atractie-in-domeniul-imigratiei_986598.html">Economica</source>
-      <media:content url="https://izz.ro/extern/danemarca-italia-si-polonia-cer-masuri-drastice-impotriva-imigratiei-ilegale-in/cover.jpg?v=f9c6b4d0" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/danemarca-italia-si-polonia-cer-masuri-drastice-impotriva-imigratiei-ilegale-in/cover.jpg?v=473a8d2f" medium="image" type="image/jpeg"/>
       <description>Cele trei state europene propun un amendament la summitul din octombrie pentru a reduce efectul de atracție și a combate migrația neregulamentară în spațiul comunitar.</description>
     </item>
     <item>
@@ -453,14 +463,5 @@
       <category>sport</category>
       <source url="https://www.fcinter1908.it/nazionali/italia-turchia-le-pagelle-esposito-vizio-barella-si-vede/">FC Inter 1908</source>
       <description>Presa sportivă a analizat prestațiile elevilor lui Spalletti din confruntarea contând pentru Liga Națiunilor, remarcând evoluțiile unor fotbalist precum Esposito și Barella.</description>
-    </item>
-    <item>
-      <title>Jurnalistul Giovanni Capuano apără alegerile lui Roberto Mancini</title>
-      <link>https://izz.ro/sport/jurnalistul-giovanni-capuano-apara-alegerile-lui-roberto-mancini/</link>
-      <guid>https://izz.ro/sport/jurnalistul-giovanni-capuano-apara-alegerile-lui-roberto-mancini/</guid>
-      <pubDate>Tue, 06 Oct 2026 09:55:11 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.fcinter1908.it/social/capuano-ultima-prova-rottura-coglioni-mancini-dirgli-che/">FC Inter 1908</source>
-      <description>Presa italiană a comentat reacțiile critice ale unei părți a suporterilor la adresa selecționerului Roberto Mancini, subliniind în schimb audiențele ridicate și interesul crescut al publicului pentru meciurile echipei naționale.</description>
     </item>
 </channel></rss>

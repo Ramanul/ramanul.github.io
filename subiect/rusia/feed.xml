@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/rusia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Rusia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 21:29:05 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 23:50:51 +0000</lastBuildDate>
     <item>
       <title>Atac masiv cu drone al Ucrainei asupra Rusiei, cu vizarea Yandex și aeroporturilor Moscovei</title>
       <link>https://izz.ro/extern/atac-masiv-cu-drone-al-ucrainei-asupra-rusiei-cu-vizarea-yandex-si/</link>
@@ -45,6 +45,16 @@
       <source url="https://www.digi24.ro/stiri/externe/ue/peste-cadavrele-noastre-polonia-respinge-presiunile-sua-privind-deblocarea-activelor-rusesti-inghetate-3996299">Digi24 Extern</source>
       <media:content url="https://izz.ro/extern/polonia-respinge-ferm-presiunile-sua-privind-deblocarea-activelor-rusesti/cover.jpg?v=14197dbf" medium="image" type="image/jpeg"/>
       <description>Oficialii europeni au refuzat propunerea americană care viza eliberarea miliardelor de euro provenite din activele Rusiei aflate în băncile continentului, susținând menținerea controlului strict la nivel european.</description>
+    </item>
+    <item>
+      <title>Rusia caută noi piețe pentru gaze în Africa</title>
+      <link>https://izz.ro/economic/rusia-cauta-noi-piete-pentru-gaze-in-africa/</link>
+      <guid>https://izz.ro/economic/rusia-cauta-noi-piete-pentru-gaze-in-africa/</guid>
+      <pubDate>Fri, 16 Oct 2026 20:12:46 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.libertatea.ro/stiri/rusia-nu-se-intelege-cu-china-asupra-gazoductului-puterea-siberiei-2-si-se-roaga-de-tarile-africane-ca-sa-i-cumpere-gazele-0rv9rxe">Libertatea</source>
+      <media:content url="https://izz.ro/economic/rusia-cauta-noi-piete-pentru-gaze-in-africa/cover.jpg?v=8b41688f" medium="image" type="image/jpeg"/>
+      <description>Eșecul negocierilor cu Beijingul privind gazoductul Puterea Siberiei 2 determină Moscova să reorienteze exporturile companiei Gazprom către continentul african, după pierderea clienților europeni.</description>
     </item>
     <item>
       <title>Atacurile rusești asupra infrastructurii energetice paralizează orașele ucrainene</title>
@@ -474,14 +484,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/nu-ai-cartile-necesare-s-a-transformat-in-nu-ti-juca-asii-dilema-europei-in-relatia-cu-sua-3992607">Digi24 Extern</source>
       <description>În timp ce NATO își menține planurile de descurajare a Rusiei, liderii de la Bruxelles analizează cum își pot asigura securitatea pe cont propriu, având în vedere că Washingtonul își reorientează prioritățile strategice.</description>
-    </item>
-    <item>
-      <title>Anne Applebaum susține că administrația Trump presează Ucraina să cedeze în fața Rusiei</title>
-      <link>https://izz.ro/extern/anne-applebaum-sustine-ca-administratia-trump-preseaza-ucraina-sa-cedeze-in/</link>
-      <guid>https://izz.ro/extern/anne-applebaum-sustine-ca-administratia-trump-preseaza-ucraina-sa-cedeze-in/</guid>
-      <pubDate>Wed, 14 Oct 2026 15:27:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/opinii-si-analize/anne-applebaum-trump-incearca-sa-forteze-ucraina-sa-capituleze-administratia-lui-e-de-vanzare">Spotmedia</source>
-      <description>Jurnalistă americană afirmă că acțiunile Washingtonului urmăresc capitularea Kievului, prin relaxarea sancțiunilor impuse Moscovei și amenințări cu sistarea schimbului de informații. Autoarea critică politica externă actuală a SUA.</description>
     </item>
 </channel></rss>
