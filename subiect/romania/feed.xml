@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/romania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre România pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 22:34:57 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 01:35:38 +0000</lastBuildDate>
     <item>
       <title>PwC estimează o transformare digitală profundă a serviciilor de consultanță</title>
       <link>https://izz.ro/economic/pwc-estimeaza-o-transformare-digitala-profunda-a-serviciilor-de-consultanta/</link>
@@ -23,18 +23,8 @@
       <pubDate>Thu, 15 Oct 2026 19:28:27 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.economica.net/mihai-manole-tema-energy-daca-romania-poate-oferi-energie-si-conectivitate-are-sanse-reale-sa-atraga-investitii-de-milioane-de-euro-pentru-fiecare-mw-construit_985827.html">Economica</source>
-      <media:content url="https://izz.ro/economic/romania-poate-atrage-investitii-masive-in-centre-de-date-datorita-energiei-si/cover.jpg?v=b580f083" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/economic/romania-poate-atrage-investitii-masive-in-centre-de-date-datorita-energiei-si/cover.jpg?v=1cc8cbbc" medium="image" type="image/jpeg"/>
       <description>Piața românească de infrastructură pentru centre de date ar putea atinge 800 de milioane de dolari până în 2035, impulsionată de serviciile cloud și cererea pentru inteligență artificială, estimările indicând proiecte de peste 1,8 GW.</description>
-    </item>
-    <item>
-      <title>Guvernul pregătit de Luca Niculescu introduce o strategie națională pentru competitivitate economică</title>
-      <link>https://izz.ro/politic/guvernul-pregatit-de-luca-niculescu-introduce-o-strategie-nationala-pentru/</link>
-      <guid>https://izz.ro/politic/guvernul-pregatit-de-luca-niculescu-introduce-o-strategie-nationala-pentru/</guid>
-      <pubDate>Thu, 15 Oct 2026 18:59:38 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://economedia.ro/document-programul-de-guvernare-luca-niculescu-strategie-nationala-pentru-competitivitate-si-consiliul-national-de-productivitate.html">Economedia</source>
-      <media:content url="https://izz.ro/politic/guvernul-pregatit-de-luca-niculescu-introduce-o-strategie-nationala-pentru/cover.jpg?v=ff840a12" medium="image" type="image/jpeg"/>
-      <description>Premierul desemnat Luca Niculescu a inclus în programul de guvernare crearea unui consiliu național de productivitate. Măsura vine ca răspuns la avertismentele mediului de afaceri privind pierderea investițiilor externe.</description>
     </item>
     <item>
       <title>Un specialist în intelligence explică incidentul militar din Marea Neagră</title>
@@ -413,7 +403,7 @@
       <pubDate>Wed, 14 Oct 2026 20:22:00 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.antena3.ro/actualitate/activitatea-botilor-rusi-a-scazut-drastic-in-romania-dupa-atacul-asupra-centrelor-yandex-pana-si-propaganda-are-nevoie-de-priza-807143.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/tech/activitatea-botilor-rusi-din-romania-a-scazut-dupa-atacul-asupra-centrelor/cover.jpg?v=a0072fd9" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/activitatea-botilor-rusi-din-romania-a-scazut-dupa-atacul-asupra-centrelor/cover.jpg?v=fdfbddae" medium="image" type="image/jpeg"/>
       <description>Rețelele rusești de propagandă și dezinformare în limba română și-au redus considerabil activitatea online, pe fondul distrugerii a trei centre de date ale companiei Yandex de către dronele ucrainene.</description>
     </item>
     <item>
@@ -501,5 +491,14 @@
       <category>politic</category>
       <source url="https://www.economica.net/psd-a-decis-sa-intre-la-guvernare-si-a-stabilit-lista-de-ministri-surse_985657.html">Economica</source>
       <description>Consiliul Politic al PSD a aprobat participarea la guvernare pe fondul dificultăților bugetare semnalate de premierul desemnat Luca Niculescu. Liderii social-democrați invocă urgențe majore în sănătate, pensii și salarii.</description>
+    </item>
+    <item>
+      <title>Riscurile majore ale infrastructurii rutiere nocturne din România</title>
+      <link>https://izz.ro/auto/riscurile-majore-ale-infrastructurii-rutiere-nocturne-din-romania/</link>
+      <guid>https://izz.ro/auto/riscurile-majore-ale-infrastructurii-rutiere-nocturne-din-romania/</guid>
+      <pubDate>Wed, 14 Oct 2026 13:42:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://observatornews.ro/eveniment/soselele-romaniei-test-de-supravietuire-pentru-soferi-lista-celor-mai-periculoase-drumuri-pe-timp-de-noapte-669081.html">Observator</source>
+      <description>Statistica europeană plasează România pe locurile fruntașe în privința riscurilor rutiere, gradul de periculozitate al arterelor de circulație amplificându-se considerabil pe parcursul nopții din cauza vizibilității reduse și a deficiențelor de semnalizare.</description>
     </item>
 </channel></rss>

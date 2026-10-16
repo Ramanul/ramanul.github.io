@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/timisoara/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Timișoara pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 15 Oct 2026 22:34:57 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 01:35:38 +0000</lastBuildDate>
     <item>
       <title>Ghidul evenimentelor culturale și expozițiilor organizate astăzi în Timișoara</title>
       <link>https://izz.ro/local/ghidul-evenimentelor-culturale-si-expozitiilor-organizate-astazi-in-timisoara/</link>
@@ -33,7 +33,7 @@
       <pubDate>Thu, 15 Oct 2026 19:26:41 +0000</pubDate>
       <category>local</category>
       <source url="https://www.g4media.ro/ordinul-de-merit-al-austriei-pentru-initiatoarea-balului-vienez-de-la-timisoara-ioana-hategan-nu-m-am-asteptat-sa-primesc-asa-ceva.html">G4Media</source>
-      <media:content url="https://izz.ro/local/avocata-ioana-hategan-a-primit-ordinul-de-merit-al-austriei-pentru-promovarea/cover.jpg?v=bc279588" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/avocata-ioana-hategan-a-primit-ordinul-de-merit-al-austriei-pentru-promovarea/cover.jpg?v=c81e8235" medium="image" type="image/jpeg"/>
       <description>Președintele Austriei i-a conferit distincția fondatoarei Balului Vienez din Timișoara, în semn de recunoaștere pentru activitatea fundației sale dedicate apropierii culturale dintre cele două state.</description>
     </item>
     <item>
@@ -235,16 +235,6 @@
       <source url="https://www.ziuadevest.ro/colterm-incepe-furnizarea-caldurii-in-timisoara-de-luni-19-octombrie-pornirea-se-va-face-etapizat/">Ziua de Vest, Opinia Timișoarei, Express de Banat</source>
       <media:content url="https://izz.ro/local/colterm-va-furniza-caldura-in-timisoara-incepand-din-19-octombrie/cover.jpg?v=141f16fa" medium="image" type="image/jpeg"/>
       <description>Compania de termoficare Colterm va porni livrarea agentului termic în Timișoara din 19 octombrie, ca urmare a scăderii temperaturilor nocturne. Sistemul va fi pus în funcțiune etapizat, începând cu CT Centru și punctele termice îndepărtate, pentru stabilizarea parametrilor tehnici. Pornirea CET Sud este programată pentru luna noiembrie, în funcție de evoluția vremii.</description>
-    </item>
-    <item>
-      <title>Timișoara va găzdui conferința internațională WaterLoss Europe în 2027</title>
-      <link>https://izz.ro/local/timisoara-va-gazdui-conferinta-internationala-waterloss-europe-in-2027/</link>
-      <guid>https://izz.ro/local/timisoara-va-gazdui-conferinta-internationala-waterloss-europe-in-2027/</guid>
-      <pubDate>Thu, 15 Oct 2026 05:52:58 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.ziuadevest.ro/romania-pe-harta-europeana-a-industriei-apei-timisoara-va-gazdui-conferinta-waterloss-europe-2027/">Ziua de Vest</source>
-      <media:content url="https://izz.ro/local/timisoara-va-gazdui-conferinta-internationala-waterloss-europe-in-2027/cover.jpg?v=7ccf72a5" medium="image" type="image/jpeg"/>
-      <description>Asociația Româna a Apei a obținut organizarea acestui important eveniment european dedicat eficientizării rețelelor de distribuție, în urma unei nominalizări oficiale anunțate la Glasgow.</description>
     </item>
     <item>
       <title>Conferința PROW de la Timișoara aduce în discuție tendințele în dezvoltarea produselor digitale</title>
@@ -488,5 +478,14 @@
       <category>economic</category>
       <source url="https://www.ziuadevest.ro/darius-georgiu-vicepresedinele-cciat-romania-nu-duce-lipsa-de-antreprenori-sau-potential-ci-de-reguli-care-sa-reziste-mai-mult-decat-un-guvern/">Ziua de Vest</source>
       <description>Darius Georgiu susține că mediul de afaceri suferă din cauza lipsei de predictibilitate fiscală. Antreprenorii au nevoie de reguli durabile, capabile să depășească mandatul unui singur guvern.</description>
+    </item>
+    <item>
+      <title>Primii 12 arbori seculari din Timișoara au fost declarați monumente verzi</title>
+      <link>https://izz.ro/local/primii-12-arbori-seculari-din-timisoara-au-fost-declarati-monumente-verzi/</link>
+      <guid>https://izz.ro/local/primii-12-arbori-seculari-din-timisoara-au-fost-declarati-monumente-verzi/</guid>
+      <pubDate>Tue, 13 Oct 2026 09:34:06 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.pressalert.ro/2026/10/timisoara-isi-protejeaza-patrimoniul-verde-primii-12-arbori-remarcabili-identificati-in-parcuri-printre-care-un-exemplar-ginkgo-biloba-vechi-de-peste-un-secol/">PressAlert Timișoara</source>
+      <description>Primăria Timișoara și Asociația Peisagiștilor au inventariat primii 12 copaci remarcabili în parcurile Copiilor și Regina Maria. Printre aceștia se remarcă un exemplar rar de Ginkgo biloba cu o vechime de peste o sută de ani.</description>
     </item>
 </channel></rss>
