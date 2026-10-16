@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/comisia-europeana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Comisia Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 07:29:47 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 12:49:37 +0000</lastBuildDate>
     <item>
       <title>Curtea de Conturi Europeană avertizează că fondurile UE riscă să fie mai greu de monitorizat</title>
       <link>https://izz.ro/economic/curtea-de-conturi-europeana-avertizeaza-ca-fondurile-ue-risca-sa-fie-mai-greu/</link>
@@ -83,7 +83,6 @@
       <pubDate>Thu, 15 Oct 2026 06:46:31 +0000</pubDate>
       <category>local</category>
       <source url="https://jurnalulolteniei.ro/tenaris-preia-artrom-slatina-unda-verde-de-la-comisia-europeana/">Jurnalul Olteniei</source>
-      <media:content url="https://izz.ro/local/comisia-europeana-a-aprobat-preluarea-producatorului-artrom-slatina-de-catre/cover.jpg?v=730a85ee" medium="image" type="image/jpeg"/>
       <description>Grupul internațional Tenaris a primit avizul oficial pentru achiziția producătorului român de țevi Artrom Steel Tubes, o tranzacție financiară evaluată la 86 de milioane de euro.</description>
     </item>
     <item>
@@ -93,7 +92,6 @@
       <pubDate>Thu, 15 Oct 2026 06:31:58 +0000</pubDate>
       <category>politic</category>
       <source url="https://gazetadecluj.ro/emil-boc-a-fost-la-bruxelles-si-a-cerut-ca-administratiile-locale-sa-fie-parte-din-deciziile-pentru-bugetul-ue-2028-2034/">Gazeta de Cluj</source>
-      <media:content url="https://izz.ro/politic/emil-boc-a-cerut-la-bruxelles-implicarea-directa-a-oraselor-in-bugetul-uniunii/cover.jpg?v=949eaa7d" medium="image" type="image/jpeg"/>
       <description>Primarul Clujului s-a întâlnit cu oficiali europeni și a susținut că administrațiile locale trebuie să participe activ la stabilirea direcțiilor de investiții pentru exercițiul financiar 2028-2034.</description>
     </item>
     <item>
@@ -277,15 +275,6 @@
       <description>Comisia Europeană finalizează propuneri de limitare a accesului turistic pentru sute de mii de cetățenii ruși, la cererea unor state precum Polonia și Suedia, în vederea creșterii securității blocului comunitar împotriva atacurilor hibride.</description>
     </item>
     <item>
-      <title>România poate încasa fonduri pentru apărare în 2027</title>
-      <link>https://izz.ro/politic/romania-poate-incasa-fonduri-pentru-aparare-in-2027/</link>
-      <guid>https://izz.ro/politic/romania-poate-incasa-fonduri-pentru-aparare-in-2027/</guid>
-      <pubDate>Sat, 10 Oct 2026 13:00:18 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://economedia.ro/cand-romania-ar-putea-primi-urmatoarea-transa-din-cele-167-miliarde-de-euro-pentru-aparare-si-ce-conditii-trebuie-sa-indeplineasca.html">Economedia</source>
-      <description>Comisia Europeană anunță că țara noastră va primi tranșa din programul SAFE abia în prima jumătate a anului 2027, condiționat de prezentarea unui raport privind implementarea proiectelor militare.</description>
-    </item>
-    <item>
       <title>Președinția UE propune reducerea bugetului multianual, stârnind opoziția Parlamentului European</title>
       <link>https://izz.ro/politic/presedintia-ue-propune-reducerea-bugetului-multianual-starnind-opozitia/</link>
       <guid>https://izz.ro/politic/presedintia-ue-propune-reducerea-bugetului-multianual-starnind-opozitia/</guid>
@@ -464,5 +453,14 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/ue-urmareste-cu-atentie-posibila-aparitie-a-ciumei-in-rusia-suntem-mult-mai-bine-pregatiti-de-eventuale-pandemii-3979509">Digi24 Extern</source>
       <description>UE urmărește îndeaproape evoluțiile din Siberia, unde o angajată a unui laborator a decedat după un incident cu agentul patogen al ciumei, iar circa 200 de persoane au fost izolate și plasate sub supraveghere medicală.</description>
+    </item>
+    <item>
+      <title>Ucraina construiește un parc eolian gigant pentru export în România</title>
+      <link>https://izz.ro/economic/ucraina-construieste-un-parc-eolian-gigant-pentru-export-in-romania/</link>
+      <guid>https://izz.ro/economic/ucraina-construieste-un-parc-eolian-gigant-pentru-export-in-romania/</guid>
+      <pubDate>Mon, 05 Oct 2026 19:35:33 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/ucraina-construieste-un-parc-eolian-urias-care-sa-livreze-energie-inclusiv-in-romania-proiectul-a-fost-acceptat-de-bruxelles_982824.html">Economica</source>
+      <description>Comisia Europeană a aprobat proiectul parcului eolian Poltavska din Ucraina, cu o capacitate de 650 MW. Investiția aparține miliardarului Rinat Ahmetov și va livra energie electrică și în România.</description>
     </item>
 </channel></rss>

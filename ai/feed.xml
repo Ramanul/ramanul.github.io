@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 07:29:52 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 12:49:42 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI donează 5 milioane de dolari unei fundații de matematică</title>
+      <link>https://izz.ro/ai/openai-doneaza-5-milioane-de-dolari-unei-fundatii-de-matematica/</link>
+      <guid>https://izz.ro/ai/openai-doneaza-5-milioane-de-dolari-unei-fundatii-de-matematica/</guid>
+      <pubDate>Fri, 16 Oct 2026 12:26:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/high-tech/openai-doneaza-5-milioane-de-dolari-matematicienilor-dupa-acuzatii-de-plagiat-pentru-rezolvarea-unei-probleme-vechi-de-un-secol-807509.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/ai/openai-doneaza-5-milioane-de-dolari-unei-fundatii-de-matematica/cover.jpg?v=8dabe7ab" medium="image" type="image/jpeg"/>
+      <description>Compania OpenAI a decis să ofere milioane de dolari unei organizații matematice, în urma criticilor primite după ce a rezolvat cu inteligența artificială o problemă istorică veche de un secol.</description>
+    </item>
     <item>
       <title>Inteligența artificială transformă procesul de recrutare și angajare</title>
       <link>https://izz.ro/ai/inteligenta-artificiala-transforma-procesul-de-recrutare-si-angajare/</link>
@@ -53,7 +63,6 @@
       <pubDate>Thu, 15 Oct 2026 07:23:22 +0000</pubDate>
       <category>ai</category>
       <source url="https://stirileprotv.ro/stiri/international/cto-ul-palantir-sustine-ca-cercetatorii-ia-s-au-apucat-de-fumat-convinsi-ca-inteligenta-artificiala-va-gasi-leacul-pentru-cancer.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/ai/un-director-palantir-sustine-ca-cercetatorii-ia-s-au-apucat-de-fumat-convinsi/cover.jpg?v=23b9f939" medium="image" type="image/jpeg"/>
       <description>Shyam Sankar, director tehnic la Palantir, afirmă că unii experți în inteligență artificială fumează demonstrativ pentru a arăta încrederea absolută că tehnologia va descoperi în curând leacul pentru cancer.</description>
     </item>
     <item>
@@ -63,7 +72,6 @@
       <pubDate>Thu, 15 Oct 2026 07:12:40 +0000</pubDate>
       <category>ai</category>
       <source url="https://stirileprotv.ro/stiri/international/sase-state-americane-au-dat-in-judecata-openai-chatgpt-este-acuzat-ca-ar-fi-indemnat-mai-multi-copii-sa-si-faca-rau.html">Știrile ProTV, Profit.ro</source>
-      <media:content url="https://izz.ro/ai/openai-data-in-judecata-de-sase-state-americane-din-cauza-riscurilor-chatgpt/cover.jpg?v=78031f27" medium="image" type="image/jpeg"/>
       <description>Mai multe state din Statele Unite, printre care Iowa și Kansas, au acționat în instanță compania OpenAI. Autoritățile susțin că interacțiunea minorilor cu chatbotul ChatGPT prezintă riscuri majore pentru siguranța copiilor și i-ar fi determinat pe aceștia să își provoace vătămări corporale. Numărul exact al statelor implicate diferă ușor în relatările surselor.</description>
     </item>
     <item>
@@ -73,7 +81,6 @@
       <pubDate>Thu, 15 Oct 2026 05:00:01 +0000</pubDate>
       <category>ai</category>
       <source url="https://start-up.ro/ana-maria-bucur-romanca-din-elvetia-care-cerceteaza-cum-poate-ai-sa-identifice-semne-ale-depresiei-romani-din-lume/">Start-up.ro</source>
-      <media:content url="https://izz.ro/ai/cercetatoarea-romana-ana-maria-bucur-studiaza-utilizarea-inteligentei/cover.jpg?v=cd504b4c" medium="image" type="image/jpeg"/>
       <description>O doctorandă originară din județul Argeș analizează modalitățile prin care algoritmii de inteligență artificială pot identifica semne timpurii ale problemelor de sănătate mintală în cadrul mesajelor publicate online.</description>
     </item>
     <item>
@@ -83,7 +90,6 @@
       <pubDate>Wed, 14 Oct 2026 21:24:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.urban.ro/un-american-a-fost-condamnat-vizualizari-false/">Urban.ro</source>
-      <media:content url="https://izz.ro/ai/un-american-a-fost-condamnat-dupa-ce-a-fraudat-drepturile-de-autor-cu-boturi/cover.jpg?v=574ed3e3" medium="image" type="image/jpeg"/>
       <description>Un bărbat din Carolina de Nord a primit 18 luni de închisoare și i s-au confiscat peste 8 milioane de dolari obținuți prin generarea de vizualizări false cu ajutorul inteligenței artificiale pe platformele de streaming.</description>
     </item>
     <item>
@@ -454,14 +460,5 @@
       <category>ai</category>
       <source url="https://www.zf.ro/zf-live/zf-live-radu-constantinescu-cofondator-veridica-technologies-platforma-le-spune-firmelor-promotie-crestere-pret-le-aduce-profit-le-distruge-platforma-similara-departament-data-science-intr-companie-23255291">Ziarul Financiar</source>
       <description>Compania Veridica AI Technologies propune o soluție digitală dedicată firmelor pentru a evalua impactul financiar al reducerilor de preț. Sistemul funcționează similar unui departament avansat de analiză a datelor pentru mediul de afaceri.</description>
-    </item>
-    <item>
-      <title>Google utilizează tehnologia SynthID pentru a detecta conținutul generat de inteligența artificială</title>
-      <link>https://izz.ro/ai/google-utilizeaza-tehnologia-synthid-pentru-a-detecta-continutul-generat-de/</link>
-      <guid>https://izz.ro/ai/google-utilizeaza-tehnologia-synthid-pentru-a-detecta-continutul-generat-de/</guid>
-      <pubDate>Thu, 08 Oct 2026 08:18:13 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.connect.ro/2026/10/08/google-te-ajuta-sa-identifici-mai-usor-continutul-ai-de-pe-internet/">Connect.ro</source>
-      <description>Pentru a combate materialele false tot mai realiste, Google a lansat SynthID, un sistem ce aplică un marcaj digital invizibil pe fișierele audio, foto și video create de inteligența artificială, facilitând recunoașterea lor pe internet.</description>
     </item>
 </channel></rss>

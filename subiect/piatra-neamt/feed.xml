@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Piatra Neamț — IZZ.ro</title>
+  <title>Piatra-Neamț — IZZ.ro</title>
   <link>https://izz.ro/subiect/piatra-neamt/</link>
   <atom:link href="https://izz.ro/subiect/piatra-neamt/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Piatra Neamț pe IZZ.ro</description>
+  <description>Știri despre Piatra-Neamț pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 07:29:48 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 12:49:37 +0000</lastBuildDate>
+    <item>
+      <title>Șofer cercetat penal după ce a dus acasă un pieton lovit</title>
+      <link>https://izz.ro/general/sofer-cercetat-penal-dupa-ce-a-dus-acasa-un-pieton-lovit/</link>
+      <guid>https://izz.ro/general/sofer-cercetat-penal-dupa-ce-a-dus-acasa-un-pieton-lovit/</guid>
+      <pubDate>Fri, 16 Oct 2026 08:13:17 +0000</pubDate>
+      <category>general</category>
+      <source url="https://zch.ro/accident-la-piatra-neamt-soferul-a-dus-victima-acasa-insa-barbatul-a-avut-nevoie-de-ingrijiri-medicale/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
+      <media:content url="https://izz.ro/general/sofer-cercetat-penal-dupa-ce-a-dus-acasa-un-pieton-lovit/cover.jpg?v=46e2373c" medium="image" type="image/jpeg"/>
+      <description>Un conducător auto din Piatra-Neamț este investigat de polițiști pentru vătămare corporală din culpă și părăsirea locului accidentului, după ce a acroșat un pieton și l-a transportat direct la domiciliu în loc să sune la ambulanță.</description>
+    </item>
     <item>
       <title>Dosar penal pentru un șofer băut prezent la Poliție după un accident</title>
       <link>https://izz.ro/local/dosar-penal-pentru-un-sofer-baut-prezent-la-politie-dupa-un-accident/</link>
@@ -132,14 +142,5 @@
       <category>local</category>
       <source url="https://zch.ro/tehnica-militara-pe-drumurile-din-neamt-si-bacau/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
       <description>Șoferii care tranzitează zona Piatra Neamț sunt avertizați cu privire la deplasarea unor vehicule și echipamente aparținând Batalionului 634 Infanterie în perioada 6-7 octombrie.</description>
-    </item>
-    <item>
-      <title>Prețul benzinei a depășit 10 lei pe litru în Piatra Neamț</title>
-      <link>https://izz.ro/local/pretul-benzinei-a-depasit-10-lei-pe-litru-in-piatra-neamt/</link>
-      <guid>https://izz.ro/local/pretul-benzinei-a-depasit-10-lei-pe-litru-in-piatra-neamt/</guid>
-      <pubDate>Sun, 04 Oct 2026 12:01:31 +0000</pubDate>
-      <category>local</category>
-      <source url="https://zch.ro/pretul-la-motorina-standard-a-trecut-de-10-lei-pe-litru-motorina-standard-e-aproape-11-lei-litru/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
-      <description>Scumpirile carburanților continuă pe fondul conflictelor internaționale, prețul benzinei standard trecând de 10 lei pe litru la toate benzinăriile din Piatra Neamț, în timp ce motorina se apropie de 11 lei.</description>
     </item>
 </channel></rss>
