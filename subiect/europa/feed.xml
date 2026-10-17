@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 04:40:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 09:38:02 +0000</lastBuildDate>
+    <item>
+      <title>Mortalitatea cauzată de caniculă a crescut semnificativ în marile orașe europene</title>
+      <link>https://izz.ro/sanatate/mortalitatea-cauzata-de-canicula-a-crescut-semnificativ-in-marile-orase-europene/</link>
+      <guid>https://izz.ro/sanatate/mortalitatea-cauzata-de-canicula-a-crescut-semnificativ-in-marile-orase-europene/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:20:03 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://www.g4media.ro/schimbarile-climatice-afecteaza-puternic-marile-orase-mortalitatea-asociata-caniculei-in-crestere-studiu.html">G4Media</source>
+      <media:content url="https://izz.ro/sanatate/mortalitatea-cauzata-de-canicula-a-crescut-semnificativ-in-marile-orase-europene/cover.jpg?v=fbad59e4" medium="image" type="image/jpeg"/>
+      <description>Un studiu recent arată că decesele asociate căldurii extreme în zonele urbane au urcat cu 82 la milion între 2015 și 2024, Europa de Sud înregistrând cel mai grav impact din cauza schimbărilor climatice.</description>
+    </item>
     <item>
       <title>Disidenții ruși fugiți în Occident se confruntă cu riscul deportărilor</title>
       <link>https://izz.ro/extern/disidentii-rusi-fugiti-in-occident-se-confrunta-cu-riscul-deportarilor/</link>
@@ -443,14 +453,5 @@
       <category>auto</category>
       <source url="https://www.autocritica.ro/live-news/record-de-vanzari-pentru-electrice-in-europa-crestere-de-45-in-primele-8-luni/">AutoCritica</source>
       <description>Piața auto europeană a înregistrat un nou record în primele opt luni ale anului, cu peste 1,64 milioane de vehicule electrice vândute, depășind pentru prima dată autoturismele clasice pe benzină pe parcursul unui trimestru.</description>
-    </item>
-    <item>
-      <title>Seria Oppo Find X10 debutează în Europa la prețuri ridicate</title>
-      <link>https://izz.ro/tech/seria-oppo-find-x10-debuteaza-in-europa-la-preturi-ridicate/</link>
-      <guid>https://izz.ro/tech/seria-oppo-find-x10-debuteaza-in-europa-la-preturi-ridicate/</guid>
-      <pubDate>Mon, 05 Oct 2026 05:53:07 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/05/oppo-find-x10-preturi-europa/">Connect.ro</source>
-      <description>Telefoanele Oppo Find X10 și X10 Pro Max vor fi lansate în Europa pe 21 octombrie, cu prețuri cuprinse între 1.299 și 1.799 de euro. Modelele destinate pieței europene vor avea baterii mai mici comparativ cu versiunile din China.</description>
     </item>
 </channel></rss>

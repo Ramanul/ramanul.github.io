@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bacau/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bacău pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 04:40:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 09:38:02 +0000</lastBuildDate>
+    <item>
+      <title>Vreme rece și cer înnorat în Regiunea Nord-Est</title>
+      <link>https://izz.ro/general/vreme-rece-si-cer-innorat-in-regiunea-nord-est/</link>
+      <guid>https://izz.ro/general/vreme-rece-si-cer-innorat-in-regiunea-nord-est/</guid>
+      <pubDate>Sat, 17 Oct 2026 08:19:25 +0000</pubDate>
+      <category>general</category>
+      <source url="https://zch.ro/vreme-mohorata-in-regiunea-nord-est/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
+      <media:content url="https://izz.ro/general/vreme-rece-si-cer-innorat-in-regiunea-nord-est/cover.jpg?v=db0a3c2e" medium="image" type="image/jpeg"/>
+      <description>Meteorologii anunță o sâmbătă mohorâtă în nord-estul țării, cu temperaturi cuprinse între 8 și 11 grade Celsius, umiditate ridicată și probabilitate mare de ploaie spre seară în toate județele din regiune.</description>
+    </item>
     <item>
       <title>Auchan România și Habitat for Humanity lansează proiectul umanitar Căsuțe pentru căsuțe la Brașov</title>
       <link>https://izz.ro/local/auchan-romania-si-habitat-for-humanity-lanseaza-proiectul-umanitar-casute/</link>
@@ -132,14 +142,5 @@
       <category>local</category>
       <source url="https://zch.ro/bacau-video-foto-o-saptamana-de-lupta-cu-focul-in-padurea-cucuieti-dofteana/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
       <description>Echipele de intervenție continuă pentru a șaptea zi consecutiv operațiunile de stingere și supraveghere a focarelor izbucnite la sfârșitul lunii trecute în fondul forestier din comuna Dofteana.</description>
-    </item>
-    <item>
-      <title>Restricții de circulație timp de o lună pe DN11 între Brașov și Bacău</title>
-      <link>https://izz.ro/local/restrictii-de-circulatie-timp-de-o-luna-pe-dn11-intre-brasov-si-bacau/</link>
-      <guid>https://izz.ro/local/restrictii-de-circulatie-timp-de-o-luna-pe-dn11-intre-brasov-si-bacau/</guid>
-      <pubDate>Mon, 05 Oct 2026 06:47:08 +0000</pubDate>
-      <category>local</category>
-      <source url="https://bizbrasov.ro/2026/10/05/restrictii-drum-brasov-moldova/">BizBrașov</source>
-      <description>Șoferii care tranzitează ruta dintre județul Brașov și zona Moldovei se confruntă cu restricții de trafic pe DN11, instituite din cauza unor lucrări de infrastructură de amploare desfășurate de DRDP în județul Covasna.</description>
     </item>
 </channel></rss>

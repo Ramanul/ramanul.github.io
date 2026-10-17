@@ -5,7 +5,37 @@
   <atom:link href="https://izz.ro/subiect/google/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Google pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 04:40:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 09:38:02 +0000</lastBuildDate>
+    <item>
+      <title>Două românce conduc departamentele de siguranță și securitate AI ale companiei Google</title>
+      <link>https://izz.ro/ai/doua-romance-conduc-departamentele-de-siguranta-si-securitate-ai-ale-companiei/</link>
+      <guid>https://izz.ro/ai/doua-romance-conduc-departamentele-de-siguranta-si-securitate-ai-ale-companiei/</guid>
+      <pubDate>Sat, 17 Oct 2026 09:21:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/externe/diaspora/doua-romance-conduc-echipele-de-securitate-si-siguranta-ai-de-la-google-cine-sunt-femeile-care-slefuiesc-comportamentul-gemini-807519.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/ai/doua-romance-conduc-departamentele-de-siguranta-si-securitate-ai-ale-companiei/cover.jpg?v=10692f67" medium="image" type="image/jpeg"/>
+      <description>Specialistele Anca Dragan și Raluca Ada Popa ocupă funcții de conducere la Google, unde coordonează echipele însărcinate cu testarea și optimizarea comportamentului inteligenței artificiale Gemini.</description>
+    </item>
+    <item>
+      <title>Donald Trump a cerut conducerii Google redenumirea unui ocean în cinstea sa</title>
+      <link>https://izz.ro/extern/donald-trump-a-cerut-conducerii-google-redenumirea-unui-ocean-in-cinstea-sa/</link>
+      <guid>https://izz.ro/extern/donald-trump-a-cerut-conducerii-google-redenumirea-unui-ocean-in-cinstea-sa/</guid>
+      <pubDate>Sat, 17 Oct 2026 07:51:09 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.economica.net/trump-spune-ca-google-a-respins-ideea-de-a-redenumi-un-ocean-cu-numele-sau_986637.html">Economica</source>
+      <media:content url="https://izz.ro/extern/donald-trump-a-cerut-conducerii-google-redenumirea-unui-ocean-in-cinstea-sa/cover.jpg?v=70ca3776" medium="image" type="image/jpeg"/>
+      <description>În cadrul unui miting electoral din Georgia, liderul de la Casa Albă a declarat că a propus companiei Google redenumirea Oceanului Atlantic sau Pacific în „Oceanul Trump”, propunere care a fost refuzată categoric de reprezentanții gigantului american.</description>
+    </item>
+    <item>
+      <title>O aplicație Chrome falsă a infectat magazinul Google Play</title>
+      <link>https://izz.ro/tech/o-aplicatie-chrome-falsa-a-infectat-magazinul-google-play/</link>
+      <guid>https://izz.ro/tech/o-aplicatie-chrome-falsa-a-infectat-magazinul-google-play/</guid>
+      <pubDate>Sat, 17 Oct 2026 07:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/google-chrome/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/o-aplicatie-chrome-falsa-a-infectat-magazinul-google-play/cover.jpg?v=170c540f" medium="image" type="image/jpeg"/>
+      <description>Google a permis publicarea unei versiuni contrafăcute a browserului Chrome în magazinul oficial Android, programul periculos afectând peste 100.000 de dispozitive înainte de a fi depistat.</description>
+    </item>
     <item>
       <title>Google actualizează funcțiile AI Search și AI Overviews pentru vizibilitatea surselor</title>
       <link>https://izz.ro/tech/google-actualizeaza-functiile-ai-search-si-ai-overviews-pentru-vizibilitatea/</link>
@@ -168,14 +198,5 @@
       <category>tech</category>
       <source url="https://zonait.ro/youtube-shorts/">ZonaIT</source>
       <description>Platforma video administrată de Google intenționează să scadă expunerea materialelor video automate pentru a-i sprijini pe creatorii clasici de conținut amenințați de invazia conținutului generat cu ajutorul inteligenței artificiale.</description>
-    </item>
-    <item>
-      <title>Google limitează accesul la modelele Gemini pentru utilizatorii fără abonament plătit</title>
-      <link>https://izz.ro/tech/google-limiteaza-accesul-la-modelele-gemini-pentru-utilizatorii-fara-abonament/</link>
-      <guid>https://izz.ro/tech/google-limiteaza-accesul-la-modelele-gemini-pentru-utilizatorii-fara-abonament/</guid>
-      <pubDate>Mon, 05 Oct 2026 06:22:22 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/05/gemini-modele-acces-abonamente/">Connect.ro</source>
-      <description>Începând din octombrie, conturile gratuite vor folosi doar varianta Flash-Lite, în timp ce versiunile Pro rămân rezervate exclusiv planurilor tarifare superioare.</description>
     </item>
 </channel></rss>

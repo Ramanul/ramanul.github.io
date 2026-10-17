@@ -13,7 +13,7 @@
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
-  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=41b314c9">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=fce1a32f">
   <link rel="canonical" href="https://izz.ro/harta/calarasi/">
   <meta property="og:title" content="Știri din Călărași — Harta știrilor IZZ.ro">
   <meta property="og:description" content="Știri locale și județene localizate în Călărași, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
@@ -70,7 +70,7 @@
           <button type="button" class="active" role="radio" aria-checked="true" data-view="events">Evenimente</button>
           <button type="button" role="radio" aria-checked="false" data-view="articles">Relatări</button>
         </div>
-        <p id="view-hint" class="filter-hint">Un eveniment adună toate relatările despre aceeași întâmplare, din una sau mai multe surse.</p>
+        <p id="view-hint" class="filter-hint">Un eveniment adună relatările despre aceeași întâmplare.</p>
       </fieldset>
       <label class="search">
         <span>Caută loc, titlu sau sursă</span>
@@ -124,20 +124,27 @@
           </span>
         </div>
         <div id="county-picker" class="county-picker" role="group" aria-label="Alege județul"></div>
-        <!-- Footnote (F3, contractul de realitate): fiecare cifra de pe harta are langa ea
-             ce e numaratorul, ce e numitorul si pe ce fereastra. Cifrele de populație sunt
-             scrise static aici si verificate de tests/test_harta_scara.py contra
-             data/populatie.json, ca sa nu poata diverge tacut. -->
-        <p class="map-footnote">Ce măsoară cifrele: <strong>numărătorul</strong> e numărul de evenimente sau relatări
-          afișate în filtrul curent, din <span id="map-window">fereastra hărții</span>. În modul „pe locuitor",
-          <strong>numitorul</strong> e populația județului: recensământul INS 2021, agregat pe localități
-          (19.080.476 locuitori în total, cu 0,14&nbsp;% peste totalul INS de 19.053.815). Cifra e un raport,
-          nu o ierarhie: diferențele de sub un eveniment nu sunt semnificative, iar harta nu e o statistică
-          oficială a incidentelor.</p>
-        <p class="map-note">Culoarea mai închisă înseamnă mai multe știri, iar butonul „Pe locuitor" schimbă scara din volum în evenimente la 100.000 de locuitori — aceeași culoare înseamnă același număr în orice filtru, iar scara completă e în legenda de sub hartă; numele și cifrele apar la atingere sau la trecerea cursorului. În modul regional, culorile delimitează regiunile editoriale. După ce alegi un județ, harta arată limitele orașelor și comunelor; o cifră apare numai pe unitățile cu știri localizate și reprezintă evenimentele sau relatările din filtrul activ. Poți alege aceeași zonă din listă, fără să fie nevoie să nimerești un marker.</p>
-        <p class="map-note">În interiorul unui județ, cifrele de pe orașe și comune rămân <strong>volum</strong> chiar și în modul „pe locuitor": populația există doar pe județe în datele publicate, iar legenda spune asta.</p>
-        <p class="map-note">Harta se mărește cu rotița mausului sau cu dublu-click și se deplasează trăgând-o; butoanele + și − de lângă hartă merg și din tastatură, iar când e mărită o deplasezi cu săgețile. Pe telefon, un deget derulează pagina; pentru mărire folosește butoanele + și −, iar lista de județe și localități e alternativa la atingerea directă a hărții.</p>
-        <p class="map-note">Preferi o listă statică? Consultă <a href="/surse/">sursele organizate pe județe și regiuni</a>. Date de limite administrative: <a href="https://geo-spatial.org/" rel="noopener">geo-spatial.org</a> (sursă ANCPI), CC BY-SA 4.0 · conturul de județe: Natural Earth (domeniu public).</p>
+        <!-- Explicatiile stau intr-un <details> (17 oct): sase paragrafe intre harta si lista erau
+             un zid de text pe telefon. Continutul ramane in HTML (indexabil, citit de cititoarele
+             de ecran), doar se deschide la cerere. -->
+        <details class="map-help">
+          <summary>Cum se citește harta</summary>
+          <!-- Footnote (F3, contractul de realitate): fiecare cifra de pe harta are langa ea
+               ce e numaratorul, ce e numitorul si pe ce fereastra. Cifrele de populație sunt
+               scrise static aici si verificate de tests/test_harta_scara.py contra
+               data/populatie.json, ca sa nu poata diverge tacut. -->
+          <p class="map-footnote">Ce măsoară cifrele: <strong>numărătorul</strong> e numărul de evenimente sau relatări
+            afișate în filtrul curent, din <span id="map-window">fereastra hărții</span>. În modul „pe locuitor",
+            <strong>numitorul</strong> e populația județului: recensământul INS 2021, agregat pe localități
+            (19.080.476 locuitori în total, cu 0,14&nbsp;% peste totalul INS de 19.053.815). Cifra e un raport,
+            nu o ierarhie: diferențele de sub un eveniment nu sunt semnificative, iar harta nu e o statistică
+            oficială a incidentelor.</p>
+          <p class="map-note">Culoarea mai închisă înseamnă mai multe știri, iar butonul „Pe locuitor" schimbă scara din volum în evenimente la 100.000 de locuitori — aceeași culoare înseamnă același număr în orice filtru, iar scara completă e în legenda de sub hartă; numele și cifrele apar la atingere sau la trecerea cursorului. În modul regional, culorile delimitează regiunile editoriale. După ce alegi un județ, harta arată limitele orașelor și comunelor; o cifră apare numai pe unitățile cu știri localizate și reprezintă evenimentele sau relatările din filtrul activ. Poți alege aceeași zonă din listă, fără să fie nevoie să nimerești un marker.</p>
+          <p class="map-note">Un județ numără știrile <strong>despre</strong> el, indiferent unde e redacția care le-a publicat: o știre din Covasna scrisă de presa din Brașov colorează Covasna. După ce alegi un județ, panoul arată din ce presă vin relatările și despre ce alte județe a mai scris presa locală.</p>
+          <p class="map-note">În interiorul unui județ, cifrele de pe orașe și comune rămân <strong>volum</strong> chiar și în modul „pe locuitor": populația există doar pe județe în datele publicate, iar legenda spune asta.</p>
+          <p class="map-note">Harta se mărește cu rotița mausului sau cu dublu-click și se deplasează trăgând-o; butoanele + și − de lângă hartă merg și din tastatură, iar când e mărită o deplasezi cu săgețile. Pe telefon, apropie sau depărtează două degete pe hartă ca s-o mărești; când e mărită, o muți cu un deget, iar × o readuce întreagă. Un deget pe harta nemărită derulează pagina. Lista de județe și localități rămâne alternativa la atingerea directă a hărții.</p>
+          <p class="map-note">Preferi o listă statică? Consultă <a href="/surse/">sursele organizate pe județe și regiuni</a>. Date de limite administrative: <a href="https://geo-spatial.org/" rel="noopener">geo-spatial.org</a> (sursă ANCPI), CC BY-SA 4.0 · conturul de județe: Natural Earth (domeniu public).</p>
+        </details>
         <noscript><p class="map-note">Harta necesită JavaScript pentru filtrare. Poți consulta în continuare <a href="/surse/">catalogul surselor pe județe și regiuni</a> și <a href="/">ultimele știri</a>.</p></noscript>
         <p id="map-status" class="sr-only" aria-live="polite" aria-atomic="true"></p>
       </div>
@@ -149,6 +156,7 @@
           </div>
           <span id="panel-count"></span>
         </div>
+        <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
           <li><a href="/local/vanzare-teren-arabil-extravilan/">VÂNZARE TEREN ARABIL EXTRAVILAN</a> <span>Primăria Ștefan cel Mare · 15 octombrie 2026, 10:13</span></li>
 <li><a href="/local/marti-13-ziua-informarii-preventive-respectiv-a-zilei-internationale-a/">MARȚI 13- ZIUA INFORMĂRII PREVENTIVE,RESPECTIV A ZILEI INTERNAȚIONALE A REDUCERII RISCURILOR LA DEZASTRE.</a> <span>Primăria Lehliu Gară · 12 octombrie 2026, 16:29</span></li>
@@ -164,6 +172,6 @@
     </section>
   </main>
 
-  <script src="/static/harta-stiri/harta-stiri.js?v=bb92f753" defer></script>
+  <script src="/static/harta-stiri/harta-stiri.js?v=5373857f" defer></script>
 </body>
 </html>

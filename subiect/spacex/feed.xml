@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/spacex/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SpaceX pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 04:40:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 09:38:02 +0000</lastBuildDate>
+    <item>
+      <title>Tesla testează noul Roadster cu propulsoare SpaceX în Texas</title>
+      <link>https://izz.ro/tech/tesla-testeaza-noul-roadster-cu-propulsoare-spacex-in-texas/</link>
+      <guid>https://izz.ro/tech/tesla-testeaza-noul-roadster-cu-propulsoare-spacex-in-texas/</guid>
+      <pubDate>Sat, 17 Oct 2026 07:51:47 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.dobrogeaonline.ro/tesla-testeaza-roadsterul-echipat-cu-propulsoare-spacex-cand-incepe-productia-si-cat-costa-rezervarea/">Dobrogea Online</source>
+      <media:content url="https://izz.ro/tech/tesla-testeaza-noul-roadster-cu-propulsoare-spacex-in-texas/cover.jpg?v=1bf2ff53" medium="image" type="image/jpeg"/>
+      <description>Prototipul dezvoltat în colaborare cu compania lui Elon Musk a fost prezentat la centrul din McGregor prin teste care au inclus ridicarea și manevrarea vehiculului cu ajutorul unor propulsoare cu gaz rece.</description>
+    </item>
     <item>
       <title>Kaja Kallas recunoaște că UE nu poate înlocui serviciul Starlink în Ucraina</title>
       <link>https://izz.ro/extern/kaja-kallas-recunoaste-ca-ue-nu-poate-inlocui-serviciul-starlink-in-ucraina/</link>
@@ -33,7 +43,6 @@
       <pubDate>Thu, 15 Oct 2026 19:27:33 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/armele-si-informatiile-pe-care-numai-americanii-le-pot-oferi-ucrainei-3994571">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/ucraina-depinde-critic-de-informatiile-militare-si-tehnologia-oferite-exclusiv/cover.jpg?v=9d4d5db1" medium="image" type="image/jpeg"/>
       <description>Avertismentele liderului ucrainean Volodimir Zelenski arată că retragerea sprijinului american ar lăsa Kievul fără apărare aeriană și capacități de comunicații prin satelit, în lipsa unor alternative viabile.</description>
     </item>
     <item>
@@ -116,14 +125,5 @@
       <category>tech</category>
       <source url="https://www.digi24.ro/stiri/externe/spacex-critica-operatorii-care-lanseaza-sateliti-dar-nu-le-dezvaluie-traiectoria-risc-de-coliziune-cu-reteaua-starlink-3982775">Digi24 Extern</source>
       <description>Compania SpaceX a criticat dur operatorii spațiali concurenți care nu dezvăluie traiectoriile exacte ale sateliților lansați, provocând situații periculoase de aproape-coliziune pe orbita Pământului.</description>
-    </item>
-    <item>
-      <title>Elon Musk schimbă denumirea diviziei SpaceXAI în SpaceXSI din motive politice</title>
-      <link>https://izz.ro/extern/elon-musk-schimba-denumirea-diviziei-spacexai-in-spacexsi-din-motive-politice/</link>
-      <guid>https://izz.ro/extern/elon-musk-schimba-denumirea-diviziei-spacexai-in-spacexsi-din-motive-politice/</guid>
-      <pubDate>Mon, 05 Oct 2026 08:43:43 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.connect.ro/2026/10/05/spacexai-va-fi-redenumita-spacexsi-din-cauza-lui-trump/">Connect.ro</source>
-      <description>Fondatorul companiei aerospațiale a decis redenumirea diviziei de inteligență artificială în superinteligență pentru a se conforma directivelor impuse de președintele american Donald Trump.</description>
     </item>
 </channel></rss>

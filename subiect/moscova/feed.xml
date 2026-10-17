@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/moscova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Moscova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 04:40:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 09:38:02 +0000</lastBuildDate>
+    <item>
+      <title>Atacuri masive cu drone și rachete asupra Ucrainei</title>
+      <link>https://izz.ro/extern/atacuri-masive-cu-drone-si-rachete-asupra-ucrainei/</link>
+      <guid>https://izz.ro/extern/atacuri-masive-cu-drone-si-rachete-asupra-ucrainei/</guid>
+      <pubDate>Sat, 17 Oct 2026 07:36:09 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/ziua-1697-sute-de-drone-si-rachete-deasupra-ucrainei-atac-asupra-moscovei-zborurile-au-fost-restrictionate-pentru-a-sasea-noapte-la-rand">Spotmedia</source>
+      <media:content url="https://izz.ro/extern/atacuri-masive-cu-drone-si-rachete-asupra-ucrainei/cover.jpg?v=a98f4ed3" medium="image" type="image/jpeg"/>
+      <description>Rusia a lansat peste 300 de proiectile spre teritoriul ucrainean, rănind zeci de persoane, provocând pene de curent în Vinița și generând restricții de zbor la Moscova.</description>
+    </item>
     <item>
       <title>Atac masiv cu drone al Ucrainei asupra Rusiei, cu vizarea Yandex și aeroporturilor Moscovei</title>
       <link>https://izz.ro/extern/atac-masiv-cu-drone-al-ucrainei-asupra-rusiei-cu-vizarea-yandex-si/</link>
@@ -134,6 +144,15 @@
       <category>extern</category>
       <source url="https://www.dw.com/en/who-are-the-ukrainian-volunteers-under-russian-command/a-79629555?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
       <description>Rusia a anunțat formarea unui batalion format din voluntari ucraineni, însă relatările veteranilor și foștilor prizonieri de război contrazic versiunea oficială prezentată de autoritățile de la Moscova.</description>
+    </item>
+    <item>
+      <title>Centrul de date Yandex din regiunea Vladimir a fost oprit după un atac cu drone</title>
+      <link>https://izz.ro/tech/centrul-de-date-yandex-din-regiunea-vladimir-a-fost-oprit-dupa-un-atac-cu-drone/</link>
+      <guid>https://izz.ro/tech/centrul-de-date-yandex-din-regiunea-vladimir-a-fost-oprit-dupa-un-atac-cu-drone/</guid>
+      <pubDate>Sun, 11 Oct 2026 05:26:36 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.zf.ro/business-international/val-de-atacuri-cu-drone-asupra-google-ului-rusesc-yandex-pierde-al-treilea-centru-de-date-23257336">Ziarul Financiar</source>
+      <description>Gigantul tehnologic rus a suferit întreruperi majore ale serviciilor sale digitale în Rusia și statele vecine, după ce o dronă a lovit și a scos din funcțiune al treilea său hub de stocare.</description>
     </item>
     <item>
       <title>Rusia intensifică acțiunile de sabotaj împotriva statelor membre NATO</title>

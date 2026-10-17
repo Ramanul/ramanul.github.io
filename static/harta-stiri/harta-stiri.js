@@ -196,6 +196,40 @@
     return [...base].sort((a, b) => Number(visibleMatch(b)) - Number(visibleMatch(a)));
   }
 
+  // --- provenienta (inceput) ---
+  // De unde vin relatarile despre un judet, pe trei grupe: presa locala (redactia e in acelasi
+  // judet), presa din alte judete si presa fara judet de sediu (regionala sau nationala).
+  // `plecate` e directia inversa: despre ce alte judete a scris presa judetului. Harta ramane
+  // colorata dupa LOCUL stirii (decizia IZZ-0433, 17 oct): cifrele astea explica de unde vine
+  // numarul, nu il schimba. Masurat la decizie: 4,1% din relatari trec dintr-un judet in altul,
+  // „pleaca" > 0 in 9 din 42 de judete — prea putin pentru o a doua culoare pe harta.
+  function provenienta(items, county) {
+    const rezultat = { total: 0, locala: 0, alteJudete: new Map(), fara: 0 };
+    for (const item of items) {
+      if (!county || item.county !== county) continue;
+      rezultat.total += 1;
+      const redactie = item.source_county || "";
+      if (!redactie) rezultat.fara += 1;
+      else if (redactie === county) rezultat.locala += 1;
+      else rezultat.alteJudete.set(redactie, (rezultat.alteJudete.get(redactie) || 0) + 1);
+    }
+    return rezultat;
+  }
+
+  function plecate(items, county) {
+    const destinatii = new Map();
+    for (const item of items) {
+      if (!county || item.source_county !== county || !item.county || item.county === county) continue;
+      destinatii.set(item.county, (destinatii.get(item.county) || 0) + 1);
+    }
+    return destinatii;
+  }
+
+  function descrescator(map) {
+    return [...map.entries()].sort((a, b) => b[1] - a[1] || String(a[0]).localeCompare(String(b[0]), "ro"));
+  }
+  // --- provenienta (sfarsit) ---
+
   function itemsForView(items) {
     if (state.viewMode === "articles") return items;
     const events = new Map();
@@ -471,8 +505,29 @@
           event.preventDefault();
           failBasemap(new Error("Contextul WebGL a fost pierdut."));
         }, { once: true });
+        // Etichetele fundalului dublau, in engleza si fara diacritice, etichetele hartii
+        // („Romania" in mijlocul Sibiului, „Brasov" sub „Brașov 46", „Codlea" sub „Codlea 2").
+        // Localitatile, drumurile si aeroporturile ies; apele raman, pe numele romanesc.
+        const faraEticheteDuble = () => {
+          try {
+            for (const layer of map.getStyle()?.layers || []) {
+              if (layer.type !== "symbol") continue;
+              const sursa = layer["source-layer"] || "";
+              if (/^(place|transportation_name|aerodrome_label|poi|housenumber|mountain_peak)$/.test(sursa)) {
+                map.setLayoutProperty(layer.id, "visibility", "none");
+              } else if (map.getLayoutProperty(layer.id, "text-field") != null) {
+                map.setLayoutProperty(layer.id, "text-field",
+                  ["coalesce", ["get", "name:ro"], ["get", "name:latin"], ["get", "name"]]);
+              }
+            }
+          } catch (error) {
+            // Un stil fara straturile asteptate ramane cum e; fundalul e decor, nu continut.
+          }
+        };
+        map.once("style.load", faraEticheteDuble);
         map.once("load", () => {
           if (state.basemap !== map) return;
+          faraEticheteDuble();
           if (state.basemapLoadTimer) window.clearTimeout(state.basemapLoadTimer);
           state.basemapLoadTimer = null;
           state.basemapReady = true;
@@ -602,6 +657,14 @@
     zoomBox.append(zin, zout, zreset);
     stage.appendChild(zoomBox);
 
+    // Indiciul de gest, doar pe ecrane tactile (CSS): pana pe 17 oct singura cale de marire pe
+    // telefon erau butoanele + si −, iar doua degete nu faceau nimic (raportat de proprietar).
+    // Sub harta, nu peste ea: suprapus, acoperea etichetele din coltul de jos (Dolj, Giurgiu).
+    const hint = document.createElement("p");
+    hint.className = "map-gesture-hint";
+    hint.setAttribute("aria-hidden", "true");
+    state.gestureHint = hint;
+
     const back = document.createElement("button");
     back.type = "button";
     back.className = "map-back";
@@ -611,6 +674,7 @@
     stage.appendChild(back);
 
     host.appendChild(stage);
+    host.appendChild(hint);
     state.stage = stage;
     state.svg = svg;
     state.layers = layers;
@@ -639,6 +703,14 @@
     svg.addEventListener("click", onStageClick);
     svg.addEventListener("dblclick", onStageDblClick);
     svg.addEventListener("keydown", onStageKeyDown);
+    // Gesturi tactile pe toata scena (inclusiv fundalul cartografic), mai putin pe butoane.
+    // Touch events, nu pointer events: doar `touchmove` cu `passive: false` poate opri
+    // derularea paginii in mijlocul unui gest cu doua degete.
+    const stage = state.stage || svg.parentElement;
+    stage.addEventListener("touchstart", onTouchStart, { passive: false });
+    stage.addEventListener("touchmove", onTouchMove, { passive: false });
+    stage.addEventListener("touchend", onTouchEnd);
+    stage.addEventListener("touchcancel", onTouchEnd);
     // Pagina asta E o unealta de harta: rotita actioneaza pe harta, nu deruleaza pagina.
     svg.addEventListener("wheel", (event) => {
       if (!state.view || !state.baseView) return;
@@ -772,6 +844,132 @@
     showMapTip(null, null);
   }
 
+  // --- gesturi tactile ------------------------------------------------------------------
+  // Nemarita: un deget deruleaza pagina (touch-action: pan-y), doua degete maresc si muta
+  // harta. Marita (.is-zoomed → touch-action: none): un deget muta harta, doua degete
+  // continua sa mareasca/micsoreze. Punctul de sub degete ramane sub degete pe tot gestul.
+  function touchMid(touches) {
+    const a = touches[0];
+    const b = touches[1];
+    return {
+      x: (a.clientX + b.clientX) / 2,
+      y: (a.clientY + b.clientY) / 2,
+      d: Math.hypot(a.clientX - b.clientX, a.clientY - b.clientY),
+    };
+  }
+
+  function touchOnControl(event) {
+    return Boolean(event.target && event.target.closest && event.target.closest("button, a, input"));
+  }
+
+  function onTouchStart(event) {
+    if (!state.view || !state.baseView) return;
+    // Un deget pe un buton e o apasare de buton; al doilea deget transforma totul in gest,
+    // chiar daca unul dintre ele a cazut pe coloana de butoane (+, −, ×) din colt.
+    if (event.touches.length < 2 && touchOnControl(event)) return;
+    if (event.touches.length >= 2) {
+      event.preventDefault();
+      takeUserView();
+      const m = touchMid(event.touches);
+      state.gesture = {
+        d0: Math.max(m.d, 1),
+        k0: state.userZoom.k,
+        anchor: mapPointFromEvent({ clientX: m.x, clientY: m.y }),
+      };
+      state.touchPan = null;
+      state.suppressClickUntil = Infinity;
+      clearShapeHover();
+      return;
+    }
+    if (event.touches.length === 1 && state.userZoom.k > 1) {
+      takeUserView();
+      const t = event.touches[0];
+      state.touchPan = { x: t.clientX, y: t.clientY, x0: t.clientX, y0: t.clientY, moved: false };
+    }
+  }
+
+  function onTouchMove(event) {
+    if (state.gesture && event.touches.length >= 2) {
+      event.preventDefault();
+      state.pendingGesture = touchMid(event.touches);
+      scheduleGestureFrame();
+      return;
+    }
+    const pan = state.touchPan;
+    if (pan && event.touches.length === 1 && state.userZoom.k > 1) {
+      if (event.cancelable) event.preventDefault();
+      const t = event.touches[0];
+      if (!pan.moved && Math.hypot(t.clientX - pan.x0, t.clientY - pan.y0) < 10) return;
+      if (!pan.moved) {
+        pan.moved = true;
+        state.suppressClickUntil = Infinity;
+        clearShapeHover();
+      }
+      const top = worldBox();
+      const view = state.view;
+      if (!top || !view) return;
+      state.pendingPan = {
+        dx: (state.pendingPan?.dx || 0) + (t.clientX - pan.x) * view.width / top.width,
+        dy: (state.pendingPan?.dy || 0) + (t.clientY - pan.y) * view.height / top.height,
+      };
+      pan.x = t.clientX;
+      pan.y = t.clientY;
+      scheduleGestureFrame();
+    }
+  }
+
+  function onTouchEnd(event) {
+    if (state.gesture && event.touches.length < 2) {
+      state.gesture = null;
+      // Degetul ramas continua ca pan (daca harta a ramas marita), fara salt.
+      if (event.touches.length === 1 && state.userZoom.k > 1) {
+        const t = event.touches[0];
+        state.touchPan = { x: t.clientX, y: t.clientY, x0: t.clientX, y0: t.clientY, moved: true };
+      }
+    }
+    if (!event.touches.length) {
+      state.touchPan = null;
+      // Click-ul sintetic vine dupa touchend: un gest nu are voie sa selecteze forma de sub el.
+      if (state.suppressClickUntil === Infinity) state.suppressClickUntil = performance.now() + 350;
+    }
+  }
+
+  function scheduleGestureFrame() {
+    if (state.gestureFrame) return;
+    state.gestureFrame = requestAnimationFrame(() => {
+      state.gestureFrame = 0;
+      const pan = state.pendingPan;
+      state.pendingPan = null;
+      const m = state.pendingGesture;
+      state.pendingGesture = null;
+      if (m && state.gesture) applyPinch(m);
+      else if (pan) panBy(-pan.dx, -pan.dy);
+    });
+  }
+
+  function applyPinch(m) {
+    const g = state.gesture;
+    const base = state.baseView;
+    const top = worldBox();
+    if (!g || !g.anchor || !base || !top) return;
+    const k = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, g.k0 * m.d / g.d0));
+    cancelFly();
+    if (k <= ZOOM_MIN) {
+      state.userZoom = { k: ZOOM_MIN, cx: null, cy: null };
+    } else {
+      // Centrul nou se alege astfel incat punctul ancorat la inceputul gestului sa stea sub
+      // mijlocul curent al degetelor: c = ancora − (mijloc − centrul scenei) / scara.
+      const s = Math.min(top.width / base.width, top.height / base.height) * k;
+      const c = clampZoomCenter({
+        x: g.anchor.x - (m.x - (top.left + top.width / 2)) / s,
+        y: g.anchor.y - (m.y - (top.top + top.height / 2)) / s,
+      }, base);
+      state.userZoom = { k, cx: c.x, cy: c.y };
+    }
+    syncZoomControls();
+    renderMap();
+  }
+
   function onStagePointerDown(event) {
     state.pointerDown = { x: event.clientX, y: event.clientY, moved: false, pointerId: event.pointerId };
     if (event.pointerType === "mouse" && state.userZoom.k > 1) {
@@ -805,6 +1003,7 @@
     }
     if (event.pointerType !== "mouse") {
       // Pe touch nu exista hover inainte de atingere: prima atingere spune ea numele.
+      if (state.gesture || (state.touchPan && state.touchPan.moved)) return;
       if (!state.pointerDown) return;
       if (state.pointerDown.moved) return;
     }
@@ -860,6 +1059,10 @@
   }
 
   function onStageClick(event) {
+    if (state.suppressClickUntil && performance.now() < state.suppressClickUntil) {
+      state.pointerDown = null;
+      return; // a fost gest cu doua degete sau pan tactil, nu atingere
+    }
     if (state.pointerDown && state.pointerDown.moved) {
       state.pointerDown = null;
       return; // a fost pan, nu click
@@ -1059,10 +1262,20 @@
       figure.className = "tip-count";
       figure.textContent = esteJudet
         ? cifraJudet(target.county).bucata
-        : `${count} ${itemLabelFor(count)}`;
+        : itemCount(count);
       head.appendChild(figure);
     }
     tip.appendChild(head);
+    if (esteJudet && state.articles.some((item) => "source_county" in item)) {
+      const intrari = provenienta(state.rawVisible, target.county);
+      const dinAfara = [...intrari.alteJudete.values()].reduce((suma, n) => suma + n, 0);
+      if (dinAfara) {
+        const origine = document.createElement("div");
+        origine.className = "tip-origin";
+        origine.textContent = `${dinAfara} ${dinAfara === 1 ? "relatare" : "relatări"} din presa altor județe`;
+        tip.appendChild(origine);
+      }
+    }
     // Previzualizare: primele trei titluri din zona atinsa.
     let titles = [];
     if (Array.isArray(target.items)) titles = target.items.slice(0, 3);
@@ -1318,7 +1531,7 @@
       // 7 știri ca „4+ la 100.000" — o scara care minte (vezi nota din legenda).
       const klassUat = rampClassFor(uat.count, PRAGURI);
       for (let i = 0; i < 5; i += 1) node.classList.toggle(`h${i}`, klassUat === i);
-      node.setAttribute("aria-label", `${uat.label || uat.name}: ${uat.count} ${itemLabelFor(uat.count)}`);
+      node.setAttribute("aria-label", `${uat.label || uat.name}: ${itemCount(uat.count)}`);
       node.setAttribute("aria-pressed", selected ? "true" : "false");
     }
     for (const [key, node] of byKey) {
@@ -1346,6 +1559,9 @@
     // deriva din view): altfel vederea de județ, care are alt raport, ar fi incadrata cu
     // benzi goale in sus si in jos.
     stage.style.setProperty("--map-aspect", `${fmt(view.width)} / ${fmt(view.height)}`);
+    // Acelasi raport ca numar, pentru CSS: pe un telefon in peisaj harta se ingusteaza ca sa
+    // incapa toata pe inaltimea ecranului (altfel avea 544 px pe un ecran de 412).
+    stage.style.setProperty("--map-ar", fmt(view.width / view.height));
     if (!state.basemapStarted && state.projection) startBasemap();
     syncBasemapToView(view);
     stage.classList.toggle("is-zoomed", state.userZoom.k > 1);
@@ -1394,6 +1610,9 @@
     // UAT-urile județului deschis, taiate pe silueta lui (clip-path), fara siluetele vecinilor.
     const showUats = Boolean(state.zoomCounty && state.uats.length);
     syncScaleScope(showUats);
+    // Sub UAT-uri, umplerea judetului facea ca UAT-urile estompate la selectie sa para
+    // neschimbate (aurul judetului se vedea prin ele): selectia nu se distingea.
+    stage.classList.toggle("is-uat-view", showUats);
     state.layers.uats.hidden = !showUats;
     state.layers.outline.hidden = !showUats;
     if (showUats) {
@@ -1665,7 +1884,7 @@
     const valoare = valoareJudet(county);
     const bucata = esteModRata() && valoare != null
       ? `${fmtValoare(valoare)} ${itemLabel()} la 100.000 de locuitori`
-      : `${countyCount(county)} ${itemLabelFor(countyCount(county))}`;
+      : itemCount(countyCount(county));
     return { valoare, bucata };
   }
 
@@ -1782,7 +2001,11 @@
       state.zoomOut.setAttribute("aria-disabled", z.k <= ZOOM_MIN ? "true" : "false");
       state.zoomReset.hidden = z.k <= ZOOM_MIN;
     }
-    
+    if (state.gestureHint) {
+      state.gestureHint.textContent = z.k > ZOOM_MIN
+        ? "Un deget mută harta · × revine la toată harta"
+        : "Două degete pe hartă: mărește și mută";
+    }
   }
 
   // Schimbările de scară se anunta in regiunea live (#map-status), dar DOAR la acțiuni
@@ -1905,8 +2128,24 @@
       const on = key !== null && button.dataset.uat === key;
       button.classList.toggle("is-hovered", on);
       button.setAttribute("aria-current", on ? "true" : "false");
-      // `nearest` nu face nimic daca randul e deja vizibil, deci lista nu sare degeaba.
-      if (on) button.scrollIntoView({ block: "nearest", inline: "nearest" });
+      if (on) revealInPicker(picker, button);
+    }
+  }
+
+  // Aduce butonul in vedere DERULAND DOAR LISTA, niciodata pagina. `scrollIntoView` derula
+  // fereastra ori de cate ori lista era sub ecran: pe desktop, mouse-ul plimbat peste
+  // localitatile unui judet trimitea pagina in jos si harta disparea in sus (raportat de
+  // proprietar 17 oct; masurat pe /harta/cluj/: +108 px la doua treceri de mouse).
+  function revealInPicker(picker, button) {
+    const box = picker.getBoundingClientRect();
+    const own = button.getBoundingClientRect();
+    if (picker.scrollWidth > picker.clientWidth + 1) {
+      if (own.left < box.left) picker.scrollLeft -= box.left - own.left + 8;
+      else if (own.right > box.right) picker.scrollLeft += own.right - box.right + 8;
+    }
+    if (picker.scrollHeight > picker.clientHeight + 1) {
+      if (own.top < box.top) picker.scrollTop -= box.top - own.top + 8;
+      else if (own.bottom > box.bottom) picker.scrollTop += own.bottom - box.bottom + 8;
     }
   }
 
@@ -1933,8 +2172,12 @@
     // Lista păstrează toate UAT-urile județului, inclusiv când filtrul curent nu găsește
     // articole în ele; astfel, schimbarea filtrului nu face numele sau zonele inaccesibile.
     if (state.zoomCounty && state.uats.length) {
+      // Localitatile cu stiri primele (dupa numar), apoi restul alfabetic: lista ramane completa
+      // (alternativa la atingerea hartii), dar nu mai incepe cu „Apața · 0, Augustin · 0…".
       const uats = [...state.uats]
-        .sort((a, b) => String(a.label || a.name).localeCompare(String(b.label || b.name), "ro"));
+        .sort((a, b) => (Number(b.count > 0) - Number(a.count > 0))
+          || (b.count - a.count)
+          || String(a.label || a.name).localeCompare(String(b.label || b.name), "ro"));
       picker.setAttribute("aria-label", `Orașe și comune din ${judetLabel(state.zoomCounty)}`);
       if (!uats.length) {
         const empty = document.createElement("p");
@@ -1967,7 +2210,7 @@
         button.addEventListener("focus", () => setHover(uat));
         button.addEventListener("blur", () => setHover(null));
         picker.appendChild(button);
-        if (button.dataset.uat === focusedKey) button.focus();
+        if (button.dataset.uat === focusedKey) button.focus({ preventScroll: true });
       }
       // Tastatura nu trebuie sa-si piarda locul cand pickerul se schimba din judete in UAT-uri:
       // niciun buton UAT nu poarta cheia judetului (dataset.uat e cod SIRUTA), deci
@@ -1976,7 +2219,7 @@
       // e o tinta sigura; pentru utilizatorul de mouse focusedKey e null si nu i se fura focusul.
       if (focusedKey && !picker.contains(document.activeElement)) {
         const first = picker.querySelector("button[data-uat]");
-        if (first) first.focus();
+        if (first) first.focus({ preventScroll: true });
       }
       syncUatHighlight();
       return;
@@ -2012,7 +2255,7 @@
       button.setAttribute("aria-pressed", selected ? "true" : "false");
       button.addEventListener("click", () => (isRegional ? selectRegion(key) : selectCounty(key)));
       picker.appendChild(button);
-      if (key === focusedKey) button.focus();
+      if (key === focusedKey) button.focus({ preventScroll: true });
     }
   }
 
@@ -2219,16 +2462,22 @@
     return "România";
   }
 
-  function itemLabel() {
-    return state.viewMode === "events" ? "evenimente" : "relatări";
+  // Acordul numeralului in romana: „1 județ", „5 județe", „20 de județe", „101 județe".
+  // Pana pe 17 oct interfata scria „1 regiuni · 1 județe" si „46 evenimente".
+  function cate(n, unu, multe) {
+    const v = Math.abs(Math.trunc(Number(n) || 0));
+    if (v === 1) return `1 ${unu}`;
+    const rest = v % 100;
+    const de = rest >= 20 || (rest === 0 && v >= 100) ? "de " : "";
+    return `${n} ${de}${multe}`;
   }
 
-  // `itemLabel()` da intotdeauna pluralul, iar apelantii lui de pana acum isi rezolvau
-  // acordul separat (".. localizat" + "e"). Tooltipul pune cifra lipita de cuvant, unde
-  // asta ar da "1 evenimente", deci are nevoie de forma acordata.
-  function itemLabelFor(count) {
-    if (count === 1) return state.viewMode === "events" ? "eveniment" : "relatare";
-    return itemLabel();
+  function itemCount(n) {
+    return cate(n, state.viewMode === "events" ? "eveniment" : "relatare", itemLabel());
+  }
+
+  function itemLabel() {
+    return state.viewMode === "events" ? "evenimente" : "relatări";
   }
 
   // Fereastra reala a datelor, din datele încărcate (nu o constanta care poate minti):
@@ -2277,21 +2526,33 @@
       const meta = document.createElement("span");
       const source = item.source_name || item.source;
       // Judetul se afiseaza cu eticheta lui („Brașov"), nu cu codul din date („BRASOV").
-      meta.textContent = [item.locality_label || item.locality, item.county ? judetLabel(item.county) : "",
+      // „București · București" / „Tulcea · Tulcea": judetul se repeta doar cand difera de loc.
+      const locLabel = item.locality_label || item.locality || "";
+      const countyLabel = item.county ? judetLabel(item.county) : "";
+      meta.textContent = [locLabel, norm(countyLabel) === norm(locLabel) ? "" : countyLabel,
         item.region, source,
         dateLabel(item.published)]
         .filter(Boolean).join(" · ");
       li.append(titlu, meta);
+      // Stirea sta pe judetul faptei; cand redactia e din alt judet, se spune explicit, ca
+      // cititorul sa nu creada ca harta a gresit locul („stirea e in Covasna, dar a scris-o
+      // presa din Brasov").
+      if (item.source_county && item.county && item.source_county !== item.county) {
+        const origine = document.createElement("span");
+        origine.className = "source-origin";
+        origine.textContent = `Relatare a presei din ${judetLabel(item.source_county)}`;
+        li.appendChild(origine);
+      }
       if (state.viewMode === "events" && (item.eventArticleCount > 1 || item.eventSourceCount > 1)) {
         const context = document.createElement("span");
         context.className = "event-context";
         // „3 relatări · 1 surse" era si gramatical gresit, si neinformativ: aceeasi sursa
         // care republica e alt fapt decat trei redactii diferite (vazut pe live 2026-10-16).
         context.textContent = item.eventArticleCount > 1 && item.eventSourceCount <= 1
-          ? `${item.eventArticleCount} relatări din aceeași sursă`
+          ? `${cate(item.eventArticleCount, "relatare", "relatări")} din aceeași sursă`
           : item.eventArticleCount > 1
-            ? `${item.eventArticleCount} relatări · ${item.eventSourceCount} surse despre același eveniment`
-            : `${item.eventSourceCount} surse despre același eveniment`;
+            ? `${cate(item.eventArticleCount, "relatare", "relatări")} · ${cate(item.eventSourceCount, "sursă", "surse")} despre același eveniment`
+            : `${cate(item.eventSourceCount, "sursă", "surse")} despre același eveniment`;
         li.appendChild(context);
       }
       list.appendChild(li);
@@ -2305,19 +2566,80 @@
     if (count) {
       const query = norm(state.search);
       const shown = all.length > items.length
-        ? `${items.length} din ${all.length} ${itemLabel()}`
-        : `${items.length} ${itemLabel()}`;
+        ? `${items.length} din ${itemCount(all.length)}`
+        : itemCount(items.length);
       const places = query ? state.rawVisible.filter((item) => matchesPlace(item, query)).length : 0;
-      const matchNote = places ? `${places} potriviri de loc` : "potriviri în titlu sau sursă";
+      const matchNote = places ? cate(places, "potrivire de loc", "potriviri de loc") : "potriviri în titlu sau sursă";
       count.textContent = query ? `${shown} · ${matchNote}` : shown;
     }
     const showMore = $("#show-more");
     if (showMore) {
       showMore.hidden = items.length >= all.length;
-      showMore.textContent = `Arată încă ${Math.min(120, Math.max(0, all.length - items.length))} rezultate`;
+      showMore.textContent = `Arată încă ${cate(Math.min(120, Math.max(0, all.length - items.length)), "rezultat", "rezultate")}`;
     }
     updateCountyPicker();
     updateBreadcrumb();
+    renderProvenance();
+  }
+
+  // Panoul judetului: din ce presa vin relatarile despre el si despre ce a mai scris presa lui.
+  // Numara RELATARI in orice mod de grupare: un eveniment poate avea redactii din judete diferite.
+  function renderProvenance() {
+    const box = $("#panel-provenance");
+    if (!box) return;
+    const county = state.selectedCounty;
+    box.replaceChildren();
+    // Un map.json mai vechi decat JS-ul (deploy de cod inaintea datelor, oglinda de failover)
+    // n-are `source_county` deloc: fara garda, panoul ar spune fals ca TOATE relatarile vin din
+    // presa regionala sau nationala (vazut pe live 17 oct., in ora dintre cele doua deploy-uri).
+    if (!county || !state.articles.some((item) => "source_county" in item)) {
+      box.hidden = true;
+      return;
+    }
+    const nume = judetLabel(county);
+    const intrari = provenienta(state.rawVisible, county);
+    const iesiri = plecate(filtered({ ignorePlace: true }), county);
+    if (!intrari.total && !iesiri.size) {
+      box.hidden = true;
+      return;
+    }
+    if (intrari.total) {
+      const p = document.createElement("p");
+      const relatari = intrari.total === 1 ? "relatarea" : `cele ${cate(intrari.total, "relatare", "relatări")}`;
+      if (intrari.locala === intrari.total) {
+        p.textContent = intrari.total === 1
+          ? `Relatarea despre ${nume} vine din presa locală.`
+          : `Toate cele ${cate(intrari.total, "relatare", "relatări")} despre ${nume} vin din presa locală.`;
+      } else {
+        const parti = [];
+        if (intrari.locala) parti.push(`${intrari.locala} din presa locală`);
+        const alte = descrescator(intrari.alteJudete);
+        for (const [judet, n] of alte.slice(0, 3)) parti.push(`${n} din presa din ${judetLabel(judet)}`);
+        const rest = alte.slice(3).reduce((suma, [, n]) => suma + n, 0);
+        if (rest) parti.push(`${rest} din presa altor județe`);
+        if (intrari.fara) parti.push(`${intrari.fara} din presa regională sau națională`);
+        p.textContent = `Din ${relatari} despre ${nume}: ${parti.join(", ")}.`;
+      }
+      box.appendChild(p);
+    }
+    if (iesiri.size) {
+      const p = document.createElement("p");
+      const total = [...iesiri.values()].reduce((suma, n) => suma + n, 0);
+      p.append(`Presa din ${nume} a mai relatat ${total === 1 ? "o știre" : cate(total, "știre", "știri")} din alte județe: `);
+      // Linkuri reale spre pagina judetului (aceeasi ruta ca un click pe harta): o selectie
+      // in pagina ar fi lasat titlul „Știri din Brașov" peste datele din Covasna.
+      descrescator(iesiri).forEach(([judet, n], index) => {
+        if (index) p.append(", ");
+        const link = document.createElement("a");
+        link.href = countyRoute(judet);
+        link.dataset.county = judet;
+        link.textContent = judetLabel(judet);
+        p.append(link, ` ${n}`);
+      });
+      p.append(".");
+      box.appendChild(p);
+    }
+    box.hidden = false;
   }
 
   function updateStats() {
@@ -2332,10 +2654,16 @@
     stats.replaceChildren();
     const strong = document.createElement("strong");
     strong.textContent = state.viewMode === "events"
-      ? `${itemsForView(state.rawVisible).length} evenimente`
-      : `${state.rawVisible.length} relatări`;
+      ? cate(itemsForView(state.rawVisible).length, "eveniment", "evenimente")
+      : cate(state.rawVisible.length, "relatare", "relatări");
     const span = document.createElement("span");
-    span.textContent = `${state.rawVisible.length} relatări · ${regions} regiuni · ${counties} județe · ${localities} localități confirmate · actualizat ${latest}`;
+    span.textContent = [
+      cate(state.rawVisible.length, "relatare", "relatări"),
+      cate(regions, "regiune", "regiuni"),
+      cate(counties, "județ", "județe"),
+      cate(localities, "localitate confirmată", "localități confirmate"),
+      `actualizat ${latest}`,
+    ].join(" · ");
     stats.append(strong, span);
     const note = levelNote();
     if (note) {
@@ -2365,7 +2693,7 @@
         state.level = saved;
       }
     }
-    const rest = outside === 1 ? "o relatare" : `${outside} relatări`;
+    const rest = outside === 1 ? "o relatare" : cate(outside, "relatare", "relatări");
     if (saved === "local") {
       return "Nivel local: numai știrile cu oraș sau comună identificată."
         + (outside ? ` Încă ${rest} au doar județul și apar la „Județean”.` : "");
@@ -2406,7 +2734,8 @@
   function announceState() {
     const place = contextName();
     const levelLabel = { all: "toate nivelurile", regional: "nivel regional", judetean: "nivel județean", local: "nivel local" }[state.level] || "nivelul ales";
-    const message = `${state.visible.length} ${itemLabel()} afișate pentru ${place}, la ${levelLabel}.`;
+    const afisate = state.visible.length === 1 ? (state.viewMode === "events" ? "afișat" : "afișată") : "afișate";
+    const message = `${itemCount(state.visible.length)} ${afisate} pentru ${place}, la ${levelLabel}.`;
     const status = $("#map-status");
     if (status) status.textContent = message;
     const context = $("#active-context");
@@ -2416,6 +2745,9 @@
       const hasSelection = Boolean(state.selectedRegion || state.selectedCounty || state.selectedLocality);
       clear.disabled = !hasSelection;
       clear.textContent = hasSelection ? "Înapoi la România" : "Ești în România";
+      // Fara selectie, butonul dezactivat era doar zgomot (firul de navigare spune deja unde
+      // esti) si impingea „Resetează filtrele" pe un rand separat.
+      clear.hidden = !hasSelection;
     }
   }
 

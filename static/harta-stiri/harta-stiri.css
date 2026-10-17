@@ -51,7 +51,7 @@ button,input { font:inherit; }
    ancora si „trage" pagina inapoi la ea cand lista de sub ea se redeseneaza — saltul raportat
    de cititor. Fara ancorare pe harta, browserul ancoreaza continutul real de sub cursor. */
 .map-stage{position:relative;width:100%;aspect-ratio:var(--map-aspect,1000/703.53);max-height:720px;background:var(--surface);touch-action:pan-y;user-select:none;-webkit-user-select:none;cursor:pointer;overflow-anchor:none}
-.map-stage.is-zoomed{cursor:grab}
+.map-stage.is-zoomed{cursor:grab;touch-action:none}
 .map-stage.is-panning{cursor:grabbing}
 .map-basemap-viewport{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;background:var(--surface)}
 .map-basemap.maplibregl-map{position:absolute;inset:0;z-index:0;pointer-events:none;transform-origin:50% 50%;background:var(--surface)}
@@ -82,6 +82,10 @@ button,input { font:inherit; }
 /* Focusul de tastatură: fiecare județ are un link SVG focusabil; conturul de focus trebuie
    să fie vizibil pe orice umplere. Țintele tactile transparente au diametru de minimum 24px
    și nu sunt focusabile, ca ordinea de Tab să nu dubleze cele 42 de județe. */
+/* Chrome deseneaza `:focus{outline:auto 5px}` (regula UA) pe orice element SVG focusabil, si la
+   click/atingere, nu doar la tastatura: chenarul negru patrat din jurul formei atinse (raportat
+   de proprietar, 17 oct). Inelul de tastatura ramane, ca contur al formei, doar la :focus-visible. */
+.map-county:focus,.map-uat:focus,.map-county-hit:focus,#map svg:focus{outline:none}
 .map-county:focus-visible,.map-uat:focus-visible{outline:none;stroke:var(--map-hot);stroke-width:3.4}
 /* Modul regional: umplerea spune REGIUNEA editorială (nu volumul), ca inainte, dar acum
    din CSS — un singur loc pentru toate culorile hărții. */
@@ -182,10 +186,82 @@ button,input { font:inherit; }
    suprapunere din hartile de produs, fara JS: stickiness + colturi rotunjite + mâner. */
 @media (max-width:900px){
   .map-card{position:sticky;top:60px;z-index:1}
-  .news-panel{position:relative;z-index:2;margin-top:-14px;border-radius:16px 16px 0 0;min-height:60vh}
-  .news-panel::before{content:"";display:block;width:44px;height:5px;border-radius:3px;background:var(--border);margin:.55rem auto 0}
+  /* Din 17 oct filtrele stau sub harta pe telefon, deci sheet-ul incepe cu ele: filtre + lista
+     alunecă împreună peste harta lipita. Altfel filtrele treceau PE SUB harta lipita. */
+  .map-toolbar{position:relative;z-index:2;margin:-14px 0 0;padding:.4rem 1rem 1rem;background:var(--surface);border:1px solid var(--border);border-bottom:0;border-radius:16px 16px 0 0}
+  .map-toolbar::before{content:"";flex:0 0 44px;height:5px;margin:0 calc(50% - 22px) .3rem;border-radius:3px;background:var(--border)}
+  .news-panel{position:relative;z-index:2;margin-top:0;border-radius:0;border-top:1px solid var(--border);min-height:60vh}
 }
-@media (max-width:560px){.map-card{top:52px}}
+/* Sub 560 px antetul nu mai e lipit (position:relative), deci harta se lipeste de marginea
+   ecranului; cu top:52px ramanea o banda goala deasupra ei. */
+@media (max-width:560px){.map-card{top:.4rem}}
 .map-stats .level-note{display:block;max-width:320px;margin:.4rem 0 0 auto;color:var(--muted);font-size:.76rem;line-height:1.35}
 .filter-hint{max-width:270px;margin:.3rem 0 0;color:var(--muted);font-size:.72rem;line-height:1.35}
 @media (max-width:900px){.map-stats .level-note{margin-left:0;max-width:none}.filter-hint{max-width:none}}
+.panel-provenance{margin:0;padding:.65rem 1rem;border-bottom:1px solid var(--border);background:var(--surface-2);color:var(--muted);font-size:.8rem;line-height:1.45}
+.panel-provenance p{margin:0}.panel-provenance p+p{margin-top:.35rem}
+.panel-provenance a{color:var(--accent);font-weight:700;text-underline-offset:2px}
+#news-list li .source-origin{display:block;margin-top:.25rem;color:var(--muted);font-size:.74rem;font-style:italic}
+.tip-origin{margin:.15rem 0 .2rem;color:var(--muted);font-size:.74rem}
+.map-gesture-hint{display:none;margin:.45rem 0 0;color:var(--muted);font-size:.76rem;font-weight:600;line-height:1.35;text-align:center}
+@media (hover:none) and (pointer:coarse){.map-gesture-hint{display:block}}
+/* `hidden` trebuie sa castige mereu: `.legend-bands{display:flex}` il anula, deci legenda arata
+   AMBELE scari deodata (volum si pe locuitor), iar legenda ascunsa la nivel regional ramanea vizibila. */
+[hidden]{display:none!important}
+#map:empty{aspect-ratio:1000/704}
+/* Telefon: harta trebuie sa se vada fara derulare (17 oct: pe un Pixel 7 incepea sub ecran, dupa
+   titlu, text, statistici si trei randuri de filtre). Ordinea devine: titlu → harta → filtre → lista. */
+@media (max-width:900px){
+  .map-page{display:flex;flex-direction:column}
+  .map-intro{order:1;margin-bottom:.75rem;gap:.6rem}
+  .map-layout{display:contents}
+  .map-card{order:2;margin-bottom:0}
+  .map-toolbar{order:3}
+  .news-panel{order:4}
+  .map{min-height:0}
+  .map-stats{padding:.6rem .8rem;box-shadow:none}
+  .map-stats strong{font-size:1.15rem}
+}
+@media (max-width:560px){
+  .map-intro p:not(.eyebrow){margin:.35rem 0}
+  .map-task{font-size:.95rem}
+  .map-disclosure{font-size:.78rem}
+  h1{font-size:2rem}
+  /* Pe telefon firul de navigare de deasupra hartii duce deja inapoi; butonul din harta acoperea
+     etichetele din coltul stang sus. */
+  .map-back{display:none}
+  .map-zoom{top:.6rem;right:.6rem;gap:.3rem}
+  .map-zoom button{width:40px;height:40px}
+}
+.map-help{border-top:1px solid var(--border);padding:.2rem 1rem .6rem}
+.map-help>summary{cursor:pointer;padding:.55rem 0;color:var(--text);font-size:.85rem;font-weight:700;list-style-position:inside}
+.map-help[open]>summary{margin-bottom:.2rem}
+.map-help .map-note{border-top:0;padding:.45rem 0}
+.map-help .map-footnote{margin:.3rem 0 .4rem}
+.map-stage.is-uat-view .map-county{fill:transparent}
+@media (orientation:landscape) and (max-height:520px){
+  .map-stage{width:min(100%,calc((100svh - 2.5rem) * var(--map-ar,1.42)));margin-inline:auto}
+}
+@media (max-width:560px){
+  /* Lista de judete/localitati devine o banda care se deruleaza orizontal: 42 (sau 100) de
+     butoane pe 14 randuri impingeau filtrele si stirile cu un ecran si jumatate mai jos. */
+  #county-picker{flex-wrap:nowrap;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;padding:.75rem .5rem;gap:.45rem}
+  #county-picker button{min-height:40px;padding:.4rem .7rem;font-size:.82rem;white-space:nowrap}
+  #county-picker .picker-empty{white-space:normal}
+}
+/* Desktop (17 oct, 1366×900): harta incepea la y=609, adica sub ecran cu doua treimi din ea.
+   Titlul si filtrele se strang, iar explicatia de sub „Grupeaza" nu mai inalta randul. */
+@media (min-width:901px){
+  .map-page{padding-top:1.1rem}
+  h1{font-size:clamp(2rem,3.2vw,2.6rem)}
+  .map-intro{margin-bottom:.9rem;align-items:center}
+  .map-intro p.map-task{margin:.4rem 0 .15rem}
+  .map-intro p.map-disclosure{margin:0}
+  .map-toolbar{row-gap:1.7rem;margin-bottom:1.7rem}
+  .filter-group{position:relative}
+  .filter-hint{position:absolute;left:.15rem;top:calc(100% + .25rem);margin:0;max-width:none;white-space:nowrap}
+  .search{flex:1 1 220px}
+}
+/* Bara „Afișezi … pentru România, la toate nivelurile" repeta exact firul de navigare si titlul
+   panoului. Ramane pentru cititoarele de ecran (e regiune aria-live), dar nu mai ocupa un rand. */
+.active-context{position:absolute!important;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}

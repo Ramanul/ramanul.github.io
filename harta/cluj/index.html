@@ -13,7 +13,7 @@
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
-  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=41b314c9">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=fce1a32f">
   <link rel="canonical" href="https://izz.ro/harta/cluj/">
   <meta property="og:title" content="Știri din Cluj — Harta știrilor IZZ.ro">
   <meta property="og:description" content="Știri locale și județene localizate în Cluj, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
@@ -70,7 +70,7 @@
           <button type="button" class="active" role="radio" aria-checked="true" data-view="events">Evenimente</button>
           <button type="button" role="radio" aria-checked="false" data-view="articles">Relatări</button>
         </div>
-        <p id="view-hint" class="filter-hint">Un eveniment adună toate relatările despre aceeași întâmplare, din una sau mai multe surse.</p>
+        <p id="view-hint" class="filter-hint">Un eveniment adună relatările despre aceeași întâmplare.</p>
       </fieldset>
       <label class="search">
         <span>Caută loc, titlu sau sursă</span>
@@ -124,20 +124,27 @@
           </span>
         </div>
         <div id="county-picker" class="county-picker" role="group" aria-label="Alege județul"></div>
-        <!-- Footnote (F3, contractul de realitate): fiecare cifra de pe harta are langa ea
-             ce e numaratorul, ce e numitorul si pe ce fereastra. Cifrele de populație sunt
-             scrise static aici si verificate de tests/test_harta_scara.py contra
-             data/populatie.json, ca sa nu poata diverge tacut. -->
-        <p class="map-footnote">Ce măsoară cifrele: <strong>numărătorul</strong> e numărul de evenimente sau relatări
-          afișate în filtrul curent, din <span id="map-window">fereastra hărții</span>. În modul „pe locuitor",
-          <strong>numitorul</strong> e populația județului: recensământul INS 2021, agregat pe localități
-          (19.080.476 locuitori în total, cu 0,14&nbsp;% peste totalul INS de 19.053.815). Cifra e un raport,
-          nu o ierarhie: diferențele de sub un eveniment nu sunt semnificative, iar harta nu e o statistică
-          oficială a incidentelor.</p>
-        <p class="map-note">Culoarea mai închisă înseamnă mai multe știri, iar butonul „Pe locuitor" schimbă scara din volum în evenimente la 100.000 de locuitori — aceeași culoare înseamnă același număr în orice filtru, iar scara completă e în legenda de sub hartă; numele și cifrele apar la atingere sau la trecerea cursorului. În modul regional, culorile delimitează regiunile editoriale. După ce alegi un județ, harta arată limitele orașelor și comunelor; o cifră apare numai pe unitățile cu știri localizate și reprezintă evenimentele sau relatările din filtrul activ. Poți alege aceeași zonă din listă, fără să fie nevoie să nimerești un marker.</p>
-        <p class="map-note">În interiorul unui județ, cifrele de pe orașe și comune rămân <strong>volum</strong> chiar și în modul „pe locuitor": populația există doar pe județe în datele publicate, iar legenda spune asta.</p>
-        <p class="map-note">Harta se mărește cu rotița mausului sau cu dublu-click și se deplasează trăgând-o; butoanele + și − de lângă hartă merg și din tastatură, iar când e mărită o deplasezi cu săgețile. Pe telefon, un deget derulează pagina; pentru mărire folosește butoanele + și −, iar lista de județe și localități e alternativa la atingerea directă a hărții.</p>
-        <p class="map-note">Preferi o listă statică? Consultă <a href="/surse/">sursele organizate pe județe și regiuni</a>. Date de limite administrative: <a href="https://geo-spatial.org/" rel="noopener">geo-spatial.org</a> (sursă ANCPI), CC BY-SA 4.0 · conturul de județe: Natural Earth (domeniu public).</p>
+        <!-- Explicatiile stau intr-un <details> (17 oct): sase paragrafe intre harta si lista erau
+             un zid de text pe telefon. Continutul ramane in HTML (indexabil, citit de cititoarele
+             de ecran), doar se deschide la cerere. -->
+        <details class="map-help">
+          <summary>Cum se citește harta</summary>
+          <!-- Footnote (F3, contractul de realitate): fiecare cifra de pe harta are langa ea
+               ce e numaratorul, ce e numitorul si pe ce fereastra. Cifrele de populație sunt
+               scrise static aici si verificate de tests/test_harta_scara.py contra
+               data/populatie.json, ca sa nu poata diverge tacut. -->
+          <p class="map-footnote">Ce măsoară cifrele: <strong>numărătorul</strong> e numărul de evenimente sau relatări
+            afișate în filtrul curent, din <span id="map-window">fereastra hărții</span>. În modul „pe locuitor",
+            <strong>numitorul</strong> e populația județului: recensământul INS 2021, agregat pe localități
+            (19.080.476 locuitori în total, cu 0,14&nbsp;% peste totalul INS de 19.053.815). Cifra e un raport,
+            nu o ierarhie: diferențele de sub un eveniment nu sunt semnificative, iar harta nu e o statistică
+            oficială a incidentelor.</p>
+          <p class="map-note">Culoarea mai închisă înseamnă mai multe știri, iar butonul „Pe locuitor" schimbă scara din volum în evenimente la 100.000 de locuitori — aceeași culoare înseamnă același număr în orice filtru, iar scara completă e în legenda de sub hartă; numele și cifrele apar la atingere sau la trecerea cursorului. În modul regional, culorile delimitează regiunile editoriale. După ce alegi un județ, harta arată limitele orașelor și comunelor; o cifră apare numai pe unitățile cu știri localizate și reprezintă evenimentele sau relatările din filtrul activ. Poți alege aceeași zonă din listă, fără să fie nevoie să nimerești un marker.</p>
+          <p class="map-note">Un județ numără știrile <strong>despre</strong> el, indiferent unde e redacția care le-a publicat: o știre din Covasna scrisă de presa din Brașov colorează Covasna. După ce alegi un județ, panoul arată din ce presă vin relatările și despre ce alte județe a mai scris presa locală.</p>
+          <p class="map-note">În interiorul unui județ, cifrele de pe orașe și comune rămân <strong>volum</strong> chiar și în modul „pe locuitor": populația există doar pe județe în datele publicate, iar legenda spune asta.</p>
+          <p class="map-note">Harta se mărește cu rotița mausului sau cu dublu-click și se deplasează trăgând-o; butoanele + și − de lângă hartă merg și din tastatură, iar când e mărită o deplasezi cu săgețile. Pe telefon, apropie sau depărtează două degete pe hartă ca s-o mărești; când e mărită, o muți cu un deget, iar × o readuce întreagă. Un deget pe harta nemărită derulează pagina. Lista de județe și localități rămâne alternativa la atingerea directă a hărții.</p>
+          <p class="map-note">Preferi o listă statică? Consultă <a href="/surse/">sursele organizate pe județe și regiuni</a>. Date de limite administrative: <a href="https://geo-spatial.org/" rel="noopener">geo-spatial.org</a> (sursă ANCPI), CC BY-SA 4.0 · conturul de județe: Natural Earth (domeniu public).</p>
+        </details>
         <noscript><p class="map-note">Harta necesită JavaScript pentru filtrare. Poți consulta în continuare <a href="/surse/">catalogul surselor pe județe și regiuni</a> și <a href="/">ultimele știri</a>.</p></noscript>
         <p id="map-status" class="sr-only" aria-live="polite" aria-atomic="true"></p>
       </div>
@@ -149,21 +156,22 @@
           </div>
           <span id="panel-count"></span>
         </div>
+        <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/judetean/un-pamflet-critica-organizarea-concursurilor-pentru-directori-de-scoli-din-cluj/">Un pamflet critică organizarea concursurilor pentru directori de școli din Cluj</a> <span>Gazeta de Cluj · 17 octombrie 2026, 06:31</span></li>
-<li><a href="/local/universitatile-din-bucuresti-si-iasi-au-locuri-rezervate-pentru-structurile-de/">Universitățile din București și Iași au locuri rezervate pentru structurile de apărare</a> <span>Gazeta de Cluj · 17 octombrie 2026, 06:30</span></li>
-<li><a href="/local/evenimente-pentru-familii-organizate-la-iulius-mall-cluj-in-weekend/">Evenimente pentru familii organizate la Iulius Mall Cluj în weekend</a> <span>Ziua de Cluj · 16 octombrie 2026, 17:21</span></li>
-<li><a href="/local/locuitorii-din-cluj-napoca-acuza-neridicarea-la-timp-a-gunoiului-menajer/">Locuitorii din Cluj-Napoca acuză neridicarea la timp a gunoiului menajer</a> <span>Ziua de Cluj · 16 octombrie 2026, 16:12</span></li>
-<li><a href="/judetean/guvernul-a-demis-o-pe-maria-buzas-fekete-din-functia-de-subprefect-al-clujului/">Guvernul a demis-o pe Maria Buzás-Fekete din funcția de subprefect al Clujului</a> <span>Ziua de Cluj · 16 octombrie 2026, 16:08</span></li>
-<li><a href="/judetean/primul-deces-provocat-de-gripa-in-acest-sezon-a-fost-inregistrat-in-cluj/">Primul deces provocat de gripă în acest sezon a fost înregistrat în Cluj</a> <span>Ziua de Cluj · 16 octombrie 2026, 15:58</span></li>
-<li><a href="/judetean/afacerile-firmelor-din-cluj-au-depasit-130-de-miliarde-de-lei/">Afacerile firmelor din Cluj au depășit 130 de miliarde de lei</a> <span>Ziua de Cluj · 16 octombrie 2026, 14:27</span></li>
-<li><a href="/local/au-inceput-lucrarile-pentru-noul-magazin-hornbach-din-cluj-napoca/">Au început lucrările pentru noul magazin Hornbach din Cluj-Napoca</a> <span>Ziua de Cluj · 16 octombrie 2026, 14:14</span></li>
+          <li><a href="/local/primaria-capusu-mare-a-gazduit-o-sesiune-de-informare-privind-fondurile-europene/">Primăria Căpușu Mare a găzduit o sesiune de informare privind fondurile europene</a> <span>Gazeta de Cluj · 17 octombrie 2026, 12:27</span></li>
+<li><a href="/local/alerta-aeriana-si-avioane-spaniole-ridicate-de-la-kogalniceanu/">Alertă aeriană și avioane spaniole ridicate de la Kogălniceanu</a> <span>Ziua de Cluj · 17 octombrie 2026, 12:09</span></li>
+<li><a href="/local/o-femeie-din-covasna-a-fost-ranita-grav-in-urma-unui-atac-de-urs/">O femeie din Covasna a fost rănită grav în urma unui atac de urs</a> <span>Ziua de Cluj · 17 octombrie 2026, 12:05</span></li>
+<li><a href="/local/primarul-emil-boc-s-a-intalnit-la-cluj-napoca-cu-ministrul-culturii-din-ungaria/">Primarul Emil Boc s-a întâlnit la Cluj-Napoca cu ministrul Culturii din Ungaria</a> <span>Ziua de Cluj · 17 octombrie 2026, 10:50</span></li>
+<li><a href="/judetean/doua-firme-contesta-licitatia-de-127-milioane-lei-pentru-centrul-de-adictii-din/">Două firme contestă licitația de 127 milioane lei pentru centrul de adicții din Cluj</a> <span>Gazeta de Cluj · 17 octombrie 2026, 10:18</span></li>
+<li><a href="/judetean/emil-boc-a-subliniat-importanta-miscarii-pentru-sanatate-la-finalul-crosului/">Emil Boc a subliniat importanța mișcării pentru sănătate la finalul Crosului din Cluj</a> <span>Ziua de Cluj · 17 octombrie 2026, 10:10</span></li>
+<li><a href="/judetean/alin-tise-il-critica-pe-ilie-bolojan-si-acuza-conducerea-pnl-de-dublu-standard/">Alin Tișe îl critică pe Ilie Bolojan și acuză conducerea PNL de dublu standard</a> <span>Gazeta de Cluj · 17 octombrie 2026, 09:50</span></li>
+<li><a href="/local/un-autocamion-a-luat-foc-in-mers-pe-centura-valcele-apahida/">Un autocamion a luat foc în mers pe centura Vâlcele-Apahida</a> <span>Ziua de Cluj · 17 octombrie 2026, 09:34</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>
     </section>
   </main>
 
-  <script src="/static/harta-stiri/harta-stiri.js?v=bb92f753" defer></script>
+  <script src="/static/harta-stiri/harta-stiri.js?v=5373857f" defer></script>
 </body>
 </html>
