@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 19:41:46 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 20:33:28 +0000</lastBuildDate>
+    <item>
+      <title>Zelenski acuză o operațiune planificată privind restricțiile Starlink în Ucraina</title>
+      <link>https://izz.ro/extern/zelenski-acuza-o-operatiune-planificata-privind-restrictiile-starlink-in-ucraina/</link>
+      <guid>https://izz.ro/extern/zelenski-acuza-o-operatiune-planificata-privind-restrictiile-starlink-in-ucraina/</guid>
+      <pubDate>Sat, 17 Oct 2026 20:19:08 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/zelenski-acuza-o-operatiune-planificata-dupa-restrictiile-impuse-starlink-in-ucraina-ne-va-costa-vietile-multora-dintre-noi-3997137">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/zelenski-acuza-o-operatiune-planificata-privind-restrictiile-starlink-in-ucraina/cover.jpg?v=f555d064" medium="image" type="image/jpeg"/>
+      <description>Președintele ucrainean Volodimir Zelenski susține că limitarea vitezei pentru serviciul Starlink în Ucraina reprezintă o acțiune deliberată care afectează negativ operațiunile militare și pune în pericol numeroase vieți.</description>
+    </item>
     <item>
       <title>Uniunea Europeană își dezvoltă propria rețea de sateliți denumită IRIS²</title>
       <link>https://izz.ro/extern/uniunea-europeana-isi-dezvolta-propria-retea-de-sateliti-denumita-iris2/</link>
@@ -17,23 +27,13 @@
       <description>În urma problemelor întâmpinate de armata ucraineană cu sistemul Starlink, blocul comunitar accelerează proiectul propriei constelații de sateliți de comunicații sigure, având sprijinul Germaniei.</description>
     </item>
     <item>
-      <title>Zelenski acuză restricțiile Starlink pentru blocarea dronelor în Ucraina</title>
-      <link>https://izz.ro/extern/zelenski-acuza-restrictiile-starlink-pentru-blocarea-dronelor-in-ucraina/</link>
-      <guid>https://izz.ro/extern/zelenski-acuza-restrictiile-starlink-pentru-blocarea-dronelor-in-ucraina/</guid>
-      <pubDate>Sat, 17 Oct 2026 18:09:24 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/ucraina-a-testat-starlink-in-ue-zelenski-restrictiile-continua-sa-blocheze-dronele-doar-la-noi-este-o-operatiune-planificata">Spotmedia</source>
-      <media:content url="https://izz.ro/extern/zelenski-acuza-restrictiile-starlink-pentru-blocarea-dronelor-in-ucraina/cover.jpg?v=538b2636" medium="image" type="image/jpeg"/>
-      <description>Președintele ucrainean susține că limitările tehnice ale sistemului Starlink împiedică utilizarea dronelor militare de interceptare pe teritoriul național, în timp ce în Uniunea Europeană rețeaua funcționează fără asemenea probleme.</description>
-    </item>
-    <item>
       <title>Europa caută alternative la sistemul Starlink după restricțiile impuse în Ucraina</title>
       <link>https://izz.ro/extern/europa-cauta-alternative-la-sistemul-starlink-dupa-restrictiile-impuse-in/</link>
       <guid>https://izz.ro/extern/europa-cauta-alternative-la-sistemul-starlink-dupa-restrictiile-impuse-in/</guid>
       <pubDate>Sat, 17 Oct 2026 12:12:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://observatornews.ro/extern/zelenski-europa-cauta-alternative-la-starlink-dupa-restrictiile-din-ucraina-ca-sa-reduca-dependenta-de-sua-669457.html">Observator, G4Media</source>
-      <media:content url="https://izz.ro/extern/europa-cauta-alternative-la-sistemul-starlink-dupa-restrictiile-impuse-in/cover.jpg?v=64c80665" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/europa-cauta-alternative-la-sistemul-starlink-dupa-restrictiile-impuse-in/cover.jpg?v=29c06e55" medium="image" type="image/jpeg"/>
       <description>Statele europene au început să dezvolte alternative la sistemul de comunicații prin satelit Starlink. Anunțul a fost făcut de Volodimir Zelenski, care a subliniat necesitatea reducerii dependenței de tehnologia americană, în contextul în care autoritățile de la Kiev s-au confruntat cu restricții de viteză aplicate terminalelor utilizate pe front.</description>
     </item>
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Fri, 16 Oct 2026 16:00:30 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <media:content url="https://izz.ro/extern/ofensiva-ucraineana-din-donbas-avanseaza-cu-sprijinul-tehnologiei-starlink/cover.jpg?v=ae002868" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/ofensiva-ucraineana-din-donbas-avanseaza-cu-sprijinul-tehnologiei-starlink/cover.jpg?v=348997d6" medium="image" type="image/jpeg"/>
       <description>BBC a însoțit trupele ucrainene în operațiunea de recucerire a unor teritorii strategice din estul țării. Succesul militar este însă umbrit de tensiunile diplomatice apărute în relația cu președintele Trump.</description>
     </item>
     <item>
@@ -73,7 +73,7 @@
       <pubDate>Fri, 16 Oct 2026 15:12:43 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/intreruperile-starlink-perturba-comunicatiile-armatei-ucrainene-legatura-cu-comandamentul-s-a-deteriorat-considerabil-3995775">Digi24 Extern</source>
-      <media:content url="https://izz.ro/tech/problemele-starlink-afecteaza-comunicatiile-armatei-ucrainene-pe-front/cover.jpg?v=177c3b05" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/problemele-starlink-afecteaza-comunicatiile-armatei-ucrainene-pe-front/cover.jpg?v=abd0b668" medium="image" type="image/jpeg"/>
       <description>Defecțiunile de conectivitate ale rețelei de internet prin satelit Starlink au redus semnificativ viteza conexiunilor pentru trupele ucrainene din estul țării. Această situație îngreunează coordonarea artileriei și gestionarea amenințărilor venite din partea dronelor rusești.</description>
     </item>
     <item>

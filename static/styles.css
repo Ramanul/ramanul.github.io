@@ -793,7 +793,7 @@ body:has(#izz-consent) { padding-bottom: 4.5rem; }
    ===================================================================== */
 :root {
   /* perechile (accent, fond) din generator/htmlart.py `_PALETE`, in aceeasi ordine */
-  --art-a0: #8b6918; --art-b0: #faf5e6;   /* aur inchis pe spalare aurie */
+  --art-a0: #1f2a44; --art-b0: #faf5e6;   /* cerneala albastra pe spalare aurie (nu #8b6918: maroniu) */
   --art-a1: #15171c; --art-b1: #f6f7f9;   /* cerneala pe hartie */
   --art-a2: #3d4a3a; --art-b2: #f1f4ee;   /* masliniu */
   --art-a3: #4a3b32; --art-b3: #f7f2ed;   /* pamant ars */
@@ -1031,6 +1031,15 @@ body:has(#izz-consent) { padding-bottom: 4.5rem; }
 
 /* Locurile in care intra arta. `--radius`/marginile raman ale locului, nu ale artei. */
 .card-media > .art { height: 100%; border-radius: inherit; }
+/* Creditul COMPLET al portretului cu atribuire obligatorie (CC BY / CC BY-SA), lipit de imagine:
+   fara el portretul n-are voie pe card (content/legal/images.md). Previzualizarea sociala nu-l
+   primeste niciodata — acolo nu exista legenda. */
+.card-credit {
+  margin: calc(-1 * var(--s-5)) 0 0; color: var(--ink-3);
+  font-family: var(--font-mono); font-size: var(--fs-eyebrow); line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.card-credit a { color: inherit; text-decoration: underline; }
 .art--hero { border: 1px solid var(--line); margin-bottom: var(--s-5); }
 .art--articol {
   border: 1px solid var(--line); max-width: var(--measure); margin: var(--s-8) 0 var(--s-21);
@@ -1134,6 +1143,36 @@ body:has(#izz-consent) { padding-bottom: 4.5rem; }
 .person figcaption > a { font-weight: 600; }
 .person .credit { color: var(--ink-3); font-size: var(--fs-eyebrow); font-family: var(--font-mono); }
 .person .credit a { text-decoration: underline; }
+
+/* Fotografia de ARHIVA a omului din titlu, pe pagina de articol (`render._foto_arhiva`), in locul
+   decorului generat (auditul vizual 2026-10-17, sect. 6.2). Compacta si etichetata: nu e de la
+   eveniment si nu are voie sa para; titlul ramane elementul dominant. 168x210 = 4:5, cat acopera
+   rendita de 330px a portretului la 2x fara interpolare vizibila. */
+.arhiva-foto {
+  display: flex; align-items: flex-end; gap: var(--s-21);
+  max-width: var(--measure); margin: var(--s-21) 0 var(--s-34);
+}
+.arhiva-foto img {
+  flex: none; width: 168px; height: 210px; object-fit: cover; object-position: center 20%;
+  border-radius: var(--radius); border: 1px solid var(--line); background: var(--paper-2);
+}
+.arhiva-foto figcaption {
+  display: flex; flex-direction: column; gap: var(--s-5); min-width: 0; font-size: var(--fs-xs);
+}
+.arhiva-eticheta {
+  font-family: var(--font-mono); font-size: var(--fs-eyebrow); font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase; color: var(--ink-2);
+}
+.arhiva-nume { font-family: var(--font-display); font-size: var(--fs-md); font-weight: 700; }
+.arhiva-foto .credit {
+  color: var(--ink-3); font-size: var(--fs-eyebrow); font-family: var(--font-mono);
+  overflow-wrap: anywhere;
+}
+.arhiva-foto .credit a { text-decoration: underline; }
+@media (max-width: 480px) {
+  .arhiva-foto { gap: var(--s-13); }
+  .arhiva-foto img { width: 120px; height: 150px; }
+}
 
 /* fotografia reala a entitatii pe pagina de subiect (hero, auto-gazduita, cu credit) */
 .subject-photo { margin: var(--s-21) 0 var(--s-34); max-width: 160px; }
