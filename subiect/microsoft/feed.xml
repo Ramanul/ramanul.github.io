@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 09:38:02 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 14:01:00 +0000</lastBuildDate>
     <item>
       <title>Microsoft recunoaște limitele fiabilității inteligenței artificiale și lansează instrumente de control</title>
       <link>https://izz.ro/tech/microsoft-recunoaste-limitele-fiabilitatii-inteligentei-artificiale-si-lanseaza/</link>
@@ -33,7 +33,7 @@
       <pubDate>Fri, 16 Oct 2026 07:17:21 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/microsoft-actualizari-windows-11/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/microsoft-lanseaza-un-pachet-major-de-actualizari-pentru-optimizarea-sistemului/cover.jpg?v=c778f851" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/microsoft-lanseaza-un-pachet-major-de-actualizari-pentru-optimizarea-sistemului/cover.jpg?v=ba4ab4e2" medium="image" type="image/jpeg"/>
       <description>Compania americană a început distribuirea unor patch-uri menite să crească viteza de răspuns a sistemului de operare cu până la 20%. Pachetul aduce optimizări pentru jocuri, bara de căutare, instrumente creative, editare foto și funcții de accesibilitate.</description>
     </item>
     <item>
@@ -43,7 +43,6 @@
       <pubDate>Fri, 16 Oct 2026 03:22:26 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.nwradu.ro/2026/10/bursa-criptomonede-imobiliare-editia-de-octombrie-2026/">NwRadu</source>
-      <media:content url="https://izz.ro/economic/evolutii-mixte-pe-pietele-financiare-internationale-si-criptomonede/cover.jpg?v=c546621f" medium="image" type="image/jpeg"/>
       <description>Sectorul tehnologic a înregistrat creșteri notabile pe burse în ultima lună, în timp ce cotația monedei digitale Bitcoin s-a menținut stabilă pe parcursul aceleiași perioade.</description>
     </item>
     <item>
@@ -207,14 +206,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/06/noul-controller-xbox-elite-series-3-are-stick-uri-tmr-si-feedback-haptic-ca-pe-dualsense/">Connect.ro</source>
       <description>Viitorul controller Xbox Elite Series 3 va integra stick-uri cu tehnologie TMR pentru eliminarea defectului de stick-drift și un sistema avansat de feedback haptic inspirat de la controlerele PlayStation.</description>
-    </item>
-    <item>
-      <title>Microsoft a lansat oficial actualizarea Windows 11 26H2</title>
-      <link>https://izz.ro/tech/microsoft-a-lansat-oficial-actualizarea-windows-11-26h2/</link>
-      <guid>https://izz.ro/tech/microsoft-a-lansat-oficial-actualizarea-windows-11-26h2/</guid>
-      <pubDate>Mon, 05 Oct 2026 09:55:22 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/05/windows-11-26h2-este-live-ce-schimbari-aduce-noua-versiune/">Connect.ro</source>
-      <description>Utilizatorii de PC-uri compatibile primesc treptat noul pachet de upgrade semestrial Windows 11 prin sistemul Windows Update, acesta aducând modificări importante interfeței din File Manager.</description>
     </item>
 </channel></rss>

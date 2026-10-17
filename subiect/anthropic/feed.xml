@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/anthropic/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Anthropic pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 09:38:02 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 14:00:59 +0000</lastBuildDate>
+    <item>
+      <title>Compania Anthropic a achiziționat startup-ul de securitate AI Opaque Systems</title>
+      <link>https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/</link>
+      <guid>https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/</guid>
+      <pubDate>Sat, 17 Oct 2026 11:38:16 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.economica.net/anthropic-cumpara-compania-de-securitate-ai-opaque-systems-fondata-de-profesoara-universitara-raluca-ada-popa_986673.html">Economica</source>
+      <media:content url="https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/cover.jpg?v=a2e5b559" medium="image" type="image/jpeg"/>
+      <description>Producătorul asistentului Claude a preluat compania americană cofondată de cercetătoarea de origine română Raluca Ada Popa, tranzacția fiind salutată de Ambasada SUA ca un exemplu de excelență.</description>
+    </item>
     <item>
       <title>Ambasada SUA o felicită pe cercetătoarea română Raluca Ada Popa</title>
       <link>https://izz.ro/tech/ambasada-sua-o-felicita-pe-cercetatoarea-romana-raluca-ada-popa/</link>
@@ -60,15 +70,6 @@
       <category>tech</category>
       <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-14-octombrie-2026/">NwRadu</source>
       <description>Dacia a deschis comenzile pentru modelul Striker, în timp ce gigantul Apple a prezentat o serie nouă de dispozitive pentru casă. De asemenea, industria IT consemnează achiziția unui startup fondat de o româncă de către compania Anthropic.</description>
-    </item>
-    <item>
-      <title>Anthropic a preluat startup-ul Opaque Systems, cofondat de Raluca Ada Popa</title>
-      <link>https://izz.ro/tech/anthropic-a-preluat-startup-ul-opaque-systems-cofondat-de-raluca-ada-popa/</link>
-      <guid>https://izz.ro/tech/anthropic-a-preluat-startup-ul-opaque-systems-cofondat-de-raluca-ada-popa/</guid>
-      <pubDate>Tue, 13 Oct 2026 19:43:20 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://start-up.ro/anthropic-cumpara-opaque-systems-startup-cofondat-de-romanii-raluca-ada-popa-si-ion-stoica/">Start-up.ro</source>
-      <description>Compania americană Anthropic a cumpărat Opaque Systems, un business specializat în securitatea inteligenței artificiale, fondat parțial de cercetătoarea română Raluca Ada Popa.</description>
     </item>
     <item>
       <title>Anthropic avertizează asupra riscului apariției virușilor informatici bazați pe AI</title>
@@ -141,14 +142,5 @@
       <category>extern</category>
       <source url="https://www.connect.ro/2026/10/07/anthropic-a-chemat-politia-peste-o-femeie-din-florida-care-folosea-claude-pe-post-de-jurnal/">Connect.ro</source>
       <description>O femeie din Florida a fost vizitată de forțele de ordine după ce asistentul virtual Claude a semnalat o notă din jurnalul ei personal în care amenința cu un atac asupra unei secții de poliție.</description>
-    </item>
-    <item>
-      <title>Sam Altman susține că beneficiile inteligenței artificiale depășesc riscurile</title>
-      <link>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</link>
-      <guid>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</guid>
-      <pubDate>Mon, 05 Oct 2026 18:11:56 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.politico.eu/article/sam-altman-a-decoded-le-monde-devrait-accepter-que-certaines-choses-negatives-se-produisent-face-aux-benefices-de-lia/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Șeful OpenAI consideră că societatea trebuie să accepte anumite aspecte negative pentru a profita de avantajele majore aduse de tehnologia inteligenței artificiale.</description>
     </item>
 </channel></rss>

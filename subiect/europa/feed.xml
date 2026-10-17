@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 09:38:02 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 14:00:59 +0000</lastBuildDate>
+    <item>
+      <title>Europa caută alternative la sistemul Starlink după restricțiile impuse în Ucraina</title>
+      <link>https://izz.ro/extern/europa-cauta-alternative-la-sistemul-starlink-dupa-restrictiile-impuse-in/</link>
+      <guid>https://izz.ro/extern/europa-cauta-alternative-la-sistemul-starlink-dupa-restrictiile-impuse-in/</guid>
+      <pubDate>Sat, 17 Oct 2026 12:12:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/zelenski-europa-cauta-alternative-la-starlink-dupa-restrictiile-din-ucraina-ca-sa-reduca-dependenta-de-sua-669457.html">Observator, G4Media</source>
+      <media:content url="https://izz.ro/extern/europa-cauta-alternative-la-sistemul-starlink-dupa-restrictiile-impuse-in/cover.jpg?v=64c80665" medium="image" type="image/jpeg"/>
+      <description>Statele europene au început să dezvolte alternative la sistemul de comunicații prin satelit Starlink. Anunțul a fost făcut de Volodimir Zelenski, care a subliniat necesitatea reducerii dependenței de tehnologia americană, în contextul în care autoritățile de la Kiev s-au confruntat cu restricții de viteză aplicate terminalelor utilizate pe front.</description>
+    </item>
     <item>
       <title>Mortalitatea cauzată de caniculă a crescut semnificativ în marile orașe europene</title>
       <link>https://izz.ro/sanatate/mortalitatea-cauzata-de-canicula-a-crescut-semnificativ-in-marile-orase-europene/</link>
@@ -73,7 +83,6 @@
       <pubDate>Fri, 16 Oct 2026 06:07:25 +0000</pubDate>
       <category>auto</category>
       <source url="https://economedia.ro/cererea-globala-de-vehicule-electrice-a-scazut-cu-2-in-luna-septembrie-vanzari-record-in-europa.html">Economedia, Economica</source>
-      <media:content url="https://izz.ro/auto/cererea-globala-de-masini-electrice-a-scazut-usor-in-septembrie-afectata-de/cover.jpg?v=6931479d" medium="image" type="image/jpeg"/>
       <description>Vânzările globale de vehicule electrice au înregistrat o scădere de 2% în luna septembrie, ajungând la 2,15 milioane de unități și întrerupând o serie de șase luni de creștere. În timp ce Europa a atins un nivel record de aproape 600.000 de unități vândute, piețele din America de Nord și China au suferit reduceri semnificative de 44%, respectiv 18%, determinate de factori legislativi și regionali.</description>
     </item>
     <item>
@@ -444,14 +453,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/mediu/amoc-si-blob-starnesc-ingrijorare-fenomenul-climatic-care-ar-putea-aduce-iernile-canadiene-in-europa-805878.html">Antena 3 CNN</source>
       <description>Cercetătorii atrag atenția că modificările sistemului de curenți oceanici din Atlantic, cunoscuți sub denumirea de AMOC și BLOB, ar putea genera schimbări climatice majore și ierni foarte reci în Europa.</description>
-    </item>
-    <item>
-      <title>Vânzările de Mașini Electrice în Europa au Crescut cu 45% în 2026</title>
-      <link>https://izz.ro/auto/vanzarile-de-masini-electrice-in-europa-au-crescut-cu-45-in-2026/</link>
-      <guid>https://izz.ro/auto/vanzarile-de-masini-electrice-in-europa-au-crescut-cu-45-in-2026/</guid>
-      <pubDate>Mon, 05 Oct 2026 13:42:28 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.autocritica.ro/live-news/record-de-vanzari-pentru-electrice-in-europa-crestere-de-45-in-primele-8-luni/">AutoCritica</source>
-      <description>Piața auto europeană a înregistrat un nou record în primele opt luni ale anului, cu peste 1,64 milioane de vehicule electrice vândute, depășind pentru prima dată autoturismele clasice pe benzină pe parcursul unui trimestru.</description>
     </item>
 </channel></rss>

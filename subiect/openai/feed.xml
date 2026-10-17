@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 09:38:02 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 14:00:59 +0000</lastBuildDate>
+    <item>
+      <title>O nouă teorie despre neuronii inteligenței artificiale amplifică temerile privind siguranța umanității</title>
+      <link>https://izz.ro/ai/o-noua-teorie-despre-neuronii-inteligentei-artificiale-amplifica-temerile/</link>
+      <guid>https://izz.ro/ai/o-noua-teorie-despre-neuronii-inteligentei-artificiale-amplifica-temerile/</guid>
+      <pubDate>Sat, 17 Oct 2026 13:47:42 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://stirileprotv.ro/stiri/stiinta/cea-mai-noua-teorie-despre-neuronii-ia-influenteaza-temerile-ca-ar-putea-distruge-umanitatea-cercetator-greu-de-supraestimat.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/ai/o-noua-teorie-despre-neuronii-inteligentei-artificiale-amplifica-temerile/cover.jpg?v=f26be98c" medium="image" type="image/jpeg"/>
+      <description>Un fost cercetător OpenAI a publicat un raport considerat revoluționar despre funcționarea internă a modelelor de inteligență artificială. Studiul alimentează dezbaterile aprinse legate de riscurile existențiale pe care tehnologia le poate aduce.</description>
+    </item>
     <item>
       <title>Compania clujeană Linnify devine partener global pentru giganții tehnologici AI</title>
       <link>https://izz.ro/tech/compania-clujeana-linnify-devine-partener-global-pentru-gigantii-tehnologici-ai/</link>
@@ -124,32 +134,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/06/openai-chatgpt-watermark-text-ue/">Connect.ro, Spotmedia</source>
       <description>OpenAI va implementa în următoarele săptămâni un sistem de marcare invizibilă numit textGrain pentru textele și codul generate de ChatGPT și Codex în Uniunea Europeană. Tehnologia introduce un semnal statistic în alegerea cuvintelor, care poate fi identificat de un detector specializat. Rata de succes scade în cazul textelor scurte sau modificate ulterior cu sinonime. La lansare, detectorul va fi accesibil doar cercetătorilor și organizațiilor aprobate, compania urmând să publice sistemul în regim open source.</description>
-    </item>
-    <item>
-      <title>Sam Altman susține că beneficiile inteligenței artificiale depășesc riscurile</title>
-      <link>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</link>
-      <guid>https://izz.ro/ai/sam-altman-sustine-ca-beneficiile-inteligentei-artificiale-depasesc-riscurile-2/</guid>
-      <pubDate>Mon, 05 Oct 2026 18:11:56 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.politico.eu/article/sam-altman-a-decoded-le-monde-devrait-accepter-que-certaines-choses-negatives-se-produisent-face-aux-benefices-de-lia/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Șeful OpenAI consideră că societatea trebuie să accepte anumite aspecte negative pentru a profita de avantajele majore aduse de tehnologia inteligenței artificiale.</description>
-    </item>
-    <item>
-      <title>OpenAI va introduce reclame în ChatGPT pentru utilizatorii din Statele Unite</title>
-      <link>https://izz.ro/tech/openai-va-introduce-reclame-in-chatgpt-pentru-utilizatorii-din-statele-unite/</link>
-      <guid>https://izz.ro/tech/openai-va-introduce-reclame-in-chatgpt-pentru-utilizatorii-din-statele-unite/</guid>
-      <pubDate>Mon, 05 Oct 2026 11:44:28 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/openai-iti-reclame-chatgpt/">ZonaIT</source>
-      <description>Compania OpenAI testează afișarea de reclame vizuale în platforma ChatGPT, primele bannere urmând să apară utilizatorilor americani în timp ce aceștia așteaptă generarea imaginilor solicitate sau a răspunsurilor.</description>
-    </item>
-    <item>
-      <title>Sam Altman îl consideră pe Emmanuel Macron cel mai impresionant lider global privind AI</title>
-      <link>https://izz.ro/extern/sam-altman-il-considera-pe-emmanuel-macron-cel-mai-impresionant-lider-global/</link>
-      <guid>https://izz.ro/extern/sam-altman-il-considera-pe-emmanuel-macron-cel-mai-impresionant-lider-global/</guid>
-      <pubDate>Mon, 05 Oct 2026 11:00:38 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/sam-altman-france-emmanuel-macron-most-impressive-world-leader-ai/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Directorul executiv OpenAI, Sam Altman, l-a lăudat pe președintele Franței pentru viziunea și abordarea sa atentă în ceea ce privește politicile și reglementările referitoare la tehnologia inteligenței artificiale.</description>
     </item>
 </channel></rss>

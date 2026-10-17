@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/anm/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ANM pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 09:38:02 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 14:00:59 +0000</lastBuildDate>
+    <item>
+      <title>România se pregătește pentru o încălzire bruscă a vremii până la 25 de grade</title>
+      <link>https://izz.ro/general/romania-se-pregateste-pentru-o-incalzire-brusca-a-vremii-pana-la-25-de-grade/</link>
+      <guid>https://izz.ro/general/romania-se-pregateste-pentru-o-incalzire-brusca-a-vremii-pana-la-25-de-grade/</guid>
+      <pubDate>Sat, 17 Oct 2026 12:10:00 +0000</pubDate>
+      <category>general</category>
+      <source url="https://observatornews.ro/vremea/dupa-frig-ploi-si-ninsori-vin-temperaturi-de-25-de-grade-in-romania-prognoza-pentru-urmatoarele-2-saptamani-669454.html">Observator</source>
+      <media:content url="https://izz.ro/general/romania-se-pregateste-pentru-o-incalzire-brusca-a-vremii-pana-la-25-de-grade/cover.jpg?v=8661562a" medium="image" type="image/jpeg"/>
+      <description>Meteorologii anunță o schimbare radicală a vremii în România, temperaturile urmând să crească de la maximele de 9 grade înregistrate recent până la pragul de 25 de grade în anumite regiuni, înainte de revenirea ploilor.</description>
+    </item>
     <item>
       <title>ANM deblochează activitatea administrativă prin numirea unui nou membru</title>
       <link>https://izz.ro/politic/anm-deblocheaza-activitatea-administrativa-prin-numirea-unui-nou-membru/</link>
@@ -240,14 +250,5 @@
       <category>judetean</category>
       <source url="https://www.turnulsfatului.ro/2026/10/09/weekend-cu-soare-si-ploaie-la-sibiu-duminica-pot-aparea-si-descarcari-electrice/">Turnul Sfatului</source>
       <description>Meteorologii anunță un sfârșit de săptămână cald în județul Sibiu, cu maxime ce vor atinge 25 de grade Celsius, însă duminică își vor face apariția ploile însoțite de descărcări electrice.</description>
-    </item>
-    <item>
-      <title>ANM prognozează vreme neobișnuit de caldă urmată de o răcire bruscă și ploi</title>
-      <link>https://izz.ro/general/anm-prognozeaza-vreme-neobisnuit-de-calda-urmata-de-o-racire-brusca-si-ploi/</link>
-      <guid>https://izz.ro/general/anm-prognozeaza-vreme-neobisnuit-de-calda-urmata-de-o-racire-brusca-si-ploi/</guid>
-      <pubDate>Mon, 05 Oct 2026 10:35:51 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.pressalert.ro/2026/10/vreme-neobisnuit-de-calda-in-urmatoarele-zile-apoi-temperaturile-scad-prognoza-anm-pentru-fiecare-regiune/">PressAlert Timișoara</source>
-      <description>Meteorologii anunță temperaturi de până la 28 de grade Celsius în primele zile din octombrie, însă o masă de aer rece va aduce ploi generalizate în toată țara la mijlocul săptămânii.</description>
     </item>
 </channel></rss>
