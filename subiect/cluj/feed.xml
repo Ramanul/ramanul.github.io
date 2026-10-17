@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 23:50:51 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 04:40:50 +0000</lastBuildDate>
     <item>
       <title>Guvernul a demis-o pe Maria Buzás-Fekete din funcția de subprefect al Clujului</title>
       <link>https://izz.ro/judetean/guvernul-a-demis-o-pe-maria-buzas-fekete-din-functia-de-subprefect-al-clujului/</link>
@@ -37,13 +37,23 @@
       <description>Economia județului Cluj a atins un nivel record în 2025, fiind a doua din țară după Capitală. Companiile locale au raportat cifre de afaceri masive și profituri în creștere accelerată în ultimii ani.</description>
     </item>
     <item>
+      <title>Startup-ul clujean .lumen a câștigat competiția Glovo Startup Campus</title>
+      <link>https://izz.ro/judetean/startup-ul-clujean-lumen-a-castigat-competitia-glovo-startup-campus/</link>
+      <guid>https://izz.ro/judetean/startup-ul-clujean-lumen-a-castigat-competitia-glovo-startup-campus/</guid>
+      <pubDate>Fri, 16 Oct 2026 10:48:19 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://start-up.ro/lumen-castiga-competitia-din-cadrul-glovo-startup-campus-de-la-barcelona/">Start-up.ro</source>
+      <media:content url="https://izz.ro/judetean/startup-ul-clujean-lumen-a-castigat-competitia-glovo-startup-campus/cover.jpg?v=ccf40bd3" medium="image" type="image/jpeg"/>
+      <description>Compania inovatoare .lumen din Cluj s-a clasat pe primul loc la competiția organizată în cadrul Glovo Startup Campus din Barcelona, după ce a trecut cu succes de faza preliminară din România.</description>
+    </item>
+    <item>
       <title>Profesorii au declarat la Fisc venituri de aproape 225 de milioane de lei din meditații</title>
       <link>https://izz.ro/local/profesorii-au-declarat-la-fisc-aproape-un-sfert-de-miliard-de-lei-din-meditatii/</link>
       <guid>https://izz.ro/local/profesorii-au-declarat-la-fisc-aproape-un-sfert-de-miliard-de-lei-din-meditatii/</guid>
       <pubDate>Thu, 15 Oct 2026 19:12:28 +0000</pubDate>
       <category>local</category>
       <source url="https://www.economica.net/capitala-si-ilfov-fac-o-treime-din-banii-fiscalizati-din-meditatii-peste-73-milioane-lei-in-10-judete-avem-venituri-de-peste-1-milion-de-euro-pe-an-fiscalizati-din-meditatii-analiza-exc_985885.html">Economica, Spotmedia</source>
-      <media:content url="https://izz.ro/local/profesorii-au-declarat-la-fisc-aproape-un-sfert-de-miliard-de-lei-din-meditatii/cover.jpg?v=408cf4dd" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/profesorii-au-declarat-la-fisc-aproape-un-sfert-de-miliard-de-lei-din-meditatii/cover.jpg?v=528bd29f" medium="image" type="image/jpeg"/>
       <description>În anul 2025, peste 12.500 de cadre didactice au raportat la ANAF venituri nete de 225 de milioane de lei obținute din meditații, în creștere cu aproximativ 14% față de perioada anterioară. Aproape jumătate din această sumă provine din Capitală și județele Cluj, Ilfov și Brașov. Deși sumele fiscalizate au urcat, numărul profesorilor care au depus declarații a înregistrat O ușoară scădere.</description>
     </item>
     <item>
@@ -450,14 +460,5 @@
       <category>judetean</category>
       <source url="https://gazetadecluj.ro/doru-supeala-demonteaza-propaganda-ca-untold-imbogateste-clujul/">Gazeta de Cluj</source>
       <description>Mai mulți locuitori din Cluj susțin că festivalul Untold nu aduce beneficii financiare întregii comunități locale, ci generează cheltuieli suplimentare și disconfort pentru cetățenii care sunt nevoiți să părăsească temporar orașul.</description>
-    </item>
-    <item>
-      <title>Un apartament din Cluj a fost lăsat în paragină de chiriași</title>
-      <link>https://izz.ro/local/un-apartament-din-cluj-a-fost-lasat-in-paragina-de-chiriasi/</link>
-      <guid>https://izz.ro/local/un-apartament-din-cluj-a-fost-lasat-in-paragina-de-chiriasi/</guid>
-      <pubDate>Wed, 07 Oct 2026 08:31:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.antena3.ro/actualitate/imagini-de-groaza-dintr-un-apartament-din-cluj-chiriasii-au-plecat-pe-ascuns-dupa-ce-au-distrus-tot-am-crezut-ca-avem-cadavre-806124.html">Antena 3 CNN</source>
-      <description>Proprietara unui apartament din Florești a avut un șoc la deschiderea locuinței, după ce chiriașii care au stat trei ani au plecat pe ascuns și au distrus tot interiorul.</description>
     </item>
 </channel></rss>

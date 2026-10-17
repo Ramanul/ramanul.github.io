@@ -1,30 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Reuters — IZZ.ro</title>
   <link>https://izz.ro/subiect/reuters/</link>
   <atom:link href="https://izz.ro/subiect/reuters/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Reuters pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 08 Oct 2026 16:55:32 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 04:40:50 +0000</lastBuildDate>
     <item>
-      <title>Candidații republicani se delimitează de Donald Trump înaintea alegerilor</title>
-      <link>https://izz.ro/politic/candidatii-republicani-se-delimiteaza-de-donald-trump-inaintea-alegerilor/</link>
-      <guid>https://izz.ro/politic/candidatii-republicani-se-delimiteaza-de-donald-trump-inaintea-alegerilor/</guid>
-      <pubDate>Wed, 07 Oct 2026 16:27:34 +0000</pubDate>
-      <description>O analiză Reuters arată că majoritatea candidaților republicani implicați în curse electorale strânse evită asocierea cu Donald Trump de teamă să nu piardă voturile necesare menținerii controlului în Congres.</description>
+      <title>Rusia finalizează construcția unei noi baze pentru drone în șase săptămâni</title>
+      <link>https://izz.ro/extern/rusia-a-construit-o-noua-baza-pentru-drone-in-sase-saptamani/</link>
+      <guid>https://izz.ro/extern/rusia-a-construit-o-noua-baza-pentru-drone-in-sase-saptamani/</guid>
+      <pubDate>Thu, 15 Oct 2026 19:59:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/reuters-rusia-a-construit-in-sase-saptamani-de-la-zero-o-baza-pentru-atacuri-cu-drone-arata-imagini-din-satelit-807411.html">Antena 3 CNN, Adevărul</source>
+      <media:content url="https://izz.ro/extern/rusia-a-construit-o-noua-baza-pentru-drone-in-sase-saptamani/cover.jpg?v=a7694f7f" medium="image" type="image/jpeg"/>
+      <description>Imaginile din satelit analizate de experții militari și jurnaliștii Reuters indică faptul că Rusia a finalizat în doar șase săptămâni construcția unei noi baze militare importante, destinată operării dronelor echipate cu motoare cu reacție.</description>
+    </item>
+    <item>
+      <title>Tesla ar putea lansa astăzi noua generație Roadster în Statele Unite</title>
+      <link>https://izz.ro/auto/tesla-ar-putea-lansa-astazi-noua-generatie-roadster-in-statele-unite/</link>
+      <guid>https://izz.ro/auto/tesla-ar-putea-lansa-astazi-noua-generatie-roadster-in-statele-unite/</guid>
+      <pubDate>Thu, 15 Oct 2026 13:01:49 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.economica.net/tesla-roadster-noua-generatie-ar-putea-fi-lansata-astazi-in-sua-surse-reuters_985998.html">Economica</source>
+      <description>Prototipul sportivului Tesla Roadster, prezentat inițial în 2017 cu un preț de 200.000 de dolari și un avans de 50.000, ar putea fi lansat oficial pe piața americană conform unor surse Reuters.</description>
+    </item>
+    <item>
+      <title>Administrația Trump analizează relaxarea sancțiunilor pentru petrolul rus</title>
+      <link>https://izz.ro/extern/administratia-trump-analizeaza-relaxarea-sanctiunilor-pentru-petrolul-rus/</link>
+      <guid>https://izz.ro/extern/administratia-trump-analizeaza-relaxarea-sanctiunilor-pentru-petrolul-rus/</guid>
+      <pubDate>Thu, 15 Oct 2026 12:06:01 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/reuters-administratia-trump-ar-putea-relaxa-sanctiunile-impuse-flotei-fantoma-a-rusiei">Spotmedia</source>
+      <description>Washingtonul ia în calcul ridicarea parțială a sancțiunilor aplicate navelor care transportă petrol din Rusia și Iran pentru a reduce costurile globale ridicate ale transportului maritim.</description>
+    </item>
+    <item>
+      <title>Statele Unite iau în calcul folosirea mega-bombei în Iran</title>
+      <link>https://izz.ro/extern/statele-unite-iau-in-calcul-folosirea-mega-bombei-in-iran/</link>
+      <guid>https://izz.ro/extern/statele-unite-iau-in-calcul-folosirea-mega-bombei-in-iran/</guid>
+      <pubDate>Thu, 15 Oct 2026 07:04:59 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.economica.net/mama-tuturor-bombelor-e-in-planurile-de-atac-ale-sua-in-iran-in-caz-de-urgenta-ce-este-mega-bomba-care-ar-putea-fi-folosita_985787.html">Economica</source>
+      <description>Oficialii americani analizează opțiunea utilizării celei mai mari bombe non-nucleare din arsenal în eventualitatea unor atacuri asupra Iranului, deși experții au dubii privind eficiența sa strategică reală.</description>
+    </item>
+    <item>
+      <title>Producătorii auto din China investesc masiv în fabrici europene înainte de noile reguli</title>
+      <link>https://izz.ro/auto/producatorii-auto-din-china-investesc-masiv-in-fabrici-europene-inainte-de/</link>
+      <guid>https://izz.ro/auto/producatorii-auto-din-china-investesc-masiv-in-fabrici-europene-inainte-de/</guid>
+      <pubDate>Wed, 14 Oct 2026 19:04:54 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://economedia.ro/constructorii-auto-chinezi-isi-extind-productia-in-europa-inaintea-noilor-reguli-made-in-europe.html">Economedia</source>
+      <description>Companiile chineze își extind capacitățile de producție și rețelele de furnizori pe piața europeană pentru a contracara viitoarele restricții legislative ale Uniunii Europene menite să limiteze importurile.</description>
+    </item>
+    <item>
+      <title>Explozii puternice și incendiu la sediul central Aramco din Arabia Saudită</title>
+      <link>https://izz.ro/extern/explozii-puternice-si-incendiu-la-sediul-central-aramco-din-arabia-saudita/</link>
+      <guid>https://izz.ro/extern/explozii-puternice-si-incendiu-la-sediul-central-aramco-din-arabia-saudita/</guid>
+      <pubDate>Tue, 13 Oct 2026 22:41:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/energie/ultima-ora-video-sediul-central-aramco-in-flacari-explozii-puternice-ordin-de-evacuare-a-cladirii-surse-reuters-22826381?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <description>Mai multe explozii violente au fost semnalate în apropierea sediului principal al companiei petroliere Saudi Aramco din Dhahran, declanșând procedurile de evacuare a clădirii, conform agenției Reuters.</description>
+    </item>
+    <item>
+      <title>OPEC reduce la 400.000 de barili pe zi prognoza cererii de petrol pentru 2026</title>
+      <link>https://izz.ro/economic/opec-reduce-la-400-000-de-barili-pe-zi-prognoza-cererii-de-petrol-pentru-2026/</link>
+      <guid>https://izz.ro/economic/opec-reduce-la-400-000-de-barili-pe-zi-prognoza-cererii-de-petrol-pentru-2026/</guid>
+      <pubDate>Mon, 12 Oct 2026 14:42:29 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/opec-reduce-prognoza-privind-cererea-de-petrol-pentru-2026-la-400-000-de-barili-pe-zi-cererea-amanata-ar-putea-aparea-anul-viitor.html">Economedia</source>
+      <description>Organizația Țărilor Exportatoare de Petrol a revizuit în jos estimarea de creștere a cererii globale de țiței pentru anul viitor, indicând o posibilă resimțire a cererii amânate pe piața energetică internațională.</description>
     </item>
     <item>
       <title>Sindicatele din Spania anunță grevă generală pe 11 noiembrie din cauza crizei locuințelor</title>
       <link>https://izz.ro/extern/sindicatele-din-spania-anunta-greva-generala-pe-11-noiembrie-din-cauza-crizei/</link>
       <guid>https://izz.ro/extern/sindicatele-din-spania-anunta-greva-generala-pe-11-noiembrie-din-cauza-crizei/</guid>
       <pubDate>Wed, 07 Oct 2026 16:04:10 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/cele-mai-mari-sindicate-ale-spaniei-anunta-prima-greva-generala-sustinuta-de-ambele-organizatii-din-ultimii-14-ani-2369956">HotNews</source>
       <description>Cele mai mari sindicate spaniole, UGT și CCOO, declanșează prima grevă generală comună din ultimii 14 ani. Protestul național programat pentru 11 noiembrie vine ca reacție la grava criză din sectorul imobiliar și al locuințelor.</description>
+    </item>
+    <item>
+      <title>Liderii din energie avertizează că rezervele mondiale de petrol sunt aproape epuizate</title>
+      <link>https://izz.ro/economic/liderii-din-energie-avertizeaza-ca-rezervele-mondiale-de-petrol-sunt-aproape/</link>
+      <guid>https://izz.ro/economic/liderii-din-energie-avertizeaza-ca-rezervele-mondiale-de-petrol-sunt-aproape/</guid>
+      <pubDate>Wed, 07 Oct 2026 08:17:56 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://adevarul.ro/stiri-externe/in-lume/lumea-a-ramas-aproape-fara-rezerve-de-petrol-2562368.html">Adevărul</source>
+      <description>Directorii marilor companii petroliere semnalează că piața globală nu mai dispune de stocuri suficiente pentru a acoperi eventuale crize de aprovizionare, ceea ce generează riscuri majore asupra prețurilor.</description>
     </item>
     <item>
       <title>Krivoi Rog se confruntă cu o criză bugetară severă din cauza atacurilor rusești</title>
       <link>https://izz.ro/extern/krivoi-rog-se-confrunta-cu-o-criza-bugetara-severa-din-cauza-atacurilor-rusesti/</link>
       <guid>https://izz.ro/extern/krivoi-rog-se-confrunta-cu-o-criza-bugetara-severa-din-cauza-atacurilor-rusesti/</guid>
       <pubDate>Tue, 06 Oct 2026 04:00:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/e-vorba-de-supravietuire-ucraina-se-confrunta-cu-cea-mai-grava-criza-bugetara-de-la-invazie-cheltuielile-neesentiale-inghetate-3978103">Digi24 Extern</source>
       <description>Orașul natal al președintelui Volodimir Zelenski trece printr-o gravă criză economică după ce bombardamentele au paralizat minele și oțelăria locală. Cheltuielile neesențiale au fost complet înghețate.</description>
     </item>
     <item>
@@ -32,6 +102,8 @@
       <link>https://izz.ro/economic/uniunea-europeana-risca-declinul-economic-fara-reforme-rapide/</link>
       <guid>https://izz.ro/economic/uniunea-europeana-risca-declinul-economic-fara-reforme-rapide/</guid>
       <pubDate>Tue, 06 Oct 2026 04:00:30 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/ue-risca-sa-devina-omul-bolnav-al-lumii-daca-nu-se-reformeaza-rapid-calendarul-electoral-ar-putea-complica-si-mai-mult-lucrurile-3978099">Digi24 Extern</source>
       <description>Analiștii avertizează că blocul comunitar poate deveni un actor secundar pe scena globală dacă nu aplică rapid măsurile propuse de Mario Draghi, calendarul electoral complicând situația.</description>
     </item>
     <item>
@@ -39,55 +111,8 @@
       <link>https://izz.ro/politic/popularitatea-presedintelui-american-donald-trump-a-atins-un-minim-istoric/</link>
       <guid>https://izz.ro/politic/popularitatea-presedintelui-american-donald-trump-a-atins-un-minim-istoric/</guid>
       <pubDate>Mon, 05 Oct 2026 20:04:15 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/popularitatea-lui-donald-trump-a-ajuns-la-un-minim-istoric">Spotmedia, G4Media</source>
       <description>Un sondaj Reuters/Ipsos arată că popularitatea președintelui american Donald Trump a ajuns la cel mai scăzut nivel, doar 32% dintre cetățeni aprobându-i activitatea. De asemenea, sprijinul în rândul alegătorilor hispanici a scăzut la 24%, influențat de inflația ridicată și deciziile politice recente, afectând totodată intențiile de vot pentru Partidul Republican.</description>
-    </item>
-    <item>
-      <title>Copilotul acuzat de tentativă de atac pe o cursă Flydubai a fost identificat</title>
-      <link>https://izz.ro/extern/copilotul-acuzat-de-tentativa-de-atac-pe-o-cursa-flydubai-a-fost-identificat/</link>
-      <guid>https://izz.ro/extern/copilotul-acuzat-de-tentativa-de-atac-pe-o-cursa-flydubai-a-fost-identificat/</guid>
-      <pubDate>Sat, 03 Oct 2026 12:02:12 +0000</pubDate>
-      <description>Surse media au dezvăluit identitatea copilotului implicat în agresiunea asupra unui comandant indian în timpul unui zbor Flydubai, acesta fiind un cetățean din Oman, deși autoritățile nu au confirmat oficial.</description>
-    </item>
-    <item>
-      <title>SUA cer Franței și Germaniei să folosească rezervele strategice de motorină</title>
-      <link>https://izz.ro/extern/sua-cer-frantei-si-germaniei-sa-foloseasca-rezervele-strategice-de-motorina/</link>
-      <guid>https://izz.ro/extern/sua-cer-frantei-si-germaniei-sa-foloseasca-rezervele-strategice-de-motorina/</guid>
-      <pubDate>Thu, 01 Oct 2026 19:00:00 +0000</pubDate>
-      <description>Administrația Americană solicită Berlinului și Parisului eliberarea stocurilor de urgență pentru stabilizarea pieței globale, altfel riscă restricții la exporturile americane de carburant.</description>
-    </item>
-    <item>
-      <title>Dezbaterile privind reglementarea și încetinirea dezvoltării inteligentei artificiale</title>
-      <link>https://izz.ro/ai/dezbaterile-privind-reglementarea-si-incetinirea-dezvoltarii-inteligentei/</link>
-      <guid>https://izz.ro/ai/dezbaterile-privind-reglementarea-si-incetinirea-dezvoltarii-inteligentei/</guid>
-      <pubDate>Wed, 30 Sep 2026 06:04:46 +0000</pubDate>
-      <description>Specialiștii în tehnologie și experții în etica inteligenței artificiale au început să discute despre necesitatea unor pauze de siguranță. Liderii industriei caută mecanisme similare unui steag roșu pentru a gestiona riscurile globale.</description>
-    </item>
-    <item>
-      <title>Anthropic vizează o evaluare de 2.000 miliarde dolari prin IPO</title>
-      <link>https://izz.ro/economic/anthropic-vizeaza-o-evaluare-de-2-000-miliarde-dolari-prin-ipo/</link>
-      <guid>https://izz.ro/economic/anthropic-vizeaza-o-evaluare-de-2-000-miliarde-dolari-prin-ipo/</guid>
-      <pubDate>Tue, 29 Sep 2026 06:39:43 +0000</pubDate>
-      <description>Compania Anthropic pregătește o ofertă publică inițială prin care urmărește o evaluare masivă de peste 2.000 de miliarde de dolari, în pofida pierderilor financiare înregistrate.</description>
-    </item>
-    <item>
-      <title>Măsuri sporite de securitate la baza aeriană Fairford din Anglia</title>
-      <link>https://izz.ro/extern/masuri-sporite-de-securitate-la-baza-aeriana-fairford-din-anglia/</link>
-      <guid>https://izz.ro/extern/masuri-sporite-de-securitate-la-baza-aeriana-fairford-din-anglia/</guid>
-      <pubDate>Sun, 27 Sep 2026 08:18:28 +0000</pubDate>
-      <description>Autoritățile britanice au intensificat paza la baza aeriană americană din sud-vestul Angliei, instituind baraje rutiere și mobilizând polițiști înarmați pe fondul unui context tensionat.</description>
-    </item>
-    <item>
-      <title>Hackerii au furat 95 de milioane de euro de la o bancă italiană folosind inteligența artificială</title>
-      <link>https://izz.ro/economic/hackerii-au-furat-95-de-milioane-de-euro-de-la-o-banca-italiana-folosind/</link>
-      <guid>https://izz.ro/economic/hackerii-au-furat-95-de-milioane-de-euro-de-la-o-banca-italiana-folosind/</guid>
-      <pubDate>Sun, 27 Sep 2026 06:54:00 +0000</pubDate>
-      <description>Divizia de private banking Fideuram a băncii Intesa Sanpaolo a fost păcălită de infractori cibernetici care s-au dat drept directori executivi prin tehnologii bazate pe inteligență artificială, transferând ilegal sume uriașe în străinătate.</description>
-    </item>
-    <item>
-      <title>Fideuram, păcălită cu 95 de milioane de euro printr-o escrocherie bazată pe inteligență artificială</title>
-      <link>https://izz.ro/economic/fideuram-pacalita-cu-95-de-milioane-de-euro-printr-o-escrocherie-bazata-pe/</link>
-      <guid>https://izz.ro/economic/fideuram-pacalita-cu-95-de-milioane-de-euro-printr-o-escrocherie-bazata-pe/</guid>
-      <pubDate>Sun, 27 Sep 2026 06:51:40 +0000</pubDate>
-      <description>Reprezentanții diviziei Fideuram din cadrul băncii Intesa Sanpaolo au fost induși în eroare de escroci care au simulat identitatea unor oficiali de rang înalt prin inteligență artificială, reușind să transfere neautorizat 95 de milioane de euro.</description>
     </item>
 </channel></rss>

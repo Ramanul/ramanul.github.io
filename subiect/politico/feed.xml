@@ -1,107 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
   <title>Politico — IZZ.ro</title>
   <link>https://izz.ro/subiect/politico/</link>
   <atom:link href="https://izz.ro/subiect/politico/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Politico pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 04 Oct 2026 23:33:33 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 04:40:50 +0000</lastBuildDate>
     <item>
-      <title>Partenerii din UE se pregătesc pentru un posibil declin politic al lui Friedrich Merz</title>
-      <link>https://izz.ro/extern/partenerii-din-ue-se-pregatesc-pentru-un-posibil-declin-politic-al-lui/</link>
-      <guid>https://izz.ro/extern/partenerii-din-ue-se-pregatesc-pentru-un-posibil-declin-politic-al-lui/</guid>
-      <pubDate>Sun, 04 Oct 2026 04:00:59 +0000</pubDate>
-      <description>Oficialii europeni analizează scenariul înlăturării lui Friedrich Merz, în urma unor înfrângeri electorale majore și a disputelor interne din coaliția sa privind asistența socială.</description>
+      <title>Liderii europeni au devenit imuni la declarațiile controversate ale lui Donald Trump</title>
+      <link>https://izz.ro/extern/liderii-europeni-au-devenit-imuni-la-declaratiile-controversate-ale-lui-donald/</link>
+      <guid>https://izz.ro/extern/liderii-europeni-au-devenit-imuni-la-declaratiile-controversate-ale-lui-donald/</guid>
+      <pubDate>Sat, 17 Oct 2026 00:06:25 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/europa-nu-mai-intra-in-panica-dupa-declaratiile-2564496.html">Adevărul</source>
+      <media:content url="https://izz.ro/extern/liderii-europeni-au-devenit-imuni-la-declaratiile-controversate-ale-lui-donald/cover.jpg?v=79e141a0" medium="image" type="image/jpeg"/>
+      <description>O analiză recentă publicată de Politico arată că oficialii de la Bruxelles nu mai reacționează anxios la ieșirile publice ale liderului american, învățând să gestioneze mai calm disensiunile transatlantice.</description>
     </item>
     <item>
-      <title>Guvernul francez prezintă proiectele de lege privind finanțele și bugetul</title>
-      <link>https://izz.ro/extern/guvernul-francez-prezinta-proiectele-de-lege-privind-finantele-si-bugetul/</link>
-      <guid>https://izz.ro/extern/guvernul-francez-prezinta-proiectele-de-lege-privind-finantele-si-bugetul/</guid>
-      <pubDate>Thu, 01 Oct 2026 17:43:23 +0000</pubDate>
-      <description>Miniștrii cabinetului francez au prezentat noile proiecte de lege pentru finanțele publice și bugetul de securitate socială, subliniind caracterul reversibil al măsurilor fiscale propuse în parlament.</description>
+      <title>Liderii Uniunii Europene au dezbătut bugetul și crizele internaționale</title>
+      <link>https://izz.ro/extern/liderii-uniunii-europene-au-dezbatut-bugetul-si-crizele-internationale/</link>
+      <guid>https://izz.ro/extern/liderii-uniunii-europene-au-dezbatut-bugetul-si-crizele-internationale/</guid>
+      <pubDate>Fri, 16 Oct 2026 16:30:49 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/21-things-we-learned-at-the-eu-leaders-summit/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/liderii-uniunii-europene-au-dezbatut-bugetul-si-crizele-internationale/cover.jpg?v=813ae4fe" medium="image" type="image/jpeg"/>
+      <description>Reuniunea la nivel înalt a liderilor europeni s-a concentrat pe bugetul pe termen lung, migrație, energie și situația din Ucraina, fără a lua însă decizii majore concrete.</description>
     </item>
     <item>
-      <title>Software rusesc de spionaj folosit de instituții din România și Europa</title>
-      <link>https://izz.ro/politic/software-rusesc-de-spionaj-folosit-de-institutii-din-romania-si-europa/</link>
-      <guid>https://izz.ro/politic/software-rusesc-de-spionaj-folosit-de-institutii-din-romania-si-europa/</guid>
-      <pubDate>Tue, 29 Sep 2026 14:03:33 +0000</pubDate>
-      <description>O firmă americană controlată de cetățeni ruși a vândut software de supraveghere digitală către poliții europene și structuri românești precum DNA, DIICOT și MApN, conform unei investigații.</description>
+      <title>Paolo Zampolli a fost demis din funcția de la Departamentul de Stat în urma unui scandal</title>
+      <link>https://izz.ro/politic/paolo-zampolli-a-fost-demis-din-functia-de-la-departamentul-de-stat-in-urma/</link>
+      <guid>https://izz.ro/politic/paolo-zampolli-a-fost-demis-din-functia-de-la-departamentul-de-stat-in-urma/</guid>
+      <pubDate>Fri, 16 Oct 2026 07:07:30 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/externe/controversatul-prieten-de-ai-lui-trump-paolo-zampolli-a-fost-indepartat-din-administratie-dupa-o-disputa-aprinsa-pe-e-mail-3994805">Digi24 Extern</source>
+      <media:content url="https://izz.ro/politic/paolo-zampolli-a-fost-demis-din-functia-de-la-departamentul-de-stat-in-urma/cover.jpg?v=2754c2da" medium="image" type="image/jpeg"/>
+      <description>Trimisul special american a fost înlăturat din administrație la doar câteva ore după publicarea unui conflict pe e-mail cu un secretar de stat adjunct, la scurt timp după vizita sa în România.</description>
     </item>
     <item>
-      <title>Tensiuni mediatice între Casa Albă și presa europeană</title>
-      <link>https://izz.ro/politic/tensiuni-mediatice-intre-casa-alba-si-presa-europeana/</link>
-      <guid>https://izz.ro/politic/tensiuni-mediatice-intre-casa-alba-si-presa-europeana/</guid>
-      <pubDate>Tue, 29 Sep 2026 11:34:55 +0000</pubDate>
-      <description>Administrația prezidențială americană menține o relație tensionată cu mass-media din Europa, interzicând recent accesul mai multor corespondenți de presă la evenimentele oficiale.</description>
+      <title>Consiliul Britanic de Sondaj recunoaște lipsa instrumentelor pentru sancționarea firmelor</title>
+      <link>https://izz.ro/extern/consiliul-britanic-de-sondaj-recunoaste-lipsa-instrumentelor-pentru/</link>
+      <guid>https://izz.ro/extern/consiliul-britanic-de-sondaj-recunoaste-lipsa-instrumentelor-pentru/</guid>
+      <pubDate>Thu, 15 Oct 2026 03:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/uk-polling-watchdog-faces-reckoning-after-farage-donor-sting/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Oficialii organismului de reglementare a sondajelor din Marea Britanie au admis în discuții private că instituția nu dispune de autoritatea necesară pentru a penaliza eficient companiile care încalcă normele.</description>
     </item>
     <item>
-      <title>Guvernul francez ia în calcul un îngheț reversibil al pensiilor mari</title>
-      <link>https://izz.ro/extern/guvernul-francez-ia-in-calcul-un-inghet-reversibil-al-pensiilor-mari/</link>
-      <guid>https://izz.ro/extern/guvernul-francez-ia-in-calcul-un-inghet-reversibil-al-pensiilor-mari/</guid>
-      <pubDate>Mon, 28 Sep 2026 17:58:51 +0000</pubDate>
-      <description>Un proiect de lege privind finanțele sociale arată că Executivul de la Paris intenționează să decidă prin decret înghețarea sau subindexarea pensiilor care depășesc pragul de 1.260 de euro.</description>
+      <title>Administraţia Trump atacă decizia privind accesul presei la Casa Albă</title>
+      <link>https://izz.ro/extern/administratia-trump-ataca-decizia-privind-accesul-presei-la-casa-alba/</link>
+      <guid>https://izz.ro/extern/administratia-trump-ataca-decizia-privind-accesul-presei-la-casa-alba/</guid>
+      <pubDate>Wed, 14 Oct 2026 21:05:52 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/sua/administratia-trump-va-contesta-decizia-unui-judecator-federal-care-a-restabilit-accesul-la-casa-alba-pentru-cnn-ms-now-si-politico-3992925">Digi24 Extern</source>
+      <description>Executivul american va contesta hotărârea judecătorească ce permitea jurnaliştilor de la CNN, MSNBC şi Politico să participe la evenimentele oficiale de la Casa Albă.</description>
     </item>
     <item>
-      <title>Podcastul Playbook Paris analizează ascensiunea electorală a partidului National Rally</title>
-      <link>https://izz.ro/politic/podcastul-playbook-paris-analizeaza-ascensiunea-electorala-a-partidului/</link>
-      <guid>https://izz.ro/politic/podcastul-playbook-paris-analizeaza-ascensiunea-electorala-a-partidului/</guid>
-      <pubDate>Mon, 28 Sep 2026 16:50:33 +0000</pubDate>
-      <description>Jurnaliștii de la POLITICO dezbat perspectivele politice ale formațiunii conduse de Marine Le Pen și Jordan Bardella, cu șapte luni înainte de scrutinul prezidențial din Franța.</description>
+      <title>Statele UE renunță la termenul limită din decembrie pentru bugetul blocului comunitar</title>
+      <link>https://izz.ro/extern/statele-ue-renunta-la-termenul-limita-din-decembrie-pentru-bugetul-blocului/</link>
+      <guid>https://izz.ro/extern/statele-ue-renunta-la-termenul-limita-din-decembrie-pentru-bugetul-blocului/</guid>
+      <pubDate>Wed, 14 Oct 2026 09:13:54 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/eu-capitals-weaken-end-of-year-deadline-for-budget-deal/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Guvernele europene au slăbit angajamentul de a finaliza negocierile pentru bugetul pe șapte ani până la sfârșitul anului, deși șeful Consiliului European spera la o înțelegere în decembrie.</description>
     </item>
     <item>
-      <title>Politico și Cluster 17 lansează un barometru lunar al respingerii candidaților prezidențiali</title>
-      <link>https://izz.ro/politic/politico-si-cluster-17-lanseaza-un-barometru-lunar-al-respingerii-candidatilor/</link>
-      <guid>https://izz.ro/politic/politico-si-cluster-17-lanseaza-un-barometru-lunar-al-respingerii-candidatilor/</guid>
-      <pubDate>Fri, 25 Sep 2026 03:00:00 +0000</pubDate>
-      <description>Un nou sondaj realizat în Franța măsoară gradul de respingere a principalilor candidați la alegerile prezidențiale din 2027, indicând capacitatea lor de mobilizare.</description>
+      <title>Cumpăna economică și viitorul mașinilor termice, dezbătute la summitul POLITICO din Paris</title>
+      <link>https://izz.ro/local/cumpana-economica-si-viitorul-masinilor-termice-dezbatute-la-summitul-politico/</link>
+      <guid>https://izz.ro/local/cumpana-economica-si-viitorul-masinilor-termice-dezbatute-la-summitul-politico/</guid>
+      <pubDate>Tue, 13 Oct 2026 16:00:25 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.politico.eu/article/philippe-glucksmann-retailleau-les-temps-forts-du-sommet-sur-la-competitivite-economique-de-politico/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Mai mulți candidați la alegerile prezidențiale din Franța au participat la conferința organizată de POLITICO pentru a discuta despre competiția economică globală, interdicția motoarelor termice și politicile vamale.</description>
     </item>
     <item>
-      <title>Liderii politici francezi s-au confruntat la summitul POLITICO</title>
-      <link>https://izz.ro/extern/liderii-politici-francezi-s-au-confruntat-la-summitul-politico/</link>
-      <guid>https://izz.ro/extern/liderii-politici-francezi-s-au-confruntat-la-summitul-politico/</guid>
-      <pubDate>Thu, 24 Sep 2026 17:55:06 +0000</pubDate>
-      <description>Personalități politice din Franța, printre care Gabriel Attal, au participat la summitul Playbook Paris Live, unde au dezbătut teme majore precum sprijinul pentru Ucraina, inflația și inteligența artificială.</description>
+      <title>Sondaj POLITICO: Republicanii pierd teren în SUA, indiferent de evoluțiile economice</title>
+      <link>https://izz.ro/politic/sondaj-politico-republicanii-pierd-teren-in-sua-indiferent-de-evolutiile/</link>
+      <guid>https://izz.ro/politic/sondaj-politico-republicanii-pierd-teren-in-sua-indiferent-de-evolutiile/</guid>
+      <pubDate>Sun, 11 Oct 2026 04:00:44 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/externe/sua/zarurile-au-fost-aruncate-un-sondaj-politico-arata-ca-nici-sfarsitul-razboiului-sau-ieftinirea-benzinei-nu-i-salveaza-pe-republicani-3986729">Digi24 Extern</source>
+      <description>Un sondaj recent arată că majoritatea americanilor refuză să voteze cu Partidul Republican, chiar dacă războaiele se încheie sau prețul carburanților scade, electoratul fiind sceptic față de șansele partidului înainte de alegeri.</description>
     </item>
     <item>
-      <title>Jurnaliștii CNN, MS NOW și Politico au revenit la Casa Albă</title>
-      <link>https://izz.ro/politic/jurnalistii-cnn-ms-now-si-politico-au-revenit-la-casa-alba/</link>
-      <guid>https://izz.ro/politic/jurnalistii-cnn-ms-now-si-politico-au-revenit-la-casa-alba/</guid>
-      <pubDate>Thu, 24 Sep 2026 17:54:58 +0000</pubDate>
-      <description>Administrația prezidențială americană a fost obligată de o instanță să redea accesul la Casa Albă celor trei instituții media, la șase zile după ce acesta le fusese revocat.</description>
+      <title>Ministrul Olaf Lies discută despre criza și salvarea uzinei Volkswagen</title>
+      <link>https://izz.ro/economic/ministrul-olaf-lies-discuta-despre-criza-si-salvarea-uzinei-volkswagen/</link>
+      <guid>https://izz.ro/economic/ministrul-olaf-lies-discuta-despre-criza-si-salvarea-uzinei-volkswagen/</guid>
+      <pubDate>Sat, 10 Oct 2026 08:00:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.politico.eu/podcast/berlin-playbook-podcast/kann-vw-gerettet-werden-ein-gesprach-mit-olaf-lies/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Politicianul german Olaf Lies analizează în podcastul Politico situația critică a celor 50.000 de locuri de muncă amenințate la Volkswagen și măsurile necesare pentru salvarea industriei din landul Saxonia Inferioară.</description>
     </item>
     <item>
-      <title>Un episod special dezvăluie culisele newsletterului politic Playbook Paris</title>
-      <link>https://izz.ro/cultura/un-episod-special-dezvaluie-culisele-newsletterului-politic-playbook-paris/</link>
-      <guid>https://izz.ro/cultura/un-episod-special-dezvaluie-culisele-newsletterului-politic-playbook-paris/</guid>
-      <pubDate>Thu, 24 Sep 2026 16:13:32 +0000</pubDate>
-      <description>Podcastul analizează activitatea redacțională a publicației politice franceze POLITICO, discutând cu autorii săi despre surse, documentare și procesul de scriere.</description>
+      <title>Europa riscă să intre în iarnă cu rezerve insuficiente de gaze</title>
+      <link>https://izz.ro/extern/europa-risca-sa-intre-in-iarna-cu-rezerve-insuficiente-de-gaze/</link>
+      <guid>https://izz.ro/extern/europa-risca-sa-intre-in-iarna-cu-rezerve-insuficiente-de-gaze/</guid>
+      <pubDate>Fri, 09 Oct 2026 07:19:05 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/europa-intra-in-iarna-cu-rezerve-reduse-de-gaze-facturile-ar-putea-creste-iar-consumul-ar-putea-fi-limitat-3984903">Digi24 Extern</source>
+      <description>Un raport recent avertizează că Uniunea Europeană ar putea înregistra un deficit semnificativ de gaze naturale în sezonul rece, ceea ce ar putea genera scumpiri majore și raționalizări.</description>
     </item>
     <item>
-      <title>Europarlamentarul Victor Negrescu inclus de Politico între cei 17 lideri influenți</title>
-      <link>https://izz.ro/politic/europarlamentarul-victor-negrescu-inclus-de-politico-intre-cei-17-lideri/</link>
-      <guid>https://izz.ro/politic/europarlamentarul-victor-negrescu-inclus-de-politico-intre-cei-17-lideri/</guid>
-      <pubDate>Wed, 23 Sep 2026 10:00:43 +0000</pubDate>
-      <description>Publicația Politico l-a plasat pe social-democratul român într-un grup select de 17 eurodeputați esențiali pentru viitoarele negocieri din Parlamentul European, remarcându-i rolul în relația dintre PSD și socialiștii europeni.</description>
+      <title>George Simion solicită organizarea de alegeri anticipate în România</title>
+      <link>https://izz.ro/politic/george-simion-solicita-organizarea-de-alegeri-anticipate-in-romania/</link>
+      <guid>https://izz.ro/politic/george-simion-solicita-organizarea-de-alegeri-anticipate-in-romania/</guid>
+      <pubDate>Wed, 07 Oct 2026 08:24:28 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/politic/george-simion-cere-alegeri-anticipate-liderul-aur-il-ameninta-pe-nicusor-dan-cu-demiterea.html">Știrile ProTV</source>
+      <description>Liderul AUR, George Simion, a declarat că va iniția o campanie de demitere împotriva președintelui Nicușor Dan dacă acesta refuză în continuare convocarea alegerilor anticipate pentru depășirea blocajului politic.</description>
     </item>
     <item>
-      <title>Siegfried Mureșan pledează pentru un guvern pro-european în România</title>
-      <link>https://izz.ro/politic/siegfried-muresan-pledeaza-pentru-un-guvern-pro-european-in-romania/</link>
-      <guid>https://izz.ro/politic/siegfried-muresan-pledeaza-pentru-un-guvern-pro-european-in-romania/</guid>
-      <pubDate>Wed, 23 Sep 2026 05:37:00 +0000</pubDate>
-      <description>Premierul desemnat a declarat că formațiunea social-democrată trebuie să clarifice urgent dacă va susține noul executiv sau dacă va sprijini indirect ascensiunea formațiunilor extremiste, evitând astfel organizarea de alegeri anticipate.</description>
-    </item>
-    <item>
-      <title>Administrația Trump apără în instanță interdicția impusă unor jurnaliști</title>
-      <link>https://izz.ro/politic/administratia-trump-apara-in-instanta-interdictia-impusa-unor-jurnalisti/</link>
-      <guid>https://izz.ro/politic/administratia-trump-apara-in-instanta-interdictia-impusa-unor-jurnalisti/</guid>
-      <pubDate>Wed, 23 Sep 2026 05:18:24 +0000</pubDate>
-      <description>Casa Albă cere instanțelor federale să permită selectarea jurnaliștilor acreditați, motivând că instituții precum CNN sau POLITICO au publicat informații sensibile care pun în pericol securitatea națională.</description>
-    </item>
-    <item>
-      <title>Magdalena Andersson pregătește formarea unui nou guvern în Suedia</title>
-      <link>https://izz.ro/extern/magdalena-andersson-pregateste-formarea-unui-nou-guvern-in-suedia/</link>
-      <guid>https://izz.ro/extern/magdalena-andersson-pregateste-formarea-unui-nou-guvern-in-suedia/</guid>
-      <pubDate>Wed, 23 Sep 2026 02:00:00 +0000</pubDate>
-      <description>După victoria electorală la limită împotriva dreptei, fosta prim-ministră suedeză Magdalena Andersson poartă negocieri pentru a prelua puterea și a consolida rolul Europei pe plan internațional.</description>
+      <title>Sam Altman îl consideră pe Emmanuel Macron cel mai impresionant lider global privind AI</title>
+      <link>https://izz.ro/extern/sam-altman-il-considera-pe-emmanuel-macron-cel-mai-impresionant-lider-global/</link>
+      <guid>https://izz.ro/extern/sam-altman-il-considera-pe-emmanuel-macron-cel-mai-impresionant-lider-global/</guid>
+      <pubDate>Mon, 05 Oct 2026 11:00:38 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/sam-altman-france-emmanuel-macron-most-impressive-world-leader-ai/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Directorul executiv OpenAI, Sam Altman, l-a lăudat pe președintele Franței pentru viziunea și abordarea sa atentă în ceea ce privește politicile și reglementările referitoare la tehnologia inteligenței artificiale.</description>
     </item>
 </channel></rss>

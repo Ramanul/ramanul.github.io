@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/italia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Italia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 16 Oct 2026 23:50:51 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 04:40:50 +0000</lastBuildDate>
+    <item>
+      <title>Criză de combustibil și proteste masive cu tractoare în sudul Italiei</title>
+      <link>https://izz.ro/extern/criza-de-combustibil-si-proteste-masive-cu-tractoare-in-sudul-italiei/</link>
+      <guid>https://izz.ro/extern/criza-de-combustibil-si-proteste-masive-cu-tractoare-in-sudul-italiei/</guid>
+      <pubDate>Sat, 17 Oct 2026 03:07:25 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/criza-de-combustibil-in-sudul-italiei-cozi-de-2564556.html">Adevărul</source>
+      <media:content url="https://izz.ro/extern/criza-de-combustibil-si-proteste-masive-cu-tractoare-in-sudul-italiei/cover.jpg?v=b18012a3" medium="image" type="image/jpeg"/>
+      <description>Regiunile Puglia și Basilicata se confruntă cu un deficit sever de carburanți, generând rânduri uriașe la stațiile de alimentare. În același timp, transportatorii și fermierii protestează vehement împotriva costurilor ridicate.</description>
+    </item>
     <item>
       <title>Zboruri oprite complet pe aeroporturile din Italia din cauza unor defecțiuni tehnice</title>
       <link>https://izz.ro/extern/zboruri-oprite-complet-pe-aeroporturile-din-italia-din-cauza-unor-defectiuni/</link>
@@ -454,14 +464,5 @@
       <category>sport</category>
       <source url="https://www.fcinter1908.it/nazionali/nosotti-ho-segnato-due-cose-sullitalia-e-ci-sono-questi-2-fuoriclasse-uno-e-figura-mitologica/">FC Inter 1908</source>
       <description>Jurnalistul Marco Nosotti a remarcat entuziasmul și jucătorii de valoare din naționala Italiei, în urma partidei câștigate în fața Turciei la finalul unui scurt stagiu competițional.</description>
-    </item>
-    <item>
-      <title>Evaluările jucătorilor după partida dintre Italia și Turcia</title>
-      <link>https://izz.ro/sport/evaluarile-jucatorilor-dupa-partida-dintre-italia-si-turcia/</link>
-      <guid>https://izz.ro/sport/evaluarile-jucatorilor-dupa-partida-dintre-italia-si-turcia/</guid>
-      <pubDate>Tue, 06 Oct 2026 10:18:49 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.fcinter1908.it/nazionali/italia-turchia-le-pagelle-esposito-vizio-barella-si-vede/">FC Inter 1908</source>
-      <description>Presa sportivă a analizat prestațiile elevilor lui Spalletti din confruntarea contând pentru Liga Națiunilor, remarcând evoluțiile unor fotbalist precum Esposito și Barella.</description>
     </item>
 </channel></rss>
