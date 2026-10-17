@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/auto/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Auto pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 20:53:37 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 21:20:01 +0000</lastBuildDate>
+    <item>
+      <title>Fernando Alonso a testat un model auto produs de Dacia</title>
+      <link>https://izz.ro/auto/fernando-alonso-a-testat-un-model-auto-produs-de-dacia/</link>
+      <guid>https://izz.ro/auto/fernando-alonso-a-testat-un-model-auto-produs-de-dacia/</guid>
+      <pubDate>Sat, 17 Oct 2026 21:02:26 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.prosport.ro/alte-sporturi/auto-moto/fernando-alonso-sofer-dacia-sandriders-volan-dakar-20549785">ProSport</source>
+      <media:content url="https://izz.ro/auto/fernando-alonso-a-testat-un-model-auto-produs-de-dacia/cover.jpg?v=15292ae2" medium="image" type="image/jpeg"/>
+      <description>Dublul campion mondial de Formula 1 a fost fotografiat la volanul unui vehicul Dacia, constructorul pregătindu-se pentru o competiție importantă programată în anul 2027.</description>
+    </item>
     <item>
       <title>Un sfert dintre accidentele rutiere grave au loc pe timp de noapte</title>
       <link>https://izz.ro/auto/un-sfert-dintre-accidentele-rutiere-grave-au-loc-pe-timp-de-noapte/</link>
@@ -468,14 +478,5 @@
       <category>auto</category>
       <source url="https://www.autocritica.ro/live-news/ford-noul-hypercar-pentru-anduranta-va-debuta-in-26-noiembrie/">AutoCritica, AutoMarket</source>
       <description>Constructorul auto Ford a anunțat că va prezenta oficial pe 26 noiembrie noul său hypercar dezvoltat pentru subcategoria LMDh. Această lansare marchează revenirea oficială a producătorului american în Campionatul Mondial de Anduranță după o pauză de aproape șase decenii. Proiectul include participarea cu o echipă de uzină, având ca obiectiv principal obținerea de victorii în competiție.</description>
-    </item>
-    <item>
-      <title>Omoda 4 debutează la Salonul Auto de la Paris ca SUV hibrid</title>
-      <link>https://izz.ro/auto/omoda-4-debuteaza-la-salonul-auto-de-la-paris-ca-suv-hibrid/</link>
-      <guid>https://izz.ro/auto/omoda-4-debuteaza-la-salonul-auto-de-la-paris-ca-suv-hibrid/</guid>
-      <pubDate>Thu, 15 Oct 2026 07:34:00 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.automarket.ro/stiri/omoda-4-debut-european-la-salonul-auto-de-la-paris-suv-hibrid-cu-224-cp-129075.html">AutoMarket</source>
-      <description>Marca chineză a prezentat în premieră europeană noul SUV compact Omoda 4 la evenimentul din capitala Franței. Vehiculul măsoară 4,4 metri lungime și este echipat cu un sistem de propulsie hibrid fără încărcare la priză, dezvoltând 224 de cai putere.</description>
     </item>
 </channel></rss>

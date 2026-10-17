@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 20:53:36 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 21:20:00 +0000</lastBuildDate>
+    <item>
+      <title>Lupii străvechi creați în laborator au împlinit doi ani și au fost testați</title>
+      <link>https://izz.ro/ai/lupii-stravechi-creati-in-laborator-au-implinit-doi-ani-si-au-fost-testati/</link>
+      <guid>https://izz.ro/ai/lupii-stravechi-creati-in-laborator-au-implinit-doi-ani-si-au-fost-testati/</guid>
+      <pubDate>Sat, 17 Oct 2026 20:55:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/life/lumea-animalelor/lupii-stravechi-inviati-in-laborator-au-implinit-2-ani-iar-medicii-le-au-facut-noi-teste-medicale-ce-s-a-descoperit-la-analize-807583.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/ai/lupii-stravechi-creati-in-laborator-au-implinit-doi-ani-si-au-fost-testati/cover.jpg?v=f26be98c" medium="image" type="image/jpeg"/>
+      <description>Romulus și Remus, primii lupi străvechi reînviați de compania Colossal Biosciences, au împlinit doi ani. Medicii le-au efectuat noi investigații medicale pentru a le monitoriza starea de sănătate în laborator.</description>
+    </item>
     <item>
       <title>Controverse privind un proiect care interzice ChatGPT în spețe juridice</title>
       <link>https://izz.ro/ai/controverse-privind-un-proiect-care-interzice-chatgpt-in-spete-juridice/</link>
@@ -63,7 +73,7 @@
       <pubDate>Sat, 17 Oct 2026 11:38:16 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.economica.net/anthropic-cumpara-compania-de-securitate-ai-opaque-systems-fondata-de-profesoara-universitara-raluca-ada-popa_986673.html">Economica</source>
-      <media:content url="https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/cover.jpg?v=e457d8de" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/cover.jpg?v=38d2c050" medium="image" type="image/jpeg"/>
       <description>Producătorul asistentului Claude a preluat compania americană cofondată de cercetătoarea de origine română Raluca Ada Popa, tranzacția fiind salutată de Ambasada SUA ca un exemplu de excelență.</description>
     </item>
     <item>
@@ -461,14 +471,5 @@
       <category>ai</category>
       <source url="https://zonait.ro/anthropic-va-pedepsi-utilizatorii-claude/">ZonaIT</source>
       <description>Dezvoltatorul inteligenței artificiale Claude a decis blocarea conturilor pentru persoanele care folosesc frecvent insulte sau afișează comportamente agresive în interacțiunile textuale cu asistentul virtual.</description>
-    </item>
-    <item>
-      <title>Un robot umanoid și un câine-robot au fost asigurați în premieră națională pentru peste 140.000 de euro</title>
-      <link>https://izz.ro/ai/un-robot-umanoid-si-un-caine-robot-au-fost-asigurati-in-premiera-nationala/</link>
-      <guid>https://izz.ro/ai/un-robot-umanoid-si-un-caine-robot-au-fost-asigurati-in-premiera-nationala/</guid>
-      <pubDate>Sun, 11 Oct 2026 05:17:37 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.digi24.ro/stiri/economie/un-robot-umanoid-si-un-caine-robot-au-fost-asigurati-pentru-prima-data-in-romania-valoarea-lor-depaseste-141-000-de-euro-3980671">Digi24</source>
-      <description>Două echipamente robotizate avansate, folosite pentru inspecții în medii periculoase, au fost incluse în prima poliță de asigurare de acest gen emisă pe piața din România.</description>
     </item>
 </channel></rss>
