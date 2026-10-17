@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/nato/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NATO pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 17:26:35 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 19:41:46 +0000</lastBuildDate>
+    <item>
+      <title>NATO convoacă o ședință extraordinară la cererea României</title>
+      <link>https://izz.ro/politic/nato-convoaca-o-sedinta-extraordinara-la-cererea-romaniei/</link>
+      <guid>https://izz.ro/politic/nato-convoaca-o-sedinta-extraordinara-la-cererea-romaniei/</guid>
+      <pubDate>Sat, 17 Oct 2026 18:02:32 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/reuniune-a-consiliului-nato-programata-la-cererea-romaniei-dupa-atacurile-navelor-la-marea-neagra-si-incursiunile-dronelor-rusesti-3997039">Digi24</source>
+      <media:content url="https://izz.ro/politic/nato-convoaca-o-sedinta-extraordinara-la-cererea-romaniei/cover.jpg?v=7768ac07" medium="image" type="image/jpeg"/>
+      <description>Alianța Nord-Atlantică va discuta situația de securitate de la Marea Neagră în cadrul unei reuniuni speciale programate la inițiativa autorităților de la București, în contextul incidentelor recente cu drone.</description>
+    </item>
     <item>
       <title>Militari din NATO se pregătesc în Polonia pentru misiuni de menținere a păcii în Ucraina</title>
       <link>https://izz.ro/extern/militari-din-nato-se-pregatesc-in-polonia-pentru-misiuni-de-mentinere-a-pacii/</link>
@@ -389,14 +399,5 @@
       <category>extern</category>
       <source url="https://hotnews.ro/teoria-victoriei-in-cazul-unui-atac-al-rusiei-miscarea-pregatita-de-generalul-care-conduce-nato-2368058">HotNews</source>
       <description>Generalul american Alexus Grynkewich, liderul forțelor NATO din Europa, urmează să își facă publică strategia militară concepută pentru a respinge eventuale agresiuni venite dinspre Rusia.</description>
-    </item>
-    <item>
-      <title>Estonia și Germania avertizează asupra unui posibil conflict militar cu Rusia</title>
-      <link>https://izz.ro/extern/estonia-si-germania-avertizeaza-asupra-unui-posibil-conflict-militar-cu-rusia/</link>
-      <guid>https://izz.ro/extern/estonia-si-germania-avertizeaza-asupra-unui-posibil-conflict-militar-cu-rusia/</guid>
-      <pubDate>Mon, 05 Oct 2026 19:34:10 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.g4media.ro/la-repubblica-estonia-isi-apropie-trupele-de-granita-cu-rusia-germania-risca-sa-fie-tarata-intr-un-conflict-armat-cu-rusia-nato-isi-revizuieste-planurile.html">G4Media</source>
-      <description>Serviciile de informații din Estonia și Berlin semnalează riscul unui atac iminent din partea Rusiei. În acest context tensionat, alianța nord-atlantică își revizuiește planurile strategice de apărare.</description>
     </item>
 </channel></rss>

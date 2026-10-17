@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/iasi/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Iași pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 17:26:35 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 19:41:46 +0000</lastBuildDate>
+    <item>
+      <title>Mii de locuințe din Iași au rămas fără agent termic și apă caldă în urma unui incendiu la CET</title>
+      <link>https://izz.ro/local/mii-de-locuinte-din-iasi-au-ramas-fara-agent-termic-si-apa-calda-in-urma-unui/</link>
+      <guid>https://izz.ro/local/mii-de-locuinte-din-iasi-au-ramas-fara-agent-termic-si-apa-calda-in-urma-unui/</guid>
+      <pubDate>Sat, 17 Oct 2026 18:40:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://observatornews.ro/eveniment/orasul-din-romania-care-a-ramas-fara-apa-si-caldura-in-prag-de-iarna-din-cauza-unui-incendiu-la-cet-669487.html">Observator</source>
+      <media:content url="https://izz.ro/local/mii-de-locuinte-din-iasi-au-ramas-fara-agent-termic-si-apa-calda-in-urma-unui/cover.jpg?v=e5d255f6" medium="image" type="image/jpeg"/>
+      <description>Un incendiu izbucnit la un transformator al CET Iași a oprit complet activitatea centralei termoelectrice. Sute de blocuri din oraș au fost lăsate fără căldură și apă caldă în pragul iernii, echipele făcând eforturi de remediere.</description>
+    </item>
     <item>
       <title>CET I Iași oprit de urgență din cauza unui incendiu</title>
       <link>https://izz.ro/local/cet-i-iasi-oprit-de-urgenta-din-cauza-unui-incendiu/</link>
@@ -458,14 +468,5 @@
       <category>local</category>
       <source url="https://www.dobrogeaonline.ro/masurile-de-securitate-si-sfaturile-jandarmeriei-pentru-pelerini/">Dobrogea Online</source>
       <description>Autoritățile din Iași pregătesc dispozitive de ordine publică pentru pelerinajul dedicat Sfintei Cuvioase Parascheva, eveniment religios care se va desfășura în perioada 8-15 octombrie.</description>
-    </item>
-    <item>
-      <title>Începe pelerinajul de la Iași dedicat Sfintei Cuvioase Parascheva</title>
-      <link>https://izz.ro/local/incepe-pelerinajul-de-la-iasi-dedicat-sfintei-cuvioase-parascheva/</link>
-      <guid>https://izz.ro/local/incepe-pelerinajul-de-la-iasi-dedicat-sfintei-cuvioase-parascheva/</guid>
-      <pubDate>Tue, 06 Oct 2026 07:45:12 +0000</pubDate>
-      <category>local</category>
-      <source url="https://zch.ro/programul-manifestarilor-de-sfanta-parascheva-2026-pe-zile-cand-are-loc-procesiunea-calea-sfintilor/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News, News Brașov</source>
-      <description>Pelerinajul anual de la Iași dedicat Sfintei Cuvioase Parascheva se desfășoară în perioada 8-15 octombrie, estimându-se participarea a aproximativ 300.000 de persoane. Autoritățile au instituit măsuri stricte de ordine publică, inclusiv un culoar unic de acces pentru pelerini, pentru a gestiona fluxul mare de credincioși. În acest an, în cadrul manifestărilor religioase, sunt aduse spre închinare și moaștele Sfântului Cuvios Paisie de la Sihăstria.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 17:26:43 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 19:41:51 +0000</lastBuildDate>
+    <item>
+      <title>Controverse privind un proiect care interzice ChatGPT în spețe juridice</title>
+      <link>https://izz.ro/ai/controverse-privind-un-proiect-care-interzice-chatgpt-in-spete-juridice/</link>
+      <guid>https://izz.ro/ai/controverse-privind-un-proiect-care-interzice-chatgpt-in-spete-juridice/</guid>
+      <pubDate>Sat, 17 Oct 2026 19:07:35 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://adevarul.ro/stiri-interne/evenimente/un-proiect-care-ar-putea-interzice-chatgpt-pentru-2564736.html">Adevărul</source>
+      <media:content url="https://izz.ro/ai/controverse-privind-un-proiect-care-interzice-chatgpt-in-spete-juridice/cover.jpg?v=d24c1c87" medium="image" type="image/jpeg"/>
+      <description>Antreprenorul Radu Sebastian Amariei critică dur un proiect legislativ care ar putea restricționa folosirea inteligenței artificiale în domeniul juridic, calificând inițiativa drept un monopol avantajos avocaților.</description>
+    </item>
     <item>
       <title>Inteligența artificială este utilizată mai frecvent acasă decât la locul de muncă</title>
       <link>https://izz.ro/ai/inteligenta-artificiala-este-utilizata-mai-frecvent-acasa-decat-la-locul-de/</link>
@@ -153,7 +163,6 @@
       <pubDate>Fri, 16 Oct 2026 07:49:45 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.theguardian.com/commentisfree/2026/oct/16/ai-existential-threat-real-journalism-democracy-resistance">The Guardian</source>
-      <media:content url="https://izz.ro/ai/platformele-tehnologice-reprezinta-o-amenintare-majora-la-adresa-democratiei/cover.jpg?v=4eb4a250" medium="image" type="image/jpeg"/>
       <description>Conducerea publicației franceze de investigații Mediapart atrage atenția asupra riscurilor majore pe care marile companii de tehnologie le aduc la nivel social, politic și informativ prin exploatarea presei.</description>
     </item>
     <item>
@@ -461,14 +470,5 @@
       <category>ai</category>
       <source url="https://www.digi24.ro/stiri/economie/un-robot-umanoid-si-un-caine-robot-au-fost-asigurati-pentru-prima-data-in-romania-valoarea-lor-depaseste-141-000-de-euro-3980671">Digi24</source>
       <description>Două echipamente robotizate avansate, folosite pentru inspecții în medii periculoase, au fost incluse în prima poliță de asigurare de acest gen emisă pe piața din România.</description>
-    </item>
-    <item>
-      <title>Cercetătorii folosesc inteligența artificială pentru a recrea aromele plantelor pe cale de dispariție</title>
-      <link>https://izz.ro/ai/cercetatorii-folosesc-inteligenta-artificiala-pentru-a-recrea-aromele-plantelor/</link>
-      <guid>https://izz.ro/ai/cercetatorii-folosesc-inteligenta-artificiala-pentru-a-recrea-aromele-plantelor/</guid>
-      <pubDate>Sat, 10 Oct 2026 21:00:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://spotmedia.ro/stiri/mediu/costurile-ascunse-ale-parfumului-tau-preferat-poate-ai-sa-recreeze-mirosul-plantelor-pe-cale-disparitie-folosite-de-industrie">Spotmedia</source>
-      <description>Specialiștii utilizează tehnologia avansată și inteligența artificială pentru a sintetiza mirosurile unor ingrediente rare folosite în industria parfumurilor, încercând să protejeze speciile de plante periclitate din mediul natural.</description>
     </item>
 </channel></rss>

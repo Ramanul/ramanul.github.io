@@ -800,6 +800,9 @@ body:has(#izz-consent) { padding-bottom: 4.5rem; }
   --art-a4: #2f3d4a; --art-b4: #eef1f5;   /* ardezie */
   --art-a5: #4a3244; --art-b5: #f5f0f4;   /* prun */
   --art-gold: #c9a227;   /* NU se inverseaza pe dark: e aurul tiparit, ca --ink-fixed */
+  /* stirile locale/judetene (`.art--geo`); aceleasi valori ca GEO_* din generator/htmlart.py */
+  --art-geo-ink: #1d1f24; --art-geo-bg: #faf6ec;
+  --art-geo-aur: #dcb84e;   /* aur luminos pentru forma locului; #8b6918 pe suprafete mari iesea maroniu */
   --art-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
 }
 .art--p0 { --art-acc: var(--art-a0); --art-bg: var(--art-b0); }
@@ -991,6 +994,18 @@ body:has(#izz-consent) { padding-bottom: 4.5rem; }
 .art-harta path {
   fill: currentColor; fill-opacity: .16;
   stroke: var(--art-gold); stroke-opacity: .65;
+}
+/* -- stiri locale/judetene: o singura compozitie calma (cerere proprietar 2026-10-17; auditul
+   din aceeasi zi, sect. 5.2 si 3.1). Paleta e FIXA, nu rotatia p0-p5: o lista de stiri locale nu
+   mai arata ca un colaj de afise. Fara data, fara sigiliu, fara text sub 10px. Forma locului e in
+   aur luminos: in `currentColor` iesea gri/negru, iar `#8b6918` pe suprafete mari, maroniu. -- */
+.art--geo { --art-acc: var(--art-geo-ink); --art-bg: var(--art-geo-bg); }
+.art--geo:not(.art--harta) .art-body { max-width: 84cqw; }
+.art--geo .art-subrow { margin-top: 3.2cqw; }  /* sub-linia mai mare nu mai atinge diacriticele (Ș, Ț) */
+.art--geo .art-subrow .art-sub { font-size: 3.1cqw; letter-spacing: .3cqw; opacity: .72; }
+.art--geo .art-harta path {
+  fill: var(--art-geo-aur); fill-opacity: 1;
+  stroke: var(--art-gold); stroke-opacity: 1;
 }
 .art-portret-wrap {
   position: absolute; right: 6.25cqw; top: 50%; transform: translateY(-50%);
