@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Institutul Naţional de Statistică — IZZ.ro</title>
+  <title>Institutul Național de Statistică — IZZ.ro</title>
   <link>https://izz.ro/subiect/institutul-national-de-statistica/</link>
   <atom:link href="https://izz.ro/subiect/institutul-national-de-statistica/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Institutul Naţional de Statistică pe IZZ.ro</description>
+  <description>Știri despre Institutul Național de Statistică pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 14:01:00 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 17:26:35 +0000</lastBuildDate>
+    <item>
+      <title>Datoria publică a României a crescut la 60,4% din Produsul Intern Brut</title>
+      <link>https://izz.ro/economic/datoria-publica-a-romaniei-a-crescut-la-604-din-produsul-intern-brut/</link>
+      <guid>https://izz.ro/economic/datoria-publica-a-romaniei-a-crescut-la-604-din-produsul-intern-brut/</guid>
+      <pubDate>Sat, 17 Oct 2026 15:23:44 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://spotmedia.ro/stiri/economie/datoria-publica-a-urcat-la-604-din-pib-aproape-8-miliarde-de-lei-in-plus-intr-o-luna">Spotmedia</source>
+      <media:content url="https://izz.ro/economic/datoria-publica-a-romaniei-a-crescut-la-604-din-produsul-intern-brut/cover.jpg?v=2f9cceb8" medium="image" type="image/jpeg"/>
+      <description>Ministerul Finanțelor a anunțat că datoria publică a urcat la aproape 1.205 miliarde de lei în iulie 2026, înregistrând un salt lunar de circa 8 miliarde de lei, determinat în principal de datoria pe termen scurt.</description>
+    </item>
     <item>
       <title>Inflația anuală din România a urcat la 6,61% în septembrie 2026</title>
       <link>https://izz.ro/economic/inflatia-anuala-din-romania-a-urcat-la-661-in-septembrie-2026/</link>
@@ -194,14 +204,5 @@
       <category>sanatate</category>
       <source url="https://newsbv.ro/servicii-medicale-mame-copii/">News Brașov</source>
       <description>Organizația Salvați Copiii și Fundația OMV Petrom implementează programul Primul pas spre sănătate pentru a reduce discrepanțele majore privind mortalitatea infantilă dintre mediul rural și cel urban din România.</description>
-    </item>
-    <item>
-      <title>Românii cheltuiesc mai mult pe vicii decât pe educație</title>
-      <link>https://izz.ro/economic/romanii-cheltuiesc-mai-mult-pe-vicii-decat-pe-educatie/</link>
-      <guid>https://izz.ro/economic/romanii-cheltuiesc-mai-mult-pe-vicii-decat-pe-educatie/</guid>
-      <pubDate>Mon, 05 Oct 2026 17:15:14 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://newsbv.ro/buget-familii-educatie/">News Brașov</source>
-      <description>Datele Institutului Național de Statistică arată că gospodăriile din România alocă lunar în medie 300 de lei pentru alcool și tutun, comparativ cu doar 23 de lei destinați educației.</description>
     </item>
 </channel></rss>

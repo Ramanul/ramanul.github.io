@@ -1,15 +1,23 @@
 {
   "absent": 0,
-  "approved": 1,
-  "catalog_records": 1,
+  "approved": 2,
+  "articles_with_impacts": 1,
+  "articles_with_provenance": 1,
+  "catalog_records": 2,
   "coverage": {
-    "denominator": 9078,
-    "numerator": 1
+    "denominator": 9037,
+    "numerator": 2
   },
   "draft": 0,
-  "fresh": 1,
+  "examined_resources": 1,
+  "examined_sources": 1,
+  "fresh": 2,
+  "generated_at": "2026-10-17T17:26:20.137376+00:00",
   "needs_review": 0,
-  "publishable_articles": 9078,
+  "publishable_articles": 9037,
+  "resources_current": 1,
+  "resources_expired": 0,
+  "resources_without_deadline": 0,
   "schema_version": 1,
   "withdrawn": 0
 }

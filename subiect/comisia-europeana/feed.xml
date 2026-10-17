@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/comisia-europeana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Comisia Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 14:01:00 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 17:26:35 +0000</lastBuildDate>
+    <item>
+      <title>Editorii de presă cer Comisiei Europene să oprească Meta din utilizarea articolelor pentru inteligența artificială</title>
+      <link>https://izz.ro/tech/editorii-de-presa-cer-comisiei-europene-sa-opreasca-meta-din-utilizarea/</link>
+      <guid>https://izz.ro/tech/editorii-de-presa-cer-comisiei-europene-sa-opreasca-meta-din-utilizarea/</guid>
+      <pubDate>Sat, 17 Oct 2026 17:04:54 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.zf.ro/business-hi-tech/editorii-europeni-presa-cer-interventia-comisiei-europene-disputa-meta-privind-folosirea-stirilor-antrenarea-meta-pur-simplu-isi-acorde-singura-permisiunea-prelua-aceasta-munca-redactiilor-news-23262198">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/tech/editorii-de-presa-cer-comisiei-europene-sa-opreasca-meta-din-utilizarea/cover.jpg?v=133d92c3" medium="image" type="image/jpeg"/>
+      <description>Organizațiile de presă din Europa și Statele Unite solicită intervenția urgentă a autorităților europene împotriva practicilor comerciale impuse de Meta, acuzată că folosește conținutul editorial pentru antrenarea sistemelor de AI fără acorduri licențiate.</description>
+    </item>
     <item>
       <title>Liderii UE cer fonduri suplimentare pentru Ucraina în 2027</title>
       <link>https://izz.ro/economic/liderii-ue-cer-fonduri-suplimentare-pentru-ucraina-in-2027/</link>
@@ -53,7 +63,6 @@
       <pubDate>Fri, 16 Oct 2026 07:07:57 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.politico.eu/article/fonds-publics-detournes-pourquoi-la-cour-des-comptes-europeenne-pourrait-avoir-plus-de-mal-a-les-reperer/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <media:content url="https://izz.ro/economic/curtea-de-conturi-europeana-avertizeaza-ca-fondurile-ue-risca-sa-fie-mai-greu/cover.jpg?v=3a4c9697" medium="image" type="image/jpeg"/>
       <description>Planul Comisiei Europene de a crește flexibilitatea bugetară în fața crizelor ar putea reduce transparența cheltuielilor publice și capacitatea auditorilor de a detecta eventuale nereguli.</description>
     </item>
     <item>
@@ -451,14 +460,5 @@
       <category>extern</category>
       <source url="https://stirileprotv.ro/stiri/international/fara-alti-viktor-orban-ue-pregateste-o-perioada-de-proba-de-15-ani-pentru-noile-state-membre.html">Știrile ProTV</source>
       <description>Comisia Europeană intenționează să impună reguli stricte și o perioadă preliminară de cincisprezece ani pentru viitoarele țări candidate din Est, pentru a preveni apariția unor lideri de tipul lui Viktor Orban.</description>
-    </item>
-    <item>
-      <title>Ucraina refuză aderarea la UE fără acces pentru cereale</title>
-      <link>https://izz.ro/extern/ucraina-refuza-aderarea-la-ue-fara-acces-pentru-cereale/</link>
-      <guid>https://izz.ro/extern/ucraina-refuza-aderarea-la-ue-fara-acces-pentru-cereale/</guid>
-      <pubDate>Tue, 06 Oct 2026 16:07:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/externe/ucraina-spune-nu-aderarii-la-uniunea-europeana-daca-cerealele-kievului-nu-au-acces-pe-piata-europeana-806059.html">Antena 3 CNN</source>
-      <description>Autoritățile de la Kiev resping propunerea Comisiei Europene privind limitarea permanentă a exporturilor agricole ucrainene și refuză să accepte un statut de membru inferior în cadrul Uniunii Europene.</description>
     </item>
 </channel></rss>
