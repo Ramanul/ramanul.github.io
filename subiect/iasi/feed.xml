@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/iasi/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Iași pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 20:33:28 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 20:53:27 +0000</lastBuildDate>
     <item>
       <title>Mii de locuințe din Iași au rămas fără agent termic și apă caldă în urma unui incendiu la CET</title>
       <link>https://izz.ro/local/mii-de-locuinte-din-iasi-au-ramas-fara-agent-termic-si-apa-calda-in-urma-unui/</link>
@@ -15,6 +15,16 @@
       <source url="https://observatornews.ro/eveniment/orasul-din-romania-care-a-ramas-fara-apa-si-caldura-in-prag-de-iarna-din-cauza-unui-incendiu-la-cet-669487.html">Observator</source>
       <media:content url="https://izz.ro/local/mii-de-locuinte-din-iasi-au-ramas-fara-agent-termic-si-apa-calda-in-urma-unui/cover.jpg?v=e5d255f6" medium="image" type="image/jpeg"/>
       <description>Un incendiu izbucnit la un transformator al CET Iași a oprit complet activitatea centralei termoelectrice. Sute de blocuri din oraș au fost lăsate fără căldură și apă caldă în pragul iernii, echipele făcând eforturi de remediere.</description>
+    </item>
+    <item>
+      <title>Explozie urmată de un incendiu puternic la CET Iași</title>
+      <link>https://izz.ro/local/explozie-urmata-de-un-incendiu-puternic-la-cet-iasi/</link>
+      <guid>https://izz.ro/local/explozie-urmata-de-un-incendiu-puternic-la-cet-iasi/</guid>
+      <pubDate>Sat, 17 Oct 2026 18:12:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.profit.ro/stiri/social/video-explozie-si-incendiu-puternic-la-cet-iasi-22851707?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/local/explozie-urmata-de-un-incendiu-puternic-la-cet-iasi/cover.jpg?v=ff68fb51" medium="image" type="image/jpeg"/>
+      <description>Autoritățile au semnalat un incendiu de proporții la CET Iași, evenimentul fiind precedat de o explozie puternică în incinta centralei.</description>
     </item>
     <item>
       <title>CET I Iași oprit de urgență din cauza unui incendiu</title>
@@ -459,14 +469,5 @@
       <category>local</category>
       <source url="https://www.g4media.ro/reporteris-record-olimpic-la-iasi-rector-profesoara-si-studenta-in-acelasi-timp-a-dat-licenta-si-tot-ea-a-fost-sefa-comisiei-de-licenta.html">G4Media</source>
       <description>Gabriela Mihalache a deținut între 2020 și 2023 funcții multiple la Iași: rector, cadru didactic și studentă la propria universitate, ajungând să susțină licența evaluată de propria comisie.</description>
-    </item>
-    <item>
-      <title>Jandarmeria Română impune măsuri de securitate pentru pelerinajul de la Iași</title>
-      <link>https://izz.ro/local/jandarmeria-romana-impune-masuri-de-securitate-pentru-pelerinajul-de-la-iasi/</link>
-      <guid>https://izz.ro/local/jandarmeria-romana-impune-masuri-de-securitate-pentru-pelerinajul-de-la-iasi/</guid>
-      <pubDate>Tue, 06 Oct 2026 08:34:40 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.dobrogeaonline.ro/masurile-de-securitate-si-sfaturile-jandarmeriei-pentru-pelerini/">Dobrogea Online</source>
-      <description>Autoritățile din Iași pregătesc dispozitive de ordine publică pentru pelerinajul dedicat Sfintei Cuvioase Parascheva, eveniment religios care se va desfășura în perioada 8-15 octombrie.</description>
     </item>
 </channel></rss>
