@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 18:21:50 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 20:59:20 +0000</lastBuildDate>
     <item>
       <title>O nouă teorie despre neuronii inteligenței artificiale amplifică temerile privind siguranța umanității</title>
       <link>https://izz.ro/ai/o-noua-teorie-despre-neuronii-inteligentei-artificiale-amplifica-temerile/</link>
@@ -23,7 +23,6 @@
       <pubDate>Sat, 17 Oct 2026 04:45:48 +0000</pubDate>
       <category>tech</category>
       <source url="https://expressdebanat.ro/de-la-aplicatii-software-la-o-armata-de-agenti-ai-linnify-compania-care-pune-inteligenta-artificiala-la-munca-pentru-firme-din-toata-lumea/">Express de Banat</source>
-      <media:content url="https://izz.ro/tech/compania-clujeana-linnify-devine-partener-global-pentru-gigantii-tehnologici-ai/cover.jpg?v=26e18492" medium="image" type="image/jpeg"/>
       <description>Firma românească Linnify dezvoltă agenți bazați pe inteligență artificială pentru companii internaționale și a obținut statutul de partener selectat din partea unor jucători majori precum OpenAI, Anthropic și Google Cloud.</description>
     </item>
     <item>
@@ -124,14 +123,5 @@
       <category>ai</category>
       <source url="https://www.connect.ro/2026/10/08/openai-a-lansat-o-noua-interfata-pentru-chatgpt-intelligent-ui/">Connect.ro</source>
       <description>Noua funcție dezvoltată de OpenAI înlocuiește blocurile masive de text din răspunsuri cu elemente vizuale adaptate întrebărilor adresate de utilizatori chatbotului.</description>
-    </item>
-    <item>
-      <title>OpenAI va introduce marcaje invizibile în textele generate de ChatGPT</title>
-      <link>https://izz.ro/ai/openai-va-introduce-marcaje-invizibile-in-textele-generate-de-chatgpt/</link>
-      <guid>https://izz.ro/ai/openai-va-introduce-marcaje-invizibile-in-textele-generate-de-chatgpt/</guid>
-      <pubDate>Tue, 06 Oct 2026 19:57:30 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://stirileprotv.ro/stiri/ilikeit/openai-anunta-o-noutate-pentru-chatgpt-ce-trebuie-sa-stie-utilizatorii.html">Știrile ProTV</source>
-      <description>Compania americană a anunțat implementarea unor sisteme de identificare prin watermark pentru conținutul text creat de inteligența artificială, respectând astfel noile reglementări impuse în Uniunea Europeană.</description>
     </item>
 </channel></rss>

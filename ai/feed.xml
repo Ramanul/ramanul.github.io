@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 18:21:58 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 20:59:27 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft mizează pe specialiștii IT din România pentru dezvoltarea inteligenței artificiale</title>
+      <link>https://izz.ro/ai/microsoft-mizeaza-pe-specialistii-it-din-romania-pentru-dezvoltarea/</link>
+      <guid>https://izz.ro/ai/microsoft-mizeaza-pe-specialistii-it-din-romania-pentru-dezvoltarea/</guid>
+      <pubDate>Sun, 18 Oct 2026 19:56:14 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.economica.net/in-era-ai-microsoft-pariaza-pe-inginerii-romani-romania-are-un-rol-important-de-jucat-in-acest-viitor-de-a-lungul-anilor-microsoft-a-facut-investitii-semnificative-pentru-ca-am-identificat-ceva_985181.html">Economica</source>
+      <media:content url="https://izz.ro/ai/microsoft-mizeaza-pe-specialistii-it-din-romania-pentru-dezvoltarea/cover.jpg?v=12cf3f2d" medium="image" type="image/jpeg"/>
+      <description>Reprezentanții companiei Microsoft subliniază importanța strategică a pieței românești în contextul adoptării accelerate a tehnologiilor bazate pe inteligență artificială în următorii ani.</description>
+    </item>
     <item>
       <title>Inteligența artificială revoluționează anchetele criminalistice, fiind folosită de polițiști și infractori</title>
       <link>https://izz.ro/ai/inteligenta-artificiala-revolutioneaza-anchetele-criminalistice-fiind-folosita/</link>
@@ -123,7 +133,7 @@
       <pubDate>Sat, 17 Oct 2026 11:38:16 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.economica.net/anthropic-cumpara-compania-de-securitate-ai-opaque-systems-fondata-de-profesoara-universitara-raluca-ada-popa_986673.html">Economica</source>
-      <media:content url="https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/cover.jpg?v=38d2c050" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/cover.jpg?v=e457d8de" medium="image" type="image/jpeg"/>
       <description>Producătorul asistentului Claude a preluat compania americană cofondată de cercetătoarea de origine română Raluca Ada Popa, tranzacția fiind salutată de Ambasada SUA ca un exemplu de excelență.</description>
     </item>
     <item>
@@ -462,14 +472,5 @@
       <category>ai</category>
       <source url="https://www.g4media.ro/meta-a-prezentat-un-nou-model-de-ai-despre-care-sustine-ca-este-la-nivelul-openai-si-anthropic.html">G4Media, Antena 3 CNN</source>
       <description>Meta a prezentat sistemul de inteligență artificială Muse Wonder, conceput pentru a concura direct cu tehnologiile dezvoltate de OpenAI și Anthropic. Noua soluție este destinată susținerii agenților autonomi și poziționează compania în fruntea inovațiilor din domeniu.</description>
-    </item>
-    <item>
-      <title>Ursula von der Leyen propune inteligența artificială pentru simplificarea birocrației UE</title>
-      <link>https://izz.ro/ai/ursula-von-der-leyen-propune-inteligenta-artificiala-pentru-simplificarea/</link>
-      <guid>https://izz.ro/ai/ursula-von-der-leyen-propune-inteligenta-artificiala-pentru-simplificarea/</guid>
-      <pubDate>Mon, 12 Oct 2026 17:40:03 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.politico.eu/article/ursula-von-der-leyen-pitches-ai-solution-reduce-reporting-european-businesses/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Șefa Comisiei Europene sugerează utilizarea tehnologiei pentru a reduce procedurile administrative și a introduce un sistem unic de raportare, destinat sprijinirii companiilor din blocul comunitar.</description>
     </item>
 </channel></rss>

@@ -5,16 +5,26 @@
   <atom:link href="https://izz.ro/subiect/ungaria/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ungaria pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 18:21:49 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 20:59:20 +0000</lastBuildDate>
     <item>
-      <title>Péter Magyar apără politica strictă a Ungariei privind migrația invocând protestele violente din Franța</title>
-      <link>https://izz.ro/politic/peter-magyar-apara-politica-stricta-a-ungariei-privind-migratia-invocand/</link>
-      <guid>https://izz.ro/politic/peter-magyar-apara-politica-stricta-a-ungariei-privind-migratia-invocand/</guid>
+      <title>Discuțiile privind adoptarea monedei euro în Ungaria generează interesul investitorilor</title>
+      <link>https://izz.ro/economic/discutiile-privind-adoptarea-monedei-euro-in-ungaria-genereaza-interesul/</link>
+      <guid>https://izz.ro/economic/discutiile-privind-adoptarea-monedei-euro-in-ungaria-genereaza-interesul/</guid>
+      <pubDate>Sun, 18 Oct 2026 18:19:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/business-international/va-fi-ungaria-tara-care-va-deschide-drumul-catre-euro-pentru-restul-europei-de-est-efecte-ale-adoptarii-euro-costuri-de-finantare-mai-mici-dar-si-cresteri-salariale-mai-lente-23262581">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/economic/discutiile-privind-adoptarea-monedei-euro-in-ungaria-genereaza-interesul/cover.jpg?v=fe1ff57c" medium="image" type="image/jpeg"/>
+      <description>Forintul s-a apreciat și cererea pentru obligațiunile maghiare a crescut, după ce premierul Peter Magyar și-a exprimat intenția de a apropia Ungaria de zona euro.</description>
+    </item>
+    <item>
+      <title>Politicianul Péter Magyar invocă violențele din Franța pentru politici stricte</title>
+      <link>https://izz.ro/extern/peter-magyar-apara-politica-stricta-a-ungariei-privind-migratia-invocand/</link>
+      <guid>https://izz.ro/extern/peter-magyar-apara-politica-stricta-a-ungariei-privind-migratia-invocand/</guid>
       <pubDate>Sun, 18 Oct 2026 16:24:37 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.g4media.ro/peter-magyar-invoca-protestele-violente-din-franta-pentru-a-isi-apara-politica-dura-impotriva-migratiei-europa-pe-care-o-iubim-cu-totii-este-astazi-intr-un-pericol-urias.html">G4Media</source>
-      <media:content url="https://izz.ro/politic/peter-magyar-apara-politica-stricta-a-ungariei-privind-migratia-invocand/cover.jpg?v=44d6f22c" medium="image" type="image/jpeg"/>
-      <description>Politicianul maghiar Péter Magyar a utilizat exemplele de vandalism din Franța pentru a justifica necesitatea unor măsuri drastice de securitate la frontiere și împotriva migrației ilegale în Ungaria.</description>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/peter-magyar-invoca-protestele-violente-din-franta-pentru-a-isi-apara-politica-dura-impotriva-migratiei-europa-pe-care-o-iubim-cu-totii-este-astazi-intr-un-pericol-urias.html">G4Media, Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/peter-magyar-apara-politica-stricta-a-ungariei-privind-migratia-invocand/cover.jpg?v=01d5bfd6" medium="image" type="image/jpeg"/>
+      <description>Liderul ungar Péter Magyar a folosit protestele violente și actele de vandalism din Franța pentru a argumenta necesitatea unor controale stricte la frontiere și a unei politici ferme împotriva migrației ilegale în Ungaria. Declarațiile au fost făcute în contextul în care liderii europeni au dezbătut la Bruxelles înăsprirea măsurilor privind migrația, iar premierul polonez Donald Tusk a subliniat că țara sa va evita greșelile altor state europene.</description>
     </item>
     <item>
       <title>Ungaria va permite tranzitul cerealelor ucrainene spre Europa de Vest</title>
@@ -170,14 +180,5 @@
       <category>local</category>
       <source url="https://www.pressalert.ro/2026/10/antrenamente-comune-la-granita-100-de-pompieri-din-romania-si-ungaria-se-pregatesc-in-simulatoare-de-ultima-generatie-foto/">PressAlert Timișoara</source>
       <description>O sută de cadre, formate din 50 de pompieri militari din Arad și 50 voluntari din Ungaria, participă până la jumătatea lunii octombrie la un program intensiv de pregătire transfrontalieră.</description>
-    </item>
-    <item>
-      <title>Presa din Ungaria reacționează după seria de înfrângeri ale naționalei României</title>
-      <link>https://izz.ro/sport/presa-din-ungaria-reactioneaza-dupa-seria-de-infrangeri-ale-nationalei-romaniei/</link>
-      <guid>https://izz.ro/sport/presa-din-ungaria-reactioneaza-dupa-seria-de-infrangeri-ale-nationalei-romaniei/</guid>
-      <pubDate>Tue, 06 Oct 2026 20:17:50 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.sport.ro/nationala/ungurii-au-vazut-situatia-in-care-se-afla-nationala-romaniei-si-au-reactionat-categoric-trist-visau-la-liga-a.html">Sport.ro</source>
-      <description>Publiciștii maghiari au descris drept tristă situația actuală a echipei naționale de fotbal, amintind de ambițiile inițiale ale tricolorilor de a promova în primul eșalon al Ligii Națiunilor.</description>
     </item>
 </channel></rss>

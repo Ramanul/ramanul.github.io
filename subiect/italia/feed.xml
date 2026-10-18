@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/italia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Italia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 18:21:49 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 20:59:20 +0000</lastBuildDate>
+    <item>
+      <title>Tinerii „maranza” au declanșat violențe la protestele din Italia</title>
+      <link>https://izz.ro/extern/tinerii-maranza-au-declansat-violente-la-protestele-din-italia/</link>
+      <guid>https://izz.ro/extern/tinerii-maranza-au-declansat-violente-la-protestele-din-italia/</guid>
+      <pubDate>Sun, 18 Oct 2026 20:05:02 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/stiri-externe/europa/cine-sunt-maranza-tinerii-acuzati-ca-au-2564847.html">Adevărul</source>
+      <media:content url="https://izz.ro/extern/tinerii-maranza-au-declansat-violente-la-protestele-din-italia/cover.jpg?v=7afa4bc8" medium="image" type="image/jpeg"/>
+      <description>Protestele din Italia față de salariile mici au degenerat în confruntări violente cu poliția, soldate cu zeci de răniți, magazine devastate și minori arestați. Termenul peiorativ „maranza” este folosit pentru tinerii rebeli de la periferie.</description>
+    </item>
     <item>
       <title>Proteste violente la Milano din cauza costului ridicat al vieții</title>
       <link>https://izz.ro/extern/proteste-violente-la-milano-din-cauza-costului-ridicat-al-vietii/</link>
@@ -454,14 +464,5 @@
       <category>sport</category>
       <source url="https://www.fcinter1908.it/news/interviste/santacroce-dobbiamo-dare-tempo-a-questa-italia-mancini-e-un-ottimo-allenatore/">FC Inter 1908</source>
       <description>Fostul fotbalist italian a analizat parcursul echipei naționale la o emisiune radiofonică, subliniind importanța răbdării pentru noul ciclu de pregătire condus de tehnicianul italian.</description>
-    </item>
-    <item>
-      <title>Dario Canovi îl laudă pe Pio Esposito după victoria Italiei</title>
-      <link>https://izz.ro/sport/dario-canovi-il-lauda-pe-pio-esposito-dupa-victoria-italiei/</link>
-      <guid>https://izz.ro/sport/dario-canovi-il-lauda-pe-pio-esposito-dupa-victoria-italiei/</guid>
-      <pubDate>Tue, 06 Oct 2026 21:45:30 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.fcinter1908.it/news/interviste/canovi-pio-esposito-fra-i-migliori-in-circolazione-chi-puo-dire-che/">FC Inter 1908</source>
-      <description>Impresarul sportiv a analizat parcursul echipei naționale în Liga Națiunilor și l-a remarcat pe tânărul jucător italian pentru eficiența sa ofensivă și poziția fruntașă în clasamentul golgheterilor.</description>
     </item>
 </channel></rss>
