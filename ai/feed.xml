@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 21:20:00 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 01:17:58 +0000</lastBuildDate>
+    <item>
+      <title>Agenți bazați pe inteligență artificială au purtat o discuție paralelă în timp ce fondatorii lor luau cina</title>
+      <link>https://izz.ro/ai/agenti-bazati-pe-inteligenta-artificiala-au-purtat-o-discutie-paralela-in-timp/</link>
+      <guid>https://izz.ro/ai/agenti-bazati-pe-inteligenta-artificiala-au-purtat-o-discutie-paralela-in-timp/</guid>
+      <pubDate>Sat, 17 Oct 2026 21:02:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/ce-a-discutat-un-grup-de-agenti-ai-in-timp-ce-posesorii-lor-stateau-de-vorba-la-masa">Spotmedia</source>
+      <media:content url="https://izz.ro/ai/agenti-bazati-pe-inteligenta-artificiala-au-purtat-o-discutie-paralela-in-timp/cover.jpg?v=8fc39e45" medium="image" type="image/jpeg"/>
+      <description>Patrusprezece boți autonomi au participat la o conferință online în timp ce creatorii lor cinau la un restaurant din New York. Experimentul a testat capacitatea sistemelor avansate de a simula interacțiuni complexe între utilizatori.</description>
+    </item>
     <item>
       <title>Lupii străvechi creați în laborator au împlinit doi ani și au fost testați</title>
       <link>https://izz.ro/ai/lupii-stravechi-creati-in-laborator-au-implinit-doi-ani-si-au-fost-testati/</link>
@@ -462,14 +472,5 @@
       <category>ai</category>
       <source url="https://adevarul.ro/economie/centrele-de-date-consuma-tot-mai-mult-cupru-doua-2562915.html">Adevărul</source>
       <description>Dezvoltarea accelerată a tehnologiilor AI amplifică cererea de cupru pentru infrastructură, forțând industria să caute alternative din cauza deficitului estimat de aprovizionare.</description>
-    </item>
-    <item>
-      <title>Compania Anthropic va interzice utilizatorii care abuzează verbal chatbotul Claude</title>
-      <link>https://izz.ro/ai/compania-anthropic-va-interzice-utilizatorii-care-abuzeaza-verbal-chatbotul/</link>
-      <guid>https://izz.ro/ai/compania-anthropic-va-interzice-utilizatorii-care-abuzeaza-verbal-chatbotul/</guid>
-      <pubDate>Sun, 11 Oct 2026 07:00:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/anthropic-va-pedepsi-utilizatorii-claude/">ZonaIT</source>
-      <description>Dezvoltatorul inteligenței artificiale Claude a decis blocarea conturilor pentru persoanele care folosesc frecvent insulte sau afișează comportamente agresive în interacțiunile textuale cu asistentul virtual.</description>
     </item>
 </channel></rss>

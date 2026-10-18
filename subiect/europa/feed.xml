@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 21:19:51 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 01:17:49 +0000</lastBuildDate>
+    <item>
+      <title>Istoricul Armand Goșu avertizează că Rusia și SUA ar putea împărți Europa</title>
+      <link>https://izz.ro/politic/istoricul-armand-gosu-avertizeaza-ca-rusia-si-sua-ar-putea-imparti-europa/</link>
+      <guid>https://izz.ro/politic/istoricul-armand-gosu-avertizeaza-ca-rusia-si-sua-ar-putea-imparti-europa/</guid>
+      <pubDate>Sat, 17 Oct 2026 21:08:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/opinii-si-analize/armand-gosu-putin-il-foloseste-pe-trump-europa-risca-sa-fie-impartita-in-zone-de-influenta">Spotmedia</source>
+      <media:content url="https://izz.ro/politic/istoricul-armand-gosu-avertizeaza-ca-rusia-si-sua-ar-putea-imparti-europa/cover.jpg?v=80bab161" medium="image" type="image/jpeg"/>
+      <description>Specialistul Armand Goșu avertizează că liderul rus Vladimir Putin folosește administrația americană pentru a diviza Europa în zone de influență, punând în pericol democrația de pe continent.</description>
+    </item>
     <item>
       <title>Europa caută alternative la sistemul Starlink după restricțiile impuse în Ucraina</title>
       <link>https://izz.ro/extern/europa-cauta-alternative-la-sistemul-starlink-dupa-restrictiile-impuse-in/</link>
@@ -434,14 +444,5 @@
       <category>auto</category>
       <source url="https://www.automarket.ro/stiri/primele-imagini-cu-noul-geely-monjaro-em-i-suv-hibrid-plug-in-pentru-128933.html">AutoMarket</source>
       <description>Producătorul chinez a dezvăluit designul noului SUV plug-in hybrid destinat pieței din Europa, un model care va concura direct cu mărci germane de prestigiu și va fi expus la Paris.</description>
-    </item>
-    <item>
-      <title>Europa a inaugurat cea mai mare instalație de captare și stocare a CO2</title>
-      <link>https://izz.ro/extern/europa-a-inaugurat-cea-mai-mare-instalatie-de-captare-si-stocare-a-co2/</link>
-      <guid>https://izz.ro/extern/europa-a-inaugurat-cea-mai-mare-instalatie-de-captare-si-stocare-a-co2/</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://piataauto.md/Stiri/2026/10/Cea-mai-mare-instalatie-de-captare-de-CO2-a-fost-inaugurata-in-Europa-iar-emisiile-captate-vor-ajunge-injectate-si-stocate-in-adancurile-marii/">Piata Auto MD</source>
-      <description>Proiectul industrial ambițios colectează dioxidul de carbon direct de la sursă pentru a fi injectat permanent în adâncurile mării, reducând astfel impactul poluării.</description>
     </item>
 </channel></rss>

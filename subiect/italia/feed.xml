@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/italia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Italia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 21:19:51 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 01:17:49 +0000</lastBuildDate>
     <item>
       <title>Proteste violente cu gaze lacrimogene și pietre la Milano și Bologna</title>
       <link>https://izz.ro/extern/proteste-violente-cu-gaze-lacrimogene-si-pietre-la-milano-si-bologna/</link>
@@ -25,6 +25,16 @@
       <source url="https://adevarul.ro/stil-de-viata/magazin/o-printesa-italiana-inchiriaza-palatul-familiei-2564731.html">Adevărul, Antena 3 CNN</source>
       <media:content url="https://izz.ro/local/o-printesa-italiana-isi-inchiriaza-palatul-din-roma-pentru-turisti/cover.jpg?v=be8946d7" medium="image" type="image/jpeg"/>
       <description>O prințesă din Italia oferă spre închiriere turiștilor un palat istoric din secolul al XVI-lea situat în Roma. Tariful pentru o noapte de cazare începe de la cel puțin 470 de dolari, proprietara întâmpinându-i personal pe oaspeți și punându-le la dispoziție și bilete pentru un castel medieval.</description>
+    </item>
+    <item>
+      <title>Doi pensionari găsiți uciși în Italia; fiul femeii a fost reținut</title>
+      <link>https://izz.ro/extern/doi-pensionari-gasiti-ucisi-in-italia-fiul-femeii-a-fost-retinut/</link>
+      <guid>https://izz.ro/extern/doi-pensionari-gasiti-ucisi-in-italia-fiul-femeii-a-fost-retinut/</guid>
+      <pubDate>Sat, 17 Oct 2026 18:00:07 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bzi.ro/doi-soti-pensionari-gasiti-decapitati-in-italia-fiul-femeii-a-fost-retinut-fiind-principalul-suspect-5625614">BZI Iași</source>
+      <media:content url="https://izz.ro/extern/doi-pensionari-gasiti-ucisi-in-italia-fiul-femeii-a-fost-retinut/cover.jpg?v=aa2ae5a3" medium="image" type="image/jpeg"/>
+      <description>O comunitate din apropierea orașului Modena este îngenuncheată de o crimă dublă după ce doi soți în vârstă au fost descoperiți fără viață în propria locuință. Principalul suspect în acest caz este fiul în vârstă de 55 de ani al...</description>
     </item>
     <item>
       <title>O româncă a fost găsită moartă în Italia după o ceartă</title>
@@ -133,7 +143,6 @@
       <pubDate>Fri, 16 Oct 2026 10:37:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.dw.com/en/italy-cuts-air-traffic-in-half-amid-data-transmission-issue/a-79678133?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <media:content url="https://izz.ro/extern/italia-reduce-traficul-aerian-la-jumatate-din-cauza-unei-avarii-informatice/cover.jpg?v=cbd1a86f" medium="image" type="image/jpeg"/>
       <description>Autoritățile aeronautice italiene au tăiat drastic volumul zborurilor din spațiul aerian național ca urmare a unor probleme apărute în rețeaua de transmitere a datelor, excluzând însă ipoteza vreunui act rău intenționat.</description>
     </item>
     <item>
@@ -143,7 +152,6 @@
       <pubDate>Fri, 16 Oct 2026 10:30:18 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/italia-si-spania-aproape-de-incheierea-disputei-privind-controalele-la-frontiera-ce-au-decis-meloni-si-sanchez-la-bruxelles-3995311">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/italia-si-spania-se-apropie-de-un-acord-privind-controalele-de-frontiera/cover.jpg?v=de938f27" medium="image" type="image/jpeg"/>
       <description>Premierul italian Giorgia Meloni și omologul său spaniol Pedro Sanchez au convenit asupra unei înțelegeri la Bruxelles, menită să atenueze disputele legate de migrație și să restabilească libera circulație între state.</description>
     </item>
     <item>
@@ -460,14 +468,5 @@
       <category>sport</category>
       <source url="https://www.fcinter1908.it/news/interviste/mancini-giovane-italia-vialli-format/">FC Inter 1908</source>
       <description>Selecționerul Italiei, Roberto Mancini, a criticat meciurile programate într-un interval scurt și a adus un omagiu fostului său coleg Gianluca Vialli, în cadrul unui eveniment desfășurat la Rimini.</description>
-    </item>
-    <item>
-      <title>Ciobanii olandezi folosesc câini ciobănești italieni pentru a proteja oile de lupi</title>
-      <link>https://izz.ro/lifestyle/ciobanii-olandezi-folosesc-caini-ciobanesti-italieni-pentru-a-proteja-oile-de/</link>
-      <guid>https://izz.ro/lifestyle/ciobanii-olandezi-folosesc-caini-ciobanesti-italieni-pentru-a-proteja-oile-de/</guid>
-      <pubDate>Tue, 06 Oct 2026 20:20:00 +0000</pubDate>
-      <category>lifestyle</category>
-      <source url="https://www.antena3.ro/life/lumea-animalelor/intr-o-tara-din-europa-ciobanii-au-adus-caini-italieni-sa-apere-oile-de-lupi-fara-sa-se-lupte-cu-ei-cum-functioneaza-806086.html">Antena 3 CNN</source>
-      <description>Crescătorii de animale din regiunea Veluwe au adoptat o metodă tradițională aducând patrupede specializate din Italia pentru a ține la distanță prădătorii fără conflicte violente directe.</description>
     </item>
 </channel></rss>
