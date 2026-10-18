@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/marea-britanie/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Marea Britanie pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 20:59:20 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 23:27:30 +0000</lastBuildDate>
+    <item>
+      <title>Costurile ridicate ale electricității dezavantajează producătorii britanici de oțel față de rivalii europeni</title>
+      <link>https://izz.ro/economic/costurile-ridicate-ale-electricitatii-dezavantajeaza-producatorii-britanici-de/</link>
+      <guid>https://izz.ro/economic/costurile-ridicate-ale-electricitatii-dezavantajeaza-producatorii-britanici-de/</guid>
+      <pubDate>Sun, 18 Oct 2026 23:01:12 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.theguardian.com/business/2026/oct/19/electricity-costs-uk-steelmakers-worst-position-three-years-eu-rivals">The Guardian</source>
+      <media:content url="https://izz.ro/economic/costurile-ridicate-ale-electricitatii-dezavantajeaza-producatorii-britanici-de/cover.jpg?v=9041e838" medium="image" type="image/jpeg"/>
+      <description>Oțelăriile din Marea Britanie plătesc cu aproape 30 de lire în plus pe megawat-oră față de omologii francezi, atingând cel mai slab nivel competitiv din ultimii trei ani din cauza prețurilor la gaze.</description>
+    </item>
     <item>
       <title>Un cetățean român a fost deportat din Marea Britanie după o condamnare penală</title>
       <link>https://izz.ro/extern/un-cetatean-roman-a-fost-deportat-din-marea-britanie-dupa-o-condamnare-penala/</link>
@@ -452,14 +462,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/germany-uk-raise-tariff-china-electric-vehicle/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Berlinul cere guvernului de la Londra să majoreze tarifele pentru mașinile electrice importate din China. În schimb, Marea Britanie ar putea primi protecție față de reglementările stricte ale Uniunii Europene privind producția locală.</description>
-    </item>
-    <item>
-      <title>Prințul William acceptă întâlnirea cu Prințul Harry doar fără risc de înregistrare</title>
-      <link>https://izz.ro/extern/printul-william-accepta-intalnirea-cu-printul-harry-doar-fara-risc-de/</link>
-      <guid>https://izz.ro/extern/printul-william-accepta-intalnirea-cu-printul-harry-doar-fara-risc-de/</guid>
-      <pubDate>Thu, 08 Oct 2026 12:30:02 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.csid.ro/stiri/singura-conditie-pusa-de-printul-william-pentru-a-se-intalni-cu-printul-harry-viitorul-rege-al-marii-britanii-nu-se-lasa-induplecat-se-teme-enorm-sa-nu-fie-inregistrat-pe-ascuns-21328836/">CSÎD</source>
-      <description>Moștenitorul coroanei britanice este dispus să se vadă cu fratele său, Prințul Harry, însă impune condiții stricte de securitate, temându-se de scurgeri în presă și înregistrări ascunse.</description>
     </item>
 </channel></rss>
