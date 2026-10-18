@@ -5,18 +5,18 @@
   "articles_with_provenance": 1,
   "catalog_records": 2,
   "coverage": {
-    "denominator": 8886,
+    "denominator": 8809,
     "numerator": 2
   },
   "draft": 0,
   "examined_resources": 1,
   "examined_sources": 1,
   "fresh": 2,
-  "generated_at": "2026-10-18T14:51:05.273130+00:00",
+  "generated_at": "2026-10-18T18:21:27.971339+00:00",
   "needs_review": 0,
-  "publishable_articles": 8886,
-  "resources_current": 1,
-  "resources_expired": 0,
+  "publishable_articles": 8809,
+  "resources_current": 0,
+  "resources_expired": 1,
   "resources_without_deadline": 0,
   "schema_version": 1,
   "withdrawn": 0

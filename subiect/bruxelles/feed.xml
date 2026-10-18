@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bruxelles/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bruxelles pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 14:51:27 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 18:21:49 +0000</lastBuildDate>
+    <item>
+      <title>Susținătorii lui Călin Georgescu au protestat în fața Parlamentului European</title>
+      <link>https://izz.ro/politic/sustinatorii-lui-calin-georgescu-au-protestat-in-fata-parlamentului-european/</link>
+      <guid>https://izz.ro/politic/sustinatorii-lui-calin-georgescu-au-protestat-in-fata-parlamentului-european/</guid>
+      <pubDate>Sun, 18 Oct 2026 17:33:37 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/stiri-interne/evenimente/noi-l-am-votat-voi-l-ati-arestat-protest-al-2564830.html">Adevărul</source>
+      <media:content url="https://izz.ro/politic/sustinatorii-lui-calin-georgescu-au-protestat-in-fata-parlamentului-european/cover.jpg?v=20388995" medium="image" type="image/jpeg"/>
+      <description>Zeci de manifestanți s-au strâns duminică la Bruxelles fluturând steaguri tricolore și cerând eliberarea liderului lor, susținând că acesta este persecutat politic.</description>
+    </item>
     <item>
       <title>Protestele din Franța s-au extins în orașe din Belgia</title>
       <link>https://izz.ro/extern/protestele-din-franta-s-au-extins-in-orase-din-belgia/</link>
@@ -396,14 +406,5 @@
       <category>lifestyle</category>
       <source url="https://start-up.ro/dupa-o-cariera-la-bruxelles-paris-si-amsterdam-teodora-virban-construieste-un-nou-inceput-acasa-romani-din-lume/">Start-up.ro</source>
       <description>După ani de studiu și activitate profesională la Bruxelles, Paris și Amsterdam, Teodora Vîrban a decis să se întoarcă în țară pentru a începe un nou proiect personal și profesional acasă.</description>
-    </item>
-    <item>
-      <title>Extinderea competențelor Europol în domeniul inteligenței artificiale stârnește controverse</title>
-      <link>https://izz.ro/ai/extinderea-competentelor-europol-in-domeniul-inteligentei-artificiale-starneste/</link>
-      <guid>https://izz.ro/ai/extinderea-competentelor-europol-in-domeniul-inteligentei-artificiale-starneste/</guid>
-      <pubDate>Tue, 06 Oct 2026 17:11:13 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.politico.eu/article/les-renforts-deuropol-en-ia-suscitent-des-inquietudes-sur-la-protection-de-la-vie-privee/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Oficialii europeni avertizează că eforturile Uniunii Europene de a dota Europol cu instrumente avansate bazate pe inteligență artificială nu trebuie să afecteze confidențialitatea datelor personale ale cetățenilor.</description>
     </item>
 </channel></rss>

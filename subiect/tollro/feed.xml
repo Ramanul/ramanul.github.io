@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/tollro/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre TollRo pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 14:51:28 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 18:21:50 +0000</lastBuildDate>
     <item>
       <title>Problemele sistemului TollRo afectează transportatorii rutieri</title>
       <link>https://izz.ro/economic/problemele-sistemului-tollro-afecteaza-transportatorii-rutieri/</link>
@@ -41,6 +41,15 @@
       <category>general</category>
       <source url="https://bizbrasov.ro/2026/10/09/paltforma-tollro-functional-parametri/">BizBrașov</source>
       <description>Sistemul informatic TollRo a fost repus în funcțiune de tehnicieni. Compania rutieră a anunțat că șoferii care n-au putut cumpăra rovinieta din cauza erorilor nu vor primi amenzi.</description>
+    </item>
+    <item>
+      <title>Platforma TollRo din nou nefuncțională, șoferii sunt scutiți de amenzi</title>
+      <link>https://izz.ro/auto/platforma-tollro-din-nou-nefunctionala-soferii-sunt-scutiti-de-amenzi/</link>
+      <guid>https://izz.ro/auto/platforma-tollro-din-nou-nefunctionala-soferii-sunt-scutiti-de-amenzi/</guid>
+      <pubDate>Fri, 09 Oct 2026 09:13:59 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.digi24.ro/stiri/economie/platforma-tollro-are-din-nou-probleme-tehnice-ce-trebuie-sa-stie-utilizatorii-despre-plata-taxei-si-eventualele-amenzi-3985211">Digi24</source>
+      <description>CNAIR a anunțat probleme tehnice la sistemul TollRo, asigurând conducătorii auto că nu vor primi sancțiuni contravenționale dacă achiziția taxei a fost imposibil de realizat vineri.</description>
     </item>
     <item>
       <title>Platforma TollRo a întâmpinat erori tehnice în achiziția rovinietei</title>
@@ -104,14 +113,5 @@
       <category>economic</category>
       <source url="https://adevarul.ro/economie/haosul-tollro-nerezolvat-la-o-saptamana-de-la-2562109.html">Adevărul</source>
       <description>Problemele informatice ale sistemului TollRo persistă la o săptămână de la lansare, generând blocaje la plăți și erori de tarifare, motiv pentru care transportatorii solicită amânarea aplicării amenzilor.</description>
-    </item>
-    <item>
-      <title>Platforma TollRo funcționează normal, iar șoferii nu primesc amenzi pentru defecțiuni</title>
-      <link>https://izz.ro/auto/cnair-anunta-ca-platforma-tollro-functioneaza-normal-dupa-remedierea/</link>
-      <guid>https://izz.ro/auto/cnair-anunta-ca-platforma-tollro-functioneaza-normal-dupa-remedierea/</guid>
-      <pubDate>Tue, 06 Oct 2026 15:28:01 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://economedia.ro/platforma-tollro-functioneaza-normal-fara-amenzi-pentru-soferi-in-caz-de-defectiuni-tehnice.html">Economedia, Digi24, Economica, Alba24</source>
-      <description>CNAIR a anunțat că problemele tehnice de la lansarea platformei TollRo au fost remediate, sistemul funcționând în parametri normali la cinci zile de la implementare. Reprezentanții companiei au precizat că șoferii care nu și-au putut achita taxele înainte de deplasare din cauza erorilor nu vor fi sancționați contravențional în această perioadă.</description>
     </item>
 </channel></rss>

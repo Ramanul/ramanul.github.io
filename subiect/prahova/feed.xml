@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/prahova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Prahova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 14:51:28 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 18:21:49 +0000</lastBuildDate>
+    <item>
+      <title>O pacientă dispărută dintr-un centru de îngrijire a fost găsită decedată</title>
+      <link>https://izz.ro/judetean/o-pacienta-disparuta-dintr-un-centru-de-ingrijire-a-fost-gasita-decedata/</link>
+      <guid>https://izz.ro/judetean/o-pacienta-disparuta-dintr-un-centru-de-ingrijire-a-fost-gasita-decedata/</guid>
+      <pubDate>Sun, 18 Oct 2026 17:33:21 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://adevarul.ro/stiri-interne/evenimente/femeie-disparuta-dintr-un-centru-de-ingrijire-2564814.html">Adevărul</source>
+      <media:content url="https://izz.ro/judetean/o-pacienta-disparuta-dintr-un-centru-de-ingrijire-a-fost-gasita-decedata/cover.jpg?v=3b350a7b" medium="image" type="image/jpeg"/>
+      <description>Echipele de căutare din județul Prahova au încheiat operațiunea tragic duminică după-amiază, după ce au descoperit trupul neînsuflețit al femeii pe munte.</description>
+    </item>
     <item>
       <title>Auchan România și Habitat for Humanity lansează proiectul umanitar Căsuțe pentru căsuțe la Brașov</title>
       <link>https://izz.ro/local/auchan-romania-si-habitat-for-humanity-lanseaza-proiectul-umanitar-casute/</link>
@@ -149,14 +159,5 @@
       <category>local</category>
       <source url="https://newsbv.ro/barbat-retinut-perchezitii/">News Brașov</source>
       <description>Polițiștii au efectuat percheziții în mai multe localități și l-au reținut pe un suspect de 58 de ani, vizat într-un dosar de fals informatic legat de documente din sectorul forestier.</description>
-    </item>
-    <item>
-      <title>Percheziții în Dâmbovița și Prahova într-un dosar de evaziune</title>
-      <link>https://izz.ro/judetean/perchezitii-in-dambovita-si-prahova-intr-un-dosar-de-evaziune/</link>
-      <guid>https://izz.ro/judetean/perchezitii-in-dambovita-si-prahova-intr-un-dosar-de-evaziune/</guid>
-      <pubDate>Tue, 06 Oct 2026 14:59:18 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://www.zdp.ro/perchezitii-in-prahova-si-dambovita-intr-un-dosar-cu-prejudiciu-de-27-milioane-de-lei.html">Ziarul de Ploiești</source>
-      <description>Polițiștii au efectuat șase percheziții domiciliare în județele Dâmbovița și Prahova, într-o anchetă privind neplata la termen a taxelor și impozitelor, cu un prejudiciu estimat la 27 de milioane de lei.</description>
     </item>
 </channel></rss>

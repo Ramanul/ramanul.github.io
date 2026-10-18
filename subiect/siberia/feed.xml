@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/siberia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Siberia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 14:51:28 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 18:21:49 +0000</lastBuildDate>
+    <item>
+      <title>Critici privind lipsa de transparență a Rusiei în caz de ciumă</title>
+      <link>https://izz.ro/sanatate/critici-privind-lipsa-de-transparenta-a-rusiei-in-caz-de-ciuma/</link>
+      <guid>https://izz.ro/sanatate/critici-privind-lipsa-de-transparenta-a-rusiei-in-caz-de-ciuma/</guid>
+      <pubDate>Sun, 18 Oct 2026 16:30:04 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/oct/18/the-guardian-view-on-plague-in-russia-what-is-most-worrying-is-the-lack-of-information">The Guardian</source>
+      <media:content url="https://izz.ro/sanatate/critici-privind-lipsa-de-transparenta-a-rusiei-in-caz-de-ciuma/cover.jpg?v=512800c6" medium="image" type="image/jpeg"/>
+      <description>Organizația Mondială a Sănătății se confruntă cu un refuz al autorităților ruse de a oferi detalii despre o boală respiratorie letală apărută în Siberia, stârnind îngrijorări internaționale.</description>
+    </item>
     <item>
       <title>Kituri online de tratament împotriva ciumei sunt promovate pe internet după un deces în Siberia</title>
       <link>https://izz.ro/sanatate/kituri-online-de-tratament-impotriva-ciumei-sunt-promovate-pe-internet-dupa-un/</link>
@@ -131,14 +141,5 @@
       <category>extern</category>
       <source url="https://www.dobrogeaonline.ro/oms-a-lansat-o-harta-care-ilustreaza-raspandirea-ciumei-la-nivel-global/">Dobrogea Online</source>
       <description>Organizația Mondială a Sănătății investighează contextul decesului unei cercetătoare din Siberia, survenit în urma spargerii accidentale a unei eprubete cu bacterii vii.</description>
-    </item>
-    <item>
-      <title>OMS investighează riscul de ciumă în Rusia după decesul unei laborante</title>
-      <link>https://izz.ro/sanatate/oms-investigheaza-riscul-de-ciuma-in-rusia-dupa-decesul-unei-laborante/</link>
-      <guid>https://izz.ro/sanatate/oms-investigheaza-riscul-de-ciuma-in-rusia-dupa-decesul-unei-laborante/</guid>
-      <pubDate>Tue, 06 Oct 2026 16:01:26 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://hotnews.ro/evaluarea-oms-privind-riscul-de-ciuma-in-europa-dupa-moartea-unei-laborante-la-irkutk-2368966">HotNews</source>
-      <description>Organizația Mondială a Sănătății analizează autoritățile sanitare ruse în urma decesului unei angajate de la un institut din Siberia, estimând că pericolul de contaminare este redus.</description>
     </item>
 </channel></rss>
