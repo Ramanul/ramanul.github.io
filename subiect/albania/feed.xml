@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/albania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Albania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 06:12:16 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 11:23:24 +0000</lastBuildDate>
+    <item>
+      <title>Ciocniri violente între studenți și forțele de ordine la Tirana</title>
+      <link>https://izz.ro/extern/ciocniri-violente-intre-studenti-si-fortele-de-ordine-la-tirana/</link>
+      <guid>https://izz.ro/extern/ciocniri-violente-intre-studenti-si-fortele-de-ordine-la-tirana/</guid>
+      <pubDate>Sun, 18 Oct 2026 07:58:35 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/cocktailuri-molotov-gaze-lacrimogene-gloante-de-cauciuc-ciocniri-violente-in-cea-de-a-cincea-zi-de-proteste-la-tirana-3997347">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/ciocniri-violente-intre-studenti-si-fortele-de-ordine-la-tirana/cover.jpg?v=6772ef27" medium="image" type="image/jpeg"/>
+      <description>Protestele studențești din capitala Albaniei au degenerat în altercații violente pentru a cincea zi consecutivă. Manifestanții au aruncat cu obiecte incendiare și au cerut în mod expres demisia premierului Edi Rama.</description>
+    </item>
     <item>
       <title>Protestatarii anti-guvernamentali s-au luptat cu poliția în Albania</title>
       <link>https://izz.ro/extern/protestatarii-anti-guvernamentali-s-au-luptat-cu-politia-in-albania/</link>
@@ -23,7 +33,6 @@
       <pubDate>Fri, 16 Oct 2026 14:23:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.dw.com/en/albania-students-demand-political-change-and-resignation-of-prime-minister-edi-rama/a-79682217?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <media:content url="https://izz.ro/extern/proteste-masive-ale-studentilor-albanezi-impotriva-premierului-edi-rama/cover.jpg?v=0c59baa4" medium="image" type="image/jpeg"/>
       <description>Studenții din Albania au declanșat o amplă mișcare de protest, blocând universitățile și cerând demisia prim-ministrului Edi Rama, punând la încercare stabilitatea politică a executivului.</description>
     </item>
     <item>
@@ -33,7 +42,6 @@
       <pubDate>Fri, 16 Oct 2026 12:26:15 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/cqdjv90d1jpko?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <media:content url="https://izz.ro/extern/protestele-violente-ale-miscarii-flamingo-au-escaladat-in-capitala-albaniei/cover.jpg?v=2a57344e" medium="image" type="image/jpeg"/>
       <description>Tirana a fost scena unor proteste antiguvernamentale de o intensitate fără precedent organizate de mișcarea Flamingo, transformându-se în confruntări de amploare mult mai mare față de lunile trecute.</description>
     </item>
     <item>
@@ -43,7 +51,6 @@
       <pubDate>Fri, 16 Oct 2026 12:25:35 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/mapamond/premierul-edi-rama-acuza-implicarea-unor-forte-straine-in-violentele-din-albania-toate-acestea-sunt-lucrarea-aceleiasi-maini-3995517">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/premierul-edi-rama-acuza-interese-externe-pentru-violentele-din-albania/cover.jpg?v=cc759aea" medium="image" type="image/jpeg"/>
       <description>Șeful guvernului albanez, Edi Rama, susține că protestele violente soldate cu zeci de răniți și 160 de arestări sunt orchestrate de actori externi pentru a bloca integrarea europeană a țării.</description>
     </item>
     <item>
@@ -135,14 +142,5 @@
       <category>sport</category>
       <source url="https://jurnalulolteniei.ro/brigada-integral-romaneasca-la-meciul-tara-galilor-albania-din-play-off-ul-pentru-cupa-mondiala-feminina-2027/">Jurnalul Olteniei</source>
       <description>O brigadă complet românească, condusă la centru de Ionela Alina Peșu, va arbitra partida dintre Țara Galilor și Albania din play-off-ul calificărilor pentru Cupa Mondială din 2027.</description>
-    </item>
-    <item>
-      <title>Alain Taho a bifat prima convocare la naționala de tineret a Albaniei</title>
-      <link>https://izz.ro/sport/alain-taho-a-bifat-prima-convocare-la-nationala-de-tineret-a-albaniei/</link>
-      <guid>https://izz.ro/sport/alain-taho-a-bifat-prima-convocare-la-nationala-de-tineret-a-albaniei/</guid>
-      <pubDate>Tue, 06 Oct 2026 10:00:16 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.fcinter1908.it/ultimora/taho-prima-convocazione/">FC Inter 1908</source>
-      <description>Portarul echipei Inter U23 a trăit o zi plină de evenimente, debutând ca titular pentru reprezentativa Under-21 a Albaniei în remiza cu Ucraina, scor 2-2, după care a primit imediat prima convocare oficială la națională.</description>
     </item>
 </channel></rss>
