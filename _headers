@@ -12,6 +12,13 @@
 /static/harta-stiri/*
   ! Cache-Control
   Cache-Control: public, max-age=300, must-revalidate
+/static/harta-stiri/data/*
+  ! Cache-Control
+  Cache-Control: public, max-age=0, must-revalidate
+/editorial-publication.json
+  Cache-Control: public, max-age=0, must-revalidate
+/editorial-revisions.json
+  Cache-Control: public, max-age=0, must-revalidate
 /_pagefind/*
   Cache-Control: public, max-age=300, must-revalidate
 /_pagefind/pagefind-entry.json
@@ -22,7 +29,7 @@
   Cache-Control: public, max-age=0, must-revalidate
 /search-index.json
   ! Cache-Control
-  Cache-Control: public, max-age=300, must-revalidate
+  Cache-Control: public, max-age=0, must-revalidate
 /favicon.svg
   Cache-Control: public, max-age=2592000
 /*.jpg
@@ -32,10 +39,10 @@
 /*.webp
   Cache-Control: public, max-age=86400
 /feed.xml
-  Cache-Control: public, max-age=1800
+  Cache-Control: public, max-age=0, must-revalidate
 /*/feed.xml
-  Cache-Control: public, max-age=1800
+  Cache-Control: public, max-age=0, must-revalidate
 /*/*/feed.xml
-  Cache-Control: public, max-age=1800
+  Cache-Control: public, max-age=0, must-revalidate
 /build.json
   Cache-Control: public, max-age=0, must-revalidate

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/sua/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SUA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 01:17:49 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 06:12:16 +0000</lastBuildDate>
+    <item>
+      <title>Alegerile intermediare din SUA de pe 3 noiembrie pot influența politica externă</title>
+      <link>https://izz.ro/politic/alegerile-intermediare-din-sua-de-pe-3-noiembrie-pot-influenta-politica-externa/</link>
+      <guid>https://izz.ro/politic/alegerile-intermediare-din-sua-de-pe-3-noiembrie-pot-influenta-politica-externa/</guid>
+      <pubDate>Sun, 18 Oct 2026 02:39:22 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/stiri-externe/in-lume/votul-din-3-noiembrie-care-poate-schimba-directia-2564685.html">Adevărul</source>
+      <media:content url="https://izz.ro/politic/alegerile-intermediare-din-sua-de-pe-3-noiembrie-pot-influenta-politica-externa/cover.jpg?v=611578f1" medium="image" type="image/jpeg"/>
+      <description>Presa internațională analizează impactul scrutinului american asupra Congresului, estimând posibile schimbări în supravegherea executivului și în sprijinul militar oferit Ucrainei.</description>
+    </item>
     <item>
       <title>O femeie de 61 de ani din Texas atrage atenția prin forma fizică</title>
       <link>https://izz.ro/lifestyle/o-femeie-de-61-de-ani-din-texas-atrage-atentia-prin-forma-fizica/</link>
@@ -153,7 +163,7 @@
       <pubDate>Fri, 16 Oct 2026 15:39:41 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.theguardian.com/world/2026/oct/16/ukraine-military-starlink-access-starshield-volodymyr-zelenskyy">The Guardian</source>
-      <media:content url="https://izz.ro/extern/volodimir-zelenski-anunta-ca-accesul-la-starlink-nu-a-fost-complet-restabilit/cover.jpg?v=cf459437" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/volodimir-zelenski-anunta-ca-accesul-la-starlink-nu-a-fost-complet-restabilit/cover.jpg?v=96eed3bb" medium="image" type="image/jpeg"/>
       <description>Președintele ucrainean a declarat înus la Bruxelles că limitarea serviciului de internet prin satelit de către SUA a reprezentat o surpriză neplăcută, în timp ce solicită Uniunii Europene fonduri suplimentare de 70 de miliarde de euro.</description>
     </item>
     <item>
@@ -462,14 +472,5 @@
       <category>sanatate</category>
       <source url="https://spotmedia.ro/stiri/sanatate/menopauza-schimba-brusc-functionarea-mai-multor-organe-ce-arata-un-studiu-pe-mai-mult-de-un-milion-de-femei">Spotmedia</source>
       <description>Un studiu efectuat pe peste un milion de femei din SUA și Israel arată că finalul menstruației declanșează modificări rapide în sistemul osos, funcția hepatică și nivelul lipidelor.</description>
-    </item>
-    <item>
-      <title>Statele Unite continuă să furnizeze date informative autorităților de la Kiev</title>
-      <link>https://izz.ro/extern/statele-unite-continua-sa-furnizeze-date-informative-autoritatilor-de-la-kiev/</link>
-      <guid>https://izz.ro/extern/statele-unite-continua-sa-furnizeze-date-informative-autoritatilor-de-la-kiev/</guid>
-      <pubDate>Tue, 13 Oct 2026 20:26:10 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://hotnews.ro/sua-continua-sa-furnizeze-intelligence-pentru-ucraina-sustine-trump-ii-ajutam-2375212">HotNews</source>
-      <description>Președintele Donald Trump a confirmat că Washingtonul oferă sprijin logistic și informații militare Ucrainei, subliniind în același timp că se caută o soluție diplomatică pentru oprirea războiului.</description>
     </item>
 </channel></rss>

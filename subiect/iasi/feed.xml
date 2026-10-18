@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/iasi/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Iași pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 01:17:49 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 06:12:16 +0000</lastBuildDate>
+    <item>
+      <title>Incendiu la CET Iași: peste 22.000 de oameni au rămas fără căldură</title>
+      <link>https://izz.ro/local/incendiu-la-cet-iasi-peste-22-000-de-oameni-au-ramas-fara-caldura/</link>
+      <guid>https://izz.ro/local/incendiu-la-cet-iasi-peste-22-000-de-oameni-au-ramas-fara-caldura/</guid>
+      <pubDate>Sun, 18 Oct 2026 05:17:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://observatornews.ro/eveniment/peste-22000-de-ieseni-in-frig-dupa-incendiul-de-la-cet-cand-ar-putea-reveni-caldura-in-locuinte-669495.html">Observator</source>
+      <media:content url="https://izz.ro/local/incendiu-la-cet-iasi-peste-22-000-de-oameni-au-ramas-fara-caldura/cover.jpg?v=ff68fb51" medium="image" type="image/jpeg"/>
+      <description>O hală de la centrala termică din Iași a fost cuprinsă de flăcări în urma unei explozii. Avaria a lăsat 22.000 de abonați fără agent termic și apă caldă în plin sezon rece.</description>
+    </item>
+    <item>
+      <title>Iașiul a rămas fără apă caldă și căldură după o explozie la CET</title>
+      <link>https://izz.ro/local/iasiul-a-ramas-fara-apa-calda-si-caldura-dupa-o-explozie-la-cet/</link>
+      <guid>https://izz.ro/local/iasiul-a-ramas-fara-apa-calda-si-caldura-dupa-o-explozie-la-cet/</guid>
+      <pubDate>Sun, 18 Oct 2026 04:59:51 +0000</pubDate>
+      <category>local</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/iasiul-a-ramas-fara-apa-calda-si-caldura-dupa-explozia-unui-transformator-la-cet-cand-ar-putea-fi-reluata-furnizarea.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/local/iasiul-a-ramas-fara-apa-calda-si-caldura-dupa-o-explozie-la-cet/cover.jpg?v=ff68fb51" medium="image" type="image/jpeg"/>
+      <description>Un transformator a explodat la Centrala Electrică de Termoficare din Iași, provocând un incendiu și oprirea completă a instalațiilor. Cei 15 angajați s-au autoevacuat, fără a fi înregistrate victime.</description>
+    </item>
     <item>
       <title>Un incendiu la CET Iași a lăsat mii de apartamente fără căldură și apă caldă</title>
       <link>https://izz.ro/local/un-incendiu-la-cet-iasi-a-lasat-mii-de-apartamente-fara-caldura-si-apa-calda/</link>
@@ -452,23 +472,5 @@
       <category>local</category>
       <source url="https://zch.ro/avertisment-apavital-iasi-seceta-pune-presiune-pe-sursele-de-apa-si-pe-alimentarea-din-regiune-cifre-ingrijoratoare/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
       <description>Debitele scăzute ale râurilor și resursele subterane diminuate pun presiune pe rețelele operate de APAVITAL în județele Iași, Neamț și Botoșani. Compania semnalează o situație dificilă, în special din cauza nivelului scăzut al Prutului.</description>
-    </item>
-    <item>
-      <title>Teatrul „Prichindel” din Alba Iulia participă la festivaluri</title>
-      <link>https://izz.ro/local/teatrul-prichindel-din-alba-iulia-participa-la-festivaluri/</link>
-      <guid>https://izz.ro/local/teatrul-prichindel-din-alba-iulia-participa-la-festivaluri/</guid>
-      <pubDate>Wed, 07 Oct 2026 08:30:23 +0000</pubDate>
-      <category>local</category>
-      <source url="https://alba24.ro/teatrul-de-papusi-prichindel-din-alba-iulia-prezinta-spectacole-la-iasi-si-arad-in-cadrul-unor-festivaluri-program-1161436.html">Alba24</source>
-      <description>Instituția culturală din Alba Iulia susține spectacole de teatru de păpuși la Iași și Arad, în cadrul unor evenimente de profil organizate în cele două orașe.</description>
-    </item>
-    <item>
-      <title>Lanțul de covrigării Luca a devenit un gigant în vânzarea de cafea</title>
-      <link>https://izz.ro/economic/lantul-de-covrigarii-luca-a-devenit-un-gigant-in-vanzarea-de-cafea/</link>
-      <guid>https://izz.ro/economic/lantul-de-covrigarii-luca-a-devenit-un-gigant-in-vanzarea-de-cafea/</guid>
-      <pubDate>Wed, 07 Oct 2026 03:22:10 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.nwradu.ro/2026/10/lantul-de-covrigarii-luca-este-probabil-unul-dintre-cei-mai-mari-vanzatori-de-cafea-din-romania/">NwRadu</source>
-      <description>Cu aproximativ 200 de unități în toată țara și prețuri reduse la băuturile calde, covrigăriile Luca se impun drept unii dintre cei mai mari retaileri de cafea din România.</description>
     </item>
 </channel></rss>

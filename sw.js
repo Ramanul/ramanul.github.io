@@ -39,8 +39,8 @@
    sunt recuperate aici — pentru ele exista fallback-ul de oglinda din infra/worker-404-mirror.js.
 */
 
-const SHELL = 'izz-shell-v2';   // v2: cheile v1 tin CSS cu versiune amestecata — se sterg la activare
-const ARTICOLE = 'izz-articole-v2';
+const SHELL = 'izz-shell-v3';   // v3: invalidate pages cached before correction propagation
+const ARTICOLE = 'izz-articole-v3';
 const TERMEN_RETEA = 2500;   // ms pana cand o pagina cade pe copia salvata
 const MAX_ARTICOLE = 60;
 const OFFLINE = '/offline/';
@@ -156,6 +156,18 @@ async function activVersionat(request) {
 
 /* Pagini: reteaua castiga daca raspunde in TERMEN_RETEA; altfel copia salvata, iar
    raspunsul care vine mai tarziu tot ajunge in cache (`waitUntil`). */
+async function copieCuAvertisment(raspuns) {
+  if (!(raspuns.headers.get('content-type') || '').includes('text/html')) return raspuns;
+  const text = await raspuns.text();
+  const avertisment = '<aside role="status" class="trust-label">Copie salvată: actualitatea și eventualele corecții nu pot fi verificate. Reconectează-te pentru versiunea curentă.</aside>';
+  const headers = new Headers(raspuns.headers);
+  headers.delete('content-length');
+  headers.delete('content-encoding');
+  headers.set('X-IZZ-Cached-Copy', 'unverified');
+  return new Response(text.replace(/(<body\b[^>]*>)/i, '$1' + avertisment),
+    { status: raspuns.status, statusText: raspuns.statusText, headers });
+}
+
 async function reteaIntai(request, cacheNume, event) {
   const promisiune = reimprospateaza(request, cacheNume);
   if (event && event.waitUntil) event.waitUntil(promisiune);
@@ -164,7 +176,7 @@ async function reteaIntai(request, cacheNume, event) {
   if (primul) return primul;
   const cache = await caches.open(cacheNume);
   const gasit = await cache.match(cheie(request));
-  if (gasit) return gasit;
+  if (gasit) return copieCuAvertisment(gasit);
   const viu = await promisiune;   // nici copie, nici retea in termen: asteptam reteaua
   if (viu) return viu;
   const ofl = await caches.match(OFFLINE);
@@ -204,6 +216,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
   if (url.pathname.startsWith('/push/')) return;
+  if (url.pathname.startsWith('/editorial-') && url.pathname.endsWith('.json')) return;
   if (url.pathname.startsWith('/static/harta-stiri/data/')) return;
 
   if (url.pathname.startsWith('/static/')) {
