@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 11:23:24 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 14:51:27 +0000</lastBuildDate>
+    <item>
+      <title>Autoritățile din Lituania investighează o tentativă de sabotaj asupra echipamentelor Starlink</title>
+      <link>https://izz.ro/extern/autoritatile-din-lituania-investigheaza-o-tentativa-de-sabotaj-asupra/</link>
+      <guid>https://izz.ro/extern/autoritatile-din-lituania-investigheaza-o-tentativa-de-sabotaj-asupra/</guid>
+      <pubDate>Sun, 18 Oct 2026 13:43:44 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/tentativa-de-incendiere-a-unor-echipamente-starlink-in-lituania-autoritatile-suspecteaza-rusia-si-convoaca-comisia-pentru-securitate-nationala.html">G4Media</source>
+      <media:content url="https://izz.ro/extern/autoritatile-din-lituania-investigheaza-o-tentativa-de-sabotaj-asupra/cover.jpg?v=2530f2f1" medium="image" type="image/jpeg"/>
+      <description>Guvernul lituanian a dejucat un atac incendiar vizând un depozit cu aparatură de comunicații satelitară și bănuiește implicarea Federației Ruse, incidentul survenind în aceeași noapte cu prăbușirea unei drone militare.</description>
+    </item>
     <item>
       <title>Dependența critică a Ucrainei de sistemul de internet Starlink</title>
       <link>https://izz.ro/extern/dependenta-critica-a-ucrainei-de-sistemul-de-internet-starlink/</link>
@@ -73,7 +83,6 @@
       <pubDate>Fri, 16 Oct 2026 19:33:48 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <media:content url="https://izz.ro/extern/donald-trump-respinge-acuzatiile-privind-limitarea-accesului-ucrainei-la/cover.jpg?v=0287c019" medium="image" type="image/jpeg"/>
       <description>Fostul lider american a negat informațiile conform cărora Ucraina ar fi fost privată de conexiunea la rețeaua de sateliți Starlink, măsură care i-ar fi afectat capacitatea de apărare împotriva atacurilor aeriene rusești.</description>
     </item>
     <item>

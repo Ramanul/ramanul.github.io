@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 11:23:32 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 14:51:37 +0000</lastBuildDate>
     <item>
       <title>Agenți bazați pe inteligență artificială au purtat o discuție paralelă în timp ce fondatorii lor luau cina</title>
       <link>https://izz.ro/ai/agenti-bazati-pe-inteligenta-artificiala-au-purtat-o-discutie-paralela-in-timp/</link>
@@ -143,7 +143,6 @@
       <pubDate>Fri, 16 Oct 2026 17:06:11 +0000</pubDate>
       <category>ai</category>
       <source url="https://stirileprotv.ro/stiri/ilikeit/fost-director-google-x-inteligenta-artificiala-nu-ne-va-lua-neaparat-locurile-de-munca-trebuie-sa-invatam-sa-o-folosim.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/ai/fost-director-google-x-considera-ca-inteligenta-artificiala-nu-va-elimina/cover.jpg?v=1813f767" medium="image" type="image/jpeg"/>
       <description>Specialistul susține că nivelul actual de inteligență al sistemelor nu înseamnă automat dispariția posturilor de lucru, ci necesită adaptare și învățare continuă din partea angajaților pentru a utiliza eficient noua tehnologie.</description>
     </item>
     <item>
@@ -372,6 +371,15 @@
       <description>O companie italiană a creat un program informatic inovator bazat pe inteligență artificială capabil să identifice rapid neregulile financiare înainte ca acestea să genereze pagube majore.</description>
     </item>
     <item>
+      <title>Specialiștii avertizează asupra riscurilor utilizării inteligenței artificiale pentru consiliere psihologică</title>
+      <link>https://izz.ro/ai/specialistii-avertizeaza-asupra-riscurilor-utilizarii-inteligentei-artificiale/</link>
+      <guid>https://izz.ro/ai/specialistii-avertizeaza-asupra-riscurilor-utilizarii-inteligentei-artificiale/</guid>
+      <pubDate>Tue, 13 Oct 2026 08:46:25 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://adevarul.ro/adevarul-juridic/psihologie-cu-chatgpt-riscurile-terapiei-cu-2563345.html">Adevărul</source>
+      <description>Folosirea chatboturilor precum ChatGPT pentru terapie psihologică prezintă riscuri majore legate de exploatarea vulnerabilităților umane și distorsionarea comportamentală, aspecte strict reglementate.</description>
+    </item>
+    <item>
       <title>Epic Games introduce dezvoltarea jocurilor bazată exclusiv pe inteligență artificială</title>
       <link>https://izz.ro/ai/epic-games-introduce-dezvoltarea-jocurilor-bazata-exclusiv-pe-inteligenta/</link>
       <guid>https://izz.ro/ai/epic-games-introduce-dezvoltarea-jocurilor-bazata-exclusiv-pe-inteligenta/</guid>
@@ -460,14 +468,5 @@
       <category>ai</category>
       <source url="https://adevarul.ro/stiri-externe/sua/cum-se-pregatesc-anthropic-openai-si-alte-2563274.html">Adevărul</source>
       <description>Dezvoltatorii majori de tehnologie, precum Anthropic și OpenAI, elaborează strategii de intervenție pentru a preveni posibile crize majore generate de comportamentul scăpat de sub control al sistemelor AI.</description>
-    </item>
-    <item>
-      <title>Centrele de date pentru inteligența artificială provoacă o criză de cupru</title>
-      <link>https://izz.ro/ai/centrele-de-date-pentru-inteligenta-artificiala-provoaca-o-criza-de-cupru/</link>
-      <guid>https://izz.ro/ai/centrele-de-date-pentru-inteligenta-artificiala-provoaca-o-criza-de-cupru/</guid>
-      <pubDate>Sun, 11 Oct 2026 21:10:25 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://adevarul.ro/economie/centrele-de-date-consuma-tot-mai-mult-cupru-doua-2562915.html">Adevărul</source>
-      <description>Dezvoltarea accelerată a tehnologiilor AI amplifică cererea de cupru pentru infrastructură, forțând industria să caute alternative din cauza deficitului estimat de aprovizionare.</description>
     </item>
 </channel></rss>

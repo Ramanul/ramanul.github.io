@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/tirana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Tirana pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 11:23:24 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 14:51:27 +0000</lastBuildDate>
+    <item>
+      <title>Proteste violente în Tirana pentru demisia premierului albanez Edi Rama</title>
+      <link>https://izz.ro/extern/proteste-violente-in-tirana-pentru-demisia-premierului-albanez-edi-rama/</link>
+      <guid>https://izz.ro/extern/proteste-violente-in-tirana-pentru-demisia-premierului-albanez-edi-rama/</guid>
+      <pubDate>Sun, 18 Oct 2026 13:39:43 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/inca-o-capitala-europeana-in-flacari-gaze-lacrimogene-tunuri-cu-apa-si-gloante-de-cauciuc-impotriva-protestatarilor-care-cer-demisia-premierului-albanez-in-tirana-2379202">HotNews</source>
+      <media:content url="https://izz.ro/extern/proteste-violente-in-tirana-pentru-demisia-premierului-albanez-edi-rama/cover.jpg?v=f3f41258" medium="image" type="image/jpeg"/>
+      <description>Poliția din Tirana a intervenit cu gaze lacrimogene și tunuri cu apă împotriva sutelor de manifestanți care cer demisia premierului Edi Rama, în cadrul unor proteste violente continuate timp de șase zile.</description>
+    </item>
     <item>
       <title>Ciocniri violente între studenți și forțele de ordine la Tirana</title>
       <link>https://izz.ro/extern/ciocniri-violente-intre-studenti-si-fortele-de-ordine-la-tirana/</link>
@@ -33,7 +43,7 @@
       <pubDate>Sat, 17 Oct 2026 04:26:22 +0000</pubDate>
       <category>extern</category>
       <source url="https://stirileprotv.ro/stiri/international/noi-ciocniri-violente-la-tirana-premierul-albaniei-acuza-forte-straine-ca-incearca-sa-blocheze-aderarea-tarii-la-ue.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/extern/noi-violente-la-tirana-in-timp-ce-premierul-acuza-implicarea-unor-forte-externe/cover.jpg?v=62fa9a81" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/noi-violente-la-tirana-in-timp-ce-premierul-acuza-implicarea-unor-forte-externe/cover.jpg?v=4b077251" medium="image" type="image/jpeg"/>
       <description>Poliția s-a ciocnit cu manifestanții în timpul unor proteste violente izbucnite la Tirana, în timp ce șeful guvernului albanez, Edi Rama, a acuzat actori străini că încearcă să obstrucționeze integrarea europeană a țării.</description>
     </item>
     <item>
@@ -107,14 +117,5 @@
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/europa/primarul-tiranei-in-arest-preventiv-de-aproape-20-2562668.html">Adevărul</source>
       <description>Aflat în arest preventiv de aproape 20 de luni într-un dosar de corupție, primarul Tiranei, Erion Veliaj, a reușit să se adreseze cetățenilor folosind un dublu digital generat cu ajutorul inteligenței artificiale.</description>
-    </item>
-    <item>
-      <title>Primarul din Tirana folosește un avatar AI din închisoare</title>
-      <link>https://izz.ro/ai/primarul-din-tirana-foloseste-un-avatar-ai-din-inchisoare/</link>
-      <guid>https://izz.ro/ai/primarul-din-tirana-foloseste-un-avatar-ai-din-inchisoare/</guid>
-      <pubDate>Tue, 06 Oct 2026 13:36:46 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.politico.eu/article/jailed-albanian-mayor-erion-veliaj-uses-ai-avatar-to-make-deepfake-speech/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Edilul capitalei albaneze, Erion Veliaj, aflat în detenție, a stârnit controverse după ce a publicat pe Instagram un mesaj video generat de inteligența artificială, în care promite mese gratuite pentru școlari.</description>
     </item>
 </channel></rss>

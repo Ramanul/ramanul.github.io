@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/anm/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ANM pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 11:23:24 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 18 Oct 2026 14:51:27 +0000</lastBuildDate>
+    <item>
+      <title>ANM a emis o avertizare de ninsori și vânt puternic pentru județul Brașov</title>
+      <link>https://izz.ro/local/anm-a-emis-o-avertizare-de-ninsori-si-vant-puternic-pentru-judetul-brasov/</link>
+      <guid>https://izz.ro/local/anm-a-emis-o-avertizare-de-ninsori-si-vant-puternic-pentru-judetul-brasov/</guid>
+      <pubDate>Sun, 18 Oct 2026 13:59:33 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/expres/vremea-se-strica-accentuat-in-brasov-si-la-munte-ninsori-strat-de-zapada-si-rafale-de-pana-la-90-km-h-avertismentul-transmis-de-anm/">MyTex</source>
+      <media:content url="https://izz.ro/local/anm-a-emis-o-avertizare-de-ninsori-si-vant-puternic-pentru-judetul-brasov/cover.jpg?v=e6c3d32c" medium="image" type="image/jpeg"/>
+      <description>Meteorologii au anunțat o schimbare bruscă a vremii în zona Brașov și la munte, unde sunt așteptate ninsori la altitudini mari, strat de zăpadă și rafale de vânt de până la 90 km/h.</description>
+    </item>
     <item>
       <title>ANM a publicat prognoza meteo pentru următoarele patru săptămâni</title>
       <link>https://izz.ro/general/anm-a-publicat-prognoza-meteo-pentru-urmatoarele-patru-saptamani/</link>
@@ -241,14 +251,5 @@
       <category>politic</category>
       <source url="https://gazetadecluj.ro/achizitii-de-lux-din-bani-publici-la-anm-descoperite-de-corpul-de-control-al-ministerului-mediului-sutien-de-peste-1-000-de-lei-parfumuri-rochii-pijamale-diana-buzoianu-sesizeaza-parchet/">Gazeta de Cluj</source>
       <description>Corpul de Control a descoperit că Administrația Națională de Meteorologie a folosit carduri oficiale pentru cumpărături personale de lux, precum lenjerie și parfumuri, determinând sesizarea Parchetului General.</description>
-    </item>
-    <item>
-      <title>Vreme caldă cu temperaturi de până la 25 de grade și averse duminică în județul Sibiu</title>
-      <link>https://izz.ro/judetean/vreme-calda-cu-temperaturi-de-pana-la-25-de-grade-si-averse-duminica-in-judetul/</link>
-      <guid>https://izz.ro/judetean/vreme-calda-cu-temperaturi-de-pana-la-25-de-grade-si-averse-duminica-in-judetul/</guid>
-      <pubDate>Fri, 09 Oct 2026 18:46:26 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://www.turnulsfatului.ro/2026/10/09/weekend-cu-soare-si-ploaie-la-sibiu-duminica-pot-aparea-si-descarcari-electrice/">Turnul Sfatului</source>
-      <description>Meteorologii anunță un sfârșit de săptămână cald în județul Sibiu, cu maxime ce vor atinge 25 de grade Celsius, însă duminică își vor face apariția ploile însoțite de descărcări electrice.</description>
     </item>
 </channel></rss>
