@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/dacia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Dacia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 01:34:59 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 08:05:19 +0000</lastBuildDate>
+    <item>
+      <title>Dacia pregătește noua generație Jogger cu versiune electrică</title>
+      <link>https://izz.ro/auto/dacia-pregateste-noua-generatie-jogger-cu-versiune-electrica/</link>
+      <guid>https://izz.ro/auto/dacia-pregateste-noua-generatie-jogger-cu-versiune-electrica/</guid>
+      <pubDate>Mon, 19 Oct 2026 07:38:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.antena3.ro/economic/auto/dacia-pregateste-noua-generatie-jogger-va-avea-si-o-versiune-100-electrica-este-un-model-atipic-dacia-807700.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/auto/dacia-pregateste-noua-generatie-jogger-cu-versiune-electrica/cover.jpg?v=c43ebb91" medium="image" type="image/jpeg"/>
+      <description>Constructorul auto român va lansa în 2028 o nouă variantă a modelului cu șapte locuri, incluzând în premieră o motorizare sută la sută electrică în gama sa de familie.</description>
+    </item>
     <item>
       <title>Acordul franco-german privind industria auto amenință vânzările mărcii Dacia</title>
       <link>https://izz.ro/auto/acordul-franco-german-privind-industria-auto-ameninta-vanzarile-marcii-dacia/</link>
@@ -207,14 +217,5 @@
       <category>local</category>
       <source url="https://jurnalulolteniei.ro/uzina-dacia-opreste-temporar-productia-masurile-anuntate/">Jurnalul Olteniei</source>
       <description>Platforma industrială Dacia de la Mioveni oprește temporar liniile de fabricație pentru corelarea volumului cu cererea din piețe, angajații afectați urmând să primească compensații salariale conform contractului colectiv.</description>
-    </item>
-    <item>
-      <title>Noutăți tehnologice și economice: centrale pe gaz, auto și AI</title>
-      <link>https://izz.ro/local/noutati-tehnologice-si-economice-centrale-pe-gaz-auto-si-ai/</link>
-      <guid>https://izz.ro/local/noutati-tehnologice-si-economice-centrale-pe-gaz-auto-si-ai/</guid>
-      <pubDate>Wed, 07 Oct 2026 03:44:04 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-7-octombrie-2026-inclusiv-noile-bmw-x5/">NwRadu</source>
-      <description>A fost autorizată o centrală pe gaz la Câmpia Turzii, TAROM și-a actualizat site-ul, iar sectorul fotovoltaic a asigurat două treimi din energia țării. În același timp, ChatGPT domină piața inteligenței artificiale.</description>
     </item>
 </channel></rss>

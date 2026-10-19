@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 01:34:59 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 08:05:19 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft lansează noi optimizări de performanță și funcții pentru sistemul Windows 11</title>
+      <link>https://izz.ro/tech/microsoft-lanseaza-noi-optimizari-de-performanta-si-functii-pentru-sistemul/</link>
+      <guid>https://izz.ro/tech/microsoft-lanseaza-noi-optimizari-de-performanta-si-functii-pentru-sistemul/</guid>
+      <pubDate>Mon, 19 Oct 2026 06:17:35 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/19/windows-11-noutati-performanta-search/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/microsoft-lanseaza-noi-optimizari-de-performanta-si-functii-pentru-sistemul/cover.jpg?v=6b46450f" medium="image" type="image/jpeg"/>
+      <description>Compania IT a introdus îmbunătățiri majore vizând viteza de operare, consumul redus de memorie RAM, opțiuni avansate de căutare și facilități multimedia actualizate, disponibile treptat utilizatorilor.</description>
+    </item>
     <item>
       <title>Microsoft mizează pe specialiștii IT din România pentru dezvoltarea inteligenței artificiale</title>
       <link>https://izz.ro/ai/microsoft-mizeaza-pe-specialistii-it-din-romania-pentru-dezvoltarea/</link>
@@ -177,23 +187,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/08/microsoft-a-refacut-cautarea-in-windows-11-inclusiv-cu-ai/">Connect.ro</source>
       <description>Noua interfață de căutare din Windows 11, prezentată de Microsoft, permite utilizatorilor să modifice setările sistemului și să execute mii de comenzi rapide direct din bara de activități folosind comenzi simple.</description>
-    </item>
-    <item>
-      <title>Microsoft a obținut drepturile de streaming pentru jocul GTA 6</title>
-      <link>https://izz.ro/tech/microsoft-a-obtinut-drepturile-de-streaming-pentru-jocul-gta-6/</link>
-      <guid>https://izz.ro/tech/microsoft-a-obtinut-drepturile-de-streaming-pentru-jocul-gta-6/</guid>
-      <pubDate>Wed, 07 Oct 2026 07:28:04 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/07/xbox-a-obtinut-drepturile-de-streaming-pentru-gta-6/">Connect.ro</source>
-      <description>Divizia Xbox de la Microsoft a confirmat achiziționarea drepturilor de transmisie prin cloud pentru mult aşteptatul titlu GTA 6, permițând utilizatorilor să joace titlul produs de Rockstar Games direct prin streaming din prima zi.</description>
-    </item>
-    <item>
-      <title>Actualizarea Windows 11 26H2 îmbunătățește viteza sistemului și reduce consumul de RAM</title>
-      <link>https://izz.ro/tech/actualizarea-windows-11-26h2-imbunatateste-viteza-sistemului-si-reduce-consumul/</link>
-      <guid>https://izz.ro/tech/actualizarea-windows-11-26h2-imbunatateste-viteza-sistemului-si-reduce-consumul/</guid>
-      <pubDate>Wed, 07 Oct 2026 06:34:31 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/07/windows-11-26h2-performanta-ram/">Connect.ro</source>
-      <description>Microsoft a lansat pachetul 26H2 pentru Windows 11, care aduce optimizări majore pentru meniul Start și lansarea aplicațiilor. Funcția Low Latency Profile contribuie la o experiență de utilizare mai fluidă și eficientă.</description>
     </item>
 </channel></rss>

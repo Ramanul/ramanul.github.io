@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 17 Oct 2026 20:53:27 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 08:05:19 +0000</lastBuildDate>
+    <item>
+      <title>Nvidia infirmat zvonurile privind renunțarea la placa video RTX 5090</title>
+      <link>https://izz.ro/tech/nvidia-infirmat-zvonurile-privind-renuntarea-la-placa-video-rtx-5090/</link>
+      <guid>https://izz.ro/tech/nvidia-infirmat-zvonurile-privind-renuntarea-la-placa-video-rtx-5090/</guid>
+      <pubDate>Mon, 19 Oct 2026 07:19:51 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/19/nvidia-insista-ca-nu-a-renuntat-la-rtx-5090/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/nvidia-infirmat-zvonurile-privind-renuntarea-la-placa-video-rtx-5090/cover.jpg?v=a58ed470" medium="image" type="image/jpeg"/>
+      <description>Reprezentanții companiei Nvidia susțin că modelul de top RTX 5090 nu a fost scos din fabricație, în pofida crizei de stocuri și a absenței produsului din anumite magazine online.</description>
+    </item>
     <item>
       <title>Nvidia și Apple finanțează construcția noii săli de bal de la Casa Albă</title>
       <link>https://izz.ro/economic/nvidia-si-apple-finanteaza-constructia-noii-sali-de-bal-de-la-casa-alba/</link>
@@ -13,7 +23,6 @@
       <pubDate>Sat, 17 Oct 2026 07:49:00 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.profit.ro/stiri/politic/zeci-de-milioane-dolari-de-la-nvidia-si-apple-pentru-sala-de-bal-a-lui-trump-22848185?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/economic/nvidia-si-apple-finanteaza-constructia-noii-sali-de-bal-de-la-casa-alba/cover.jpg?v=0fc181d8" medium="image" type="image/jpeg"/>
       <description>Marile companii americane Nvidia și Apple s-au angajat să aloce fiecare câte 25 de milioane de dolari pentru proiectul de construcție a noii săli de bal de la Casa Albă, inițiativă susținută de președintele Donald Trump.</description>
     </item>
     <item>
@@ -23,7 +32,6 @@
       <pubDate>Fri, 16 Oct 2026 13:04:50 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/calculatoarele-nvidia-rtx-spark-disponibile-windows/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/calculatoarele-nvidia-rtx-spark-cu-windows-au-fost-lansate-pe-piata/cover.jpg?v=5b288d44" medium="image" type="image/jpeg"/>
       <description>Noile sisteme PC echipate cu tehnologii NVIDIA Blackwell RTX și inteligență artificială sunt disponibile începând de astăzi prin intermediul marilor producători mondiali de hardware.</description>
     </item>
     <item>
@@ -33,7 +41,6 @@
       <pubDate>Fri, 16 Oct 2026 12:24:06 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.gsp.ro/comercial/advertorial/laptopurile-nvidia-rtx-spark-sunt-disponibile-acum-988795.html">GSP</source>
-      <media:content url="https://izz.ro/tech/lansarea-noilor-laptopuri-subtiri-nvidia-rtx-spark-cu-tehnologie-ai/cover.jpg?v=079c542a" medium="image" type="image/jpeg"/>
       <description>Noile laptopuri NVIDIA RTX Spark sunt disponibile pe piață, oferind utilizatorilor grafică avansată, integrare cu ecosistemul de inteligență artificială și o memorie unificată de până la 128 GB.</description>
     </item>
     <item>
@@ -107,14 +114,5 @@
       <category>tech</category>
       <source url="https://start-up.ro/preturile-hp-omnibook-cu-nvidia-rtx-spark-apar-inainte-de-lansare/">Start-up.ro</source>
       <description>Modelele HP OmniBook X 14 și OmniBook Ultra 16, echipate cu plăci video Nvidia RTX Spark, vor fi comercializate la prețuri de pornire de la 2.999,99 dolari, respectiv 3.199,99 dolari.</description>
-    </item>
-    <item>
-      <title>Inginerii de la Groq dau în judecată Nvidia după un acord de 20 miliarde dolari</title>
-      <link>https://izz.ro/economic/inginerii-de-la-groq-dau-in-judecata-nvidia-dupa-un-acord-de-20-miliarde-dolari/</link>
-      <guid>https://izz.ro/economic/inginerii-de-la-groq-dau-in-judecata-nvidia-dupa-un-acord-de-20-miliarde-dolari/</guid>
-      <pubDate>Mon, 05 Oct 2026 20:56:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.antena3.ro/high-tech/nvidia-in-centrul-unui-proces-dupa-acordul-de-20-de-miliarde-de-dolari-cu-groq-inginerii-lasati-pe-dinafara-acuza-ca-au-fost-pacaliti-805920.html">Antena 3 CNN</source>
-      <description>Doi foști ingineri ai startup-ului Groq au intentat un proces în Delaware, acuzând compania că i-a păgubit în cadrul tranzacției majore de 20 de miliarde de dolari încheiate cu gigantul Nvidia.</description>
     </item>
 </channel></rss>

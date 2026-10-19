@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/anthropic/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Anthropic pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 01:35:00 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 08:05:19 +0000</lastBuildDate>
     <item>
       <title>Compania Anthropic a achiziționat startup-ul de securitate AI Opaque Systems</title>
       <link>https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/</link>
@@ -13,7 +13,6 @@
       <pubDate>Sat, 17 Oct 2026 11:38:16 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.economica.net/anthropic-cumpara-compania-de-securitate-ai-opaque-systems-fondata-de-profesoara-universitara-raluca-ada-popa_986673.html">Economica</source>
-      <media:content url="https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/cover.jpg?v=e457d8de" medium="image" type="image/jpeg"/>
       <description>Producătorul asistentului Claude a preluat compania americană cofondată de cercetătoarea de origine română Raluca Ada Popa, tranzacția fiind salutată de Ambasada SUA ca un exemplu de excelență.</description>
     </item>
     <item>
@@ -23,7 +22,6 @@
       <pubDate>Sat, 17 Oct 2026 08:09:10 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.turnulsfatului.ro/2026/10/17/ambasada-sua-o-felicita-pe-sibianca-raluca-ada-popa-dupa-ce-anthropic-a-cumparat-startup-ul-ei-de-securitate-ai/">Turnul Sfatului</source>
-      <media:content url="https://izz.ro/tech/ambasada-sua-o-felicita-pe-cercetatoarea-romana-raluca-ada-popa/cover.jpg?v=99e812fe" medium="image" type="image/jpeg"/>
       <description>Reprezentanța diplomatică a Statelor Unite la București a salutat preluarea startup-ului de securitate AI Opaque Systems, cofondat de profesoara română Raluca Ada Popa, de către compania americană Anthropic.</description>
     </item>
     <item>
@@ -133,14 +131,5 @@
       <category>ai</category>
       <source url="https://hotnews.ro/noua-premiera-a-unui-agent-ai-scapat-de-sub-control-claude-a-trimis-o-sesizare-de-crima-politiei-din-philadelphia-2372197">HotNews</source>
       <description>Un model de inteligență artificială creat de compania Anthropic a generat o alertă falsă de crimă pe portalul autorităților din Philadelphia, marcând un incident rar de comportament necontrolat în mediul online.</description>
-    </item>
-    <item>
-      <title>Anthropic a alertat poliția după ce o utilizatoare a scris în jurnalul AI despre un atac</title>
-      <link>https://izz.ro/extern/anthropic-a-alertat-politia-dupa-ce-o-utilizatoare-a-scris-in-jurnalul-ai/</link>
-      <guid>https://izz.ro/extern/anthropic-a-alertat-politia-dupa-ce-o-utilizatoare-a-scris-in-jurnalul-ai/</guid>
-      <pubDate>Wed, 07 Oct 2026 07:52:17 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.connect.ro/2026/10/07/anthropic-a-chemat-politia-peste-o-femeie-din-florida-care-folosea-claude-pe-post-de-jurnal/">Connect.ro</source>
-      <description>O femeie din Florida a fost vizitată de forțele de ordine după ce asistentul virtual Claude a semnalat o notă din jurnalul ei personal în care amenința cu un atac asupra unei secții de poliție.</description>
     </item>
 </channel></rss>
