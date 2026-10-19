@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 15:58:40 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 21:26:19 +0000</lastBuildDate>
+    <item>
+      <title>Operatorii telecom europeni testează serviciul prin satelit contra Starlink</title>
+      <link>https://izz.ro/tech/operatorii-telecom-europeni-testeaza-serviciul-prin-satelit-contra-starlink/</link>
+      <guid>https://izz.ro/tech/operatorii-telecom-europeni-testeaza-serviciul-prin-satelit-contra-starlink/</guid>
+      <pubDate>Mon, 19 Oct 2026 21:02:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.antena3.ro/externe/marile-companii-de-telefonie-mobila-din-europa-incearca-sa-concureze-starlinkul-si-propun-un-serviciu-revolutionar-satelit-catre-mobil-807830.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/tech/operatorii-telecom-europeni-testeaza-serviciul-prin-satelit-contra-starlink/cover.jpg?v=0072f96a" medium="image" type="image/jpeg"/>
+      <description>Patru mari companii de telefonie mobilă din Europa colaborează pentru lansarea tehnologiei de comunicație satelit-către-mobil, rivalizând direct cu sistemul Starlink dezvoltat de Elon Musk.</description>
+    </item>
     <item>
       <title>Ucraina acuză accesul limitat la Starlink, afectând interceptarea dronelor rusești</title>
       <link>https://izz.ro/extern/ucraina-acuza-accesul-limitat-la-starlink-afectand-interceptarea-dronelor/</link>
@@ -33,7 +43,7 @@
       <pubDate>Sun, 18 Oct 2026 13:43:44 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.g4media.ro/tentativa-de-incendiere-a-unor-echipamente-starlink-in-lituania-autoritatile-suspecteaza-rusia-si-convoaca-comisia-pentru-securitate-nationala.html">G4Media</source>
-      <media:content url="https://izz.ro/extern/autoritatile-din-lituania-investigheaza-o-tentativa-de-sabotaj-asupra/cover.jpg?v=2530f2f1" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/autoritatile-din-lituania-investigheaza-o-tentativa-de-sabotaj-asupra/cover.jpg?v=c85b4c74" medium="image" type="image/jpeg"/>
       <description>Guvernul lituanian a dejucat un atac incendiar vizând un depozit cu aparatură de comunicații satelitară și bănuiește implicarea Federației Ruse, incidentul survenind în aceeași noapte cu prăbușirea unei drone militare.</description>
     </item>
     <item>
@@ -43,7 +53,6 @@
       <pubDate>Sun, 18 Oct 2026 08:58:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.dw.com/en/how-reliant-is-ukraine-on-the-us-controlled-starlink-internet-service/a-79689729?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <media:content url="https://izz.ro/extern/dependenta-critica-a-ucrainei-de-sistemul-de-internet-starlink/cover.jpg?v=442fc549" medium="image" type="image/jpeg"/>
       <description>Autoritățile din Ucraina avertizează repetat asupra vulnerabilității majore a țării față de eventuale întreruperi ale rețelei de sateliți Starlink, controlată de Statele Unite.</description>
     </item>
     <item>

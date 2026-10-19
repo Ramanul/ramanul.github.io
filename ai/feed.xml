@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 15:58:47 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 21:26:28 +0000</lastBuildDate>
+    <item>
+      <title>Guvernul SUA interzice utilizarea modelelor AI dezvoltate de DeepSeek</title>
+      <link>https://izz.ro/ai/guvernul-sua-interzice-utilizarea-modelelor-ai-dezvoltate-de-deepseek/</link>
+      <guid>https://izz.ro/ai/guvernul-sua-interzice-utilizarea-modelelor-ai-dezvoltate-de-deepseek/</guid>
+      <pubDate>Mon, 19 Oct 2026 20:05:09 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/modelele-ai-de-la-deepseek-interzise-in-guvernul-american-2380613">HotNews</source>
+      <media:content url="https://izz.ro/ai/guvernul-sua-interzice-utilizarea-modelelor-ai-dezvoltate-de-deepseek/cover.jpg?v=f8312682" medium="image" type="image/jpeg"/>
+      <description>Departamentul pentru Securitate Internă a interzis oficial agențiilor guvernamentale americane să achiziționeze sau să folosească tehnologii de inteligență artificială furnizate de compania chineză DeepSeek.</description>
+    </item>
     <item>
       <title>Un mod bazat pe inteligență artificială permite dialogul cu NPC-urile din GTA 5</title>
       <link>https://izz.ro/ai/un-mod-bazat-pe-inteligenta-artificiala-permite-dialogul-cu-npc-urile-din-gta-5/</link>
@@ -436,15 +446,6 @@
       <category>ai</category>
       <source url="https://stirileprotv.ro/stiri/international/o-aplica-ie-bazata-pe-inteligen-a-artificiala-poate-detecta-fraudele-financiare-inainte-ca-acestea-sa-produca-pierderi.html">Știrile ProTV</source>
       <description>O companie italiană a creat un program informatic inovator bazat pe inteligență artificială capabil să identifice rapid neregulile financiare înainte ca acestea să genereze pagube majore.</description>
-    </item>
-    <item>
-      <title>Specialiștii avertizează asupra riscurilor utilizării inteligenței artificiale pentru consiliere psihologică</title>
-      <link>https://izz.ro/ai/specialistii-avertizeaza-asupra-riscurilor-utilizarii-inteligentei-artificiale/</link>
-      <guid>https://izz.ro/ai/specialistii-avertizeaza-asupra-riscurilor-utilizarii-inteligentei-artificiale/</guid>
-      <pubDate>Tue, 13 Oct 2026 08:46:25 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://adevarul.ro/adevarul-juridic/psihologie-cu-chatgpt-riscurile-terapiei-cu-2563345.html">Adevărul</source>
-      <description>Folosirea chatboturilor precum ChatGPT pentru terapie psihologică prezintă riscuri majore legate de exploatarea vulnerabilităților umane și distorsionarea comportamentală, aspecte strict reglementate.</description>
     </item>
     <item>
       <title>Epic Games introduce dezvoltarea jocurilor bazată exclusiv pe inteligență artificială</title>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/kiev/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Kiev pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 15:58:41 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 21:26:19 +0000</lastBuildDate>
+    <item>
+      <title>Rusia a atacat Kievul cu zeci de drone și rachete balistice</title>
+      <link>https://izz.ro/extern/rusia-a-atacat-kievul-cu-zeci-de-drone-si-rachete-balistice/</link>
+      <guid>https://izz.ro/extern/rusia-a-atacat-kievul-cu-zeci-de-drone-si-rachete-balistice/</guid>
+      <pubDate>Mon, 19 Oct 2026 20:42:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/ziua-1699-valuri-de-rachete-balistice-asupra-kievului-rusii-au-pierdut-in-toamna-mai-mult-teren-decat-au-ocupat-zelenski-il-acuza-pe-trump-ca-impinge-ucraina-sa-capituleze">Spotmedia</source>
+      <media:content url="https://izz.ro/extern/rusia-a-atacat-kievul-cu-zeci-de-drone-si-rachete-balistice/cover.jpg?v=41d497c3" medium="image" type="image/jpeg"/>
+      <description>Forțele ruse au lansat un atac masiv cu rachete și drone asupra capitalei ucrainene Kiev, provocând decesul unei tinere și pagube materiale importante în numeroase zone rezidențiale și de infrastructură.</description>
+    </item>
     <item>
       <title>Protest la Kiev împotriva primarului Vitali Kliciko pentru pregătirea deficitară a iernii</title>
       <link>https://izz.ro/extern/protest-la-kiev-impotriva-primarului-vitali-kliciko-pentru-pregatirea/</link>
@@ -70,15 +80,6 @@
       <description>Președintele Volodimir Zelenski a declarat că aliații occidentali nu au transmis avertizări prealabile cu privire la noile bombardamente cu rachete balistice care au vizat infrastructura civilă și energetică din Kiev.</description>
     </item>
     <item>
-      <title>Rusia a atacat Kievul cu rachete balistice fără avertisment occidental prealabil</title>
-      <link>https://izz.ro/extern/rusia-a-atacat-kievul-cu-rachete-balistice-fara-avertisment-occidental-prealabil/</link>
-      <guid>https://izz.ro/extern/rusia-a-atacat-kievul-cu-rachete-balistice-fara-avertisment-occidental-prealabil/</guid>
-      <pubDate>Tue, 13 Oct 2026 21:04:19 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.g4media.ro/rusia-a-atacat-kievul-cu-rachete-balistice-iar-ucraina-acuza-lipsa-avertismentelor-aliatilor-atacul-vine-dupa-ce-administratia-trump-a-amenintat-ca-opreste-schimbul-de-informatii-militare.html">G4Media</source>
-      <description>Forțele ruse au lovit infrastructura civilă din Kiev cu rachete balistice, provocând distrugeri și incendii. Ucraina a criticat lipsa avertismentelor din partea aliaților occidentali privind acest atac aerian.</description>
-    </item>
-    <item>
       <title>Zelenski acuză Occidentul pentru lipsa avertismentelor privind atacul cu rachete de la Kiev</title>
       <link>https://izz.ro/extern/zelenski-acuza-occidentul-pentru-lipsa-avertismentelor-privind-atacul-cu/</link>
       <guid>https://izz.ro/extern/zelenski-acuza-occidentul-pentru-lipsa-avertismentelor-privind-atacul-cu/</guid>
@@ -122,14 +123,5 @@
       <category>extern</category>
       <source url="https://hotnews.ro/kievul-este-intr-o-lupta-pentru-supravietuire-anunta-primarul-kliciko-acesta-este-obiectivul-lui-putin-2371437">HotNews</source>
       <description>Intensificarea atacurilor rusești cu rusești și drone asupra infrastructurii esențiale reprezintă o amenințare directă la adresa existenței capitalei ucrainene în pragul sezonului rece.</description>
-    </item>
-    <item>
-      <title>Rusia sabotează fabricile daneze de armament destinate Ucrainei</title>
-      <link>https://izz.ro/extern/rusia-saboteaza-fabricile-daneze-de-armament-destinate-ucrainei/</link>
-      <guid>https://izz.ro/extern/rusia-saboteaza-fabricile-daneze-de-armament-destinate-ucrainei/</guid>
-      <pubDate>Wed, 07 Oct 2026 19:33:43 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://stirileprotv.ro/stiri/international/rusia-ar-fi-trecut-la-o-noua-etapa-a-razboiului-hibrid-in-europa-danemarca-sunt-vizate-direct-fabricile-de-armament-pentru-ucraina.html">Știrile ProTV</source>
-      <description>Serviciile secrete din Danemarca acuză Moscova că a declanșat o nouă etapă de război hibrid prin operațiuni de sabotaj care vizează companiile de apărare furnizoare de echipamente militare pentru Kiev.</description>
     </item>
 </channel></rss>

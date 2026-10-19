@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/germania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Germania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 15:58:40 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 21:26:19 +0000</lastBuildDate>
+    <item>
+      <title>Doi bărbați s-au predat după avarierea unui gard la aeroportul din Leipzig</title>
+      <link>https://izz.ro/extern/doi-barbati-s-au-predat-dupa-avarierea-unui-gard-la-aeroportul-din-leipzig/</link>
+      <guid>https://izz.ro/extern/doi-barbati-s-au-predat-dupa-avarierea-unui-gard-la-aeroportul-din-leipzig/</guid>
+      <pubDate>Mon, 19 Oct 2026 16:59:12 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/doi-barbati-s-au-predat-dupa-ce-un-gard-de-securitate-de-pe-aeroportul-din-leipzig-a-fost-avariat-3999573">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/doi-barbati-s-au-predat-dupa-avarierea-unui-gard-la-aeroportul-din-leipzig/cover.jpg?v=cc72e815" medium="image" type="image/jpeg"/>
+      <description>Un incident petrecut la aeroportul german din Leipzig, unde un vehicul a distrus un perimetru de securitate, s-a soldat cu predarea a doi suspecți și a generat noi măsuri de alertă.</description>
+    </item>
     <item>
       <title>Toyota solicită Uniunii Europene reglementări de tipul Made with Europe</title>
       <link>https://izz.ro/auto/toyota-solicita-uniunii-europene-reglementari-de-tipul-made-with-europe/</link>
@@ -123,7 +133,7 @@
       <pubDate>Sun, 18 Oct 2026 11:12:16 +0000</pubDate>
       <category>extern</category>
       <source url="https://cvlpress.ro/18.10.2026/nord-stream-procesul-de-la-hamburg/">Cuvântul Libertății</source>
-      <media:content url="https://izz.ro/extern/a-inceput-la-hamburg-procesul-pentru-cel-mai-mare-sabotaj-international/cover.jpg?v=6d064777" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/a-inceput-la-hamburg-procesul-pentru-cel-mai-mare-sabotaj-international/cover.jpg?v=47f6a394" medium="image" type="image/jpeg"/>
       <description>Justiția din Germania judecă un cetățean străin pentru atacul armat asupra gazoductului Nord Stream, considerat cel mai amplu sabotaj din istoria modernă.</description>
     </item>
     <item>
@@ -133,7 +143,6 @@
       <pubDate>Sun, 18 Oct 2026 09:11:39 +0000</pubDate>
       <category>auto</category>
       <source url="https://economedia.ro/volkswagen-retrage-mii-de-autoturisme-de-pe-piata-din-cauza-riscului-de-incendiu-al-bateriei-electrice.html">Economedia</source>
-      <media:content url="https://izz.ro/auto/volkswagen-recheama-in-service-autoturisme-electrice-din-cauza-riscului-de/cover.jpg?v=ac57c1f6" medium="image" type="image/jpeg"/>
       <description>Producătorul auto german retrage un lot de mașini electrice de pe piață din cauza unor posibile defecte la baterii care ar putea genera incendii.</description>
     </item>
     <item>
@@ -459,14 +468,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/podcast/brussels-playbook-podcast/the-eu-budget-battle-just-got-nastier/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Guvernele europene sunt divizate asupra viitorului buget pe șapte ani, în timp ce Parlamentul European amenință că va bloca acordul financiar actual.</description>
-    </item>
-    <item>
-      <title>Ministrul german al economiei rămâne blocat în Riad în urma unui atac</title>
-      <link>https://izz.ro/extern/ministrul-german-al-economiei-este-blocat-in-riad-din-cauza-atacurilor-asupra/</link>
-      <guid>https://izz.ro/extern/ministrul-german-al-economiei-este-blocat-in-riad-din-cauza-atacurilor-asupra/</guid>
-      <pubDate>Sun, 11 Oct 2026 19:44:37 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.g4media.ro/ministrul-german-al-economiei-este-blocat-la-riad-dupa-atacurile-impotriva-aeroportului.html">G4Media, Digi24 Extern, Antena 3 CNN</source>
-      <description>Ministrul german al economiei, Katherina Reiche, se află în imposibilitatea de a părăsi Riadul din cauza unui atac mortal asupra aeroportului internațional, atribuit rebelilor houthi din Yemen. Oficialul german își va prelungi ședința̦ în Arabia Saudită cel puțin până marți, conform anunțului transmis de Ministerul Economiei din Germania.</description>
     </item>
 </channel></rss>

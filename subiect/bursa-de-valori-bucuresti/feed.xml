@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bursa-de-valori-bucuresti/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bursa de Valori București pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 15:58:40 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 21:26:19 +0000</lastBuildDate>
+    <item>
+      <title>Electrica vrea un credit de 355 milioane euro de la BEI</title>
+      <link>https://izz.ro/economic/electrica-vrea-un-credit-de-355-milioane-euro-de-la-bei/</link>
+      <guid>https://izz.ro/economic/electrica-vrea-un-credit-de-355-milioane-euro-de-la-bei/</guid>
+      <pubDate>Mon, 19 Oct 2026 17:02:23 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/electrica-vrea-sa-atraga-un-imprumut-de-355-mil-de-euro-de-la-bei-si-investitii-de-185-mil-de-euro-in-stocarea-energiei.html">Economedia</source>
+      <media:content url="https://izz.ro/economic/electrica-vrea-un-credit-de-355-milioane-euro-de-la-bei/cover.jpg?v=6a53baec" medium="image" type="image/jpeg"/>
+      <description>Compania Electrica SA intenționează să contracteze un împrumut uriaș de la Banca Europeană de Investiții și să investească 185 de milioane de euro în tehnologii pentru stocarea energiei electrice.</description>
+    </item>
     <item>
       <title>Bursa de Valori București a deschis săptămâna în creștere pe indicele BET</title>
       <link>https://izz.ro/economic/bursa-de-valori-bucuresti-a-deschis-saptamana-in-crestere-pe-indicele-bet/</link>
@@ -142,23 +152,5 @@
       <category>economic</category>
       <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-finante-personale-top-5-bet-de-anul-acesta-23256246">Ziarul Financiar</source>
       <description>După un început de an marcat de maxime istorice, piața de capital din România a devenit instabilă din cauza incertitudinilor guvernamentale și a evaluărilor agențiilor de rating.</description>
-    </item>
-    <item>
-      <title>Bursa de Valori București a scăzut cu 1% după cinci ședințe pe plus</title>
-      <link>https://izz.ro/economic/bursa-de-valori-bucuresti-a-scazut-cu-1-dupa-cinci-sedinte-pe-plus/</link>
-      <guid>https://izz.ro/economic/bursa-de-valori-bucuresti-a-scazut-cu-1-dupa-cinci-sedinte-pe-plus/</guid>
-      <pubDate>Wed, 07 Oct 2026 21:07:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-finante-personale-bursa-de-la-bucuresti-scade-cu-1-miercuri-si-intrerupe-raliul-dupa-cinci-sedinte-de-crestere-si-un-castig-de-10-23255534">Ziarul Financiar</source>
-      <description>Indicele BET al Bursei de Valori București a înregistrat o depreciere de 1% în ședința de miercuri, întrerupând o serie de creșteri consecutive care aduseseră un randament de zece la sută.</description>
-    </item>
-    <item>
-      <title>Tranzacția masivă cu acțiuni Premier Energy a întrerupt creșterea indicelui BET</title>
-      <link>https://izz.ro/economic/tranzactia-masiva-cu-actiuni-premier-energy-a-intrerupt-cresterea-indicelui-bet/</link>
-      <guid>https://izz.ro/economic/tranzactia-masiva-cu-actiuni-premier-energy-a-intrerupt-cresterea-indicelui-bet/</guid>
-      <pubDate>Wed, 07 Oct 2026 16:16:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/financiar/piata-de-capital/tranzactie-mamut-cu-actiuni-premier-energy-indicele-bet-pierde-un-procent-grafic-22808785?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>B bursa de la București a înregistrat o scădere a indicelui principal după ce o serie de cinci ședințe consecutive de aprecieri a fost oprită de un volum uriaș de transferuri pe titlurile Premier Energy.</description>
     </item>
 </channel></rss>

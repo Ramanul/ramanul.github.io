@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/italia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Italia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 15:58:41 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 21:26:19 +0000</lastBuildDate>
+    <item>
+      <title>Italia este afectată de proteste ample și blocaje rutiere</title>
+      <link>https://izz.ro/extern/italia-este-afectata-de-proteste-ample-si-blocaje-rutiere/</link>
+      <guid>https://izz.ro/extern/italia-este-afectata-de-proteste-ample-si-blocaje-rutiere/</guid>
+      <pubDate>Mon, 19 Oct 2026 20:41:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/italia-este-zguduita-de-proteste-in-nord-si-sud-guvernul-meloni-trimite-500-de-soldati-pe-strazile-din-milano-807824.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/extern/italia-este-afectata-de-proteste-ample-si-blocaje-rutiere/cover.jpg?v=82e02c56" medium="image" type="image/jpeg"/>
+      <description>Guvernul condus de Giorgia Meloni a decis mobilizarea a 500 de soldați în Milano, în timp ce fermierii și transportatorii au blocat artere rutiere importante din cauza prețurilor ridicate la carburanți.</description>
+    </item>
     <item>
       <title>Un patron român din Italia a oferit contract permanent unei angajate însărcinate</title>
       <link>https://izz.ro/general/un-patron-roman-din-italia-a-oferit-contract-permanent-unei-angajate-insarcinate/</link>
@@ -454,14 +464,5 @@
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
       <description>Guvernul condus de Giorgia Meloni susține că modificările legislative vor aduce stabilitate politică executivului. În schimb, partidele din opoziție critică vehement inițiativa, catalogând-o drept o manevră pentru menținerea la putere.</description>
-    </item>
-    <item>
-      <title>Italia solicită Uniunii Europene includerea inflației în evaluarea bugetară</title>
-      <link>https://izz.ro/politic/italia-solicita-uniunii-europene-includerea-inflatiei-in-evaluarea-bugetara/</link>
-      <guid>https://izz.ro/politic/italia-solicita-uniunii-europene-includerea-inflatiei-in-evaluarea-bugetara/</guid>
-      <pubDate>Wed, 07 Oct 2026 20:44:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.antena3.ro/externe/italia-sustine-ca-ue-trebuie-sa-tina-cont-de-inflatie-cand-evalueaza-abaterile-de-la-buget-806250.html">Antena 3 CNN</source>
-      <description>Ministrul italian al Economiei, Giancarlo Giorgetti, a cerut ca instituțiile Uniunii Europene să ia în calcul creșterea inflației atunci când analizează abaterile guvernelor de la țintele bugetare.</description>
     </item>
 </channel></rss>
