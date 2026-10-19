@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/sport/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Sport pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 23:27:37 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 01:35:07 +0000</lastBuildDate>
+    <item>
+      <title>Controverse privind arbitrajul la meciul Bologna - Inter</title>
+      <link>https://izz.ro/sport/controverse-privind-arbitrajul-la-meciul-bologna-inter/</link>
+      <guid>https://izz.ro/sport/controverse-privind-arbitrajul-la-meciul-bologna-inter/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:59 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/ultimora/caputi-thuram-darmian-bologna-inter/">FC Inter 1908</source>
+      <media:content url="https://izz.ro/sport/controverse-privind-arbitrajul-la-meciul-bologna-inter/cover.jpg?v=08dcd273" medium="image" type="image/jpeg"/>
+      <description>Jurnalistul Massimo Caputi a criticat deciziile de arbitraj din partida dintre Bologna și Inter, semnalând neacordarea unui penalty și un cartonaj galben eronat acordat lui Thuram.</description>
+    </item>
     <item>
       <title>Fostul arbitru Luca Marelli a confirmat că Inter a fost privată de un penalty în meciul cu Bologna</title>
       <link>https://izz.ro/sport/fostul-arbitru-luca-marelli-a-confirmat-ca-inter-a-fost-privata-de-un-penalty/</link>
@@ -495,15 +505,5 @@
       <source url="https://www.sport.ro/liga-1/marius-sumudica-nu-s-a-ferit-de-cuvinte-dupa-uta-cfr-cluj-1-0-viitorul-e-dificil.html">Sport.ro</source>
       <media:content url="https://izz.ro/sport/marius-sumudica-a-analizat-parcursul-echipei-uta-dupa-meciul-cu-cfr-cluj/cover.jpg?v=002a7d18" medium="image" type="image/jpeg"/>
       <description>Tehnicianul a comentat rezultatul de la partida contând pentru etapa a 12-a din SuperLiga, exprimându-și îngrijorarea cu privire la viitorul competițional al formației arădene.</description>
-    </item>
-    <item>
-      <title>Atacantul român de la Sampdoria marchează constant și luptă pentru titlu</title>
-      <link>https://izz.ro/sport/atacantul-roman-de-la-sampdoria-marcheaza-constant-si-lupta-pentru-titlu/</link>
-      <guid>https://izz.ro/sport/atacantul-roman-de-la-sampdoria-marcheaza-constant-si-lupta-pentru-titlu/</guid>
-      <pubDate>Sun, 18 Oct 2026 17:36:32 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.sport.ro/stranieri/gol-dupa-gol-pentru-atacantul-roman-de-la-sampdoria-a-marcat-din-nou-si-se-bate-la-titlu.html">Sport.ro</source>
-      <media:content url="https://izz.ro/sport/atacantul-roman-de-la-sampdoria-marcheaza-constant-si-lupta-pentru-titlu/cover.jpg?v=bb07a996" medium="image" type="image/jpeg"/>
-      <description>Un jucător ofensiv român legitimat la Sampdoria impresionează în Italia, înscriind din nou și menținându-se în lupta pentru trofeu cu echipa sa.</description>
     </item>
 </channel></rss>

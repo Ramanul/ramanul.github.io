@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/auto/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Auto pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 23:27:39 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 01:35:09 +0000</lastBuildDate>
     <item>
       <title>Acordul franco-german privind industria auto amenință vânzările mărcii Dacia</title>
       <link>https://izz.ro/auto/acordul-franco-german-privind-industria-auto-ameninta-vanzarile-marcii-dacia/</link>
@@ -85,6 +85,16 @@
       <source url="https://economedia.ro/volkswagen-retrage-mii-de-autoturisme-de-pe-piata-din-cauza-riscului-de-incendiu-al-bateriei-electrice.html">Economedia</source>
       <media:content url="https://izz.ro/auto/volkswagen-recheama-in-service-autoturisme-electrice-din-cauza-riscului-de/cover.jpg?v=ac57c1f6" medium="image" type="image/jpeg"/>
       <description>Producătorul auto german retrage un lot de mașini electrice de pe piață din cauza unor posibile defecte la baterii care ar putea genera incendii.</description>
+    </item>
+    <item>
+      <title>Mercedes-Benz a lansat noul model electric de performanță Mercedes-AMG GT SUV</title>
+      <link>https://izz.ro/auto/mercedes-benz-a-lansat-noul-model-electric-de-performanta-mercedes-amg-gt-suv/</link>
+      <guid>https://izz.ro/auto/mercedes-benz-a-lansat-noul-model-electric-de-performanta-mercedes-amg-gt-suv/</guid>
+      <pubDate>Sun, 18 Oct 2026 05:52:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.automarket.ro/stiri/noul-mercedes-amg-gt-suv-este-aici-3-motoare-electrice-de-1169-cp-129107.html">AutoMarket</source>
+      <media:content url="https://izz.ro/auto/mercedes-benz-a-lansat-noul-model-electric-de-performanta-mercedes-amg-gt-suv/cover.jpg?v=898040b3" medium="image" type="image/jpeg"/>
+      <description>Divizia sportivă Mercedes-AMG a prezentat un nou SUV electric de înaltă performanță, echipat cu trei motoare electrice care dezvoltă o putere totală de 1.169 de cai putere.</description>
     </item>
     <item>
       <title>Inginerii germani dezvoltă primul autocar electric de cursă lungă cu o autonomie de 500 km</title>
@@ -462,14 +472,5 @@
       <category>auto</category>
       <source url="https://www.economica.net/tesla-roadster-noua-generatie-ar-putea-fi-lansata-astazi-in-sua-surse-reuters_985998.html">Economica</source>
       <description>Prototipul sportivului Tesla Roadster, prezentat inițial în 2017 cu un preț de 200.000 de dolari și un avans de 50.000, ar putea fi lansat oficial pe piața americană conform unor surse Reuters.</description>
-    </item>
-    <item>
-      <title>Patru modele auto obțin cinci stele la noile teste de siguranță Euro NCAP</title>
-      <link>https://izz.ro/auto/patru-modele-auto-obtin-cinci-stele-la-noile-teste-de-siguranta-euro-ncap/</link>
-      <guid>https://izz.ro/auto/patru-modele-auto-obtin-cinci-stele-la-noile-teste-de-siguranta-euro-ncap/</guid>
-      <pubDate>Thu, 15 Oct 2026 12:53:50 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.autocritica.ro/live-news/euro-ncap-5-stele-pentru-audi-q7-kia-ev2-xpeng-x9-si-byd-shark/">AutoCritica</source>
-      <description>Organizația Europeană de Securitate Rutieră a evaluat cinci autovehicule conform standardelor actualizate pentru 2026, acordând calificativul maxim pentru Audi Q7, Kia EV2, Xpeng X9 și BYD Shark.</description>
     </item>
 </channel></rss>

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Uniunea Europeană — IZZ.ro</title>
+  <title>Uniunea Europeana — IZZ.ro</title>
   <link>https://izz.ro/subiect/uniunea-europeana/</link>
   <atom:link href="https://izz.ro/subiect/uniunea-europeana/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Uniunea Europeană pe IZZ.ro</description>
+  <description>Știri despre Uniunea Europeana pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 23:27:30 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 01:34:59 +0000</lastBuildDate>
+    <item>
+      <title>Tarifele UE împotriva Chinei afectează oțelul din Ucraina</title>
+      <link>https://izz.ro/economic/tarifele-ue-impotriva-chinei-afecteaza-otelul-din-ucraina/</link>
+      <guid>https://izz.ro/economic/tarifele-ue-impotriva-chinei-afecteaza-otelul-din-ucraina/</guid>
+      <pubDate>Sun, 18 Oct 2026 23:28:45 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.bbc.co.uk/news/articles/cwdd8z6gyy96o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <media:content url="https://izz.ro/economic/tarifele-ue-impotriva-chinei-afecteaza-otelul-din-ucraina/cover.jpg?v=c4822e79" medium="image" type="image/jpeg"/>
+      <description>Directorul unei mari oțelării din Ucraina avertizează că măsurile europene destinate limitării importurilor ieftine din China afectează negativ și economia ucraineană.</description>
+    </item>
     <item>
       <title>Dan Șucu cere la Bruxelles menținerea politicii de coeziune pentru dezvoltarea companiilor europene</title>
       <link>https://izz.ro/economic/dan-sucu-cere-la-bruxelles-mentinerea-politicii-de-coeziune-pentru-dezvoltarea/</link>
@@ -73,7 +83,7 @@
       <pubDate>Sun, 18 Oct 2026 13:19:00 +0000</pubDate>
       <category>general</category>
       <source url="https://www.profit.ro/povesti-cu-profit/agribusiness/sondaj-cati-romani-vor-eliberarea-mai-rapida-a-gainilor-22854963?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/general/sondaj-european-privind-eliminarea-custilor-pentru-gainile-ouatoare/cover.jpg?v=46087b36" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/general/sondaj-european-privind-eliminarea-custilor-pentru-gainile-ouatoare/cover.jpg?v=4f33153c" medium="image" type="image/jpeg"/>
       <description>Un studiu publicat de asociația FREE arată că majoritatea consumatorilor din Uniunea Europeană susțin interzicerea timpurie a sistemelor de creștere în cuști, cu zece ani înainte de termenul dorit de reprezentanții industriei de profil.</description>
     </item>
     <item>
@@ -173,7 +183,6 @@
       <pubDate>Sat, 17 Oct 2026 08:00:19 +0000</pubDate>
       <category>economic</category>
       <source url="https://economedia.ro/romania-pe-ultimul-loc-in-ue-la-numarul-de-innoptari-turistice-pe-cap-de-locuitor-in-2025.html">Economedia</source>
-      <media:content url="https://izz.ro/economic/romania-s-a-clasat-pe-ultimul-loc-in-uniunea-europeana-la-innoptarile-turistice/cover.jpg?v=c9eed7c1" medium="image" type="image/jpeg"/>
       <description>Datele statistice publicate recent arată că turismul european a crescut semnificativ anul trecut, însă România a înregistrat cel mai redus număr mediu de nopți petrecute de turiști raportat la numărul locuitorilor.</description>
     </item>
     <item>
@@ -463,14 +472,5 @@
       <category>politic</category>
       <source url="https://observatornews.ro/extern/batalie-pentru-banii-europeni-la-bruxelles-romania-si-alte-16-tari-se-opun-reducerii-fondurilor-669241.html">Observator</source>
       <description>Un grup de 17 țări coordonat de România a solicitat la summitul de la Bruxelles menținerea fondurilor pentru agricultură și infrastructură în viitorul buget comunitar 2028-2034, în opoziție cu pretențiile statelor contributoare nete.</description>
-    </item>
-    <item>
-      <title>Ursula von der Leyen propune rezerve strategice de gaze la nivelul Uniunii Europene</title>
-      <link>https://izz.ro/extern/ursula-von-der-leyen-propune-rezerve-strategice-de-gaze-la-nivelul-uniunii/</link>
-      <guid>https://izz.ro/extern/ursula-von-der-leyen-propune-rezerve-strategice-de-gaze-la-nivelul-uniunii/</guid>
-      <pubDate>Thu, 15 Oct 2026 16:53:57 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/von-der-leyen-floats-eu-strategic-reserves-for-gas-amid-winter-supply-fears/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Șefa Comisiei Europene solicită liderilor din UE crearea unor stocuri centralizate pentru a preveni o criză severă de aprovizionare în timpul iernii, cauzată de prețurile ridicate și conflictul din Iran.</description>
     </item>
 </channel></rss>
