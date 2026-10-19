@@ -5,16 +5,23 @@
   "articles_with_provenance": 1,
   "catalog_records": 2,
   "coverage": {
-    "denominator": 8853,
+    "denominator": 8797,
     "numerator": 2
+  },
+  "dossiers": {
+    "emitted": 1,
+    "indexable": 1,
+    "prepared_at": "2026-10-19T15:58:19.050586+00:00",
+    "suppressed": [],
+    "withdrawn": 0
   },
   "draft": 0,
   "examined_resources": 1,
   "examined_sources": 1,
   "fresh": 2,
-  "generated_at": "2026-10-19T08:04:54.492174+00:00",
+  "generated_at": "2026-10-19T15:58:19.050586+00:00",
   "needs_review": 0,
-  "publishable_articles": 8853,
+  "publishable_articles": 8797,
   "resources_current": 0,
   "resources_expired": 1,
   "resources_without_deadline": 0,

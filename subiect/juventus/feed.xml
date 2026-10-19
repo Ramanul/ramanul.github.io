@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/juventus/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Juventus pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 08:05:19 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 15:58:41 +0000</lastBuildDate>
+    <item>
+      <title>Luciano Spalletti este criticat dur după eșecul lui Juventus cu Lazio</title>
+      <link>https://izz.ro/sport/luciano-spalletti-este-criticat-dur-dupa-esecul-lui-juventus-cu-lazio/</link>
+      <guid>https://izz.ro/sport/luciano-spalletti-este-criticat-dur-dupa-esecul-lui-juventus-cu-lazio/</guid>
+      <pubDate>Mon, 19 Oct 2026 14:52:10 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/luciano-spalletti-atacat-tacchinardi-juventus-pierdut-identitatea-conte-veni-pe-jos-989924.html">GSP</source>
+      <media:content url="https://izz.ro/sport/luciano-spalletti-este-criticat-dur-dupa-esecul-lui-juventus-cu-lazio/cover.jpg?v=95047515" medium="image" type="image/jpeg"/>
+      <description>Înfrângerea categorică suferită de Juventus pe teren propriu în fața celor de la Lazio a generat proteste din partea fanilor și a readus în discuție posibila numire a lui Antonio Conte pe banca tehnică.</description>
+    </item>
     <item>
       <title>Gleison Bremer critică atitudinea coechipierilor după eșecul suferit cu Lazio</title>
       <link>https://izz.ro/sport/gleison-bremer-critica-atitudinea-coechipierilor-dupa-esecul-suferit-cu-lazio/</link>
@@ -27,16 +37,6 @@
       <description>După înfrângerea scor 3-0 cu Lazio, portarul Guglielmo Vicario a declarat că întreg lotul și stafful tehnic trebuie să împartă vina pentru rezultatul slab, fără căutarea de alibiuri.</description>
     </item>
     <item>
-      <title>Luciano Spalletti critică dur evoluția echipei Juventus după meciul cu Lazio</title>
-      <link>https://izz.ro/sport/luciano-spalletti-critica-dur-evolutia-echipei-juventus-dupa-meciul-cu-lazio/</link>
-      <guid>https://izz.ro/sport/luciano-spalletti-critica-dur-evolutia-echipei-juventus-dupa-meciul-cu-lazio/</guid>
-      <pubDate>Sun, 18 Oct 2026 21:42:55 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.fcinter1908.it/news/interviste/juventus-lazio-0-3-spalletti-sorpreso-atteggiamento-cambiare/">FC Inter 1908</source>
-      <media:content url="https://izz.ro/sport/luciano-spalletti-critica-dur-evolutia-echipei-juventus-dupa-meciul-cu-lazio/cover.jpg?v=b8a77253" medium="image" type="image/jpeg"/>
-      <description>Antrenorul Luciano Spalletti s-a arătat surprins de prestația modestă a elevilor săi în eșecul cu 3-0 din meciul împotriva formației Lazio, acuzând lipsa ideilor și a determinării.</description>
-    </item>
-    <item>
       <title>Juventus întâlnește Lazio pe teren propriu în etapa a șaptea din Serie A</title>
       <link>https://izz.ro/sport/juventus-intalneste-lazio-pe-teren-propriu-in-etapa-a-saptea-din-serie-a/</link>
       <guid>https://izz.ro/sport/juventus-intalneste-lazio-pe-teren-propriu-in-etapa-a-saptea-din-serie-a/</guid>
@@ -53,7 +53,6 @@
       <pubDate>Sun, 18 Oct 2026 05:14:01 +0000</pubDate>
       <category>sport</category>
       <source url="https://www.prosport.ro/fotbal-extern/juventus-salvare-daniel-birligea-frosinone-antonio-raimondo-anunt-international-roman-20549923">ProSport</source>
-      <media:content url="https://izz.ro/sport/juventus-ar-putea-fi-noua-destinatie-pentru-atacantul-daniel-birligea/cover.jpg?v=b8a77253" medium="image" type="image/jpeg"/>
       <description>Presa italiană menționează posibilitatea unui transfer la Juventus pentru internaționalul român. Mutarea este favorizată de contextul concurenței puternice pe care acesta o întâmpină la Frosinone.</description>
     </item>
     <item>
@@ -163,14 +162,5 @@
       <category>sport</category>
       <source url="https://www.fcinter1908.it/serie-a/giocatori-italiani-minuti-inter-como-juve-milan-confronto/">FC Inter 1908</source>
       <description>O analiză a primelor etape din campionatul italian arată că Inter a adunat cele mai multe minute jucate de fotbaliști italieni, depășind cumulat Juventus, AC Milan și Como, în ciuda faptului că a utilizat doar patru astfel de sportivi.</description>
-    </item>
-    <item>
-      <title>Juventus și Inter îl doresc pe mijlocașul Alessandro Romano</title>
-      <link>https://izz.ro/sport/juventus-si-inter-il-doresc-pe-mijlocasul-alessandro-romano/</link>
-      <guid>https://izz.ro/sport/juventus-si-inter-il-doresc-pe-mijlocasul-alessandro-romano/</guid>
-      <pubDate>Wed, 07 Oct 2026 08:45:58 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.fcinter1908.it/calciomercato/mercato-inter/romano-inter-juve-prezzo-triplicato/">FC Inter 1908</source>
-      <description>Tânărul mijlocaș Alessandro Romano a atras atenția cluburilor Juventus și Inter după evoluțiile bune de la Cagliari și din reprezentativa under a Italiei, cota sa de piață crescând considerabil.</description>
     </item>
 </channel></rss>

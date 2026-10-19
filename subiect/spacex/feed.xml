@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/spacex/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SpaceX pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 18 Oct 2026 11:23:25 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 15:58:41 +0000</lastBuildDate>
+    <item>
+      <title>SUA amenință Europa cu sancțiuni dacă limitează accesul SpaceX</title>
+      <link>https://izz.ro/extern/sua-ameninta-europa-cu-sanctiuni-daca-limiteaza-accesul-spacex/</link>
+      <guid>https://izz.ro/extern/sua-ameninta-europa-cu-sanctiuni-daca-limiteaza-accesul-spacex/</guid>
+      <pubDate>Mon, 19 Oct 2026 14:59:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/sua-avertizeaza-europa-ca-va-plati-scump-daca-limiteaza-accesul-spacex-pe-piata-europeana-669645.html">Observator</source>
+      <media:content url="https://izz.ro/extern/sua-ameninta-europa-cu-sanctiuni-daca-limiteaza-accesul-spacex/cover.jpg?v=41d497c3" medium="image" type="image/jpeg"/>
+      <description>Washingtonul avertizează Uniunea Europeană că va aplica represalii dure companiilor locale dacă Bruxellesul va avantaja firmele europene în detrimentul gigantului american SpaceX, condus de Elon Musk.</description>
+    </item>
+    <item>
+      <title>SUA avertizează Europa privind sancționarea serviciilor de tip Starlink</title>
+      <link>https://izz.ro/tech/sua-avertizeaza-europa-privind-sanctionarea-serviciilor-de-tip-starlink/</link>
+      <guid>https://izz.ro/tech/sua-avertizeaza-europa-privind-sanctionarea-serviciilor-de-tip-starlink/</guid>
+      <pubDate>Mon, 19 Oct 2026 10:15:52 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/19/sua-ameninta-ca-europa-va-suferi-consecinte-devastatoare-daca-impune-sanctiuni-serviciilor-precum-starlink/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/sua-avertizeaza-europa-privind-sanctionarea-serviciilor-de-tip-starlink/cover.jpg?v=815a00f6" medium="image" type="image/jpeg"/>
+      <description>Ambasadorul american în Europa a declarat că statele europene riscă consecințe majore dacă Uniunea Europeană va restricționa operarea serviciilor de internet prin satelit precum Starlink, în favoarea unor alternative proprii.</description>
+    </item>
     <item>
       <title>Tesla testează noul Roadster cu propulsoare SpaceX în Texas</title>
       <link>https://izz.ro/tech/tesla-testeaza-noul-roadster-cu-propulsoare-spacex-in-texas/</link>
@@ -13,7 +33,6 @@
       <pubDate>Sat, 17 Oct 2026 07:51:47 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.dobrogeaonline.ro/tesla-testeaza-roadsterul-echipat-cu-propulsoare-spacex-cand-incepe-productia-si-cat-costa-rezervarea/">Dobrogea Online</source>
-      <media:content url="https://izz.ro/tech/tesla-testeaza-noul-roadster-cu-propulsoare-spacex-in-texas/cover.jpg?v=6f696a95" medium="image" type="image/jpeg"/>
       <description>Prototipul dezvoltat în colaborare cu compania lui Elon Musk a fost prezentat la centrul din McGregor prin teste care au inclus ridicarea și manevrarea vehiculului cu ajutorul unor propulsoare cu gaz rece.</description>
     </item>
     <item>
@@ -33,15 +52,6 @@
       <category>auto</category>
       <source url="https://www.nwradu.ro/2026/10/tesla-prezentat-viitorul-roadster-poate-zbura-folosind-jeturi-propulsoare/">NwRadu, Spotmedia</source>
       <description>Tesla a prezentat noul model Roadster în cadrul unui eveniment organizat la baza SpaceX din Waco, Texas. Vehiculul electric va fi disponibil în trei versiuni de echipare: Performance, Thrust și Rocket, ultima fiind dotată cu propulsoare pentru manevre aeriene pe distanțe scurte. Mașina atinge o accelerație de la 0 la 100 km/h în sub 0,59 secunde în configurația de top. Producția este programată să înceapă în 2028, prețul final nefiind încă comunicat oficial.</description>
-    </item>
-    <item>
-      <title>Ucraina depinde critic de informațiile militare și tehnologia oferite exclusiv de Statele Unite</title>
-      <link>https://izz.ro/extern/ucraina-depinde-critic-de-informatiile-militare-si-tehnologia-oferite-exclusiv/</link>
-      <guid>https://izz.ro/extern/ucraina-depinde-critic-de-informatiile-militare-si-tehnologia-oferite-exclusiv/</guid>
-      <pubDate>Thu, 15 Oct 2026 19:27:33 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/armele-si-informatiile-pe-care-numai-americanii-le-pot-oferi-ucrainei-3994571">Digi24 Extern</source>
-      <description>Avertismentele liderului ucrainean Volodimir Zelenski arată că retragerea sprijinului american ar lăsa Kievul fără apărare aeriană și capacități de comunicații prin satelit, în lipsa unor alternative viabile.</description>
     </item>
     <item>
       <title>Armata ucraineană anunță reluarea comunicațiilor militare prin sistemul Starshield</title>
@@ -105,14 +115,5 @@
       <category>politic</category>
       <source url="https://observatornews.ro/extern/elon-musk-a-devenit-cel-mai-mare-finantator-al-republicanilor-668908.html">Observator</source>
       <description>Miliardarul Elon Musk a donat aproape 366 de milioane de dolari pentru susținerea taberei republicane din Statele Unite, sumă destinată în mare parte campaniilor electorale pentru Congres.</description>
-    </item>
-    <item>
-      <title>SpaceX acuză operatorii rivali de sateliți pentru riscurile de coliziune cu rețeaua Starlink</title>
-      <link>https://izz.ro/tech/spacex-acuza-operatorii-rivali-de-sateliti-pentru-riscurile-de-coliziune-cu/</link>
-      <guid>https://izz.ro/tech/spacex-acuza-operatorii-rivali-de-sateliti-pentru-riscurile-de-coliziune-cu/</guid>
-      <pubDate>Wed, 07 Oct 2026 15:34:13 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.digi24.ro/stiri/externe/spacex-critica-operatorii-care-lanseaza-sateliti-dar-nu-le-dezvaluie-traiectoria-risc-de-coliziune-cu-reteaua-starlink-3982775">Digi24 Extern</source>
-      <description>Compania SpaceX a criticat dur operatorii spațiali concurenți care nu dezvăluie traiectoriile exacte ale sateliților lansați, provocând situații periculoase de aproape-coliziune pe orbita Pământului.</description>
     </item>
 </channel></rss>

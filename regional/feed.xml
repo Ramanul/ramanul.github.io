@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/regional/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Regional pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 08:05:20 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 15:58:41 +0000</lastBuildDate>
+    <item>
+      <title>Vremea se va răci accentuat în Oltenia, urmată de precipitații</title>
+      <link>https://izz.ro/regional/vremea-se-va-raci-accentuat-in-oltenia-urmata-de-precipitatii/</link>
+      <guid>https://izz.ro/regional/vremea-se-va-raci-accentuat-in-oltenia-urmata-de-precipitatii/</guid>
+      <pubDate>Mon, 19 Oct 2026 12:01:11 +0000</pubDate>
+      <category>regional</category>
+      <source url="https://cronicaolteniei.ro/cum-va-fi-vremea-in-oltenia-in-urmatoarele-doua-saptamani-cand-se-raceste-si-in-ce-zile-sunt-asteptate-ploile/">Cronica Olteniei</source>
+      <media:content url="https://izz.ro/regional/vremea-se-va-raci-accentuat-in-oltenia-urmata-de-precipitatii/cover.jpg?v=9c13510a" medium="image" type="image/jpeg"/>
+      <description>Meteorologii anunță o scădere bruscă a temperaturilor în regiunea Olteniei, cu maxime ce pot ajunge la 19 grade Celsius, urmată de un nou episod de ploi spre finalul perioadei analizate.</description>
+    </item>
     <item>
       <title>Deserturile tradiționale de toamnă readuc gustul copilăriei în Bucovina</title>
       <link>https://izz.ro/regional/deserturile-traditionale-de-toamna-readuc-gustul-copilariei-in-bucovina/</link>
@@ -53,7 +63,6 @@
       <pubDate>Sun, 18 Oct 2026 05:20:15 +0000</pubDate>
       <category>regional</category>
       <source url="https://stirileprotv.ro/stiri/vremea/vremea-azi-18-octombrie-temperaturile-ajung-la-21-de-grade-in-oltenia-unde-sunt-asteptate-ploi-si-ninsori.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/regional/prognoza-meteo-temperaturi-de-pana-la-21-de-grade-in-oltenia-si-vreme-rece-in/cover.jpg?v=ec3f3e8b" medium="image" type="image/jpeg"/>
       <description>Meteorologii anunță o încălzire a vremii în regiunile de vest și sud ale țării, cu maxime ce vor atinge 21 de grade Celsius în Oltenia, în timp ce în estul Transilvaniei și în Bucovina valorile termice vor fi scăzute.</description>
     </item>
     <item>
@@ -63,7 +72,6 @@
       <pubDate>Sat, 17 Oct 2026 18:28:00 +0000</pubDate>
       <category>regional</category>
       <source url="https://observatornews.ro/eveniment/reteta-dusa-din-generatie-in-generatie-a-singurului-diplomat-culinar-din-romania-trebuie-sa-ajunga-pe-mese-669484.html">Observator</source>
-      <media:content url="https://izz.ro/regional/romana-ristea-salveaza-retetele-traditionale-uitate-din-banat/cover.jpg?v=a143c48c" medium="image" type="image/jpeg"/>
       <description>Singurul diplomat culinar din România călătorește prin satele bănățene pentru a descoperi preparate vechi și povești de familie, asumându-și misiunea de a readuce în atenția publicului mâncăruri uitate precum 'păturata pe crumpi'.</description>
     </item>
     <item>
@@ -164,14 +172,5 @@
       <category>regional</category>
       <source url="https://zch.ro/vremea-moldova-ploi-racire-8-15-octombrie-2026/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
       <description>Regiunea Moldova va înregistra temperaturi ridicate până duminică, urmată de precipitații și o răcire bruscă începând de luni, cu minime care pot coborî până la zero grade.</description>
-    </item>
-    <item>
-      <title>Publicația The Sun plasează Transilvania în topul destinațiilor turstice</title>
-      <link>https://izz.ro/regional/publicatia-the-sun-plaseaza-transilvania-in-topul-destinatiilor-turstice/</link>
-      <guid>https://izz.ro/regional/publicatia-the-sun-plaseaza-transilvania-in-topul-destinatiilor-turstice/</guid>
-      <pubDate>Wed, 07 Oct 2026 08:44:00 +0000</pubDate>
-      <category>regional</category>
-      <source url="https://www.antena3.ro/life/timp-liber/transilvania-prima-destinatie-de-tip-cenusareasa-in-preferintele-britanicilor-dincolo-de-vampiri-si-dracula-istoria-e-fascinanta-806133.html">Antena 3 CNN</source>
-      <description>Jurnaliștii britanici de la The Sun recomandă Transilvania drept prima destinație turistică de tip Cenușăreasa din lume, lăudând bogăția istorică dincolo de mitul lui Dracula.</description>
     </item>
 </channel></rss>

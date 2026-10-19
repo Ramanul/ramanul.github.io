@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Nvidia — IZZ.ro</title>
+  <title>NVIDIA — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Nvidia pe IZZ.ro</description>
+  <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 08:05:19 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 15:58:41 +0000</lastBuildDate>
+    <item>
+      <title>Volvo extinde parteneriatul cu NVIDIA pentru dezvoltarea sistemelor de conducere autonomă</title>
+      <link>https://izz.ro/auto/volvo-extinde-parteneriatul-cu-nvidia-pentru-dezvoltarea-sistemelor-de/</link>
+      <guid>https://izz.ro/auto/volvo-extinde-parteneriatul-cu-nvidia-pentru-dezvoltarea-sistemelor-de/</guid>
+      <pubDate>Mon, 19 Oct 2026 14:00:07 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.autocritica.ro/live-news/volvo-colaborare-cu-nvidia-pentru-o-noua-tehnologie-de-rulare-autonoma/">AutoCritica</source>
+      <media:content url="https://izz.ro/auto/volvo-extinde-parteneriatul-cu-nvidia-pentru-dezvoltarea-sistemelor-de/cover.jpg?v=3c5cae1c" medium="image" type="image/jpeg"/>
+      <description>Producătorul auto suedez va utiliza tehnologii bazate pe inteligență artificială furnizate de NVIDIA pentru viitoarele sale modele electrice, în cadrul unui amplu plan de lansări programat până în 2030.</description>
+    </item>
     <item>
       <title>Nvidia infirmat zvonurile privind renunțarea la placa video RTX 5090</title>
       <link>https://izz.ro/tech/nvidia-infirmat-zvonurile-privind-renuntarea-la-placa-video-rtx-5090/</link>
@@ -105,14 +115,5 @@
       <category>tech</category>
       <source url="https://start-up.ro/asus-a-deschis-precomenzile-pentru-laptop-urile-cu-nvidia-rtx-spark-preturile-pornesc-de-la-17-999-de-lei/">Start-up.ro, ZonaIT</source>
       <description>Producătorul ASUS a lansat sesiunea de precomenzi pentru laptopurile ProArt P16 și P14, echipate cu noua arhitectură NVIDIA RTX Spark și destinate creatorilor de conținut și dezvoltatorilor de inteligență artificială. Primele livrări pentru aceste sisteme dotate cu memorie unificată și GPU puternic sunt programate să înceapă la mijlocul lunii octombrie 2026.</description>
-    </item>
-    <item>
-      <title>Prețurile viitoarelor laptopuri HP OmniBook cu Nvidia RTX Spark au fost divulgate</title>
-      <link>https://izz.ro/tech/preturile-viitoarelor-laptopuri-hp-omnibook-cu-nvidia-rtx-spark-au-fost/</link>
-      <guid>https://izz.ro/tech/preturile-viitoarelor-laptopuri-hp-omnibook-cu-nvidia-rtx-spark-au-fost/</guid>
-      <pubDate>Wed, 07 Oct 2026 12:22:08 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://start-up.ro/preturile-hp-omnibook-cu-nvidia-rtx-spark-apar-inainte-de-lansare/">Start-up.ro</source>
-      <description>Modelele HP OmniBook X 14 și OmniBook Ultra 16, echipate cu plăci video Nvidia RTX Spark, vor fi comercializate la prețuri de pornire de la 2.999,99 dolari, respectiv 3.199,99 dolari.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 08:05:19 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 15:58:40 +0000</lastBuildDate>
+    <item>
+      <title>Ucraina acuză accesul limitat la Starlink, afectând interceptarea dronelor rusești</title>
+      <link>https://izz.ro/extern/ucraina-acuza-accesul-limitat-la-starlink-afectand-interceptarea-dronelor/</link>
+      <guid>https://izz.ro/extern/ucraina-acuza-accesul-limitat-la-starlink-afectand-interceptarea-dronelor/</guid>
+      <pubDate>Mon, 19 Oct 2026 15:44:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/armata-ucraineana-are-acces-limitat-la-reteaua-starlink-zelenski-ne-limiteaza-utilizarea-mai-multor-tipuri-de-drone-807792.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/extern/ucraina-acuza-accesul-limitat-la-starlink-afectand-interceptarea-dronelor/cover.jpg?v=c1b59623" medium="image" type="image/jpeg"/>
+      <description>Președintele Volodimir Zelenski a anunțat că rețeaua de sateliți Starlink are o conectivitate restrânsă în mai multe zone ale frontului, ceea ce îngreunează semnificativ combaterea atacurilor aeriene inamice cu drone.</description>
+    </item>
+    <item>
+      <title>SUA avertizează Europa privind sancționarea serviciilor de tip Starlink</title>
+      <link>https://izz.ro/tech/sua-avertizeaza-europa-privind-sanctionarea-serviciilor-de-tip-starlink/</link>
+      <guid>https://izz.ro/tech/sua-avertizeaza-europa-privind-sanctionarea-serviciilor-de-tip-starlink/</guid>
+      <pubDate>Mon, 19 Oct 2026 10:15:52 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/19/sua-ameninta-ca-europa-va-suferi-consecinte-devastatoare-daca-impune-sanctiuni-serviciilor-precum-starlink/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/sua-avertizeaza-europa-privind-sanctionarea-serviciilor-de-tip-starlink/cover.jpg?v=815a00f6" medium="image" type="image/jpeg"/>
+      <description>Ambasadorul american în Europa a declarat că statele europene riscă consecințe majore dacă Uniunea Europeană va restricționa operarea serviciilor de internet prin satelit precum Starlink, în favoarea unor alternative proprii.</description>
+    </item>
     <item>
       <title>Autoritățile din Lituania investighează o tentativă de sabotaj asupra echipamentelor Starlink</title>
       <link>https://izz.ro/extern/autoritatile-din-lituania-investigheaza-o-tentativa-de-sabotaj-asupra/</link>
@@ -33,7 +53,6 @@
       <pubDate>Sun, 18 Oct 2026 05:21:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://hotnews.ro/marco-rubio-respinge-acuzatiile-kievului-privind-problemele-starlink-nimeni-de-la-casa-alba-nu-a-ordonat-asta-2378992">HotNews</source>
-      <media:content url="https://izz.ro/extern/marco-rubio-a-negat-implicarea-casei-albe-in-problemele-de-functionare-ale/cover.jpg?v=349b67e7" medium="image" type="image/jpeg"/>
       <description>Secretarul de stat american Marco Rubio a respins acuzațiile formulate de Kiev privind conexiunea internet Starlink, declarând că administrația de la Washington nu a ordonat nicio limitare a vitezei serviciului în Ucraina.</description>
     </item>
     <item>
@@ -43,7 +62,6 @@
       <pubDate>Sat, 17 Oct 2026 21:30:25 +0000</pubDate>
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/europa/starlink-vital-pentru-armata-ucraineana-ce-s-ar-2564707.html">Adevărul</source>
-      <media:content url="https://izz.ro/extern/restrictionarea-satelitilor-starlink-afecteaza-grav-armata-ucraineana-in/cover.jpg?v=ea7b100d" medium="image" type="image/jpeg"/>
       <description>Administrația Donald Trump a folosit pârghia comunicațiilor prin satelit Starlink pentru a presa Ucraina, limitând sprijinul esențial acordat armatei conduse de Volodimir Zelenski în timpul conflictului militar.</description>
     </item>
     <item>
@@ -53,7 +71,6 @@
       <pubDate>Sat, 17 Oct 2026 20:19:08 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/zelenski-acuza-o-operatiune-planificata-dupa-restrictiile-impuse-starlink-in-ucraina-ne-va-costa-vietile-multora-dintre-noi-3997137">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/zelenski-acuza-o-operatiune-planificata-privind-restrictiile-starlink-in-ucraina/cover.jpg?v=f555d064" medium="image" type="image/jpeg"/>
       <description>Președintele ucrainean Volodimir Zelenski susține că limitarea vitezei pentru serviciul Starlink în Ucraina reprezintă o acțiune deliberată care afectează negativ operațiunile militare și pune în pericol numeroase vieți.</description>
     </item>
     <item>
@@ -63,7 +80,6 @@
       <pubDate>Sat, 17 Oct 2026 19:33:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.antena3.ro/high-tech/starlink-varianta-europeana-ue-isi-construieste-propria-retea-de-sateliti-ce-este-iris-si-ce-rol-are-germania-807616.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/extern/uniunea-europeana-isi-dezvolta-propria-retea-de-sateliti-denumita-iris2/cover.jpg?v=d5b04ddc" medium="image" type="image/jpeg"/>
       <description>În urma problemelor întâmpinate de armata ucraineană cu sistemul Starlink, blocul comunitar accelerează proiectul propriei constelații de sateliți de comunicații sigure, având sprijinul Germaniei.</description>
     </item>
     <item>
@@ -245,14 +261,5 @@
       <category>tech</category>
       <source url="https://hotnews.ro/elon-musk-acuza-anumiti-oligarhi-ca-ii-blocheaza-afacerea-cu-internet-in-cea-mai-mare-tara-din-lume-2370295">HotNews</source>
       <description>Miliardarul american susține că introducerea internetului prin satelit Starlink în India este oprită intenționat de anumiți oameni de afaceri locali puternici, care doresc să își mențină monopolul pe piață.</description>
-    </item>
-    <item>
-      <title>SpaceX acuză operatorii rivali de sateliți pentru riscurile de coliziune cu rețeaua Starlink</title>
-      <link>https://izz.ro/tech/spacex-acuza-operatorii-rivali-de-sateliti-pentru-riscurile-de-coliziune-cu/</link>
-      <guid>https://izz.ro/tech/spacex-acuza-operatorii-rivali-de-sateliti-pentru-riscurile-de-coliziune-cu/</guid>
-      <pubDate>Wed, 07 Oct 2026 15:34:13 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.digi24.ro/stiri/externe/spacex-critica-operatorii-care-lanseaza-sateliti-dar-nu-le-dezvaluie-traiectoria-risc-de-coliziune-cu-reteaua-starlink-3982775">Digi24 Extern</source>
-      <description>Compania SpaceX a criticat dur operatorii spațiali concurenți care nu dezvăluie traiectoriile exacte ale sateliților lansați, provocând situații periculoase de aproape-coliziune pe orbita Pământului.</description>
     </item>
 </channel></rss>

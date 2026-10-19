@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bursa-de-valori-bucuresti/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bursa de Valori București pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 08:05:19 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 15:58:40 +0000</lastBuildDate>
+    <item>
+      <title>Bursa de Valori București a deschis săptămâna în creștere pe indicele BET</title>
+      <link>https://izz.ro/economic/bursa-de-valori-bucuresti-a-deschis-saptamana-in-crestere-pe-indicele-bet/</link>
+      <guid>https://izz.ro/economic/bursa-de-valori-bucuresti-a-deschis-saptamana-in-crestere-pe-indicele-bet/</guid>
+      <pubDate>Mon, 19 Oct 2026 15:36:03 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/bursa-bet-incepe-pozitiv-saptamana-investirii-noului-guvern-12-raliu-de-15-din-minimul-corectiei.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/economic/bursa-de-valori-bucuresti-a-deschis-saptamana-in-crestere-pe-indicele-bet/cover.jpg?v=b16a927a" medium="image" type="image/jpeg"/>
+      <description>Piața de capital din România a înregistrat o apreciere de 1,2% la începutul săptămânii, continuând tendința pozitivă de recuperare și consolidând un raliu important față de minimele înregistrate anterior.</description>
+    </item>
     <item>
       <title>Bursa de la București a înregistrat creșteri ale capitalizării în săptămâna 12–16 octombrie</title>
       <link>https://izz.ro/local/bursa-de-la-bucuresti-a-inregistrat-cresteri-ale-capitalizarii-in-saptamana-12/</link>
@@ -51,15 +61,6 @@
       <category>economic</category>
       <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-actionarii-medlife-convocati-pentru-o-majorare-de-capital-social-de-pana-la-20-23260205">Ziarul Financiar</source>
       <description>Conducerea furnizorului de servicii medicale a convocat acționarii pentru jumătatea lunii noiembrie, propunând autorizarea unei majorări de capital ce urmează să fie implementată pe parcursul a optsprezece luni.</description>
-    </item>
-    <item>
-      <title>Indicele BET al Bursei de Valori București a înregistrat o creștere de un procent</title>
-      <link>https://izz.ro/economic/indicele-bet-al-bursei-de-valori-bucuresti-a-inregistrat-o-crestere-de-un/</link>
-      <guid>https://izz.ro/economic/indicele-bet-al-bursei-de-valori-bucuresti-a-inregistrat-o-crestere-de-un/</guid>
-      <pubDate>Wed, 14 Oct 2026 19:00:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/financiar/piata-de-capital/grafic-bursa-castiga-un-procent-actiunile-rompetrol-rafinare-au-crestere-cu-2-cifre-pentru-a-3-a-sesiune-consecutiv-22829668?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Piața de capital autohtonă a recuperat pierderile din săptămâna precedentă, impulsionată în special de evoluția pozitivă a acțiunilor emise de companiile din sectorul energetic.</description>
     </item>
     <item>
       <title>Factorii de creșteri financiare pentru companiile listate la bursă</title>
@@ -159,14 +160,5 @@
       <category>economic</category>
       <source url="https://www.profit.ro/povesti-cu-profit/financiar/piata-de-capital/tranzactie-mamut-cu-actiuni-premier-energy-indicele-bet-pierde-un-procent-grafic-22808785?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>B bursa de la București a înregistrat o scădere a indicelui principal după ce o serie de cinci ședințe consecutive de aprecieri a fost oprită de un volum uriaș de transferuri pe titlurile Premier Energy.</description>
-    </item>
-    <item>
-      <title>Ministerul Economiei a majorat indemnizațiile la IAR Brașov</title>
-      <link>https://izz.ro/local/indemnizatiile-conducerii-iar-brasov-au-crescut-de-peste-patru-ori/</link>
-      <guid>https://izz.ro/local/indemnizatiile-conducerii-iar-brasov-au-crescut-de-peste-patru-ori/</guid>
-      <pubDate>Wed, 07 Oct 2026 08:21:22 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.digi24.ro/stiri/economie/companii/indemnizatiile-ca-la-compania-iar-brasov-cresc-de-peste-4-ori-ce-justifica-majorarea-si-ce-asteptari-are-statul-de-la-conducere-3981883">Digi24, Economica</source>
-      <description>Ministerul Economiei a crescut de peste patru ori indemnizația brută lunară pentru membrii Consiliului de Administrație al companiei de stat IAR Brașov, de la 4.720 la 20.400 de lei. Decizia a fost motivată prin complexitatea activității, importanța strategică a producătorului aeronautic și corelarea remunerației cu performanța managerială, conform unei formule unitare stabilite pentru companiile de stat.</description>
     </item>
 </channel></rss>

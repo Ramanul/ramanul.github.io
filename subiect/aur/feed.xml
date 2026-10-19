@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 19 Oct 2026 08:05:19 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 15:58:41 +0000</lastBuildDate>
     <item>
       <title>Cristina-Emanuela Dascălu critică alocările bugetare pentru educație și cercetare</title>
       <link>https://izz.ro/local/cristina-emanuela-dascalu-critica-alocarile-bugetare-pentru-educatie-si/</link>
@@ -53,7 +53,7 @@
       <pubDate>Sun, 18 Oct 2026 10:22:26 +0000</pubDate>
       <category>local</category>
       <source url="https://bizbrasov.ro/2026/10/18/cap-porc-lulea-aur/">BizBrașov</source>
-      <media:content url="https://izz.ro/local/un-cap-de-porc-a-fost-lasat-la-locuinta-lui-marius-lulea-din-otopeni/cover.jpg?v=25f19775" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/un-cap-de-porc-a-fost-lasat-la-locuinta-lui-marius-lulea-din-otopeni/cover.jpg?v=3ce0cb58" medium="image" type="image/jpeg"/>
       <description>Marius Lulea, cofondator al partidului AUR și critic al orientării pro-ruse promovate de George Simion, a găsit un cap de porc la poartă, gest considerat un simbol al trădării.</description>
     </item>
     <item>
@@ -73,7 +73,6 @@
       <pubDate>Sat, 17 Oct 2026 19:44:36 +0000</pubDate>
       <category>politic</category>
       <source url="https://adevarul.ro/politica/regreta-victoria-stoiciu-plecarea-din-psd-2564738.html">Adevărul</source>
-      <media:content url="https://izz.ro/politic/declaratii-politice-despre-guvernul-niculescu/cover.jpg?v=300a4f97" medium="image" type="image/jpeg"/>
       <description>Senatoarea neafiliată Victoria Stoiciu a explicat culisele negocierilor din Parlament pentru învestirea noului executiv, menționând poziția formațiunii AUR în aceste negocieri legislative.</description>
     </item>
     <item>
@@ -83,7 +82,6 @@
       <pubDate>Sat, 17 Oct 2026 16:49:38 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.bzi.ro/deputatul-aur-laura-gherasim-cine-ne-mai-apara-de-cei-care-pretind-ca-ne-apara-5625629">BZI Iași</source>
-      <media:content url="https://izz.ro/politic/laura-gherasim-critica-abuzurile-comise-sub-pretextul-apararii-statului/cover.jpg?v=58d3989c" medium="image" type="image/jpeg"/>
       <description>Deputatul AUR Laura Gherasim a atras atenția asupra respectării Constituției, condamnând încercările de a justifica încălcarea legii prin prisma securității naționale și evocând contextul istoric german.</description>
     </item>
     <item>
@@ -382,23 +380,5 @@
       <category>politic</category>
       <source url="https://www.antena3.ro/politica/fondatorul-aur-il-atac-dur-pe-george-simion-lulea-acuza-ca-in-partid-e-dictatura-si-spune-ca-sunt-multi-cei-care-vor-o-schimbare-806217.html">Antena 3 CNN</source>
       <description>Lulea a lansat acuzații dure la adresa conducerii formațiunii AUR, susținând că puterea absolută a creat o stare de dictatură și că mulți membri își doresc o schimbare urgentă.</description>
-    </item>
-    <item>
-      <title>AUR propune în Parlament un ajutor de stat pentru industria electro-intensivă</title>
-      <link>https://izz.ro/politic/aur-propune-in-parlament-un-ajutor-de-stat-pentru-industria-electro-intensiva/</link>
-      <guid>https://izz.ro/politic/aur-propune-in-parlament-un-ajutor-de-stat-pentru-industria-electro-intensiva/</guid>
-      <pubDate>Wed, 07 Oct 2026 12:12:09 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.ziuadevest.ro/aur-a-depus-in-parlament-un-proiect-de-lege-pentru-ca-energia-scumpa-sa-nu-mai-alunge-industria-din-romania/">Ziua de Vest</source>
-      <description>Partidul AUR a depus un proiect legislativ care prevede o schemă de compensare temporară a prețului la energie pentru marile companii industriale, cu un buget maxim de 1,05 miliarde de euro.</description>
-    </item>
-    <item>
-      <title>George Simion solicită organizarea de alegeri anticipate în România</title>
-      <link>https://izz.ro/politic/george-simion-solicita-organizarea-de-alegeri-anticipate-in-romania/</link>
-      <guid>https://izz.ro/politic/george-simion-solicita-organizarea-de-alegeri-anticipate-in-romania/</guid>
-      <pubDate>Wed, 07 Oct 2026 08:24:28 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://stirileprotv.ro/stiri/politic/george-simion-cere-alegeri-anticipate-liderul-aur-il-ameninta-pe-nicusor-dan-cu-demiterea.html">Știrile ProTV</source>
-      <description>Liderul AUR, George Simion, a declarat că va iniția o campanie de demitere împotriva președintelui Nicușor Dan dacă acesta refuză în continuare convocarea alegerilor anticipate pentru depășirea blocajului politic.</description>
     </item>
 </channel></rss>
