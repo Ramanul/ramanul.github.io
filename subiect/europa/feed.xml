@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 06:20:16 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 11:55:47 +0000</lastBuildDate>
+    <item>
+      <title>Prognoza meteo indică o iarnă cu mai puțină zăpadă în Europa</title>
+      <link>https://izz.ro/sanatate/prognoza-meteo-indica-o-iarna-cu-mai-putina-zapada-in-europa/</link>
+      <guid>https://izz.ro/sanatate/prognoza-meteo-indica-o-iarna-cu-mai-putina-zapada-in-europa/</guid>
+      <pubDate>Tue, 20 Oct 2026 09:30:48 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://www.csid.ro/stiri/cum-va-fi-iarna-2026-2027-in-romania-unde-ar-putea-ninge-mai-mult-si-ce-arata-prognozele-pentru-europa-21338456/">CSÎD</source>
+      <media:content url="https://izz.ro/sanatate/prognoza-meteo-indica-o-iarna-cu-mai-putina-zapada-in-europa/cover.jpg?v=40333aab" medium="image" type="image/jpeg"/>
+      <description>Estimările meteorologice pentru sezonul rece 2026-2027 arată un deficit de ninzi în mai multe regiuni europene, inclusiv în zona peninsulei balcanice.</description>
+    </item>
     <item>
       <title>Proteste masive în Europa din cauza costului ridicat al vieții</title>
       <link>https://izz.ro/extern/proteste-masive-in-europa-din-cauza-costului-ridicat-al-vietii/</link>
@@ -93,7 +103,6 @@
       <pubDate>Mon, 19 Oct 2026 07:16:53 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.g4media.ro/iranul-ameninta-cu-atacuri-asupra-europei-si-infrastructurii-digitale-daca-razboiul-cu-sua-reincepe.html">G4Media</source>
-      <media:content url="https://izz.ro/extern/iranul-ameninta-europa-cu-atacuri-cibernetice-si-militare-daca-reincepe/cover.jpg?v=97f1736e" medium="image" type="image/jpeg"/>
       <description>În contextul impasului militar cu Statele Unite și Israel, oficialii de la Teheran avertizează că dețin capabilități refăcute pentru a riposta direct împotriva infrastructurii digitale și a statelor europene.</description>
     </item>
     <item>
@@ -103,7 +112,6 @@
       <pubDate>Mon, 19 Oct 2026 05:32:00 +0000</pubDate>
       <category>sanatate</category>
       <source url="https://www.contributors.ro/revenind-la-speranta-de-viata-in-sanatate-buna/">Contributors</source>
-      <media:content url="https://izz.ro/sanatate/analiza-privind-evolutia-sperantei-de-viata-sanatoasa-in-europa/cover.jpg?v=f4b60c60" medium="image" type="image/jpeg"/>
       <description>Noi date statistice arată discrepanțele dintre creșterea duratei totale a vieții și menținerea unei stări bune de sănătate la populația din țările europene în perioada recentă.</description>
     </item>
     <item>
@@ -456,14 +464,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/sci-tech/natura-si-mediu/el-nino-ar-putea-schimba-vremea-in-europa-ce-legatura-exista-intre-incalzirea-pacificului-si-riscul-de-ger-la-iarna-3985247">Digi24 Extern</source>
       <description>Specialiștii avertizează că încălzirea Oceanului Pacific ar putea slăbi vortexul polar. Această modificare crește probabilitatea unor episoade de frig extrem pe continentul european în sezonul rece 2026-2027, deși nu sunt garantate.</description>
-    </item>
-    <item>
-      <title>August Hanning a generat un mare scandal de spionaj în Europa post-Război Rece</title>
-      <link>https://izz.ro/extern/august-hanning-a-generat-un-mare-scandal-de-spionaj-in-europa-post-razboi-rece/</link>
-      <guid>https://izz.ro/extern/august-hanning-a-generat-un-mare-scandal-de-spionaj-in-europa-post-razboi-rece/</guid>
-      <pubDate>Sat, 10 Oct 2026 20:06:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/externe/politico-cum-a-provocat-un-german-de-80-de-ani-cel-mai-mare-scandal-de-spionaj-din-europa-de-la-sfarsitul-razboiului-rece-806483.html">Antena 3 CNN</source>
-      <description>Fostul șef al Serviciului Federal de Informații al Germaniei, August Hanning, aflat la conducerea instituției timp de șapte ani, a fost implicat în declanșarea celui mai amplu scandal de spionaj de pe continent de la finalul Războiului Rece.</description>
     </item>
 </channel></rss>

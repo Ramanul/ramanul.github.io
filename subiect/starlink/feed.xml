@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 06:20:16 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 11:55:47 +0000</lastBuildDate>
+    <item>
+      <title>Operatori europeni de telecomunicații dezvoltă o alternativă la rețeaua Starlink</title>
+      <link>https://izz.ro/tech/operatori-europeni-de-telecomunicatii-dezvolta-o-alternativa-la-reteaua-starlink/</link>
+      <guid>https://izz.ro/tech/operatori-europeni-de-telecomunicatii-dezvolta-o-alternativa-la-reteaua-starlink/</guid>
+      <pubDate>Tue, 20 Oct 2026 07:39:23 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/vodafone-orange-starlink/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/operatori-europeni-de-telecomunicatii-dezvolta-o-alternativa-la-reteaua-starlink/cover.jpg?v=3d224e2b" medium="image" type="image/jpeg"/>
+      <description>Orange, Vodafone, Telefonica și Deutsche Telekom colaborează pentru a crea o constelație europeană de sateliți. Noua rețea va oferi acoperire de internet direct pe telefonul mobil în zonele izolate.</description>
+    </item>
     <item>
       <title>Operatorii telecom europeni testează serviciul prin satelit contra Starlink</title>
       <link>https://izz.ro/tech/operatorii-telecom-europeni-testeaza-serviciul-prin-satelit-contra-starlink/</link>
@@ -270,14 +280,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/09/amazon-da-net-in-spatiu-1000-de-sateliti-sunt-gata-de-lucru-pana-la-finalul-anului/">Connect.ro</source>
       <description>Gigantul tehnologic condus de Jeff Bezos intră pe piața internetului prin satelit cu o constelație de 1000 de unități. Proiectul devine o alternativă majoră la serviciul oferit de SpaceX pentru conexiuni globale de mare viteză.</description>
-    </item>
-    <item>
-      <title>Elon Musk acuză oligarhii indieni că blochează lansarea serviciului Starlink</title>
-      <link>https://izz.ro/tech/elon-musk-acuza-oligarhii-indieni-ca-blocheaza-lansarea-serviciului-starlink/</link>
-      <guid>https://izz.ro/tech/elon-musk-acuza-oligarhii-indieni-ca-blocheaza-lansarea-serviciului-starlink/</guid>
-      <pubDate>Thu, 08 Oct 2026 07:43:42 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://hotnews.ro/elon-musk-acuza-anumiti-oligarhi-ca-ii-blocheaza-afacerea-cu-internet-in-cea-mai-mare-tara-din-lume-2370295">HotNews</source>
-      <description>Miliardarul american susține că introducerea internetului prin satelit Starlink în India este oprită intenționat de anumiți oameni de afaceri locali puternici, care doresc să își mențină monopolul pe piață.</description>
     </item>
 </channel></rss>

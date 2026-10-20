@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/anm/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ANM pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 06:20:16 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 11:55:47 +0000</lastBuildDate>
+    <item>
+      <title>Administrația Națională de Meteorologie a publicat prognoza pentru patru săptămâni</title>
+      <link>https://izz.ro/general/administratia-nationala-de-meteorologie-a-publicat-prognoza-pentru-patru/</link>
+      <guid>https://izz.ro/general/administratia-nationala-de-meteorologie-a-publicat-prognoza-pentru-patru/</guid>
+      <pubDate>Tue, 20 Oct 2026 06:47:40 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.pressalert.ro/2026/10/anm-a-anuntat-cum-va-fi-vremea-in-urmatoarele-patru-saptamani/">PressAlert Timișoara</source>
+      <media:content url="https://izz.ro/general/administratia-nationala-de-meteorologie-a-publicat-prognoza-pentru-patru/cover.jpg?v=46c71f6c" medium="image" type="image/jpeg"/>
+      <description>Meteorologii anunță temperaturi ușor mai ridicate decât mediile climatice obișnuite și cantități de precipitații excedentare la nivelul întregii țări, în intervalul 19-26 octombrie.</description>
+    </item>
     <item>
       <title>ANM anunță temperaturi normale și ploi inegale până la jumătatea lunii noiembrie</title>
       <link>https://izz.ro/general/anm-anunta-temperaturi-normale-si-ploi-inegale-pana-la-jumatatea-lunii-noiembrie/</link>
@@ -43,15 +53,6 @@
       <category>local</category>
       <source url="https://mytex.ro/expres/vremea-se-strica-accentuat-in-brasov-si-la-munte-ninsori-strat-de-zapada-si-rafale-de-pana-la-90-km-h-avertismentul-transmis-de-anm/">MyTex</source>
       <description>Meteorologii au anunțat o schimbare bruscă a vremii în zona Brașov și la munte, unde sunt așteptate ninsori la altitudini mari, strat de zăpadă și rafale de vânt de până la 90 km/h.</description>
-    </item>
-    <item>
-      <title>ANM a publicat prognoza meteo pentru următoarele patru săptămâni</title>
-      <link>https://izz.ro/general/anm-a-publicat-prognoza-meteo-pentru-urmatoarele-patru-saptamani/</link>
-      <guid>https://izz.ro/general/anm-a-publicat-prognoza-meteo-pentru-urmatoarele-patru-saptamani/</guid>
-      <pubDate>Sun, 18 Oct 2026 10:30:58 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.emaramures.ro/anm-anunta-cum-va-fi-vremea-in-urmatoarele-patru-saptamani-ce-temperaturi-ne-asteapta/">eMaramureș</source>
-      <description>Administrația Națională de Meteorologie anunță că temperaturile vor fi normale sau ușor mai ridicate până la jumătatea lunii noiembrie, în timp ce cantitățile de precipitații se vor menține în limite obișnuite.</description>
     </item>
     <item>
       <title>România se pregătește pentru o încălzire bruscă a vremii până la 25 de grade</title>

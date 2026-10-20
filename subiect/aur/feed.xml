@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 06:20:16 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 11:55:47 +0000</lastBuildDate>
+    <item>
+      <title>Deputatul Ştefan Stoica acuză alianța dintre PSD și AUR</title>
+      <link>https://izz.ro/politic/deputatul-stefan-stoica-acuza-alianta-dintre-psd-si-aur/</link>
+      <guid>https://izz.ro/politic/deputatul-stefan-stoica-acuza-alianta-dintre-psd-si-aur/</guid>
+      <pubDate>Tue, 20 Oct 2026 10:04:23 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://cvlpress.ro/20.10.2026/deputatul-de-dolj-stefan-stoica-despre-votul-de-necesitate/">Cuvântul Libertății</source>
+      <media:content url="https://izz.ro/politic/deputatul-stefan-stoica-acuza-alianta-dintre-psd-si-aur/cover.jpg?v=b83d1feb" medium="image" type="image/jpeg"/>
+      <description>Liderul PNL Dolj, Ştefan Stoica, critică demiterea guvernului condus de Ilie Bolojan prin colaborarea dintre PSD și AUR, acuzând și tentativele președintelui Nicuşor Dan de a diviza partidul liberal.</description>
+    </item>
     <item>
       <title>Dominic Fritz acuză formația AUR că a favorizat PSD la audierile ministeriale</title>
       <link>https://izz.ro/politic/dominic-fritz-acuza-formatia-aur-ca-a-favorizat-psd-la-audierile-ministeriale/</link>
@@ -43,7 +53,7 @@
       <pubDate>Mon, 19 Oct 2026 07:30:03 +0000</pubDate>
       <category>local</category>
       <source url="https://www.bzi.ro/cristina-emanuela-dascalu-deputat-aur-de-iasi-educatia-si-cercetarea-nu-pot-fi-guvernate-cu-promisiuni-scadente-dupa-incheierea-mandatului-p-5626122">BZI Iași</source>
-      <media:content url="https://izz.ro/local/cristina-emanuela-dascalu-critica-alocarile-bugetare-pentru-educatie-si/cover.jpg?v=2167c79a" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/cristina-emanuela-dascalu-critica-alocarile-bugetare-pentru-educatie-si/cover.jpg?v=992628db" medium="image" type="image/jpeg"/>
       <description>Deputatul AUR de Iași susține că obiectivele stabilite pentru anul 2030 sunt tardive și cere măsuri financiare imediate. Aceasta afirmă că promisiunile pe termen lung nu rezolvă criza actuală din școli.</description>
     </item>
     <item>
@@ -53,7 +63,6 @@
       <pubDate>Mon, 19 Oct 2026 07:15:03 +0000</pubDate>
       <category>politic</category>
       <source url="https://gazetadecluj.ro/deputatul-andrei-gusa-acuza-o-campanie-de-destabilizare-a-aur-si-cere-alegeri-anticipate-dupa-incidentul-cu-capul-de-porc-care-il-vizeaza-pe-marius-lulea/">Gazeta de Cluj</source>
-      <media:content url="https://izz.ro/politic/deputatul-andrei-gusa-cere-alegeri-anticipate-dupa-scandalul-din-aur/cover.jpg?v=265a927b" medium="image" type="image/jpeg"/>
       <description>Parlamentarul Andrei Gușă califică incidentul legat de amenințarea adusă lui Marius Lulea drept o manevră de compromitere a partidului. În acest context tensionat, el solicită organizarea de alegeri anticipate.</description>
     </item>
     <item>
@@ -63,7 +72,6 @@
       <pubDate>Sun, 18 Oct 2026 18:00:53 +0000</pubDate>
       <category>politic</category>
       <source url="https://adevarul.ro/politica/simion-replica-in-scandalul-capului-de-porc-2564834.html">Adevărul</source>
-      <media:content url="https://izz.ro/politic/george-simion-acuza-presiuni-politice-in-legatura-cu-viitorul-guvern-niculescu/cover.jpg?v=94efd472" medium="image" type="image/jpeg"/>
       <description>Liderul formației AUR susține că acuzațiile recente lansate de un cofondator al partidului fac parte dintr-o campanie de intimidare menită să influențeze votul pentru investirea Cabinetului Luca Niculescu.</description>
     </item>
     <item>
@@ -371,23 +379,5 @@
       <category>judetean</category>
       <source url="https://expressdebanat.ro/miclau-le-cere-parlamentarilor-psd-sa-se-solidarizeze-cu-aur-si-sa-l-trimita-acasa-pe-locatarul-de-la-cotroceni/">Express de Banat</source>
       <description>Samuel Miclău solicită parlamentarilor PSD să se alăture demersului AUR pentru demiterea șefului statului, considerând nepotrivită numirea lui Luca Niculescu în funcția de premier.</description>
-    </item>
-    <item>
-      <title>Aplicația mobilă a partidului AUR poate accesa date sensibile ale utilizatorilor</title>
-      <link>https://izz.ro/politic/aplicatia-mobila-a-partidului-aur-poate-accesa-date-sensibile-ale-utilizatorilor/</link>
-      <guid>https://izz.ro/politic/aplicatia-mobila-a-partidului-aur-poate-accesa-date-sensibile-ale-utilizatorilor/</guid>
-      <pubDate>Thu, 08 Oct 2026 08:01:05 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/investigatie-snoop-aplicatia-aur-instalata-pe-telefoanele-a-sute-de-mii-de-romani-poate-accesa-locatia-contactele-si-microfonul-telefonului">Spotmedia</source>
-      <description>O investigație jurnaliștică arată că aplicația AUR colectează date personale, accesând locația, microfonul și contactele sutelor de mii de români care au instalat-o pentru mobilizare politică și comunicare.</description>
-    </item>
-    <item>
-      <title>Investigație Snoop: Aplicația mobilă AUR cere permisiuni periculoase</title>
-      <link>https://izz.ro/politic/investigatie-snoop-aplicatia-mobila-aur-cere-permisiuni-periculoase/</link>
-      <guid>https://izz.ro/politic/investigatie-snoop-aplicatia-mobila-aur-cere-permisiuni-periculoase/</guid>
-      <pubDate>Thu, 08 Oct 2026 07:30:07 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://bizbrasov.ro/2026/10/08/aplicatie-partid-aur-investigatie-snoop/">BizBrașov</source>
-      <description>O investigație jurnalistică arată că aplicația partidului AUR, instalată de peste 260.000 de români, colectează date personale sensibile și utilizează permisiuni riscante pentru a urmări activitatea utilizatorilor.</description>
     </item>
 </channel></rss>

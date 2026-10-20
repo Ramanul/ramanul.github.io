@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 06:20:16 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 11:55:47 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI integrează funcții avansate pentru ChatGPT în browserul Google Chrome</title>
+      <link>https://izz.ro/ai/openai-integreaza-functii-avansate-pentru-chatgpt-in-browserul-google-chrome/</link>
+      <guid>https://izz.ro/ai/openai-integreaza-functii-avansate-pentru-chatgpt-in-browserul-google-chrome/</guid>
+      <pubDate>Tue, 20 Oct 2026 06:52:18 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/10/20/chatgpt-vine-in-google-chrome-si-are-actiuni-noi/">Connect.ro</source>
+      <media:content url="https://izz.ro/ai/openai-integreaza-functii-avansate-pentru-chatgpt-in-browserul-google-chrome/cover.jpg?v=ee4b3f02" medium="image" type="image/jpeg"/>
+      <description>Asistentul virtual ChatGPT poate opera direct în interiorul filelor active din Google Chrome, o facilitate concepută pentru a simplifica completarea rapidă a formularelor online extinse.</description>
+    </item>
     <item>
       <title>O nouă teorie despre neuronii inteligenței artificiale amplifică temerile privind siguranța umanității</title>
       <link>https://izz.ro/ai/o-noua-teorie-despre-neuronii-inteligentei-artificiale-amplifica-temerile/</link>
@@ -104,23 +114,5 @@
       <category>ai</category>
       <source url="https://zonait.ro/openai-chatgpt-intelligent-ui/">ZonaIT</source>
       <description>Compania OpenAI pregătește o transformare majoră a modelului ChatGPT, renunțând la formatul clasic de chatbot bazat pe întrebări și răspunsuri standard în favoarea unei interacțiuni asemănătoare unui prieten digital.</description>
-    </item>
-    <item>
-      <title>ChatGPT a integrat noile modele lingvistice GPT-6</title>
-      <link>https://izz.ro/ai/chatgpt-a-integrat-noile-modele-lingvistice-gpt-6/</link>
-      <guid>https://izz.ro/ai/chatgpt-a-integrat-noile-modele-lingvistice-gpt-6/</guid>
-      <pubDate>Thu, 08 Oct 2026 07:37:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.profit.ro/romania-conectata/chatgpt-incepe-sa-foloseasca-modelele-gpt-6-22809706?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Compania OpenAI a pus la dispoziția utilizatorilor platformei ChatGPT cele mai recente și performante modele de inteligență artificială dezvoltate.</description>
-    </item>
-    <item>
-      <title>OpenAI introduce Intelligent UI, o interfață ChatGPT care generează elemente vizuale personalizate</title>
-      <link>https://izz.ro/ai/openai-introduce-intelligent-ui-o-interfata-chatgpt-care-genereaza-elemente/</link>
-      <guid>https://izz.ro/ai/openai-introduce-intelligent-ui-o-interfata-chatgpt-care-genereaza-elemente/</guid>
-      <pubDate>Thu, 08 Oct 2026 06:57:05 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.connect.ro/2026/10/08/openai-a-lansat-o-noua-interfata-pentru-chatgpt-intelligent-ui/">Connect.ro</source>
-      <description>Noua funcție dezvoltată de OpenAI înlocuiește blocurile masive de text din răspunsuri cu elemente vizuale adaptate întrebărilor adresate de utilizatori chatbotului.</description>
     </item>
 </channel></rss>
