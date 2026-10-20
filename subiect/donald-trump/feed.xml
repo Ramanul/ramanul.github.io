@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/donald-trump/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Donald Trump pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 17:38:06 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 20:54:51 +0000</lastBuildDate>
+    <item>
+      <title>Statele Unite propun discuții directe între Putin, Trump și Zelenski</title>
+      <link>https://izz.ro/extern/statele-unite-propun-discutii-directe-intre-putin-trump-si-zelenski/</link>
+      <guid>https://izz.ro/extern/statele-unite-propun-discutii-directe-intre-putin-trump-si-zelenski/</guid>
+      <pubDate>Tue, 20 Oct 2026 18:13:07 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/volodymyr-zelenskyy-vladimir-putin-donald-trump-peace-talks/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/statele-unite-propun-discutii-directe-intre-putin-trump-si-zelenski/cover.jpg?v=41e5b5ea" medium="image" type="image/jpeg"/>
+      <description>Emisarul american Steve Witkoff va avansa liderului rus o propunere pentru negocieri trilaterale directe cu Donald Trump și Volodimir Zelenski, în încercarea de a obține o încetare a focului.</description>
+    </item>
     <item>
       <title>Administrația Trump urmărește un acord de pace forțat în Ucraina</title>
       <link>https://izz.ro/extern/administratia-trump-urmareste-un-acord-de-pace-fortat-in-ucraina/</link>
@@ -93,7 +103,7 @@
       <pubDate>Mon, 19 Oct 2026 15:24:44 +0000</pubDate>
       <category>extern</category>
       <source url="https://hotnews.ro/curtea-suprema-din-sua-se-va-pronunta-asupra-unei-interdictii-care-dureaza-de-aproape-160-de-ani-2380340">HotNews</source>
-      <media:content url="https://izz.ro/extern/curtea-suprema-din-sua-va-analiza-legalitatea-interdictiei-distilarii-casnice/cover.jpg?v=401ebcc4" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/curtea-suprema-din-sua-va-analiza-legalitatea-interdictiei-distilarii-casnice/cover.jpg?v=6ac2f0ad" medium="image" type="image/jpeg"/>
       <description>Instanța supremă americană a acceptat să judece o dispută legată de o interdicție federală din 1868 privind producerea băuturilor alcoolice la domiciliu, măsură instituită inițial împotriva evaziunii fiscale.</description>
     </item>
     <item>
@@ -103,7 +113,6 @@
       <pubDate>Mon, 19 Oct 2026 14:50:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/eveniment/cum-sa-supravietuiesti-cu-un-presedinte-american-pro-rus-europa-trebuie-sa-actioneze-rapid">Spotmedia</source>
-      <media:content url="https://izz.ro/extern/europa-trebuie-sa-adopte-o-pozitie-ferma-impotriva-politicii-externe-a-lui/cover.jpg?v=50b6a917" medium="image" type="image/jpeg"/>
       <description>Liderii europeni sunt nevoiți să acționeze rapid și să se opună deschis politicilor lui Donald Trump, întrucât apropierea acestuia de Moscova riscă să slăbească alianțele NATO și Uniunea Europeană.</description>
     </item>
     <item>
@@ -456,14 +465,5 @@
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/eveniment/trump-renunta-la-transmiterea-in-direct-a-executiei-prin-impuscare-a-atacatorului-de-la-fort-hood">Spotmedia</source>
       <description>Președintele american a renunțat la planul de a difuza online execuția prin împușcare a lui Nidal Hasan, programată pentru decembrie 2026, ca urmare a criticilor primite.</description>
-    </item>
-    <item>
-      <title>Kremlinul vrea o nouă întrevedere între Putin și Trump</title>
-      <link>https://izz.ro/politic/kremlinul-vrea-o-noua-intrevedere-intre-putin-si-trump/</link>
-      <guid>https://izz.ro/politic/kremlinul-vrea-o-noua-intrevedere-intre-putin-si-trump/</guid>
-      <pubDate>Thu, 15 Oct 2026 12:51:46 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.digi24.ro/stiri/externe/kremlinul-spera-la-o-noua-intalnire-intre-putin-si-trump-3993835">Digi24 Extern</source>
-      <description>Reprezentanții administrației prezidențiale de la Moscova au exprimat public dorința organizării unei noi întâlniri oficiale între liderul rus Vladimir Putin și omologul său american Donald Trump.</description>
     </item>
 </channel></rss>
