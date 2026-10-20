@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/the-guardian/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre The Guardian pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 00:37:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 06:20:16 +0000</lastBuildDate>
+    <item>
+      <title>Un sistem bazat pe inteligență artificială estimează supraviețuirea bolnavilor de cancer dintr-o fotografie</title>
+      <link>https://izz.ro/ai/un-sistem-bazat-pe-inteligenta-artificiala-estimeaza-supravietuirea-bolnavilor/</link>
+      <guid>https://izz.ro/ai/un-sistem-bazat-pe-inteligenta-artificiala-estimeaza-supravietuirea-bolnavilor/</guid>
+      <pubDate>Tue, 20 Oct 2026 05:05:20 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/un-nou-instrument-de-ai-poate-prezice-sansele-de-supravietuire-ale-unui-pacient-cu-cancer-pe-baza-unei-singure-fotografii-sustine-un-studiu-2380726">HotNews</source>
+      <media:content url="https://izz.ro/ai/un-sistem-bazat-pe-inteligenta-artificiala-estimeaza-supravietuirea-bolnavilor/cover.jpg?v=c8046f4a" medium="image" type="image/jpeg"/>
+      <description>Cercetătorii de la centrul medical Mass General Brigham au creat un program de inteligență artificială capabil să evalueze prognosticul vital al unui pacient oncologic analizând o singură imagine a feței.</description>
+    </item>
     <item>
       <title>Presa britanică avertizează asupra crizei politice profunde din Franța</title>
       <link>https://izz.ro/extern/presa-britanica-avertizeaza-asupra-crizei-politice-profunde-din-franta/</link>
@@ -53,6 +63,15 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ministrul-francez-de-externe-spune-ca-elon-musk-este-in-spatele-campaniilor-de-hartuire-online-a-liderilor-europeni-3993097">Digi24 Extern</source>
       <description>Oficialul francez susține că miliardarul folosește rețeaua de socializare pentru a ataca liderii europeni și a influența instabilitatea politică dinaintea alegerilor.</description>
+    </item>
+    <item>
+      <title>The Guardian susține o apropiere politică între Regatul Unit și Uniunea Europeană</title>
+      <link>https://izz.ro/extern/the-guardian-sustine-o-apropiere-politica-intre-regatul-unit-si-uniunea/</link>
+      <guid>https://izz.ro/extern/the-guardian-sustine-o-apropiere-politica-intre-regatul-unit-si-uniunea/</guid>
+      <pubDate>Tue, 13 Oct 2026 17:30:25 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/oct/13/the-guardian-view-on-burnhams-brexit-reset-an-overdue-show-of-ambition">The Guardian</source>
+      <description>Editorialul publicației britanice argumentează că premierul procedează corect urmărind relansarea relațiilor cu UE, considerând că beneficiile strategice depășesc riscurile politice asumate.</description>
     </item>
     <item>
       <title>Cartelurile latino-americane de droguri s-au extins în 12 state europene</title>

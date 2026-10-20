@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>NVIDIA — IZZ.ro</title>
+  <title>Nvidia — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre NVIDIA pe IZZ.ro</description>
+  <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 00:37:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 06:20:16 +0000</lastBuildDate>
+    <item>
+      <title>Germania atrage capital străin și promite reforme economice majore</title>
+      <link>https://izz.ro/economic/germania-atrage-capital-strain-si-promite-reforme-economice-majore/</link>
+      <guid>https://izz.ro/economic/germania-atrage-capital-strain-si-promite-reforme-economice-majore/</guid>
+      <pubDate>Tue, 20 Oct 2026 03:30:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.politico.eu/podcast/berlin-playbook-podcast/merz-und-sein-deutschland-pitch/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/economic/germania-atrage-capital-strain-si-promite-reforme-economice-majore/cover.jpg?v=d6222b3c" medium="image" type="image/jpeg"/>
+      <description>Politicienii germani încearcă să convingă investitorii străini la primul summit dedicat capitalului internațional, promițând reforme economice și atragerea unor miliarde de euro, inclusiv prin angajamentul financiar asumat de șeful Nvidia.</description>
+    </item>
     <item>
       <title>Volvo extinde parteneriatul cu NVIDIA pentru dezvoltarea sistemelor de conducere autonomă</title>
       <link>https://izz.ro/auto/volvo-extinde-parteneriatul-cu-nvidia-pentru-dezvoltarea-sistemelor-de/</link>
