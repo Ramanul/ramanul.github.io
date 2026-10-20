@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/sibiu/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Sibiu pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 11:55:46 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 17:38:06 +0000</lastBuildDate>
+    <item>
+      <title>Un șofer a fost resuscitat și dus la spital în urma unui accident pe autostrada A1</title>
+      <link>https://izz.ro/general/un-sofer-a-fost-resuscitat-si-dus-la-spital-in-urma-unui-accident-pe-autostrada/</link>
+      <guid>https://izz.ro/general/un-sofer-a-fost-resuscitat-si-dus-la-spital-in-urma-unui-accident-pe-autostrada/</guid>
+      <pubDate>Tue, 20 Oct 2026 15:21:51 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.turnulsfatului.ro/2026/10/20/accident-pe-autostrada-a1-la-iesirea-spre-cisnadie-sunt-doua-masini-implicate-o-persoana-incarcerata/">Turnul Sfatului</source>
+      <media:content url="https://izz.ro/general/un-sofer-a-fost-resuscitat-si-dus-la-spital-in-urma-unui-accident-pe-autostrada/cover.jpg?v=5d039975" medium="image" type="image/jpeg"/>
+      <description>Echipajele de intervenție au fost solicitate pe autostrada A1, pe sensul spre Vâlcea, unde o autoutilitară a fost implicată într-un eveniment rutier. Șoferul rănit grav a răspuns manevrelor medicale și a fost spitalizat.</description>
+    </item>
     <item>
       <title>Percheziții în Sibiu: polițiștii au ridicat arme deținute ilegal și muniție</title>
       <link>https://izz.ro/local/perchezitii-in-sibiu-politistii-au-ridicat-arme-detinute-ilegal-si-munitie/</link>
@@ -133,7 +143,6 @@
       <pubDate>Mon, 19 Oct 2026 11:28:24 +0000</pubDate>
       <category>local</category>
       <source url="https://mytex.ro/expres/brasovul-isi-construieste-dublura-din-spatiul-virtual-in-timp-ce-romania-e-pe-ultimul-loc-la-ai-cum-arata-orasul-in-care-robotul-iti-raspunde-la-telefon-iar-medicul-dorme-linistit/">MyTex</source>
-      <media:content url="https://izz.ro/local/orasele-din-romania-testeaza-solutii-smart-in-ciuda-intarzierii-digitale/cover.jpg?v=77a46912" medium="image" type="image/jpeg"/>
       <description>Localități precum Brașov, Sibiu și Alba Iulia implementează proiecte digitale avansate și asistență bazată pe inteligență artificială, deși România ocupă ultimul loc în Uniunea Europeană la adoptarea tehnologiei AI.</description>
     </item>
     <item>
@@ -143,7 +152,6 @@
       <pubDate>Mon, 19 Oct 2026 07:30:26 +0000</pubDate>
       <category>local</category>
       <source url="https://www.turnulsfatului.ro/2026/10/19/strada-cibinului-se-redeschide-de-luni-pentru-a-reduce-disconfortul-creat-participantilor-la-trafic/">Turnul Sfatului</source>
-      <media:content url="https://izz.ro/local/primaria-sibiu-redeschide-strada-cibinului-pentru-a-fluidiza-traficul-rutier/cover.jpg?v=15556e15" medium="image" type="image/jpeg"/>
       <description>Tronsonul dintre străzile Târgu Fânului și Turnului va fi redat circulației rutiere deși lucrările nu sunt finalizate complet. Măsura a fost luată de autoritățile locale pentru a diminua blocajele din zonă.</description>
     </item>
     <item>
@@ -460,14 +468,5 @@
       <category>local</category>
       <source url="https://www.turnulsfatului.ro/2026/10/15/odu-romania-estimeaza-o-crestere-de-25-a-cifrei-de-afaceri-in-2026-si-o-extindere-de-20-a-capacitatilor-in-2027-adrian-costin-sibiul-si-romania-nu-mai-reprezinta-cel-mai-competitiv-mediu-ec/">Turnul Sfatului</source>
       <description>Producătorul de conectori estimează un avans de 25% a cifrei de afaceri în 2026 și o extindere cu 20% a capacităților în Sibiu, deși conducerea avertizează că România pierde competitivitate pe producția manuală.</description>
-    </item>
-    <item>
-      <title>Șoferii din Sibiu amână înlocuirea anvelopelor de iarnă</title>
-      <link>https://izz.ro/local/soferii-din-sibiu-amana-inlocuirea-anvelopelor-de-iarna/</link>
-      <guid>https://izz.ro/local/soferii-din-sibiu-amana-inlocuirea-anvelopelor-de-iarna/</guid>
-      <pubDate>Thu, 15 Oct 2026 04:26:09 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.turnulsfatului.ro/2026/10/15/soferii-sibieni-amana-schimbarea-cauciucurilor-mecanicii-avertizeaza-asteapta-prima-zapada-cand-timpul-de-asteptare-creste-la-trei-saptamani/">Turnul Sfatului</source>
-      <description>Vremea caldă reduce cererea la vulcanizările din Sibiu, însă reprezentanții service-urilor avertizează că odată cu prima zăpadă timpii de așteptare pentru programări vor crește până la trei săptămâni.</description>
     </item>
 </channel></rss>

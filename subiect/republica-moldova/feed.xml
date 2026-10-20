@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/republica-moldova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Republica Moldova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 11:55:47 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 17:38:06 +0000</lastBuildDate>
+    <item>
+      <title>Bitdefender avertizează asupra interferențelor electorale din România și Republica Moldova</title>
+      <link>https://izz.ro/ai/bitdefender-avertizeaza-asupra-interferentelor-electorale-din-romania-si/</link>
+      <guid>https://izz.ro/ai/bitdefender-avertizeaza-asupra-interferentelor-electorale-din-romania-si/</guid>
+      <pubDate>Tue, 20 Oct 2026 15:56:08 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://economedia.ro/bitdefender-romania-si-republica-moldova-au-vazut-interferente-din-partea-rusiei-in-alegerile-lor-este-suficient-sa-ii-faci-pe-oameni-sa-nu-mai-creada-in-propria-democrati.html">Economedia</source>
+      <media:content url="https://izz.ro/ai/bitdefender-avertizeaza-asupra-interferentelor-electorale-din-romania-si/cover.jpg?v=fa601596" medium="image" type="image/jpeg"/>
+      <description>Reprezentanții companiei Bitdefender au semnalat în cadrul unei conferințe de securitate cibernetică că operațiunile de influență rusă au vizat subminarea încrederii cetățenilor în instituțiile democratice din cele douăstate.</description>
+    </item>
     <item>
       <title>Grăniceri ucraineni reținuți în Republica Moldova după o urmărire</title>
       <link>https://izz.ro/local/graniceri-ucraineni-retinuti-in-republica-moldova-dupa-o-urmarire/</link>
@@ -23,7 +33,6 @@
       <pubDate>Mon, 19 Oct 2026 07:50:40 +0000</pubDate>
       <category>economic</category>
       <source url="https://economedia.ro/romanii-care-lucreaza-peste-prut-ce-riscuri-fiscale-trebuie-sa-gestioneze-angajatii-si-companiile.html">Economedia</source>
-      <media:content url="https://izz.ro/economic/implicatii-fiscale-pentru-romanii-care-lucreaza-in-republica-moldova/cover.jpg?v=f7311806" medium="image" type="image/jpeg"/>
       <description>Specialiștii avertizează asupra riscurilor de dublă impunere și a obligațiilor fiscale complexe pe care cetățenii români angajați peste Prut, inclusiv managerii și detașații, trebuie să le respecte conform legislației.</description>
     </item>
     <item>
@@ -160,23 +169,5 @@
       <category>extern</category>
       <source url="https://www.europalibera.md/a/drone-made-in-moldova-chisinaul-vrea-sa-atraga-investitori-straini-dar-lipseste-legislatia/33872948.html">Europa Liberă</source>
       <description>Autoritățile de la Chișinău intenționează să atragă investitori străini în producția de drone, deși cadrul legal lipsește. Guvernul promite adoptarea unui pachet legislativ favorabil afacerilor din sectorul de apărare până la sfârșitul anului.</description>
-    </item>
-    <item>
-      <title>Ministrul interimar Radu Miruță subliniază legătura dintre securitatea Moldovei și a României</title>
-      <link>https://izz.ro/politic/ministrul-interimar-radu-miruta-subliniaza-legatura-dintre-securitatea-moldovei/</link>
-      <guid>https://izz.ro/politic/ministrul-interimar-radu-miruta-subliniaza-legatura-dintre-securitatea-moldovei/</guid>
-      <pubDate>Thu, 08 Oct 2026 15:21:44 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.digi24.ro/stiri/actualitate/radu-miruta-securitatea-republicii-moldova-inseamna-si-securitatea-romaniei-avertisment-privind-amenintarile-din-regiune-3984345">Digi24 Extern</source>
-      <description>Oficialul român a avertizat la Chișinău asupra riscurilor regionale actuale, menționând incursiunile dronelor, atacurile cibernetice și campaniile de dezinformare care afectează stabilitatea zonei.</description>
-    </item>
-    <item>
-      <title>Hhartă interactivă a dronelor căzute pe teritoriul Republicii Moldova de la începutul războiului</title>
-      <link>https://izz.ro/extern/hharta-interactiva-a-dronelor-cazute-pe-teritoriul-republicii-moldova-de-la/</link>
-      <guid>https://izz.ro/extern/hharta-interactiva-a-dronelor-cazute-pe-teritoriul-republicii-moldova-de-la/</guid>
-      <pubDate>Thu, 08 Oct 2026 11:53:32 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.europalibera.md/a/harta-interactiva-ploaia-de-drone-cum-s-a-mutat-pericolul-de-la-granita-spre-centrul-r-moldova/33871506.html">Europa Liberă</source>
-      <description>Ministerul Apărării de la Chișinău a înregistrat zeci de încălcări ale spațiului aerian, aproape jumătate dintre drone și rachete prăbușindu-se pe teritoriul moldovean, situație ilustrată printr-o hartă dedicată.</description>
     </item>
 </channel></rss>

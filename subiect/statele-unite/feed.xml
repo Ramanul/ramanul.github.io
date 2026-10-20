@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/statele-unite/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Statele Unite pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 11:55:47 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 17:38:06 +0000</lastBuildDate>
+    <item>
+      <title>HotNews investighează parteneriatul strategic româno-american prin vocea diasporei</title>
+      <link>https://izz.ro/extern/hotnews-investigheaza-parteneriatul-strategic-romano-american-prin-vocea/</link>
+      <guid>https://izz.ro/extern/hotnews-investigheaza-parteneriatul-strategic-romano-american-prin-vocea/</guid>
+      <pubDate>Tue, 20 Oct 2026 17:04:39 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/relatia-sua-romania-vazuta-de-la-washington-prin-voci-realiste-ale-unor-conservatori-americani-si-romani-din-america-oameni-de-stiinta-profesori-antreprenori-2381007">HotNews</source>
+      <media:content url="https://izz.ro/extern/hotnews-investigheaza-parteneriatul-strategic-romano-american-prin-vocea/cover.jpg?v=27ed121e" medium="image" type="image/jpeg"/>
+      <description>O echipă HotNews s-a deplasat în Statele Unite pentru a discuta cu experți, profesori și oameni de afaceri români și americani despre starea actuală a relațiilor bilaterale și sprijinul acordat parteneriatului.</description>
+    </item>
     <item>
       <title>Iranul anunță doborârea unei drone militare americane MQ-9 Reaper</title>
       <link>https://izz.ro/extern/iranul-anunta-doborarea-unei-drone-militare-americane-mq-9-reaper/</link>
@@ -53,7 +63,6 @@
       <pubDate>Mon, 19 Oct 2026 07:31:26 +0000</pubDate>
       <category>extern</category>
       <source url="https://hotnews.ro/decizie-rara-a-israelului-dupa-atacurile-asupra-unei-fotojurnaliste-washigton-post-si-asupra-unor-diplomati-europeni-in-cisiordania-2379604">HotNews, G4Media</source>
-      <media:content url="https://izz.ro/extern/politia-israeliana-a-efectuat-arestari-in-urma-atacurilor-din-cisiordania/cover.jpg?v=d6598de7" medium="image" type="image/jpeg"/>
       <description>Autoritățile israeliene au reținut mai mulți suspecți în cadrul unei anchete privind violențele comise în Cisiordaniaocupată în timpul weekendului. Incidentele au inclus agresiuni asupra unei fotojurnaliste de la Washington Post și asupra unor diplomați europeni. Arestările au survenit în urma presiunilor exercitate de Statele Unite, sursele media indicând un număr diferit de persoane reținute, între opt și zece.</description>
     </item>
     <item>
@@ -442,23 +451,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/grecia-incheie-un-acord-de-pana-la-4-miliarde-de-dolari-pentru-achizitia-de-armament-american-3984653">Digi24 Extern</source>
       <description>Guvernul elen a finalizat un acord militar major pentru achiziționarea de rachete, sisteme avansate și modernizarea avioanelor F-16. Tranzacția vine la scurt timp după vizita secretarului de stat american Marco Rubio la Atena.</description>
-    </item>
-    <item>
-      <title>Marco Rubio a pledat la Atena pentru puterea națională și identitatea occidentală</title>
-      <link>https://izz.ro/extern/marco-rubio-a-pledat-la-atena-pentru-puterea-nationala-si-identitatea/</link>
-      <guid>https://izz.ro/extern/marco-rubio-a-pledat-la-atena-pentru-puterea-nationala-si-identitatea/</guid>
-      <pubDate>Thu, 08 Oct 2026 15:45:41 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://cursdeguvernare.ro/discurs-marco-rubio-la-acropole-pledoarie-pentru-o-impunere-neinfricata-a-puterii-nationale-invocand-valorile-greciei-antice-pentru-redobandirea-identitatii-occidentale-c.html">Curs de Guvernare</source>
-      <description>Secretarul de stat american a susținut un discurs la Acropole în care a cerut impunerea fermă a puterii naționale și revenirea la valorile Greciei antice pentru a consolida unitatea occidentală în fața crizelor actuale.</description>
-    </item>
-    <item>
-      <title>Studiu: Șapte tipuri de cancer cresc alarmant la tinerii sub 50 de ani</title>
-      <link>https://izz.ro/sanatate/studiu-sapte-tipuri-de-cancer-cresc-alarmant-la-tinerii-sub-50-de-ani/</link>
-      <guid>https://izz.ro/sanatate/studiu-sapte-tipuri-de-cancer-cresc-alarmant-la-tinerii-sub-50-de-ani/</guid>
-      <pubDate>Thu, 08 Oct 2026 12:29:55 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://www.avantaje.ro/articol/cancerul-apare-tot-mai-frecvent-la-tineri-studiu-international-sapte-tipuri-de-cancer-au-crescut-semnificativ">Avantaje</source>
-      <description>O analiză internațională arată că incidența cancerului crește mult mai rapid la persoanele sub 50 de ani comparativ cu vârstnicii, în special în Anglia, SUA și Țările de Jos.</description>
     </item>
 </channel></rss>

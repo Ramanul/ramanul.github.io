@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/autostrada-a1/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Autostrada A1 pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 06:20:16 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 17:38:06 +0000</lastBuildDate>
+    <item>
+      <title>Un șofer a fost resuscitat și dus la spital în urma unui accident pe autostrada A1</title>
+      <link>https://izz.ro/general/un-sofer-a-fost-resuscitat-si-dus-la-spital-in-urma-unui-accident-pe-autostrada/</link>
+      <guid>https://izz.ro/general/un-sofer-a-fost-resuscitat-si-dus-la-spital-in-urma-unui-accident-pe-autostrada/</guid>
+      <pubDate>Tue, 20 Oct 2026 15:21:51 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.turnulsfatului.ro/2026/10/20/accident-pe-autostrada-a1-la-iesirea-spre-cisnadie-sunt-doua-masini-implicate-o-persoana-incarcerata/">Turnul Sfatului</source>
+      <media:content url="https://izz.ro/general/un-sofer-a-fost-resuscitat-si-dus-la-spital-in-urma-unui-accident-pe-autostrada/cover.jpg?v=5d039975" medium="image" type="image/jpeg"/>
+      <description>Echipajele de intervenție au fost solicitate pe autostrada A1, pe sensul spre Vâlcea, unde o autoutilitară a fost implicată într-un eveniment rutier. Șoferul rănit grav a răspuns manevrelor medicale și a fost spitalizat.</description>
+    </item>
     <item>
       <title>DRDP Timișoara instituie noi restricții de circulație pe Autostrada A1</title>
       <link>https://izz.ro/local/drdp-timisoara-instituie-noi-restrictii-de-circulatie-pe-autostrada-a1/</link>
@@ -13,7 +23,6 @@
       <pubDate>Mon, 19 Oct 2026 10:18:19 +0000</pubDate>
       <category>local</category>
       <source url="https://www.opiniatimisoarei.ro/noi-restrictii-de-circulatie-pe-autostrada-anuntul-drdp-timisoara/19/10/2026">Opinia Timișoarei</source>
-      <media:content url="https://izz.ro/local/drdp-timisoara-instituie-noi-restrictii-de-circulatie-pe-autostrada-a1/cover.jpg?v=9845cef7" medium="image" type="image/jpeg"/>
       <description>Șoferii care tranzitează Autostrada A1 între Traian Vuia și Balinț întâmpină noi restricții de trafic, instituite de DRDP Timișoara în cadrul lucrărilor de reparații și asfaltare începute recent.</description>
     </item>
     <item>
@@ -23,7 +32,6 @@
       <pubDate>Sun, 18 Oct 2026 17:30:19 +0000</pubDate>
       <category>local</category>
       <source url="https://alba24.ro/foto-accident-rutier-pe-autostrada-a1-sebes-deva-autoutilitara-rasturnata-pe-carosabil-1163126.html">Alba24</source>
-      <media:content url="https://izz.ro/local/o-autoutilitara-s-a-rasturnat-pe-autostrada-a1-sebes-deva/cover.jpg?v=4d4e3a57" medium="image" type="image/jpeg"/>
       <description>Un eveniment rutier s-a produs duminică seara între Simeria și Orăștie, cele două persoane aflate în vehicul reușind să iasă singure înainte ca echipajele SMURD să ajungă.</description>
     </item>
     <item>
@@ -106,14 +114,5 @@
       <category>general</category>
       <source url="https://alba24.ro/foto-pe-autostrada-a1-a-inceput-montarea-indicatoarelor-pentru-sezonul-de-iarna-precizarile-drumarilor-1162145.html">Alba24</source>
       <description>DRDP Timișoara a demarat instalarea indicatoarelor rutiere pentru sezonul rece pe Autostrada A1, cu mult înainte ca restricțiile oficiale să intre în vigoare la munte și în zonele joase.</description>
-    </item>
-    <item>
-      <title>Incendiu la remorca unui TIR pe Autostrada A1 în județul Timiș</title>
-      <link>https://izz.ro/local/incendiu-la-remorca-unui-tir-pe-autostrada-a1-in-judetul-timis/</link>
-      <guid>https://izz.ro/local/incendiu-la-remorca-unui-tir-pe-autostrada-a1-in-judetul-timis/</guid>
-      <pubDate>Thu, 08 Oct 2026 06:57:22 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.pressalert.ro/2026/10/incendiu-la-remorca-unui-camion-pe-autostrada-a1-in-timis/">PressAlert Timișoara</source>
-      <description>O remorcă a luat foc pe sensul spre Lugoj al Autostrăzii A1, în zona localității Giarmata, traficul rutier fiind restricționat temporar la o singură bandă de circulație.</description>
     </item>
 </channel></rss>
