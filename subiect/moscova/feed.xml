@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/moscova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Moscova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 00:08:52 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 10:27:31 +0000</lastBuildDate>
+    <item>
+      <title>Zelenski și oficialii europeni au adoptat un ton conciliant față de SUA după discuția cu Steve Witkoff</title>
+      <link>https://izz.ro/extern/zelenski-si-oficialii-europeni-au-adoptat-un-ton-conciliant-fata-de-sua-dupa/</link>
+      <guid>https://izz.ro/extern/zelenski-si-oficialii-europeni-au-adoptat-un-ton-conciliant-fata-de-sua-dupa/</guid>
+      <pubDate>Wed, 21 Oct 2026 09:43:47 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/volodimir-zelenski-si-europenii-isi-tempereaza-tonul-dupa-intalnirea-cu-steve-witkoff-de-la-oslo-witkoff-merge-la-moscova-cu-noile-propuneri-de-pace-si-garantii-de-securitate.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/extern/zelenski-si-oficialii-europeni-au-adoptat-un-ton-conciliant-fata-de-sua-dupa/cover.jpg?v=506d09b0" medium="image" type="image/jpeg"/>
+      <description>Președintele ucrainean Volodimir Zelenski și liderii europeni Și-au temperat retorica la adresa Washingtonului în urma unei reuniuni la Oslo cu emisarul american Steve Witkoff, care urmează să prezinte noile propuneri de pace la Moscova.</description>
+    </item>
+    <item>
+      <title>Un nou laborator dedicat creșterii speranței de viață, inaugurat la Moscova</title>
+      <link>https://izz.ro/extern/un-nou-laborator-dedicat-cresterii-sperantei-de-viata-inaugurat-la-moscova/</link>
+      <guid>https://izz.ro/extern/un-nou-laborator-dedicat-cresterii-sperantei-de-viata-inaugurat-la-moscova/</guid>
+      <pubDate>Wed, 21 Oct 2026 09:35:49 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/rusia/stiinta-il-va-pacali-pe-dumnezeu-fiica-lui-putin-a-inaugurat-un-nou-laborator-care-cauta-tineretea-fara-batranete-4002251">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/un-nou-laborator-dedicat-cresterii-sperantei-de-viata-inaugurat-la-moscova/cover.jpg?v=79f11ca8" medium="image" type="image/jpeg"/>
+      <description>Școala de Management Skolkovo din capitala Rusiei a deschis o unitate de cercetare axată pe impactul longevității asupra economiei și politicilor publice.</description>
+    </item>
     <item>
       <title>Administrația Trump negociază cu Rusia eliberarea mai multor cetățeni americani deținuți</title>
       <link>https://izz.ro/extern/administratia-trump-negociaza-cu-rusia-eliberarea-mai-multor-cetateni-americani/</link>
@@ -15,16 +35,6 @@
       <source url="https://www.antena3.ro/externe/trump-ar-fi-aproape-de-un-acord-cu-putin-pentru-eliberarea-mai-multor-americani-aflati-in-detentie-in-rusia-808009.html">Antena 3 CNN</source>
       <media:content url="https://izz.ro/extern/administratia-trump-negociaza-cu-rusia-eliberarea-mai-multor-cetateni-americani/cover.jpg?v=0cfe041a" medium="image" type="image/jpeg"/>
       <description>Oficialii americani confirmă că Washingtonul este aproape de semnarea unui acord diplomatic cu Moscova pentru a repatria mai mulți cetățeni aflați în închisorile rusești.</description>
-    </item>
-    <item>
-      <title>Presa rusă analizează noul Guvern român și profilul premierului Luca Niculescu</title>
-      <link>https://izz.ro/local/presa-rusa-analizeaza-noul-guvern-roman-si-profilul-premierului-luca-niculescu/</link>
-      <guid>https://izz.ro/local/presa-rusa-analizeaza-noul-guvern-roman-si-profilul-premierului-luca-niculescu/</guid>
-      <pubDate>Tue, 20 Oct 2026 17:08:55 +0000</pubDate>
-      <category>local</category>
-      <source url="https://stirileprotv.ro/stiri/international/cum-vede-presa-de-la-moscova-noul-guvern-de-la-bucuresti-ce-noteaza-agentia-tass-despre-premierul-luca-niculescu.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/local/presa-rusa-analizeaza-noul-guvern-roman-si-profilul-premierului-luca-niculescu/cover.jpg?v=be8946d7" medium="image" type="image/jpeg"/>
-      <description>Agenția TASS a publicat un material extins despre criza guvernamentală de la București, subliniind orientarea prooccidentală a noului prim-ministru Luca Niculescu și rezervele privind succesul cabinetului.</description>
     </item>
     <item>
       <title>Letonia a devenit importator major de cereale rusești în Marea Baltică</title>
@@ -260,14 +270,5 @@
       <category>extern</category>
       <source url="https://www.g4media.ro/presa-din-ucraina-avionul-lui-putin-nu-ar-fi-putut-ateriza-la-moscova-din-cauza-unui-atac-cu-drone-aeroporturile-din-rusia-ar-fi-fost-inchise-timp-de-mai-multe-ore.html">G4Media, Digi24 Extern</source>
       <description>Aeroporturile Vnukovo, Țiukovski și Domodedovo din Moscova au fost închise timp de șase-șapte ore în urma unui atac cu drone, generând întârzieri majore și anulări de zboruri. Presa ucraineană și publicații internaționale au relatat că delegația rusă condusă de Vladimir Putin ar fi fost blocată în aer din cauza măsurilor de securitate și a activării apărării antiaeriene.</description>
-    </item>
-    <item>
-      <title>Bilanțul atacurilor rusești din Ucraina depășește 70 de morți în două zile</title>
-      <link>https://izz.ro/extern/bilantul-atacurilor-rusesti-din-ucraina-depaseste-70-de-morti-in-doua-zile/</link>
-      <guid>https://izz.ro/extern/bilantul-atacurilor-rusesti-din-ucraina-depaseste-70-de-morti-in-doua-zile/</guid>
-      <pubDate>Fri, 09 Oct 2026 05:58:58 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/ue/peste-70-de-morti-in-doua-zile-de-atacuri-rusesti-zelenski-acuza-sua-ca-negociaza-cu-moscova-dar-nu-ajuta-kievul-e-lipsa-de-vointa-3984869">Digi24 Extern</source>
-      <description>Președintele Volodimir Zelenski a criticat dur administrația din SUA pentru lipsa sprijinului militar adecvat, în contextul intensificării bombardamentelor sângeroase din estul teritoriului ucrainean.</description>
     </item>
 </channel></rss>

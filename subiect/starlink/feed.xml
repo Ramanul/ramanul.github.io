@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 00:08:52 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 10:27:31 +0000</lastBuildDate>
     <item>
       <title>Operatori europeni de telecomunicații dezvoltă o alternativă la rețeaua Starlink</title>
       <link>https://izz.ro/tech/operatori-europeni-de-telecomunicatii-dezvolta-o-alternativa-la-reteaua-starlink/</link>
@@ -23,7 +23,6 @@
       <pubDate>Mon, 19 Oct 2026 21:02:00 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.antena3.ro/externe/marile-companii-de-telefonie-mobila-din-europa-incearca-sa-concureze-starlinkul-si-propun-un-serviciu-revolutionar-satelit-catre-mobil-807830.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/tech/operatorii-telecom-europeni-testeaza-serviciul-prin-satelit-contra-starlink/cover.jpg?v=0072f96a" medium="image" type="image/jpeg"/>
       <description>Patru mari companii de telefonie mobilă din Europa colaborează pentru lansarea tehnologiei de comunicație satelit-către-mobil, rivalizând direct cu sistemul Starlink dezvoltat de Elon Musk.</description>
     </item>
     <item>
@@ -33,7 +32,6 @@
       <pubDate>Mon, 19 Oct 2026 18:45:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.dw.com/en/bulgaria-seeks-suspects-in-germany-after-starlink-sabotage/a-79706745?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <media:content url="https://izz.ro/extern/bulgaria-a-emis-mandate-de-arestare-pentru-doi-cetateni-germani-acuzati-de/cover.jpg?v=308e952e" medium="image" type="image/jpeg"/>
       <description>Autoritățile bulgare îi caută pe doi tineri germani suspectați că au incendiat echipamente Starlink, un caz similar celui din Polonia pus pe seama Rusiei.</description>
     </item>
     <item>
@@ -269,14 +267,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/cearta-miliardarilor-motivul-pentru-care-elon-musk-il-ataca-pe-cel-mai-bogat-om-din-asia-3986211">Digi24 Extern</source>
       <description>Fondatorul SpaceX și Tesla l-a contestat public pe cel mai bogat om din Asia. Nemulțumirea lui Musk vine din cauza blocajelor întâmpinate în lansarea serviciului de internet prin satelit Starlink pe piața din India.</description>
-    </item>
-    <item>
-      <title>Amazon pregăti lansarea a 1000 de sateliți pentru a rivaliza cu rețeaua Starlink</title>
-      <link>https://izz.ro/tech/amazon-pregati-lansarea-a-1000-de-sateliti-pentru-a-rivaliza-cu-reteaua-starlink/</link>
-      <guid>https://izz.ro/tech/amazon-pregati-lansarea-a-1000-de-sateliti-pentru-a-rivaliza-cu-reteaua-starlink/</guid>
-      <pubDate>Fri, 09 Oct 2026 08:25:28 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/09/amazon-da-net-in-spatiu-1000-de-sateliti-sunt-gata-de-lucru-pana-la-finalul-anului/">Connect.ro</source>
-      <description>Gigantul tehnologic condus de Jeff Bezos intră pe piața internetului prin satelit cu o constelație de 1000 de unități. Proiectul devine o alternativă majoră la serviciul oferit de SpaceX pentru conexiuni globale de mare viteză.</description>
     </item>
 </channel></rss>

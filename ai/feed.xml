@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 00:08:58 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 10:27:40 +0000</lastBuildDate>
+    <item>
+      <title>Provocările companiilor în extinderea sistemelor bazate pe inteligență artificială</title>
+      <link>https://izz.ro/ai/provocarile-companiilor-in-extinderea-sistemelor-bazate-pe-inteligenta/</link>
+      <guid>https://izz.ro/ai/provocarile-companiilor-in-extinderea-sistemelor-bazate-pe-inteligenta/</guid>
+      <pubDate>Wed, 21 Oct 2026 08:38:58 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/de-ce-trebuie-companiile-sa-regandeasca-dezvoltarea-si-extinderea-sistemelor-ai/">ZonaIT</source>
+      <media:content url="https://izz.ro/ai/provocarile-companiilor-in-extinderea-sistemelor-bazate-pe-inteligenta/cover.jpg?v=4fc8c2b9" medium="image" type="image/jpeg"/>
+      <description>Specialiștii subliniază că, deși implementarea inițială a instrumentelor de inteligență artificială este facilă, integrarea lor profundă în operațiunile de bază ale organizațiilor rămâne o provocare complexă pentru mediul de afaceri.</description>
+    </item>
     <item>
       <title>Germania și Nvidia au semnat un acord strategic pentru integrarea inteligenței artificiale</title>
       <link>https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/</link>
@@ -133,7 +143,6 @@
       <pubDate>Tue, 20 Oct 2026 05:05:20 +0000</pubDate>
       <category>ai</category>
       <source url="https://hotnews.ro/un-nou-instrument-de-ai-poate-prezice-sansele-de-supravietuire-ale-unui-pacient-cu-cancer-pe-baza-unei-singure-fotografii-sustine-un-studiu-2380726">HotNews</source>
-      <media:content url="https://izz.ro/ai/un-sistem-bazat-pe-inteligenta-artificiala-estimeaza-supravietuirea-bolnavilor/cover.jpg?v=c8046f4a" medium="image" type="image/jpeg"/>
       <description>Cercetătorii de la centrul medical Mass General Brigham au creat un program de inteligență artificială capabil să evalueze prognosticul vital al unui pacient oncologic analizând o singură imagine a feței.</description>
     </item>
     <item>
@@ -143,7 +152,6 @@
       <pubDate>Mon, 19 Oct 2026 20:05:09 +0000</pubDate>
       <category>ai</category>
       <source url="https://hotnews.ro/modelele-ai-de-la-deepseek-interzise-in-guvernul-american-2380613">HotNews</source>
-      <media:content url="https://izz.ro/ai/guvernul-sua-interzice-utilizarea-modelelor-ai-dezvoltate-de-deepseek/cover.jpg?v=23ff1e24" medium="image" type="image/jpeg"/>
       <description>Departamentul pentru Securitate Internă a interzis oficial agențiilor guvernamentale americane să achiziționeze sau să folosească tehnologii de inteligență artificială furnizate de compania chineză DeepSeek.</description>
     </item>
     <item>
@@ -153,7 +161,6 @@
       <pubDate>Mon, 19 Oct 2026 19:28:56 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.economica.net/interviu-romania-risca-sa-rateze-o-parte-din-castigul-economic-adus-de-ai-boris-georgiev-google-cloud-vedem-un-comportament-diferit-in-romania-daca-nu-acceleram-adoptia-impactul-asupra-pib_985216.html">Economica</source>
-      <media:content url="https://izz.ro/ai/avertisment-google-cloud-privind-riscul-ratarii-beneficiilor-economice-ale-ai/cover.jpg?v=e7ace8f2" medium="image" type="image/jpeg"/>
       <description>Reprezentantul Google Cloud, Boris Georgiev, avertizează că România riscă să rateze creșterea de 5% din PIB adusă de inteligența artificială dacă nu accelerează adoptarea tehnologiei în companii.</description>
     </item>
     <item>
@@ -461,14 +468,5 @@
       <category>ai</category>
       <source url="https://zonait.ro/neurony-romania-statutul-anthropic-claude-select-partner/">ZonaIT</source>
       <description>Dezvoltatorul software Neurony a devenit una dintre cele trei companii din România recunoscute ca Anthropic Claude Select Partner în 2026, obținând acces la programe de pregătire tehnică și suport dedicat.</description>
-    </item>
-    <item>
-      <title>Centrele de date AI ar putea scumpi energia electrică pentru consumatori</title>
-      <link>https://izz.ro/ai/centrele-de-date-ai-ar-putea-scumpi-energia-electrica-pentru-consumatori/</link>
-      <guid>https://izz.ro/ai/centrele-de-date-ai-ar-putea-scumpi-energia-electrica-pentru-consumatori/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:06:07 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/factura-la-electricitate/">ZonaIT</source>
-      <description>Extinderea rapidă a centrelor de procesare pentru inteligența artificială în Europa riscă să majoreze facturile la curent pentru populație, din cauza pieței energetice care nu separă consumul casnic de cel industrial.</description>
     </item>
 </channel></rss>

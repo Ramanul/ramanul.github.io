@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/japonia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Japonia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 00:08:52 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 10:27:31 +0000</lastBuildDate>
+    <item>
+      <title>România va găzdui un turneu final de Campionat Mondial</title>
+      <link>https://izz.ro/sport/romania-va-gazdui-un-turneu-final-de-campionat-mondial/</link>
+      <guid>https://izz.ro/sport/romania-va-gazdui-un-turneu-final-de-campionat-mondial/</guid>
+      <pubDate>Wed, 21 Oct 2026 09:02:54 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.sport.ro/hochei/campionatul-mondial-se-va-juca-in-tara-noastra-orasul-surpriza-care-va-gazdui-turneul-final.html">Sport.ro</source>
+      <media:content url="https://izz.ro/sport/romania-va-gazdui-un-turneu-final-de-campionat-mondial/cover.jpg?v=a477042c" medium="image" type="image/jpeg"/>
+      <description>Naționala României va juca pe teren propriu într-un turneu mondial important, având ca adversare reprezentative puternice din Coreea de Sud, Japonia, China, Olanda și Spania.</description>
+    </item>
     <item>
       <title>Tim Burton și scriitorul Kazuo Ishiguro pregătesc un nou film</title>
       <link>https://izz.ro/cultura/tim-burton-si-scriitorul-kazuo-ishiguro-pregatesc-un-nou-film/</link>
@@ -13,7 +23,6 @@
       <pubDate>Mon, 19 Oct 2026 21:51:00 +0000</pubDate>
       <category>cultura</category>
       <source url="https://www.urban.ro/tim-burton-pregateste-un-nou-film-impreuna-cu-scriitorul-kazuo-ishiguro/">Urban.ro</source>
-      <media:content url="https://izz.ro/cultura/tim-burton-si-scriitorul-kazuo-ishiguro-pregatesc-un-nou-film/cover.jpg?v=26854c6b" medium="image" type="image/jpeg"/>
       <description>Cunoscutul regizor va colabora cu laureatul Nobel pentru literatură la un lungmetraj a cărui acțiune se va desfășura în Japonia imediat după cel de-Al Doilea Război Mondial.</description>
     </item>
     <item>
@@ -105,23 +114,5 @@
       <category>extern</category>
       <source url="https://www.dobrogeaonline.ro/criza-dinastica-fara-precedent-in-japonia/">Dobrogea Online</source>
       <description>Legislația actuală din Japonia interzice prințesei Aiko să devină împărăteasă, generând dezbateri publice intense și întrebări majore privind viitorul și numărul restrâns al membrilor familiei imperiale.</description>
-    </item>
-    <item>
-      <title>Japonia lansează un program guvernamental pentru realocarea a 39,5 miliarde de euro</title>
-      <link>https://izz.ro/extern/japonia-lanseaza-un-program-guvernamental-pentru-realocarea-a-395-miliarde-de/</link>
-      <guid>https://izz.ro/extern/japonia-lanseaza-un-program-guvernamental-pentru-realocarea-a-395-miliarde-de/</guid>
-      <pubDate>Fri, 09 Oct 2026 09:03:22 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.economica.net/program-revolutionar-in-japonia-niponii-relanseaza-o-noua-versiune-a-doge-ului-din-sua-pentru-a-realoca-395-miliarde-de-euro_984160.html">Economica</source>
-      <description>Ministerul Finanțelor din Japonia a introdus o versiune locală a modelului american DOGE pentru a optimiza cheltuielile publice și a asigura sustenabilitatea fiscală în contextul reducerii unor taxe.</description>
-    </item>
-    <item>
-      <title>IKEA a lansat ceasul deșteptător Stengrönska cu încărcare wireless pentru telefoane</title>
-      <link>https://izz.ro/tech/ikea-a-lansat-ceasul-desteptator-stengronska-cu-incarcare-wireless-pentru/</link>
-      <guid>https://izz.ro/tech/ikea-a-lansat-ceasul-desteptator-stengronska-cu-incarcare-wireless-pentru/</guid>
-      <pubDate>Fri, 09 Oct 2026 08:40:04 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/09/ikea-stengronska-ceas-incarcare-wireless/">Connect.ro</source>
-      <description>Gigantul suedez IKEA a introdus pe piețele din Asia noul dispozitiv Stengrönska, care indică ora, temperatura și umiditatea. Gadgetul oferă funcție de încărcare wireless pentru smartphone-uri și port USB-C pentru alimentarea altor aparate, costând aproximativ 30 de euro.</description>
     </item>
 </channel></rss>

@@ -1362,11 +1362,10 @@
         const count = state.counts.get(region) || 0;
         if (!count) continue;
         const anchor = anchorFor(node, `judet:${node.dataset.judet}`, null);
-        const acc = regions.get(region) || { x: 0, y: 0, n: 0, count: 0 };
+        const acc = regions.get(region) || { x: 0, y: 0, n: 0, count };
         acc.x += anchor[0];
         acc.y += anchor[1];
         acc.n += 1;
-        acc.count += count;
         regions.set(region, acc);
       }
       for (const [region, acc] of regions) {
@@ -1571,7 +1570,8 @@
     stage.classList.toggle("is-filtered", Boolean(norm(state.search)));
 
     const counts = new Map();
-    for (const item of state.visible) {
+    const sourceItems = itemsForView(state.visible);
+    for (const item of sourceItems) {
       const key = state.level === "regional" ? item.region : item.county;
       if (key) counts.set(key, (counts.get(key) || 0) + 1);
     }
