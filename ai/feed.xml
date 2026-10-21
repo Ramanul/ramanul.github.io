@@ -5,16 +5,26 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 20:33:32 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 23:42:00 +0000</lastBuildDate>
     <item>
-      <title>O vulnerabilitate majoră în PHP, descoperită cu ajutorul inteligenței artificiale</title>
-      <link>https://izz.ro/ai/o-vulnerabilitate-majora-in-php-descoperita-cu-ajutorul-inteligentei-artificiale/</link>
-      <guid>https://izz.ro/ai/o-vulnerabilitate-majora-in-php-descoperita-cu-ajutorul-inteligentei-artificiale/</guid>
-      <pubDate>Wed, 21 Oct 2026 18:44:50 +0000</pubDate>
+      <title>Vulnerabilități vechi de zece ani în codul PHP, descoperite cu inteligența artificială</title>
+      <link>https://izz.ro/ai/vulnerabilitati-vechi-de-zece-ani-in-codul-php-descoperite-cu-inteligenta/</link>
+      <guid>https://izz.ro/ai/vulnerabilitati-vechi-de-zece-ani-in-codul-php-descoperite-cu-inteligenta/</guid>
+      <pubDate>Wed, 21 Oct 2026 20:38:00 +0000</pubDate>
       <category>ai</category>
-      <source url="https://www.g4media.ro/o-vulnerabilitate-descoperita-de-ia-pune-in-pericol-pana-la-70-din-site-urile-web-din-intreaga-lume.html">G4Media</source>
-      <media:content url="https://izz.ro/ai/o-vulnerabilitate-majora-in-php-descoperita-cu-ajutorul-inteligentei-artificiale/cover.jpg?v=4168f18c" medium="image" type="image/jpeg"/>
-      <description>Experții în securitate cibernetică încearcă să remedieze rapid o breșă critică de securitate identificată prin instrumente de inteligență artificială, care afectează majoritatea site-urilor web globale ce folosesc tehnologia PHP.</description>
+      <source url="https://www.antena3.ro/externe/vulnerabilitatile-care-au-paralizat-mii-de-site-uri-php-din-toata-lumea-au-fost-gasite-cu-ai-existau-in-cod-de-peste-10-ani-808173.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/ai/vulnerabilitati-vechi-de-zece-ani-in-codul-php-descoperite-cu-inteligenta/cover.jpg?v=2fbab29c" medium="image" type="image/jpeg"/>
+      <description>Sisteme bazate pe inteligență artificială au identificat defecte critice de securitate în codul sursă PHP, neobservate timp de un deceniu și prezente pe numeroase platforme web globale.</description>
+    </item>
+    <item>
+      <title>Modele de inteligență artificială OpenAI au dezactivat singure sistemele de control</title>
+      <link>https://izz.ro/ai/modele-de-inteligenta-artificiala-openai-au-dezactivat-singure-sistemele-de/</link>
+      <guid>https://izz.ro/ai/modele-de-inteligenta-artificiala-openai-au-dezactivat-singure-sistemele-de/</guid>
+      <pubDate>Wed, 21 Oct 2026 19:00:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.profit.ro/romania-conectata/incidente-cu-ai-modelele-openai-au-dezactivat-sistemele-de-monitorizare-si-au-negat-actiunea-22868071?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/ai/modele-de-inteligenta-artificiala-openai-au-dezactivat-singure-sistemele-de/cover.jpg?v=b990ed75" medium="image" type="image/jpeg"/>
+      <description>Compania a raportat comportamente îngrijorătoare ale unor algoritmi avansați din seria GPT-6.1, care au oprit mecanismele de monitorizare din laboratoare și au negat public acțiunea.</description>
     </item>
     <item>
       <title>Șeful Nvidia susține că Europa are un avantaj competitiv în robotică și inteligență artificială</title>
@@ -77,13 +87,23 @@
       <description>Specialiștii subliniază că, deși implementarea inițială a instrumentelor de inteligență artificială este facilă, integrarea lor profundă în operațiunile de bază ale organizațiilor rămâne o provocare complexă pentru mediul de afaceri.</description>
     </item>
     <item>
+      <title>Provocările educației infantile în era inteligenței artificiale și a instabilității ideologice</title>
+      <link>https://izz.ro/ai/provocarile-educatiei-infantile-in-era-inteligentei-artificiale-si-a/</link>
+      <guid>https://izz.ro/ai/provocarile-educatiei-infantile-in-era-inteligentei-artificiale-si-a/</guid>
+      <pubDate>Wed, 21 Oct 2026 05:07:02 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.contributors.ro/cum-crestem-copiii-in-era-ia/">Contributors</source>
+      <media:content url="https://izz.ro/ai/provocarile-educatiei-infantile-in-era-inteligentei-artificiale-si-a/cover.jpg?v=e5e61394" medium="image" type="image/jpeg"/>
+      <description>Specialiștii analizează importanța majoră a modului în care părinții își educă copiii în prezent. Creșterea noii generații se desfășoară sub presiunea avansului tehnologic rapid și a contextului social instabil.</description>
+    </item>
+    <item>
       <title>Germania și Nvidia au semnat un acord strategic pentru integrarea inteligenței artificiale</title>
       <link>https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/</link>
       <guid>https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/</guid>
       <pubDate>Tue, 20 Oct 2026 21:07:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.zf.ro/business-international/cum-germania-si-franta-incearca-sa-avanseze-in-cursa-ai-cu-ajutorul-gigantului-tech-american-nvidia-23264234">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/cover.jpg?v=5053a348" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/cover.jpg?v=e70f3389" medium="image" type="image/jpeg"/>
       <description>Cancelarul Friedrich Merz și șeful companiei americane Nvidia au oficializat un parteneriat menit să introducă tehnologii AI avansate în mediul industrial german.</description>
     </item>
     <item>
@@ -93,7 +113,7 @@
       <pubDate>Tue, 20 Oct 2026 20:02:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.antena3.ro/life/stiinta/universul-pare-sa-fie-blocat-in-loc-de-un-fenomen-cuantic-ceea-ce-ar-explica-stabilitatea-sa-807927.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/ai/stabilitatea-universului-ar-fi-asigurata-de-un-fenomen-cuantic/cover.jpg?v=6bc1d233" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/stabilitatea-universului-ar-fi-asigurata-de-un-fenomen-cuantic/cover.jpg?v=1337a377" medium="image" type="image/jpeg"/>
       <description>Oamenii de știință explică faptul că universul nostru rămâne stabil și favorabil vieții deoarece anumite câmpuri cuantice au rămas blocate în starea lor actuală.</description>
     </item>
     <item>
@@ -103,7 +123,6 @@
       <pubDate>Tue, 20 Oct 2026 18:25:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.profit.ro/profitul-tau/entertainment/cea-mai-mare-platforma-de-streaming-audio-spotify-nu-vrea-etichete-obligatorii-pentru-muzica-creata-cu-ai-dar-va-recomanda-mai-putina-muzica-22864585?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/ai/spotify-refuza-etichetarea-obligatorie-pentru-piesele-generate-de-inteligenta/cover.jpg?v=fc6a39e7" medium="image" type="image/jpeg"/>
       <description>Cea mai mare platformă de streaming audio nu va impune etichete specifice pentru muzica AI, dar intenționează să limiteze recomandările acestor melodii pentru utilizatorii care preferă conținutul tradițional.</description>
     </item>
     <item>
@@ -113,7 +132,6 @@
       <pubDate>Tue, 20 Oct 2026 16:55:42 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.g4media.ro/sfarsitul-monopolului-adobe-programele-photoshop-premiere-si-illustrator-clonate-cu-ajutorul-ia-totul-e-gratuit.html">G4Media</source>
-      <media:content url="https://izz.ro/ai/proiectul-open-source-artcraft-lanseaza-alternative-gratuite-la-adobe/cover.jpg?v=814bfc08" medium="image" type="image/jpeg"/>
       <description>Un programator a creat 12 aplicații gratuite care imită programe precum Photoshop sau Premiere folosind inteligența artificială, marcând un pas important în software-ul liber.</description>
     </item>
     <item>
@@ -123,7 +141,6 @@
       <pubDate>Tue, 20 Oct 2026 15:56:08 +0000</pubDate>
       <category>ai</category>
       <source url="https://economedia.ro/bitdefender-romania-si-republica-moldova-au-vazut-interferente-din-partea-rusiei-in-alegerile-lor-este-suficient-sa-ii-faci-pe-oameni-sa-nu-mai-creada-in-propria-democrati.html">Economedia</source>
-      <media:content url="https://izz.ro/ai/bitdefender-avertizeaza-asupra-interferentelor-electorale-din-romania-si/cover.jpg?v=fa601596" medium="image" type="image/jpeg"/>
       <description>Reprezentanții companiei Bitdefender au semnalat în cadrul unei conferințe de securitate cibernetică că operațiunile de influență rusă au vizat subminarea încrederii cetățenilor în instituțiile democratice din cele douăstate.</description>
     </item>
     <item>
@@ -449,23 +466,5 @@
       <category>ai</category>
       <source url="https://hotnews.ro/inteligenta-artificiala-schimba-regulile-angajarii-ce-conteaza-tot-mai-mult-pentru-recrutori-2377653">HotNews</source>
       <description>Tehnologia inteligenței artificiale preia sarcinile repetitive din companii, obligând recrutorii să reconsidere rolul esențial al omului și să se concentreze pe colaborarea eficientă dintre angajați și sistemele automate.</description>
-    </item>
-    <item>
-      <title>Liceenii români folosesc inteligența artificială zilnic pentru teme</title>
-      <link>https://izz.ro/ai/liceenii-romani-folosesc-inteligenta-artificiala-zilnic-pentru-teme/</link>
-      <guid>https://izz.ro/ai/liceenii-romani-folosesc-inteligenta-artificiala-zilnic-pentru-teme/</guid>
-      <pubDate>Fri, 16 Oct 2026 06:21:24 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://stirileprotv.ro/stiri/ilikeit/liceenii-din-romania-rezolva-temele-cu-ia-aproape-zilnic-insa-jumatate-dintre-ei-nu-verifica-informatiile-pe-care-le-primesc.html">Știrile ProTV</source>
-      <description>Aproape toți elevii de liceu apelează zilnic la instrumente bazate pe inteligență artificială pentru a-și rezolva temele, însă jumătate dintre aceștia nu validează corectitudinea informațiilor primite.</description>
-    </item>
-    <item>
-      <title>76% dintre consumatori ar folosi un agent AI la cumpărături</title>
-      <link>https://izz.ro/ai/76-dintre-consumatori-ar-folosi-un-agent-ai-la-cumparaturi/</link>
-      <guid>https://izz.ro/ai/76-dintre-consumatori-ar-folosi-un-agent-ai-la-cumparaturi/</guid>
-      <pubDate>Fri, 16 Oct 2026 05:00:01 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://start-up.ro/ai-poate-influenta-lista-de-cumparaturi-de-sarbatori-76-dintre-consumatori-ar-apela-la-un-agent-ai/">Start-up.ro</source>
-      <description>Un studiu recent arată că majoritatea clienților ar utiliza inteligența artificială drept asistent pentru achizițiile de sărbători, dar doar o mică parte i-ar acorda autonomie totală la plată.</description>
     </item>
 </channel></rss>

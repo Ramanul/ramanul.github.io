@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/targu-mures/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Târgu Mureș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 20:33:23 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 23:41:51 +0000</lastBuildDate>
+    <item>
+      <title>Trei sportivi băimăreni participă la Campionatul Național de Acrobație cu Planorul</title>
+      <link>https://izz.ro/sport/trei-sportivi-baimareni-participa-la-campionatul-national-de-acrobatie-cu/</link>
+      <guid>https://izz.ro/sport/trei-sportivi-baimareni-participa-la-campionatul-national-de-acrobatie-cu/</guid>
+      <pubDate>Wed, 21 Oct 2026 17:00:27 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.emaramures.ro/trei-sportivi-din-baia-mare-participa-la-campionatul-national-de-acrobatie-cu-planorul/">eMaramureș</source>
+      <media:content url="https://izz.ro/sport/trei-sportivi-baimareni-participa-la-campionatul-national-de-acrobatie-cu/cover.jpg?v=83d9d465" medium="image" type="image/jpeg"/>
+      <description>Aeroclubul din Baia Mare este reprezentat de trei piloți de performanță la competiția națională organizată la Târgu Mureș, unde aceștia concurează cu aparate de zbor diferite.</description>
+    </item>
     <item>
       <title>Primăria Târgu Mureș organizează Gala Premiilor Pro Urbe</title>
       <link>https://izz.ro/local/primaria-targu-mures-organizeaza-gala-premiilor-pro-urbe/</link>
@@ -116,14 +126,5 @@
       <category>local</category>
       <source url="https://www.turnulsfatului.ro/2026/10/15/un-adolescent-de-16-ani-a-fost-ranit-grav-dupa-ce-si-a-prins-mana-intr-o-balotiera-a-fost-transportat-cu-elicopterul-la-targu-mures/">Turnul Sfatului</source>
       <description>Un minor în vârstă de 16 ani a suferit răni severe după ce un utilaj agricol de tip balotieră i-a prins brațul în timpul unor activități în localitatea Șaroș pe Târnave. Victima fost preluată de un elicopter SMURD și dusă...</description>
-    </item>
-    <item>
-      <title>Târgu Mureș atrage specialiști medicali datorită statutului universitar</title>
-      <link>https://izz.ro/local/targu-mures-atrage-specialisti-medicali-datorita-statutului-universitar/</link>
-      <guid>https://izz.ro/local/targu-mures-atrage-specialisti-medicali-datorita-statutului-universitar/</guid>
-      <pubDate>Fri, 09 Oct 2026 21:05:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.zf.ro/companii/mihai-farcas-centrul-medical-galenus-targu-mures-are-adresabilitate-buna-la-medici-si-profesionisti-din-domeniu-datorita-faptului-ca-este-centru-universitar-23256156">Ziarul Financiar</source>
-      <description>Mihai Farcaş, reprezentantul centrului Galenus, subliniază că prezența facultății de medicină oferă orașului un bazin excelent de cadre calificate, favorizând dezvoltarea serviciilor medicale private.</description>
     </item>
 </channel></rss>

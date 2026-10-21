@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cnair/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre CNAIR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 20:33:23 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 23:41:51 +0000</lastBuildDate>
     <item>
       <title>Imagini noi cu centrul de monitorizare de pe Autostrada Sibiu-Pitești</title>
       <link>https://izz.ro/local/imagini-noi-cu-centrul-de-monitorizare-de-pe-autostrada-sibiu-pitesti/</link>
@@ -23,8 +23,16 @@
       <pubDate>Tue, 20 Oct 2026 15:51:57 +0000</pubDate>
       <category>local</category>
       <source url="https://www.tion.ro/stirile-judetului-timis/speram-ca-in-2-3-ani-sa-avem-un-nou-drum-pe-care-sa-iesim-din-timisoara-parteneriat-intre-primarie-si-cnair-2375211/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
-      <media:content url="https://izz.ro/local/timisoara-va-avea-un-nou-drum-de-iesire-prin-radiala-vest/cover.jpg?v=fdcff223" medium="image" type="image/jpeg"/>
       <description>Primăria Timișoara și CNAIR au oficializat parteneriatul pentru Radiala Vest, proiect ce va conecta orașul de centură. Exproprierile terenurilor necesare vor începe săptămâna viitoare, termenul de finalizare fiind estimat la doi-trei ani.</description>
+    </item>
+    <item>
+      <title>Reparațiile la centura Călimănești încep în primăvară</title>
+      <link>https://izz.ro/local/reparatiile-la-centura-calimanesti-incep-in-primavara/</link>
+      <guid>https://izz.ro/local/reparatiile-la-centura-calimanesti-incep-in-primavara/</guid>
+      <pubDate>Tue, 20 Oct 2026 08:17:14 +0000</pubDate>
+      <category>local</category>
+      <source url="https://argesulonline.ro/la-primavara-incep-lucrarile-de-reparatii-pe-centura-calimanesti-doi-ani-de-lucrari-pentru-doar-200-de-metri-de-sosea/">Argeș Online</source>
+      <description>CNAIR a anunțat începerea lucrărilor de consolidare pentru o porțiune de 200 de metri de pe centura Călimănești, afectată de o alunecare de teren în urmă cu peste trei ani.</description>
     </item>
     <item>
       <title>Traficul pe DN1 în Prahova va fi oprit temporar</title>
@@ -169,14 +177,5 @@
       <category>local</category>
       <source url="https://www.economica.net/autostrada-bucurestiului-a0-140_984436.html">Economica</source>
       <description>Asocierea Retter–Pizzarotti mobilizează sute de muncitori pe șantierul A0 pentru lucrări finale de asfaltare, montare a parapetelor și semnalizare, în vederea inaugurării curând a ultimului tronson.</description>
-    </item>
-    <item>
-      <title>Autostrada A0 Nord nu va fi finalizată complet în acest an</title>
-      <link>https://izz.ro/auto/autostrada-a0-nord-nu-va-fi-finalizata-complet-in-acest-an/</link>
-      <guid>https://izz.ro/auto/autostrada-a0-nord-nu-va-fi-finalizata-complet-in-acest-an/</guid>
-      <pubDate>Fri, 09 Oct 2026 21:02:00 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/fara-autostrada-a0-nord-completa-in-acest-an-alte-doua-loturi-asteapta-deschiderea-situatia-autostrazilor-din-romania-la-zi-22812427?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Planurile de deschidere integrală a inelului rutier nordic A0 din jurul Capitalei au fost amânate, după ce Compania Națională de Administrare a Infrastructurii Rutiere a operat modificări în calendarul oficial.</description>
     </item>
 </channel></rss>

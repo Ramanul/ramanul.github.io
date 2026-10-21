@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 20:33:23 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 23:41:51 +0000</lastBuildDate>
     <item>
       <title>Un consilier parlamentar AUR a recunoscut că a lăsat un cap de porc la o locuință</title>
       <link>https://izz.ro/politic/un-consilier-parlamentar-aur-a-recunoscut-ca-a-lasat-un-cap-de-porc-la-o/</link>
@@ -37,13 +37,22 @@
       <description>Liderii USR au prezentat bilanțul miniștrilor din fosta guvernare și au anunțat noua direcție politică a formațiunii. Formațiunea urmărește exclusiv o formulă de putere care exclude anumite partide parlamentare.</description>
     </item>
     <item>
+      <title>O româncă din diaspora a devenit membră AUR după ani de migrație</title>
+      <link>https://izz.ro/politic/o-romanca-din-diaspora-a-devenit-membra-aur-dupa-ani-de-migratie/</link>
+      <guid>https://izz.ro/politic/o-romanca-din-diaspora-a-devenit-membra-aur-dupa-ani-de-migratie/</guid>
+      <pubDate>Wed, 21 Oct 2026 05:59:45 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.scena9.ro/article/familie-aur-populism-diaspora-migratie-discriminare">Scena 9</source>
+      <media:content url="https://izz.ro/politic/o-romanca-din-diaspora-a-devenit-membra-aur-dupa-ani-de-migratie/cover.jpg?v=5b13d6d5" medium="image" type="image/jpeg"/>
+      <description>Povestea Adinei, plecată în Germania la vârsta de 17 ani, ilustrează cum o parte dintre românii plecați în străinătate își găsesc susținere politică în formațiuni radicale după experiențe dificile.</description>
+    </item>
+    <item>
       <title>Sorin Grindeanu exclude orice acord al PSD cu AUR și respinge austeritatea</title>
       <link>https://izz.ro/politic/sorin-grindeanu-exclude-orice-acord-al-psd-cu-aur-si-respinge-austeritatea/</link>
       <guid>https://izz.ro/politic/sorin-grindeanu-exclude-orice-acord-al-psd-cu-aur-si-respinge-austeritatea/</guid>
       <pubDate>Tue, 20 Oct 2026 16:49:08 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.g4media.ro/sorin-grindeanu-pentru-politico-atat-timp-cat-voi-ocupa-aceasta-functie-psd-nu-va-avea-niciun-acord-cu-aur-romania-are-nevoie-de-un-plan-de-redresare-economica-nu-de-austeritate.html">G4Media</source>
-      <media:content url="https://izz.ro/politic/sorin-grindeanu-exclude-orice-acord-al-psd-cu-aur-si-respinge-austeritatea/cover.jpg?v=c12cfebc" medium="image" type="image/jpeg"/>
       <description>Liderul PSD Sorin Grindeanu a declarat pentru Politico faptul că partidul nu va încheia nicio alianță cu AUR, subliniind că economia României are nevoie urgentă de redresare, nu de măsuri de austeritate.</description>
     </item>
     <item>
@@ -53,7 +62,6 @@
       <pubDate>Tue, 20 Oct 2026 16:10:26 +0000</pubDate>
       <category>politic</category>
       <source url="https://adevarul.ro/politica/noul-guvern-intre-miza-psd-de-a-si-recastiga-2565317.html">Adevărul</source>
-      <media:content url="https://izz.ro/politic/specialistii-analizeaza-impactul-politic-al-noului-guvern-asupra-partidelor/cover.jpg?v=d957fc41" medium="image" type="image/jpeg"/>
       <description>Cooptarea PSD la guvernare poate aduce avantaje electorale social-democraților, în timp ce PNL și USR se confruntă cu provocarea ascensiunii formațiunii AUR.</description>
     </item>
     <item>
@@ -325,14 +333,5 @@
       <category>local</category>
       <source url="https://expressdebanat.ro/gaita-anticipeaza-falimentul-primariei-resita-popa-probabil-ca-omul-incepe-campania-pentru-2028/">Express de Banat</source>
       <description>Consilierul local Bogdan Gaiță critică administrația locală pentru contractarea de proiecte peste posibilitățile financiare ale orașului, acuzând că bugetul municipal a rămas fără fonduri din motive electorale.</description>
-    </item>
-    <item>
-      <title>Cristian Pîrvulescu analizează șansele lui Luca Niculescu de a forma un nou guvern</title>
-      <link>https://izz.ro/politic/cristian-pirvulescu-analizeaza-sansele-lui-luca-niculescu-de-a-forma-un-nou/</link>
-      <guid>https://izz.ro/politic/cristian-pirvulescu-analizeaza-sansele-lui-luca-niculescu-de-a-forma-un-nou/</guid>
-      <pubDate>Fri, 09 Oct 2026 21:00:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://spotmedia.ro/stiri/politica/cristian-pirvulescu-luca-niculescu-nu-va-fi-marioneta-lui-nicusor-dan-de-ce-nu-a-functionat-echipa-cu-bolojan-aur-e-in-pragul-colapsului-interviu-video">Spotmedia</source>
-      <description>Politologul susține că viitorul premier va trebui să negocieze intens fiecare vot parlamentar și avertizează asupra riscurilor majore provocate de prelungirea crizei politice.</description>
     </item>
 </channel></rss>
