@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 20:55:00 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 00:08:58 +0000</lastBuildDate>
+    <item>
+      <title>Germania și Nvidia au semnat un acord strategic pentru integrarea inteligenței artificiale</title>
+      <link>https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/</link>
+      <guid>https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/</guid>
+      <pubDate>Tue, 20 Oct 2026 21:07:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.zf.ro/business-international/cum-germania-si-franta-incearca-sa-avanseze-in-cursa-ai-cu-ajutorul-gigantului-tech-american-nvidia-23264234">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/cover.jpg?v=5053a348" medium="image" type="image/jpeg"/>
+      <description>Cancelarul Friedrich Merz și șeful companiei americane Nvidia au oficializat un parteneriat menit să introducă tehnologii AI avansate în mediul industrial german.</description>
+    </item>
     <item>
       <title>Stabilitatea Universului ar fi asigurată de un fenomen cuantic</title>
       <link>https://izz.ro/ai/stabilitatea-universului-ar-fi-asigurata-de-un-fenomen-cuantic/</link>
@@ -133,7 +143,7 @@
       <pubDate>Mon, 19 Oct 2026 20:05:09 +0000</pubDate>
       <category>ai</category>
       <source url="https://hotnews.ro/modelele-ai-de-la-deepseek-interzise-in-guvernul-american-2380613">HotNews</source>
-      <media:content url="https://izz.ro/ai/guvernul-sua-interzice-utilizarea-modelelor-ai-dezvoltate-de-deepseek/cover.jpg?v=f8312682" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/guvernul-sua-interzice-utilizarea-modelelor-ai-dezvoltate-de-deepseek/cover.jpg?v=23ff1e24" medium="image" type="image/jpeg"/>
       <description>Departamentul pentru Securitate Internă a interzis oficial agențiilor guvernamentale americane să achiziționeze sau să folosească tehnologii de inteligență artificială furnizate de compania chineză DeepSeek.</description>
     </item>
     <item>
@@ -143,7 +153,7 @@
       <pubDate>Mon, 19 Oct 2026 19:28:56 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.economica.net/interviu-romania-risca-sa-rateze-o-parte-din-castigul-economic-adus-de-ai-boris-georgiev-google-cloud-vedem-un-comportament-diferit-in-romania-daca-nu-acceleram-adoptia-impactul-asupra-pib_985216.html">Economica</source>
-      <media:content url="https://izz.ro/ai/avertisment-google-cloud-privind-riscul-ratarii-beneficiilor-economice-ale-ai/cover.jpg?v=ec36415c" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/avertisment-google-cloud-privind-riscul-ratarii-beneficiilor-economice-ale-ai/cover.jpg?v=e7ace8f2" medium="image" type="image/jpeg"/>
       <description>Reprezentantul Google Cloud, Boris Georgiev, avertizează că România riscă să rateze creșterea de 5% din PIB adusă de inteligența artificială dacă nu accelerează adoptarea tehnologiei în companii.</description>
     </item>
     <item>
@@ -460,14 +470,5 @@
       <category>ai</category>
       <source url="https://zonait.ro/factura-la-electricitate/">ZonaIT</source>
       <description>Extinderea rapidă a centrelor de procesare pentru inteligența artificială în Europa riscă să majoreze facturile la curent pentru populație, din cauza pieței energetice care nu separă consumul casnic de cel industrial.</description>
-    </item>
-    <item>
-      <title>Anthropic avertizează că inteligența artificială s-ar putea replica autonom</title>
-      <link>https://izz.ro/ai/anthropic-avertizeaza-ca-inteligenta-artificiala-s-ar-putea-replica-autonom/</link>
-      <guid>https://izz.ro/ai/anthropic-avertizeaza-ca-inteligenta-artificiala-s-ar-putea-replica-autonom/</guid>
-      <pubDate>Wed, 14 Oct 2026 06:50:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://observatornews.ro/extern/inteligenta-artificiala-sar-putea-copia-singura-pe-dispozitive-conectate-la-internet-pana-la-finalul-anului-669021.html">Observator</source>
-      <description>Reprezentanții companiei de tehnologie estimează că sistemele AI ar putea dobândi capacitatea de a se copia singure pe dispozitivele conectate la internet până la finalul acestui an.</description>
     </item>
 </channel></rss>

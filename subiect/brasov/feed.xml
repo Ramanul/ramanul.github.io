@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/brasov/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Brașov pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 20:54:51 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 00:08:52 +0000</lastBuildDate>
     <item>
       <title>Brașov: Încep înscrierile pentru Târgul de Crăciun 2026</title>
       <link>https://izz.ro/local/brasov-incep-inscrierile-pentru-targul-de-craciun-2026/</link>
@@ -25,6 +25,16 @@
       <source url="https://mytex.ro/expres/brasov-vesti-bune-pe-dj-104d-lucrarile-de-modernizare-pe-tronsonul-soars-barcut-sunt-in-avans-si-au-atins-un-stadiu-de-80/">MyTex</source>
       <media:content url="https://izz.ro/local/brasov-modernizarea-drumului-soars-barcut-a-ajuns-la-un-stadiu-de-80/cover.jpg?v=df10afa1" medium="image" type="image/jpeg"/>
       <description>Lucrările pe tronsonul din județul Brașov avansează mai repede decât graficul contractual, constructorul înregistrand progrese semnificative monitorizate de autoritățile locale.</description>
+    </item>
+    <item>
+      <title>Încep lucrările de restaurare a curții Bisericii Negre din Brașov</title>
+      <link>https://izz.ro/local/incep-lucrarile-de-restaurare-a-curtii-bisericii-negre-din-brasov/</link>
+      <guid>https://izz.ro/local/incep-lucrarile-de-restaurare-a-curtii-bisericii-negre-din-brasov/</guid>
+      <pubDate>Tue, 20 Oct 2026 12:57:06 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/incep-lucrarile-de-restaurare-a-curtii-bisericii-negre/">News Brașov, MyTex</source>
+      <media:content url="https://izz.ro/local/incep-lucrarile-de-restaurare-a-curtii-bisericii-negre-din-brasov/cover.jpg?v=514d1ecd" medium="image" type="image/jpeg"/>
+      <description>Primăria Brașov a semnat contractul cu firma Baumeister SRL pentru restaurarea curții Bisericii Negre, o investiție finanțată prin Programul Regiunea Centru 2021-2027. Proiectul, în valoare totală de aproximativ 25,8 milioane de lei, din care 23,6 milioane de lei reprezintă finanțare nerambursabilă, va dura maximum 24 de luni și include refacerea pavimentelor istorice, a sistemului de iluminat și a elementelor de peisagistică.</description>
     </item>
     <item>
       <title>O firmă din Covasna va restaura curtea Bisericii Negre din Brașov cu fonduri europene</title>
@@ -213,7 +223,6 @@
       <pubDate>Mon, 19 Oct 2026 15:25:00 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.antena3.ro/economic/impozitarea-proprietatilor-la-valoarea-de-piata-nu-se-va-aplica-de-la-1-ianuarie-2027-nazare-am-modificat-jalonul-pnrr-807789.html">Antena 3 CNN, MyTex</source>
-      <media:content url="https://izz.ro/economic/impozitarea-proprietatilor-la-valoarea-de-piata-nu-se-aplica-in-2027/cover.jpg?v=b5a10278" medium="image" type="image/jpeg"/>
       <description>Ministerul Finanțelor a anunțat modificarea jalonului din PNRR privind impozitarea locuințelor și terenurilor la valoarea de piață, stabilind că aceasta nu va intra în vigoare la 1 ianuarie 2027. Măsura a fost amânată din cauza dificultăților tehnice legate de operaționalizarea sistemului informatic e-Proprietatea. Decizia aduce o perioadă de stabilitate fiscală pentru proprietari, evitând o creștere bruscă a dărilor locale în contextul unor piețe imobiliare scumpe.</description>
     </item>
     <item>
@@ -467,14 +476,5 @@
       <category>local</category>
       <source url="https://bookhub.ro/documentarul-bug-boy-pe-lista-scurta-a-premiilor-academiei-europene-de-film-ajunge-la-festivalul-culmea-de-la-brasov/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=documentarul-bug-boy-pe-lista-scurta-a-premiilor-academiei-europene-de-film-ajunge-la-festivalul-culmea-de-la-brasov">Bookhub</source>
       <description>A patra ediție a evenimentului dedicat mediului pentru copii se desfășoară la Brașov între 22 și 24 octombrie, aducând proiecții premiate internațional și animații selectate la Berlinală.</description>
-    </item>
-    <item>
-      <title>Avertisment pentru șoferi pe Transfăgărășan din cauza ninsorilor</title>
-      <link>https://izz.ro/general/avertisment-pentru-soferi-pe-transfagarasan-din-cauza-ninsorilor/</link>
-      <guid>https://izz.ro/general/avertisment-pentru-soferi-pe-transfagarasan-din-cauza-ninsorilor/</guid>
-      <pubDate>Sat, 17 Oct 2026 09:33:31 +0000</pubDate>
-      <category>general</category>
-      <source url="https://bizbrasov.ro/2026/10/17/drumarii-brasoveni-transfagarasan-iarna/">BizBrașov</source>
-      <description>Drumarii brașoveni le interzic șoferilor să circule pe Transfăgărășan fără autovehiculele echipate corespunzător pentru sezonul rece, după ce în ultimele 36 de ore zona montană a fost afectată de ninsori abundente.</description>
     </item>
 </channel></rss>

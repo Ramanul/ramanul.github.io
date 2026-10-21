@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/moscova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Moscova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 20:54:51 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 00:08:52 +0000</lastBuildDate>
+    <item>
+      <title>Administrația Trump negociază cu Rusia eliberarea mai multor cetățeni americani deținuți</title>
+      <link>https://izz.ro/extern/administratia-trump-negociaza-cu-rusia-eliberarea-mai-multor-cetateni-americani/</link>
+      <guid>https://izz.ro/extern/administratia-trump-negociaza-cu-rusia-eliberarea-mai-multor-cetateni-americani/</guid>
+      <pubDate>Tue, 20 Oct 2026 20:58:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/trump-ar-fi-aproape-de-un-acord-cu-putin-pentru-eliberarea-mai-multor-americani-aflati-in-detentie-in-rusia-808009.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/extern/administratia-trump-negociaza-cu-rusia-eliberarea-mai-multor-cetateni-americani/cover.jpg?v=0cfe041a" medium="image" type="image/jpeg"/>
+      <description>Oficialii americani confirmă că Washingtonul este aproape de semnarea unui acord diplomatic cu Moscova pentru a repatria mai mulți cetățeni aflați în închisorile rusești.</description>
+    </item>
     <item>
       <title>Presa rusă analizează noul Guvern român și profilul premierului Luca Niculescu</title>
       <link>https://izz.ro/local/presa-rusa-analizeaza-noul-guvern-roman-si-profilul-premierului-luca-niculescu/</link>
@@ -33,7 +43,6 @@
       <pubDate>Mon, 19 Oct 2026 15:07:25 +0000</pubDate>
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/serghei-lavrov-vizita-in-iran-moscova-se-ofera-mediator-intre-washington-si-teheran.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/extern/serghei-lavrov-a-vizitat-iranul-pentru-a-media-relatiile-cu-sua/cover.jpg?v=4acc5ead" medium="image" type="image/jpeg"/>
       <description>Ministrul de externe rus Serghei Lavrov a sosit în Iran, marcând prima sa vizită oficială de la debutul conflictului din Golf, cu scopul de a facilita negocierile diplomatice dintre Teheran și Washington.</description>
     </item>
     <item>
@@ -260,14 +269,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/peste-70-de-morti-in-doua-zile-de-atacuri-rusesti-zelenski-acuza-sua-ca-negociaza-cu-moscova-dar-nu-ajuta-kievul-e-lipsa-de-vointa-3984869">Digi24 Extern</source>
       <description>Președintele Volodimir Zelenski a criticat dur administrația din SUA pentru lipsa sprijinului militar adecvat, în contextul intensificării bombardamentelor sângeroase din estul teritoriului ucrainean.</description>
-    </item>
-    <item>
-      <title>Vladimir Putin l-a găzduit pe Gerhard Schroeder la Moscova</title>
-      <link>https://izz.ro/extern/vladimir-putin-l-a-gazduit-pe-gerhard-schroeder-la-moscova/</link>
-      <guid>https://izz.ro/extern/vladimir-putin-l-a-gazduit-pe-gerhard-schroeder-la-moscova/</guid>
-      <pubDate>Thu, 08 Oct 2026 20:49:44 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/vladimir-putin-l-a-primit-acasa-pe-gerhard-schroeder-de-ziua-sa-3984687">Digi24 Extern</source>
-      <description>Președintele rus Vladimir Putin i-a organizat o întâlnire privată la domiciliul său fostului cancelar german Gerhard Schroeder, cu ocazia aniversării zilei de naștere a acestuia, în contextul criticilor legate de relațiile lor.</description>
     </item>
 </channel></rss>

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Bursa de Valori București — IZZ.ro</title>
+  <title>Bursa de Valori Bucuresti — IZZ.ro</title>
   <link>https://izz.ro/subiect/bursa-de-valori-bucuresti/</link>
   <atom:link href="https://izz.ro/subiect/bursa-de-valori-bucuresti/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Bursa de Valori București pe IZZ.ro</description>
+  <description>Știri despre Bursa de Valori Bucuresti pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 20 Oct 2026 20:54:51 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 00:08:52 +0000</lastBuildDate>
+    <item>
+      <title>Acțiunile Rompetrol Rafinare au crescut spectaculos la Bursa de Valori București</title>
+      <link>https://izz.ro/economic/actiunile-rompetrol-rafinare-au-crescut-spectaculos-la-bursa-de-valori-bucuresti/</link>
+      <guid>https://izz.ro/economic/actiunile-rompetrol-rafinare-au-crescut-spectaculos-la-bursa-de-valori-bucuresti/</guid>
+      <pubDate>Tue, 20 Oct 2026 21:08:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/burse-fonduri-mutuale/campionul-bursei-valori-bucuresti-au-explodat-actiunile-rompetrol-rafinare-peste-700-inceputul-anului-dupa-multiple-maxime-istorice-compania-valoreaza-16-mld-lei-ajuns-acum-evaluarea-omv-petrom-23264268">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/economic/actiunile-rompetrol-rafinare-au-crescut-spectaculos-la-bursa-de-valori-bucuresti/cover.jpg?v=0c2fe07d" medium="image" type="image/jpeg"/>
+      <description>Titlurile companiei petroliere au înregistrat un salt de peste 700% de la începutul anului, atingând un nivel de evaluare istoric care apropie capitalizarea de cea a liderului pieței.</description>
+    </item>
     <item>
       <title>Electrica vrea un credit de 355 milioane euro de la BEI</title>
       <link>https://izz.ro/economic/electrica-vrea-un-credit-de-355-milioane-euro-de-la-bei/</link>
@@ -23,7 +33,6 @@
       <pubDate>Mon, 19 Oct 2026 15:36:03 +0000</pubDate>
       <category>economic</category>
       <source url="https://cursdeguvernare.ro/bursa-bet-incepe-pozitiv-saptamana-investirii-noului-guvern-12-raliu-de-15-din-minimul-corectiei.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/economic/bursa-de-valori-bucuresti-a-deschis-saptamana-in-crestere-pe-indicele-bet/cover.jpg?v=2d60759a" medium="image" type="image/jpeg"/>
       <description>Piața de capital din România a înregistrat o apreciere de 1,2% la începutul săptămânii, continuând tendința pozitivă de recuperare și consolidând un raliu important față de minimele înregistrate anterior.</description>
     </item>
     <item>
@@ -142,14 +151,5 @@
       <category>local</category>
       <source url="https://www.economica.net/bursa-de-la-bucuresti-a-inchis-in-scadere-sedinta-de-tranzactionare-de-vineri-rulajul-a-fost-unul-modest-de-peste-44-de-milioane-de-lei_984387.html">Economica</source>
       <description>Piața de capital autohtonă a înregistrat o depreciere a principalului indice BET, tranzacțiile fiind dominate de acțiunile Hidroelectrica și Banca Transilvania, în timp ce rulajul total s-a situat la un nivel redus.</description>
-    </item>
-    <item>
-      <title>Bursa de Valori București a înregistrat o evoluție volatilă în 2026</title>
-      <link>https://izz.ro/economic/bursa-de-valori-bucuresti-a-inregistrat-o-evolutie-volatila-in-2026/</link>
-      <guid>https://izz.ro/economic/bursa-de-valori-bucuresti-a-inregistrat-o-evolutie-volatila-in-2026/</guid>
-      <pubDate>Thu, 08 Oct 2026 21:07:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-finante-personale-top-5-bet-de-anul-acesta-23256246">Ziarul Financiar</source>
-      <description>După un început de an marcat de maxime istorice, piața de capital din România a devenit instabilă din cauza incertitudinilor guvernamentale și a evaluărilor agențiilor de rating.</description>
     </item>
 </channel></rss>
