@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/moscova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Moscova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 15:39:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 20:33:23 +0000</lastBuildDate>
     <item>
       <title>Mihail Sirkeli sustine ca alegerile din Gagauzia au miza geopolitica</title>
       <link>https://izz.ro/politic/mihail-sirkeli-sustine-ca-alegerile-din-gagauzia-au-miza-geopolitica/</link>
@@ -129,6 +129,15 @@
       <category>extern</category>
       <source url="https://www.g4media.ro/premierul-finlandei-il-critica-pe-trump-pentru-apropierea-de-putin-nu-exista-nicio-logica.html">G4Media</source>
       <description>Șeful guvernului finlandez, Petteri Orpo, a declarat că poziția președintelui american Donald Trump față de Rusia sfidează orice logică, subliniind că adevărații parteneri ai SUA rămân în Europa.</description>
+    </item>
+    <item>
+      <title>Aeroporturile din Moscova, închise temporar din cauza dronelor ucrainene</title>
+      <link>https://izz.ro/extern/aeroporturile-din-moscova-inchise-temporar-din-cauza-dronelor-ucrainene/</link>
+      <guid>https://izz.ro/extern/aeroporturile-din-moscova-inchise-temporar-din-cauza-dronelor-ucrainene/</guid>
+      <pubDate>Fri, 16 Oct 2026 11:05:57 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/rusia/toate-aeroporturile-din-moscova-au-fost-inchise-sute-de-zboruri-intarziate-sau-redirectionate-3995371">Digi24 Extern</source>
+      <description>Autoritatea aeronautică rusă a suspendat operarea tuturor celor patru aeroporturi principale din Moscova pentru mai multe ore, provocând întârzieri masive și redirecționări după atacuri aeriene cu drone.</description>
     </item>
     <item>
       <title>Atacuri cu drone asupra centrului Yandex și regiunilor ruse</title>
@@ -273,32 +282,5 @@
       <category>economic</category>
       <source url="https://www.economica.net/acord-washington-moscova-pe-piata-carburantilor-rusia-livreaza-milioane-de-tone-de-motorina-analistii-avertizeaza-asupra-unei-crize-de-rafinare_984412.html">Economica</source>
       <description>Trezoreria SUA a emis o licență specială pentru livrarea a sute de mii de tone de combustibil rusesc, măsură menită să reducă deficitul global și prețurile pe piața americană.</description>
-    </item>
-    <item>
-      <title>Moscova a fost vizată de un atac masiv cu drone în timpul revenirii lui Putin</title>
-      <link>https://izz.ro/extern/moscova-a-fost-vizata-de-un-atac-masiv-cu-drone-in-timpul-revenirii-lui-putin/</link>
-      <guid>https://izz.ro/extern/moscova-a-fost-vizata-de-un-atac-masiv-cu-drone-in-timpul-revenirii-lui-putin/</guid>
-      <pubDate>Fri, 09 Oct 2026 19:55:43 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.libertatea.ro/stiri/atac-masiv-cu-drone-asupra-moscovei-exact-cand-vladimir-putin-se-intorcea-din-turkmenistan-gf13mey">Libertatea</source>
-      <description>Capitala Rusiei a fost ținta unui raid aerian cu drone ucrainene exact când președintele Vladimir Putin se întorcea din Turkmenistan, situație care a provocat blocaje pe principalele aeroporturi moscovite.</description>
-    </item>
-    <item>
-      <title>Administrația Trump suspendă temporar sancțiunile pentru motorina rusească în contextul scumpirilor</title>
-      <link>https://izz.ro/extern/administratia-trump-suspenda-temporar-sanctiunile-pentru-motorina-ruseasca-in/</link>
-      <guid>https://izz.ro/extern/administratia-trump-suspenda-temporar-sanctiunile-pentru-motorina-ruseasca-in/</guid>
-      <pubDate>Fri, 09 Oct 2026 19:21:10 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.com/news/2026/10/09/trump-diesel-sanctions-lifted-russia-01114977?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Casa Albă a decis ridicarea provizorie a sancțiunile petroliere aplicate Rusiei, după acordul Moscovei de a livra volume mari de combustibil, măsură menită să combată prețurile record înregistrate în SUA înainte de alegeri.</description>
-    </item>
-    <item>
-      <title>Aeroporturile din Moscova au fost închise din cauza unor atacuri cu drone</title>
-      <link>https://izz.ro/extern/aeroporturile-din-moscova-au-fost-inchise-din-cauza-unor-atacuri-cu-drone/</link>
-      <guid>https://izz.ro/extern/aeroporturile-din-moscova-au-fost-inchise-din-cauza-unor-atacuri-cu-drone/</guid>
-      <pubDate>Fri, 09 Oct 2026 15:56:29 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.g4media.ro/presa-din-ucraina-avionul-lui-putin-nu-ar-fi-putut-ateriza-la-moscova-din-cauza-unui-atac-cu-drone-aeroporturile-din-rusia-ar-fi-fost-inchise-timp-de-mai-multe-ore.html">G4Media, Digi24 Extern</source>
-      <description>Aeroporturile Vnukovo, Țiukovski și Domodedovo din Moscova au fost închise timp de șase-șapte ore în urma unui atac cu drone, generând întârzieri majore și anulări de zboruri. Presa ucraineană și publicații internaționale au relatat că delegația rusă condusă de Vladimir Putin ar fi fost blocată în aer din cauza măsurilor de securitate și a activării apărării antiaeriene.</description>
     </item>
 </channel></rss>

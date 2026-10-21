@@ -5,7 +5,57 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 15:39:14 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 20:33:32 +0000</lastBuildDate>
+    <item>
+      <title>Site-uri guvernamentale europene oprite temporar după descoperirea unor vulnerabilități critice în PHP</title>
+      <link>https://izz.ro/tech/site-uri-guvernamentale-europene-oprite-temporar-dupa-descoperirea-unor/</link>
+      <guid>https://izz.ro/tech/site-uri-guvernamentale-europene-oprite-temporar-dupa-descoperirea-unor/</guid>
+      <pubDate>Wed, 21 Oct 2026 18:21:41 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.dobrogeaonline.ro/mai-multe-site-uri-guvernamentale-europene-au-fost-dezactivate-preventiv-dupa-o-bresa-majora-de-securitate/">Dobrogea Online</source>
+      <media:content url="https://izz.ro/tech/site-uri-guvernamentale-europene-oprite-temporar-dupa-descoperirea-unor/cover.jpg?v=ccc41bf3" medium="image" type="image/jpeg"/>
+      <description>Franța, Olanda și Finlanda au suspendat preventiv funcționarea mai multor portaluri guvernamentale, ca urmare a identificării unor breșe majore de securitate în limbajul de programare PHP.</description>
+    </item>
+    <item>
+      <title>FintechOS își extinde echipa în Statele Unite după obținerea unei finanțări substanțiale</title>
+      <link>https://izz.ro/tech/fintechos-isi-extinde-echipa-in-statele-unite-dupa-obtinerea-unei-finantari/</link>
+      <guid>https://izz.ro/tech/fintechos-isi-extinde-echipa-in-statele-unite-dupa-obtinerea-unei-finantari/</guid>
+      <pubDate>Wed, 21 Oct 2026 17:45:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/financiar/video-extindem-echipa-strategica-sua-primul-rand-alex-gavril-vicepresedintele-fintechos-dezvaluie-primele-masuri-dupa-finantarea-28-milioane-dolari-cheia-succesului-piata-americana-profit-financial-22868653?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/tech/fintechos-isi-extinde-echipa-in-statele-unite-dupa-obtinerea-unei-finantari/cover.jpg?v=1b3318ab" medium="image" type="image/jpeg"/>
+      <description>Vicepreședintele companiei, Alex Gavril, a explicat că investiția de 28 de milioane de dolari va fi direcționată cu precădere spre prezența fizică pe piața americană, parteneriate strategice și adaptare culturală.</description>
+    </item>
+    <item>
+      <title>Vulnerabilități majore în limbajul PHP provoacă disfuncționalități pe site-uri guvernamentale</title>
+      <link>https://izz.ro/tech/vulnerabilitati-majore-in-limbajul-php-provoaca-disfunctionalitati-pe-site-uri/</link>
+      <guid>https://izz.ro/tech/vulnerabilitati-majore-in-limbajul-php-provoaca-disfunctionalitati-pe-site-uri/</guid>
+      <pubDate>Wed, 21 Oct 2026 16:00:04 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://cursdeguvernare.ro/criza-securitate-site-uri-guvernamentale-indisponibile-vulnerabilitati-software.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/tech/vulnerabilitati-majore-in-limbajul-php-provoaca-disfunctionalitati-pe-site-uri/cover.jpg?v=5f2cfee0" medium="image" type="image/jpeg"/>
+      <description>Mai multe platforme instituționale din întreaga lume și din România au fost afectate de o criză de securitate cibernetică, generată de descoperirea unor breșe critice într-un limbaj de programare larg utilizat.</description>
+    </item>
+    <item>
+      <title>O vulnerabilitate majoră în limbajul PHP afectează site-uri web din întreaga lume</title>
+      <link>https://izz.ro/tech/o-vulnerabilitate-majora-in-limbajul-php-afecteaza-site-uri-web-din-intreaga/</link>
+      <guid>https://izz.ro/tech/o-vulnerabilitate-majora-in-limbajul-php-afecteaza-site-uri-web-din-intreaga/</guid>
+      <pubDate>Wed, 21 Oct 2026 15:38:21 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.digi24.ro/stiri/externe/o-bresa-majora-de-securitate-site-uri-web-din-intreaga-lume-au-fost-blocate-este-afectat-limbajul-de-programare-php-foarte-raspandit-4002969">Digi24 Extern</source>
+      <media:content url="https://izz.ro/tech/o-vulnerabilitate-majora-in-limbajul-php-afecteaza-site-uri-web-din-intreaga/cover.jpg?v=943de220" medium="image" type="image/jpeg"/>
+      <description>Obreșă de securitate globală a fost semnalată în limbajul de programare PHP, afectând numeroase platforme online, de la bloguri simple până la sisteme complexe de gestionare a conținutului precum WordPress.</description>
+    </item>
+    <item>
+      <title>Vulnerabilități critice în limbajul PHP au scos din funcțiune site-uri la nivel mondial</title>
+      <link>https://izz.ro/tech/vulnerabilitati-critice-in-limbajul-php-au-scos-din-functiune-site-uri-la-nivel/</link>
+      <guid>https://izz.ro/tech/vulnerabilitati-critice-in-limbajul-php-au-scos-din-functiune-site-uri-la-nivel/</guid>
+      <pubDate>Wed, 21 Oct 2026 15:38:20 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://economedia.ro/probleme-pentru-site-uri-din-toata-lumea-inclusiv-din-romania-vulnerabilitati-critice-descoperite-intr-un-limbaj-de-programare-utilizat-pe-scara-larga-specialist-jumatate-de-internet-a-i.html">Economedia</source>
+      <media:content url="https://izz.ro/tech/vulnerabilitati-critice-in-limbajul-php-au-scos-din-functiune-site-uri-la-nivel/cover.jpg?v=7c83d62b" medium="image" type="image/jpeg"/>
+      <description>Mai multe portaluri guvernamentale și platforme online au fost blocate din cauza unor breșe de securitate descoperite în limbajul PHP, determinând dezvoltatorii să intervină urgent pentru protejarea sistemelor.</description>
+    </item>
     <item>
       <title>Bitdefender solicită sprijin sporit pentru startup-uri și inovație</title>
       <link>https://izz.ro/tech/bitdefender-solicita-sprijin-sporit-pentru-startup-uri-si-inovatie/</link>
@@ -15,16 +65,6 @@
       <source url="https://hotnews.ro/presedinte-bitdefender-trebuie-sa-facem-mai-mult-progres-in-incurajarea-startup-urilor-a-inovatiei-si-a-educatiei-pentru-urmatoarele-generatii-2382795">HotNews</source>
       <media:content url="https://izz.ro/tech/bitdefender-solicita-sprijin-sporit-pentru-startup-uri-si-inovatie/cover.jpg?v=7823fba0" medium="image" type="image/jpeg"/>
       <description>Reprezentantul companiei de securitate cibernetică a subliniat necesitatea unor progrese majore la nivel european privind finanțarea noilor afaceri tehnologice, educația de specialitate și pregătirea viitorilor experți în domeniu.</description>
-    </item>
-    <item>
-      <title>Mai multe site-uri europene au fost suspendate în urma unor vulnerabilități critice descoperite în PHP</title>
-      <link>https://izz.ro/tech/mai-multe-site-uri-europene-au-fost-suspendate-in-urma-unor-vulnerabilitati/</link>
-      <guid>https://izz.ro/tech/mai-multe-site-uri-europene-au-fost-suspendate-in-urma-unor-vulnerabilitati/</guid>
-      <pubDate>Wed, 21 Oct 2026 15:11:11 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.bbc.co.uk/news/articles/cmly0lg3w5x2o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <media:content url="https://izz.ro/tech/mai-multe-site-uri-europene-au-fost-suspendate-in-urma-unor-vulnerabilitati/cover.jpg?v=8a79a495" medium="image" type="image/jpeg"/>
-      <description>Experții în securitate cibernetică au emis o alertă majoră privind limbajul de programare PHP, afectând numeroase platforme online de pe continent după detectarea unor riscuri informatice majore.</description>
     </item>
     <item>
       <title>Booking.com este anchetat de Uniunea Europeană pentru escrocherii</title>
@@ -45,16 +85,6 @@
       <source url="https://www.connect.ro/2026/10/21/oppo-find-x10-pro-max-review-s-a-lansat-telefonul-anului/">Connect.ro, Start-up.ro</source>
       <media:content url="https://izz.ro/tech/a-fost-lansat-noul-smartphone-oppo-find-x10-pro-max-echipat-cu-trei-camere-de/cover.jpg?v=8a79a495" medium="image" type="image/jpeg"/>
       <description>Oppo a lansat pe piață modelul Find X10 Pro Max, comercializat la prețul de 8.999 lei, fiind primul smartphone dotat cu trei senzori foto de 200 de megapixeli pe partea din spate (ultrawide, principal și telefoto). Telefonul rulează pe procesorul MediaTek Dimensity 9600 Pro, dispune de un ecran OLED de 6,78 inci cu rată de împrospătare de până la 144 Hz, o baterie de 7.150 mAh cu încărcare la 80W și interfața ColorOS 17 bazată pe Android 17.</description>
-    </item>
-    <item>
-      <title>Vulnerabilități critice în limbajul PHP au scos din funcțiune site-uri guvernamentale globale</title>
-      <link>https://izz.ro/tech/vulnerabilitati-critice-in-limbajul-php-au-scos-din-functiune-site-uri/</link>
-      <guid>https://izz.ro/tech/vulnerabilitati-critice-in-limbajul-php-au-scos-din-functiune-site-uri/</guid>
-      <pubDate>Wed, 21 Oct 2026 14:42:21 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://hotnews.ro/o-vulnerabilitate-critica-in-coloana-vertebrala-a-internetului-face-site-uri-guvernamentale-din-intreaga-europa-sa-se-inchida-2382744">HotNews</source>
-      <media:content url="https://izz.ro/tech/vulnerabilitati-critice-in-limbajul-php-au-scos-din-functiune-site-uri/cover.jpg?v=32caf113" medium="image" type="image/jpeg"/>
-      <description>Mai multe instituții din Europa și din alte regiuni și-au închis preventiv site-urile web după descoperirea unor breșe majore de securitate în limbajul de programare PHP, stârnind îngrijorare și în România.</description>
     </item>
     <item>
       <title>Nvidia lansează un driver GeForce care reduce timpii de încărcare în jocuri</title>
@@ -85,6 +115,16 @@
       <source url="https://zonait.ro/samsung-galaxy-s27-ram/">ZonaIT</source>
       <media:content url="https://izz.ro/tech/samsung-ar-putea-reveni-la-8gb-ram-pe-seria-galaxy-s27-pentru-reducerea/cover.jpg?v=8810a7c7" medium="image" type="image/jpeg"/>
       <description>Gigantul tech ia în calcul diminuarea memoriei RAM pe viitoarele telefoane de top, deși modelul anterior oferea standard 12GB, ceea ce ar putea nemulțumi cumpărătorii.</description>
+    </item>
+    <item>
+      <title>YouTube intenționează să elimine definitiv butonul și contorul de dislike</title>
+      <link>https://izz.ro/tech/youtube-intentioneaza-sa-elimine-definitiv-butonul-si-contorul-de-dislike/</link>
+      <guid>https://izz.ro/tech/youtube-intentioneaza-sa-elimine-definitiv-butonul-si-contorul-de-dislike/</guid>
+      <pubDate>Wed, 21 Oct 2026 11:54:21 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/dislike-youtube/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/youtube-intentioneaza-sa-elimine-definitiv-butonul-si-contorul-de-dislike/cover.jpg?v=b46f5773" medium="image" type="image/jpeg"/>
+      <description>Platforma video YouTube ia în calcul renunțarea completă la opțiunea de a acționa butonul de dislike, după ce anterior ascunsese doar cifrele publice ale acestora pentru a proteja creatorii de conținut.</description>
     </item>
     <item>
       <title>Orange rămâne cea mai rapidă rețea din România pentru al nouălea an</title>
@@ -147,6 +187,16 @@
       <description>Un juriu format din jurnaliști și creatori de conținut din domeniul tehnologic a desemnat câștigătorii ediției din acest an a galei Connect, premiind cele mai performante dispozitive și branduri de pe piață.</description>
     </item>
     <item>
+      <title>Noua consolă Xbox Project Helix va fi lansată în 2028</title>
+      <link>https://izz.ro/tech/noua-consola-xbox-project-helix-va-fi-lansata-in-2028/</link>
+      <guid>https://izz.ro/tech/noua-consola-xbox-project-helix-va-fi-lansata-in-2028/</guid>
+      <pubDate>Wed, 21 Oct 2026 07:32:20 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/21/xbox-project-helix-vine-in-2028-cu-preturi-cuprinse-intre-1-200-si-1-800-de-dolari/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/noua-consola-xbox-project-helix-va-fi-lansata-in-2028/cover.jpg?v=86381532" medium="image" type="image/jpeg"/>
+      <description>Microsoft intenționează să lanseze consola Xbox Project Helix la sfârșitul anului 2028, cu un preț estimat între 1.200 și 1.800 de dolari, conform informațiilor publicate de revista Fortune.</description>
+    </item>
+    <item>
       <title>DNSC anunță amenzi stricte pentru firmele care nu respectă normele cibernetice NIS2</title>
       <link>https://izz.ro/tech/dnsc-anunta-amenzi-stricte-pentru-firmele-care-nu-respecta-normele-cibernetice/</link>
       <guid>https://izz.ro/tech/dnsc-anunta-amenzi-stricte-pentru-firmele-care-nu-respecta-normele-cibernetice/</guid>
@@ -203,7 +253,6 @@
       <pubDate>Tue, 20 Oct 2026 12:58:21 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/20/apple-componente-iphone-fabricate-sua/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/apple-isi-extinde-productia-interna-de-componente-pentru-viitoarele-modele/cover.jpg?v=0b60d328" medium="image" type="image/jpeg"/>
       <description>Compania americană a încheiat noi contracte cu furnizori locali pentru carcase din titan și piese foto destinate seriei iPhone, în cadrul programului de producție națională.</description>
     </item>
     <item>
@@ -213,7 +262,6 @@
       <pubDate>Tue, 20 Oct 2026 12:50:51 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/google-cloud-revolut/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/avarierea-google-cloud-a-provocat-intreruperi-majore-pentru-revolut-si-banci/cover.jpg?v=c73d9625" medium="image" type="image/jpeg"/>
       <description>O pană de curent la un centru de date din Londra a generat probleme masive de funcționare pentru aplicația Revolut și alte instituții financiare, arătând vulnerabilitatea dependenței excesive de cloud.</description>
     </item>
     <item>
@@ -223,7 +271,6 @@
       <pubDate>Tue, 20 Oct 2026 12:46:43 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/20/pc-memorii-scumpiri-2027/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/producatorii-de-pc-uri-incheie-contracte-pe-termen-lung-pentru-memorii/cover.jpg?v=75311037" medium="image" type="image/jpeg"/>
       <description>Lenovo, HP și Dell au semnat acorduri pe termen lung cu furnizorii de componente pentru a stabiliza aprovizionarea până în 2027, orientându-se totodată spre segmentul business și funcțiile AI.</description>
     </item>
     <item>
@@ -233,7 +280,6 @@
       <pubDate>Tue, 20 Oct 2026 12:39:50 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/20/iphone-18-design-modul-foto/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/viitorul-model-iphone-18-ar-putea-aduce-modificari-majore-ale-designului/cover.jpg?v=efc96ee4" medium="image" type="image/jpeg"/>
       <description>Imaginile preliminare sugerează un nou modul foto extins pe spatele dispozitivului Apple, a cărui lansare comercială este programată pentru anul 2027.</description>
     </item>
     <item>
@@ -243,7 +289,6 @@
       <pubDate>Tue, 20 Oct 2026 11:28:00 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.profit.ro/romania-conectata/windows-ruleaza-acum-mai-bine-anunta-microsoft-22862448?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/tech/microsoft-anunta-performante-imbunatatite-pentru-sistemul-de-operare-windows-11/cover.jpg?v=0e0b9dc9" medium="image" type="image/jpeg"/>
       <description>Gigantul tehnologic Microsoft susține că Windows 11 rulează mult mai rapid și mai eficient. Optimizările recente aduc beneficii vizibile în special pe computerele echipate cu o cantitate redusă de memorie RAM.</description>
     </item>
     <item>
@@ -253,7 +298,6 @@
       <pubDate>Tue, 20 Oct 2026 11:12:28 +0000</pubDate>
       <category>tech</category>
       <source url="https://hotnews.ro/am-folosit-noul-iphone-18-pro-max-timp-de-o-luna-cateva-concluzii-in-newsletter-ul-good-tech-de-pe-21-octombrie-2381190">HotNews</source>
-      <media:content url="https://izz.ro/tech/jurnalistul-a-testat-timp-de-o-luna-noul-smartphone-iphone-18-pro-max/cover.jpg?v=9dda0666" medium="image" type="image/jpeg"/>
       <description>Un specialist în tehnologie a detaliat experiența sa zilnică de utilizare a noului model iPhone 18 Pro Max, lansat de compania Apple. Analiza oferă o perspectivă obiectivă asupra performanțelor dispozitivului, fără a avea caracter comercial.</description>
     </item>
     <item>
@@ -263,7 +307,6 @@
       <pubDate>Tue, 20 Oct 2026 11:12:18 +0000</pubDate>
       <category>tech</category>
       <source url="https://economedia.ro/go-global-south-10-start-up-uri-tech-din-romania-si-europa-de-sud-est-pregatite-pentru-pietele-din-asia-de-sud-est.html">Economedia, G4Media</source>
-      <media:content url="https://izz.ro/tech/programul-go-global-lanseaza-o-noua-editie-pentru-zece-start-up-uri-tech-din/cover.jpg?v=5f434678" medium="image" type="image/jpeg"/>
       <description>Programul „GO GLOBAL &gt; SOUTH”, inițiat de Upgrade 100 și IMPACTUM Group, organizează o nouă ediție dedicată extinderii start-up-urilor tech din România și Europa de Sud-Est pe piețele din Asia de Sud-Est. Înscrierile sunt deschise până pe 15 noiembrie, iar cele zece companii selectate vor participa la New Asia Forum, care va avea loc în Bali pe 3-4 decembrie.</description>
     </item>
     <item>
@@ -273,7 +316,6 @@
       <pubDate>Tue, 20 Oct 2026 11:09:33 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.digi24.ro/stiri/sci-tech/lumea-digitala/o-pana-a-serviciului-google-cloud-perturba-mai-multe-servicii-printre-care-si-cele-ale-bancii-revolut-4000481">Digi24, Știrile ProTV</source>
-      <media:content url="https://izz.ro/tech/o-pana-a-serviciului-google-cloud-a-afectat-mai-multe-aplicatii-si-banci/cover.jpg?v=9dad6cc9" medium="image" type="image/jpeg"/>
       <description>O defecțiune majoră apărută la infrastructura Google Cloud a generat rate ridicate de erori și întreruperi intermitente la centrul de date din Londra. Incidentul tehnic a perturbat funcționarea a numeroase site-uri, aplicații web și servicii digitale la nivel larg, printre care și cele utilizate de banca Revolut.</description>
     </item>
     <item>
@@ -283,7 +325,6 @@
       <pubDate>Tue, 20 Oct 2026 11:07:13 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.g4media.ro/o-intrerupere-a-serviciilor-google-cloud-afecteaza-banci-servicii-de-livrare-si-site-uri-din-europa.html">G4Media</source>
-      <media:content url="https://izz.ro/tech/pana-majora-de-curent-la-google-cloud-afecteaza-servicii-digitale-europene/cover.jpg?v=13c81e33" medium="image" type="image/jpeg"/>
       <description>O defecțiune la alimentarea cu energie electrică a infrastructurii Google Cloud a provocat întreruperi pentru numeroase platforme bancare, aplicații de livrare și site-uri comerciale din Europa.</description>
     </item>
     <item>
@@ -438,50 +479,5 @@
       <category>tech</category>
       <source url="https://www.antena3.ro/economic/auto/uite-fara-maini-pe-volan-uber-lanseaza-taxiurile-fara-sofer-in-europa-in-ce-orase-vor-circula-masinile-autonome-807832.html">Antena 3 CNN</source>
       <description>După debutul testelor efectuate în orașul Zagreb din Croația, compania americană a anunțat oficial planurile de lansare a vehiculelor fără șofer în mai multe centre urbane importante de pe continent.</description>
-    </item>
-    <item>
-      <title>Operatorii telecom europeni testează serviciul prin satelit contra Starlink</title>
-      <link>https://izz.ro/tech/operatorii-telecom-europeni-testeaza-serviciul-prin-satelit-contra-starlink/</link>
-      <guid>https://izz.ro/tech/operatorii-telecom-europeni-testeaza-serviciul-prin-satelit-contra-starlink/</guid>
-      <pubDate>Mon, 19 Oct 2026 21:02:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.antena3.ro/externe/marile-companii-de-telefonie-mobila-din-europa-incearca-sa-concureze-starlinkul-si-propun-un-serviciu-revolutionar-satelit-catre-mobil-807830.html">Antena 3 CNN</source>
-      <description>Patru mari companii de telefonie mobilă din Europa colaborează pentru lansarea tehnologiei de comunicație satelit-către-mobil, rivalizând direct cu sistemul Starlink dezvoltat de Elon Musk.</description>
-    </item>
-    <item>
-      <title>Lenovo organizează evenimentul Tech World la CES 2027 pentru a promova inteligența artificială hibridă</title>
-      <link>https://izz.ro/tech/lenovo-organizeaza-evenimentul-tech-world-la-ces-2027-pentru-a-promova/</link>
-      <guid>https://izz.ro/tech/lenovo-organizeaza-evenimentul-tech-world-la-ces-2027-pentru-a-promova/</guid>
-      <pubDate>Mon, 19 Oct 2026 18:54:51 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.economica.net/lenovo-tech-world-revine-la-ces-2027-pentru-a-contura-urmatoarea-etapa-a-erei-hybrid-ai_987288.html">Economica</source>
-      <description>Lideri din domeniul tehnologiei se vor reuni pentru a discuta viitorul inteligenței artificiale hibride și modul în care aceasta poate sprijini dezvoltarea companiilor și a societății.</description>
-    </item>
-    <item>
-      <title>Apple a programat un eveniment online pentru 28 octombrie sub sloganul Pro and tell</title>
-      <link>https://izz.ro/tech/apple-a-programat-un-eveniment-online-pentru-28-octombrie-sub-sloganul-pro-and/</link>
-      <guid>https://izz.ro/tech/apple-a-programat-un-eveniment-online-pentru-28-octombrie-sub-sloganul-pro-and/</guid>
-      <pubDate>Mon, 19 Oct 2026 16:38:10 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/19/apple-eveniment-28-octombrie/">Connect.ro</source>
-      <description>Compania Apple va organiza un eveniment de presă în Los Angeles, unde sunt așteptate lansări precum primele laptopuri MacBook Pro cu ecran tactil OLED și noi dispozitive echipate cu procesor M6.</description>
-    </item>
-    <item>
-      <title>Meta își cere scuze pentru blocarea greșită a unui cont anti-Trump</title>
-      <link>https://izz.ro/tech/meta-isi-cere-scuze-pentru-blocarea-gresita-a-unui-cont-anti-trump/</link>
-      <guid>https://izz.ro/tech/meta-isi-cere-scuze-pentru-blocarea-gresita-a-unui-cont-anti-trump/</guid>
-      <pubDate>Mon, 19 Oct 2026 14:52:15 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://hotnews.ro/meta-isi-cere-scuze-dupa-ce-a-suspendat-un-popular-cont-anti-trump-si-spune-ca-sistemele-automate-au-fost-responsabile-2380300">HotNews</source>
-      <description>Reprezentanții companiei Meta au motivat că suspendarea paginii de Instagram a mișcării de protest „No Kings” a fost cauzată de o eroare a sistemelor automate care au detectat în mod fals trafic suspect de tip bot.</description>
-    </item>
-    <item>
-      <title>Un mod nou adaugă dialoguri interactive cu NPC-urile în GTA V</title>
-      <link>https://izz.ro/tech/un-mod-nou-adauga-dialoguri-interactive-cu-npc-urile-in-gta-v/</link>
-      <guid>https://izz.ro/tech/un-mod-nou-adauga-dialoguri-interactive-cu-npc-urile-in-gta-v/</guid>
-      <pubDate>Mon, 19 Oct 2026 13:23:52 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/gta-npctalk/">ZonaIT</source>
-      <description>Pasionatii jocului GTA V pot purta conversatii si pot flirta cu orice personaj secundar datorita unei modificari software recente, oferind o distractie suplimentara pana la lansarea viitoarei editii a seriei.</description>
     </item>
 </channel></rss>

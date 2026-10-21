@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 15:39:04 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 20:33:22 +0000</lastBuildDate>
+    <item>
+      <title>Șeful Nvidia susține că Europa are un avantaj competitiv în robotică și inteligență artificială</title>
+      <link>https://izz.ro/ai/seful-nvidia-sustine-ca-europa-are-un-avantaj-competitiv-in-robotica-si/</link>
+      <guid>https://izz.ro/ai/seful-nvidia-sustine-ca-europa-are-un-avantaj-competitiv-in-robotica-si/</guid>
+      <pubDate>Wed, 21 Oct 2026 18:29:14 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/jensen-huang-ceo-ul-nvidia-indeamna-europa-sa-implementeze-mai-rapid-inteligenta-artificiala-in-industrie-2382926">HotNews</source>
+      <media:content url="https://izz.ro/ai/seful-nvidia-sustine-ca-europa-are-un-avantaj-competitiv-in-robotica-si/cover.jpg?v=176bc426" medium="image" type="image/jpeg"/>
+      <description>Directorul general al companiei Nvidia a declarat că expertiza tehnică europeană oferă regiunii un potențial ridicat în domeniul tehnologiilor fizice, anunțând extinderea unor parteneriate locale.</description>
+    </item>
     <item>
       <title>Destinații europene recomandate pentru prima călătorie în străinătate</title>
       <link>https://izz.ro/lifestyle/destinatii-europene-recomandate-pentru-prima-calatorie-in-strainatate/</link>
@@ -63,7 +73,6 @@
       <pubDate>Tue, 20 Oct 2026 13:17:24 +0000</pubDate>
       <category>politic</category>
       <source url="https://cvlpress.ro/20.10.2026/guvern-minoritar-dar-legitim/">Cuvântul Libertății</source>
-      <media:content url="https://izz.ro/politic/analiza-privind-legitimitatea-si-refuzul-partidelor-de-a-intra-la-guvernare/cover.jpg?v=9b0269c5" medium="image" type="image/jpeg"/>
       <description>Comentariu pe marginea atitudinii formațiunilor politice din România care refuză participarea la guvernare, comparativ cu practicile din celelalte state europene unde accederea în parlament implică automat asumarea puterii executive.</description>
     </item>
     <item>
@@ -452,14 +461,5 @@
       <category>auto</category>
       <source url="https://www.automarket.ro/stiri/byd-atto-8-noul-etalon-al-marcii-in-europa-incarcare-in-doar-9-minute-129033.html">AutoMarket</source>
       <description>Producătorul chinez BYD a prezentat noul său vârf de gamă pe piața europeană, SUV-ul electric Atto 8, echipat cu tehnologie de încărcare ultra-rapidă și o configurație interioară spațioasă cu șapte locuri.</description>
-    </item>
-    <item>
-      <title>Provocările Europei privind suveranitatea datelor în cloud</title>
-      <link>https://izz.ro/tech/provocarile-europei-privind-suveranitatea-datelor-in-cloud/</link>
-      <guid>https://izz.ro/tech/provocarile-europei-privind-suveranitatea-datelor-in-cloud/</guid>
-      <pubDate>Mon, 12 Oct 2026 03:00:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.politico.eu/sponsored-content/how-can-europe-leverage-laws-to-secure-cloud-sovereignty/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Organizațiile europene caută soluții pentru a adopta inteligența artificială și serviciile cloud moderne fără a compromite controlul asupra propriilor date, în contextul instabilității geopolitice actuale.</description>
     </item>
 </channel></rss>

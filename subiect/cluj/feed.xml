@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 15:39:05 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 20:33:22 +0000</lastBuildDate>
+    <item>
+      <title>Mănăstirea Nicula găzduiește un eveniment despre medicina transplantului și spiritualitate</title>
+      <link>https://izz.ro/local/manastirea-nicula-gazduieste-un-eveniment-despre-medicina-transplantului-si/</link>
+      <guid>https://izz.ro/local/manastirea-nicula-gazduieste-un-eveniment-despre-medicina-transplantului-si/</guid>
+      <pubDate>Wed, 21 Oct 2026 17:55:14 +0000</pubDate>
+      <category>local</category>
+      <source url="https://jurnalulolteniei.ro/medicina-se-intalneste-cu-spiritualitatea-la-manastirea-nicula/">Jurnalul Olteniei</source>
+      <media:content url="https://izz.ro/local/manastirea-nicula-gazduieste-un-eveniment-despre-medicina-transplantului-si/cover.jpg?v=2e2933fd" medium="image" type="image/jpeg"/>
+      <description>Asociația de medici „Trup și Suflet” organizează în noiembrie o reuniune la Cluj care aduce în dialog experți din medicina românească, bioetică și cler, explorând conexiunile profunde dintre știință și credință.</description>
+    </item>
+    <item>
+      <title>Accident rutier mortal pe DN 1C, în județul Cluj</title>
+      <link>https://izz.ro/local/accident-rutier-mortal-pe-dn-1c-in-judetul-cluj/</link>
+      <guid>https://izz.ro/local/accident-rutier-mortal-pe-dn-1c-in-judetul-cluj/</guid>
+      <pubDate>Wed, 21 Oct 2026 17:41:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/accident-rutier-grav-in-cluj-un-barbat-a-decedat--303246.html">Ziua de Cluj</source>
+      <media:content url="https://izz.ro/local/accident-rutier-mortal-pe-dn-1c-in-judetul-cluj/cover.jpg?v=b8a8eea7" medium="image" type="image/jpeg"/>
+      <description>Un bărbat a murit în urma unui grav accident rutier petrecut pe drumul național 1C, în localitatea Jucu, județul Cluj. Echipajele de pompieri din Cluj-Napoca s-au deplasat imediat la fața locului pentru intervenție.</description>
+    </item>
     <item>
       <title>Legenda locală a ciobanului Donath care ar fi salvat orașul Cluj de o invazie</title>
       <link>https://izz.ro/local/legenda-locala-a-ciobanului-donath-care-ar-fi-salvat-orasul-cluj-de-o-invazie/</link>
@@ -53,7 +73,6 @@
       <pubDate>Tue, 20 Oct 2026 14:01:14 +0000</pubDate>
       <category>judetean</category>
       <source url="https://gazetadecluj.ro/maria-forna-si-a-anuntat-demisia-din-functia-de-prefect-al-judetului-cluj/">Gazeta de Cluj</source>
-      <media:content url="https://izz.ro/judetean/maria-forna-a-demisionat-din-functia-de-prefect-al-judetului-cluj/cover.jpg?v=c79f73ff" medium="image" type="image/jpeg"/>
       <description>Instituția Prefectului Cluj intră într-o etapă de tranziție după ce prefectul Maria Forna și subprefectul Flaviu Udrea și-au înaintat demisiile în urma votului din Parlament.</description>
     </item>
     <item>
@@ -442,23 +461,5 @@
       <category>local</category>
       <source url="https://zcj.ro/utile/targul-de-la-negreni-e-in-toi-rute-ocolitoare-pentru-evitarea-aglomeratiei--302660.html">Ziua de Cluj</source>
       <description>Autoritățile din Cluj le solicită șoferilor să utilizeze trasee alternative în acest sfârșit de săptămână pentru a ocoli blocajele din zona în care se desfășoară tradiționalul târg din localitatea Negreni.</description>
-    </item>
-    <item>
-      <title>Tarifele pentru apă și canalizare în județul Alba</title>
-      <link>https://izz.ro/local/tarifele-pentru-apa-si-canalizare-in-judetul-alba/</link>
-      <guid>https://izz.ro/local/tarifele-pentru-apa-si-canalizare-in-judetul-alba/</guid>
-      <pubDate>Sat, 10 Oct 2026 07:05:50 +0000</pubDate>
-      <category>local</category>
-      <source url="https://alba24.ro/apa-si-canalizarea-in-alba-mai-scumpe-decat-la-cluj-si-sibiu-topul-tarifelor-si-locul-ocupat-de-apa-ctta-1161997.html">Alba24</source>
-      <description>Locuitorii deserviți de APA CTTA Alba plătesc peste 19 lei pentru un metru cub de apă și canalizare, un tarif semnificativ mai ridicat decât cel practicat în județele Cluj și Sibiu.</description>
-    </item>
-    <item>
-      <title>Călin Georgescu a transmis un mesaj susținătorilor din Arestul Central</title>
-      <link>https://izz.ro/judetean/calin-georgescu-a-transmis-primul-mesaj-din-arestul-central-pentru-sustinatori/</link>
-      <guid>https://izz.ro/judetean/calin-georgescu-a-transmis-primul-mesaj-din-arestul-central-pentru-sustinatori/</guid>
-      <pubDate>Sat, 10 Oct 2026 06:18:42 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://newsbv.ro/calin-georgescu-mesaj-arest-sustinatori/">News Brașov, Ziua de Cluj</source>
-      <description>Călin Georgescu a trimis primul său mesaj din Arestul Central către susținători, pe fondul manifestațiilor organizate de aceștia timp de mai multe zile în diverse orașe, inclusiv la Cluj, pentru a-i arăta sprijinul.</description>
     </item>
 </channel></rss>
