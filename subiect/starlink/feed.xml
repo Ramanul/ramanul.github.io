@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 10:27:31 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 15:39:05 +0000</lastBuildDate>
     <item>
       <title>Operatori europeni de telecomunicații dezvoltă o alternativă la rețeaua Starlink</title>
       <link>https://izz.ro/tech/operatori-europeni-de-telecomunicatii-dezvolta-o-alternativa-la-reteaua-starlink/</link>
@@ -13,7 +13,6 @@
       <pubDate>Tue, 20 Oct 2026 07:39:23 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/vodafone-orange-starlink/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/operatori-europeni-de-telecomunicatii-dezvolta-o-alternativa-la-reteaua-starlink/cover.jpg?v=3d224e2b" medium="image" type="image/jpeg"/>
       <description>Orange, Vodafone, Telefonica și Deutsche Telekom colaborează pentru a crea o constelație europeană de sateliți. Noua rețea va oferi acoperire de internet direct pe telefonul mobil în zonele izolate.</description>
     </item>
     <item>
@@ -213,15 +212,6 @@
       <category>extern</category>
       <source url="https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted">The Guardian</source>
       <description>Terminalele Starlink furnizate de SpaceX au suferit restricții de funcționare pentru trupele ucrainene, pe fondul presiunilor exercitate de administrația de la Washington pentru oprirea loviturilor asupra Rusiei.</description>
-    </item>
-    <item>
-      <title>Comisia Europeană nu confirmă întreruperea serviciilor Starlink în Ucraina</title>
-      <link>https://izz.ro/extern/comisia-europeana-nu-confirma-intreruperea-serviciilor-starlink-in-ucraina/</link>
-      <guid>https://izz.ro/extern/comisia-europeana-nu-confirma-intreruperea-serviciilor-starlink-in-ucraina/</guid>
-      <pubDate>Wed, 14 Oct 2026 13:28:18 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/live/2026/oct/14/russia-ukraine-war-latest-updates-zelenskyy-europe">The Guardian</source>
-      <description>Oficialii europeni declară că nu există indicii privind sistarea transmisiilor prin satelit, în timp ce sute de mii de ucraineni au rămas fără energie electrică din cauza atacurilor ruse.</description>
     </item>
     <item>
       <title>Armata ucraineană a pierdut temporar semnalul Starlink</title>

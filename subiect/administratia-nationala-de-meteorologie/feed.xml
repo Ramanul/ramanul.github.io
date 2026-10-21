@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/administratia-nationala-de-meteorologie/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Administrația Națională de Meteorologie pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 10:27:31 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 15:39:05 +0000</lastBuildDate>
     <item>
       <title>Cod galben de ploi și vânt puternic în Regiunea de Nord-Est</title>
       <link>https://izz.ro/general/cod-galben-de-ploi-si-vant-puternic-in-regiunea-de-nord-est/</link>
@@ -33,7 +33,6 @@
       <pubDate>Tue, 20 Oct 2026 07:38:09 +0000</pubDate>
       <category>regional</category>
       <source url="https://www.pressalert.ro/2026/10/cod-galben-de-vant-puternic-in-banat-cand-intra-in-vigoare-alerta-meteo/">PressAlert Timișoara</source>
-      <media:content url="https://izz.ro/regional/cod-galben-de-vant-puternic-emis-pentru-judetele-din-banat/cover.jpg?v=e81509aa" medium="image" type="image/jpeg"/>
       <description>Administrația Națională de Meteorologie a emis o avertizare meteo de vânt puternic pentru două județe din vestul țării, valabilă de miercuri dimineață până joi, cu rafale de peste 80 km/h.</description>
     </item>
     <item>
@@ -43,7 +42,6 @@
       <pubDate>Tue, 20 Oct 2026 05:43:00 +0000</pubDate>
       <category>general</category>
       <source url="https://observatornews.ro/vremea/cum-va-fi-vremea-pana-la-mijlocul-lui-noiembrie-temperaturi-peste-normal-si-ploi-mai-multe-in-prima-saptamana-669676.html">Observator, Digi24</source>
-      <media:content url="https://izz.ro/general/prognoza-meteo-anm-anunta-temperaturi-ridicate-si-ploi-in-prima-jumatate-a/cover.jpg?v=4a03fcf6" medium="image" type="image/jpeg"/>
       <description>Administrația Națională de Meteorologie a actualizat prognoza pentru intervalul 19 octombrie – 16 noiembrie. În următoarele două săptămâni, temperaturile vor fi mai ridicate decât media perioadei, în special în nord-estul țării, iar precipitațiile vor fi excedentare doar în prima săptămână. În prima jumătate a lunii noiembrie, valorile termice și cantitățile de ploi se vor încadra, în general, în limitele normale.</description>
     </item>
     <item>
@@ -144,14 +142,5 @@
       <category>general</category>
       <source url="https://www.newsbucovina.ro/actualitate/451823/ploi-moderate-si-racire-a-vremii-in-perioada-11-13-octombrie-la-munte-vor-fi-precipitatii-mixte-si-vant-puternic">NewsBucovina</source>
       <description>Meteorologii au emis o informare valabilă între 11 și 13 octombrie, semnalând ploi extinse în toată țara, ninsori la munte și intensificări puternice ale vântului, pe fondul unei scăderi a temperaturilor.</description>
-    </item>
-    <item>
-      <title>Schimbare bruscă a vremii în România, anunțată de meteorologi</title>
-      <link>https://izz.ro/general/schimbare-brusca-a-vremii-in-romania-anuntata-de-meteorologi/</link>
-      <guid>https://izz.ro/general/schimbare-brusca-a-vremii-in-romania-anuntata-de-meteorologi/</guid>
-      <pubDate>Fri, 09 Oct 2026 11:08:06 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.bihon.ro/stirile-judetului-bihor/de-la-30-de-grade-la-vreme-rece-si-ploioasa-cum-arata-prognoza-anm-pentru-urmatoarele-saptamani-5424810/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
-      <description>Administrația Națională de Meteorologie prognozează o răcire accentuată și ploi în mai multe regiuni începând de luni. La munte, la peste 1.500 de metri, sunt așteptate ninsori și lapoviță, urmate de o încălzire treptată după 15 octombrie.</description>
     </item>
 </channel></rss>

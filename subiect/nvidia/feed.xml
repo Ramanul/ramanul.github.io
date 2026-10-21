@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>NVIDIA — IZZ.ro</title>
+  <title>Nvidia — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre NVIDIA pe IZZ.ro</description>
+  <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 10:27:31 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 15:39:05 +0000</lastBuildDate>
+    <item>
+      <title>Nvidia lansează un driver GeForce care reduce timpii de încărcare în jocuri</title>
+      <link>https://izz.ro/tech/nvidia-lanseaza-un-driver-geforce-care-reduce-timpii-de-incarcare-in-jocuri/</link>
+      <guid>https://izz.ro/tech/nvidia-lanseaza-un-driver-geforce-care-reduce-timpii-de-incarcare-in-jocuri/</guid>
+      <pubDate>Wed, 21 Oct 2026 14:18:41 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/nvidia-driver-geforce/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/nvidia-lanseaza-un-driver-geforce-care-reduce-timpii-de-incarcare-in-jocuri/cover.jpg?v=c4bc28b7" medium="image" type="image/jpeg"/>
+      <description>Noua versiune 621.01 a driverelor Nvidia aduce suport pentru tehnologia Advanced Shader Delivery de la Microsoft, eliminând compilarea just-in-time pentru un transfer mai rapid al resurselor.</description>
+    </item>
     <item>
       <title>Zvonuri despre oprirea producției pentru placa video NVIDIA RTX 5090</title>
       <link>https://izz.ro/tech/zvonuri-despre-oprirea-productiei-pentru-placa-video-nvidia-rtx-5090/</link>
@@ -33,7 +43,7 @@
       <pubDate>Tue, 20 Oct 2026 11:30:09 +0000</pubDate>
       <category>ai</category>
       <source url="https://cursdeguvernare.ro/germania-colaborare-cu-nvidia-pentru-dezvoltare-modele-ai-fizice.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/ai/germania-si-nvidia-incheie-un-parteneriat-pentru-dezvoltarea-robotilor-si/cover.jpg?v=d7d4a7ff" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/germania-si-nvidia-incheie-un-parteneriat-pentru-dezvoltarea-robotilor-si/cover.jpg?v=b55ab21d" medium="image" type="image/jpeg"/>
       <description>Cancelarul Friedrich Merz și șeful Nvidia, Jensen Huang, pregătesc un pact pentru accelerarea inovațiilor în inteligența artificială fizică. Inițiativa urmărește atragerea de noi investiții majore în industria din Germania.</description>
     </item>
     <item>

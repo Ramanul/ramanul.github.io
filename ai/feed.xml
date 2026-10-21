@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 10:27:40 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 15:39:14 +0000</lastBuildDate>
+    <item>
+      <title>Presă europeană cere blocarea noilor clauze AI impuse de Meta</title>
+      <link>https://izz.ro/ai/presa-europeana-cere-blocarea-noilor-clauze-ai-impuse-de-meta/</link>
+      <guid>https://izz.ro/ai/presa-europeana-cere-blocarea-noilor-clauze-ai-impuse-de-meta/</guid>
+      <pubDate>Wed, 21 Oct 2026 13:23:02 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.eu/article/publishers-press-brussels-and-london-to-stop-metas-new-ai-terms/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/ai/presa-europeana-cere-blocarea-noilor-clauze-ai-impuse-de-meta/cover.jpg?v=460a54b5" medium="image" type="image/jpeg"/>
+      <description>Asociațiile marilor editori de presă din Europa au solicitat autorităților de reglementare din Bruxelles și Londra să oprească Meta din utilizarea conținutului media pentru antrenarea inteligenței artificiale.</description>
+    </item>
     <item>
       <title>Provocările companiilor în extinderea sistemelor bazate pe inteligență artificială</title>
       <link>https://izz.ro/ai/provocarile-companiilor-in-extinderea-sistemelor-bazate-pe-inteligenta/</link>
@@ -83,7 +93,7 @@
       <pubDate>Tue, 20 Oct 2026 11:35:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.antena3.ro/economic/roxana-minzatu-interviu-in-wp-ai-poate-inlocui-inclusiv-joburi-bine-platite-trebuie-sa-pregatim-oamenii-inainte-sa-fie-prea-tarziu-807908.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/ai/roxana-minzatu-avertizeaza-ca-inteligenta-artificiala-poate-inlocui-si-locurile/cover.jpg?v=4e517214" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/roxana-minzatu-avertizeaza-ca-inteligenta-artificiala-poate-inlocui-si-locurile/cover.jpg?v=8621336b" medium="image" type="image/jpeg"/>
       <description>Inteligența artificială are potențialul de a elimina inclusiv posturi calificate și bine remunerate, motiv pentru care comisarul european Roxana Mînzatu subliniază importanța pregătirii populației pentru această tranziție.</description>
     </item>
     <item>
@@ -93,7 +103,7 @@
       <pubDate>Tue, 20 Oct 2026 11:30:09 +0000</pubDate>
       <category>ai</category>
       <source url="https://cursdeguvernare.ro/germania-colaborare-cu-nvidia-pentru-dezvoltare-modele-ai-fizice.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/ai/germania-si-nvidia-incheie-un-parteneriat-pentru-dezvoltarea-robotilor-si/cover.jpg?v=d7d4a7ff" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/germania-si-nvidia-incheie-un-parteneriat-pentru-dezvoltarea-robotilor-si/cover.jpg?v=b55ab21d" medium="image" type="image/jpeg"/>
       <description>Cancelarul Friedrich Merz și șeful Nvidia, Jensen Huang, pregătesc un pact pentru accelerarea inovațiilor în inteligența artificială fizică. Inițiativa urmărește atragerea de noi investiții majore în industria din Germania.</description>
     </item>
     <item>
@@ -103,7 +113,6 @@
       <pubDate>Tue, 20 Oct 2026 10:46:50 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.digi24.ro/stiri/sci-tech/traim-intr-o-lume-noua-un-singur-hacker-a-compromis-site-urile-a-peste-100-de-companii-cu-ajutorul-ai-cat-l-au-costat-atacurile-4000435">Digi24 Extern</source>
-      <media:content url="https://izz.ro/ai/un-singur-hacker-a-atacat-peste-o-suta-de-companii-folosind-instrumente/cover.jpg?v=95a7b6c3" medium="image" type="image/jpeg"/>
       <description>Un atac cibernetic complex asupra a peste o mie de site-uri internaționale a fost realizat de un singur individ cu ajutorul agenților AI. Operațiunea a costat aproximativ 5.000 de dolari și a demonstrat capacitatea tehnologiei de a exploata vulnerabilități fără...</description>
     </item>
     <item>
@@ -113,7 +122,6 @@
       <pubDate>Tue, 20 Oct 2026 09:09:49 +0000</pubDate>
       <category>ai</category>
       <source url="https://start-up.ro/8-din-10-profesori-se-tem-ca-ai-ul-intra-in-clase-mai-repede-decat-se-pot-adapta-scolile/">Start-up.ro</source>
-      <media:content url="https://izz.ro/ai/profesorii-europeni-se-tem-ca-inteligenta-artificiala-depaseste-adaptarea/cover.jpg?v=cf23b352" medium="image" type="image/jpeg"/>
       <description>Conform unui studiu realizat în șase state europene, majoritatea cadrelor didactice avertizează că ritmul de pătrundere a inteligenței artificiale în sălile de clasă depășește capacitatea instituțiilor de învățământ de a gestiona această tranziție.</description>
     </item>
     <item>
@@ -123,7 +131,6 @@
       <pubDate>Tue, 20 Oct 2026 06:52:18 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.connect.ro/2026/10/20/chatgpt-vine-in-google-chrome-si-are-actiuni-noi/">Connect.ro</source>
-      <media:content url="https://izz.ro/ai/openai-integreaza-functii-avansate-pentru-chatgpt-in-browserul-google-chrome/cover.jpg?v=ee4b3f02" medium="image" type="image/jpeg"/>
       <description>Asistentul virtual ChatGPT poate opera direct în interiorul filelor active din Google Chrome, o facilitate concepută pentru a simplifica completarea rapidă a formularelor online extinse.</description>
     </item>
     <item>
@@ -133,7 +140,6 @@
       <pubDate>Tue, 20 Oct 2026 05:27:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.profit.ro/povesti-cu-profit/financiar/domnul-pensionescu-ii-ajuta-pe-romani-sa-inteleaga-totul-despre-pensia-privata-apapr-lanseaza-un-asistent-ai-fara-sa-solicite-date-personale-22862451?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro, Economica</source>
-      <media:content url="https://izz.ro/ai/apapr-a-lansat-domnul-pensionescu-un-asistent-virtual-bazat-pe-inteligenta/cover.jpg?v=2ad96096" medium="image" type="image/jpeg"/>
       <description>Asociația pentru Pensiile Administrate Privat a lansat asistentul virtual bazat pe inteligență artificială „Domnul Pensionescu”, disponibil pe platforma pilonul2.ro. Instrumentul oferă informații generale despre sistemul de pensii private, Pilonul 2 și Pilonul 3, fără a solicita date personale sau a accesa conturile individuale ale participanților. Aproximativ 2.000 de români au utilizat deja serviciul pentru a se informa.</description>
     </item>
     <item>
@@ -459,14 +465,5 @@
       <category>ai</category>
       <source url="https://adevarul.ro/stil-de-viata/tehnologie/unii-cercetatori-ai-s-au-apucat-de-fumat-2563990.html">Adevărul</source>
       <description>Un executiv din domeniul analizei de date susține că unii specialiști în domeniul inteligenței artificiale manifestă un comportament irațional extrem, bazat pe convingerea absolută că algoritmii vor elimina curând bolile oncologice.</description>
-    </item>
-    <item>
-      <title>Compania românească Neurony a obținut statutul Anthropic Claude Select Partner</title>
-      <link>https://izz.ro/ai/compania-romaneasca-neurony-a-obtinut-statutul-anthropic-claude-select-partner/</link>
-      <guid>https://izz.ro/ai/compania-romaneasca-neurony-a-obtinut-statutul-anthropic-claude-select-partner/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:17:09 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/neurony-romania-statutul-anthropic-claude-select-partner/">ZonaIT</source>
-      <description>Dezvoltatorul software Neurony a devenit una dintre cele trei companii din România recunoscute ca Anthropic Claude Select Partner în 2026, obținând acces la programe de pregătire tehnică și suport dedicat.</description>
     </item>
 </channel></rss>
