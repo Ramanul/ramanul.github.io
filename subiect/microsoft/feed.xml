@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 15:52:14 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 20:31:36 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft ar putea lansa o consolă portabilă cu sistem de operare propriu</title>
+      <link>https://izz.ro/tech/microsoft-ar-putea-lansa-o-consola-portabila-cu-sistem-de-operare-propriu/</link>
+      <guid>https://izz.ro/tech/microsoft-ar-putea-lansa-o-consola-portabila-cu-sistem-de-operare-propriu/</guid>
+      <pubDate>Thu, 22 Oct 2026 14:38:40 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/22/urmatorul-handheld-de-la-xbox-ar-putea-renunta-la-windows-in-favoarea-unei-solutii-proprietare/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/microsoft-ar-putea-lansa-o-consola-portabila-cu-sistem-de-operare-propriu/cover.jpg?v=e4568ab0" medium="image" type="image/jpeg"/>
+      <description>Viitorul dispozitiv portabil pregătit de Microsoft ar putea renunța la sistemul Windows 11 în favoarea unei interfețe proprietare. Lansarea este așteptată anul viitor, deși Project Helix este programat pentru 2028.</description>
+    </item>
     <item>
       <title>Microsoft renunță la opt funcții Copilot din Windows 11</title>
       <link>https://izz.ro/tech/microsoft-renunta-la-opt-functii-copilot-din-windows-11/</link>
@@ -23,7 +33,6 @@
       <pubDate>Wed, 21 Oct 2026 14:18:41 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/nvidia-driver-geforce/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/nvidia-lanseaza-un-driver-geforce-care-reduce-timpii-de-incarcare-in-jocuri/cover.jpg?v=c4bc28b7" medium="image" type="image/jpeg"/>
       <description>Noua versiune 621.01 a driverelor Nvidia aduce suport pentru tehnologia Advanced Shader Delivery de la Microsoft, eliminând compilarea just-in-time pentru un transfer mai rapid al resurselor.</description>
     </item>
     <item>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/the-guardian/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre The Guardian pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 15:52:14 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 20:31:36 +0000</lastBuildDate>
+    <item>
+      <title>Dezbatere publică privind criza și protestele violente din Franța</title>
+      <link>https://izz.ro/extern/dezbatere-publica-privind-criza-si-protestele-violente-din-franta/</link>
+      <guid>https://izz.ro/extern/dezbatere-publica-privind-criza-si-protestele-violente-din-franta/</guid>
+      <pubDate>Thu, 22 Oct 2026 16:54:48 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/live/2026/oct/21/france-riots-protests-reader-questions-rokhaya-dallio-alexander-hurst">The Guardian</source>
+      <media:content url="https://izz.ro/extern/dezbatere-publica-privind-criza-si-protestele-violente-din-franta/cover.jpg?v=63d77823" medium="image" type="image/jpeg"/>
+      <description>Jurnaliștii publicației The Guardian organizează o sesiune de întrebări și răspunsuri cu cititorii pentru a analiza consecințele sociale și politice ale protestelor masive și distrugerilor din Franța.</description>
+    </item>
     <item>
       <title>Vulnerabilitate gravă în limbajul PHP provoacă căderi majore de site-uri la nivel global</title>
       <link>https://izz.ro/tech/vulnerabilitate-grava-in-limbajul-php-provoaca-caderi-majore-de-site-uri-la/</link>
@@ -124,14 +134,5 @@
       <category>general</category>
       <source url="https://www.nwradu.ro/2026/10/articole-interesante-de-citit-astazi-11-octombrie-2026/">NwRadu</source>
       <description>Publicațiile zilei aduc în atenție intervențiile dificile ale geniștilor britanici la muniții neexplodate din război și decizia controversată a Pentagonului legată de un fost soldat condamnat.</description>
-    </item>
-    <item>
-      <title>Documentarul NAZA dezvăluie utilizarea inteligenței artificiale și a dronelor de armata israeliană în Gaza</title>
-      <link>https://izz.ro/extern/documentarul-naza-dezvaluie-utilizarea-inteligentei-artificiale-si-a-dronelor/</link>
-      <guid>https://izz.ro/extern/documentarul-naza-dezvaluie-utilizarea-inteligentei-artificiale-si-a-dronelor/</guid>
-      <pubDate>Sat, 10 Oct 2026 18:17:49 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://hotnews.ro/detaliu-tulburator-din-documentarul-naza-ce-face-tehnologia-unde-i-tata-pe-care-armata-israeliana-e-acuzata-ca-o-foloseste-in-gaza-2371865">HotNews</source>
-      <description>Lansat în cinematografele din România, documentarul NAZA, realizat de câștigători ai Oscarului, expune modul în care algoritmii și atacurile cu drone ucid civili în Fâșia Gaza.</description>
     </item>
 </channel></rss>
