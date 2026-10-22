@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 23:42:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 05:03:34 +0000</lastBuildDate>
+    <item>
+      <title>Geoffrey Hinton avertizează că inteligența artificială are conștiință</title>
+      <link>https://izz.ro/ai/geoffrey-hinton-avertizeaza-ca-inteligenta-artificiala-are-constiinta/</link>
+      <guid>https://izz.ro/ai/geoffrey-hinton-avertizeaza-ca-inteligenta-artificiala-are-constiinta/</guid>
+      <pubDate>Thu, 22 Oct 2026 04:00:44 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.digi24.ro/stiri/sci-tech/lumea-digitala/nasul-ia-crede-ca-inteligenta-artificiala-da-deja-semne-de-constiinta-trebuie-sa-ne-imprietenim-cu-robotii-altfel-suntem-terminati-4002391">Digi24</source>
+      <media:content url="https://izz.ro/ai/geoffrey-hinton-avertizeaza-ca-inteligenta-artificiala-are-constiinta/cover.jpg?v=f6488a07" medium="image" type="image/jpeg"/>
+      <description>Cunoscut drept unul dintre pionierii inteligenței artificiale, profesorul Geoffrey Hinton susține că tehnologia a dezvoltat semne de conștiință și îndeamnă la cooperare strânsă cu sistemele autonome pentru evitarea riscurilor majore.</description>
+    </item>
     <item>
       <title>Vulnerabilități vechi de zece ani în codul PHP, descoperite cu inteligența artificială</title>
       <link>https://izz.ro/ai/vulnerabilitati-vechi-de-zece-ani-in-codul-php-descoperite-cu-inteligenta/</link>
@@ -103,7 +113,6 @@
       <pubDate>Tue, 20 Oct 2026 21:07:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.zf.ro/business-international/cum-germania-si-franta-incearca-sa-avanseze-in-cursa-ai-cu-ajutorul-gigantului-tech-american-nvidia-23264234">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/cover.jpg?v=e70f3389" medium="image" type="image/jpeg"/>
       <description>Cancelarul Friedrich Merz și șeful companiei americane Nvidia au oficializat un parteneriat menit să introducă tehnologii AI avansate în mediul industrial german.</description>
     </item>
     <item>
@@ -113,7 +122,6 @@
       <pubDate>Tue, 20 Oct 2026 20:02:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.antena3.ro/life/stiinta/universul-pare-sa-fie-blocat-in-loc-de-un-fenomen-cuantic-ceea-ce-ar-explica-stabilitatea-sa-807927.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/ai/stabilitatea-universului-ar-fi-asigurata-de-un-fenomen-cuantic/cover.jpg?v=1337a377" medium="image" type="image/jpeg"/>
       <description>Oamenii de știință explică faptul că universul nostru rămâne stabil și favorabil vieții deoarece anumite câmpuri cuantice au rămas blocate în starea lor actuală.</description>
     </item>
     <item>
@@ -457,14 +465,5 @@
       <category>ai</category>
       <source url="https://www.theguardian.com/commentisfree/2026/oct/16/ai-existential-threat-real-journalism-democracy-resistance">The Guardian</source>
       <description>Conducerea publicației franceze de investigații Mediapart atrage atenția asupra riscurilor majore pe care marile companii de tehnologie le aduc la nivel social, politic și informativ prin exploatarea presei.</description>
-    </item>
-    <item>
-      <title>Inteligența artificială transformă procesul de recrutare și angajare</title>
-      <link>https://izz.ro/ai/inteligenta-artificiala-transforma-procesul-de-recrutare-si-angajare/</link>
-      <guid>https://izz.ro/ai/inteligenta-artificiala-transforma-procesul-de-recrutare-si-angajare/</guid>
-      <pubDate>Fri, 16 Oct 2026 07:02:24 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://hotnews.ro/inteligenta-artificiala-schimba-regulile-angajarii-ce-conteaza-tot-mai-mult-pentru-recrutori-2377653">HotNews</source>
-      <description>Tehnologia inteligenței artificiale preia sarcinile repetitive din companii, obligând recrutorii să reconsidere rolul esențial al omului și să se concentreze pe colaborarea eficientă dintre angajați și sistemele automate.</description>
     </item>
 </channel></rss>

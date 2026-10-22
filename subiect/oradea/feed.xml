@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/oradea/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Oradea pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 23:41:51 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 05:03:24 +0000</lastBuildDate>
+    <item>
+      <title>Agenda evenimentelor culturale și de divertisment din Oradea</title>
+      <link>https://izz.ro/local/agenda-evenimentelor-culturale-si-de-divertisment-din-oradea/</link>
+      <guid>https://izz.ro/local/agenda-evenimentelor-culturale-si-de-divertisment-din-oradea/</guid>
+      <pubDate>Thu, 22 Oct 2026 03:00:31 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.bihon.ro/stirile-judetului-bihor/ce-facem-astazi-22-octombrie-in-oradea-2-5439837/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
+      <media:content url="https://izz.ro/local/agenda-evenimentelor-culturale-si-de-divertisment-din-oradea/cover.jpg?v=443e9727" medium="image" type="image/jpeg"/>
+      <description>Municipiul Oradea găzduiește o serie de manifestări, incluzând o conferință academică despre elita transilvană, concerte live, seri de karaoke și expoziții tematice dedicate Nadiei Comăneci la Muzeul Țării Crișurilor.</description>
+    </item>
     <item>
       <title>Sportivii din județul Hunedoara au obținut noi rezultate la Cupa României de Taekwon-do ITF</title>
       <link>https://izz.ro/sport/sportivii-din-judetul-hunedoara-au-obtinut-noi-rezultate-la-cupa-romaniei-de/</link>
@@ -450,14 +460,5 @@
       <category>general</category>
       <source url="https://www.bihon.ro/stirile-judetului-bihor/festifall-2026-spectacol-in-ultima-zi-vezi-cum-s-au-bucurat-participantii-de-ziua-de-sambata-5424363/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Ediția din 2026 a festivalului s-a încheiat în centrul Oradiei prin concertele susținute de Andrei Bănuță, Horia Brenciu Orchestra și MIRA, în timp ce Andreea Esca a întreținut atmosfera la platane.</description>
-    </item>
-    <item>
-      <title>Condamnări într-un dosar de credite IFN obținute cu acte false</title>
-      <link>https://izz.ro/local/condamnari-intr-un-dosar-de-credite-ifn-obtinute-cu-acte-false/</link>
-      <guid>https://izz.ro/local/condamnari-intr-un-dosar-de-credite-ifn-obtinute-cu-acte-false/</guid>
-      <pubDate>Sun, 11 Oct 2026 04:00:54 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.bihon.ro/stirile-judetului-bihor/doi-agenti-si-un-client-premiat-condamnati-intr-un-dosar-de-credite-ifn-acordate-cu-acte-false-5422116/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
-      <description>Două persoane din Oradea au fost trimise în judecată și condamnate după ce au completat peste 30 de cereri de credit folosind adeverințe de venit false. Ancheta a fost instrumentată de Parchetul Oradea.</description>
     </item>
 </channel></rss>

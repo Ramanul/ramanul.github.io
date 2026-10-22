@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 21 Oct 2026 23:41:51 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 05:03:24 +0000</lastBuildDate>
+    <item>
+      <title>Distribuția fondurilor publice pentru infrastructură în comunele din Cluj</title>
+      <link>https://izz.ro/local/distributia-fondurilor-publice-pentru-infrastructura-in-comunele-din-cluj/</link>
+      <guid>https://izz.ro/local/distributia-fondurilor-publice-pentru-infrastructura-in-comunele-din-cluj/</guid>
+      <pubDate>Thu, 22 Oct 2026 04:00:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/banii-publici-din-comunele-clujului-cine-imparte-milioanele-din-pnrr-anghel-saligny-si-fonduri-europene/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/local/distributia-fondurilor-publice-pentru-infrastructura-in-comunele-din-cluj/cover.jpg?v=efcc981a" medium="image" type="image/jpeg"/>
+      <description>Administrațiile locale din județul Cluj au accesat zeci de milioane de lei prin programe precum PNRR și Anghel Saligny pentru modernizarea drumurilor, rețelelor de apă și școlilor.</description>
+    </item>
     <item>
       <title>Un motociclist a fost rănit în Cluj pe Bulevardul Muncii</title>
       <link>https://izz.ro/local/un-motociclist-a-fost-ranit-in-cluj-pe-bulevardul-muncii/</link>
@@ -35,16 +45,6 @@
       <source url="https://jurnalulolteniei.ro/medicina-se-intalneste-cu-spiritualitatea-la-manastirea-nicula/">Jurnalul Olteniei</source>
       <media:content url="https://izz.ro/local/manastirea-nicula-gazduieste-un-eveniment-despre-medicina-transplantului-si/cover.jpg?v=2e2933fd" medium="image" type="image/jpeg"/>
       <description>Asociația de medici „Trup și Suflet” organizează în noiembrie o reuniune la Cluj care aduce în dialog experți din medicina românească, bioetică și cler, explorând conexiunile profunde dintre știință și credință.</description>
-    </item>
-    <item>
-      <title>Accident rutier mortal pe DN 1C, în județul Cluj</title>
-      <link>https://izz.ro/local/accident-rutier-mortal-pe-dn-1c-in-judetul-cluj/</link>
-      <guid>https://izz.ro/local/accident-rutier-mortal-pe-dn-1c-in-judetul-cluj/</guid>
-      <pubDate>Wed, 21 Oct 2026 17:41:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://zcj.ro/eveniment/accident-rutier-grav-in-cluj-un-barbat-a-decedat--303246.html">Ziua de Cluj</source>
-      <media:content url="https://izz.ro/local/accident-rutier-mortal-pe-dn-1c-in-judetul-cluj/cover.jpg?v=b8a8eea7" medium="image" type="image/jpeg"/>
-      <description>Un bărbat a murit în urma unui grav accident rutier petrecut pe drumul național 1C, în localitatea Jucu, județul Cluj. Echipajele de pompieri din Cluj-Napoca s-au deplasat imediat la fața locului pentru intervenție.</description>
     </item>
     <item>
       <title>Legenda locală a ciobanului Donath care ar fi salvat orașul Cluj de o invazie</title>
@@ -85,6 +85,16 @@
       <source url="https://zcj.ro/administratie/cj-cluj-anunta-ca-este-pregatit-pentru-venirea-iernii-utilajele-de-deszapezire-vor-fi-monitorizate-prin-gps--303208.html">Ziua de Cluj</source>
       <media:content url="https://izz.ro/judetean/consiliul-judetean-cluj-a-pregatit-utilajele-pentru-deszapezire/cover.jpg?v=a7980040" medium="image" type="image/jpeg"/>
       <description>Autoritățile din Cluj au aprobat planul de intervenție pentru sezonul rece pe drumurile județene, utilajele urmând să fie monitorizate în timp real prin GPS.</description>
+    </item>
+    <item>
+      <title>Spectacolul „Un altfel di Harap Alb” a fost prezentat la Întâlnirile Internaționale de la Cluj</title>
+      <link>https://izz.ro/judetean/spectacolul-un-altfel-di-harap-alb-a-fost-prezentat-la-intalnirile/</link>
+      <guid>https://izz.ro/judetean/spectacolul-un-altfel-di-harap-alb-a-fost-prezentat-la-intalnirile/</guid>
+      <pubDate>Tue, 20 Oct 2026 23:59:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://agenda.liternet.ro/articol/31898/Iulia-Vucmanovici/Trei-zile-patru-nopti-Un-altfel-di-Harap-Alb-la-Intalnirile-Internationale-de-la-Cluj-2026.html">Liternet</source>
+      <media:content url="https://izz.ro/judetean/spectacolul-un-altfel-di-harap-alb-a-fost-prezentat-la-intalnirile/cover.jpg?v=e919affc" medium="image" type="image/jpeg"/>
+      <description>Regizorul Ionuț Caras a adus pe scena de la Cluj o adaptare inedită a poveștii Harap Alb, un spectacol marcat de specificul local care a stârnit reacții variate în rândul publicului și al invitaților străini.</description>
     </item>
     <item>
       <title>Maria Forna a demisionat din funcția de prefect al județului Cluj</title>
@@ -454,14 +464,5 @@
       <category>local</category>
       <source url="https://zcj.ro/eveniment/atentie-soferi-politistii-clujeni-au-scos-elicopterul-pentru-supravegherea-traficului--302669.html">Ziua de Cluj</source>
       <description>Inspectoratul General de Aviație sprijină echipajele rutiere din Cluj prin supravegherea din aer a arterelor circulate și a zonelor cu afluență mare de public, cum ar fi târgul de la Negreni.</description>
-    </item>
-    <item>
-      <title>Patru bărbați din Cluj, reținuți pentru culturi ilegale de droguri și armament deținut fără drept</title>
-      <link>https://izz.ro/judetean/patru-barbati-din-cluj-au-fost-retinuti-de-autoritati-dupa-descoperirea-unor/</link>
-      <guid>https://izz.ro/judetean/patru-barbati-din-cluj-au-fost-retinuti-de-autoritati-dupa-descoperirea-unor/</guid>
-      <pubDate>Sat, 10 Oct 2026 11:16:00 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://zcj.ro/eveniment/descoperire-socanta-in-cluj-culturi-intinse-de-canabis-ciuperci-halucinogene-si-arme-patru-barbati-de-pe-plantatie-direct-dupa-gratii--302668.html">Ziua de Cluj, Dobrogea Online</source>
-      <description>Procurorii DIICOT și polițiștii antidrog au destructurat o rețea infracțională în județul Cluj, reținând patru persoane implicate în culturi de canabis și producție de ciuperci halucinogene. În urma perchezițiilor domiciliare efectuate pe 9 octombrie 2026, autoritățile au confiscat cantități semnificative de droguri, echipamente de preparare, precum și arme neletale și articole pirotehnice. Tribunalul Cluj a dispus arestarea preventivă a inculpaților pentru 30 de zile.</description>
     </item>
 </channel></rss>
