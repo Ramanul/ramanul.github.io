@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 05:03:24 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 10:31:12 +0000</lastBuildDate>
+    <item>
+      <title>Tesla raportează o scădere de 43% a profitului net în trimestrul al treilea din 2026</title>
+      <link>https://izz.ro/economic/tesla-raporteaza-o-scadere-de-43-a-profitului-net-in-trimestrul-al-treilea-din/</link>
+      <guid>https://izz.ro/economic/tesla-raporteaza-o-scadere-de-43-a-profitului-net-in-trimestrul-al-treilea-din/</guid>
+      <pubDate>Thu, 22 Oct 2026 10:14:03 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.g4media.ro/profitul-tesla-a-scazut-cu-43-in-trimestrul-trei-din-2026-in-pofida-redresarii-vanzarilor-in-europa.html">G4Media</source>
+      <media:content url="https://izz.ro/economic/tesla-raporteaza-o-scadere-de-43-a-profitului-net-in-trimestrul-al-treilea-din/cover.jpg?v=a1002213" medium="image" type="image/jpeg"/>
+      <description>Producătorul auto Tesla a înregistrat un profit de 787 milioane de dolari în Q3 2026, în scădere față de perioada similară a anului anterior, în ciuda unei redresări a vânzărilor pe piața din Europa.</description>
+    </item>
+    <item>
+      <title>Diferențe semnificative privind utilizarea aerului condiționat între Europa și SUA</title>
+      <link>https://izz.ro/lifestyle/diferente-semnificative-privind-utilizarea-aerului-conditionat-intre-europa-si/</link>
+      <guid>https://izz.ro/lifestyle/diferente-semnificative-privind-utilizarea-aerului-conditionat-intre-europa-si/</guid>
+      <pubDate>Thu, 22 Oct 2026 08:22:48 +0000</pubDate>
+      <category>lifestyle</category>
+      <source url="https://www.elle.ro/advertorial/aerul-conditionat-in-europa-si-sua-cum-difera-obiceiurile-de-utilizare-1095473">Elle România</source>
+      <media:content url="https://izz.ro/lifestyle/diferente-semnificative-privind-utilizarea-aerului-conditionat-intre-europa-si/cover.jpg?v=05343cc9" medium="image" type="image/jpeg"/>
+      <description>Un studiu din 2024 arată că locuitorii din orașe americane precum Houston folosesc sistemele de climatizare mai mult decât cei din metropole europene ca Paris, în timp ce diferențele de temperatură setată rămân reduse.</description>
+    </item>
     <item>
       <title>Mercedes-Benz introduce în Europa primul sistem semi-automatizat Full Self Drive</title>
       <link>https://izz.ro/auto/mercedes-benz-introduce-in-europa-primul-sistem-semi-automatizat-full-self-drive/</link>
@@ -103,7 +123,6 @@
       <pubDate>Wed, 21 Oct 2026 08:48:35 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/companiile-energetice-din-europa-ar-putea-primi-dreptul-sa-doboare-drone-atacurile-risca-sa-lase-milioane-de-oameni-fara-curent-4002099">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/operatorii-energetici-europeni-ar-putea-primi-dreptul-sa-doboare-drone/cover.jpg?v=8fdd2288" medium="image" type="image/jpeg"/>
       <description>Mai multe guverne din Europa analizează posibilitatea de a permite companiilor energetice să doboare drone pentru a proteja infrastructura critică de atacuri.</description>
     </item>
     <item>
@@ -447,23 +466,5 @@
       <category>economic</category>
       <source url="https://www.bzi.ro/rusia-face-publice-sumele-incasate-de-la-europa-pentru-energia-din-ultimii-ani-cifrele-declanseaza-o-disputa-cu-ue-5623828">BZI Iași</source>
       <description>Ambasada Rusiei a publicat date financiare indicând că statele europene au plătit peste 320 de miliarde de dolari pentru energie începând din 2022, declanșând noi tensiuni legate de importurile de GNL.</description>
-    </item>
-    <item>
-      <title>Centrele de date AI ar putea scumpi energia electrică pentru consumatori</title>
-      <link>https://izz.ro/ai/centrele-de-date-ai-ar-putea-scumpi-energia-electrica-pentru-consumatori/</link>
-      <guid>https://izz.ro/ai/centrele-de-date-ai-ar-putea-scumpi-energia-electrica-pentru-consumatori/</guid>
-      <pubDate>Wed, 14 Oct 2026 12:06:07 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/factura-la-electricitate/">ZonaIT</source>
-      <description>Extinderea rapidă a centrelor de procesare pentru inteligența artificială în Europa riscă să majoreze facturile la curent pentru populație, din cauza pieței energetice care nu separă consumul casnic de cel industrial.</description>
-    </item>
-    <item>
-      <title>Europa trebuie să își regândească strategiile pentru a spori reziliența la crize globale</title>
-      <link>https://izz.ro/extern/europa-trebuie-sa-isi-regandeasca-strategiile-pentru-a-spori-rezilienta-la/</link>
-      <guid>https://izz.ro/extern/europa-trebuie-sa-isi-regandeasca-strategiile-pentru-a-spori-rezilienta-la/</guid>
-      <pubDate>Wed, 14 Oct 2026 02:00:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/european-resilience-summit-live-updates/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Liderii continentului se confruntă cu decizii majore privind finanțarea, competitivitatea industrială și securitatea energetică, într-un mediu internațional tot mai fragmentat, pentru a proteja interesele cetățenilor și economia comună.</description>
     </item>
 </channel></rss>

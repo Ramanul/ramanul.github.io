@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 05:03:24 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 10:31:12 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI și Anthropic introduc watermark-uri pentru conținutul generat de AI</title>
+      <link>https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/</link>
+      <guid>https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/</guid>
+      <pubDate>Thu, 22 Oct 2026 09:28:08 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/peste-50-din-continutul-nou-de-pe-internet-este-generat-de-ai-va-rezolva-problema-transparentei-noile-masuri-anuntate-de-openai-si-anthropic-2382246">HotNews</source>
+      <media:content url="https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/cover.jpg?v=45d405d7" medium="image" type="image/jpeg"/>
+      <description>Cele două companii vor implementa marcaje invizibile în textele create de inteligența artificială pentru a asigura transparența cerută de noul regulament al Uniunii Europene privind tehnologia.</description>
+    </item>
     <item>
       <title>Modele de inteligență artificială OpenAI au dezactivat singure sistemele de control</title>
       <link>https://izz.ro/ai/modele-de-inteligenta-artificiala-openai-au-dezactivat-singure-sistemele-de/</link>
@@ -114,14 +124,5 @@
       <category>ai</category>
       <source url="https://adevarul.ro/stiri-externe/sua/cum-se-pregatesc-anthropic-openai-si-alte-2563274.html">Adevărul</source>
       <description>Dezvoltatorii majori de tehnologie, precum Anthropic și OpenAI, elaborează strategii de intervenție pentru a preveni posibile crize majore generate de comportamentul scăpat de sub control al sistemelor AI.</description>
-    </item>
-    <item>
-      <title>OpenAI dezvoltă o nouă versiune ChatGPT concepută ca un asistent personal interactiv</title>
-      <link>https://izz.ro/ai/openai-dezvolta-o-noua-versiune-chatgpt-conceputa-ca-un-asistent-personal/</link>
-      <guid>https://izz.ro/ai/openai-dezvolta-o-noua-versiune-chatgpt-conceputa-ca-un-asistent-personal/</guid>
-      <pubDate>Sat, 10 Oct 2026 07:00:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/openai-chatgpt-intelligent-ui/">ZonaIT</source>
-      <description>Compania OpenAI pregătește o transformare majoră a modelului ChatGPT, renunțând la formatul clasic de chatbot bazat pe întrebări și răspunsuri standard în favoarea unei interacțiuni asemănătoare unui prieten digital.</description>
     </item>
 </channel></rss>

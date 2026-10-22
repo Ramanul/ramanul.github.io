@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/administratia-nationala-de-meteorologie/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Administrația Națională de Meteorologie pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 05:03:24 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 10:31:13 +0000</lastBuildDate>
     <item>
       <title>Cod galben de ploi și vânt puternic în Regiunea de Nord-Est</title>
       <link>https://izz.ro/general/cod-galben-de-ploi-si-vant-puternic-in-regiunea-de-nord-est/</link>
@@ -13,7 +13,6 @@
       <pubDate>Wed, 21 Oct 2026 08:25:43 +0000</pubDate>
       <category>general</category>
       <source url="https://zch.ro/regiunea-de-nord-est-a-romaniei-trei-zile-de-vant-si-ploi/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
-      <media:content url="https://izz.ro/general/cod-galben-de-ploi-si-vant-puternic-in-regiunea-de-nord-est/cover.jpg?v=85522415" medium="image" type="image/jpeg"/>
       <description>Administrația Națională de Meteorologie a emis o avertizare pentru zona de nord-est a țării, anunțând intensificări ale vântului și precipitații moderate pe parcursul a trei zile, începând din Carpații de Curbură.</description>
     </item>
     <item>
@@ -60,6 +59,15 @@
       <category>general</category>
       <source url="https://www.emaramures.ro/o-noua-informare-meteo-valabila-pana-vineri-vreme-rece-vant-puternic-si-lapovita-la-munte/">eMaramureș, PressAlert Timișoara, HotNews, Alba24</source>
       <description>Administrația Națională de Meteorologie a emis o informare meteo valabilă până vineri, 16 octombrie, la ora 18:00. În mai multe regiuni din țară vor fi intensificări ale vântului, iar la munte va ninge, stratul de zăpadă putând ajunge la 15 centimetri.</description>
+    </item>
+    <item>
+      <title>Meteorologii anunță răcire accentuată, ploi și lapoviță la munte</title>
+      <link>https://izz.ro/general/meteorologii-anunta-racire-accentuata-ploi-si-lapovita-la-munte/</link>
+      <guid>https://izz.ro/general/meteorologii-anunta-racire-accentuata-ploi-si-lapovita-la-munte/</guid>
+      <pubDate>Mon, 12 Oct 2026 07:25:57 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.emaramures.ro/vremea-se-raceste-in-maramures-anm-anunta-ploi-si-lapovita-la-munte/">eMaramureș</source>
+      <description>Administrația Națională de Meteorologie a emis o informare valabilă pentru jumătatea a doua a lunii octombrie, semnalând precipitații mixte la altitudini mari și intensificări ale vântului.</description>
     </item>
     <item>
       <title>Achiziții controversate de bunuri de lux realizate cu cardul oficial la ANM</title>
@@ -114,23 +122,5 @@
       <category>economic</category>
       <source url="https://bizbrasov.ro/2026/10/10/vreme-de-shopping-pe-banii-statului-intima/">BizBrașov</source>
       <description>Corpul de control al Ministerului Mediului a scos la iveală că Administrația Națională de Meteorologie a cumpărat din bani publici lenjerie intimă de lux, parfumuri și cosmetice destinate uzului personal.</description>
-    </item>
-    <item>
-      <title>ANM este investigată pentru achiziții de lux din fonduri publice sub conducerea Elenei Mateescu</title>
-      <link>https://izz.ro/politic/anm-este-investigata-pentru-achizitii-de-lux-din-fonduri-publice-sub-conducerea/</link>
-      <guid>https://izz.ro/politic/anm-este-investigata-pentru-achizitii-de-lux-din-fonduri-publice-sub-conducerea/</guid>
-      <pubDate>Sat, 10 Oct 2026 07:57:59 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.g4media.ro/cine-este-elena-mateescu-sefa-administratiei-nationale-de-meteorologie-de-zece-ani-cu-salariu-de-50-000-de-euro-pe-an-dlaf-cerceteaza-un-proiect-european-de-50-de-milioane-de-euro-derulat-de-anm.html">G4Media</source>
-      <description>Corpul de control a descoperit cheltuieli nejustificate pentru haine și lenjerie de lux la Administrația Națională de Meteorologie, instituție condusă de un deceniu de Elena Mateescu, remunerată cu 50.000 de euro anual.</description>
-    </item>
-    <item>
-      <title>Administrația Națională de Meteorologie anunță ploi și răcire</title>
-      <link>https://izz.ro/general/administratia-nationala-de-meteorologie-anunta-ploi-si-racire/</link>
-      <guid>https://izz.ro/general/administratia-nationala-de-meteorologie-anunta-ploi-si-racire/</guid>
-      <pubDate>Sat, 10 Oct 2026 07:08:38 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.newsbucovina.ro/actualitate/451823/ploi-moderate-si-racire-a-vremii-in-perioada-11-13-octombrie-la-munte-vor-fi-precipitatii-mixte-si-vant-puternic">NewsBucovina</source>
-      <description>Meteorologii au emis o informare valabilă între 11 și 13 octombrie, semnalând ploi extinse în toată țara, ninsori la munte și intensificări puternice ale vântului, pe fondul unei scăderi a temperaturilor.</description>
     </item>
 </channel></rss>

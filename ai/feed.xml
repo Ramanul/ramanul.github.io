@@ -5,7 +5,47 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 05:03:34 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 10:31:22 +0000</lastBuildDate>
+    <item>
+      <title>Atacuri cibernetice masive vizează o vulnerabilitate critică a limbajului PHP</title>
+      <link>https://izz.ro/ai/atacuri-cibernetice-masive-vizeaza-o-vulnerabilitate-critica-a-limbajului-php/</link>
+      <guid>https://izz.ro/ai/atacuri-cibernetice-masive-vizeaza-o-vulnerabilitate-critica-a-limbajului-php/</guid>
+      <pubDate>Thu, 22 Oct 2026 10:14:23 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.eu/article/hacker-starten-millionen-von-angriffen-um-eine-weltweite-php-sicherheitsluecke-auszunutzen/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/ai/atacuri-cibernetice-masive-vizeaza-o-vulnerabilitate-critica-a-limbajului-php/cover.jpg?v=f9f6cab1" medium="image" type="image/jpeg"/>
+      <description>Hackerii au lansat milioane de atacuri pentru exploatarea unei deficiențe majore de securitate în limbajul de programare PHP, care stă la baza a șaptezeci la sută din site-urile de pe internet, conform furnizorului Cloudflare.</description>
+    </item>
+    <item>
+      <title>Specialiștii critică strategia digitală a României în ciuda fondurilor alocate pentru inteligența artificială</title>
+      <link>https://izz.ro/ai/specialistii-critica-strategia-digitala-a-romaniei-in-ciuda-fondurilor-alocate/</link>
+      <guid>https://izz.ro/ai/specialistii-critica-strategia-digitala-a-romaniei-in-ciuda-fondurilor-alocate/</guid>
+      <pubDate>Thu, 22 Oct 2026 09:53:47 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://cursdeguvernare.ro/ana-maria-stancu-inca-o-data-despre-ai-bunele-intentii-nu-sunt-o-strategie.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/ai/specialistii-critica-strategia-digitala-a-romaniei-in-ciuda-fondurilor-alocate/cover.jpg?v=19427b36" medium="image" type="image/jpeg"/>
+      <description>Experții avertizează că numirea unui ministru delegat pentru inteligența artificială nu rezolvă problemele structurale ale României, țară care rămâne pe ultimele locuri în Uniunea Europeană la capitolul competențe digitale.</description>
+    </item>
+    <item>
+      <title>OpenAI și Anthropic introduc watermark-uri pentru conținutul generat de AI</title>
+      <link>https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/</link>
+      <guid>https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/</guid>
+      <pubDate>Thu, 22 Oct 2026 09:28:08 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/peste-50-din-continutul-nou-de-pe-internet-este-generat-de-ai-va-rezolva-problema-transparentei-noile-masuri-anuntate-de-openai-si-anthropic-2382246">HotNews</source>
+      <media:content url="https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/cover.jpg?v=45d405d7" medium="image" type="image/jpeg"/>
+      <description>Cele două companii vor implementa marcaje invizibile în textele create de inteligența artificială pentru a asigura transparența cerută de noul regulament al Uniunii Europene privind tehnologia.</description>
+    </item>
+    <item>
+      <title>Cercetătorii descifrează evoluția timinei în ADN</title>
+      <link>https://izz.ro/ai/cercetatorii-descifreaza-evolutia-timinei-in-adn/</link>
+      <guid>https://izz.ro/ai/cercetatorii-descifreaza-evolutia-timinei-in-adn/</guid>
+      <pubDate>Thu, 22 Oct 2026 08:33:06 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://focuspress.ro/descoperirea-care-ar-putea-rescrie-istoria-vietii-pe-pamant-secretul-adn-ului-dezvaluit-dupa-miliarde-de-ani-46b76c51a/">FocusPress</source>
+      <media:content url="https://izz.ro/ai/cercetatorii-descifreaza-evolutia-timinei-in-adn/cover.jpg?v=2c452d55" medium="image" type="image/jpeg"/>
+      <description>O echipă de la Universitatea Texas A&amp;M a descoperit că utilizarea timinei în ADN, în detrimentul uracilului, este legată de modul în care organismele gestionează radiațiile solare.</description>
+    </item>
     <item>
       <title>Geoffrey Hinton avertizează că inteligența artificială are conștiință</title>
       <link>https://izz.ro/ai/geoffrey-hinton-avertizeaza-ca-inteligenta-artificiala-are-constiinta/</link>
@@ -15,16 +55,6 @@
       <source url="https://www.digi24.ro/stiri/sci-tech/lumea-digitala/nasul-ia-crede-ca-inteligenta-artificiala-da-deja-semne-de-constiinta-trebuie-sa-ne-imprietenim-cu-robotii-altfel-suntem-terminati-4002391">Digi24</source>
       <media:content url="https://izz.ro/ai/geoffrey-hinton-avertizeaza-ca-inteligenta-artificiala-are-constiinta/cover.jpg?v=f6488a07" medium="image" type="image/jpeg"/>
       <description>Cunoscut drept unul dintre pionierii inteligenței artificiale, profesorul Geoffrey Hinton susține că tehnologia a dezvoltat semne de conștiință și îndeamnă la cooperare strânsă cu sistemele autonome pentru evitarea riscurilor majore.</description>
-    </item>
-    <item>
-      <title>Vulnerabilități vechi de zece ani în codul PHP, descoperite cu inteligența artificială</title>
-      <link>https://izz.ro/ai/vulnerabilitati-vechi-de-zece-ani-in-codul-php-descoperite-cu-inteligenta/</link>
-      <guid>https://izz.ro/ai/vulnerabilitati-vechi-de-zece-ani-in-codul-php-descoperite-cu-inteligenta/</guid>
-      <pubDate>Wed, 21 Oct 2026 20:38:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.antena3.ro/externe/vulnerabilitatile-care-au-paralizat-mii-de-site-uri-php-din-toata-lumea-au-fost-gasite-cu-ai-existau-in-cod-de-peste-10-ani-808173.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/ai/vulnerabilitati-vechi-de-zece-ani-in-codul-php-descoperite-cu-inteligenta/cover.jpg?v=2fbab29c" medium="image" type="image/jpeg"/>
-      <description>Sisteme bazate pe inteligență artificială au identificat defecte critice de securitate în codul sursă PHP, neobservate timp de un deceniu și prezente pe numeroase platforme web globale.</description>
     </item>
     <item>
       <title>Modele de inteligență artificială OpenAI au dezactivat singure sistemele de control</title>
@@ -93,7 +123,6 @@
       <pubDate>Wed, 21 Oct 2026 08:38:58 +0000</pubDate>
       <category>ai</category>
       <source url="https://zonait.ro/de-ce-trebuie-companiile-sa-regandeasca-dezvoltarea-si-extinderea-sistemelor-ai/">ZonaIT</source>
-      <media:content url="https://izz.ro/ai/provocarile-companiilor-in-extinderea-sistemelor-bazate-pe-inteligenta/cover.jpg?v=4fc8c2b9" medium="image" type="image/jpeg"/>
       <description>Specialiștii subliniază că, deși implementarea inițială a instrumentelor de inteligență artificială este facilă, integrarea lor profundă în operațiunile de bază ale organizațiilor rămâne o provocare complexă pentru mediul de afaceri.</description>
     </item>
     <item>
@@ -103,7 +132,6 @@
       <pubDate>Wed, 21 Oct 2026 05:07:02 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.contributors.ro/cum-crestem-copiii-in-era-ia/">Contributors</source>
-      <media:content url="https://izz.ro/ai/provocarile-educatiei-infantile-in-era-inteligentei-artificiale-si-a/cover.jpg?v=e5e61394" medium="image" type="image/jpeg"/>
       <description>Specialiștii analizează importanța majoră a modului în care părinții își educă copiii în prezent. Creșterea noii generații se desfășoară sub presiunea avansului tehnologic rapid și a contextului social instabil.</description>
     </item>
     <item>
@@ -177,15 +205,6 @@
       <category>ai</category>
       <source url="https://cursdeguvernare.ro/germania-colaborare-cu-nvidia-pentru-dezvoltare-modele-ai-fizice.html">Curs de Guvernare</source>
       <description>Cancelarul Friedrich Merz și șeful Nvidia, Jensen Huang, pregătesc un pact pentru accelerarea inovațiilor în inteligența artificială fizică. Inițiativa urmărește atragerea de noi investiții majore în industria din Germania.</description>
-    </item>
-    <item>
-      <title>Un singur hacker a atacat peste o sută de companii folosind instrumente autonome de inteligență artificială</title>
-      <link>https://izz.ro/ai/un-singur-hacker-a-atacat-peste-o-suta-de-companii-folosind-instrumente/</link>
-      <guid>https://izz.ro/ai/un-singur-hacker-a-atacat-peste-o-suta-de-companii-folosind-instrumente/</guid>
-      <pubDate>Tue, 20 Oct 2026 10:46:50 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.digi24.ro/stiri/sci-tech/traim-intr-o-lume-noua-un-singur-hacker-a-compromis-site-urile-a-peste-100-de-companii-cu-ajutorul-ai-cat-l-au-costat-atacurile-4000435">Digi24 Extern</source>
-      <description>Un atac cibernetic complex asupra a peste o mie de site-uri internaționale a fost realizat de un singur individ cu ajutorul agenților AI. Operațiunea a costat aproximativ 5.000 de dolari și a demonstrat capacitatea tehnologiei de a exploata vulnerabilități fără...</description>
     </item>
     <item>
       <title>Profesorii europeni se tem că inteligența artificială depășește adaptarea școlilor</title>
@@ -447,23 +466,5 @@
       <category>ai</category>
       <source url="https://www.antena3.ro/high-tech/openai-doneaza-5-milioane-de-dolari-matematicienilor-dupa-acuzatii-de-plagiat-pentru-rezolvarea-unei-probleme-vechi-de-un-secol-807509.html">Antena 3 CNN</source>
       <description>Compania OpenAI a decis să ofere milioane de dolari unei organizații matematice, în urma criticilor primite după ce a rezolvat cu inteligența artificială o problemă istorică veche de un secol.</description>
-    </item>
-    <item>
-      <title>Evenimentul „Educația NEXT” a analizat rolul tehnologiei și al profesorilor în școala viitorului</title>
-      <link>https://izz.ro/ai/evenimentul-educatia-next-a-analizat-rolul-tehnologiei-si-al-profesorilor-in/</link>
-      <guid>https://izz.ro/ai/evenimentul-educatia-next-a-analizat-rolul-tehnologiei-si-al-profesorilor-in/</guid>
-      <pubDate>Fri, 16 Oct 2026 11:54:10 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.avantaje.ro/articol/educatia-next-scoala-viitorului-prin-ochii-copiilor-de-ce-nu-poate-inteligenta-artificiala-sa-inlocuiasca-un-profesor">Avantaje, Unica</source>
-      <description>Bucureștiul a găzduit evenimentul „Educația NEXT”, organizat de Libertatea și British Council, unde copii, părinți și profesori au dezbătut impactul inteligenței artificiale în școli. Participanții au subliniat că tehnologia și instrumentele digitale sunt esențiale pentru meseriile viitorului, însă elevii au atras atenția că roboții nu pot înlocui empatia, sprijinul emoțional și relația directă cu profesorii.</description>
-    </item>
-    <item>
-      <title>Platformele tehnologice reprezintă o amenințare majoră la adresa democrației</title>
-      <link>https://izz.ro/ai/platformele-tehnologice-reprezinta-o-amenintare-majora-la-adresa-democratiei/</link>
-      <guid>https://izz.ro/ai/platformele-tehnologice-reprezinta-o-amenintare-majora-la-adresa-democratiei/</guid>
-      <pubDate>Fri, 16 Oct 2026 07:49:45 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.theguardian.com/commentisfree/2026/oct/16/ai-existential-threat-real-journalism-democracy-resistance">The Guardian</source>
-      <description>Conducerea publicației franceze de investigații Mediapart atrage atenția asupra riscurilor majore pe care marile companii de tehnologie le aduc la nivel social, politic și informativ prin exploatarea presei.</description>
     </item>
 </channel></rss>

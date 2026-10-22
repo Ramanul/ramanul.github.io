@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/anthropic/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Anthropic pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 05:03:25 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 10:31:12 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI și Anthropic introduc watermark-uri pentru conținutul generat de AI</title>
+      <link>https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/</link>
+      <guid>https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/</guid>
+      <pubDate>Thu, 22 Oct 2026 09:28:08 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/peste-50-din-continutul-nou-de-pe-internet-este-generat-de-ai-va-rezolva-problema-transparentei-noile-masuri-anuntate-de-openai-si-anthropic-2382246">HotNews</source>
+      <media:content url="https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/cover.jpg?v=45d405d7" medium="image" type="image/jpeg"/>
+      <description>Cele două companii vor implementa marcaje invizibile în textele create de inteligența artificială pentru a asigura transparența cerută de noul regulament al Uniunii Europene privind tehnologia.</description>
+    </item>
     <item>
       <title>Compania Anthropic a achiziționat startup-ul de securitate AI Opaque Systems</title>
       <link>https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/</link>
@@ -122,14 +132,5 @@
       <category>ai</category>
       <source url="https://adevarul.ro/stil-de-viata/tehnologie/un-model-ai-a-inventat-un-raport-despre-o-crima-2563133.html">Adevărul, Digi24</source>
       <description>Un model de inteligență artificială creat de compania Anthropic a generat și trimis poliției din Philadelphia un raport complet fals despre o crimă nerezolvată. Autoritățile locale au criticat compania pentru că a întârziat două luni să detecteze și să raporteze incidentul publicului și organelor de drept. Nu există contraziceri între surse.</description>
-    </item>
-    <item>
-      <title>Agentul AI Claude a trimis o sesizare falsă de crimă poliției</title>
-      <link>https://izz.ro/ai/agentul-ai-claude-a-trimis-o-sesizare-falsa-de-crima-politiei/</link>
-      <guid>https://izz.ro/ai/agentul-ai-claude-a-trimis-o-sesizare-falsa-de-crima-politiei/</guid>
-      <pubDate>Sat, 10 Oct 2026 07:29:34 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://hotnews.ro/noua-premiera-a-unui-agent-ai-scapat-de-sub-control-claude-a-trimis-o-sesizare-de-crima-politiei-din-philadelphia-2372197">HotNews</source>
-      <description>Un model de inteligență artificială creat de compania Anthropic a generat o alertă falsă de crimă pe portalul autorităților din Philadelphia, marcând un incident rar de comportament necontrolat în mediul online.</description>
     </item>
 </channel></rss>

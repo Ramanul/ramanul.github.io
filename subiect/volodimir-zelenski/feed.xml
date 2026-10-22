@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/volodimir-zelenski/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Volodimir Zelenski pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 05:03:24 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 10:31:12 +0000</lastBuildDate>
+    <item>
+      <title>Tensiuni diplomatice între Donald Trump și liderii străini</title>
+      <link>https://izz.ro/extern/tensiuni-diplomatice-intre-donald-trump-si-liderii-straini/</link>
+      <guid>https://izz.ro/extern/tensiuni-diplomatice-intre-donald-trump-si-liderii-straini/</guid>
+      <pubDate>Thu, 22 Oct 2026 10:18:42 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/sua/o-strada-cu-sens-unic-cum-transforma-donald-trump-criticile-liderilor-straini-intr-o-criza-diplomatica-4004031">Digi24</source>
+      <media:content url="https://izz.ro/extern/tensiuni-diplomatice-intre-donald-trump-si-liderii-straini/cover.jpg?v=d9e0c966" medium="image" type="image/jpeg"/>
+      <description>Președintele SUA critică deschis oficialii internaționali, dar reacționează dur la replici. Emisarii americani l-ar fi avertizat pe Volodimir Zelenski că declarațiile sale l-au iritat pe liderul de la Casa Albă.</description>
+    </item>
     <item>
       <title>Zelenski ripostează la presiunile lui Trump privind conflictul din Ucraina</title>
       <link>https://izz.ro/extern/zelenski-riposteaza-la-presiunile-lui-trump-privind-conflictul-din-ucraina/</link>
@@ -83,7 +93,6 @@
       <pubDate>Wed, 21 Oct 2026 09:43:47 +0000</pubDate>
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/volodimir-zelenski-si-europenii-isi-tempereaza-tonul-dupa-intalnirea-cu-steve-witkoff-de-la-oslo-witkoff-merge-la-moscova-cu-noile-propuneri-de-pace-si-garantii-de-securitate.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/extern/zelenski-si-oficialii-europeni-au-adoptat-un-ton-conciliant-fata-de-sua-dupa/cover.jpg?v=506d09b0" medium="image" type="image/jpeg"/>
       <description>Președintele ucrainean Volodimir Zelenski și liderii europeni Și-au temperat retorica la adresa Washingtonului în urma unei reuniuni la Oslo cu emisarul american Steve Witkoff, care urmează să prezinte noile propuneri de pace la Moscova.</description>
     </item>
     <item>
@@ -454,14 +463,5 @@
       <category>extern</category>
       <source url="https://www.theguardian.com/world/live/2026/oct/15/ukraine-russia-war-starlink-zelenskyy-putin-elon-musk-trump-europe-latest-news">The Guardian</source>
       <description>Președintele Ucrainei a avertizat asupra riscurilor ridicate de relaxare a sancțiunilor internaționale împotriva Rusiei, după un atac armat asupra unui supermarket. Între timp, autoritățile române continuă căutările a șapte persoane dispărute în urma unui incendiu naval.</description>
-    </item>
-    <item>
-      <title>Moscova îl acuză pe Zelenski că subminează armistițiul propus de SUA</title>
-      <link>https://izz.ro/extern/moscova-il-acuza-pe-zelenski-ca-submineaza-armistitiul-propus-de-sua/</link>
-      <guid>https://izz.ro/extern/moscova-il-acuza-pe-zelenski-ca-submineaza-armistitiul-propus-de-sua/</guid>
-      <pubDate>Thu, 15 Oct 2026 12:49:54 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://stirileprotv.ro/stiri/international/moscova-il-acuza-pe-zelenski-ca-saboteaza-armistitiul-energetic-al-lui-trump-kievul-sfideaza-sua.html">Știrile ProTV</source>
-      <description>Kremlinul a criticat dur joi conducerea de la Kiev, susținând că atacurile ucrainene asupra rafinăriilor petroliere rusești sabotează inițiativele de pace promovate de Statele Unite.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/maramures/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Maramureș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 05:03:24 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 10:31:13 +0000</lastBuildDate>
     <item>
       <title>Baia Mare organizează prima etapă de handbal feminin U13</title>
       <link>https://izz.ro/local/baia-mare-organizeaza-prima-etapa-de-handbal-feminin-u13/</link>
@@ -43,7 +43,6 @@
       <pubDate>Wed, 21 Oct 2026 09:46:07 +0000</pubDate>
       <category>local</category>
       <source url="https://www.digi24.ro/stiri/actualitate/suspiciune-de-toxiinfectie-alimentara-in-maramures-opt-copii-prezinta-simptome-toate-cele-60-de-persoane-evaluate-medical-4002263">Digi24</source>
-      <media:content url="https://izz.ro/local/opt-copii-din-maramures-prezinta-simptome-de-toxiinfectie-alimentara/cover.jpg?v=14288aec" medium="image" type="image/jpeg"/>
       <description>Un grup de șaizeci de persoane, incluzând 57 de copii, este evaluat medical în localitatea Ocna Șugatag după ce opt minori au manifestat semne de toxiinfecție alimentară.</description>
     </item>
     <item>
@@ -53,7 +52,6 @@
       <pubDate>Wed, 21 Oct 2026 08:30:02 +0000</pubDate>
       <category>local</category>
       <source url="https://www.emaramures.ro/moisei-gazduieste-conferinta-nationala-salvamont-2026-salvatori-montani-din-toata-tara-se-reunesc-in-maramures/">eMaramureș</source>
-      <media:content url="https://izz.ro/local/localitatea-moisei-organizeaza-conferinta-nationala-salvamont-2026/cover.jpg?v=3390c4cd" medium="image" type="image/jpeg"/>
       <description>Salvatorii montani din întreaga țară se reunesc în județul Maramureș, în perioada 26-28 octombrie, la un eveniment major dedicat modernizării sistemului național de intervenție și salvare.</description>
     </item>
     <item>
@@ -354,6 +352,15 @@
       <description>Inspectoratul Școlar Județean Maramureș organizează prima probă scrisă pentru ocuparea funcțiilor de conducere din învățământul preuniversitar, examen la care s-au înscris 182 de candidați.</description>
     </item>
     <item>
+      <title>Meteorologii anunță răcire accentuată, ploi și lapoviță la munte</title>
+      <link>https://izz.ro/general/meteorologii-anunta-racire-accentuata-ploi-si-lapovita-la-munte/</link>
+      <guid>https://izz.ro/general/meteorologii-anunta-racire-accentuata-ploi-si-lapovita-la-munte/</guid>
+      <pubDate>Mon, 12 Oct 2026 07:25:57 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.emaramures.ro/vremea-se-raceste-in-maramures-anm-anunta-ploi-si-lapovita-la-munte/">eMaramureș</source>
+      <description>Administrația Națională de Meteorologie a emis o informare valabilă pentru jumătatea a doua a lunii octombrie, semnalând precipitații mixte la altitudini mari și intensificări ale vântului.</description>
+    </item>
+    <item>
       <title>O șoferiță fără permis din Maramureș a fost reținută de polițiști</title>
       <link>https://izz.ro/local/o-soferita-fara-permis-din-maramures-a-fost-retinuta-de-politisti/</link>
       <guid>https://izz.ro/local/o-soferita-fara-permis-din-maramures-a-fost-retinuta-de-politisti/</guid>
@@ -379,14 +386,5 @@
       <category>judetean</category>
       <source url="https://www.emaramures.ro/controale-itm-in-padurile-din-maramures-utilaje-fara-autorizatie-muncitori-fara-echipamente-de-protectie-si-amenzi-de-20-000-de-lei/">eMaramureș</source>
       <description>Inspectorii de muncă au descoperit utilaje neautorizate și muncitori lipsiți de echipamente de protecție sau controale medicale periodice în ocoalele silvice verificate pe parcursul acțiunilor recente.</description>
-    </item>
-    <item>
-      <title>Diferențe majore în întreținerea drumului național DN18B între Cluj și Maramureș</title>
-      <link>https://izz.ro/judetean/diferente-majore-in-intretinerea-drumului-national-dn18b-intre-cluj-si-maramures/</link>
-      <guid>https://izz.ro/judetean/diferente-majore-in-intretinerea-drumului-national-dn18b-intre-cluj-si-maramures/</guid>
-      <pubDate>Sat, 10 Oct 2026 08:41:17 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://www.emaramures.ro/clujul-repara-maramuresul-indura-dn18b-aceeasi-sosea-conditii-diferite/">eMaramureș</source>
-      <description>Șoferii reclamă starea avansată de degradare a carosabilului pe sectorul maramureșean al șoselei DN18B, în timp ce porțiunea administrată de județul Cluj se prezintă în condiții net superioare.</description>
     </item>
 </channel></rss>

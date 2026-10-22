@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/the-guardian/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre The Guardian pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 05:03:24 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 10:31:12 +0000</lastBuildDate>
+    <item>
+      <title>Vulnerabilitate gravă în limbajul PHP provoacă căderi majore de site-uri la nivel global</title>
+      <link>https://izz.ro/tech/vulnerabilitate-grava-in-limbajul-php-provoaca-caderi-majore-de-site-uri-la/</link>
+      <guid>https://izz.ro/tech/vulnerabilitate-grava-in-limbajul-php-provoaca-caderi-majore-de-site-uri-la/</guid>
+      <pubDate>Thu, 22 Oct 2026 09:40:48 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.g4media.ro/ce-este-php-si-cat-de-grava-este-vulnerabilitatea-acestui-limbaj-de-programare-care-provoaca-intreruperi-ale-site-urilor-web-la-nivel-global.html">G4Media</source>
+      <media:content url="https://izz.ro/tech/vulnerabilitate-grava-in-limbajul-php-provoaca-caderi-majore-de-site-uri-la/cover.jpg?v=3f2b1b3e" medium="image" type="image/jpeg"/>
+      <description>Mai multe site-uri internet au fost oprite temporar în întreaga lume din cauza unei breșe de securitate în PHP. Specialiștii și guvernele lucrează urgent la remedierea defecțiunii exploatate de hackeri pentru atacuri cibernetice.</description>
+    </item>
     <item>
       <title>Scheletul dintr-un sarcofag roman de la Westminster aparține unui abate</title>
       <link>https://izz.ro/cultura/scheletul-dintr-un-sarcofag-roman-de-la-westminster-apartine-unui-abate/</link>
@@ -123,23 +133,5 @@
       <category>extern</category>
       <source url="https://hotnews.ro/detaliu-tulburator-din-documentarul-naza-ce-face-tehnologia-unde-i-tata-pe-care-armata-israeliana-e-acuzata-ca-o-foloseste-in-gaza-2371865">HotNews</source>
       <description>Lansat în cinematografele din România, documentarul NAZA, realizat de câștigători ai Oscarului, expune modul în care algoritmii și atacurile cu drone ucid civili în Fâșia Gaza.</description>
-    </item>
-    <item>
-      <title>Edu Corlat de la Real Madrid inclus în topul mondial al tinerelor talente</title>
-      <link>https://izz.ro/sport/edu-corlat-de-la-real-madrid-inclus-in-topul-mondial-al-tinerelor-talente/</link>
-      <guid>https://izz.ro/sport/edu-corlat-de-la-real-madrid-inclus-in-topul-mondial-al-tinerelor-talente/</guid>
-      <pubDate>Sat, 10 Oct 2026 07:47:12 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://as.ro/fotbal/veste-excelenta-romanul-de-la-real-madrid-inclus-in-topul-celor-mai-promitatori-tineri-fotbalisti-din-lume-696346.html">Antena Sport</source>
-      <description>Fotbalistul român în vârstă de 17 ani, legitimat la Real Madrid U18, a fost selectat de publicația britanică The Guardian printre cei mai promițători tineri jucători din fotbalul mondial.</description>
-    </item>
-    <item>
-      <title>Cutremur puternic de 7,7 în Panama, urmat de pagube materiale</title>
-      <link>https://izz.ro/extern/cutremur-puternic-de-77-in-panama-urmat-de-pagube-materiale/</link>
-      <guid>https://izz.ro/extern/cutremur-puternic-de-77-in-panama-urmat-de-pagube-materiale/</guid>
-      <pubDate>Sat, 10 Oct 2026 06:07:20 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/mapamond/cutremur-puternic-de-77-in-panama-scene-de-panica-si-drumuri-prabusite-ne-confruntam-cu-o-catastrofa-de-proportii-3986355">Digi24 Extern</source>
-      <description>Un seism cu magnitudinea de 7,7 a lovit sudul statului Panama, provocând panică în rândul populației și avarii la clădiri. Autoritățile nu au raportat victime sau distrugeri majore la nivel național.</description>
     </item>
 </channel></rss>
