@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 10:31:12 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 15:52:14 +0000</lastBuildDate>
+    <item>
+      <title>Apel public la protejarea valorilor naționale în contextul evenimentelor din Europa</title>
+      <link>https://izz.ro/general/apel-public-la-protejarea-valorilor-nationale-in-contextul-evenimentelor-din/</link>
+      <guid>https://izz.ro/general/apel-public-la-protejarea-valorilor-nationale-in-contextul-evenimentelor-din/</guid>
+      <pubDate>Thu, 22 Oct 2026 14:30:36 +0000</pubDate>
+      <category>general</category>
+      <source url="https://monitorulneamt.ro/sa-privim-cu-atentie-ce-se-intampla-in-europa-si-sa-nu-ne-uitam-valorile/">Monitorul de Neamț</source>
+      <media:content url="https://izz.ro/general/apel-public-la-protejarea-valorilor-nationale-in-contextul-evenimentelor-din/cover.jpg?v=a54760db" medium="image" type="image/jpeg"/>
+      <description>Un mesaj public atrage atenția asupra situației actuale din Europa, subliniind necesitatea de a păstra valorile tradiționale și identitare, fără a promova însă dezbinarea sau intoleranța față de ceilalți cetățeni.</description>
+    </item>
     <item>
       <title>Tesla raportează o scădere de 43% a profitului net în trimestrul al treilea din 2026</title>
       <link>https://izz.ro/economic/tesla-raporteaza-o-scadere-de-43-a-profitului-net-in-trimestrul-al-treilea-din/</link>
@@ -47,14 +57,14 @@
       <description>Portalurile mai multor guverne din Europa au fost deconectate voluntar pentru câteva ore ca măsură de protecție a sistemelor informatice după o actualizare critică.</description>
     </item>
     <item>
-      <title>Un producător auto chinez va produce în premieră mașini și baterii direct în Europa</title>
+      <title>Un producător auto chinez va fabrica în premieră mașini și baterii direct în Europa</title>
       <link>https://izz.ro/auto/un-producator-auto-chinez-va-produce-in-premiera-masini-si-baterii-direct-in/</link>
       <guid>https://izz.ro/auto/un-producator-auto-chinez-va-produce-in-premiera-masini-si-baterii-direct-in/</guid>
       <pubDate>Thu, 22 Oct 2026 04:09:00 +0000</pubDate>
       <category>auto</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/oficial-primul-constructor-auto-chinez-care-incepe-productia-de-masini-si-baterii-in-europa-22868704?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/oficial-primul-constructor-auto-chinez-care-incepe-productia-de-masini-si-baterii-in-europa-22868704?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro, HotNews</source>
       <media:content url="https://izz.ro/auto/un-producator-auto-chinez-va-produce-in-premiera-masini-si-baterii-direct-in/cover.jpg?v=1d6ead41" medium="image" type="image/jpeg"/>
-      <description>Spre deosebire de alte mărci chineze care folosesc doar asamblări din kit-uri sau parteneriate externe, un constructor din China va inaugura producția completă de automobile și baterii într-o uzină proprie europeană.</description>
+      <description>Spre deosebire de alte mărci din China care folosesc doar kit-uri de asamblare sau parteneriate externe în fabrici europene, un constructor chinez va lansa în premieră producția completă de automobile și baterii într-o uzină proprie de pe continent.</description>
     </item>
     <item>
       <title>Protestele violente din Franța sunt interpretate eronat de către adversarii Europei</title>
@@ -457,14 +467,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/meteo/europa-tremura-in-asteptarea-momentului-cand-se-va-rupe-vortexul-polar-consumul-de-curent-va-exploda-am-fost-avertizati-in-2018-807273.html">Antena 3 CNN</source>
       <description>Un studiu recent arată că destabilizarea vortexului polar ar putea tripla necesarul de energie electrică la nivel european, punând o presiune majoră asupra rețelelor interconectate de alimentare și infrastructură.</description>
-    </item>
-    <item>
-      <title>Rusia dezvăluie sumele uriașe încasate de la Europa pentru energie</title>
-      <link>https://izz.ro/economic/rusia-dezvaluie-sumele-uriase-incasate-de-la-europa-pentru-energie/</link>
-      <guid>https://izz.ro/economic/rusia-dezvaluie-sumele-uriase-incasate-de-la-europa-pentru-energie/</guid>
-      <pubDate>Wed, 14 Oct 2026 20:21:56 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.bzi.ro/rusia-face-publice-sumele-incasate-de-la-europa-pentru-energia-din-ultimii-ani-cifrele-declanseaza-o-disputa-cu-ue-5623828">BZI Iași</source>
-      <description>Ambasada Rusiei a publicat date financiare indicând că statele europene au plătit peste 320 de miliarde de dolari pentru energie începând din 2022, declanșând noi tensiuni legate de importurile de GNL.</description>
     </item>
 </channel></rss>

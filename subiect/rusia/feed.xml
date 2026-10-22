@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/rusia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Rusia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 10:31:12 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 15:52:14 +0000</lastBuildDate>
+    <item>
+      <title>Ucraina solicită Uniunii Europene un negociator special pentru discuțiile cu Rusia</title>
+      <link>https://izz.ro/extern/ucraina-solicita-uniunii-europene-un-negociator-special-pentru-discutiile-cu/</link>
+      <guid>https://izz.ro/extern/ucraina-solicita-uniunii-europene-un-negociator-special-pentru-discutiile-cu/</guid>
+      <pubDate>Thu, 22 Oct 2026 12:14:17 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cvlpress.ro/22.10.2026/ue-in-cautarea-unui-negociator/">Cuvântul Libertății</source>
+      <media:content url="https://izz.ro/extern/ucraina-solicita-uniunii-europene-un-negociator-special-pentru-discutiile-cu/cover.jpg?v=9161fbdf" medium="image" type="image/jpeg"/>
+      <description>Președintele Volodimir Zelenski a discutat cu oficialii europeni despre numirea unui reprezentant comunitar care să asigure o voce activă a Europei în eventuale negocieri de pace.</description>
+    </item>
     <item>
       <title>Rusia desfășoară o campanie de dezinformare contra democraților americani</title>
       <link>https://izz.ro/extern/rusia-desfasoara-o-campanie-de-dezinformare-contra-democratilor-americani/</link>
@@ -390,6 +400,15 @@
       <description>O cercetătoare rusă în vârstă de 28 de ani, specializată în bacteria care provoacă ciuma, a decedat în Siberia din cauza unei pneumonii severe, generând suspiciuni privind o posibilă infectare.</description>
     </item>
     <item>
+      <title>Un atac rusesc asupra Kievului s-a soldat cu un mort și trei răniți</title>
+      <link>https://izz.ro/extern/un-atac-rusesc-asupra-kievului-s-a-soldat-cu-un-mort-si-trei-raniti/</link>
+      <guid>https://izz.ro/extern/un-atac-rusesc-asupra-kievului-s-a-soldat-cu-un-mort-si-trei-raniti/</guid>
+      <pubDate>Mon, 19 Oct 2026 07:30:44 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bzi.ro/atac-rusesc-asupra-kievului-o-femeie-a-murit-iar-trei-persoane-au-fost-ranite-5626117">BZI Iași</source>
+      <description>Bombardamentele nocturne au provocat paguale materiale majore în capitala Ucrainei. O femeie și-a pierdut viața, iar alte trei persoane au fost rănite după ce o unitate medicală și un bloc turn au fost lovite.</description>
+    </item>
+    <item>
       <title>SUA cere Ucrainei și Rusiei concentrare pe finalizarea conflictului armat</title>
       <link>https://izz.ro/extern/sua-cere-ucrainei-si-rusiei-concentrare-pe-finalizarea-conflictului-armat/</link>
       <guid>https://izz.ro/extern/sua-cere-ucrainei-si-rusiei-concentrare-pe-finalizarea-conflictului-armat/</guid>
@@ -460,23 +479,5 @@
       <category>sanatate</category>
       <source url="https://www.theguardian.com/commentisfree/2026/oct/18/the-guardian-view-on-plague-in-russia-what-is-most-worrying-is-the-lack-of-information">The Guardian</source>
       <description>Organizația Mondială a Sănătății se confruntă cu un refuz al autorităților ruse de a oferi detalii despre o boală respiratorie letală apărută în Siberia, stârnind îngrijorări internaționale.</description>
-    </item>
-    <item>
-      <title>Vladimir Putin a naționalizat activele unor companii din Franța, Germania și Belgia</title>
-      <link>https://izz.ro/extern/vladimir-putin-a-nationalizat-activele-unor-companii-din-franta-germania-si/</link>
-      <guid>https://izz.ro/extern/vladimir-putin-a-nationalizat-activele-unor-companii-din-franta-germania-si/</guid>
-      <pubDate>Sun, 18 Oct 2026 15:24:59 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.economica.net/moscova-trece-la-nationalizari-de-razboi-putin-confisca-fabricile-si-afacerile-unor-companii-din-franta-germania-si-belgia_986928.html">Economica</source>
-      <description>Un decret semnat de Vladimir Putin permite preluarea sub administrație temporară rusă a activelor aparținând unor producători importanți din Franța, Germania, Suedia și Belgia, ca măsură economică de conflict.</description>
-    </item>
-    <item>
-      <title>SUA au propus reluarea livrărilor de gaze rusești către Europa</title>
-      <link>https://izz.ro/extern/sua-au-propus-reluarea-livrarilor-de-gaze-rusesti-catre-europa/</link>
-      <guid>https://izz.ro/extern/sua-au-propus-reluarea-livrarilor-de-gaze-rusesti-catre-europa/</guid>
-      <pubDate>Sun, 18 Oct 2026 14:41:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/energie/sua-au-propus-reluarea-exporturilor-de-gaze-ale-rusiei-in-europa-ca-parte-a-unui-posibil-acord-de-pace-in-ucraina-22855507?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Administrația condusă de Donald Trump sugerează repornirea exporturilor energetice ale Rusiei ca parte a unui viitor acord de pace. Măsura contrazice eforturile europene anterioare de a elimina dependența de resursele energetice moscovite.</description>
     </item>
 </channel></rss>
