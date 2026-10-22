@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 20:31:36 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 23:42:32 +0000</lastBuildDate>
     <item>
       <title>Ghid pentru organizarea depozitelor cu rafturi pentru paleți</title>
       <link>https://izz.ro/judetean/ghid-pentru-organizarea-depozitelor-cu-rafturi-pentru-paleti/</link>
@@ -77,6 +77,16 @@
       <description>Administrațiile locale din județul Cluj au accesat zeci de milioane de lei prin programe precum PNRR și Anghel Saligny pentru modernizarea drumurilor, rețelelor de apă și școlilor.</description>
     </item>
     <item>
+      <title>Reflecții despre piesa autobiografică a lui Eugene O'Neill la Cluj</title>
+      <link>https://izz.ro/judetean/reflectii-despre-piesa-autobiografica-a-lui-eugene-o-neill-la-cluj/</link>
+      <guid>https://izz.ro/judetean/reflectii-despre-piesa-autobiografica-a-lui-eugene-o-neill-la-cluj/</guid>
+      <pubDate>Wed, 21 Oct 2026 23:46:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://agenda.liternet.ro/articol/31900/Adrian-Tion/Cronica-unei-zile-involburate-Lungul-drum-al-zilei-catre-noapte-la-Intalnirile-Internationale-de-la-Cluj-2026.html">Liternet</source>
+      <media:content url="https://izz.ro/judetean/reflectii-despre-piesa-autobiografica-a-lui-eugene-o-neill-la-cluj/cover.jpg?v=79ccce00" medium="image" type="image/jpeg"/>
+      <description>Evenimentul cultural de la Cluj analizează profunzimea textului dramatic semnat de Eugene O'Neill, respectând rigorile clasice ale unității de timp, spațiu și acțiune în cadrul ediției din 2026.</description>
+    </item>
+    <item>
       <title>Un motociclist a fost rănit în Cluj pe Bulevardul Muncii</title>
       <link>https://izz.ro/local/un-motociclist-a-fost-ranit-in-cluj-pe-bulevardul-muncii/</link>
       <guid>https://izz.ro/local/un-motociclist-a-fost-ranit-in-cluj-pe-bulevardul-muncii/</guid>
@@ -103,7 +113,6 @@
       <pubDate>Wed, 21 Oct 2026 17:55:14 +0000</pubDate>
       <category>local</category>
       <source url="https://jurnalulolteniei.ro/medicina-se-intalneste-cu-spiritualitatea-la-manastirea-nicula/">Jurnalul Olteniei</source>
-      <media:content url="https://izz.ro/local/manastirea-nicula-gazduieste-un-eveniment-despre-medicina-transplantului-si/cover.jpg?v=2e2933fd" medium="image" type="image/jpeg"/>
       <description>Asociația de medici „Trup și Suflet” organizează în noiembrie o reuniune la Cluj care aduce în dialog experți din medicina românească, bioetică și cler, explorând conexiunile profunde dintre știință și credință.</description>
     </item>
     <item>
@@ -456,14 +465,5 @@
       <category>local</category>
       <source url="https://gazetadecluj.ro/bataie-in-plina-strada-in-calatele-pe-fondul-consumului-de-alcool/">Gazeta de Cluj</source>
       <description>Un scandal izbucnit pe fondul consumului de alcool pe un drum public din județul Cluj s-a soldat cu agresiuni fizice și intervenția autorităților pentru reținerea agresorilor.</description>
-    </item>
-    <item>
-      <title>Întreruperi programate în alimentarea cu energie electrică în Medgidia și județul Cluj</title>
-      <link>https://izz.ro/local/anunt-de-interes-public-intrerupere-alimentare-cu-energie-electrica/</link>
-      <guid>https://izz.ro/local/anunt-de-interes-public-intrerupere-alimentare-cu-energie-electrica/</guid>
-      <pubDate>Mon, 12 Oct 2026 06:39:36 +0000</pubDate>
-      <category>local</category>
-      <source url="https://primaria-medgidia.ro/2026/10/12/anunt-de-interes-public-intrerupere-alimentare-cu-energie-electrica/">Primăria Medgidia, Ziua de Cluj</source>
-      <description>Operatorii de distribuție a energiei electrice au anunțat întreruperi programate în alimentarea cu electricitate. În municipiul Medgidia, oprirea este programată pentru luni, 12 octombrie 2026, în intervalul 08:00-16:00, afectând anumite zone precum cartierul IMUM și platoul Intim, în timp ce în județul Cluj au fost anunțate lucrări similare de către distribuitorul regional.</description>
     </item>
 </channel></rss>

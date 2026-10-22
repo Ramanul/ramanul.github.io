@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 20:31:45 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 23:42:42 +0000</lastBuildDate>
     <item>
       <title>Agentul AI Muse de la Meta a depășit zece milioane de utilizatori</title>
       <link>https://izz.ro/ai/agentul-ai-muse-de-la-meta-a-depasit-zece-milioane-de-utilizatori/</link>
@@ -55,6 +55,16 @@
       <source url="https://www.connect.ro/2026/10/22/micron-prezinta-memoria-ddr6-latime-de-banda-dubla-in-comparatie-cu-ddr5-si-un-proces-de-fabricatie-mult-mai-complex/">Connect.ro</source>
       <media:content url="https://izz.ro/ai/micron-anunta-standardul-de-memorie-ram-ddr6-cu-latime-de-banda-dubla/cover.jpg?v=d70a949a" medium="image" type="image/jpeg"/>
       <description>Producătorul american Micron a prezentat noua generație de memorii DDR6, care oferă o lățime de bandă dublă față de DDR5 și performanțe superioare pentru inteligența artificială.</description>
+    </item>
+    <item>
+      <title>Inteligența artificială le consumă mai mult timp angajaților prin corecturi</title>
+      <link>https://izz.ro/ai/inteligenta-artificiala-le-consuma-mai-mult-timp-angajatilor-prin-corecturi/</link>
+      <guid>https://izz.ro/ai/inteligenta-artificiala-le-consuma-mai-mult-timp-angajatilor-prin-corecturi/</guid>
+      <pubDate>Thu, 22 Oct 2026 12:50:59 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.monitoruldegalati.ro/tehnologie/inteligenta-artificiala-le-complica-munca-angajatilor-aproape-jumatate-pierd-mai-mult-timp-corectand-rezultatele-ai-decat-lucrand-de-la-zero.html">Monitorul de Galați</source>
+      <media:content url="https://izz.ro/ai/inteligenta-artificiala-le-consuma-mai-mult-timp-angajatilor-prin-corecturi/cover.jpg?v=06b16eb5" medium="image" type="image/jpeg"/>
+      <description>Un studiu arată că aproape jumătate dintre angajați pierd mai mult timp corectând erorile generate de inteligența artificială decât dacă ar face sarcinile de la zero.</description>
     </item>
     <item>
       <title>Atacuri cibernetice masive vizează o vulnerabilitate critică a limbajului PHP</title>
@@ -123,7 +133,6 @@
       <pubDate>Wed, 21 Oct 2026 18:29:14 +0000</pubDate>
       <category>ai</category>
       <source url="https://hotnews.ro/jensen-huang-ceo-ul-nvidia-indeamna-europa-sa-implementeze-mai-rapid-inteligenta-artificiala-in-industrie-2382926">HotNews</source>
-      <media:content url="https://izz.ro/ai/seful-nvidia-sustine-ca-europa-are-un-avantaj-competitiv-in-robotica-si/cover.jpg?v=176bc426" medium="image" type="image/jpeg"/>
       <description>Directorul general al companiei Nvidia a declarat că expertiza tehnică europeană oferă regiunii un potențial ridicat în domeniul tehnologiilor fizice, anunțând extinderea unor parteneriate locale.</description>
     </item>
     <item>
@@ -133,7 +142,6 @@
       <pubDate>Wed, 21 Oct 2026 18:23:55 +0000</pubDate>
       <category>ai</category>
       <source url="https://stirileprotv.ro/stiri/international/val-de-demisii-la-google-din-cauza-contractelor-militare-pentru-inteligenta-artificiala-ce-dezvaluiri-au-facut-angajatii.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/ai/demisii-la-google-din-cauza-contractelor-militare-de-inteligenta-artificiala/cover.jpg?v=0e9872c1" medium="image" type="image/jpeg"/>
       <description>Mai mulți angajați Google au demisionat în semn de protest față de utilizarea tehnologiei de inteligență artificială în scopuri militare, criticând parteneriatele companiei cu armata.</description>
     </item>
     <item>
@@ -143,7 +151,6 @@
       <pubDate>Wed, 21 Oct 2026 16:37:39 +0000</pubDate>
       <category>ai</category>
       <source url="https://newsbv.ro/roxana-minzatu-washington-post-ia-munca/">News Brașov</source>
-      <media:content url="https://izz.ro/ai/roxana-minzatu-subliniaza-impactul-inteligentei-artificiale-asupra-muncii/cover.jpg?v=a2e7d7c9" medium="image" type="image/jpeg"/>
       <description>Într-un interviu acordat publicației The Washington Post, vicepreședinta Comisiei Europene cere atenție sporită asupra efectelor IA privind forța de muncă și societatea, dincolo de simpla securitate.</description>
     </item>
     <item>
@@ -153,7 +160,6 @@
       <pubDate>Wed, 21 Oct 2026 16:13:05 +0000</pubDate>
       <category>ai</category>
       <source url="https://economedia.ro/ce-dezvoltatori-imobiliari-si-ce-proiecte-recomanda-chatgpt-si-gemini-persoanelor-care-cauta-o-locuinta.html">Economedia</source>
-      <media:content url="https://izz.ro/ai/studiu-privind-recomandarile-imobiliare-oferite-de-chatgpt-si-gemini/cover.jpg?v=55806c2c" medium="image" type="image/jpeg"/>
       <description>O nouă secțiune a platformei Redata monitorizează lunar ce dezvoltatori și ansambluri rezidențiale din marile orașe ale țării sunt recomandate de inteligența artificială celor aflați în căutarea unei locuințe.</description>
     </item>
     <item>
@@ -227,15 +233,6 @@
       <category>ai</category>
       <source url="https://economedia.ro/bitdefender-romania-si-republica-moldova-au-vazut-interferente-din-partea-rusiei-in-alegerile-lor-este-suficient-sa-ii-faci-pe-oameni-sa-nu-mai-creada-in-propria-democrati.html">Economedia</source>
       <description>Reprezentanții companiei Bitdefender au semnalat în cadrul unei conferințe de securitate cibernetică că operațiunile de influență rusă au vizat subminarea încrederii cetățenilor în instituțiile democratice din cele douăstate.</description>
-    </item>
-    <item>
-      <title>Angajații pierd mai mult timp corectând inteligența artificială</title>
-      <link>https://izz.ro/ai/angajatii-pierd-mai-mult-timp-corectand-inteligenta-artificiala/</link>
-      <guid>https://izz.ro/ai/angajatii-pierd-mai-mult-timp-corectand-inteligenta-artificiala/</guid>
-      <pubDate>Tue, 20 Oct 2026 14:22:35 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/inteligenta-artificiala-productivitate/">ZonaIT</source>
-      <description>Cercetările arată că utilizatorii intensivi de instrumente bazate pe AI alocă mai multe ore corectării erorilor generate de chatboți decât activităților efective de la job.</description>
     </item>
     <item>
       <title>Roxana Mînzatu avertizează că inteligența artificială poate înlocui și locurile de muncă bine plătite</title>

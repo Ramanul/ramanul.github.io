@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/londra/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Londra pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 20:31:36 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 23:42:32 +0000</lastBuildDate>
+    <item>
+      <title>Comisia Europeană propune amânarea negocierilor privind taxele școlare pentru studenții britanici</title>
+      <link>https://izz.ro/extern/comisia-europeana-propune-amanarea-negocierilor-privind-taxele-scolare-pentru/</link>
+      <guid>https://izz.ro/extern/comisia-europeana-propune-amanarea-negocierilor-privind-taxele-scolare-pentru/</guid>
+      <pubDate>Thu, 22 Oct 2026 11:48:06 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/brussels-proposes-delaying-tuition-fee-demand-till-after-uk-eu-summit/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/comisia-europeana-propune-amanarea-negocierilor-privind-taxele-scolare-pentru/cover.jpg?v=0cc649e8" medium="image" type="image/jpeg"/>
+      <description>Bruxellesul vrea să decupleze discuțiile despre taxele reduse pentru studenții UE din Marea Britanie de summitul bilateral din 20 noiembrie. O astfel de amânare ar putea facilita finalizarea unui acord între cele două părți.</description>
+    </item>
     <item>
       <title>Presă europeană cere blocarea noilor clauze AI impuse de Meta</title>
       <link>https://izz.ro/ai/presa-europeana-cere-blocarea-noilor-clauze-ai-impuse-de-meta/</link>
@@ -113,14 +123,5 @@
       <category>local</category>
       <source url="https://stirileprotv.ro/stiri/international/un-jurnalist-a-dezvaluit-schema-prin-care-o-grupare-de-romanii-ar-fi-inselat-turistii-langa-parlamentul-britanic-video.html">Știrile ProTV</source>
       <description>O grupare infracțională formată din cetățeni români este investigată la Londra pentru practicarea unor tarife uriașe la cursele cu ricșa și pentru intimidarea concurenței în zona Westminster.</description>
-    </item>
-    <item>
-      <title>Proteste propalestiniene ample organizate la Londra și Berlin</title>
-      <link>https://izz.ro/extern/proteste-propalestiniene-ample-organizate-la-londra-si-berlin/</link>
-      <guid>https://izz.ro/extern/proteste-propalestiniene-ample-organizate-la-londra-si-berlin/</guid>
-      <pubDate>Sat, 10 Oct 2026 20:32:40 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/mii-de-persoane-au-participat-la-manifestatii-propalestiniene-la-londra-si-berlin-3986821">Digi24 Extern</source>
-      <description>Câteva mii de persoane au protestat sâmbătă în capitala Marii Britanii pentru a cere încetarea atacurilor militare în Fâșia Gaza, la peste trei ani de la izbucnirea conflictului armat dintre Israel și Hamas.</description>
     </item>
 </channel></rss>

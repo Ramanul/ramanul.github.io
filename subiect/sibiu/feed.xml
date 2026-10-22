@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/sibiu/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Sibiu pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 20:31:36 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 23:42:32 +0000</lastBuildDate>
+    <item>
+      <title>Producătorul Hendrickson vrea să cumpere un teren la Șura Mică pentru cel mult 1,5 milioane euro</title>
+      <link>https://izz.ro/local/producatorul-hendrickson-vrea-sa-cumpere-un-teren-la-sura-mica-pentru-cel-mult/</link>
+      <guid>https://izz.ro/local/producatorul-hendrickson-vrea-sa-cumpere-un-teren-la-sura-mica-pentru-cel-mult/</guid>
+      <pubDate>Thu, 22 Oct 2026 19:29:55 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.economica.net/producatorul-de-suspensii-hendrickson-romania-ofera-cel-mult-15-milioane-euro-pentru-un-teren-de-60-000-mp-pe-care-vrea-sa-l-cumpere-n-judetul-sibiu_988249.html">Economica</source>
+      <media:content url="https://izz.ro/local/producatorul-hendrickson-vrea-sa-cumpere-un-teren-la-sura-mica-pentru-cel-mult/cover.jpg?v=ba3b31b4" medium="image" type="image/jpeg"/>
+      <description>Compania americană, prezentă pe piața locală printr-o fabrică de componente auto la Sibiu, a decis achiziționarea unei suprafețe de 60.000 de metri pătrați în județul Sibiu de la Log Center Sibiu.</description>
+    </item>
     <item>
       <title>Vremea se răcește accentuat la Sibiu, cu ploi slabe și temperaturi de maximum 16 grade</title>
       <link>https://izz.ro/local/vremea-se-raceste-accentuat-la-sibiu-cu-ploi-slabe-si-temperaturi-de-maximum-16/</link>
@@ -113,7 +123,6 @@
       <pubDate>Wed, 21 Oct 2026 17:51:36 +0000</pubDate>
       <category>local</category>
       <source url="https://www.turnulsfatului.ro/2026/10/21/ce-facem-de-halloween-la-sibiu-caravana-dovlecilor-party-uri-concursuri-de-costume-karaoke-ateliere-pentru-copii-si-drumetii/">Turnul Sfatului</source>
-      <media:content url="https://izz.ro/local/sibiu-organizeaza-un-program-extins-de-evenimente-pentru-sarbatoarea-de/cover.jpg?v=706ab21f" medium="image" type="image/jpeg"/>
       <description>Orașul găzduiește timp de o săptămână activități dedicate publicului de toate vârstele, incluzând târguri sezoniere, ateliere de sculptat dovleci, petreceri tematice și drumeții în aer liber.</description>
     </item>
     <item>
@@ -123,7 +132,6 @@
       <pubDate>Wed, 21 Oct 2026 17:40:11 +0000</pubDate>
       <category>judetean</category>
       <source url="https://www.turnulsfatului.ro/2026/10/21/vremea-se-raceste-joi-ploi-sub-forma-de-aversa-si-precipitatii-mixte-pe-crestele-muntilor/">Turnul Sfatului</source>
-      <media:content url="https://izz.ro/judetean/racire-accentuata-a-vremii-si-precipitatii-mixte-la-munte-in-judetul-sibiu/cover.jpg?v=25edfbb6" medium="image" type="image/jpeg"/>
       <description>Meteorologii anunță o scădere a temperaturilor în județul Sibiu, însoțită de ploi sub formă de averse și vânt puternic pe creste. La altitudini de peste 2.000 de metri, precipitațiile vor deveni mixte în timpul nopții.</description>
     </item>
     <item>
@@ -458,14 +466,5 @@
       <category>local</category>
       <source url="https://www.turnulsfatului.ro/2026/10/17/vasile-lepsa-consilierul-local-din-cisnadie-care-canta-la-cinci-instrumente-am-calcat-tot-timpul-frana-administratiei-vechi-acolo-unde-depaseau-limita-legala/">Turnul Sfatului</source>
       <description>Un consilier local din Cisnădie care administrează o școală de șoferi își dedică timpul liber interpretării la cinci instrumente muzicale, implicându-se totodată activ în viața administrativă a orașului.</description>
-    </item>
-    <item>
-      <title>Evenimentele zilei în Sibiu includ prima zăpadă și bilanțul unui incendiu</title>
-      <link>https://izz.ro/local/evenimentele-zilei-in-sibiu-includ-prima-zapada-si-bilantul-unui-incendiu/</link>
-      <guid>https://izz.ro/local/evenimentele-zilei-in-sibiu-includ-prima-zapada-si-bilantul-unui-incendiu/</guid>
-      <pubDate>Fri, 16 Oct 2026 19:52:49 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.turnulsfatului.ro/2026/10/16/stirile-zilei-statia-de-sortare-cel-mai-mare-incendiu-din-ultimii-cinci-ani-povestit-de-pompieri-prima-zapada-a-iernii-la-paltinis-cladirea-de-langa-podul-minciunilor-cu-fatada-refacuta-din-bani/">Turnul Sfatului</source>
-      <description>Păltinișul a înregistrat prima zăpadă din acest sezon, în timp ce pompierii au prezentat detalii despre cel mai mare incendiu din ultimii cinci ani, produs la o stație de sortare.</description>
     </item>
 </channel></rss>

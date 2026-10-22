@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/statele-unite/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Statele Unite pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 20:31:36 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 23:42:32 +0000</lastBuildDate>
     <item>
       <title>Un studiu arată că peste 90% dintre informațiile false despre alegeri nu au fost eliminate de pe platforma X</title>
       <link>https://izz.ro/tech/un-studiu-arata-ca-peste-90-dintre-informatiile-false-despre-alegeri-nu-au-fost/</link>
@@ -15,6 +15,16 @@
       <source url="https://www.g4media.ro/studiu-peste-90-dintre-postarile-false-despre-alegerile-din-sua-nu-au-fost-corectate-pe-platforma-x-inclusiv-cele-distribuite-de-elon-musk.html">G4Media</source>
       <media:content url="https://izz.ro/tech/un-studiu-arata-ca-peste-90-dintre-informatiile-false-despre-alegeri-nu-au-fost/cover.jpg?v=e139eade" medium="image" type="image/jpeg"/>
       <description>O analiză publicată de organizația NewsGuard relevă că sistemul de moderare al rețelei sociale deținute de Elon Musk a eșuat în semnalarea a peste 90% din postările electorale false, inclusiv în cazul mesajelor distribuite de miliardar.</description>
+    </item>
+    <item>
+      <title>Uniunea Europeană înregistrează o creștere accelerată a importurilor de porumb</title>
+      <link>https://izz.ro/economic/uniunea-europeana-inregistreaza-o-crestere-accelerata-a-importurilor-de-porumb/</link>
+      <guid>https://izz.ro/economic/uniunea-europeana-inregistreaza-o-crestere-accelerata-a-importurilor-de-porumb/</guid>
+      <pubDate>Thu, 22 Oct 2026 19:22:22 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.dobrogeaonline.ro/romania-conduce-europa-la-exporturile-de-grau-in-timp-ce-importurile-de-porumb-cresc-accelerat/">Dobrogea Online</source>
+      <media:content url="https://izz.ro/economic/uniunea-europeana-inregistreaza-o-crestere-accelerata-a-importurilor-de-porumb/cover.jpg?v=33eadbdf" medium="image" type="image/jpeg"/>
+      <description>Datele publicate de Comisia Europeană arată că livrările de porumb pe piața comunitară s-au majorat cu 40% de la începutul sezonului agricol, în timp ce exporturile de grâu ale României s-au menținut constante.</description>
     </item>
     <item>
       <title>Creștere puternică a importurilor de porumb în UE pe fondul secetei</title>
@@ -93,7 +103,6 @@
       <pubDate>Wed, 21 Oct 2026 18:31:41 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.aradon.ro/mapamond/zelenski-cere-inghetarea-frontului-inainte-de-discutiile-privind-un-posibil-armistitiu-2262540/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">ARADON</source>
-      <media:content url="https://izz.ro/politic/volodimir-zelenski-cere-inghetarea-liniei-frontului-inainte-de-negocierile/cover.jpg?v=7d9c918c" medium="image" type="image/jpeg"/>
       <description>Președintele Ucrainei a declarat într-un interviu că oprirea luptelor este pasul minim necesar pentru oprirea războiului, urmând ca ulterior să fie cerute garanții de securitate de la aliații occidentali.</description>
     </item>
     <item>
@@ -103,7 +112,6 @@
       <pubDate>Wed, 21 Oct 2026 15:06:47 +0000</pubDate>
       <category>sport</category>
       <source url="https://www.gsp.ro/sporturi/tenis/marea-jucatoare-de-tenis-a-rusiei-dezvaluie-agent-special-990704.html">GSP</source>
-      <media:content url="https://izz.ro/sport/fosta-jucatoare-de-tenis-svetlana-kuznetsova-a-rememorat-un-incident-de/cover.jpg?v=8d776f60" medium="image" type="image/jpeg"/>
       <description>Sportiva rusă în vârstă de 41 de ani a relatat cum a fost oprită la intrarea în Washington în 2019 din cauza suspiciunilor autorităților americane, ea orientându-se ulterior spre designul vestimentar.</description>
     </item>
     <item>
@@ -456,14 +464,5 @@
       <category>politic</category>
       <source url="https://newsbv.ro/trump-economia-sua-razboaie-costul-americanilor/">News Brașov</source>
       <description>În timp ce administrația americană promite prosperitate și oprirea conflictelor, cetățenii se confruntă cu costuri ridicate de trai și credite scumpe. Situația generează controverse privind posibile conflicte între interesele publice și cele de afaceri ale liderului de la Casa Albă.</description>
-    </item>
-    <item>
-      <title>Autoritățile americane monitorizează un posibil caz de ciumă pneumonică în Siberia</title>
-      <link>https://izz.ro/sanatate/autoritatile-americane-monitorizeaza-un-posibil-caz-de-ciuma-pneumonica-in/</link>
-      <guid>https://izz.ro/sanatate/autoritatile-americane-monitorizeaza-un-posibil-caz-de-ciuma-pneumonica-in/</guid>
-      <pubDate>Mon, 12 Oct 2026 12:30:06 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://www.csid.ro/stiri/alerta-dupa-moartea-unei-cercetatoare-in-siberia-autoritatile-americane-monitorizeaza-suspiciunile-de-ciuma-pneumonica-21331934/">CSÎD</source>
-      <description>Decedarea unei cercetătoare ruse pe teritoriul siberian a generat o alertă internațională și determină organismele de sănătate din Statele Unite să supravegheze îndeaproape situația epidemiologică.</description>
     </item>
 </channel></rss>
