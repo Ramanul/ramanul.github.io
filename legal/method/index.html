@@ -27,13 +27,13 @@
   <link rel="alternate" type="application/rss+xml" title="IZZ.ro" href="/feed.xml">
   <link rel="preload" href="/static/fonts/PlayfairDisplay-800.ro.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/static/fonts/JetBrainsMono-700.ro.woff2" as="font" type="font/woff2" crossorigin>
-<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=b4abccd6">
+<style>@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/Inter-400.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; font-display: swap; src: url(/static/fonts/Inter-600.ro.woff2) format('woff2'); } @font-face { font-family: 'Inter'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/Inter-700.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 400; font-display: swap; src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2'); } @font-face { font-family: 'JetBrains Mono'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2'); } @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 800; font-display: swap; src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2'); }</style>  <link rel="stylesheet" href="/static/styles.css?v=3c9a66cd">
   <link rel="stylesheet" href="/static/site.css?v=20261002b">
   <link rel="stylesheet" href="/static/faza2.css?v=20261002">
   <script src="/static/theme.js?v=a85cf26f"></script>
 
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@id": "https://izz.ro/#organization", "@type": ["Organization", "NewsMediaOrganization"], "actionableFeedbackPolicy": "https://izz.ro/legal/contact/", "correctionsPolicy": "https://izz.ro/legal/corrections/", "description": "Portalul \u0219tirilor tale", "email": "contact@izz.ro", "logo": {"@id": "https://izz.ro/#logo", "@type": "ImageObject", "height": 512, "url": "https://izz.ro/static/logo.png", "width": 512}, "name": "IZZ.ro", "publishingPrinciples": "https://izz.ro/legal/method/", "url": "https://izz.ro"}, {"@id": "https://izz.ro/#website", "@type": "WebSite", "description": "Portalul \u0219tirilor tale", "inLanguage": "ro", "name": "IZZ.ro", "publisher": {"@id": "https://izz.ro/#organization"}, "url": "https://izz.ro/"}, {"@id": "https://izz.ro/legal/method/#webpage", "@type": "WebPage", "inLanguage": "ro", "isPartOf": {"@id": "https://izz.ro/#website"}, "url": "https://izz.ro/legal/method/"}]}</script>
-  <script defer src="/static/personalize.js?v=291d403d"></script>
+  <script defer src="/static/judet.js?v=1bb10b2c"></script>
   <script defer src="/static/pwa.js?v=dfe83b63"></script>
   <script defer src="/static/editorial-updates.js?v=9d2a6457"></script>
   <script defer src="/static/push.js?v=6eff9fac"></script>
@@ -81,7 +81,7 @@
 <h2>1. Titlul spune ce s-a întâmplat</h2>
 <p><strong>Problemă:</strong> titlurile construite pentru retenție ascund informația după întrebări retorice, suspans și adjective, ca să forțeze clicul.</p>
 <p><strong>Regulă adoptată:</strong> informația grea la început. Fără momeală de anticipare, fără adjective evaluative, fără titluri care nu se înțeleg singure.</p>
-<p><strong>Ce face site-ul:</strong> promptul de sinteză rescrie titlul și rezumatul de la zero, mută subiectul și acțiunea în față, elimină adjectivele de opinie și păstrează verbele de rezervă din textul-sursă („ar fi declarat", „conform documentului"). Pagina <a href="/azi/">/azi/</a> afișează ziua curentă exclusiv ca listă de titluri și surse.</p>
+<p><strong>Ce face site-ul:</strong> promptul de sinteză rescrie titlul de la zero, mută subiectul și acțiunea în față, elimină adjectivele de opinie și păstrează verbele de rezervă din textul-sursă („ar fi declarat", „conform documentului"); o afirmație care pierde rezerva pe care sursa o avea nu intră în textul scurt de pe card. Pagina <a href="/azi/">/azi/</a> afișează ziua curentă exclusiv ca listă de titluri și surse.</p>
 <p><strong>Unde verifici:</strong> deschide <a href="/azi/">/azi/</a> și caută un titlu-întrebare sau un „Șocant!".</p>
 <p><strong>Limită:</strong> comprimarea pierde contextul secundar, iar modelul poate prelua ocazional tonul sau un epitet din sursă; în plus, dacă publicația originală greșește un fapt, îl preluăm ca atare.</p>
 <h2>2. Nimic fără sursă</h2>
@@ -90,12 +90,12 @@
 <p><strong>Ce face site-ul:</strong> fiecare card și fiecare articol are linkul direct spre sursă; sintezele multi-sursă listează toate publicațiile implicate.</p>
 <p><strong>Unde verifici:</strong> deschide orice știre de pe prima pagină și caută linkul către publicația originală.</p>
 <p><strong>Limită:</strong> dacă pagina sursei dispare sau stă în spatele unui paywall, linkul rămâne și nu servim copie a textului lor.</p>
-<h2>3. Contradicțiile se arată, nu se netezesc</h2>
-<p><strong>Problemă:</strong> preluarea în masă creează iluzia consensului, iar citirea a cinci articole despre același subiect consumă timpul cititorului.</p>
-<p><strong>Regulă adoptată:</strong> la un eveniment relatat de mai multe publicații generăm o singură sinteză care separă faptele confirmate din mai multe surse de afirmațiile divergente și reține ordinea apariției în flux.</p>
-<p><strong>Ce face site-ul:</strong> sintezele marchează explicit unde sursele se contrazic (cifre diferite, versiuni opuse). Pagina <a href="/surse/">/surse/</a> publică, pe o fereastră de 12 zile, cine a publicat prima fiecare subiect devenit sinteză.</p>
-<p><strong>Unde verifici:</strong> deschide o sinteză multi-sursă pentru marcarea diferențelor, apoi tabelul de inițiativă de pe <a href="/surse/">/surse/</a>.</p>
-<p><strong>Limită:</strong> două publicații care preiau același comunicat sunt tratate tehnic drept două confirmări, iar o sursă aflată în afara fluxurilor RSS pe care le urmărim nu intră în calculul primei apariții — de aceea pagina poartă avertismentul că ordinea observată nu dovedește autorul informației.</p>
+<h2>3. Ce confirmă publicațiile, unde diferă, ce vine dintr-o singură origine</h2>
+<p><strong>Problemă:</strong> preluarea în masă creează iluzia consensului: trei redacții care publică același comunicat par trei confirmări, iar citirea a cinci articole despre același subiect consumă timpul cititorului.</p>
+<p><strong>Regulă adoptată:</strong> o sinteză nu redactează un text liber peste surse. Separă ce confirmă cel puțin două publicații care nu preiau același text, ce versiuni diferă (atribuite fiecărei publicații) și ce apare la o singură origine; când publicații independente relatează fapte diferite, fără suprapunere, pagina o spune ca atare. Când relatările se exclud, nu scriem o versiune comună.</p>
+<p><strong>Ce face site-ul:</strong> pentru fiecare eveniment relatat de mai multe publicații, sistemul citește textul integral al articolelor și îl împarte în propoziții numerotate. Modelul de limbaj propune faptele comune, diferențele și afirmațiile izolate, fiecare cu propozițiile din care provine; apoi un program le verifică pe rând: propoziția citată trebuie să existe și să aparțină acelui eveniment, fiecare cifră trebuie să fie în propozițiile citate, iar „confirmat" înseamnă cel puțin două origini distincte. Ce nu trece verificarea nu se publică; dacă prea multe afirmații pică, sinteza se amână. Rolul fiecărei publicații e calculat mecanic, fără model de limbaj: prima relatare observată (o relatare densă publicată în aceleași 15 minute bate o alertă de două rânduri), detalii suplimentare, aceleași fapte cu alte cuvinte, text comun cu altă publicație (posibil comunicat) sau preluare declarată. Cardul arată câte confirmări încrucișate are subiectul, iar <a href="/surse/">/surse/</a> publică, pe 12 zile, cine a relatat primul. Când o sinteză se actualizează, pagina spune ce publicații au intrat și ce stare avea sinteza înainte; când faptele din textul unei surse se schimbă cu peste 20% după prima citire (de regulă o știre în curs, completată), mențiunea „actualizat de redacție după prima citire" apare lângă numele ei.</p>
+<p><strong>Unde verifici:</strong> deschide o sinteză cu eticheta „Sinteză din N publicații": fiecare fapt poartă numele publicațiilor, iar lângă fiecare sursă stă rolul ei. Deschide sursele și caută faptul.</p>
+<p><strong>Limită:</strong> o preluare rescrisă integral, fără atribuire, nu poate fi deosebită de o relatare independentă; textul comun e recunoscut doar când secvențele de cuvinte coincid. Când textul integral nu poate fi citit (paywall, pagină de consimțământ), se folosește doar descrierea din fluxul RSS, deci diferențele fine se pot pierde. Modelul poate clasa greșit un fapt, iar verificarea prinde citarea și cifra greșită, nu sensul greșit al unei propoziții corect citate. Prima relatare e prima observată în fluxurile pe care le urmărim, nu dovada autorului informației. Sintezele publicate înainte de 23 octombrie 2026 păstrează forma veche, narativă, până la actualizare sau expirare.</p>
 <h2>4. Proporție geografică și proveniența relatării</h2>
 <p><strong>Problemă:</strong> fluxurile naționale suprareprezintă capitala și marile orașe; restul țării pare fie gol, fie distorsionat de evenimente izolate mediatizate intens.</p>
 <p><strong>Regulă adoptată:</strong> localizare la nivel de județ și localitate, raportare la populație și proveniența relatărilor arătată explicit.</p>
@@ -111,18 +111,25 @@
 <h2>6. Acces fără captivitate</h2>
 <p><strong>Problemă:</strong> conturile obligatorii, profilarea și arhitecturile închise transformă cititorul în utilizator reținut.</p>
 <p><strong>Regulă adoptată:</strong> accesul e liber, fără cont și fără paywall; canalele sunt deschise și standard.</p>
-<p><strong>Ce face site-ul:</strong> flux RSS complet (<a href="/feed.xml">/feed.xml</a>), abonare la notificări web push prin protocol standard (VAPID), fără cont și fără colectare de email, căutare liberă pe site, setări de consimțământ pe categorii (<a href="/legal/privacy/">/legal/privacy/#consimtamant</a>) și acces la știrile expirate printr-o arhivă oglindă.</p>
-<p><strong>Unde verifici:</strong> deschide direct <a href="/feed.xml">/feed.xml</a> sau panoul de consimțământ din <a href="/legal/privacy/#consimtamant">/legal/privacy/#consimtamant</a>.</p>
-<p><strong>Limită:</strong> fără profilare, zero personalizare: toți cititorii văd același flux.</p>
+<p><strong>Ce face site-ul:</strong> flux RSS complet (<a href="/feed.xml">/feed.xml</a>), abonare la notificări web push prin protocol standard (VAPID), fără cont și fără colectare de email, căutare liberă pe site și acces la știrile expirate printr-o arhivă oglindă. Nu există bară de consimțământ, pentru că nu există nimic care să o ceară: niciun profil de lectură, niciun cookie de urmărire, niciun script de statistică în browserul cititorului. Singura alegere care schimbă prima pagină e județul, făcută explicit de cititor și păstrată doar în browserul lui.</p>
+<p><strong>Unde verifici:</strong> deschide direct <a href="/feed.xml">/feed.xml</a>; în instrumentele de dezvoltator ale browserului, fila de rețea arată că o pagină nu cere nimic de la terți în afara găzduirii și a hărții, iar <code>localStorage</code> e gol până alegi un județ. Ce rămâne în browser e descris în <a href="/legal/privacy/#consimtamant">/legal/privacy/#consimtamant</a>.</p>
+<p><strong>Limită:</strong> toți cititorii văd același flux, deci nimeni nu primește o ordine potrivită lui; cine vrea doar o rubrică o deschide din meniu. Găzduirea (Cloudflare) primește, ca orice server, cererile browserului și adaugă un script propriu de protecție împotriva roboților; acela nu e codul nostru și nu-l folosim pentru statistici.</p>
+<h2>7. Atenția are un capăt</h2>
+<p><strong>Problemă:</strong> fluxurile fără sfârșit, contoarele de noutăți și notificările repetate transformă informarea în reținere.</p>
+<p><strong>Regulă adoptată:</strong> ziua are o listă finită, care își spune capătul; sistemul arată ce a eliminat, nu doar ce a adunat.</p>
+<p><strong>Ce face site-ul:</strong> antetul primei pagini arată câte articole ale surselor stau în spatele subiectelor publicate în ultimele 24 de ore (articolele despre același eveniment devin un singur subiect). Lista de pe <a href="/azi/">/azi/</a> se încheie cu un rând care spune că ai parcurs toate subiectele zilei. Nu există derulare infinită și nici notificări repetate: alertele sunt opționale, cel mult una pe zi.</p>
+<p><strong>Unde verifici:</strong> prima pagină, rândul de sub dată (pe ecran lat); capătul listei de pe <a href="/azi/">/azi/</a>; registrul <a href="/sub-prag/">Ce nu ajunge pe site</a>, cu câte relatări a oprit fiecare filtru la ultima publicare.</p>
+<p><strong>Limită:</strong> cifra articolelor numără doar sursele din fluxurile urmărite și doar relatările unite într-o sinteză; duplicatele eliminate înainte de publicare nu sunt încă numărate public.</p>
 <h2>Transparență scurtă: drepturi și conținut</h2>
 <ul>
 <li>Modele utilizate: Google Gemini și Anthropic Claude. Răspunderea editorială pentru ce rămâne publicat aparține IZZ.ro.</li>
 <li>Corecțiile materiale sunt publicate cu ce s-a schimbat, când și de ce, pe <a href="/legal/corrections/">/legal/corrections/</a>. Retragerea materialelor la cerere temeinică: <a href="/legal/takedown/">/legal/takedown/</a>.</li>
 <li>Imaginile <strong>nu</strong> sunt extrase din surse: coperțile sunt, de regulă, grafică proprie generată programatic; o fotografie de terț apare numai cu temei de licență documentat și credit vizibil. Detalii: <a href="/legal/images/">/legal/images/</a>.</li>
-<li>Nu folosim conținut de agenții de presă și nu republicăm articolele integrale.</li>
+<li>Memoria subiectelor: deciziile încheiate pe care le-au confirmat cel puțin două origini (o lege promulgată, un buget aprobat, o hotărâre a unei instituții) rămân 12 luni într-un registru separat de fereastra de 12 zile — data, faptul și publicațiile, fără text de presă — și apar pe pagina unei știri noi despre același subiect (aceleași persoane, instituții sau acte, nu doar „Guvernul" ori „România", plus un cuvânt-cheie comun). Nu intră acolo nicio anchetă, acuzație, sancțiune sau altă stare judiciară — nici condamnările definitive —, iar o corecție ori o retragere scoate rândul și din registru.</li>
+<li>Nu folosim conținut de agenții de presă și nu republicăm articolele integrale. Textul integral al surselor e citit doar în timpul generării și nu se păstrează nicăieri; în starea publică rămân doar amprentele lui (cifre, nume, hash-uri), pentru a observa modificările ulterioare.</li>
 </ul>
-<h2>Notă de arhitectură</h2>
-<p>Cele șase mecanisme de mai sus sunt traducerea în reguli, filtre și interfețe a unor idei din <em>Contactul Ra</em> (volumele 1 și 2) și <em>AlienMind</em>: atenția ca resursă finită, verificabilitatea în locul autorității, limita asumată a oricărui sistem, corecția admisă. Fundamentul, pasajele și tensiunile acestei adaptări sunt documentate pe <a href="/principii/">/principii/</a>.</p>
+<h2>Codul e public</h2>
+<p>Regulile, filtrele și verificările descrise aici sunt cod, nu declarații: <a href="https://github.com/Ramanul/izz-ro">depozitul public al site-ului</a> conține programul care le aplică, testele care le fixează și specificațiile de proiectare. Mecanismele trebuie să rămână utile și pentru un cititor care nu împărtășește nicio convingere a celor care le-au construit.</p>
 <h2>Dacă ceva nu se confirmă</h2>
 <p>Fiecare afirmație de pe această pagină poate fi testată prin linkurile de mai sus. Dacă una nu se confirmă în funcționarea reală, scrie la <strong>contact@izz.ro</strong> sau folosește raportarea de eroare de pe articol: pagina se corectează prin același mecanism ca restul site-ului, vizibil pe <a href="/legal/corrections/">/legal/corrections/</a>.</p>
 </article>
@@ -135,7 +142,6 @@
       <a href="/principii/">Principii</a>
       <a href="/legal/contact/">Contact</a>
       <a href="/legal/privacy/">Confidențialitate</a>
-      <a href="/legal/privacy/#consimtamant">Setări consimțământ</a>
       <a href="/legal/terms/">Termeni</a>
       <a href="/legal/accessibility/">Accesibilitate</a>
       <a href="/legal/method/">Cum devin ideile funcții</a>
@@ -143,6 +149,7 @@
       <a href="/legal/security/">Securitate</a>
       <a href="/legal/images/">Politica imaginilor</a>
       <a href="/surse/">Surse & originalitate</a>
+      <a href="/sub-prag/">Ce nu ajunge pe site</a>
       <a href="/legal/takedown/">Drepturi de autor</a>
     </nav>
     <div class="izz-citire" id="izz-citire">

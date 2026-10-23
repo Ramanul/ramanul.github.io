@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 15:28:48 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 19:34:17 +0000</lastBuildDate>
+    <item>
+      <title>Ucraina anunță că restricțiile Starlink rămân active în pofida declarațiilor lui Trump</title>
+      <link>https://izz.ro/extern/ucraina-anunta-ca-restrictiile-starlink-raman-active-in-pofida-declaratiilor/</link>
+      <guid>https://izz.ro/extern/ucraina-anunta-ca-restrictiile-starlink-raman-active-in-pofida-declaratiilor/</guid>
+      <pubDate>Fri, 23 Oct 2026 18:52:17 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <media:content url="https://izz.ro/extern/ucraina-anunta-ca-restrictiile-starlink-raman-active-in-pofida-declaratiilor/cover.jpg?v=56f602cb" medium="image" type="image/jpeg"/>
+      <description>Surse militare ucrainene confirmă că rețeaua de sateliți spațiali este în continuare limitată în zonele de conflict, în ciuda afirmațiilor făcute de Donald Trump privind remedierea rapidă a oricărei probleme tehnice.</description>
+    </item>
     <item>
       <title>Ucraina dezvoltă o rețea de sateliți alături de companii finlandeze</title>
       <link>https://izz.ro/extern/ucraina-dezvolta-o-retea-de-sateliti-alaturi-de-companii-finlandeze/</link>
@@ -15,16 +25,6 @@
       <source url="https://www.g4media.ro/ucraina-vrea-sa-si-construiasca-propria-retea-de-sateliti-de-comunicatii-cu-ajutorul-companiilor-finlandeze-iceye-si-nokia.html">G4Media</source>
       <media:content url="https://izz.ro/extern/ucraina-dezvolta-o-retea-de-sateliti-alaturi-de-companii-finlandeze/cover.jpg?v=03517724" medium="image" type="image/jpeg"/>
       <description>Ministerul Apărării de la Kiev a semnat un acord cu firmele Nokia și ICEYE pentru crearea unui sistem propriu de comunicații prin satelit. Demersul vine ca urmare a problemelor tehnice și a vulnerabilităților întâmpinate în utilizarea serviciului Starlink.</description>
-    </item>
-    <item>
-      <title>Limitările de viteză Starlink rămân active în Ucraina</title>
-      <link>https://izz.ro/extern/limitarile-de-viteza-starlink-raman-active-in-ucraina/</link>
-      <guid>https://izz.ro/extern/limitarile-de-viteza-starlink-raman-active-in-ucraina/</guid>
-      <pubDate>Fri, 23 Oct 2026 08:09:47 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/starlink-still-restricted-for-ukraine-donald-trump-elon-musk-lifted-speed-limits/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <media:content url="https://izz.ro/extern/limitarile-de-viteza-starlink-raman-active-in-ucraina/cover.jpg?v=dfb147ff" medium="image" type="image/jpeg"/>
-      <description>Oficialii ucraineni confirmă că restricțiile de viteză ale rețelei Starshield persistă, în ciuda afirmațiilor făcute de președintele american Donald Trump privind eliminarea lor de către Elon Musk.</description>
     </item>
     <item>
       <title>Operatori europeni de telecomunicații dezvoltă o alternativă la rețeaua Starlink</title>

@@ -346,6 +346,30 @@ picture { display: contents; }
   color: var(--ink-2); font-family: var(--font-mono); font-size: var(--fs-eyebrow);
   border-bottom: 1px dotted var(--line-strong); white-space: nowrap;
 }
+/* Sinteza dialectică (E2): faptele sunt corpul articolului, deci au mărimea corpului; sursa
+   fiecărui fapt e metadată, deci mono + ton secundar, pe același rând (atribuire, nu link). */
+.dialectic { margin: var(--s-21) 0; }
+.dialectic-h {
+  margin: var(--s-21) 0 var(--s-8); font-family: var(--font-mono); font-size: var(--fs-eyebrow);
+  text-transform: uppercase; letter-spacing: 1.2px; color: var(--ink-3); font-weight: 700;
+}
+.dialectic-list { margin: 0; padding-left: var(--s-21); }
+.dialectic-list li { font-size: var(--fs-md); line-height: 1.6; color: var(--ink); margin: 0 0 var(--s-8); }
+.dialectic-single li { font-size: var(--fs-base); color: var(--ink-2); }
+.dialectic-src {
+  font-family: var(--font-mono); font-size: var(--fs-eyebrow); color: var(--ink-3);
+  overflow-wrap: anywhere;
+}
+.dialectic-diverg { border-left: 2px solid var(--line-strong); padding-left: var(--s-13); margin: 0 0 var(--s-13); }
+.dialectic-axis { margin: 0 0 var(--s-5); font-weight: 700; color: var(--ink-2); font-size: var(--fs-xs); }
+.dialectic-diverg .dialectic-list li { font-size: var(--fs-base); }
+.dialectic-note { font-size: var(--fs-xs); color: var(--ink-3); margin: var(--s-5) 0 var(--s-13); line-height: 1.55; }
+.dialectic-silence { color: var(--ink-2); }
+.source-role {
+  color: var(--ink-3); font-family: var(--font-mono); font-size: var(--fs-eyebrow);
+  border-bottom: 1px dotted var(--line-strong);
+}
+.source-roles-note { margin: var(--s-13) 0 0; font-size: var(--fs-xs); color: var(--ink-3); line-height: 1.55; }
 .article-accountability {
   margin: var(--s-34) 0; padding: var(--s-21); border-left: 3px solid var(--gold);
   background: var(--gold-wash); color: var(--ink-2); font-size: var(--fs-xs); line-height: 1.55;
@@ -384,80 +408,6 @@ picture { display: contents; }
 .site-footer a { color: var(--ink-3); font-family: var(--font-mono); text-transform: uppercase; letter-spacing: .5px; font-size: var(--fs-eyebrow); }
 .site-footer a:hover { color: var(--gold-strong); }
 .empty { text-align: center; color: var(--ink-3); padding: var(--s-89) var(--s-21); }
-
-/* ------------------------------------------------- Personalizare JS --- */
-.pt-title { display: flex; align-items: center; gap: var(--s-8); }
-.pt-badge {
-  font-family: var(--font-mono); font-size: var(--fs-eyebrow); font-weight: 700;
-  background: var(--gold); color: #fff; padding: 2px 7px; border-radius: 3px;
-  text-transform: uppercase; letter-spacing: 1px;
-}
-#pentru-tine { border-left: 3px solid var(--gold); padding-left: var(--s-13); margin-bottom: var(--s-34); }
-
-/* buton profil (colț dreapta-jos) */
-.izz-profile-btn {
-  position: fixed; bottom: var(--s-21); right: var(--s-21); z-index: 100;
-  width: 44px; height: 44px; border-radius: 50%;
-  background: var(--paper-2); border: 1px solid var(--line-strong);
-  color: var(--ink-2); font-size: 1.3rem; cursor: pointer;
-  box-shadow: 0 2px 8px rgba(0,0,0,.12);
-  transition: background .15s, color .15s;
-}
-.izz-profile-btn:hover { background: var(--gold); color: #fff; border-color: var(--gold); }
-
-/* panou stats */
-.stats-backdrop {
-  position: fixed; inset: 0; background: rgba(0,0,0,.35); z-index: 200;
-}
-.stats-box {
-  position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);
-  z-index: 201; background: var(--paper-2); border: 1px solid var(--line);
-  border-radius: 8px; width: min(480px, 94vw); max-height: 85vh;
-  overflow-y: auto; box-shadow: 0 8px 32px rgba(0,0,0,.18);
-}
-.stats-header {
-  display: flex; justify-content: space-between; align-items: center;
-  padding: var(--s-21); border-bottom: 1px solid var(--line);
-  position: sticky; top: 0; background: var(--paper-2);
-}
-.stats-title { font-family: var(--font-display); font-size: var(--fs-md); font-weight: 700; }
-.stats-close {
-  background: none; border: none; font-size: 1.1rem; cursor: pointer;
-  color: var(--ink-3); padding: var(--s-5); border-radius: 4px;
-}
-.stats-close:hover { color: var(--ink); background: var(--paper); }
-.stats-body { padding: var(--s-21); display: flex; flex-direction: column; gap: var(--s-21); }
-.stats-row {
-  display: grid; grid-template-columns: repeat(3,1fr); gap: var(--s-8);
-  text-align: center; background: var(--paper); border-radius: 6px; padding: var(--s-13);
-}
-.stats-num { font-family: var(--font-display); font-size: var(--fs-lg); font-weight: 800; color: var(--gold-strong); display: block; }
-.stats-lbl { font-size: var(--fs-xs); color: var(--ink-3); display: block; }
-.stats-section { font-family: var(--font-mono); font-size: var(--fs-eyebrow); text-transform: uppercase; letter-spacing: 1.5px; color: var(--ink-3); margin: 0; }
-.stats-bars { display: flex; flex-direction: column; gap: var(--s-8); }
-.bar-row { display: grid; grid-template-columns: 80px 1fr 36px; align-items: center; gap: var(--s-8); }
-.bar-label { font-size: var(--fs-xs); text-transform: capitalize; }
-.bar-track { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
-.bar-fill { height: 100%; background: var(--gold); border-radius: 3px; transition: width .4s ease; }
-.bar-pct { font-size: var(--fs-xs); color: var(--ink-3); text-align: right; }
-.stats-list { margin: 0; padding-left: var(--s-21); display: flex; flex-direction: column; gap: var(--s-5); font-size: var(--fs-xs); }
-.stats-tags { display: flex; flex-wrap: wrap; gap: var(--s-5); }
-.tag { background: var(--gold-wash); color: var(--gold-strong); font-family: var(--font-mono); font-size: var(--fs-eyebrow); padding: 3px 8px; border-radius: 3px; }
-.stats-reset {
-  margin-top: var(--s-8); padding: var(--s-8) var(--s-13);
-  background: none; border: 1px solid var(--line-strong); border-radius: 4px;
-  color: var(--ink-3); font-size: var(--fs-xs); cursor: pointer; align-self: flex-start;
-}
-.stats-reset:hover { border-color: var(--danger); color: var(--danger); }
-/* Retragerea/reactivarea consimtamantului din panoul ◎: acelasi stil ca resetarea,
-   distinct ca utilizatorul vada ca sunt doua actiuni diferite. */
-.stats-consent {
-  margin-top: var(--s-5); padding: var(--s-8) var(--s-13);
-  background: none; border: 1px solid var(--line-strong); border-radius: 4px;
-  color: var(--ink-3); font-size: var(--fs-xs); cursor: pointer; align-self: flex-start;
-}
-.stats-consent:hover { border-color: var(--gold-strong); color: var(--gold-strong); }
-.stats-hint { font-size: var(--fs-xs); color: var(--ink-3); margin: 0; font-style: italic; }
 
 /* ---------------------------------------------------------- Responsive --- */
 @media (max-width: 1000px) {
@@ -505,10 +455,7 @@ picture { display: contents; }
 [data-theme="dark"] .lead-feature { background: var(--paper-2); }
 [data-theme="dark"] .card-media { background: var(--line); }
 [data-theme="dark"] .site-header,
-[data-theme="dark"] .newsletter,
-[data-theme="dark"] .stats-box,
-[data-theme="dark"] .izz-profile-btn { background: var(--paper-2); }
-[data-theme="dark"] .stats-row { background: var(--paper); }
+[data-theme="dark"] .newsletter { background: var(--paper-2); }
 [data-theme="dark"] .notice { background: var(--gold-wash); }
 /* Arta desenata in pagina se stinge la fel ca o fotografie: pe tema intunecata un card cu
    fond deschis la 100% ar stralui langa unul cu poza deja atenuata. */
@@ -678,41 +625,7 @@ picture { display: contents; }
 
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 
-/* ---- bara de consimtamant personalizare (opt-in ePrivacy) ---- */
-#izz-consent {
-    position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;
-    box-sizing: border-box; max-width: 100vw;
-    background: var(--paper-2); border-top: 2px solid var(--gold);
-    padding: var(--s-13) var(--s-21) calc(var(--s-13) + env(safe-area-inset-bottom, 0px));
-    display: flex; flex-wrap: wrap; gap: var(--s-13); align-items: center; justify-content: center;
-    box-shadow: 0 -2px 8px rgba(21, 23, 28, .06);
-}
-body:has(#izz-consent) { padding-bottom: 5rem; }
-#izz-consent p {
-    margin: 0; font-size: var(--fs-xs); color: var(--ink-2);
-    max-width: var(--measure); flex: 1 1 280px; min-width: 0;
-}
-#izz-consent p a, .topics a, .share a, .follow a, .page-intro a, .summary a { text-decoration: underline; }
-#izz-consent .consent-actions { display: flex; gap: var(--s-8); flex-shrink: 0; }
-#izz-consent button {
-    font-family: var(--font-mono); font-size: var(--fs-xs); font-weight: 700;
-    min-height: 44px; padding: 10px 16px;
-    display: inline-flex; align-items: center; justify-content: center;
-    cursor: pointer; border-radius: 2px; box-sizing: border-box;
-}
-@media (max-width: 640px) {
-    #izz-consent { flex-direction: column; align-items: stretch; }
-    body:has(#izz-consent) { padding-bottom: 13rem; }
-    #izz-consent p { width: 100%; max-width: none; flex: none; }
-    #izz-consent .consent-actions { width: 100%; }
-    #izz-consent button { flex: 1 1 0%; }
-}
-#izz-consent .consent-yes {
-  background: linear-gradient(135deg, #f0d585 0%, #fff3c4 18%, #d9ae3f 45%, #c9a227 70%, #b8862a 100%);
-  color: var(--ink-fixed); border: 1px solid #b8862a;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.4), inset 0 -1px 2px rgba(0,0,0,.12);
-}
-#izz-consent .consent-no { background: transparent; color: var(--ink-2); border: 1px solid var(--line-strong); }
+.topics a, .share a, .follow a, .page-intro a, .summary a { text-decoration: underline; }
 
 /* ---- subiecte (graful cunoasterii v1) ---- */
 .topics { font-size: var(--fs-eyebrow); color: var(--ink-3); font-family: var(--font-mono); margin: var(--s-13) 0 0; }
@@ -1323,6 +1236,15 @@ body:has(#izz-consent) { padding-bottom: 5rem; }
 .briefing-azi ol { margin: 0; padding-left: 1.2rem; }
 .briefing-azi li { margin: var(--s-8) 0; }
 .briefing-azi span { color: var(--ink-3); font-family: var(--font-mono); font-size: var(--fs-eyebrow); }
+/* registrul /sub-prag/: contoare, nu liste — tabel simplu, cifra aliniată la dreapta */
+.sub-prag-tabel { width: 100%; border-collapse: collapse; margin: 0 0 var(--s-21); font-size: var(--fs-xs); }
+.sub-prag-tabel th { text-align: left; font-weight: 400; color: var(--ink-2); padding: var(--s-5) var(--s-8) var(--s-5) 0; border-bottom: 1px solid var(--line-strong); }
+.sub-prag-tabel td { text-align: right; font-family: var(--font-mono); font-weight: 700; padding: var(--s-5) 0; border-bottom: 1px solid var(--line-strong); white-space: nowrap; }
+/* punctul de oprire al listei zilei (E3): lista are un capăt și îl spune, fără îndemn */
+.briefing-azi .azi-end {
+  margin: var(--s-21) 0 0; padding-top: var(--s-13); border-top: 1px solid var(--line-strong);
+  color: var(--ink-2); font-size: var(--fs-xs);
+}
 .judet-pin { display: flex; flex-wrap: wrap; gap: var(--s-8); align-items: center; margin-top: var(--s-13); }
 .judet-pin label { font-family: var(--font-mono); font-size: var(--fs-eyebrow); color: var(--gold-strong); }
 .judet-pin select { font: inherit; color: var(--ink); background: var(--paper); border: 1px solid var(--line-strong); border-radius: 4px; padding: var(--s-5) var(--s-8); }
@@ -1342,7 +1264,7 @@ body:has(#izz-consent) { padding-bottom: 5rem; }
 html[data-text="mare"] { font-size: 112.5%; }
 html[data-text="spatiu"] { --lh-body: 1.85; }
 @media print {
-  .site-header-group, .subnav, #izz-consent, .izz-install, .site-footer, .izz-citire, .progress, .back-to-top { display: none !important; }
+  .site-header-group, .subnav, .izz-install, .site-footer, .izz-citire, .progress, .back-to-top { display: none !important; }
   body { background: #fff; color: #000; }
   a { text-decoration: underline; }
 }

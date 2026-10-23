@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/anm/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ANM pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 15:28:48 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 19:34:17 +0000</lastBuildDate>
+    <item>
+      <title>ANM a publicat prognoza meteo pentru perioada 26 octombrie - 23 noiembrie 2026</title>
+      <link>https://izz.ro/general/anm-a-publicat-prognoza-meteo-pentru-perioada-26-octombrie-23-noiembrie-2026/</link>
+      <guid>https://izz.ro/general/anm-a-publicat-prognoza-meteo-pentru-perioada-26-octombrie-23-noiembrie-2026/</guid>
+      <pubDate>Fri, 23 Oct 2026 17:40:52 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.bzi.ro/cum-va-fi-vremea-in-noiembrie-anm-a-emis-prognoza-meteo-valabila-pana-dupa-jumatatea-lunii-viitoare-5629496">BZI Iași</source>
+      <media:content url="https://izz.ro/general/anm-a-publicat-prognoza-meteo-pentru-perioada-26-octombrie-23-noiembrie-2026/cover.jpg?v=84009e16" medium="image" type="image/jpeg"/>
+      <description>Meteorologii anunță instalarea definitivă a toamnei în România, caracterizată prin temperaturi scăzute, ploi frecvente, ceață densă și un aer tot mai rece în următoarele săptămâni la nivel național.</description>
+    </item>
+    <item>
+      <title>Meteorologii anunță oprirea ploilor și ameliorarea vremii începând de mâine</title>
+      <link>https://izz.ro/general/meteorologii-anunta-oprirea-ploilor-si-ameliorarea-vremii-incepand-de-maine/</link>
+      <guid>https://izz.ro/general/meteorologii-anunta-oprirea-ploilor-si-ameliorarea-vremii-incepand-de-maine/</guid>
+      <pubDate>Fri, 23 Oct 2026 13:18:47 +0000</pubDate>
+      <category>general</category>
+      <source url="https://vremeanoua.ro/cand-se-opresc-ploile-meteorologii-anunta-ce-urmeaza-in-weekend-si-la-inceputul-saptamanii-viitoare/">Vremea Nouă</source>
+      <media:content url="https://izz.ro/general/meteorologii-anunta-oprirea-ploilor-si-ameliorarea-vremii-incepand-de-maine/cover.jpg?v=154b8f3c" medium="image" type="image/jpeg"/>
+      <description>Vremea instabilă cu precipitații în mare parte din țară va continua până la noapte, urmând ca de mâine meteorologii să indice o îmbunătățire generală, cu ploi slabe doar izolate în regiunile sudice.</description>
+    </item>
     <item>
       <title>ANM a emis prognoza meteo pentru weekend, anunțând ploi în mai multe regiuni</title>
       <link>https://izz.ro/general/anm-a-emis-prognoza-meteo-pentru-weekend-anuntand-ploi-in-mai-multe-regiuni/</link>
@@ -13,7 +33,7 @@
       <pubDate>Thu, 22 Oct 2026 19:49:42 +0000</pubDate>
       <category>general</category>
       <source url="https://focuspress.ro/furtunile-pun-stapanire-pe-romania-anm-a-anuntat-prognoza-meteo-pe-tot-weekendul-6dc180c8c/">FocusPress</source>
-      <media:content url="https://izz.ro/general/anm-a-emis-prognoza-meteo-pentru-weekend-anuntand-ploi-in-mai-multe-regiuni/cover.jpg?v=928eef5d" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/general/anm-a-emis-prognoza-meteo-pentru-weekend-anuntand-ploi-in-mai-multe-regiuni/cover.jpg?v=ad5cba38" medium="image" type="image/jpeg"/>
       <description>Meteorologii anunță vreme ploioasă în prima parte a intervalului în mare parte din țară, urmând ca precipitațiile să se restrângă în weekend, iar temperaturile să scadă în jumătatea de est.</description>
     </item>
     <item>
@@ -168,14 +188,5 @@
       <category>politic</category>
       <source url="https://www.antena3.ro/politica/diana-buzoianu-cere-iar-demisia-sefei-anm-elena-mateescu-si-spune-ca-se-va-consulta-cu-juristii-daca-o-poate-schimba-din-functie-806783.html">Antena 3 CNN</source>
       <description>Ministra Mediului, Diana Buzoianu, a anunțat că va consulta juriștii pentru a stabili dacă o poate schimba din funcție pe directoarea Administrației Naționale de Meteorologie, Elena Mateescu.</description>
-    </item>
-    <item>
-      <title>ANM a emis avertizări cod portocaliu de vijelii și grindină pentru mai multe județe</title>
-      <link>https://izz.ro/general/anm-a-emis-avertizari-cod-portocaliu-de-vijelii-si-grindina-pentru-mai-multe/</link>
-      <guid>https://izz.ro/general/anm-a-emis-avertizari-cod-portocaliu-de-vijelii-si-grindina-pentru-mai-multe/</guid>
-      <pubDate>Sun, 11 Oct 2026 17:24:00 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.antena3.ro/meteo/anm-a-emis-un-cod-portocaliu-de-vijelii-grindina-si-ploi-torentiale-in-3-judete-din-tara-harta-localitatilor-afectate-806725.html">Antena 3 CNN, Observator</source>
-      <description>Meteorologii au emis avertizări de cod portocaliu pentru fenomene meteo severe, incluzând ploi torențiale, grindină și vijelii cu rafale de până la 70 km/h. Avertizările vizează mai multe localități din județe precum Alba, Mureș, Sibiu, Suceava și Harghita.</description>
     </item>
 </channel></rss>

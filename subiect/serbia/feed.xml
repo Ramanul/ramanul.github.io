@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/serbia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Serbia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 15:28:48 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 19:34:17 +0000</lastBuildDate>
+    <item>
+      <title>Serbia se pregătește pentru alegeri parlamentare tensionate</title>
+      <link>https://izz.ro/extern/serbia-se-pregateste-pentru-alegeri-parlamentare-tensionate/</link>
+      <guid>https://izz.ro/extern/serbia-se-pregateste-pentru-alegeri-parlamentare-tensionate/</guid>
+      <pubDate>Fri, 23 Oct 2026 11:43:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.dw.com/en/serbia-hope-tension-and-apprehension-as-voters-prepare-to-elect-new-parliament/a-79738102?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
+      <media:content url="https://izz.ro/extern/serbia-se-pregateste-pentru-alegeri-parlamentare-tensionate/cover.jpg?v=189a7111" medium="image" type="image/jpeg"/>
+      <description>După doi ani de proteste anti-guvernamentale, alegătorii sârbi participă la un scrutin crucial marcat de contestarea regimului condus de Aleksandar Vucic și de temeri privind eventuale crize post-electorale.</description>
+    </item>
     <item>
       <title>Peste 100.000 de protestatari au participat la un miting în Belgrad înainte de alegeri</title>
       <link>https://izz.ro/general/peste-100-000-de-protestatari-au-participat-la-un-miting-in-belgrad-inainte-de/</link>
@@ -43,7 +53,7 @@
       <pubDate>Thu, 22 Oct 2026 19:40:55 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.g4media.ro/vucic-daca-vom-castiga-alegerile-din-serbia-nu-vom-permite-ambasadelor-straine-sa-ne-confiste-victoria.html">G4Media</source>
-      <media:content url="https://izz.ro/politic/aleksandar-vucic-avertizeaza-impotriva-ingerintelor-externe-in-alegerile-din/cover.jpg?v=aa9c29d3" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/politic/aleksandar-vucic-avertizeaza-impotriva-ingerintelor-externe-in-alegerile-din/cover.jpg?v=ad451d20" medium="image" type="image/jpeg"/>
       <description>Fostul președinte sârb Aleksandar Vučić a declarat că formațiunea sa va recunoaște o eventuală înfrângere, dar nu va accepta ca ambasadele străine să influențeze sau să confişte o eventuală victorie electorală.</description>
     </item>
     <item>
@@ -53,7 +63,6 @@
       <pubDate>Thu, 22 Oct 2026 14:33:06 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/cmq8n3v94ql3o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <media:content url="https://izz.ro/extern/protestele-studentesti-din-serbia-pun-sub-semnul-intrebarii-puterea-partidului/cover.jpg?v=6110375e" medium="image" type="image/jpeg"/>
       <description>După doi ani de manifestații conduse de studenți, cetățenii din Serbia participă la urne în cadrul unor alegeri decisive care ar putea pune capăt celor doisprezece ani de guvernare a regimului Vučić.</description>
     </item>
     <item>
@@ -118,14 +127,5 @@
       <category>cultura</category>
       <source url="https://www.scena9.ro/article/festival-gherila-teatru-serbia">Scena 9</source>
       <description>Cea de-a doua ediție a evenimentului alternativ din Serbia a reunit regizori și artiști cunoscuți pe plan internațional, precum Milo Rau, Thomas Ostermeier și trupa Pussy Riot.</description>
-    </item>
-    <item>
-      <title>Festivalul „Ceaunul Chișozean” a reunit zeci de echipe de bucătari</title>
-      <link>https://izz.ro/general/festivalul-ceaunul-chisozean-a-reunit-zeci-de-echipe-de-bucatari/</link>
-      <guid>https://izz.ro/general/festivalul-ceaunul-chisozean-a-reunit-zeci-de-echipe-de-bucatari/</guid>
-      <pubDate>Sun, 11 Oct 2026 16:34:07 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.ziuadevest.ro/peste-27-de-echipe-s-au-intrecut-la-ceaunul-chisozean-gastronomie-muzica-si-voie-buna-la-chisoda/">Ziua de Vest</source>
-      <description>Localitatea Chișoda a găzduit a șaptea ediție a evenimentului gastronomic și folcloric, la care au participat concurenți din țară și din Serbia, în ciuda ploii.</description>
     </item>
 </channel></rss>
