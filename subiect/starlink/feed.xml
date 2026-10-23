@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 05:09:05 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 10:23:07 +0000</lastBuildDate>
+    <item>
+      <title>Ucraina dezvoltă o rețea de sateliți alături de companii finlandeze</title>
+      <link>https://izz.ro/extern/ucraina-dezvolta-o-retea-de-sateliti-alaturi-de-companii-finlandeze/</link>
+      <guid>https://izz.ro/extern/ucraina-dezvolta-o-retea-de-sateliti-alaturi-de-companii-finlandeze/</guid>
+      <pubDate>Fri, 23 Oct 2026 09:43:05 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/ucraina-vrea-sa-si-construiasca-propria-retea-de-sateliti-de-comunicatii-cu-ajutorul-companiilor-finlandeze-iceye-si-nokia.html">G4Media</source>
+      <media:content url="https://izz.ro/extern/ucraina-dezvolta-o-retea-de-sateliti-alaturi-de-companii-finlandeze/cover.jpg?v=03517724" medium="image" type="image/jpeg"/>
+      <description>Ministerul Apărării de la Kiev a semnat un acord cu firmele Nokia și ICEYE pentru crearea unui sistem propriu de comunicații prin satelit. Demersul vine ca urmare a problemelor tehnice și a vulnerabilităților întâmpinate în utilizarea serviciului Starlink.</description>
+    </item>
+    <item>
+      <title>Limitările de viteză Starlink rămân active în Ucraina</title>
+      <link>https://izz.ro/extern/limitarile-de-viteza-starlink-raman-active-in-ucraina/</link>
+      <guid>https://izz.ro/extern/limitarile-de-viteza-starlink-raman-active-in-ucraina/</guid>
+      <pubDate>Fri, 23 Oct 2026 08:09:47 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/starlink-still-restricted-for-ukraine-donald-trump-elon-musk-lifted-speed-limits/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/limitarile-de-viteza-starlink-raman-active-in-ucraina/cover.jpg?v=dfb147ff" medium="image" type="image/jpeg"/>
+      <description>Oficialii ucraineni confirmă că restricțiile de viteză ale rețelei Starshield persistă, în ciuda afirmațiilor făcute de președintele american Donald Trump privind eliminarea lor de către Elon Musk.</description>
+    </item>
     <item>
       <title>Operatori europeni de telecomunicații dezvoltă o alternativă la rețeaua Starlink</title>
       <link>https://izz.ro/tech/operatori-europeni-de-telecomunicatii-dezvolta-o-alternativa-la-reteaua-starlink/</link>
@@ -32,15 +52,6 @@
       <category>extern</category>
       <source url="https://www.dw.com/en/bulgaria-seeks-suspects-in-germany-after-starlink-sabotage/a-79706745?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
       <description>Autoritățile bulgare îi caută pe doi tineri germani suspectați că au incendiat echipamente Starlink, un caz similar celui din Polonia pus pe seama Rusiei.</description>
-    </item>
-    <item>
-      <title>Ucraina acuză accesul limitat la Starlink, afectând interceptarea dronelor rusești</title>
-      <link>https://izz.ro/extern/ucraina-acuza-accesul-limitat-la-starlink-afectand-interceptarea-dronelor/</link>
-      <guid>https://izz.ro/extern/ucraina-acuza-accesul-limitat-la-starlink-afectand-interceptarea-dronelor/</guid>
-      <pubDate>Mon, 19 Oct 2026 15:44:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/externe/armata-ucraineana-are-acces-limitat-la-reteaua-starlink-zelenski-ne-limiteaza-utilizarea-mai-multor-tipuri-de-drone-807792.html">Antena 3 CNN</source>
-      <description>Președintele Volodimir Zelenski a anunțat că rețeaua de sateliți Starlink are o conectivitate restrânsă în mai multe zone ale frontului, ceea ce îngreunează semnificativ combaterea atacurilor aeriene inamice cu drone.</description>
     </item>
     <item>
       <title>SUA avertizează Europa privind sancționarea serviciilor de tip Starlink</title>

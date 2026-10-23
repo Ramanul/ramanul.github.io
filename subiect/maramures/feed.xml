@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/maramures/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Maramureș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 05:09:04 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 10:23:07 +0000</lastBuildDate>
+    <item>
+      <title>Transport ilegal de purcei oprit de DSVSA și Poliție la Dărmănești</title>
+      <link>https://izz.ro/local/transport-ilegal-de-purcei-oprit-de-dsvsa-si-politie-la-darmanesti/</link>
+      <guid>https://izz.ro/local/transport-ilegal-de-purcei-oprit-de-dsvsa-si-politie-la-darmanesti/</guid>
+      <pubDate>Fri, 23 Oct 2026 08:16:07 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.newsbucovina.ro/actualitate/453123/transport-de-purcei-oprit-la-darmanesti-dsvsa-verifica-neconcordantele-dintre-acte-si-animale">NewsBucovina</source>
+      <media:content url="https://izz.ro/local/transport-ilegal-de-purcei-oprit-de-dsvsa-si-politie-la-darmanesti/cover.jpg?v=3b16a261" medium="image" type="image/jpeg"/>
+      <description>Un camion înmatriculat în Maramureș, suspectat că transporta animale pentru a le vinde unor negustori ambulanți, a fost interceptat în localitatea suceveană Dărmănești. Autoritățile sanitar-veterinare și polițiștii au intervenit în urma unui apel la numărul de urgență pentru a verifica...</description>
+    </item>
     <item>
       <title>Volumul Maramureș Brand documentează patrimoniul și tradițiile regiunii</title>
       <link>https://izz.ro/judetean/volumul-maramures-brand-documenteaza-patrimoniul-si-traditiile-regiunii/</link>
@@ -387,14 +397,5 @@
       <category>judetean</category>
       <source url="https://www.emaramures.ro/182-de-candidati-vor-sa-conduca-scolile-din-maramures-marti-incepe-concursul-pentru-directori/">eMaramureș</source>
       <description>Inspectoratul Școlar Județean Maramureș organizează prima probă scrisă pentru ocuparea funcțiilor de conducere din învățământul preuniversitar, examen la care s-au înscris 182 de candidați.</description>
-    </item>
-    <item>
-      <title>Meteorologii anunță răcire accentuată, ploi și lapoviță la munte</title>
-      <link>https://izz.ro/general/meteorologii-anunta-racire-accentuata-ploi-si-lapovita-la-munte/</link>
-      <guid>https://izz.ro/general/meteorologii-anunta-racire-accentuata-ploi-si-lapovita-la-munte/</guid>
-      <pubDate>Mon, 12 Oct 2026 07:25:57 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.emaramures.ro/vremea-se-raceste-in-maramures-anm-anunta-ploi-si-lapovita-la-munte/">eMaramureș</source>
-      <description>Administrația Națională de Meteorologie a emis o informare valabilă pentru jumătatea a doua a lunii octombrie, semnalând precipitații mixte la altitudini mari și intensificări ale vântului.</description>
     </item>
 </channel></rss>

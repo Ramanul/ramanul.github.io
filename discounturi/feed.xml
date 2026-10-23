@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/discounturi/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Discounturi pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 05:09:13 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 10:23:19 +0000</lastBuildDate>
+    <item>
+      <title>Lidl organizează un nou weekend cu reduceri la produse alimentare</title>
+      <link>https://izz.ro/discounturi/lidl-organizeaza-un-nou-weekend-cu-reduceri-la-produse-alimentare/</link>
+      <guid>https://izz.ro/discounturi/lidl-organizeaza-un-nou-weekend-cu-reduceri-la-produse-alimentare/</guid>
+      <pubDate>Fri, 23 Oct 2026 10:02:24 +0000</pubDate>
+      <category>discounturi</category>
+      <source url="https://www.gsp.ro/comercial/advertorial/inca-un-super-weekend-cu-oferte-si-preturi-imbatabile-la-lidl-991312.html">GSP</source>
+      <media:content url="https://izz.ro/discounturi/lidl-organizeaza-un-nou-weekend-cu-reduceri-la-produse-alimentare/cover.jpg?v=80548157" medium="image" type="image/jpeg"/>
+      <description>Retailerul pune la dispoziția clienților oferte speciale valabile în zilele de 24 și 25 octombrie pentru diverse produse de larg consum.</description>
+    </item>
     <item>
       <title>Black Friday: Plata în rate nu reduce costul final</title>
       <link>https://izz.ro/discounturi/black-friday-plata-in-rate-nu-reduce-costul-final/</link>
@@ -189,14 +199,5 @@
       <category>discounturi</category>
       <source url="https://www.csid.ro/stiri/black-friday-si-cumparaturile-impulsive-cum-ne-influenteaza-reducerile-deciziile-21330744/">CSÎD</source>
       <description>Campaniile promoționale de Black Friday exploatează urgența și ofertele limitate de stoc, determinând consumatorii să ia decizii rapide de achiziție și să cumpere impulsiv.</description>
-    </item>
-    <item>
-      <title>Hotel din Cogne oferă combustibil sau încărcare electrică gratuită</title>
-      <link>https://izz.ro/discounturi/hotel-din-cogne-ofera-combustibil-sau-incarcare-electrica-gratuita/</link>
-      <guid>https://izz.ro/discounturi/hotel-din-cogne-ofera-combustibil-sau-incarcare-electrica-gratuita/</guid>
-      <pubDate>Sun, 11 Oct 2026 05:31:43 +0000</pubDate>
-      <category>discounturi</category>
-      <source url="https://stirileprotv.ro/stiri/international/un-hotel-din-italia-le-a-oferit-turistilor-un-plin-gratuit-de-combustibil-care-a-fost-conditia-pentru-a-beneficia-de-oferta.html">Știrile ProTV</source>
-      <description>Un hotel din localitatea italiană Cogne atrage turiștii oferindu-le un plin gratuit de carburant sau reîncărcarea mașinii electrice pentru a le face șederea mai plăcută.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/tesla/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Tesla pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 05:09:04 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 10:23:07 +0000</lastBuildDate>
+    <item>
+      <title>Tesla amână pentru 2027 livrările primilor roboți umanoizi Optimus</title>
+      <link>https://izz.ro/ai/tesla-amana-pentru-2027-livrarile-primilor-roboti-umanoizi-optimus/</link>
+      <guid>https://izz.ro/ai/tesla-amana-pentru-2027-livrarile-primilor-roboti-umanoizi-optimus/</guid>
+      <pubDate>Fri, 23 Oct 2026 07:35:21 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/10/23/robotul-optimus-de-la-tesla-este-amanat-pentru-2027/">Connect.ro</source>
+      <media:content url="https://izz.ro/ai/tesla-amana-pentru-2027-livrarile-primilor-roboti-umanoizi-optimus/cover.jpg?v=6ee54163" medium="image" type="image/jpeg"/>
+      <description>Directorul general Elon Musk a anunțat că livrarea roboților Optimus către clienții externi va începe abia la sfârșitul anului 2027, fiind necesare perfecționări suplimentare la nivelul sistemului AI și al articulațiilor.</description>
+    </item>
     <item>
       <title>Tesla raportează o scădere a veniturilor auto în trimestrul al treilea</title>
       <link>https://izz.ro/auto/tesla-raporteaza-o-scadere-a-veniturilor-auto-in-trimestrul-al-treilea/</link>
@@ -163,14 +173,5 @@
       <category>local</category>
       <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/foto-tesla-a-deschis-doua-noi-superchargere-in-romania-unul-in-bucuresti-al-doilea-in-tara-22816905?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Rețeaua de încărcare rapidă Tesla a ajuns la 18 locații în România, după ce compania auto a deschis două noi stații de mare putere în Capitală și în zona Moldovei.</description>
-    </item>
-    <item>
-      <title>Producătorii chinezi BYD și Chery domină vânzările auto în România</title>
-      <link>https://izz.ro/auto/producatorii-chinezi-byd-si-chery-domina-vanzarile-auto-in-romania/</link>
-      <guid>https://izz.ro/auto/producatorii-chinezi-byd-si-chery-domina-vanzarile-auto-in-romania/</guid>
-      <pubDate>Sun, 11 Oct 2026 08:44:47 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://cursdeguvernare.ro/ofensiva-auto-chineza-in-romania-byd-si-chery-strang-cat-vanzarile-dacia-de-full-hibride-adica-4-000-de-plug-in-hybrid-byd-depaseste-tesla-la-electrice.html">Curs de Guvernare</source>
-      <description>Constructorul BYD a devenit liderul pieței de mașini 100% electrice în România după primele nouă luni, devansând Tesla, în timp ce mărcile chineze au cumulat circa 4.000 de înmatriculări pentru modelele plug-in hybrid.</description>
     </item>
 </channel></rss>

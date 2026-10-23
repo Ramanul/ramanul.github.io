@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/volodimir-zelenski/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Volodimir Zelenski pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 05:09:04 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 10:23:07 +0000</lastBuildDate>
     <item>
       <title>Zelenski îi cere lui Trump să nu ridice sancțiunile impuse Rusiei</title>
       <link>https://izz.ro/extern/zelenski-ii-cere-lui-trump-sa-nu-ridice-sanctiunile-impuse-rusiei/</link>
@@ -63,7 +63,6 @@
       <pubDate>Thu, 22 Oct 2026 04:00:38 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/de-ce-a-ripostat-zelenski-la-ultimele-atacuri-ale-lui-trump-expert-ucrainean-in-securitate-ne-indeamna-in-mod-deschis-sa-capitulam-4002181">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/zelenski-riposteaza-la-presiunile-lui-trump-privind-conflictul-din-ucraina/cover.jpg?v=cf5f7aba" medium="image" type="image/jpeg"/>
       <description>Conducerea de la Kiev a schimbat strategia în fața declarațiilor liderului american Donald Trump, care minimizează agresiunea rusă și împiedică riposta ucraineană. Oficialii ucraineni acuză SUA că cer practic capitularea țării.</description>
     </item>
     <item>
@@ -73,7 +72,6 @@
       <pubDate>Thu, 22 Oct 2026 03:49:32 +0000</pubDate>
       <category>extern</category>
       <source url="https://jurnalulolteniei.ro/nicusor-dan-rusia-nu-doreste-negocieri-de-pace-cu-ucraina/">Jurnalul Olteniei, Economica</source>
-      <media:content url="https://izz.ro/extern/negocieri-trilaterale-privind-ucraina-pregatite-pentru-noiembrie-in-timp-ce-pe/cover.jpg?v=55c03d55" medium="image" type="image/jpeg"/>
       <description>Reprezentanții Rusiei, Statelor Unite și Ucrainei se pregătesc pentru reluarea negocierilor trilaterale în jurul datei de 10 noiembrie. În timp ce Moscova și Kievul își mențin poziții divergente privind o eventuală încetare a focului sau retragere teritorială, discuțiile diplomatice se desfășoară paralel cu livrări de motorină rusească spre SUA, eliberarea unui cetățean american și continuarea atacurilor asupra infrastructurii energetice din Ucraina. Președintele Nicușor Dan a declarat că Rusia nu este pregătită pentru pace.</description>
     </item>
     <item>
@@ -237,15 +235,6 @@
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/cmj47yx572z5o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
       <description>Serhii Beskrestnov susține că ucrainenii mor din cauza limitării datelor de intelligence oferite de SUA, fapt care întârzie avertizările privind atacurile rusești cu rachete, deși Casa Albă neagă schimbările.</description>
-    </item>
-    <item>
-      <title>Ucraina acuză accesul limitat la Starlink, afectând interceptarea dronelor rusești</title>
-      <link>https://izz.ro/extern/ucraina-acuza-accesul-limitat-la-starlink-afectand-interceptarea-dronelor/</link>
-      <guid>https://izz.ro/extern/ucraina-acuza-accesul-limitat-la-starlink-afectand-interceptarea-dronelor/</guid>
-      <pubDate>Mon, 19 Oct 2026 15:44:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/externe/armata-ucraineana-are-acces-limitat-la-reteaua-starlink-zelenski-ne-limiteaza-utilizarea-mai-multor-tipuri-de-drone-807792.html">Antena 3 CNN</source>
-      <description>Președintele Volodimir Zelenski a anunțat că rețeaua de sateliți Starlink are o conectivitate restrânsă în mai multe zone ale frontului, ceea ce îngreunează semnificativ combaterea atacurilor aeriene inamice cu drone.</description>
     </item>
     <item>
       <title>Zelenski îl critică pe Trump, în timp ce Putin propune un summit tripartit</title>
@@ -462,5 +451,14 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/cnn-ucraina-a-ramas-fara-rachete-patriot-chiar-in-momentul-in-care-zelenski-se-cearta-cu-trump-807415.html">Antena 3 CNN</source>
       <description>Autoritățile de la Kiev au epuizat stocurile de rachete interceptoare pentru sistemele de apărare antiaeriană Patriot, devenind astfel extrem de vulnerabile în fața atacurilor balistice rusești.</description>
+    </item>
+    <item>
+      <title>Rusia acuză Ucraina de un atac cu dronă asupra unei rafinării din Riazan</title>
+      <link>https://izz.ro/extern/rusia-acuza-ucraina-de-un-atac-cu-drona-asupra-unei-rafinarii-din-riazan/</link>
+      <guid>https://izz.ro/extern/rusia-acuza-ucraina-de-un-atac-cu-drona-asupra-unei-rafinarii-din-riazan/</guid>
+      <pubDate>Thu, 15 Oct 2026 18:02:06 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/rusia/rusia-acuza-ucraina-de-un-atac-masiv-asupra-unei-rafinarii-dupa-ce-zelenski-a-anuntat-reluarea-loviturilor-am-incheiat-o-cu-asta-3994419">Digi24 Extern</source>
+      <description>Moscova a incriminat Kievul pentru un bombardament masiv asupra infrastructurii energetice rusești. Incidentul a survenit imediat după ce președintele ucrainean a anunțat reluarea ofensivei împotriva obiectivelor petroliere.</description>
     </item>
 </channel></rss>

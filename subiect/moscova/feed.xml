@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/moscova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Moscova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 05:09:04 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 10:23:07 +0000</lastBuildDate>
     <item>
       <title>Comemorarea ostaticilor de la teatrul Dubrovka din Moscova</title>
       <link>https://izz.ro/extern/comemorarea-ostaticilor-de-la-teatrul-dubrovka-din-moscova/</link>
@@ -43,7 +43,6 @@
       <pubDate>Thu, 22 Oct 2026 04:26:19 +0000</pubDate>
       <category>extern</category>
       <source url="https://hotnews.ro/moscova-drone-kiev-rachete-rusia-ucraina-bombardamente-2383004">HotNews</source>
-      <media:content url="https://izz.ro/extern/atacuri-reciproce-cu-rachete-si-drone-intre-rusia-si-ucraina/cover.jpg?v=c556021f" medium="image" type="image/jpeg"/>
       <description>Rusia a bombardat Kievul, în timp ce Ucraina a lansat sute de drone spre Moscova, în pline eforturi diplomatice ale Statelor Unite pentru medierea conflictului armat.</description>
     </item>
     <item>
@@ -53,7 +52,6 @@
       <pubDate>Thu, 22 Oct 2026 04:15:13 +0000</pubDate>
       <category>extern</category>
       <source url="https://stirileprotv.ro/stiri/international/un-lider-ue-sustinator-al-lui-putin-sfideaza-bruxelles-ul-si-anunta-reluarea-unui-parteneriat-cu-rusia.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/extern/slovacia-reia-parteneriatul-energetic-cu-rusia-si-sfideaza-pozitia-uniunii/cover.jpg?v=75e4a938" medium="image" type="image/jpeg"/>
       <description>Guvernul slovac ignoră linia politică a aliaților occidentali și va purta discuții la Moscova privind reluarea importurilor de energie din Rusia, relansând o cooperare oprită după declanșarea războiului.</description>
     </item>
     <item>
@@ -280,23 +278,5 @@
       <category>extern</category>
       <source url="https://observatornews.ro/extern/ft-planurile-moscovei-de-ai-asasina-pe-directorii-marilor-companii-europene-de-armament-668719.html">Observator</source>
       <description>Conform unor avertismente occidentale obținute de presă, agenții spionajului rus au vizat conducătorii marilor companii de armament din Europa. În urma acestor amenințări directe, firmele au decis creșterea măsurilor de securitate.</description>
-    </item>
-    <item>
-      <title>Controverse privind statutul voluntarilor ucraineni în armata rusă</title>
-      <link>https://izz.ro/extern/controverse-privind-statutul-voluntarilor-ucraineni-in-armata-rusa/</link>
-      <guid>https://izz.ro/extern/controverse-privind-statutul-voluntarilor-ucraineni-in-armata-rusa/</guid>
-      <pubDate>Sun, 11 Oct 2026 06:38:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.dw.com/en/who-are-the-ukrainian-volunteers-under-russian-command/a-79629555?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <description>Rusia a anunțat formarea unui batalion format din voluntari ucraineni, însă relatările veteranilor și foștilor prizonieri de război contrazic versiunea oficială prezentată de autoritățile de la Moscova.</description>
-    </item>
-    <item>
-      <title>Centrul de date Yandex din regiunea Vladimir a fost oprit după un atac cu drone</title>
-      <link>https://izz.ro/tech/centrul-de-date-yandex-din-regiunea-vladimir-a-fost-oprit-dupa-un-atac-cu-drone/</link>
-      <guid>https://izz.ro/tech/centrul-de-date-yandex-din-regiunea-vladimir-a-fost-oprit-dupa-un-atac-cu-drone/</guid>
-      <pubDate>Sun, 11 Oct 2026 05:26:36 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.zf.ro/business-international/val-de-atacuri-cu-drone-asupra-google-ului-rusesc-yandex-pierde-al-treilea-centru-de-date-23257336">Ziarul Financiar</source>
-      <description>Gigantul tehnologic rus a suferit întreruperi majore ale serviciilor sale digitale în Rusia și statele vecine, după ce o dronă a lovit și a scos din funcțiune al treilea său hub de stocare.</description>
     </item>
 </channel></rss>
