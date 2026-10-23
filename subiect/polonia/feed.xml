@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/polonia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Polonia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 19:34:17 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 23:27:51 +0000</lastBuildDate>
     <item>
       <title>Compania Greenvolt vinde două proiecte de stocare a energiei</title>
       <link>https://izz.ro/economic/compania-greenvolt-vinde-doua-proiecte-de-stocare-a-energiei/</link>
@@ -47,13 +47,22 @@
       <description>Polonia și România se confruntă cu incursiuni de drone rusești pe teritoriul NATO, însă Ministerul Apărării de la București refuză să discute despre riscurile noilor reguli de intervenție adoptate deja de autoritățile poloneze.</description>
     </item>
     <item>
+      <title>Viața și moartea tragică a pictorului polonez Zdzisław Beksiński</title>
+      <link>https://izz.ro/cultura/viata-si-moartea-tragica-a-pictorului-polonez-zdzislaw-beksinski/</link>
+      <guid>https://izz.ro/cultura/viata-si-moartea-tragica-a-pictorului-polonez-zdzislaw-beksinski/</guid>
+      <pubDate>Thu, 22 Oct 2026 21:30:47 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://www.criticarad.ro/zdzislaw-beksinski-pictor-cosmaruri/">Critic Arad</source>
+      <media:content url="https://izz.ro/cultura/viata-si-moartea-tragica-a-pictorului-polonez-zdzislaw-beksinski/cover.jpg?v=e3519daa" medium="image" type="image/jpeg"/>
+      <description>Cunoscut drept artistul coșmarurilor și al peisajelor apocaliptice, pictorul polonez Zdzisław Beksiński a fost ucis în 2005, iar operele sale ajung în prezent la sume record pe piața de artă.</description>
+    </item>
+    <item>
       <title>Femeile din Polonia au protestat față de întârzierea reformelor privind avortul</title>
       <link>https://izz.ro/extern/femeile-din-polonia-au-protestat-fata-de-intarzierea-reformelor-privind-avortul/</link>
       <guid>https://izz.ro/extern/femeile-din-polonia-au-protestat-fata-de-intarzierea-reformelor-privind-avortul/</guid>
       <pubDate>Thu, 22 Oct 2026 18:43:05 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/proteste-pentru-dreptul-la-avort-in-polonia-femeile-acuza-guvernul-tusk-ca-nu-si-a-respectat-promisiunile-4004951">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/femeile-din-polonia-au-protestat-fata-de-intarzierea-reformelor-privind-avortul/cover.jpg?v=727ef637" medium="image" type="image/jpeg"/>
       <description>Mii de poloneze au ieșit în stradă în peste 20 de orașe pentru a cere liberalizarea legislației privind întreruperea de sarcină și pentru a acuza guvernul condus de Donald Tusk de nerespectarea promisiunilor electorale.</description>
     </item>
     <item>
@@ -343,14 +352,5 @@
       <category>sport</category>
       <source url="https://newsbv.ro/olimpic-cetate-rasnov-turneu-lupte-polonia-2026/">News Brașov</source>
       <description>Mihai Terciu și Ștefan Bălău s-au clasat în topul internațional la turneul de lupte din Kraśnickiej, concurând cu succes alături de sute de sportivi prezenți la competiția din Polonia.</description>
-    </item>
-    <item>
-      <title>Candidatul independent Łukasz Gibała a câştigat alegerile la Cracovia</title>
-      <link>https://izz.ro/extern/candidatul-independent-lukasz-gibala-a-castigat-alegerile-la-cracovia/</link>
-      <guid>https://izz.ro/extern/candidatul-independent-lukasz-gibala-a-castigat-alegerile-la-cracovia/</guid>
-      <pubDate>Sun, 11 Oct 2026 20:32:22 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/lukasz-gibala-wins-krakow-mayoral-runoff-donald-tusk-setback/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Łukasz Gibała l-a învins în turul al doilea pe candidatul susținut de premierul Donald Tusk, obținând o victorie importantă pentru opoziție în al doilea oraș ca mărime din Polonia.</description>
     </item>
 </channel></rss>

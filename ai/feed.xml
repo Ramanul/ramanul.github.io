@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 19:34:28 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 23:27:59 +0000</lastBuildDate>
+    <item>
+      <title>Gimnastică arbitrată de inteligență artificială la Jocurile Olimpice din 2028</title>
+      <link>https://izz.ro/ai/gimnastica-arbitrata-de-inteligenta-artificiala-la-jocurile-olimpice-din-2028/</link>
+      <guid>https://izz.ro/ai/gimnastica-arbitrata-de-inteligenta-artificiala-la-jocurile-olimpice-din-2028/</guid>
+      <pubDate>Fri, 23 Oct 2026 20:14:25 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://as.ro/alte-sporturi/gimnastica/scandalul-ana-maria-barbosu-de-la-jocurile-olimpice-schimba-gimnastica-pentru-totdeauna-inteligenta-artificiala-preia-controlul-700598.html">Antena Sport</source>
+      <media:content url="https://izz.ro/ai/gimnastica-arbitrata-de-inteligenta-artificiala-la-jocurile-olimpice-din-2028/cover.jpg?v=35d0fa8a" medium="image" type="image/jpeg"/>
+      <description>Federația Internațională de Gimnastică negociază implementarea unui sistem de jurizare bazat pe inteligență artificială pentru ediția din 2028 a Olimpiadei de la Los Angeles, urmare a scandalului legat de nota gimnastei Ana Maria Bărbosu.</description>
+    </item>
     <item>
       <title>O autoare din Africa de Sud a publicat aproape 400 de cărți generate cu inteligență artificială</title>
       <link>https://izz.ro/ai/o-autoare-din-africa-de-sud-a-publicat-aproape-400-de-carti-generate-cu/</link>
@@ -47,16 +57,6 @@
       <description>Reprezentanții Jandarmeriei au clarificat că fotografiile și înregistrările video în care falși jandarmi apar îngenuncheați în fața protestatarilor din Capitală reprezintă falsuri create cu inteligență artificială.</description>
     </item>
     <item>
-      <title>Jandarmeria Română avertizează asupra unor imagini false generate cu inteligență artificială</title>
-      <link>https://izz.ro/ai/jandarmeria-romana-avertizeaza-asupra-unor-imagini-false-generate-cu/</link>
-      <guid>https://izz.ro/ai/jandarmeria-romana-avertizeaza-asupra-unor-imagini-false-generate-cu/</guid>
-      <pubDate>Fri, 23 Oct 2026 14:06:20 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://stirileprotv.ro/stiri/actualitate/imagini-false-cu-jandarmi-care-ar-fi-cedat-in-fata-protestatarilor-distribuite-pe-tiktok-reactia-oficiala-a-jandarmeriei-romane.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/ai/jandarmeria-romana-avertizeaza-asupra-unor-imagini-false-generate-cu/cover.jpg?v=5880bc1c" medium="image" type="image/jpeg"/>
-      <description>Instituția trage un semnal de alarmă privind clipurile distribuite pe TikTok care înfățișează în mod fals jandarmi îngenuncheați în fața protestatarilor, menite să dezinformeze publicul.</description>
-    </item>
-    <item>
       <title>Băncile americane semnalează accesări neautorizate ale conturilor efectuate de agenți AI</title>
       <link>https://izz.ro/ai/bancile-americane-semnaleaza-accesari-neautorizate-ale-conturilor-efectuate-de/</link>
       <guid>https://izz.ro/ai/bancile-americane-semnaleaza-accesari-neautorizate-ale-conturilor-efectuate-de/</guid>
@@ -65,6 +65,16 @@
       <source url="https://cursdeguvernare.ro/marile-banci-americane-au-detectat-agenti-ai-neautorizati-care-au-incercat-sa-intre-in-conturile-clientilor-ritmul-progreselor-in-ai-devine-o-problema-de-securitate.html">Curs de Guvernare</source>
       <media:content url="https://izz.ro/ai/bancile-americane-semnaleaza-accesari-neautorizate-ale-conturilor-efectuate-de/cover.jpg?v=81967a3a" medium="image" type="image/jpeg"/>
       <description>Instituțiile financiare din Statele Unite se confruntă cu probleme majore de securitate informatică, după ce programe bazate pe inteligență artificială au încercat să pătrundă autonom în conturile clienților.</description>
+    </item>
+    <item>
+      <title>Bănci americane atacate de agenți AI neautorizați care golesc conturi</title>
+      <link>https://izz.ro/ai/banci-americane-atacate-de-agenti-ai-neautorizati-care-golesc-conturi/</link>
+      <guid>https://izz.ro/ai/banci-americane-atacate-de-agenti-ai-neautorizati-care-golesc-conturi/</guid>
+      <pubDate>Fri, 23 Oct 2026 09:02:12 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/conturile-bancare-agenti-ai/">ZonaIT</source>
+      <media:content url="https://izz.ro/ai/banci-americane-atacate-de-agenti-ai-neautorizati-care-golesc-conturi/cover.jpg?v=a3b7b3ed" medium="image" type="image/jpeg"/>
+      <description>Mai multe instituții bancare din Statele Unite luptă contracronometru pentru a bloca programe de tip chatbot care au preluat controlul și au sustras fonduri din conturile clienților.</description>
     </item>
     <item>
       <title>Tesla amână pentru 2027 livrările primilor roboți umanoizi Optimus</title>
@@ -83,7 +93,6 @@
       <pubDate>Thu, 22 Oct 2026 19:00:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.profit.ro/romania-conectata/agentul-ai-muse-trece-de-10-milioane-de-utilizatori-22869663?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/ai/agentul-ai-muse-de-la-meta-a-depasit-zece-milioane-de-utilizatori/cover.jpg?v=f407f290" medium="image" type="image/jpeg"/>
       <description>Reprezentanții companiei Meta au divulgat, în cadrul celei mai recente conferințe financiare adresate investitorilor, că asistentul virtual bazat pe inteligență artificială Muse a ajuns la un număr record de fani.</description>
     </item>
     <item>
@@ -292,15 +301,6 @@
       <category>ai</category>
       <source url="https://economedia.ro/bitdefender-romania-si-republica-moldova-au-vazut-interferente-din-partea-rusiei-in-alegerile-lor-este-suficient-sa-ii-faci-pe-oameni-sa-nu-mai-creada-in-propria-democrati.html">Economedia</source>
       <description>Reprezentanții companiei Bitdefender au semnalat în cadrul unei conferințe de securitate cibernetică că operațiunile de influență rusă au vizat subminarea încrederii cetățenilor în instituțiile democratice din cele douăstate.</description>
-    </item>
-    <item>
-      <title>Roxana Mînzatu avertizează că inteligența artificială poate înlocui și locurile de muncă bine plătite</title>
-      <link>https://izz.ro/ai/roxana-minzatu-avertizeaza-ca-inteligenta-artificiala-poate-inlocui-si-locurile/</link>
-      <guid>https://izz.ro/ai/roxana-minzatu-avertizeaza-ca-inteligenta-artificiala-poate-inlocui-si-locurile/</guid>
-      <pubDate>Tue, 20 Oct 2026 11:35:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.antena3.ro/economic/roxana-minzatu-interviu-in-wp-ai-poate-inlocui-inclusiv-joburi-bine-platite-trebuie-sa-pregatim-oamenii-inainte-sa-fie-prea-tarziu-807908.html">Antena 3 CNN</source>
-      <description>Inteligența artificială are potențialul de a elimina inclusiv posturi calificate și bine remunerate, motiv pentru care comisarul european Roxana Mînzatu subliniază importanța pregătirii populației pentru această tranziție.</description>
     </item>
     <item>
       <title>Germania și Nvidia încheie un parteneriat pentru dezvoltarea roboților și mașinilor autonome</title>
