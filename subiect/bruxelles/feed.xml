@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bruxelles/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bruxelles pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 10:23:07 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 15:28:48 +0000</lastBuildDate>
+    <item>
+      <title>Summit UE și Balcanii de Vest programat pe 25 noiembrie la Bruxelles</title>
+      <link>https://izz.ro/extern/summit-ue-si-balcanii-de-vest-programat-pe-25-noiembrie-la-bruxelles/</link>
+      <guid>https://izz.ro/extern/summit-ue-si-balcanii-de-vest-programat-pe-25-noiembrie-la-bruxelles/</guid>
+      <pubDate>Fri, 23 Oct 2026 15:06:26 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/liderii-ue-si-ai-balcanilor-de-vest-se-reunesc-pe-25-noiembrie-la-bruxelles.html">G4Media</source>
+      <media:content url="https://izz.ro/extern/summit-ue-si-balcanii-de-vest-programat-pe-25-noiembrie-la-bruxelles/cover.jpg?v=d6a6d709" medium="image" type="image/jpeg"/>
+      <description>Liderii Uniunii Europene și cei din Balcanii de Vest se vor întâlni la Bruxelles pentru a analiza aderarea regiunii la blocul comunitar. Evenimentul strategic va avea loc pe 25 noiembrie.</description>
+    </item>
     <item>
       <title>Sculptorul Sabin Bumb din Maramureș participă la evenimentul Săptămâna Brâncuși din Bruxelles</title>
       <link>https://izz.ro/judetean/sculptorul-sabin-bumb-din-maramures-participa-la-evenimentul-saptamana-brancusi/</link>
@@ -13,7 +23,7 @@
       <pubDate>Thu, 22 Oct 2026 13:52:24 +0000</pubDate>
       <category>judetean</category>
       <source url="https://www.emaramures.ro/sabin-bumb-maramureseanul-pregatit-sa-cucereasca-europa-sculptorul-ajunge-la-bruxelles-in-saptamana-brancusi/">eMaramureș</source>
-      <media:content url="https://izz.ro/judetean/sculptorul-sabin-bumb-din-maramures-participa-la-evenimentul-saptamana-brancusi/cover.jpg?v=01ff9041" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/judetean/sculptorul-sabin-bumb-din-maramures-participa-la-evenimentul-saptamana-brancusi/cover.jpg?v=4f97000c" medium="image" type="image/jpeg"/>
       <description>Artistul maramureșean Sabin Bumb își prezintă lucrările sculpturale pe scena internațională, fiind invitat de onoare la manifestările culturale organizate în capitala Belgiei în cadrul expoziției dedicate marelui sculptor.</description>
     </item>
     <item>
@@ -23,7 +33,6 @@
       <pubDate>Thu, 22 Oct 2026 11:48:06 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.politico.eu/article/brussels-proposes-delaying-tuition-fee-demand-till-after-uk-eu-summit/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <media:content url="https://izz.ro/extern/comisia-europeana-propune-amanarea-negocierilor-privind-taxele-scolare-pentru/cover.jpg?v=0cc649e8" medium="image" type="image/jpeg"/>
       <description>Bruxellesul vrea să decupleze discuțiile despre taxele reduse pentru studenții UE din Marea Britanie de summitul bilateral din 20 noiembrie. O astfel de amânare ar putea facilita finalizarea unui acord între cele două părți.</description>
     </item>
     <item>
@@ -349,14 +358,5 @@
       <category>extern</category>
       <source url="https://www.g4media.ro/zeci-de-mii-de-oameni-au-manifestat-la-bruxelles-pentru-a-cere-masuri-mai-ferme-impotriva-schimbarilor-climatice.html">G4Media</source>
       <description>Circa 45.000 de manifestanți au marșat spre sediul Uniunii Europene cerând politici ecologice mai riguroase, pe fondul valurilor de căldură extremă care au afectat continentul.</description>
-    </item>
-    <item>
-      <title>Peste 850 de români au participat la primul eveniment TEDx în limba română la Bruxelles</title>
-      <link>https://izz.ro/local/peste-850-de-romani-au-participat-la-primul-eveniment-tedx-in-limba-romana-la/</link>
-      <guid>https://izz.ro/local/peste-850-de-romani-au-participat-la-primul-eveniment-tedx-in-limba-romana-la/</guid>
-      <pubDate>Sun, 11 Oct 2026 12:23:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://actualmm.ro/tedx-in-limba-romana-la-bruxelles-peste-850-de-participanti-secretarul-de-stat-adrian-dan-pop-interventie-video-de-la-bucuresti-inteligenta-artificiala-ne-poate-oferi-posibilitati-dar-o/">actualMM</source>
-      <description>Secretarul de stat Adrian Dan Pop a transmis un mesaj video de la București la conferința organizată în diaspora belgiană, subliniind că oamenii trebuie să ofere sens și direcție noilor posibilități aduse de inteligența artificială.</description>
     </item>
 </channel></rss>

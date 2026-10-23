@@ -5,7 +5,37 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 10:23:17 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 15:28:54 +0000</lastBuildDate>
+    <item>
+      <title>MAI infirmă zvonurile privind jandarmii care ar fi îngenuncheat</title>
+      <link>https://izz.ro/ai/mai-infirma-zvonurile-privind-jandarmii-care-ar-fi-ingenuncheat/</link>
+      <guid>https://izz.ro/ai/mai-infirma-zvonurile-privind-jandarmii-care-ar-fi-ingenuncheat/</guid>
+      <pubDate>Fri, 23 Oct 2026 15:08:39 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.digi24.ro/stiri/actualitate/jandarmii-nu-au-ingenuncheat-in-fata-sustinatorilor-lui-georgescu-mai-dezminte-un-fals-raspandit-pe-retelele-sociale-4006369">Digi24</source>
+      <media:content url="https://izz.ro/ai/mai-infirma-zvonurile-privind-jandarmii-care-ar-fi-ingenuncheat/cover.jpg?v=a0ffe445" medium="image" type="image/jpeg"/>
+      <description>Instituciile statului au clarificat că imaginile distribuite pe platformele sociale, care arătau jandarmi îngenuncheați în fața protestatarilor, sunt falsuri grosolane create cu ajutorul inteligenței artificiale.</description>
+    </item>
+    <item>
+      <title>Jandarmeria Română infirmă autenticitatea imaginilor cu jandarmi îngenuncheați la un protest</title>
+      <link>https://izz.ro/ai/jandarmeria-romana-infirma-autenticitatea-imaginilor-cu-jandarmi-ingenuncheati/</link>
+      <guid>https://izz.ro/ai/jandarmeria-romana-infirma-autenticitatea-imaginilor-cu-jandarmi-ingenuncheati/</guid>
+      <pubDate>Fri, 23 Oct 2026 14:28:28 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.turnulsfatului.ro/2026/10/23/imaginile-cu-jandarmi-care-ingenuncheaza-la-protestul-din-fata-curtii-de-apel-bucuresti-sunt-false-anunta-jandarmeria-romana/">Turnul Sfatului</source>
+      <media:content url="https://izz.ro/ai/jandarmeria-romana-infirma-autenticitatea-imaginilor-cu-jandarmi-ingenuncheati/cover.jpg?v=b0d45ddb" medium="image" type="image/jpeg"/>
+      <description>Reprezentanții Jandarmeriei au clarificat că fotografiile și înregistrările video în care falși jandarmi apar îngenuncheați în fața protestatarilor din Capitală reprezintă falsuri create cu inteligență artificială.</description>
+    </item>
+    <item>
+      <title>Jandarmeria Română avertizează asupra unor imagini false generate cu inteligență artificială</title>
+      <link>https://izz.ro/ai/jandarmeria-romana-avertizeaza-asupra-unor-imagini-false-generate-cu/</link>
+      <guid>https://izz.ro/ai/jandarmeria-romana-avertizeaza-asupra-unor-imagini-false-generate-cu/</guid>
+      <pubDate>Fri, 23 Oct 2026 14:06:20 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/imagini-false-cu-jandarmi-care-ar-fi-cedat-in-fata-protestatarilor-distribuite-pe-tiktok-reactia-oficiala-a-jandarmeriei-romane.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/ai/jandarmeria-romana-avertizeaza-asupra-unor-imagini-false-generate-cu/cover.jpg?v=5880bc1c" medium="image" type="image/jpeg"/>
+      <description>Instituția trage un semnal de alarmă privind clipurile distribuite pe TikTok care înfățișează în mod fals jandarmi îngenuncheați în fața protestatarilor, menite să dezinformeze publicul.</description>
+    </item>
     <item>
       <title>Băncile americane semnalează accesări neautorizate ale conturilor efectuate de agenți AI</title>
       <link>https://izz.ro/ai/bancile-americane-semnaleaza-accesari-neautorizate-ale-conturilor-efectuate-de/</link>
@@ -73,7 +103,7 @@
       <pubDate>Thu, 22 Oct 2026 14:06:29 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.connect.ro/2026/10/22/micron-prezinta-memoria-ddr6-latime-de-banda-dubla-in-comparatie-cu-ddr5-si-un-proces-de-fabricatie-mult-mai-complex/">Connect.ro</source>
-      <media:content url="https://izz.ro/ai/micron-anunta-standardul-de-memorie-ram-ddr6-cu-latime-de-banda-dubla/cover.jpg?v=d70a949a" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/micron-anunta-standardul-de-memorie-ram-ddr6-cu-latime-de-banda-dubla/cover.jpg?v=15e8a325" medium="image" type="image/jpeg"/>
       <description>Producătorul american Micron a prezentat noua generație de memorii DDR6, care oferă o lățime de bandă dublă față de DDR5 și performanțe superioare pentru inteligența artificială.</description>
     </item>
     <item>
@@ -83,7 +113,6 @@
       <pubDate>Thu, 22 Oct 2026 12:50:59 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.monitoruldegalati.ro/tehnologie/inteligenta-artificiala-le-complica-munca-angajatilor-aproape-jumatate-pierd-mai-mult-timp-corectand-rezultatele-ai-decat-lucrand-de-la-zero.html">Monitorul de Galați</source>
-      <media:content url="https://izz.ro/ai/inteligenta-artificiala-le-consuma-mai-mult-timp-angajatilor-prin-corecturi/cover.jpg?v=06b16eb5" medium="image" type="image/jpeg"/>
       <description>Un studiu arată că aproape jumătate dintre angajați pierd mai mult timp corectând erorile generate de inteligența artificială decât dacă ar face sarcinile de la zero.</description>
     </item>
     <item>
@@ -93,7 +122,6 @@
       <pubDate>Thu, 22 Oct 2026 10:14:23 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.politico.eu/article/hacker-starten-millionen-von-angriffen-um-eine-weltweite-php-sicherheitsluecke-auszunutzen/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <media:content url="https://izz.ro/ai/atacuri-cibernetice-masive-vizeaza-o-vulnerabilitate-critica-a-limbajului-php/cover.jpg?v=f9f6cab1" medium="image" type="image/jpeg"/>
       <description>Hackerii au lansat milioane de atacuri pentru exploatarea unei deficiențe majore de securitate în limbajul de programare PHP, care stă la baza a șaptezeci la sută din site-urile de pe internet, conform furnizorului Cloudflare.</description>
     </item>
     <item>
@@ -103,7 +131,6 @@
       <pubDate>Thu, 22 Oct 2026 09:53:47 +0000</pubDate>
       <category>ai</category>
       <source url="https://cursdeguvernare.ro/ana-maria-stancu-inca-o-data-despre-ai-bunele-intentii-nu-sunt-o-strategie.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/ai/specialistii-critica-strategia-digitala-a-romaniei-in-ciuda-fondurilor-alocate/cover.jpg?v=19427b36" medium="image" type="image/jpeg"/>
       <description>Experții avertizează că numirea unui ministru delegat pentru inteligența artificială nu rezolvă problemele structurale ale României, țară care rămâne pe ultimele locuri în Uniunea Europeană la capitolul competențe digitale.</description>
     </item>
     <item>
@@ -113,7 +140,6 @@
       <pubDate>Thu, 22 Oct 2026 09:28:08 +0000</pubDate>
       <category>ai</category>
       <source url="https://hotnews.ro/peste-50-din-continutul-nou-de-pe-internet-este-generat-de-ai-va-rezolva-problema-transparentei-noile-masuri-anuntate-de-openai-si-anthropic-2382246">HotNews</source>
-      <media:content url="https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/cover.jpg?v=45d405d7" medium="image" type="image/jpeg"/>
       <description>Cele două companii vor implementa marcaje invizibile în textele create de inteligența artificială pentru a asigura transparența cerută de noul regulament al Uniunii Europene privind tehnologia.</description>
     </item>
     <item>
@@ -439,32 +465,5 @@
       <category>ai</category>
       <source url="https://economedia.ro/studiu-inteligenta-artificiala-le-permite-medicilor-sa-consulte-mai-multi-pacienti-si-poate-reduce-timpul-petrecut-cu-sarcinile-administrative.html">Economedia</source>
       <description>Conform raportului Future Health Index 2026 realizat de Philips, jumătate dintre cadrele medicale confirmă că tehnologia AI le sporește eficiența și reduce considerabil timpul alocat sarcinilor birocratice sau administrative.</description>
-    </item>
-    <item>
-      <title>O nouă teorie despre neuronii inteligenței artificiale amplifică temerile privind siguranța umanității</title>
-      <link>https://izz.ro/ai/o-noua-teorie-despre-neuronii-inteligentei-artificiale-amplifica-temerile/</link>
-      <guid>https://izz.ro/ai/o-noua-teorie-despre-neuronii-inteligentei-artificiale-amplifica-temerile/</guid>
-      <pubDate>Sat, 17 Oct 2026 13:47:42 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://stirileprotv.ro/stiri/stiinta/cea-mai-noua-teorie-despre-neuronii-ia-influenteaza-temerile-ca-ar-putea-distruge-umanitatea-cercetator-greu-de-supraestimat.html">Știrile ProTV</source>
-      <description>Un fost cercetător OpenAI a publicat un raport considerat revoluționar despre funcționarea internă a modelelor de inteligență artificială. Studiul alimentează dezbaterile aprinse legate de riscurile existențiale pe care tehnologia le poate aduce.</description>
-    </item>
-    <item>
-      <title>Compania Anthropic a achiziționat startup-ul de securitate AI Opaque Systems</title>
-      <link>https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/</link>
-      <guid>https://izz.ro/ai/compania-anthropic-a-achizitionat-startup-ul-de-securitate-ai-opaque-systems/</guid>
-      <pubDate>Sat, 17 Oct 2026 11:38:16 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.economica.net/anthropic-cumpara-compania-de-securitate-ai-opaque-systems-fondata-de-profesoara-universitara-raluca-ada-popa_986673.html">Economica</source>
-      <description>Producătorul asistentului Claude a preluat compania americană cofondată de cercetătoarea de origine română Raluca Ada Popa, tranzacția fiind salutată de Ambasada SUA ca un exemplu de excelență.</description>
-    </item>
-    <item>
-      <title>Șefa FMI avertizează că riscurile inteligenței artificiale pot depăși beneficiile</title>
-      <link>https://izz.ro/ai/sefa-fmi-avertizeaza-ca-riscurile-inteligentei-artificiale-pot-depasi/</link>
-      <guid>https://izz.ro/ai/sefa-fmi-avertizeaza-ca-riscurile-inteligentei-artificiale-pot-depasi/</guid>
-      <pubDate>Sat, 17 Oct 2026 10:32:59 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://economedia.ro/fara-masuri-adecvate-riscurile-asociate-ai-ar-putea-depasi-oportunitatile-transmite-sefa-fmi.html">Economedia</source>
-      <description>Directorul general al Fondului Monetar Internațional susține că dezvoltarea tehnologiei bazate pe inteligență artificială necesită reglementări stricte și cadre etice solide pentru a preveni posibile crize majore.</description>
     </item>
 </channel></rss>

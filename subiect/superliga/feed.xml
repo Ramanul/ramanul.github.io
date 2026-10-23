@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Superliga — IZZ.ro</title>
+  <title>Superligă — IZZ.ro</title>
   <link>https://izz.ro/subiect/superliga/</link>
   <atom:link href="https://izz.ro/subiect/superliga/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Superliga pe IZZ.ro</description>
+  <description>Știri despre Superligă pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 10:23:07 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 15:28:48 +0000</lastBuildDate>
+    <item>
+      <title>Liga Profesionistă de Fotbal a modificat programul etapei a 14-a din Superligă</title>
+      <link>https://izz.ro/sport/liga-profesionista-de-fotbal-a-modificat-programul-etapei-a-14-a-din-superliga/</link>
+      <guid>https://izz.ro/sport/liga-profesionista-de-fotbal-a-modificat-programul-etapei-a-14-a-din-superliga/</guid>
+      <pubDate>Fri, 23 Oct 2026 12:42:45 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-1/lpf-a-anuntat-modificari-in-programul-etapei-a-14-a-a-ligii-1-700461.html">Antena Sport</source>
+      <media:content url="https://izz.ro/sport/liga-profesionista-de-fotbal-a-modificat-programul-etapei-a-14-a-din-superliga/cover.jpg?v=f922e293" medium="image" type="image/jpeg"/>
+      <description>LPF a anunțat schimbări pentru runda a 14-a a Ligii 1, inversând meciurile programate sâmbătă, 31 octombrie, și devansând cu o jumătate de oră partidele de luni, 2 noiembrie.</description>
+    </item>
     <item>
       <title>Antrenorul Laszlo Balint poartă discuții avansate cu o grupare din Superliga</title>
       <link>https://izz.ro/sport/antrenorul-laszlo-balint-poarta-discutii-avansate-cu-o-grupare-din-superliga/</link>
@@ -23,7 +33,7 @@
       <pubDate>Thu, 22 Oct 2026 15:05:06 +0000</pubDate>
       <category>sport</category>
       <source url="https://www.sport.ro/fotbal-intern/si-a-anuntat-retragerea-la-cateva-zile-dupa-ce-a-fost-propus-de-piturca-in-superliga.html">Sport.ro</source>
-      <media:content url="https://izz.ro/sport/victor-piturca-a-propus-patru-tehnicieni-romani-pentru-echipele-din-superliga/cover.jpg?v=d2b66cdd" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/sport/victor-piturca-a-propus-patru-tehnicieni-romani-pentru-echipele-din-superliga/cover.jpg?v=d8f306a3" medium="image" type="image/jpeg"/>
       <description>Fostul selecționer în vârstă de 70 de ani pledează pentru prezența antrenorilor locali pe banca cluburilor din primul ealon fotbalistic, oferind recent variante concrete pentru formațiile aflate în căutare de tehnicieni.</description>
     </item>
     <item>
@@ -196,14 +206,5 @@
       <category>sport</category>
       <source url="https://www.prosport.ro/fotbal-intern/superliga/dinamo-nota-1-nota-10-etapa-11-daniel-nazare-gabriel-berceanu-catalogul-superligii-20545918">ProSport</source>
       <description>Jurnaliștii Daniel Nazare și Gabriel Berceanu au lansat rubrica ProSport numită Catalogul Superligii, acordând calificative extreme clubului Dinamo după etapa a unsprezecea.</description>
-    </item>
-    <item>
-      <title>Meciul de fotbal dintre Farul Constanța și Petrolul Ploiești din Superligă</title>
-      <link>https://izz.ro/sport/meciul-de-fotbal-dintre-farul-constanta-si-petrolul-ploiesti-din-superliga/</link>
-      <guid>https://izz.ro/sport/meciul-de-fotbal-dintre-farul-constanta-si-petrolul-ploiesti-din-superliga/</guid>
-      <pubDate>Sun, 11 Oct 2026 17:59:46 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.gsp.ro/fotbal/liga-1/live-farul-petrolul-etapa-11-superliga-986151.html">GSP, Sport.ro</source>
-      <description>Echipele Farul Constanța și Petrolul Ploiești s-au întâlnit în etapa a 11-a a Superligii. Confruntarea a consemnat o deschidere rapidă de scor încă din primele minute ale partidei transmise în direct.</description>
     </item>
 </channel></rss>
