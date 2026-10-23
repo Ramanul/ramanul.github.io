@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/cluj-napoca/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj-Napoca pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 23:42:32 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 05:09:04 +0000</lastBuildDate>
+    <item>
+      <title>Arhitect din Cluj, bătut în trafic după o dispută legată de o mașină</title>
+      <link>https://izz.ro/local/arhitect-din-cluj-batut-in-trafic-dupa-o-disputa-legata-de-o-masina/</link>
+      <guid>https://izz.ro/local/arhitect-din-cluj-batut-in-trafic-dupa-o-disputa-legata-de-o-masina/</guid>
+      <pubDate>Fri, 23 Oct 2026 04:48:48 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/un-cunoscut-arhitect-clujean-batut-in-urma-unui-conflict-in-trafic-in-zona-salvosan-ciubanca/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/local/arhitect-din-cluj-batut-in-trafic-dupa-o-disputa-legata-de-o-masina/cover.jpg?v=ef4331e9" medium="image" type="image/jpeg"/>
+      <description>Un arhitect din Cluj-Napoca a fost agresat fizic în zona Salvosan Ciubanca din cauza unei mașini parcate neregulamentar pe trotuar. În urma loviturilor primite, victima a avut nevoie de spitalizare.</description>
+    </item>
     <item>
       <title>Prefectura Cluj a oprit evacuarea sportivilor de la Federația de Judo</title>
       <link>https://izz.ro/sport/prefectura-cluj-a-oprit-evacuarea-sportivilor-de-la-federatia-de-judo/</link>
@@ -453,14 +463,5 @@
       <category>local</category>
       <source url="https://gazetadecluj.ro/locuitorii-din-floresti-invitati-sa-participe-la-un-studiu-academic-privind-calitatea-vietii-si-dezvoltarea-urbana/">Gazeta de Cluj</source>
       <description>Administrația locală din Florești solicită implicarea cetățenilor prin completarea unui chestionar sociologic, pentru a analiza dinamica urbană, condițiile de locuire și calitatea vieții din zona metropolitană Cluj.</description>
-    </item>
-    <item>
-      <title>Comisia de Urbanism Cluj cere retrageri mai mari pentru un aparthotel pe Dorobanților</title>
-      <link>https://izz.ro/local/comisia-de-urbanism-cluj-cere-retrageri-mai-mari-pentru-un-aparthotel-pe/</link>
-      <guid>https://izz.ro/local/comisia-de-urbanism-cluj-cere-retrageri-mai-mari-pentru-un-aparthotel-pe/</guid>
-      <pubDate>Fri, 16 Oct 2026 08:33:58 +0000</pubDate>
-      <category>local</category>
-      <source url="https://gazetadecluj.ro/comisia-de-urbanism-cere-o-distanta-mai-mare-fata-de-vecini-pentru-proiectul-de-aparthotel-de-pe-dorobantilor/">Gazeta de Cluj</source>
-      <description>Proiectul imobiliar mixt propus pe Calea Dorobanților din Cluj-Napoca, ce prevede demolarea clădirilor existente și ridicarea unui aparthotel, a primit solicitarea de a mări distanța față de limita estică a parcelei.</description>
     </item>
 </channel></rss>

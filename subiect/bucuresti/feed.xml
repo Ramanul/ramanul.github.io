@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Bucuresti — IZZ.ro</title>
+  <title>București — IZZ.ro</title>
   <link>https://izz.ro/subiect/bucuresti/</link>
   <atom:link href="https://izz.ro/subiect/bucuresti/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Bucuresti pe IZZ.ro</description>
+  <description>Știri despre București pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 23:42:31 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 05:09:04 +0000</lastBuildDate>
+    <item>
+      <title>Un șofer a fost rănit într-un accident rutier în București</title>
+      <link>https://izz.ro/local/un-sofer-a-fost-ranit-intr-un-accident-rutier-in-bucuresti/</link>
+      <guid>https://izz.ro/local/un-sofer-a-fost-ranit-intr-un-accident-rutier-in-bucuresti/</guid>
+      <pubDate>Fri, 23 Oct 2026 04:51:32 +0000</pubDate>
+      <category>local</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/accident-in-lant-pe-bulevardul-iuliu-maniu-din-capitala-un-sofer-a-ajuns-la-spital-cum-s-a-intamplat.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/local/un-sofer-a-fost-ranit-intr-un-accident-rutier-in-bucuresti/cover.jpg?v=3a8a2929" medium="image" type="image/jpeg"/>
+      <description>Un bărbat de 39 de ani a ajuns la spital după ce autoturismul său a fost lovit violent în urma unei manevre de viraj efectuate neregulamentar pe un bulevard din Sectorul 6.</description>
+    </item>
+    <item>
+      <title>Lansarea iPhone Duo, insolvențe în aviație și noi taxe pe trotinete în actualitatea tehnologică</title>
+      <link>https://izz.ro/tech/lansarea-iphone-duo-insolvente-in-aviatie-si-noi-taxe-pe-trotinete-in/</link>
+      <guid>https://izz.ro/tech/lansarea-iphone-duo-insolvente-in-aviatie-si-noi-taxe-pe-trotinete-in/</guid>
+      <pubDate>Fri, 23 Oct 2026 03:44:33 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-23-octombrie-2026/">NwRadu</source>
+      <media:content url="https://izz.ro/tech/lansarea-iphone-duo-insolvente-in-aviatie-si-noi-taxe-pe-trotinete-in/cover.jpg?v=a820744a" medium="image" type="image/jpeg"/>
+      <description>Piața din România consemnează debutul livrărilor pentru iPhone Duo, insolvențe pentru operatorii Dan Air și Fibula Air Travel, dar și introducerea unei taxe zilnice pentru trotinetele electrice în Capitală.</description>
+    </item>
+    <item>
+      <title>Investiții majore ale statului în stadioane noi din România</title>
+      <link>https://izz.ro/local/investitii-majore-ale-statului-in-stadioane-noi-din-romania/</link>
+      <guid>https://izz.ro/local/investitii-majore-ale-statului-in-stadioane-noi-din-romania/</guid>
+      <pubDate>Fri, 23 Oct 2026 03:00:20 +0000</pubDate>
+      <category>local</category>
+      <source url="https://economedia.ro/analiza-cat-investeste-statul-in-noile-stadioane-din-romania-zeci-de-proiecte-arene-de-sute-de-milioane-de-euro-si-stadiul-lucrarilor.html">Economedia</source>
+      <media:content url="https://izz.ro/local/investitii-majore-ale-statului-in-stadioane-noi-din-romania/cover.jpg?v=b4c13ec3" medium="image" type="image/jpeg"/>
+      <description>O analiză recentă arată că autoritățile continuă să finanțeze arene sportive de sute de milioane de euro în orașe precum Pitești, Timișoara și București, proiectele aflându-se în diferite stadii de execuție.</description>
+    </item>
+    <item>
+      <title>Bucureștiul oferă tratament gratuit pentru problemele de sănătate mintală</title>
+      <link>https://izz.ro/local/bucurestiul-ofera-tratament-gratuit-pentru-problemele-de-sanatate-mintala/</link>
+      <guid>https://izz.ro/local/bucurestiul-ofera-tratament-gratuit-pentru-problemele-de-sanatate-mintala/</guid>
+      <pubDate>Fri, 23 Oct 2026 01:00:19 +0000</pubDate>
+      <category>local</category>
+      <source url="https://b365.ro/de-acum-daca-vrei-in-bucuresti-te-poti-trata-gratuit-de-problemele-nervoase-625255/">B365</source>
+      <media:content url="https://izz.ro/local/bucurestiul-ofera-tratament-gratuit-pentru-problemele-de-sanatate-mintala/cover.jpg?v=449c7024" medium="image" type="image/jpeg"/>
+      <description>Un nou centru de dezvoltare personală și reabilitare psihică și-a deschis porțile în capitală, oferind servicii gratuite pentru persoanele care se confruntă cu dificultăți nervoase.</description>
+    </item>
     <item>
       <title>Bucureștiul oferă o gamă variată de spectacole de teatru în acest weekend</title>
       <link>https://izz.ro/local/bucurestiul-ofera-o-gama-variata-de-spectacole-de-teatru-in-acest-weekend/</link>
@@ -75,16 +115,6 @@
       <source url="https://observatornews.ro/exclusiv-observator/cel-mai-bogat-bulevard-din-tara-are-infrastructura-din-1965-sute-de-mii-de-corporatisti-mai-au-un-singur-sens-670030.html">Observator</source>
       <media:content url="https://izz.ro/local/bulevardul-pipera-din-capitala-se-confrunta-cu-blocaje-din-cauza/cover.jpg?v=4c16dc6c" medium="image" type="image/jpeg"/>
       <description>Principalul pol de afaceri din București funcționează pe o arteră rutieră proiectată în 1965 pentru o platformă industrială, lăsând un singur sens disponibil pentru zecile de mii de corporatiști.</description>
-    </item>
-    <item>
-      <title>Impozitarea locuințelor la valoarea de piață poate majora taxele de 27 de ori</title>
-      <link>https://izz.ro/local/impozitarea-locuintelor-la-valoarea-de-piata-poate-majora-taxele-de-27-de-ori/</link>
-      <guid>https://izz.ro/local/impozitarea-locuintelor-la-valoarea-de-piata-poate-majora-taxele-de-27-de-ori/</guid>
-      <pubDate>Thu, 22 Oct 2026 15:49:10 +0000</pubDate>
-      <category>local</category>
-      <source url="https://economedia.ro/avocat-de-business-impozitarea-locuintelor-la-valoarea-de-piata-ar-putea-creste-de-27-de-ori-taxele-pentru-unii-proprietari-pensia-pe-6-7-luni.html">Economedia</source>
-      <media:content url="https://izz.ro/local/impozitarea-locuintelor-la-valoarea-de-piata-poate-majora-taxele-de-27-de-ori/cover.jpg?v=0b05e160" medium="image" type="image/jpeg"/>
-      <description>Avocatul Gabriel Biriș avertizează că trecerea la calcularea impozitelor pe locuințe în funcție de valoarea de piață va genera creșteri uriașe ale taxelor pentru unii proprietari din București, afectând inclusiv pensionarii.</description>
     </item>
     <item>
       <title>Trenul metropolitan București-Ilfov își prelungeste traseul până în Prahova</title>
@@ -173,7 +203,7 @@
       <pubDate>Thu, 22 Oct 2026 04:30:10 +0000</pubDate>
       <category>local</category>
       <source url="https://www.csid.ro/stiri/joi-noul-spital-de-pe-calea-serban-voda-din-bucuresti-a-fost-finalizat-ce-pacienti-va-trata-si-ce-servicii-medicale-va-oferi-21341156/">CSÎD</source>
-      <media:content url="https://izz.ro/local/noul-centru-marius-nasta-din-calea-serban-voda-a-fost-finalizat-in-bucuresti/cover.jpg?v=3a8a2929" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/noul-centru-marius-nasta-din-calea-serban-voda-a-fost-finalizat-in-bucuresti/cover.jpg?v=df0c0d6c" medium="image" type="image/jpeg"/>
       <description>Bucureștiul dispune de un nou spital modernizat după finalizarea lucrărilor la Centrul Marius Nasta de pe Calea Șerban Vodă, destinat tratării pacienților cu afecțiuni specifice.</description>
     </item>
     <item>
@@ -183,7 +213,7 @@
       <pubDate>Thu, 22 Oct 2026 04:22:25 +0000</pubDate>
       <category>local</category>
       <source url="https://www.dobrogeaonline.ro/ce-au-descoperit-elevii-constanteni-de-clasa-a-v-a-si-a-vi-a-in-timpul-vizitei-la-un-mall-din-bucuresti/">Dobrogea Online</source>
-      <media:content url="https://izz.ro/local/elevi-constanteni-au-vizitat-un-mall-din-bucuresti/cover.jpg?v=3a8a2929" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/elevi-constanteni-au-vizitat-un-mall-din-bucuresti/cover.jpg?v=b4bff69c" medium="image" type="image/jpeg"/>
       <description>Mai multe clase de gimnaziu de la un colegiu pedagogic din Constanța au mers într-un complex comercial din Capitală în cadrul activităților educative din Programul Național „Școala Altfel”</description>
     </item>
     <item>
@@ -213,7 +243,7 @@
       <pubDate>Wed, 21 Oct 2026 22:00:17 +0000</pubDate>
       <category>local</category>
       <source url="https://b365.ro/metroul-secret-din-bucuresti-magistrala-p2-unde-ajungi-cu-liftul-mascat-de-dulap-si-are-statii-cu-mocheta-rosie-pe-peron-cum-s-a-nascut-un-mare-mit-de-infrastructura-625119/">B365</source>
-      <media:content url="https://izz.ro/local/miturile-urbane-din-bucuresti-despre-metroul-secret-si-statiile-ascunse/cover.jpg?v=3a8a2929" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/miturile-urbane-din-bucuresti-despre-metroul-secret-si-statiile-ascunse/cover.jpg?v=49d9ec23" medium="image" type="image/jpeg"/>
       <description>Legendele urbane legate de infrastructura subterană a Capitalei, inclusiv presupuse magistrale secrete și stații exclusiviste, continuă să alimenteze imaginația publicului privind aglomerația de pe M2.</description>
     </item>
     <item>
@@ -233,7 +263,6 @@
       <pubDate>Wed, 21 Oct 2026 21:16:50 +0000</pubDate>
       <category>local</category>
       <source url="https://www.gorjeanul.ro/investigatii/tanarul-de-17-ani-care-a-murit-intr-un-spital-din-bucuresti-inmormantat-in-localitatea-natala/">Gorjeanul</source>
-      <media:content url="https://izz.ro/local/adolescent-de-17-ani-decedat-in-bucuresti-inmormantat-in-gorj/cover.jpg?v=57da0631" medium="image" type="image/jpeg"/>
       <description>Un tânăr din județul Gorj care a murit din cauza unei boli grave într-un spital din capitală este condus astăzi pe ultimul drum, comunitatea locală sprijinind financiar familia.</description>
     </item>
     <item>
@@ -243,7 +272,6 @@
       <pubDate>Wed, 21 Oct 2026 20:19:00 +0000</pubDate>
       <category>local</category>
       <source url="https://www.antena3.ro/actualitate/bucurestiul-paralizat-de-santiere-pe-bulevardul-corporatistilor-timpul-in-trafic-s-a-dublat-ciucu-nu-exista-alta-solutie-808141.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/local/bucurestiul-este-blocat-de-numeroase-santiere-dubland-timpul-pierdut-in/cover.jpg?v=082688ff" medium="image" type="image/jpeg"/>
       <description>Traficul rutier din Capitală este grav afectat de zecile de lucrări deschise simultan. Introducerea sensului unic pe bulevardul Dimitrie Pompeiu a generat ambuteiaje majore, în timp ce autoritățile susțin că aceste măsuri sunt inevitabile.</description>
     </item>
     <item>
@@ -452,32 +480,5 @@
       <category>local</category>
       <source url="https://www.elle.ro/advertorial/mercedes-benz-bucharest-fashion-week-ss27-o-editie-definita-de-noi-forme-de-expresie-si-dialog-intre-industrii-1095198">Elle România</source>
       <description>Evenimentul de modă a reunit la București designeri autohtoni și internaționali, promovând creativitatea, dialogul cultural și consolidând legăturile industriei vestimentare locale cu marilescene internaționale.</description>
-    </item>
-    <item>
-      <title>Un tânăr de 20 de ani a fost lovit de metrou la stația Constantin Brâncoveanu</title>
-      <link>https://izz.ro/general/un-tanar-de-20-de-ani-a-fost-lovit-de-metrou-la-statia-constantin-brancoveanu/</link>
-      <guid>https://izz.ro/general/un-tanar-de-20-de-ani-a-fost-lovit-de-metrou-la-statia-constantin-brancoveanu/</guid>
-      <pubDate>Tue, 20 Oct 2026 12:49:27 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.csid.ro/stiri/un-tanar-de-20-de-ani-lovit-de-metrou-in-statia-constantin-brancoveanu-ar-fi-vrut-sa-si-puna-capat-zilelor-21339689/">CSÎD</source>
-      <description>Un incident grav a avut loc în stația de metrou din Capitală, unde un tânăr a fost acroșat de tren în ceea ce anchetatorii investighează a fi o tentativă de suicid.</description>
-    </item>
-    <item>
-      <title>Agenda evenimentelor culturale şi de timp liber din Bucureşti pentru miercuri</title>
-      <link>https://izz.ro/local/agenda-evenimentelor-culturale-si-de-timp-liber-din-bucuresti-pentru-miercuri/</link>
-      <guid>https://izz.ro/local/agenda-evenimentelor-culturale-si-de-timp-liber-din-bucuresti-pentru-miercuri/</guid>
-      <pubDate>Tue, 20 Oct 2026 11:32:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://observatornews.ro/social/evenimente-in-bucuresti-miercuri-21-octombrie-ce-nu-trebuie-sa-ratezi-669735.html">Observator</source>
-      <description>Bucureștenii au la dispoziție o serie de concerte, expoziții și spectacole programate pentru ziua de miercuri, 21 octombrie 2026, în cadrul ofertelor locale de timp liber.</description>
-    </item>
-    <item>
-      <title>Claudia Pătrășcanu refuză să se mute la București alături de copii</title>
-      <link>https://izz.ro/local/claudia-patrascanu-refuza-sa-se-mute-la-bucuresti-alaturi-de-copii/</link>
-      <guid>https://izz.ro/local/claudia-patrascanu-refuza-sa-se-mute-la-bucuresti-alaturi-de-copii/</guid>
-      <pubDate>Tue, 20 Oct 2026 11:07:51 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.unica.ro/vedete/de-ce-nu-vrea-claudia-patrascanu-sa-se-mute-la-bucuresti-840118">Unica</source>
-      <description>Cântăreața Claudia Pătrășcanu respinge propunerea fostului soț, Gabi Bădălău, de a se muta în Capitală, continuând disputele legate de custodia celor doi copii ai cuplului.</description>
     </item>
 </channel></rss>

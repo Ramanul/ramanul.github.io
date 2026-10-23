@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 22 Oct 2026 23:42:32 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 05:09:04 +0000</lastBuildDate>
     <item>
       <title>Ghid pentru organizarea depozitelor cu rafturi pentru paleți</title>
       <link>https://izz.ro/judetean/ghid-pentru-organizarea-depozitelor-cu-rafturi-pentru-paleti/</link>
@@ -73,8 +73,18 @@
       <pubDate>Thu, 22 Oct 2026 04:00:00 +0000</pubDate>
       <category>local</category>
       <source url="https://gazetadecluj.ro/banii-publici-din-comunele-clujului-cine-imparte-milioanele-din-pnrr-anghel-saligny-si-fonduri-europene/">Gazeta de Cluj</source>
-      <media:content url="https://izz.ro/local/distributia-fondurilor-publice-pentru-infrastructura-in-comunele-din-cluj/cover.jpg?v=efcc981a" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/distributia-fondurilor-publice-pentru-infrastructura-in-comunele-din-cluj/cover.jpg?v=a58c7f52" medium="image" type="image/jpeg"/>
       <description>Administrațiile locale din județul Cluj au accesat zeci de milioane de lei prin programe precum PNRR și Anghel Saligny pentru modernizarea drumurilor, rețelelor de apă și școlilor.</description>
+    </item>
+    <item>
+      <title>Clujul devine decorul unui film misterios regizat de Iura Luncașu</title>
+      <link>https://izz.ro/judetean/clujul-devine-decorul-unui-film-misterios-regizat-de-iura-luncasu/</link>
+      <guid>https://izz.ro/judetean/clujul-devine-decorul-unui-film-misterios-regizat-de-iura-luncasu/</guid>
+      <pubDate>Wed, 21 Oct 2026 23:58:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.contributors.ro/filme-care-apar-doar-ca-sa-dispara/">Contributors</source>
+      <media:content url="https://izz.ro/judetean/clujul-devine-decorul-unui-film-misterios-regizat-de-iura-luncasu/cover.jpg?v=14ff64f7" medium="image" type="image/jpeg"/>
+      <description>Pelicula Crimelor din Orașul Alb, scrisă de Bogdan Ficeac și regizată de Iura Luncașu, aduce pe ecrane un Cluj învăluit în mister, unde artiști cunoscuți cad victime unor asasini necunoscuți.</description>
     </item>
     <item>
       <title>Reflecții despre piesa autobiografică a lui Eugene O'Neill la Cluj</title>
@@ -93,7 +103,6 @@
       <pubDate>Wed, 21 Oct 2026 19:46:00 +0000</pubDate>
       <category>local</category>
       <source url="https://zcj.ro/eveniment/accidentele-se-tin-lant-in-cluj-dupa-tragedia-de-la-jucu-si-rasturnarea-de-pe-a3-un-motociclist-a-fost-ranit-pe-bulevardul-muncii--303249.html">Ziua de Cluj</source>
-      <media:content url="https://izz.ro/local/un-motociclist-a-fost-ranit-in-cluj-pe-bulevardul-muncii/cover.jpg?v=a895c236" medium="image" type="image/jpeg"/>
       <description>O nouă coliziune rutieră s-a produs în municipiul Cluj-Napoca, implicând un motociclist care a necesitat îngrijiri medicale în urma unui incident petrecut pe Bulevardul Muncii.</description>
     </item>
     <item>
@@ -103,7 +112,6 @@
       <pubDate>Wed, 21 Oct 2026 19:37:00 +0000</pubDate>
       <category>local</category>
       <source url="https://zcj.ro/eveniment/accident-pe-autostrada-a3-in-cluj-un-autotren-s-a-rasturnat-care-este-starea-soferului--303248.html">Ziua de Cluj</source>
-      <media:content url="https://izz.ro/local/un-autotren-s-a-rasturnat-pe-autostrada-a3-in-judetul-cluj/cover.jpg?v=7639f28a" medium="image" type="image/jpeg"/>
       <description>Un eveniment rutier a blocat parțial circulația pe Autostrada A3, în zona localității Nădășelu, unde un vehicul de mare tonaj s-a răsturnat pe carosabil.</description>
     </item>
     <item>
@@ -456,14 +464,5 @@
       <category>local</category>
       <source url="https://bizbrasov.ro/2026/10/12/brasov-inregistrati-ucraineni-oficial/">BizBrașov</source>
       <description>Primul consulat onorific al Ucrainei din România a fost inaugurat la Apahida, în județul Cluj. În regiunea de nord-vest trăiesc circa cincizeci de mii de ucraineni, județul Brașov concentrând cea mai mare comunitate din Transilvania.</description>
-    </item>
-    <item>
-      <title>Cinci persoane au fost reținute de polițiști în urma unui conflict stradal în Călățele</title>
-      <link>https://izz.ro/local/cinci-persoane-au-fost-retinute-de-politisti-in-urma-unui-conflict-stradal-in/</link>
-      <guid>https://izz.ro/local/cinci-persoane-au-fost-retinute-de-politisti-in-urma-unui-conflict-stradal-in/</guid>
-      <pubDate>Mon, 12 Oct 2026 07:35:59 +0000</pubDate>
-      <category>local</category>
-      <source url="https://gazetadecluj.ro/bataie-in-plina-strada-in-calatele-pe-fondul-consumului-de-alcool/">Gazeta de Cluj</source>
-      <description>Un scandal izbucnit pe fondul consumului de alcool pe un drum public din județul Cluj s-a soldat cu agresiuni fizice și intervenția autorităților pentru reținerea agresorilor.</description>
     </item>
 </channel></rss>
