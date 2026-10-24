@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/vladimir-putin/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Vladimir Putin pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 01:53:07 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 07:40:06 +0000</lastBuildDate>
+    <item>
+      <title>Naționala de handbal feminin a Rusiei a învins Serbia în primul meci după invazie</title>
+      <link>https://izz.ro/sport/nationala-de-handbal-feminin-a-rusiei-a-invins-serbia-in-primul-meci-dupa/</link>
+      <guid>https://izz.ro/sport/nationala-de-handbal-feminin-a-rusiei-a-invins-serbia-in-primul-meci-dupa/</guid>
+      <pubDate>Sat, 24 Oct 2026 06:45:58 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/sporturi/handbal/nationala-de-handbal-a-rusiei-primul-test-serios-dupa-declansarea-razboiului-991612.html">GSP</source>
+      <media:content url="https://izz.ro/sport/nationala-de-handbal-feminin-a-rusiei-a-invins-serbia-in-primul-meci-dupa/cover.jpg?v=24ad1469" medium="image" type="image/jpeg"/>
+      <description>Suspendată din competițiile internaționale timp de cinci ani din cauza războiului din Ucraina, echipa Rusiei a disputat un meci amical la Stara Pazova, impunându-se categoric în fața Serbiei cu scorul de 34-25.</description>
+    </item>
     <item>
       <title>Vladimir Putin critică liderii care avertizează asupra unui război cu Rusia</title>
       <link>https://izz.ro/extern/vladimir-putin-critica-liderii-care-avertizeaza-asupra-unui-razboi-cu-rusia/</link>
@@ -53,7 +63,6 @@
       <pubDate>Fri, 23 Oct 2026 04:06:24 +0000</pubDate>
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/eveniment/zelenski-mesaj-pentru-trump-la-cnn-nu-e-nimic-personal-intre-noi-dar-ridicarea-sanctiunilor-il-va-face-pe-putin-mai-puternic">Spotmedia</source>
-      <media:content url="https://izz.ro/extern/zelenski-ii-cere-lui-trump-sa-nu-ridice-sanctiunile-impuse-rusiei/cover.jpg?v=6feb5063" medium="image" type="image/jpeg"/>
       <description>Președintele ucrainean Volodimir Zelenski a subliniat, într-un interviu televizat, că tensiunile sale cu Donald Trump nu sunt personale, dar a avertizat că anularea sancțiunilor internaționale l-ar întări semnificativ pe liderul rus Vladimir Putin.</description>
     </item>
     <item>
@@ -63,7 +72,6 @@
       <pubDate>Fri, 23 Oct 2026 04:00:36 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/rusia/putin-se-apropie-de-obiectivul-sau-normalizarea-relatiilor-cu-sua-fara-a-face-vreun-compromis-victoria-a-fost-deja-obtinuta-4004287">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/putin-obtine-normalizarea-relatiilor-cu-sua-fara-concesii/cover.jpg?v=f187fe21" medium="image" type="image/jpeg"/>
       <description>După sancțiunile impuse companiilor petroliere rusești anul trecut, liderul de la Kremlin se apropie de obiectivul său geopolitic principal, reușind să restabilească dialogul cu Washingtonul fără a face compromisuri privind conflictul din Ucraina.</description>
     </item>
     <item>
@@ -452,14 +460,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/sua/sua-spera-ca-acordul-privind-motorina-va-inmuia-pozitia-rusiei-pe-tema-negocierilor-de-pace-cu-ucraina-putin-inca-vrea-donbasul-3989177">Digi24 Extern</source>
       <description>Emisarii președintelui american Donald Trump le-au transmis oficialilor ucraineni că ridicarea unor restricții la exportul rus de motorină urmărește aducerea Moscovei la masa tratativelor, în timp ce Vladimir Putin își menține pretențiile teritoriale asupra Donbasului.</description>
-    </item>
-    <item>
-      <title>Volodimir Zelenski propune un armistițiu de 60 de zile pentru organizarea de alegeri</title>
-      <link>https://izz.ro/extern/volodimir-zelenski-propune-un-armistitiu-de-60-de-zile-pentru-organizarea-de/</link>
-      <guid>https://izz.ro/extern/volodimir-zelenski-propune-un-armistitiu-de-60-de-zile-pentru-organizarea-de/</guid>
-      <pubDate>Mon, 12 Oct 2026 15:35:33 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://cursdeguvernare.ro/volodimir-zelenski-cere-un-armistitiu-de-60-de-zile-pentru-organizare-de-alegeri-in-ucraina-kremlinul-spune-ca-accepta-doar-un-acord-care-sa-garanteze-o-pace-durabila.html">Curs de Guvernare</source>
-      <description>Liderul ucrainean Volodimir Zelenski a anunțat că ar accepta organizarea de alegeri dacă Rusia garantează o încetare a focului de două luni, în timp ce Kremlinul solicită un acord pentru o pace durabilă.</description>
     </item>
 </channel></rss>
