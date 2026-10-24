@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Iași — IZZ.ro</title>
+  <title>Iasi — IZZ.ro</title>
   <link>https://izz.ro/subiect/iasi/</link>
   <atom:link href="https://izz.ro/subiect/iasi/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Iași pe IZZ.ro</description>
+  <description>Știri despre Iasi pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 16:58:31 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 19:49:14 +0000</lastBuildDate>
+    <item>
+      <title>Ministerul Sănătății va modifica sistemul de plată a gărzilor pentru medici</title>
+      <link>https://izz.ro/local/ministerul-sanatatii-va-modifica-sistemul-de-plata-a-garzilor-pentru-medici/</link>
+      <guid>https://izz.ro/local/ministerul-sanatatii-va-modifica-sistemul-de-plata-a-garzilor-pentru-medici/</guid>
+      <pubDate>Sat, 24 Oct 2026 18:52:44 +0000</pubDate>
+      <category>local</category>
+      <source url="https://hotnews.ro/ministrul-sanatatii-promite-un-nou-mecanism-de-plata-a-garzilor-facute-de-medici-vor-fi-platiti-si-rezidentii-2385744">HotNews</source>
+      <media:content url="https://izz.ro/local/ministerul-sanatatii-va-modifica-sistemul-de-plata-a-garzilor-pentru-medici/cover.jpg?v=ff68fb51" medium="image" type="image/jpeg"/>
+      <description>Ministrul Sănătății a anunțat la Iași că noua prioritate legislativă vizează salarizarea corectă a gărzilor efectuate de cadrele medicale, incluzând în mod expres și medicii rezidenți.</description>
+    </item>
     <item>
       <title>O comună din Argeș administrează terenuri situate în alte două județe</title>
       <link>https://izz.ro/judetean/o-comuna-din-arges-administreaza-terenuri-situate-in-alte-doua-judete/</link>
@@ -93,7 +103,6 @@
       <pubDate>Fri, 23 Oct 2026 13:29:52 +0000</pubDate>
       <category>local</category>
       <source url="https://vremeanoua.ro/un-microbuz-scolar-care-transporta-14-elevi-implicat-intr-un-accident-rutier-la-iasi/">Vremea Nouă</source>
-      <media:content url="https://izz.ro/local/un-microbuz-scolar-cu-14-elevi-a-fost-implicat-intr-un-accident-la-iasi/cover.jpg?v=e300f840" medium="image" type="image/jpeg"/>
       <description>Un autoturism și un microbuz care transporta elevi s-au ciocnit lângă localitatea Cîrlig din județul Iași. Șoferul mașinii a fost rănit ușor, iar un elev de 14 ani a fost dus la spital.</description>
     </item>
     <item>
@@ -103,7 +112,6 @@
       <pubDate>Fri, 23 Oct 2026 13:27:42 +0000</pubDate>
       <category>local</category>
       <source url="https://vremeanoua.ro/mai-multi-cumparatori-pentru-aceleasi-apartamente-un-inculpat-arestat-intr-un-dosar-imobiliar-din-iasi/">Vremea Nouă</source>
-      <media:content url="https://izz.ro/local/un-barbat-din-iasi-a-fost-arestat-pentru-inselaciune-imobiliara/cover.jpg?v=85bc23d3" medium="image" type="image/jpeg"/>
       <description>Un dezvoltator imobiliar a fost reținut preventiv de procurori după ce ar fi vândut aceleași apartamente și spații comerciale către mai mulți cumpărători diferiți după încasarea unor avansuri.</description>
     </item>
     <item>
@@ -456,14 +464,5 @@
       <category>local</category>
       <source url="https://www.monitorulbt.ro/local/2026/10/16/elevii-din-botosani-la-proba-gustului-patru-licee-participa-la-un-concurs-de-produse-traditionale/">Monitorul de Botoșani</source>
       <description>Un număr de 39 de elevi și 11 profesori de la patru licee tehnologice din Botoșani s-au deplasat la Iași pentru a concura la cea de-a IX-a ediție a competiției „Identificare și atestare produse tradiționale”.</description>
-    </item>
-    <item>
-      <title>Un cerșetor cu mașină de lux a strâns aproape 10.000 de lei la Iași</title>
-      <link>https://izz.ro/local/un-cersetor-cu-masina-de-lux-a-strans-aproape-10-000-de-lei-la-iasi/</link>
-      <guid>https://izz.ro/local/un-cersetor-cu-masina-de-lux-a-strans-aproape-10-000-de-lei-la-iasi/</guid>
-      <pubDate>Fri, 16 Oct 2026 12:43:41 +0000</pubDate>
-      <category>local</category>
-      <source url="https://bizbrasov.ro/2026/10/16/cersetor-masina-lux-pelerinaj-parascheva/">BizBrașov</source>
-      <description>Poliția Locală Iași a depistat un bărbat care apela mila publicului în timpul pelerinajului religios. Acesta obținuse o sumă importantă în doar câteva ore și circula cu un autoturism de valoare ridicată.</description>
     </item>
 </channel></rss>

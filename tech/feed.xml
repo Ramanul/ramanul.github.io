@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 16:58:38 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 19:49:26 +0000</lastBuildDate>
     <item>
       <title>Fondatorul NSO Group lansează o companie de securitate pentru date</title>
       <link>https://izz.ro/tech/fondatorul-nso-group-lanseaza-o-companie-de-securitate-pentru-date/</link>
@@ -15,6 +15,16 @@
       <source url="https://hotnews.ro/de-la-spart-telefoane-la-pazit-secrete-de-stat-noul-pariu-al-cofondatorului-companiei-din-spatele-pegasus-2385619">HotNews</source>
       <media:content url="https://izz.ro/tech/fondatorul-nso-group-lanseaza-o-companie-de-securitate-pentru-date/cover.jpg?v=9461aea9" medium="image" type="image/jpeg"/>
       <description>Shalev Hulio, cofondatorul companiei care a creat programul de spionaj Pegasus, își schimba domeniul de activitate și devine furnizor de protecție pentru secrete guvernamentale.</description>
+    </item>
+    <item>
+      <title>Armata ucraineană anunță restabilirea conexiunii stabile prin sateliții Starlink</title>
+      <link>https://izz.ro/tech/armata-ucraineana-anunta-restabilirea-conexiunii-stabile-prin-satelitii-starlink/</link>
+      <guid>https://izz.ro/tech/armata-ucraineana-anunta-restabilirea-conexiunii-stabile-prin-satelitii-starlink/</guid>
+      <pubDate>Sat, 24 Oct 2026 15:47:20 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions">The Guardian</source>
+      <media:content url="https://izz.ro/tech/armata-ucraineana-anunta-restabilirea-conexiunii-stabile-prin-satelitii-starlink/cover.jpg?v=9f5892b5" medium="image" type="image/jpeg"/>
+      <description>După restricții recente de viteză, armata ucraineană confirmă reluarea unei conexiuni stabile la sistemul Starlink, considerat esențial pentru operațiunile militare, logistica din linia întâi și apărarea aeriană a țării.</description>
     </item>
     <item>
       <title>O vulnerabilitate majoră în limbajul PHP a generat o alertă cibernetică mondială</title>
@@ -35,16 +45,6 @@
       <source url="https://www.profit.ro/povesti-cu-profit/clover-aplicatia-de-cold-email-outreach-intra-in-cursa-pentru-clienti-noi-romflex-sistem-si-media-consulta-international-transforma-prospectarea-b2b-intr-o-strategie-de-crestere-22880624?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <media:content url="https://izz.ro/tech/lansarea-aplicatiei-clover-pentru-automatizarea-prospectarii-b2b/cover.jpg?v=4e7f5b15" medium="image" type="image/jpeg"/>
       <description>Companiile Romflex Sistem și Media Consulta International colaborează pentru lansarea aplicației Clover de cold email outreach, concepută să reducă munca manuală și să crească eficiența vânzărilor B2B.</description>
-    </item>
-    <item>
-      <title>Ucraina beneficiază din nou de o conexiune stabilă la internet prin satelit Starlink</title>
-      <link>https://izz.ro/tech/ucraina-beneficiaza-din-nou-de-o-conexiune-stabila-la-internet-prin-satelit/</link>
-      <guid>https://izz.ro/tech/ucraina-beneficiaza-din-nou-de-o-conexiune-stabila-la-internet-prin-satelit/</guid>
-      <pubDate>Sat, 24 Oct 2026 12:29:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/vecini/ucraina-are-din-nou-o-conexiune-stabila-la-starlink-care-permite-operarea-de-drone-cu-o-viteza-de-400-km-h-22879743?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/tech/ucraina-beneficiaza-din-nou-de-o-conexiune-stabila-la-internet-prin-satelit/cover.jpg?v=4580d0e6" medium="image" type="image/jpeg"/>
-      <description>Sistemul dezvoltat de compania SpaceX a fost optimizat pentru a asigura viteze mari, element esențial în coordonarea eficientă a dronelor militare utilizate pe front.</description>
     </item>
     <item>
       <title>NASA dezvoltă noi rovere pentru viitoarea bază selenară</title>
@@ -173,7 +173,7 @@
       <pubDate>Fri, 23 Oct 2026 15:01:00 +0000</pubDate>
       <category>tech</category>
       <source url="https://observatornews.ro/economic/cel-mai-folosit-cod-pin-pentru-cardurile-bancare-expertii-recomanda-schimbarea-lui-imediata-670118.html">Observator</source>
-      <media:content url="https://izz.ro/tech/avertismentul-expertilor-privind-utilizarea-codurilor-pin-extrem-de-previzibile/cover.jpg?v=18d00550" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/avertismentul-expertilor-privind-utilizarea-codurilor-pin-extrem-de-previzibile/cover.jpg?v=b8890129" medium="image" type="image/jpeg"/>
       <description>O analiză recentă arată că o mare parte din populație folosește combinații numerice extrem de simple pentru cardurile bancare, experții recomandând înlocuirea imediată pentru evitarea furturilor.</description>
     </item>
     <item>
@@ -183,7 +183,7 @@
       <pubDate>Fri, 23 Oct 2026 14:52:27 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/microsoft-context-vault-windows-recall/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/microsoft-testeaza-aplicatia-optionala-context-vault-in-locul-windows-recall/cover.jpg?v=cae9cd18" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/microsoft-testeaza-aplicatia-optionala-context-vault-in-locul-windows-recall/cover.jpg?v=d2148783" medium="image" type="image/jpeg"/>
       <description>Compania americană dezvoltă o nouă variantă a controversatei funcții bazate pe inteligență artificială, concepută ca o aplicație separată și neintegrată obligatoriu în sistemul de operare.</description>
     </item>
     <item>
@@ -193,7 +193,6 @@
       <pubDate>Fri, 23 Oct 2026 12:22:08 +0000</pubDate>
       <category>tech</category>
       <source url="https://gazetadecluj.ro/protejarea-echipamentelor-in-infrastructura-digitala-si-industriala-criterii-pentru-proiecte-mai-reziliente/">Gazeta de Cluj</source>
-      <media:content url="https://izz.ro/tech/criterii-pentru-protejarea-echipamentelor-industriale-si-digitale/cover.jpg?v=12bd89c1" medium="image" type="image/jpeg"/>
       <description>Selectarea corectă a carcaselor și dulapurilor pentru infrastructura digitală și industrială asigură protecția optimă a echipamentelor și facilitează activitățile ulterioare de mentenanță și instalare.</description>
     </item>
     <item>
@@ -203,7 +202,6 @@
       <pubDate>Fri, 23 Oct 2026 12:07:46 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/cumpara-iphone-duo/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/apple-sporeste-productia-pentru-noul-model-iphone-duo/cover.jpg?v=f9086d12" medium="image" type="image/jpeg"/>
       <description>Cererea ridicată din perioada de precomandă pentru noul telefon de generație incipientă a determinat compania Apple să suplimenteze semnificativ comenzile de fabricație transmise partenerului Foxconn din China.</description>
     </item>
     <item>
@@ -213,7 +211,6 @@
       <pubDate>Fri, 23 Oct 2026 12:00:13 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/oppo-find-x10-pro-max-review/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/oppo-find-x10-pro-max-aduce-performante-ridicate-pentru-camere/cover.jpg?v=3e313414" medium="image" type="image/jpeg"/>
       <description>Cel mai recent model flagship testat de la producătorul asiatic confirmă reputația mărcii în domeniul foto-video, oferind imagini de înaltă calitate și funcții avansate de filmare pe dispozitive mobile.</description>
     </item>
     <item>

@@ -5,16 +5,16 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 16:58:31 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 19:49:14 +0000</lastBuildDate>
     <item>
-      <title>Ucraina beneficiază din nou de o conexiune stabilă la internet prin satelit Starlink</title>
-      <link>https://izz.ro/tech/ucraina-beneficiaza-din-nou-de-o-conexiune-stabila-la-internet-prin-satelit/</link>
-      <guid>https://izz.ro/tech/ucraina-beneficiaza-din-nou-de-o-conexiune-stabila-la-internet-prin-satelit/</guid>
-      <pubDate>Sat, 24 Oct 2026 12:29:00 +0000</pubDate>
+      <title>Armata ucraineană anunță restabilirea conexiunii stabile prin sateliții Starlink</title>
+      <link>https://izz.ro/tech/armata-ucraineana-anunta-restabilirea-conexiunii-stabile-prin-satelitii-starlink/</link>
+      <guid>https://izz.ro/tech/armata-ucraineana-anunta-restabilirea-conexiunii-stabile-prin-satelitii-starlink/</guid>
+      <pubDate>Sat, 24 Oct 2026 15:47:20 +0000</pubDate>
       <category>tech</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/vecini/ucraina-are-din-nou-o-conexiune-stabila-la-starlink-care-permite-operarea-de-drone-cu-o-viteza-de-400-km-h-22879743?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/tech/ucraina-beneficiaza-din-nou-de-o-conexiune-stabila-la-internet-prin-satelit/cover.jpg?v=4580d0e6" medium="image" type="image/jpeg"/>
-      <description>Sistemul dezvoltat de compania SpaceX a fost optimizat pentru a asigura viteze mari, element esențial în coordonarea eficientă a dronelor militare utilizate pe front.</description>
+      <source url="https://www.theguardian.com/world/2026/oct/24/ukraine-zelenskyy-military-starlink-satellite-connection-stable-after-restrictions">The Guardian</source>
+      <media:content url="https://izz.ro/tech/armata-ucraineana-anunta-restabilirea-conexiunii-stabile-prin-satelitii-starlink/cover.jpg?v=9f5892b5" medium="image" type="image/jpeg"/>
+      <description>După restricții recente de viteză, armata ucraineană confirmă reluarea unei conexiuni stabile la sistemul Starlink, considerat esențial pentru operațiunile militare, logistica din linia întâi și apărarea aeriană a țării.</description>
     </item>
     <item>
       <title>Terminalele Starlink pentru armata ucraineană revin la viteze maxime</title>
@@ -270,23 +270,5 @@
       <category>extern</category>
       <source url="https://www.dw.com/en/ukraine-allies-in-poland-after-starlink-sabotage-trump-diesel-deal/a-79653869?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
       <description>Oficialii europeni avertizează că incidentele de securitate recente, precum sabotarea rețelei Starlink, demonstrează vulnerabilitatea Europei. În paralel, deciziile legate de importurile de combustibil generează tensiuni diplomatice majore.</description>
-    </item>
-    <item>
-      <title>Doi turci reținuți în Germania pentru incendiul de la stația Starlink din Polonia</title>
-      <link>https://izz.ro/extern/doi-turci-retinuti-in-germania-pentru-incendiul-de-la-statia-starlink-din/</link>
-      <guid>https://izz.ro/extern/doi-turci-retinuti-in-germania-pentru-incendiul-de-la-statia-starlink-din/</guid>
-      <pubDate>Mon, 12 Oct 2026 19:08:01 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://hotnews.ro/turci-retinuti-in-germania-dupa-incendiul-de-la-statia-starlink-din-polonia-varsovia-invinovateste-rusia-2374178">HotNews</source>
-      <description>Autoritățile din Germania au reținut doi cetățeni turci implicați în incendierea unei stații Starlink pe teritoriul Poloniei. Varșovia atribuie incidentul acțiunilor hibride rusești în Europa.</description>
-    </item>
-    <item>
-      <title>Doi cetățeni turci au fost arestați în Germania pentru sabotarea unei stații Starlink</title>
-      <link>https://izz.ro/extern/doi-cetateni-turci-au-fost-arestati-in-germania-pentru-sabotarea-unei-statii/</link>
-      <guid>https://izz.ro/extern/doi-cetateni-turci-au-fost-arestati-in-germania-pentru-sabotarea-unei-statii/</guid>
-      <pubDate>Mon, 12 Oct 2026 18:05:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.dw.com/en/poland-reports-arrests-of-2-turkish-citizens-in-germany-in-connection-with-starlink-station-fire-last-month/a-79646138?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <description>Autoritățile poloneze au anunțat reținerea a doi cetățeni turci pe teritoriul Germaniei, acuzați de implicare în incendierea unei stații Starlink. Prim-ministrul Donald Tusk a calificat incidentul drept un act de război hibrid.</description>
     </item>
 </channel></rss>

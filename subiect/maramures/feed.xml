@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/maramures/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Maramureș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 16:58:31 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 19:49:14 +0000</lastBuildDate>
     <item>
       <title>Asociația ASSOC oferă cursuri gratuite de calificare și sprijin financiar tinerilor șomeri din Maramureș</title>
       <link>https://izz.ro/judetean/asociatia-assoc-ofera-cursuri-gratuite-de-calificare-si-sprijin-financiar/</link>
@@ -15,6 +15,16 @@
       <source url="https://www.emaramures.ro/cursuri-gratuite-de-calificare-pentru-tinerii-din-maramures-participantii-primesc-si-bani-pentru-orele-de-formare/">eMaramureș</source>
       <media:content url="https://izz.ro/judetean/asociatia-assoc-ofera-cursuri-gratuite-de-calificare-si-sprijin-financiar/cover.jpg?v=01ff9041" medium="image" type="image/jpeg"/>
       <description>Tinerii din Maramureș care nu au un loc de muncă sau nu studiază se pot înscrie la programul de formare profesională ca tâmplar artizanal. Proiectul derulat de Asociația ASSOC le oferă participanților atât instruire gratuită, cât și bani pe perioada...</description>
+    </item>
+    <item>
+      <title>Un polițist din Maramureș aflat în timpul liber a prins un suspect de furt</title>
+      <link>https://izz.ro/local/un-politist-din-maramures-aflat-in-timpul-liber-a-prins-un-suspect-de-furt/</link>
+      <guid>https://izz.ro/local/un-politist-din-maramures-aflat-in-timpul-liber-a-prins-un-suspect-de-furt/</guid>
+      <pubDate>Sat, 24 Oct 2026 15:49:33 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.emaramures.ro/spirit-de-observatie-si-reactie-rapida-politist-din-maramures-aflat-in-timpul-liber-a-prins-un-suspect-de-furt-in-baia-mare/">eMaramureș</source>
+      <media:content url="https://izz.ro/local/un-politist-din-maramures-aflat-in-timpul-liber-a-prins-un-suspect-de-furt/cover.jpg?v=a3cbcc48" medium="image" type="image/jpeg"/>
+      <description>Un luptător din cadrul Serviciului pentru Acțiuni Speciale Maramureș a depistat pe o stradă din Baia Mare un bărbat bănuit de comiterea unei infracțiuni de furt calificat, acționând prompt.</description>
     </item>
     <item>
       <title>Șoferi depistați cu alcoolemie ridicată în trafic, în Maramureș</title>
@@ -83,7 +93,6 @@
       <pubDate>Fri, 23 Oct 2026 12:53:40 +0000</pubDate>
       <category>judetean</category>
       <source url="https://www.emaramures.ro/patrulele-scolare-in-prima-linie-a-sigurantei-rutiere-pentru-copiii-din-maramures/">eMaramureș</source>
-      <media:content url="https://izz.ro/judetean/politia-rutiera-din-maramures-utilizeaza-patrule-scolare-pentru-siguranta/cover.jpg?v=d535ff34" medium="image" type="image/jpeg"/>
       <description>Inspectoratul de Poliție Județean Maramureș desfășoară acțiuni preventive cu ajutorul elevilor implicați în patrulele școlare. Demersul urmărește reducerea riscului de accidente și educarea practicii rutiere în rândul copiilor.</description>
     </item>
     <item>
@@ -445,14 +454,5 @@
       <category>judetean</category>
       <source url="https://www.emaramures.ro/controale-roadpol-in-maramures-54-de-soferi-foloseau-telefonul-la-volan-iar-alte-354-de-abateri-au-vizat-centura/">eMaramureș</source>
       <description>În cadrul operațiunii rutiere ROADPOL desfășurate între 5 și 11 octombrie, polițiștii din Maramureș au depistat 54 de conducători auto care foloseau telefonul mobil și alte 354 de abateri legate de nefolosirea centurii.</description>
-    </item>
-    <item>
-      <title>Jandarmii din Maramureș au salvat o turistă din Belgia rătăcită în Munții Rodnei</title>
-      <link>https://izz.ro/judetean/jandarmii-din-maramures-au-salvat-o-turista-din-belgia-ratacita-in-muntii-rodnei/</link>
-      <guid>https://izz.ro/judetean/jandarmii-din-maramures-au-salvat-o-turista-din-belgia-ratacita-in-muntii-rodnei/</guid>
-      <pubDate>Mon, 12 Oct 2026 17:00:50 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://www.emaramures.ro/turista-din-belgia-ratacita-in-muntii-rodnei-jandarmii-maramureseni-au-intervenit-si-au-aplicat-amenzi-de-aproape-6-000-de-lei/">eMaramureș</source>
-      <description>În perioada 9-11 octombrie 2026, jandarmii maramureșeni au intervenit în zeci de cazuri de urgență montană. Printre acestea s-a remarcat salvarea unei turiste belgiene rătăcite într-o zonă inaccesibilă din Munții Rodnei, acțiune urmată de aplicarea unor amenzi considerabile.</description>
     </item>
 </channel></rss>
