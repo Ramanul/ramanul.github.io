@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 07:40:06 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
     <item>
       <title>Lansarea plăcii video NVIDIA GeForce RTX 6060 ar putea fi amânată</title>
       <link>https://izz.ro/tech/lansarea-placii-video-nvidia-geforce-rtx-6060-ar-putea-fi-amanata/</link>
@@ -158,14 +158,5 @@
       <category>tech</category>
       <source url="https://zonait.ro/rtx-5090-nvidia-rtx-5080/">ZonaIT</source>
       <description>Surse din industrie anunță că NVIDIA ar putea sista fabricarea seriei de plăci video RTX 5090 pentru a redirecționa liniile de producție exclusiv către gama profesională RTX PRO, lăsând cumpărătorii fără un înlocuitor direct pe piață.</description>
-    </item>
-    <item>
-      <title>Un programator a lansat HelixSR pentru a rula DLSS 3.7 pe plăci AMD Radeon</title>
-      <link>https://izz.ro/tech/un-programator-a-lansat-helixsr-pentru-a-rula-dlss-3-7-pe-placi-amd-radeon/</link>
-      <guid>https://izz.ro/tech/un-programator-a-lansat-helixsr-pentru-a-rula-dlss-3-7-pe-placi-amd-radeon/</guid>
-      <pubDate>Mon, 12 Oct 2026 12:19:19 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/12/un-modder-aduce-dlss-3-7-pe-placile-video-amd-radeon/">Connect.ro</source>
-      <description>Dezvoltatorul aplicației HelixSR a extins funcționalitatea programului, permițând utilizatorilor de plăci video AMD Radeon să beneficieze de tehnologia DLSS 3.7, depășind limitările implementării native FSR oferite de AMD.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/openai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre OpenAI pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 07:40:06 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI va antrena modelele avansate de inteligență artificială în rețele izolate</title>
+      <link>https://izz.ro/ai/openai-va-antrena-modelele-avansate-de-inteligenta-artificiala-in-retele-izolate/</link>
+      <guid>https://izz.ro/ai/openai-va-antrena-modelele-avansate-de-inteligenta-artificiala-in-retele-izolate/</guid>
+      <pubDate>Sat, 24 Oct 2026 09:37:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.profit.ro/romania-conectata/openai-va-antrena-modelele-de-top-fara-acces-la-internet-22878986?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/ai/openai-va-antrena-modelele-avansate-de-inteligenta-artificiala-in-retele-izolate/cover.jpg?v=7cd93185" medium="image" type="image/jpeg"/>
+      <description>Compania OpenAI a anunțat că următoarea generație de sisteme de inteligență artificială de performanță înaltă va fi antrenată în medii complet lipsite de conexiune la internet.</description>
+    </item>
     <item>
       <title>OpenAI și Anthropic introduc watermark-uri pentru conținutul generat de AI</title>
       <link>https://izz.ro/ai/openai-si-anthropic-introduc-watermark-uri-pentru-continutul-generat-de-ai/</link>
@@ -104,14 +114,5 @@
       <category>ai</category>
       <source url="https://www.g4media.ro/meta-a-prezentat-un-nou-model-de-ai-despre-care-sustine-ca-este-la-nivelul-openai-si-anthropic.html">G4Media, Antena 3 CNN</source>
       <description>Meta a prezentat sistemul de inteligență artificială Muse Wonder, conceput pentru a concura direct cu tehnologiile dezvoltate de OpenAI și Anthropic. Noua soluție este destinată susținerii agenților autonomi și poziționează compania în fruntea inovațiilor din domeniu.</description>
-    </item>
-    <item>
-      <title>OpenAI pregătește lansarea propriilor telefoane mobile cu inteligență artificială</title>
-      <link>https://izz.ro/ai/openai-pregateste-lansarea-propriilor-telefoane-mobile-cu-inteligenta/</link>
-      <guid>https://izz.ro/ai/openai-pregateste-lansarea-propriilor-telefoane-mobile-cu-inteligenta/</guid>
-      <pubDate>Mon, 12 Oct 2026 10:18:01 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/openai-smartphone/">ZonaIT</source>
-      <description>Compania dezvoltatoare de tehnologie intenționează să intre pe piața dispozitivelor mobile pentru a concura direct cu giganții Apple și Samsung, valorificându-și propriile capabilități avansate de AI.</description>
     </item>
 </channel></rss>

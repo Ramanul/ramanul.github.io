@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/germania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Germania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 07:40:06 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
+    <item>
+      <title>Incendiu la „Cuibul Vulturului” din Germania, un suspect reținut</title>
+      <link>https://izz.ro/extern/incendiu-la-cuibul-vulturului-din-germania-un-suspect-retinut/</link>
+      <guid>https://izz.ro/extern/incendiu-la-cuibul-vulturului-din-germania-un-suspect-retinut/</guid>
+      <pubDate>Sat, 24 Oct 2026 07:49:26 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.aradon.ro/mapamond/incendiu-la-cuibul-vulturului-al-lui-hitler-in-germania-un-suspect-a-fost-arestat-2263569/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">ARADON</source>
+      <media:content url="https://izz.ro/extern/incendiu-la-cuibul-vulturului-din-germania-un-suspect-retinut/cover.jpg?v=6e3ed773" medium="image" type="image/jpeg"/>
+      <description>Aproape 200 de pompieri au intervenit în Germania pentru a stinge un incendiu izbucnit la fosta cabană a lui Hitler din Berchtesgaden. Un suspect a fost plasat în arest preventiv, fără a se înregistra răniți.</description>
+    </item>
     <item>
       <title>Germania și România adoptă poziții divergente privind acordul UE-Canada</title>
       <link>https://izz.ro/extern/germania-si-romania-adopta-pozitii-divergente-privind-acordul-ue-canada/</link>
@@ -63,7 +73,6 @@
       <pubDate>Fri, 23 Oct 2026 09:22:21 +0000</pubDate>
       <category>local</category>
       <source url="https://www.dobrogeaonline.ro/masina-de-lux-evaluata-la-peste-un-milion-de-lei-si-cautata-de-autoritatile-germane-gasita-la-calafat/">Dobrogea Online, Observator</source>
-      <media:content url="https://izz.ro/local/masina-de-lux-cautata-in-germania-descoperita-de-politistii-de-frontiera-la/cover.jpg?v=b1d4cdc4" medium="image" type="image/jpeg"/>
       <description>Polițiștii de frontieră și cei din municipiul Calafat au oprit pentru control un autoturism înmatriculat în Germania, condus de un cetățean bulgar de 59 de ani. Verificările au arătat că vehiculul, evaluat la peste un milion de lei, figura în bazele de date internaționale ca bun căutat în vederea confiscării de către autoritățile germane.</description>
     </item>
     <item>
@@ -452,14 +461,5 @@
       <category>cultura</category>
       <source url="https://adevarul.ro/stiri-externe/europa/scandal-in-germania-romanul-despre-iubirea-dintre-2564721.html">Adevărul, Antena 3 CNN</source>
       <description>O editură germană a decis suspendarea publicării unui roman care descria o poveste de dragoste fictivă între un soldat rus și o femeie ucraineană din Herson. Măsura a fost luată înainte de lansarea programată pentru 1 noiembrie, în urma criticilor publice care au acuzat că volumul ar romantiza conflictul armat.</description>
-    </item>
-    <item>
-      <title>Presa din Germania a analizat situația lui Ianis Stoica</title>
-      <link>https://izz.ro/sport/presa-din-germania-a-analizat-situatia-lui-ianis-stoica/</link>
-      <guid>https://izz.ro/sport/presa-din-germania-a-analizat-situatia-lui-ianis-stoica/</guid>
-      <pubDate>Sat, 17 Oct 2026 13:20:15 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.sport.ro/fotbal-extern/nemtii-au-dat-verdictul-cum-a-fost-descris-ianis-stoica-in-presa-din-germania-dupa-interesul-din-bundesliga.html">Sport.ro</source>
-      <description>Jurnaliștii germani au acordat un spațiu amplu unui material dedicat fotbalistului român Ianis Stoica, în contextul interesului manifestat de cluburile din campionatul de fotbal Bundesliga.</description>
     </item>
 </channel></rss>

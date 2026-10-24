@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/volodimir-zelenski/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Volodimir Zelenski pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 07:40:06 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
+    <item>
+      <title>Terminalele Starlink pentru armata ucraineană revin la viteze maxime</title>
+      <link>https://izz.ro/extern/terminalele-starlink-pentru-armata-ucraineana-revin-la-viteze-maxime/</link>
+      <guid>https://izz.ro/extern/terminalele-starlink-pentru-armata-ucraineana-revin-la-viteze-maxime/</guid>
+      <pubDate>Sat, 24 Oct 2026 09:02:17 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/starlink-revine-la-viteza-maxima-pentru-armata-ucraineana-ce-s-a-schimbat-dupa-criticile-lui-zelenski-si-negocierile-cu-sua-4006991">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/terminalele-starlink-pentru-armata-ucraineana-revin-la-viteze-maxime/cover.jpg?v=7cd97a47" medium="image" type="image/jpeg"/>
+      <description>Ministerul Apărării de la Kiev a confirmat reluarea funcționării serviciului Starlink la viteze de peste 160 km/h. Această revenire survine în urma criticilor publice formulate de președintele Volodimir Zelenski și a negocierilor cu partea americană.</description>
+    </item>
+    <item>
+      <title>Forțele de apărare ale Ucrainei anunță că serviciul Starlink funcționează din nou fără restricții de viteză</title>
+      <link>https://izz.ro/general/fortele-de-aparare-ale-ucrainei-anunta-ca-serviciul-starlink-functioneaza-din/</link>
+      <guid>https://izz.ro/general/fortele-de-aparare-ale-ucrainei-anunta-ca-serviciul-starlink-functioneaza-din/</guid>
+      <pubDate>Sat, 24 Oct 2026 08:48:51 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.aradon.ro/mapamond/kievul-anunta-ca-starlink-functioneaza-din-nou-fara-restrictii-2263857/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">ARADON, Economica</source>
+      <media:content url="https://izz.ro/general/fortele-de-aparare-ale-ucrainei-anunta-ca-serviciul-starlink-functioneaza-din/cover.jpg?v=49c5595b" medium="image" type="image/jpeg"/>
+      <description>Armata ucraineană continuă să monitorizeze și să testeze conexiunea la viteze mai mari pentru a stabili limitele superioare. Președintele Zelenski și-a exprimat regretul că limitele de viteză apărute brusc au afectat operațiunile militare. Președintele american Donald Trump a afirmat că directorul executiv al SpaceX, Elon Musk, a restabilit funcțiile complete ale serviciului militar.</description>
+    </item>
     <item>
       <title>Zelenski îi cere lui Trump să nu ridice sancțiunile impuse Rusiei</title>
       <link>https://izz.ro/extern/zelenski-ii-cere-lui-trump-sa-nu-ridice-sanctiunile-impuse-rusiei/</link>
@@ -437,23 +457,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/cnn-ucraina-a-ramas-fara-rachete-patriot-chiar-in-momentul-in-care-zelenski-se-cearta-cu-trump-807415.html">Antena 3 CNN</source>
       <description>Autoritățile de la Kiev au epuizat stocurile de rachete interceptoare pentru sistemele de apărare antiaeriană Patriot, devenind astfel extrem de vulnerabile în fața atacurilor balistice rusești.</description>
-    </item>
-    <item>
-      <title>Rusia acuză Ucraina de un atac cu dronă asupra unei rafinării din Riazan</title>
-      <link>https://izz.ro/extern/rusia-acuza-ucraina-de-un-atac-cu-drona-asupra-unei-rafinarii-din-riazan/</link>
-      <guid>https://izz.ro/extern/rusia-acuza-ucraina-de-un-atac-cu-drona-asupra-unei-rafinarii-din-riazan/</guid>
-      <pubDate>Thu, 15 Oct 2026 18:02:06 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/rusia/rusia-acuza-ucraina-de-un-atac-masiv-asupra-unei-rafinarii-dupa-ce-zelenski-a-anuntat-reluarea-loviturilor-am-incheiat-o-cu-asta-3994419">Digi24 Extern</source>
-      <description>Moscova a incriminat Kievul pentru un bombardament masiv asupra infrastructurii energetice rusești. Incidentul a survenit imediat după ce președintele ucrainean a anunțat reluarea ofensivei împotriva obiectivelor petroliere.</description>
-    </item>
-    <item>
-      <title>Volodimir Zelenski îi răspunde Marinei Le Pen privind reducerea ajutorului pentru Ucraina</title>
-      <link>https://izz.ro/extern/volodimir-zelenski-ii-raspunde-marinei-le-pen-privind-reducerea-ajutorului/</link>
-      <guid>https://izz.ro/extern/volodimir-zelenski-ii-raspunde-marinei-le-pen-privind-reducerea-ajutorului/</guid>
-      <pubDate>Thu, 15 Oct 2026 14:26:16 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/volodymyr-zelenskyy-marine-le-pen-pledge-cut-financial-aid-ukraine/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Președintele ucrainean Volodimir Zelenski a declarat că Europa beneficiază de pe urma experienței de securitate oferite de Ucraina, replicând astfel promisiunilor făcute de politicianul francez de extremă dreaptă Marine Le Pen.</description>
     </item>
 </channel></rss>

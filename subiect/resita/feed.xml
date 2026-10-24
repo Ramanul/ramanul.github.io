@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/resita/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Reșița pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 07:40:06 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
+    <item>
+      <title>Lucrări de infrastructură și igienizare în Reșița</title>
+      <link>https://izz.ro/local/lucrari-de-infrastructura-si-igienizare-in-resita/</link>
+      <guid>https://izz.ro/local/lucrari-de-infrastructura-si-igienizare-in-resita/</guid>
+      <pubDate>Sat, 24 Oct 2026 11:35:22 +0000</pubDate>
+      <category>local</category>
+      <source url="https://resita.ro/asfaltari-curatenie-si-primele-luminite-de-sarbatori-pe-unde-s-a-lucrat-in-resita-in-aceasta-saptamana/">Reșița.ro</source>
+      <media:content url="https://izz.ro/local/lucrari-de-infrastructura-si-igienizare-in-resita/cover.jpg?v=e981abec" medium="image" type="image/jpeg"/>
+      <description>Primăria Reșița a continuat lucrările de asfaltare pe mai multe străzi din oraș, alături de acțiuni de curățenie și montare a primelor ornamente festive pentru perioada sărbătorilor.</description>
+    </item>
     <item>
       <title>Comparație satirică între iarna din România și vremea caldă din Zanzibar</title>
       <link>https://izz.ro/lifestyle/comparatie-satirica-intre-iarna-din-romania-si-vremea-calda-din-zanzibar/</link>
@@ -53,7 +63,7 @@
       <pubDate>Fri, 23 Oct 2026 09:48:54 +0000</pubDate>
       <category>local</category>
       <source url="https://caon.ro/resita-cea-mai-moderna-flota-de-transport-public-din-tara/2448301/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=resita-cea-mai-moderna-flota-de-transport-public-din-tara">Caon.ro</source>
-      <media:content url="https://izz.ro/local/resita-detine-cea-mai-moderna-flota-de-transport-public-din-romania-conform/cover.jpg?v=41f3816d" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/resita-detine-cea-mai-moderna-flota-de-transport-public-din-romania-conform/cover.jpg?v=38d14d00" medium="image" type="image/jpeg"/>
       <description>Performanța sistemului de transport din Reșița a fost evidențiată în cadrul celei de-a XXI-a ediții a evenimentului „Zilele Feroviare”, desfășurat la București cu participarea a sute de experți.</description>
     </item>
     <item>
@@ -73,7 +83,6 @@
       <pubDate>Fri, 23 Oct 2026 07:26:57 +0000</pubDate>
       <category>politic</category>
       <source url="https://expressdebanat.ro/popovici-despre-procesul-cu-nelu-popa-nu-sunt-de-vanzare/">Express de Banat</source>
-      <media:content url="https://izz.ro/politic/ionut-popovici-infirma-orice-intelegere-politica-in-procesul-cu-primarul-resitei/cover.jpg?v=214af7b1" medium="image" type="image/jpeg"/>
       <description>Conflictul juridic dintre Ionuț Popovici și edilul Nelu Popa va continua în instanță. Acesta a respins speculațiile publice privind o posibilă împăcare, subliniind că promovarea unui concurs profesional nu are conotații politice.</description>
     </item>
     <item>
@@ -291,23 +300,5 @@
       <category>local</category>
       <source url="https://expressdebanat.ro/strada-zimbrului-din-resita-ramane-fara-apa-avarie/">Express de Banat</source>
       <description>Compania Aquacaraș a sistat temporar alimentarea cu apă pe strada Zimbrului din Reșița, începând cu ora 09:30, pentru a remedia o defecțiune la conducta principală de distribuție.</description>
-    </item>
-    <item>
-      <title>Primăria Reșița modernizează o fostă școală cu fonduri europene de 19 milioane lei</title>
-      <link>https://izz.ro/local/primaria-resita-modernizeaza-o-fosta-scoala-cu-fonduri-europene-de-19-milioane/</link>
-      <guid>https://izz.ro/local/primaria-resita-modernizeaza-o-fosta-scoala-cu-fonduri-europene-de-19-milioane/</guid>
-      <pubDate>Mon, 12 Oct 2026 10:58:25 +0000</pubDate>
-      <category>local</category>
-      <source url="https://expressdebanat.ro/viceprimarul-resitei-ne-apropiem-de-obiectivul-pe-care-ni-l-am-asumat-de-a-reabilita-toate-unitatile-de-invatamant/">Express de Banat</source>
-      <description>Administrația locală din Reșița se apropie de finalizarea obiectivului de reabilitare a tuturor școlilor din oraș, începând lucrările la fosta școală nr. 12 cu finanțare europeană nerambursabilă.</description>
-    </item>
-    <item>
-      <title>Locuitorii de pe o stradă din Reșița rămân fără apă din cauza unei avarii</title>
-      <link>https://izz.ro/local/locuitorii-de-pe-o-strada-din-resita-raman-fara-apa-din-cauza-unei-avarii/</link>
-      <guid>https://izz.ro/local/locuitorii-de-pe-o-strada-din-resita-raman-fara-apa-din-cauza-unei-avarii/</guid>
-      <pubDate>Mon, 12 Oct 2026 08:13:01 +0000</pubDate>
-      <category>local</category>
-      <source url="https://expressdebanat.ro/o-strada-din-resita-ramane-fara-apa-avarie/">Express de Banat</source>
-      <description>Compania Aquacaraș execută lucrări de urgență pentru remedierea unei defecțiuni apărute la conducta principală, furnizarea apei fiind oprită temporar pe strada Grădinilor din Oravița.</description>
     </item>
 </channel></rss>

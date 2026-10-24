@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/fiorentina/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Fiorentina pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 07:40:06 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
+    <item>
+      <title>Jurnaliștii sportivi italieni prevăd două victorii pentru Inter</title>
+      <link>https://izz.ro/sport/jurnalistii-sportivi-italieni-prevad-doua-victorii-pentru-inter/</link>
+      <guid>https://izz.ro/sport/jurnalistii-sportivi-italieni-prevad-doua-victorii-pentru-inter/</guid>
+      <pubDate>Sat, 24 Oct 2026 12:14:44 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/serie-a/caressa-zazzaroni-inter-fiorentina-venezia/">FC Inter 1908</source>
+      <media:content url="https://izz.ro/sport/jurnalistii-sportivi-italieni-prevad-doua-victorii-pentru-inter/cover.jpg?v=4b3f6db1" medium="image" type="image/jpeg"/>
+      <description>Specialiștii Ivan Zazzaroni și Fabio Caressa au analizat meciurile echipei Inter Milano cu Fiorentina și Venezia, estimând că nerazzurrii vor obține succese în ambele partide.</description>
+    </item>
     <item>
       <title>Cristian Chivu pregătește schimbări majore pentru meciul Inter - Fiorentina</title>
       <link>https://izz.ro/sport/cristian-chivu-pregateste-schimbari-majore-pentru-meciul-inter-fiorentina/</link>
@@ -73,7 +83,6 @@
       <pubDate>Fri, 23 Oct 2026 08:30:12 +0000</pubDate>
       <category>sport</category>
       <source url="https://www.fcinter1908.it/news/rassegna-stampa/inter-difesa-turnover/">FC Inter 1908</source>
-      <media:content url="https://izz.ro/sport/antrenorul-simone-inzaghi-se-confrunta-cu-absente-majore-in-apararea-echipei/cover.jpg?v=9f0e1844" medium="image" type="image/jpeg"/>
       <description>Formația Inter Milano pregătește partida din campionat împotriva Fiorentinei cu opțiuni defensive extrem de limitate, din cauza suspendărilor și problemelor de lot din linia de fund.</description>
     </item>
     <item>
@@ -138,14 +147,5 @@
       <category>sport</category>
       <source url="https://www.fcinter1908.it/calciomercato/mercato-inter/corvino-retroscena-inter-mercato/">FC Inter 1908</source>
       <description>Fostul oficial Pantaleo Corvino a povestit cum transferul atacantului Luca Toni la Inter era deja perfectat pe aeroportul din Verona pentru 25 de milioane de euro, dar a căzut din cauza izbucnirii scandalului Calciopoli.</description>
-    </item>
-    <item>
-      <title>Radu Drăgușin este printre cei mai slabi jucători din Serie A</title>
-      <link>https://izz.ro/sport/radu-dragusin-este-printre-cei-mai-slabi-jucatori-din-serie-a/</link>
-      <guid>https://izz.ro/sport/radu-dragusin-este-printre-cei-mai-slabi-jucatori-din-serie-a/</guid>
-      <pubDate>Mon, 12 Oct 2026 09:02:46 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.gsp.ro/international/campionate/radu-dragusin-fiorentina-in-topul-rusinii-serie-a-loc-384-media-notelor-daniel-barligea-frosinone-159-987144.html">GSP</source>
-      <description>După primele șase etape din campionatul italian, fundașul Radu Drăgușin se află în partea inferioară a clasamentului întocmit de presă pe baza mediilor notelor primite pentru evoluțiile de la Fiorentina, în timp ce Daniel Bîrligea ocupă o poziție mediană.</description>
     </item>
 </channel></rss>

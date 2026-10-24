@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/bacau/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bacău pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 07:40:06 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
     <item>
       <title>Fondatorii unui service auto self-service din Iași plănuiesc extinderea națională</title>
       <link>https://izz.ro/local/fondatorii-unui-service-auto-self-service-din-iasi-planuiesc-extinderea/</link>
@@ -25,16 +25,6 @@
       <source url="https://www.desteptarea.ro/forte-suplimentare-de-ordine-la-festivalul-toamnei-din-bacau-jandarmii-si-politistii-mobilizati-in-zona-centrala/">Desteptarea.ro</source>
       <media:content url="https://izz.ro/local/jandarmii-si-politistii-suplimenteaza-efectivele-la-festivalul-toamnei-din-bacau/cover.jpg?v=673e6ab6" medium="image" type="image/jpeg"/>
       <description>Forțele de ordine din Bacău suplimentează efectivele în zona centrală pe parcursul a trei zile, pentru a preveni incidentele și a asigura siguranța cetățenilor prezenți la Festivalul Toamnei.</description>
-    </item>
-    <item>
-      <title>Stadiul lucrărilor pe lotul Săucești – Trifești al autostrăzii Bacău – Pașcani</title>
-      <link>https://izz.ro/local/lucrari-in-ploaie-pe-lotul-1-al-autostrazii-bacau-pascani/</link>
-      <guid>https://izz.ro/local/lucrari-in-ploaie-pe-lotul-1-al-autostrazii-bacau-pascani/</guid>
-      <pubDate>Fri, 23 Oct 2026 13:29:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.economica.net/autostrada-a7-bacau-pascani-20_988745.html">Economica, Profit.ro, ZCH News, Desteptarea.ro</source>
-      <media:content url="https://izz.ro/local/lucrari-in-ploaie-pe-lotul-1-al-autostrazii-bacau-pascani/cover.jpg?v=93fed7ab" medium="image" type="image/jpeg"/>
-      <description>Constructorul continuă lucrările în ciuda vremii ploioase. Echipele execută lucrări în zona nodurilor rutiere Filipești, Secuienii Noi și Onișcani.</description>
     </item>
     <item>
       <title>Consiliul Județean Bacău reziliază contracte de transport pentru curse neefectuate</title>
@@ -226,5 +216,14 @@
       <category>local</category>
       <source url="https://www.antena3.ro/actualitate/cnair-cere-bani-de-la-guvern-pentru-a-continua-lucrarile-pe-lotul-1-al-tronsonului-bacau-pascani-de-pe-a7-nu-mai-e-finantat-prin-pnrr-807219.html">Antena 3 CNN</source>
       <description>Compania Națională de Administrare a Infrastructurii Rutiere cere alocări de la bugetul de stat pentru continuarea șantierului de pe lotul 1 al A7, stadiul fizic apropiindu-se de șapte zeci la sută după ce finanțarea europeană prin PNRR a expirat.</description>
+    </item>
+    <item>
+      <title>CNAIR anunță stadiu avansat pe Lotul 1 al Autostrăzii Bacău - Pașcani</title>
+      <link>https://izz.ro/local/cnair-anunta-stadiu-avansat-pe-lotul-1-al-autostrazii-bacau-pascani/</link>
+      <guid>https://izz.ro/local/cnair-anunta-stadiu-avansat-pe-lotul-1-al-autostrazii-bacau-pascani/</guid>
+      <pubDate>Wed, 14 Oct 2026 13:13:54 +0000</pubDate>
+      <category>local</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/lotul-1-de-pe-autostrada-moldovei-se-apropie-de-finalizare-de-ce-depinde-deschiderea-circulatiei-pana-la-finalul-anului.html">Știrile ProTV</source>
+      <description>Lucrările pe primul lot al Autostrăzii Moldovei au depășit pragul de 70%, constructorul mobilizând numeroși muncitori pentru a finaliza infrastructura rutieră până la sfârșitul acestui an.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/ministerul-sanatatii/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ministerul Sănătății pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 07:40:06 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
+    <item>
+      <title>Ministrul Sănătății a inspectat șantierul Spitalului Regional din Iași</title>
+      <link>https://izz.ro/local/ministrul-sanatatii-a-inspectat-santierul-spitalului-regional-din-iasi/</link>
+      <guid>https://izz.ro/local/ministrul-sanatatii-a-inspectat-santierul-spitalului-regional-din-iasi/</guid>
+      <pubDate>Sat, 24 Oct 2026 11:31:16 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.bzi.ro/ministrul-sanatatii-alexandru-rogobete-a-ajuns-in-santierul-spital-regional-de-urgenta-5629735">BZI Iași</source>
+      <media:content url="https://izz.ro/local/ministrul-sanatatii-a-inspectat-santierul-spitalului-regional-din-iasi/cover.jpg?v=e4ed9b7e" medium="image" type="image/jpeg"/>
+      <description>Alexandru Rogobete s-a deplasat la Iași pentru a evalua stadiul actual al lucrărilor de construcție la noua unitate medicală regională de urgență programată în oraș.</description>
+    </item>
     <item>
       <title>Ministerul Sănătății mută 150 de milioane de lei pentru Ambulanță și UPU</title>
       <link>https://izz.ro/sanatate/ministerul-sanatatii-muta-150-de-milioane-de-lei-pentru-ambulanta-si-upu/</link>
@@ -13,7 +23,6 @@
       <pubDate>Fri, 23 Oct 2026 07:50:44 +0000</pubDate>
       <category>sanatate</category>
       <source url="https://www.bihon.ro/stirile-judetului-bihor/150-de-milioane-de-lei-pentru-upu-si-ambulanta-luati-temporar-din-alte-proiecte-solutia-de-avarie-a-ministerului-sanatatii-5441304/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
-      <media:content url="https://izz.ro/sanatate/ministerul-sanatatii-muta-150-de-milioane-de-lei-pentru-ambulanta-si-upu/cover.jpg?v=ce041d68" medium="image" type="image/jpeg"/>
       <description>Guvernul a alocat fonduri suplimentare de la alte proiecte pentru a asigura funcționarea serviciilor de urgență și a ambulanțelor, după ce bugetul inițial s-a dovedit insuficient pentru acoperirea costurilor curente.</description>
     </item>
     <item>
@@ -240,14 +249,5 @@
       <category>local</category>
       <source url="https://mytex.ro/sanatate/gripa-bate-la-usa-unde-te-poti-vaccina-direct-in-farmaciile-din-brasov-harta-interactiva/">MyTex</source>
       <description>Noul vaccin antigripal pentru sezonul viitor este disponibil în 22 de farmacii autorizate din județul Brașov, unde pacienții se pot imuniza direct de la personalul farmaceutic.</description>
-    </item>
-    <item>
-      <title>Ministerul Sănătății recomandă începerea vaccinării antigripale odată cu venirea frigului</title>
-      <link>https://izz.ro/sanatate/ministerul-sanatatii-recomanda-inceperea-vaccinarii-antigripale-odata-cu/</link>
-      <guid>https://izz.ro/sanatate/ministerul-sanatatii-recomanda-inceperea-vaccinarii-antigripale-odata-cu/</guid>
-      <pubDate>Mon, 12 Oct 2026 08:55:25 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://zch.ro/debutul-sezonului-rece-care-este-perioada-de-administrare-a-vaccinului-antigripal/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
-      <description>Odată cu scăderea temperaturilor din a doua jumătate a lunii octombrie, autoritățile medicale recomandă populației vulnerabile să se imunizeze împotriva gripei sezoniere.</description>
     </item>
 </channel></rss>

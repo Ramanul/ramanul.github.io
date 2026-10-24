@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Piatra Neamț — IZZ.ro</title>
+  <title>Piatra-Neamț — IZZ.ro</title>
   <link>https://izz.ro/subiect/piatra-neamt/</link>
   <atom:link href="https://izz.ro/subiect/piatra-neamt/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Piatra Neamț pe IZZ.ro</description>
+  <description>Știri despre Piatra-Neamț pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 07:40:06 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
+    <item>
+      <title>O femeie a fost rănită într-un accident rutier produs în localitatea Costișa</title>
+      <link>https://izz.ro/local/o-femeie-a-fost-ranita-intr-un-accident-rutier-produs-in-localitatea-costisa/</link>
+      <guid>https://izz.ro/local/o-femeie-a-fost-ranita-intr-un-accident-rutier-produs-in-localitatea-costisa/</guid>
+      <pubDate>Sat, 24 Oct 2026 11:29:04 +0000</pubDate>
+      <category>local</category>
+      <source url="https://monitorulneamt.ro/pieton-ajuns-la-spital/">Monitorul de Neamț</source>
+      <media:content url="https://izz.ro/local/o-femeie-a-fost-ranita-intr-un-accident-rutier-produs-in-localitatea-costisa/cover.jpg?v=c2dfdd90" medium="image" type="image/jpeg"/>
+      <description>Poliția din Piatra-Neamț a fost sesizată în urma unui accident petrecut în localitatea Costișa. O pietonă în vârstă de 48 de ani a fost transportată la spital pentru îngrijiri medicale de specialitate.</description>
+    </item>
     <item>
       <title>Companiile românești au nevoie de management mai bun, nu doar de personal</title>
       <link>https://izz.ro/local/companiile-romanesti-au-nevoie-de-management-mai-bun-nu-doar-de-personal/</link>
@@ -23,7 +33,6 @@
       <pubDate>Fri, 23 Oct 2026 09:23:00 +0000</pubDate>
       <category>local</category>
       <source url="https://zch.ro/programul-scoala-altfel-a-adus-elevi-la-piata-centrala/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
-      <media:content url="https://izz.ro/local/elevi-din-piatra-neamt-au-vizitat-piata-centrala-in-programul-scoala-altfel/cover.jpg?v=fc31a4bf" medium="image" type="image/jpeg"/>
       <description>Copiii clasei a VI-a de la Școala Gimnazială Nr. 3 au descoperit modul de funcționare a Pieței Centrale din Piatra Neamț în cadrul unei activități educative.</description>
     </item>
     <item>
@@ -33,7 +42,6 @@
       <pubDate>Fri, 23 Oct 2026 07:15:54 +0000</pubDate>
       <category>local</category>
       <source url="https://zch.ro/piatra-neamt-un-magazin-s-a-ales-cu-amenda-si-activitatea-suspendata-pentru-pentru-vanzarea-tigarilor-electronice-catre-minori/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
-      <media:content url="https://izz.ro/local/magazin-din-piatra-neamt-amendat-si-inchis-pentru-vanzare-de-tigari-electronice/cover.jpg?v=598afe61" medium="image" type="image/jpeg"/>
       <description>Poliția a sancționat o societate din cartierul Precista cu 10.000 de lei și i-a suspendat activitatea pentru 30 de zile, după ce s-a constatat comercializarea ilegală de vapes-uri către minori.</description>
     </item>
     <item>
@@ -197,14 +205,5 @@
       <category>local</category>
       <source url="https://zch.ro/soferite-implicate-in-toate-cele-trei-accidente-raportate-in-neamt-la-tasca-un-tanar-este-cel-vinovat/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
       <description>Poliția din Neamț raportează că trei evenimente rutiere produse între 9 și 12 octombrie le-au avut ca protagoniste pe femeile aflate la volan. Printre incidente se numără lovirea unui pieton la Roznov și o coliziune în Piatra Neamț.</description>
-    </item>
-    <item>
-      <title>Urban Grup Environment preia salubrizarea în Zona 1 Neamț</title>
-      <link>https://izz.ro/judetean/urban-grup-environment-preia-salubrizarea-in-zona-1-neamt/</link>
-      <guid>https://izz.ro/judetean/urban-grup-environment-preia-salubrizarea-in-zona-1-neamt/</guid>
-      <pubDate>Mon, 12 Oct 2026 12:48:16 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://zch.ro/urban-grup-environment-incepe-colectarea-deseurilor-in-zona-1-neamt-incepand-cu-15-octombrie-2026/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
-      <description>Compania de salubritate va începe oficial activitatea de colectare și transport a deșeurilor municipale pentru populație și firme în mai multe localități din județul Neamț.</description>
     </item>
 </channel></rss>
