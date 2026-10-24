@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/reuters/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Reuters pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 16:58:31 +0000</lastBuildDate>
     <item>
       <title>Meta amână noile reguli comerciale privind conținutul jurnalistic după presiuni globale</title>
       <link>https://izz.ro/tech/meta-amana-noile-reguli-comerciale-privind-continutul-jurnalistic-dupa-presiuni/</link>
@@ -33,7 +33,6 @@
       <pubDate>Fri, 23 Oct 2026 09:40:25 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.g4media.ro/compania-olandeza-heineken-ingrijorata-ca-medicamentele-pentru-slabit-ar-putea-reduce-vanzarile-de-bere.html">G4Media</source>
-      <media:content url="https://izz.ro/economic/heineken-avertizeaza-puburile-din-marea-britanie-privind-impactul/cover.jpg?v=74d25349" medium="image" type="image/jpeg"/>
       <description>Reprezentanții companiei Heineken au transmis localurilor britanice că utilizarea tot mai frecventă a tratamentelor pentru slăbit poate diminua consumul de bere. Fabrica de bere recomandă adaptarea ofertei comerciale pentru a preveni pierderile financiare semnificative în rândul clienților.</description>
     </item>
     <item>
@@ -161,14 +160,5 @@
       <category>extern</category>
       <source url="https://www.profit.ro/povesti-cu-profit/energie/ultima-ora-video-sediul-central-aramco-in-flacari-explozii-puternice-ordin-de-evacuare-a-cladirii-surse-reuters-22826381?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Mai multe explozii violente au fost semnalate în apropierea sediului principal al companiei petroliere Saudi Aramco din Dhahran, declanșând procedurile de evacuare a clădirii, conform agenției Reuters.</description>
-    </item>
-    <item>
-      <title>OPEC reduce la 400.000 de barili pe zi prognoza cererii de petrol pentru 2026</title>
-      <link>https://izz.ro/economic/opec-reduce-la-400-000-de-barili-pe-zi-prognoza-cererii-de-petrol-pentru-2026/</link>
-      <guid>https://izz.ro/economic/opec-reduce-la-400-000-de-barili-pe-zi-prognoza-cererii-de-petrol-pentru-2026/</guid>
-      <pubDate>Mon, 12 Oct 2026 14:42:29 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://economedia.ro/opec-reduce-prognoza-privind-cererea-de-petrol-pentru-2026-la-400-000-de-barili-pe-zi-cererea-amanata-ar-putea-aparea-anul-viitor.html">Economedia</source>
-      <description>Organizația Țărilor Exportatoare de Petrol a revizuit în jos estimarea de creștere a cererii globale de țiței pentru anul viitor, indicând o posibilă resimțire a cererii amânate pe piața energetică internațională.</description>
     </item>
 </channel></rss>

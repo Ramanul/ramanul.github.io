@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 13:02:58 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 16:58:38 +0000</lastBuildDate>
+    <item>
+      <title>Yuval Noah Harari avertizează că inteligența artificială va domina societatea umană</title>
+      <link>https://izz.ro/ai/yuval-noah-harari-avertizeaza-ca-inteligenta-artificiala-va-domina-societatea/</link>
+      <guid>https://izz.ro/ai/yuval-noah-harari-avertizeaza-ca-inteligenta-artificiala-va-domina-societatea/</guid>
+      <pubDate>Sat, 24 Oct 2026 16:35:13 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/yuval-noah-harari-noi-suntem-vacile-viitorului-2385649">HotNews</source>
+      <media:content url="https://izz.ro/ai/yuval-noah-harari-avertizeaza-ca-inteligenta-artificiala-va-domina-societatea/cover.jpg?v=4d365557" medium="image" type="image/jpeg"/>
+      <description>Istoricul israelian compară viitoarea poziție a omenirii în fața sistemelor digitale autonome cu cea a animalelor domestice, incapabile să perceapă mecanismele economice și sociale care le controlează existența.</description>
+    </item>
     <item>
       <title>A fost lansat conceptul de capital de autonomie economică pentru era AI</title>
       <link>https://izz.ro/ai/a-fost-lansat-conceptul-de-capital-de-autonomie-economica-pentru-era-ai/</link>
@@ -456,14 +466,5 @@
       <category>ai</category>
       <source url="https://stirileprotv.ro/stiri/actualitate/romanii-cauta-sprijin-emotional-la-inteligenta-artificiala-psihologii-avertizeaza-asupra-dependentei.html">Știrile ProTV</source>
       <description>Un studiu recent arată o creștere a numărului de români care apelează la inteligența artificială pentru a primi consolare și sfaturi emoționale, aspect ce determină psihologii să tragă un semnal de alarmă privind riscul de dependență.</description>
-    </item>
-    <item>
-      <title>Cercetătorii americani au creat primii viruși bazați pe inteligență artificială</title>
-      <link>https://izz.ro/ai/cercetatorii-americani-au-creat-primii-virusi-bazati-pe-inteligenta-artificiala/</link>
-      <guid>https://izz.ro/ai/cercetatorii-americani-au-creat-primii-virusi-bazati-pe-inteligenta-artificiala/</guid>
-      <pubDate>Sun, 18 Oct 2026 15:39:07 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.criticarad.ro/virusi-ai/">Critic Arad</source>
-      <description>O echipă de la Universitatea Stanford și Arc Institute a proiectat în laborator 16 bacteriofagi folosind modele de inteligență artificială și a depus o cerere de brevet pentru această tehnologie inovatoare.</description>
     </item>
 </channel></rss>

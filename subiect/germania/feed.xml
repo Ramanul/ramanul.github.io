@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/germania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Germania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 13:02:46 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 16:58:31 +0000</lastBuildDate>
+    <item>
+      <title>Un bărbat a fost arestat în urma unui incendiu la reședința lui Hitler</title>
+      <link>https://izz.ro/extern/un-barbat-a-fost-arestat-in-urma-unui-incendiu-la-resedinta-lui-hitler/</link>
+      <guid>https://izz.ro/extern/un-barbat-a-fost-arestat-in-urma-unui-incendiu-la-resedinta-lui-hitler/</guid>
+      <pubDate>Sat, 24 Oct 2026 15:21:44 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <media:content url="https://izz.ro/extern/un-barbat-a-fost-arestat-in-urma-unui-incendiu-la-resedinta-lui-hitler/cover.jpg?v=db72da7b" medium="image" type="image/jpeg"/>
+      <description>Aproximativ 200 de pompieri și salvatori au fost mobilizați în Germania pentru a stinge flăcările care au cuprins fosta cabană alpină a dictatorului naziștilor, autoritățile reținând un suspect.</description>
+    </item>
     <item>
       <title>Incendiu la „Cuibul Vulturului” din Germania, un suspect reținut</title>
       <link>https://izz.ro/extern/incendiu-la-cuibul-vulturului-din-germania-un-suspect-retinut/</link>
@@ -25,6 +35,16 @@
       <source url="https://spotmedia.ro/stiri/opinii-si-analize/germania-conduce-ofensiva-statelor-care-vor-sa-elimine-statutul-de-membru-asociat-ue-pentru-canada-pozitia-romaniei-in-disputa-privind-energia-nucleara">Spotmedia</source>
       <media:content url="https://izz.ro/extern/germania-si-romania-adopta-pozitii-divergente-privind-acordul-ue-canada/cover.jpg?v=ebccc2b1" medium="image" type="image/jpeg"/>
       <description>Înaintea summitului UE-Canada, Germania solicită eliminarea statutului de membru asociat propus de Bruxelles. În același timp, România se numără printre statele care susțin introducerea cooperării în domeniul energiei nucleare în documentul final.</description>
+    </item>
+    <item>
+      <title>Martin Blessing prezintă o analiză optimistă privind economia Germaniei</title>
+      <link>https://izz.ro/extern/martin-blessing-prezinta-o-analiza-optimista-privind-economia-germaniei/</link>
+      <guid>https://izz.ro/extern/martin-blessing-prezinta-o-analiza-optimista-privind-economia-germaniei/</guid>
+      <pubDate>Sat, 24 Oct 2026 03:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/podcast/berlin-playbook-podcast/ein-spaziergang-mit-martin-blessing/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/martin-blessing-prezinta-o-analiza-optimista-privind-economia-germaniei/cover.jpg?v=1d5d6394" medium="image" type="image/jpeg"/>
+      <description>Reprezentantul special pentru investiții al cancelarului german a evaluat rezultatele summitului tehnologic și perspectivele de redresare economică, subliniind totodată provocările birocratice actuale.</description>
     </item>
     <item>
       <title>Controverse online după ce un membru AfD a publicat harta Germaniei Mari</title>
@@ -53,7 +73,6 @@
       <pubDate>Fri, 23 Oct 2026 10:38:08 +0000</pubDate>
       <category>local</category>
       <source url="https://cronicaolteniei.ro/drone-de-peste-un-milion-de-lei-descoperite-la-calafat-doua-puteau-transporta-cate-80-de-kilograme/">Cronica Olteniei</source>
-      <media:content url="https://izz.ro/local/zeci-de-drone-de-mare-valoare-confiscate-la-vama-calafat/cover.jpg?v=8aebd8cc" medium="image" type="image/jpeg"/>
       <description>Vameșii din Calafat au descoperit într-o autoutilitară cu numere de Bulgaria drone în valoare de peste un milion de lei, fără acte de proveniență. Două dintre aparate aveau o capacitate de transport de 80 de kilograme și destinația Germania.</description>
     </item>
     <item>
@@ -63,7 +82,6 @@
       <pubDate>Fri, 23 Oct 2026 09:54:20 +0000</pubDate>
       <category>local</category>
       <source url="https://cvlpress.ro/23.10.2026/drone-de-peste-un-milion-de-lei-depistate-la-calafat/">Cuvântul Libertății, Cronica Olteniei</source>
-      <media:content url="https://izz.ro/local/captura-record-de-drone-de-peste-un-milion-de-lei-la-punctul-de-trecere-a/cover.jpg?v=efd8aa0c" medium="image" type="image/jpeg"/>
       <description>Inspectorii vamali și polițiștii de frontieră de la Calafat au descoperit 24 de drone și două baterii inteligente, în valoare totală de peste un milion de lei, ascunse într-o autoutilitară înmatriculată în Bulgaria. Transportul, care nu avea documente de proveniență, mergea spre Germania și includea două drone mari de transport, capabile să care până la 80 de kilograme fiecare. Șoferul a fost amendat cu 15.000 de lei.</description>
     </item>
     <item>
@@ -443,23 +461,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/high-tech/starlink-varianta-europeana-ue-isi-construieste-propria-retea-de-sateliti-ce-este-iris-si-ce-rol-are-germania-807616.html">Antena 3 CNN</source>
       <description>În urma problemelor întâmpinate de armata ucraineană cu sistemul Starlink, blocul comunitar accelerează proiectul propriei constelații de sateliți de comunicații sigure, având sprijinul Germaniei.</description>
-    </item>
-    <item>
-      <title>Mercedes-AMG prezintă noul SUV electric dezvoltat pe arhitectura dedicată AMG.EA</title>
-      <link>https://izz.ro/auto/mercedes-amg-prezinta-noul-suv-electric-dezvoltat-pe-arhitectura-dedicata-amg-ea/</link>
-      <guid>https://izz.ro/auto/mercedes-amg-prezinta-noul-suv-electric-dezvoltat-pe-arhitectura-dedicata-amg-ea/</guid>
-      <pubDate>Sat, 17 Oct 2026 17:00:18 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.autocritica.ro/prezentari/mercedes-amg-gt-suv-performanta-in-stare-pura/">AutoCritica</source>
-      <description>Divizia de performanță AMG a prezentat în cadrul unui test secret desfășurat în Germania noul model electric SUV, construit pe o platformă tehnică special concepută pentru a livra performanțe ridicate.</description>
-    </item>
-    <item>
-      <title>O editură din Germania a retras un roman despre un soldat rus și o ucraineancă</title>
-      <link>https://izz.ro/cultura/o-editura-din-germania-a-retras-un-roman-despre-un-soldat-rus-si-o-ucraineanca/</link>
-      <guid>https://izz.ro/cultura/o-editura-din-germania-a-retras-un-roman-despre-un-soldat-rus-si-o-ucraineanca/</guid>
-      <pubDate>Sat, 17 Oct 2026 16:53:54 +0000</pubDate>
-      <category>cultura</category>
-      <source url="https://adevarul.ro/stiri-externe/europa/scandal-in-germania-romanul-despre-iubirea-dintre-2564721.html">Adevărul, Antena 3 CNN</source>
-      <description>O editură germană a decis suspendarea publicării unui roman care descria o poveste de dragoste fictivă între un soldat rus și o femeie ucraineană din Herson. Măsura a fost luată înainte de lansarea programată pentru 1 noiembrie, în urma criticilor publice care au acuzat că volumul ar romantiza conflictul armat.</description>
     </item>
 </channel></rss>
