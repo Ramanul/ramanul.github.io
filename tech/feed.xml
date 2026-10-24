@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 19:49:26 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 22:46:22 +0000</lastBuildDate>
     <item>
       <title>Fondatorul NSO Group lansează o companie de securitate pentru date</title>
       <link>https://izz.ro/tech/fondatorul-nso-group-lanseaza-o-companie-de-securitate-pentru-date/</link>
@@ -35,6 +35,16 @@
       <source url="https://adevarul.ro/stiri-externe/sua/culisele-bresei-din-limbajul-de-programare-php-2566273.html">Adevărul</source>
       <media:content url="https://izz.ro/tech/o-vulnerabilitate-majora-in-limbajul-php-a-generat-o-alerta-cibernetica-mondiala/cover.jpg?v=32ef7533" medium="image" type="image/jpeg"/>
       <description>O breșă de securitate identificată cu ajutorul inteligenței artificiale într-un limbaj utilizat pe majoritatea site-urilor web a impus o mobilizare internațională urgentă a experților în IT.</description>
+    </item>
+    <item>
+      <title>TCL lansează monitorul de gaming 25P2A Pro cu tehnologie Mini-LED și rată de refresh de 360 Hz</title>
+      <link>https://izz.ro/tech/tcl-lanseaza-monitorul-de-gaming-25p2a-pro-cu-tehnologie-mini-led-si-rata-de/</link>
+      <guid>https://izz.ro/tech/tcl-lanseaza-monitorul-de-gaming-25p2a-pro-cu-tehnologie-mini-led-si-rata-de/</guid>
+      <pubDate>Sat, 24 Oct 2026 14:35:09 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/tcl-25p2a-pro-monitor-mini-led-gaming-360hz/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/tcl-lanseaza-monitorul-de-gaming-25p2a-pro-cu-tehnologie-mini-led-si-rata-de/cover.jpg?v=e327a785" medium="image" type="image/jpeg"/>
+      <description>Noul monitor dezvoltat de TCL oferă o rezoluție QHD și o rată de împrospătare foarte ridicată la un cost competitiv pentru segmentul de dispozitive destinate gamingului de performanță.</description>
     </item>
     <item>
       <title>Lansarea aplicației Clover pentru automatizarea prospectării B2B</title>
@@ -143,7 +153,7 @@
       <pubDate>Fri, 23 Oct 2026 17:21:00 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/serviciu-de-robotaxiuri-fara-sofer-baidu-si-freenow-se-pregatesc-sa-lanseze-robotaxiuri-in-londra-22876667?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/tech/baidu-si-freenow-intentioneaza-sa-introduca-taxiuri-autonome-la-londra/cover.jpg?v=13c5e67d" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/baidu-si-freenow-intentioneaza-sa-introduca-taxiuri-autonome-la-londra/cover.jpg?v=a921b2fd" medium="image" type="image/jpeg"/>
       <description>Cele două companii au prezentat vehiculul electric autonom RT6 și au anunțat planurile de a implementa un serviciu comercial de transport fără șofer pe străzile Londrei începând de anul viitor.</description>
     </item>
     <item>
@@ -464,14 +474,5 @@
       <category>tech</category>
       <source url="https://www.monitoruldegalati.ro/tehnologie/nvidia-lanseaza-drivere-cu-suport-advanced-shader-delivery-pentru-incarcare-mai-rapida-ti-mai-putine-sacadari-in-jocuri.html">Monitorul de Galați</source>
       <description>Noua actualizare software de la Nvidia integrează tehnologia Microsoft pentru a elimina compilarea shaderelor în timp real, reducând astfel timpii de încărcare și sacadările în timpul sesiunilor de gaming.</description>
-    </item>
-    <item>
-      <title>Apple Music și-a actualizat identitatea vizuală și sigla oficială</title>
-      <link>https://izz.ro/tech/apple-music-si-a-actualizat-identitatea-vizuala-si-sigla-oficiala/</link>
-      <guid>https://izz.ro/tech/apple-music-si-a-actualizat-identitatea-vizuala-si-sigla-oficiala/</guid>
-      <pubDate>Thu, 22 Oct 2026 12:55:04 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.monitoruldegalati.ro/tehnologie/apple-music-primeste-un-nou-logo-si-o-identitate-vizuala-redesenata.html">Monitorul de Galați</source>
-      <description>Platforma de streaming audio Apple Music a beneficiat de un proces de redesign care include un nou logo, o siglă modernizată și o identitate sonoră unică realizată în colaborare cu producătorul Fred Again.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 19:49:14 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 22:46:10 +0000</lastBuildDate>
+    <item>
+      <title>Mâncărurile preferate ale reginelor europene erau tradiționale</title>
+      <link>https://izz.ro/cultura/mancarurile-preferate-ale-reginelor-europene-erau-traditionale/</link>
+      <guid>https://izz.ro/cultura/mancarurile-preferate-ale-reginelor-europene-erau-traditionale/</guid>
+      <pubDate>Sat, 24 Oct 2026 21:27:25 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://adevarul.ro/stil-de-viata/magazin/meniul-secret-al-imparateselor-ce-mancau-cele-mai-2566297.html">Adevărul</source>
+      <media:content url="https://izz.ro/cultura/mancarurile-preferate-ale-reginelor-europene-erau-traditionale/cover.jpg?v=61c6642b" medium="image" type="image/jpeg"/>
+      <description>Contrar percepției generale care asociază istoria monarhiei cu delicatese exclusiviste și extrem de costisitoare, cele mai faimose împărătese preferau rețete simple, hrănitoare și ușor de preparat.</description>
+    </item>
     <item>
       <title>Generația Z protestează în Europa din cauza crizelor economice și sociale</title>
       <link>https://izz.ro/extern/generatia-z-protesteaza-in-europa-din-cauza-crizelor-economice-si-sociale/</link>
@@ -451,14 +461,5 @@
       <category>extern</category>
       <source url="https://adevarul.ro/blogurile-adevarul/china-noua-seductie-a-autoritarismului-beijingul-2564267.html">Adevărul</source>
       <description>Regimul din China urmărește să impună pe plan internațional propria viziune autoritară și să minimizeze trecutul regimului comunist. Demersul diplomatic vizează obținerea pasivității și tăcerii statelor europene în fața abuzurilor.</description>
-    </item>
-    <item>
-      <title>SUA propun deblocarea activelor rusești pentru pace, dar Europa refuză planul</title>
-      <link>https://izz.ro/politic/sua-propun-deblocarea-activelor-rusesti-pentru-pace-dar-europa-refuza-planul/</link>
-      <guid>https://izz.ro/politic/sua-propun-deblocarea-activelor-rusesti-pentru-pace-dar-europa-refuza-planul/</guid>
-      <pubDate>Thu, 15 Oct 2026 13:02:19 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.g4media.ro/ft-sua-propun-deblocarea-unor-active-rusesti-inghetate-pentru-reluarea-negocierilor-de-pace.html">G4Media</source>
-      <description>Washingtonul a sugerat transferul unor active rusești înghețate într-un fond controlat de SUA pentru a stimula discuțiile de pace, însă oficialii europeni au respins această propunere financiară.</description>
     </item>
 </channel></rss>

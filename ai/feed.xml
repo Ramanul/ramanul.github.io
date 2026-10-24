@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 19:49:26 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 22:46:22 +0000</lastBuildDate>
+    <item>
+      <title>Interacțiunea umană cu inteligența artificială ridică semne de întrebare privind natura relației</title>
+      <link>https://izz.ro/ai/interactiunea-umana-cu-inteligenta-artificiala-ridica-semne-de-intrebare/</link>
+      <guid>https://izz.ro/ai/interactiunea-umana-cu-inteligenta-artificiala-ridica-semne-de-intrebare/</guid>
+      <pubDate>Sat, 24 Oct 2026 21:04:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/opinii-si-analize/cand-vorbim-cu-inteligenta-artificiala-cu-cine-vorbim-de-fapt">Spotmedia</source>
+      <media:content url="https://izz.ro/ai/interactiunea-umana-cu-inteligenta-artificiala-ridica-semne-de-intrebare/cover.jpg?v=4d365557" medium="image" type="image/jpeg"/>
+      <description>Conversațiile lungi cu sistemele de inteligență artificială pot oferi o falsă senzație de empatie și înțelegere, determinând utilizatorii să confunde un algoritm cu un interlocutor uman autentic.</description>
+    </item>
     <item>
       <title>Yuval Noah Harari avertizează că inteligența artificială va domina societatea umană</title>
       <link>https://izz.ro/ai/yuval-noah-harari-avertizeaza-ca-inteligenta-artificiala-va-domina-societatea/</link>
@@ -103,7 +113,7 @@
       <pubDate>Fri, 23 Oct 2026 15:08:39 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.digi24.ro/stiri/actualitate/jandarmii-nu-au-ingenuncheat-in-fata-sustinatorilor-lui-georgescu-mai-dezminte-un-fals-raspandit-pe-retelele-sociale-4006369">Digi24</source>
-      <media:content url="https://izz.ro/ai/mai-infirma-zvonurile-privind-jandarmii-care-ar-fi-ingenuncheat/cover.jpg?v=a0ffe445" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/mai-infirma-zvonurile-privind-jandarmii-care-ar-fi-ingenuncheat/cover.jpg?v=6a4b1893" medium="image" type="image/jpeg"/>
       <description>Instituciile statului au clarificat că imaginile distribuite pe platformele sociale, care arătau jandarmi îngenuncheați în fața protestatarilor, sunt falsuri grosolane create cu ajutorul inteligenței artificiale.</description>
     </item>
     <item>
@@ -113,7 +123,6 @@
       <pubDate>Fri, 23 Oct 2026 14:28:28 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.turnulsfatului.ro/2026/10/23/imaginile-cu-jandarmi-care-ingenuncheaza-la-protestul-din-fata-curtii-de-apel-bucuresti-sunt-false-anunta-jandarmeria-romana/">Turnul Sfatului</source>
-      <media:content url="https://izz.ro/ai/jandarmeria-romana-infirma-autenticitatea-imaginilor-cu-jandarmi-ingenuncheati/cover.jpg?v=b0d45ddb" medium="image" type="image/jpeg"/>
       <description>Reprezentanții Jandarmeriei au clarificat că fotografiile și înregistrările video în care falși jandarmi apar îngenuncheați în fața protestatarilor din Capitală reprezintă falsuri create cu inteligență artificială.</description>
     </item>
     <item>
@@ -457,14 +466,5 @@
       <category>ai</category>
       <source url="https://observatornews.ro/eveniment/anchetele-criminalistice-intra-intro-noua-era-inteligenta-artificiala-un-mare-ajutor-dar-si-un-mare-dusman-669554.html">Observator</source>
       <description>Tehnologia modernă permite infractorilor să șteargă urme și să creeze alibiuri false. În același timp, anchetatorii utilizează inteligența artificială pentru a analiza imagini complexe și a rezolva cazuri dificile.</description>
-    </item>
-    <item>
-      <title>Specialiștii avertizează asupra dependenței românilor de sprijinul emoțional oferit de AI</title>
-      <link>https://izz.ro/ai/specialistii-avertizeaza-asupra-dependentei-romanilor-de-sprijinul-emotional/</link>
-      <guid>https://izz.ro/ai/specialistii-avertizeaza-asupra-dependentei-romanilor-de-sprijinul-emotional/</guid>
-      <pubDate>Sun, 18 Oct 2026 16:49:32 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://stirileprotv.ro/stiri/actualitate/romanii-cauta-sprijin-emotional-la-inteligenta-artificiala-psihologii-avertizeaza-asupra-dependentei.html">Știrile ProTV</source>
-      <description>Un studiu recent arată o creștere a numărului de români care apelează la inteligența artificială pentru a primi consolare și sfaturi emoționale, aspect ce determină psihologii să tragă un semnal de alarmă privind riscul de dependență.</description>
     </item>
 </channel></rss>

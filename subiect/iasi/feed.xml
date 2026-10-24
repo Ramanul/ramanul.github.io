@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Iasi — IZZ.ro</title>
+  <title>Iași — IZZ.ro</title>
   <link>https://izz.ro/subiect/iasi/</link>
   <atom:link href="https://izz.ro/subiect/iasi/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Iasi pe IZZ.ro</description>
+  <description>Știri despre Iași pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 19:49:14 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 22:46:10 +0000</lastBuildDate>
+    <item>
+      <title>Festivalul Internațional Meridian 2026 aduce muzica contemporană în patru orașe</title>
+      <link>https://izz.ro/local/festivalul-international-meridian-2026-aduce-muzica-contemporana-in-patru-orase/</link>
+      <guid>https://izz.ro/local/festivalul-international-meridian-2026-aduce-muzica-contemporana-in-patru-orase/</guid>
+      <pubDate>Sat, 24 Oct 2026 20:41:21 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bookhub.ro/sonorama-o-panorama-a-muzicii-romanesti-sustinuta-de-icr-in-cadrul-festivalului-international-meridian-xxi-sonimagicon-2026/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sonorama-o-panorama-a-muzicii-romanesti-sustinuta-de-icr-in-cadrul-festivalului-international-meridian-xxi-sonimagicon-2026">Bookhub</source>
+      <media:content url="https://izz.ro/local/festivalul-international-meridian-2026-aduce-muzica-contemporana-in-patru-orase/cover.jpg?v=be8946d7" medium="image" type="image/jpeg"/>
+      <description>Uniunea Compozitorilor organizează între 2 și 8 noiembrie 2026 cea de-a XXI-a ediție a Festivalului Meridian, oferind publicului din București, Cluj-Napoca, Timișoara și Iași o serie de evenimente muzicale de amploare.</description>
+    </item>
     <item>
       <title>Ministerul Sănătății va modifica sistemul de plată a gărzilor pentru medici</title>
       <link>https://izz.ro/local/ministerul-sanatatii-va-modifica-sistemul-de-plata-a-garzilor-pentru-medici/</link>
@@ -93,7 +103,6 @@
       <pubDate>Fri, 23 Oct 2026 13:58:01 +0000</pubDate>
       <category>local</category>
       <source url="https://www.monitoruldegalati.ro/regional/recidiva-de-familie-la-bivolari-un-tata-este-la-a-treia-abatere-penala-dupa-ce-si-a-lasat-fiul-de-16-ani-la-volanul-unui-tractor.html">Monitorul de Galați</source>
-      <media:content url="https://izz.ro/local/un-tata-din-iasi-cercetat-penal-dupa-ce-si-a-lasat-fiul-minor-sa-conduca-un/cover.jpg?v=ab10da4d" medium="image" type="image/jpeg"/>
       <description>Polițiștii de frontieră din Bivolari au depistat un bărbat care și-a lăsat adolescentul de 16 ani să conducă un vehicul agricol pe drumurile publice, aceasta fiind a treia sa abatere penală similară.</description>
     </item>
     <item>
@@ -455,14 +464,5 @@
       <category>local</category>
       <source url="https://stirileprotv.ro/justitie/amenda-primita-de-cersetorul-cu-masina-de-lux-dupa-pelerinajul-de-sfanta-parascheva-cum-atragea-mila-pelerinilor.html">Știrile ProTV</source>
       <description>Un bărbat de 59 de ani care folosea o mașină de lux a fost amendat de polițiști după ce a strâns sume importante din mila pelerinilor veniți la sărbătoarea Sfintei Parascheva.</description>
-    </item>
-    <item>
-      <title>Elevi din Botoșani participă la un concurs național de produse tradiționale</title>
-      <link>https://izz.ro/local/elevi-din-botosani-participa-la-un-concurs-national-de-produse-traditionale/</link>
-      <guid>https://izz.ro/local/elevi-din-botosani-participa-la-un-concurs-national-de-produse-traditionale/</guid>
-      <pubDate>Fri, 16 Oct 2026 15:09:36 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.monitorulbt.ro/local/2026/10/16/elevii-din-botosani-la-proba-gustului-patru-licee-participa-la-un-concurs-de-produse-traditionale/">Monitorul de Botoșani</source>
-      <description>Un număr de 39 de elevi și 11 profesori de la patru licee tehnologice din Botoșani s-au deplasat la Iași pentru a concura la cea de-a IX-a ediție a competiției „Identificare și atestare produse tradiționale”.</description>
     </item>
 </channel></rss>

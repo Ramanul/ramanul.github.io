@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/auto/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Auto pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 19:49:26 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 22:46:22 +0000</lastBuildDate>
     <item>
       <title>Registrul Auto Român precizează dotările obligatorii pe care șoferii trebuie să le aibă în mașină</title>
       <link>https://izz.ro/auto/registrul-auto-roman-precizeaza-dotarile-obligatorii-pe-care-soferii-trebuie-sa/</link>
@@ -45,6 +45,16 @@
       <source url="https://www.automarket.ro/stiri/byd-vrea-sa-dubleze-capacitatea-de-productie-a-fabricii-din-brazilia-129197.html">AutoMarket</source>
       <media:content url="https://izz.ro/auto/byd-vrea-sa-dubleze-productia-fabricii-auto-din-brazilia/cover.jpg?v=633bcba7" medium="image" type="image/jpeg"/>
       <description>Producătorul chinez BYD intenționează să își majoreze capacitatea de producție în Brazilia și să folosească peste 50% componente locale din 2027. Compania vizează astfel respectarea normelor legale și deschiderea exporturilor regionale.</description>
+    </item>
+    <item>
+      <title>Incendiu la o autoutilitară pe autostrada A1</title>
+      <link>https://izz.ro/auto/o-autoutilitara-a-fost-distrusa-de-un-incendiu-pe-autostrada-a1/</link>
+      <guid>https://izz.ro/auto/o-autoutilitara-a-fost-distrusa-de-un-incendiu-pe-autostrada-a1/</guid>
+      <pubDate>Sat, 24 Oct 2026 06:44:34 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.pressalert.ro/2026/10/autoutilitara-mistuita-de-flacari-in-parcarea-unei-benzinarii-de-pe-autostrada-a1-pompierii-au-intervenit-de-urgenta-foto/">PressAlert Timișoara, Ziua de Vest</source>
+      <media:content url="https://izz.ro/auto/o-autoutilitara-a-fost-distrusa-de-un-incendiu-pe-autostrada-a1/cover.jpg?v=22937f7f" medium="image" type="image/jpeg"/>
+      <description>Incendiul a fost lichidat de pompieri, iar șoferul a scăpat teafăr, fără a necesita îngrijiri medicale.</description>
     </item>
     <item>
       <title>O autoutilitară de transport marfă a ars complet pe autostrada A1</title>
@@ -461,14 +471,5 @@
       <category>auto</category>
       <source url="https://alba24.ro/noi-reguli-medicale-pentru-obtinerea-si-reinnoirea-permisului-auto-din-6-noiembrie-boli-si-tratamente-care-pot-impiedica-sofatul-1163917.html">Alba24</source>
       <description>Autoritatile au actualizat conditiile de obtinere si reinnoire a permisului de conducere. Noile norme vizeaza soferii cu afectiuni vizuale, probleme psihice, dependente sau cei aflati sub tratamente medicamentoase riscante.</description>
-    </item>
-    <item>
-      <title>Modelul electric Renault Twingo poate fi comandat în România de la 19.600 de euro</title>
-      <link>https://izz.ro/auto/noul-model-renault-twingo-electric-poate-fi-comandat-in-romania/</link>
-      <guid>https://izz.ro/auto/noul-model-renault-twingo-electric-poate-fi-comandat-in-romania/</guid>
-      <pubDate>Thu, 22 Oct 2026 10:00:00 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.automarket.ro/stiri/noul-renault-twingo-electric-disponibil-si-in-romania-de-la-19590-euro-129171.html">AutoMarket, AutoCritica</source>
-      <description>Noul Renault Twingo E-Tech electric este disponibil pentru comenzi pe piața din România, având prețuri începând de la 19.600 de euro cu TVA pentru echiparea Evolution. Mașina dispune de un motor de 82 CP, o baterie de 27,5 kWh și o autonomie de până la 263 de kilometri, primele livrări fiind programate pentru ianuarie 2027.</description>
     </item>
 </channel></rss>

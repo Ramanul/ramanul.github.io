@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 19:49:14 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 22:46:10 +0000</lastBuildDate>
+    <item>
+      <title>Campania națională de recrutare AUR a ajuns în județul Mureș</title>
+      <link>https://izz.ro/judetean/campania-nationala-de-recrutare-aur-a-ajuns-in-judetul-mures/</link>
+      <guid>https://izz.ro/judetean/campania-nationala-de-recrutare-aur-a-ajuns-in-judetul-mures/</guid>
+      <pubDate>Sat, 24 Oct 2026 20:04:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.zi-de-zi.ro/2026/10/24/campania-nationala-de-recrutare-aur-popas-in-judetul-mures/">Zi de Zi</source>
+      <media:content url="https://izz.ro/judetean/campania-nationala-de-recrutare-aur-a-ajuns-in-judetul-mures/cover.jpg?v=c4d2989e" medium="image" type="image/jpeg"/>
+      <description>Reprezentanții partidului AUR s-au întâlnit cu cetățenii din județul Mureș pentru a discuta despre implicarea activă în viața comunității locale și găsirea unor soluții administrative.</description>
+    </item>
     <item>
       <title>Mesaje noi despre legăturile dintre George Simion și consultanți israelieni</title>
       <link>https://izz.ro/politic/mesaje-noi-despre-legaturile-dintre-george-simion-si-consultanti-israelieni/</link>
@@ -259,14 +269,5 @@
       <category>politic</category>
       <source url="https://adevarul.ro/politica/george-simion-psd-se-impaca-cu-ilie-bolojan-2563876.html">Adevărul</source>
       <description>Liderul formațiunii AUR a anunțat că parlamentarii partidului nu vor acorda votul de învestitură cabinetului condus de Luca Niculescu, acuzând partidele tradiționale de negocieri netransparente.</description>
-    </item>
-    <item>
-      <title>Senatul a adoptat o declarație AUR referitoare la politica externă a Uniunii Europene</title>
-      <link>https://izz.ro/politic/senatul-a-adoptat-o-declaratie-aur-referitoare-la-politica-externa-a-uniunii/</link>
-      <guid>https://izz.ro/politic/senatul-a-adoptat-o-declaratie-aur-referitoare-la-politica-externa-a-uniunii/</guid>
-      <pubDate>Mon, 12 Oct 2026 21:02:28 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.digi24.ro/stiri/actualitate/politica/o-declaratie-aur-privind-dreptul-romaniei-de-a-si-proteja-interesele-in-politica-externa-a-ue-aprobata-de-senat-reactia-oanei-toiu-3989293">Digi24</source>
-      <description>Camera superioară a Parlamentului a aprobat o inițiativă legislativă care cere Guvernului să clarifice mandatul delegației române privind limitarea dreptului de veto și votul cu majoritate calificată în structurile europene.</description>
     </item>
 </channel></rss>
