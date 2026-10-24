@@ -1,5 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url><loc>https://izz.ro/cultura/savantul-roman-care-a-invins-comunismul-si-a-adus-milioane-tarii/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-24T01:22:25+00:00</news:publication_date>
+      <news:title>Savantul român care a învins comunismul și a adus milioane țării</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/extern/coreea-de-sud-solicita-noi-negocieri-militare-cu-phenianul/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-24T00:47:25+00:00</news:publication_date>
+      <news:title>Coreea de Sud solicită noi negocieri militare cu Phenianul</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/economic/un-stat-european-vrea-sa-introduca-ture-de-munca-de-12-ore/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-24T00:28:25+00:00</news:publication_date>
+      <news:title>Un stat european vrea să introducă ture de muncă de 12 ore</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/cultura/motivul-pentru-care-literele-nu-se-predau-in-ordine-alfabetica/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-24T00:10:25+00:00</news:publication_date>
+      <news:title>Motivul pentru care literele nu se predau în ordine alfabetică</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/local/societatea-gheata-la-mal-a-fost-premiata-la-topul-firmelor-din-judetul-constanta/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T23:49:56+00:00</news:publication_date>
+      <news:title>Societatea Gheață la Mal a fost premiată la Topul Firmelor din județul Constanța</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/extern/china-si-djibouti-cer-protejarea-navigatiei-in-marea-rosie/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T23:46:25+00:00</news:publication_date>
+      <news:title>China și Djibouti cer protejarea navigației în Marea Roșie</news:title>
+    </news:news>
+  </url>
   <url><loc>https://izz.ro/local/microbuzul-actorilor-din-targu-jiu-implicat-intr-un-accident-rutier-la/</loc>
     <news:news>
       <news:publication>
@@ -10,14 +70,34 @@
       <news:title>Microbuzul actorilor din Târgu Jiu, implicat într-un accident rutier la Caransebeș</news:title>
     </news:news>
   </url>
-  <url><loc>https://izz.ro/local/primaria-constanta-nu-permite-un-nou-lacas-pentru-biserica-armeneasca/</loc>
+  <url><loc>https://izz.ro/economic/tarom-a-anulat-definitiv-zborurile-spre-belgrad-dupa-16-ani/</loc>
     <news:news>
       <news:publication>
         <news:name>IZZ.ro</news:name>
         <news:language>ro</news:language>
       </news:publication>
-      <news:publication_date>2026-10-23T22:33:07+00:00</news:publication_date>
-      <news:title>Primăria Constanța nu permite un nou lăcaș pentru biserica armenească</news:title>
+      <news:publication_date>2026-10-23T23:26:00+00:00</news:publication_date>
+      <news:title>TAROM a anulat definitiv zborurile spre Belgrad după 16 ani</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/sanatate/criza-vaccinului-antigripal-afecteaza-farmaciile-si-pacientii/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T23:23:25+00:00</news:publication_date>
+      <news:title>Criza vaccinului antigripal afectează farmaciile și pacienții</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/extern/israelul-pregateste-blocarea-cisiordaniei-dupa-un-atac-armat/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T22:40:25+00:00</news:publication_date>
+      <news:title>Israelul pregătește blocarea Cisiordaniei după un atac armat</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/economic/analiza-costuri-cand-merita-sa-repari-un-electrocasnic-vechi/</loc>
@@ -28,6 +108,26 @@
       </news:publication>
       <news:publication_date>2026-10-23T22:19:26+00:00</news:publication_date>
       <news:title>Analiză costuri: Când merită să repari un electrocasnic vechi</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/local/opt-ani-de-inchisoare-pentru-un-atac-cu-maceta-in-tulcea/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T22:11:51+00:00</news:publication_date>
+      <news:title>Opt ani de închisoare pentru un atac cu maceta în Tulcea</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/general/soferul-condamnat-pentru-o-sicanare-mortala-ramane-in-inchisoare/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T22:11:48+00:00</news:publication_date>
+      <news:title>Șoferul condamnat pentru o șicanare mortală rămâne în închisoare</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/sport/charles-leclerc-cel-mai-rapid-in-antrenamentele-din-sua/</loc>
@@ -108,6 +208,56 @@
       </news:publication>
       <news:publication_date>2026-10-23T21:33:57+00:00</news:publication_date>
       <news:title>Curtea de Apel Constanța a respins cererea de revizuire a șoferului condamnat pentru accident mortal</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/sport/harry-kane-recunoaste-ca-este-dificil-sa-ignore-zvonurile-despre-balonul-de-aur/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T21:30:36+00:00</news:publication_date>
+      <news:title>Harry Kane recunoaște că este dificil să ignore zvonurile despre Balonul de Aur</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/local/o-cladire-istorica-din-constanta-va-fi-transformata-in-vila-turistica/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T21:22:07+00:00</news:publication_date>
+      <news:title>O clădire istorică din Constanța va fi transformată în vilă turistică</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/economic/dragos-anastasiu-cere-viitorului-guvern-predictibilitate-si-reducerea/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T21:18:00+00:00</news:publication_date>
+      <news:title>Dragoș Anastasiu cere viitorului Guvern predictibilitate și reducerea birocrației</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/sport/giovanni-malago-s-a-inscris-ca-dirigente-la-aniene-pentru-a-candida-la/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T21:15:56+00:00</news:publication_date>
+      <news:title>Giovanni Malagò s-a înscris ca dirigente la Aniene pentru a candida la președinția FIGC</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/lifestyle/erika-isac-si-m-g-l-s-au-despartit-dupa-o-relatie-de-peste-un-an/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T21:12:09+00:00</news:publication_date>
+      <news:title>Erika Isac și M.G.L. s-au despărțit după o relație de peste un an</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/sport/confederatia-asiatica-il-sustine-pe-gianni-infantino-la-presedintia-fifa/</loc>
@@ -670,16 +820,6 @@
       <news:title>Emisarul american Tom Barrack a declarat ca Statele Unite ar putea ataca Iranul</news:title>
     </news:news>
   </url>
-  <url><loc>https://izz.ro/sport/jovo-lukic-a-marcat-un-hattrick-in-meciul-corvinul-u-cluj/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T19:45:47+00:00</news:publication_date>
-      <news:title>Jovo Lukic a marcat un hattrick în meciul Corvinul - U Cluj</news:title>
-    </news:news>
-  </url>
   <url><loc>https://izz.ro/politic/ilie-bolojan-evita-dezbaterea-publica-privind-relatia-sa-cu-presedintele/</loc>
     <news:news>
       <news:publication>
@@ -840,6 +980,16 @@
       <news:title>Portarul Andre Onana a scăpat nevătămat dintr-un accident rutier în Turcia</news:title>
     </news:news>
   </url>
+  <url><loc>https://izz.ro/economic/cardurile-bcr-vor-fi-indisponibile-timp-de-patru-ore-pentru-plata-rovinietei/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T19:14:00+00:00</news:publication_date>
+      <news:title>Cardurile BCR vor fi indisponibile timp de patru ore pentru plata rovinietei</news:title>
+    </news:news>
+  </url>
   <url><loc>https://izz.ro/general/ucraina-schimba-legea-privind-desfiintarea-scolilor-pentru-minoritati/</loc>
     <news:news>
       <news:publication>
@@ -918,6 +1068,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T19:10:00+00:00</news:publication_date>
       <news:title>Primăria Miercurea Ciuc acordă titlul Pro Urbe post-mortem lui Basa János</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/sport/jovo-lukic-a-marcat-pentru-u-cluj-in-partida-din-superliga-contra-corvinul/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T19:09:31+00:00</news:publication_date>
+      <news:title>Jovo Lukic a marcat trei goluri pentru U Cluj în partida împotriva Corvinului</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/sport/nationala-de-handbal-feminin-a-romaniei-a-invins-croatia-intr-un-meci-amical/</loc>
@@ -1118,6 +1278,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T18:54:05+00:00</news:publication_date>
       <news:title>Larisa Iordache vorbește despre viața de familie și rolul de mamă</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/politic/alexandru-petrescu-sustine-ca-reconstructia-ucrainei-reprezinta-o-sansa-pentru/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T18:53:47+00:00</news:publication_date>
+      <news:title>Alexandru Petrescu susține că reconstrucția Ucrainei reprezintă o șansă pentru România</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/politic/fosti-oficiali-fbi-pusi-sub-acuzare-pentru-declaratii-mincinoase-in-congres/</loc>
@@ -1348,6 +1518,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T18:27:44+00:00</news:publication_date>
       <news:title>Turcia avertizează că un nou atac asupra Iranului va amplifica instabilitatea regională</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/politic/catalin-silegeanu-acuza-risipa-banilor-publici-la-casa-unirea/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T18:26:43+00:00</news:publication_date>
+      <news:title>Cătălin Silegeanu acuză risipa banilor publici la Casa Unirea</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/sport/un-fond-american-va-cumpara-42-din-clubul-valencia/</loc>
@@ -1750,6 +1930,16 @@
       <news:title>Apple dezvoltă a doua generație de iPhone Duo cu tehnologie Face ID</news:title>
     </news:news>
   </url>
+  <url><loc>https://izz.ro/local/un-tanar-din-ticleni-a-fost-retinut-dupa-ce-a-furat-o-masina/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T17:43:00+00:00</news:publication_date>
+      <news:title>Un tânăr din Țicleni a fost reținut după ce a furat o mașină</news:title>
+    </news:news>
+  </url>
   <url><loc>https://izz.ro/extern/femeie-din-italia-amendata-de-politie-dupa-ce-a-cazut-intr-o-groapa-din/</loc>
     <news:news>
       <news:publication>
@@ -1890,6 +2080,16 @@
       <news:title>Petrolul Ploiești s-a impus categoric pe terenul FC Botoșani</news:title>
     </news:news>
   </url>
+  <url><loc>https://izz.ro/general/consiliul-local-convoaca-o-sedinta-extraordinara-in-data-de-27-octombrie-2026/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T17:21:08+00:00</news:publication_date>
+      <news:title>Consiliul Local convoacă o ședință extraordinară în data de 27 octombrie 2026</news:title>
+    </news:news>
+  </url>
   <url><loc>https://izz.ro/tech/baidu-si-freenow-intentioneaza-sa-introduca-taxiuri-autonome-la-londra/</loc>
     <news:news>
       <news:publication>
@@ -1928,16 +2128,6 @@
       </news:publication>
       <news:publication_date>2026-10-23T17:18:34+00:00</news:publication_date>
       <news:title>Opt state cer SUA și Israelului să evite noi atacuri asupra Iranului</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/politic/ministrul-justitiei-a-anuntat-masuri-pentru-finalizarea-a-cel-putin-500-de/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T17:17:20+00:00</news:publication_date>
-      <news:title>Ministrul Justitiei a anuntat masuri pentru finalizarea a cel putin 500 de locuri noi in penitenciare</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/local/regizorul-tudor-giurgiu-prezinta-filmul-3-zile-in-septembrie-la-sebes/</loc>
@@ -2038,6 +2228,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T17:02:30+00:00</news:publication_date>
       <news:title>PSD Bihor îl propune pe Emilian Pavel pentru funcția de prefect al județului</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/sport/fc-botosani-a-pierdut-acasa-in-fata-petrolului-ploiesti/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T17:02:20+00:00</news:publication_date>
+      <news:title>FC Botoșani a pierdut acasă în fața Petrolului Ploiești</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/sanatate/cercetatorii-identifica-cinci-diete-alimentare-care-incetinesc-procesul-de/</loc>
@@ -2158,6 +2358,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T16:55:00+00:00</news:publication_date>
       <news:title>U-BT Cluj-Napoca a învins-o pe SC Derby în Liga Adriatică</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/extern/schimb-de-prizonieri-de-razboi-intre-rusia-si-ucraina/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T16:54:51+00:00</news:publication_date>
+      <news:title>Schimb de prizonieri de război între Rusia și Ucraina</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/local/opera-din-timisoara-deschide-luna-noiembrie-cu-spectacole-dedicate-lui-freddie/</loc>
@@ -2610,6 +2820,16 @@
       <news:title>Patru tineri din județul Arad au fost reținuți după agresarea unui minor</news:title>
     </news:news>
   </url>
+  <url><loc>https://izz.ro/general/o-familie-cu-trei-copii-a-suferit-un-accident-rutier/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T15:20:36+00:00</news:publication_date>
+      <news:title>O familie cu trei copii a suferit un accident rutier</news:title>
+    </news:news>
+  </url>
   <url><loc>https://izz.ro/extern/premierul-andy-burnham-indeamna-britanicii-sa-se-pregateasca-de-criza/</loc>
     <news:news>
       <news:publication>
@@ -2998,6 +3218,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T14:55:00+00:00</news:publication_date>
       <news:title>Un glob pământesc istoric al președintelui Eisenhower, deteriorat la Pentagon</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/politic/fiul-lui-tudorel-toader-retinut-in-urma-acuzatiilor-formulate-de-doua-foste/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T14:54:16+00:00</news:publication_date>
+      <news:title>Fiul lui Tudorel Toader, reținut în urma acuzațiilor formulate de două foste studente</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/local/ion-ariton-este-noul-presedinte-al-consiliului-de-supraveghere-hidroelectrica/</loc>
@@ -3718,6 +3948,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T14:14:44+00:00</news:publication_date>
       <news:title>Inter pregătește prelungirea contractului lui Carlos Augusto până în decembrie</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/lifestyle/lidia-buble-rupe-tacerea-dupa-zvonurile-despartirii-de-horatiu-nicolau/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T14:14:14+00:00</news:publication_date>
+      <news:title>Lidia Buble rupe tăcerea după zvonurile despărțirii de Horațiu Nicolau</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/politic/premierul-cere-ministerelor-urgentarea-cererilor-de-plata-5-si-6-din-pnrr/</loc>
@@ -4490,6 +4730,16 @@
       <news:title>Ilie Bolojan a declarat la Sinaia că este dificil de colaborat cu golanii în politică</news:title>
     </news:news>
   </url>
+  <url><loc>https://izz.ro/lifestyle/fiul-andreei-banica-a-fost-agresat-de-copii-in-cartier/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T13:22:31+00:00</news:publication_date>
+      <news:title>Fiul Andreei Bănică a fost agresat de copii în cartier</news:title>
+    </news:news>
+  </url>
   <url><loc>https://izz.ro/lifestyle/connect-r-vorbeste-deschis-despre-divortul-de-misha-si-relatia-pentru-fiica-lor/</loc>
     <news:news>
       <news:publication>
@@ -4598,6 +4848,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T13:16:00+00:00</news:publication_date>
       <news:title>Deținuți de la Penitenciarul Târgu Jiu au susținut o lecție de viață pentru elevi</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/extern/tatal-lui-meghan-markle-acuzat-de-posesie-de-pornografie-infantila/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T13:15:18+00:00</news:publication_date>
+      <news:title>Tatăl lui Meghan Markle, acuzat de posesie de pornografie infantilă</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/general/guvernul-a-anuntat-un-pachet-de-masuri-pentru-combaterea-violentei-in-scoli/</loc>
@@ -4887,7 +5147,7 @@
         <news:language>ro</news:language>
       </news:publication>
       <news:publication_date>2026-10-23T12:49:28+00:00</news:publication_date>
-      <news:title>Tânăr de 22 de ani din Rovinari, reținut pentru furturi repetate din magazine</news:title>
+      <news:title>Un tânăr din Rovinari a fost reținut pentru furturi repetate din magazine</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/local/comunicat-de-presa/</loc>
@@ -5168,6 +5428,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T12:24:52+00:00</news:publication_date>
       <news:title>Femeie din Aiud trimisă în judecată pentru uciderea propriului nou-născut</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/auto/porsche-lanseaza-editia-speciala-911-gt3-touring-earls-court-51/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T12:23:00+00:00</news:publication_date>
+      <news:title>Porsche lansează ediția specială 911 GT3 Touring Earls Court 51</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/local/ministrul-roman-de-externe-a-condamnat-atacul-cu-drona-din-marea-neagra/</loc>
@@ -5490,16 +5760,6 @@
       <news:title>CSM Târgu Mureș a învins CSA Steaua în campionatul de baschet</news:title>
     </news:news>
   </url>
-  <url><loc>https://izz.ro/auto/porsche-a-lansat-editia-speciala-911-gt3-touring-earls-court-51/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T11:43:00+00:00</news:publication_date>
-      <news:title>Porsche a lansat ediția specială 911 GT3 Touring Earls Court 51</news:title>
-    </news:news>
-  </url>
   <url><loc>https://izz.ro/extern/serbia-se-pregateste-pentru-alegeri-parlamentare-tensionate/</loc>
     <news:news>
       <news:publication>
@@ -5638,6 +5898,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T11:17:10+00:00</news:publication_date>
       <news:title>Proiect finanțat cu fonduri nerambursabile prin Planul Strategic PAC 2023 – 2027 (PS 2023 – 2027): „ACHIZIȚIE AUTOSPECIALĂ POMPIERI PENTRU ORAȘUL SLĂNIC, JUDEȚUL PRAHOVA”</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/lifestyle/pavel-bartos-vorbeste-despre-iubitul-fiicei-sale-cea-mari/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T11:16:38+00:00</news:publication_date>
+      <news:title>Pavel Bartoș vorbește despre iubitul fiicei sale cea mari</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/local/spitalul-din-campulung-a-oferit-explicatii-in-cazul-pacientului-cardiac-trimis/</loc>
@@ -6028,6 +6298,26 @@
       </news:publication>
       <news:publication_date>2026-10-23T10:31:05+00:00</news:publication_date>
       <news:title>Limitatoarele de viteză de pe DN1 Vâlcele au fost eliminate</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/lifestyle/ioana-ginghina-vorbeste-despre-relatia-actuala-cu-alexandru-papadopol/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T10:29:10+00:00</news:publication_date>
+      <news:title>Ioana Ginghină vorbește despre relația actuală cu Alexandru Papadopol</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/economic/ministerul-finantelor-solicita-reduceri-bugetare-pentru-controlul-deficitului/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T10:27:26+00:00</news:publication_date>
+      <news:title>Ministerul Finanțelor solicită reduceri bugetare pentru controlul deficitului</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/lifestyle/horoscop-26-octombrie-1-noiembrie-luna-plina-aduce-decizii-majore/</loc>
@@ -6618,6 +6908,16 @@
       </news:publication>
       <news:publication_date>2026-10-23T10:00:00+00:00</news:publication_date>
       <news:title>Sora lui Matthew Perry vorbește despre nunta lui Chandler din Friends</news:title>
+    </news:news>
+  </url>
+  <url><loc>https://izz.ro/lifestyle/zvoniuri-despre-despartirea-dintre-babasha-si-malina-ciubotariu/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>IZZ.ro</news:name>
+        <news:language>ro</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-23T09:59:24+00:00</news:publication_date>
+      <news:title>Zvoniuri despre despărțirea dintre Babasha și Mălina Ciubotariu</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/local/anunt-sedinta-consiliul-local-30-10-2026/</loc>
@@ -7548,16 +7848,6 @@
       </news:publication>
       <news:publication_date>2026-10-23T09:22:42+00:00</news:publication_date>
       <news:title>Trei incendii au fost stinse de pompieri în județul Covasna</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/compania-solid-house-a-fost-premiata-la-topul-firmelor-din-constanta/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T09:22:26+00:00</news:publication_date>
-      <news:title>Compania Solid House a fost premiată la Topul Firmelor din Constanța</news:title>
     </news:news>
   </url>
   <url><loc>https://izz.ro/local/masina-de-lux-cautata-in-germania-descoperita-de-politistii-de-frontiera-la/</loc>
@@ -9708,296 +9998,6 @@
       </news:publication>
       <news:publication_date>2026-10-23T06:45:44+00:00</news:publication_date>
       <news:title>Ghid pentru frumusețea holistică: importanța combinării îngrijirii externe cu o nutriție echilibrată</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/anunt-examen-promovare-in-grad-profesional/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:42:19+00:00</news:publication_date>
-      <news:title>Anunț examen promovare în grad profesional</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/anunturi-colective/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:39:02+00:00</news:publication_date>
-      <news:title>Anunțuri colective</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/anunt-concurs-examen-de-promovare-a-personalului-contractual/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:36:31+00:00</news:publication_date>
-      <news:title>Anunt concurs/examen de promovare a personalului contractual</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/general/doru-dolga-a-fost-condamnat-in-prima-instanta-la-patru-ani-de-inchisoare/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:31:24+00:00</news:publication_date>
-      <news:title>Doru Dolga a fost condamnat în primă instanță la patru ani de închisoare</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/sanatate/comisia-europeana-ofera-romaniei-aproape-doua-milioane-de-doze-de-vaccin/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:21:36+00:00</news:publication_date>
-      <news:title>Comisia Europeană oferă României aproape două milioane de doze de vaccin veterinar</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/oferta-de-vanzare-nr-43/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:19:35+00:00</news:publication_date>
-      <news:title>Oferta de vânzare nr.43</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/oferta-de-vanzare-nr-42/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:16:44+00:00</news:publication_date>
-      <news:title>Oferta de vânzare nr.42</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/judetean/primaria-piatra-neamt-a-deschis-doua-noi-puncte-pentru-depunerea-declaratiilor/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:10:56+00:00</news:publication_date>
-      <news:title>Primăria Piatra-Neamț a deschis două noi puncte pentru depunerea declarațiilor de salubrizare</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/cariera-23-10-2026-directia-de-asistenta-sociala-anunta-organizarea-concursului/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:10:07+00:00</news:publication_date>
-      <news:title>Carieră 23.10.2026 – Direcția de Asistență Socială anunță organizarea concursului pentru ocuparea pe perioada determinata a 1 post de ingrijitor batrani la domiciliu si a 2 posturi infirmier in cadrul proiectului Servicii de îngrijire la domiciliu pentru persoanele vârstnice</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/general/ghid-privind-accesul-fara-bariere-pentru-persoanele-cu-dizabilitati/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:09:57+00:00</news:publication_date>
-      <news:title>Ghid privind accesul fără bariere pentru persoanele cu dizabilități</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/sport/dorinel-munteanu-critica-dur-echipa-csm-resita-dupa-esecul-cu-fc-bihor/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:07:29+00:00</news:publication_date>
-      <news:title>Dorinel Munteanu critică dur echipa CSM Reșița după eșecul cu FC Bihor</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/auto/salonul-auto-de-la-paris-reflecta-transformarile-industriei-auto-actuale/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:01:23+00:00</news:publication_date>
-      <news:title>Salonul Auto de la Paris reflectă transformările industriei auto actuale</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/instiintare-organizare-concurs/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T06:00:06+00:00</news:publication_date>
-      <news:title>Înștiințare organizare concurs</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/sport/fc-bihor-a-invatat-csm-resita-pe-teren-propriu-in-etapa-recenta/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:57:31+00:00</news:publication_date>
-      <news:title>FC Bihor a învătat CSM Reșița pe teren propriu în etapa recentă</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/noi-sapaturi-arheologice-la-sighetu-marmatiei-in-cautarea-ramasitelor-lui-iuliu/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:57:06+00:00</news:publication_date>
-      <news:title>Noi săpături arheologice la Sighetu Marmației în căutarea rămășițelor lui Iuliu Maniu</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/anunt-privind-organizarea-examenului-de-promovare-in-grad-profesional-a-doi/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:54:31+00:00</news:publication_date>
-      <news:title>Anunt privind organizarea examenului de promovare in grad profesional a doi functionari publici – Compartiment Financiar-Contabil</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/evenimente-culturale-si-artistice-programate-in-bucuresti-in-weekend/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:39:33+00:00</news:publication_date>
-      <news:title>Evenimente culturale și artistice programate în București în weekend</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/cultura/cronica-de-film-semnata-de-monica-stoica-despre-productia-fjord/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:30:00+00:00</news:publication_date>
-      <news:title>Cronică de film semnată de Monica Stoica despre producția Fjord</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/consultarea-nationala-lansata-de-secretariatul-general-al-guvernului-cu-privire/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:24:11+00:00</news:publication_date>
-      <news:title>Consultarea națională lansată de Secretariatul General al Guvernului cu privire la claritatea limbajului utilizat de administrația publică în relația cu cetățenii.</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/auto/tesla-va-vinde-robotaxiul-cybercab-clientilor-privati-din-2026/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:22:00+00:00</news:publication_date>
-      <news:title>Tesla va vinde robotaxiul Cybercab clienților privați din 2026</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/cultura/teatrul-tandarica-joaca-sambata-in-piata-obor-un-spectacol-cu-intrare-libera/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:13:11+00:00</news:publication_date>
-      <news:title>Teatrul Țăndărică joacă sâmbătă în Piața Obor un spectacol cu intrare liberă</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/economic/importanta-recrutarii-primilor-angajati-in-cadrul-firmelor-mici/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:05:01+00:00</news:publication_date>
-      <news:title>Importanța recrutării primilor angajați în cadrul firmelor mici</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/tech/doi-fosti-olimpici-romani-dezvolta-oneder-o-aplicatie-de-dating-bazata-pe/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:00:01+00:00</news:publication_date>
-      <news:title>Doi foști olimpici români dezvoltă Oneder, o aplicație de dating bazată pe inteligență artificială</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/judetean/primarul-targu-jiului-critica-numirile-politice-la-prefectura-gorj/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T05:00:00+00:00</news:publication_date>
-      <news:title>Primarul Târgu Jiului critică numirile politice la Prefectura Gorj</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/cultura/grecia-va-amenaja-situl-arheologic-al-palatului-lui-ulise-din-itaca/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T04:59:21+00:00</news:publication_date>
-      <news:title>Grecia va amenaja situl arheologic al palatului lui Ulise din Itaca</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/primaria-resita-incepe-reabilitarea-energetica-a-unui-bloc-turn/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T04:53:55+00:00</news:publication_date>
-      <news:title>Primăria Reșița începe reabilitarea energetică a unui bloc-turn</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/dezbateri-despre-inteligenta-artificiala-la-festivalul-de-la-iasi/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T04:53:45+00:00</news:publication_date>
-      <news:title>Dezbateri despre inteligența artificială la Festivalul de la Iași</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/cultura/razvan-ditescu-aduce-tema-basmelor-si-a-visarii-la-festivalul-national-de-teatru/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T04:53:00+00:00</news:publication_date>
-      <news:title>Răzvan Dițescu aduce tema basmelor și a visării la Festivalul Național de Teatru</news:title>
-    </news:news>
-  </url>
-  <url><loc>https://izz.ro/local/servicii-medicale-gratuite-la-planificarea-familiala-din-sibiu/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>IZZ.ro</news:name>
-        <news:language>ro</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-23T04:52:41+00:00</news:publication_date>
-      <news:title>Servicii medicale gratuite la Planificarea Familială din Sibiu</news:title>
     </news:news>
   </url>
 </urlset>
