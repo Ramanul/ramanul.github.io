@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/rusia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Rusia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 16:41:23 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 19:55:56 +0000</lastBuildDate>
+    <item>
+      <title>Rusia a revenit în competițiile FIFA cu o victorie de 11-0 la Cupa Mondială U15</title>
+      <link>https://izz.ro/sport/rusia-a-revenit-in-competitiile-fifa-cu-o-victorie-de-11-0-la-cupa-mondiala-u15/</link>
+      <guid>https://izz.ro/sport/rusia-a-revenit-in-competitiile-fifa-cu-o-victorie-de-11-0-la-cupa-mondiala-u15/</guid>
+      <pubDate>Sun, 25 Oct 2026 19:08:45 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.gsp.ro/international/campionate/rusia-reprimita-fifa-cupa-mondiala-u15-sudan-992225.html">GSP</source>
+      <media:content url="https://izz.ro/sport/rusia-a-revenit-in-competitiile-fifa-cu-o-victorie-de-11-0-la-cupa-mondiala-u15/cover.jpg?v=4cc30b1f" medium="image" type="image/jpeg"/>
+      <description>După interdicția primită în 2022 ca urmare a invadării Ucrainei, o echipă din Rusia a debutat în competițiile organizate de FIFA. La ediția inaugurală a Cupei Mondiale U15 din Baku, selecționata rusă a învins Sudanul cu scorul de 11-0.</description>
+    </item>
+    <item>
+      <title>Navele militare rusești au lipsit două luni din Marea Mediterană</title>
+      <link>https://izz.ro/extern/navele-militare-rusesti-au-lipsit-doua-luni-din-marea-mediterana/</link>
+      <guid>https://izz.ro/extern/navele-militare-rusesti-au-lipsit-doua-luni-din-marea-mediterana/</guid>
+      <pubDate>Sun, 25 Oct 2026 16:53:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/pentru-prima-data-in-ultimul-deceniu-navele-militare-ale-rusiei-au-disparut-din-marea-mediterana-timp-de-doua-luni-808578.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/extern/navele-militare-rusesti-au-lipsit-doua-luni-din-marea-mediterana/cover.jpg?v=7ea1d876" medium="image" type="image/jpeg"/>
+      <description>Conform unor surse din cadrul NATO, Marina Rusiei nu a menținut nicio navă de război în Marea Mediterană timp de aproximativ două luni, între iulie și septembrie 2026, premieră în ultimul deceniu.</description>
+    </item>
     <item>
       <title>Gheața din Arctica blochează petrolierele rusești pe ruta spre China</title>
       <link>https://izz.ro/extern/gheata-din-arctica-blocheaza-petrolierele-rusesti-pe-ruta-spre-china/</link>
@@ -451,23 +471,5 @@
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/urmatoarea-runda-de-negocieri-trilaterale-sua-rusia-ucraina-posibil-la-abu-dhabi-in-10-noiembrie-kremlinul-spune-ca-unele-propuneri-ale-lui-witkoff-au-putina-valoare-practica.html">Curs de Guvernare, Digi24 Extern</source>
       <description>Vladimir Putin a acceptat reluarea discuțiilor trilaterale dintre SUA, Rusia și Ucraina, o nouă rundă urmând să se desfășoare în data de 10 noiembrie la Abu Dhabi. Kremlinul a subliniat că o soluționare durabilă a conflictului necesită tratarea problemelor de securitate ale ambelor state.</description>
-    </item>
-    <item>
-      <title>Ucraina solicită Uniunii Europene un negociator special pentru discuțiile cu Rusia</title>
-      <link>https://izz.ro/extern/ucraina-solicita-uniunii-europene-un-negociator-special-pentru-discutiile-cu/</link>
-      <guid>https://izz.ro/extern/ucraina-solicita-uniunii-europene-un-negociator-special-pentru-discutiile-cu/</guid>
-      <pubDate>Thu, 22 Oct 2026 12:14:17 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://cvlpress.ro/22.10.2026/ue-in-cautarea-unui-negociator/">Cuvântul Libertății</source>
-      <description>Președintele Volodimir Zelenski a discutat cu oficialii europeni despre numirea unui reprezentant comunitar care să asigure o voce activă a Europei în eventuale negocieri de pace.</description>
-    </item>
-    <item>
-      <title>Rusia desfășoară o campanie de dezinformare contra democraților americani</title>
-      <link>https://izz.ro/extern/rusia-desfasoara-o-campanie-de-dezinformare-contra-democratilor-americani/</link>
-      <guid>https://izz.ro/extern/rusia-desfasoara-o-campanie-de-dezinformare-contra-democratilor-americani/</guid>
-      <pubDate>Thu, 22 Oct 2026 10:11:57 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/sua/democratii-care-candideaza-in-alegerile-din-sua-sunt-vizati-de-o-campanie-de-dezinformare-a-rusiei-arata-un-raport-al-serviciilor-4004191">Digi24 Extern</source>
-      <description>Liderii democrați din comisiile de informații ale Congresului SUA au fost informați despre operațiunile rusești de manipulare. Acțiunea vizează candidații democrați înscriși în cursa electorală pentru alegerile de la jumătatea mandatului.</description>
     </item>
 </channel></rss>

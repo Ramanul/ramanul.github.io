@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/comisia-europeana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Comisia Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 16:41:23 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 19:55:56 +0000</lastBuildDate>
+    <item>
+      <title>Comisia Europeană vrea un acord financiar pentru Ucraina până la finalul anului</title>
+      <link>https://izz.ro/politic/comisia-europeana-vrea-un-acord-financiar-pentru-ucraina-pana-la-finalul-anului/</link>
+      <guid>https://izz.ro/politic/comisia-europeana-vrea-un-acord-financiar-pentru-ucraina-pana-la-finalul-anului/</guid>
+      <pubDate>Sun, 25 Oct 2026 18:40:16 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/comisia-europeana-vrea-un-acord-pana-la-finalul-anului-pentru-acoperirea-deficitului-bugetar-al-ucrainei-estimat-la-70-de-miliarde-de-euro-in-2027.html">G4Media</source>
+      <media:content url="https://izz.ro/politic/comisia-europeana-vrea-un-acord-financiar-pentru-ucraina-pana-la-finalul-anului/cover.jpg?v=21f269b3" medium="image" type="image/jpeg"/>
+      <description>Oficialii europeni pregătesc o înțelegere politică menită să acopere deficitul bugetar estimat la 70 de miliarde de euro pe care Ucraina îl va înregistra în anul 2027, conform unui document oficial analizat de presă.</description>
+    </item>
     <item>
       <title>România poate cere amânarea limitelor de poluare a aerului</title>
       <link>https://izz.ro/politic/romania-poate-cere-amanarea-limitelor-de-poluare-a-aerului/</link>
@@ -441,14 +451,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/corruption-could-become-harder-to-catch-under-new-eu-budget-watchdog-warns/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Președintele instituției, Tony Murphy, a semnalat că flexibilizarea fondurilor europene pentru a răspunde crizelor neprevăzute va reduce transparența și va face mult mai dificilă urmărirea modului în care sunt cheltuiți banii publici.</description>
-    </item>
-    <item>
-      <title>România a depășit Franța la producția de porumb și a devenit al doilea producător european</title>
-      <link>https://izz.ro/economic/romania-a-depasit-franta-la-productia-de-porumb-si-a-devenit-al-doilea/</link>
-      <guid>https://izz.ro/economic/romania-a-depasit-franta-la-productia-de-porumb-si-a-devenit-al-doilea/</guid>
-      <pubDate>Tue, 13 Oct 2026 19:21:55 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.economica.net/premiera-ai-ultimilor-ani-am-depasit-franta-la-productia-de-porumb_985065.html">Economica</source>
-      <description>În ciuda unei recolte europene scăzute, România a ajuns al doilea producător de porumb din UE, cu peste 7,8 milioane de tone, devansând Franța, care a înregistrat un minim istoric.</description>
     </item>
 </channel></rss>
