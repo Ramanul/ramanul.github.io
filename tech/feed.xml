@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 12:00:17 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 16:41:35 +0000</lastBuildDate>
+    <item>
+      <title>Ucraina vrea rețea proprie de sateliți alături de Nokia și Iceye</title>
+      <link>https://izz.ro/tech/ucraina-vrea-retea-proprie-de-sateliti-alaturi-de-nokia-si-iceye/</link>
+      <guid>https://izz.ro/tech/ucraina-vrea-retea-proprie-de-sateliti-alaturi-de-nokia-si-iceye/</guid>
+      <pubDate>Sun, 25 Oct 2026 15:37:35 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://cursdeguvernare.ro/ucraina-vrea-sa-si-dezvolte-propria-retea-de-sateliti-de-comunicatii.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/tech/ucraina-vrea-retea-proprie-de-sateliti-alaturi-de-nokia-si-iceye/cover.jpg?v=b5fc536d" medium="image" type="image/jpeg"/>
+      <description>Kievul intenționează să dezvolte un sistem independent de comunicații prin satelit împreună cu firme finlandeze, din cauza limitărilor impuse de programul american Starshield.</description>
+    </item>
+    <item>
+      <title>Clipurile video virale aduc câștiguri de mii de dolari din vizualizări</title>
+      <link>https://izz.ro/tech/clipurile-video-virale-aduc-castiguri-de-mii-de-dolari-din-vizualizari/</link>
+      <guid>https://izz.ro/tech/clipurile-video-virale-aduc-castiguri-de-mii-de-dolari-din-vizualizari/</guid>
+      <pubDate>Sun, 25 Oct 2026 12:00:13 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://monitorulneamt.ro/pana-la-3-dolari-pentru-o-mie-de-vizualizari-cine-plateste-pentru-clipurile-care-devin-virale/">Monitorul de Neamț</source>
+      <media:content url="https://izz.ro/tech/clipurile-video-virale-aduc-castiguri-de-mii-de-dolari-din-vizualizari/cover.jpg?v=b03591d2" medium="image" type="image/jpeg"/>
+      <description>Un videoclip scurt de pe internet poate genera până la 3 dolari pentru fiecare mie de vizualizări, tinerii creatori reușind să obțină venituri lunare substanțiale din promovarea plătită a diferitelor branduri.</description>
+    </item>
     <item>
       <title>Google Wallet introduce suportul pentru pașapoarte europene</title>
       <link>https://izz.ro/tech/google-wallet-introduce-suportul-pentru-pasapoarte-europene/</link>
@@ -173,7 +193,6 @@
       <pubDate>Sat, 24 Oct 2026 07:00:00 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/vanzarile-galaxy-z-fold8/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/vanzarile-smartphone-ului-galaxy-z-fold8-au-crescut-considerabil/cover.jpg?v=1124c91b" medium="image" type="image/jpeg"/>
       <description>Modelul pliabil de la Samsung a înregistrat o creștere de 45% a vânzărilor, în timp ce concurența exercitată de lansarea Apple stimulează producția pe piața globală de dispozitive mobile.</description>
     </item>
     <item>
@@ -454,23 +473,5 @@
       <category>tech</category>
       <source url="https://zonait.ro/oppo-enco-x4-dynaudio-review/">ZonaIT</source>
       <description>Testate recent de pasionații de tehnologie, noile căști OPPO Enco X4 impresionează prin calitatea audio livrată alături de reglajele realizate de compania Dynaudio.</description>
-    </item>
-    <item>
-      <title>Jocul tradițional Roata Norocului a fost digitalizat în aplicații mobile</title>
-      <link>https://izz.ro/tech/jocul-traditional-roata-norocului-a-fost-digitalizat-in-aplicatii-mobile/</link>
-      <guid>https://izz.ro/tech/jocul-traditional-roata-norocului-a-fost-digitalizat-in-aplicatii-mobile/</guid>
-      <pubDate>Thu, 22 Oct 2026 15:12:11 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.observatorulph.ro/advertorial/2801732-de-la-targuri-la-aplicatii-cum-a-ajuns-roata-norocului-pe-telefon">Observatorul Prahovean</source>
-      <description>Conceptul clasic de tombolă folosit la târgurile școlare de Crăciun a fost transformat în aplicații interactive pentru telefoanele mobile.</description>
-    </item>
-    <item>
-      <title>Microsoft ar putea lansa o consolă portabilă cu sistem de operare propriu</title>
-      <link>https://izz.ro/tech/microsoft-ar-putea-lansa-o-consola-portabila-cu-sistem-de-operare-propriu/</link>
-      <guid>https://izz.ro/tech/microsoft-ar-putea-lansa-o-consola-portabila-cu-sistem-de-operare-propriu/</guid>
-      <pubDate>Thu, 22 Oct 2026 14:38:40 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/22/urmatorul-handheld-de-la-xbox-ar-putea-renunta-la-windows-in-favoarea-unei-solutii-proprietare/">Connect.ro</source>
-      <description>Viitorul dispozitiv portabil pregătit de Microsoft ar putea renunța la sistemul Windows 11 în favoarea unei interfețe proprietare. Lansarea este așteptată anul viitor, deși Project Helix este programat pentru 2028.</description>
     </item>
 </channel></rss>

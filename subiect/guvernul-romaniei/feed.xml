@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/guvernul-romaniei/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Guvernul României pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 12:00:06 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 16:41:23 +0000</lastBuildDate>
+    <item>
+      <title>Declarațiile ministrului Educației despre sistemul de învățământ și meditații</title>
+      <link>https://izz.ro/politic/declaratiile-ministrului-educatiei-despre-sistemul-de-invatamant-si-meditatii/</link>
+      <guid>https://izz.ro/politic/declaratiile-ministrului-educatiei-despre-sistemul-de-invatamant-si-meditatii/</guid>
+      <pubDate>Sun, 25 Oct 2026 13:13:13 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://focuspress.ro/sorin-costreie-spune-de-ce-romania-are-nevoie-de-doua-ministere-ale-educatiei-3e37a2a4c/">FocusPress, Ziarul Financiar</source>
+      <media:content url="https://izz.ro/politic/declaratiile-ministrului-educatiei-despre-sistemul-de-invatamant-si-meditatii/cover.jpg?v=d95882b8" medium="image" type="image/jpeg"/>
+      <description>Politicile din educație vor fi stabilite cu acordul premierului, potrivit ministrului. Ministrul Educației susține că meditațiile trebuie fiscalizate și reflectă probleme majore în școala românească. Sorin Costreie a adus în discuție necesitatea unei educații personalizate și a sprijinului remedial adaptat elevilor.</description>
+    </item>
     <item>
       <title>Iașiul găzduiește o conferință regională dedicată competitivitatii IMM-urilor românești</title>
       <link>https://izz.ro/local/iasiul-gazduieste-o-conferinta-regionala-dedicata-competitivitatii-imm-urilor/</link>
@@ -63,7 +73,6 @@
       <pubDate>Sat, 24 Oct 2026 06:58:39 +0000</pubDate>
       <category>economic</category>
       <source url="https://cursdeguvernare.ro/sedinta-pentru-inchiderea-pnrr-la-guvern-romania-mai-are-de-incasat-aproape-9-mld-e-prin-ultimele-doua-cereri-de-plata-termen-iminent-6-noiembrie-iar-la-cererea-nr-5-mai-sunt-in-discuti.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/economic/guvernul-pregateste-inchiderea-pnrr-pentru-cele-9-miliarde-de-euro-ramase/cover.jpg?v=cbd683a4" medium="image" type="image/jpeg"/>
       <description>Executivul român a cerut accelerarea măsurilor necesare pentru deblocarea ultimelor fonduri europene, având termenul limită de 6 noiembrie pentru evaluarea cererilor de plată aflate în discuție.</description>
     </item>
     <item>
@@ -73,7 +82,6 @@
       <pubDate>Sat, 24 Oct 2026 06:11:46 +0000</pubDate>
       <category>local</category>
       <source url="https://bistriteanul.ro/guvernul-anunta-sapte-masuri-dupa-atacurile-din-scolile-din-bistrita-si-pitesti/">Bistrițeanul.ro</source>
-      <media:content url="https://izz.ro/local/guvernul-adopta-sapte-masuri-pentru-combaterea-violentei-scolare-dupa/cover.jpg?v=ebaaa6f2" medium="image" type="image/jpeg"/>
       <description>Executivul a stabilit șapte direcții de acțiune, inclusiv întărirea pazei în unitățile de învățământ și suplimentarea posturilor de consilieri psihologici, ca răspuns la atacurile violente din școlile din Bistrița și Pitești.</description>
     </item>
     <item>
@@ -453,14 +461,5 @@
       <category>local</category>
       <source url="https://www.criticarad.ro/prefectul-mihai-pasca-si-a-anuntat-public-demisia/">Critic Arad</source>
       <description>Mihai Pașca, prefectul județului Arad numit în martie 2025, și-a anunțat oficial demisia printr-un mesaj public pe o rețea de socializare, invocând decizii luate anterior după moțiunea de cenzură din mai.</description>
-    </item>
-    <item>
-      <title>Premierul interimar Ilie Bolojanși-a prezentat bilanțul celor aproape 16 luni de guvernare</title>
-      <link>https://izz.ro/politic/premierul-interimar-ilie-bolojansi-a-prezentat-bilantul-celor-aproape-16-luni/</link>
-      <guid>https://izz.ro/politic/premierul-interimar-ilie-bolojansi-a-prezentat-bilantul-celor-aproape-16-luni/</guid>
-      <pubDate>Mon, 19 Oct 2026 16:27:02 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.pressalert.ro/2026/10/bolojan-isi-prezinta-bilantul-predau-o-romanie-aflata-pe-calea-redresarii-corecte/">PressAlert Timișoara, Curs de Guvernare</source>
-      <description>Premierul interimar Ilie Bolojan și-a prezentat, luni, bilanțul mandatului exercitat între iulie 2025 și octombrie 2026. Acesta a declarat că a preluat o Românie cu un deficit bugetar de 9,3% și riscul blocării fondurilor europene, lăsând în urmă o țară pe calea redresării economice.</description>
     </item>
 </channel></rss>

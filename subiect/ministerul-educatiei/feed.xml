@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Ministerul Educației — IZZ.ro</title>
+  <title>Ministerul Educatiei — IZZ.ro</title>
   <link>https://izz.ro/subiect/ministerul-educatiei/</link>
   <atom:link href="https://izz.ro/subiect/ministerul-educatiei/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Ministerul Educației pe IZZ.ro</description>
+  <description>Știri despre Ministerul Educatiei pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 12:00:07 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 16:41:23 +0000</lastBuildDate>
+    <item>
+      <title>Ministrul Educației a discutat despre posibile schimbări la Evaluarea Națională</title>
+      <link>https://izz.ro/politic/ministrul-educatiei-a-discutat-despre-posibile-schimbari-la-evaluarea-nationala/</link>
+      <guid>https://izz.ro/politic/ministrul-educatiei-a-discutat-despre-posibile-schimbari-la-evaluarea-nationala/</guid>
+      <pubDate>Sun, 25 Oct 2026 14:46:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://zcj.ro/educatie/evaluarea-nationala-ar-putea-include-probe-noi-pe-langa-limba-romana-si-matematica-anuntul-ministrului-educatiei--303409.html">Ziua de Cluj, Gorjeanul, Spotmedia</source>
+      <media:content url="https://izz.ro/politic/ministrul-educatiei-a-discutat-despre-posibile-schimbari-la-evaluarea-nationala/cover.jpg?v=8d829f7a" medium="image" type="image/jpeg"/>
+      <description>Ministrul Educației, Sorin Costreie, a declarat că ia în calcul introducerea unor probe suplimentare la examenul de Evaluare Națională.</description>
+    </item>
     <item>
       <title>Ministerul Educației stabilește limita absențelor motivate de părinți</title>
       <link>https://izz.ro/general/ministerul-educatiei-stabileste-limita-absentelor-motivate-de-parinti/</link>
@@ -203,14 +213,5 @@
       <category>general</category>
       <source url="https://stirileprotv.ro/educatie/medicii-cer-limitarea-ecranelor-in-educatie-ce-pierd-copiii-care-petrec-ore-intregi-in-fata-dispozitivelor.html">Știrile ProTV</source>
       <description>Autoritățile recomandă creșelor și grădinițelor limitarea utilizării dispozitivelor digitale, urmând trendul internațional de combatere a efectelor negative ale tehnologiei asupra celor mici.</description>
-    </item>
-    <item>
-      <title>Ministerul Educației a publicat subiectele pentru concursul de directori</title>
-      <link>https://izz.ro/general/ministerul-educatiei-a-publicat-subiectele-pentru-concursul-de-directori/</link>
-      <guid>https://izz.ro/general/ministerul-educatiei-a-publicat-subiectele-pentru-concursul-de-directori/</guid>
-      <pubDate>Tue, 13 Oct 2026 13:52:00 +0000</pubDate>
-      <category>general</category>
-      <source url="https://zcj.ro/educatie/testul-grila-primit-la-concursul-de-directori-ce-au-avut-de-rezolvat-profesorii-in-60-de-minute--302820.html">Ziua de Cluj</source>
-      <description>Profesorii înscriși la concursul pentru ocuparea funcțiilor de conducere din școli au avut la dispoziție 60 de minute pentru a rezolva testul-grilă. Instituția a făcut publice cerințele și baremul oficial.</description>
     </item>
 </channel></rss>
