@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 01:28:04 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 06:30:12 +0000</lastBuildDate>
+    <item>
+      <title>Ana-Maria Stancu analizează oportunitățile și riscurile aduse de inteligența artificială</title>
+      <link>https://izz.ro/ai/ana-maria-stancu-analizeaza-oportunitatile-si-riscurile-aduse-de-inteligenta/</link>
+      <guid>https://izz.ro/ai/ana-maria-stancu-analizeaza-oportunitatile-si-riscurile-aduse-de-inteligenta/</guid>
+      <pubDate>Sun, 25 Oct 2026 06:00:25 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://adevarul.ro/interviurile-adevarul/ana-maria-stancu-la-interviurile-adevarul-ai-2566239.html">Adevărul</source>
+      <media:content url="https://izz.ro/ai/ana-maria-stancu-analizeaza-oportunitatile-si-riscurile-aduse-de-inteligenta/cover.jpg?v=06317e46" medium="image" type="image/jpeg"/>
+      <description>Antreprenoarea Ana-Maria Stancu explică modul în care inteligența artificială transformă piața muncii în România, subliniind importanța verificării datelor și a protejării confidențialității.</description>
+    </item>
     <item>
       <title>Interacțiunea umană cu inteligența artificială ridică semne de întrebare privind natura relației</title>
       <link>https://izz.ro/ai/interactiunea-umana-cu-inteligenta-artificiala-ridica-semne-de-intrebare/</link>
@@ -93,7 +103,7 @@
       <pubDate>Fri, 23 Oct 2026 18:42:03 +0000</pubDate>
       <category>ai</category>
       <source url="https://hotnews.ro/o-autoare-a-publicat-in-20-de-luni-371-de-carti-scrise-cu-ajutorul-inteligentei-artificiale-chat-gpt-foarte-bun-la-dialoguri-grok-total-dezinhibat-2385017">HotNews</source>
-      <media:content url="https://izz.ro/ai/o-autoare-sud-africana-a-publicat-371-de-carti-generate-cu-ai/cover.jpg?v=d7ab6c7d" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/o-autoare-sud-africana-a-publicat-371-de-carti-generate-cu-ai/cover.jpg?v=060d3381" medium="image" type="image/jpeg"/>
       <description>Scriitoarea Coral Hart a lansat sute de volume scrise cu ajutorul inteligenței artificiale începând de anul trecut, stârnind controverse aprinse și critici dure în rândul publicului și al colegilor de breaslă.</description>
     </item>
     <item>
@@ -113,7 +123,6 @@
       <pubDate>Fri, 23 Oct 2026 15:08:39 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.digi24.ro/stiri/actualitate/jandarmii-nu-au-ingenuncheat-in-fata-sustinatorilor-lui-georgescu-mai-dezminte-un-fals-raspandit-pe-retelele-sociale-4006369">Digi24</source>
-      <media:content url="https://izz.ro/ai/mai-infirma-zvonurile-privind-jandarmii-care-ar-fi-ingenuncheat/cover.jpg?v=6a4b1893" medium="image" type="image/jpeg"/>
       <description>Instituciile statului au clarificat că imaginile distribuite pe platformele sociale, care arătau jandarmi îngenuncheați în fața protestatarilor, sunt falsuri grosolane create cu ajutorul inteligenței artificiale.</description>
     </item>
     <item>
@@ -457,14 +466,5 @@
       <category>ai</category>
       <source url="https://www.economica.net/in-era-ai-microsoft-pariaza-pe-inginerii-romani-romania-are-un-rol-important-de-jucat-in-acest-viitor-de-a-lungul-anilor-microsoft-a-facut-investitii-semnificative-pentru-ca-am-identificat-ceva_985181.html">Economica</source>
       <description>Reprezentanții companiei Microsoft subliniază importanța strategică a pieței românești în contextul adoptării accelerate a tehnologiilor bazate pe inteligență artificială în următorii ani.</description>
-    </item>
-    <item>
-      <title>Inteligența artificială revoluționează anchetele criminalistice, fiind folosită de polițiști și infractori</title>
-      <link>https://izz.ro/ai/inteligenta-artificiala-revolutioneaza-anchetele-criminalistice-fiind-folosita/</link>
-      <guid>https://izz.ro/ai/inteligenta-artificiala-revolutioneaza-anchetele-criminalistice-fiind-folosita/</guid>
-      <pubDate>Sun, 18 Oct 2026 17:19:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://observatornews.ro/eveniment/anchetele-criminalistice-intra-intro-noua-era-inteligenta-artificiala-un-mare-ajutor-dar-si-un-mare-dusman-669554.html">Observator</source>
-      <description>Tehnologia modernă permite infractorilor să șteargă urme și să creeze alibiuri false. În același timp, anchetatorii utilizează inteligența artificială pentru a analiza imagini complexe și a rezolva cazuri dificile.</description>
     </item>
 </channel></rss>

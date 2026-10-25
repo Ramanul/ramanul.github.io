@@ -5,13 +5,13 @@
   "articles_with_provenance": 1,
   "catalog_records": 2,
   "coverage": {
-    "denominator": 10398,
+    "denominator": 10428,
     "numerator": 2
   },
   "dossiers": {
     "emitted": 1,
     "indexable": 1,
-    "prepared_at": "2026-10-25T01:27:26.094598+00:00",
+    "prepared_at": "2026-10-25T06:29:38.080064+00:00",
     "suppressed": [],
     "withdrawn": 0
   },
@@ -19,9 +19,9 @@
   "examined_resources": 1,
   "examined_sources": 1,
   "fresh": 2,
-  "generated_at": "2026-10-25T01:27:26.094598+00:00",
+  "generated_at": "2026-10-25T06:29:38.080064+00:00",
   "needs_review": 0,
-  "publishable_articles": 10398,
+  "publishable_articles": 10428,
   "resources_current": 0,
   "resources_expired": 1,
   "resources_without_deadline": 0,

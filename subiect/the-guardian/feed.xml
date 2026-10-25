@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/the-guardian/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre The Guardian pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 24 Oct 2026 16:58:31 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 06:30:00 +0000</lastBuildDate>
+    <item>
+      <title>Procesul vizând acuzații majore a mobilizat forțele de securitate la Bruxelles</title>
+      <link>https://izz.ro/extern/procesul-vizand-acuzatii-majore-a-mobilizat-fortele-de-securitate-la-bruxelles/</link>
+      <guid>https://izz.ro/extern/procesul-vizand-acuzatii-majore-a-mobilizat-fortele-de-securitate-la-bruxelles/</guid>
+      <pubDate>Sun, 25 Oct 2026 05:40:14 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/cazul-taietorului-de-degete-si-brazilianului-escobar-barbatii-aflati-in-centrul-celui-mai-mediatizat-proces-al-deceniului-3999991">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/procesul-vizand-acuzatii-majore-a-mobilizat-fortele-de-securitate-la-bruxelles/cover.jpg?v=74719277" medium="image" type="image/jpeg"/>
+      <description>Un important dispozitiv de poliție a securizat zona fostului sediu NATO din cartierul Haren la Bruxelles, marcând începutul unui proces mediatizat care implică figuri controversate.</description>
+    </item>
     <item>
       <title>Actorii finaliști pentru rolul James Bond dau probe la Londra</title>
       <link>https://izz.ro/cultura/actorii-finalisti-pentru-rolul-james-bond-dau-probe-la-londra/</link>
@@ -104,14 +114,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/cartelurile-de-droguri-din-america-latina-se-extind-in-europa-inclusiv-in-romania-ce-dezvaluie-o-investigatie-the-guardian-3989583">Digi24 Extern</source>
       <description>O investigație publicată de The Guardian arată că grupările criminale din America Latina colaborează cu mafiile locale. Rețelele sunt active în cel puțin 12 țări din Europa, inclusiv în România.</description>
-    </item>
-    <item>
-      <title>Un bărbat a fost scos dintr-o peșteră din Italia după 26 de ore</title>
-      <link>https://izz.ro/extern/un-barbat-a-fost-scos-dintr-o-pestera-din-italia-dupa-26-de-ore/</link>
-      <guid>https://izz.ro/extern/un-barbat-a-fost-scos-dintr-o-pestera-din-italia-dupa-26-de-ore/</guid>
-      <pubDate>Mon, 12 Oct 2026 18:55:49 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/ue/un-barbat-a-fost-salvat-dintr-o-pestera-din-sardinia-dupa-ce-a-ramas-blocat-timp-de-26-de-ore-in-urma-unei-alunecari-de-teren-3989087">Digi24 Extern</source>
-      <description>Un turist de 31 de ani a fost salvat din adâncurile unei peșteri din Sardinia, unde rămăsese blocat la zece metri sub pământ în urma unei alunecări masive de teren.</description>
     </item>
 </channel></rss>

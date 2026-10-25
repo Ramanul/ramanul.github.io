@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 01:27:52 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 06:30:00 +0000</lastBuildDate>
+    <item>
+      <title>Planul NATO 3.0 propus de administrația Trump amenință securitatea convențională a Europei</title>
+      <link>https://izz.ro/politic/planul-nato-3-0-propus-de-administratia-trump-ameninta-securitatea/</link>
+      <guid>https://izz.ro/politic/planul-nato-3-0-propus-de-administratia-trump-ameninta-securitatea/</guid>
+      <pubDate>Sun, 25 Oct 2026 05:38:38 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/de-ce-este-nato-3-0-un-pariu-periculos-planul-administratiei-trump-risca-sa-darame-cei-doi-piloni-fundamentali-care-protejeaza-europa-4003597">Digi24 Extern</source>
+      <media:content url="https://izz.ro/politic/planul-nato-3-0-propus-de-administratia-trump-ameninta-securitatea/cover.jpg?v=1c07f6ce" medium="image" type="image/jpeg"/>
+      <description>Noua strategie militară americană urmărește reducerea angajamentelor convenționale față de Europa, punând în pericol pilonii fundamentali de apărare ai Alianței Nord-Atlantice pe fondul exercițiilor nucleare.</description>
+    </item>
     <item>
       <title>Primul oraș din istorie cu zgârie-nori a apărut în Europa medievală</title>
       <link>https://izz.ro/cultura/primul-oras-din-istorie-cu-zgarie-nori-a-aparut-in-europa-medievala/</link>
@@ -453,14 +463,5 @@
       <category>cultura</category>
       <source url="https://www.criticarad.ro/prizonierii-in-istorie-ix/">Critic Arad</source>
       <description>Analiza istorică detaliază regimul dur aplicat combatanților capturați în conflictele civile din Europa modernă până după Primul Război Mondial, perioadă în care aceștia nu beneficiau de protecție legală.</description>
-    </item>
-    <item>
-      <title>Cererea globală de mașini electrice a scăzut ușor în septembrie, afectată de Americi și China</title>
-      <link>https://izz.ro/auto/cererea-globala-de-masini-electrice-a-scazut-usor-in-septembrie-afectata-de/</link>
-      <guid>https://izz.ro/auto/cererea-globala-de-masini-electrice-a-scazut-usor-in-septembrie-afectata-de/</guid>
-      <pubDate>Fri, 16 Oct 2026 06:07:25 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://economedia.ro/cererea-globala-de-vehicule-electrice-a-scazut-cu-2-in-luna-septembrie-vanzari-record-in-europa.html">Economedia, Economica</source>
-      <description>Vânzările globale de vehicule electrice au înregistrat o scădere de 2% în luna septembrie, ajungând la 2,15 milioane de unități și întrerupând o serie de șase luni de creștere. În timp ce Europa a atins un nivel record de aproape 600.000 de unități vândute, piețele din America de Nord și China au suferit reduceri semnificative de 44%, respectiv 18%, determinate de factori legislativi și regionali.</description>
     </item>
 </channel></rss>

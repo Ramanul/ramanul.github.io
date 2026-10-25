@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/psd/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre PSD pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 01:27:53 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 06:30:00 +0000</lastBuildDate>
+    <item>
+      <title>Deputatul Bogdan Huțucă acuză PSD de interpretarea înșelătoare a deficitului bugetar</title>
+      <link>https://izz.ro/politic/deputatul-bogdan-hutuca-acuza-psd-de-interpretarea-inselatoare-a-deficitului/</link>
+      <guid>https://izz.ro/politic/deputatul-bogdan-hutuca-acuza-psd-de-interpretarea-inselatoare-a-deficitului/</guid>
+      <pubDate>Sun, 25 Oct 2026 06:12:16 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.dobrogeaonline.ro/bogdan-hutuca-deputat-pnl-psd-a-transformat-manipularea-intr-o-arta/">Dobrogea Online</source>
+      <media:content url="https://izz.ro/politic/deputatul-bogdan-hutuca-acuza-psd-de-interpretarea-inselatoare-a-deficitului/cover.jpg?v=947e91d1" medium="image" type="image/jpeg"/>
+      <description>Liberalul Bogdan Huțucă susține că social-democrații folosesc eronat datele despre deficitul bugetar din trimestrul al doilea pentru a crea artificial o alarmă publică în privința economiei naționale.</description>
+    </item>
     <item>
       <title>Ilie Bolojan avertizează că o criză bugetară poate genera o criză economică</title>
       <link>https://izz.ro/local/ilie-bolojan-avertizeaza-ca-o-criza-bugetara-poate-genera-o-criza-economica/</link>
@@ -83,7 +93,7 @@
       <pubDate>Fri, 23 Oct 2026 18:40:46 +0000</pubDate>
       <category>local</category>
       <source url="https://www.g4media.ro/presedintele-pnl-constanta-bogdan-hutuca-psd-care-a-produs-dezechilibrul-acum-pretinde-ca-e-ingrijorat-de-el-e-ca-si-cum-ai-da-foc-casei-ai-fugi-cu-furtunul-in-alta-parte-iar-cand-vin-pompierii.html">G4Media</source>
-      <media:content url="https://izz.ro/local/liderul-pnl-constanta-il-critica-pe-rivalul-psd-privind-deficitul/cover.jpg?v=b24c6caa" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/liderul-pnl-constanta-il-critica-pe-rivalul-psd-privind-deficitul/cover.jpg?v=eb3b37d2" medium="image" type="image/jpeg"/>
       <description>Președintele liberalilor din Constanța, Bogdan Huțucă, acuză PSD de manipulare politică prin prezentarea eronată a datelor economice privind deficitul bugetar înregistrat de România în ultima perioadă.</description>
     </item>
     <item>
@@ -93,7 +103,6 @@
       <pubDate>Fri, 23 Oct 2026 14:50:54 +0000</pubDate>
       <category>local</category>
       <source url="https://www.newsbucovina.ro/featured/453190/conducerea-primariei-suceava-amana-din-nou-proiectul-initiat-de-zece-consilieri-psd-suceava-privind-reducerea-la-100-de-lei-an-a-pretului-parcarilor-de-resedinta-secretarul-general-proiectul-de-parc">NewsBucovina</source>
-      <media:content url="https://izz.ro/local/primaria-suceava-amana-proiectul-privind-ieftinirea-parcarilor-de-resedinta/cover.jpg?v=e8e6148f" medium="image" type="image/jpeg"/>
       <description>Inițiativa consilierilor PSD de reducere a taxei anuale a fost amânată din nou din cauza lipsei de cvorum și a unui raport financiar negativ emis de direcția de specialitate.</description>
     </item>
     <item>
@@ -455,14 +464,5 @@
       <category>judetean</category>
       <source url="https://expressdebanat.ro/marius-isac-ajunge-cu-incertitudinea-e-timpul-pentru-stabilitate/">Express de Banat</source>
       <description>Parlamentarul social-democrat de Caraș-Severin susține că învestirea Executivului condus de Luca Niculescu pune capăt lunilor de blocaj politic. El consideră că adoptarea guvernului cu 280 de voturi readuce normalitatea și deciziile administrative necesare.</description>
-    </item>
-    <item>
-      <title>Analist politic: Guvernul ar putea supraviețui până la viitoarele alegeri</title>
-      <link>https://izz.ro/politic/analist-politic-guvernul-ar-putea-supravietui-pana-la-viitoarele-alegeri/</link>
-      <guid>https://izz.ro/politic/analist-politic-guvernul-ar-putea-supravietui-pana-la-viitoarele-alegeri/</guid>
-      <pubDate>Tue, 20 Oct 2026 15:12:02 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://spotmedia.ro/stiri/politica/politolog-guvernul-niculescu-ar-putea-rezista-pana-la-capat-psd-se-reorganizeaza-pnl-si-usr-isi-cauta-directia-iar-aur-poate-profita-de-slabirea-lor">Spotmedia</source>
-      <description>Un expert politic estimează că actualul executiv condus de Niculescu are șanse să rămână la guvernare până la finalul mandatului, partidele parlamentare preferând să evite o nouă criză politică în actualul context electoral.</description>
     </item>
 </channel></rss>

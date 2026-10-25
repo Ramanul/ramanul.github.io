@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bistrita/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bistrița pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 01:27:53 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 06:30:00 +0000</lastBuildDate>
+    <item>
+      <title>Curtea de Conturi descoperă nereguli financiare grave la Consiliul Județean Bistrița-Năsăud</title>
+      <link>https://izz.ro/judetean/curtea-de-conturi-descopera-nereguli-financiare-grave-la-consiliul-judetean/</link>
+      <guid>https://izz.ro/judetean/curtea-de-conturi-descopera-nereguli-financiare-grave-la-consiliul-judetean/</guid>
+      <pubDate>Sun, 25 Oct 2026 05:00:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/milioane-umflate-milioane-uitate-un-audit-intern-care-nu-exista-si-radiografia-unui-an-negru-la-uatj-bistrita/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/judetean/curtea-de-conturi-descopera-nereguli-financiare-grave-la-consiliul-judetean/cover.jpg?v=b0a89036" medium="image" type="image/jpeg"/>
+      <description>Auditorii au constatat că microbuzele școlare cumpărate din fonduri PNRR nu au fost distribuite primăriilor, iar clădirile și terenurile instituției nu fuseseră reevaluate, existând diferențe contabile majore.</description>
+    </item>
     <item>
       <title>Primăria Bistrița pregătită să amenajeze un nou pasaj pietonal central</title>
       <link>https://izz.ro/local/primaria-bistrita-pregatita-sa-amenajeze-un-nou-pasaj-pietonal-central/</link>
@@ -63,7 +73,7 @@
       <pubDate>Fri, 23 Oct 2026 18:39:35 +0000</pubDate>
       <category>general</category>
       <source url="https://adevarul.ro/stiri-interne/societate/atacurile-din-scoli-si-capcana-pedepselor-mai-2565904.html">Adevărul</source>
-      <media:content url="https://izz.ro/general/expertii-analizeaza-eficienta-pedepselor-dure-pentru-violenta-scolara/cover.jpg?v=08c21101" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/general/expertii-analizeaza-eficienta-pedepselor-dure-pentru-violenta-scolara/cover.jpg?v=a56aa37f" medium="image" type="image/jpeg"/>
       <description>În urma incidentelor violente recente din unitățile de învățământ, specialiștii în psihologie judiciară și criminologie chestionează utilitatea înăspririi sancțiunilor pentru minori în lipsa unor măsuri reale de prevenție.</description>
     </item>
     <item>
@@ -452,14 +462,5 @@
       <category>local</category>
       <source url="https://timponline.ro/la-scoala-stefan-cel-mare-s-au-reluat-cursurile-leger-fara-note-si-verificarea-temelor/">TimpOnline.ro</source>
       <description>Elevii de la Școala „Ștefan cel Mare” din Bistrița au revenit la ore fără a primi note sau teme, în urma agresiunii recente. Psihologii și medicii oferă sprijin cadrelor didactice și elevilor afectați.</description>
-    </item>
-    <item>
-      <title>Atacatorul de la școala din Bistrița a redactat un manifest despre planul său violent</title>
-      <link>https://izz.ro/local/atacatorul-de-la-scoala-din-bistrita-a-redactat-un-manifest-despre-planul-sau/</link>
-      <guid>https://izz.ro/local/atacatorul-de-la-scoala-din-bistrita-a-redactat-un-manifest-despre-planul-sau/</guid>
-      <pubDate>Wed, 21 Oct 2026 10:01:07 +0000</pubDate>
-      <category>local</category>
-      <source url="https://bistriteanul.ro/manifestul-atacatorului-de-la-gen-6-ura-invatata-online-bullying-si-semnale-pe-care-nu-le-a-vazut-nimeni/">Bistrițeanul.ro</source>
-      <description>Elevul implicat în incidentul de la unitatea de învățământ a lăsat un document amplu în limba engleză. Textul detaliază motivațiile bazate pe comportamente agresive online și programul exact al agresiunii planificate.</description>
     </item>
 </channel></rss>

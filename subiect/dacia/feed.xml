@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/dacia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Dacia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 01:27:53 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 06:30:00 +0000</lastBuildDate>
+    <item>
+      <title>O retrospectivă a celor mai importante tranzacții din economia României</title>
+      <link>https://izz.ro/economic/o-retrospectiva-a-celor-mai-importante-tranzactii-din-economia-romaniei/</link>
+      <guid>https://izz.ro/economic/o-retrospectiva-a-celor-mai-importante-tranzactii-din-economia-romaniei/</guid>
+      <pubDate>Sun, 25 Oct 2026 06:01:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/special/analiza-luni-calendarul-marilor-tranzactii-listari-privatizari-era-capitalista-cele-30-mutari-cheie-tabla-sah-economiei-romanesti-moderne-au-schimbat-piata-privatizarea-dacia-renault-achizitia-23262535">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/economic/o-retrospectiva-a-celor-mai-importante-tranzactii-din-economia-romaniei/cover.jpg?v=fe2b0977" medium="image" type="image/jpeg"/>
+      <description>Analiza economică evidențiază 30 de mutări strategice din era capitalistă, cum ar fi privatizarea Dacia sau preluarea Petrom de către OMV, care au reconfigurat piața locală.</description>
+    </item>
     <item>
       <title>Lansarea iPhone Duo, insolvențe în aviație și noi taxe pe trotinete în actualitatea tehnologică</title>
       <link>https://izz.ro/tech/lansarea-iphone-duo-insolvente-in-aviatie-si-noi-taxe-pe-trotinete-in/</link>
@@ -248,14 +258,5 @@
       <category>tech</category>
       <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-14-octombrie-2026/">NwRadu</source>
       <description>Dacia a deschis comenzile pentru modelul Striker, în timp ce gigantul Apple a prezentat o serie nouă de dispozitive pentru casă. De asemenea, industria IT consemnează achiziția unui startup fondat de o româncă de către compania Anthropic.</description>
-    </item>
-    <item>
-      <title>Mastercard introduce plățile offline, iar UE va limita importul de mașini hibride chinezești</title>
-      <link>https://izz.ro/discounturi/mastercard-introduce-platile-offline-iar-ue-va-limita-importul-de-masini/</link>
-      <guid>https://izz.ro/discounturi/mastercard-introduce-platile-offline-iar-ue-va-limita-importul-de-masini/</guid>
-      <pubDate>Tue, 13 Oct 2026 03:44:39 +0000</pubDate>
-      <category>discounturi</category>
-      <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-13-octombrie-2026/">NwRadu</source>
-      <description>Mastercard lansează plățile offline fără internet, Uniunea Europeană va plafona importul de hibride din China la 350.000 de unități, iar livrările globale de telefoane au scăzut cu 20% în ultimul trimestru.</description>
     </item>
 </channel></rss>
