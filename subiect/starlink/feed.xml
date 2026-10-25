@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 06:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 12:00:06 +0000</lastBuildDate>
+    <item>
+      <title>Elon Musk susține că Starlink este un sistem exclusiv civil</title>
+      <link>https://izz.ro/extern/elon-musk-sustine-ca-starlink-este-un-sistem-exclusiv-civil/</link>
+      <guid>https://izz.ro/extern/elon-musk-sustine-ca-starlink-este-un-sistem-exclusiv-civil/</guid>
+      <pubDate>Sun, 25 Oct 2026 10:54:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/vecini/musk-despre-limitarea-vitezei-conexiunii-in-ucraina-starlink-este-un-sistem-civil-nu-de-un-mijloc-de-a-ucide-22883024?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/extern/elon-musk-sustine-ca-starlink-este-un-sistem-exclusiv-civil/cover.jpg?v=916358b9" medium="image" type="image/jpeg"/>
+      <description>Fondatorul SpaceX a explicat că limitarea temporară a vitezei de conexiune pentru Starlink în Ucraina a survenit în urma nerespectării termenilor de utilizare a rețelei, subliniind că tehnologia are destinație civilă.</description>
+    </item>
+    <item>
+      <title>SpaceX a restricționat conexiunea Starlink pentru Ucraina din cauza utilizării militare</title>
+      <link>https://izz.ro/extern/spacex-a-restrictionat-conexiunea-starlink-pentru-ucraina-din-cauza-utilizarii/</link>
+      <guid>https://izz.ro/extern/spacex-a-restrictionat-conexiunea-starlink-pentru-ucraina-din-cauza-utilizarii/</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <media:content url="https://izz.ro/extern/spacex-a-restrictionat-conexiunea-starlink-pentru-ucraina-din-cauza-utilizarii/cover.jpg?v=912e1bf7" medium="image" type="image/jpeg"/>
+      <description>Elon Musk a confirmat că accesul la internetul prin satelit a fost limitat temporar deoarece autoritățile ucrainene ar fi încălcat termenii contractuali prin folosirea rețelei în operațiuni militare.</description>
+    </item>
     <item>
       <title>Armata ucraineană anunță restabilirea conexiunii stabile prin sateliții Starlink</title>
       <link>https://izz.ro/tech/armata-ucraineana-anunta-restabilirea-conexiunii-stabile-prin-satelitii-starlink/</link>
@@ -43,7 +63,6 @@
       <pubDate>Fri, 23 Oct 2026 18:52:17 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <media:content url="https://izz.ro/extern/ucraina-anunta-ca-restrictiile-starlink-raman-active-in-pofida-declaratiilor/cover.jpg?v=52f61245" medium="image" type="image/jpeg"/>
       <description>Surse militare ucrainene confirmă că rețeaua de sateliți spațiali este în continuare limitată în zonele de conflict, în ciuda afirmațiilor făcute de Donald Trump privind remedierea rapidă a oricărei probleme tehnice.</description>
     </item>
     <item>

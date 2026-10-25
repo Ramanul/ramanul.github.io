@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/spacex/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SpaceX pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 06:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 12:00:07 +0000</lastBuildDate>
+    <item>
+      <title>SpaceX a restricționat conexiunea Starlink pentru Ucraina din cauza utilizării militare</title>
+      <link>https://izz.ro/extern/spacex-a-restrictionat-conexiunea-starlink-pentru-ucraina-din-cauza-utilizarii/</link>
+      <guid>https://izz.ro/extern/spacex-a-restrictionat-conexiunea-starlink-pentru-ucraina-din-cauza-utilizarii/</guid>
+      <pubDate>Sun, 25 Oct 2026 09:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <media:content url="https://izz.ro/extern/spacex-a-restrictionat-conexiunea-starlink-pentru-ucraina-din-cauza-utilizarii/cover.jpg?v=912e1bf7" medium="image" type="image/jpeg"/>
+      <description>Elon Musk a confirmat că accesul la internetul prin satelit a fost limitat temporar deoarece autoritățile ucrainene ar fi încălcat termenii contractuali prin folosirea rețelei în operațiuni militare.</description>
+    </item>
     <item>
       <title>Armata ucraineană anunță restabilirea conexiunii stabile prin sateliții Starlink</title>
       <link>https://izz.ro/tech/armata-ucraineana-anunta-restabilirea-conexiunii-stabile-prin-satelitii-starlink/</link>
@@ -177,14 +187,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/musk-a-lasat-ucraina-fara-starlink-misiuni-importante-au-fost-zadarnicite-la-cererea-administratiei-trump-3991301">Digi24 Extern</source>
       <description>Forțele ucrainene s-au confruntat cu întreruperi ale comunicațiilor prin satelit asigurate de Starlink, afectând misiuni militare importante. Incidentul a fost atribuit unor restricții solicitate de administrația președintelui american Donald Trump.</description>
-    </item>
-    <item>
-      <title>Elon Musk devine cel mai mare finanțator al republicanilor</title>
-      <link>https://izz.ro/politic/elon-musk-devine-cel-mai-mare-finantator-al-republicanilor/</link>
-      <guid>https://izz.ro/politic/elon-musk-devine-cel-mai-mare-finantator-al-republicanilor/</guid>
-      <pubDate>Tue, 13 Oct 2026 08:10:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://observatornews.ro/extern/elon-musk-a-devenit-cel-mai-mare-finantator-al-republicanilor-668908.html">Observator</source>
-      <description>Miliardarul Elon Musk a donat aproape 366 de milioane de dolari pentru susținerea taberei republicane din Statele Unite, sumă destinată în mare parte campaniilor electorale pentru Congres.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/germania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Germania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 06:30:00 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 12:00:06 +0000</lastBuildDate>
+    <item>
+      <title>Angajații Volkswagen amenință cu greve masive de la începutul anului viitor</title>
+      <link>https://izz.ro/economic/angajatii-volkswagen-ameninta-cu-greve-masive-de-la-inceputul-anului-viitor/</link>
+      <guid>https://izz.ro/economic/angajatii-volkswagen-ameninta-cu-greve-masive-de-la-inceputul-anului-viitor/</guid>
+      <pubDate>Sun, 25 Oct 2026 10:12:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/salariatii-volkswagen-ameninta-cu-greva-22882943?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/economic/angajatii-volkswagen-ameninta-cu-greve-masive-de-la-inceputul-anului-viitor/cover.jpg?v=dff348bc" medium="image" type="image/jpeg"/>
+      <description>Producătorul auto german se confruntă cu nemulțumirea propriilor salariați din cauza anulării acordurilor colective de muncă. Sindicaliștii avertizează că vor declanșa proteste majore dacă conducerea nu va anula această decizie.</description>
+    </item>
     <item>
       <title>Un bărbat a fost arestat în urma unui incendiu la reședința lui Hitler</title>
       <link>https://izz.ro/extern/un-barbat-a-fost-arestat-in-urma-unui-incendiu-la-resedinta-lui-hitler/</link>
@@ -53,7 +63,6 @@
       <pubDate>Fri, 23 Oct 2026 20:33:18 +0000</pubDate>
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/europa/ingrijorare-legata-de-harta-germaniei-mari-2566209.html">Adevărul</source>
-      <media:content url="https://izz.ro/extern/controverse-online-dupa-ce-un-membru-afd-a-publicat-harta-germaniei-mari/cover.jpg?v=d6a6d709" medium="image" type="image/jpeg"/>
       <description>Un politician din partidul extremist german AfD a generat dezbateri aprinse pe rețelele de socializare distribuind o reprezentare cartografică ce include opt teritorii aparținând statelor vecine.</description>
     </item>
     <item>
@@ -451,14 +460,5 @@
       <category>auto</category>
       <source url="https://piataauto.md/Stiri/2026/10/Inginerii-germani-dezvolta-un-autocar-electric-distante-lungi-Setra-care-ar-avea-o-autonomie-500-km-si-ar-impune-pauze-periodice-reincarcare/">Piata Auto MD</source>
       <description>Proiectul inedit vizează segmentul transportului internațional de pasageri și prevede stații periodice de reîncărcare pentru bateriile vehiculului destinat călătoriilor de durată.</description>
-    </item>
-    <item>
-      <title>Uniunea Europeană își dezvoltă propria rețea de sateliți denumită IRIS²</title>
-      <link>https://izz.ro/extern/uniunea-europeana-isi-dezvolta-propria-retea-de-sateliti-denumita-iris2/</link>
-      <guid>https://izz.ro/extern/uniunea-europeana-isi-dezvolta-propria-retea-de-sateliti-denumita-iris2/</guid>
-      <pubDate>Sat, 17 Oct 2026 19:33:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/high-tech/starlink-varianta-europeana-ue-isi-construieste-propria-retea-de-sateliti-ce-este-iris-si-ce-rol-are-germania-807616.html">Antena 3 CNN</source>
-      <description>În urma problemelor întâmpinate de armata ucraineană cu sistemul Starlink, blocul comunitar accelerează proiectul propriei constelații de sateliți de comunicații sigure, având sprijinul Germaniei.</description>
     </item>
 </channel></rss>

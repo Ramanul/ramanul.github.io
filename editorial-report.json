@@ -1,29 +1,34 @@
 {
-  "absent": 0,
+  "absent": 1,
   "approved": 2,
-  "articles_with_impacts": 1,
-  "articles_with_provenance": 1,
+  "articles_with_impacts": 0,
+  "articles_with_provenance": 0,
   "catalog_records": 2,
   "coverage": {
-    "denominator": 10428,
-    "numerator": 2
+    "denominator": 10350,
+    "numerator": 1
   },
   "dossiers": {
     "emitted": 1,
     "indexable": 1,
-    "prepared_at": "2026-10-25T06:29:38.080064+00:00",
-    "suppressed": [],
+    "prepared_at": "2026-10-25T11:59:43.679708+00:00",
+    "suppressed": [
+      {
+        "key": "article:/local/intrerupere-temporara-a-serviciilor-de-plata-online-in-perioada-16-18-octombrie/",
+        "reason": "dossier_article_absent_or_changed"
+      }
+    ],
     "withdrawn": 0
   },
   "draft": 0,
   "examined_resources": 1,
   "examined_sources": 1,
-  "fresh": 2,
-  "generated_at": "2026-10-25T06:29:38.080064+00:00",
+  "fresh": 1,
+  "generated_at": "2026-10-25T11:59:43.679708+00:00",
   "needs_review": 0,
-  "publishable_articles": 10428,
+  "publishable_articles": 10350,
   "resources_current": 0,
-  "resources_expired": 1,
+  "resources_expired": 0,
   "resources_without_deadline": 0,
   "schema_version": 1,
   "withdrawn": 0
