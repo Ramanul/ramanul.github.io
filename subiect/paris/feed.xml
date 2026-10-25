@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/paris/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Paris pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 19:55:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 22:53:14 +0000</lastBuildDate>
+    <item>
+      <title>Duminică mohorâtă și pustie pe bulevardele din Paris</title>
+      <link>https://izz.ro/general/duminica-mohorata-si-pustie-pe-bulevardele-din-paris/</link>
+      <guid>https://izz.ro/general/duminica-mohorata-si-pustie-pe-bulevardele-din-paris/</guid>
+      <pubDate>Sun, 25 Oct 2026 20:07:46 +0000</pubDate>
+      <category>general</category>
+      <source url="https://rasunetul.ro/parisul-este-trist-astazi">Răsunetul</source>
+      <media:content url="https://izz.ro/general/duminica-mohorata-si-pustie-pe-bulevardele-din-paris/cover.jpg?v=afce4d99" medium="image" type="image/jpeg"/>
+      <description>Capitala Franței a oferit o imagine tristă pe parcursul unei duminici cenușii, cu arterele rutiere aproape goale și o atmosferă lipsită de obișnuitul dinamism turistic și urban.</description>
+    </item>
     <item>
       <title>Experiența primului concert internațional al autoarei la Paris</title>
       <link>https://izz.ro/lifestyle/experienta-primului-concert-international-al-autoarei-la-paris/</link>
@@ -93,7 +103,7 @@
       <pubDate>Sat, 24 Oct 2026 16:21:25 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.theguardian.com/world/gallery/2026/oct/24/major-protests-in-paris-and-other-french-cities-in-challenge-to-emmanuel-macron">The Guardian</source>
-      <media:content url="https://izz.ro/extern/proteste-de-amploare-la-paris-impotriva-politicilor-promovate-de-macron/cover.jpg?v=db10bd79" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/proteste-de-amploare-la-paris-impotriva-politicilor-promovate-de-macron/cover.jpg?v=26e7d1e3" medium="image" type="image/jpeg"/>
       <description>Zeci de mii de cetățeni au ieșit pe străzile capitalei Franței pentru a protesta față de costul ridicat al vieții și măsurile bugetare din sectorul educației.</description>
     </item>
     <item>
@@ -113,7 +123,6 @@
       <pubDate>Sat, 24 Oct 2026 11:58:24 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.zf.ro/business-international/proteste-masive-anuntate-in-franta-sambata-23267135">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/extern/franta-se-pregateste-pentru-proteste-de-masa-si-manifestatii-studentesti/cover.jpg?v=4abb8d06" medium="image" type="image/jpeg"/>
       <description>Forțele de ordine franceze sunt în alertă maximă înaintea unor noi proteste masive anunțate de studenți, care marchează punctul culminant al manifestațiilor organizate în ultima săptămână în mai multe orașe.</description>
     </item>
     <item>
@@ -123,7 +132,6 @@
       <pubDate>Sat, 24 Oct 2026 11:54:38 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.g4media.ro/top-18-cele-mai-bune-retele-de-metrou-din-lume-de-la-londra-si-paris-la-tokyo-singapore-si-new-york.html">G4Media</source>
-      <media:content url="https://izz.ro/extern/topul-celor-mai-performante-retele-de-metrou-la-nivel-mondial/cover.jpg?v=80289942" medium="image" type="image/jpeg"/>
       <description>O analiză recentă publicată de CNN prezintă cele mai eficiente și utilizate sisteme de metrou din metropole globale precum Londra, Paris, Tokyo, Singapore și New York, esențiale pentru mobilitatea urbană.</description>
     </item>
     <item>
@@ -458,14 +466,5 @@
       <category>lifestyle</category>
       <source url="https://www.urban.ro/saptamana-modei-de-la-paris-tendinte/">Urban.ro</source>
       <description>Evenimentul de la Paris dedicat sezonului primăvară-vară 2027 a conturat direcțiile principale pentru garderobă, remarcându-se prin elemente de estetică grunge romantic și accesorii vestimentare foarte îndrăznețe.</description>
-    </item>
-    <item>
-      <title>Culisele industriei de modă Haute Couture prezentate în cadrul programului ELLE Education</title>
-      <link>https://izz.ro/lifestyle/culisele-industriei-de-moda-haute-couture-prezentate-in-cadrul-programului-elle/</link>
-      <guid>https://izz.ro/lifestyle/culisele-industriei-de-moda-haute-couture-prezentate-in-cadrul-programului-elle/</guid>
-      <pubDate>Thu, 15 Oct 2026 04:57:00 +0000</pubDate>
-      <category>lifestyle</category>
-      <source url="https://www.elle.ro/lifestyle/motorul-invizibil-al-haute-couture-cum-se-gestioneaza-cel-mai-inalt-nivel-al-modei-1093774">Elle România</source>
-      <description>Lumea exclusivistă a modei de înaltă clasă presupune mult mai mult decât defilările fastuoase de la Paris, implicând mii de ore de muncă manuală și strategii complexe de gestionare a brandurilor de lux.</description>
     </item>
 </channel></rss>

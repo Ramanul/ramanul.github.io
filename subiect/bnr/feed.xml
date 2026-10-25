@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bnr/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre BNR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 19:55:57 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 22:53:14 +0000</lastBuildDate>
+    <item>
+      <title>România a înregistrat dobânzi record în octombrie, în timp ce leul s-a depreciat</title>
+      <link>https://izz.ro/economic/romania-a-inregistrat-dobanzi-record-in-octombrie-in-timp-ce-leul-s-a-depreciat/</link>
+      <guid>https://izz.ro/economic/romania-a-inregistrat-dobanzi-record-in-octombrie-in-timp-ce-leul-s-a-depreciat/</guid>
+      <pubDate>Sun, 25 Oct 2026 19:52:51 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/dobanzile-la-titlurile-de-stat-au-sarit-din-nou-peste-714-iar-leul-s-a-depreciat-cu-134-numai-in-octombrie-semnalele-pietelor-incep-sa-arate-o-crestere-primelor-de-risc-pentru-bonduri_988493.html">Economica</source>
+      <media:content url="https://izz.ro/economic/romania-a-inregistrat-dobanzi-record-in-octombrie-in-timp-ce-leul-s-a-depreciat/cover.jpg?v=afe6a94b" medium="image" type="image/jpeg"/>
+      <description>Moneda națională a pierdut teren în fața euro în primele trei săptămâni din octombrie, iar costurile de împrumut ale României au crescut, reflectând o scădere a apetitului investițional pentru activele în lei.</description>
+    </item>
     <item>
       <title>Cristian Popa a declarat că România a ajuns la 70% din convergența europeană</title>
       <link>https://izz.ro/economic/cristian-popa-a-declarat-ca-romania-a-ajuns-la-70-din-convergenta-europeana/</link>
@@ -104,14 +114,5 @@
       <category>economic</category>
       <source url="https://www.economica.net/se-schimba-robor-impact-pentru-toti-romanii-cu-credite-se-poate-lua-in-calcul-modelul-cursului-de-schimb-surse_985558.html">Economica</source>
       <description>Banca Națională a României așteaptă propunerile băncilor comerciale pentru a schimba formula de stabilire a ROBOR, luând în calcul modelul utilizat pentru cursul de schimb valutar.</description>
-    </item>
-    <item>
-      <title>Refuzurile la plată cu bilete la ordin și cecuri au atins un record negativ în 2026</title>
-      <link>https://izz.ro/economic/refuzurile-la-plata-cu-bilete-la-ordin-si-cecuri-au-atins-un-record-negativ-in/</link>
-      <guid>https://izz.ro/economic/refuzurile-la-plata-cu-bilete-la-ordin-si-cecuri-au-atins-un-record-negativ-in/</guid>
-      <pubDate>Tue, 13 Oct 2026 21:07:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/banci-si-asigurari/atentie-se-intensifica-problemele-cu-lichiditatea-in-mediul-de-business-refuzurile-la-plata-cu-bilete-la-ordin-si-cecuri-4-6-mld-lei-in-8-luni-2026-maximul-ultimului-deceniu-conform-datelor-bnr-23259419">Ziarul Financiar</source>
-      <description>Banca Națională a României raportează că instrumentele de debit refuzate la plată au depășit 4,6 miliarde de lei în primele opt luni ale anului, marcând cel mai ridicat nivel din ultimul deceniu.</description>
     </item>
 </channel></rss>

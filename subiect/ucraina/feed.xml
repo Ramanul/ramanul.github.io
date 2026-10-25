@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/ucraina/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ucraina pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 19:55:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 22:53:14 +0000</lastBuildDate>
+    <item>
+      <title>Zelenski anunță o posibilă întâlnire trilaterală Ucraina-Rusia-SUA</title>
+      <link>https://izz.ro/politic/zelenski-anunta-o-posibila-intalnire-trilaterala-ucraina-rusia-sua/</link>
+      <guid>https://izz.ro/politic/zelenski-anunta-o-posibila-intalnire-trilaterala-ucraina-rusia-sua/</guid>
+      <pubDate>Sun, 25 Oct 2026 20:10:28 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.g4media.ro/o-intalnire-trilaterala-intre-ucraina-rusia-si-sua-va-avea-loc-in-noiembrie-anunta-zelenski.html">G4Media</source>
+      <media:content url="https://izz.ro/politic/zelenski-anunta-o-posibila-intalnire-trilaterala-ucraina-rusia-sua/cover.jpg?v=56eed33f" medium="image" type="image/jpeg"/>
+      <description>Președintele ucrainean Volodimir Zelenski a declarat că în noiembrie ar putea avea loc discuții trilaterale între Ucraina, Rusia și Statele Unite. Kievul este deschis dialogului tehnic, dar exclude o întrevedere cu Vladimir Putin privind ridicarea sancțiunilor.</description>
+    </item>
     <item>
       <title>Comisia Europeană vrea un acord financiar pentru Ucraina până la finalul anului</title>
       <link>https://izz.ro/politic/comisia-europeana-vrea-un-acord-financiar-pentru-ucraina-pana-la-finalul-anului/</link>
@@ -203,7 +213,7 @@
       <pubDate>Sat, 24 Oct 2026 15:25:33 +0000</pubDate>
       <category>extern</category>
       <source url="https://adevarul.ro/blogurile-adevarul/sfarsitul-care-trebuia-sa-vina-2566290.html">Adevărul</source>
-      <media:content url="https://izz.ro/extern/conflictul-armat-din-ucraina-se-apropie-de-un-deznodamant-iminent/cover.jpg?v=032a3973" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/conflictul-armat-din-ucraina-se-apropie-de-un-deznodamant-iminent/cover.jpg?v=637f6756" medium="image" type="image/jpeg"/>
       <description>Analiștii estimează că războiul din Ucraina va ajunge la final mai devreme decât se anticipa, cel mai probabil chiar după încheierea sezonului rece, pe fondul presiunilor temporale tot mai mari.</description>
     </item>
     <item>
@@ -213,7 +223,6 @@
       <pubDate>Sat, 24 Oct 2026 12:00:42 +0000</pubDate>
       <category>politic</category>
       <source url="https://adevarul.ro/stiri-externe/sua/marco-rubio-sustine-ca-razboiul-din-ucraina-se-2566264.html">Adevărul</source>
-      <media:content url="https://izz.ro/politic/secretarul-de-stat-american-marco-rubio-considera-ca-razboiul-din-ucraina/cover.jpg?v=1db17398" medium="image" type="image/jpeg"/>
       <description>Oficialul american Marco Rubio a declarat că conflictul militar din Ucraina se limitează în esență la disputa teritorială pentru controlul regiunii Donbas situată în estul statului european.</description>
     </item>
     <item>
@@ -467,14 +476,5 @@
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/cj75p1xr7p7vo?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
       <description>Reprezentanții diplomatici occidentali prezenți în Rusia compară climatul actual de lucru de la Moscova, marcat de supraveghere și paranoia, cu atmosfera tensionată din perioada Războiului Rece.</description>
-    </item>
-    <item>
-      <title>Guvernul britanic avertizează cetățenii asupra riscului unor atacuri cibernetice majore</title>
-      <link>https://izz.ro/extern/guvernul-britanic-avertizeaza-cetatenii-asupra-riscului-unor-atacuri/</link>
-      <guid>https://izz.ro/extern/guvernul-britanic-avertizeaza-cetatenii-asupra-riscului-unor-atacuri/</guid>
-      <pubDate>Thu, 22 Oct 2026 21:24:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/externe/cum-ne-am-descurca-daca-sistemele-de-plata-ar-cadea-britanicii-avertizati-asupra-atacurilor-cibernetice-si-sabotajelor-808326.html">Antena 3 CNN</source>
-      <description>Autoritățile din Marea Britanie au lansat un semnal de alarmă privind posibile sabotaje cibernetice atribuite unor state ostile, în contextul geopolitic actual generat de conflictul militar din Ucraina.</description>
     </item>
 </channel></rss>

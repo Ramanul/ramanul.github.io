@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/timisoara/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Timișoara pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 19:55:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 22:53:14 +0000</lastBuildDate>
+    <item>
+      <title>Agenda evenimentelor culturale și educative din Timișoara</title>
+      <link>https://izz.ro/local/agenda-evenimentelor-culturale-si-educative-din-timisoara-2/</link>
+      <guid>https://izz.ro/local/agenda-evenimentelor-culturale-si-educative-din-timisoara-2/</guid>
+      <pubDate>Sun, 25 Oct 2026 22:00:33 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.tion.ro/azi-in-timisoara/ce-facem-astazi-26-octombrie-2026-in-timisoara-2378046/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
+      <media:content url="https://izz.ro/local/agenda-evenimentelor-culturale-si-educative-din-timisoara-2/cover.jpg?v=fd6efb7d" medium="image" type="image/jpeg"/>
+      <description>Locuitorii orașului au la dispoziție pe 26 octombrie 2026 o serie de activități diverse, incluzând tururi pentru elevi, proiecții de animație, conferințe despre inteligența artificială și un recital cameral.</description>
+    </item>
     <item>
       <title>Jurnalista franceză Sidonie Bonnec lansează un roman în România</title>
       <link>https://izz.ro/local/jurnalista-franceza-sidonie-bonnec-lanseaza-un-roman-in-romania/</link>
@@ -468,14 +478,5 @@
       <category>local</category>
       <source url="https://www.ziuadevest.ro/florentina-radu-respinsa-la-concursul-la-care-a-candidat-singura-pentru-sefia-directiei-sanatate-din-primaria-timisoara/">Ziua de Vest</source>
       <description>Singurul candidat înscris pentru șefia Direcției Sănătate din cadrul primăriei Timișoara nu a obținut punctajul minim necesar la proba scrisă, ratând preluarea funcției.</description>
-    </item>
-    <item>
-      <title>Investiții majore ale statului în stadioane noi din România</title>
-      <link>https://izz.ro/local/investitii-majore-ale-statului-in-stadioane-noi-din-romania/</link>
-      <guid>https://izz.ro/local/investitii-majore-ale-statului-in-stadioane-noi-din-romania/</guid>
-      <pubDate>Fri, 23 Oct 2026 03:00:20 +0000</pubDate>
-      <category>local</category>
-      <source url="https://economedia.ro/analiza-cat-investeste-statul-in-noile-stadioane-din-romania-zeci-de-proiecte-arene-de-sute-de-milioane-de-euro-si-stadiul-lucrarilor.html">Economedia</source>
-      <description>O analiză recentă arată că autoritățile continuă să finanțeze arene sportive de sute de milioane de euro în orașe precum Pitești, Timișoara și București, proiectele aflându-se în diferite stadii de execuție.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 25 Oct 2026 19:55:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 25 Oct 2026 22:53:14 +0000</lastBuildDate>
+    <item>
+      <title>Canada și Europa urmăresc remodelarea ordinii globale printr-o nouă viziune strategică</title>
+      <link>https://izz.ro/extern/canada-si-europa-urmaresc-remodelarea-ordinii-globale-printr-o-noua-viziune/</link>
+      <guid>https://izz.ro/extern/canada-si-europa-urmaresc-remodelarea-ordinii-globale-printr-o-noua-viziune/</guid>
+      <pubDate>Sun, 25 Oct 2026 17:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/canada-and-europe-want-to-reshape-the-global-order-but-whose-vision-will-prevail/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <media:content url="https://izz.ro/extern/canada-si-europa-urmaresc-remodelarea-ordinii-globale-printr-o-noua-viziune/cover.jpg?v=08971f1c" medium="image" type="image/jpeg"/>
+      <description>Liderii canadieni și europeni încearcă să construiască o alianță a puterilor mijlocii pentru a contrabalansa influența Statelor Unite și a Chinei. Demersul întâmpină însă viziuni diferite între propunerile lui Mark Carney și cele ale Ursulei von der Leyen.</description>
+    </item>
     <item>
       <title>Evoluția înmatriculărilor auto în Europa în luna septembrie</title>
       <link>https://izz.ro/auto/evolutia-inmatricularilor-auto-in-europa-in-luna-septembrie/</link>
@@ -113,7 +123,7 @@
       <pubDate>Sat, 24 Oct 2026 17:10:31 +0000</pubDate>
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/opinii-si-analize/protestele-din-europa-scot-la-iveala-crizele-care-apasa-generatia-z">Spotmedia</source>
-      <media:content url="https://izz.ro/extern/generatia-z-protesteaza-in-europa-din-cauza-crizelor-economice-si-sociale/cover.jpg?v=f2ab3b6a" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/generatia-z-protesteaza-in-europa-din-cauza-crizelor-economice-si-sociale/cover.jpg?v=0fd28fda" medium="image" type="image/jpeg"/>
       <description>Tinerii europeni manifestă nemulțumiri profunde legate de prețurile mari, nesiguranța locuințelor, schimbările climatice și lipsa de implicare a liderilor politici în decizii.</description>
     </item>
     <item>
@@ -123,7 +133,7 @@
       <pubDate>Sat, 24 Oct 2026 17:10:12 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.g4media.ro/proteste-gen-z-europa-locuinte-educatie-locuri-de-munca.html">G4Media</source>
-      <media:content url="https://izz.ro/extern/tinerii-europeni-protesteaza-fata-de-costurile-ridicate-si-lipsa-oportunitatilor/cover.jpg?v=8c07e7ae" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/extern/tinerii-europeni-protesteaza-fata-de-costurile-ridicate-si-lipsa-oportunitatilor/cover.jpg?v=b22d02f4" medium="image" type="image/jpeg"/>
       <description>Valul de manifestații din Europa este condus de Generația Z, nemulțumită de prețul locuințelor, problemele din educație și insecuritatea locurilor de muncă, tinerii temându-se că vor avea un viitor mai puțin prosper decât părinții lor.</description>
     </item>
     <item>
@@ -459,14 +469,5 @@
       <category>local</category>
       <source url="https://www.automarket.ro/stiri/marca-chineza-aito-vrea-sa-intre-in-europa-in-2027-modele-electrice-129109.html">AutoMarket</source>
       <description>Producătorul chinez Aito, specializat în vehicule electrice inteligente, intenționează să intre oficial pe piața europeană în 2027, concurând direct cu mărci consacrate precum BMW, Audi și Mercedes-Benz.</description>
-    </item>
-    <item>
-      <title>Statele Unite și Europa pregătesc o propunere comună de pace pentru Ucraina</title>
-      <link>https://izz.ro/extern/statele-unite-si-europa-pregatesc-o-propunere-comuna-de-pace-pentru-ucraina/</link>
-      <guid>https://izz.ro/extern/statele-unite-si-europa-pregatesc-o-propunere-comuna-de-pace-pentru-ucraina/</guid>
-      <pubDate>Sun, 18 Oct 2026 04:00:10 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/planul-pentru-incheierea-razboiului-din-ucraina-disputa-dintre-trump-si-zelenski-ascunde-o-initiativa-de-pace-mult-mai-importanta-3992951">Digi24 Extern</source>
-      <description>În ciuda disputelor verbale dintre Donald Trump și Volodimir Zelenski, diplomația occidentală lucrează la un plan concret de încetare a conflictului, care să ofere garanții de securitate și avantaje economice atât Kievului, cât și Moscovei.</description>
     </item>
 </channel></rss>
