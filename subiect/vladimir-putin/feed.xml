@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/vladimir-putin/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Vladimir Putin pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 06:38:03 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 14:52:05 +0000</lastBuildDate>
+    <item>
+      <title>Detalii despre un plan secret de pace în Ucraina din 2023</title>
+      <link>https://izz.ro/extern/detalii-despre-un-plan-secret-de-pace-in-ucraina-din-2023/</link>
+      <guid>https://izz.ro/extern/detalii-despre-un-plan-secret-de-pace-in-ucraina-din-2023/</guid>
+      <pubDate>Mon, 26 Oct 2026 12:48:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/credeau-ca-armata-rusa-se-va-dezintegra-ca-cea-a-lui-sauron-planul-secret-de-pace-respins-in-2023-670353.html">Observator</source>
+      <media:content url="https://izz.ro/extern/detalii-despre-un-plan-secret-de-pace-in-ucraina-din-2023/cover.jpg?v=5eea0907" medium="image" type="image/jpeg"/>
+      <description>O investigație jurnalistică arată că Vladimir Putin ar fi primit în 2023 un plan secret de pace care propunea retrageri rusești și concesii legate de Crimeea și NATO, fiind mult mai avantajos pentru Kiev decât ofertele actuale.</description>
+    </item>
     <item>
       <title>Românul Adrian David Kercso a fost încarcerat în Rusia pentru acuzații de spionaj</title>
       <link>https://izz.ro/extern/romanul-adrian-david-kercso-a-fost-incarcerat-in-rusia-pentru-acuzatii-de/</link>
@@ -53,7 +63,6 @@
       <pubDate>Sun, 25 Oct 2026 08:33:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://observatornews.ro/extern/o-companie-sanctionata-din-rusia-a-finantat-in-secret-un-proiect-de-gaze-din-sua-670231.html">Observator, Economedia</source>
-      <media:content url="https://izz.ro/extern/o-companie-rusa-sanctionata-a-finantat-in-secret-un-proiect-energetic-american/cover.jpg?v=34f27e20" medium="image" type="image/jpeg"/>
       <description>Novatek este al doilea mare producător de GNL din Rusia și se află sub sancțiuni americane din 2022. Proiectul Polar LNG din Alaska a primit finanțare secretă de la Novatek. Fostul director executiv John Riddle a demisionat în septembrie după ce a aflat despre legăturile ascunse. Riddle a declarat că i s-a spus că banii provin din Emiratele Arabe Unite și a cerut oficialilor americani să investigheze.</description>
     </item>
     <item>
@@ -63,7 +72,6 @@
       <pubDate>Sun, 25 Oct 2026 06:05:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.europalibera.md/a/vecinii-lui-vladimir-putin-doua-lumi-paralele-la-valdai/33882750.html">Europa Liberă</source>
-      <media:content url="https://izz.ro/extern/contrast-extrem-intre-resedinta-lui-vladimir-putin-si-viata-dificila-a/cover.jpg?v=05432d08" medium="image" type="image/jpeg"/>
       <description>În timp ce locuința liderului rus de la Valdai beneficiază de măsuri extreme de securitate, comunitatea locală învecinată suportă consecințele dramatice ale conflictului armat din Ucraina.</description>
     </item>
     <item>
@@ -73,7 +81,6 @@
       <pubDate>Sat, 24 Oct 2026 18:12:38 +0000</pubDate>
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/opinii-si-analize/de-ce-nu-l-poate-convinge-trump-pe-putin-sa-accepte-un-acord-care-e-solutia">Spotmedia</source>
-      <media:content url="https://izz.ro/extern/strategia-lui-donald-trump-privind-razboiul-din-ucraina-este-contestata-de/cover.jpg?v=b8e372cf" medium="image" type="image/jpeg"/>
       <description>Cercetătorul Thomas Wright susține că oferirea de stimulente economice lui Vladimir Putin nu va opri conflictul, fiind nevoie ca liderul rus să conștientizeze costurile majore ale prelungirii războiului.</description>
     </item>
     <item>
@@ -453,14 +460,5 @@
       <category>extern</category>
       <source url="https://hotnews.ro/fraza-sunt-impotriva-partidului-de-escroci-si-hoti-catalogata-drept-extremista-in-rusia-care-este-motivul-2377120">HotNews</source>
       <description>Un tribunal din Kostroma l-a sancționat contravențional pe activistul Andrei Tarasov pentru utilizarea sintagmei „partidul escrocilor și hoților”, considerată de autoritățile ruse drept o formă de extremism.</description>
-    </item>
-    <item>
-      <title>Kremlinul vrea o nouă întrevedere între Putin și Trump</title>
-      <link>https://izz.ro/politic/kremlinul-vrea-o-noua-intrevedere-intre-putin-si-trump/</link>
-      <guid>https://izz.ro/politic/kremlinul-vrea-o-noua-intrevedere-intre-putin-si-trump/</guid>
-      <pubDate>Thu, 15 Oct 2026 12:51:46 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.digi24.ro/stiri/externe/kremlinul-spera-la-o-noua-intalnire-intre-putin-si-trump-3993835">Digi24 Extern</source>
-      <description>Reprezentanții administrației prezidențiale de la Moscova au exprimat public dorința organizării unei noi întâlniri oficiale între liderul rus Vladimir Putin și omologul său american Donald Trump.</description>
     </item>
 </channel></rss>

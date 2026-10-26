@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 06:38:03 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 14:52:05 +0000</lastBuildDate>
+    <item>
+      <title>Interlopul Flaviu Tărău a fost atacat și rănit grav de un grup înarmat cu macete la Cluj</title>
+      <link>https://izz.ro/judetean/interlopul-flaviu-tarau-a-fost-atacat-si-ranit-grav-de-un-grup-inarmat-cu/</link>
+      <guid>https://izz.ro/judetean/interlopul-flaviu-tarau-a-fost-atacat-si-ranit-grav-de-un-grup-inarmat-cu/</guid>
+      <pubDate>Mon, 26 Oct 2026 12:41:45 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://gazetadecluj.ro/flaviu-tarau-a-fost-atacat-de-cutitari-dupa-amenintarile-primite-in-februarie/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/judetean/interlopul-flaviu-tarau-a-fost-atacat-si-ranit-grav-de-un-grup-inarmat-cu/cover.jpg?v=6aafdeac" medium="image" type="image/jpeg"/>
+      <description>Clujul a fost scena unei agresiuni violente în care interlopul Flaviu Tărău a fost atacat cu macete de un grup de indivizii înarmați. Jurnaliștii trag un semnal de alarmă privind escaladarea violențelor stradale în oraș.</description>
+    </item>
     <item>
       <title>Transelectrica construiește linia electrică Gădălin-Suceava</title>
       <link>https://izz.ro/local/transelectrica-construieste-linia-electrica-gadalin-suceava/</link>
@@ -450,14 +460,5 @@
       <category>local</category>
       <source url="https://zcj.ro/eveniment/cum-s-a-produs-accidentul-in-lant-cu-patru-masini-in-floresti-trei-persoane-printre-care-doua-minore-au-ajuns-la-spital--302940.html">Ziua de Cluj</source>
       <description>Trei persoane, printre care doi minori, au fost transportate la spital în urma unui carambol produs pe raza comunei clujene Florești, autoritățile deschizând o anchetă pentru stabilirea cauzelor.</description>
-    </item>
-    <item>
-      <title>Aplicație de sprijin lansată la Cluj pentru victimele violenței domestice</title>
-      <link>https://izz.ro/judetean/aplicatie-de-sprijin-lansata-la-cluj-pentru-victimele-violentei-domestice/</link>
-      <guid>https://izz.ro/judetean/aplicatie-de-sprijin-lansata-la-cluj-pentru-victimele-violentei-domestice/</guid>
-      <pubDate>Thu, 15 Oct 2026 12:03:00 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://zcj.ro/social/cifre-alarmante-la-cluj-200-de-femei-victime-ale-violentei-domestice-au-ajuns-la-urgente-in-acest-an-se-lanseaza-mesageria-nuasa-pentru-sprijin-juridic-si-psihologic--302938.html">Ziua de Cluj</source>
-      <description>Peste 200 de femei agresate au ajuns la Urgențele din Cluj anul acesta. Începând cu 1 noiembrie, victimele vor avea acces la asistență psihologică și juridică prin intermediul noului serviciu de mesagerie NUAșa.</description>
     </item>
 </channel></rss>

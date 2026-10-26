@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 06:38:03 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 14:52:05 +0000</lastBuildDate>
+    <item>
+      <title>Plăcile video NVIDIA RTX primesc un plus de performanță în inteligența artificială</title>
+      <link>https://izz.ro/tech/placile-video-nvidia-rtx-primesc-un-plus-de-performanta-in-inteligenta/</link>
+      <guid>https://izz.ro/tech/placile-video-nvidia-rtx-primesc-un-plus-de-performanta-in-inteligenta/</guid>
+      <pubDate>Mon, 26 Oct 2026 13:57:47 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/26/nvidia-geforce-rtx-30-si-rtx-40-devin-mult-mai-rapide-in-ai-preturile-second-hand-vor-exploda/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/placile-video-nvidia-rtx-primesc-un-plus-de-performanta-in-inteligenta/cover.jpg?v=bbafb09b" medium="image" type="image/jpeg"/>
+      <description>O nouă metodă de optimizare crește considerabil capacitățile de procesare AI pentru generațiile anterioare de plăci grafice, dezvoltatorii estimând o scumpire accentuată a acestora pe piața second-hand.</description>
+    </item>
     <item>
       <title>Lansarea plăcii video NVIDIA GeForce RTX 6060 ar putea fi amânată</title>
       <link>https://izz.ro/tech/lansarea-placii-video-nvidia-geforce-rtx-6060-ar-putea-fi-amanata/</link>
@@ -113,14 +123,5 @@
       <category>tech</category>
       <source url="https://www.gsp.ro/comercial/advertorial/laptopurile-nvidia-rtx-spark-sunt-disponibile-acum-988795.html">GSP</source>
       <description>Noile laptopuri NVIDIA RTX Spark sunt disponibile pe piață, oferind utilizatorilor grafică avansată, integrare cu ecosistemul de inteligență artificială și o memorie unificată de până la 128 GB.</description>
-    </item>
-    <item>
-      <title>Noul procesor NVIDIA RTX Spark aduce gaming AAA și DLSS 5 pe laptopuri</title>
-      <link>https://izz.ro/tech/noul-procesor-nvidia-rtx-spark-aduce-gaming-aaa-si-dlss-5-pe-laptopuri/</link>
-      <guid>https://izz.ro/tech/noul-procesor-nvidia-rtx-spark-aduce-gaming-aaa-si-dlss-5-pe-laptopuri/</guid>
-      <pubDate>Wed, 14 Oct 2026 09:14:04 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/14/nvidia-rtx-spark-este-pregatit-pentru-gaming-aaa-cu-dlss-5-si-suport-pentru-sisteme-anti-cheat/">Connect.ro</source>
-      <description>Dispozitivele echipate cu cipul NVIDIA RTX Spark se lansează în curând, oferind performanțe pentru jocuri la rezoluție 1440p, grafică fotorealistă prin DLSS 5 și compatibilitate cu sisteme anti-cheat.</description>
     </item>
 </channel></rss>

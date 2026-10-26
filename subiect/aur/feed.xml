@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 06:38:03 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 14:52:05 +0000</lastBuildDate>
+    <item>
+      <title>AUR cere înființarea unei comisii parlamentare pentru gestionarea migrației în România</title>
+      <link>https://izz.ro/politic/aur-cere-infiintarea-unei-comisii-parlamentare-pentru-gestionarea-migratiei-in/</link>
+      <guid>https://izz.ro/politic/aur-cere-infiintarea-unei-comisii-parlamentare-pentru-gestionarea-migratiei-in/</guid>
+      <pubDate>Mon, 26 Oct 2026 13:15:38 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://szekelyhon.ro/aktualis/parlamenti-vizsgalobizottsagot-hozna-letre-az-aur-arra-hogy-mikent-kezelik-a-romaniai-hatosagok-a-bevandorlast">Székelyhon</source>
+      <media:content url="https://izz.ro/politic/aur-cere-infiintarea-unei-comisii-parlamentare-pentru-gestionarea-migratiei-in/cover.jpg?v=07cd955a" medium="image" type="image/jpeg"/>
+      <description>Alianța pentru Unirea Românilor a inițiat demersurile legale pentru crearea unei comisii speciale de anchetă. Formațiunea dorește verificarea modului în care autoritățile statului gestionează fenomenul imigrației pe teritoriul național.</description>
+    </item>
     <item>
       <title>Politicienii locali pun creșterea AUR pe seama tensiunilor dintre PSD și PNL</title>
       <link>https://izz.ro/politic/politicienii-locali-pun-cresterea-aur-pe-seama-tensiunilor-dintre-psd-si-pnl/</link>
@@ -23,7 +33,6 @@
       <pubDate>Sat, 24 Oct 2026 20:04:00 +0000</pubDate>
       <category>judetean</category>
       <source url="https://www.zi-de-zi.ro/2026/10/24/campania-nationala-de-recrutare-aur-popas-in-judetul-mures/">Zi de Zi</source>
-      <media:content url="https://izz.ro/judetean/campania-nationala-de-recrutare-aur-a-ajuns-in-judetul-mures/cover.jpg?v=c4d2989e" medium="image" type="image/jpeg"/>
       <description>Reprezentanții partidului AUR s-au întâlnit cu cetățenii din județul Mureș pentru a discuta despre implicarea activă în viața comunității locale și găsirea unor soluții administrative.</description>
     </item>
     <item>
@@ -259,23 +268,5 @@
       <category>politic</category>
       <source url="https://gazetadecluj.ro/liviu-man-avertizeaza-la-gold-fm-aur-este-sub-presiune-iar-sustinerea-lui-calin-georgescu-il-deranjeaza-pe-sistem/">Gazeta de Cluj</source>
       <description>Analistul Liviu Man susține că presiunile asupra lui George Simion întăresc controlul acestuia în partid, în timp ce susținerea acordată lui Călin Georgescu provoacă tensiuni majore pe scena politică.</description>
-    </item>
-    <item>
-      <title>Mitică Dragomir prognozează viitorul politic al lui George Simion</title>
-      <link>https://izz.ro/politic/mitica-dragomir-prognozeaza-viitorul-politic-al-lui-george-simion/</link>
-      <guid>https://izz.ro/politic/mitica-dragomir-prognozeaza-viitorul-politic-al-lui-george-simion/</guid>
-      <pubDate>Wed, 14 Oct 2026 13:20:18 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.prosport.ro/diverse/mitica-dragomir-arestare-george-simion-aur-20547167">ProSport</source>
-      <description>Fostul conducător al Ligii Profesioniste de Fotbal, Dumitru Dragomir, a comentat scenariul ipotetic al unei posibile rețineri a liderului AUR, George Simion, făcând paralele cu situația lui Călin Georgescu.</description>
-    </item>
-    <item>
-      <title>George Simion critică noua alianță politică dintre PSD și PNL</title>
-      <link>https://izz.ro/politic/george-simion-critica-noua-alianta-politica-dintre-psd-si-pnl/</link>
-      <guid>https://izz.ro/politic/george-simion-critica-noua-alianta-politica-dintre-psd-si-pnl/</guid>
-      <pubDate>Wed, 14 Oct 2026 07:13:07 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://adevarul.ro/politica/george-simion-psd-se-impaca-cu-ilie-bolojan-2563876.html">Adevărul</source>
-      <description>Liderul formațiunii AUR a anunțat că parlamentarii partidului nu vor acorda votul de învestitură cabinetului condus de Luca Niculescu, acuzând partidele tradiționale de negocieri netransparente.</description>
     </item>
 </channel></rss>

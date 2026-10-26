@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/albania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Albania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 06:38:03 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 14:52:05 +0000</lastBuildDate>
+    <item>
+      <title>Muzeul de Artă Vizuală din Galați găzduiește un eveniment cultural româno-albanez</title>
+      <link>https://izz.ro/local/muzeul-de-arta-vizuala-din-galati-gazduieste-un-eveniment-cultural-romano/</link>
+      <guid>https://izz.ro/local/muzeul-de-arta-vizuala-din-galati-gazduieste-un-eveniment-cultural-romano/</guid>
+      <pubDate>Mon, 26 Oct 2026 13:05:08 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.monitoruldegalati.ro/cultura/eveniment-cultural-romano-albanez-de-exceptie-la-galati-ambasadoarea-albaniei-si-presedintele-consiliului-judetean-invitati-la-muzeul-de-arta-vizuala.html">Monitorul de Galați</source>
+      <media:content url="https://izz.ro/local/muzeul-de-arta-vizuala-din-galati-gazduieste-un-eveniment-cultural-romano/cover.jpg?v=4d5ceca3" medium="image" type="image/jpeg"/>
+      <description>Manifestarea dedicată consolidării relațiilor bilaterale aduce la Galați oficiali importanți, continuând seria de activități culturale inițiate prin deschiderea Centrului Cultural Albanez la Dunărea de Jos.</description>
+    </item>
     <item>
       <title>România rămâne statul cu cele mai mici prețuri la alimente din Uniunea Europeană</title>
       <link>https://izz.ro/economic/romania-ramane-statul-cu-cele-mai-mici-preturi-la-alimente-din-uniunea-europeana/</link>
@@ -63,7 +73,6 @@
       <pubDate>Sun, 25 Oct 2026 05:29:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://observatornews.ro/extern/sambata-neagra-in-europa-jandarmi-atacati-cu-pietre-in-albania-si-1000-de-oameni-retinuti-in-franta-670212.html">Observator</source>
-      <media:content url="https://izz.ro/extern/proteste-violente-in-europa-jandarmi-atacati-in-albania-si-aproape-1-000-de/cover.jpg?v=eaa7018e" medium="image" type="image/jpeg"/>
       <description>Europa s-a confruntat cu manifestații de amploare, Franța înregistrând circa o mie de arestări în urma confruntărilor urbane violente, în timp ce autoritățile au mobilizat zeci de mii de forțe de ordine pentru a dispersa mulțimile.</description>
     </item>
     <item>
@@ -227,14 +236,5 @@
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/europa/haos-pe-strazile-din-tirana-in-urma-protestelor-2564068.html">Adevărul</source>
       <description>Zeci de mii de tineri au ieșit pe străzile capitalei Albaniei pentru a protesta împotriva costurilor ridicate din educație și a corupției, manifestația transformându-se în violențe grave și incendieri.</description>
-    </item>
-    <item>
-      <title>Evoluția statelor candidate în procesul de aderare la Uniunea Europeană în anul 2026</title>
-      <link>https://izz.ro/extern/evolutia-statelor-candidate-in-procesul-de-aderare-la-uniunea-europeana-in-anul/</link>
-      <guid>https://izz.ro/extern/evolutia-statelor-candidate-in-procesul-de-aderare-la-uniunea-europeana-in-anul/</guid>
-      <pubDate>Wed, 14 Oct 2026 14:41:48 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://cursdeguvernare.ro/cursa-aderare-ue-tari-candidate-status-republica-moldova-muntenegru-ucraina.html">Curs de Guvernare</source>
-      <description>Negocierile pentru extinderea UE au avansat puternic: Muntenegru conduce cu 21 de capitole închise din 33, Albania a deschis toate capitolele, în timp ce Republica Moldova și Ucraina au progresat prin deschiderea a câte patru clustere.</description>
     </item>
 </channel></rss>

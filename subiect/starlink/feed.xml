@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 06:38:03 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 14:52:06 +0000</lastBuildDate>
+    <item>
+      <title>Elon Musk acuză Ucraina că a încălcat regulile de utilizare Starlink</title>
+      <link>https://izz.ro/tech/elon-musk-acuza-ucraina-ca-a-incalcat-regulile-de-utilizare-starlink/</link>
+      <guid>https://izz.ro/tech/elon-musk-acuza-ucraina-ca-a-incalcat-regulile-de-utilizare-starlink/</guid>
+      <pubDate>Sun, 25 Oct 2026 16:55:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.zf.ro/business-international/musk-acuza-ucraina-ca-a-incalcat-termenii-si-conditiile-de-utilizare-ale-starlink-23267641">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/tech/elon-musk-acuza-ucraina-ca-a-incalcat-regulile-de-utilizare-starlink/cover.jpg?v=5cdaced9" medium="image" type="image/jpeg"/>
+      <description>Fondatorul SpaceX, Elon Musk, a criticat autoritățile de la Kiev pentru nerespectarea termenilor contractuali ai serviciului de internet prin satelit Starlink, după ce accesul fusese recent restabilit.</description>
+    </item>
     <item>
       <title>Elon Musk susține că Starlink este un sistem exclusiv civil</title>
       <link>https://izz.ro/extern/elon-musk-sustine-ca-starlink-este-un-sistem-exclusiv-civil/</link>
@@ -162,15 +172,6 @@
       <description>Statele europene au început să dezvolte alternative la sistemul de comunicații prin satelit Starlink. Anunțul a fost făcut de Volodimir Zelenski, care a subliniat necesitatea reducerii dependenței de tehnologia americană, în contextul în care autoritățile de la Kiev s-au confruntat cu restricții de viteză aplicate terminalelor utilizate pe front.</description>
     </item>
     <item>
-      <title>Donald Trump respinge acuzațiile privind limitarea accesului Ucrainei la Starlink</title>
-      <link>https://izz.ro/extern/donald-trump-respinge-acuzatiile-privind-limitarea-accesului-ucrainei-la/</link>
-      <guid>https://izz.ro/extern/donald-trump-respinge-acuzatiile-privind-limitarea-accesului-ucrainei-la/</guid>
-      <pubDate>Fri, 16 Oct 2026 19:33:48 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <description>Fostul lider american a negat informațiile conform cărora Ucraina ar fi fost privată de conexiunea la rețeaua de sateliți Starlink, măsură care i-ar fi afectat capacitatea de apărare împotriva atacurilor aeriene rusești.</description>
-    </item>
-    <item>
       <title>Ofensiva ucraineană din Donbas avansează cu sprijinul tehnologiei Starlink</title>
       <link>https://izz.ro/extern/ofensiva-ucraineana-din-donbas-avanseaza-cu-sprijinul-tehnologiei-starlink/</link>
       <guid>https://izz.ro/extern/ofensiva-ucraineana-din-donbas-avanseaza-cu-sprijinul-tehnologiei-starlink/</guid>
@@ -250,23 +251,5 @@
       <category>extern</category>
       <source url="https://www.g4media.ro/ofiterii-ucraineni-avertizeaza-ca-incetinirea-serviciului-starlink-este-similar-cu-un-atac-nuclear-impotriva-noastra.html">G4Media</source>
       <description>Militarii de pe frontul din Ucraina trag un semnal de alarmă privind încetinirea conexiunilor satelitare Starlink, comparând impactul operațional negativ cu consecințele unui atac nuclear.</description>
-    </item>
-    <item>
-      <title>Accesul militarilor ucraineni la internetul prin satelit Starlink a fost restricționat</title>
-      <link>https://izz.ro/extern/accesul-militarilor-ucraineni-la-internetul-prin-satelit-starlink-a-fost/</link>
-      <guid>https://izz.ro/extern/accesul-militarilor-ucraineni-la-internetul-prin-satelit-starlink-a-fost/</guid>
-      <pubDate>Wed, 14 Oct 2026 13:33:56 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/2026/oct/14/ukraine-soldiers-combat-access-starlink-satellite-internet-restricted">The Guardian</source>
-      <description>Terminalele Starlink furnizate de SpaceX au suferit restricții de funcționare pentru trupele ucrainene, pe fondul presiunilor exercitate de administrația de la Washington pentru oprirea loviturilor asupra Rusiei.</description>
-    </item>
-    <item>
-      <title>Armata ucraineană a pierdut temporar semnalul Starlink</title>
-      <link>https://izz.ro/extern/armata-ucraineana-a-pierdut-temporar-semnalul-starlink/</link>
-      <guid>https://izz.ro/extern/armata-ucraineana-a-pierdut-temporar-semnalul-starlink/</guid>
-      <pubDate>Wed, 14 Oct 2026 07:17:54 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/musk-a-lasat-ucraina-fara-starlink-misiuni-importante-au-fost-zadarnicite-la-cererea-administratiei-trump-3991301">Digi24 Extern</source>
-      <description>Forțele ucrainene s-au confruntat cu întreruperi ale comunicațiilor prin satelit asigurate de Starlink, afectând misiuni militare importante. Incidentul a fost atribuit unor restricții solicitate de administrația președintelui american Donald Trump.</description>
     </item>
 </channel></rss>

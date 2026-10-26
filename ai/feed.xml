@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 06:38:09 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 14:52:12 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI dezvoltă un dispozitiv hardware menit să înlocuiască telefoanele</title>
+      <link>https://izz.ro/ai/openai-dezvolta-un-dispozitiv-hardware-menit-sa-inlocuiasca-telefoanele/</link>
+      <guid>https://izz.ro/ai/openai-dezvolta-un-dispozitiv-hardware-menit-sa-inlocuiasca-telefoanele/</guid>
+      <pubDate>Mon, 26 Oct 2026 14:18:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/high-tech/openai-construieste-o-noua-casa-pentru-ai-sam-altman-vrea-ca-noul-dispozitiv-hardware-sa-inlocuiasca-telefonul-si-laptopul-808707.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/ai/openai-dezvolta-un-dispozitiv-hardware-menit-sa-inlocuiasca-telefoanele/cover.jpg?v=aa138ea7" medium="image" type="image/jpeg"/>
+      <description>Compania lucrează la crearea unei noi categorii de echipamente fizice integrate cu inteligență artificială, concepute să preia funcțiile principale ale smartphone-urilor și laptopurilor actuale.</description>
+    </item>
     <item>
       <title>SpaceX acumulează datorii de 40 de miliarde de dolari pentru achiziția de cipuri AI</title>
       <link>https://izz.ro/ai/spacex-acumuleaza-datorii-de-40-de-miliarde-de-dolari-pentru-achizitia-de/</link>
@@ -53,7 +63,6 @@
       <pubDate>Sun, 25 Oct 2026 06:00:25 +0000</pubDate>
       <category>ai</category>
       <source url="https://adevarul.ro/interviurile-adevarul/ana-maria-stancu-la-interviurile-adevarul-ai-2566239.html">Adevărul</source>
-      <media:content url="https://izz.ro/ai/ana-maria-stancu-analizeaza-oportunitatile-si-riscurile-aduse-de-inteligenta/cover.jpg?v=06317e46" medium="image" type="image/jpeg"/>
       <description>Antreprenoarea Ana-Maria Stancu explică modul în care inteligența artificială transformă piața muncii în România, subliniind importanța verificării datelor și a protejării confidențialității.</description>
     </item>
     <item>
@@ -63,7 +72,6 @@
       <pubDate>Sat, 24 Oct 2026 21:04:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://spotmedia.ro/stiri/opinii-si-analize/cand-vorbim-cu-inteligenta-artificiala-cu-cine-vorbim-de-fapt">Spotmedia</source>
-      <media:content url="https://izz.ro/ai/interactiunea-umana-cu-inteligenta-artificiala-ridica-semne-de-intrebare/cover.jpg?v=725323a6" medium="image" type="image/jpeg"/>
       <description>Conversațiile lungi cu sistemele de inteligență artificială pot oferi o falsă senzație de empatie și înțelegere, determinând utilizatorii să confunde un algoritm cu un interlocutor uman autentic.</description>
     </item>
     <item>
@@ -452,14 +460,5 @@
       <category>ai</category>
       <source url="https://www.economica.net/interviu-romania-risca-sa-rateze-o-parte-din-castigul-economic-adus-de-ai-boris-georgiev-google-cloud-vedem-un-comportament-diferit-in-romania-daca-nu-acceleram-adoptia-impactul-asupra-pib_985216.html">Economica</source>
       <description>Reprezentantul Google Cloud, Boris Georgiev, avertizează că România riscă să rateze creșterea de 5% din PIB adusă de inteligența artificială dacă nu accelerează adoptarea tehnologiei în companii.</description>
-    </item>
-    <item>
-      <title>Un mod bazat pe inteligență artificială permite dialogul cu NPC-urile din GTA 5</title>
-      <link>https://izz.ro/ai/un-mod-bazat-pe-inteligenta-artificiala-permite-dialogul-cu-npc-urile-din-gta-5/</link>
-      <guid>https://izz.ro/ai/un-mod-bazat-pe-inteligenta-artificiala-permite-dialogul-cu-npc-urile-din-gta-5/</guid>
-      <pubDate>Mon, 19 Oct 2026 12:46:41 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.connect.ro/2026/10/19/un-mod-cu-ai-face-npc-urile-din-gta-5-sa-iti-raspunda-la-intrebari/">Connect.ro</source>
-      <description>Proiectul open-source NPCTalk adaugă capabilități conversaționale avansate în jocul Grand Theft Auto 5, folosind voci imitate de sistemele AI pentru a interacționa în timp real cu personajele secundare.</description>
     </item>
 </channel></rss>
