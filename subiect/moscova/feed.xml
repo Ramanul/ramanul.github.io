@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/moscova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Moscova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 14:52:05 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 20:50:40 +0000</lastBuildDate>
+    <item>
+      <title>Volodimir Zelenski respinge condițiile Rusiei pentru negocierile de pace</title>
+      <link>https://izz.ro/extern/volodimir-zelenski-respinge-conditiile-rusiei-pentru-negocierile-de-pace/</link>
+      <guid>https://izz.ro/extern/volodimir-zelenski-respinge-conditiile-rusiei-pentru-negocierile-de-pace/</guid>
+      <pubDate>Mon, 26 Oct 2026 15:54:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/zelenski-negocieri-conditii-garantii-securitate-ucraina-rusia-pace-plan-schimburi-teritorii.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/extern/volodimir-zelenski-respinge-conditiile-rusiei-pentru-negocierile-de-pace/cover.jpg?v=42c11665" medium="image" type="image/jpeg"/>
+      <description>Președintele ucrainean Volodimir Zelenski a refuzat cererile Moscovei privind limitarea armatei și neutralitatea Ucrainei, etichetate de Rusia drept garanții de securitate, reiterând liniile roșii ale Kievului în fața oricărui compromis teritorial sau militar.</description>
+    </item>
     <item>
       <title>Kremlinul cere implicarea Europei în negocierile de pace din Ucraina</title>
       <link>https://izz.ro/extern/kremlinul-cere-implicarea-europei-in-negocierile-de-pace-din-ucraina/</link>
@@ -23,7 +33,7 @@
       <pubDate>Sun, 25 Oct 2026 16:24:00 +0000</pubDate>
       <category>sport</category>
       <source url="https://www.antena3.ro/sport/rusia-revine-pe-scena-sportiva-internationala-campionatele-mondiale-de-haltere-din-2030-vor-avea-loc-la-moscova-808573.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/sport/moscova-va-gazdui-campionatele-mondiale-de-haltere-din-anul-2030/cover.jpg?v=eb3256fe" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/sport/moscova-va-gazdui-campionatele-mondiale-de-haltere-din-anul-2030/cover.jpg?v=467dfa14" medium="image" type="image/jpeg"/>
       <description>Federația Internațională de Haltere a atribuit Rusiei organizarea Campionatelor Mondiale din 2030, reprezentând prima revenire a unui sport olimpic internațional pe teritoriul rus de la declanșarea conflictului din Ucraina.</description>
     </item>
     <item>
@@ -106,15 +116,6 @@
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/europa/ucraina-ataca-cu-drone-o-instalatie-militara-de-2565730.html">Adevărul</source>
       <description>Forțele ucrainene au lansat un raid masiv cu drone vizând o fabrică militară din Serpuhovo, localitate situată la o sută de kilometri distanță de Moscova, în timp ce Moscova susține că a interceptat sute de aparate.</description>
-    </item>
-    <item>
-      <title>Atacuri reciproce cu rachete și drone între Rusia și Ucraina</title>
-      <link>https://izz.ro/extern/atacuri-reciproce-cu-rachete-si-drone-intre-rusia-si-ucraina/</link>
-      <guid>https://izz.ro/extern/atacuri-reciproce-cu-rachete-si-drone-intre-rusia-si-ucraina/</guid>
-      <pubDate>Thu, 22 Oct 2026 04:26:19 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://hotnews.ro/moscova-drone-kiev-rachete-rusia-ucraina-bombardamente-2383004">HotNews</source>
-      <description>Rusia a bombardat Kievul, în timp ce Ucraina a lansat sute de drone spre Moscova, în pline eforturi diplomatice ale Statelor Unite pentru medierea conflictului armat.</description>
     </item>
     <item>
       <title>Slovacia reia parteneriatul energetic cu Rusia și sfidează poziția Uniunii Europene</title>
@@ -277,23 +278,5 @@
       <category>extern</category>
       <source url="https://stirileprotv.ro/stiri/international/moscova-il-acuza-pe-zelenski-ca-saboteaza-armistitiul-energetic-al-lui-trump-kievul-sfideaza-sua.html">Știrile ProTV</source>
       <description>Kremlinul a criticat dur joi conducerea de la Kiev, susținând că atacurile ucrainene asupra rafinăriilor petroliere rusești sabotează inițiativele de pace promovate de Statele Unite.</description>
-    </item>
-    <item>
-      <title>Moscova respinge acuzațiile privind încălcarea unui armistițiu energetic inexistent</title>
-      <link>https://izz.ro/extern/moscova-respinge-acuzatiile-privind-incalcarea-unui-armistitiu-energetic/</link>
-      <guid>https://izz.ro/extern/moscova-respinge-acuzatiile-privind-incalcarea-unui-armistitiu-energetic/</guid>
-      <pubDate>Wed, 14 Oct 2026 19:17:15 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.economica.net/moscova-neaga-ca-ar-fi-incalcat-armistitiul-energetic-cu-kievul-anuntat-de-trump-din-simlu-motiv-ca-n-a-fost-parte-la-asa-ceva_985696.html">Economica</source>
-      <description>Purtătorul de cuvânt al Kremlinului, Dmitri Peskov, a declarat că Rusia nu a încălcat nicio înțelegere energetică mediată de Trump, deoarece Moscova nu a participat la negocieri.</description>
-    </item>
-    <item>
-      <title>Rusia refuză extradarea lui Bashar al-Assad invocând motive umanitare</title>
-      <link>https://izz.ro/extern/rusia-refuza-extradarea-lui-bashar-al-assad-invocand-motive-umanitare/</link>
-      <guid>https://izz.ro/extern/rusia-refuza-extradarea-lui-bashar-al-assad-invocand-motive-umanitare/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:01:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/externe/rusia-sustine-ca-i-a-acordat-azil-politic-dictatorului-bashar-al-assad-din-motive-umanitare-decizia-e-irevocabila-807255.html">Antena 3 CNN</source>
-      <description>Moscova a confirmat că decizia de a acorda azil politic fostului lider sirian Bashar al-Assad este definitivă și că acesta nu va fi predat autorităților de la Damasc.</description>
     </item>
 </channel></rss>

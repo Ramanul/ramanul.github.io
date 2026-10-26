@@ -5,7 +5,37 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 14:52:06 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 20:50:40 +0000</lastBuildDate>
+    <item>
+      <title>Microsoft oferă plecări voluntare pentru 60.000 de angajați în favoarea investițiilor în AI</title>
+      <link>https://izz.ro/ai/microsoft-ofera-plecari-voluntare-pentru-60-000-de-angajati-in-favoarea/</link>
+      <guid>https://izz.ro/ai/microsoft-ofera-plecari-voluntare-pentru-60-000-de-angajati-in-favoarea/</guid>
+      <pubDate>Mon, 26 Oct 2026 18:34:28 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/factura-uriasa-a-inteligentei-artificiale-mii-de-angajati-microsoft-invitati-sa-plece-voluntar-sunt-vizati-inclusiv-vicepresedintii-companiei">Spotmedia</source>
+      <media:content url="https://izz.ro/ai/microsoft-ofera-plecari-voluntare-pentru-60-000-de-angajati-in-favoarea/cover.jpg?v=bd8ed6a4" medium="image" type="image/jpeg"/>
+      <description>Gigantul tehnologic Microsoft a lansat un program de plecări voluntare pentru aproape 27% din personalul său global din SUA, Canada, India și Marea Britanie, pentru a reduce costurile și a finanța proiecte de inteligență artificială.</description>
+    </item>
+    <item>
+      <title>Microsoft lansează cea mai mare restructurare prin oferte de plecare voluntară</title>
+      <link>https://izz.ro/economic/microsoft-lanseaza-cea-mai-mare-restructurare-prin-oferte-de-plecare-voluntara/</link>
+      <guid>https://izz.ro/economic/microsoft-lanseaza-cea-mai-mare-restructurare-prin-oferte-de-plecare-voluntara/</guid>
+      <pubDate>Mon, 26 Oct 2026 18:04:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/it-c/zeci-de-mii-de-angajati-din-companie-trebuie-sa-plece-oferte-de-plecare-voluntara-lansate-de-microsoft-cea-mai-mare-restructurare-a-sa-de-personal-22888950?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/economic/microsoft-lanseaza-cea-mai-mare-restructurare-prin-oferte-de-plecare-voluntara/cover.jpg?v=c23fb9aa" medium="image" type="image/jpeg"/>
+      <description>Gigantul american Microsoft a inițiat cel mai amplu proces de restructurare a personalului din istoria sa, trimițând oferte de plecare voluntară către aproximativ 60.000 de angajați din patru state diferite.</description>
+    </item>
+    <item>
+      <title>Microsoft va sista suportul pentru anumite dispozitive de stocare în Windows 11</title>
+      <link>https://izz.ro/tech/microsoft-va-sista-suportul-pentru-anumite-dispozitive-de-stocare-in-windows-11/</link>
+      <guid>https://izz.ro/tech/microsoft-va-sista-suportul-pentru-anumite-dispozitive-de-stocare-in-windows-11/</guid>
+      <pubDate>Mon, 26 Oct 2026 15:16:05 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/windows-11a-refs/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/microsoft-va-sista-suportul-pentru-anumite-dispozitive-de-stocare-in-windows-11/cover.jpg?v=babc4c35" medium="image" type="image/jpeg"/>
+      <description>Începând din ianuarie 2027, sistemul de operare Windows 11 nu va mai accepta stick-uri USB și carduri SD formatate în sistemul ReFS, fiind permise doar formatele standard precum FAT, NTFS sau exFAT.</description>
+    </item>
     <item>
       <title>Microsoft testează aplicația opțională Context Vault în locul Windows Recall</title>
       <link>https://izz.ro/tech/microsoft-testeaza-aplicatia-optionala-context-vault-in-locul-windows-recall/</link>
@@ -140,14 +170,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/15/microsoft-a-inchis-inca-o-posibilitate-de-a-folosi-windows-11-fara-cont-online/">Connect.ro</source>
       <description>Gigantul american a eliminat o soluție alternativă facilă care permitea configurarea sistemului de operare Windows 11 fără crearea obligatorie a unui cont online de utilizator.</description>
-    </item>
-    <item>
-      <title>Microsoft a lansat Xbox Nano Controller, cel mai mic controler pentru gameri</title>
-      <link>https://izz.ro/tech/microsoft-a-lansat-xbox-nano-controller-cel-mai-mic-controler-pentru-gameri/</link>
-      <guid>https://izz.ro/tech/microsoft-a-lansat-xbox-nano-controller-cel-mai-mic-controler-pentru-gameri/</guid>
-      <pubDate>Wed, 14 Oct 2026 16:30:51 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/14/xbox-nano-controller-pret-lansare/">Connect.ro</source>
-      <description>Gigantul american a prezentat un nou model compact de controler destinat utilizatorilor cu mâini mici și sesiunilor de gaming portabile, care păstrează toate cele 18 butoane standard la prețul de 50 de dolari.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/elon-musk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Elon Musk pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 14:52:05 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 20:50:40 +0000</lastBuildDate>
     <item>
       <title>SpaceX acumulează datorii de 40 de miliarde de dolari pentru achiziția de cipuri AI</title>
       <link>https://izz.ro/ai/spacex-acumuleaza-datorii-de-40-de-miliarde-de-dolari-pentru-achizitia-de/</link>
@@ -33,7 +33,6 @@
       <pubDate>Sun, 25 Oct 2026 10:54:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.profit.ro/povesti-cu-profit/vecini/musk-despre-limitarea-vitezei-conexiunii-in-ucraina-starlink-este-un-sistem-civil-nu-de-un-mijloc-de-a-ucide-22883024?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/extern/elon-musk-sustine-ca-starlink-este-un-sistem-exclusiv-civil/cover.jpg?v=916358b9" medium="image" type="image/jpeg"/>
       <description>Fondatorul SpaceX a explicat că limitarea temporară a vitezei de conexiune pentru Starlink în Ucraina a survenit în urma nerespectării termenilor de utilizare a rețelei, subliniind că tehnologia are destinație civilă.</description>
     </item>
     <item>
@@ -43,7 +42,6 @@
       <pubDate>Sun, 25 Oct 2026 09:00:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <media:content url="https://izz.ro/extern/spacex-a-restrictionat-conexiunea-starlink-pentru-ucraina-din-cauza-utilizarii/cover.jpg?v=912e1bf7" medium="image" type="image/jpeg"/>
       <description>Elon Musk a confirmat că accesul la internetul prin satelit a fost limitat temporar deoarece autoritățile ucrainene ar fi încălcat termenii contractuali prin folosirea rețelei în operațiuni militare.</description>
     </item>
     <item>
@@ -288,23 +286,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/elon-musk-spune-ca-orice-limitari-ale-serviciului-starshield-sunt-decise-de-armata-si-presedintele-sua-nu-de-spacex-3992895">Digi24 Extern</source>
       <description>Directorul executiv al companiei SpaceX a declarat că orice încetinire sau restricție aplicată rețelei militare Starshield în Ucraina este impusă exclusiv de către președintele și armata Statelor Unite.</description>
-    </item>
-    <item>
-      <title>Operațiunile militare ale Ucrainei sunt afectate de restricțiile Starshield</title>
-      <link>https://izz.ro/extern/operatiunile-militare-ale-ucrainei-sunt-afectate-de-restrictiile-starshield/</link>
-      <guid>https://izz.ro/extern/operatiunile-militare-ale-ucrainei-sunt-afectate-de-restrictiile-starshield/</guid>
-      <pubDate>Wed, 14 Oct 2026 19:34:26 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/ce-este-starshield-serviciul-de-internet-prin-satelit-de-nivel-militar-al-spacex-de-care-ucraina-depinde-in-razboiul-cu-rusii-3992795">Digi24 Extern</source>
-      <description>Forțele armate ucrainene se confruntă cu dificultăți majore pe front din cauza limitărilor impuse serviciului de internet prin satelit de nivel militar furnizat de compania SpaceX.</description>
-    </item>
-    <item>
-      <title>Armata ucraineană avertizează asupra limitării serviciului de internet Starlink</title>
-      <link>https://izz.ro/extern/armata-ucraineana-avertizeaza-asupra-limitarii-serviciului-de-internet-starlink/</link>
-      <guid>https://izz.ro/extern/armata-ucraineana-avertizeaza-asupra-limitarii-serviciului-de-internet-starlink/</guid>
-      <pubDate>Wed, 14 Oct 2026 17:36:43 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.g4media.ro/ofiterii-ucraineni-avertizeaza-ca-incetinirea-serviciului-starlink-este-similar-cu-un-atac-nuclear-impotriva-noastra.html">G4Media</source>
-      <description>Militarii de pe frontul din Ucraina trag un semnal de alarmă privind încetinirea conexiunilor satelitare Starlink, comparând impactul operațional negativ cu consecințele unui atac nuclear.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bnr/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre BNR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 14:52:05 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 20:50:40 +0000</lastBuildDate>
+    <item>
+      <title>Roxana Cristea a fost numită Chief Business Officer la Salt Bank</title>
+      <link>https://izz.ro/economic/roxana-cristea-a-fost-numita-chief-business-officer-la-salt-bank/</link>
+      <guid>https://izz.ro/economic/roxana-cristea-a-fost-numita-chief-business-officer-la-salt-bank/</guid>
+      <pubDate>Mon, 26 Oct 2026 17:32:02 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/salt-bank-anunta-numirea-roxanei-cristea-in-functia-de-chief-business-officer-in-curs-de-aprobare-la-bnr.html">Economedia</source>
+      <media:content url="https://izz.ro/economic/roxana-cristea-a-fost-numita-chief-business-officer-la-salt-bank/cover.jpg?v=cef8a053" medium="image" type="image/jpeg"/>
+      <description>Banca digitală a numit-o pe Roxana Cristea la conducerea diviziei de business, numirea urmând să fie validată oficial de Banca Națională a României. Aceasta are o experiență bogată în lansarea de produse bancare digitale.</description>
+    </item>
     <item>
       <title>BNR anticipează menținerea prelungită a dobânzii-cheie la 6,5%</title>
       <link>https://izz.ro/economic/bnr-anticipeaza-mentinerea-prelungita-a-dobanzii-cheie-la-65/</link>
@@ -135,14 +145,5 @@
       <category>economic</category>
       <source url="https://www.economica.net/cum-incepe-leul-ziua-in-care-se-voteaza-guvernul-luca-niculescu-curs-valutar-interbancar-20-10-2026_987318.html">Economica</source>
       <description>Euro a început ziua la valori apropiate de referința BNR, pe fondul instabilității politice marcate de căderea mai multor guverne în ultimele luni.</description>
-    </item>
-    <item>
-      <title>Modul de calcul al indicelui ROBOR ar putea fi modificat</title>
-      <link>https://izz.ro/economic/modul-de-calcul-al-indicelui-robor-ar-putea-fi-modificat/</link>
-      <guid>https://izz.ro/economic/modul-de-calcul-al-indicelui-robor-ar-putea-fi-modificat/</guid>
-      <pubDate>Wed, 14 Oct 2026 19:33:57 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.economica.net/se-schimba-robor-impact-pentru-toti-romanii-cu-credite-se-poate-lua-in-calcul-modelul-cursului-de-schimb-surse_985558.html">Economica</source>
-      <description>Banca Națională a României așteaptă propunerile băncilor comerciale pentru a schimba formula de stabilire a ROBOR, luând în calcul modelul utilizat pentru cursul de schimb valutar.</description>
     </item>
 </channel></rss>
