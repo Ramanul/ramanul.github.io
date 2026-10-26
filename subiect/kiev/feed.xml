@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/kiev/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Kiev pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 01:27:17 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 06:38:03 +0000</lastBuildDate>
+    <item>
+      <title>Rusia folosește rețele de tip mesh pentru ghidarea dronelor în Kiev</title>
+      <link>https://izz.ro/extern/rusia-foloseste-retele-de-tip-mesh-pentru-ghidarea-dronelor-in-kiev/</link>
+      <guid>https://izz.ro/extern/rusia-foloseste-retele-de-tip-mesh-pentru-ghidarea-dronelor-in-kiev/</guid>
+      <pubDate>Mon, 26 Oct 2026 05:00:35 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/rusia/greu-de-invins-noua-arma-tehnologica-a-rusiei-dronele-rusesti-reusesc-sa-loveasca-tinte-cu-precizie-in-kiev-in-ciuda-bruiajului-4002717">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/rusia-foloseste-retele-de-tip-mesh-pentru-ghidarea-dronelor-in-kiev/cover.jpg?v=48b74892" medium="image" type="image/jpeg"/>
+      <description>Armata rusă utilizează tehnologii de comunicare descentralizate pentru a spori raza de acțiune și precizia dronelor trimise în Ucraina, ocolind astfel măsurile de bruiaj electronic și terminalele Starlink.</description>
+    </item>
     <item>
       <title>Premierul Vasile Tofan va discuta la Kiev despre achiziția de gaze</title>
       <link>https://izz.ro/extern/premierul-vasile-tofan-va-discuta-la-kiev-despre-achizitia-de-gaze/</link>
@@ -158,14 +168,5 @@
       <category>extern</category>
       <source url="https://adevarul.ro/blogurile-adevarul/iarna-balistica-scutul-ucrainei-cusut-din-2563871.html">Adevărul</source>
       <description>Kievul încearcă să asigure interceptoare din stocurile aliaților și prin noi prototipuri pentru a face față atacurilor rusești din sezonul rece. Forțele ucrainene depind de sprijinul extern în lipsa unui calendrier stabil.</description>
-    </item>
-    <item>
-      <title>Rachete rusești au lovit o centrală electrică esențială în Kiev</title>
-      <link>https://izz.ro/extern/rachete-rusesti-au-lovit-o-centrala-electrica-esentiala-in-kiev/</link>
-      <guid>https://izz.ro/extern/rachete-rusesti-au-lovit-o-centrala-electrica-esentiala-in-kiev/</guid>
-      <pubDate>Wed, 14 Oct 2026 04:36:06 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <description>Președintele ucrainean a anunțat că loviturile cu rachete balistice au vizat infrastructura energetică din capitală, atacul producându-se fără o avertizare prealabilă din partea partenerilor internaționali.</description>
     </item>
 </channel></rss>

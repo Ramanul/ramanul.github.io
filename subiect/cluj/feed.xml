@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 01:27:17 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 06:38:03 +0000</lastBuildDate>
     <item>
       <title>Transelectrica construiește linia electrică Gădălin-Suceava</title>
       <link>https://izz.ro/local/transelectrica-construieste-linia-electrica-gadalin-suceava/</link>
@@ -53,7 +53,6 @@
       <pubDate>Sat, 24 Oct 2026 16:25:00 +0000</pubDate>
       <category>judetean</category>
       <source url="https://observatornews.ro/eveniment/de-la-ingrijitor-de-cai-la-acrobat-in-arena-povestea-lui-nicusor-tanarul-din-cluj-care-sfideaza-gravitatia-670203.html">Observator</source>
-      <media:content url="https://izz.ro/judetean/un-tanar-din-cluj-a-devenit-acrobat-dupa-ce-a-lucrat-ca-ingrijitor-de-cai/cover.jpg?v=54d3bd52" medium="image" type="image/jpeg"/>
       <description>Nicușor a făcut o tranziție remarcabilă de la munca în grajduri la acrobații spectaculoase în arenă, învățând meseria prin multă muncă, curaj și încredere în partener.</description>
     </item>
     <item>
@@ -63,7 +62,6 @@
       <pubDate>Sat, 24 Oct 2026 15:00:03 +0000</pubDate>
       <category>judetean</category>
       <source url="https://www.emaramures.ro/lucian-mindruta-ironic-dupa-protestul-de-la-cluj-nu-sunam-la-karl-marx-hotline-cand-ne-bate-sotul/">eMaramureș</source>
-      <media:content url="https://izz.ro/judetean/lucian-mindruta-critica-ironic-un-protest-feminist-organizat-la-cluj/cover.jpg?v=d86eb6c3" medium="image" type="image/jpeg"/>
       <description>Jurnalistul a comentat acid o manifestație pentru drepturile femeilor desfășurată în Cluj, folosind o replică ironică despre relația dintre ideologia politică de stânga și viața de familie, declarație care a stârnit dezbateri în mediul online.</description>
     </item>
     <item>
@@ -110,15 +108,6 @@
       <category>lifestyle</category>
       <source url="https://gazetadecluj.ro/din-albumul-familiei-intr-un-cadou-pentru-parinti-pastrarea-autenticitatii-fotografiilor-vechi/">Gazeta de Cluj</source>
       <description>Transformarea fotografiilor vechi de familie în tablouri sau obiecte de birou necesită păstrarea detaliilor originale de fundal, pentru a menține valoarea sentimentală autentică a imaginilor.</description>
-    </item>
-    <item>
-      <title>Târgurile de Crăciun din România se deschid în noiembrie 2026</title>
-      <link>https://izz.ro/local/targurile-de-craciun-din-romania-se-deschid-in-noiembrie-2026/</link>
-      <guid>https://izz.ro/local/targurile-de-craciun-din-romania-se-deschid-in-noiembrie-2026/</guid>
-      <pubDate>Fri, 23 Oct 2026 12:08:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://zcj.ro/life-and-style/cand-vor-avea-loc-targurile-de-craciun-din-romania-in-iarna-lui-2026-si-clujul-e-pe-harta--303349.html">Ziua de Cluj</source>
-      <description>Organizatorii din mai multe orașe din țară, inclusiv din Cluj și Craiova, pregătesc deschiderea edițiilor din acest an a Târgurilor de Crăciun pe parcursul lunii noiembrie.</description>
     </item>
     <item>
       <title>Ghid pentru organizarea depozitelor cu rafturi pentru paleți</title>
@@ -461,5 +450,14 @@
       <category>local</category>
       <source url="https://zcj.ro/eveniment/cum-s-a-produs-accidentul-in-lant-cu-patru-masini-in-floresti-trei-persoane-printre-care-doua-minore-au-ajuns-la-spital--302940.html">Ziua de Cluj</source>
       <description>Trei persoane, printre care doi minori, au fost transportate la spital în urma unui carambol produs pe raza comunei clujene Florești, autoritățile deschizând o anchetă pentru stabilirea cauzelor.</description>
+    </item>
+    <item>
+      <title>Aplicație de sprijin lansată la Cluj pentru victimele violenței domestice</title>
+      <link>https://izz.ro/judetean/aplicatie-de-sprijin-lansata-la-cluj-pentru-victimele-violentei-domestice/</link>
+      <guid>https://izz.ro/judetean/aplicatie-de-sprijin-lansata-la-cluj-pentru-victimele-violentei-domestice/</guid>
+      <pubDate>Thu, 15 Oct 2026 12:03:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/social/cifre-alarmante-la-cluj-200-de-femei-victime-ale-violentei-domestice-au-ajuns-la-urgente-in-acest-an-se-lanseaza-mesageria-nuasa-pentru-sprijin-juridic-si-psihologic--302938.html">Ziua de Cluj</source>
+      <description>Peste 200 de femei agresate au ajuns la Urgențele din Cluj anul acesta. Începând cu 1 noiembrie, victimele vor avea acces la asistență psihologică și juridică prin intermediul noului serviciu de mesagerie NUAșa.</description>
     </item>
 </channel></rss>

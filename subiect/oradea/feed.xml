@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/oradea/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Oradea pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 01:27:17 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 06:38:03 +0000</lastBuildDate>
+    <item>
+      <title>Proiect nou pentru un imobil de locuințe colective în Oradea</title>
+      <link>https://izz.ro/local/proiect-nou-pentru-un-imobil-de-locuinte-colective-in-oradea/</link>
+      <guid>https://izz.ro/local/proiect-nou-pentru-un-imobil-de-locuinte-colective-in-oradea/</guid>
+      <pubDate>Mon, 26 Oct 2026 04:00:29 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.bihon.ro/anunturi-de-interes-public/anunturi-mediu-ape/anunt-compania-de-constructii-rezidentiale-ag-srl-5441400/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
+      <media:content url="https://izz.ro/local/proiect-nou-pentru-un-imobil-de-locuinte-colective-in-oradea/cover.jpg?v=ae0f6aaf" medium="image" type="image/jpeg"/>
+      <description>Compania de Construcții Rezidențiale AG solicită avizul de amplasament de la Apele Române pentru ridicarea unui bloc cu zece etaje și parcaje subterane pe strada Ion Bradu.</description>
+    </item>
     <item>
       <title>Sărbătorirea Zilei Armatei României în Oradea</title>
       <link>https://izz.ro/local/sarbatorirea-zilei-armatei-romaniei-in-oradea/</link>
@@ -448,14 +458,5 @@
       <category>local</category>
       <source url="https://www.bihon.ro/stirile-judetului-bihor/interventie-complexa-la-oradea-pentru-calmarea-durerilor-unui-pacient-cu-cancer-pulmonar-avansat-5432229/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
       <description>Medicii orădeni au efectuat o procedură avansată numită cordotomie percutană, distrugând controlat prin radiofrecvență căile nervoase din măduva spinării pentru a reduce durerile severe cauzate de cancerul pulmonar.</description>
-    </item>
-    <item>
-      <title>Oradea găzduiește conferința Networking &amp; Innovation Night despre startup-uri</title>
-      <link>https://izz.ro/local/oradea-gazduieste-conferinta-networking-innovation-night-despre-startup-uri/</link>
-      <guid>https://izz.ro/local/oradea-gazduieste-conferinta-networking-innovation-night-despre-startup-uri/</guid>
-      <pubDate>Wed, 14 Oct 2026 04:43:55 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.bihon.ro/stirile-judetului-bihor/talente-startup-uri-si-finantari-in-dezbatere-la-oradea-la-networking-innovation-night-5432175/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
-      <description>Parcul Științific și Tehnologic Bihor organizează o întâlnire dedicată dezvoltării antreprenoriale, axată pe atragerea talentelor, achiziții verzi și oportunități de finanțare nerambursabilă pentru afaceri.</description>
     </item>
 </channel></rss>

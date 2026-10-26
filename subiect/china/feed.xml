@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/china/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre China pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 01:27:17 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 06:38:03 +0000</lastBuildDate>
+    <item>
+      <title>Economia Chinei se confruntă cu riscul unei stagnări de tip japonez</title>
+      <link>https://izz.ro/economic/economia-chinei-se-confrunta-cu-riscul-unei-stagnari-de-tip-japonez/</link>
+      <guid>https://izz.ro/economic/economia-chinei-se-confrunta-cu-riscul-unei-stagnari-de-tip-japonez/</guid>
+      <pubDate>Mon, 26 Oct 2026 05:00:30 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.digi24.ro/stiri/externe/de-ce-cosmarul-chinei-este-sa-devina-noua-japonie-fenomenul-care-ar-putea-pune-capat-ambitiilor-lui-xi-jinping-in-cursa-contra-sua-4003425">Digi24 Extern</source>
+      <media:content url="https://izz.ro/economic/economia-chinei-se-confrunta-cu-riscul-unei-stagnari-de-tip-japonez/cover.jpg?v=041768cb" medium="image" type="image/jpeg"/>
+      <description>Declinul economic declanșat în anul 2022 seamănă izbitor cu perioada de criză prin care a trecut Japonia, amenințând planurile geopolitice ale Beijingului în competiția comercială cu SUA.</description>
+    </item>
     <item>
       <title>Diferențe uriașe de costuri și productivitate la fabricile Volkswagen</title>
       <link>https://izz.ro/economic/diferente-uriase-de-costuri-si-productivitate-la-fabricile-volkswagen/</link>
@@ -93,7 +103,6 @@
       <pubDate>Sat, 24 Oct 2026 13:36:48 +0000</pubDate>
       <category>extern</category>
       <source url="https://focuspress.ro/taifunul-champi-in-taiwan-56-000-de-gospodarii-fara-curent-electric-un-mort-si-mii-de-evacuati-fbaa6574b/">FocusPress</source>
-      <media:content url="https://izz.ro/extern/taifunul-champi-a-lasat-mii-de-gospodarii-fara-curent-si-a-provocat-evacuari-in/cover.jpg?v=acab4d70" medium="image" type="image/jpeg"/>
       <description>Furtuna puternică a afectat zeci de mii de locuințe, a determinat evacuarea a peste 5.000 de oameni și a generat inundații în Taiwan, înainte de a se deplasa spre China și Japonia.</description>
     </item>
     <item>
@@ -455,14 +464,5 @@
       <category>auto</category>
       <source url="https://www.automarket.ro/stiri/bmw-demareaza-productia-noii-generatii-de-baterii-in-china-129113.html">AutoMarket</source>
       <description>Uzina din Shenyang a demarat fabricarea acumulatorilor Gen6 destinați vehiculelor electrice BMW și Mini, promițând autonomie extinsă și timpi de încărcare redusi pentru clienți.</description>
-    </item>
-    <item>
-      <title>Inginerii chinezi au dezvoltat un robot umanoid gigant hidraulic</title>
-      <link>https://izz.ro/tech/inginerii-chinezi-au-dezvoltat-un-robot-umanoid-gigant-hidraulic/</link>
-      <guid>https://izz.ro/tech/inginerii-chinezi-au-dezvoltat-un-robot-umanoid-gigant-hidraulic/</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://piataauto.md/Stiri/2026/10/O-echipa-de-ingineri-chinezi-a-creat-un-robot-umanoid-gigant-cu-propulsie-hidraulica-capabil-sa-ridice-sute-de-kilograme/">Piata Auto MD</source>
-      <description>O echipă de ingineri din China a proiectat un robot umanoid de dimensiuni uriașe, acționat hidraulic, care poate ridica sarcini de sute de kilograme, marcând o nouă etapă în evoluția robotică avansată.</description>
     </item>
 </channel></rss>
