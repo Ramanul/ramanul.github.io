@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/eurostat/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Eurostat pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 13:35:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 19:05:59 +0000</lastBuildDate>
     <item>
       <title>România plătește miliarde de euro pentru plasticul nereciclat</title>
       <link>https://izz.ro/economic/romania-plateste-aproape-un-miliard-de-euro-pentru-plasticul-nereciclat/</link>
@@ -13,7 +13,6 @@
       <pubDate>Mon, 26 Oct 2026 13:06:00 +0000</pubDate>
       <category>economic</category>
       <source url="https://spotmedia.ro/stiri/economie/inca-o-nota-de-plata-pentru-romania-aproape-1-miliard-de-euro-pentru-plasticul-nereciclat">Spotmedia, Economedia</source>
-      <media:content url="https://izz.ro/economic/romania-plateste-aproape-un-miliard-de-euro-pentru-plasticul-nereciclat/cover.jpg?v=e766e402" medium="image" type="image/jpeg"/>
       <description>Plasticul care nu este reciclat generează un cost pentru mediu și pentru bugetul național. Datele Eurostat din 2024 arată că în Uniunea Europeană s-au generat 35,9 kg de deșeuri de ambalaje din plastic pe locuitor, din care 15,3 kg au fost reciclate. Contribuțiile achitate de România pentru plasticul nereciclat în perioada 2021-2025 însumează 5.055.420.257 lei, reprezentând aproape un miliard de euro. Rata medie de reciclare în Uniunea Europeană a ajuns la 42,4%, conform unei opinii realizate de experți Deloitte România.</description>
     </item>
     <item>
@@ -71,15 +70,6 @@
       <description>Partidul Național Liberal a acuzat Partidul Social Democrat de dezinformare și falsificarea semnificației datelor Eurostat referitoare la deficitul bugetar al României. PNL susține că deficitul pe primele șase luni a fost de 2% din PIB, în timp ce Ministerul Finanțelor a precizat că România a înregistrat o scădere a deficitului, deși acesta rămâne ridicat comparativ cu media Uniunii Europene.</description>
     </item>
     <item>
-      <title>Ministerul Finanțelor detaliază evoluția deficitului bugetar pe baza datelor Eurostat</title>
-      <link>https://izz.ro/economic/ministerul-finantelor-detaliaza-evolutia-deficitului-bugetar-pe-baza-datelor/</link>
-      <guid>https://izz.ro/economic/ministerul-finantelor-detaliaza-evolutia-deficitului-bugetar-pe-baza-datelor/</guid>
-      <pubDate>Thu, 22 Oct 2026 17:49:25 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.economica.net/ministerul-finantelor-explica-cu-cat-a-scazut-de-fapt-deficitul-bugetar-ultimele-date-eurostat-confirma_988477.html">Economica</source>
-      <description>Instituția explică indicatorul de 9,2% din PIB aferent trimestrului II din 2026, calculat de statisticienii europeni și naționali prin raportare la datele ajustate sezonier.</description>
-    </item>
-    <item>
       <title>PSD critică măsurile economice luate de Guvernul Bolojan</title>
       <link>https://izz.ro/politic/psd-critica-masurile-economice-luate-de-guvernul-bolojan/</link>
       <guid>https://izz.ro/politic/psd-critica-masurile-economice-luate-de-guvernul-bolojan/</guid>
@@ -114,5 +104,14 @@
       <category>economic</category>
       <source url="https://www.profit.ro/perspective/familia-numeroasa-un-cost-ascuns-pentru-cariera-mamelor-de-ce-este-romania-pe-ultimul-loc-in-uniunea-europeana-22862484?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Datele Eurostat arată că doar 32,8% dintre mamele românce cu cel puțin trei copii lucrează, plasând țara pe ultimul loc în Uniunea Europeană, mult sub media comunitară.</description>
+    </item>
+    <item>
+      <title>Regiunile din România cu cele mai ridicate rate ale tinerilor NEET din Uniunea Europeană</title>
+      <link>https://izz.ro/economic/regiunile-din-romania-cu-cele-mai-ridicate-rate-ale-tinerilor-neet-din-uniunea/</link>
+      <guid>https://izz.ro/economic/regiunile-din-romania-cu-cele-mai-ridicate-rate-ale-tinerilor-neet-din-uniunea/</guid>
+      <pubDate>Fri, 16 Oct 2026 21:05:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/profesii/romania-are-doua-dintre-regiunile-cu-cei-mai-multi-tineri-neet-din-ue-unde-sunt-cei-mai-multi-tineri-romani-care-nu-muncesc-si-nici-nu-studiaza-23260973">Ziarul Financiar</source>
+      <description>Datele Eurostat arată că zonele Sud-Vest Oltenia și Sud-Est au înregistrat în 2025 unele dintre cele mai mari procente de tineri care nu lucrează și nu urmează nicio formă de educație din blocul comunitar.</description>
     </item>
 </channel></rss>

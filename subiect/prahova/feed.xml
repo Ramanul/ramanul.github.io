@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/prahova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Prahova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 13:35:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 19:05:58 +0000</lastBuildDate>
+    <item>
+      <title>Incendiu puternic la o locuință din comuna Păulești</title>
+      <link>https://izz.ro/local/incendiu-puternic-la-o-locuinta-din-comuna-paulesti/</link>
+      <guid>https://izz.ro/local/incendiu-puternic-la-o-locuinta-din-comuna-paulesti/</guid>
+      <pubDate>Tue, 27 Oct 2026 16:40:43 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.observatorulph.ro/eveniment/2802117-incendiu-puternic-la-o-casa-din-paulesti-doua-persoane-au-avut-nevoie-de-ajutor">Observatorul Prahovean</source>
+      <media:content url="https://izz.ro/local/incendiu-puternic-la-o-locuinta-din-comuna-paulesti/cover.jpg?v=c3a59bb0" medium="image" type="image/jpeg"/>
+      <description>Un incendiu a cuprins o casă și o anexă din județul Prahova pe o suprafață de circa 140 de metri pătrați. Două persoane au primit îngrijiri medicale la fața locului după ce au suferit atacuri de panică.</description>
+    </item>
     <item>
       <title>Un bărbat din Prahova a ridicat premiul de peste 3,32 milioane de euro la Loto 6/49</title>
       <link>https://izz.ro/judetean/un-barbat-din-prahova-a-ridicat-premiul-de-peste-332-milioane-de-euro-la-loto-6/</link>
@@ -13,7 +23,6 @@
       <pubDate>Mon, 26 Oct 2026 13:20:49 +0000</pubDate>
       <category>judetean</category>
       <source url="https://www.monitoruldegalati.ro/national/am-perseverat-si-am-sperat-ca-voi-castiga-cine-este-norocosul-care-a-ridicat-premiul-de-332-milioane-de-euro-la-loto-6-49.html">Monitorul de Galați, Ziua de Cluj</source>
-      <media:content url="https://izz.ro/judetean/un-barbat-din-prahova-a-ridicat-premiul-de-peste-332-milioane-de-euro-la-loto-6/cover.jpg?v=266f2f66" medium="image" type="image/jpeg"/>
       <description>Un participant la Loto 6/49 a revendicat la sediul central al Loteriei Române premiul de categoria I în valoare de 17.760.754,40 de lei. Biletul norocos a costat 24,50 de lei, a fost jucat online prin intermediul unei aplicații mobile și a constat în trei variante simple. Câștigătorul este un bărbat din județul Prahova, are în jur de 50 de ani și joacă la loto de mai bine de două decenii. Acesta a transmis un mesaj de încurajare celorlalți participanți și a ales să își păstreze anonimatul.</description>
     </item>
     <item>
@@ -23,7 +32,6 @@
       <pubDate>Mon, 26 Oct 2026 12:33:02 +0000</pubDate>
       <category>judetean</category>
       <source url="https://www.observatorulph.ro/eveniment/2801999-lucrarile-urgente-de-la-paltinu-amanate-pana-in-2029-peste-100-000-de-prahoveni-risca-sa-ramana-din-nou-fara-apa">Observatorul Prahovean</source>
-      <media:content url="https://izz.ro/judetean/lucrarile-urgente-la-barajul-paltinu-au-fost-amanate-punand-in-pericol/cover.jpg?v=4ce8bd30" medium="image" type="image/jpeg"/>
       <description>Fostul prefect Daniel Nicodim avertizează că amânarea până în 2029 a intervențiilor la golirea de fund a Barajului Paltinu menține riscul unei crize majore pentru peste 100.000 de locuitori din Prahova.</description>
     </item>
     <item>
@@ -232,14 +240,5 @@
       <category>judetean</category>
       <source url="https://adevarul.ro/stiri-interne/evenimente/femeie-disparuta-dintr-un-centru-de-ingrijire-2564814.html">Adevărul</source>
       <description>Echipele de căutare din județul Prahova au încheiat operațiunea tragic duminică după-amiază, după ce au descoperit trupul neînsuflețit al femeii pe munte.</description>
-    </item>
-    <item>
-      <title>Auchan România și Habitat for Humanity lansează proiectul umanitar Căsuțe pentru căsuțe la Brașov</title>
-      <link>https://izz.ro/local/auchan-romania-si-habitat-for-humanity-lanseaza-proiectul-umanitar-casute/</link>
-      <guid>https://izz.ro/local/auchan-romania-si-habitat-for-humanity-lanseaza-proiectul-umanitar-casute/</guid>
-      <pubDate>Fri, 16 Oct 2026 13:51:43 +0000</pubDate>
-      <category>local</category>
-      <source url="https://mytex.ro/expres/descopera-casute-pentru-casute-in-magazinul-atac-brasov-proiectul-care-transforma-solidaritatea-in-acasa-pentru-10-familii-vulnerabile/">MyTex</source>
-      <description>Clienții magazinului ATAC din Brașov pot achiziționa căsuțe de jucărie pentru a sprijini construcția a zece locuințe destinate unor familii vulnerabile din județele Bacău și Prahova.</description>
     </item>
 </channel></rss>

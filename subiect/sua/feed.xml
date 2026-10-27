@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/sua/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SUA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 13:35:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 19:05:58 +0000</lastBuildDate>
+    <item>
+      <title>Germania suferă din cauza investițiilor reduse în cercetarea high-tech</title>
+      <link>https://izz.ro/economic/germania-sufera-din-cauza-investitiilor-reduse-in-cercetarea-high-tech/</link>
+      <guid>https://izz.ro/economic/germania-sufera-din-cauza-investitiilor-reduse-in-cercetarea-high-tech/</guid>
+      <pubDate>Tue, 27 Oct 2026 17:56:59 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/institutul-ifo-nivelul-redus-de-cercetare-high-tech-lasa-germania-fara-oportunitati-de-crestere-economica-diferenta-drastica-fata-de-sua-si-franta.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/economic/germania-sufera-din-cauza-investitiilor-reduse-in-cercetarea-high-tech/cover.jpg?v=8299524f" medium="image" type="image/jpeg"/>
+      <description>Un studiu al Institutului ifo arată că economia germană alocă doar 20% din fondurile industriale pentru sectoarele avansate, pierzând teren important în fața Statelor Unite și Franței.</description>
+    </item>
     <item>
       <title>Premieră chirurgicală în SUA: un medic a realizat o operație robotică de la 56 de kilometri distanță</title>
       <link>https://izz.ro/general/premiera-chirurgicala-in-sua-un-medic-a-realizat-o-operatie-robotica-de-la-56/</link>
@@ -73,7 +83,6 @@
       <pubDate>Mon, 26 Oct 2026 12:20:48 +0000</pubDate>
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/kremlin-sua-dictat-conditii-pace-ucraina-negocieri-includere-europa-active-rusesti.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/extern/kremlinul-cere-implicarea-europei-in-negocierile-de-pace-din-ucraina/cover.jpg?v=14769115" medium="image" type="image/jpeg"/>
       <description>Oficialii ruși recunosc că Statele Unite nu au reușit să impună Kievului condițiile Moscovei pentru un armistițiu și solicită extinderea discuțiilor de pace prin includerea statelor europene.</description>
     </item>
     <item>
@@ -453,14 +462,5 @@
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/sua/agentia-despre-care-pentagonul-nu-vorbeste-ce-2565893.html">Adevărul</source>
       <description>Autoritățile americane au creat o agenție specializată în subminarea programelor tehnologice dezvoltate de rivalii SUA. Absența transparenței privind această structură stârnește numeroase îngrijorări legate de supravegherea activităților sale.</description>
-    </item>
-    <item>
-      <title>Ucraina a fost atacată cu rachete rusești după anunțul privind negocierile de pace</title>
-      <link>https://izz.ro/extern/ucraina-a-fost-atacata-cu-rachete-rusesti-dupa-anuntul-privind-negocierile-de/</link>
-      <guid>https://izz.ro/extern/ucraina-a-fost-atacata-cu-rachete-rusesti-dupa-anuntul-privind-negocierile-de/</guid>
-      <pubDate>Thu, 22 Oct 2026 17:49:13 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.bbc.co.uk/news/videos/c9146p1vx888o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <description>Mai multe valuri de rachete au lovit teritoriul ucrainean la scurt timp după ce Moscova declarase că acceptă reluarea discuțiilor diplomatice cu SUA și Ucraina.</description>
     </item>
 </channel></rss>

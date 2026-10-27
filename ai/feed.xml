@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 13:35:29 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 19:06:09 +0000</lastBuildDate>
+    <item>
+      <title>Anthropic avertizează în prospectul de listare bursieră despre riscurile majore ale AI</title>
+      <link>https://izz.ro/ai/anthropic-avertizeaza-in-prospectul-de-listare-bursiera-despre-riscurile-majore/</link>
+      <guid>https://izz.ro/ai/anthropic-avertizeaza-in-prospectul-de-listare-bursiera-despre-riscurile-majore/</guid>
+      <pubDate>Tue, 27 Oct 2026 16:57:55 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://cursdeguvernare.ro/prospectul-de-listare-a-anthropic-contine-peste-90-de-pagini-cu-factorii-de-risc.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/ai/anthropic-avertizeaza-in-prospectul-de-listare-bursiera-despre-riscurile-majore/cover.jpg?v=500b36e1" medium="image" type="image/jpeg"/>
+      <description>Documentele pentru listarea la bursă a companiei Anthropic subliniază că un incident catastrofal provocat de propria tehnologie inteligență artificială ar genera pagube financiare greu de acoperit de companiile de asigurări.</description>
+    </item>
     <item>
       <title>Un guvern din Uniunea Europeană interzice accesul la ChatGPT și Claude pe computerele de serviciu</title>
       <link>https://izz.ro/ai/un-guvern-din-uniunea-europeana-interzice-accesul-la-chatgpt-si-claude-pe/</link>
@@ -93,7 +103,7 @@
       <pubDate>Mon, 26 Oct 2026 14:18:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.antena3.ro/high-tech/openai-construieste-o-noua-casa-pentru-ai-sam-altman-vrea-ca-noul-dispozitiv-hardware-sa-inlocuiasca-telefonul-si-laptopul-808707.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/ai/openai-dezvolta-un-dispozitiv-hardware-menit-sa-inlocuiasca-telefoanele/cover.jpg?v=aa138ea7" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/openai-dezvolta-un-dispozitiv-hardware-menit-sa-inlocuiasca-telefoanele/cover.jpg?v=8521c3c6" medium="image" type="image/jpeg"/>
       <description>Compania lucrează la crearea unei noi categorii de echipamente fizice integrate cu inteligență artificială, concepute să preia funcțiile principale ale smartphone-urilor și laptopurilor actuale.</description>
     </item>
     <item>
@@ -455,14 +465,5 @@
       <category>ai</category>
       <source url="https://www.antena3.ro/life/stiinta/universul-pare-sa-fie-blocat-in-loc-de-un-fenomen-cuantic-ceea-ce-ar-explica-stabilitatea-sa-807927.html">Antena 3 CNN</source>
       <description>Oamenii de știință explică faptul că universul nostru rămâne stabil și favorabil vieții deoarece anumite câmpuri cuantice au rămas blocate în starea lor actuală.</description>
-    </item>
-    <item>
-      <title>Spotify refuză etichetarea obligatorie pentru piesele generate de inteligența artificială</title>
-      <link>https://izz.ro/ai/spotify-refuza-etichetarea-obligatorie-pentru-piesele-generate-de-inteligenta/</link>
-      <guid>https://izz.ro/ai/spotify-refuza-etichetarea-obligatorie-pentru-piesele-generate-de-inteligenta/</guid>
-      <pubDate>Tue, 20 Oct 2026 18:25:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.profit.ro/profitul-tau/entertainment/cea-mai-mare-platforma-de-streaming-audio-spotify-nu-vrea-etichete-obligatorii-pentru-muzica-creata-cu-ai-dar-va-recomanda-mai-putina-muzica-22864585?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Cea mai mare platformă de streaming audio nu va impune etichete specifice pentru muzica AI, dar intenționează să limiteze recomandările acestor melodii pentru utilizatorii care preferă conținutul tradițional.</description>
     </item>
 </channel></rss>
