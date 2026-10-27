@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Franta — IZZ.ro</title>
+  <title>Franța — IZZ.ro</title>
   <link>https://izz.ro/subiect/franta/</link>
   <atom:link href="https://izz.ro/subiect/franta/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Franta pe IZZ.ro</description>
+  <description>Știri despre Franța pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 00:45:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+    <item>
+      <title>Proteste de amploare în Franța din cauza costului vieții</title>
+      <link>https://izz.ro/extern/proteste-de-amploare-in-franta-din-cauza-costului-vietii/</link>
+      <guid>https://izz.ro/extern/proteste-de-amploare-in-franta-din-cauza-costului-vietii/</guid>
+      <pubDate>Tue, 27 Oct 2026 06:00:49 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.magazinsalajean.ro/editorial/franta-intre-admiratie-si-neliniste">Magazin Sălăjean</source>
+      <media:content url="https://izz.ro/extern/proteste-de-amploare-in-franta-din-cauza-costului-vietii/cover.jpg?v=f578bb8f" medium="image" type="image/jpeg"/>
+      <description>Sute de mii de cetățeni francezi au ieșit în stradă pentru a protesta față de nivelul ridicat al costului vieții, problemele din educație și managementul guvernamental actual.</description>
+    </item>
     <item>
       <title>Trei rețete tradiționale de supe franțuzești ideale pentru sezonul de toamnă</title>
       <link>https://izz.ro/lifestyle/trei-retete-traditionale-de-supe-frantuzesti-ideale-pentru-sezonul-de-toamna/</link>
@@ -113,7 +123,6 @@
       <pubDate>Sun, 25 Oct 2026 19:57:40 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.theguardian.com/world/2026/oct/25/macrons-vandals-pay-bill-puts-right-to-protest-at-risk">The Guardian</source>
-      <media:content url="https://izz.ro/extern/sindicatele-franceze-il-acuza-pe-macron-ca-limiteaza-dreptul-la-protest/cover.jpg?v=7d48793e" medium="image" type="image/jpeg"/>
       <description>Un nou proiect de lege urmărește ca manifestanții să plătească pentru pagubele produse în timpul protestelor de stradă. Sindicatele susțin că această măsură amenință statul de drept și avantajează extrema dreaptă.</description>
     </item>
     <item>
@@ -123,7 +132,6 @@
       <pubDate>Sun, 25 Oct 2026 18:57:05 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.politico.eu/article/marine-le-pen-casts-herself-as-frances-protector-as-country-faces-mounting-troubles/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <media:content url="https://izz.ro/politic/marine-le-pen-si-a-lansat-campania-prezidentiala-la-orleans/cover.jpg?v=153418fe" medium="image" type="image/jpeg"/>
       <description>Liderul de extremă-dreapta Marine Le Pen s-a poziționat drept apărătoarea Franței în primul său miting electoral pentru alegerile prezidențiale din 2027, promițând stabilitate și măsuri împotriva crizei financiare și a tensiunilor sociale.</description>
     </item>
     <item>
@@ -458,14 +466,5 @@
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/eveniment/franta-interzice-protestele-care-nu-sunt-organizate-de-sindicate-macron-scoate-militarii-si-blindatele-in-strada">Spotmedia</source>
       <description>Președintele Emmanuel Macron a impus restricții drastice asupra manifestațiilor publice, permițând doar mitingurile sindicale pe trasee fixe, după valul de violențe și jafuri care a afectat recent mai multe orașe franceze.</description>
-    </item>
-    <item>
-      <title>Dezbatere publică privind criza și protestele violente din Franța</title>
-      <link>https://izz.ro/extern/dezbatere-publica-privind-criza-si-protestele-violente-din-franta/</link>
-      <guid>https://izz.ro/extern/dezbatere-publica-privind-criza-si-protestele-violente-din-franta/</guid>
-      <pubDate>Thu, 22 Oct 2026 16:54:48 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/live/2026/oct/21/france-riots-protests-reader-questions-rokhaya-dallio-alexander-hurst">The Guardian</source>
-      <description>Jurnaliștii publicației The Guardian organizează o sesiune de întrebări și răspunsuri cu cititorii pentru a analiza consecințele sociale și politice ale protestelor masive și distrugerilor din Franța.</description>
     </item>
 </channel></rss>

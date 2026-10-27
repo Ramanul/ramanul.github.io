@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/serie-a/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Serie A pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 00:45:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+    <item>
+      <title>Meciul Venezia-Inter din Serie A se vede pe DAZN și Sky</title>
+      <link>https://izz.ro/sport/meciul-venezia-inter-din-serie-a-se-vede-pe-dazn-si-sky/</link>
+      <guid>https://izz.ro/sport/meciul-venezia-inter-din-serie-a-se-vede-pe-dazn-si-sky/</guid>
+      <pubDate>Tue, 27 Oct 2026 05:00:23 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/partite/dove-vedere-le-partite/mercoledi-venezia-inter-orario-dove-vedere-sky-dazn-chiaro-tv/">FC Inter 1908</source>
+      <media:content url="https://izz.ro/sport/meciul-venezia-inter-din-serie-a-se-vede-pe-dazn-si-sky/cover.jpg?v=8954b210" medium="image" type="image/jpeg"/>
+      <description>Partida dintre Venezia și Inter, contând pentru a noua etapă din campionatul italian, va fi difuzată în direct pe platforma DAZN și pe canalele Sky în data de 28 octombrie.</description>
+    </item>
     <item>
       <title>Adriano Galliani este propus la conducerea Federației Italiene de Fotbal</title>
       <link>https://izz.ro/sport/adriano-galliani-este-propus-la-conducerea-federatiei-italiene-de-fotbal/</link>
@@ -131,14 +141,5 @@
       <category>sport</category>
       <source url="https://www.fcinter1908.it/ultimora/brocchi-inter-la-rosa-fara-la-differenza-i-numeri-dimostrano-che-chivu/">FC Inter 1908</source>
       <description>Fostul fotbalist Cristian Brocchi a oferit o analiză detaliată despre strategia echipelor din campionatul italian, evidențiind schimbările tactice operate de tehnicieni înaintea următoarelor etape.</description>
-    </item>
-    <item>
-      <title>Meciul Bologna - Inter din Serie A va fi transmis în exclusivitate pe DAZN</title>
-      <link>https://izz.ro/sport/meciul-bologna-inter-din-serie-a-va-fi-transmis-in-exclusivitate-pe-dazn/</link>
-      <guid>https://izz.ro/sport/meciul-bologna-inter-din-serie-a-va-fi-transmis-in-exclusivitate-pe-dazn/</guid>
-      <pubDate>Thu, 15 Oct 2026 13:15:04 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.fcinter1908.it/partite/dove-vedere-le-partite/seriea-bologna-inter-sabato-orario-sky-dazn-chiaro-tv/">FC Inter 1908</source>
-      <description>Partida dintre Bologna și Inter, contând pentru a șaptea etapă a campionatului italian de fotbal, se va disputa sâmbătă, 17 octombrie, și va putea fi urmărită exclusiv prin intermediul platformei DAZN.</description>
     </item>
 </channel></rss>

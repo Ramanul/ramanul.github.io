@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/mapn/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre MApN pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 14:52:05 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+    <item>
+      <title>România a primit mai multe avioane F-16 din Norvegia</title>
+      <link>https://izz.ro/politic/romania-a-primit-mai-multe-avioane-f-16-din-norvegia/</link>
+      <guid>https://izz.ro/politic/romania-a-primit-mai-multe-avioane-f-16-din-norvegia/</guid>
+      <pubDate>Tue, 27 Oct 2026 05:11:48 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://hotnews.ro/surpriza-din-contractul-semnat-de-romania-pentru-32-de-avioane-f-16-din-norvegia-care-s-au-facut-35-2381266">HotNews</source>
+      <media:content url="https://izz.ro/politic/romania-a-primit-mai-multe-avioane-f-16-din-norvegia/cover.jpg?v=3fca048a" medium="image" type="image/jpeg"/>
+      <description>Ministerul Apărării a confirmat că România a primit suplimentar mai multe aeronave F-16 de la Norvegia, depășind numărul inițial de 32 de unități achiziționate în 2022 drept compensație pentru întârzieri.</description>
+    </item>
     <item>
       <title>MApN ar putea prelua integral finanțarea centrelor militare din țară</title>
       <link>https://izz.ro/politic/mapn-ar-putea-prelua-integral-finantarea-centrelor-militare-din-tara/</link>
@@ -23,7 +33,6 @@
       <pubDate>Sun, 25 Oct 2026 19:12:53 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.dobrogeaonline.ro/mapn-avertizeaza-ca-postarile-despre-o-alerta-nationala-semnata-de-seful-armatei-induc-in-eroare/">Dobrogea Online</source>
-      <media:content url="https://izz.ro/politic/mapn-califica-drept-false-postarile-despre-o-alerta-nationala-semnata-de-seful/cover.jpg?v=903596a0" medium="image" type="image/jpeg"/>
       <description>Ministerul Apărării Naționale a precizat că mesajele distribuite pe rețelele de socializare privind o presupusă alertă militară sunt înșelătoare, bazându-se pe declarații mai vechi scoase din context.</description>
     </item>
     <item>
@@ -33,7 +42,6 @@
       <pubDate>Sun, 25 Oct 2026 15:26:29 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.zf.ro/eveniment/mapn-avertizeaza-asupra-unor-postari-alarmiste-de-pe-facebook-23267597">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/politic/mapn-avertizeaza-asupra-unor-dezinformari-distribuite-pe-reteaua-facebook/cover.jpg?v=1c07f6ce" medium="image" type="image/jpeg"/>
       <description>Ministerul Apărării Naționale a emis un comunicat prin care atrage atenția că pe platforma Facebook circulă mesaje alarmiste care folosesc declarații scoase din context ale șefului Statului Major al Apărării, generalul Gheorghiță Vlad.</description>
     </item>
     <item>
@@ -43,7 +51,6 @@
       <pubDate>Sun, 25 Oct 2026 14:38:41 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.observatorulph.ro/national/2801916-alerta-nationala-atribuita-sefului-armatei-romane-dezmintita-de-mapn-ce-se-intampla-pe-facebook">Observatorul Prahovean, Adevărul, Timiș Online</source>
-      <media:content url="https://izz.ro/politic/mapn-dezminte-o-alerta-nationala-falsa-atribuita-sefului-armatei-romane/cover.jpg?v=93c9001a" medium="image" type="image/jpeg"/>
       <description>Ministerul Apărării Naționale a emis un avertisment referitor la postări de pe Facebook care prezintă declarații mai vechi ale șefului Statului Major ca informații recente de securitate. Instituția a precizat că generalul Gheorghiță Vlad nu a emis nicio alertă națională.</description>
     </item>
     <item>
@@ -108,23 +115,5 @@
       <category>local</category>
       <source url="https://gazetadecluj.ro/locuri-rezervate-pentru-mai-mapn-sri-si-sts-la-universitatile-din-bucuresti-si-iasi/">Gazeta de Cluj</source>
       <description>Analiza repartizării locurilor destinate MAI, MApN, SRI și STS în șase universități de stat din țară arată o distribuție inegală și diferențe semnificative ale gradului de ocupare instituțională.</description>
-    </item>
-    <item>
-      <title>Radarele MApN au detectat ținte aeriene în apropierea Mării Negre</title>
-      <link>https://izz.ro/general/radarele-mapn-au-detectat-tinte-aeriene-in-apropierea-marii-negre/</link>
-      <guid>https://izz.ro/general/radarele-mapn-au-detectat-tinte-aeriene-in-apropierea-marii-negre/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:41:19 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.g4media.ro/ministerul-apararii-nationale-sistemul-de-supraveghere-radar-a-detectat-un-grup-de-tinte-aeriene-in-largul-marii-negre-tinta-a-fost-distrusa-de-apararea-aeriana-ucraineana-in-zona-localitatii-reni.html">G4Media</source>
-      <description>Sistemele de supraveghere ale armatei române au interceptat mai multe ținte deasupra Mării Negre. Două avioane militare spaniole F-18 au fost ridicate de la Baza Mihail Kogălniceanu, în timp ce o rachetă a fost neutralizată în Ucraina.</description>
-    </item>
-    <item>
-      <title>Al patrulea mesaj RO-ALERT emis în Tulcea din cauza dronelor</title>
-      <link>https://izz.ro/local/al-patrulea-mesaj-ro-alert-emis-in-tulcea-din-cauza-dronelor/</link>
-      <guid>https://izz.ro/local/al-patrulea-mesaj-ro-alert-emis-in-tulcea-din-cauza-dronelor/</guid>
-      <pubDate>Wed, 14 Oct 2026 18:25:24 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.digi24.ro/stiri/doua-avioane-f-16-au-fost-ridicate-in-aceasta-seara-dupa-ce-sistemul-radar-a-detectat-o-noua-tinta-in-apropierea-insulei-serpilor-3992577">Digi24</source>
-      <description>Locuitorii din nordul județului Tulcea au primit patru avertizări RO-ALERT consecutive privind posibile incursiuni de drone rusești, determinând Ministerul Apărării să ridice două avioane F-16 pentru monitorizare.</description>
     </item>
 </channel></rss>

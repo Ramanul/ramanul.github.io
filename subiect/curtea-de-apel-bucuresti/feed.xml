@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Curtea de Apel București — IZZ.ro</title>
+  <title>Curtea de Apel Bucureşti — IZZ.ro</title>
   <link>https://izz.ro/subiect/curtea-de-apel-bucuresti/</link>
   <atom:link href="https://izz.ro/subiect/curtea-de-apel-bucuresti/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Curtea de Apel București pe IZZ.ro</description>
+  <description>Știri despre Curtea de Apel Bucureşti pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 00:45:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+    <item>
+      <title>Curtea de Apel judecă dosarul lui Călin Georgescu și Horațiu Potra</title>
+      <link>https://izz.ro/politic/curtea-de-apel-judeca-dosarul-lui-calin-georgescu-si-horatiu-potra/</link>
+      <guid>https://izz.ro/politic/curtea-de-apel-judeca-dosarul-lui-calin-georgescu-si-horatiu-potra/</guid>
+      <pubDate>Tue, 27 Oct 2026 05:18:59 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/stiri-interne/evenimente/un-nou-termen-in-dosarul-lui-calin-georgescu-si-2566760.html">Adevărul</source>
+      <media:content url="https://izz.ro/politic/curtea-de-apel-judeca-dosarul-lui-calin-georgescu-si-horatiu-potra/cover.jpg?v=59457852" medium="image" type="image/jpeg"/>
+      <description>Magistrații bucureșteni analizează acuzațiile de acțiuni îndreptate împotriva ordinii constituționale aduse lui Călin Georgescu, Horațiu Potra și altor inculpați.</description>
+    </item>
     <item>
       <title>Soția lui Călin Georgescu îl compară pe acesta cu sfinții închisorilor după o decizie a instanței</title>
       <link>https://izz.ro/politic/sotia-lui-calin-georgescu-il-compara-pe-acesta-cu-sfintii-inchisorilor-dupa-o/</link>
@@ -41,15 +51,6 @@
       <category>politic</category>
       <source url="https://jurnalulolteniei.ro/blocaj-in-procesul-lui-calin-georgescu-magistratii-in-divergenta/">Jurnalul Olteniei</source>
       <description>Judecătorii de la Curtea de Apel București nu au ajuns la un consens privind măsurile preventive, fiind necesară intervenția unui al treilea magistrat pentru a debloca situația procesuală.</description>
-    </item>
-    <item>
-      <title>Curtea de Apel decide dacă Călin Georgescu rămène în arest</title>
-      <link>https://izz.ro/politic/curtea-de-apel-decide-daca-calin-georgescu-ramene-in-arest/</link>
-      <guid>https://izz.ro/politic/curtea-de-apel-decide-daca-calin-georgescu-ramene-in-arest/</guid>
-      <pubDate>Fri, 23 Oct 2026 04:35:52 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.digi24.ro/stiri/actualitate/justitie/zi-decisiva-pentru-calin-georgescu-fostul-candidat-la-prezidentiale-afla-daca-scapa-de-arestul-preventiv-4005135">Digi24</source>
-      <description>Magistrații Curții de Apel București analizează contestația procurorilor împotriva măsurii preventive dispuse în dosarul de înșelăciune de 1,1 milioane de euro în care este vizat Călin Georgescu.</description>
     </item>
     <item>
       <title>Călin Georgescu rămâne definitiv în arest preventiv în dosarul de înșelăciune</title>
