@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 19:05:58 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 23:17:23 +0000</lastBuildDate>
     <item>
       <title>Un modder îmbunătățește performanța DLSS 5 folosind tehnica Foveated Rendering</title>
       <link>https://izz.ro/tech/un-modder-imbunatateste-performanta-dlss-5-folosind-tehnica-foveated-rendering/</link>
@@ -15,6 +15,16 @@
       <source url="https://www.connect.ro/2026/10/27/un-modder-a-facut-dlss-5-mult-mai-usor-de-rulat-gratie-tehnicii-de-foveated-rendering/">Connect.ro</source>
       <media:content url="https://izz.ro/tech/un-modder-imbunatateste-performanta-dlss-5-folosind-tehnica-foveated-rendering/cover.jpg?v=d66b1b9c" medium="image" type="image/jpeg"/>
       <description>Un nou mod neoficial destinat tehnologiei NVIDIA DLSS 5 integrează randarea foveată, metodă preluată din realitatea virtuală, crescând semnificativ rata cadrelor pe secundă și eficiența grafică.</description>
+    </item>
+    <item>
+      <title>MSI lansează portabilul 2-în-1 Prestige N16 Flip AI+ dotat cu NVIDIA RTX Spark</title>
+      <link>https://izz.ro/tech/msi-lanseaza-portabilul-2-in-1-prestige-n16-flip-ai-dotat-cu-nvidia-rtx-spark/</link>
+      <guid>https://izz.ro/tech/msi-lanseaza-portabilul-2-in-1-prestige-n16-flip-ai-dotat-cu-nvidia-rtx-spark/</guid>
+      <pubDate>Tue, 27 Oct 2026 09:33:38 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/msi-prestige-n16-flip-ai/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/msi-lanseaza-portabilul-2-in-1-prestige-n16-flip-ai-dotat-cu-nvidia-rtx-spark/cover.jpg?v=188c0115" medium="image" type="image/jpeg"/>
+      <description>Producătorul MSI a deschis precomenzile pentru noul laptop convertibil echipat cu tehnologie grafică NVIDIA și capabilități avansate de rulare locală a modelelor de inteligență artificială.</description>
     </item>
     <item>
       <title>Plăcile video NVIDIA RTX primesc un plus de performanță în inteligența artificială</title>

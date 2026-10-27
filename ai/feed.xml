@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 19:06:09 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 23:17:35 +0000</lastBuildDate>
     <item>
       <title>Anthropic avertizează în prospectul de listare bursieră despre riscurile majore ale AI</title>
       <link>https://izz.ro/ai/anthropic-avertizeaza-in-prospectul-de-listare-bursiera-despre-riscurile-majore/</link>
@@ -25,6 +25,16 @@
       <source url="https://monitorulneamt.ro/interzis-la-serviciu-pentru-angajatii-guvernului-tara-ue-care-blocheaza-chatgpt-si-claude/">Monitorul de Neamț</source>
       <media:content url="https://izz.ro/ai/un-guvern-din-uniunea-europeana-interzice-accesul-la-chatgpt-si-claude-pe/cover.jpg?v=cc3af992" medium="image" type="image/jpeg"/>
       <description>Autoritățile dintr-o țară UE au blocat utilizarea instrumentelor de inteligență artificială generativă pe dispozitivele oficiale ale funcționarilor publici, invocând necesitatea protejării informațiilor confidențiale.</description>
+    </item>
+    <item>
+      <title>Platforma juridică AI Jónsbók își extinde prezența europeană prin investiții</title>
+      <link>https://izz.ro/ai/platforma-juridica-ai-jonsbok-isi-extinde-prezenta-europeana-prin-investitii/</link>
+      <guid>https://izz.ro/ai/platforma-juridica-ai-jonsbok-isi-extinde-prezenta-europeana-prin-investitii/</guid>
+      <pubDate>Tue, 27 Oct 2026 08:42:15 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://start-up.ro/jonsbok-platforma-de-ai-pentru-avocati-isi-consolideaza-prezenta-in-romania-si-in-restul-europei-cu-sprijinul-investitorilor-internationali/">Start-up.ro</source>
+      <media:content url="https://izz.ro/ai/platforma-juridica-ai-jonsbok-isi-extinde-prezenta-europeana-prin-investitii/cover.jpg?v=8ad7b740" medium="image" type="image/jpeg"/>
+      <description>Compania islandeză dezvoltatoare de inteligență artificială destinată avocaților a obținut finanțare suplimentară de la fondurile Crowberry Capital și Leo Capital pentru extinderea pe piața europeană.</description>
     </item>
     <item>
       <title>Companiile de inteligență artificială din China au pierdut miliarde de dolari</title>
@@ -53,7 +63,7 @@
       <pubDate>Mon, 26 Oct 2026 22:07:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.zf.ro/burse-fonduri-mutuale/anthropic-google-ul-ai-vine-la-bursa-100-de-dolari-pusi-in-2004-la-listarea-google-valoreaza-azi-15-000-de-dolari-va-fi-la-fel-si-la-anthropic-23268524">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/ai/compania-de-inteligenta-artificiala-anthropic-se-pregateste-de-listare-la-bursa/cover.jpg?v=cef9815e" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/compania-de-inteligenta-artificiala-anthropic-se-pregateste-de-listare-la-bursa/cover.jpg?v=5ad52e4f" medium="image" type="image/jpeg"/>
       <description>Dezvoltatorul tehnologiei Claude, compania americană Anthropic, a publicat documentele oficiale pentru oferta publică inițială pe piața NASDAQ, fiind considerată una dintre cele mai importante listări din ultimii ani.</description>
     </item>
     <item>
@@ -83,7 +93,7 @@
       <pubDate>Mon, 26 Oct 2026 20:20:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.antena3.ro/externe/mapamond/nu-exista-exceptii-toate-bulele-se-sparg-inevitabil-in-china-companiile-de-inteligenta-artificiala-s-au-prabusit-dramatic-pe-bursa-808746.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/ai/actiunile-companiilor-chineze-de-inteligenta-artificiala-se-prabusesc-pe-bursa/cover.jpg?v=1d203500" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/ai/actiunile-companiilor-chineze-de-inteligenta-artificiala-se-prabusesc-pe-bursa/cover.jpg?v=f8d9a4a3" medium="image" type="image/jpeg"/>
       <description>Piața de capital din China înregistrează scăderi drastice în sectorul tehnologic, marcând spargerea bulei speculative generate anterior entuziasmului legat de soluțiile AI.</description>
     </item>
     <item>
@@ -93,7 +103,6 @@
       <pubDate>Mon, 26 Oct 2026 16:06:35 +0000</pubDate>
       <category>ai</category>
       <source url="https://cursdeguvernare.ro/1-din-2-elevi-foloseste-inteligenta-artificiala-pentru-rezolvarea-integrala-a-temelor.html">Curs de Guvernare, Spotmedia</source>
-      <media:content url="https://izz.ro/ai/un-studiu-edge-institute-arata-ca-cel-putin-jumatate-dintre-elevii-din-liceele/cover.jpg?v=80ebc460" medium="image" type="image/jpeg"/>
       <description>Un studiu realizat de Edge Institute arată că cel puțin jumătate dintre elevii de liceu folosesc inteligența artificială pentru rezolvarea integrală a temelor. Utilizarea tehnologiei fără verificare și pentru substituirea efortului intelectual amplifică riscul afectării gândirii critice în sistemul educațional.</description>
     </item>
     <item>
@@ -103,7 +112,6 @@
       <pubDate>Mon, 26 Oct 2026 14:18:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.antena3.ro/high-tech/openai-construieste-o-noua-casa-pentru-ai-sam-altman-vrea-ca-noul-dispozitiv-hardware-sa-inlocuiasca-telefonul-si-laptopul-808707.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/ai/openai-dezvolta-un-dispozitiv-hardware-menit-sa-inlocuiasca-telefoanele/cover.jpg?v=8521c3c6" medium="image" type="image/jpeg"/>
       <description>Compania lucrează la crearea unei noi categorii de echipamente fizice integrate cu inteligență artificială, concepute să preia funcțiile principale ale smartphone-urilor și laptopurilor actuale.</description>
     </item>
     <item>
@@ -456,14 +464,5 @@
       <category>ai</category>
       <source url="https://www.zf.ro/business-international/cum-germania-si-franta-incearca-sa-avanseze-in-cursa-ai-cu-ajutorul-gigantului-tech-american-nvidia-23264234">Ziarul Financiar</source>
       <description>Cancelarul Friedrich Merz și șeful companiei americane Nvidia au oficializat un parteneriat menit să introducă tehnologii AI avansate în mediul industrial german.</description>
-    </item>
-    <item>
-      <title>Stabilitatea Universului ar fi asigurată de un fenomen cuantic</title>
-      <link>https://izz.ro/ai/stabilitatea-universului-ar-fi-asigurata-de-un-fenomen-cuantic/</link>
-      <guid>https://izz.ro/ai/stabilitatea-universului-ar-fi-asigurata-de-un-fenomen-cuantic/</guid>
-      <pubDate>Tue, 20 Oct 2026 20:02:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.antena3.ro/life/stiinta/universul-pare-sa-fie-blocat-in-loc-de-un-fenomen-cuantic-ceea-ce-ar-explica-stabilitatea-sa-807927.html">Antena 3 CNN</source>
-      <description>Oamenii de știință explică faptul că universul nostru rămâne stabil și favorabil vieții deoarece anumite câmpuri cuantice au rămas blocate în starea lor actuală.</description>
     </item>
 </channel></rss>
