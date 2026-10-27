@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 06:35:38 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 13:35:29 +0000</lastBuildDate>
+    <item>
+      <title>Un guvern din Uniunea Europeană interzice accesul la ChatGPT și Claude pe computerele de serviciu</title>
+      <link>https://izz.ro/ai/un-guvern-din-uniunea-europeana-interzice-accesul-la-chatgpt-si-claude-pe/</link>
+      <guid>https://izz.ro/ai/un-guvern-din-uniunea-europeana-interzice-accesul-la-chatgpt-si-claude-pe/</guid>
+      <pubDate>Tue, 27 Oct 2026 11:30:02 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://monitorulneamt.ro/interzis-la-serviciu-pentru-angajatii-guvernului-tara-ue-care-blocheaza-chatgpt-si-claude/">Monitorul de Neamț</source>
+      <media:content url="https://izz.ro/ai/un-guvern-din-uniunea-europeana-interzice-accesul-la-chatgpt-si-claude-pe/cover.jpg?v=cc3af992" medium="image" type="image/jpeg"/>
+      <description>Autoritățile dintr-o țară UE au blocat utilizarea instrumentelor de inteligență artificială generativă pe dispozitivele oficiale ale funcționarilor publici, invocând necesitatea protejării informațiilor confidențiale.</description>
+    </item>
     <item>
       <title>Companiile de inteligență artificială din China au pierdut miliarde de dolari</title>
       <link>https://izz.ro/ai/companiile-de-inteligenta-artificiala-din-china-au-pierdut-miliarde-de-dolari/</link>
@@ -93,7 +103,6 @@
       <pubDate>Mon, 26 Oct 2026 05:56:48 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.zf.ro/auxiliar/spacex-aduna-datorii-de-40-de-miliarde-de-dolari-pentru-achizitionarea-de-noi-cipuri-cu-ia-23267920">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/ai/spacex-acumuleaza-datorii-de-40-de-miliarde-de-dolari-pentru-achizitia-de/cover.jpg?v=1d203500" medium="image" type="image/jpeg"/>
       <description>Compania spațială condusă de Elon Musk a strâns datorii masive destinate finanțării noilor componente hardware pentru inteligența artificială, consolidându-și poziția în acest sector după fuziunea cu xAI.</description>
     </item>
     <item>
@@ -103,7 +112,6 @@
       <pubDate>Mon, 26 Oct 2026 04:22:08 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.nwradu.ro/2026/10/ai-nu-creste-veniturile-companiilor-din-afara-domeniului-tehnologiei/">NwRadu</source>
-      <media:content url="https://izz.ro/ai/investitiile-in-inteligenta-artificiala-nu-sporesc-veniturile-firmelor-non-tech/cover.jpg?v=a2658aa6" medium="image" type="image/jpeg"/>
       <description>Un nou studiu arată că adoptarea tehnologiilor AI de către companiile din afara sectorului IT nu aduce creșteri financiare, în ciuda presiunii concurențiale actuale de pe piață.</description>
     </item>
     <item>
@@ -456,14 +464,5 @@
       <category>ai</category>
       <source url="https://www.profit.ro/profitul-tau/entertainment/cea-mai-mare-platforma-de-streaming-audio-spotify-nu-vrea-etichete-obligatorii-pentru-muzica-creata-cu-ai-dar-va-recomanda-mai-putina-muzica-22864585?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Cea mai mare platformă de streaming audio nu va impune etichete specifice pentru muzica AI, dar intenționează să limiteze recomandările acestor melodii pentru utilizatorii care preferă conținutul tradițional.</description>
-    </item>
-    <item>
-      <title>Proiectul open-source ArtCraft lansează alternative gratuite la Adobe</title>
-      <link>https://izz.ro/ai/proiectul-open-source-artcraft-lanseaza-alternative-gratuite-la-adobe/</link>
-      <guid>https://izz.ro/ai/proiectul-open-source-artcraft-lanseaza-alternative-gratuite-la-adobe/</guid>
-      <pubDate>Tue, 20 Oct 2026 16:55:42 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.g4media.ro/sfarsitul-monopolului-adobe-programele-photoshop-premiere-si-illustrator-clonate-cu-ajutorul-ia-totul-e-gratuit.html">G4Media</source>
-      <description>Un programator a creat 12 aplicații gratuite care imită programe precum Photoshop sau Premiere folosind inteligența artificială, marcând un pas important în software-ul liber.</description>
     </item>
 </channel></rss>

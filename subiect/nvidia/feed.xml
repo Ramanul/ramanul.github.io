@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 13:35:18 +0000</lastBuildDate>
+    <item>
+      <title>Un modder îmbunătățește performanța DLSS 5 folosind tehnica Foveated Rendering</title>
+      <link>https://izz.ro/tech/un-modder-imbunatateste-performanta-dlss-5-folosind-tehnica-foveated-rendering/</link>
+      <guid>https://izz.ro/tech/un-modder-imbunatateste-performanta-dlss-5-folosind-tehnica-foveated-rendering/</guid>
+      <pubDate>Tue, 27 Oct 2026 11:25:17 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/27/un-modder-a-facut-dlss-5-mult-mai-usor-de-rulat-gratie-tehnicii-de-foveated-rendering/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/un-modder-imbunatateste-performanta-dlss-5-folosind-tehnica-foveated-rendering/cover.jpg?v=d66b1b9c" medium="image" type="image/jpeg"/>
+      <description>Un nou mod neoficial destinat tehnologiei NVIDIA DLSS 5 integrează randarea foveată, metodă preluată din realitatea virtuală, crescând semnificativ rata cadrelor pe secundă și eficiența grafică.</description>
+    </item>
     <item>
       <title>Plăcile video NVIDIA RTX primesc un plus de performanță în inteligența artificială</title>
       <link>https://izz.ro/tech/placile-video-nvidia-rtx-primesc-un-plus-de-performanta-in-inteligenta/</link>
@@ -115,23 +125,5 @@
       <category>economic</category>
       <source url="https://www.profit.ro/stiri/politic/zeci-de-milioane-dolari-de-la-nvidia-si-apple-pentru-sala-de-bal-a-lui-trump-22848185?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Marile companii americane Nvidia și Apple s-au angajat să aloce fiecare câte 25 de milioane de dolari pentru proiectul de construcție a noii săli de bal de la Casa Albă, inițiativă susținută de președintele Donald Trump.</description>
-    </item>
-    <item>
-      <title>Calculatoarele NVIDIA RTX Spark cu Windows au fost lansate pe piață</title>
-      <link>https://izz.ro/tech/calculatoarele-nvidia-rtx-spark-cu-windows-au-fost-lansate-pe-piata/</link>
-      <guid>https://izz.ro/tech/calculatoarele-nvidia-rtx-spark-cu-windows-au-fost-lansate-pe-piata/</guid>
-      <pubDate>Fri, 16 Oct 2026 13:04:50 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/calculatoarele-nvidia-rtx-spark-disponibile-windows/">ZonaIT</source>
-      <description>Noile sisteme PC echipate cu tehnologii NVIDIA Blackwell RTX și inteligență artificială sunt disponibile începând de astăzi prin intermediul marilor producători mondiali de hardware.</description>
-    </item>
-    <item>
-      <title>Lansarea noilor laptopuri subțiri NVIDIA RTX Spark cu tehnologie AI</title>
-      <link>https://izz.ro/tech/lansarea-noilor-laptopuri-subtiri-nvidia-rtx-spark-cu-tehnologie-ai/</link>
-      <guid>https://izz.ro/tech/lansarea-noilor-laptopuri-subtiri-nvidia-rtx-spark-cu-tehnologie-ai/</guid>
-      <pubDate>Fri, 16 Oct 2026 12:24:06 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.gsp.ro/comercial/advertorial/laptopurile-nvidia-rtx-spark-sunt-disponibile-acum-988795.html">GSP</source>
-      <description>Noile laptopuri NVIDIA RTX Spark sunt disponibile pe piață, oferind utilizatorilor grafică avansată, integrare cu ecosistemul de inteligență artificială și o memorie unificată de până la 128 GB.</description>
     </item>
 </channel></rss>

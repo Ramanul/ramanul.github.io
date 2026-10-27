@@ -13,7 +13,7 @@
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
-  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=9249f8fe">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=e962a980">
   <link rel="canonical" href="https://izz.ro/harta/bucuresti/">
   <meta property="og:title" content="Știri din București — Harta știrilor IZZ.ro">
   <meta property="og:description" content="Știri locale și județene localizate în București, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
@@ -36,7 +36,7 @@
         <p class="eyebrow">GEOGRAFIE EDITORIALĂ</p>
         <h1>Știri din București</h1>
         <p class="map-task">Explorează știrile localizate din București. Harta pornește filtrată pe județ; poți reveni oricând la România.</p>
-        <p class="map-disclosure">Harta afișează numai localizări determinate. Numărul indică <strong>evenimentele sau relatările afișate</strong>, nu o statistică oficială a incidentelor.</p>
+        <p class="map-disclosure">Harta afișează numai localizări determinate. În scara Volum, numărul indică <strong>evenimentele sau relatările afișate</strong>, nu o statistică oficială a incidentelor.</p>
       </div>
       <div class="map-stats" id="map-stats" aria-live="polite">
         <span>Se încarcă datele…</span>
@@ -62,7 +62,10 @@
         <div class="segmented" role="radiogroup" aria-label="Scara culorilor">
           <button type="button" class="active" role="radio" aria-checked="true" data-scale="volum">Volum</button>
           <button type="button" role="radio" aria-checked="false" data-scale="locuitori">Pe locuitor</button>
+          <button type="button" role="radio" aria-checked="false" data-scale="confirmari" aria-describedby="confirmation-hint confirmation-method">Confirmări încrucișate</button>
         </div>
+        <p id="confirmation-hint" class="filter-hint">„—” nemăsurat · „+” date parțiale</p>
+        <p id="confirmation-scope" class="filter-hint" hidden>Regional: culori geografice; lentila revine la alt nivel.</p>
       </fieldset>
       <fieldset class="filter-group">
         <legend>Grupează rezultatele ca</legend>
@@ -97,8 +100,8 @@
              etichetele se compuneau din praguri variabile. Aici pragurile (`data-praguri`) si benzile
              stau unul langa altul, iar tests/test_harta_scara.py le verifica acoperirea 0..∞. -->
         <div id="map-legend" class="map-legend" role="group" aria-label="Scara culorilor"
-             data-praguri="1,6,15,30" data-praguri-locuitor="0.1,1,2,4" hidden>
-          <!-- Trei titluri si doua seturi de benzi, toate scrise AICI, nu construite de JS:
+             data-praguri="1,6,15,30" data-praguri-locuitor="0.1,1,2,4" data-praguri-confirmari="1,3,6,10" hidden>
+          <!-- Titlurile si cele trei seturi de benzi sunt scrise AICI, nu construite de JS:
                „NaN"/„undefined" nu pot ajunge pe ecran prin constructie. Pragurile
                (`data-praguri`, `data-praguri-locuitor`) stau langa benzi, iar
                tests/test_harta_scara.py verifica pentru AMBELE seturi ca benzile acopera
@@ -108,6 +111,14 @@
           <span class="legend-title" data-title="volum">Volum de știri</span>
           <span class="legend-title" data-title="locuitori" hidden>Evenimente la 100.000 de locuitori</span>
           <span class="legend-title" data-title="uat" hidden>Volum de știri (pe orașe și comune)</span>
+          <span class="legend-title" data-title="confirmari" hidden>Confirmări măsurate · — nemăsurat · + date parțiale</span>
+          <span class="legend-bands" data-bands="confirmari" hidden>
+            <span class="legend-step"><span class="swatch h0" aria-hidden="true"></span>0</span>
+            <span class="legend-step"><span class="swatch h1" aria-hidden="true"></span>1–2</span>
+            <span class="legend-step"><span class="swatch h2" aria-hidden="true"></span>3–5</span>
+            <span class="legend-step"><span class="swatch h3" aria-hidden="true"></span>6–9</span>
+            <span class="legend-step"><span class="swatch h4" aria-hidden="true"></span>10+</span>
+          </span>
           <span class="legend-bands" data-bands="volum">
             <span class="legend-step"><span class="swatch h0" aria-hidden="true"></span>0</span>
             <span class="legend-step"><span class="swatch h1" aria-hidden="true"></span>1–5</span>
@@ -129,6 +140,12 @@
              de ecran), doar se deschide la cerere. -->
         <details class="map-help">
           <summary>Cum se citește harta</summary>
+          <p id="confirmation-method" class="map-note">Confirmările numără domeniile măsurate în sinteze, nu adevărul unei știri.
+            1 este prima relatare și contribuie cu 0 la confirmări. Pentru fiecare eveniment folosim cel mai mare rezultat deja măsurat,
+            fără să adunăm publicații din afirmații diferite. Culorile însumează aceste rezultate;
+            „—” înseamnă nemăsurat, iar „+” arată că lipsesc măsurători. Lista rămâne completă.
+            La nivel regional culorile delimitează regiunile editoriale, iar cifrele arată volumul;
+            alegerea lentilei se păstrează pentru întoarcere la Toate, Județean sau Local.</p>
           <!-- Footnote (F3, contractul de realitate): fiecare cifra de pe harta are langa ea
                ce e numaratorul, ce e numitorul si pe ce fereastra. Cifrele de populație sunt
                scrise static aici si verificate de tests/test_harta_scara.py contra
@@ -158,20 +175,20 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/originea-numelui-cartierului-berceni-din-capitala/">Originea numelui cartierului Berceni din Capitală</a> <span>B365 · 27 octombrie 2026, 05:00</span></li>
+          <li><a href="/local/montarea-iluminatului-festiv-de-craciun-a-inceput-in-cartierul-berceni-la-final/">Montarea iluminatului festiv de Crăciun a început în cartierul Berceni la final de octombrie</a> <span>B365 · 27 octombrie 2026, 14:56</span></li>
+<li><a href="/local/incepe-reparatia-intersectiei-rahova-progresului-din-capitala-afectand-cinci/">Incepe reparația intersecției Rahova–Progresului din Capitală, afectând cinci linii de tramvai</a> <span>B365 · 27 octombrie 2026, 14:33</span></li>
+<li><a href="/local/halloween-in-padurea-baneasa-aventura-pentru-copii-si-ateliere-cu-acces-liber/">Halloween în Pădurea Băneasa, aventură pentru copii și ateliere cu acces liber</a> <span>Primăria Bucuresti Sectorul 1 · 27 octombrie 2026, 13:50</span></li>
+<li><a href="/local/inventariem-arborii-tineri-din-sector-iar-cei-uscati-sunt-inlocuiti/">Inventariem arborii tineri din sector, iar cei uscați sunt înlocuiți</a> <span>Primăria Bucuresti Sectorul 1 · 27 octombrie 2026, 12:33</span></li>
+<li><a href="/local/proiect-de-hotarare-nr-195-27-10-2026-privind-solicitarea-catre-consiliul/">Proiect de hotărâre nr. 195/27: solicitarea către Consiliul General al Municipiului București de a aproba…</a> <span>Primăria Bucuresti Sectorul 6 · 27 octombrie 2026, 10:47</span></li>
+<li><a href="/local/proiect-de-hotarare-nr-194-26-10-2026-pentru-modificarea-h-c-l-al-sectorului-6/">Proiect de hotărâre nr. 194/26: aprobarea organizării și implementării în perioada 01-31 octombrie 2026 a…</a> <span>Primăria Bucuresti Sectorul 6 · 27 octombrie 2026, 08:46</span></li>
+<li><a href="/local/originea-numelui-cartierului-berceni-din-capitala/">Originea numelui cartierului Berceni din Capitală</a> <span>B365 · 27 octombrie 2026, 05:00</span></li>
 <li><a href="/local/modificari-temporare-ale-trenurilor-spre-aeroportul-otopeni/">Modificări temporare ale trenurilor spre Aeroportul Otopeni</a> <span>B365 · 26 octombrie 2026, 19:16</span></li>
-<li><a href="/local/schelete-umane-descoperite-pe-un-santier-de-pe-strada-armand-calinescu-din/">Schelete umane descoperite pe un șantier de pe strada Armand Călinescu din Capitală</a> <span>B365 · 26 octombrie 2026, 18:29</span></li>
-<li><a href="/local/indicatorii-cu-privire-la-executia-bugetelor-locale-pentru-trimestrul-iii-2026/">Indicatorii cu privire la executia bugetelor locale pentru trimestrul III 2026</a> <span>Primăria Bucuresti Sectorul 6 · 26 octombrie 2026, 15:13</span></li>
-<li><a href="/local/sprijin-gratuit-pentru-persoanele-varstnice-la-incheierea-anumitor-acte/">Sprijin gratuit pentru persoanele vârstnice la încheierea anumitor acte juridice privind bunurile sale</a> <span>Primăria Bucuresti Sectorul 1 · 26 octombrie 2026, 14:56</span></li>
-<li><a href="/local/locuri-de-joaca-mai-ingrijite-prin-amenajarea-spatiilor-verzi/">Locuri de joacă mai îngrijite prin amenajarea spațiilor verzi</a> <span>Primăria Bucuresti Sectorul 1 · 26 octombrie 2026, 13:16</span></li>
-<li><a href="/local/descoperiti-povestea-unei-case-care-a-facut-istorie-in-viata-civica-si/">Descoperiți povestea unei case care a făcut istorie în viața civică și culturală a Bucureștiului</a> <span>Primăria Bucuresti Sectorul 1 · 26 octombrie 2026, 12:11</span></li>
-<li><a href="/local/actiuni-de-curatare-si-igienizare-a-pasajelor-pietonale-grivita-si-turda/">Acțiuni de curățare și igienizare a pasajelor pietonale Grivița și Turda</a> <span>Primăria Bucuresti Sectorul 1 · 26 octombrie 2026, 09:55</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>
     </section>
   </main>
 
-  <script src="/static/harta-stiri/harta-stiri.js?v=d1e2606d" defer></script>
+  <script src="/static/harta-stiri/harta-stiri.js?v=980be45a" defer></script>
 </body>
 </html>

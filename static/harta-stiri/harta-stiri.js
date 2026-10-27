@@ -47,6 +47,7 @@
     uatNodes: new Map(),
     labelPool: new Map(),
     counts: new Map(),
+    confirmationCounts: new Map(),
     pointerDown: null,
     panFrom: null,
     uatCounty: null,
@@ -252,10 +253,57 @@
       }
       return {
         ...primary,
+        // Un singur rezultat deja măsurat, niciodată unirea domeniilor din afirmații
+        // diferite. Astfel gruparea geografică nu inventează coroborări noi.
+        cross_confirmations: measuredConfirmation(members),
         eventArticleCount: members.length,
         eventSourceCount: sources.size,
       };
     });
+  }
+
+  function measuredConfirmation(items) {
+    const measured = items.map((item) => item.cross_confirmations)
+      .filter((value) => Number.isInteger(value) && value >= 1);
+    return measured.length ? Math.max(...measured) : null;
+  }
+
+  function confirmationSummary(items) {
+    // Aceeași sinteză nu se adună din nou la trecerea Evenimente ↔ Relatări.
+    const events = new Map();
+    for (const item of items) {
+      const key = item.event_id || `${item.slug || item.title}|${item.county}|${item.published}`;
+      const group = events.get(key) || [];
+      group.push(item);
+      events.set(key, group);
+    }
+    let value = 0;
+    let known = 0;
+    for (const members of events.values()) {
+      const measured = measuredConfirmation(members);
+      if (measured == null) continue;
+      // 1 este prima relatare, nu o confirmare între două publicații. Observația
+      // rămâne cunoscută, cu contribuție zero, distinctă de metadatele absente.
+      value += measured >= 2 ? measured : 0;
+      known += 1;
+    }
+    return { value: known || !events.size ? value : null, known, total: events.size };
+  }
+
+  function confirmationFigure(summary) {
+    if (summary.value == null) return "—";
+    return `${summary.value}${summary.known < summary.total ? "+" : ""}`;
+  }
+
+  function confirmationText(summary) {
+    if (!summary.total) return "0 evenimente afișate";
+    const events = cate(summary.total, "eveniment", "evenimente");
+    if (summary.value == null) return `nemăsurat pentru ${events}`;
+    return `${cate(summary.value, "confirmare măsurată", "confirmări măsurate")} · date pentru ${summary.known} din ${events}`;
+  }
+
+  function esteModConfirmari() {
+    return state.scaleMode === "confirmari" && state.level !== "regional";
   }
 
 
@@ -1262,7 +1310,7 @@
       figure.className = "tip-count";
       figure.textContent = esteJudet
         ? cifraJudet(target.county).bucata
-        : itemCount(count);
+        : esteModConfirmari() ? confirmationText(confirmationSummary(target.items || [])) : itemCount(count);
       head.appendChild(figure);
     }
     tip.appendChild(head);
@@ -1387,7 +1435,9 @@
         const label = judetLabel(county);
         // In modul „pe locuitor" eticheta arata RATA, adica exact numarul care da culoarea.
         const valoare = valoareJudet(county);
-        const afisat = valoare == null ? String(count) : fmtValoare(valoare);
+        const afisat = esteModConfirmari()
+          ? confirmationFigure(state.confirmationCounts.get(county) || confirmationSummary([]))
+          : valoare == null ? String(count) : fmtValoare(valoare);
         candidates.push({
           kind: "judet", key: county,
           x: anchor[0], y: anchor[1],
@@ -1411,6 +1461,7 @@
           kind: "uat", key,
           x: anchor[0], y: anchor[1],
           text: name, count: uat.count, radius,
+          afisat: esteModConfirmari() ? confirmationFigure(confirmationSummary(uat.items || [])) : null,
           width: Math.max(radius * 2, nameWidth),
           height: radius * 2 + 14,
           offsetY: 7,
@@ -1432,9 +1483,11 @@
         // arata „0" (cerinta editorului, 7 oct); aglomerarea o taie placeLabels pe prioritate,
         // etichetele de prioritate 0 fiind primele sacrificate la coliziune.
         labelDisc(entry).setAttribute("r", String(fmt(candidate.radius)));
-        labelText(entry, "num", "label-count", {
+        const number = labelText(entry, "num", "label-count", {
           y: "0", "text-anchor": "middle", "dominant-baseline": "central",
-        }).textContent = String(candidate.count);
+        });
+        number.textContent = String(candidate.count);
+        if (candidate.afisat != null) number.textContent = candidate.afisat;
         labelText(entry, "name", "label-name", {
           y: String(fmt(candidate.radius + 11)),
           "text-anchor": "middle",
@@ -1490,7 +1543,8 @@
       const label = svgNode("text", {
         class: "label-count", y: "0", "text-anchor": "middle", "dominant-baseline": "central",
       });
-      label.textContent = String(group.count);
+      label.textContent = esteModConfirmari()
+        ? confirmationFigure(confirmationSummary(group.items)) : String(group.count);
       fit.appendChild(label);
       node.appendChild(fit);
       node.setAttribute("transform", `translate(${fmt(group.x)} ${fmt(group.y)})`);
@@ -1528,9 +1582,13 @@
       // Scara UAT-urilor e VOLUMUL, indiferent de modul hartii: nu avem populație pe unitati
       // administrativ-teritoriale, iar a aplica pragurile de rate pe numaratoare ar colora
       // 7 știri ca „4+ la 100.000" — o scara care minte (vezi nota din legenda).
-      const klassUat = rampClassFor(uat.count, PRAGURI);
+      const summary = confirmationSummary(uat.items || []);
+      const klassUat = esteModConfirmari() ? rampClassFor(summary.value, PRAGURI_CONFIRMARI)
+        : rampClassFor(uat.count, PRAGURI);
+      node.classList.toggle("is-unmeasured", esteModConfirmari() && summary.value == null);
       for (let i = 0; i < 5; i += 1) node.classList.toggle(`h${i}`, klassUat === i);
-      node.setAttribute("aria-label", `${uat.label || uat.name}: ${itemCount(uat.count)}`);
+      node.setAttribute("aria-label", `${uat.label || uat.name}: ${itemCount(uat.count)}${
+        esteModConfirmari() ? ` · ${confirmationText(summary)}` : ""}`);
       node.setAttribute("aria-pressed", selected ? "true" : "false");
     }
     for (const [key, node] of byKey) {
@@ -1576,6 +1634,15 @@
       if (key) counts.set(key, (counts.get(key) || 0) + 1);
     }
     state.counts = counts;
+    const groups = new Map();
+    for (const item of sourceItems) {
+      const key = state.level === "regional" ? item.region : item.county;
+      if (!key) continue;
+      const group = groups.get(key) || [];
+      group.push(item);
+      groups.set(key, group);
+    }
+    state.confirmationCounts = new Map(Array.from(groups, ([key, items]) => [key, confirmationSummary(items)]));
 
     ensureCountyPaths();
     const keepNationalCountyContext = state.level === "judetean" && Boolean(state.selectedCounty);
@@ -1598,6 +1665,7 @@
       node.classList.toggle("is-empty", count === 0);
       node.classList.toggle("is-hover", !state.zoomCounty && county === state.hoverCounty);
       const cifra = cifraJudet(county);
+      node.classList.toggle("is-unmeasured", esteModConfirmari() && cifra.valoare == null);
       const klass = state.level === "regional" || cifra.valoare == null
         ? 0 : rampClassFor(cifra.valoare);
       for (let i = 0; i < 5; i += 1) node.classList.toggle(`h${i}`, state.level === "regional" ? i === 0 : klass === i);
@@ -1644,7 +1712,7 @@
     // Legenda: la nivel national/judetean urmeaza modul de scara; cand stratul de UAT-uri e
     // deschis, scara de acolo e VOLUMUL (nu avem populație pe orase si comune in datele
     // publicate), iar titlul o spune.
-    const varianta = state.zoomCounty && state.uats.length
+    const varianta = esteModConfirmari() ? "confirmari" : state.zoomCounty && state.uats.length
       ? "uat"
       : (esteModRata() ? "locuitori" : "volum");
     // Legenda se ascunde doar cand umplerea NU e o scara (nivel regional: culorile spun
@@ -1805,8 +1873,10 @@
   // sub 0,1, iar prima banda (0,1-0,9) nu poate inghiti o știre existenta -- verificat de
   // tests/test_harta_scara.py pe grila de afisare (o zecimala).
   const PRAGURI_LOCUITOR = praguriDinPagina("praguriLocuitor", [0.1, 1, 2, 4]);
+  const PRAGURI_CONFIRMARI = praguriDinPagina("praguriConfirmari", [1, 3, 6, 10]);
 
   function praguriActive() {
+    if (esteModConfirmari()) return PRAGURI_CONFIRMARI;
     return state.scaleMode === "locuitori" ? PRAGURI_LOCUITOR : PRAGURI;
   }
 
@@ -1858,6 +1928,9 @@
   // deci „aceeasi culoare = acelasi numar" e adevarat pentru ce vede cititorul (o zecimala),
   // nu doar pentru numarul din memorie.
   function valoareJudet(county) {
+    if (esteModConfirmari()) {
+      return (state.confirmationCounts.get(county) || confirmationSummary([])).value;
+    }
     const count = countyCount(county);
     if (state.scaleMode !== "locuitori") return count;
     const pop = populatieJudet(county);
@@ -1882,6 +1955,10 @@
   // butoane si aria-label, ca TOATE sa spuna acelasi lucru.
   function cifraJudet(county) {
     const valoare = valoareJudet(county);
+    if (esteModConfirmari()) {
+      const summary = state.confirmationCounts.get(county) || confirmationSummary([]);
+      return { valoare, bucata: `${itemCount(countyCount(county))} · ${confirmationText(summary)}` };
+    }
     const bucata = esteModRata() && valoare != null
       ? `${fmtValoare(valoare)} ${itemLabel()} la 100.000 de locuitori`
       : itemCount(countyCount(county));
@@ -1901,7 +1978,8 @@
       titlu.hidden = titlu.dataset.title !== variant;
     }
     for (const benzi of legend.querySelectorAll("[data-bands]")) {
-      benzi.hidden = benzi.dataset.bands !== (variant === "locuitori" ? "locuitori" : "volum");
+      benzi.hidden = benzi.dataset.bands !== (variant === "confirmari" ? "confirmari"
+        : variant === "locuitori" ? "locuitori" : "volum");
     }
   }
 
@@ -2250,7 +2328,12 @@
       else button.dataset.county = key;
       button.textContent = isRegional
         ? `${key} · ${counts.get(key)}`
+        : esteModConfirmari()
+          ? `${judetLabel(key)} · ${confirmationFigure(state.confirmationCounts.get(key) || confirmationSummary([]))}`
         : `${judetLabel(key)} · ${fmtValoare(valoareJudet(key) ?? counts.get(key))}`;
+      if (esteModConfirmari()) {
+        button.setAttribute("aria-label", `${judetLabel(key)}: ${cifraJudet(key).bucata}`);
+      }
       const selected = isRegional ? key === state.selectedRegion : key === state.selectedCounty;
       button.setAttribute("aria-pressed", selected ? "true" : "false");
       button.addEventListener("click", () => (isRegional ? selectRegion(key) : selectCounty(key)));
@@ -2283,6 +2366,7 @@
     if (loc.length) params.set("loc", loc.join("|"));
     if (state.search) params.set("q", state.search);
     if (state.scaleMode === "locuitori") params.set("scara", "locuitori");
+    if (state.scaleMode === "confirmari") params.set("scara", "confirmari");
     const query = params.toString();
     return query ? `${location.pathname}?${query}` : location.pathname;
   }
@@ -2309,11 +2393,16 @@
       locality: loc ? loc.split("|").filter(Boolean) : null,
       uat: params.get("uat") || null,
       query: params.get("q") || "",
-      scale: params.get("scara") === "locuitori" ? "locuitori" : "volum",
+      scale: params.get("scara") === "locuitori" ? "locuitori"
+        : params.get("scara") === "confirmari" ? "confirmari" : "volum",
     };
   }
 
   function applyState(patch, { push = true, replace = false } = {}) {
+    if ("scale" in patch && patch.scale !== "locuitori") {
+      state.scaleMode = patch.scale === "confirmari" ? "confirmari" : "volum";
+      syncScaleButtons();
+    }
     if ("level" in patch) state.level = patch.level || "all";
     if ("viewMode" in patch) state.viewMode = patch.viewMode === "articles" ? "articles" : "events";
     if ("region" in patch) state.selectedRegion = patch.region || null;
@@ -2534,6 +2623,15 @@
         dateLabel(item.published)]
         .filter(Boolean).join(" · ");
       li.append(titlu, meta);
+      if (esteModConfirmari()) {
+        const measured = measuredConfirmation([item]);
+        const detail = document.createElement("span");
+        detail.className = "confirmation-detail";
+        detail.textContent = measured == null ? "Confirmări încrucișate: nemăsurat"
+          : measured === 1 ? "1 domeniu măsurat (prima relatare)"
+            : `${measured} domenii cu confirmări încrucișate măsurate`;
+        li.appendChild(detail);
+      }
       // Stirea sta pe judetul faptei; cand redactia e din alt judet, se spune explicit, ca
       // cititorul sa nu creada ca harta a gresit locul („stirea e in Covasna, dar a scris-o
       // presa din Brasov").
@@ -2737,7 +2835,8 @@
     const afisate = state.visible.length === 1 ? (state.viewMode === "events" ? "afișat" : "afișată") : "afișate";
     const message = `${itemCount(state.visible.length)} ${afisate} pentru ${place}, la ${levelLabel}.`;
     const status = $("#map-status");
-    if (status) status.textContent = message;
+    if (status) status.textContent = message + (esteModConfirmari()
+      ? ` ${confirmationText(confirmationSummary(state.visible))}. Culorile nu reprezintă un scor de adevăr.` : "");
     const context = $("#active-context");
     if (context) context.textContent = `Afișezi ${itemLabel()} pentru ${place}, la ${levelLabel}.`;
     const clear = $("#clear-selection");
@@ -2769,10 +2868,10 @@
     // la o intrare proaspătă. O singură intrare de istoric: applyState fără push,
     // scara fără push, apoi un singur push cu starea finală.
     // Plan de remediere D4 (Arena, 6 oct).
-    const eraPeLocuitori = state.scaleMode === "locuitori";
+    const eraAltaScara = state.scaleMode !== "volum";
     applyState({ level: "all", viewMode: "events", region: null, county: null,
                  locality: null, query: "" }, { push: false });
-    if (eraPeLocuitori) setScaleMode("volum", { push: false });
+    if (eraAltaScara) setScaleMode("volum", { push: false });
     history.pushState({}, "", urlForState());
   }
 
@@ -2780,13 +2879,13 @@
   // cererea eșuează, modul NU se activeaza si se spune de ce (un eșec tacut ar lasa butonul
   // apasat cu harta pe volum, adica exact genul de interfata care minte).
   function setScaleMode(mode, { push = true } = {}) {
-    const dorit = mode === "locuitori" ? "locuitori" : "volum";
+    const dorit = ["locuitori", "confirmari"].includes(mode) ? mode : "volum";
     if (dorit === state.scaleMode) {
       syncScaleButtons();
       return Promise.resolve();
     }
-    if (dorit === "volum") {
-      state.scaleMode = "volum";
+    if (dorit !== "locuitori") {
+      state.scaleMode = dorit;
       syncScaleButtons();
       afterScaleChange(push);
       return Promise.resolve();
@@ -2825,6 +2924,16 @@
   // activabil (starea se pastreaza la intoarcere), dar eticheta spune ce face efectiv acolo,
   // langa control, nu doar in nota de sub harta (auditul UX din 2026-10-16, P0.3).
   function syncScaleScope(insideCounty) {
+    const confirmations = $('.segmented [data-scale="confirmari"]');
+    const scope = $("#confirmation-scope");
+    const hint = $("#confirmation-hint");
+    const regional = state.level === "regional";
+    if (confirmations) {
+      confirmations.disabled = regional;
+      confirmations.setAttribute("aria-disabled", regional ? "true" : "false");
+    }
+    if (scope) scope.hidden = !regional;
+    if (hint) hint.hidden = regional;
     const button = $('.segmented [data-scale="locuitori"]');
     if (!button) return;
     const label = insideCounty ? "Pe locuitor · doar județe" : "Pe locuitor";
@@ -2838,7 +2947,7 @@
 
   function syncScaleButtons() {
     for (const button of $$(".segmented [data-scale]")) {
-      const activ = (button.dataset.scale === "locuitori") === esteModRata();
+      const activ = button.dataset.scale === state.scaleMode;
       button.classList.toggle("active", activ);
       button.setAttribute("aria-checked", activ ? "true" : "false");
     }
@@ -2853,13 +2962,16 @@
     });
     const bindRadioGroup = (selector, apply) => {
       const buttons = $$(selector);
-      buttons.forEach((button, index) => {
+      buttons.forEach((button) => {
         button.addEventListener("click", () => apply(button));
         button.addEventListener("keydown", (event) => {
           if (!["ArrowRight", "ArrowDown", "ArrowLeft", "ArrowUp"].includes(event.key)) return;
           event.preventDefault();
           const direction = ["ArrowRight", "ArrowDown"].includes(event.key) ? 1 : -1;
-          const next = buttons[(index + direction + buttons.length) % buttons.length];
+          const enabled = buttons.filter((entry) => !entry.disabled);
+          if (!enabled.length) return;
+          const index = enabled.indexOf(button);
+          const next = enabled[(index + direction + enabled.length) % enabled.length];
           next.focus();
           next.click();
         });

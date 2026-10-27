@@ -13,7 +13,7 @@
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
-  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=9249f8fe">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=e962a980">
   <link rel="canonical" href="https://izz.ro/harta/maramures/">
   <meta property="og:title" content="Știri din Maramureș — Harta știrilor IZZ.ro">
   <meta property="og:description" content="Știri locale și județene localizate în Maramureș, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
@@ -36,7 +36,7 @@
         <p class="eyebrow">GEOGRAFIE EDITORIALĂ</p>
         <h1>Știri din Maramureș</h1>
         <p class="map-task">Explorează știrile localizate din Maramureș. Harta pornește filtrată pe județ; poți reveni oricând la România.</p>
-        <p class="map-disclosure">Harta afișează numai localizări determinate. Numărul indică <strong>evenimentele sau relatările afișate</strong>, nu o statistică oficială a incidentelor.</p>
+        <p class="map-disclosure">Harta afișează numai localizări determinate. În scara Volum, numărul indică <strong>evenimentele sau relatările afișate</strong>, nu o statistică oficială a incidentelor.</p>
       </div>
       <div class="map-stats" id="map-stats" aria-live="polite">
         <span>Se încarcă datele…</span>
@@ -62,7 +62,10 @@
         <div class="segmented" role="radiogroup" aria-label="Scara culorilor">
           <button type="button" class="active" role="radio" aria-checked="true" data-scale="volum">Volum</button>
           <button type="button" role="radio" aria-checked="false" data-scale="locuitori">Pe locuitor</button>
+          <button type="button" role="radio" aria-checked="false" data-scale="confirmari" aria-describedby="confirmation-hint confirmation-method">Confirmări încrucișate</button>
         </div>
+        <p id="confirmation-hint" class="filter-hint">„—” nemăsurat · „+” date parțiale</p>
+        <p id="confirmation-scope" class="filter-hint" hidden>Regional: culori geografice; lentila revine la alt nivel.</p>
       </fieldset>
       <fieldset class="filter-group">
         <legend>Grupează rezultatele ca</legend>
@@ -97,8 +100,8 @@
              etichetele se compuneau din praguri variabile. Aici pragurile (`data-praguri`) si benzile
              stau unul langa altul, iar tests/test_harta_scara.py le verifica acoperirea 0..∞. -->
         <div id="map-legend" class="map-legend" role="group" aria-label="Scara culorilor"
-             data-praguri="1,6,15,30" data-praguri-locuitor="0.1,1,2,4" hidden>
-          <!-- Trei titluri si doua seturi de benzi, toate scrise AICI, nu construite de JS:
+             data-praguri="1,6,15,30" data-praguri-locuitor="0.1,1,2,4" data-praguri-confirmari="1,3,6,10" hidden>
+          <!-- Titlurile si cele trei seturi de benzi sunt scrise AICI, nu construite de JS:
                „NaN"/„undefined" nu pot ajunge pe ecran prin constructie. Pragurile
                (`data-praguri`, `data-praguri-locuitor`) stau langa benzi, iar
                tests/test_harta_scara.py verifica pentru AMBELE seturi ca benzile acopera
@@ -108,6 +111,14 @@
           <span class="legend-title" data-title="volum">Volum de știri</span>
           <span class="legend-title" data-title="locuitori" hidden>Evenimente la 100.000 de locuitori</span>
           <span class="legend-title" data-title="uat" hidden>Volum de știri (pe orașe și comune)</span>
+          <span class="legend-title" data-title="confirmari" hidden>Confirmări măsurate · — nemăsurat · + date parțiale</span>
+          <span class="legend-bands" data-bands="confirmari" hidden>
+            <span class="legend-step"><span class="swatch h0" aria-hidden="true"></span>0</span>
+            <span class="legend-step"><span class="swatch h1" aria-hidden="true"></span>1–2</span>
+            <span class="legend-step"><span class="swatch h2" aria-hidden="true"></span>3–5</span>
+            <span class="legend-step"><span class="swatch h3" aria-hidden="true"></span>6–9</span>
+            <span class="legend-step"><span class="swatch h4" aria-hidden="true"></span>10+</span>
+          </span>
           <span class="legend-bands" data-bands="volum">
             <span class="legend-step"><span class="swatch h0" aria-hidden="true"></span>0</span>
             <span class="legend-step"><span class="swatch h1" aria-hidden="true"></span>1–5</span>
@@ -129,6 +140,12 @@
              de ecran), doar se deschide la cerere. -->
         <details class="map-help">
           <summary>Cum se citește harta</summary>
+          <p id="confirmation-method" class="map-note">Confirmările numără domeniile măsurate în sinteze, nu adevărul unei știri.
+            1 este prima relatare și contribuie cu 0 la confirmări. Pentru fiecare eveniment folosim cel mai mare rezultat deja măsurat,
+            fără să adunăm publicații din afirmații diferite. Culorile însumează aceste rezultate;
+            „—” înseamnă nemăsurat, iar „+” arată că lipsesc măsurători. Lista rămâne completă.
+            La nivel regional culorile delimitează regiunile editoriale, iar cifrele arată volumul;
+            alegerea lentilei se păstrează pentru întoarcere la Toate, Județean sau Local.</p>
           <!-- Footnote (F3, contractul de realitate): fiecare cifra de pe harta are langa ea
                ce e numaratorul, ce e numitorul si pe ce fereastra. Cifrele de populație sunt
                scrise static aici si verificate de tests/test_harta_scara.py contra
@@ -158,20 +175,20 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/drumarii-au-intervenit-cu-material-antiderapant-dupa-ninsorile-din-pasul-prislop/">Drumarii au intervenit cu material antiderapant după ninsorile din Pasul Prislop</a> <span>eMaramureș · 27 octombrie 2026, 08:20</span></li>
+          <li><a href="/local/prima-editie-a-salonului-de-carte-bookstage-baia-mare-s-a-incheiat-dupa-trei/">Prima ediție a Salonului de carte Bookstage Baia Mare s-a încheiat după trei zile</a> <span>actualMM · 27 octombrie 2026, 15:15</span></li>
+<li><a href="/local/sofer-de-74-de-ani-din-borsa-cercetat-penal-pentru-conducere-fara-permis/">Șofer de 74 de ani din Borșa cercetat penal pentru conducere fără permis</a> <span>eMaramureș · 27 octombrie 2026, 14:30</span></li>
+<li><a href="/local/anunt-public-consultare-nationala-privind-simplificarea-limbajului-utilizat-de/">Anunț public – consultare nationala privind simplificarea limbajului utilizat de administratia publica in…</a> <span>Primăria Seini · 27 octombrie 2026, 14:02</span></li>
+<li><a href="/local/credinciosii-de-la-rohia-participa-la-slujbe-si-ritualuri-de-pomenire-pentru/">Credincioșii de la Rohia participă la slujbe și ritualuri de pomenire pentru cei adormiți</a> <span>eMaramureș · 27 octombrie 2026, 13:30</span></li>
+<li><a href="/local/promovarea-consultarii-nationale-privind-limbajul-administrativ-2/">Promovarea consultării naționale privind limbajul administrativ</a> <span>Primăria Baia Sprie · 27 octombrie 2026, 11:01</span></li>
+<li><a href="/local/drumarii-au-intervenit-cu-material-antiderapant-dupa-ninsorile-din-pasul-prislop/">Drumarii au intervenit cu material antiderapant după ninsorile din Pasul Prislop</a> <span>eMaramureș · 27 octombrie 2026, 08:20</span></li>
 <li><a href="/local/furnizarea-apei-potabile-a-fost-oprita-pe-strada-ariesului-din-baia-mare/">Furnizarea apei potabile a fost oprită pe strada Arieșului din Baia Mare</a> <span>eMaramureș · 27 octombrie 2026, 08:17</span></li>
 <li><a href="/local/evenimentul-innovation-it-2026-a-avut-loc-la-baia-mare/">Evenimentul Innovation IT 2026 a avut loc la Baia Mare</a> <span>eMaramureș · 26 octombrie 2026, 21:00</span></li>
-<li><a href="/local/barbat-de-55-de-ani-din-viseu-de-sus-dat-disparut-de-politisti/">Bărbat de 55 de ani din Vișeu de Sus, dat dispărut de polițiști</a> <span>eMaramureș · 26 octombrie 2026, 19:59</span></li>
-<li><a href="/judetean/romanii-din-maramures-si-ucraina-s-au-reunit-la-apsa-de-jos-pentru-lansari-de/">Românii din Maramureș și Ucraina s-au reunit la Apșa de Jos pentru lansări de carte</a> <span>eMaramureș · 26 octombrie 2026, 18:00</span></li>
-<li><a href="/local/o-masina-de-politie-a-fost-implicata-intr-un-accident-rutier-in-baia-mare/">O mașină de poliție a fost implicată într-un accident rutier în Baia Mare</a> <span>eMaramureș · 26 octombrie 2026, 17:08</span></li>
-<li><a href="/local/sofer-de-33-de-ani-din-barsana-prins-beat-la-volan/">Șofer de 33 de ani din Bârsana, prins beat la volan</a> <span>eMaramureș · 26 octombrie 2026, 16:52</span></li>
-<li><a href="/local/promovarea-consultarii-nationale-privind-limbajul-administrativ/">Promovarea consultării naționale privind limbajul administrativ</a> <span>Primăria Ulmeni · 26 octombrie 2026, 11:56</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>
     </section>
   </main>
 
-  <script src="/static/harta-stiri/harta-stiri.js?v=d1e2606d" defer></script>
+  <script src="/static/harta-stiri/harta-stiri.js?v=980be45a" defer></script>
 </body>
 </html>

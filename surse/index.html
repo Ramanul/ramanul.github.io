@@ -79,12 +79,22 @@
   <p class="page-intro">Tragem din <b>657 surse</b> cu RSS oficial: publicații
   naționale, regionale, ziare de județ și primării. La evenimentele relatate de mai multe
   publicații, măsurăm și prima publicare <b>observată</b> în setul monitorizat, pe sintezele
-  multi-sursă din ultimele 12 zile: 79 surse au strâns destule
+  multi-sursă din ultimele 11 zile: 78 surse au strâns destule
   apariții pentru statistica de mai jos. Restul apar doar cu numele și linkul — asta
   <b>nu</b> înseamnă performanță slabă, ci doar că nu au intrat încă într-un cluster
   multi-sursă (o primărie cu un anunț unic, de exemplu, n-o să intre niciodată).</p>
 
   <p>Ordinea observată nu dovedește autorul informației sau o preluare. În articolele cu context documentat, proveniența se atribuie numai după examinarea documentelor: anunț oficial, document original ori preluare cu origine cunoscută. O origine necunoscută nu înseamnă sursă independentă; statisticile de mai jos nu măsoară adevărul unei afirmații. „A publicat prima" ține cont de câte fapte aduce relatarea: una cu mult mai multe fapte, publicată în aceleași 15 minute, bate o alertă de două rânduri. „Actualizate ulterior" numără sintezele în care faptele din textul publicației s-au schimbat cu peste 20% după prima citire. Include actualizările firești ale știrilor în curs (completări, live-text) și revizuirile editoriale; nu e un verdict de corectitudine, ci contextul în care se citește „a publicat prima".</p>
+
+  <p>„Text la recitire" arată o fracție, nu un scor: recitiri fără schimbare materială din
+  toate recitirile comparabile ale textului integral. Numărăm doar articolele în care
+  publicația a apărut prima; același articol nu intră de două ori în acoperire. O schimbare
+  materială înseamnă o amprentă diferită și cel puțin 20% diferență între ancorele textului
+  (cifre, nume și citate). Sub fracție apar articolele recitite din totalul eligibil și
+  intervalul observat, în UTC. Prima citire și revenirea doar la rezumatul RSS nu sunt
+  recitiri comparabile. „Nemăsurat" înseamnă că nu avem încă o comparație, nu că textul a
+  rămas neschimbat. Modificările pot fi completări firești; fracția nu măsoară adevărul
+  informațiilor și nu spune ce s-a întâmplat între citirile noastre.</p>
 
   <figure class="harta-judete">
     <svg viewBox="0 0 1000 703.53" xmlns="http://www.w3.org/2000/svg" aria-labelledby="harta-titlu">
@@ -102,39 +112,43 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Național — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://adevarul.ro/" target="_blank" rel="noopener noreferrer">Adevărul</a></td>
-              <td>17</td><td>61</td><td>28%</td><td>0</td>
+              <td>16</td><td>52</td><td>31%</td><td>0</td><td>  Nemăsurat<br><small>0/16 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://antena3.ro/" target="_blank" rel="noopener noreferrer">Antena 3 CNN</a></td>
-              <td>18</td><td>60</td><td>30%</td><td>0</td>
+              <td>17</td><td>53</td><td>32%</td><td>0</td><td>  Nemăsurat<br><small>0/17 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://digi24.ro/" target="_blank" rel="noopener noreferrer">Digi24</a></td>
-              <td>23</td><td>58</td><td>40%</td><td>0</td>
+              <td>21</td><td>51</td><td>41%</td><td>0</td><td>  Nemăsurat<br><small>0/21 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://hotnews.ro/" target="_blank" rel="noopener noreferrer">HotNews</a></td>
-              <td>24</td><td>79</td><td>30%</td><td>0</td>
+              <td>23</td><td>73</td><td>32%</td><td>0</td><td>  <strong>1/1</strong> recitiri fără schimbare materială<br>
+  <small>1/23 articole recitite ·
+    <time datetime="2026-10-27T00:35:42.813123+00:00">2026-10-27 00:35</time> –
+    <time datetime="2026-10-27T13:22:27.156591+00:00">2026-10-27 13:22</time> UTC</small>
+</td>
             </tr>
             <tr>
               <td><a href="https://libertatea.ro/" target="_blank" rel="noopener noreferrer">Libertatea</a></td>
-              <td>2</td><td>7</td><td>29%</td><td>1</td>
+              <td>2</td><td>5</td><td>40%</td><td>1</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://observatornews.ro/" target="_blank" rel="noopener noreferrer">Observator</a></td>
-              <td>23</td><td>56</td><td>41%</td><td>0</td>
+              <td>18</td><td>46</td><td>39%</td><td>0</td><td>  Nemăsurat<br><small>0/18 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://spotmedia.ro/" target="_blank" rel="noopener noreferrer">Spotmedia</a></td>
-              <td>20</td><td>58</td><td>34%</td><td>0</td>
+              <td>20</td><td>57</td><td>35%</td><td>0</td><td>  Nemăsurat<br><small>0/20 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://stirileprotv.ro/" target="_blank" rel="noopener noreferrer">Știrile ProTV</a></td>
-              <td>17</td><td>63</td><td>27%</td><td>0</td>
+              <td>14</td><td>56</td><td>25%</td><td>0</td><td>  Nemăsurat<br><small>0/14 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -155,47 +169,43 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Regional — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://criticarad.ro/" target="_blank" rel="noopener noreferrer">Critic Arad</a></td>
-              <td>5</td><td>9</td><td>56%</td><td>0</td>
+              <td>6</td><td>10</td><td>60%</td><td>0</td><td>  Nemăsurat<br><small>0/6 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://cronicaolteniei.ro/" target="_blank" rel="noopener noreferrer">Cronica Olteniei</a></td>
-              <td>4</td><td>5</td><td>80%</td><td>0</td>
+              <td>2</td><td>3</td><td>67%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://dobrogeaonline.ro/" target="_blank" rel="noopener noreferrer">Dobrogea Online</a></td>
-              <td>13</td><td>74</td><td>18%</td><td>2</td>
+              <td>12</td><td>72</td><td>17%</td><td>2</td><td>  Nemăsurat<br><small>0/12 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://dobrogeanews.ro/" target="_blank" rel="noopener noreferrer">DobrogeaNews</a></td>
-              <td>5</td><td>6</td><td>83%</td><td>0</td>
+              <td>5</td><td>6</td><td>83%</td><td>0</td><td>  Nemăsurat<br><small>0/5 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://expressdebanat.ro/" target="_blank" rel="noopener noreferrer">Express de Banat</a></td>
-              <td>5</td><td>12</td><td>42%</td><td>0</td>
+              <td>4</td><td>9</td><td>44%</td><td>0</td><td>  Nemăsurat<br><small>0/4 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://jurnalulolteniei.ro/" target="_blank" rel="noopener noreferrer">Jurnalul Olteniei</a></td>
-              <td>3</td><td>18</td><td>17%</td><td>0</td>
+              <td>3</td><td>14</td><td>21%</td><td>0</td><td>  Nemăsurat<br><small>0/3 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://newsbucovina.ro/" target="_blank" rel="noopener noreferrer">NewsBucovina</a></td>
-              <td>2</td><td>4</td><td>50%</td><td>0</td>
+              <td>2</td><td>4</td><td>50%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://zch.ro/" target="_blank" rel="noopener noreferrer">ZCH News</a></td>
-              <td>5</td><td>9</td><td>56%</td><td>0</td>
-            </tr>
-            <tr>
-              <td><a href="https://ziarultransilvaniei.ro/" target="_blank" rel="noopener noreferrer">Ziarul Transilvaniei</a></td>
-              <td>1</td><td>2</td><td>50%</td><td>0</td>
+              <td>5</td><td>9</td><td>56%</td><td>0</td><td>  Nemăsurat<br><small>0/5 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://ziuadevest.ro/" target="_blank" rel="noopener noreferrer">Ziua de Vest</a></td>
-              <td>8</td><td>25</td><td>32%</td><td>0</td>
+              <td>5</td><td>21</td><td>24%</td><td>0</td><td>  Nemăsurat<br><small>0/5 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -209,6 +219,7 @@
           <li><a href="https://stirilemoldovei.ro/" target="_blank" rel="noopener noreferrer">Știrile Moldovei</a></li>
           <li><a href="https://stirileolteniei.ro/" target="_blank" rel="noopener noreferrer">Știrile Olteniei</a></li>
           <li><a href="https://zdp.ro/" target="_blank" rel="noopener noreferrer">Ziarul de Ploiești</a></li>
+          <li><a href="https://ziarultransilvaniei.ro/" target="_blank" rel="noopener noreferrer">Ziarul Transilvaniei</a></li>
         </ul>
 
       </div>
@@ -221,151 +232,151 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Județean — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://actualmm.ro/" target="_blank" rel="noopener noreferrer">actualMM</a></td>
-              <td>1</td><td>3</td><td>33%</td><td>0</td>
+              <td>1</td><td>3</td><td>33%</td><td>0</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://alba24.ro/" target="_blank" rel="noopener noreferrer">Alba24</a></td>
-              <td>12</td><td>23</td><td>52%</td><td>0</td>
+              <td>10</td><td>19</td><td>53%</td><td>0</td><td>  Nemăsurat<br><small>0/10 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://aradon.ro/" target="_blank" rel="noopener noreferrer">ARADON</a></td>
-              <td>6</td><td>20</td><td>30%</td><td>1</td>
+              <td>6</td><td>22</td><td>27%</td><td>1</td><td>  Nemăsurat<br><small>0/6 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://b365.ro/" target="_blank" rel="noopener noreferrer">B365</a></td>
-              <td>2</td><td>7</td><td>29%</td><td>0</td>
+              <td>3</td><td>7</td><td>43%</td><td>0</td><td>  Nemăsurat<br><small>0/3 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://bihon.ro/" target="_blank" rel="noopener noreferrer">Bihon</a></td>
-              <td>3</td><td>12</td><td>25%</td><td>0</td>
+              <td>3</td><td>11</td><td>27%</td><td>0</td><td>  Nemăsurat<br><small>0/3 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://bistriteanul.ro/" target="_blank" rel="noopener noreferrer">Bistrițeanul.ro</a></td>
-              <td>1</td><td>4</td><td>25%</td><td>0</td>
+              <td>1</td><td>5</td><td>20%</td><td>0</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://bizbrasov.ro/" target="_blank" rel="noopener noreferrer">BizBrașov</a></td>
-              <td>17</td><td>28</td><td>61%</td><td>0</td>
+              <td>13</td><td>24</td><td>54%</td><td>0</td><td>  Nemăsurat<br><small>0/13 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://bzi.ro/" target="_blank" rel="noopener noreferrer">BZI Iași</a></td>
-              <td>2</td><td>4</td><td>50%</td><td>1</td>
+              <td>2</td><td>4</td><td>50%</td><td>1</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://cvlpress.ro/" target="_blank" rel="noopener noreferrer">Cuvântul Libertății</a></td>
-              <td>6</td><td>11</td><td>55%</td><td>0</td>
+              <td>6</td><td>11</td><td>55%</td><td>0</td><td>  Nemăsurat<br><small>0/6 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://desteptarea.ro/" target="_blank" rel="noopener noreferrer">Desteptarea.ro</a></td>
-              <td>1</td><td>2</td><td>50%</td><td>0</td>
+              <td>1</td><td>2</td><td>50%</td><td>0</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://emaramures.ro/" target="_blank" rel="noopener noreferrer">eMaramureș</a></td>
-              <td>2</td><td>5</td><td>40%</td><td>0</td>
+              <td>2</td><td>4</td><td>50%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://estnews.ro/" target="_blank" rel="noopener noreferrer">Est News</a></td>
-              <td>2</td><td>4</td><td>50%</td><td>0</td>
+              <td>2</td><td>5</td><td>40%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://focuspress.ro/" target="_blank" rel="noopener noreferrer">FocusPress</a></td>
-              <td>39</td><td>53</td><td>74%</td><td>4</td>
+              <td>43</td><td>58</td><td>74%</td><td>4</td><td>  Nemăsurat<br><small>0/43 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://gazetadecluj.ro/" target="_blank" rel="noopener noreferrer">Gazeta de Cluj</a></td>
-              <td>4</td><td>10</td><td>40%</td><td>0</td>
+              <td>4</td><td>8</td><td>50%</td><td>0</td><td>  Nemăsurat<br><small>0/4 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://gorjeanul.ro/" target="_blank" rel="noopener noreferrer">Gorjeanul</a></td>
-              <td>11</td><td>19</td><td>58%</td><td>1</td>
+              <td>11</td><td>19</td><td>58%</td><td>1</td><td>  Nemăsurat<br><small>0/11 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://magazinsalajean.ro/" target="_blank" rel="noopener noreferrer">Magazin Sălăjean</a></td>
-              <td>0</td><td>2</td><td>0%</td><td>0</td>
+              <td>0</td><td>2</td><td>0%</td><td>0</td><td>  Nemăsurat</td>
             </tr>
             <tr>
               <td><a href="https://monitorulbt.ro/" target="_blank" rel="noopener noreferrer">Monitorul de Botoșani</a></td>
-              <td>2</td><td>11</td><td>18%</td><td>0</td>
+              <td>2</td><td>9</td><td>22%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://monitoruldegalati.ro/" target="_blank" rel="noopener noreferrer">Monitorul de Galați</a></td>
-              <td>4</td><td>5</td><td>80%</td><td>0</td>
+              <td>4</td><td>6</td><td>67%</td><td>0</td><td>  Nemăsurat<br><small>0/4 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://monitoruldevrancea.ro/" target="_blank" rel="noopener noreferrer">Monitorul de Vrancea</a></td>
-              <td>3</td><td>3</td><td>100%</td><td>0</td>
+              <td>3</td><td>3</td><td>100%</td><td>0</td><td>  Nemăsurat<br><small>0/3 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://mytex.ro/" target="_blank" rel="noopener noreferrer">MyTex</a></td>
-              <td>11</td><td>30</td><td>37%</td><td>0</td>
+              <td>9</td><td>25</td><td>36%</td><td>0</td><td>  Nemăsurat<br><small>0/9 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://newsbv.ro/" target="_blank" rel="noopener noreferrer">News Brașov</a></td>
-              <td>16</td><td>41</td><td>39%</td><td>1</td>
+              <td>12</td><td>33</td><td>36%</td><td>1</td><td>  Nemăsurat<br><small>0/12 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://observatorulph.ro/" target="_blank" rel="noopener noreferrer">Observatorul Prahovean</a></td>
-              <td>4</td><td>11</td><td>36%</td><td>0</td>
+              <td>5</td><td>12</td><td>42%</td><td>0</td><td>  Nemăsurat<br><small>0/5 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://opiniatimisoarei.ro/" target="_blank" rel="noopener noreferrer">Opinia Timișoarei</a></td>
-              <td>3</td><td>6</td><td>50%</td><td>0</td>
+              <td>5</td><td>8</td><td>62%</td><td>0</td><td>  Nemăsurat<br><small>0/5 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://pandurul.ro/" target="_blank" rel="noopener noreferrer">Pandurul</a></td>
-              <td>2</td><td>15</td><td>13%</td><td>0</td>
+              <td>2</td><td>15</td><td>13%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://presasm.ro/" target="_blank" rel="noopener noreferrer">PresaSM</a></td>
-              <td>1</td><td>2</td><td>50%</td><td>0</td>
+              <td>1</td><td>2</td><td>50%</td><td>0</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://pressalert.ro/" target="_blank" rel="noopener noreferrer">PressAlert Timișoara</a></td>
-              <td>14</td><td>28</td><td>50%</td><td>0</td>
+              <td>11</td><td>24</td><td>46%</td><td>0</td><td>  Nemăsurat<br><small>0/10 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://rasunetul.ro/" target="_blank" rel="noopener noreferrer">Răsunetul</a></td>
-              <td>2</td><td>6</td><td>33%</td><td>0</td>
+              <td>2</td><td>6</td><td>33%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://servuspress.ro/" target="_blank" rel="noopener noreferrer">Servuspress</a></td>
-              <td>0</td><td>2</td><td>0%</td><td>0</td>
+              <td>0</td><td>3</td><td>0%</td><td>0</td><td>  Nemăsurat</td>
             </tr>
             <tr>
               <td><a href="https://stiridebuzau.ro/" target="_blank" rel="noopener noreferrer">Știri de Buzău</a></td>
-              <td>2</td><td>3</td><td>67%</td><td>0</td>
+              <td>2</td><td>3</td><td>67%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://szekelyhon.ro/" target="_blank" rel="noopener noreferrer">Székelyhon</a></td>
-              <td>1</td><td>2</td><td>50%</td><td>0</td>
+              <td>1</td><td>2</td><td>50%</td><td>0</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://tion.ro/" target="_blank" rel="noopener noreferrer">Timiș Online</a></td>
-              <td>15</td><td>33</td><td>45%</td><td>0</td>
+              <td>10</td><td>28</td><td>36%</td><td>0</td><td>  Nemăsurat<br><small>0/10 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://timponline.ro/" target="_blank" rel="noopener noreferrer">TimpOnline.ro</a></td>
-              <td>4</td><td>11</td><td>36%</td><td>0</td>
+              <td>5</td><td>12</td><td>42%</td><td>0</td><td>  Nemăsurat<br><small>0/5 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://turnulsfatului.ro/" target="_blank" rel="noopener noreferrer">Turnul Sfatului</a></td>
-              <td>4</td><td>9</td><td>44%</td><td>0</td>
+              <td>3</td><td>7</td><td>43%</td><td>0</td><td>  Nemăsurat<br><small>0/3 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://vremeanoua.ro/" target="_blank" rel="noopener noreferrer">Vremea Nouă</a></td>
-              <td>2</td><td>3</td><td>67%</td><td>0</td>
+              <td>3</td><td>4</td><td>75%</td><td>0</td><td>  Nemăsurat<br><small>0/3 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://zi-de-zi.ro/" target="_blank" rel="noopener noreferrer">Zi de Zi</a></td>
-              <td>1</td><td>3</td><td>33%</td><td>0</td>
+              <td>1</td><td>3</td><td>33%</td><td>0</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://zcj.ro/" target="_blank" rel="noopener noreferrer">Ziua de Cluj</a></td>
-              <td>7</td><td>26</td><td>27%</td><td>0</td>
+              <td>5</td><td>22</td><td>23%</td><td>0</td><td>  Nemăsurat<br><small>0/5 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -1357,11 +1368,11 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Politică — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://g4media.ro/" target="_blank" rel="noopener noreferrer">G4Media</a></td>
-              <td>27</td><td>76</td><td>36%</td><td>1</td>
+              <td>24</td><td>70</td><td>34%</td><td>1</td><td>  Nemăsurat<br><small>0/24 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -1385,27 +1396,27 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Economie — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://cursdeguvernare.ro/" target="_blank" rel="noopener noreferrer">Curs de Guvernare</a></td>
-              <td>4</td><td>25</td><td>16%</td><td>0</td>
+              <td>3</td><td>20</td><td>15%</td><td>0</td><td>  Nemăsurat<br><small>0/3 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://economedia.ro/" target="_blank" rel="noopener noreferrer">Economedia</a></td>
-              <td>20</td><td>49</td><td>41%</td><td>1</td>
+              <td>14</td><td>35</td><td>40%</td><td>1</td><td>  Nemăsurat<br><small>0/14 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://economica.net/" target="_blank" rel="noopener noreferrer">Economica</a></td>
-              <td>41</td><td>70</td><td>59%</td><td>1</td>
+              <td>38</td><td>63</td><td>60%</td><td>1</td><td>  Nemăsurat<br><small>0/38 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://profit.ro/" target="_blank" rel="noopener noreferrer">Profit.ro</a></td>
-              <td>19</td><td>47</td><td>40%</td><td>1</td>
+              <td>18</td><td>40</td><td>45%</td><td>1</td><td>  Nemăsurat<br><small>0/18 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://zf.ro/" target="_blank" rel="noopener noreferrer">Ziarul Financiar</a></td>
-              <td>5</td><td>9</td><td>56%</td><td>1</td>
+              <td>5</td><td>9</td><td>56%</td><td>1</td><td>  Nemăsurat<br><small>0/5 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -1422,23 +1433,23 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Externe — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://feeds.bbci.co.uk/" target="_blank" rel="noopener noreferrer">BBC Europe</a></td>
-              <td>1</td><td>3</td><td>33%</td><td>0</td>
+              <td>1</td><td>3</td><td>33%</td><td>0</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://digi24.ro/" target="_blank" rel="noopener noreferrer">Digi24 Extern</a></td>
-              <td>28</td><td>60</td><td>47%</td><td>0</td>
+              <td>27</td><td>58</td><td>47%</td><td>0</td><td>  Nemăsurat<br><small>0/27 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://politico.eu/" target="_blank" rel="noopener noreferrer">Politico EU</a></td>
-              <td>3</td><td>4</td><td>75%</td><td>0</td>
+              <td>2</td><td>3</td><td>67%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://theguardian.com/" target="_blank" rel="noopener noreferrer">The Guardian</a></td>
-              <td>1</td><td>4</td><td>25%</td><td>0</td>
+              <td>1</td><td>4</td><td>25%</td><td>0</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -1460,27 +1471,27 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Sport — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://as.ro/" target="_blank" rel="noopener noreferrer">Antena Sport</a></td>
-              <td>21</td><td>48</td><td>44%</td><td>0</td>
+              <td>18</td><td>45</td><td>40%</td><td>0</td><td>  Nemăsurat<br><small>0/18 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://fcinter1908.it/" target="_blank" rel="noopener noreferrer">FC Inter 1908</a></td>
-              <td>2</td><td>2</td><td>100%</td><td>0</td>
+              <td>2</td><td>2</td><td>100%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://gsp.ro/" target="_blank" rel="noopener noreferrer">GSP</a></td>
-              <td>26</td><td>48</td><td>54%</td><td>2</td>
+              <td>24</td><td>47</td><td>51%</td><td>2</td><td>  Nemăsurat<br><small>0/24 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://prosport.ro/" target="_blank" rel="noopener noreferrer">ProSport</a></td>
-              <td>12</td><td>29</td><td>41%</td><td>0</td>
+              <td>10</td><td>28</td><td>36%</td><td>0</td><td>  Nemăsurat<br><small>0/10 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://sport.ro/" target="_blank" rel="noopener noreferrer">Sport.ro</a></td>
-              <td>22</td><td>37</td><td>59%</td><td>1</td>
+              <td>22</td><td>35</td><td>63%</td><td>1</td><td>  Nemăsurat<br><small>0/22 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -1501,19 +1512,19 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Tech — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://connect.ro/" target="_blank" rel="noopener noreferrer">Connect.ro</a></td>
-              <td>3</td><td>5</td><td>60%</td><td>0</td>
+              <td>3</td><td>5</td><td>60%</td><td>0</td><td>  Nemăsurat<br><small>0/3 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://start-up.ro/" target="_blank" rel="noopener noreferrer">Start-up.ro</a></td>
-              <td>2</td><td>5</td><td>40%</td><td>0</td>
+              <td>2</td><td>4</td><td>50%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://zonait.ro/" target="_blank" rel="noopener noreferrer">ZonaIT</a></td>
-              <td>2</td><td>3</td><td>67%</td><td>0</td>
+              <td>2</td><td>3</td><td>67%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -1530,15 +1541,15 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Auto — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://autocritica.ro/" target="_blank" rel="noopener noreferrer">AutoCritica</a></td>
-              <td>3</td><td>9</td><td>33%</td><td>0</td>
+              <td>2</td><td>7</td><td>29%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://automarket.ro/" target="_blank" rel="noopener noreferrer">AutoMarket</a></td>
-              <td>5</td><td>9</td><td>56%</td><td>0</td>
+              <td>4</td><td>8</td><td>50%</td><td>0</td><td>  Nemăsurat<br><small>0/4 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -1572,11 +1583,11 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Cultură — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://bookhub.ro/" target="_blank" rel="noopener noreferrer">Bookhub</a></td>
-              <td>1</td><td>2</td><td>50%</td><td>0</td>
+              <td>1</td><td>2</td><td>50%</td><td>0</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -1598,19 +1609,19 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Lifestyle — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://avantaje.ro/" target="_blank" rel="noopener noreferrer">Avantaje</a></td>
-              <td>3</td><td>4</td><td>75%</td><td>0</td>
+              <td>1</td><td>2</td><td>50%</td><td>0</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
             <tr>
               <td><a href="https://elle.ro/" target="_blank" rel="noopener noreferrer">Elle România</a></td>
-              <td>0</td><td>3</td><td>0%</td><td>0</td>
+              <td>0</td><td>3</td><td>0%</td><td>0</td><td>  Nemăsurat</td>
             </tr>
             <tr>
               <td><a href="https://unica.ro/" target="_blank" rel="noopener noreferrer">Unica</a></td>
-              <td>1</td><td>6</td><td>17%</td><td>1</td>
+              <td>1</td><td>5</td><td>20%</td><td>1</td><td>  Nemăsurat<br><small>0/1 articole recitite</small></td>
             </tr>
           </tbody>
         </table>
@@ -1631,11 +1642,11 @@
         <div class="table-wrap">
         <table class="stats-table">
           <caption class="visually-hidden">Discounturi — surse cu statistici de originalitate</caption>
-          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th></tr></thead>
+          <thead><tr><th>Sursă</th><th>A publicat prima</th><th>Apariții în sinteze</th><th>Rată de inițiativă</th><th>Actualizate ulterior</th><th>Text la recitire</th></tr></thead>
           <tbody>
             <tr>
               <td><a href="https://nwradu.ro/" target="_blank" rel="noopener noreferrer">NwRadu</a></td>
-              <td>3</td><td>4</td><td>75%</td><td>0</td>
+              <td>2</td><td>3</td><td>67%</td><td>0</td><td>  Nemăsurat<br><small>0/2 articole recitite</small></td>
             </tr>
           </tbody>
         </table>

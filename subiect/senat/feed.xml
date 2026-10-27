@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/senat/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Senat pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 13:35:18 +0000</lastBuildDate>
     <item>
       <title>Controverse privind noul curs obligatoriu de legislație pentru trotinete</title>
       <link>https://izz.ro/auto/controverse-privind-noul-curs-obligatoriu-de-legislatie-pentru-trotinete/</link>
@@ -15,6 +15,16 @@
       <source url="https://adevarul.ro/stiri-interne/societate/patru-motive-pentru-care-introducerea-unui-curs-de-2565894.html">Adevărul</source>
       <media:content url="https://izz.ro/auto/controverse-privind-noul-curs-obligatoriu-de-legislatie-pentru-trotinete/cover.jpg?v=2d241b43" medium="image" type="image/jpeg"/>
       <description>Obligativitatea unui curs de legislație rutieră pentru utilizatorii de trotinete electrice, adoptată de Senat, este criticată pentru eficiența sa redusă în zonele cheie.</description>
+    </item>
+    <item>
+      <title>Senatul a votat reducerea avansului la 5% pentru tinerii care accesează programul Noua Casă</title>
+      <link>https://izz.ro/economic/senatul-a-votat-reducerea-avansului-la-5-pentru-tinerii-care-acceseaza/</link>
+      <guid>https://izz.ro/economic/senatul-a-votat-reducerea-avansului-la-5-pentru-tinerii-care-acceseaza/</guid>
+      <pubDate>Mon, 26 Oct 2026 18:45:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/real-estate-constructii/modificare-importanta-la-programul-noua-casa-tinerii-sub-35-ani-vor-putea-veni-cu-avans-mult-mai-mic-pentru-a-si-cumpara-locuinte-22886703?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/economic/senatul-a-votat-reducerea-avansului-la-5-pentru-tinerii-care-acceseaza/cover.jpg?v=ecbb530f" medium="image" type="image/jpeg"/>
+      <description>Proiectul adoptat de senatori le permite tinerilor sub 35 de ani să achite un avans redus la locuințele cu prețuri între 70.001 și 140.000 de euro, măsura urmând să primească votul final la Camera Deputaților.</description>
     </item>
     <item>
       <title>Senatul a adoptat proiectul privind purtarea obligatorie a căștii pentru trotinete și biciclete electrice</title>
@@ -33,7 +43,6 @@
       <pubDate>Mon, 26 Oct 2026 06:01:57 +0000</pubDate>
       <category>sanatate</category>
       <source url="https://www.bihon.ro/stiri-internationale/romania/pacientii-cu-boli-cronice-ar-putea-beneficia-de-mai-multe-investigatii-gratuite-ce-schimbari-sunt-propuse-5443218/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
-      <media:content url="https://izz.ro/sanatate/senatul-propune-eliminarea-plafonului-anual-pentru-investigatii-medicale/cover.jpg?v=73d10c31" medium="image" type="image/jpeg"/>
       <description>Un nou proiect legislativ adoptat de Senat urmărește eliminarea limitei de o singură investigație medicală de înaltă performanță pe an, permițând decontarea tuturor analizelor necesare monitorizării bolilor cronice la recomandarea medicului.</description>
     </item>
     <item>
@@ -116,14 +125,5 @@
       <category>economic</category>
       <source url="https://alba24.ro/o-noua-taxa-pentru-firme-direct-in-buzunarul-avocatilor-contractele-vor-trebui-supervizate-contra-cost-masura-halucinanta-1163054.html">Alba24</source>
       <description>Un nou proiect depus la Senat impune intervenția obligatorie a avocaților la redactarea anumitor contracte comerciale și în procedurile notariale de divorț pentru cuplurile cu minori, generând costuri suplimentare.</description>
-    </item>
-    <item>
-      <title>Senatul a votat extinderea concediului pentru însoțitorii bolnavilor de cancer</title>
-      <link>https://izz.ro/politic/senatul-a-votat-extinderea-concediului-pentru-insotitorii-bolnavilor-de-cancer/</link>
-      <guid>https://izz.ro/politic/senatul-a-votat-extinderea-concediului-pentru-insotitorii-bolnavilor-de-cancer/</guid>
-      <pubDate>Thu, 15 Oct 2026 07:04:23 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.g4media.ro/indemnizatie-si-concediu-pentru-insotitorii-pacientilor-oncologici-la-investigatii-medicale-initiativa-a-usr-care-nu-a-indicat-de-unde-ia-banii-necesari.html">G4Media</source>
-      <description>Camera Superioară a Parlamentului a aprobat o propunere legislativă a USR care garantează concediu și indemnizație pentru însoțitorii pacienților oncologici prezenți la investigații medicale, nu doar în timpul operațiilor.</description>
     </item>
 </channel></rss>

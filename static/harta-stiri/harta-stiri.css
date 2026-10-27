@@ -68,6 +68,7 @@ button,input { font:inherit; }
 /* Granita interioara se desenează INTOTDEAUNA intr-o culoare care se vede (inainte: #ffffff
    pe #ffffff = 1,00:1, granita invizibila prin construcție). */
 .map-county.h0,.map-uat.h0{fill:var(--map-h0)}
+.map-county.is-unmeasured,.map-uat.is-unmeasured{stroke-dasharray:3 2}
 .map-county.h1,.map-uat.h1{fill:var(--map-h1)}
 .map-county.h2,.map-uat.h2{fill:var(--map-h2)}
 .map-county.h3,.map-uat.h3{fill:var(--map-h3)}

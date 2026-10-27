@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/ucraina/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ucraina pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 13:35:18 +0000</lastBuildDate>
+    <item>
+      <title>Rusia oferă fonduri consistente cetățenilor ruși care se mută în Herson</title>
+      <link>https://izz.ro/extern/rusia-ofera-fonduri-consistente-cetatenilor-rusi-care-se-muta-in-herson/</link>
+      <guid>https://izz.ro/extern/rusia-ofera-fonduri-consistente-cetatenilor-rusi-care-se-muta-in-herson/</guid>
+      <pubDate>Tue, 27 Oct 2026 13:19:31 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/doua-milioane-de-ruble-pentru-mutarea-profesorilor-si-medicilor-kremlinul-ii-plateste-pe-rusi-sa-se-stabileasca-in-herson-ucrainenii-sunt-obligati-sa-isi-paraseasca-locuintele.html">G4Media</source>
+      <media:content url="https://izz.ro/extern/rusia-ofera-fonduri-consistente-cetatenilor-rusi-care-se-muta-in-herson/cover.jpg?v=f578bb8f" medium="image" type="image/jpeg"/>
+      <description>Moscova acordă până la două milioane de ruble profesorilor și medicilor dispuși să se relocheze în teritoriile ocupate, serviciile ucrainene acuzând o tentativă forțată de înlocuire a populației locale.</description>
+    </item>
     <item>
       <title>Zelenski a prezentat SUA trei opțiuni pentru oprirea atacurilor asupra rafinăriilor</title>
       <link>https://izz.ro/extern/zelenski-a-prezentat-sua-trei-optiuni-pentru-oprirea-atacurilor-asupra/</link>
@@ -133,7 +143,6 @@
       <pubDate>Mon, 26 Oct 2026 06:16:22 +0000</pubDate>
       <category>extern</category>
       <source url="https://stirileprotv.ro/stiri/international/rusia-ucraina-si-sua-fata-in-fata-in-noiembrie-anuntul-lui-zelenski.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/extern/volodimir-zelenski-anunta-o-reuniune-trilaterala-pentru-pace/cover.jpg?v=498851d5" medium="image" type="image/jpeg"/>
       <description>Președintele Ucrainei a confirmat organizarea unei întrevederi programate în luna noiembrie, mediată de Statele Unite, care va aduna la aceeași masă reprezentanți ai Rusiei și Ucrainei pentru relansarea negocierilor.</description>
     </item>
     <item>
@@ -143,7 +152,6 @@
       <pubDate>Mon, 26 Oct 2026 05:05:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.politico.eu/podcast/brussels-playbook-podcast/its-complicated-the-status-of-eu-canada-relations/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <media:content url="https://izz.ro/extern/relatiile-dintre-uniunea-europeana-si-canada-discutate-la-summitul-de-la/cover.jpg?v=11692065" medium="image" type="image/jpeg"/>
       <description>Liderii internaționali se întâlnesc la Montreal pentru a clarifica acordurile economice bilaterale, în timp ce criza din Ucraina complică negocierile privind bugetul european pe termen lung.</description>
     </item>
     <item>
@@ -153,7 +161,6 @@
       <pubDate>Mon, 26 Oct 2026 05:00:35 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/rusia/greu-de-invins-noua-arma-tehnologica-a-rusiei-dronele-rusesti-reusesc-sa-loveasca-tinte-cu-precizie-in-kiev-in-ciuda-bruiajului-4002717">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/rusia-foloseste-retele-de-tip-mesh-pentru-ghidarea-dronelor-in-kiev/cover.jpg?v=48b74892" medium="image" type="image/jpeg"/>
       <description>Armata rusă utilizează tehnologii de comunicare descentralizate pentru a spori raza de acțiune și precizia dronelor trimise în Ucraina, ocolind astfel măsurile de bruiaj electronic și terminalele Starlink.</description>
     </item>
     <item>
@@ -461,14 +468,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/schimb-impresionant-de-prizonieri-de-razboi-intre-rusia-si-ucraina-zelenski-ii-tinem-minte-pe-toti-si-ii-cautam-4006571">Digi24 Extern</source>
       <description>M Moscova și Kievul au realizat un nou schimb de prizonieri, fiecare parte eliberând 270 de persoane, înaintea reluării negocierilor din noiembrie.</description>
-    </item>
-    <item>
-      <title>Hrivna ucraineană a atins un minim istoric în raport cu dolarul american</title>
-      <link>https://izz.ro/economic/hrivna-ucraineana-a-atins-un-minim-istoric-in-raport-cu-dolarul-american/</link>
-      <guid>https://izz.ro/economic/hrivna-ucraineana-a-atins-un-minim-istoric-in-raport-cu-dolarul-american/</guid>
-      <pubDate>Fri, 23 Oct 2026 16:49:26 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://economedia.ro/moneda-nationala-a-ucrainei-s-a-depreciat-ajungand-la-un-minim-istoric-fata-de-dolar-tara-se-confrunta-si-cu-inflatie-mai-ridicata.html">Economedia</source>
-      <description>Banca Națională a Ucrainei raportează o depreciere accentuată a monedei naționale, pe fondul presiunilor inflaționiste persistente din economie.</description>
     </item>
 </channel></rss>

@@ -13,7 +13,7 @@
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
-  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=9249f8fe">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=e962a980">
   <link rel="canonical" href="https://izz.ro/harta/galati/">
   <meta property="og:title" content="Știri din Galați — Harta știrilor IZZ.ro">
   <meta property="og:description" content="Știri locale și județene localizate în Galați, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
@@ -36,7 +36,7 @@
         <p class="eyebrow">GEOGRAFIE EDITORIALĂ</p>
         <h1>Știri din Galați</h1>
         <p class="map-task">Explorează știrile localizate din Galați. Harta pornește filtrată pe județ; poți reveni oricând la România.</p>
-        <p class="map-disclosure">Harta afișează numai localizări determinate. Numărul indică <strong>evenimentele sau relatările afișate</strong>, nu o statistică oficială a incidentelor.</p>
+        <p class="map-disclosure">Harta afișează numai localizări determinate. În scara Volum, numărul indică <strong>evenimentele sau relatările afișate</strong>, nu o statistică oficială a incidentelor.</p>
       </div>
       <div class="map-stats" id="map-stats" aria-live="polite">
         <span>Se încarcă datele…</span>
@@ -62,7 +62,10 @@
         <div class="segmented" role="radiogroup" aria-label="Scara culorilor">
           <button type="button" class="active" role="radio" aria-checked="true" data-scale="volum">Volum</button>
           <button type="button" role="radio" aria-checked="false" data-scale="locuitori">Pe locuitor</button>
+          <button type="button" role="radio" aria-checked="false" data-scale="confirmari" aria-describedby="confirmation-hint confirmation-method">Confirmări încrucișate</button>
         </div>
+        <p id="confirmation-hint" class="filter-hint">„—” nemăsurat · „+” date parțiale</p>
+        <p id="confirmation-scope" class="filter-hint" hidden>Regional: culori geografice; lentila revine la alt nivel.</p>
       </fieldset>
       <fieldset class="filter-group">
         <legend>Grupează rezultatele ca</legend>
@@ -97,8 +100,8 @@
              etichetele se compuneau din praguri variabile. Aici pragurile (`data-praguri`) si benzile
              stau unul langa altul, iar tests/test_harta_scara.py le verifica acoperirea 0..∞. -->
         <div id="map-legend" class="map-legend" role="group" aria-label="Scara culorilor"
-             data-praguri="1,6,15,30" data-praguri-locuitor="0.1,1,2,4" hidden>
-          <!-- Trei titluri si doua seturi de benzi, toate scrise AICI, nu construite de JS:
+             data-praguri="1,6,15,30" data-praguri-locuitor="0.1,1,2,4" data-praguri-confirmari="1,3,6,10" hidden>
+          <!-- Titlurile si cele trei seturi de benzi sunt scrise AICI, nu construite de JS:
                „NaN"/„undefined" nu pot ajunge pe ecran prin constructie. Pragurile
                (`data-praguri`, `data-praguri-locuitor`) stau langa benzi, iar
                tests/test_harta_scara.py verifica pentru AMBELE seturi ca benzile acopera
@@ -108,6 +111,14 @@
           <span class="legend-title" data-title="volum">Volum de știri</span>
           <span class="legend-title" data-title="locuitori" hidden>Evenimente la 100.000 de locuitori</span>
           <span class="legend-title" data-title="uat" hidden>Volum de știri (pe orașe și comune)</span>
+          <span class="legend-title" data-title="confirmari" hidden>Confirmări măsurate · — nemăsurat · + date parțiale</span>
+          <span class="legend-bands" data-bands="confirmari" hidden>
+            <span class="legend-step"><span class="swatch h0" aria-hidden="true"></span>0</span>
+            <span class="legend-step"><span class="swatch h1" aria-hidden="true"></span>1–2</span>
+            <span class="legend-step"><span class="swatch h2" aria-hidden="true"></span>3–5</span>
+            <span class="legend-step"><span class="swatch h3" aria-hidden="true"></span>6–9</span>
+            <span class="legend-step"><span class="swatch h4" aria-hidden="true"></span>10+</span>
+          </span>
           <span class="legend-bands" data-bands="volum">
             <span class="legend-step"><span class="swatch h0" aria-hidden="true"></span>0</span>
             <span class="legend-step"><span class="swatch h1" aria-hidden="true"></span>1–5</span>
@@ -129,6 +140,12 @@
              de ecran), doar se deschide la cerere. -->
         <details class="map-help">
           <summary>Cum se citește harta</summary>
+          <p id="confirmation-method" class="map-note">Confirmările numără domeniile măsurate în sinteze, nu adevărul unei știri.
+            1 este prima relatare și contribuie cu 0 la confirmări. Pentru fiecare eveniment folosim cel mai mare rezultat deja măsurat,
+            fără să adunăm publicații din afirmații diferite. Culorile însumează aceste rezultate;
+            „—” înseamnă nemăsurat, iar „+” arată că lipsesc măsurători. Lista rămâne completă.
+            La nivel regional culorile delimitează regiunile editoriale, iar cifrele arată volumul;
+            alegerea lentilei se păstrează pentru întoarcere la Toate, Județean sau Local.</p>
           <!-- Footnote (F3, contractul de realitate): fiecare cifra de pe harta are langa ea
                ce e numaratorul, ce e numitorul si pe ce fereastra. Cifrele de populație sunt
                scrise static aici si verificate de tests/test_harta_scara.py contra
@@ -158,20 +175,20 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/primaria-galati-construieste-un-centru-de-sanatate-mintala-fara-evaluare-de/">Primăria Galați construiește un centru de sănătate mintală fără evaluare de mediu</a> <span>Monitorul de Galați · 27 octombrie 2026, 00:00</span></li>
+          <li><a href="/local/subprefectul-marius-celmare-a-participat-la-inchiderea-unui-proiect/">Subprefectul Marius Celmare a participat la închiderea unui proiect transfrontalier</a> <span>Monitorul de Galați · 27 octombrie 2026, 15:19</span></li>
+<li><a href="/local/spitalul-din-targu-bujor-construieste-un-corp-nou-pentru-urgente/">Spitalul din Târgu Bujor construiește un corp nou pentru Urgențe</a> <span>Monitorul de Galați · 27 octombrie 2026, 14:13</span></li>
+<li><a href="/local/rezultat-concurs-asistent-medical-generalist-scolar/">REZULTAT CONCURS – ASISTENT MEDICAL GENERALIST ȘCOLAR</a> <span>Primăria Smârdan · 27 octombrie 2026, 13:57</span></li>
+<li><a href="/local/cinci-noi-focare-de-variola-ovina-si-caprina-au-fost-confirmate-in-judetul/">Cinci noi focare de variolă ovină și caprină au fost confirmate în județul Galați</a> <span>Monitorul de Galați · 27 octombrie 2026, 13:53</span></li>
+<li><a href="/local/doi-barbati-din-umbraresti-arestati-dupa-o-talharie-la-o-terasa/">Doi bărbați din Umbrărești arestați după o tâlhărie la o terasă</a> <span>Monitorul de Galați · 27 octombrie 2026, 13:42</span></li>
+<li><a href="/judetean/anunt-privind-desfasurarea-curselor-de-agrement-26octombrie-1noiembrie-2026/">ANUNT PRIVIND DESFĂSURAREA CURSELOR DE AGREMENT (26octombrie – 1noiembrie 2026)</a> <span>CJ Galați · 27 octombrie 2026, 11:09</span></li>
+<li><a href="/local/primaria-galati-construieste-un-centru-de-sanatate-mintala-fara-evaluare-de/">Primăria Galați construiește un centru de sănătate mintală fără evaluare de mediu</a> <span>Monitorul de Galați · 27 octombrie 2026, 00:00</span></li>
 <li><a href="/local/administratia-nationala-de-meteorologie-emite-avertizari-de-ploi-si-vant-pentru/">Administrația Națională de Meteorologie emite avertizări de ploi și vânt pentru Galați</a> <span>Monitorul de Galați · 26 octombrie 2026, 15:43</span></li>
-<li><a href="/judetean/un-barbat-din-prahova-a-ridicat-premiul-de-peste-332-milioane-de-euro-la-loto-6/">Un bărbat din Prahova a ridicat premiul de peste 3,32 milioane de euro la Loto 6/49</a> <span>Monitorul de Galați · 26 octombrie 2026, 15:20</span></li>
-<li><a href="/local/muzeul-de-arta-vizuala-din-galati-gazduieste-un-eveniment-cultural-romano/">Muzeul de Artă Vizuală din Galați găzduiește un eveniment cultural româno-albanez</a> <span>Monitorul de Galați · 26 octombrie 2026, 15:05</span></li>
-<li><a href="/local/prefectura-galati-constituie-un-subgrup-pentru-comasarea-voluntara-a-primariilor/">Prefectura Galați constituie un subgrup pentru comasarea voluntară a primăriilor</a> <span>Monitorul de Galați · 26 octombrie 2026, 15:02</span></li>
-<li><a href="/local/administratia-zonei-libere-galati-organizeaza-licitatii-saptamanale-pentru/">Administrația Zonei Libere Galați organizează licitații săptămânale pentru terenuri</a> <span>Monitorul de Galați · 26 octombrie 2026, 15:01</span></li>
-<li><a href="/local/ambulanta-cu-pacient-implicata-intr-un-accident-rutier-in-braila/">Ambulanță cu pacient implicată într-un accident rutier în Brăila</a> <span>Monitorul de Galați · 25 octombrie 2026, 17:39</span></li>
-<li><a href="/local/politia-rutiera-galati-a-publicat-graficul-radarelor-pentru-aceasta-saptamana/">Poliția Rutieră Galați a publicat graficul radarelor pentru această săptămână</a> <span>Monitorul de Galați · 25 octombrie 2026, 10:25</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>
     </section>
   </main>
 
-  <script src="/static/harta-stiri/harta-stiri.js?v=d1e2606d" defer></script>
+  <script src="/static/harta-stiri/harta-stiri.js?v=980be45a" defer></script>
 </body>
 </html>

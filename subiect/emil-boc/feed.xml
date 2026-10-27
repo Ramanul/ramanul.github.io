@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/emil-boc/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Emil Boc pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 13:35:18 +0000</lastBuildDate>
+    <item>
+      <title>Un chioșc de ziare din Piața Unirii din Cluj-Napoca a fost înlocuit cu un fast-food</title>
+      <link>https://izz.ro/local/un-chiosc-de-ziare-din-piata-unirii-din-cluj-napoca-a-fost-inlocuit-cu-un-fast/</link>
+      <guid>https://izz.ro/local/un-chiosc-de-ziare-din-piata-unirii-din-cluj-napoca-a-fost-inlocuit-cu-un-fast/</guid>
+      <pubDate>Tue, 27 Oct 2026 11:54:24 +0000</pubDate>
+      <category>local</category>
+      <source url="https://gazetadecluj.ro/administratia-boc-isi-bate-joc-de-afacerile-locale-pe-o-mana-de-arginti/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/local/un-chiosc-de-ziare-din-piata-unirii-din-cluj-napoca-a-fost-inlocuit-cu-un-fast/cover.jpg?v=c36869d1" medium="image" type="image/jpeg"/>
+      <description>Primăria Cluj-Napoca este criticată după ce un tradițional chioșc de presă din zona zero a orașului a fost desființat pentru a face loc unei tarabe cu mâncare caldă.</description>
+    </item>
     <item>
       <title>Instituțiile publice din Cluj au zeci de procese pierdute la Curtea de Apel</title>
       <link>https://izz.ro/local/institutiile-publice-din-cluj-au-zeci-de-procese-pierdute-la-curtea-de-apel/</link>
@@ -23,7 +33,6 @@
       <pubDate>Mon, 26 Oct 2026 05:00:00 +0000</pubDate>
       <category>local</category>
       <source url="https://gazetadecluj.ro/dupex-firma-de-casa-a-lui-boc-a-transformat-locurile-de-joaca-din-cluj-in-cea-mai-sigura-afacere-din-romania/">Gazeta de Cluj</source>
-      <media:content url="https://izz.ro/local/firma-dupex-a-obtinut-contracte-de-milioane-de-lei-pentru-locurile-de-joaca-din/cover.jpg?v=2ff3fcbb" medium="image" type="image/jpeg"/>
       <description>Compania Dupex SRL a încheiat numeroase contracte cu Primătria Cluj-Napoca pentru furnizarea, montarea și întreținerea echipamentelor destinate parcurilor pentru copii și stațiilor de autobuz locale.</description>
     </item>
     <item>
@@ -115,23 +124,5 @@
       <category>judetean</category>
       <source url="https://zcj.ro/eveniment/emil-boc-mesaj-la-crosul-clujul-da-viata-accentuez-faptul-ca-avem-la-indemana-cea-mai-ieftina-investitie-in-sanatatea-noastra-miscarea--303000.html">Ziua de Cluj</source>
       <description>Primarul Emil Boc a transmis un mesaj de susținere pentru un stil de viață activ și donarea de organe, descriind sportul drept cea mai accesibilă investiție în propria sănătate.</description>
-    </item>
-    <item>
-      <title>Critici aduse administrației locale din Cluj privind proiectul metroului</title>
-      <link>https://izz.ro/judetean/critici-aduse-administratiei-locale-din-cluj-privind-proiectul-metroului/</link>
-      <guid>https://izz.ro/judetean/critici-aduse-administratiei-locale-din-cluj-privind-proiectul-metroului/</guid>
-      <pubDate>Thu, 15 Oct 2026 11:49:00 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://gazetadecluj.ro/metroul-de-la-cluj-improvizatii-administrative-si-promisiuni-care-nu-tin-loc-de-infrastructura-o-noua-fumigena-marca-emil-boc/">Gazeta de Cluj</source>
-      <description>Criticii subliniază necesitatea unor soluții concrete de trafic și infrastructură funcțională, acuzând conducerea primăriei condusă de Emil Boc de promovarea unor anunțuri excesiv de optimiste fără detalii clare.</description>
-    </item>
-    <item>
-      <title>Emil Boc a cerut la Bruxelles implicarea directă a orașelor în bugetul Uniunii Europene</title>
-      <link>https://izz.ro/politic/emil-boc-a-cerut-la-bruxelles-implicarea-directa-a-oraselor-in-bugetul-uniunii/</link>
-      <guid>https://izz.ro/politic/emil-boc-a-cerut-la-bruxelles-implicarea-directa-a-oraselor-in-bugetul-uniunii/</guid>
-      <pubDate>Thu, 15 Oct 2026 06:31:58 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://gazetadecluj.ro/emil-boc-a-fost-la-bruxelles-si-a-cerut-ca-administratiile-locale-sa-fie-parte-din-deciziile-pentru-bugetul-ue-2028-2034/">Gazeta de Cluj</source>
-      <description>Primarul Clujului s-a întâlnit cu oficiali europeni și a susținut că administrațiile locale trebuie să participe activ la stabilirea direcțiilor de investiții pentru exercițiul financiar 2028-2034.</description>
     </item>
 </channel></rss>

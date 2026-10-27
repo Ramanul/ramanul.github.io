@@ -13,7 +13,7 @@
   <meta property="og:image:height" content="630">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
-  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=9249f8fe">
+  <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=e962a980">
   <link rel="canonical" href="https://izz.ro/harta/harghita/">
   <meta property="og:title" content="Știri din Harghita — Harta știrilor IZZ.ro">
   <meta property="og:description" content="Știri locale și județene localizate în Harghita, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
@@ -36,7 +36,7 @@
         <p class="eyebrow">GEOGRAFIE EDITORIALĂ</p>
         <h1>Știri din Harghita</h1>
         <p class="map-task">Explorează știrile localizate din Harghita. Harta pornește filtrată pe județ; poți reveni oricând la România.</p>
-        <p class="map-disclosure">Harta afișează numai localizări determinate. Numărul indică <strong>evenimentele sau relatările afișate</strong>, nu o statistică oficială a incidentelor.</p>
+        <p class="map-disclosure">Harta afișează numai localizări determinate. În scara Volum, numărul indică <strong>evenimentele sau relatările afișate</strong>, nu o statistică oficială a incidentelor.</p>
       </div>
       <div class="map-stats" id="map-stats" aria-live="polite">
         <span>Se încarcă datele…</span>
@@ -62,7 +62,10 @@
         <div class="segmented" role="radiogroup" aria-label="Scara culorilor">
           <button type="button" class="active" role="radio" aria-checked="true" data-scale="volum">Volum</button>
           <button type="button" role="radio" aria-checked="false" data-scale="locuitori">Pe locuitor</button>
+          <button type="button" role="radio" aria-checked="false" data-scale="confirmari" aria-describedby="confirmation-hint confirmation-method">Confirmări încrucișate</button>
         </div>
+        <p id="confirmation-hint" class="filter-hint">„—” nemăsurat · „+” date parțiale</p>
+        <p id="confirmation-scope" class="filter-hint" hidden>Regional: culori geografice; lentila revine la alt nivel.</p>
       </fieldset>
       <fieldset class="filter-group">
         <legend>Grupează rezultatele ca</legend>
@@ -97,8 +100,8 @@
              etichetele se compuneau din praguri variabile. Aici pragurile (`data-praguri`) si benzile
              stau unul langa altul, iar tests/test_harta_scara.py le verifica acoperirea 0..∞. -->
         <div id="map-legend" class="map-legend" role="group" aria-label="Scara culorilor"
-             data-praguri="1,6,15,30" data-praguri-locuitor="0.1,1,2,4" hidden>
-          <!-- Trei titluri si doua seturi de benzi, toate scrise AICI, nu construite de JS:
+             data-praguri="1,6,15,30" data-praguri-locuitor="0.1,1,2,4" data-praguri-confirmari="1,3,6,10" hidden>
+          <!-- Titlurile si cele trei seturi de benzi sunt scrise AICI, nu construite de JS:
                „NaN"/„undefined" nu pot ajunge pe ecran prin constructie. Pragurile
                (`data-praguri`, `data-praguri-locuitor`) stau langa benzi, iar
                tests/test_harta_scara.py verifica pentru AMBELE seturi ca benzile acopera
@@ -108,6 +111,14 @@
           <span class="legend-title" data-title="volum">Volum de știri</span>
           <span class="legend-title" data-title="locuitori" hidden>Evenimente la 100.000 de locuitori</span>
           <span class="legend-title" data-title="uat" hidden>Volum de știri (pe orașe și comune)</span>
+          <span class="legend-title" data-title="confirmari" hidden>Confirmări măsurate · — nemăsurat · + date parțiale</span>
+          <span class="legend-bands" data-bands="confirmari" hidden>
+            <span class="legend-step"><span class="swatch h0" aria-hidden="true"></span>0</span>
+            <span class="legend-step"><span class="swatch h1" aria-hidden="true"></span>1–2</span>
+            <span class="legend-step"><span class="swatch h2" aria-hidden="true"></span>3–5</span>
+            <span class="legend-step"><span class="swatch h3" aria-hidden="true"></span>6–9</span>
+            <span class="legend-step"><span class="swatch h4" aria-hidden="true"></span>10+</span>
+          </span>
           <span class="legend-bands" data-bands="volum">
             <span class="legend-step"><span class="swatch h0" aria-hidden="true"></span>0</span>
             <span class="legend-step"><span class="swatch h1" aria-hidden="true"></span>1–5</span>
@@ -129,6 +140,12 @@
              de ecran), doar se deschide la cerere. -->
         <details class="map-help">
           <summary>Cum se citește harta</summary>
+          <p id="confirmation-method" class="map-note">Confirmările numără domeniile măsurate în sinteze, nu adevărul unei știri.
+            1 este prima relatare și contribuie cu 0 la confirmări. Pentru fiecare eveniment folosim cel mai mare rezultat deja măsurat,
+            fără să adunăm publicații din afirmații diferite. Culorile însumează aceste rezultate;
+            „—” înseamnă nemăsurat, iar „+” arată că lipsesc măsurători. Lista rămâne completă.
+            La nivel regional culorile delimitează regiunile editoriale, iar cifrele arată volumul;
+            alegerea lentilei se păstrează pentru întoarcere la Toate, Județean sau Local.</p>
           <!-- Footnote (F3, contractul de realitate): fiecare cifra de pe harta are langa ea
                ce e numaratorul, ce e numitorul si pe ce fereastra. Cifrele de populație sunt
                scrise static aici si verificate de tests/test_harta_scara.py contra
@@ -158,20 +175,20 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/intreruperi-programate-de-curent-electric-marti-in-miercurea-ciuc/">Întreruperi programate de curent electric marți în Miercurea Ciuc</a> <span>Székelyhon · 26 octombrie 2026, 20:53</span></li>
+          <li><a href="/judetean/profesoara-din-beszterce-ranita-de-un-elev-a-fost-externata/">Profesoara din Beszterce rănită de un elev a fost externată</a> <span>Székelyhon · 27 octombrie 2026, 13:48</span></li>
+<li><a href="/judetean/un-barbat-a-murit-strivit-de-un-utilaj-in-mures/">Un bărbat a murit strivit de un utilaj în Mureș</a> <span>Székelyhon · 27 octombrie 2026, 13:41</span></li>
+<li><a href="/local/intreruperi-programate-de-curent-electric-marti-in-miercurea-ciuc/">Întreruperi programate de curent electric marți în Miercurea Ciuc</a> <span>Székelyhon · 26 octombrie 2026, 20:53</span></li>
 <li><a href="/local/sri-si-diicot-au-descoperit-o-retea-de-sabotaj-coordonata-de-rusia-in/">SRI și DIICOT au descoperit o rețea de sabotaj coordonată de Rusia în Transilvania</a> <span>Székelyhon · 26 octombrie 2026, 20:12</span></li>
 <li><a href="/judetean/proiectil-din-al-doilea-razboi-mondial-descoperit-in-gyergyohodos/">Proiectil din al Doilea Război Mondial descoperit în Gyergyóhodos</a> <span>Székelyhon · 26 octombrie 2026, 20:06</span></li>
 <li><a href="/local/renovarea-scolii-din-odorheiu-secuiesc-depinde-de-decizia-noului-guvern/">Renovarea școlii din Odorheiu Secuiesc depinde de decizia noului guvern</a> <span>Székelyhon · 26 octombrie 2026, 15:57</span></li>
 <li><a href="/local/concert-simfonic-extraordinar-si-gala-de-premiere-pro-urbe-la-targu-mures/">Concert simfonic extraordinar și gală de premiere Pro Urbe la Târgu Mureș</a> <span>Székelyhon · 26 octombrie 2026, 15:45</span></li>
 <li><a href="/local/proces-verbal-de-afisare-a-anuntului-privind-vanzarea-terenului-cu-vegetatie/">Proces-verbal de afișare a anunțului privind vânzarea terenului cu vegetație forestieră</a> <span>Primăria Toplița · 26 octombrie 2026, 11:37</span></li>
-<li><a href="/judetean/antreprenorii-din-judetul-harghita-se-confrunta-cu-dificultati-economice-majore/">Antreprenorii din județul Harghita se confruntă cu dificultăți economice majore</a> <span>Székelyhon · 26 octombrie 2026, 07:53</span></li>
-<li><a href="/local/investitie-majora-pentru-infrastructura-educationala-din-carta/">Investiție majoră pentru infrastructura educațională din Cârța</a> <span>Székelyhon · 25 octombrie 2026, 13:41</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>
     </section>
   </main>
 
-  <script src="/static/harta-stiri/harta-stiri.js?v=d1e2606d" defer></script>
+  <script src="/static/harta-stiri/harta-stiri.js?v=980be45a" defer></script>
 </body>
 </html>

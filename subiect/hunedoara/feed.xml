@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/hunedoara/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Hunedoara pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 13:35:18 +0000</lastBuildDate>
+    <item>
+      <title>Concert extraordinar susținut de Corul „Ambitus” la Castelul Corvinilor</title>
+      <link>https://izz.ro/local/concert-extraordinar-sustinut-de-corul-ambitus-la-castelul-corvinilor/</link>
+      <guid>https://izz.ro/local/concert-extraordinar-sustinut-de-corul-ambitus-la-castelul-corvinilor/</guid>
+      <pubDate>Tue, 27 Oct 2026 13:00:35 +0000</pubDate>
+      <category>local</category>
+      <source url="https://servuspress.ro/corul-ambitus-al-catedralei-eroilor-din-hunedoara-concert-special-la-castelul-corvinilor_350816.html">Servuspress</source>
+      <media:content url="https://izz.ro/local/concert-extraordinar-sustinut-de-corul-ambitus-la-castelul-corvinilor/cover.jpg?v=b72050bf" medium="image" type="image/jpeg"/>
+      <description>Sala Dietei din cadrul Castelului Corvinilor va găzdui un spectacol coral festiv susținut de Corul „Ambitus” al Catedralei Eroilor din Hunedoara, eveniment integrat în manifestările culturale dedicate Anului Iancu de Hunedoara.</description>
+    </item>
     <item>
       <title>Antreprenorul Dorinel Umbrărescu investește în combinate siderurgice și energie</title>
       <link>https://izz.ro/economic/antreprenorul-dorinel-umbrarescu-investeste-in-combinate-siderurgice-si-energie/</link>
@@ -13,7 +23,6 @@
       <pubDate>Mon, 26 Oct 2026 06:00:48 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.desteptarea.ro/de-la-autostrazi-la-industrie-grea-cum-isi-construieste-dorinel-umbrarescu-propriul-ecosistem-industrial/">Desteptarea.ro</source>
-      <media:content url="https://izz.ro/economic/antreprenorul-dorinel-umbrarescu-investeste-in-combinate-siderurgice-si-energie/cover.jpg?v=3e8f0fd1" medium="image" type="image/jpeg"/>
       <description>Cunoscut pentru proiectele de infrastructură rutieră, omul de afaceri extinde portofoliul industrial. Umbrărescu achiziționează unități metalurgice inactive și intră pe piața energetică românească.</description>
     </item>
     <item>
@@ -132,14 +141,5 @@
       <category>local</category>
       <source url="https://observatornews.ro/eveniment/doi-tineri-au-fost-retinuti-dupa-ce-ar-fi-furat-produse-farmaceutice-de-7000-de-lei-in-hunedoara-669384.html">Observator</source>
       <description>Polițiștii hunedoreni au reținut un bărbat de 29 de ani și o tânără de 18 ani, bănuiți că ar fi sustras produse farmaceutice în valoare de 7.000 de lei din incinta unei farmacii locale.</description>
-    </item>
-    <item>
-      <title>Primăria Brad scoate la închiriere prin licitație publică un imobil din oraș</title>
-      <link>https://izz.ro/local/primaria-brad-scoate-la-inchiriere-prin-licitatie-publica-un-imobil-din-oras/</link>
-      <guid>https://izz.ro/local/primaria-brad-scoate-la-inchiriere-prin-licitatie-publica-un-imobil-din-oras/</guid>
-      <pubDate>Fri, 16 Oct 2026 06:11:31 +0000</pubDate>
-      <category>local</category>
-      <source url="https://primariabrad.ro/anunt-de-licitatie-privind-inchirierea-prin-licitatie-publica-a-unui-imobil-proprietatea-privata-a-municipiului-brad/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=anunt-de-licitatie-privind-inchirierea-prin-licitatie-publica-a-unui-imobil-proprietatea-privata-a-municipiului-brad">Primăria Brad</source>
-      <description>Administrația locală din Brad organizează o procedură de licitație publică finalizată prin închirierea unui bun imobil aflat în patrimoniul privat al municipiul Hunedoara, conform anunțului oficial emis de autoritatea contractantă.</description>
     </item>
 </channel></rss>

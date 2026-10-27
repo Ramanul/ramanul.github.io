@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/guvernul-romaniei/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Guvernul României pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 13:35:18 +0000</lastBuildDate>
+    <item>
+      <title>Guvernul întârzie decizia privind taxele suplimentare pentru coletele extracomunitare</title>
+      <link>https://izz.ro/economic/guvernul-intarzie-decizia-privind-taxele-suplimentare-pentru-coletele/</link>
+      <guid>https://izz.ro/economic/guvernul-intarzie-decizia-privind-taxele-suplimentare-pentru-coletele/</guid>
+      <pubDate>Tue, 27 Oct 2026 11:20:46 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://bizbrasov.ro/2026/10/27/guvern-taxe-colete-china-roman-euro/">BizBrașov</source>
+      <media:content url="https://izz.ro/economic/guvernul-intarzie-decizia-privind-taxele-suplimentare-pentru-coletele/cover.jpg?v=df82d912" medium="image" type="image/jpeg"/>
+      <description>Executivul analizează impactul noilor taxe europene de doi și trei euro aplicate coletelor din China, suplimentare față de tariful național actual, cu doar câteva zile înainte de termenul limită de la 1 noiembrie.</description>
+    </item>
     <item>
       <title>Guvernul analizează majorarea pensiilor în două etape prin legea bugetului</title>
       <link>https://izz.ro/politic/guvernul-analizeaza-majorarea-pensiilor-in-doua-etape-prin-legea-bugetului/</link>
@@ -83,7 +93,6 @@
       <pubDate>Mon, 26 Oct 2026 05:15:45 +0000</pubDate>
       <category>general</category>
       <source url="https://www.bihon.ro/stirile-judetului-bihor/economic/legea-porcului-se-schimba-radical-amenzi-confiscari-si-despagubiri-cu-limite-clare-5438298/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Bihon</source>
-      <media:content url="https://izz.ro/general/guvernul-inaspreste-sanctiunile-pentru-transportul-ilegal-de-porcine/cover.jpg?v=8d1f9848" medium="image" type="image/jpeg"/>
       <description>Noile reglementări legislative transformă transportul neautorizat a cel puțin șase porci în infracțiune pedepsită cu confiscarea vehiculului, în timp ce transporturile mai mici rămân contravenții pentru combaterea pestei porcine.</description>
     </item>
     <item>
@@ -93,7 +102,6 @@
       <pubDate>Mon, 26 Oct 2026 04:50:44 +0000</pubDate>
       <category>politic</category>
       <source url="https://adevarul.ro/stiri-interne/evenimente/premierul-luca-niculescu-se-intalneste-luni-cu-2566467.html">Adevărul, Economica, Știrile ProTV</source>
-      <media:content url="https://izz.ro/politic/programul-intalnirilor-oficiale-ale-premierului-luca-niculescu/cover.jpg?v=b8fcad98" medium="image" type="image/jpeg"/>
       <description>Premierul Luca Niculescu se întâlnește cu guvernatorul BNR Mugur Isărescu la sediul BNR. Șeful Executivului are programată o întrevedere cu reprezentanții mediului de afaceri la Palatul Victoria. Premierul a subliniat că adoptarea bugetului pe 2027 reprezintă o prioritate. Premierul a cerut vineri ministerelor accelerarea eforturilor pentru plățile PNRR.</description>
     </item>
     <item>
@@ -103,7 +111,6 @@
       <pubDate>Mon, 26 Oct 2026 04:45:31 +0000</pubDate>
       <category>local</category>
       <source url="https://newsbv.ro/siguranta-scoli-brasov-prioritate-d-o-security/">News Brașov</source>
-      <media:content url="https://izz.ro/local/d-o-security-ofera-sprijin-pentru-paza-scolilor-din-brasov/cover.jpg?v=9d9be072" medium="image" type="image/jpeg"/>
       <description>Compania D.O. Security își pune experiența de două decenii și jumătate la dispoziția autorităților și școlilor din Brașov, pentru a aplica noile măsuri guvernamentale de siguranță în unitățile de învățământ.</description>
     </item>
     <item>
@@ -456,14 +463,5 @@
       <category>economic</category>
       <source url="https://spotmedia.ro/stiri/social/1-550-de-angajati-cfr-marfa-fara-salarii-de-patru-luni-sindicatele-avertizeaza-ca-trenurile-ar-putea-fi-oprite">Spotmedia</source>
       <description>Circa 1.550 de salariați ai companiei feroviare de stat sunt neplătiți de patru luni, iar sindicatele cer intervenția executivului și avertizează cu blocarea traficului de trenuri pe șine.</description>
-    </item>
-    <item>
-      <title>Guvernul României prioritizează apărarea națională și securitatea la Marea Neagră</title>
-      <link>https://izz.ro/politic/guvernul-romaniei-prioritizeaza-apararea-nationala-si-securitatea-la-marea/</link>
-      <guid>https://izz.ro/politic/guvernul-romaniei-prioritizeaza-apararea-nationala-si-securitatea-la-marea/</guid>
-      <pubDate>Wed, 21 Oct 2026 16:58:59 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/niculescu-apararea-romaniei-este-prioritatea-zero-ce-masuri-anunta-guvernul-la-marea-neagra">Spotmedia</source>
-      <description>Premierul Luca Niculescu a declarat că securitatea teritorială reprezintă o prioritate zero, anunțând măsuri precum operaționalizarea unui hub regional și cooperarea strânsă cu aliații din NATO, Bulgaria și Turcia.</description>
     </item>
 </channel></rss>

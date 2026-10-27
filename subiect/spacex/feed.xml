@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/spacex/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SpaceX pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 06:35:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 13:35:18 +0000</lastBuildDate>
     <item>
       <title>SpaceX acumulează datorii de 40 de miliarde de dolari pentru achiziția de cipuri AI</title>
       <link>https://izz.ro/ai/spacex-acumuleaza-datorii-de-40-de-miliarde-de-dolari-pentru-achizitia-de/</link>
@@ -13,7 +13,6 @@
       <pubDate>Mon, 26 Oct 2026 05:56:48 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.zf.ro/auxiliar/spacex-aduna-datorii-de-40-de-miliarde-de-dolari-pentru-achizitionarea-de-noi-cipuri-cu-ia-23267920">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/ai/spacex-acumuleaza-datorii-de-40-de-miliarde-de-dolari-pentru-achizitia-de/cover.jpg?v=1d203500" medium="image" type="image/jpeg"/>
       <description>Compania spațială condusă de Elon Musk a strâns datorii masive destinate finanțării noilor componente hardware pentru inteligența artificială, consolidându-și poziția în acest sector după fuziunea cu xAI.</description>
     </item>
     <item>
@@ -123,32 +122,5 @@
       <category>tech</category>
       <source url="https://www.dobrogeaonline.ro/tesla-testeaza-roadsterul-echipat-cu-propulsoare-spacex-cand-incepe-productia-si-cat-costa-rezervarea/">Dobrogea Online</source>
       <description>Prototipul dezvoltat în colaborare cu compania lui Elon Musk a fost prezentat la centrul din McGregor prin teste care au inclus ridicarea și manevrarea vehiculului cu ajutorul unor propulsoare cu gaz rece.</description>
-    </item>
-    <item>
-      <title>Kaja Kallas recunoaște că UE nu poate înlocui serviciul Starlink în Ucraina</title>
-      <link>https://izz.ro/extern/kaja-kallas-recunoaste-ca-ue-nu-poate-inlocui-serviciul-starlink-in-ucraina/</link>
-      <guid>https://izz.ro/extern/kaja-kallas-recunoaste-ca-ue-nu-poate-inlocui-serviciul-starlink-in-ucraina/</guid>
-      <pubDate>Fri, 16 Oct 2026 11:34:44 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/starlink-este-cu-adevarat-indispensabil-pentru-ucraina-ue-nu-il-poate-inlocui-pe-termen-scurt-sustine-kaja-kallas-3995425">Digi24 Extern</source>
-      <description>Șefa diplomației europene a declarat că Uniunea Europeană nu are capacitatea tehnică de a suplini pe termen scurt rețeaua de sateliți SpaceX, esențială pentru operațiunile militare ale armatei ucrainene.</description>
-    </item>
-    <item>
-      <title>Tesla a prezentat noul model Roadster, disponibil în trei versiuni, inclusiv una capabilă de zbor</title>
-      <link>https://izz.ro/auto/tesla-a-prezentat-noul-model-roadster-disponibil-in-trei-versiuni-inclusiv-una/</link>
-      <guid>https://izz.ro/auto/tesla-a-prezentat-noul-model-roadster-disponibil-in-trei-versiuni-inclusiv-una/</guid>
-      <pubDate>Fri, 16 Oct 2026 09:23:16 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.nwradu.ro/2026/10/tesla-prezentat-viitorul-roadster-poate-zbura-folosind-jeturi-propulsoare/">NwRadu, Spotmedia</source>
-      <description>Tesla a prezentat noul model Roadster în cadrul unui eveniment organizat la baza SpaceX din Waco, Texas. Vehiculul electric va fi disponibil în trei versiuni de echipare: Performance, Thrust și Rocket, ultima fiind dotată cu propulsoare pentru manevre aeriene pe distanțe scurte. Mașina atinge o accelerație de la 0 la 100 km/h în sub 0,59 secunde în configurația de top. Producția este programată să înceapă în 2028, prețul final nefiind încă comunicat oficial.</description>
-    </item>
-    <item>
-      <title>Armata ucraineană anunță reluarea comunicațiilor militare prin sistemul Starshield</title>
-      <link>https://izz.ro/extern/armata-ucraineana-anunta-reluarea-comunicatiilor-militare-prin-sistemul/</link>
-      <guid>https://izz.ro/extern/armata-ucraineana-anunta-reluarea-comunicatiilor-militare-prin-sistemul/</guid>
-      <pubDate>Thu, 15 Oct 2026 11:30:31 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.europalibera.md/a/ce-se-intampla-cu-starlink-si-starshield-in-ucraina/33877117.html">Europa Liberă</source>
-      <description>Sistemul avansat de comunicații securizate Starshield, dezvoltat de SpaceX pentru armata Statelor Unite pe baza tehnologiei Starlink, funcționează din nou în mișcare pe frontul din Ucraina și își îmbunătățește constant performanțele.</description>
     </item>
 </channel></rss>
