@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 20:50:47 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 00:45:25 +0000</lastBuildDate>
+    <item>
+      <title>O reconstrucție digitală arată în detaliu chipul primilor reprezentanți Homo sapiens</title>
+      <link>https://izz.ro/tech/o-reconstructie-digitala-arata-in-detaliu-chipul-primilor-reprezentanti-homo/</link>
+      <guid>https://izz.ro/tech/o-reconstructie-digitala-arata-in-detaliu-chipul-primilor-reprezentanti-homo/</guid>
+      <pubDate>Mon, 26 Oct 2026 22:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://spotmedia.ro/stiri/magazin-si-stiinta/cum-arata-cel-mai-vechi-homo-sapiens-cunoscut-o-reconstructie-digitala-dezvaluie-un-chip-surprinzator-de-familiar">Spotmedia</source>
+      <media:content url="https://izz.ro/tech/o-reconstructie-digitala-arata-in-detaliu-chipul-primilor-reprezentanti-homo/cover.jpg?v=e8e1260a" medium="image" type="image/jpeg"/>
+      <description>Bazat pe fosile vechi de 315.000 de ani descoperite în Maroc, modelul facial dezvăluie trăsături robuste, dar surprinzător de apropiate de fizionomia oamenilor moderni.</description>
+    </item>
     <item>
       <title>Un start-up românesc folosește inteligența artificială pentru sănătatea pisicilor</title>
       <link>https://izz.ro/tech/un-start-up-romanesc-foloseste-inteligenta-artificiala-pentru-sanatatea/</link>
@@ -47,16 +57,6 @@
       <description>Noul telefon cu Android vine cu specificații de nivel mediu-superior, ecran de 6,35 inci și baterie cu siliciu-carbon, având un preț de pornire de 399 de dolari.</description>
     </item>
     <item>
-      <title>Apple a lansat noua generație a tabletei portabile iPad Mini</title>
-      <link>https://izz.ro/tech/apple-a-lansat-noua-generatie-a-tabletei-portabile-ipad-mini/</link>
-      <guid>https://izz.ro/tech/apple-a-lansat-noua-generatie-a-tabletei-portabile-ipad-mini/</guid>
-      <pubDate>Mon, 26 Oct 2026 14:13:16 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.nwradu.ro/2026/10/de-ce-imi-doresc-noul-ipad-mini-tableta-flagship-foarte-subtire-compacta/">NwRadu</source>
-      <media:content url="https://izz.ro/tech/apple-a-lansat-noua-generatie-a-tabletei-portabile-ipad-mini/cover.jpg?v=38aebb0a" medium="image" type="image/jpeg"/>
-      <description>Dispozitivul își păstrează formatul compact și ușor de utilizat cu o singură mână, aducând îmbunătățiri importante pentru utilizatorii care au nevoie de mobilitate maximă.</description>
-    </item>
-    <item>
       <title>Plăcile video NVIDIA RTX primesc un plus de performanță în inteligența artificială</title>
       <link>https://izz.ro/tech/placile-video-nvidia-rtx-primesc-un-plus-de-performanta-in-inteligenta/</link>
       <guid>https://izz.ro/tech/placile-video-nvidia-rtx-primesc-un-plus-de-performanta-in-inteligenta/</guid>
@@ -77,14 +77,14 @@
       <description>Olanda a testat cu succes aeronava electrică E9X, capabilă să transporte 90 de pasageri pe o distanță de 1.000 de kilometri exclusiv pe bază de baterii, marcând un progres important pentru aviația ecologică.</description>
     </item>
     <item>
-      <title>Apple a prezentat noul model iPad mini cu ecran OLED, procesor A20 Pro și certificare IP67</title>
+      <title>Apple a lansat noul model iPad mini cu ecran OLED și procesor A20 Pro</title>
       <link>https://izz.ro/tech/apple-a-prezentat-noul-model-ipad-mini-cu-ecran-oled-si-procesor-a20-pro/</link>
       <guid>https://izz.ro/tech/apple-a-prezentat-noul-model-ipad-mini-cu-ecran-oled-si-procesor-a20-pro/</guid>
       <pubDate>Mon, 26 Oct 2026 13:36:13 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/26/ipad-mini-oled-preturi-configuratii/">Connect.ro, Start-up.ro</source>
-      <media:content url="https://izz.ro/tech/apple-a-prezentat-noul-model-ipad-mini-cu-ecran-oled-si-procesor-a20-pro/cover.jpg?v=03e3c6f4" medium="image" type="image/jpeg"/>
-      <description>Apple a prezentat noul model iPad mini, echipat cu ecran OLED Super Retina XDR de 8,5 inchi, procesor A20 Pro și certificare IP67 pentru rezistență la apă și praf. Dispozitivul include o cameră frontală de 12 MP și oferă suport pentru încărcare rapidă. Arhitectura grafică include dynamic caching, mesh shading și ray tracing accelerate hardware. Sistemul audio Acoustic Display cuplează difuzoarele pentru frecvențe joase cu ecranul, iar cele pentru frecvențe înalte sunt amplasate între sticlă și carcasă.</description>
+      <media:content url="https://izz.ro/tech/apple-a-prezentat-noul-model-ipad-mini-cu-ecran-oled-si-procesor-a20-pro/cover.jpg?v=56be17e1" medium="image" type="image/jpeg"/>
+      <description>Precomenzile pentru tabletă încep pe 28 octombrie, iar disponibilitatea în magazine este programată pentru 6 noiembrie. Dispozitivul are o grosime de 5,4 mm, cameră frontală de 12 MP și suport pentru încărcare rapidă. Arhitectura grafică a dispozitivului include dynamic caching, mesh shading și ray tracing accelerate hardware.</description>
     </item>
     <item>
       <title>Probleme tehnice semnalate la primele exemplare iPhone Duo</title>
@@ -107,6 +107,106 @@
       <description>Anexele de numerotare ANCOM arată că prefixul 0786 a fost alocat inițial operatorului Telekom. Utilizatorii care doresc să verifice rețeaua actuală a unui număr portat trebuie să folosească alte metode de interogare.</description>
     </item>
     <item>
+      <title>Casa Națională de Pensii a lansat aplicația mobilă MyCNPP</title>
+      <link>https://izz.ro/tech/casa-nationala-de-pensii-a-lansat-aplicatia-mobila-mycnpp/</link>
+      <guid>https://izz.ro/tech/casa-nationala-de-pensii-a-lansat-aplicatia-mobila-mycnpp/</guid>
+      <pubDate>Mon, 26 Oct 2026 12:00:08 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zch.ro/mycnpp-aplicatia-prin-care-pensia-se-vede-de-pe-telefon-ce-pot-face-locuitorii-din-nord-est-cu-ea/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
+      <media:content url="https://izz.ro/tech/casa-nationala-de-pensii-a-lansat-aplicatia-mobila-mycnpp/cover.jpg?v=6cd52a50" medium="image" type="image/jpeg"/>
+      <description>Pensionarii din regiunea de Nord-Est își pot verifica taloanele și obține adeverințe direct de pe telefon, fără a merge la ghișeu. Noua platformă digitală permite accesul facil la documente și servicii online.</description>
+    </item>
+    <item>
+      <title>NVIDIA lansează actualizarea RTX Remix 1.6 cu DLSS 5</title>
+      <link>https://izz.ro/tech/nvidia-lanseaza-actualizarea-rtx-remix-1-6-cu-dlss-5/</link>
+      <guid>https://izz.ro/tech/nvidia-lanseaza-actualizarea-rtx-remix-1-6-cu-dlss-5/</guid>
+      <pubDate>Mon, 26 Oct 2026 11:45:47 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/26/nvidia-iti-permite-sa-readuci-la-viata-jocuri-clasice-cu-ajutorul-dlss-5/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/nvidia-lanseaza-actualizarea-rtx-remix-1-6-cu-dlss-5/cover.jpg?v=e8c0870a" medium="image" type="image/jpeg"/>
+      <description>Noua platformă NVIDIA permite jucătorilor să modernizeze titlurile clasice prin integrarea tehnologiei DLSS 5 și randare neuronală ghidată 3D, aducând un nivel vizual extrem de realist jocurilor vechi.</description>
+    </item>
+    <item>
+      <title>Consola Nintendo Switch 2 a fost compromisă informatic de hackeri</title>
+      <link>https://izz.ro/tech/consola-nintendo-switch-2-a-fost-compromisa-informatic-de-hackeri/</link>
+      <guid>https://izz.ro/tech/consola-nintendo-switch-2-a-fost-compromisa-informatic-de-hackeri/</guid>
+      <pubDate>Mon, 26 Oct 2026 11:07:32 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/26/nintendo-switch-2-a-fost-spart-de-hackeri-si-incepe-piratarea-de-jocuri/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/consola-nintendo-switch-2-a-fost-compromisa-informatic-de-hackeri/cover.jpg?v=92f130e0" medium="image" type="image/jpeg"/>
+      <description>Un grup de hackeri a reușit să ocolească măsurile de securitate ale noii console Nintendo prin intermediul unui exploit software, deschizând calea pentru copierea neautorizată a jocurilor.</description>
+    </item>
+    <item>
+      <title>Samsung reduce producția de telefoane din seria Galaxy A</title>
+      <link>https://izz.ro/tech/samsung-reduce-productia-de-telefoane-din-seria-galaxy-a/</link>
+      <guid>https://izz.ro/tech/samsung-reduce-productia-de-telefoane-din-seria-galaxy-a/</guid>
+      <pubDate>Mon, 26 Oct 2026 10:54:30 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/telefoane-galaxy-a-pret/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/samsung-reduce-productia-de-telefoane-din-seria-galaxy-a/cover.jpg?v=5559d5be" medium="image" type="image/jpeg"/>
+      <description>Compania Samsung micșorează producția dispozitivelor Galaxy A și majorează prețurile din cauza costurilor ridicate ale componentelor, redirecționând resursele către gamele superioare S și Z.</description>
+    </item>
+    <item>
+      <title>Șefa AMD a inițiat relansarea procesorului Ryzen 7 5800X3D</title>
+      <link>https://izz.ro/tech/sefa-amd-a-initiat-relansarea-procesorului-ryzen-7-5800x3d/</link>
+      <guid>https://izz.ro/tech/sefa-amd-a-initiat-relansarea-procesorului-ryzen-7-5800x3d/</guid>
+      <pubDate>Mon, 26 Oct 2026 10:33:04 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/26/relansarea-lui-ryzen-7-5800x3d-a-fost-ideea-sefei-amd-inca-dinainte-sa-existe-criza-de-memorie/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/sefa-amd-a-initiat-relansarea-procesorului-ryzen-7-5800x3d/cover.jpg?v=91cae1dc" medium="image" type="image/jpeg"/>
+      <description>Directorul executiv Lisa Su a susținut revenirea pe piață a modelului Ryzen 7 5800X3D sub forma unei ediții aniversare, dorind să marcheze zece ani de la debutul seriei de procesoare Ryzen.</description>
+    </item>
+    <item>
+      <title>iPhone Duo obține scorul de 5 din 10 la reparabilitate</title>
+      <link>https://izz.ro/tech/iphone-duo-obtine-scorul-de-5-din-10-la-reparabilitate/</link>
+      <guid>https://izz.ro/tech/iphone-duo-obtine-scorul-de-5-din-10-la-reparabilitate/</guid>
+      <pubDate>Mon, 26 Oct 2026 10:15:24 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://start-up.ro/iphone-duo-este-cel-mai-reparabil-telefon-pliabil-dar-cu-o-problema-la-ecran/">Start-up.ro</source>
+      <media:content url="https://izz.ro/tech/iphone-duo-obtine-scorul-de-5-din-10-la-reparabilitate/cover.jpg?v=f12ef80a" medium="image" type="image/jpeg"/>
+      <description>Organizația iFixit a acordat telefonului pliabil iPhone Duo nota 5 din 10 pentru reparabilitate, cel mai mare punctaj obținut până acum de un asemenea dispozitiv, deși ecranul prezintă vulnerabilități.</description>
+    </item>
+    <item>
+      <title>Razer lansează căștile Kraken Kitty V3 cu urechi de pisică</title>
+      <link>https://izz.ro/tech/razer-lanseaza-castile-kraken-kitty-v3-cu-urechi-de-pisica/</link>
+      <guid>https://izz.ro/tech/razer-lanseaza-castile-kraken-kitty-v3-cu-urechi-de-pisica/</guid>
+      <pubDate>Mon, 26 Oct 2026 09:40:44 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/razer-kraken-kitty-v3/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/razer-lanseaza-castile-kraken-kitty-v3-cu-urechi-de-pisica/cover.jpg?v=68e228d9" medium="image" type="image/jpeg"/>
+      <description>Producătorul Razer a prezentat modelul Kraken Kitty V3, un set de căști cu fir, iluminare RGB și design distinctiv, destinat streamerilor care își doresc un stil unic în timpul transmisiunilor.</description>
+    </item>
+    <item>
+      <title>Angajații Apple pot verifica retururile sigilate cu o nouă unealtă</title>
+      <link>https://izz.ro/tech/angajatii-apple-pot-verifica-retururile-sigilate-cu-o-noua-unealta/</link>
+      <guid>https://izz.ro/tech/angajatii-apple-pot-verifica-retururile-sigilate-cu-o-noua-unealta/</guid>
+      <pubDate>Mon, 26 Oct 2026 09:37:10 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/26/angajatii-din-magazinele-apple-pot-verifica-retururi-fara-sa-desigileze-cutia/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/angajatii-apple-pot-verifica-retururile-sigilate-cu-o-noua-unealta/cover.jpg?v=149daef2" medium="image" type="image/jpeg"/>
+      <description>Apple a implementat un sistem special care permite verificarea stării telefoanelor iPhone returnate chiar și fără desigilarea ambalajului, reducând astfel riscul de fraudă în magazinele fizice.</description>
+    </item>
+    <item>
+      <title>Apple marchează 25 de ani de la lansarea primului iPod</title>
+      <link>https://izz.ro/tech/apple-marcheaza-25-de-ani-de-la-lansarea-primului-ipod/</link>
+      <guid>https://izz.ro/tech/apple-marcheaza-25-de-ani-de-la-lansarea-primului-ipod/</guid>
+      <pubDate>Mon, 26 Oct 2026 09:32:45 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/26/apple-ipod-aniversare-25-ani/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/apple-marcheaza-25-de-ani-de-la-lansarea-primului-ipod/cover.jpg?v=c59c320d" medium="image" type="image/jpeg"/>
+      <description>Compania Apple aniversează un sfert de secol de la apariția primului iPod prin lansarea unei versiuni web interactive care imită designul clasic și include fragmente muzicale originale.</description>
+    </item>
+    <item>
+      <title>Roboții casnici pentru grădinărit și curățenie vor apărea primii</title>
+      <link>https://izz.ro/tech/robotii-casnici-pentru-gradinarit-si-curatenie-vor-aparea-primii/</link>
+      <guid>https://izz.ro/tech/robotii-casnici-pentru-gradinarit-si-curatenie-vor-aparea-primii/</guid>
+      <pubDate>Mon, 26 Oct 2026 09:28:25 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://start-up.ro/ce-roboti-ar-putea-deveni-obisnuiti-in-casele-noastre-gradinaritul-si-curatenia-inaintea-robotului-care-le-face-pe-toate/">Start-up.ro</source>
+      <media:content url="https://izz.ro/tech/robotii-casnici-pentru-gradinarit-si-curatenie-vor-aparea-primii/cover.jpg?v=19eecb39" medium="image" type="image/jpeg"/>
+      <description>Studiile recente arată că roboții casnici specializați în sarcini restrânse, precum tunsul gazonului sau curățenia, vor fi adoptați în gospodării înaintea unui asistent generalist multifuncțional.</description>
+    </item>
+    <item>
       <title>Semnele de uzură și metodele de întreținere pentru hidromotoarele hidraulice</title>
       <link>https://izz.ro/tech/semnele-de-uzura-si-metodele-de-intretinere-pentru-hidromotoarele-hidraulice/</link>
       <guid>https://izz.ro/tech/semnele-de-uzura-si-metodele-de-intretinere-pentru-hidromotoarele-hidraulice/</guid>
@@ -115,6 +215,16 @@
       <source url="https://spotmedia.ro/stiri/auto/care-este-rolul-unui-hidromotor-hidraulic-si-cand-trebuie-acesta-inlocuit">Spotmedia</source>
       <media:content url="https://izz.ro/tech/semnele-de-uzura-si-metodele-de-intretinere-pentru-hidromotoarele-hidraulice/cover.jpg?v=7a51b4e5" medium="image" type="image/jpeg"/>
       <description>Zgomotele metalice, scăderea vitezei de rotație și pierderile de ulei indică defecțiuni la nivelul hidromotorului, componentele putând fi adesea reparate înainte de a fi necesară înlocuirea completă a piesei.</description>
+    </item>
+    <item>
+      <title>China construiește o insulă plutitoare autopropulsată pentru cercetare oceanică</title>
+      <link>https://izz.ro/tech/china-construieste-o-insula-plutitoare-autopropulsata-pentru-cercetare-oceanica/</link>
+      <guid>https://izz.ro/tech/china-construieste-o-insula-plutitoare-autopropulsata-pentru-cercetare-oceanica/</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://piataauto.md/Stiri/2026/10/Inginerii-chinezi-construiesc-o-insula-plutitoare-autopropulsata-de-74000-de-tone-pentru-cercetari-oceanice/">Piata Auto MD</source>
+      <media:content url="https://izz.ro/tech/china-construieste-o-insula-plutitoare-autopropulsata-pentru-cercetare-oceanica/cover.jpg?v=f1cadb9c" medium="image" type="image/jpeg"/>
+      <description>Universitățile din China demonstrează un avans tehnologic uriaș prin construcția unei platforme marine masive de 74.000 de tone, destinată studiilor oceanografice avansate și progresului științific.</description>
     </item>
     <item>
       <title>Cercetătorii americani au creat un dispozitiv care transmite mirosuri pe internet</title>
@@ -133,7 +243,7 @@
       <pubDate>Sun, 25 Oct 2026 21:00:20 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.g4media.ro/nasa-va-trimite-pe-luna-un-rover-echipat-cu-un-supercomputer-si-tehnologii-ai.html">G4Media</source>
-      <media:content url="https://izz.ro/tech/nasa-va-trimite-un-rover-lunar-echipat-cu-inteligenta-artificiala/cover.jpg?v=076d5d2e" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/nasa-va-trimite-un-rover-lunar-echipat-cu-inteligenta-artificiala/cover.jpg?v=acf59a14" medium="image" type="image/jpeg"/>
       <description>Compania Astrolab va transporta la Polul Sud al Lunii un rover autonom dotat cu un supercomputer Hewlett Packard Enterprise pentru teste tehnologice avansate.</description>
     </item>
     <item>
@@ -153,7 +263,7 @@
       <pubDate>Sun, 25 Oct 2026 19:00:30 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.g4media.ro/cel-mai-usor-sistem-binar-de-stele-neutronice-descoperit-pana-acum-ofera-o-noua-confirmare-a-teoriei-lui-einstein.html">G4Media</source>
-      <media:content url="https://izz.ro/tech/astronomii-au-descoperit-cel-mai-usor-sistem-binar-de-stele-neutronice-din/cover.jpg?v=f2f1954c" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/astronomii-au-descoperit-cel-mai-usor-sistem-binar-de-stele-neutronice-din/cover.jpg?v=22f2aa3a" medium="image" type="image/jpeg"/>
       <description>Cercetătorii chinezi au identificat sistemul binar PSR J1856-0039, care deține o masă totală extrem de redusă. Această descoperire le oferă oamenilor de știință posibilitatea de a testa teoria relativității generale a lui Albert Einstein în condiții fizice extreme.</description>
     </item>
     <item>
@@ -163,7 +273,6 @@
       <pubDate>Sun, 25 Oct 2026 17:41:27 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.zf.ro/business-hi-tech/compania-romaneasca-footprints-opereaza-platforma-retail-media-incheiat-parteneriat-spar-international-retea-peste-13-500-magazine-50-tari-pune-platforma-dispozitia-retailerilor-grup-23267656">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/tech/compania-footprints-ai-a-incheiat-un-parteneriat-cu-spar-international/cover.jpg?v=739701fe" medium="image" type="image/jpeg"/>
       <description>Startup-ul românesc de retail media își va implementa platforma publicitară bazată pe date în rețeaua internațională SPAR, prezentă cu peste 13.500 de magazine în 50 de state.</description>
     </item>
     <item>
@@ -173,7 +282,6 @@
       <pubDate>Sun, 25 Oct 2026 16:55:00 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.zf.ro/business-international/musk-acuza-ucraina-ca-a-incalcat-termenii-si-conditiile-de-utilizare-ale-starlink-23267641">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/tech/elon-musk-acuza-ucraina-ca-a-incalcat-regulile-de-utilizare-starlink/cover.jpg?v=5cdaced9" medium="image" type="image/jpeg"/>
       <description>Fondatorul SpaceX, Elon Musk, a criticat autoritățile de la Kiev pentru nerespectarea termenilor contractuali ai serviciului de internet prin satelit Starlink, după ce accesul fusese recent restabilit.</description>
     </item>
     <item>
@@ -183,7 +291,6 @@
       <pubDate>Sun, 25 Oct 2026 15:37:35 +0000</pubDate>
       <category>tech</category>
       <source url="https://cursdeguvernare.ro/ucraina-vrea-sa-si-dezvolte-propria-retea-de-sateliti-de-comunicatii.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/tech/ucraina-vrea-retea-proprie-de-sateliti-alaturi-de-nokia-si-iceye/cover.jpg?v=4eec9bff" medium="image" type="image/jpeg"/>
       <description>Kievul intenționează să dezvolte un sistem independent de comunicații prin satelit împreună cu firme finlandeze, din cauza limitărilor impuse de programul american Starshield.</description>
     </item>
     <item>
@@ -374,104 +481,5 @@
       <category>tech</category>
       <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/serviciu-de-robotaxiuri-fara-sofer-baidu-si-freenow-se-pregatesc-sa-lanseze-robotaxiuri-in-londra-22876667?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Cele două companii au prezentat vehiculul electric autonom RT6 și au anunțat planurile de a implementa un serviciu comercial de transport fără șofer pe străzile Londrei începând de anul viitor.</description>
-    </item>
-    <item>
-      <title>TP-Link a lansat routerul Archer 8 Ultra compatibil cu standardul Wi-Fi 8</title>
-      <link>https://izz.ro/tech/tp-link-a-lansat-routerul-archer-8-ultra-compatibil-cu-standardul-wi-fi-8/</link>
-      <guid>https://izz.ro/tech/tp-link-a-lansat-routerul-archer-8-ultra-compatibil-cu-standardul-wi-fi-8/</guid>
-      <pubDate>Fri, 23 Oct 2026 16:59:18 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/tp-link-archer-8-ultra-review/">ZonaIT</source>
-      <description>Producătorii de echipamente de rețea testează deja tehnologia Wi-Fi 8 pentru viitor, deși aprobarea oficială este așteptată abia în anul 2028.</description>
-    </item>
-    <item>
-      <title>Două vulnerabilități critice descoperite în limbajul PHP pun în pericol serverele web</title>
-      <link>https://izz.ro/tech/doua-vulnerabilitati-critice-descoperite-in-limbajul-php-pun-in-pericol/</link>
-      <guid>https://izz.ro/tech/doua-vulnerabilitati-critice-descoperite-in-limbajul-php-pun-in-pericol/</guid>
-      <pubDate>Fri, 23 Oct 2026 16:00:07 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.magazinsalajean.ro/social/doua-brese-critice-in-php-cat-de-vulnerabile-sunt-site-urile-institutiilor-din-romania">Magazin Sălăjean</source>
-      <description>Experții cibernetici au semnalat breșe majore care permit executarea de cod de la distanță, determinând numeroase instituții să verifice sistemele sau să-și oprească temporar platformele online.</description>
-    </item>
-    <item>
-      <title>Avertismentul experților privind utilizarea codurilor PIN extrem de previzibile pentru cardurile bancare</title>
-      <link>https://izz.ro/tech/avertismentul-expertilor-privind-utilizarea-codurilor-pin-extrem-de-previzibile/</link>
-      <guid>https://izz.ro/tech/avertismentul-expertilor-privind-utilizarea-codurilor-pin-extrem-de-previzibile/</guid>
-      <pubDate>Fri, 23 Oct 2026 15:01:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://observatornews.ro/economic/cel-mai-folosit-cod-pin-pentru-cardurile-bancare-expertii-recomanda-schimbarea-lui-imediata-670118.html">Observator</source>
-      <description>O analiză recentă arată că o mare parte din populație folosește combinații numerice extrem de simple pentru cardurile bancare, experții recomandând înlocuirea imediată pentru evitarea furturilor.</description>
-    </item>
-    <item>
-      <title>Microsoft testează aplicația opțională Context Vault în locul Windows Recall</title>
-      <link>https://izz.ro/tech/microsoft-testeaza-aplicatia-optionala-context-vault-in-locul-windows-recall/</link>
-      <guid>https://izz.ro/tech/microsoft-testeaza-aplicatia-optionala-context-vault-in-locul-windows-recall/</guid>
-      <pubDate>Fri, 23 Oct 2026 14:52:27 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/microsoft-context-vault-windows-recall/">ZonaIT</source>
-      <description>Compania americană dezvoltă o nouă variantă a controversatei funcții bazate pe inteligență artificială, concepută ca o aplicație separată și neintegrată obligatoriu în sistemul de operare.</description>
-    </item>
-    <item>
-      <title>Criterii pentru protejarea echipamentelor industriale și digitale</title>
-      <link>https://izz.ro/tech/criterii-pentru-protejarea-echipamentelor-industriale-si-digitale/</link>
-      <guid>https://izz.ro/tech/criterii-pentru-protejarea-echipamentelor-industriale-si-digitale/</guid>
-      <pubDate>Fri, 23 Oct 2026 12:22:08 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://gazetadecluj.ro/protejarea-echipamentelor-in-infrastructura-digitala-si-industriala-criterii-pentru-proiecte-mai-reziliente/">Gazeta de Cluj</source>
-      <description>Selectarea corectă a carcaselor și dulapurilor pentru infrastructura digitală și industrială asigură protecția optimă a echipamentelor și facilitează activitățile ulterioare de mentenanță și instalare.</description>
-    </item>
-    <item>
-      <title>Apple sporește producția pentru noul model iPhone Duo</title>
-      <link>https://izz.ro/tech/apple-sporeste-productia-pentru-noul-model-iphone-duo/</link>
-      <guid>https://izz.ro/tech/apple-sporeste-productia-pentru-noul-model-iphone-duo/</guid>
-      <pubDate>Fri, 23 Oct 2026 12:07:46 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/cumpara-iphone-duo/">ZonaIT</source>
-      <description>Cererea ridicată din perioada de precomandă pentru noul telefon de generație incipientă a determinat compania Apple să suplimenteze semnificativ comenzile de fabricație transmise partenerului Foxconn din China.</description>
-    </item>
-    <item>
-      <title>OPPO Find X10 Pro Max aduce performanțe ridicate pentru camere</title>
-      <link>https://izz.ro/tech/oppo-find-x10-pro-max-aduce-performante-ridicate-pentru-camere/</link>
-      <guid>https://izz.ro/tech/oppo-find-x10-pro-max-aduce-performante-ridicate-pentru-camere/</guid>
-      <pubDate>Fri, 23 Oct 2026 12:00:13 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/oppo-find-x10-pro-max-review/">ZonaIT</source>
-      <description>Cel mai recent model flagship testat de la producătorul asiatic confirmă reputația mărcii în domeniul foto-video, oferind imagini de înaltă calitate și funcții avansate de filmare pe dispozitive mobile.</description>
-    </item>
-    <item>
-      <title>Cyberpunk 2077 lansează update-ul 2.5 cu funcții noi și arme dual-wield</title>
-      <link>https://izz.ro/tech/cyberpunk-2077-lanseaza-update-ul-2-5-cu-functii-noi-si-arme-dual-wield/</link>
-      <guid>https://izz.ro/tech/cyberpunk-2077-lanseaza-update-ul-2-5-cu-functii-noi-si-arme-dual-wield/</guid>
-      <pubDate>Fri, 23 Oct 2026 10:16:01 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/23/cyberpunk-2077-trece-la-versiunea-2-5-arme-dual-weild-misiuni-noi-si-suport-pentru-modding-cross-platform/">Connect.ro</source>
-      <description>CD Projekt RED a lansat actualizarea 2.5 pentru jocul Cyberpunk 2077, aducând suport pentru modding cross-platform, misiuni inedite și arme dual-wield pe PC, PlayStation 5 și Xbox Series, urmând versiunea pentru macOS.</description>
-    </item>
-    <item>
-      <title>Spotify va restricționa accesul abonaților care folosesc planul Family din locuințe diferite</title>
-      <link>https://izz.ro/tech/spotify-va-restrictiona-accesul-abonatilor-care-folosesc-planul-family-din/</link>
-      <guid>https://izz.ro/tech/spotify-va-restrictiona-accesul-abonatilor-care-folosesc-planul-family-din/</guid>
-      <pubDate>Fri, 23 Oct 2026 09:31:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.profit.ro/romania-conectata/spotify-ataca-abonatii-family-care-nu-locuiesc-impreuna-22874231?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Platforma de streaming audio intenționează să oblige utilizatorii care împart același abonament Family, dar nu locuiesc la aceeași adresă, să achite pachete individuale separate.</description>
-    </item>
-    <item>
-      <title>Apple a lansat primul telefon pliabil, iPhone Duo, testat pentru rezistență</title>
-      <link>https://izz.ro/tech/apple-a-lansat-primul-telefon-pliabil-iphone-duo-testat-pentru-rezistenta/</link>
-      <guid>https://izz.ro/tech/apple-a-lansat-primul-telefon-pliabil-iphone-duo-testat-pentru-rezistenta/</guid>
-      <pubDate>Fri, 23 Oct 2026 09:28:34 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/23/cat-de-mult-rezista-iphone-duo-la-indoituri/">Connect.ro</source>
-      <description>Apple a intrat pe piața telefoanelor pliabile prin lansarea noului iPhone Duo. Creatorii de conținut au testat deja rezistența balamalei și a construcției, observând o durabilitate ridicată față de primele modele pliabile ale concurenței.</description>
-    </item>
-    <item>
-      <title>Producătorii Android adoptă din nou camera cu apertură variabilă</title>
-      <link>https://izz.ro/tech/producatorii-android-adopta-din-nou-camera-cu-apertura-variabila/</link>
-      <guid>https://izz.ro/tech/producatorii-android-adopta-din-nou-camera-cu-apertura-variabila/</guid>
-      <pubDate>Fri, 23 Oct 2026 09:05:05 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/23/apertura-variabila-revine-pe-telefoanele-android-datorita-celor-de-la-apple/">Connect.ro</source>
-      <description>După ce Apple a introdus camera cu apertură variabilă pe modelele iPhone 18 Pro, brandurile chinezești de telefoane cu sistem Android pregătesc relansarea acestei tehnologii, prezentată inițial de Samsung în urmă cu aproape zece ani.</description>
     </item>
 </channel></rss>

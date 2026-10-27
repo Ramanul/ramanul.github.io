@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/bistrita/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bistrița pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 20:50:40 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 00:45:18 +0000</lastBuildDate>
     <item>
       <title>Petrecere tematică de Halloween la Soho Music Hall din Bistrița</title>
       <link>https://izz.ro/local/petrecere-tematica-de-halloween-la-soho-music-hall-din-bistrita/</link>
@@ -37,6 +37,16 @@
       <description>Medicul nefrolog Vlad Frandeș atrage atenția asupra riscurilor provocate de medicamentele toxice pentru rinichi și semnalează lipsa specialiștilor din regiuni precum Borșa sau Vatra Dornei.</description>
     </item>
     <item>
+      <title>Filmul „3 zile în septembrie” regizat de Tudor Giurgiu, proiectat la Bistrița</title>
+      <link>https://izz.ro/local/filmul-3-zile-in-septembrie-regizat-de-tudor-giurgiu-proiectat-la-bistrita/</link>
+      <guid>https://izz.ro/local/filmul-3-zile-in-septembrie-regizat-de-tudor-giurgiu-proiectat-la-bistrita/</guid>
+      <pubDate>Mon, 26 Oct 2026 03:38:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://timponline.ro/proiectie-speciala-in-prezenta-regizorului-tudor-giurgiu-3-zile-in-septembrie/">TimpOnline.ro</source>
+      <media:content url="https://izz.ro/local/filmul-3-zile-in-septembrie-regizat-de-tudor-giurgiu-proiectat-la-bistrita/cover.jpg?v=852ac148" medium="image" type="image/jpeg"/>
+      <description>Comedia neagră „3 zile în septembrie”, semnată de regizorul Tudor Giurgiu, va fi prezentată în cadrul unei proiecții speciale la Palatul Culturii din Bistrița, eveniment urmat de o sesiune de discuții cu echipa peliculei.</description>
+    </item>
+    <item>
       <title>Primarul Bistriței a modificat proiectul centrului istoric pentru a proteja terasele</title>
       <link>https://izz.ro/local/primarul-bistritei-a-modificat-proiectul-centrului-istoric-pentru-a-proteja/</link>
       <guid>https://izz.ro/local/primarul-bistritei-a-modificat-proiectul-centrului-istoric-pentru-a-proteja/</guid>
@@ -63,7 +73,7 @@
       <pubDate>Sun, 25 Oct 2026 21:42:49 +0000</pubDate>
       <category>local</category>
       <source url="https://rasunetul.ro/o-saptamana-traita-din-plin-la-scoala-sfantul-stelian-din-bistrita">Răsunetul</source>
-      <media:content url="https://izz.ro/local/scoala-sfantul-stelian-din-bistrita-a-organizat-o-serie-de-activitati-pentru/cover.jpg?v=042fdb54" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/scoala-sfantul-stelian-din-bistrita-a-organizat-o-serie-de-activitati-pentru/cover.jpg?v=d3ebe0cc" medium="image" type="image/jpeg"/>
       <description>Elevii bistrițeni s-au bucurat de o săptămână plină de evenimente educative și recreative, menite să le dezvolte prieteniile și să le ofere amintiri de neprețuit.</description>
     </item>
     <item>
@@ -73,7 +83,6 @@
       <pubDate>Sun, 25 Oct 2026 15:39:00 +0000</pubDate>
       <category>local</category>
       <source url="https://adevarul.ro/stiri-interne/educatie/ministrul-educatiei-anunta-masuri-pentru-siguranta-2566422.html">Adevărul</source>
-      <media:content url="https://izz.ro/local/ministrul-educatiei-anunta-noi-masuri-de-siguranta-scolara/cover.jpg?v=4a89cddb" medium="image" type="image/jpeg"/>
       <description>În urma atacului violent din Bistrița, ministrul Sorin Costreie a inițiat o campanie națională menită să crească gradul de securitate în unitățile de învățământ din țară.</description>
     </item>
     <item>
@@ -453,14 +462,5 @@
       <category>local</category>
       <source url="https://szekelyhon.ro/aktualis/iskolai-tanacsado-segitseget-kertek-a-besztercei-keseles-utan-iskolaba-visszatero-diakok">Székelyhon</source>
       <description>Mai mulți elevi de la o școală din Bistrița au solicitat sprijinul consilierului educațional la revenirea în sălile de clasă, la doar două zile după atacul cu armă albă comis de un minor de 13 ani.</description>
-    </item>
-    <item>
-      <title>Guvernul pregătește măsuri de siguranță școlară după incidentele din Bistrița</title>
-      <link>https://izz.ro/local/guvernul-pregateste-masuri-de-siguranta-scolara-dupa-incidentele-din-bistrita/</link>
-      <guid>https://izz.ro/local/guvernul-pregateste-masuri-de-siguranta-scolara-dupa-incidentele-din-bistrita/</guid>
-      <pubDate>Wed, 21 Oct 2026 16:29:44 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.observatorulph.ro/national/2801651-violenta-in-scoli-ce-masuri-pregateste-noul-guvern">Observatorul Prahovean</source>
-      <description>Ca urmare a actelor de violență din unitățile de învățământ, premierul Luca Niculescu a anunțat un set de măsuri preventive pentru protejarea elevilor și a cadrelor didactice, incluzând o implicare mai activă a autorităților competente.</description>
     </item>
 </channel></rss>

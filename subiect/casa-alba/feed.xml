@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Casa Alba — IZZ.ro</title>
+  <title>Casa Albă — IZZ.ro</title>
   <link>https://izz.ro/subiect/casa-alba/</link>
   <atom:link href="https://izz.ro/subiect/casa-alba/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Casa Alba pe IZZ.ro</description>
+  <description>Știri despre Casa Albă pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 20:50:40 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 00:45:18 +0000</lastBuildDate>
+    <item>
+      <title>Democrații publică o acuzație de viol împotriva lui Donald Trump</title>
+      <link>https://izz.ro/extern/democratii-publica-o-acuzatie-de-viol-impotriva-lui-donald-trump/</link>
+      <guid>https://izz.ro/extern/democratii-publica-o-acuzatie-de-viol-impotriva-lui-donald-trump/</guid>
+      <pubDate>Mon, 26 Oct 2026 20:54:39 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/democratii-fac-publica-acuzatia-unei-femei-impotriva-lui-trump-m-a-violat-brutal-dupa-ce-am-petrecut-ceva-timp-cu-epstein-casa-alba-nu-este-adevarat.html">G4Media</source>
+      <media:content url="https://izz.ro/extern/democratii-publica-o-acuzatie-de-viol-impotriva-lui-donald-trump/cover.jpg?v=40b42887" medium="image" type="image/jpeg"/>
+      <description>Democrații analizează mărturia unei femei care susține că a fost agresată sexual de Donald Trump după o întâlnire cu Epstein. Casa Albă a respins ferm acuzațiile.</description>
+    </item>
     <item>
       <title>Casa Albă, acuzată că a manipulat episcopi catolici pentru imagine politică</title>
       <link>https://izz.ro/extern/casa-alba-acuzata-ca-a-manipulat-episcopi-catolici-pentru-imagine-politica/</link>
@@ -114,14 +124,5 @@
       <category>extern</category>
       <source url="https://stirileprotv.ro/stiri/international/controverse-la-casa-alba-noua-purtatoare-de-cuvant-a-lui-trump-nu-ar-avea-dreptul-sa-si-exercite-meseria.html">Știrile ProTV</source>
       <description>Katie Zacharia, noua purtătoare de cuvânt a președintelui Donald Trump, se află în mijlocul unui scandal public. Un raport recent susține că aceasta nu ar fi promovat examenul de admitere în baroul din California.</description>
-    </item>
-    <item>
-      <title>Administraţia Trump atacă decizia privind accesul presei la Casa Albă</title>
-      <link>https://izz.ro/extern/administratia-trump-ataca-decizia-privind-accesul-presei-la-casa-alba/</link>
-      <guid>https://izz.ro/extern/administratia-trump-ataca-decizia-privind-accesul-presei-la-casa-alba/</guid>
-      <pubDate>Wed, 14 Oct 2026 21:05:52 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/sua/administratia-trump-va-contesta-decizia-unui-judecator-federal-care-a-restabilit-accesul-la-casa-alba-pentru-cnn-ms-now-si-politico-3992925">Digi24 Extern</source>
-      <description>Executivul american va contesta hotărârea judecătorească ce permitea jurnaliştilor de la CNN, MSNBC şi Politico să participe la evenimentele oficiale de la Casa Albă.</description>
     </item>
 </channel></rss>

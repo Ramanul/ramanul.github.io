@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/paris/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Paris pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 20:50:40 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 00:45:18 +0000</lastBuildDate>
+    <item>
+      <title>Ultimatumul din 27 octombrie 1918 a transformat România în stat beligerant victorios</title>
+      <link>https://izz.ro/cultura/ultimatumul-din-27-octombrie-1918-a-transformat-romania-in-stat-beligerant/</link>
+      <guid>https://izz.ro/cultura/ultimatumul-din-27-octombrie-1918-a-transformat-romania-in-stat-beligerant/</guid>
+      <pubDate>Mon, 26 Oct 2026 22:01:25 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://adevarul.ro/istoria-zilei/27-octombrie-ultimatumul-dat-de-romania-trupelor-2566528.html">Adevărul</source>
+      <media:content url="https://izz.ro/cultura/ultimatumul-din-27-octombrie-1918-a-transformat-romania-in-stat-beligerant/cover.jpg?v=5552da98" medium="image" type="image/jpeg"/>
+      <description>Momentul a marcat o cotitură istorică majoră, permițând României să participe la conferința de pace de la Paris din postura de învingătoare, și nu de țară ocupată.</description>
+    </item>
     <item>
       <title>Miniștrii apărării din Europa avertizează că Putin respinge pacea</title>
       <link>https://izz.ro/extern/ministrii-apararii-din-europa-avertizeaza-ca-putin-respinge-pacea/</link>
@@ -53,7 +63,7 @@
       <pubDate>Sun, 25 Oct 2026 20:07:46 +0000</pubDate>
       <category>general</category>
       <source url="https://rasunetul.ro/parisul-este-trist-astazi">Răsunetul</source>
-      <media:content url="https://izz.ro/general/duminica-mohorata-si-pustie-pe-bulevardele-din-paris/cover.jpg?v=629c057f" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/general/duminica-mohorata-si-pustie-pe-bulevardele-din-paris/cover.jpg?v=afce4d99" medium="image" type="image/jpeg"/>
       <description>Capitala Franței a oferit o imagine tristă pe parcursul unei duminici cenușii, cu arterele rutiere aproape goale și o atmosferă lipsită de obișnuitul dinamism turistic și urban.</description>
     </item>
     <item>
@@ -73,7 +83,6 @@
       <pubDate>Sun, 25 Oct 2026 15:32:51 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/articles/c6e3xek2457wo?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
-      <media:content url="https://izz.ro/extern/suspectul-atacului-armat-de-langa-paris-va-fi-supus-unei-evaluari-psihiatrice/cover.jpg?v=df791837" medium="image" type="image/jpeg"/>
       <description>Autoritățile franceze au dispus ca suspectul principal din cazul atacului armat de la periferia Parisului să fie examinat medical pentru a se stabili dacă poate fi interogat în continuare.</description>
     </item>
     <item>
@@ -453,14 +462,5 @@
       <category>extern</category>
       <source url="https://www.profit.ro/stiri/social/video-proteste-violente-sectie-de-politie-atacata-cu-fumigene-pubele-de-gunoi-incendiate-vestele-galbene-se-alatura-protestelor-studentesti-din-franta-22849883?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Manifestațiile din Franța au degenerat în violențe majore la Paris și în alte orașe, după ce minerii, sindicatele și mișcarea Vestele Galbene s-au alăturat protestelor studențești, atacând secții de poliție și incendiind pubele.</description>
-    </item>
-    <item>
-      <title>Proteste violente și ciocniri cu poliția în Paris și alte orașe din Franța</title>
-      <link>https://izz.ro/extern/proteste-violente-si-ciocniri-cu-politia-in-paris-si-alte-orase-din-franta/</link>
-      <guid>https://izz.ro/extern/proteste-violente-si-ciocniri-cu-politia-in-paris-si-alte-orase-din-franta/</guid>
-      <pubDate>Sat, 17 Oct 2026 12:21:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/politica/proteste-uriase-in-franta-ciocniri-violente-intre-manifestanti-si-politie-vestele-galbene-s-au-alaturat-manifestatiilor-807591.html">Antena 3 CNN, Profit.ro</source>
-      <description>Franța este scena unor proteste ample marcate de violențe, ciocniri cu forțele de ordine și utilizarea gazelor lacrimogene. Manifestațiile de la Paris și din alte orașe reunesc elevi, studenți, activiști, fermieri și membri ai mișcării „vestele galbene”, înregistrându-se zeci de rețineri, o secție de poliție atacată cu fumigene și pubele incendiate.</description>
     </item>
 </channel></rss>

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Târgu Jiu — IZZ.ro</title>
+  <title>Targu Jiu — IZZ.ro</title>
   <link>https://izz.ro/subiect/targu-jiu/</link>
   <atom:link href="https://izz.ro/subiect/targu-jiu/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Târgu Jiu pe IZZ.ro</description>
+  <description>Știri despre Targu Jiu pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 26 Oct 2026 20:50:40 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 00:45:18 +0000</lastBuildDate>
+    <item>
+      <title>Complexul Energetic Oltenia scoate la vânzare autoturisme și mijloace fixe</title>
+      <link>https://izz.ro/local/complexul-energetic-oltenia-scoate-la-vanzare-autoturisme-si-mijloace-fixe/</link>
+      <guid>https://izz.ro/local/complexul-energetic-oltenia-scoate-la-vanzare-autoturisme-si-mijloace-fixe/</guid>
+      <pubDate>Mon, 26 Oct 2026 22:18:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.gorjeanul.ro/investigatii/autoturismele-sefilor-ceo-scoase-la-vanzare/">Gorjeanul</source>
+      <media:content url="https://izz.ro/local/complexul-energetic-oltenia-scoate-la-vanzare-autoturisme-si-mijloace-fixe/cover.jpg?v=7f095488" medium="image" type="image/jpeg"/>
+      <description>Compania energetică organizează o licitație publică deschisă pe 20 noiembrie pentru valorificarea a șapte mașini de serviciu din Târgu Jiu, alături de o remorcă și autobuze de la Chișcani.</description>
+    </item>
     <item>
       <title>Procesiune și restricții de circulație la Târgu Jiu pentru Calea Eroilor</title>
       <link>https://izz.ro/local/procesiune-si-restrictii-de-circulatie-la-targu-jiu-pentru-calea-eroilor/</link>
@@ -455,14 +465,5 @@
       <category>local</category>
       <source url="https://www.gorjeanul.ro/ultima-ora/modificari-in-circulatia-trenurilor-care-ajung-la-targu-jiu-anuntul-cfr/">Gorjeanul</source>
       <description>Mai multe rute feroviare care tranzitează Târgu Jiu vor suferi modificări între 24 octombrie și 1 noiembrie. Măsura este impusă de lucrările de retehnologizare derulate de infrastructură între stațiile locale.</description>
-    </item>
-    <item>
-      <title>Apel emoționant lansat de o tânără din Târgu Jiu abandonată la naștere</title>
-      <link>https://izz.ro/local/apel-emotionant-lansat-de-o-tanara-din-targu-jiu-abandonata-la-nastere/</link>
-      <guid>https://izz.ro/local/apel-emotionant-lansat-de-o-tanara-din-targu-jiu-abandonata-la-nastere/</guid>
-      <pubDate>Wed, 21 Oct 2026 13:30:00 +0000</pubDate>
-      <category>local</category>
-      <source url="http://www.pandurul.rohttps://www.pandurul.ro/articol/nascuta-in-targu-jiu-si-abandonata-la-scurt-timp-d_197628.html">Pandurul</source>
-      <description>O femeie în vârstă de 23 de ani își caută părinții biologici prin intermediul rețelelor de socializare, sperând să afle detalii despre identitatea sa din zona Gorj.</description>
     </item>
 </channel></rss>
