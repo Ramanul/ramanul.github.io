@@ -5,7 +5,37 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 28 Oct 2026 17:10:33 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 22:00:24 +0000</lastBuildDate>
+    <item>
+      <title>Roverul Perseverance a descoperit particule de praf ultrafine pe planeta Marte</title>
+      <link>https://izz.ro/tech/roverul-perseverance-a-descoperit-particule-de-praf-ultrafine-pe-planeta-marte/</link>
+      <guid>https://izz.ro/tech/roverul-perseverance-a-descoperit-particule-de-praf-ultrafine-pe-planeta-marte/</guid>
+      <pubDate>Wed, 28 Oct 2026 21:00:59 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.g4media.ro/roverul-perseverance-al-nasa-a-detectat-cele-mai-mici-particule-de-praf-observate-pana-acum-pe-marte.html">G4Media</source>
+      <media:content url="https://izz.ro/tech/roverul-perseverance-a-descoperit-particule-de-praf-ultrafine-pe-planeta-marte/cover.jpg?v=ca3063be" medium="image" type="image/jpeg"/>
+      <description>Misiunea NASA pe Marte a marcat o premieră prin identificarea unor particule de praf cu o dimensiune de o sută de nanometri, elemente care ar putea genera riscuri pentru echipamente și viitorii astronauți.</description>
+    </item>
+    <item>
+      <title>Librăriile Cărturești lovite de un incident de securitate informatică</title>
+      <link>https://izz.ro/tech/librariile-carturesti-lovite-de-un-incident-de-securitate-informatica/</link>
+      <guid>https://izz.ro/tech/librariile-carturesti-lovite-de-un-incident-de-securitate-informatica/</guid>
+      <pubDate>Wed, 28 Oct 2026 19:42:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/retail/foto-incident-informatic-la-carturesti-mesaj-catre-clienti-22899583?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <media:content url="https://izz.ro/tech/librariile-carturesti-lovite-de-un-incident-de-securitate-informatica/cover.jpg?v=eaf84f25" medium="image" type="image/jpeg"/>
+      <description>Rețeaua națională de librării Cărturești a fost ținta unui atac cibernetic, trimițând notificări de avertizare clienților săi cu privire la breșa de securitate.</description>
+    </item>
+    <item>
+      <title>Rețeaua de librării Cărturești a fost vizată de un atac cibernetic</title>
+      <link>https://izz.ro/tech/reteaua-de-librarii-carturesti-a-fost-vizata-de-un-atac-cibernetic/</link>
+      <guid>https://izz.ro/tech/reteaua-de-librarii-carturesti-a-fost-vizata-de-un-atac-cibernetic/</guid>
+      <pubDate>Wed, 28 Oct 2026 19:29:06 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://hotnews.ro/una-dintre-cele-mai-cunoscute-retele-de-librarii-din-romania-victima-unui-atac-cibernetic-2389242">HotNews</source>
+      <media:content url="https://izz.ro/tech/reteaua-de-librarii-carturesti-a-fost-vizata-de-un-atac-cibernetic/cover.jpg?v=2465048a" medium="image" type="image/jpeg"/>
+      <description>Cărturești a anunțat că activitatea online a fost perturbată de un incident informatic, comenzile fiind temporar indisponibile. Compania a precizat că datele financiare ale clienților și ale cardurilor bancare nu au fost compromise în urma acestui atac.</description>
+    </item>
     <item>
       <title>Platforma financiară Revolut a înregistrat noi probleme de conectare pentru utilizatori</title>
       <link>https://izz.ro/tech/platforma-financiara-revolut-a-inregistrat-noi-probleme-de-conectare-pentru/</link>
@@ -23,8 +53,28 @@
       <pubDate>Wed, 28 Oct 2026 15:05:14 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/amd-meta-parteneriat/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/amd-si-meta-colaboreaza-pentru-dezvoltarea-infrastructurii-de-inteligenta/cover.jpg?v=7703bd54" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/amd-si-meta-colaboreaza-pentru-dezvoltarea-infrastructurii-de-inteligenta/cover.jpg?v=c1f6ac2f" medium="image" type="image/jpeg"/>
       <description>Cele două companii au instalat primele sisteme hardware AMD Helios în centrele Meta pentru teste preliminare, în timp ce procesoarele EPYC asigură puterea de calcul necesară</description>
+    </item>
+    <item>
+      <title>Intel și AMD iau în calcul o potențială colaborare pe procesoare</title>
+      <link>https://izz.ro/tech/intel-si-amd-iau-in-calcul-o-potentiala-colaborare-pe-procesoare/</link>
+      <guid>https://izz.ro/tech/intel-si-amd-iau-in-calcul-o-potentiala-colaborare-pe-procesoare/</guid>
+      <pubDate>Wed, 28 Oct 2026 14:47:50 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/10/28/sefii-intel-si-amd-au-discutat-despre-o-potentiala-colaborare-pe-zona-de-procesoare/">Connect.ro</source>
+      <media:content url="https://izz.ro/tech/intel-si-amd-iau-in-calcul-o-potentiala-colaborare-pe-procesoare/cover.jpg?v=07049de1" medium="image" type="image/jpeg"/>
+      <description>Conducătorii celor doi giganți din industria semiconductorilor au discutat recent despre o posibilă alianță strategică în domeniul dezvoltării de procesoare, marcând o schimbare majoră pe piața de profil.</description>
+    </item>
+    <item>
+      <title>Razer a lansat tastatura de gaming wireless Reclusa Mini 65%</title>
+      <link>https://izz.ro/tech/razer-a-lansat-tastatura-de-gaming-wireless-reclusa-mini-65/</link>
+      <guid>https://izz.ro/tech/razer-a-lansat-tastatura-de-gaming-wireless-reclusa-mini-65/</guid>
+      <pubDate>Wed, 28 Oct 2026 14:44:39 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/tastatura-razer-recluse-mini-65/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/razer-a-lansat-tastatura-de-gaming-wireless-reclusa-mini-65/cover.jpg?v=d999c843" medium="image" type="image/jpeg"/>
+      <description>Producătorul de echipamente pentru gameri a prezentat un nou model de tastatură compactă dotată cu switch-uri magnetice interschimbabile, concepută pentru precizie ridicată și un profil sonor personalizabil.</description>
     </item>
     <item>
       <title>Samsung pregătește extinderea gamei de pliabile după succesul înregistrat de Galaxy Z Fold 8</title>
@@ -33,7 +83,7 @@
       <pubDate>Wed, 28 Oct 2026 14:28:59 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/galaxy-z-fold-8-fe/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/samsung-pregateste-extinderea-gamei-de-pliabile-dupa-succesul-inregistrat-de/cover.jpg?v=d0a007f7" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/samsung-pregateste-extinderea-gamei-de-pliabile-dupa-succesul-inregistrat-de/cover.jpg?v=8bf3bd6f" medium="image" type="image/jpeg"/>
       <description>Gigantul tehnologic analizează lansarea unor noi versiuni de telefoane pliabile, inclusiv un model mai accesibil financiar, capitalizând pe cererea ridicată din piață.</description>
     </item>
     <item>
@@ -43,8 +93,18 @@
       <pubDate>Wed, 28 Oct 2026 14:26:44 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/28/assassins-creed-black-flag-resynced-a-primit-un-update-masiv-dar-acesta-va-fi-ultimul/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/ubisoft-lanseaza-ultimul-update-major-pentru-jocul-assassins-creed-black-flag/cover.jpg?v=3746a362" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/ubisoft-lanseaza-ultimul-update-major-pentru-jocul-assassins-creed-black-flag/cover.jpg?v=b2ca8d03" medium="image" type="image/jpeg"/>
       <description>Actualizarea cu numărul 1.8 adaugă modul New Game Plus și conținut suplimentar, marcând totodată încheierea ciclului de viață și dezvoltare pentru acest titlu.</description>
+    </item>
+    <item>
+      <title>Ascuțimea lanțului contează mai mult decât puterea motorului pentru eficiența unei drujbe</title>
+      <link>https://izz.ro/tech/ascutimea-lantului-conteaza-mai-mult-decat-puterea-motorului-pentru-eficienta/</link>
+      <guid>https://izz.ro/tech/ascutimea-lantului-conteaza-mai-mult-decat-puterea-motorului-pentru-eficienta/</guid>
+      <pubDate>Wed, 28 Oct 2026 13:40:19 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://jurnalulolteniei.ro/secretul-performantei-la-taiere-pe-care-nimeni-nu-il-spune-la-prima-achizitie/">Jurnalul Olteniei</source>
+      <media:content url="https://izz.ro/tech/ascutimea-lantului-conteaza-mai-mult-decat-puterea-motorului-pentru-eficienta/cover.jpg?v=ca1a01a2" medium="image" type="image/jpeg"/>
+      <description>Meșterii experimentați avertizează că un lanț tocit compromite performanța oricărui ferăstrău, indiferent de puterea motorului, aspect ignorat frecvent de cumpărătorii la prima achiziție.</description>
     </item>
     <item>
       <title>Utilizatorii rețelei Starlink din peste 100 de țări ar fi monitorizați</title>
@@ -53,7 +113,7 @@
       <pubDate>Wed, 28 Oct 2026 13:26:58 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/starlink-supraveghere/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/utilizatorii-retelei-starlink-din-peste-100-de-tari-ar-fi-monitorizati/cover.jpg?v=11d9d687" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/utilizatorii-retelei-starlink-din-peste-100-de-tari-ar-fi-monitorizati/cover.jpg?v=4b862270" medium="image" type="image/jpeg"/>
       <description>Relațiile companiei SpaceX cu mediul politic american și colaborarea cu o firmă israeliană de publicitate ridică semne de întrebare privind confidențialitatea datelor pentru clienții serviciului de internet global.</description>
     </item>
     <item>
@@ -83,7 +143,7 @@
       <pubDate>Wed, 28 Oct 2026 09:17:16 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/28/apple-creator-studio-aduce-o-actualizare-cu-ai-in-special-pentru-final-cut-pro/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/apple-actualizeaza-suita-creator-studio-cu-functii-avansate-bazate-pe/cover.jpg?v=b5ff37e3" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/apple-actualizeaza-suita-creator-studio-cu-functii-avansate-bazate-pe/cover.jpg?v=27aa3671" medium="image" type="image/jpeg"/>
       <description>Gigantul american a lansat un pachet important de update-uri pentru suita sa de creație, introducând unelte bazate pe inteligență artificială integrate în programul de montaj video Final Cut Pro și alte aplicații dedicate creatorilor.</description>
     </item>
     <item>
@@ -93,18 +153,8 @@
       <pubDate>Wed, 28 Oct 2026 09:00:32 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/28/recomplauncher-vrea-sa-aduca-la-un-loc-toate-jocurile-exclusive-care-au-fost-portate-pe-pc-in-ultima-vreme/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/platforma-recomplauncher-centralizeaza-jocurile-exclusive-portate-pe-pc/cover.jpg?v=0b10f417" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/platforma-recomplauncher-centralizeaza-jocurile-exclusive-portate-pe-pc/cover.jpg?v=aee6917e" medium="image" type="image/jpeg"/>
       <description>Noua aplicație RecompLauncher își propune să ofere gamerilor o metodă simplă de descărcare și organizare pentru jocurile clasice de consolă adaptate recent pentru platforma PC.</description>
-    </item>
-    <item>
-      <title>Razer lansează Reclusa Mini 65%, o tastatură wireless dotată cu switch-uri magnetice</title>
-      <link>https://izz.ro/tech/razer-lanseaza-reclusa-mini-65-o-tastatura-wireless-dotata-cu-switch-uri/</link>
-      <guid>https://izz.ro/tech/razer-lanseaza-reclusa-mini-65-o-tastatura-wireless-dotata-cu-switch-uri/</guid>
-      <pubDate>Wed, 28 Oct 2026 08:56:40 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://start-up.ro/razer-lanseaza-reclusa-mini-65-tastatura-cu-switch-uri-magnetice/">Start-up.ro</source>
-      <media:content url="https://izz.ro/tech/razer-lanseaza-reclusa-mini-65-o-tastatura-wireless-dotata-cu-switch-uri/cover.jpg?v=947ace50" medium="image" type="image/jpeg"/>
-      <description>Producătorul de accesorii pentru gaming a prezentat un nou model compact de tastatură fără fir, echipată cu tehnologie magnetică interschimbabilă destinată pasionaților de jocuri video.</description>
     </item>
     <item>
       <title>Ucraina testează primul satelit propriu pentru comunicații</title>
@@ -113,7 +163,7 @@
       <pubDate>Wed, 28 Oct 2026 08:49:13 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.g4media.ro/ucraina-si-rusia-dezvolta-alternative-la-starlink-o-noua-etapa-in-razboiul-tehnologic-dintre-cele-doua-tari.html">G4Media</source>
-      <media:content url="https://izz.ro/tech/ucraina-testeaza-primul-satelit-propriu-pentru-comunicatii/cover.jpg?v=c1d9b830" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/ucraina-testeaza-primul-satelit-propriu-pentru-comunicatii/cover.jpg?v=8a42f8c4" medium="image" type="image/jpeg"/>
       <description>Autoritățile ucrainene au lansat pe orbită un satelit experimental realizat împreună cu o firmă daneză, marcând un pas important spre o rețea proprie de comunicații și independență tehnologică față de Starlink.</description>
     </item>
     <item>
@@ -123,7 +173,7 @@
       <pubDate>Wed, 28 Oct 2026 08:42:05 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/28/seria-vivo-x500-a-fost-lansata-in-europa/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/seria-de-telefoane-vivo-x500-a-fost-lansata-oficial-pe-piata-din-europa/cover.jpg?v=3a0bab5e" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/seria-de-telefoane-vivo-x500-a-fost-lansata-oficial-pe-piata-din-europa/cover.jpg?v=dd323425" medium="image" type="image/jpeg"/>
       <description>Producătorul chinez aduce pe continent doar modelele X500 Pro și Pro Max, în timp ce varianta standard rămâne exclusivă pentru anumite regiuni asiatice, conform strategiei globale a companiei.</description>
     </item>
     <item>
@@ -133,7 +183,7 @@
       <pubDate>Wed, 28 Oct 2026 08:38:45 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/28/call-of-duty-nu-mai-vinde-atat-de-bine-dupa-ce-a-iesit-din-oferta-xbox-game-pass/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/scadere-semnificativa-a-vanzarilor-pentru-jocul-call-of-duty-dupa-retragerea/cover.jpg?v=7eed831e" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/scadere-semnificativa-a-vanzarilor-pentru-jocul-call-of-duty-dupa-retragerea/cover.jpg?v=ed43f79d" medium="image" type="image/jpeg"/>
       <description>Titlul Call of Duty Modern Warfare 4 a înregistrat cu 30% mai puțini jucători pe platformele Xbox și Steam, fiind afectat negativ de excluderea din serviciul de abonament Game Pass.</description>
     </item>
     <item>
@@ -143,7 +193,7 @@
       <pubDate>Wed, 28 Oct 2026 08:22:34 +0000</pubDate>
       <category>tech</category>
       <source url="https://start-up.ro/ing-lanseaza-next-in-business-platforma-prin-care-vrea-sa-ajute-micile-afaceri-sa-devina-mai-vizibile/">Start-up.ro</source>
-      <media:content url="https://izz.ro/tech/ing-lanseaza-platforma-next-in-business-pentru-vizibilitatea-micilor-afaceri/cover.jpg?v=58b87cf6" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/ing-lanseaza-platforma-next-in-business-pentru-vizibilitatea-micilor-afaceri/cover.jpg?v=beaac929" medium="image" type="image/jpeg"/>
       <description>Banca ING a creat un program dedicat antreprenorilor mici pentru a-și crește vizibilitatea pe piață, venind în sprijinul nevoilor de dezvoltare identificate în rândul acestora.</description>
     </item>
     <item>
@@ -153,7 +203,7 @@
       <pubDate>Wed, 28 Oct 2026 07:56:32 +0000</pubDate>
       <category>tech</category>
       <source url="https://start-up.ro/oves-enterprise-dronele-cu-nemesis-ai-pot-continua-misiunile-fara-internet-si-gps/">Start-up.ro</source>
-      <media:content url="https://izz.ro/tech/tehnologia-nemesis-ai-permite-dronelor-oves-enterprise-sa-functioneze-fara/cover.jpg?v=152936f0" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/tehnologia-nemesis-ai-permite-dronelor-oves-enterprise-sa-functioneze-fara/cover.jpg?v=6defdd72" medium="image" type="image/jpeg"/>
       <description>Sistemul avansat de inteligență artificială creat de OVES Enterprise ajută dronele să își îndeplinească misiunile în siguranță chiar și atunci când conexiunile de comunicație sunt complet întrerupte.</description>
     </item>
     <item>
@@ -183,7 +233,7 @@
       <pubDate>Tue, 27 Oct 2026 20:00:34 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.g4media.ro/actiunile-tehnologice-cresc-dupa-anuntul-anthropic-privind-listarea-la-bursa.html">G4Media</source>
-      <media:content url="https://izz.ro/tech/crestere-pe-burse-a-actiunilor-tech-dupa-anuntul-companiei-anthropic/cover.jpg?v=d3baf454" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/crestere-pe-burse-a-actiunilor-tech-dupa-anuntul-companiei-anthropic/cover.jpg?v=e198db9a" medium="image" type="image/jpeg"/>
       <description>Acțiunile din sectorul tehnologic au urcat pe piețele internaționale, impulsionate de planul de listare la bursă al companiei Anthropic, dezvoltatorul asistentului Claude. Investitorii au apreciat și datele financiare solide raportate.</description>
     </item>
     <item>
@@ -193,7 +243,7 @@
       <pubDate>Tue, 27 Oct 2026 19:41:52 +0000</pubDate>
       <category>tech</category>
       <source url="https://stirileprotv.ro/stiri/international/compania-aeriana-care-va-introduce-internet-wi-fi-la-bordul-avioanelor-prin-starlink-serviciul-ar-urma-sa-fie-disponibil-din-2027.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/tech/easyjet-va-introduce-conexiune-internet-starlink-la-bordul-avioanelor-incepand/cover.jpg?v=d436e110" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/easyjet-va-introduce-conexiune-internet-starlink-la-bordul-avioanelor-incepand/cover.jpg?v=52f7e423" medium="image" type="image/jpeg"/>
       <description>Operatorul aerian low-cost a anunțat că pasagerii vor beneficia de acces la internet Wi-Fi prin intermediul rețelei de sateliți Starlink, dezvoltată de compania SpaceX a lui Elon Musk, serviciul urmând să devină operațional din 2027.</description>
     </item>
     <item>
@@ -233,7 +283,7 @@
       <pubDate>Tue, 27 Oct 2026 17:17:27 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.zf.ro/business-hi-tech/gigantul-sony-incearca-sa-i-convinga-pe-utilizatorii-camerelor-sale-video-sa-renunte-la-produsele-r-de-dji-sau-hollyland-si-sa-aleaga-si-microfoanele-din-acelasi-ecosistem-cu-un-nou-kit-ecm-w5-23269077">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/tech/sony-lanseaza-un-nou-kit-de-microfoane-pentru-a-concura-cu-brandurile-rivale/cover.jpg?v=bcef2c4d" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/sony-lanseaza-un-nou-kit-de-microfoane-pentru-a-concura-cu-brandurile-rivale/cover.jpg?v=530870b8" medium="image" type="image/jpeg"/>
       <description>Producătorul japonez Sony a introds un nou sistem audio wireless, ECM-W5, încercând să determine creatorii video să renunțe la produsele concurente de la RØDE sau DJI.</description>
     </item>
     <item>
@@ -243,7 +293,7 @@
       <pubDate>Tue, 27 Oct 2026 17:00:07 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.desteptarea.ro/robosteam-weavers-inca-un-pas-spre-finala-internationala-world-robot-olympiad-din-puerto-rico/">Desteptarea.ro</source>
-      <media:content url="https://izz.ro/tech/echipa-robosteam-weavers-pregateste-deplasarea-la-finala-mondiala-din-puerto/cover.jpg?v=2ea033b3" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/echipa-robosteam-weavers-pregateste-deplasarea-la-finala-mondiala-din-puerto/cover.jpg?v=91b8f524" medium="image" type="image/jpeg"/>
       <description>Tinerii Andrei Ciobanu, Mihnea Dragu și Matteo Sociu au vizitat Ambasada SUA din București pentru obținerea vizelor necesare participării la World Robot Olympiad.</description>
     </item>
     <item>
@@ -253,7 +303,7 @@
       <pubDate>Tue, 27 Oct 2026 15:37:01 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/specificatii-iphone-18e/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/specificatiile-preliminare-ale-viitorului-iphone-18e-indica-un-ecran-de-60-hz/cover.jpg?v=d4628d86" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/specificatiile-preliminare-ale-viitorului-iphone-18e-indica-un-ecran-de-60-hz/cover.jpg?v=4cef943c" medium="image" type="image/jpeg"/>
       <description>Informațiile neoficiale despre viitorul model Apple programat pentru lansare arată că acesta va păstra caracteristici tehnice mai vechi, oferind o alternativă modestă față de dispozitivele second-hand cu dotări premium.</description>
     </item>
     <item>
@@ -263,7 +313,7 @@
       <pubDate>Tue, 27 Oct 2026 15:02:44 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/microsoft-ai-concedieri/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/microsoft-pregateste-concedierea-a-60-000-de-angajati-global-inlocuiti-partial/cover.jpg?v=38c45ccb" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/tech/microsoft-pregateste-concedierea-a-60-000-de-angajati-global-inlocuiti-partial/cover.jpg?v=a8488f64" medium="image" type="image/jpeg"/>
       <description>Compania Microsoft a lansat o nouă campanie de plecări voluntare care vizează un sfert din personalul mondial, respectiv 60.000 de oameni. Măsura vine pe fondul extinderii tehnologiilor bazate pe inteligență artificială, în timp ce acționarii înregistrează câștiguri financiare majore.</description>
     </item>
     <item>
@@ -273,7 +323,6 @@
       <pubDate>Tue, 27 Oct 2026 14:07:16 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/iphone-duo-ecran-defect/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/apple-recunoaste-problemele-de-fiabilitate-ale-ecranului-la-modelul-iphone-duo/cover.jpg?v=367af243" medium="image" type="image/jpeg"/>
       <description>Utilizatorii care au comandat noul iPhone Duo se confruntă cu defecțiuni neașteptate ale ecranului, gigantul american direcționați clienții păgubiți către serviciul de asistență Apple Care.</description>
     </item>
     <item>
@@ -283,7 +332,6 @@
       <pubDate>Tue, 27 Oct 2026 12:40:32 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/27/mx-master-4-de-la-logitech-primeste-un-redesign-sub-forma-unei-editii-speciale/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/logitech-lanseaza-o-editie-speciala-cu-design-nou-pentru-mouse-ul-mx-master-4/cover.jpg?v=45b48db3" medium="image" type="image/jpeg"/>
       <description>Producătorul Logitech a prezentat modelul MX Master 4 Special Edition, care aduce exclusiv o estetică proaspătă în două tonuri de culoare, fără a include însă îmbunătățiri de natură tehnică sau hardware.</description>
     </item>
     <item>
@@ -293,7 +341,6 @@
       <pubDate>Tue, 27 Oct 2026 12:09:01 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/27/iphone-duo-a-picat-inca-un-test-s-a-stricat-dupa-75-000-de-indoituri/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/telefonul-pliabil-iphone-duo-cedeaza-dupa-75-000-de-indoituri-in-teste/cover.jpg?v=19923c54" medium="image" type="image/jpeg"/>
       <description>Noul smartphone pliabil de la Apple întâmpină probleme de durabilitate, utilizatorii reali raportând defecțiuni frecvente cunoscute drept fenomenul Crackgate. Testele independente arată că ecranul se defectează rapid la îndoire și expunere la praf, determinând producătorul să acorde înlocuiri.</description>
     </item>
     <item>
@@ -439,50 +486,5 @@
       <category>tech</category>
       <source url="https://zonait.ro/poco-x8s/">ZonaIT</source>
       <description>Noul telefon cu Android vine cu specificații de nivel mediu-superior, ecran de 6,35 inci și baterie cu siliciu-carbon, având un preț de pornire de 399 de dolari.</description>
-    </item>
-    <item>
-      <title>Plăcile video NVIDIA RTX primesc un plus de performanță în inteligența artificială</title>
-      <link>https://izz.ro/tech/placile-video-nvidia-rtx-primesc-un-plus-de-performanta-in-inteligenta/</link>
-      <guid>https://izz.ro/tech/placile-video-nvidia-rtx-primesc-un-plus-de-performanta-in-inteligenta/</guid>
-      <pubDate>Mon, 26 Oct 2026 13:57:47 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/26/nvidia-geforce-rtx-30-si-rtx-40-devin-mult-mai-rapide-in-ai-preturile-second-hand-vor-exploda/">Connect.ro</source>
-      <description>O nouă metodă de optimizare crește considerabil capacitățile de procesare AI pentru generațiile anterioare de plăci grafice, dezvoltatorii estimând o scumpire accentuată a acestora pe piața second-hand.</description>
-    </item>
-    <item>
-      <title>Prototipul electric E9X promite zboruri sustenabile fără kerosen</title>
-      <link>https://izz.ro/tech/prototipul-electric-e9x-promite-zboruri-sustenabile-fara-kerosen/</link>
-      <guid>https://izz.ro/tech/prototipul-electric-e9x-promite-zboruri-sustenabile-fara-kerosen/</guid>
-      <pubDate>Mon, 26 Oct 2026 13:42:43 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://newsbv.ro/avionul-electric-e9x-promite-zboruri-fara-kerosen/">News Brașov</source>
-      <description>Olanda a testat cu succes aeronava electrică E9X, capabilă să transporte 90 de pasageri pe o distanță de 1.000 de kilometri exclusiv pe bază de baterii, marcând un progres important pentru aviația ecologică.</description>
-    </item>
-    <item>
-      <title>Apple a lansat noul model iPad mini cu ecran OLED și procesor A20 Pro</title>
-      <link>https://izz.ro/tech/apple-a-prezentat-noul-model-ipad-mini-cu-ecran-oled-si-procesor-a20-pro/</link>
-      <guid>https://izz.ro/tech/apple-a-prezentat-noul-model-ipad-mini-cu-ecran-oled-si-procesor-a20-pro/</guid>
-      <pubDate>Mon, 26 Oct 2026 13:36:13 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/26/ipad-mini-oled-preturi-configuratii/">Connect.ro, Start-up.ro</source>
-      <description>Precomenzile pentru tabletă încep pe 28 octombrie, iar disponibilitatea în magazine este programată pentru 6 noiembrie. Dispozitivul are o grosime de 5,4 mm, cameră frontală de 12 MP și suport pentru încărcare rapidă. Arhitectura grafică a dispozitivului include dynamic caching, mesh shading și ray tracing accelerate hardware.</description>
-    </item>
-    <item>
-      <title>Probleme tehnice semnalate la primele exemplare iPhone Duo</title>
-      <link>https://izz.ro/tech/probleme-tehnice-semnalate-la-primele-exemplare-iphone-duo/</link>
-      <guid>https://izz.ro/tech/probleme-tehnice-semnalate-la-primele-exemplare-iphone-duo/</guid>
-      <pubDate>Mon, 26 Oct 2026 13:07:49 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/iphone-duo-defectat/">ZonaIT</source>
-      <description>Specialiștii iFixit arată că noul smartphone pliabil iPhone Duo întâmpină defecțiuni majore la ecran imediat după despachetare, costul reparației în afara garanției fiind extrem de ridicat.</description>
-    </item>
-    <item>
-      <title>Prefixul telefonic 0786 aparține rețelei Telekom Romania Mobile</title>
-      <link>https://izz.ro/tech/prefixul-telefonic-0786-apartine-retelei-telekom-romania-mobile/</link>
-      <guid>https://izz.ro/tech/prefixul-telefonic-0786-apartine-retelei-telekom-romania-mobile/</guid>
-      <pubDate>Mon, 26 Oct 2026 12:30:10 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.deltanews.ro/prefix-0786-ce-retea-indica-si-cum-verifici-un-numar-portat/">DeltaNews.ro</source>
-      <description>Anexele de numerotare ANCOM arată că prefixul 0786 a fost alocat inițial operatorului Telekom. Utilizatorii care doresc să verifice rețeaua actuală a unui număr portat trebuie să folosească alte metode de interogare.</description>
     </item>
 </channel></rss>

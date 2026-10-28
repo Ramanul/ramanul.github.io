@@ -762,13 +762,16 @@ picture { display: contents; }
 .art--arc.art--t0 { --art-et-k: .87; }
 .art--arc.art--t1 { --art-et-k: .67; }
 .art--arc.art--t2 { --art-et-k: .54; }
+.art--arc.art--t3 { --art-et-k: .44; }
 .art--banda.art--t0 { --art-et-k: .87; }
 .art--banda.art--t1 { --art-et-k: .66; }
 .art--banda.art--t2 { --art-et-k: .52; }
+.art--banda.art--t3 { --art-et-k: .40; }
 .art-label {
   font-size: var(--fs-lg);                                  /* cadere fara `cqw` */
   font-size: calc(var(--art-et-base) * var(--art-et-k));
-  letter-spacing: .21cqw; line-height: 1.05; overflow-wrap: anywhere;
+  letter-spacing: .21cqw; line-height: 1.05;
+  overflow-wrap: normal; word-break: keep-all; hyphens: none;
 }
 .art-brand, .art-when, .art-foot, .art-sub, .art-num-wk, .art-num-luna {
   font-size: 1.35cqw; letter-spacing: .31cqw; opacity: .5;
@@ -776,6 +779,7 @@ picture { display: contents; }
 .art-tick { display: block; background: var(--art-gold); height: .31cqw; width: 6.7cqw; }
 .art-body {
   position: absolute; display: flex; flex-direction: column; justify-content: center;
+  z-index: 2;
 }
 .art-subrow { display: flex; align-items: center; gap: 1.46cqw; margin-top: 1.9cqw; }
 .art-subrow .art-sub { font-size: 1.87cqw; letter-spacing: .42cqw; opacity: .55; }
@@ -894,6 +898,54 @@ picture { display: contents; }
 
 .art-brand--jos { position: absolute; }
 
+/* -- indicator cantitativ financiar (stat callout 2.5D pe stiri economice) -- */
+.art--callout-mode {}
+.art-callout {
+  position: absolute; display: flex; align-items: center; justify-content: flex-end;
+  font-family: var(--font-title); font-weight: 700; line-height: .95; text-align: right;
+  pointer-events: none;
+}
+.art-callout-val {
+  display: inline-block; white-space: nowrap;
+  color: var(--art-gold);
+  text-shadow: 0 .4cqw 1.2cqw rgba(29, 31, 36, 0.45), 0 .1cqw .3cqw rgba(250, 232, 162, 0.55);
+}
+.art-callout--inversat {
+  right: 5.83cqw; bottom: 4.5cqw; max-width: 42cqw;
+}
+.art-callout--banda {
+  right: 6.67cqw; top: 50%; transform: translateY(-50%); max-width: 60cqw;
+}
+.art--banda .art-callout-val {
+  color: var(--art-acc);
+  text-shadow: 0 .3cqw .8cqw rgba(29, 31, 36, 0.16), 0 .1cqw .2cqw rgba(184, 134, 11, 0.35);
+}
+.art-callout--editorial {
+  right: 7.5cqw; top: 50%; transform: translateY(-50%); max-width: 38cqw;
+}
+.art-seal--callout {
+  display: flex; align-items: center; justify-content: center; text-align: center;
+}
+.art-seal--callout .art-callout-val {
+  color: var(--art-acc);
+  text-shadow: 0 .2cqw .6cqw rgba(29, 31, 36, 0.18), 0 .1cqw .2cqw rgba(184, 134, 11, 0.4);
+}
+
+/* Trepte dimensionale cqw pentru callout — scalare proportionala fara trunchiere arbitrara */
+.art-callout--c0 .art-callout-val { font-size: 14.5cqw; }
+.art-callout--c1 .art-callout-val { font-size: 8.4cqw; }
+.art-callout--c2 .art-callout-val { font-size: 5.4cqw; letter-spacing: -.05cqw; }
+
+/* In cadrul sigiliului rotund (art-seal), spatiul e calibrat usor mai compact */
+.art-seal.art-callout--c0 .art-callout-val { font-size: 11cqw; }
+.art-seal.art-callout--c1 .art-callout-val { font-size: 6.5cqw; }
+.art-seal.art-callout--c2 .art-callout-val { font-size: 4.6cqw; }
+
+/* Cand nu avem callout pe cardurile tematice (fara data), corpul textului se extinde armonios */
+.art--inversat:not(.art--callout-mode) .art-body { max-width: 86cqw; }
+.art--arc:not(.art--callout-mode):not(.art--geo) .art-body { max-width: 86cqw; }
+
+
 /* -- silueta cartografica a judetului (Natural Earth, domeniu public) si medalionul portret (PD/CC0) -- */
 .art--harta.art--editorial, .art--portret.art--editorial { --art-et-base: 9.58cqw; }
 .art--harta.art--editorial .art-body, .art--portret.art--editorial .art-body { max-width: 54cqw; }
@@ -965,6 +1017,57 @@ picture { display: contents; }
 .art-portret-wrap .art-portret--fata {
   position: absolute; left: var(--px); top: var(--py);
   width: var(--pw); height: auto; max-width: none; object-fit: fill;
+}
+
+/* -- arta generativa 3D procedurala (inspirata din The Verge / The New Stack / Unsplash 3D) -- */
+.art-scena-3d {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  pointer-events: none; z-index: 1; overflow: hidden;
+  opacity: .46;
+  transition: opacity .3s ease, transform .35s ease;
+}
+.card:hover .art-scena-3d {
+  opacity: .78;
+  transform: scale(1.02);
+}
+.art-scena-3d svg {
+  width: 100%; height: 100%; display: block;
+}
+.art--inversat .art-scena-3d {
+  opacity: .62;
+}
+.card:hover .art--inversat .art-scena-3d {
+  opacity: .92;
+}
+.art-scena--wireframe_mesh {
+  filter: drop-shadow(0 2px 8px rgba(6, 182, 212, .22));
+}
+.art-scena--circuit_matrix {
+  filter: drop-shadow(0 2px 10px rgba(16, 185, 129, .24));
+}
+.art-scena--parametric_waves {
+  filter: drop-shadow(0 4px 12px rgba(220, 184, 78, .2));
+}
+.art-scena--light_vortex {
+  filter: drop-shadow(0 0 12px rgba(250, 232, 162, .25));
+}
+.art-scena--isometric_prism {
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, .2));
+}
+.art-scena--warm_geometry {
+  filter: drop-shadow(0 3px 10px rgba(220, 184, 78, .18));
+}
+
+/* -- randare full-bleed pentru fotografii reale valide ('image_url' sau 'art_path') -- */
+.art--fullbleed {
+  position: relative; width: 100%; height: 100%; aspect-ratio: 960 / 504; overflow: hidden;
+  background: var(--line);
+}
+.art-fullbleed-img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+.card-media--fullbleed img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
 }
 
 /* Locurile in care intra arta. `--radius`/marginile raman ale locului, nu ale artei. */

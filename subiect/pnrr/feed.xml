@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/pnrr/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre PNRR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 19:05:59 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 22:00:12 +0000</lastBuildDate>
+    <item>
+      <title>România evaluează capacitatea de finanțare economică după închiderea PNRR</title>
+      <link>https://izz.ro/economic/romania-evalueaza-capacitatea-de-finantare-economica-dupa-inchiderea-pnrr/</link>
+      <guid>https://izz.ro/economic/romania-evalueaza-capacitatea-de-finantare-economica-dupa-inchiderea-pnrr/</guid>
+      <pubDate>Wed, 28 Oct 2026 21:23:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/eveniment/ziua-de-dupa-pnrr-cum-finantam-relansarea-economica-23270021">Ziarul Financiar</source>
+      <media:content url="https://izz.ro/economic/romania-evalueaza-capacitatea-de-finantare-economica-dupa-inchiderea-pnrr/cover.jpg?v=5f371c39" medium="image" type="image/jpeg"/>
+      <description>Bilanțul implementării PNRR aduce în discuție sustenabilitatea viitoare a investițiilor și mecanismele prin care va fi susținută relansarea economică națională.</description>
+    </item>
     <item>
       <title>Ministrul Finanțelor explică deficitul bugetar trimestrial de 9,2% din PIB</title>
       <link>https://izz.ro/politic/ministrul-finantelor-explica-deficitul-bugetar-trimestrial-de-92-din-pib/</link>
@@ -104,14 +114,5 @@
       <category>politic</category>
       <source url="https://www.antena3.ro/economic/ministrul-dezvoltarii-a-cerut-situatia-centralizata-a-tuturor-facturilor-neplatite-pe-pnrr-sunt-firme-romanesti-aproape-de-faliment-808075.html">Antena 3 CNN</source>
       <description>Alexandru Stoica, ministrul Dezvoltării, a solicitat o evidență clară la nivel național privind facturile restante din proiectele PNRR. Oficialul a subliniat că numeroase companii românești se află în pragul falimentului din această cauză.</description>
-    </item>
-    <item>
-      <title>Ministerul Finanțelor avertizează că fondurile PNRR sunt vitale pentru deficitul bugetar</title>
-      <link>https://izz.ro/economic/ministerul-finantelor-avertizeaza-ca-fondurile-pnrr-sunt-vitale-pentru/</link>
-      <guid>https://izz.ro/economic/ministerul-finantelor-avertizeaza-ca-fondurile-pnrr-sunt-vitale-pentru/</guid>
-      <pubDate>Fri, 16 Oct 2026 19:26:02 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://stirileprotv.ro/stiri/financiar/ministerul-finan-elor-avertizeaza-incasarea-a-6-43-miliarde-de-euro-din-pnrr-esen-iala-pentru-inta-de-deficit-bugetar.html">Știrile ProTV</source>
-      <description>Guvernul subliniază că încasarea tranșei de 6,43 miliarde de euro rămase din Planul Național de Redresare și Reziliență este o condiție obligatorie pentru atingerea țintelor de deficit asumate de România.</description>
     </item>
 </channel></rss>
