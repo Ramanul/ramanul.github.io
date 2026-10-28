@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/marea-britanie/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Marea Britanie pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 28 Oct 2026 10:01:48 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 17:10:21 +0000</lastBuildDate>
+    <item>
+      <title>O adolescentă din Marea Britanie a suferit un AVC la 13 ani</title>
+      <link>https://izz.ro/general/o-adolescenta-din-marea-britanie-a-suferit-un-avc-la-13-ani/</link>
+      <guid>https://izz.ro/general/o-adolescenta-din-marea-britanie-a-suferit-un-avc-la-13-ani/</guid>
+      <pubDate>Wed, 28 Oct 2026 15:49:29 +0000</pubDate>
+      <category>general</category>
+      <source url="https://stirileprotv.ro/stiri/international/o-fata-a-suferit-un-avc-la-doar-13-ani-dupa-ce-simptomele-au-fost-confundate-cu-o-sinuzita-a-stat-doua-luni-in-spital.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/general/o-adolescenta-din-marea-britanie-a-suferit-un-avc-la-13-ani/cover.jpg?v=90e5d4b6" medium="image" type="image/jpeg"/>
+      <description>Simptomele unui accident vascular cerebral au fost inițial confundate cu o sinuzită, lăsând tânăra spitalizată timp de două luni pentru recuperare medicală.</description>
+    </item>
     <item>
       <title>Ministrul britanic al Apărării va efectua o vizită oficială la Berlin</title>
       <link>https://izz.ro/extern/ministrul-britanic-al-apararii-va-efectua-o-vizita-oficiala-la-berlin/</link>
@@ -43,7 +53,6 @@
       <pubDate>Tue, 27 Oct 2026 09:41:15 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.theguardian.com/politics/2026/oct/27/uk-eu-relationship-talks-summit-free-movement-jonathan-reynolds">The Guardian</source>
-      <media:content url="https://izz.ro/extern/marea-britanie-discuta-cu-ue-optiuni-privind-libera-circulatie/cover.jpg?v=08941042" medium="image" type="image/jpeg"/>
       <description>Oficialii britanici au inițiat consultări cu Uniunea Europeană în vederea summitului din noiembrie, explorând posibile acorduri pe termen lung care ar putea include revenirea la libera circulație.</description>
     </item>
     <item>
@@ -351,32 +360,5 @@
       <category>extern</category>
       <source url="https://observatornews.ro/extern/momentul-in-care-este-arestat-criminalul-carlei-romanca-gasita-fara-suflare-intro-camera-de-camin-din-anglia-669485.html">Observator</source>
       <description>Oamenii legii din Marea Britanie au publicat înregistrarea momentului în care suspectul în vârstă de 34 de ani a fost reținut. Bărbatul, care dezvoltase o obsesie pentru studenta româncă, nu a opus rezistență.</description>
-    </item>
-    <item>
-      <title>Militari din NATO se pregătesc în Polonia pentru misiuni de menținere a păcii în Ucraina</title>
-      <link>https://izz.ro/extern/militari-din-nato-se-pregatesc-in-polonia-pentru-misiuni-de-mentinere-a-pacii/</link>
-      <guid>https://izz.ro/extern/militari-din-nato-se-pregatesc-in-polonia-pentru-misiuni-de-mentinere-a-pacii/</guid>
-      <pubDate>Sat, 17 Oct 2026 17:03:04 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/ue/trupele-nato-se-vor-antrena-in-polonia-in-vederea-unor-posibile-misiuni-de-mentinere-a-pacii-in-ucraina-3997007">Digi24 Extern</source>
-      <description>Cel puțin 1.500 de soldați din Marea Britanie, Franța și Germania efectuează exerciții de logistică și coordonare pe teritoriul Poloniei, pregătindu-se pentru o posibilă misiune viitoare de menținere a păcii în Ucraina.</description>
-    </item>
-    <item>
-      <title>Franța investighează utilizarea unor mașini finanțate de Marea Britanie</title>
-      <link>https://izz.ro/extern/franta-investigheaza-utilizarea-unor-masini-finantate-de-marea-britanie/</link>
-      <guid>https://izz.ro/extern/franta-investigheaza-utilizarea-unor-masini-finantate-de-marea-britanie/</guid>
-      <pubDate>Sat, 17 Oct 2026 16:00:34 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/2026/oct/17/french-police-uk-funded-4x4-vehicle-ram-student-protesters">The Guardian</source>
-      <description>Guvernul de la Paris a deschis o anchetă după ce vehicule 4x4 plătite de contribuabilii britanici pentru gestionarea migrației au fost folosite de forțele de ordine împotriva elevilor protestatari.</description>
-    </item>
-    <item>
-      <title>Un studiu britanic arată scăderea nivelului de nutrienți din alimente</title>
-      <link>https://izz.ro/sanatate/un-studiu-britanic-arata-scaderea-nivelului-de-nutrienti-din-alimente/</link>
-      <guid>https://izz.ro/sanatate/un-studiu-britanic-arata-scaderea-nivelului-de-nutrienti-din-alimente/</guid>
-      <pubDate>Sat, 17 Oct 2026 10:00:36 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://www.csid.ro/stiri/alimentele-pe-care-le-consumam-zilnic-ar-avea-cu-pana-la-50-mai-putini-nutrienti-ca-in-trecut-ce-au-descoperit-cercetatorii-21332085/">CSÎD</source>
-      <description>Cercetătorii semnalează că produsele alimentare consumate în prezent conțin cantități semnificativ mai mici de minerale esențialecomparativ cu trecutul, crescând riscul de carențe nutriționale.</description>
     </item>
 </channel></rss>

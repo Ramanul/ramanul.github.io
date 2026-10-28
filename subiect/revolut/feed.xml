@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/revolut/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Revolut pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 23 Oct 2026 19:34:18 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 17:10:21 +0000</lastBuildDate>
+    <item>
+      <title>Ghid util pentru investiții în titluri financiare utilizând aplicația mobilă Revolut</title>
+      <link>https://izz.ro/economic/ghid-util-pentru-investitii-in-titluri-financiare-utilizand-aplicatia-mobila/</link>
+      <guid>https://izz.ro/economic/ghid-util-pentru-investitii-in-titluri-financiare-utilizand-aplicatia-mobila/</guid>
+      <pubDate>Wed, 28 Oct 2026 16:33:50 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/cum-sa-investesti-prin-revolut-cont-ordine-valute-titluri.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/economic/ghid-util-pentru-investitii-in-titluri-financiare-utilizand-aplicatia-mobila/cover.jpg?v=65ef6f74" medium="image" type="image/jpeg"/>
+      <description>Articolul prezintă pașii necesari pentru deschiderea unui cont de investiții și plasarea ordinelor de tranzacționare cu diverse valute și acțiuni direct din aplicație.</description>
+    </item>
+    <item>
+      <title>Platforma financiară Revolut a înregistrat noi probleme de conectare pentru utilizatori</title>
+      <link>https://izz.ro/tech/platforma-financiara-revolut-a-inregistrat-noi-probleme-de-conectare-pentru/</link>
+      <guid>https://izz.ro/tech/platforma-financiara-revolut-a-inregistrat-noi-probleme-de-conectare-pentru/</guid>
+      <pubDate>Wed, 28 Oct 2026 16:19:43 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://adevarul.ro/economie/probleme-din-nou-la-revolut-utilizatorii-nu-se-2567228.html">Adevărul</source>
+      <media:content url="https://izz.ro/tech/platforma-financiara-revolut-a-inregistrat-noi-probleme-de-conectare-pentru/cover.jpg?v=bb20da69" medium="image" type="image/jpeg"/>
+      <description>Clienții aplicației digitale au semnalat dificultăți la autentificare și deconectări neașteptate din conturi, incidentul având loc la scurt timp după o pană similară recentă.</description>
+    </item>
     <item>
       <title>Noutăți din tehnologie și piața IT din România</title>
       <link>https://izz.ro/tech/noutati-din-tehnologie-si-piata-it-din-romania/</link>
@@ -104,14 +124,5 @@
       <category>economic</category>
       <source url="https://www.economica.net/foto-revolut-anunta-noi-comisioane-pentru-transferuri-bancare-si-lanseaza-blik-si-pentru-romani_986779.html">Economica</source>
       <description>Începând din decembrie 2026, aplicația financiară Revolut va modifica structura taxelor pentru plățile internaționale, trecând la un sistem de comision fix pentru claritatea tranzacțiilor.</description>
-    </item>
-    <item>
-      <title>Revolut refuză să publice date financiare pentru piaţa din România</title>
-      <link>https://izz.ro/economic/revolut-refuza-sa-publice-date-financiare-pentru-piata-din-romania/</link>
-      <guid>https://izz.ro/economic/revolut-refuza-sa-publice-date-financiare-pentru-piata-din-romania/</guid>
-      <pubDate>Sun, 11 Oct 2026 21:07:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/zf-live/revolut-5-milioane-clienti-locali-vrea-fie-banca-principala-clienti-unde-transparenta-ultimii-ani-cel-putin-romania-reprezinta-una-dintre-cele-importante-piete-banca-furnizat-cifre-precum-active-23257637">Ziarul Financiar</source>
-      <description>Fintech-ul britanic Revolut a ajuns la 5 milioane de clienţi români şi operează ca bancă, însă refuză în continuare să divulge date financiare esențiale precum activele sau veniturile locale, deşi consideră România o piaţă strategică.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/guvernul-romaniei/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Guvernul României pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 28 Oct 2026 10:01:48 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 17:10:21 +0000</lastBuildDate>
+    <item>
+      <title>Guvernul analizează creșterea eșalonată a pensiilor din ianuarie 2027</title>
+      <link>https://izz.ro/politic/guvernul-analizeaza-cresterea-esalonata-a-pensiilor-din-ianuarie-2027/</link>
+      <guid>https://izz.ro/politic/guvernul-analizeaza-cresterea-esalonata-a-pensiilor-din-ianuarie-2027/</guid>
+      <pubDate>Wed, 28 Oct 2026 15:30:37 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://monitorulneamt.ro/calcule-stranse-la-guvern-pensiile-romanilor-marite-cu-taraita-din-2027/">Monitorul de Neamț</source>
+      <media:content url="https://izz.ro/politic/guvernul-analizeaza-cresterea-esalonata-a-pensiilor-din-ianuarie-2027/cover.jpg?v=9ead8d75" medium="image" type="image/jpeg"/>
+      <description>Executivul condus de Luca Niculescu ia în calcul majorarea parțială sau eșalonată a pensiilor pentru a limita deficitul bugetar, evitând aplicarea integrală a legii care aducea un plus de 7,7%.</description>
+    </item>
     <item>
       <title>Guvernul acordă un sprijin financiar fermierilor pentru achiziția de îngrășăminte</title>
       <link>https://izz.ro/economic/guvernul-acorda-un-sprijin-financiar-fermierilor-pentru-achizitia-de/</link>
@@ -53,7 +63,6 @@
       <pubDate>Tue, 27 Oct 2026 11:20:46 +0000</pubDate>
       <category>economic</category>
       <source url="https://bizbrasov.ro/2026/10/27/guvern-taxe-colete-china-roman-euro/">BizBrașov</source>
-      <media:content url="https://izz.ro/economic/guvernul-intarzie-decizia-privind-taxele-suplimentare-pentru-coletele/cover.jpg?v=df82d912" medium="image" type="image/jpeg"/>
       <description>Executivul analizează impactul noilor taxe europene de doi și trei euro aplicate coletelor din China, suplimentare față de tariful național actual, cu doar câteva zile înainte de termenul limită de la 1 noiembrie.</description>
     </item>
     <item>
@@ -63,7 +72,6 @@
       <pubDate>Tue, 27 Oct 2026 06:47:03 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.criticarad.ro/saonrc-scrisoare-deschisa-prim-ministrului-si-ministrului-justitiei/">Critic Arad</source>
-      <media:content url="https://izz.ro/politic/sindicatul-onrc-cere-masuri-urgente-dupa-ce-termenul-de-solutionare-a-cererilor/cover.jpg?v=f6b2e4f1" medium="image" type="image/jpeg"/>
       <description>Angajații Oficiului Național al Registrului Comerțului au trimis o scrisoare deschisă premierului și ministrului Justiției, solicitând ordonanță de urgență pentru salarizare și deblocarea posturilor vacante din cauza volumului masiv de muncă.</description>
     </item>
     <item>
@@ -452,14 +460,5 @@
       <category>local</category>
       <source url="https://www.zi-de-zi.ro/2026/10/22/dumitrita-gliga-liderul-psd-mures-dupa-investirea-noului-guvern-este-un-castig-pentru-romania/">Zi de Zi</source>
       <description>Deputatul PSD Mureș a subliniat că preluarea atribuțiilor de către noul Executiv condus de premierul Luca Niculescu reprezintă un pas esențial pentru depășirea crizei politice și relansarea economiei naționale.</description>
-    </item>
-    <item>
-      <title>Alin Tișe solicită Guvernului finanțare urgentă pentru Spitalul Pediatric Monobloc din Cluj</title>
-      <link>https://izz.ro/judetean/alin-tise-solicita-guvernului-finantare-urgenta-pentru-spitalul-pediatric/</link>
-      <guid>https://izz.ro/judetean/alin-tise-solicita-guvernului-finantare-urgenta-pentru-spitalul-pediatric/</guid>
-      <pubDate>Thu, 22 Oct 2026 08:12:36 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://gazetadecluj.ro/alin-tise-pune-presiune-pe-guvern-si-pe-psd-pentru-finantarea-spitalului-monobloc-de-copii-din-cluj/">Gazeta de Cluj</source>
-      <description>Liderul administrației județene cere Executivului să aloce fonduri pentru unitatea medicală pediatrică, subliniind că sănătatea copiilor are prioritate absolută în fața oricăror alte investiții publice.</description>
     </item>
 </channel></rss>

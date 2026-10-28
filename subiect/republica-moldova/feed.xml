@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/republica-moldova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Republica Moldova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 28 Oct 2026 10:01:48 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 17:10:21 +0000</lastBuildDate>
+    <item>
+      <title>Igor Grosu promite lege pentru drone militare până în decembrie</title>
+      <link>https://izz.ro/politic/igor-grosu-promite-lege-pentru-drone-militare-pana-in-decembrie/</link>
+      <guid>https://izz.ro/politic/igor-grosu-promite-lege-pentru-drone-militare-pana-in-decembrie/</guid>
+      <pubDate>Wed, 28 Oct 2026 16:00:00 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.europalibera.md/a/cu-igor-grosu-despre-energie-compensatii-pe-timpul-iernii-drone-alegeri-si-mitropoliti/33886090.html">Europa Liberă</source>
+      <media:content url="https://izz.ro/politic/igor-grosu-promite-lege-pentru-drone-militare-pana-in-decembrie/cover.jpg?v=6f51c67a" medium="image" type="image/jpeg"/>
+      <description>Președintele Parlamentului de la Chișinău anunță adoptarea unei noi legi privind producția de drone militare până la finalul lunii decembrie, vizând și aspecte energetice și electorale.</description>
+    </item>
     <item>
       <title>Tradițiile populare din Gorj au fost prezentate în mai multe orașe din Republica Moldova</title>
       <link>https://izz.ro/local/traditiile-populare-din-gorj-au-fost-prezentate-in-mai-multe-orase-din/</link>
@@ -337,14 +347,5 @@
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/republica-moldova/doi-graniceri-ucraineni-au-traversat-ilegal-2564728.html">Adevărul</source>
       <description>Autoritățile judiciare din Republica Moldova au deschis o anchetă pe numele a doi polițiști de frontieră din Ucraina. Aceștia au intrat ilegal cu o barcă pe teritoriul moldovenesc în timp ce urmăreau un conațional care fugea înot peste râu.</description>
-    </item>
-    <item>
-      <title>Republica Moldova raportează zeci de încălcări ale spațiului aerian</title>
-      <link>https://izz.ro/extern/republica-moldova-raporteaza-zeci-de-incalcari-ale-spatiului-aerian/</link>
-      <guid>https://izz.ro/extern/republica-moldova-raporteaza-zeci-de-incalcari-ale-spatiului-aerian/</guid>
-      <pubDate>Sat, 17 Oct 2026 13:04:11 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://cursdeguvernare.ro/republica-moldova-a-inregistrat-63-de-incalcari-ale-spatiului-aerian-de-la-inceputul-anului.html">Curs de Guvernare</source>
-      <description>Autoritățile de la Chișinău au înregistrat 63 de pătrunderi neautorizate în spațiul aerian național de la începutul anului, pe fondul conflictului armat din țara vecină.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 28 Oct 2026 10:01:48 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 17:10:21 +0000</lastBuildDate>
+    <item>
+      <title>Utilizatorii rețelei Starlink din peste 100 de țări ar fi monitorizați</title>
+      <link>https://izz.ro/tech/utilizatorii-retelei-starlink-din-peste-100-de-tari-ar-fi-monitorizati/</link>
+      <guid>https://izz.ro/tech/utilizatorii-retelei-starlink-din-peste-100-de-tari-ar-fi-monitorizati/</guid>
+      <pubDate>Wed, 28 Oct 2026 13:26:58 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/starlink-supraveghere/">ZonaIT</source>
+      <media:content url="https://izz.ro/tech/utilizatorii-retelei-starlink-din-peste-100-de-tari-ar-fi-monitorizati/cover.jpg?v=11d9d687" medium="image" type="image/jpeg"/>
+      <description>Relațiile companiei SpaceX cu mediul politic american și colaborarea cu o firmă israeliană de publicitate ridică semne de întrebare privind confidențialitatea datelor pentru clienții serviciului de internet global.</description>
+    </item>
     <item>
       <title>EasyJet va introduce conexiune internet Starlink la bordul avioanelor începând din 2027</title>
       <link>https://izz.ro/tech/easyjet-va-introduce-conexiune-internet-starlink-la-bordul-avioanelor-incepand/</link>
@@ -168,14 +178,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/high-tech/starlink-varianta-europeana-ue-isi-construieste-propria-retea-de-sateliti-ce-este-iris-si-ce-rol-are-germania-807616.html">Antena 3 CNN</source>
       <description>În urma problemelor întâmpinate de armata ucraineană cu sistemul Starlink, blocul comunitar accelerează proiectul propriei constelații de sateliți de comunicații sigure, având sprijinul Germaniei.</description>
-    </item>
-    <item>
-      <title>Europa caută alternative la sistemul Starlink după restricțiile impuse în Ucraina</title>
-      <link>https://izz.ro/extern/europa-cauta-alternative-la-sistemul-starlink-dupa-restrictiile-impuse-in/</link>
-      <guid>https://izz.ro/extern/europa-cauta-alternative-la-sistemul-starlink-dupa-restrictiile-impuse-in/</guid>
-      <pubDate>Sat, 17 Oct 2026 12:12:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://observatornews.ro/extern/zelenski-europa-cauta-alternative-la-starlink-dupa-restrictiile-din-ucraina-ca-sa-reduca-dependenta-de-sua-669457.html">Observator, G4Media</source>
-      <description>Statele europene au început să dezvolte alternative la sistemul de comunicații prin satelit Starlink. Anunțul a fost făcut de Volodimir Zelenski, care a subliniat necesitatea reducerii dependenței de tehnologia americană, în contextul în care autoritățile de la Kiev s-au confruntat cu restricții de viteză aplicate terminalelor utilizate pe front.</description>
     </item>
 </channel></rss>

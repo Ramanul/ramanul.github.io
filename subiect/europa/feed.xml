@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 28 Oct 2026 10:01:48 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 17:10:21 +0000</lastBuildDate>
+    <item>
+      <title>Generația Z conduce protestele anti-corupție și economice în mai multe state din Europa</title>
+      <link>https://izz.ro/extern/generatia-z-conduce-protestele-anti-coruptie-si-economice-in-mai-multe-state/</link>
+      <guid>https://izz.ro/extern/generatia-z-conduce-protestele-anti-coruptie-si-economice-in-mai-multe-state/</guid>
+      <pubDate>Wed, 28 Oct 2026 16:31:04 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/de-ce-generatia-z-conduce-protestele-in-toata-europa.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/extern/generatia-z-conduce-protestele-anti-coruptie-si-economice-in-mai-multe-state/cover.jpg?v=f68eb902" medium="image" type="image/jpeg"/>
+      <description>O analiză Reuters arată că tinerii din țările europene ies în stradă din cauza corupției și a costului ridicat al vieții, evidențiind o prăpastie profundă între noua generație și clasa politică.</description>
+    </item>
+    <item>
+      <title>Prețurile gazelor naturale pe piața europeană au depășit pragul de o sută de euro</title>
+      <link>https://izz.ro/economic/preturile-gazelor-naturale-pe-piata-europeana-au-depasit-pragul-de-o-suta-de/</link>
+      <guid>https://izz.ro/economic/preturile-gazelor-naturale-pe-piata-europeana-au-depasit-pragul-de-o-suta-de/</guid>
+      <pubDate>Wed, 28 Oct 2026 15:04:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://observatornews.ro/economic/pretul-gazelor-a-depasit-100-de-euro-pe-mwh-de-ce-nici-sfarsitul-razboiului-nu-ar-aduce-ieftiniri-670596.html">Observator, Curs de Guvernare</source>
+      <media:content url="https://izz.ro/economic/preturile-gazelor-naturale-pe-piata-europeana-au-depasit-pragul-de-o-suta-de/cover.jpg?v=d5fb0900" medium="image" type="image/jpeg"/>
+      <description>Prețurile gazelor naturale pe piața europeană au depășit pragul de o sută de euro pe megawat-oră pentru prima dată din decembrie 2022. Gradul de umplere a depozitelor de gaze din Uniunea Europeană se situează la aproximativ 75% din capacitate. Creșterea prețurilor este pusă pe seama conflictului din Orientul Mijlociu și a nivelului scăzut al rezervelor.</description>
+    </item>
     <item>
       <title>Seria de telefoane Vivo X500 a fost lansată oficial pe piața din Europa</title>
       <link>https://izz.ro/tech/seria-de-telefoane-vivo-x500-a-fost-lansata-oficial-pe-piata-din-europa/</link>
@@ -441,23 +461,5 @@
       <category>tech</category>
       <source url="https://start-up.ro/preturile-pentru-xiaomi-18-pro-si-xiaomi-18-pro-max-in-europa/">Start-up.ro</source>
       <description>Noile smartphone-uri Xiaomi 18 Pro și Xiaomi 18 Pro Max vor fi comercializate pe piața europeană la prețuri de pornire estimate la 1.449 de euro, respectiv 1.849 de euro, fiind echipate cu baterii mari.</description>
-    </item>
-    <item>
-      <title>Distanța geografică influențează sprijinul european pentru Ucraina</title>
-      <link>https://izz.ro/extern/distanta-geografica-influenteaza-sprijinul-european-pentru-ucraina/</link>
-      <guid>https://izz.ro/extern/distanta-geografica-influenteaza-sprijinul-european-pentru-ucraina/</guid>
-      <pubDate>Tue, 20 Oct 2026 05:10:23 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.contributors.ro/cum-percepe-europa-amenintarile-nucleare-ale-rusiei-geografia-conteaza/">Contributors</source>
-      <description>Un studiu analizează modul în care proximitatea geografică față de Rusia determină percepția riscurilor nucleare și nivelul de implicare militară și politică a statelor europene în conflictul din Ucraina.</description>
-    </item>
-    <item>
-      <title>Creșterea interesului pentru biocombustibili în Europa stârnește controverse</title>
-      <link>https://izz.ro/economic/cresterea-interesului-pentru-biocombustibili-in-europa-starneste-controverse/</link>
-      <guid>https://izz.ro/economic/cresterea-interesului-pentru-biocombustibili-in-europa-starneste-controverse/</guid>
-      <pubDate>Tue, 20 Oct 2026 04:00:54 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.digi24.ro/stiri/externe/ue/biocombustibilii-revin-in-forta-in-europa-cine-castiga-si-cine-pierde-in-cursa-dintre-importuri-agricultura-si-clima-3998279">Digi24 Extern</source>
-      <description>Scumpirea carburanților readuce în discuție utilizarea culturilor agricole pentru energie, însă seceta și importurile masive complică impactul economic și climatic.</description>
     </item>
 </channel></rss>
