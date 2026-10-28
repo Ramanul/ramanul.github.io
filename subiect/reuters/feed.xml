@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/reuters/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Reuters pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 28 Oct 2026 02:33:06 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 10:01:48 +0000</lastBuildDate>
+    <item>
+      <title>Bula speculativă a inteligenței artificiale se sparge în China, provocând pierderi majore</title>
+      <link>https://izz.ro/ai/bula-speculativa-a-inteligentei-artificiale-se-sparge-in-china-provocand/</link>
+      <guid>https://izz.ro/ai/bula-speculativa-a-inteligentei-artificiale-se-sparge-in-china-provocand/</guid>
+      <pubDate>Wed, 28 Oct 2026 09:20:10 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/10/28/bula-ai-s-a-spart-deja-in-china-cum-va-afecta-restul-lumii/">Connect.ro</source>
+      <media:content url="https://izz.ro/ai/bula-speculativa-a-inteligentei-artificiale-se-sparge-in-china-provocand/cover.jpg?v=5f5d9ada" medium="image" type="image/jpeg"/>
+      <description>Companiile chineze din domeniul AI înregistrează scăderi drastice la bursă din cauza costurilor uriașe și a lipsei profitabilității. Raportul Reuters arată că entuziasmul investitorilor s-a stins, afectând grav indicele bursier STAR50.</description>
+    </item>
     <item>
       <title>Departamentul de Stat al SUA acordă vize lui Flavio Bolsonaro și familiei sale</title>
       <link>https://izz.ro/extern/departamentul-de-stat-al-sua-acorda-vize-lui-flavio-bolsonaro-si-familiei-sale/</link>
@@ -23,7 +33,6 @@
       <pubDate>Tue, 27 Oct 2026 05:41:35 +0000</pubDate>
       <category>extern</category>
       <source url="https://stirileprotv.ro/stiri/international/rusia-creste-productia-de-motorina-dupa-acordul-cu-sua-exporturile-catre-americani-ar-putea-depasi-un-milion-de-tone-lunar.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/extern/rusia-isi-majoreaza-productia-si-exporturile-de-motorina-catre-sua/cover.jpg?v=6b90744f" medium="image" type="image/jpeg"/>
       <description>Rafinăriile rusești au crescut volumele de rafinare în luna octombrie, beneficiind de cote speciale de export stabilite în urma unei înțelegeri recente încheiate cu autoritățile de la Washington.</description>
     </item>
     <item>
@@ -33,7 +42,6 @@
       <pubDate>Mon, 26 Oct 2026 21:00:05 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.g4media.ro/oxford-street-din-londra-devine-zona-pietonala-masinile-si-autobuzele-interzise-permanent.html">G4Media</source>
-      <media:content url="https://izz.ro/extern/oxford-street-din-londra-devine-definitiv-zona-exclusiv-pietonala/cover.jpg?v=cedc7db0" medium="image" type="image/jpeg"/>
       <description>Autoritățile britanice au interzis permanent accesul mașinilor și mijloacelor de transport pe o porțiune importantă a renumitei artere comerciale, urmând să amenajeze spații verzi și zone de recreere.</description>
     </item>
     <item>
@@ -134,23 +142,5 @@
       <category>ai</category>
       <source url="https://economedia.ro/fara-masuri-adecvate-riscurile-asociate-ai-ar-putea-depasi-oportunitatile-transmite-sefa-fmi.html">Economedia</source>
       <description>Directorul general al Fondului Monetar Internațional susține că dezvoltarea tehnologiei bazate pe inteligență artificială necesită reglementări stricte și cadre etice solide pentru a preveni posibile crize majore.</description>
-    </item>
-    <item>
-      <title>Fondul Oaktree s-a retras din cursa pentru drepturile TV din Serie A</title>
-      <link>https://izz.ro/sport/fondul-oaktree-s-a-retras-din-cursa-pentru-drepturile-tv-din-serie-a/</link>
-      <guid>https://izz.ro/sport/fondul-oaktree-s-a-retras-din-cursa-pentru-drepturile-tv-din-serie-a/</guid>
-      <pubDate>Sat, 17 Oct 2026 09:06:15 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.fcinter1908.it/ultimora/serie-a-diritti-tv-oaktree-fuori-avenue-capital-reuters/">FC Inter 1908</source>
-      <description>Proprietarul clubului Inter Milano, fondul Oaktree, a abandonat licitația pentru drepturile televiziunilor, favorizând un alt fond american în cursa pentru noua entitate media a campionatului italian de fotbal.</description>
-    </item>
-    <item>
-      <title>Proteste de amploare anunţate în Franţa cu participarea Vestelor Galbene</title>
-      <link>https://izz.ro/extern/proteste-de-amploare-anuntate-in-franta-cu-participarea-vestelor-galbene/</link>
-      <guid>https://izz.ro/extern/proteste-de-amploare-anuntate-in-franta-cu-participarea-vestelor-galbene/</guid>
-      <pubDate>Sat, 17 Oct 2026 08:23:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://observatornews.ro/extern/franta-se-pregateste-pentru-proteste-de-amploare-va-fi-o-zi-de-haos-vestele-galbene-ies-in-strada-669440.html">Observator, Știrile ProTV</source>
-      <description>Zeci de mii de persoane, incluzând elevi, studenţi, sindicalişti şi membri ai mişcării Vestele Galbene, sunt aşteptate să participe la manifestaţii în Franţa. Protestatarii sunt nemulţumiţi de creşterea costului vieţii, inegalităţile sociale şi deteriorarea serviciilor publice.</description>
     </item>
 </channel></rss>

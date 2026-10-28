@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/ministerul-finantelor/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ministerul Finanțelor pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 28 Oct 2026 02:33:06 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 10:01:48 +0000</lastBuildDate>
+    <item>
+      <title>Petrișor Peiu critică Guvernul pentru metodologia deficitului bugetar</title>
+      <link>https://izz.ro/politic/petrisor-peiu-critica-guvernul-pentru-metodologia-deficitului-bugetar/</link>
+      <guid>https://izz.ro/politic/petrisor-peiu-critica-guvernul-pentru-metodologia-deficitului-bugetar/</guid>
+      <pubDate>Wed, 28 Oct 2026 07:25:06 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://gazetadecluj.ro/petrisor-peiu-acuza-guvernul-ca-nu-prezinta-deficitul-bugetar-dupa-metodologia-europeana/">Gazeta de Cluj</source>
+      <media:content url="https://izz.ro/politic/petrisor-peiu-critica-guvernul-pentru-metodologia-deficitului-bugetar/cover.jpg?v=f388c526" medium="image" type="image/jpeg"/>
+      <description>Senatorul AUR Petrișor Peiu acuză Executivul că raportează deficitul bugetar doar în numerar și omite standardul european ESA, invocând o diferență de peste 28 de miliarde de lei în primul semestru.</description>
+    </item>
     <item>
       <title>Florin Zaharia critică politicile publice pentru neperformanța instituțiilor statului</title>
       <link>https://izz.ro/economic/florin-zaharia-critica-politicile-publice-pentru-neperformanta-institutiilor/</link>
@@ -43,7 +53,6 @@
       <pubDate>Tue, 27 Oct 2026 06:00:00 +0000</pubDate>
       <category>politic</category>
       <source url="https://www.antena3.ro/politica/ministerul-finantelor-face-calcule-pentru-legea-bugetului-surse-guvernul-ar-putea-majora-pensiile-in-doua-etape-808756.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/politic/guvernul-analizeaza-majorarea-pensiilor-in-doua-etape-prin-legea-bugetului/cover.jpg?v=8c7c2086" medium="image" type="image/jpeg"/>
       <description>Ministerul Finanțelor pregătește proiectul pentru bugetul de stat de anul viitor, luând în calcul creșterea pensiilor în două tranșe și posibila impozitare a unor facilități fiscale actuale.</description>
     </item>
     <item>
@@ -53,7 +62,6 @@
       <pubDate>Tue, 27 Oct 2026 05:42:53 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.libertatea.ro/stiri/cat-costa-un-litru-de-benzina-si-motorina-marti-27-octombrie-2026-in-bucuresti-iasi-cluj-napoca-timisoara-si-constanta-cebqqrs">Libertatea</source>
-      <media:content url="https://izz.ro/economic/preturile-carburantilor-au-ramas-neschimbate-in-marile-orase-din-romania/cover.jpg?v=f3b9e40b" medium="image" type="image/jpeg"/>
       <description>Benzina și motorina își mențin aceleași costuri la pompă de mai bine de două săptămâni, în timp ce Ministerul Finanțelor a anunțat prelungirea măsurilor de plafonare a prețurilor pentru încă trei luni.</description>
     </item>
     <item>
@@ -289,14 +297,5 @@
       <category>economic</category>
       <source url="https://www.economica.net/datoria-guvernamentala-a-romaniei-a-ajuns-in-luna-iulie-la-604-la-pib_986681.html">Economica, Economedia</source>
       <description>Conform Ministerului Finanțelor, datoria publică a României a crescut în iulie 2026 la aproape 1.205 miliarde de lei, reprezentând 60,4% din PIB, depășind pragul de alertă europeană. Datoria administrației centrale a ajuns la 1.177 miliarde de lei, în timp ce datoria administrației locale a urcat la 27,73 miliarde de lei. De asemenea, datoria internă a urcat la 607,386 miliarde de lei, iar cea externă s-a situat la 597,6 miliarde de lei.</description>
-    </item>
-    <item>
-      <title>România mai are de încasat peste 6 miliarde de euro din fondurile PNRR</title>
-      <link>https://izz.ro/economic/romania-mai-are-de-incasat-peste-6-miliarde-de-euro-din-fondurile-pnrr/</link>
-      <guid>https://izz.ro/economic/romania-mai-are-de-incasat-peste-6-miliarde-de-euro-din-fondurile-pnrr/</guid>
-      <pubDate>Sat, 17 Oct 2026 06:35:45 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://economedia.ro/romania-mai-are-de-incasat-643-miliarde-de-euro-din-pnrr-ministerul-finantelor-orice-suma-nevalidata-de-comisia-europeana-din-componenta-de-granturi-va-avea-impact-direct-asupra-deficitului.html">Economedia</source>
-      <description>Statul român a primit până în prezent aproape două treimi din valoarea totală a planului european, autoritățile avertizând asupra impactului pe care nevalidarea granturilor l-ar putea avea asupra deficitului.</description>
     </item>
 </channel></rss>

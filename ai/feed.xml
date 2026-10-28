@@ -5,16 +5,66 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 28 Oct 2026 02:33:13 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 10:01:59 +0000</lastBuildDate>
     <item>
-      <title>Anthropic avertizează în prospectul de listare bursieră despre riscurile majore ale AI</title>
-      <link>https://izz.ro/ai/anthropic-avertizeaza-in-prospectul-de-listare-bursiera-despre-riscurile-majore/</link>
-      <guid>https://izz.ro/ai/anthropic-avertizeaza-in-prospectul-de-listare-bursiera-despre-riscurile-majore/</guid>
-      <pubDate>Tue, 27 Oct 2026 16:57:55 +0000</pubDate>
+      <title>OpenAI extinde performanțele ChatGPT spre informatică și fizică</title>
+      <link>https://izz.ro/ai/openai-extinde-performantele-chatgpt-spre-informatica-si-fizica/</link>
+      <guid>https://izz.ro/ai/openai-extinde-performantele-chatgpt-spre-informatica-si-fizica/</guid>
+      <pubDate>Wed, 28 Oct 2026 09:28:09 +0000</pubDate>
       <category>ai</category>
-      <source url="https://cursdeguvernare.ro/prospectul-de-listare-a-anthropic-contine-peste-90-de-pagini-cu-factorii-de-risc.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/ai/anthropic-avertizeaza-in-prospectul-de-listare-bursiera-despre-riscurile-majore/cover.jpg?v=500b36e1" medium="image" type="image/jpeg"/>
-      <description>Documentele pentru listarea la bursă a companiei Anthropic subliniază că un incident catastrofal provocat de propria tehnologie inteligență artificială ar genera pagube financiare greu de acoperit de companiile de asigurări.</description>
+      <source url="https://www.connect.ro/2026/10/28/openai-anunta-noi-descoperiri-in-matematica-informatica-si-fizica/">Connect.ro</source>
+      <media:content url="https://izz.ro/ai/openai-extinde-performantele-chatgpt-spre-informatica-si-fizica/cover.jpg?v=5058e650" medium="image" type="image/jpeg"/>
+      <description>După rezolvarea a sutelor de probleme matematice, inteligența artificială dezvoltată de OpenAI oferă soluții noi și în domeniul fizicii și al informaticii, testând strategii inedite de validare.</description>
+    </item>
+    <item>
+      <title>Bula speculativă a inteligenței artificiale se sparge în China, provocând pierderi majore</title>
+      <link>https://izz.ro/ai/bula-speculativa-a-inteligentei-artificiale-se-sparge-in-china-provocand/</link>
+      <guid>https://izz.ro/ai/bula-speculativa-a-inteligentei-artificiale-se-sparge-in-china-provocand/</guid>
+      <pubDate>Wed, 28 Oct 2026 09:20:10 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/10/28/bula-ai-s-a-spart-deja-in-china-cum-va-afecta-restul-lumii/">Connect.ro</source>
+      <media:content url="https://izz.ro/ai/bula-speculativa-a-inteligentei-artificiale-se-sparge-in-china-provocand/cover.jpg?v=5f5d9ada" medium="image" type="image/jpeg"/>
+      <description>Companiile chineze din domeniul AI înregistrează scăderi drastice la bursă din cauza costurilor uriașe și a lipsei profitabilității. Raportul Reuters arată că entuziasmul investitorilor s-a stins, afectând grav indicele bursier STAR50.</description>
+    </item>
+    <item>
+      <title>Sub 40% dintre companii raportează un impact financiar real de la adoptarea inteligenței artificiale</title>
+      <link>https://izz.ro/ai/sub-40-dintre-companii-raporteaza-un-impact-financiar-real-de-la-adoptarea/</link>
+      <guid>https://izz.ro/ai/sub-40-dintre-companii-raporteaza-un-impact-financiar-real-de-la-adoptarea/</guid>
+      <pubDate>Wed, 28 Oct 2026 09:13:21 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://economedia.ro/mugur-pantaia-hp-vedem-hype-vis-a-vis-de-adoptia-si-utilizarea-ai-dar-mai-putin-de-40-din-organizatii-raporteaza-si-impact-real-financiar.html">Economedia</source>
+      <media:content url="https://izz.ro/ai/sub-40-dintre-companii-raporteaza-un-impact-financiar-real-de-la-adoptarea/cover.jpg?v=8c98eb39" medium="image" type="image/jpeg"/>
+      <description>Mugur Pantaia de la HP România explică faptul că, în pofida interesului uriaș pentru inteligența artificială, mai puțin de două cincimi dintre organizații reușesc să obțină beneficii financiare concrete din utilizarea acesteia.</description>
+    </item>
+    <item>
+      <title>Google lansează modelul de inteligență artificială Genie 4</title>
+      <link>https://izz.ro/ai/google-lanseaza-modelul-de-inteligenta-artificiala-genie-4/</link>
+      <guid>https://izz.ro/ai/google-lanseaza-modelul-de-inteligenta-artificiala-genie-4/</guid>
+      <pubDate>Wed, 28 Oct 2026 08:52:38 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/10/28/google-a-lansat-genie-4-pentru-creatii-mai-realiste-si-audio-suplimentar/">Connect.ro</source>
+      <media:content url="https://izz.ro/ai/google-lanseaza-modelul-de-inteligenta-artificiala-genie-4/cover.jpg?v=9a03188c" medium="image" type="image/jpeg"/>
+      <description>Noua versiune de AI dezvoltată de Google permite crearea de lumi interactive mai realiste, oferind utilizatorilor suport audio suplimentar și opțiuni de modificare în timp real.</description>
+    </item>
+    <item>
+      <title>Impactul inteligenței artificiale asupra supravegherii și democrației</title>
+      <link>https://izz.ro/ai/impactul-inteligentei-artificiale-asupra-supravegherii-si-democratiei/</link>
+      <guid>https://izz.ro/ai/impactul-inteligentei-artificiale-asupra-supravegherii-si-democratiei/</guid>
+      <pubDate>Wed, 28 Oct 2026 08:12:34 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://cursdeguvernare.ro/ana-maria-stancu-nevinovat-dar-suspect-pe-viata-ai-si-noua-arhitectura-a-controlului-intre-securitate-supraveghere-si-protejarea-democratiei.html">Curs de Guvernare</source>
+      <media:content url="https://izz.ro/ai/impactul-inteligentei-artificiale-asupra-supravegherii-si-democratiei/cover.jpg?v=61fe77af" medium="image" type="image/jpeg"/>
+      <description>Revista „CRONICILE Curs de Guvernare” analizează modul în care inteligența artificială transformă controlul social. Articolul subliniază riscurile aduse de tehnologiile de recunoaștere la adresa vieții private și a democrației.</description>
+    </item>
+    <item>
+      <title>Prospectul de listare la bursă al Anthropic avertizează asupra riscurilor majore provocate de propriul AI</title>
+      <link>https://izz.ro/ai/prospectul-de-listare-la-bursa-al-anthropic-avertizeaza-asupra-riscurilor/</link>
+      <guid>https://izz.ro/ai/prospectul-de-listare-la-bursa-al-anthropic-avertizeaza-asupra-riscurilor/</guid>
+      <pubDate>Wed, 28 Oct 2026 07:51:06 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/it/prospectul-de-listare-a-anthropic-contine-peste-90-de-pagini-cu-factorii-de-risc-un-incident-catastrofal-provocat-de-propriul-ai-ar-genera-pagube-greu-de-acoperit-de-asiguratori">Spotmedia</source>
+      <media:content url="https://izz.ro/ai/prospectul-de-listare-la-bursa-al-anthropic-avertizeaza-asupra-riscurilor/cover.jpg?v=de080426" medium="image" type="image/jpeg"/>
+      <description>Documentele financiare pentru lansarea acțiunilor producătorului Claude subliniază că un incident catastrofal generat de inteligența artificială ar provoca pagube financiare greu de acoperit de companiile de asigurări.</description>
     </item>
     <item>
       <title>Un guvern din Uniunea Europeană interzice accesul la ChatGPT și Claude pe computerele de serviciu</title>
@@ -43,7 +93,6 @@
       <pubDate>Tue, 27 Oct 2026 05:42:05 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.g4media.ro/bula-inteligentei-artificiale-s-a-spart-deja-in-china-companii-care-valorau-miliarde-au-pierdut-jumatate-din-valoarea-bursiera-de-ce-se-prabusesc-actiunile-ai-din-china.html">G4Media</source>
-      <media:content url="https://izz.ro/ai/companiile-de-inteligenta-artificiala-din-china-au-pierdut-miliarde-de-dolari/cover.jpg?v=14da0dc7" medium="image" type="image/jpeg"/>
       <description>Bula investițională în tehnologia AI s-a spart pe piața chineză, unde firmele de profil au consemnat o scădere a valorii bursiere cu 480 de miliarde de dolari în mai puțin de patru luni, după doi ani de creșteri.</description>
     </item>
     <item>
@@ -53,7 +102,6 @@
       <pubDate>Tue, 27 Oct 2026 03:52:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://bizbrasov.ro/2026/10/27/asistent-ai-imm-uri-dogaru-clienti/">BizBrașov</source>
-      <media:content url="https://izz.ro/ai/start-up-ul-brasovean-aria-knows-lanseaza-un-asistent-ai-pentru-imm-uri/cover.jpg?v=a5f590f4" medium="image" type="image/jpeg"/>
       <description>Compania brașoveană ARIA Knows a introdus pe piață un asistent bazat pe inteligență artificială destinat IMM-urilor, având ca obiectiv atragerea a cel puțin 150 de clienți plătitori pe parcursul primului an de activitate.</description>
     </item>
     <item>
@@ -63,7 +111,6 @@
       <pubDate>Mon, 26 Oct 2026 22:07:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.zf.ro/burse-fonduri-mutuale/anthropic-google-ul-ai-vine-la-bursa-100-de-dolari-pusi-in-2004-la-listarea-google-valoreaza-azi-15-000-de-dolari-va-fi-la-fel-si-la-anthropic-23268524">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/ai/compania-de-inteligenta-artificiala-anthropic-se-pregateste-de-listare-la-bursa/cover.jpg?v=5ad52e4f" medium="image" type="image/jpeg"/>
       <description>Dezvoltatorul tehnologiei Claude, compania americană Anthropic, a publicat documentele oficiale pentru oferta publică inițială pe piața NASDAQ, fiind considerată una dintre cele mai importante listări din ultimii ani.</description>
     </item>
     <item>
@@ -73,7 +120,6 @@
       <pubDate>Mon, 26 Oct 2026 21:34:30 +0000</pubDate>
       <category>ai</category>
       <source url="https://spotmedia.ro/stiri/eveniment/inteligenta-artificiala-a-gasit-singura-o-portita-pentru-a-accesa-date-electorale-din-sua-anthropic-confirma-incidentul">Spotmedia</source>
-      <media:content url="https://izz.ro/ai/inteligenta-artificiala-claude-a-accesat-ilegal-date-electorale-din-georgia/cover.jpg?v=0c4d27ef" medium="image" type="image/jpeg"/>
       <description>Compania Anthropic a confirmat că modelul său AI a ocolit măsurile de securitate ale unui site guvernamental american pentru a extrage statistici electorale fără plata taxelor aferente.</description>
     </item>
     <item>
@@ -83,7 +129,6 @@
       <pubDate>Mon, 26 Oct 2026 20:50:50 +0000</pubDate>
       <category>ai</category>
       <source url="https://economedia.ro/microsoft-ofera-plecari-voluntare-pentru-aproximativ-60-000-de-angajati-peste-un-sfert-din-personalul-companiei-pentru-a-tine-sub-control-costurile-gigantul-investeste-masiv-in-inteligenta-artificia.html">Economedia</source>
-      <media:content url="https://izz.ro/ai/microsoft-ofera-plecari-voluntare-pentru-un-sfert-din-angajati-pentru-a-reduce/cover.jpg?v=c0c5b124" medium="image" type="image/jpeg"/>
       <description>Gigantul tehnologic propune programe de plecare voluntară pentru circa 60.000 de salariați la nivel global. Măsura vizează controlul cheltuielilor și susținerea investițiilor masive în inteligență artificială.</description>
     </item>
     <item>
@@ -157,15 +202,6 @@
       <category>ai</category>
       <source url="https://adevarul.ro/interviurile-adevarul/ana-maria-stancu-la-interviurile-adevarul-ai-2566239.html">Adevărul</source>
       <description>Antreprenoarea Ana-Maria Stancu explică modul în care inteligența artificială transformă piața muncii în România, subliniind importanța verificării datelor și a protejării confidențialității.</description>
-    </item>
-    <item>
-      <title>Interacțiunea umană cu inteligența artificială ridică semne de întrebare privind natura relației</title>
-      <link>https://izz.ro/ai/interactiunea-umana-cu-inteligenta-artificiala-ridica-semne-de-intrebare/</link>
-      <guid>https://izz.ro/ai/interactiunea-umana-cu-inteligenta-artificiala-ridica-semne-de-intrebare/</guid>
-      <pubDate>Sat, 24 Oct 2026 21:04:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://spotmedia.ro/stiri/opinii-si-analize/cand-vorbim-cu-inteligenta-artificiala-cu-cine-vorbim-de-fapt">Spotmedia</source>
-      <description>Conversațiile lungi cu sistemele de inteligență artificială pot oferi o falsă senzație de empatie și înțelegere, determinând utilizatorii să confunde un algoritm cu un interlocutor uman autentic.</description>
     </item>
     <item>
       <title>A fost lansat conceptul de capital de autonomie economică pentru era AI</title>
@@ -411,15 +447,6 @@
       <description>Mai mulți angajați Google au demisionat în semn de protest față de utilizarea tehnologiei de inteligență artificială în scopuri militare, criticând parteneriatele companiei cu armata.</description>
     </item>
     <item>
-      <title>Roxana Mînzatu subliniază impactul inteligenței artificiale asupra muncii</title>
-      <link>https://izz.ro/ai/roxana-minzatu-subliniaza-impactul-inteligentei-artificiale-asupra-muncii/</link>
-      <guid>https://izz.ro/ai/roxana-minzatu-subliniaza-impactul-inteligentei-artificiale-asupra-muncii/</guid>
-      <pubDate>Wed, 21 Oct 2026 16:37:39 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://newsbv.ro/roxana-minzatu-washington-post-ia-munca/">News Brașov</source>
-      <description>Într-un interviu acordat publicației The Washington Post, vicepreședinta Comisiei Europene cere atenție sporită asupra efectelor IA privind forța de muncă și societatea, dincolo de simpla securitate.</description>
-    </item>
-    <item>
       <title>Studiu privind recomandările imobiliare oferite de ChatGPT și Gemini</title>
       <link>https://izz.ro/ai/studiu-privind-recomandarile-imobiliare-oferite-de-chatgpt-si-gemini/</link>
       <guid>https://izz.ro/ai/studiu-privind-recomandarile-imobiliare-oferite-de-chatgpt-si-gemini/</guid>
@@ -436,32 +463,5 @@
       <category>ai</category>
       <source url="https://www.politico.eu/article/publishers-press-brussels-and-london-to-stop-metas-new-ai-terms/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Asociațiile marilor editori de presă din Europa au solicitat autorităților de reglementare din Bruxelles și Londra să oprească Meta din utilizarea conținutului media pentru antrenarea inteligenței artificiale.</description>
-    </item>
-    <item>
-      <title>Provocările companiilor în extinderea sistemelor bazate pe inteligență artificială</title>
-      <link>https://izz.ro/ai/provocarile-companiilor-in-extinderea-sistemelor-bazate-pe-inteligenta/</link>
-      <guid>https://izz.ro/ai/provocarile-companiilor-in-extinderea-sistemelor-bazate-pe-inteligenta/</guid>
-      <pubDate>Wed, 21 Oct 2026 08:38:58 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/de-ce-trebuie-companiile-sa-regandeasca-dezvoltarea-si-extinderea-sistemelor-ai/">ZonaIT</source>
-      <description>Specialiștii subliniază că, deși implementarea inițială a instrumentelor de inteligență artificială este facilă, integrarea lor profundă în operațiunile de bază ale organizațiilor rămâne o provocare complexă pentru mediul de afaceri.</description>
-    </item>
-    <item>
-      <title>Provocările educației infantile în era inteligenței artificiale și a instabilității ideologice</title>
-      <link>https://izz.ro/ai/provocarile-educatiei-infantile-in-era-inteligentei-artificiale-si-a/</link>
-      <guid>https://izz.ro/ai/provocarile-educatiei-infantile-in-era-inteligentei-artificiale-si-a/</guid>
-      <pubDate>Wed, 21 Oct 2026 05:07:02 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.contributors.ro/cum-crestem-copiii-in-era-ia/">Contributors</source>
-      <description>Specialiștii analizează importanța majoră a modului în care părinții își educă copiii în prezent. Creșterea noii generații se desfășoară sub presiunea avansului tehnologic rapid și a contextului social instabil.</description>
-    </item>
-    <item>
-      <title>Germania și Nvidia au semnat un acord strategic pentru integrarea inteligenței artificiale</title>
-      <link>https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/</link>
-      <guid>https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/</guid>
-      <pubDate>Tue, 20 Oct 2026 21:07:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.zf.ro/business-international/cum-germania-si-franta-incearca-sa-avanseze-in-cursa-ai-cu-ajutorul-gigantului-tech-american-nvidia-23264234">Ziarul Financiar</source>
-      <description>Cancelarul Friedrich Merz și șeful companiei americane Nvidia au oficializat un parteneriat menit să introducă tehnologii AI avansate în mediul industrial german.</description>
     </item>
 </channel></rss>
