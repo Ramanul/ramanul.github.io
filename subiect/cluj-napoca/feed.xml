@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/cluj-napoca/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj-Napoca pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 23:17:23 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 02:33:06 +0000</lastBuildDate>
+    <item>
+      <title>Achizițiile de carte și preferințele editoriale în rândul cititorilor</title>
+      <link>https://izz.ro/cultura/achizitiile-de-carte-si-preferintele-editoriale-in-randul-cititorilor/</link>
+      <guid>https://izz.ro/cultura/achizitiile-de-carte-si-preferintele-editoriale-in-randul-cititorilor/</guid>
+      <pubDate>Wed, 28 Oct 2026 00:51:32 +0000</pubDate>
+      <category>cultura</category>
+      <source url="https://www.contributors.ro/de-ce-renteaza-literatura/">Contributors</source>
+      <media:content url="https://izz.ro/cultura/achizitiile-de-carte-si-preferintele-editoriale-in-randul-cititorilor/cover.jpg?v=95ed5aa1" medium="image" type="image/jpeg"/>
+      <description>Un pasionat de lectură își planifică achizițiile editoriale prin consultarea directă a site-urilor specializate, evitând vizitele prelungite în librării și descoperind noutăți publicate de edituri prestigioase precum Casa Cărții de Știință.</description>
+    </item>
     <item>
       <title>Solistul formației Rammstein va concerta la Cluj-Napoca</title>
       <link>https://izz.ro/local/solistul-formatiei-rammstein-va-concerta-la-cluj-napoca/</link>
@@ -13,7 +23,7 @@
       <pubDate>Tue, 27 Oct 2026 20:42:22 +0000</pubDate>
       <category>local</category>
       <source url="https://www.g4media.ro/till-lindemann-vocea-rammstein-concerteaza-in-premiera-la-cluj-show-interzis-minorilor-la-btarena-in-2027-proiect-solo-in-care-muzica-industriala-se-imbina-cu-poezia.html">G4Media</source>
-      <media:content url="https://izz.ro/local/solistul-formatiei-rammstein-va-concerta-la-cluj-napoca/cover.jpg?v=f094b222" medium="image" type="image/jpeg"/>
+      <media:content url="https://izz.ro/local/solistul-formatiei-rammstein-va-concerta-la-cluj-napoca/cover.jpg?v=ef4331e9" medium="image" type="image/jpeg"/>
       <description>Artistul german Till Lindemann va susține primul său concert la Cluj-Napoca, pe 28 noiembrie 2027, la BTarena, aducând în fața fanilor un show solo care îmbină muzica industrială cu elemente de teatru.</description>
     </item>
     <item>
@@ -458,14 +468,5 @@
       <category>local</category>
       <source url="https://alba24.ro/zbor-direct-din-cluj-napoca-la-belgrad-introdus-in-premiera-va-permite-conexiuni-spre-sua-canada-si-asia-1163760.html">Alba24</source>
       <description>Aeroportul din Cluj va introduce din mai 2027 curse spre Belgrad, facilitând conexiuni transatlantice și asiatice prin capitala Serbiei.</description>
-    </item>
-    <item>
-      <title>Cluj-Napoca rămâne cel mai scump oraș, în ciuda scăderii tranzacțiilor imobiliare</title>
-      <link>https://izz.ro/local/cluj-napoca-ramane-cel-mai-scump-oras-in-ciuda-scaderii-tranzactiilor-imobiliare/</link>
-      <guid>https://izz.ro/local/cluj-napoca-ramane-cel-mai-scump-oras-in-ciuda-scaderii-tranzactiilor-imobiliare/</guid>
-      <pubDate>Wed, 21 Oct 2026 13:51:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://zcj.ro/economie/atacul-cibernetic-asupra-ancpi-a-injumatatit-tranzactiile-imobiliare-dar-nu-si-preturile-cluj-napoca-ramane-cel-mai-scump-oras-din-tara--303240.html">Ziua de Cluj</source>
-      <description>Piața imobiliară din Cluj-Napoca își menține cele mai ridicate prețuri din țară, deși numărul tranzacțiilor a înregistrat o scădere accentuată în timpul verii ca urmare a atacului cibernetic asupra ANCPI.</description>
     </item>
 </channel></rss>
