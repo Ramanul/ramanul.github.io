@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 02:11:13 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 08:50:13 +0000</lastBuildDate>
+    <item>
+      <title>Anthropic avertizează că daunele provocate de AI pot depăși asigurările</title>
+      <link>https://izz.ro/ai/anthropic-avertizeaza-ca-daunele-provocate-de-ai-pot-depasi-asigurarile/</link>
+      <guid>https://izz.ro/ai/anthropic-avertizeaza-ca-daunele-provocate-de-ai-pot-depasi-asigurarile/</guid>
+      <pubDate>Thu, 29 Oct 2026 07:02:03 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.digi24.ro/stiri/externe/avertismentul-anthropic-daunele-provocate-de-ai-ar-putea-fi-mai-mari-decat-pot-plati-companiile-de-asigurari-4013325">Digi24 Extern</source>
+      <media:content url="https://izz.ro/ai/anthropic-avertizeaza-ca-daunele-provocate-de-ai-pot-depasi-asigurarile/cover.jpg?v=993cf850" medium="image" type="image/jpeg"/>
+      <description>Compania americană a semnalat în documentele financiare pentru bursa că eventualele pagube generate de modelele avansate de inteligență artificială riscă să depășească capacitatea totală de plată a pieței globale de asigurări.</description>
+    </item>
     <item>
       <title>CNPDCP avertizează că datele introduse în aplicațiile AI prezintă riscuri de securitate</title>
       <link>https://izz.ro/ai/cnpdcp-avertizeaza-ca-datele-introduse-in-aplicatiile-ai-prezinta-riscuri-de/</link>
@@ -73,7 +83,6 @@
       <pubDate>Wed, 28 Oct 2026 07:51:06 +0000</pubDate>
       <category>ai</category>
       <source url="https://spotmedia.ro/stiri/it/prospectul-de-listare-a-anthropic-contine-peste-90-de-pagini-cu-factorii-de-risc-un-incident-catastrofal-provocat-de-propriul-ai-ar-genera-pagube-greu-de-acoperit-de-asiguratori">Spotmedia</source>
-      <media:content url="https://izz.ro/ai/prospectul-de-listare-la-bursa-al-anthropic-avertizeaza-asupra-riscurilor/cover.jpg?v=5e633794" medium="image" type="image/jpeg"/>
       <description>Documentele financiare pentru lansarea acțiunilor producătorului Claude subliniază că un incident catastrofal generat de inteligența artificială ar provoca pagube financiare greu de acoperit de companiile de asigurări.</description>
     </item>
     <item>
@@ -453,14 +462,5 @@
       <category>ai</category>
       <source url="https://stirileprotv.ro/stiri/international/val-de-demisii-la-google-din-cauza-contractelor-militare-pentru-inteligenta-artificiala-ce-dezvaluiri-au-facut-angajatii.html">Știrile ProTV</source>
       <description>Mai mulți angajați Google au demisionat în semn de protest față de utilizarea tehnologiei de inteligență artificială în scopuri militare, criticând parteneriatele companiei cu armata.</description>
-    </item>
-    <item>
-      <title>Studiu privind recomandările imobiliare oferite de ChatGPT și Gemini</title>
-      <link>https://izz.ro/ai/studiu-privind-recomandarile-imobiliare-oferite-de-chatgpt-si-gemini/</link>
-      <guid>https://izz.ro/ai/studiu-privind-recomandarile-imobiliare-oferite-de-chatgpt-si-gemini/</guid>
-      <pubDate>Wed, 21 Oct 2026 16:13:05 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://economedia.ro/ce-dezvoltatori-imobiliari-si-ce-proiecte-recomanda-chatgpt-si-gemini-persoanelor-care-cauta-o-locuinta.html">Economedia</source>
-      <description>O nouă secțiune a platformei Redata monitorizează lunar ce dezvoltatori și ansambluri rezidențiale din marile orașe ale țării sunt recomandate de inteligența artificială celor aflați în căutarea unei locuințe.</description>
     </item>
 </channel></rss>

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>SuperLiga — IZZ.ro</title>
+  <title>Superliga — IZZ.ro</title>
   <link>https://izz.ro/subiect/superliga/</link>
   <atom:link href="https://izz.ro/subiect/superliga/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre SuperLiga pe IZZ.ro</description>
+  <description>Știri despre Superliga pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 02:10:55 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 08:50:00 +0000</lastBuildDate>
+    <item>
+      <title>LPF analizează posibilitatea ca meciurile din Superliga să fie difuzate pe Netflix</title>
+      <link>https://izz.ro/sport/lpf-analizeaza-posibilitatea-ca-meciurile-din-superliga-sa-fie-difuzate-pe/</link>
+      <guid>https://izz.ro/sport/lpf-analizeaza-posibilitatea-ca-meciurile-din-superliga-sa-fie-difuzate-pe/</guid>
+      <pubDate>Thu, 29 Oct 2026 08:00:00 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://spotmedia.ro/stiri/sport/superliga-pe-netflix-anuntul-facut-de-lpf">Spotmedia</source>
+      <media:content url="https://izz.ro/sport/lpf-analizeaza-posibilitatea-ca-meciurile-din-superliga-sa-fie-difuzate-pe/cover.jpg?v=b1adfef6" medium="image" type="image/jpeg"/>
+      <description>Secretarul general Justin Ștefan a declarat că Liga Profesionistă de Fotbal ia în calcul transmiterea contra cost a campionatului intern pe platforme de streaming după modelul internațional.</description>
+    </item>
     <item>
       <title>Mirel Rădoi este dorit la conducerea tehnică a unei echipe din SuperLiga</title>
       <link>https://izz.ro/sport/mirel-radoi-este-dorit-la-conducerea-tehnica-a-unei-echipe-din-superliga/</link>
@@ -13,7 +23,6 @@
       <pubDate>Tue, 27 Oct 2026 18:25:56 +0000</pubDate>
       <category>sport</category>
       <source url="https://www.sport.ro/liga-1/mirel-radoi-gata-sa-preia-o-forta-din-superliga-anuntul-care-poate-aprinde-lupta-la-varf.html">Sport.ro</source>
-      <media:content url="https://izz.ro/sport/mirel-radoi-este-dorit-la-conducerea-tehnica-a-unei-echipe-din-superliga/cover.jpg?v=3ed4f3fc" medium="image" type="image/jpeg"/>
       <description>Antrenorul în vârstă de 45 de ani ar putea reveni în campionatul intern începând din primăvara anului 2027. O grupare aflată în fruntea clasamentului din SuperLiga manifestă interes pentru cooptarea sa pe bancă.</description>
     </item>
     <item>
@@ -177,14 +186,5 @@
       <category>sport</category>
       <source url="https://www.sport.ro/liga-1/ce-se-mai-intampla-cu-roland-niczuly-la-mai-bine-de-un-an-de-la-ultimul-meci-oficial-purul-adevar.html">Sport.ro</source>
       <description>Portarul Roland Niczuly nu a mai evoluat într-o partidă oficială pentru Sepsi OSK de la retrogradarea echipei din SuperLiga, încheiată la finalul sezonului 2024-2025, fiind absent de pe teren de atunci.</description>
-    </item>
-    <item>
-      <title>Basarab Panduru a alcătuit un prim unsprezece ideal din jucătorii de la Dinamo și Rapid</title>
-      <link>https://izz.ro/sport/basarab-panduru-a-alcatuit-un-prim-unsprezece-ideal-din-jucatorii-de-la-dinamo/</link>
-      <guid>https://izz.ro/sport/basarab-panduru-a-alcatuit-un-prim-unsprezece-ideal-din-jucatorii-de-la-dinamo/</guid>
-      <pubDate>Sun, 18 Oct 2026 04:32:00 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.gsp.ro/fotbal/liga-1/basarab-panduru-primul-11-dinamo-rapid-989373.html">GSP</source>
-      <description>Analistul TV a selectat cei mai buni fotbalisti de la primele două clasate din Superligă, utilizând un sistem tactic 4-4-2 și remarcând dominația celor două echipe.</description>
     </item>
 </channel></rss>

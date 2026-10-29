@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 02:10:55 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 08:50:00 +0000</lastBuildDate>
+    <item>
+      <title>O companie din Cluj a creat o soluție pentru drone fără semnal GPS</title>
+      <link>https://izz.ro/judetean/o-companie-din-cluj-a-creat-o-solutie-pentru-drone-fara-semnal-gps/</link>
+      <guid>https://izz.ro/judetean/o-companie-din-cluj-a-creat-o-solutie-pentru-drone-fara-semnal-gps/</guid>
+      <pubDate>Thu, 29 Oct 2026 07:05:56 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://hotnews.ro/o-companie-romaneasca-are-o-solutie-pentru-dronele-militare-ramase-fara-comunicatii-prin-satelit-precum-in-incidentul-starlink-din-ucraina-cum-functioneaza-tehnologia-dezvoltata-la-cluj-2389504">HotNews</source>
+      <media:content url="https://izz.ro/judetean/o-companie-din-cluj-a-creat-o-solutie-pentru-drone-fara-semnal-gps/cover.jpg?v=9d32eea9" medium="image" type="image/jpeg"/>
+      <description>Firma românească OVES Enterprise a dezvoltat tehnologia Nemesis AI, care permite dronelor militare să continue misiunile în ciuda blocajelor de comunicații prin satelit, precum cele întâlnite recent în Ucraina.</description>
+    </item>
     <item>
       <title>Utilizatorii rețelei Starlink din peste 100 de țări ar fi monitorizați</title>
       <link>https://izz.ro/tech/utilizatorii-retelei-starlink-din-peste-100-de-tari-ar-fi-monitorizati/</link>
@@ -33,7 +43,6 @@
       <pubDate>Tue, 27 Oct 2026 19:41:52 +0000</pubDate>
       <category>tech</category>
       <source url="https://stirileprotv.ro/stiri/international/compania-aeriana-care-va-introduce-internet-wi-fi-la-bordul-avioanelor-prin-starlink-serviciul-ar-urma-sa-fie-disponibil-din-2027.html">Știrile ProTV</source>
-      <media:content url="https://izz.ro/tech/easyjet-va-introduce-conexiune-internet-starlink-la-bordul-avioanelor-incepand/cover.jpg?v=52f7e423" medium="image" type="image/jpeg"/>
       <description>Operatorul aerian low-cost a anunțat că pasagerii vor beneficia de acces la internet Wi-Fi prin intermediul rețelei de sateliți Starlink, dezvoltată de compania SpaceX a lui Elon Musk, serviciul urmând să devină operațional din 2027.</description>
     </item>
     <item>
@@ -152,14 +161,5 @@
       <category>extern</category>
       <source url="https://www.dw.com/en/how-reliant-is-ukraine-on-the-us-controlled-starlink-internet-service/a-79689729?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
       <description>Autoritățile din Ucraina avertizează repetat asupra vulnerabilității majore a țării față de eventuale întreruperi ale rețelei de sateliți Starlink, controlată de Statele Unite.</description>
-    </item>
-    <item>
-      <title>Marco Rubio a negat implicarea Casei Albe în problemele de funcționare ale rețelei Starlink</title>
-      <link>https://izz.ro/extern/marco-rubio-a-negat-implicarea-casei-albe-in-problemele-de-functionare-ale/</link>
-      <guid>https://izz.ro/extern/marco-rubio-a-negat-implicarea-casei-albe-in-problemele-de-functionare-ale/</guid>
-      <pubDate>Sun, 18 Oct 2026 05:21:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://hotnews.ro/marco-rubio-respinge-acuzatiile-kievului-privind-problemele-starlink-nimeni-de-la-casa-alba-nu-a-ordonat-asta-2378992">HotNews</source>
-      <description>Secretarul de stat american Marco Rubio a respins acuzațiile formulate de Kiev privind conexiunea internet Starlink, declarând că administrația de la Washington nu a ordonat nicio limitare a vitezei serviciului în Ucraina.</description>
     </item>
 </channel></rss>

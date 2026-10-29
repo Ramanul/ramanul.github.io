@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 02:10:55 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 08:50:00 +0000</lastBuildDate>
     <item>
       <title>Un bărbat din Cluj a fost arestat preventiv pentru un furt în Maramureș</title>
       <link>https://izz.ro/local/un-barbat-din-cluj-a-fost-arestat-preventiv-pentru-un-furt-in-maramures/</link>
@@ -63,7 +63,6 @@
       <pubDate>Tue, 27 Oct 2026 18:22:00 +0000</pubDate>
       <category>general</category>
       <source url="https://zcj.ro/eveniment/accident-rutier-grav-in-cluj-un-barbat-a-ramas-incarcerat-trafic-blocat--303530.html">Ziua de Cluj</source>
-      <media:content url="https://izz.ro/general/accident-rutier-grav-in-dej-cu-doua-masini-implicate/cover.jpg?v=b7818914" medium="image" type="image/jpeg"/>
       <description>Un accident rutier sever între două autoturisme s-a produs pe strada Vâlcele din municipiul Dej, lăsând un bărbat încarcerat și blocând temporar traficul rutier în zona afectată de coliziune.</description>
     </item>
     <item>
@@ -434,23 +433,5 @@
       <category>local</category>
       <source url="https://adevarul.ro/stil-de-viata/cultura/istoria-marilor-cartiere-clujene-spusa-de-2564508.html">Adevărul</source>
       <description>Arhitectul Emanoil Tudose vorbește despre planificarea urbană a extinderii orașului Cluj în anii '60 și '70, explicând viziunea centrată pe ordine și logică spațială care a stat la baza marilor cartiere.</description>
-    </item>
-    <item>
-      <title>Incendiu puternic la o asociație de salvare a câinilor din Cluj</title>
-      <link>https://izz.ro/local/incendiu-puternic-la-o-asociatie-de-salvare-a-cainilor-din-cluj/</link>
-      <guid>https://izz.ro/local/incendiu-puternic-la-o-asociatie-de-salvare-a-cainilor-din-cluj/</guid>
-      <pubDate>Sun, 18 Oct 2026 07:38:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://zcj.ro/eveniment/cosmar-pentru-o-asociatie-din-cluj-care-salveaza-caini-casa-in-care-isi-punea-toate-sperantele-a-fost-distrusa-de-incendiu--303034.html">Ziua de Cluj</source>
-      <description>Flăcările au mistuit acoperișul și au afectat interiorul unei locuințe din localitatea Aghireșu, județul Cluj, spațiu utilizat de o asociație pentru protecția animalelor, provocând pagube materiale considerabile.</description>
-    </item>
-    <item>
-      <title>Incendiu la o casă din Aghireșu, Cluj</title>
-      <link>https://izz.ro/local/incendiu-la-o-casa-din-aghiresu-cluj/</link>
-      <guid>https://izz.ro/local/incendiu-la-o-casa-din-aghiresu-cluj/</guid>
-      <pubDate>Sun, 18 Oct 2026 07:26:50 +0000</pubDate>
-      <category>local</category>
-      <source url="https://gazetadecluj.ro/incendiu-in-toiul-noptii-la-o-casa-din-aghiresu-unde-flacarile-au-cuprins-acoperisul-pe-50-de-metri-patrati/">Gazeta de Cluj</source>
-      <description>Pompierii au intervenit timp de două ore pentru a stinge un incendiu izbucnit noaptea la o locuință din Aghireșu. Flăcările au afectat acoperișul pe 50 de metri pătrați, interiorul și terasa.</description>
     </item>
 </channel></rss>
