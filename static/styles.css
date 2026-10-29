@@ -860,10 +860,6 @@ picture { display: contents; }
 .art--banda .art-num-zi { font-size: 7.5cqw; letter-spacing: .21cqw; }
 .art--banda .art-num-luna { font-size: 1.77cqw; margin-top: .83cqw; }
 .art--banda .art-num .art-tick { margin-top: 1.46cqw; }
-.art--banda .art-ghost {
-  position: absolute; right: -1.25cqw; bottom: -3.5cqw; white-space: nowrap;
-  font-size: 17.5cqw; letter-spacing: .21cqw; opacity: .06;
-}
 .art--banda .art-brand--jos { right: 2.5cqw; bottom: 3.54cqw; opacity: .6; }
 
 /* -- arc: sigiliul, cerc dublu auriu cu cifra zilei -- */
@@ -1054,8 +1050,35 @@ picture { display: contents; }
 .art-scena--isometric_prism {
   filter: drop-shadow(0 4px 12px rgba(0, 0, 0, .2));
 }
+.art-scena--financial_bars {
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, .2));
+}
 .art-scena--warm_geometry {
   filter: drop-shadow(0 3px 10px rgba(220, 184, 78, .18));
+}
+.art-scena--organic_flow,
+.art-scena--cellular_harmony {
+  filter: drop-shadow(0 3px 10px rgba(220, 184, 78, .18));
+}
+.art-scena--road_perspective,
+.art-scena--perspective_lines {
+  filter: drop-shadow(0 3px 10px rgba(31, 42, 68, .2));
+}
+.art-scena--progress_steps,
+.art-scena--document_lines {
+  filter: drop-shadow(0 3px 10px rgba(47, 61, 74, .2));
+}
+.art-scena--architectural_arch,
+.art-scena--heritage_shapes {
+  filter: drop-shadow(0 3px 10px rgba(74, 50, 68, .2));
+}
+.art-scena--civic_columns,
+.art-scena--editorial_block {
+  filter: drop-shadow(0 3px 10px rgba(31, 42, 68, .2));
+}
+.art-scena--field_curves,
+.art-scena--sport_geometry {
+  filter: drop-shadow(0 3px 10px rgba(61, 74, 58, .2));
 }
 
 /* -- randare full-bleed pentru fotografii reale valide ('image_url' sau 'art_path') -- */
