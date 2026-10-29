@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/pnl/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre PNL pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 08:50:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
+    <item>
+      <title>Sondaj CURS: AUR conduce preferințele electorale urmat de PSD și PNL</title>
+      <link>https://izz.ro/politic/sondaj-curs-aur-conduce-preferintele-electorale-urmat-de-psd-si-pnl/</link>
+      <guid>https://izz.ro/politic/sondaj-curs-aur-conduce-preferintele-electorale-urmat-de-psd-si-pnl/</guid>
+      <pubDate>Thu, 29 Oct 2026 15:04:28 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://hotnews.ro/sondaj-curs-creste-distanta-intre-partidele-de-pe-locurile-2-si-3-cum-este-vazuta-intrarea-psd-la-guvernare-2389929">HotNews</source>
+      <media:content url="https://izz.ro/politic/sondaj-curs-aur-conduce-preferintele-electorale-urmat-de-psd-si-pnl/cover.jpg?v=f35a5b93" medium="image" type="image/jpeg"/>
+      <description>Un studiu sociologic recent realizat de CURS indică faptul că AUR se situează pe primul loc în opțiunile de vot cu treizeci și patru la sută, fiind urmat de social-democrați și liberali.</description>
+    </item>
     <item>
       <title>Alin Tișe critică direcția PNL și utilizarea liniilor roșii în politică</title>
       <link>https://izz.ro/politic/alin-tise-critica-directia-pnl-si-utilizarea-liniilor-rosii-in-politica/</link>
@@ -93,7 +103,6 @@
       <pubDate>Wed, 28 Oct 2026 11:03:05 +0000</pubDate>
       <category>politic</category>
       <source url="https://resita.ro/pnl-avertizeaza-guvernul-sa-adopte-urgent-rectificarea-bugetara-psd-nu-poate-tine-romania-ostatica/">Reșița.ro, Jurnalul Olteniei</source>
-      <media:content url="https://izz.ro/politic/partidul-national-liberal-cere-guvernului-adoptarea-urgenta-a-rectificarii/cover.jpg?v=6fcd586d" medium="image" type="image/jpeg"/>
       <description>Partidul Național Liberal a transmis un avertisment către Executiv solicitând adoptarea urgentă a rectificării bugetare. Liberalii susțin că amânarea deciziei împinge instituțiile publice în incapacitate de plată și acuză PSD că prioritizează jocurile politice. Formațiunea politică avertizează că întârzierea rectificării afectează spitalele, serviciile de urgență, proiectele europene și alte investiții. PNL îi solicită premierului Luca Niculescu să își exercite autoritatea de șef al guvernului pentru finalizarea rectificării bugetare.</description>
     </item>
     <item>
@@ -455,14 +464,5 @@
       <category>judetean</category>
       <source url="https://gazetadecluj.ro/odata-cu-schimbarea-guvernului-poate-pleaca-si-liviu-miclaus-protejatul-pnl-ist-al-lui-iulian-dascalu/">Gazeta de Cluj</source>
       <description>Mai mulți prefecți și subprefecți numiți politic de liberali au demisionat din funcții în județele Cluj și Bistrița-Năsăud, urmând schimbările majore de la nivelul guvernului.</description>
-    </item>
-    <item>
-      <title>Guvernul minoritar al PSD rămâne sprijinit doar de propriile 126 de mandate</title>
-      <link>https://izz.ro/politic/guvernul-minoritar-al-psd-ramane-sprijinit-doar-de-propriile-126-de-mandate/</link>
-      <guid>https://izz.ro/politic/guvernul-minoritar-al-psd-ramane-sprijinit-doar-de-propriile-126-de-mandate/</guid>
-      <pubDate>Tue, 20 Oct 2026 21:07:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.zf.ro/politica/guvernul-luca-niculescu-investit-parlament-280-voturi-multe-ii-necesare-233-azi-insa-guvernul-minoritar-psd-cobori-126-voturi-sustinere-parlamentara-cate-mandate-au-social-democratii-23264241">Ziarul Financiar</source>
-      <description>După votul de investitură asigurat temporar de PNL, noul executiv social-democrat coboară la o susținere parlamentară restrânsă, întreaga opoziție comasându-se împotriva sa.</description>
     </item>
 </channel></rss>

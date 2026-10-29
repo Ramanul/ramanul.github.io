@@ -339,6 +339,28 @@ picture { display: contents; }
   background: var(--gold-wash); border-left: 3px solid var(--gold);
   padding: var(--s-13) var(--s-21); font-size: var(--fs-xs); color: var(--ink-2); margin: var(--s-21) 0;
 }
+.version-toggle {
+  margin-top: var(--s-8);
+  padding-top: var(--s-8);
+  border-top: 1px dotted var(--line);
+}
+.version-toggle summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--ink);
+}
+.initial-version-content {
+  margin-top: var(--s-8);
+  padding-left: var(--s-13);
+  border-left: 2px solid var(--gold);
+  font-style: italic;
+}
+.moderation-note {
+  font-family: var(--font-mono);
+  font-size: var(--fs-eyebrow);
+  color: var(--gold);
+  margin: var(--s-4) 0;
+}
 .sources-box { border-top: 2px solid var(--ink); padding-top: var(--s-13); margin: var(--s-34) 0; }
 .sources-box h2 { margin: 0 0 var(--s-8); font-family: var(--font-mono); font-size: var(--fs-eyebrow); text-transform: uppercase; letter-spacing: 1.5px; color: var(--ink-3); font-weight: 700; }
 .sources-box ul { margin: 0; padding-left: var(--s-21); }

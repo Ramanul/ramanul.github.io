@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bulgaria/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bulgaria pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 08:50:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
+    <item>
+      <title>Nava lovită de drone în Bulgaria s-a scufundat</title>
+      <link>https://izz.ro/local/nava-lovita-de-drone-in-bulgaria-s-a-scufundat/</link>
+      <guid>https://izz.ro/local/nava-lovita-de-drone-in-bulgaria-s-a-scufundat/</guid>
+      <pubDate>Thu, 29 Oct 2026 16:07:58 +0000</pubDate>
+      <category>local</category>
+      <source url="https://stirileprotv.ro/stiri/international/nava-lovita-miercuri-de-drone-in-largul-bulgariei-s-a-scufundat-transporta-baterii-litiu-ion-lichide-corozive-si-acizi.html">Știrile ProTV</source>
+      <media:content url="https://izz.ro/local/nava-lovita-de-drone-in-bulgaria-s-a-scufundat/cover.jpg?v=be8946d7" medium="image" type="image/jpeg"/>
+      <description>O navă grecească încărcată cu baterii cu litiu și acizi, având ca destinație Portul Constanța, s-a scufundat în Marea Neagră după un atac cu drone navale în largul coastei bulgare.</description>
+    </item>
     <item>
       <title>Poliția de frontieră a capturat mii de flacoane cu toxină botulinică nedeclarate la Calafat</title>
       <link>https://izz.ro/local/politia-de-frontiera-a-capturat-mii-de-flacoane-cu-toxina-botulinica/</link>
@@ -73,7 +83,6 @@
       <pubDate>Wed, 28 Oct 2026 10:52:23 +0000</pubDate>
       <category>local</category>
       <source url="https://cronicaolteniei.ro/toxina-botulinica-de-peste-33-milioane-de-lei-descoperita-la-frontiera-de-la-calafat/">Cronica Olteniei</source>
-      <media:content url="https://izz.ro/local/toxina-botulinica-de-peste-33-milioane-lei-descoperita-la-calafat/cover.jpg?v=49861e08" medium="image" type="image/jpeg"/>
       <description>Autoritățile vamale și polițiștii de frontieră au descoperit mii de flacoane cu toxină botulinică, evaluate la peste 3,3 milioane de lei, ascunse într-un microbuz care venea din Bulgaria spre România.</description>
     </item>
     <item>
@@ -381,14 +390,5 @@
       <category>economic</category>
       <source url="https://www.g4media.ro/atacurile-cu-drone-din-marea-neagra-pun-in-pericol-exporturile-de-cereale-si-turismul-bulgariei-novinite.html">G4Media</source>
       <description>Specialiștii avertizează că lipsa asigurărilor pentru navele comerciale ar putea bloca porturile Varna și Burgas. Situația afectează grav cele cinci milioane de tone de grâu pregătite pentru export și sectorul turistic.</description>
-    </item>
-    <item>
-      <title>Bulgaria ocupă primul loc în Uniunea Europeană la reciclarea deșeurilor electronice</title>
-      <link>https://izz.ro/extern/bulgaria-ocupa-primul-loc-in-uniunea-europeana-la-reciclarea-deseurilor/</link>
-      <guid>https://izz.ro/extern/bulgaria-ocupa-primul-loc-in-uniunea-europeana-la-reciclarea-deseurilor/</guid>
-      <pubDate>Sun, 18 Oct 2026 13:48:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/energie/bulgarii-lideri-la-colectarea-de-deseuri-electrice-si-electronice-22855163?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Statul bulgar a raportat cea mai mare rată de colectare a echipamentelor electrice și electronice uzate pe cap de locuitor din blocul comunitar în 2024, cu o medie de 18,9 kilograme per persoană.</description>
     </item>
 </channel></rss>

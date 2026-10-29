@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/starlink/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Starlink pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 08:50:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
     <item>
       <title>O companie din Cluj a creat o soluție pentru drone fără semnal GPS</title>
       <link>https://izz.ro/judetean/o-companie-din-cluj-a-creat-o-solutie-pentru-drone-fara-semnal-gps/</link>
@@ -23,7 +23,6 @@
       <pubDate>Wed, 28 Oct 2026 13:26:58 +0000</pubDate>
       <category>tech</category>
       <source url="https://zonait.ro/starlink-supraveghere/">ZonaIT</source>
-      <media:content url="https://izz.ro/tech/utilizatorii-retelei-starlink-din-peste-100-de-tari-ar-fi-monitorizati/cover.jpg?v=4b862270" medium="image" type="image/jpeg"/>
       <description>Relațiile companiei SpaceX cu mediul politic american și colaborarea cu o firmă israeliană de publicitate ridică semne de întrebare privind confidențialitatea datelor pentru clienții serviciului de internet global.</description>
     </item>
     <item>
@@ -33,7 +32,6 @@
       <pubDate>Wed, 28 Oct 2026 10:16:21 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/28/satelitii-starlink-din-toata-lumea-au-fost-folositi-pentru-a-si-spiona-utilizatorii/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/o-companie-israeliana-ar-fi-folosit-satelitii-starlink-pentru-spionaj/cover.jpg?v=8652e8c6" medium="image" type="image/jpeg"/>
       <description>O investigație jurnalistică realizată de Reuters arată că o companie din Israel a utilizat rețeaua de sateliți Starlink a SpaceX pentru a monitoriza și spiona utilizatori la nivel global.</description>
     </item>
     <item>
@@ -143,23 +141,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/19/sua-ameninta-ca-europa-va-suferi-consecinte-devastatoare-daca-impune-sanctiuni-serviciilor-precum-starlink/">Connect.ro</source>
       <description>Ambasadorul american în Europa a declarat că statele europene riscă consecințe majore dacă Uniunea Europeană va restricționa operarea serviciilor de internet prin satelit precum Starlink, în favoarea unor alternative proprii.</description>
-    </item>
-    <item>
-      <title>Autoritățile din Lituania investighează o tentativă de sabotaj asupra echipamentelor Starlink</title>
-      <link>https://izz.ro/extern/autoritatile-din-lituania-investigheaza-o-tentativa-de-sabotaj-asupra/</link>
-      <guid>https://izz.ro/extern/autoritatile-din-lituania-investigheaza-o-tentativa-de-sabotaj-asupra/</guid>
-      <pubDate>Sun, 18 Oct 2026 13:43:44 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.g4media.ro/tentativa-de-incendiere-a-unor-echipamente-starlink-in-lituania-autoritatile-suspecteaza-rusia-si-convoaca-comisia-pentru-securitate-nationala.html">G4Media</source>
-      <description>Guvernul lituanian a dejucat un atac incendiar vizând un depozit cu aparatură de comunicații satelitară și bănuiește implicarea Federației Ruse, incidentul survenind în aceeași noapte cu prăbușirea unei drone militare.</description>
-    </item>
-    <item>
-      <title>Dependența critică a Ucrainei de sistemul de internet Starlink</title>
-      <link>https://izz.ro/extern/dependenta-critica-a-ucrainei-de-sistemul-de-internet-starlink/</link>
-      <guid>https://izz.ro/extern/dependenta-critica-a-ucrainei-de-sistemul-de-internet-starlink/</guid>
-      <pubDate>Sun, 18 Oct 2026 08:58:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.dw.com/en/how-reliant-is-ukraine-on-the-us-controlled-starlink-internet-service/a-79689729?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <description>Autoritățile din Ucraina avertizează repetat asupra vulnerabilității majore a țării față de eventuale întreruperi ale rețelei de sateliți Starlink, controlată de Statele Unite.</description>
     </item>
 </channel></rss>

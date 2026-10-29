@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/nato/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NATO pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 08:50:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
+    <item>
+      <title>Armata ucraineană folosește un sistem AI dezvoltat de NATO</title>
+      <link>https://izz.ro/ai/armata-ucraineana-foloseste-un-sistem-ai-dezvoltat-de-nato/</link>
+      <guid>https://izz.ro/ai/armata-ucraineana-foloseste-un-sistem-ai-dezvoltat-de-nato/</guid>
+      <pubDate>Thu, 29 Oct 2026 16:06:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/externe/ce-este-modelul-13-sistemul-ai-dezvoltat-de-nato-cu-care-ucraina-incearca-sa-anticipeze-atacurile-dronelor-rusesti-809209.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/ai/armata-ucraineana-foloseste-un-sistem-ai-dezvoltat-de-nato/cover.jpg?v=226323db" medium="image" type="image/jpeg"/>
+      <description>Trupele ucrainene de pe front utilizează inteligența artificială furnizată de NATO pentru a anticipa și contracara mai eficient atacurile cu drone rusești în zonele de conflict.</description>
+    </item>
     <item>
       <title>Pentagonul va evalua apărarea militară a SUA în Europa</title>
       <link>https://izz.ro/extern/pentagonul-va-evalua-apararea-militara-a-sua-in-europa/</link>
@@ -340,23 +350,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/5-fights-nato-russia-war-plan/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Alianța Nord-Atlantică negociază noile ținte de capabilități militare pentru anul 2029, cerând celor 32 de state membre să aloce trupe și armament suplimentar. Deciziile vin pe fondul avertismentelor privind riscul unui conflict și al incertitudinilor legate de implicarea viitoare a...</description>
-    </item>
-    <item>
-      <title>Oana Țoiu avertizează că incidentele din Marea Neagră apropie războiul de granițele NATO</title>
-      <link>https://izz.ro/politic/oana-toiu-avertizeaza-ca-incidentele-din-marea-neagra-apropie-razboiul-de/</link>
-      <guid>https://izz.ro/politic/oana-toiu-avertizeaza-ca-incidentele-din-marea-neagra-apropie-razboiul-de/</guid>
-      <pubDate>Sun, 18 Oct 2026 13:01:48 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://adevarul.ro/stiri-externe/europa/cea-mai-mortala-mare-din-lume-avertismentul-2564794.html">Adevărul</source>
-      <description>Escaladarea conflictului din Marea Neagră generează riscuri majore pentru transportul maritim internațional, atrăgând atenția politicienilor asupra apropierii periculoase de frontierele alianței nord-atlantice.</description>
-    </item>
-    <item>
-      <title>Un general NATO avertizează că România ar putea reintroduce stagiul militar obligatoriu</title>
-      <link>https://izz.ro/politic/un-general-nato-avertizeaza-ca-romania-ar-putea-reintroduce-stagiul-militar/</link>
-      <guid>https://izz.ro/politic/un-general-nato-avertizeaza-ca-romania-ar-putea-reintroduce-stagiul-militar/</guid>
-      <pubDate>Sun, 18 Oct 2026 12:47:09 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://adevarul.ro/securitate-si-aparare/avertismentul-unui-general-nato-romania-ar-putea-2564578.html">Adevărul</source>
-      <description>Generalul în rezervă Virgil Bălăceanu susține că ignorarea normelor pentru serviciul militar voluntar ar putea obliga autoritățile române să readucă armata obligatorie, din cauza nerespectării propriilor legi.</description>
     </item>
 </channel></rss>

@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>NVIDIA — IZZ.ro</title>
+  <title>Nvidia — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre NVIDIA pe IZZ.ro</description>
+  <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 08:50:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
+    <item>
+      <title>Șeful Nvidia, vizat de o investigație privind legături externe</title>
+      <link>https://izz.ro/tech/seful-nvidia-vizat-de-o-investigatie-privind-legaturi-externe/</link>
+      <guid>https://izz.ro/tech/seful-nvidia-vizat-de-o-investigatie-privind-legaturi-externe/</guid>
+      <pubDate>Thu, 29 Oct 2026 15:14:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://observatornews.ro/extern/seful-celei-mai-valoroase-companii-americane-are-legaturi-cu-o-spioana-chineza-trump-nu-a-facut-nimic-nyt-670718.html">Observator</source>
+      <media:content url="https://izz.ro/tech/seful-nvidia-vizat-de-o-investigatie-privind-legaturi-externe/cover.jpg?v=641c0bf4" medium="image" type="image/jpeg"/>
+      <description>Directorul executiv al companiei americane Nvidia a întreținut relații apropiate de afaceri cu o cetățeană chineză suspectată de serviciile secrete din Statele Unite că ar fi spioană a Beijingului.</description>
+    </item>
     <item>
       <title>Un modder îmbunătățește performanța DLSS 5 folosind tehnica Foveated Rendering</title>
       <link>https://izz.ro/tech/un-modder-imbunatateste-performanta-dlss-5-folosind-tehnica-foveated-rendering/</link>

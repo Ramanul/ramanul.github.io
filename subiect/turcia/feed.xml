@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/turcia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Turcia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 08:50:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
+    <item>
+      <title>O alunecare de teren în Turcia s-a soldat cu doi morți și un rănit</title>
+      <link>https://izz.ro/extern/o-alunecare-de-teren-in-turcia-s-a-soldat-cu-doi-morti-si-un-ranit/</link>
+      <guid>https://izz.ro/extern/o-alunecare-de-teren-in-turcia-s-a-soldat-cu-doi-morti-si-un-ranit/</guid>
+      <pubDate>Thu, 29 Oct 2026 14:59:05 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/doi-morti-si-un-ranit-in-turcia-dupa-ce-o-alunecare-de-teren-a-provocat-prabusirea-unei-stanci-in-cappadocia-4014083">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/o-alunecare-de-teren-in-turcia-s-a-soldat-cu-doi-morti-si-un-ranit/cover.jpg?v=b2a65163" medium="image" type="image/jpeg"/>
+      <description>Ploile torențiale din regiunea turistică Cappadocia au provocat prăbușirea unei formațiuni de rocă în orașul Göreme, accident soldat cu decesul a două persoane și rănirea alteia.</description>
+    </item>
     <item>
       <title>MAE a emis avertisment de călătorie în Turcia din cauza unui protest</title>
       <link>https://izz.ro/extern/mae-a-emis-avertisment-de-calatorie-in-turcia-din-cauza-unui-protest/</link>
@@ -43,7 +53,6 @@
       <pubDate>Wed, 28 Oct 2026 10:24:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.dw.com/en/eu-s-made-in-europe-push-unnerves-global-auto-suppliers/a-79732579?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <media:content url="https://izz.ro/extern/politica-ue-de-sprijin-auto-ingrijoreaza-partenerii-internationali/cover.jpg?v=d87e87fc" medium="image" type="image/jpeg"/>
       <description>Măsurile Uniunii Europene de protejare a producătorilor auto locali în fața concurenței chineze riscă să afecteze relațiile comerciale cu parteneri cheie din Turcia, Maroc, Japonia și Coreea de Sud.</description>
     </item>
     <item>
@@ -53,7 +62,6 @@
       <pubDate>Wed, 28 Oct 2026 08:46:22 +0000</pubDate>
       <category>economic</category>
       <source url="https://cursdeguvernare.ro/val-de-investitii-turcesti-in-energia-romaniei-proiecte-solare-si-de-stocare-in-baterii-tot-mai-mari-cooperarea-energetica-intra-intr-o-etapa-de-maturizare.html">Curs de Guvernare</source>
-      <media:content url="https://izz.ro/economic/investitorii-turci-pregatesc-proiecte-majore-in-energia-verde-din-romania/cover.jpg?v=a653eeb3" medium="image" type="image/jpeg"/>
       <description>Companiile din Turcia își extind prezența pe piața energetică românească prin dezvoltarea unor proiecte ample axate pe parcuri solare și sisteme moderne de stocare a energiei în baterii.</description>
     </item>
     <item>
@@ -217,23 +225,5 @@
       <category>extern</category>
       <source url="https://www.g4media.ro/turcia-egipt-si-india-incearca-sa-deblocheze-exporturile-cerealelor-ucrainene-prin-marea-neagra-rusia-se-opune.html">G4Media</source>
       <description>Ucraina poartă discuții cu state precum Turcia, Egipt și India pentru stabilirea unei rute maritime sigure în Marea Neagră, în timp ce Rusia continuă să se opună reluării transportului comercial de alimente.</description>
-    </item>
-    <item>
-      <title>Turcia va primi motorină rusească printr-un acord negociat cu SUA</title>
-      <link>https://izz.ro/economic/turcia-va-primi-motorina-ruseasca-printr-un-acord-negociat-cu-sua/</link>
-      <guid>https://izz.ro/economic/turcia-va-primi-motorina-ruseasca-printr-un-acord-negociat-cu-sua/</guid>
-      <pubDate>Sun, 18 Oct 2026 13:39:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://observatornews.ro/extern/acord-intre-trump-si-putin-cu-beneficii-pentru-turcia-anuntul-facut-de-ankara-669537.html">Observator</source>
-      <description>Ministrul turc al Energiei a anunțat un acord susținut de președintele american Donald Trump, prin care Turcia va prelua o parte din motorina rusească destinată pieței internaționale, vizând și extinderea producției interne de gaze.</description>
-    </item>
-    <item>
-      <title>Turcia va importa o parte din motorina rusească prin acordul convenit cu Trump</title>
-      <link>https://izz.ro/extern/turcia-va-importa-o-parte-din-motorina-ruseasca-prin-acordul-convenit-cu-trump/</link>
-      <guid>https://izz.ro/extern/turcia-va-importa-o-parte-din-motorina-ruseasca-prin-acordul-convenit-cu-trump/</guid>
-      <pubDate>Sun, 18 Oct 2026 13:08:17 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.g4media.ro/turcia-primeste-o-parte-din-motorina-ruseasca-din-acordul-facut-de-trump.html">G4Media</source>
-      <description>Ministrul turc al Energiei, Alparslan Bayraktar, a confirmat că Ankara va prelua o cotă din produsele petroliere furnizate de Rusia pe piața internațională, măsură menită să consolideze securitatea energetică a țării.</description>
     </item>
 </channel></rss>
