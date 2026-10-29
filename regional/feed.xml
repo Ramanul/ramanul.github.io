@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/regional/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Regional pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 16:40:30 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 21:29:40 +0000</lastBuildDate>
+    <item>
+      <title>Cozi kilometrice de camioane la frontiera dintre Moldova și România</title>
+      <link>https://izz.ro/regional/cozi-kilometrice-de-camioane-la-frontiera-dintre-moldova-si-romania/</link>
+      <guid>https://izz.ro/regional/cozi-kilometrice-de-camioane-la-frontiera-dintre-moldova-si-romania/</guid>
+      <pubDate>Thu, 29 Oct 2026 20:52:35 +0000</pubDate>
+      <category>regional</category>
+      <source url="https://www.libertatea.ro/stiri/cozi-tir-frontiera-moldova-romania-blocaj-vami-giurgiulesti-leuseni-qf9s4fx">Libertatea</source>
+      <media:content url="https://izz.ro/regional/cozi-kilometrice-de-camioane-la-frontiera-dintre-moldova-si-romania/cover.jpg?v=de01748f" medium="image" type="image/jpeg"/>
+      <description>Șoferii de transport greu întâmpină dificultăți majore și timpi de așteptare de câteva zile la punctele de trecere a frontierei moldo-române, în special spre portul Giurgiulești.</description>
+    </item>
     <item>
       <title>Blocaje și cozi de TIR-uri la punctele de trecere a frontierei</title>
       <link>https://izz.ro/regional/blocaje-si-cozi-de-tir-uri-la-punctele-de-trecere-a-frontierei/</link>
@@ -150,23 +160,5 @@
       <category>regional</category>
       <source url="https://cronicaolteniei.ro/cum-va-fi-vremea-in-oltenia-in-urmatoarele-doua-saptamani-cand-se-raceste-si-in-ce-zile-sunt-asteptate-ploile/">Cronica Olteniei</source>
       <description>Meteorologii anunță o scădere bruscă a temperaturilor în regiunea Olteniei, cu maxime ce pot ajunge la 19 grade Celsius, urmată de un nou episod de ploi spre finalul perioadei analizate.</description>
-    </item>
-    <item>
-      <title>Deserturile tradiționale de toamnă readuc gustul copilăriei în Bucovina</title>
-      <link>https://izz.ro/regional/deserturile-traditionale-de-toamna-readuc-gustul-copilariei-in-bucovina/</link>
-      <guid>https://izz.ro/regional/deserturile-traditionale-de-toamna-readuc-gustul-copilariei-in-bucovina/</guid>
-      <pubDate>Sun, 18 Oct 2026 17:01:00 +0000</pubDate>
-      <category>regional</category>
-      <source url="https://observatornews.ro/eveniment/deserturile-de-toamna-ale-bucovinencelor-care-pastreaza-vii-amintirile-copilariei-gust-ca-la-bunica-669547.html">Observator</source>
-      <description>Gospodinele din Bucovina pregătesc deserturi aromate cu mere coapte, scorțișoară și magiun de prune, rețete care păstrează vie tradiția culinară locală și amintirile din copilărie în pragul postului Crăciunului.</description>
-    </item>
-    <item>
-      <title>ANM a emis cod galben de vânt pentru cinci județe</title>
-      <link>https://izz.ro/regional/anm-a-emis-cod-galben-de-vant-pentru-cinci-judete/</link>
-      <guid>https://izz.ro/regional/anm-a-emis-cod-galben-de-vant-pentru-cinci-judete/</guid>
-      <pubDate>Sun, 18 Oct 2026 16:45:00 +0000</pubDate>
-      <category>regional</category>
-      <source url="https://www.antena3.ro/meteo/avertizare-imediata-de-la-anm-e-cod-galben-de-vant-puternic-in-cinci-judete-lista-zonelor-vizate-807655.html">Antena 3 CNN</source>
-      <description>Meteorologii au emis avertizări nowcasting de vânt puternic valabile în mai multe zone din Moldova și Dobrogea, intensificările urmând să creeze probleme pe parcursul orelor următoare.</description>
     </item>
 </channel></rss>

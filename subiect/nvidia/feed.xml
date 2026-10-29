@@ -5,16 +5,26 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 21:29:38 +0000</lastBuildDate>
     <item>
-      <title>Șeful Nvidia, vizat de o investigație privind legături externe</title>
-      <link>https://izz.ro/tech/seful-nvidia-vizat-de-o-investigatie-privind-legaturi-externe/</link>
-      <guid>https://izz.ro/tech/seful-nvidia-vizat-de-o-investigatie-privind-legaturi-externe/</guid>
-      <pubDate>Thu, 29 Oct 2026 15:14:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://observatornews.ro/extern/seful-celei-mai-valoroase-companii-americane-are-legaturi-cu-o-spioana-chineza-trump-nu-a-facut-nimic-nyt-670718.html">Observator</source>
-      <media:content url="https://izz.ro/tech/seful-nvidia-vizat-de-o-investigatie-privind-legaturi-externe/cover.jpg?v=641c0bf4" medium="image" type="image/jpeg"/>
-      <description>Directorul executiv al companiei americane Nvidia a întreținut relații apropiate de afaceri cu o cetățeană chineză suspectată de serviciile secrete din Statele Unite că ar fi spioană a Beijingului.</description>
+      <title>Șeful Nvidia a interacționat cu un spion chinez neidentificat de servicii</title>
+      <link>https://izz.ro/extern/seful-nvidia-a-interactionat-cu-un-spion-chinez-neidentificat-de-servicii/</link>
+      <guid>https://izz.ro/extern/seful-nvidia-a-interactionat-cu-un-spion-chinez-neidentificat-de-servicii/</guid>
+      <pubDate>Thu, 29 Oct 2026 21:08:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/mapamond/nyt-jensen-huang-ceo-ul-nvidia-nu-a-fost-avertizat-ca-apropiata-lui-era-un-spion-chinez-desi-serviciile-americane-stiau-809159.html">Antena 3 CNN</source>
+      <media:content url="https://izz.ro/extern/seful-nvidia-a-interactionat-cu-un-spion-chinez-neidentificat-de-servicii/cover.jpg?v=c7e5e04e" medium="image" type="image/jpeg"/>
+      <description>O directoare din Singapore care facilita exportul ilegal de microprocesoare avansate către China a acționat ca agent sub acoperire, reușind să se apropie mult de directorul executiv Jensen Huang fără a fi oprită de agențiile americane.</description>
+    </item>
+    <item>
+      <title>Șeful Nvidia, Jensen Huang, vizat într-o anchetă privind legături cu o presupusă agentă chineză</title>
+      <link>https://izz.ro/extern/seful-nvidia-jensen-huang-vizat-intr-o-ancheta-privind-legaturi-cu-o-presupusa/</link>
+      <guid>https://izz.ro/extern/seful-nvidia-jensen-huang-vizat-intr-o-ancheta-privind-legaturi-cu-o-presupusa/</guid>
+      <pubDate>Thu, 29 Oct 2026 19:29:13 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/jensen-huang-seful-companiei-nvidia-implicat-intr-un-caz-de-presupus-spionaj-in-favoarea-chinei-4014451">Digi24 Extern</source>
+      <media:content url="https://izz.ro/extern/seful-nvidia-jensen-huang-vizat-intr-o-ancheta-privind-legaturi-cu-o-presupusa/cover.jpg?v=c442be41" medium="image" type="image/jpeg"/>
+      <description>Directorul executiv al companiei Nvidia, Jensen Huang, ar fi întreținut relații apropiate cu o femeie de afaceri din China aflată în atenția serviciilor secrete americane sub suspiciunea de spionaj.</description>
     </item>
     <item>
       <title>Un modder îmbunătățește performanța DLSS 5 folosind tehnica Foveated Rendering</title>

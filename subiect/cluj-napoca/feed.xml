@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/cluj-napoca/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj-Napoca pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 21:29:38 +0000</lastBuildDate>
     <item>
       <title>Târgul de vechituri Der Flohmarkt din Cluj-Napoca se mută temporar în cartierele Grigorescu și Mănăștur</title>
       <link>https://izz.ro/local/targul-de-vechituri-der-flohmarkt-din-cluj-napoca-se-muta-temporar-in/</link>
@@ -75,6 +75,16 @@
       <source url="https://rasunetul.ro/vacanta-cu-inspiratie-elevii-cercului-de-creatieteatru-din-nasaud-vizita-la-cluj-napoca">Răsunetul</source>
       <media:content url="https://izz.ro/local/elevii-cercului-de-creatie-din-nasaud-au-vizitat-cluj-napoca/cover.jpg?v=7431d349" medium="image" type="image/jpeg"/>
       <description>Copiii înscriși la Cercul de Creație și Teatru din Năsăud au efectuat o excursie de documentare și educație în orașul Cluj-Napoca, având parte de o zi plină de experiențe motivaționale.</description>
+    </item>
+    <item>
+      <title>Distribuție Energie Electrică România anunță întreruperi planificate în alimentare</title>
+      <link>https://izz.ro/economic/distributie-energie-electrica-romania-anunta-intreruperi-planificate-in/</link>
+      <guid>https://izz.ro/economic/distributie-energie-electrica-romania-anunta-intreruperi-planificate-in/</guid>
+      <pubDate>Wed, 28 Oct 2026 22:00:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.monitoruldevrancea.ro/2026/10/29/distributie-energie-electrica-romania-focsani-anunta-intreruperea-alimentarii-cu-energie-electrica-in-zilele-de-5-si-9-noiembrie-2026/">Monitorul de Vrancea, Ziua de Cluj</source>
+      <media:content url="https://izz.ro/economic/distributie-energie-electrica-romania-anunta-intreruperi-planificate-in/cover.jpg?v=fee0d423" medium="image" type="image/jpeg"/>
+      <description>Operatorul de distribuție a energiei electrice anunță întreruperi planificate și recomandă consultarea site-ului oficial pentru informații actualizate. Compania își cere scuze pentru neplăcerile cauzate de întreruperile necesare pentru buna funcționare a instalațiilor.</description>
     </item>
     <item>
       <title>Asistență redusă la meciul de fotbal dintre CFR Cluj și Universitatea Cluj</title>
@@ -455,14 +465,5 @@
       <category>local</category>
       <source url="https://www.zi-de-zi.ro/2026/10/23/elevi-de-la-transylvania-college-din-cluj-napoca-vizita-la-irum-reghin/">Zi de Zi</source>
       <description>O clasă de elevi clujeni a vizitat unitatea de producție IRUM din Reghin, unde au descoperit procesul de fabricare a utilajelor agricole românești și au interacționat cu echipa.</description>
-    </item>
-    <item>
-      <title>Cluj-Napoca introduce linia de autobuz 49 și comasează trei trasee vechi</title>
-      <link>https://izz.ro/local/cluj-napoca-introduce-linia-de-autobuz-49-si-comaseaza-trei-trasee-vechi/</link>
-      <guid>https://izz.ro/local/cluj-napoca-introduce-linia-de-autobuz-49-si-comaseaza-trei-trasee-vechi/</guid>
-      <pubDate>Fri, 23 Oct 2026 14:30:20 +0000</pubDate>
-      <category>local</category>
-      <source url="https://adevarul.ro/stiri-locale/cluj-napoca/linia-49-va-lega-cinci-cartiere-din-cluj-napoca-2566136.html">Adevărul</source>
-      <description>Compania de Transport Public din Cluj-Napoca lansează din 26 octombrie o nouă linie de autobuz care conectează cinci cartiere importante, în timp ce alte trei rute tradiționale vor fi oprite temporar.</description>
     </item>
 </channel></rss>

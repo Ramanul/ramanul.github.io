@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/ploiesti/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ploiești pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 21:29:38 +0000</lastBuildDate>
+    <item>
+      <title>Cătălina Bozianu a demisionat din Consiliul Local Ploiești</title>
+      <link>https://izz.ro/local/catalina-bozianu-a-demisionat-din-consiliul-local-ploiesti/</link>
+      <guid>https://izz.ro/local/catalina-bozianu-a-demisionat-din-consiliul-local-ploiesti/</guid>
+      <pubDate>Thu, 29 Oct 2026 19:16:44 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.observatorulph.ro/administratie/2802322-demisie-in-consiliul-local-ploiesti">Observatorul Prahovean</source>
+      <media:content url="https://izz.ro/local/catalina-bozianu-a-demisionat-din-consiliul-local-ploiesti/cover.jpg?v=9aab51ae" medium="image" type="image/jpeg"/>
+      <description>Lidera interimară a partidului PMP a renunțat la mandatul de consilier local, urmând să preia funcția de prefect al județului Prahova în perioada următoare.</description>
+    </item>
     <item>
       <title>Un sens giratoriu nou va fi construit pe DN1 la Blejoi-Păulești</title>
       <link>https://izz.ro/local/un-sens-giratoriu-nou-va-fi-construit-pe-dn1-la-blejoi-paulesti/</link>
@@ -453,14 +463,5 @@
       <category>local</category>
       <source url="https://www.observatorulph.ro/economic/2801582-verytas-plus-construct-a-inceput-lucrarile-la-ultimul-bloc-din-ansamblul-uptown">Observatorul Prahovean</source>
       <description>Dezvoltatorul imobiliar Verytas Plus Construct a demarat construcția celui de-al patrulea și ultimul bloc din ansamblul rezidențial UpTown, situat în comuna Blejoi, sat Ploieștiori, lângă Ploiești Shopping City.</description>
-    </item>
-    <item>
-      <title>Termo Ploiești a pornit furnizarea agentului termic</title>
-      <link>https://izz.ro/local/termo-ploiesti-a-pornit-furnizarea-agentului-termic/</link>
-      <guid>https://izz.ro/local/termo-ploiesti-a-pornit-furnizarea-agentului-termic/</guid>
-      <pubDate>Mon, 19 Oct 2026 19:18:58 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.zdp.ro/termo-ploiesti-anunta-deschiderea-sezonului-de-incalzire-2026-2027.html">Ziarul de Ploiești</source>
-      <description>Compania Termo Ploiești a inițiat livrarea căldurii către locuințele din municipiu, după finalizarea probelor tehnice și atingerea parametrilor meteorologici necesari pentru noul sezon.</description>
     </item>
 </channel></rss>

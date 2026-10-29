@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/prahova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Prahova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 21:29:38 +0000</lastBuildDate>
+    <item>
+      <title>Cătălina Bozianu a demisionat din Consiliul Local Ploiești</title>
+      <link>https://izz.ro/local/catalina-bozianu-a-demisionat-din-consiliul-local-ploiesti/</link>
+      <guid>https://izz.ro/local/catalina-bozianu-a-demisionat-din-consiliul-local-ploiesti/</guid>
+      <pubDate>Thu, 29 Oct 2026 19:16:44 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.observatorulph.ro/administratie/2802322-demisie-in-consiliul-local-ploiesti">Observatorul Prahovean</source>
+      <media:content url="https://izz.ro/local/catalina-bozianu-a-demisionat-din-consiliul-local-ploiesti/cover.jpg?v=9aab51ae" medium="image" type="image/jpeg"/>
+      <description>Lidera interimară a partidului PMP a renunțat la mandatul de consilier local, urmând să preia funcția de prefect al județului Prahova în perioada următoare.</description>
+    </item>
     <item>
       <title>Bărbat din Prahova arestat după un scandal cu topoare și amenințări la adresa magistraților</title>
       <link>https://izz.ro/judetean/barbat-din-prahova-arestat-dupa-un-scandal-cu-topoare-si-amenintari-la-adresa/</link>
@@ -300,14 +310,5 @@
       <category>judetean</category>
       <source url="https://www.dobrogeaonline.ro/dn1-va-fi-inchis-temporar-marti-si-miercuri/">Dobrogea Online</source>
       <description>Circulația mașinilor pe DN1 va fi oprită pe ambele sensuri în Puchenii Moșneni, marți între orele 10:00 și 14:00, iar miercuri de la miezul nopții până la ora 04:00, pentru instalarea unui pasaj pietonal.</description>
-    </item>
-    <item>
-      <title>O pacientă dispărută dintr-un centru de îngrijire a fost găsită decedată</title>
-      <link>https://izz.ro/judetean/o-pacienta-disparuta-dintr-un-centru-de-ingrijire-a-fost-gasita-decedata/</link>
-      <guid>https://izz.ro/judetean/o-pacienta-disparuta-dintr-un-centru-de-ingrijire-a-fost-gasita-decedata/</guid>
-      <pubDate>Sun, 18 Oct 2026 17:33:21 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://adevarul.ro/stiri-interne/evenimente/femeie-disparuta-dintr-un-centru-de-ingrijire-2564814.html">Adevărul</source>
-      <description>Echipele de căutare din județul Prahova au încheiat operațiunea tragic duminică după-amiază, după ce au descoperit trupul neînsuflețit al femeii pe munte.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/bulgaria/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bulgaria pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 29 Oct 2026 16:40:29 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 21:29:38 +0000</lastBuildDate>
+    <item>
+      <title>Politologul Mihnea Stoica analizează tendințele politice din Estul Europei</title>
+      <link>https://izz.ro/politic/politologul-mihnea-stoica-analizeaza-tendintele-politice-din-estul-europei/</link>
+      <guid>https://izz.ro/politic/politologul-mihnea-stoica-analizeaza-tendintele-politice-din-estul-europei/</guid>
+      <pubDate>Thu, 29 Oct 2026 20:03:35 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/securitate-si-aparare/estul-europei-nu-se-imparte-simplu-intre-2566632.html">Adevărul</source>
+      <media:content url="https://izz.ro/politic/politologul-mihnea-stoica-analizeaza-tendintele-politice-din-estul-europei/cover.jpg?v=aeefcddc" medium="image" type="image/jpeg"/>
+      <description>Alegerile recente din Serbia și turul al doilea al prezidențialelor din Bulgaria arată că scena politică est-europeană este complexă, iar o orientare pro-europeană nu garantează automat implementarea rapidă a reformelor.</description>
+    </item>
     <item>
       <title>Nava lovită de drone în Bulgaria s-a scufundat</title>
       <link>https://izz.ro/local/nava-lovita-de-drone-in-bulgaria-s-a-scufundat/</link>
@@ -381,14 +391,5 @@
       <category>extern</category>
       <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/avion-obligat-sa-aterizeze-de-urgenta-in-bulgaria-dupa-o-amenintare-cu-bomba-austrian-airlines-a-primit-o-alerta-de-la-o-persoana-care-nu-se-afla-la-bord-22858743?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>O aeronavă care efectua cursa Tel Aviv - Viena a fost direcționată către o aterizare de urgență pe teritoriul Bulgariei, în urma unei amenințări cu bombă venite din exterior.</description>
-    </item>
-    <item>
-      <title>Atacurile cu drone din Marea Neagră amenință exporturile de cereale și turismul Bulgariei</title>
-      <link>https://izz.ro/economic/atacurile-cu-drone-din-marea-neagra-ameninta-exporturile-de-cereale-si-turismul/</link>
-      <guid>https://izz.ro/economic/atacurile-cu-drone-din-marea-neagra-ameninta-exporturile-de-cereale-si-turismul/</guid>
-      <pubDate>Sun, 18 Oct 2026 17:11:37 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.g4media.ro/atacurile-cu-drone-din-marea-neagra-pun-in-pericol-exporturile-de-cereale-si-turismul-bulgariei-novinite.html">G4Media</source>
-      <description>Specialiștii avertizează că lipsa asigurărilor pentru navele comerciale ar putea bloca porturile Varna și Burgas. Situația afectează grav cele cinci milioane de tone de grâu pregătite pentru export și sectorul turistic.</description>
     </item>
 </channel></rss>
