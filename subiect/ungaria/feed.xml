@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/ungaria/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ungaria pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 30 Oct 2026 01:20:17 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 07:27:45 +0000</lastBuildDate>
+    <item>
+      <title>Rezultatele electorale recente din mai multe țări indică semne de redresare a democrației</title>
+      <link>https://izz.ro/extern/rezultatele-electorale-recente-din-mai-multe-tari-indica-semne-de-redresare-a/</link>
+      <guid>https://izz.ro/extern/rezultatele-electorale-recente-din-mai-multe-tari-indica-semne-de-redresare-a/</guid>
+      <pubDate>Fri, 30 Oct 2026 05:00:47 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/oct/30/could-2026-be-the-year-that-democracy-fought-back">The Guardian</source>
+      <media:content url="https://izz.ro/extern/rezultatele-electorale-recente-din-mai-multe-tari-indica-semne-de-redresare-a/cover.jpg?v=84320805" medium="image" type="image/jpeg"/>
+      <description>Eșecurile electorale înregistrate de lideri controversati din Serbia, Ungaria, Brazilia și Israel oferă motive de optimism privind viitorul democratic global, potrivit unei analize recente.</description>
+    </item>
     <item>
       <title>Guvernul Ungariei vrea să transforme în lege un acord de cooperare nucleară cu SUA</title>
       <link>https://izz.ro/extern/guvernul-ungariei-vrea-sa-transforme-in-lege-un-acord-de-cooperare-nucleara-cu/</link>
@@ -23,7 +33,6 @@
       <pubDate>Thu, 29 Oct 2026 05:56:10 +0000</pubDate>
       <category>auto</category>
       <source url="https://economedia.ro/proteste-majore-anuntate-in-ungaria-dupa-inchiderea-unei-fabrici-auto-ajunge.html">Economedia</source>
-      <media:content url="https://izz.ro/auto/sindicatul-vasas-organizeaza-un-protest-la-gyor-dupa-inchiderea-fabricii-wkw/cover.jpg?v=a6f5ad8d" medium="image" type="image/jpeg"/>
       <description>Federația Sindicală Vasas va protesta pe 9 noiembrie în Ungaria pentru a cere protejarea locurilor de muncă din industria auto europeană, în contextul crizei provocate de închiderea fabricii din Győr.</description>
     </item>
     <item>
@@ -33,7 +42,6 @@
       <pubDate>Wed, 28 Oct 2026 21:48:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/comisia-europeana-a-aprobat-un-imprumut-de-5-4-miliarde-de-euro-pentru-ungaria-prin-safe-809073.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/extern/comisia-europeana-aproba-un-credit-de-54-miliarde-de-euro-pentru-ungaria-prin/cover.jpg?v=d34d0e73" medium="image" type="image/jpeg"/>
       <description>Executivul UE a validat solicitarea Ungariei pentru finanțarea industriei de apărare, marcând finalul primei etape de distribuire a fondurilor europene din pachetul SAFE.</description>
     </item>
     <item>
@@ -260,23 +268,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/bugetul-ungariei-pentru-2027-premierul-magyar-anunta-reduceri-fiscale-semnificative-alocatii-familiale-si-majorari-ale-pensiilor-3999395">Digi24 Extern</source>
       <description>Premierul Péter Magyar a dezvăluit planul bugetar care prevede scăderea impozitului pe venit pentru două milioane de cetățeni, majorarea alocațiilor familiale și fonduri sporite pentru sănătate, educație și protecția copilului.</description>
-    </item>
-    <item>
-      <title>Péter Magyar îl avertizează pe Viktor Orbán cu închisoare pe viață</title>
-      <link>https://izz.ro/politic/peter-magyar-il-avertizeaza-pe-viktor-orban-cu-inchisoare-pe-viata/</link>
-      <guid>https://izz.ro/politic/peter-magyar-il-avertizeaza-pe-viktor-orban-cu-inchisoare-pe-viata/</guid>
-      <pubDate>Mon, 19 Oct 2026 06:38:47 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://adevarul.ro/stiri-externe/europa/viktor-orban-amenintat-cu-inchisoarea-pentru-2564882.html">Adevărul</source>
-      <description>Premierul ungar Péter Magyar a declarat că fostul șef al guvernului Viktor Orbán riscă detenția pe viață pentru tentative de subminare a ordinii constituționale și pregătirea unei lovituri de stat.</description>
-    </item>
-    <item>
-      <title>Ungaria ar putea adopta moneda euro în anul 2032</title>
-      <link>https://izz.ro/extern/ungaria-ar-putea-adopta-moneda-euro-in-anul-2032/</link>
-      <guid>https://izz.ro/extern/ungaria-ar-putea-adopta-moneda-euro-in-anul-2032/</guid>
-      <pubDate>Mon, 19 Oct 2026 06:01:37 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://economedia.ro/aderarea-ungariei-la-zona-euro-este-probabila-pentru-anul-2032.html">Economedia</source>
-      <description>Analiștii de la Eurasia Group estimează că, în ciuda unor probleme bugetare provocate de secetă pe termen scurt, economia Ungariei are șanse mari să intre în zona euro până în anul 2032.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/franta/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Franța pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 30 Oct 2026 01:20:16 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 07:27:45 +0000</lastBuildDate>
+    <item>
+      <title>Rusia recrutează agenți în Europa pentru sabotaje și asasinate</title>
+      <link>https://izz.ro/extern/rusia-recruteaza-agenti-in-europa-pentru-sabotaje-si-asasinate/</link>
+      <guid>https://izz.ro/extern/rusia-recruteaza-agenti-in-europa-pentru-sabotaje-si-asasinate/</guid>
+      <pubDate>Fri, 30 Oct 2026 07:06:30 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.europalibera.md/a/33886752.html">Europa Liberă</source>
+      <media:content url="https://izz.ro/extern/rusia-recruteaza-agenti-in-europa-pentru-sabotaje-si-asasinate/cover.jpg?v=cfe1f863" medium="image" type="image/jpeg"/>
+      <description>Mai mulți cetățeni moldoveni au fost reținuți în România, Franța și Lituania pentru acte de vandalism, colete incendiate și pregătirea unor asasinate, acțiuni coordonate de serviciile rusești prin intermediul unor recrutați plătiți ieftin.</description>
+    </item>
     <item>
       <title>Exilul și plecarea definitivă în America a romancierului german Thomas Mann</title>
       <link>https://izz.ro/cultura/exilul-si-plecarea-definitiva-in-america-a-romancierului-german-thomas-mann/</link>
@@ -451,14 +461,5 @@
       <category>extern</category>
       <source url="https://www.theguardian.com/world/2026/oct/23/france-police-demonstrations-civil-unrest">The Guardian</source>
       <description>Autoritățile franceze vor desfășura aproximativ 70.000 de cadre de securitate, inclusiv unități antitero, pentru a stopa eventuale revolte. Măsura vine în urma protestelor violente recente legate de costul ridicat al vieții.</description>
-    </item>
-    <item>
-      <title>O nouă tentativă de înșelăciune prin mesaje false se răspândește pe WhatsApp</title>
-      <link>https://izz.ro/tech/o-noua-tentativa-de-inselaciune-prin-mesaje-false-se-raspandeste-pe-whatsapp/</link>
-      <guid>https://izz.ro/tech/o-noua-tentativa-de-inselaciune-prin-mesaje-false-se-raspandeste-pe-whatsapp/</guid>
-      <pubDate>Fri, 23 Oct 2026 20:08:12 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.digi24.ro/stiri/sci-tech/lumea-digitala/fiica-prietenilor-mei-are-nevoie-de-votul-tau-intr-un-concurs-o-noua-inselatorie-face-victime-pe-whatsapp-4006763">Digi24</source>
-      <description>O escrocherie activă pe platforma WhatsApp folosește mesaje trimise de la contacte compromise care cer voturi online pentru un concurs, având ca obiectiv principal preluarea controlului asupra conturilor victimelor și comiterea de fraude.</description>
     </item>
 </channel></rss>

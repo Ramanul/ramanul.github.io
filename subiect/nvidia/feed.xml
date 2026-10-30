@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Nvidia — IZZ.ro</title>
+  <title>NVIDIA — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Nvidia pe IZZ.ro</description>
+  <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 30 Oct 2026 01:20:16 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 07:27:45 +0000</lastBuildDate>
+    <item>
+      <title>Performanțele noului laptop Lenovo Yoga Pro 9 echipat cu plăci NVIDIA RTX Spark</title>
+      <link>https://izz.ro/tech/performantele-noului-laptop-lenovo-yoga-pro-9-echipat-cu-placi-nvidia-rtx-spark/</link>
+      <guid>https://izz.ro/tech/performantele-noului-laptop-lenovo-yoga-pro-9-echipat-cu-placi-nvidia-rtx-spark/</guid>
+      <pubDate>Fri, 30 Oct 2026 06:47:39 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://start-up.ro/cat-de-bun-este-un-laptop-cu-rtx-spark-de-la-nvidia-teste-sintetice-gaming-editare-video-si-ai/">Start-up.ro</source>
+      <media:content url="https://izz.ro/tech/performantele-noului-laptop-lenovo-yoga-pro-9-echipat-cu-placi-nvidia-rtx-spark/cover.jpg?v=a7a2a965" medium="image" type="image/jpeg"/>
+      <description>Testarea primului laptop dotat cu procesor grafic NVIDIA RTX Spark arată capabilitățile dispozitivului în materie de jocuri video, randare 3D, editare video complexă și rularea aplicațiilor bazate pe inteligență artificială.</description>
+    </item>
     <item>
       <title>Șeful Nvidia a interacționat cu un spion chinez neidentificat de servicii</title>
       <link>https://izz.ro/extern/seful-nvidia-a-interactionat-cu-un-spion-chinez-neidentificat-de-servicii/</link>

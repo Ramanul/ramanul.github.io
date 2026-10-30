@@ -5,7 +5,27 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 30 Oct 2026 01:20:16 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 07:27:45 +0000</lastBuildDate>
+    <item>
+      <title>Europa se confruntă cu prețuri mai mari la gaze în prag de iarnă</title>
+      <link>https://izz.ro/economic/europa-se-confrunta-cu-preturi-mai-mari-la-gaze-in-prag-de-iarna/</link>
+      <guid>https://izz.ro/economic/europa-se-confrunta-cu-preturi-mai-mari-la-gaze-in-prag-de-iarna/</guid>
+      <pubDate>Fri, 30 Oct 2026 07:00:56 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://monitorulneamt.ro/europa-intra-in-iarna-cu-gaze-mai-scumpe-rezervele-reduse-sporesc-ingrijorarile/">Monitorul de Neamț</source>
+      <media:content url="https://izz.ro/economic/europa-se-confrunta-cu-preturi-mai-mari-la-gaze-in-prag-de-iarna/cover.jpg?v=ad0deb0b" medium="image" type="image/jpeg"/>
+      <description>Rezervele reduse și livrările scăzute au împins cotația europeană de referință a gazelor la 100 de euro pe Megawatt-oră, generând presiuni financiare asupra industriei și pieței de energie electrică.</description>
+    </item>
+    <item>
+      <title>Muncitorii de la construcția centrelor de date din Europa se confruntă cu riscuri majore și exploatare</title>
+      <link>https://izz.ro/extern/muncitorii-de-la-constructia-centrelor-de-date-din-europa-se-confrunta-cu/</link>
+      <guid>https://izz.ro/extern/muncitorii-de-la-constructia-centrelor-de-date-din-europa-se-confrunta-cu/</guid>
+      <pubDate>Fri, 30 Oct 2026 05:00:46 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres">The Guardian</source>
+      <media:content url="https://izz.ro/extern/muncitorii-de-la-constructia-centrelor-de-date-din-europa-se-confrunta-cu/cover.jpg?v=b5cd3ad5" medium="image" type="image/jpeg"/>
+      <description>O investigație jurnalistică arată că mii de muncitori care ridică centre de date pentru giganți tehnologici sunt expuși la condiții periculoase de muncă, salarii neplătite și abuzuri.</description>
+    </item>
     <item>
       <title>Experți internaționali au lansat prima piramidă alimentară globală</title>
       <link>https://izz.ro/sanatate/experti-internationali-au-lansat-prima-piramida-alimentara-globala/</link>
@@ -440,23 +460,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/ue/companiile-energetice-din-europa-ar-putea-primi-dreptul-sa-doboare-drone-atacurile-risca-sa-lase-milioane-de-oameni-fara-curent-4002099">Digi24 Extern</source>
       <description>Mai multe guverne din Europa analizează posibilitatea de a permite companiilor energetice să doboare drone pentru a proteja infrastructura critică de atacuri.</description>
-    </item>
-    <item>
-      <title>Producătorii auto din China au înregistrat o creștere a cotei de piață în Europa</title>
-      <link>https://izz.ro/auto/producatorii-auto-din-china-au-inregistrat-o-crestere-a-cotei-de-piata-in-europa/</link>
-      <guid>https://izz.ro/auto/producatorii-auto-din-china-au-inregistrat-o-crestere-a-cotei-de-piata-in-europa/</guid>
-      <pubDate>Tue, 20 Oct 2026 19:00:00 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/marcile-din-china-au-urcat-la-o-cota-de-piata-alarmanta-in-europa-byd-depasita-de-noii-rivali-22863889?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Statisticile recente privind piața auto din Uniunea Europeană indică o nouă expansiune a mărcilor chinezești. Cota de piață a acestora a urcat cu aproape patru puncte procentuale față de luna precedentă.</description>
-    </item>
-    <item>
-      <title>Analiză privind legitimitatea și refuzul partidelor de a intra la guvernare</title>
-      <link>https://izz.ro/politic/analiza-privind-legitimitatea-si-refuzul-partidelor-de-a-intra-la-guvernare/</link>
-      <guid>https://izz.ro/politic/analiza-privind-legitimitatea-si-refuzul-partidelor-de-a-intra-la-guvernare/</guid>
-      <pubDate>Tue, 20 Oct 2026 13:17:24 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://cvlpress.ro/20.10.2026/guvern-minoritar-dar-legitim/">Cuvântul Libertății</source>
-      <description>Comentariu pe marginea atitudinii formațiunilor politice din România care refuză participarea la guvernare, comparativ cu practicile din celelalte state europene unde accederea în parlament implică automat asumarea puterii executive.</description>
     </item>
 </channel></rss>
