@@ -5,7 +5,17 @@
   <atom:link href="https://izz.ro/subiect/eurostat/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Eurostat pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 27 Oct 2026 19:05:59 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 01:20:17 +0000</lastBuildDate>
+    <item>
+      <title>Județul Sălaj ocupă locul al doilea național la rata fertilității</title>
+      <link>https://izz.ro/judetean/judetul-salaj-ocupa-locul-al-doilea-national-la-rata-fertilitatii/</link>
+      <guid>https://izz.ro/judetean/judetul-salaj-ocupa-locul-al-doilea-national-la-rata-fertilitatii/</guid>
+      <pubDate>Thu, 29 Oct 2026 12:29:11 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.magazinsalajean.ro/social/vesti-bune-despre-viitorul-salajului">Magazin Sălăjean</source>
+      <media:content url="https://izz.ro/judetean/judetul-salaj-ocupa-locul-al-doilea-national-la-rata-fertilitatii/cover.jpg?v=48aeade3" medium="image" type="image/jpeg"/>
+      <description>Datele publicate de Eurostat arată că Sălajul se menține pe podiumul fertilității în România, înregistrând o medie de 1,80 copii per femeie, aproape de nivelul raportat în județul Suceava.</description>
+    </item>
     <item>
       <title>România plătește miliarde de euro pentru plasticul nereciclat</title>
       <link>https://izz.ro/economic/romania-plateste-aproape-un-miliard-de-euro-pentru-plasticul-nereciclat/</link>
@@ -104,14 +114,5 @@
       <category>economic</category>
       <source url="https://www.profit.ro/perspective/familia-numeroasa-un-cost-ascuns-pentru-cariera-mamelor-de-ce-este-romania-pe-ultimul-loc-in-uniunea-europeana-22862484?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Datele Eurostat arată că doar 32,8% dintre mamele românce cu cel puțin trei copii lucrează, plasând țara pe ultimul loc în Uniunea Europeană, mult sub media comunitară.</description>
-    </item>
-    <item>
-      <title>Regiunile din România cu cele mai ridicate rate ale tinerilor NEET din Uniunea Europeană</title>
-      <link>https://izz.ro/economic/regiunile-din-romania-cu-cele-mai-ridicate-rate-ale-tinerilor-neet-din-uniunea/</link>
-      <guid>https://izz.ro/economic/regiunile-din-romania-cu-cele-mai-ridicate-rate-ale-tinerilor-neet-din-uniunea/</guid>
-      <pubDate>Fri, 16 Oct 2026 21:05:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/profesii/romania-are-doua-dintre-regiunile-cu-cei-mai-multi-tineri-neet-din-ue-unde-sunt-cei-mai-multi-tineri-romani-care-nu-muncesc-si-nici-nu-studiaza-23260973">Ziarul Financiar</source>
-      <description>Datele Eurostat arată că zonele Sud-Vest Oltenia și Sud-Est au înregistrat în 2025 unele dintre cele mai mari procente de tineri care nu lucrează și nu urmează nicio formă de educație din blocul comunitar.</description>
     </item>
 </channel></rss>
