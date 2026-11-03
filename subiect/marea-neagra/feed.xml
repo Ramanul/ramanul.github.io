@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Marea Neagra — IZZ.ro</title>
+  <title>Marea Neagră — IZZ.ro</title>
   <link>https://izz.ro/subiect/marea-neagra/</link>
   <atom:link href="https://izz.ro/subiect/marea-neagra/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Marea Neagra pe IZZ.ro</description>
+  <description>Știri despre Marea Neagră pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 30 Oct 2026 07:27:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 11:11:43 +0000</lastBuildDate>
+    <item>
+      <title>NATO sporește măsurile de securitate în Marea Neagră după atacurile asupra navelor</title>
+      <link>https://izz.ro/extern/nato-sporeste-masurile-de-securitate-in-marea-neagra-dupa-atacurile-asupra/</link>
+      <guid>https://izz.ro/extern/nato-sporeste-masurile-de-securitate-in-marea-neagra-dupa-atacurile-asupra/</guid>
+      <pubDate>Tue, 03 Nov 2026 08:39:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/romania-tot-mai-expusa-razboiului-din-marea-neagra-rusia-testeaza-limitele-nato">Spotmedia</source>
+      <description>În urma atacurilor repetate asupra navelor comerciale în proximitatea apelor românești și bulgărești, Alianța Nord-Atlantică suplimentează patrulele maritime, radarele și dronele pentru a proteja flancul estic.</description>
+    </item>
     <item>
       <title>România solicită sprijin militar american sporit din cauza conflictului din Marea Neagră</title>
       <link>https://izz.ro/extern/romania-solicita-sprijin-militar-american-sporit-din-cauza-conflictului-din/</link>
@@ -13,7 +22,6 @@
       <pubDate>Fri, 30 Oct 2026 07:08:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://observatornews.ro/politic/marius-lazurca-la-cnn-peste-600-de-nave-lovite-in-marea-neagra-romania-cere-mai-mult-sprijin-din-partea-sua-670756.html">Observator</source>
-      <media:content url="https://izz.ro/extern/romania-solicita-sprijin-militar-american-sporit-din-cauza-conflictului-din/cover.jpg?v=358e3a39" medium="image" type="image/jpeg"/>
       <description>Consilierul prezidențial Marius Lazurca a declarat la CNN că peste 600 de nave au fost avariate și numeroase drone au încălcat spațiul aerian românesc, cerând o prezență SUA mai robustă.</description>
     </item>
     <item>
@@ -23,7 +31,6 @@
       <pubDate>Thu, 29 Oct 2026 22:08:00 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.zf.ro/companii/energie/surprize-energie-gigantul-american-carlyle-decis-vanda-exploatarea-gaz-marea-neagra-unei-firme-olandeze-mazarine-energy-asociata-gazprom-productia-gaze-carlyle-investit-400-mil-dolari-obtinut-23270654">Ziarul Financiar</source>
-      <media:content url="https://izz.ro/economic/fondul-carlyle-vinde-operatiunile-de-gaze-din-marea-neagra-catre-mazarine-energy/cover.jpg?v=038a1187" medium="image" type="image/jpeg"/>
       <description>Compania americană Carlyle și BERD au decis să cesioneze producătorul de gaze Black Sea Oil &amp; Gas către firma olandeză Mazarine Energy, în urma unei investiții majore în sectorul offshore românesc.</description>
     </item>
     <item>
@@ -33,8 +40,25 @@
       <pubDate>Thu, 29 Oct 2026 07:59:15 +0000</pubDate>
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-interne/evenimente/containere-cu-substante-inflamabile-si-materiale-2567333.html">Adevărul, Antena 3 CNN</source>
-      <media:content url="https://izz.ro/extern/containere-cu-substante-periculoase-plutesc-in-marea-neagra-dupa-scufundarea/cover.jpg?v=9e4e6034" medium="image" type="image/jpeg"/>
       <description>Zeci de containere încărcate cu substanțe inflamabile și periculoase plutesc în derivă în Marea Neagră după ce o navă a fost atacată. Cei 18 marinari de la bordul navei au fost salvați și au ajuns la Varna. Peste 20 de containere au căzut în mare după ce portcontainerul s-a înclinat puternic în urma unui atac cu drone. Nava a plecat din portul israelian Haifa și se îndrepta către Portul Constanța.</description>
+    </item>
+    <item>
+      <title>Nava comercială îndreptată spre Constanța s-a scufundat în Marea Neagră după un atac</title>
+      <link>https://izz.ro/local/nava-comerciala-indreptata-spre-constanta-s-a-scufundat-in-marea-neagra-dupa-un/</link>
+      <guid>https://izz.ro/local/nava-comerciala-indreptata-spre-constanta-s-a-scufundat-in-marea-neagra-dupa-un/</guid>
+      <pubDate>Thu, 29 Oct 2026 07:41:39 +0000</pubDate>
+      <category>local</category>
+      <source url="https://focuspress.ro/nava-care-se-afla-in-drum-spre-constanta-atacata-miercuri-cu-trei-drone-s-a-scufundat-in-marea-neagra-b1a9543a7/">FocusPress</source>
+      <description>Portcontainerul Consthip Jet, atacat de trei drone maritime în largul Bulgariei în timp ce naviga spre portul Constanța, s-a scufundat în cursul nopții. Autoritățile bulgare investighează posibile riscuri de poluare a apei.</description>
+    </item>
+    <item>
+      <title>O navă de marfă cu destinația Constanța a fost lovită de drone</title>
+      <link>https://izz.ro/local/o-nava-de-marfa-cu-destinatia-constanta-a-fost-lovita-de-drone/</link>
+      <guid>https://izz.ro/local/o-nava-de-marfa-cu-destinatia-constanta-a-fost-lovita-de-drone/</guid>
+      <pubDate>Wed, 28 Oct 2026 21:21:28 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.bzi.ro/inca-o-nava-de-marfa-care-urma-sa-ajunga-la-constanta-a-fost-lovita-de-drone-in-largul-coastelor-bulgariei-5632130">BZI Iași</source>
+      <description>O navă de containere sub pavilion grecesc a fost atacată de drone maritime în Marea Neagră, în apropierea coastei Bulgariei, amplificând temerile regionale.</description>
     </item>
     <item>
       <title>Miniștrii apărării din România, Bulgaria și Turcia s-au reunit la Sofia după atacurile asupra navelor</title>
@@ -269,167 +293,5 @@
       <category>extern</category>
       <source url="https://stirileprotv.ro/stiri/politic/luca-niculescu-discutie-cu-omologul-ucrainean-dupa-atacurile-din-marea-neagra-ce-proiecte-comune-vor-sa-consolideze.html">Știrile ProTV</source>
       <description>Premierul Luca Niculescu a discutat telefonic cu omologul său ucrainean, Sergii Koretskyi, despre riscurile de securitate din regiunea Mării Negre, provocate de recentele atacuri asupra navelor comerciale.</description>
-    </item>
-    <item>
-      <title>Aeronave de realimentare NATO și franceze au survolat Marea Neagră</title>
-      <link>https://izz.ro/extern/aeronave-de-realimentare-nato-si-franceze-au-survolat-marea-neagra/</link>
-      <guid>https://izz.ro/extern/aeronave-de-realimentare-nato-si-franceze-au-survolat-marea-neagra/</guid>
-      <pubDate>Fri, 23 Oct 2026 10:04:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/actualitate/zbor-misterios-deasupra-marii-negre-doua-aeronave-de-realimentare-au-survolat-zona-traseul-indica-operatiuni-pentru-avioane-de-lupta-808370.html">Antena 3 CNN</source>
-      <description>Două avioane de tip Airbus A330 MRTT aparținând Franței și flotei NATO au efectuat misiuni de zbor deasupra vestului Mării Neagră, indicând sprijin operațional pentru avioanele de luptă.</description>
-    </item>
-    <item>
-      <title>Accesul la serviciul Starlink în Ucraina a fost limitat</title>
-      <link>https://izz.ro/extern/accesul-la-serviciul-starlink-in-ucraina-a-fost-limitat/</link>
-      <guid>https://izz.ro/extern/accesul-la-serviciul-starlink-in-ucraina-a-fost-limitat/</guid>
-      <pubDate>Fri, 23 Oct 2026 10:02:53 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/live/2026/oct/23/starlink-ukraine-musk-trump-russia-black-sea-strikes-france-milan-europe-protests-latest-news-updates">The Guardian</source>
-      <description>Capacitatea sistemului de sateliți a fost restricționată, afectând operațiunile de apărare, în timp ce autoritățile române intervin în Marea Neagră după un naufragiu.</description>
-    </item>
-    <item>
-      <title>Un marinar a murit și alți trei sunt dispăruți după un incident naval în Marea Neagră</title>
-      <link>https://izz.ro/general/un-marinar-a-murit-si-alti-trei-sunt-disparuti-dupa-un-incident-naval-in-marea/</link>
-      <guid>https://izz.ro/general/un-marinar-a-murit-si-alti-trei-sunt-disparuti-dupa-un-incident-naval-in-marea/</guid>
-      <pubDate>Fri, 23 Oct 2026 09:24:03 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.monitorulbt.ro/national/2026/10/23/un-marinar-mort-si-trei-disparuti-dupa-un-incident-naval-in-largul-constantei-nava-ar-fi-fost-lovita-de-o-drona/">Monitorul de Botoșani</source>
-      <description>Nava Khoryv a întâmpinat dificultăți în largul Constanței, un membru al echipajului fiind găsit decedat, în timp ce nouă marinari au fost salvați și trei sunt căutați de autorități.</description>
-    </item>
-    <item>
-      <title>Navă comercială lovită de drone și scufundată în Marea Neagră, lângă Constanța</title>
-      <link>https://izz.ro/local/nava-comerciala-lovita-de-drone-si-scufundata-in-marea-neagra-langa-constanta/</link>
-      <guid>https://izz.ro/local/nava-comerciala-lovita-de-drone-si-scufundata-in-marea-neagra-langa-constanta/</guid>
-      <pubDate>Fri, 23 Oct 2026 08:33:39 +0000</pubDate>
-      <category>local</category>
-      <source url="https://stirileprotv.ro/stiri/actualitate/o-nava-s-a-scufundat-dupa-ce-a-fost-lovita-de-o-drona-aproape-de-portul-constanta-o-persoana-a-murit-trei-sunt-disparute-surse.html">Știrile ProTV, Ziua de Cluj, Profit.ro, Curs de Guvernare, Antena 3 CNN</source>
-      <description>O navă comercială a fost lovită de drone vineri în Marea Neagră, la aproximativ 13 mile marine de Portul Constanța, și s-a scufundat. O amplă operațiune de salvare a dus la recuperarea a nouă marinari în viață. Un membru al echipajului a decedat, iar alte trei persoane sunt date dispărute și căutate de echipele de intervenție.</description>
-    </item>
-    <item>
-      <title>Nicușor Dan avertizează că Rusia provoacă Europa și cere întărirea apărării</title>
-      <link>https://izz.ro/extern/nicusor-dan-avertizeaza-ca-rusia-provoaca-europa-si-cere-intarirea-apararii/</link>
-      <guid>https://izz.ro/extern/nicusor-dan-avertizeaza-ca-rusia-provoaca-europa-si-cere-intarirea-apararii/</guid>
-      <pubDate>Fri, 23 Oct 2026 07:44:28 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.tion.ro/romania/rusia-provoaca-europa-avertismentul-lui-nicusor-dan-si-planul-romaniei-pentru-aparare-2376927/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
-      <description>Președintele României a declarat într-un interviu internațional că acțiunile Moscovei reprezintă riscuri majore de securitate la Marea Neagră, subliniind necesitatea consolidării capacităților naționale de apărare.</description>
-    </item>
-    <item>
-      <title>CSAT stabilește că securitatea Mării Negre reprezintă o prioritate națională de apărare</title>
-      <link>https://izz.ro/politic/csat-securitatea-marii-negre-prioritate-esentiala-pentru-apararea-nationala/</link>
-      <guid>https://izz.ro/politic/csat-securitatea-marii-negre-prioritate-esentiala-pentru-apararea-nationala/</guid>
-      <pubDate>Thu, 22 Oct 2026 19:15:02 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.aradon.ro/romania/csat-securitatea-marii-negre-reprezinta-o-componenta-esentiala-a-securitatii-nationale-si-euroatlantice-2262933/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">ARADON, Jurnalul Olteniei</source>
-      <description>Membrii CSAT s-au reunit pentru a analiza escaladarea incidentelor din zona Mării Negre, marcată de încălcări ale spațiului aerian național și atacuri cu drone asupra unor nave comerciale în apele teritoriale. Oficialii au subliniat că aceste evenimente sunt consecințe directe ale agresiunii ruse și au discutat măsuri suplimentare pentru consolidarea capacităților de supraveghere și răspuns militar.</description>
-    </item>
-    <item>
-      <title>Un expert în securitate critică concluziile recente ale ședinței CSAT</title>
-      <link>https://izz.ro/politic/un-expert-in-securitate-critica-concluziile-recente-ale-sedintei-csat/</link>
-      <guid>https://izz.ro/politic/un-expert-in-securitate-critica-concluziile-recente-ale-sedintei-csat/</guid>
-      <pubDate>Thu, 22 Oct 2026 18:45:32 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://adevarul.ro/politica/suntem-in-domeniul-improvizatiei-strategice-un-2565895.html">Adevărul</source>
-      <description>În urma reuniunii Consiliului Suprem de Apărare a Țării dedicată incidentelor cu drone și nave comerciale la Marea Neagră, analistul Hari Bucur a atras atenția asupra absenței unei strategii guvernamentale coerente.</description>
-    </item>
-    <item>
-      <title>Securitatea în Marea Neagră domină alegerile prezidențiale din Bulgaria</title>
-      <link>https://izz.ro/extern/securitatea-in-marea-neagra-domina-alegerile-prezidentiale-din-bulgaria/</link>
-      <guid>https://izz.ro/extern/securitatea-in-marea-neagra-domina-alegerile-prezidentiale-din-bulgaria/</guid>
-      <pubDate>Thu, 22 Oct 2026 08:31:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.dw.com/en/bulgaria-concerns-about-security-in-the-black-sea-dominate-presidential-election-campaign/a-79729094?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <description>Atacurile cu drone asupra navelor și sprijinul redus acordat Ucrainei influențează puternic primul tur al alegerilor prezidențiale din Bulgaria, transformând politica externă în tema centrală a campaniei electorale.</description>
-    </item>
-    <item>
-      <title>Consiliul Suprem de Apărare a Țării se reunește la Palatul Cotroceni</title>
-      <link>https://izz.ro/politic/consiliul-suprem-de-aparare-a-tarii-se-reuneste-la-palatul-cotroceni/</link>
-      <guid>https://izz.ro/politic/consiliul-suprem-de-aparare-a-tarii-se-reuneste-la-palatul-cotroceni/</guid>
-      <pubDate>Thu, 22 Oct 2026 03:10:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://observatornews.ro/politic/csat-se-reuneste-astazi-de-la-ora-1800-atacurile-din-marea-neagra-pe-agenda-sedintei-669916.html">Observator</source>
-      <description>Membrii CSAT se întrunesc în ședință la Palatul Cotroceni, pe ordinea de zi figurând analiza atacurilor din Marea Neagră, la reuniune participând și premierul Luca Niculescu alături de noii miniștri.</description>
-    </item>
-    <item>
-      <title>Uniunea Democrată a Tătarilor readuce în atenție alianțele istorice dintre Moldova și tătari</title>
-      <link>https://izz.ro/regional/uniunea-democrata-a-tatarilor-readuce-in-atentie-aliantele-istorice-dintre/</link>
-      <guid>https://izz.ro/regional/uniunea-democrata-a-tatarilor-readuce-in-atentie-aliantele-istorice-dintre/</guid>
-      <pubDate>Wed, 21 Oct 2026 19:59:17 +0000</pubDate>
-      <category>regional</category>
-      <source url="https://focuspress.ro/o-pagina-mai-putin-cunoscuta-a-istoriei-colaborarea-dintre-moldova-si-tatarii-crimeeni-b1650d4aa/">FocusPress</source>
-      <description>O postare recentă subliniază că relațiile medievale dintre domnitorii Moldovei și hanatul tătarilor crimeeni au inclus episoade de cooperare politică și militară benefică, dincolo de conflictele tradiționale.</description>
-    </item>
-    <item>
-      <title>Dan Neculăescu a cerut accelerarea proiectului de securitate maritimă pentru Marea Neagră</title>
-      <link>https://izz.ro/politic/dan-neculaescu-a-cerut-accelerarea-proiectului-de-securitate-maritima-pentru/</link>
-      <guid>https://izz.ro/politic/dan-neculaescu-a-cerut-accelerarea-proiectului-de-securitate-maritima-pentru/</guid>
-      <pubDate>Wed, 21 Oct 2026 19:36:54 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.digi24.ro/stiri/actualitate/politica/dan-neculaescu-discutii-cu-omologul-leton-despre-securitatea-marii-negre-mesajul-transmis-de-ministrul-roman-4003279">Digi24</source>
-      <description>Ministrul Afacerilor Externe, Dan Neculăescu, a discutat cu omologul leton despre securitatea euroatlantică și importanța Mării Negre, reconfirmând totodată susținerea României pentru mandatul Letoniei la ONU.</description>
-    </item>
-    <item>
-      <title>Guvernul României prioritizează apărarea națională și securitatea la Marea Neagră</title>
-      <link>https://izz.ro/politic/guvernul-romaniei-prioritizeaza-apararea-nationala-si-securitatea-la-marea/</link>
-      <guid>https://izz.ro/politic/guvernul-romaniei-prioritizeaza-apararea-nationala-si-securitatea-la-marea/</guid>
-      <pubDate>Wed, 21 Oct 2026 16:58:59 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/niculescu-apararea-romaniei-este-prioritatea-zero-ce-masuri-anunta-guvernul-la-marea-neagra">Spotmedia</source>
-      <description>Premierul Luca Niculescu a declarat că securitatea teritorială reprezintă o prioritate zero, anunțând măsuri precum operaționalizarea unui hub regional și cooperarea strânsă cu aliații din NATO, Bulgaria și Turcia.</description>
-    </item>
-    <item>
-      <title>Dan Neculăescu cere ca Marea Neagră să devină prioritate euroatlantică</title>
-      <link>https://izz.ro/politic/dan-neculaescu-cere-ca-marea-neagra-sa-devina-prioritate-euroatlantica/</link>
-      <guid>https://izz.ro/politic/dan-neculaescu-cere-ca-marea-neagra-sa-devina-prioritate-euroatlantica/</guid>
-      <pubDate>Tue, 20 Oct 2026 19:36:30 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.g4media.ro/noul-ministrul-de-externe-dan-neculaescu-veti-auzi-de-multe-ori-de-la-mine-despre-importanta-marii-negre-marea-neagra-trebuie-sa-stea-in-prim-planul-agendei-euroatlantice.html">G4Media</source>
-      <description>În prima sa declarație oficială ca ministru de Externe, Dan Neculăescu a anunțat că va promova constant importanța strategică a Mării Negre pe agenda politică internațională și euroatlantică.</description>
-    </item>
-    <item>
-      <title>NATO suplimentează prezența navală și aeriană în Marea Neagră</title>
-      <link>https://izz.ro/extern/nato-suplimenteaza-fortele-navale-in-marea-neagra-dupa-atacurile-rusesti-asupra/</link>
-      <guid>https://izz.ro/extern/nato-suplimenteaza-fortele-navale-in-marea-neagra-dupa-atacurile-rusesti-asupra/</guid>
-      <pubDate>Tue, 20 Oct 2026 17:43:40 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships">The Guardian, Curs de Guvernare</source>
-      <description>Ca urmare a intensificării atacurilor rusești asupra navelor comerciale care transportă produse agricole către porturile ucrainene, Alianța Nord-Atlantică a decis să trimită mijloace militare suplimentare în regiune. Măsura include detașarea de avioane de patrulare maritimă, sisteme radar și drone menite să asigure securitatea transporturilor și a navigației în Marea Neagră.</description>
-    </item>
-    <item>
-      <title>SUA trimit un avion Poseidon în Bulgaria pentru supraveghere la Marea Neagră</title>
-      <link>https://izz.ro/extern/sua-trimit-un-avion-poseidon-in-bulgaria-pentru-supraveghere-la-marea-neagra/</link>
-      <guid>https://izz.ro/extern/sua-trimit-un-avion-poseidon-in-bulgaria-pentru-supraveghere-la-marea-neagra/</guid>
-      <pubDate>Tue, 20 Oct 2026 11:33:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/externe/sua-au-trimis-un-avion-de-razboi-poseidon-in-ajutorul-bulgariei-dupa-atacurile-rusilor-asupra-navelor-din-regiune-807925.html">Antena 3 CNN</source>
-      <description>Un avion militar american Boeing P-8A Poseidon operează din orașul Varna pentru a consolida monitorizarea, după atacurile cu drone asupra navelor comerciale din zonă.</description>
-    </item>
-    <item>
-      <title>Radu Oprea promite protejarea proiectului Neptun Deep ca ministru al Apărării</title>
-      <link>https://izz.ro/politic/radu-oprea-promite-protejarea-proiectului-neptun-deep-ca-ministru-al-apararii/</link>
-      <guid>https://izz.ro/politic/radu-oprea-promite-protejarea-proiectului-neptun-deep-ca-ministru-al-apararii/</guid>
-      <pubDate>Mon, 19 Oct 2026 14:51:10 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://cursdeguvernare.ro/ministrul-propus-la-aparare-radu-oprea-protejarea-neptun-deep-o-prioritate-marea-neagra-nu-mai-e-chiar-cel-mai-bun-prieten-al-romaniei.html">Curs de Guvernare</source>
-      <description>Șetfan-Radu Oprea, ministrul propus pentru portofoliul Apărării, a primit aviz favorabil și a subliniat importanța strategică a apărării infrastructurii critice din Marea Neagră, inclusiv a proiectului Neptun Deep.</description>
-    </item>
-    <item>
-      <title>Navigația pe Marea Neagră devine extrem de periculoasă din cauza dronelor</title>
-      <link>https://izz.ro/extern/navigatia-pe-marea-neagra-devine-extrem-de-periculoasa-din-cauza-dronelor/</link>
-      <guid>https://izz.ro/extern/navigatia-pe-marea-neagra-devine-extrem-de-periculoasa-din-cauza-dronelor/</guid>
-      <pubDate>Mon, 19 Oct 2026 08:16:58 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.curierul.ro/marea-neagra-noua-stramtoare-ormuz/">Curierul de Vâlcea</source>
-      <description>Atacurile rusești au avariat sau scufundat șapte nave în apele teritoriale și internaționale, afectând grav securitatea maritimă în zona României și Bulgariei.</description>
-    </item>
-    <item>
-      <title>Turcia, Egipt și India încearcă deblocarea exportului de cereale ucrainene</title>
-      <link>https://izz.ro/extern/turcia-egipt-si-india-incearca-deblocarea-exportului-de-cereale-ucrainene/</link>
-      <guid>https://izz.ro/extern/turcia-egipt-si-india-incearca-deblocarea-exportului-de-cereale-ucrainene/</guid>
-      <pubDate>Mon, 19 Oct 2026 07:47:52 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.g4media.ro/turcia-egipt-si-india-incearca-sa-deblocheze-exporturile-cerealelor-ucrainene-prin-marea-neagra-rusia-se-opune.html">G4Media</source>
-      <description>Ucraina poartă discuții cu state precum Turcia, Egipt și India pentru stabilirea unei rute maritime sigure în Marea Neagră, în timp ce Rusia continuă să se opună reluării transportului comercial de alimente.</description>
     </item>
 </channel></rss>

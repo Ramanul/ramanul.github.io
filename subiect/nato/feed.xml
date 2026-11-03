@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/subiect/nato/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NATO pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 30 Oct 2026 07:27:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 11:11:43 +0000</lastBuildDate>
+    <item>
+      <title>SUA vor solicita aliaților NATO fonduri suplimentare pentru înarmarea Ucrainei</title>
+      <link>https://izz.ro/extern/sua-vor-solicita-aliatilor-nato-fonduri-suplimentare-pentru-inarmarea-ucrainei/</link>
+      <guid>https://izz.ro/extern/sua-vor-solicita-aliatilor-nato-fonduri-suplimentare-pentru-inarmarea-ucrainei/</guid>
+      <pubDate>Tue, 03 Nov 2026 10:42:53 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/washingtonul-va-cere-mai-multi-bani-de-la-aliatii-nato-pentru-inarmarea-ucrainei-ce-probleme-de-finantare-sunt-in-prezent.html">Știrile ProTV</source>
+      <description>Administrația de la Washington va cere statelor membre NATO contribuții financiare suplimentare pentru a acoperi un deficit de miliarde de dolari destinat livrării de armament către Ucraina.</description>
+    </item>
+    <item>
+      <title>NATO sporește măsurile de securitate în Marea Neagră după atacurile asupra navelor</title>
+      <link>https://izz.ro/extern/nato-sporeste-masurile-de-securitate-in-marea-neagra-dupa-atacurile-asupra/</link>
+      <guid>https://izz.ro/extern/nato-sporeste-masurile-de-securitate-in-marea-neagra-dupa-atacurile-asupra/</guid>
+      <pubDate>Tue, 03 Nov 2026 08:39:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/romania-tot-mai-expusa-razboiului-din-marea-neagra-rusia-testeaza-limitele-nato">Spotmedia</source>
+      <description>În urma atacurilor repetate asupra navelor comerciale în proximitatea apelor românești și bulgărești, Alianța Nord-Atlantică suplimentează patrulele maritime, radarele și dronele pentru a proteja flancul estic.</description>
+    </item>
     <item>
       <title>Avertismentul unui general NATO privind vulnerabilitățile României la războiul hibrid</title>
       <link>https://izz.ro/politic/avertismentul-unui-general-nato-privind-vulnerabilitatile-romaniei-la-razboiul/</link>
@@ -13,7 +31,6 @@
       <pubDate>Thu, 29 Oct 2026 23:30:25 +0000</pubDate>
       <category>politic</category>
       <source url="https://adevarul.ro/securitate-si-aparare/nu-mai-au-nevoie-de-spioni-profesionisti-noua-2567506.html">Adevărul</source>
-      <media:content url="https://izz.ro/politic/avertismentul-unui-general-nato-privind-vulnerabilitatile-romaniei-la-razboiul/cover.jpg?v=cfdedc53" medium="image" type="image/jpeg"/>
       <description>Tentativa de sabotaj de la uzina Carfil din Brașov evidențiază lipsa unor instrumente legislative adecvate și a unui control civil eficient, lăsând statul român expus noilor tactici rusești de atac hibrid.</description>
     </item>
     <item>
@@ -23,7 +40,6 @@
       <pubDate>Thu, 29 Oct 2026 16:06:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.antena3.ro/externe/ce-este-modelul-13-sistemul-ai-dezvoltat-de-nato-cu-care-ucraina-incearca-sa-anticipeze-atacurile-dronelor-rusesti-809209.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/ai/armata-ucraineana-foloseste-un-sistem-ai-dezvoltat-de-nato/cover.jpg?v=226323db" medium="image" type="image/jpeg"/>
       <description>Trupele ucrainene de pe front utilizează inteligența artificială furnizată de NATO pentru a anticipa și contracara mai eficient atacurile cu drone rusești în zonele de conflict.</description>
     </item>
     <item>
@@ -70,6 +86,15 @@
       <category>extern</category>
       <source url="https://adevarul.ro/blogurile-adevarul/cealalta-parte-a-istoriei-profund-incomoda-si-2566886.html">Adevărul</source>
       <description>O analiză a documentelor istorice și recente scoate în evidență perspectivele sumbre legate de negocierile invocate de surse britanice cu privire la securitatea regională.</description>
+    </item>
+    <item>
+      <title>România a învestit un guvern și o navă a fost lovită de o dronă la Marea Neagră</title>
+      <link>https://izz.ro/local/romania-a-investit-un-guvern-si-o-nava-a-fost-lovita-de-o-drona-la-marea-neagra/</link>
+      <guid>https://izz.ro/local/romania-a-investit-un-guvern-si-o-nava-a-fost-lovita-de-o-drona-la-marea-neagra/</guid>
+      <pubDate>Tue, 27 Oct 2026 05:32:39 +0000</pubDate>
+      <category>local</category>
+      <source url="https://adevarul.ro/blogurile-adevarul/la-o-mila-de-marea-teritoriala-ce-a-insemnat-2566755.html">Adevărul</source>
+      <description>În perioada 19-25 octombrie 2026, România a primit un executiv cu puteri depline și a cerut convocarea NATO pe tema Mării Negre. În paralel, o navă comercială a fost lovită de o dronă lângă Constanța, rezultând un decedat și trei...</description>
     </item>
     <item>
       <title>Rusia urmareste slabirea NATO prin negocierile de pace</title>
@@ -196,140 +221,5 @@
       <category>extern</category>
       <source url="https://www.digi24.ro/stiri/externe/o-tara-din-ue-si-nato-printre-principalele-rute-de-tranzit-pentru-cerealele-rusesti-in-ciuda-tensiunilor-cu-moscova-4007549">Digi24 Extern</source>
       <description>Statul baltic Letonia, membru al Uniunii Europene și al alianței NATO, s-a clasat printre primele cinci destinații de tranzit pentru cerealele provenite din Rusia în actualul sezon. Moscova și-a reorientat astfel o mare parte din exporturi către porturile din Marea...</description>
-    </item>
-    <item>
-      <title>Aeronave de realimentare NATO și franceze au survolat Marea Neagră</title>
-      <link>https://izz.ro/extern/aeronave-de-realimentare-nato-si-franceze-au-survolat-marea-neagra/</link>
-      <guid>https://izz.ro/extern/aeronave-de-realimentare-nato-si-franceze-au-survolat-marea-neagra/</guid>
-      <pubDate>Fri, 23 Oct 2026 10:04:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/actualitate/zbor-misterios-deasupra-marii-negre-doua-aeronave-de-realimentare-au-survolat-zona-traseul-indica-operatiuni-pentru-avioane-de-lupta-808370.html">Antena 3 CNN</source>
-      <description>Două avioane de tip Airbus A330 MRTT aparținând Franței și flotei NATO au efectuat misiuni de zbor deasupra vestului Mării Neagră, indicând sprijin operațional pentru avioanele de luptă.</description>
-    </item>
-    <item>
-      <title>NATO ia măsuri împotriva atacurilor cibernetice și a războiului hibrid</title>
-      <link>https://izz.ro/extern/nato-ia-masuri-impotriva-atacurilor-cibernetice-si-a-razboiului-hibrid/</link>
-      <guid>https://izz.ro/extern/nato-ia-masuri-impotriva-atacurilor-cibernetice-si-a-razboiului-hibrid/</guid>
-      <pubDate>Fri, 23 Oct 2026 09:58:48 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/atacuri-cibernetice-dezinformare-si-cabluri-sabotate-ce-planuri-are-nato-pentru-a-si-apara-aliatii-4005783">Digi24 Extern</source>
-      <description>Oficialii NATO discută strategii de apărare împotriva amenințărilor hibride, incluzând sabotarea cablurilor submarine, atacurile informatice și campaniile de dezinformare care vizează statele membre.</description>
-    </item>
-    <item>
-      <title>Armata română evită comentariile despre dronele rusești</title>
-      <link>https://izz.ro/politic/armata-romana-evita-comentariile-despre-dronele-rusesti/</link>
-      <guid>https://izz.ro/politic/armata-romana-evita-comentariile-despre-dronele-rusesti/</guid>
-      <pubDate>Fri, 23 Oct 2026 04:02:07 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://hotnews.ro/romania-a-doborat-cinci-drone-rusesti-polonia-nici-una-dar-de-ce-tace-ministerul-apararii-de-la-bucuresti-2383472">HotNews</source>
-      <description>Polonia și România se confruntă cu incursiuni de drone rusești pe teritoriul NATO, însă Ministerul Apărării de la București refuză să discute despre riscurile noilor reguli de intervenție adoptate deja de autoritățile poloneze.</description>
-    </item>
-    <item>
-      <title>Șapte nave comerciale atacate cu drone în marea Neagră</title>
-      <link>https://izz.ro/extern/sapte-nave-comerciale-atacate-cu-drone-in-marea-neagra/</link>
-      <guid>https://izz.ro/extern/sapte-nave-comerciale-atacate-cu-drone-in-marea-neagra/</guid>
-      <pubDate>Thu, 22 Oct 2026 11:12:33 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.monitorulbt.ro/national/2026/10/22/sapte-nave-atacate-in-largul-romaniei-si-bulgariei-presiune-asupra-nato-pentru-un-raspuns/">Monitorul de Botoșani</source>
-      <description>Atacurile recente cu drone asupra a șapte vase comerciale în apropierea României și Bulgariei perturbă transportul maritim, blocând exporturile și generând presiuni majore asupra alianței nord-atlantice pentru măsuri de protecție.</description>
-    </item>
-    <item>
-      <title>Investițiile în startup-uri de apărare din NATO au crescut considerabil în 2026</title>
-      <link>https://izz.ro/tech/investitiile-in-startup-uri-de-aparare-din-nato-au-crescut-considerabil-in-2026/</link>
-      <guid>https://izz.ro/tech/investitiile-in-startup-uri-de-aparare-din-nato-au-crescut-considerabil-in-2026/</guid>
-      <pubDate>Thu, 22 Oct 2026 05:05:01 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://start-up.ro/defence-tech-in-europa-si-in-lume-sua-are-inca-75-din-piata-dar-europa-e-in-crestere/">Start-up.ro</source>
-      <description>Sectorul de tehnologie militară din Europa și statele aliate a atras finanțări de 27,1 miliarde de dolari prin capital de risc, depășind cu mult nivelul înregistrat în anul precedent, deși SUA domină majoritar piața.</description>
-    </item>
-    <item>
-      <title>Doi tineri au fost reținuți în Danemarca pentru spionaj în favoarea Rusiei</title>
-      <link>https://izz.ro/extern/doi-tineri-au-fost-retinuti-in-danemarca-pentru-spionaj-in-favoarea-rusiei/</link>
-      <guid>https://izz.ro/extern/doi-tineri-au-fost-retinuti-in-danemarca-pentru-spionaj-in-favoarea-rusiei/</guid>
-      <pubDate>Wed, 21 Oct 2026 20:39:41 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/doi-tineri-arestati-in-danemarca-sub-suspiciunea-de-sabotaj-in-favoarea-serviciilor-de-informatii-ruse-4003373">Digi24 Extern</source>
-      <description>Autoritățile daneze au arestat doi tineri bănuiți de activități de spionaj pentru Rusia, vizând o companie de tehnologie militară care livrează echipamente anti-drone Ucrainei și trupelor NATO.</description>
-    </item>
-    <item>
-      <title>Guvernul României prioritizează apărarea națională și securitatea la Marea Neagră</title>
-      <link>https://izz.ro/politic/guvernul-romaniei-prioritizeaza-apararea-nationala-si-securitatea-la-marea/</link>
-      <guid>https://izz.ro/politic/guvernul-romaniei-prioritizeaza-apararea-nationala-si-securitatea-la-marea/</guid>
-      <pubDate>Wed, 21 Oct 2026 16:58:59 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/niculescu-apararea-romaniei-este-prioritatea-zero-ce-masuri-anunta-guvernul-la-marea-neagra">Spotmedia</source>
-      <description>Premierul Luca Niculescu a declarat că securitatea teritorială reprezintă o prioritate zero, anunțând măsuri precum operaționalizarea unui hub regional și cooperarea strânsă cu aliații din NATO, Bulgaria și Turcia.</description>
-    </item>
-    <item>
-      <title>Președintele Nicușor Dan a convocat o ședință CSAT privind incidentele din Marea Neagră</title>
-      <link>https://izz.ro/politic/presedintele-nicusor-dan-a-convocat-o-sedinta-csat-privind-incidentele-din/</link>
-      <guid>https://izz.ro/politic/presedintele-nicusor-dan-a-convocat-o-sedinta-csat-privind-incidentele-din/</guid>
-      <pubDate>Wed, 21 Oct 2026 08:12:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/nicusor-dan-convoaca-csat-dupa-incidentele-din-marea-neagra-prima-sedinta-cu-noii-ministri-psd">Spotmedia, Curs de Guvernare</source>
-      <description>Președintele Nicușor Dan a convocat ședința Consiliului Suprem de Apărare a Țării pentru analizarea incidentelor de securitate din Marea Neagră și a atacurilor asupra navelor comerciale. La reuniune participă premierul Luca Niculescu și noii miniștri ai cabinetului. Autoritățile române cer NATO suplimentarea capacităților de apărare antiaeriană și monitorizare în regiune după pătrunderea unor drone în spațiul aerian național.</description>
-    </item>
-    <item>
-      <title>NATO suplimentează prezența navală și aeriană în Marea Neagră</title>
-      <link>https://izz.ro/extern/nato-suplimenteaza-fortele-navale-in-marea-neagra-dupa-atacurile-rusesti-asupra/</link>
-      <guid>https://izz.ro/extern/nato-suplimenteaza-fortele-navale-in-marea-neagra-dupa-atacurile-rusesti-asupra/</guid>
-      <pubDate>Tue, 20 Oct 2026 17:43:40 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/2026/oct/20/nato-black-sea-deployment-escalating-russian-attacks-ships">The Guardian, Curs de Guvernare</source>
-      <description>Ca urmare a intensificării atacurilor rusești asupra navelor comerciale care transportă produse agricole către porturile ucrainene, Alianța Nord-Atlantică a decis să trimită mijloace militare suplimentare în regiune. Măsura include detașarea de avioane de patrulare maritimă, sisteme radar și drone menite să asigure securitatea transporturilor și a navigației în Marea Neagră.</description>
-    </item>
-    <item>
-      <title>Nicușor Dan l-a rechemat pe ambasadorul de la NATO pentru a prelua Externele</title>
-      <link>https://izz.ro/politic/nicusor-dan-l-a-rechemat-pe-ambasadorul-de-la-nato-pentru-a-prelua-externele/</link>
-      <guid>https://izz.ro/politic/nicusor-dan-l-a-rechemat-pe-ambasadorul-de-la-nato-pentru-a-prelua-externele/</guid>
-      <pubDate>Tue, 20 Oct 2026 16:09:48 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://adevarul.ro/politica/nicusor-dan-a-numit-un-nou-consilier-prezidential-2565332.html">Adevărul</source>
-      <description>Președintele României a semnat decretul prin care Sebastian-Dănuț Neculăescu își încheie misiunea diplomatică pentru a intra în noul Guvern.</description>
-    </item>
-    <item>
-      <title>Nicușor Dan a semnat numirea unui nou consilier prezidențial</title>
-      <link>https://izz.ro/politic/nicusor-dan-a-semnat-numirea-unui-nou-consilier-prezidential/</link>
-      <guid>https://izz.ro/politic/nicusor-dan-a-semnat-numirea-unui-nou-consilier-prezidential/</guid>
-      <pubDate>Tue, 20 Oct 2026 15:28:51 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://hotnews.ro/nicusor-dan-numeste-un-nou-consilier-prezidential-cine-este-cornel-olendraru-2381593">HotNews</source>
-      <description>Președintele României a operat modificări la Palatul Cotroceni, eliberând din funcție doi consilieri și rechemându-l pe reprezentantul permanent de la NATO, concomitent cu numirea unui nou consilier.</description>
-    </item>
-    <item>
-      <title>Un fost comandant NATO avertizează că SUA ar putea ceda Ucraina în favoarea Rusiei</title>
-      <link>https://izz.ro/extern/un-fost-comandant-nato-avertizeaza-ca-sua-ar-putea-ceda-ucraina-in-favoarea/</link>
-      <guid>https://izz.ro/extern/un-fost-comandant-nato-avertizeaza-ca-sua-ar-putea-ceda-ucraina-in-favoarea/</guid>
-      <pubDate>Tue, 20 Oct 2026 08:28:07 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/sua/avertismentul-unui-fost-comandant-nato-trump-ar-putea-sacrifica-ucraina-pentru-a-obtine-ajutorul-lui-putin-in-problema-iranului-4000147">Digi24 Extern</source>
-      <description>Generalul american în retragere Wesley Clark susține că administrația de la Washington ar putea sacrifica interesele Kievului pentru a obține sprijinul lui Vladimir Putin în dosarul diplomatic privind Iranul.</description>
-    </item>
-    <item>
-      <title>Experții testează un scenariu de conflict armat între NATO și Rusia</title>
-      <link>https://izz.ro/extern/expertii-testeaza-un-scenariu-de-conflict-armat-intre-nato-si-rusia/</link>
-      <guid>https://izz.ro/extern/expertii-testeaza-un-scenariu-de-conflict-armat-intre-nato-si-rusia/</guid>
-      <pubDate>Mon, 19 Oct 2026 14:57:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/opinii-si-analize/revolta-care-ar-putea-declansa-un-razboi-intre-rusia-si-nato-scenariul-testat-de-experti-la-care-a-participat-si-o-romanca">Spotmedia</source>
-      <description>Un exercițiu academic a simulat o revoltă armată în enclava Kaliningrad, unde rebeli ipotetici au atacat Lituania pentru a provoca un război major între Rusia și statele membre NATO.</description>
-    </item>
-    <item>
-      <title>Europa trebuie să adopte o poziție fermă împotriva politicii externe a lui Donald Trump</title>
-      <link>https://izz.ro/extern/europa-trebuie-sa-adopte-o-pozitie-ferma-impotriva-politicii-externe-a-lui/</link>
-      <guid>https://izz.ro/extern/europa-trebuie-sa-adopte-o-pozitie-ferma-impotriva-politicii-externe-a-lui/</guid>
-      <pubDate>Mon, 19 Oct 2026 14:50:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/cum-sa-supravietuiesti-cu-un-presedinte-american-pro-rus-europa-trebuie-sa-actioneze-rapid">Spotmedia</source>
-      <description>Liderii europeni sunt nevoiți să acționeze rapid și să se opună deschis politicilor lui Donald Trump, întrucât apropierea acestuia de Moscova riscă să slăbească alianțele NATO și Uniunea Europeană.</description>
-    </item>
-    <item>
-      <title>Replica dură a ministrului polonez de Externe după declarațiile SUA despre Afganistan</title>
-      <link>https://izz.ro/extern/replica-dura-a-ministrului-polonez-de-externe-dupa-declaratiile-sua-despre/</link>
-      <guid>https://izz.ro/extern/replica-dura-a-ministrului-polonez-de-externe-dupa-declaratiile-sua-despre/</guid>
-      <pubDate>Mon, 19 Oct 2026 13:26:59 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/spune-asta-familiilor-ministrul-polonez-de-externe-ii-bate-obrazul-lui-hegseth-in-legatura-cu-declaratiile-privind-afganistanul-3999273">Digi24 Extern</source>
-      <description>Șeful diplomației din Polonia l-a criticat public pe secretarul american al Apărării, amintindu-i de militarii aliați care și-au pierdut viața în misiunile NATO din Afganistan, după ce oficialul american contestase contribuția partenerilor.</description>
     </item>
 </channel></rss>

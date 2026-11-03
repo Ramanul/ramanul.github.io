@@ -962,6 +962,11 @@ picture { display: contents; }
 /* Cand nu avem callout pe cardurile tematice (fara data), corpul textului se extinde armonios */
 .art--inversat:not(.art--callout-mode) .art-body { max-width: 86cqw; }
 .art--arc:not(.art--callout-mode):not(.art--geo) .art-body { max-width: 86cqw; }
+/* Cu medalion portret (incepe la 65,75cqw: 100 - 6,25 - 28) corpul NU se extinde: la 86cqw
+   eticheta trecea peste fata. Latimile sunt cele calibrate inainte de extindere (inversat 56,
+   arc 54) si raman sub marginea medalionului. Dupa regula de sus: aceeasi specificitate+ordine. */
+.art--portret.art--inversat:not(.art--callout-mode) .art-body { max-width: 56cqw; }
+.art--portret.art--arc:not(.art--callout-mode):not(.art--geo) .art-body { max-width: 54cqw; }
 
 
 /* -- silueta cartografica a judetului (Natural Earth, domeniu public) si medalionul portret (PD/CC0) -- */
