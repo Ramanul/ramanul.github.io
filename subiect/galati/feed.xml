@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Galați — IZZ.ro</title>
+  <title>Galaţi — IZZ.ro</title>
   <link>https://izz.ro/subiect/galati/</link>
   <atom:link href="https://izz.ro/subiect/galati/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Galați pe IZZ.ro</description>
+  <description>Știri despre Galaţi pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 03 Nov 2026 11:11:43 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 04 Nov 2026 03:20:19 +0000</lastBuildDate>
+    <item>
+      <title>Spectacolul Regina nopții se joacă pe scena din Braşov</title>
+      <link>https://izz.ro/local/spectacolul-regina-noptii-se-joaca-pe-scena-din-brasov/</link>
+      <guid>https://izz.ro/local/spectacolul-regina-noptii-se-joaca-pe-scena-din-brasov/</guid>
+      <pubDate>Tue, 03 Nov 2026 20:00:30 +0000</pubDate>
+      <category>local</category>
+      <source url="https://bookhub.ro/regina-noptii-pleaca-la-brasov-acasa-la-tata-se-joaca-la-galati/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=regina-noptii-pleaca-la-brasov-acasa-la-tata-se-joaca-la-galati">Bookhub</source>
+      <description>Producţia Teatrului Fani Tardini din Galați, nominalizată la mai multe categorii în cadrul Premiilor UNITER 2025, este programată să se joace pe scena teatrului Sică Alexandrescu din Braşov în cadrul Săptămânii Comediei.</description>
+    </item>
     <item>
       <title>O avarie majoră a lăsat orașul Galați fără curent electric</title>
       <link>https://izz.ro/local/o-avarie-majora-a-lasat-orasul-galati-fara-curent-electric/</link>
@@ -113,23 +122,5 @@
       <category>local</category>
       <source url="https://www.monitoruldegalati.ro/eveniment/jandarmii-galateni-exercitiu-comun-cu-fortele-de-securitate-din-republica-moldova-pentru-siguranta-evenimentelor-publice.html">Monitorul de Galați</source>
       <description>Aproximativ 150 de cadre din structurile de securitate române și moldovene au testat la Chișinău, în cadrul proiectului PEGASUS, tactici de intervenție pentru gestionarea mulțimilor și menținerea ordinii.</description>
-    </item>
-    <item>
-      <title>Peste 100.000 de vizitatori au trecut pragul Pădurii Gârboavele</title>
-      <link>https://izz.ro/local/peste-100-000-de-vizitatori-au-trecut-pragul-padurii-garboavele/</link>
-      <guid>https://izz.ro/local/peste-100-000-de-vizitatori-au-trecut-pragul-padurii-garboavele/</guid>
-      <pubDate>Fri, 23 Oct 2026 14:01:09 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.monitoruldegalati.ro/comunitate/peste-100-000-de-vizitatori-in-padurea-garboavele-in-2026-escapeland-se-inchide-pentru-iarna-dar-pistele-de-bob-raman-deschise.html">Monitorul de Galați</source>
-      <description>Zona de agrement din Galați încheie sezonul parcului de aventură EscapeLand, însă pistele de bob rămân funcționale pe parcursul sezonului rece pentru turiști.</description>
-    </item>
-    <item>
-      <title>Un bărbat urmărit internațional pentru furt a fost prins la Vama Oancea</title>
-      <link>https://izz.ro/local/un-barbat-urmarit-international-pentru-furt-a-fost-prins-la-vama-oancea/</link>
-      <guid>https://izz.ro/local/un-barbat-urmarit-international-pentru-furt-a-fost-prins-la-vama-oancea/</guid>
-      <pubDate>Fri, 23 Oct 2026 13:59:45 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.monitoruldegalati.ro/regional/arestat-la-vama-oancea-la-doar-cateva-ore-dupa-emiterea-alertei-un-urmarit-international-pentru-furt-in-franta-prins-de-politistii-de-frontiera-galateni.html">Monitorul de Galați</source>
-      <description>Polițiștii de frontieră gălățeni au capturat un cetățean cu dublă cetățenie, în vârstă de 42 de ani, la scurt timp după emiterea unei alerte internaționale de către Franța.</description>
     </item>
 </channel></rss>

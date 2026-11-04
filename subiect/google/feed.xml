@@ -5,7 +5,43 @@
   <atom:link href="https://izz.ro/subiect/google/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Google pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 30 Oct 2026 07:27:45 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 04 Nov 2026 03:20:19 +0000</lastBuildDate>
+    <item>
+      <title>Google schimbă modul de acțiune împotriva canalelor YouTube cu conținut generat masiv de AI</title>
+      <link>https://izz.ro/ai/google-schimba-modul-de-actiune-impotriva-canalelor-youtube-cu-continut-generat/</link>
+      <guid>https://izz.ro/ai/google-schimba-modul-de-actiune-impotriva-canalelor-youtube-cu-continut-generat/</guid>
+      <pubDate>Tue, 03 Nov 2026 16:52:06 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.monitoruldegalati.ro/tehnologie/youtube-schimba-strategia-impotriva-canalelor-care-inunda-platforma-cu-videoclipuri-generate-de-ai.html">Monitorul de Galați</source>
+      <description>Utilizatorii au observat că anumite canale YouTube care publică în mod repetat clipuri de calitate slabă create cu inteligență artificială nu au mai fost închise complet, ci doar private de anumite funcționalități.</description>
+    </item>
+    <item>
+      <title>Google a eliminat o rețea de 1,3 milioane de dispozitive Android infectate dintr-o fabrică chineză</title>
+      <link>https://izz.ro/tech/google-a-eliminat-o-retea-de-13-milioane-de-dispozitive-android-infectate-dintr/</link>
+      <guid>https://izz.ro/tech/google-a-eliminat-o-retea-de-13-milioane-de-dispozitive-android-infectate-dintr/</guid>
+      <pubDate>Tue, 03 Nov 2026 16:44:52 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.monitoruldegalati.ro/mapamond/google-demasca-o-retea-de-13-milioane-de-dispozitive-android-infectate-cu-un-backdoor-instalat-din-fabrica.html">Monitorul de Galați</source>
+      <description>Gigantul tehnologic a descoperit un backdoor instalat din fabrică de producătorul Videostrong pe 1,3 milioane de aparate. Compania chineză a fost exclusă din programul autorizat Android, iar amenințarea a fost neutralizată.</description>
+    </item>
+    <item>
+      <title>O vulnerabilitate Android denumită SMS-ul Morții permite blocarea telefoanelor</title>
+      <link>https://izz.ro/tech/o-vulnerabilitate-android-denumita-sms-ul-mortii-permite-blocarea-telefoanelor/</link>
+      <guid>https://izz.ro/tech/o-vulnerabilitate-android-denumita-sms-ul-mortii-permite-blocarea-telefoanelor/</guid>
+      <pubDate>Tue, 03 Nov 2026 11:24:43 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/android-sms/">ZonaIT, Monitorul de Galați</source>
+      <description>O vulnerabilitate Android etichetată CVE-2026-58882 permite blocarea telefoanelor neactualizate folosind un mesaj SMS. Exploatarea se bazează pe un mesaj WAP Push malformat de opt octeți trimis către portul 2948 care generează valoarea -2147483648. Valoarea negativă determină o eroare NegativeArraySizeException care blochează procesul com.android.phone și întrerupe apelurile. Atacul de tip zero-click DoS nu necesită deschiderea mesajului sau interacțiunea utilizatorului. Google a remediat problema pentru versiunile mai noi de Android, dar dispozitivele fără actualizări rămân vulnerabile.</description>
+    </item>
+    <item>
+      <title>Vodafone lansează oferta de Black Friday cu reduceri la telefoane și abonamente avantajoase</title>
+      <link>https://izz.ro/discounturi/vodafone-lanseaza-oferta-de-black-friday-cu-reduceri-la-telefoane-si-abonamente/</link>
+      <guid>https://izz.ro/discounturi/vodafone-lanseaza-oferta-de-black-friday-cu-reduceri-la-telefoane-si-abonamente/</guid>
+      <pubDate>Tue, 03 Nov 2026 09:45:42 +0000</pubDate>
+      <category>discounturi</category>
+      <source url="https://www.economica.net/vodafone-anunta-oferta-de-black-friday-reduceri-la-telefoane-abonamente-la-1-euro-si-pachete-de-servicii_991747.html">Economica</source>
+      <description>Operatorul de telecomunicații Vodafone oferă reduceri substanțiale prin programul BuyBack, abonamente lunare de un euro și pachete promoționale pentru smartphone-uri de top precum Google Pixel și Samsung Galaxy.</description>
+    </item>
     <item>
       <title>Alphabet, compania-mamă Google, a pierdut 500 miliarde dolari după prăbușirea acțiunilor</title>
       <link>https://izz.ro/economic/alphabet-compania-mama-google-a-pierdut-500-miliarde-dolari-dupa-prabusirea/</link>
@@ -13,7 +49,6 @@
       <pubDate>Fri, 30 Oct 2026 06:56:00 +0000</pubDate>
       <category>economic</category>
       <source url="https://www.antena3.ro/economic/companii/alphabet-compania-mama-a-google-a-pierdut-aproape-500-de-miliarde-de-dolari-intr-o-singura-zi-actiunile-s-au-prabusit-809262.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/economic/alphabet-compania-mama-google-a-pierdut-500-miliarde-dolari-dupa-prabusirea/cover.jpg?v=43509b91" medium="image" type="image/jpeg"/>
       <description>Acțiunile Alphabet s-au prăbușit cu 12,6% într-o singură ședință bursieră, provocând o pierdere de aproape 500 de miliarde de dolari din valoarea de piață din cauza îngrijorărilor investitorilor.</description>
     </item>
     <item>
@@ -23,7 +58,6 @@
       <pubDate>Fri, 30 Oct 2026 06:03:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/finlanda-a-deschis-o-ancheta-dupa-ce-google-a-taiat-400-000-de-copaci-ca-sa-construiasca-un-centru-de-date-809237.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/extern/politia-din-finlanda-investigheaza-google-pentru-o-defrisare-masiva/cover.jpg?v=70ddc69b" medium="image" type="image/jpeg"/>
       <description>Autoritățile finndeze au deschis o anchetă penală împotriva unei subsidiare Google, acuzată că a tăiat 400.000 de copaci pentru construirea unui centru de date fără a aștepta finalizarea evaluărilor de mediu.</description>
     </item>
     <item>
@@ -33,7 +67,6 @@
       <pubDate>Fri, 30 Oct 2026 05:50:06 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.connect.ro/2026/10/30/discord-va-lasa-google-sa-indexeze-mesajele-publice/">Connect.ro</source>
-      <media:content url="https://izz.ro/tech/discord-permite-motoarelor-de-cautare-google-sa-indexeze-mesajele-publice/cover.jpg?v=70c09c6e" medium="image" type="image/jpeg"/>
       <description>Platforma Discord își modifică politica pentru a oferi motoarelor de căutare acces la discuțiile publice. Măsura are rolul de a crește traficul și de a face informațiile utile accesibile oricărui utilizator de pe internet, fără cont.</description>
     </item>
     <item>
@@ -43,7 +76,6 @@
       <pubDate>Fri, 30 Oct 2026 05:00:46 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.theguardian.com/global-development/2026/oct/30/electrocutions-disease-and-no-pay-how-workers-risk-exploitation-in-europes-datacentres">The Guardian</source>
-      <media:content url="https://izz.ro/extern/muncitorii-de-la-constructia-centrelor-de-date-din-europa-se-confrunta-cu/cover.jpg?v=b5cd3ad5" medium="image" type="image/jpeg"/>
       <description>O investigație jurnalistică arată că mii de muncitori care ridică centre de date pentru giganți tehnologici sunt expuși la condiții periculoase de muncă, salarii neplătite și abuzuri.</description>
     </item>
     <item>
@@ -53,7 +85,6 @@
       <pubDate>Thu, 29 Oct 2026 19:37:00 +0000</pubDate>
       <category>ai</category>
       <source url="https://www.profit.ro/romania-conectata/google-lanseaza-gemini-4-carbon-22900825?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <media:content url="https://izz.ro/ai/google-a-lansat-noul-model-de-inteligenta-artificiala-gemini-4-carbon/cover.jpg?v=bc6529b9" medium="image" type="image/jpeg"/>
       <description>Gigantul tehnologic Google a scos pe piață Gemini 4 Carbon, o versiune avansată de inteligență artificială optimizată special pentru activități de programare, operațiuni de securitate cibernetică și sarcini specifice agenților.</description>
     </item>
     <item>
@@ -63,7 +94,6 @@
       <pubDate>Thu, 29 Oct 2026 18:45:24 +0000</pubDate>
       <category>tech</category>
       <source url="https://www.monitoruldegalati.ro/tehnologie/google-wallet-testeaza-platile-contactless-fara-deblocarea-telefonului.html">Monitorul de Galați</source>
-      <media:content url="https://izz.ro/tech/google-testeaza-din-nou-platile-contactless-fara-deblocarea-telefonului/cover.jpg?v=8752e6ed" medium="image" type="image/jpeg"/>
       <description>Gigantul american reintroduce experimental opțiunea care permite efectuarea cumpărăturilor de valoare redusă prin aplicația Wallet fără a necesita autentificarea prealabilă a utilizatorului pe ecranul dispozitivului.</description>
     </item>
     <item>
@@ -73,7 +103,6 @@
       <pubDate>Thu, 29 Oct 2026 10:05:18 +0000</pubDate>
       <category>ai</category>
       <source url="https://zonait.ro/ai-mode-reclame/">ZonaIT, Monitorul de Galați</source>
-      <media:content url="https://izz.ro/ai/google-introduce-reclame-in-ai-mode-si-extinde-functia-in-mai-multe-tari/cover.jpg?v=8be4b619" medium="image" type="image/jpeg"/>
       <description>Compania introduce multi-turn ads pentru utilizatorii din Statele Unite, permițând afișarea succesivă de rezultate sponsorizate în cadrul conversațiilor. Listările de produse sponsorizate vor fi marcate clar ca sponsorizate pentru a fi diferențiate de recomandările obișnuite.</description>
     </item>
     <item>
@@ -84,41 +113,5 @@
       <category>ai</category>
       <source url="https://www.connect.ro/2026/10/28/google-a-lansat-genie-4-pentru-creatii-mai-realiste-si-audio-suplimentar/">Connect.ro</source>
       <description>Noua versiune de AI dezvoltată de Google permite crearea de lumi interactive mai realiste, oferind utilizatorilor suport audio suplimentar și opțiuni de modificare în timp real.</description>
-    </item>
-    <item>
-      <title>Autoritățile din Finlanda au suspendat lucrările Google la centrele de date</title>
-      <link>https://izz.ro/extern/google-opreste-lucrarile-la-centrele-de-date-din-finlanda/</link>
-      <guid>https://izz.ro/extern/google-opreste-lucrarile-la-centrele-de-date-din-finlanda/</guid>
-      <pubDate>Fri, 23 Oct 2026 03:02:25 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://adevarul.ro/stiri-externe/europa/google-obligat-sa-opreasca-lucrarile-in-finlanda-2565871.html">Adevărul, Antena 3 CNN</source>
-      <description>Autoritatea finlandeză pentru autorizare și supraveghere a dispus suspendarea lucrărilor Google la centrele de date din Finlanda. Măsura a fost luată după defrișarea unui număr estimat la aproximativ 250.000 de copaci înainte de finalizarea evaluărilor de mediu. Șantierele vizate fac parte dintr-un proiect de investiții de 13 miliarde de euro pentru infrastructura de inteligență artificială.</description>
-    </item>
-    <item>
-      <title>Instanțele americane obligă companiile Big Tech să își schimbe operațiunile prin procese masive</title>
-      <link>https://izz.ro/tech/instantele-americane-obliga-companiile-big-tech-sa-isi-schimbe-operatiunile/</link>
-      <guid>https://izz.ro/tech/instantele-americane-obliga-companiile-big-tech-sa-isi-schimbe-operatiunile/</guid>
-      <pubDate>Thu, 22 Oct 2026 20:45:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.antena3.ro/high-tech/instantele-nu-congresul-sunt-cele-care-trag-companiile-la-raspundere-valul-de-procese-care-schimba-regulile-pentru-big-tech-808313.html">Antena 3 CNN</source>
-      <description>Gigantul tehnologic Meta și alte companii similare se confruntă cu un nou regim de reglementare impus direct de tribunale, fiind obligate la modificări structurale și plata unor sume importante.</description>
-    </item>
-    <item>
-      <title>Demisii la Google din cauza contractelor militare de inteligență artificială</title>
-      <link>https://izz.ro/ai/demisii-la-google-din-cauza-contractelor-militare-de-inteligenta-artificiala/</link>
-      <guid>https://izz.ro/ai/demisii-la-google-din-cauza-contractelor-militare-de-inteligenta-artificiala/</guid>
-      <pubDate>Wed, 21 Oct 2026 18:23:55 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://stirileprotv.ro/stiri/international/val-de-demisii-la-google-din-cauza-contractelor-militare-pentru-inteligenta-artificiala-ce-dezvaluiri-au-facut-angajatii.html">Știrile ProTV</source>
-      <description>Mai mulți angajați Google au demisionat în semn de protest față de utilizarea tehnologiei de inteligență artificială în scopuri militare, criticând parteneriatele companiei cu armata.</description>
-    </item>
-    <item>
-      <title>Guvernul francez cere platformelor online măsuri stricte după revolte</title>
-      <link>https://izz.ro/extern/guvernul-francez-cere-platformelor-online-masuri-stricte-dupa-revolte/</link>
-      <guid>https://izz.ro/extern/guvernul-francez-cere-platformelor-online-masuri-stricte-dupa-revolte/</guid>
-      <pubDate>Tue, 20 Oct 2026 15:56:29 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/podcast/playbook-paris-podcast/apres-les-emeutes-les-plateformes-dans-le-viseur-du-gouvernement/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Autoritățile din Franța au convocat reprezentanții marilor rețele de socializare și ai platformelor de comerț electronic pentru a preveni revânzarea bunurilor furate și utilizarea transmisiunilor în direct de către protestatari.</description>
     </item>
 </channel></rss>

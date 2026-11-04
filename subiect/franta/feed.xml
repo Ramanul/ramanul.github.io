@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/franta/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Franța pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 03 Nov 2026 11:11:43 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 04 Nov 2026 03:20:19 +0000</lastBuildDate>
+    <item>
+      <title>Atacurile informatice au provocat disfuncționalități majore la instalațiile frigorifice din Europa</title>
+      <link>https://izz.ro/tech/atacurile-informatice-au-provocat-disfunctionalitati-majore-la-instalatiile/</link>
+      <guid>https://izz.ro/tech/atacurile-informatice-au-provocat-disfunctionalitati-majore-la-instalatiile/</guid>
+      <pubDate>Tue, 03 Nov 2026 18:16:55 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.aradon.ro/romania/instalatii-frigorifice-ce-apartin-unui-singur-lant-comercial-au-ajuns-la-temperaturi-anormale-in-urma-unui-atac-informatic-2267811/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">ARADON</source>
+      <description>Sistemele de refrigerare ale unui lanț comercial au înregistrat temperaturi anormale în urma unor atacuri cibernetice raportate autorităților competente, continuând un val similar înregistrat anterior în Franța.</description>
+    </item>
     <item>
       <title>Rusia recrutează agenți în Europa pentru sabotaje și asasinate</title>
       <link>https://izz.ro/extern/rusia-recruteaza-agenti-in-europa-pentru-sabotaje-si-asasinate/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://www.dw.com/en/france-clashes-break-out-as-protests-go-nationwide/live-79748223?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
       <description>Zeci de mii de cetățeni au ieșit pe străzile din orașele franceze pentru a protesta. Intervenția în masă a poliției și a trupelor de elită a escaladat rapid, situația devenind extrem de tensionată.</description>
-    </item>
-    <item>
-      <title>Agenția Moody's menține ratingul suveran al Franței la nivelul Aa3</title>
-      <link>https://izz.ro/economic/agentia-moody-s-mentine-ratingul-frantei-la-nivelul-aa3/</link>
-      <guid>https://izz.ro/economic/agentia-moody-s-mentine-ratingul-frantei-la-nivelul-aa3/</guid>
-      <pubDate>Sat, 24 Oct 2026 06:32:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.profit.ro/stiri/politic/moody-s-gratiaza-deocamdata-ratingul-frantei-22879043?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro, Curs de Guvernare, Antena 3 CNN</source>
-      <description>Agenția Moody's a menținut ratingul Franței la nivelul Aa3. Agenția a precizat într-un comunicat că nu este vorba despre o acțiune de credit. Premierul Sébastien Lecornu a salutat decizia pe platforma X.</description>
     </item>
 </channel></rss>
