@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/auto/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Auto pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 05 Nov 2026 00:43:18 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 05 Nov 2026 08:14:47 +0000</lastBuildDate>
+    <item>
+      <title>Înmatriculările de autoturisme noi în România au scăzut considerabil</title>
+      <link>https://izz.ro/auto/inmatricularile-de-autoturisme-noi-in-romania-au-scazut-considerabil/</link>
+      <guid>https://izz.ro/auto/inmatricularile-de-autoturisme-noi-in-romania-au-scazut-considerabil/</guid>
+      <pubDate>Thu, 05 Nov 2026 05:30:54 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://alba24.ro/inmatricularile-de-masini-noi-au-scazut-cu-peste-26-aproape-trei-sferturi-dintre-autoturismele-din-romania-sunt-second-hand-1166072.html">Alba24</source>
+      <description>Institutul Național de Statistică raportează o scădere de 26,4% a înmatriculărilor de mașini noi în al treilea trimestru din 2026. Doar 28,3% dintre vehiculele înregistrate au fost noi, restul fiind unități second-hand importate.</description>
+    </item>
     <item>
       <title>Verificări tehnice esențiale pentru autovehicule înainte de debutul sezonului rece</title>
       <link>https://izz.ro/auto/verificari-tehnice-esentiale-pentru-autovehicule-inainte-de-debutul-sezonului/</link>
@@ -446,14 +455,5 @@
       <category>auto</category>
       <source url="https://economedia.ro/grupul-renault-a-ajuns-la-afaceri-de-418-miliarde-de-euro-in-primele-noua-luni-ale-anului-in-crestere-cu-7-vanzarile-au-scazut.html">Economedia</source>
       <description>Producătorul auto francez a înregistrat o creștere de șapte procente a veniturilor în primele nouă luni ale anului, deși volumul total al vânzărilor de vehicule a înregistrat o ușoară scădere.</description>
-    </item>
-    <item>
-      <title>Verificarea injectoarelor și a filtrului de motorină la Ford Focus 1.6 TDCi</title>
-      <link>https://izz.ro/auto/verificarea-injectoarelor-si-a-filtrului-de-motorina-la-ford-focus-1-6-tdci/</link>
-      <guid>https://izz.ro/auto/verificarea-injectoarelor-si-a-filtrului-de-motorina-la-ford-focus-1-6-tdci/</guid>
-      <pubDate>Thu, 29 Oct 2026 06:58:47 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://actualmm.ro/injectoare-ford-focus-1-6-tdci-si-filtrarea-combustibilului-cu-altgradauto/">actualMM</source>
-      <description>Specialiștii AltgradAuto explică importanța diagnosticării corecte a sistemului de alimentare atunci când motorul pornește greu sau funcționează neregulat, subliniind rolul esențial al injectoarelor și al filtrului.</description>
     </item>
 </channel></rss>
