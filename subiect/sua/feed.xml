@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/subiect/sua/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SUA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 05 Nov 2026 23:00:53 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 03:47:16 +0000</lastBuildDate>
+    <item>
+      <title>Analiza rezultatelor neașteptate la alegerile din SUA</title>
+      <link>https://izz.ro/extern/analiza-rezultatelor-neasteptate-la-alegerile-din-sua/</link>
+      <guid>https://izz.ro/extern/analiza-rezultatelor-neasteptate-la-alegerile-din-sua/</guid>
+      <pubDate>Thu, 05 Nov 2026 16:57:16 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.contributors.ro/alegerile-din-sua-sau-cum-se-curata-un-peste/">Contributors</source>
+      <description>Experții analizează proporțiile surprinzătoare ale victoriei democrate în Congres și Senat, subliniind impactul major pe care politica americană îl are la nivel global.</description>
+    </item>
+    <item>
+      <title>Discuții strategice la Bruxelles privind viitorul Ucrainei</title>
+      <link>https://izz.ro/extern/discutii-strategice-la-bruxelles-privind-viitorul-ucrainei/</link>
+      <guid>https://izz.ro/extern/discutii-strategice-la-bruxelles-privind-viitorul-ucrainei/</guid>
+      <pubDate>Thu, 05 Nov 2026 15:39:11 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/ultimele-pregatiri-inaintea-negocierilor-sua-ucraina-rusia-de-la-abu-dhabi-discutii-la-bruxelles-despre-arhitectura-post-razboi-reconstructia-ucrainei-si-garantiile-de-securitate.html">Curs de Guvernare</source>
+      <description>Oficiali occidentali, reprezentanți ai NATO și ai Băncii Mondiale s-au reunit la Bruxelles pentru a discuta arhitectura post-război, reconstrucția economică și garanțiile de securitate acordate Ucrainei înainte de negocieri.</description>
+    </item>
     <item>
       <title>Dolarul american scade la minimul ultimei luni după alegeri</title>
       <link>https://izz.ro/economic/dolarul-american-scade-la-minimul-ultimei-luni-dupa-alegeri/</link>
@@ -32,15 +50,6 @@
       <category>politic</category>
       <source url="https://www.antena3.ro/externe/primul-discurs-al-lui-trump-dupa-infrangerea-republicanilor-in-alegeri-daca-as-fi-fost-eu-pe-buletinul-de-vot-am-fi-castigat-809968.html">Antena 3 CNN</source>
       <description>După eșecul republicanilor la alegerile de la jumătatea mandatului, Donald Trump a declarat într-un discurs că rezultatul ar fi fost complet diferit și favorabil partidului dacă el s-ar fi aflat pe buletinul de vot.</description>
-    </item>
-    <item>
-      <title>România își dorește menținerea trupelor americane pe teritoriul național</title>
-      <link>https://izz.ro/politic/romania-isi-doreste-mentinerea-trupelor-americane-pe-teritoriul-national/</link>
-      <guid>https://izz.ro/politic/romania-isi-doreste-mentinerea-trupelor-americane-pe-teritoriul-national/</guid>
-      <pubDate>Wed, 04 Nov 2026 21:16:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.g4media.ro/ministrul-de-externe-despre-discutiile-cu-subsecretarul-sua-al-apararii-elbridge-colby-a-apreciat-modul-eficient-si-neescalatoriu-in-care-romania-a-raspuns-pana-acum-incidentelor-de-securi.html">G4Media</source>
-      <description>Ministrul de Externe, Dan Neculăescu, i-a transmis oficialului american Elbridge Colby dorința Bucureștiului de a păstra prezența militară a SUA, oficialul de la Pentagon apreciind modul eficient în care România a gestionat incidentele de securitate.</description>
     </item>
     <item>
       <title>Fostul ambasador SUA anticipează schimbări majore în politica externă</title>
@@ -430,6 +439,15 @@
       <description>Fondurile alocate centrelor de date din Statele Unite depășesc cheltuielile pentru infrastructura electrică și feroviară la un loc, generând locuri de muncă și un impact global major.</description>
     </item>
     <item>
+      <title>România și SUA negociază costurile prezenței militare americane pe teritoriul național</title>
+      <link>https://izz.ro/politic/romania-si-sua-negociaza-costurile-prezentei-militare-americane-pe-teritoriul/</link>
+      <guid>https://izz.ro/politic/romania-si-sua-negociaza-costurile-prezentei-militare-americane-pe-teritoriul/</guid>
+      <pubDate>Thu, 29 Oct 2026 20:56:49 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://hotnews.ro/romania-discuta-cu-sua-despre-suportarea-costurilor-prezentei-militare-americane-suntem-in-dialog-nu-avem-decizii-finale-spune-ministrul-de-externe-2390285">HotNews</source>
+      <description>Ministerul de Externe a confirmat existența unor discuții oficiale cu partea americană privind susținerea financiară a trupelor staționate în România, o propunere concretă fiind deja înaintată.</description>
+    </item>
+    <item>
       <title>SUA și China ajung la paritate în domeniul inteligenței artificiale</title>
       <link>https://izz.ro/ai/sua-si-china-ajung-la-paritate-in-domeniul-inteligentei-artificiale/</link>
       <guid>https://izz.ro/ai/sua-si-china-ajung-la-paritate-in-domeniul-inteligentei-artificiale/</guid>
@@ -437,23 +455,5 @@
       <category>ai</category>
       <source url="https://adevarul.ro/stiri-externe/china/sua-si-china-se-apropie-de-paritate-in-domeniul-2567247.html">Adevărul</source>
       <description>O analiză recentă arată că Beijingul progresează rapid în dezvoltarea tehnologiilor avansate și ar putea depăși Statele Unite în mai multe domenii strategice digitale până la finalul deceniului.</description>
-    </item>
-    <item>
-      <title>România discută cu SUA preluarea parțială a costurilor pentru trupele americane</title>
-      <link>https://izz.ro/politic/romania-discuta-cu-sua-preluarea-partiala-a-costurilor-pentru-trupele-americane/</link>
-      <guid>https://izz.ro/politic/romania-discuta-cu-sua-preluarea-partiala-a-costurilor-pentru-trupele-americane/</guid>
-      <pubDate>Thu, 29 Oct 2026 20:23:10 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.digi24.ro/stiri/actualitate/politica/dan-neculaescu-despre-posibilitatea-ca-romania-sa-asigure-unele-costuri-pentru-trupele-sua-stationate-aici-interes-strategic-major-4014519">Digi24</source>
-      <description>Ministrul de Externe, Dan Neculăescu, a confirmat că țara noastră a înaintat o ofertă Statelor Unite pentru a acoperi o parte din cheltuielile necesare staționării trupelor militare.</description>
-    </item>
-    <item>
-      <title>Patru petroliere au fost cuprinse de flăcări în Strâmtoarea Ormuz în urma unor explozii</title>
-      <link>https://izz.ro/extern/patru-petroliere-au-fost-cuprinse-de-flacari-in-stramtoarea-ormuz-in-urma-unor/</link>
-      <guid>https://izz.ro/extern/patru-petroliere-au-fost-cuprinse-de-flacari-in-stramtoarea-ormuz-in-urma-unor/</guid>
-      <pubDate>Thu, 29 Oct 2026 20:13:30 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://stirileprotv.ro/stiri/international/patru-petroliere-au-luat-foc-in-stramtoarea-ormuz-dupa-ce-ar-fi-lovit-mine-sustine-armata-iraniana-video.html">Știrile ProTV</source>
-      <description>Autoritățile militare iraniene susțin că navele au lovit mine maritime în zonă, în timp ce oficialii americani contrazic ipoteza și declară că sectorul fusese curățat anterior.</description>
     </item>
 </channel></rss>
