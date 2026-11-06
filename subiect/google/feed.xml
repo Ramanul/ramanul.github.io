@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/google/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Google pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 06 Nov 2026 12:26:45 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 19:45:52 +0000</lastBuildDate>
     <item>
       <title>Google este acționat în instanță de părinții unei fete de 13 ani</title>
       <link>https://izz.ro/ai/google-este-actionat-in-instanta-de-parintii-unei-fete-de-13-ani/</link>
@@ -68,15 +68,6 @@
       <category>tech</category>
       <source url="https://zonait.ro/android-sms/">ZonaIT, Monitorul de Galați</source>
       <description>O vulnerabilitate Android etichetată CVE-2026-58882 permite blocarea telefoanelor neactualizate folosind un mesaj SMS. Exploatarea se bazează pe un mesaj WAP Push malformat de opt octeți trimis către portul 2948 care generează valoarea -2147483648. Valoarea negativă determină o eroare NegativeArraySizeException care blochează procesul com.android.phone și întrerupe apelurile. Atacul de tip zero-click DoS nu necesită deschiderea mesajului sau interacțiunea utilizatorului. Google a remediat problema pentru versiunile mai noi de Android, dar dispozitivele fără actualizări rămân vulnerabile.</description>
-    </item>
-    <item>
-      <title>Vodafone lansează oferta de Black Friday cu reduceri la telefoane și abonamente avantajoase</title>
-      <link>https://izz.ro/discounturi/vodafone-lanseaza-oferta-de-black-friday-cu-reduceri-la-telefoane-si-abonamente/</link>
-      <guid>https://izz.ro/discounturi/vodafone-lanseaza-oferta-de-black-friday-cu-reduceri-la-telefoane-si-abonamente/</guid>
-      <pubDate>Tue, 03 Nov 2026 09:45:42 +0000</pubDate>
-      <category>discounturi</category>
-      <source url="https://www.economica.net/vodafone-anunta-oferta-de-black-friday-reduceri-la-telefoane-abonamente-la-1-euro-si-pachete-de-servicii_991747.html">Economica</source>
-      <description>Operatorul de telecomunicații Vodafone oferă reduceri substanțiale prin programul BuyBack, abonamente lunare de un euro și pachete promoționale pentru smartphone-uri de top precum Google Pixel și Samsung Galaxy.</description>
     </item>
     <item>
       <title>Alphabet, compania-mamă Google, a pierdut 500 miliarde dolari după prăbușirea acțiunilor</title>
