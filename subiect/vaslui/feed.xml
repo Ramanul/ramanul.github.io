@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/vaslui/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Vaslui pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 06 Nov 2026 03:47:16 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 12:26:45 +0000</lastBuildDate>
+    <item>
+      <title>Incendiu puternic la o casă din Vaslui</title>
+      <link>https://izz.ro/local/incendiu-puternic-la-o-casa-din-vaslui/</link>
+      <guid>https://izz.ro/local/incendiu-puternic-la-o-casa-din-vaslui/</guid>
+      <pubDate>Fri, 06 Nov 2026 10:27:23 +0000</pubDate>
+      <category>local</category>
+      <source url="https://vremeanoua.ro/incendiu-violent-la-o-locuinta-din-municipiul-vaslui/">Vremea Nouă</source>
+      <description>Șase familii au fost afectate de un incendiu violent izbucnit la acoperișul unei locuințe de pe strada Matei Basarab. Vântul puternic a creat riscul extinderii flăcărilor la vecinătăți.</description>
+    </item>
     <item>
       <title>Compania vasluiană Gaz Est, premiată pe primul loc la Romexpo</title>
       <link>https://izz.ro/local/compania-vasluiana-gaz-est-premiata-pe-primul-loc-la-romexpo/</link>
@@ -401,14 +410,5 @@
       <category>local</category>
       <source url="https://estnews.ro/2026/10/26/incendiu-la-o-locuinta-din-comuna-pungesti-casa-a-ars-in-totalitate/">Est News</source>
       <description>O locuință din satul Stejaru a fost mistuită complet de flăcări în urma unui incendiu izbucnit duminică, pompierii intervenind prompt pentru lichidarea focului fără a fi înregistrate victime.</description>
-    </item>
-    <item>
-      <title>Incendiu puternic a distrus o locuință în satul Stejaru</title>
-      <link>https://izz.ro/local/incendiu-puternic-a-distrus-o-locuinta-in-satul-stejaru/</link>
-      <guid>https://izz.ro/local/incendiu-puternic-a-distrus-o-locuinta-in-satul-stejaru/</guid>
-      <pubDate>Mon, 26 Oct 2026 07:14:55 +0000</pubDate>
-      <category>local</category>
-      <source url="https://zch.ro/vaslui-casa-mistuita-de-flacari-in-pungesti/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
-      <description>O casă din comuna Pungești, județul Vaslui, a ars în totalitate în dimineața zilei de 25 octombrie. Pompierii au intervenit rapid, iar incidentul s-a soldat doar cu pagube materiale, nefiind înregistrate victime.</description>
     </item>
 </channel></rss>
