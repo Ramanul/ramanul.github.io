@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 07 Nov 2026 00:26:02 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 06:16:27 +0000</lastBuildDate>
+    <item>
+      <title>Acțiunile din sectorul inteligenței artificiale și-au revenit după scăderi</title>
+      <link>https://izz.ro/ai/actiunile-din-sectorul-inteligentei-artificiale-si-au-revenit-dupa-scaderi/</link>
+      <guid>https://izz.ro/ai/actiunile-din-sectorul-inteligentei-artificiale-si-au-revenit-dupa-scaderi/</guid>
+      <pubDate>Sat, 07 Nov 2026 05:22:15 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.g4media.ro/actiunile-companiilor-de-inteligenta-articifiala-isi-revin-dupa-doua-zile-de-scaderi-puternice.html">G4Media</source>
+      <description>Titlurile companiilor tehnologice, inclusiv Nvidia, au înregistrat o redresare pe bursa americană. Indicele Nasdaq a crescut cu 1,1% după două zile consecutive de pierderi financiare semnificative.</description>
+    </item>
     <item>
       <title>Hidrocentralele europene adoptă inteligența artificială pentru a stabiliza energia</title>
       <link>https://izz.ro/ai/hidrocentralele-europene-adopta-inteligenta-artificiala-pentru-a-stabiliza/</link>
@@ -322,15 +331,6 @@
       <description>Noua versiune de AI dezvoltată de Google permite crearea de lumi interactive mai realiste, oferind utilizatorilor suport audio suplimentar și opțiuni de modificare în timp real.</description>
     </item>
     <item>
-      <title>Impactul inteligenței artificiale asupra supravegherii și democrației</title>
-      <link>https://izz.ro/ai/impactul-inteligentei-artificiale-asupra-supravegherii-si-democratiei/</link>
-      <guid>https://izz.ro/ai/impactul-inteligentei-artificiale-asupra-supravegherii-si-democratiei/</guid>
-      <pubDate>Wed, 28 Oct 2026 08:12:34 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://cursdeguvernare.ro/ana-maria-stancu-nevinovat-dar-suspect-pe-viata-ai-si-noua-arhitectura-a-controlului-intre-securitate-supraveghere-si-protejarea-democratiei.html">Curs de Guvernare</source>
-      <description>Revista „CRONICILE Curs de Guvernare” analizează modul în care inteligența artificială transformă controlul social. Articolul subliniază riscurile aduse de tehnologiile de recunoaștere la adresa vieții private și a democrației.</description>
-    </item>
-    <item>
       <title>Prospectul de listare la bursă al Anthropic avertizează asupra riscurilor majore provocate de propriul AI</title>
       <link>https://izz.ro/ai/prospectul-de-listare-la-bursa-al-anthropic-avertizeaza-asupra-riscurilor/</link>
       <guid>https://izz.ro/ai/prospectul-de-listare-la-bursa-al-anthropic-avertizeaza-asupra-riscurilor/</guid>
@@ -356,23 +356,5 @@
       <category>ai</category>
       <source url="https://start-up.ro/jonsbok-platforma-de-ai-pentru-avocati-isi-consolideaza-prezenta-in-romania-si-in-restul-europei-cu-sprijinul-investitorilor-internationali/">Start-up.ro</source>
       <description>Compania islandeză dezvoltatoare de inteligență artificială destinată avocaților a obținut finanțare suplimentară de la fondurile Crowberry Capital și Leo Capital pentru extinderea pe piața europeană.</description>
-    </item>
-    <item>
-      <title>Companiile de inteligență artificială din China au pierdut miliarde de dolari</title>
-      <link>https://izz.ro/ai/companiile-de-inteligenta-artificiala-din-china-au-pierdut-miliarde-de-dolari/</link>
-      <guid>https://izz.ro/ai/companiile-de-inteligenta-artificiala-din-china-au-pierdut-miliarde-de-dolari/</guid>
-      <pubDate>Tue, 27 Oct 2026 05:42:05 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.g4media.ro/bula-inteligentei-artificiale-s-a-spart-deja-in-china-companii-care-valorau-miliarde-au-pierdut-jumatate-din-valoarea-bursiera-de-ce-se-prabusesc-actiunile-ai-din-china.html">G4Media</source>
-      <description>Bula investițională în tehnologia AI s-a spart pe piața chineză, unde firmele de profil au consemnat o scădere a valorii bursiere cu 480 de miliarde de dolari în mai puțin de patru luni, după doi ani de creșteri.</description>
-    </item>
-    <item>
-      <title>Start-up-ul brașovean ARIA Knows lansează un asistent AI pentru IMM-uri</title>
-      <link>https://izz.ro/ai/start-up-ul-brasovean-aria-knows-lanseaza-un-asistent-ai-pentru-imm-uri/</link>
-      <guid>https://izz.ro/ai/start-up-ul-brasovean-aria-knows-lanseaza-un-asistent-ai-pentru-imm-uri/</guid>
-      <pubDate>Tue, 27 Oct 2026 03:52:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://bizbrasov.ro/2026/10/27/asistent-ai-imm-uri-dogaru-clienti/">BizBrașov</source>
-      <description>Compania brașoveană ARIA Knows a introdus pe piață un asistent bazat pe inteligență artificială destinat IMM-urilor, având ca obiectiv atragerea a cel puțin 150 de clienți plătitori pe parcursul primului an de activitate.</description>
     </item>
 </channel></rss>

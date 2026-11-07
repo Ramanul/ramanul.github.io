@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Târgu Jiu — IZZ.ro</title>
+  <title>Târgu-Jiu — IZZ.ro</title>
   <link>https://izz.ro/subiect/targu-jiu/</link>
   <atom:link href="https://izz.ro/subiect/targu-jiu/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Târgu Jiu pe IZZ.ro</description>
+  <description>Știri despre Târgu-Jiu pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 07 Nov 2026 00:25:46 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 06:16:15 +0000</lastBuildDate>
+    <item>
+      <title>Mii de pacienți din Gorj s-au adresat cabinetelor de diabet și endocrinologie</title>
+      <link>https://izz.ro/judetean/mii-de-pacienti-din-gorj-s-au-adresat-cabinetelor-de-diabet-si-endocrinologie/</link>
+      <guid>https://izz.ro/judetean/mii-de-pacienti-din-gorj-s-au-adresat-cabinetelor-de-diabet-si-endocrinologie/</guid>
+      <pubDate>Sat, 07 Nov 2026 04:30:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="http://www.pandurul.rohttps://www.pandurul.ro/articol/diabetul-si-afectiunile-endocrine-printre-probleme_198129.html">Pandurul</source>
+      <description>Spitalul Județean de Urgență Târgu-Jiu a înregistrat peste 8.200 de prezentări la secțiile de specialitate în mai puțin de zece luni, reflectând o cerere ridicată pentru investigarea afecțiunilor endocrine și metabolice.</description>
+    </item>
     <item>
       <title>CSM Târgu Jiu s-a impus în fața formației Oltul Curtișoara în Liga 3</title>
       <link>https://izz.ro/sport/csm-targu-jiu-s-a-impus-in-fata-formatiei-oltul-curtisoara-in-liga-3/</link>
@@ -70,13 +79,13 @@
       <description>Circulația feroviară a fost reluată după montarea unei structuri masive din beton sub calea ferată, primul tren trecând deja peste pasajul din zona Ana Ipătescu.</description>
     </item>
     <item>
-      <title>Spitalul Județean de Urgență Târgu Jiu deschide un cabinet de hematologie</title>
+      <title>Spitalul din Târgu Jiu își extinde activitatea medicală</title>
       <link>https://izz.ro/local/spitalul-judetean-de-urgenta-targu-jiu-deschide-un-cabinet-de-hematologie/</link>
       <guid>https://izz.ro/local/spitalul-judetean-de-urgenta-targu-jiu-deschide-un-cabinet-de-hematologie/</guid>
       <pubDate>Fri, 06 Nov 2026 10:07:30 +0000</pubDate>
       <category>local</category>
-      <source url="https://www.gorjeanul.ro/actualitate/sanatate-2/cabinet-de-hematologie-in-ambulatoriul-spitalului-judetean-pacientii-se-pot-programa-din-10-noiembrie/">Gorjeanul</source>
-      <description>Pacienții se pot programa începând din 10 noiembrie 2026 pentru consultații asigurate de medicul Cristina Stănculete. Serviciile medicale vor funcționa în ambulatoriu în zilele de marți și miercuri.</description>
+      <source url="https://www.gorjeanul.ro/actualitate/sanatate-2/cabinet-de-hematologie-in-ambulatoriul-spitalului-judetean-pacientii-se-pot-programa-din-10-noiembrie/">Gorjeanul, Pandurul</source>
+      <description>Spitalul din Târgu Jiu își extinde activitatea medicală: datele din surse sunt în acest moment ireconciliabile. Versiunea fiecărei publicații este redată separat, atribuită.</description>
     </item>
     <item>
       <title>Teatrul din Târgu Jiu colaborează cu o trupă din Georgia pentru un nou spectacol</title>
@@ -356,14 +365,5 @@
       <category>local</category>
       <source url="http://www.pandurul.rohttps://www.pandurul.ro/articol/semnele-unui-avc-pe-care-nu-trebuie-sa-le-ignori-e_197786.html">Pandurul</source>
       <description>Locuitorii din Gorj se pot înscrie până pe 7 noiembrie la un eveniment public gratuit dedicat recunoașterii primelor simptome ale unui accident vascular cerebral.</description>
-    </item>
-    <item>
-      <title>Pianistul Florin Berculescu susține un recital extraordinar la Târgu Jiu</title>
-      <link>https://izz.ro/local/pianistul-florin-berculescu-sustine-un-recital-extraordinar-la-targu-jiu/</link>
-      <guid>https://izz.ro/local/pianistul-florin-berculescu-sustine-un-recital-extraordinar-la-targu-jiu/</guid>
-      <pubDate>Tue, 27 Oct 2026 06:06:46 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.gorjeanul.ro/ultima-ora/mai-sunt-cateva-zile-pana-la-concertul-extraordinar-de-la-ucb/">Gorjeanul</source>
-      <description>Amfiteatrul Universității Constantin Brâncuși va găzdui un eveniment muzical susținut de artistul Florin Berculescu, iubitorii de cultură locală având ocazia să audă un program complex interpretat de un pedagog experimentat.</description>
     </item>
 </channel></rss>

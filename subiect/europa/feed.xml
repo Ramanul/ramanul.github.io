@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 07 Nov 2026 00:25:46 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 06:16:15 +0000</lastBuildDate>
+    <item>
+      <title>Atacurile cibernetice din Europa sabotează infrastructura digitală și generează panică</title>
+      <link>https://izz.ro/extern/atacurile-cibernetice-din-europa-saboteaza-infrastructura-digitala-si-genereaza/</link>
+      <guid>https://izz.ro/extern/atacurile-cibernetice-din-europa-saboteaza-infrastructura-digitala-si-genereaza/</guid>
+      <pubDate>Sat, 07 Nov 2026 05:00:02 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/nov/07/freezer-meltdowns-airline-hoaxes-greyzone-aggression-europe">The Guardian</source>
+      <description>Valul de atacuri informatice îndreptat împotriva supermarketurilor din Finlanda până în Irlanda a provocat defecțiuni majore la sistemele de refrigerare, distrugând stocuri în valoare de milioane de euro și evidențiind vulnerabilitățile continentului în fața agresiunilor hibride.</description>
+    </item>
     <item>
       <title>Hidrocentralele europene adoptă inteligența artificială pentru a stabiliza energia</title>
       <link>https://izz.ro/ai/hidrocentralele-europene-adopta-inteligenta-artificiala-pentru-a-stabiliza/</link>
@@ -77,15 +86,6 @@
       <category>sanatate</category>
       <source url="https://www.politico.eu/sponsored-content/sustaining-europes-biosimilar-leadership-and-impact/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Organizația sponsor susține o inițiativă destinată factorilor de decizie, subliniind necesitatea unui cadru concurențial stabil pentru aceste produse farmaceutice în Europa.</description>
-    </item>
-    <item>
-      <title>Slăbirea prematură a vortexului polar aduce ninsori și frig în Europa</title>
-      <link>https://izz.ro/extern/slabirea-prematura-a-vortexului-polar-aduce-ninsori-si-frig-in-europa/</link>
-      <guid>https://izz.ro/extern/slabirea-prematura-a-vortexului-polar-aduce-ninsori-si-frig-in-europa/</guid>
-      <pubDate>Fri, 06 Nov 2026 11:34:09 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://adevarul.ro/stiri-interne/meteo/vortexul-polar-a-slabit-cu-trei-saptamani-mai-2569460.html">Adevărul</source>
-      <description>Meteorologii avertizează că destabilizarea timpurie a vortexului polar ar putea genera temperaturi extrem de scăzute și episoade de ninsoare pe continent pe parcursul lunilor decembrie și ianuarie.</description>
     </item>
     <item>
       <title>Generalul Virgil Bălăceanu avertizează asupra pericolelor din interiorul Europei</title>
@@ -311,23 +311,5 @@
       <category>extern</category>
       <source url="https://www.theguardian.com/environment/2026/oct/27/slovenia-mourns-loss-glacier-highest-peak-scorching-summer">The Guardian</source>
       <description>Ultima porțiune de gheață a ghețarului Triglav din Alpi a dispărut în urma verii toride, marcând un nou dezastru ecologic cauzat de schimbările climatice care au accelerat topirea masivă.</description>
-    </item>
-    <item>
-      <title>Marca auto Dacia este direct afectată de expansiunea chineză în Europa</title>
-      <link>https://izz.ro/local/marca-auto-dacia-este-direct-afectata-de-expansiunea-chineza-in-europa/</link>
-      <guid>https://izz.ro/local/marca-auto-dacia-este-direct-afectata-de-expansiunea-chineza-in-europa/</guid>
-      <pubDate>Tue, 27 Oct 2026 05:45:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/auto-transporturi/grafic-dacia-direct-afectata-de-chinezi-cine-pierde-cota-de-piata-pe-care-o-castiga-chinezii-in-europa-22876924?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Deși piața auto europeană a crescut cu peste zece la sută în septembrie, constructorii europeni pierd teren, în timp ce mărcile chinezești își extind considerabil cota de piață, conform unei analize recente a pieței.</description>
-    </item>
-    <item>
-      <title>Trei sferturi dintre piloții europeni recunosc că au adormit în cabina de pilotaj</title>
-      <link>https://izz.ro/general/trei-sferturi-dintre-pilotii-europeni-recunosc-ca-au-adormit-in-cabina-de/</link>
-      <guid>https://izz.ro/general/trei-sferturi-dintre-pilotii-europeni-recunosc-ca-au-adormit-in-cabina-de/</guid>
-      <pubDate>Tue, 27 Oct 2026 05:00:03 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.digi24.ro/stiri/externe/ue/trei-din-patru-piloti-europeni-au-atipit-in-cockpit-in-timpul-zborului-aproape-un-sfert-continua-sa-piloteze-desi-sunt-prea-obositi-4009125">Digi24 Extern</source>
-      <description>Un sondaj efectuat pe mii de angajați din aviație arată că oboseala cronică și programul prelungit pun în pericol zborurile comerciale, mulți piloți continuând să lucreze deși sunt epuizați fizic.</description>
     </item>
 </channel></rss>
