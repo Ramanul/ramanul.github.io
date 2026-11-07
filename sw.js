@@ -39,7 +39,7 @@
    sunt recuperate aici — pentru ele exista fallback-ul de oglinda din infra/worker-404-mirror.js.
 */
 
-const SHELL = 'izz-shell-v3';   // v3: invalidate pages cached before correction propagation
+const SHELL = 'izz-shell-v5';   // v5: o singura foaie de stil (site.css/faza2.css retrase)
 const ARTICOLE = 'izz-articole-v3';
 const TERMEN_RETEA = 2500;   // ms pana cand o pagina cade pe copia salvata
 const MAX_ARTICOLE = 60;
@@ -49,8 +49,6 @@ const PRECACHE = [
   '/',
   OFFLINE,
   '/static/styles.css',
-  '/static/site.css',
-  '/static/faza2.css',
   '/static/fonts.css',
   '/static/theme.js',
   '/static/pwa.js',
@@ -61,7 +59,8 @@ const PRECACHE = [
   '/static/icon-512.png',
   '/static/fonts/Inter-400.ro.woff2',
   '/static/fonts/Inter-700.ro.woff2',
-  '/static/fonts/PlayfairDisplay-800.ro.woff2',
+  '/static/fonts/Newsreader-400.ro.woff2',
+  '/static/fonts/Newsreader-600.ro.woff2',
 ];
 
 /* Cheia de cache: URL-ul intreg. Un activ versionat (`?v=`) e alt fisier la alt hash. */

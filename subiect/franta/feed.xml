@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/franta/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Franța pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 07 Nov 2026 06:16:15 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 13:18:20 +0000</lastBuildDate>
+    <item>
+      <title>Creșterea datoriei publice și a costurilor de împrumut pun în pericol stabilitatea economică a Franței</title>
+      <link>https://izz.ro/economic/cresterea-datoriei-publice-si-a-costurilor-de-imprumut-pun-in-pericol/</link>
+      <guid>https://izz.ro/economic/cresterea-datoriei-publice-si-a-costurilor-de-imprumut-pun-in-pericol/</guid>
+      <pubDate>Sat, 07 Nov 2026 08:16:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.dw.com/en/amid-protests-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
+      <description>Guvernul francez intenționează să aloce suplimentar patru miliarde de euro pentru educație pe fondul protestelor naționale, însă datoria publică în creștere și costurile ridicate ale dobânzilor limitează semnificativ spațiul fiscal al țării.</description>
+    </item>
     <item>
       <title>România a învins Franța de la 0-2 la seturi în Campionatul European de Volei</title>
       <link>https://izz.ro/sport/romania-a-invins-franta-de-la-0-2-la-seturi-in-campionatul-european-de-volei/</link>
@@ -41,15 +50,6 @@
       <category>extern</category>
       <source url="https://newsbv.ro/proteste-franta-noiembrie/">News Brașov</source>
       <description>Mii de francezi au ieșit în stradă în mai multe orașe pentru a-și exprima nemulțumirile legate de salarii, scumpiri și calitatea serviciilor publice, acțiunile de protest urmând să continue și în weekend.</description>
-    </item>
-    <item>
-      <title>Costurile datoriei publice amenință stabilitatea fiscală a Franței</title>
-      <link>https://izz.ro/extern/costurile-datoriei-publice-ameninta-stabilitatea-fiscala-a-frantei/</link>
-      <guid>https://izz.ro/extern/costurile-datoriei-publice-ameninta-stabilitatea-fiscala-a-frantei/</guid>
-      <pubDate>Fri, 06 Nov 2026 14:37:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.dw.com/en/protests-and-reforms-france-s-rising-debt-costs-threaten-stability/a-79865654?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <description>Guvernul francez alocă patru miliarde de euro suplimentare pentru educație, în pline proteste naționale. Creșterea datoriilor și a dobânzilor reduce însă drastic marja de manevră bugetară a executivului.</description>
     </item>
     <item>
       <title>Extrema stângă franceză propune ieșirea din NATO</title>
@@ -347,23 +347,5 @@
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/increderea-consumatorilor-din-franta-se-prabuseste-la-cel-mai-redus-nivel-de-dupa-2013-pe-fondul-recentelor-violente-din-marile-orase.html">Curs de Guvernare</source>
       <description>Indicele de încredere a coborât la 80 de puncte în octombrie, pe fondul violențelor urbane și al creșterii îngrijorărilor legate de inflație, șomaj și situația financiară precară a gospodăriilor franceze.</description>
-    </item>
-    <item>
-      <title>Guvernul francez a analizat blocarea internetului mobil în timpul protestelor</title>
-      <link>https://izz.ro/extern/guvernul-francez-a-analizat-blocarea-internetului-mobil-in-timpul-protestelor/</link>
-      <guid>https://izz.ro/extern/guvernul-francez-a-analizat-blocarea-internetului-mobil-in-timpul-protestelor/</guid>
-      <pubDate>Tue, 27 Oct 2026 12:32:19 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/french-government-mulled-blocking-social-network-amid-protests/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Ministerul de Interne din Franța a discutat cu operatorii de telecomunicații pentru a evalua posibilitatea sistării accesului la rețelele sociale și internet în anumite zone, cu scopul de a preveni coordonarea manifestanților violenti.</description>
-    </item>
-    <item>
-      <title>Deputații francezi votează un plan de amnistie pentru imigranți</title>
-      <link>https://izz.ro/extern/deputatii-francezi-voteaza-un-plan-de-amnistie-pentru-imigranti/</link>
-      <guid>https://izz.ro/extern/deputatii-francezi-voteaza-un-plan-de-amnistie-pentru-imigranti/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:46:57 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/france-vote-amnesty-plan-undocumented-workers/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Adunarea Națională din Franța va supune votului o propunere socialistă menită să legalizeze statutul a sute de mii de muncitori străini fără acte oficiale.</description>
     </item>
 </channel></rss>

@@ -6,34 +6,34 @@
   --text: #171717;
   --muted: #686868;
   --border: #d9d7ce;
-  --accent: #8b6918;
-  --accent-soft: #ead9a0;
+  --accent: #7c5f22;          /* --brass-deep din sistemul site-ului (5,97:1 pe alb) */
+  --accent-soft: #e8dcc4;     /* spalare de alama, ca --sunk */
   --map-fill: #e2dfd3;
   --map-stroke: #83806f;
-  /* Aurul de selecție/hover: --gold-strong din sistemul site-ului (5,08:1 pe alb). */
-  --map-hot: #8b6918;
-  --map-on-accent: #171717;
+  /* Alama de selecție/hover: aceeași valoare ca --accent (5,97:1 pe alb). */
+  --map-hot: #7c5f22;
+  --map-on-accent: #ffffff;   /* alb pe alama închisă = 5,97:1; #171717 ar da 3,0:1 */
   --map-badge-text: #ffffff;
-  /* SISTEM CARTOGRAFIC — oglinda fidelă a tokenilor canonici din static/styles.css.
+  /* SISTEM CARTOGRAFIC — oglinda fidelă a rampei din static/styles.css (`.puls-map path.h*`).
      Pagina hărții e singura care nu încarcă foaia site-ului, deci ține aici o copie; nu are
-     voie să divergă: tests/test_harta_paleta.py compară blocurile și pică la prima diferență.
-     Rampa: h3 = --gold (aurul brandului), h4 mai închis decât el, h1/h2 spălări calde, iar
-     h0 e gri NEUTRU — „zero știri" e informație, nu un defect de randare (era #f2f0e8, la
-     4,4 unități L* de h1, adică practic aceeași culoare). Treptele sunt echidistante
-     perceptiv (ΔL* 8,4 / 9,0 / 7,7 / 11,3 măsurate), iar textul stă pe halou în culoarea
-     suprafeței, deci contrastul nu depinde de treapta de dedesubt. */
+     voie să divergă: tests/test_mini_harta.py compară cele cinci valori și pică la prima
+     diferență. Rampa e construită pe ALAMA brandului (#a8823a = --brass), la aceleași
+     trepte de lumină ca rampa veche (ΔL* 8,4 / 8,3 / 11,6 măsurate), deci lizibilitatea
+     rămâne identică: textul închis pe trepte dă 12,1 / 9,6 / 7,4 / 5,0:1. h4 e chiar
+     --brass; h3/h2/h1 sunt spălări din ce în ce mai deschise; h0 rămâne gri NEUTRU —
+     „zero știri" e informație, nu un defect de randare. */
   --map-h0: #eaecf0;
-  --map-h1: #f2d090;
-  --map-h2: #d6bb6c;
-  --map-h3: #c9a227;
-  --map-h4: #a8841f;
-  --map-line: #c9ccd3;
+  --map-h1: #e0d3ba;
+  --map-h2: #cfbb93;
+  --map-h3: #bfa36d;
+  --map-h4: #a8823a;
+  --map-line: #d3cec2;
   --map-ink: #171717;
   --map-halo-ink: #ffffff;
   --shadow: 0 8px 30px rgba(0,0,0,.07);
 }
 @media (prefers-color-scheme: dark) {
-  :root { --bg:#151513; --surface:#20201d; --surface-2:#292923; --text:#f1f0ea; --muted:#aaa89e; --border:#3a3933; --accent:#d6ad33; --accent-soft:#4a3d1b; --map-fill:#2a2a25; --map-stroke:#7d7a6e; --map-hot:#d6b25e; --map-on-accent:#171717; --map-badge-text:#20201d; --map-h0:#26251f; --map-h1:#43371a; --map-h2:#63501c; --map-h3:#8a6b1e; --map-h4:#b28c22; --map-line:#3a3933; --map-ink:#f1f0ea; --map-halo-ink:#151513; --shadow:0 10px 30px rgba(0,0,0,.25); }
+  :root { --bg:#151513; --surface:#20201d; --surface-2:#292923; --text:#f1f0ea; --muted:#aaa89e; --border:#3a3933; --accent:#d3b26a; --accent-soft:#43381f; --map-fill:#2a2a25; --map-stroke:#7d7a6e; --map-hot:#d3b26a; --map-on-accent:#171717; --map-badge-text:#20201d; --map-h0:#26251f; --map-h1:#423721; --map-h2:#644f29; --map-h3:#886b32; --map-h4:#af8c49; --map-line:#3a3933; --map-ink:#f1f0ea; --map-halo-ink:#151513; --shadow:0 10px 30px rgba(0,0,0,.25); }
 }
 * { box-sizing:border-box; }
 html { overflow-x:hidden; }
@@ -79,6 +79,16 @@ button,input { font:inherit; }
 .is-filtered .map-county.is-empty:not(.is-selected),.is-filtered .map-uat.is-empty,.is-filtered .map-label.is-empty{opacity:.35}
 .map-uat{stroke:var(--map-line);stroke-width:.9;cursor:pointer}
 .map-county{cursor:pointer}
+/* Aria de click a unui județ/UAT = UMPLEREA, fără contur (issue #454). Cu valoarea implicită
+   (`visiblePainted`) conturul de 1,1 px de ecran (non-scaling-stroke) intra și el în aria de
+   click și se pictează PESTE vecinul, așa că un punct de graniță returna județul desenat
+   deasupra, nu județul care conține punctul: `elementsFromPoint` și `isPointInFill` se
+   contraziceau pe 2 din 81 de puncte de probă, deși clickul se rezolva deja geometric
+   (`shapeFromEvent`). Nu se pierde nicio țintă reală: fâșia de contur cade în interiorul
+   umplerii vecinului, iar pe coastă doar jumătatea de pixel din afara țării, care nu e țintă.
+   Garda `tools/harta_dom_check.py` compară browserul cu `isPointInFill`, deci cele două
+   trebuie să descrie aceeași mulțime de puncte — de aici regula. */
+.map-county,.map-uat{pointer-events:fill}
 .map-county-hit{fill:#000;fill-opacity:0;stroke:transparent;pointer-events:all;cursor:pointer}
 /* Focusul de tastatură: fiecare județ are un link SVG focusabil; conturul de focus trebuie
    să fie vizibil pe orice umplere. Țintele tactile transparente au diametru de minimum 24px

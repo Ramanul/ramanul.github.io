@@ -9,7 +9,7 @@
    care le-am fi cerut sunt șterse la build — unul per pagină ar duce output-ul peste plafonul
    de 20.000 de fișiere al Workers Free. Vezi specs/cautare-pagefind.md.
 
-   ZERO ZGOMOT. Afișăm exact ce a potrivit indexul: fără rezultate aproximative, fără
+   filtru de calitate. Afișăm exact ce a potrivit indexul: fără rezultate aproximative, fără
    „poate te interesează”, fără umplutură când căutarea nu dă nimic. Când indexul lipsește
    (build fără Pagefind) cădem pe o căutare simplificată, doar în titluri, și SPUNEM asta în
    pagină — un mod degradat care nu se anunță e mai rău decât o eroare.

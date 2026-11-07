@@ -1,3 +1,21 @@
+/* Fonturi AUTO-GAZDUITE, subsetate la română (tools/fetch_fonts.py).
+   Două familii, cinci fișiere — vezi analiza/rebranding/PROPUNERE.md §Tipografie.
+   Newsreader înlocuiește Playfair Display (titluri), Inter rămâne textul de UI,
+   iar JetBrains Mono a ieșit din interfață (cifrele tabulare se fac cu Inter). */
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/static/fonts/Newsreader-400.ro.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Newsreader';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/static/fonts/Newsreader-600.ro.woff2) format('woff2');
+}
 @font-face {
   font-family: 'Inter';
   font-style: normal;
@@ -18,32 +36,4 @@
   font-weight: 700;
   font-display: swap;
   src: url(/static/fonts/Inter-700.ro.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/static/fonts/JetBrainsMono-400.ro.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'JetBrains Mono';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/static/fonts/JetBrainsMono-700.ro.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(/static/fonts/PlayfairDisplay-700.ro.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Playfair Display';
-  font-style: normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url(/static/fonts/PlayfairDisplay-800.ro.woff2) format('woff2');
 }
