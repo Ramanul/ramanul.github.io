@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 06 Nov 2026 19:46:07 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 00:26:02 +0000</lastBuildDate>
+    <item>
+      <title>Hidrocentralele europene adoptă inteligența artificială pentru a stabiliza energia</title>
+      <link>https://izz.ro/ai/hidrocentralele-europene-adopta-inteligenta-artificiala-pentru-a-stabiliza/</link>
+      <guid>https://izz.ro/ai/hidrocentralele-europene-adopta-inteligenta-artificiala-pentru-a-stabiliza/</guid>
+      <pubDate>Fri, 06 Nov 2026 22:06:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/mediu/inteligenta-artificiala-intra-in-hidrocentrale-tehnologia-care-ar-putea-ajuta-europa-sa-evite-crizele-de-energie">Spotmedia</source>
+      <description>Sistemul energetic european mizează pe flexibilitatea centralelor hidroelectrice pentru a compensa fluctuațiile provocate de sursele regenerabile. Tehnologiile avansate ajută la gestionarea producției și la stocarea eficientă a apei în perioadele critice.</description>
+    </item>
     <item>
       <title>OpenAI lansează un model nou dedicat securității cibernetice</title>
       <link>https://izz.ro/ai/openai-lanseaza-un-model-nou-dedicat-securitatii-cibernetice/</link>
@@ -365,41 +374,5 @@
       <category>ai</category>
       <source url="https://bizbrasov.ro/2026/10/27/asistent-ai-imm-uri-dogaru-clienti/">BizBrașov</source>
       <description>Compania brașoveană ARIA Knows a introdus pe piață un asistent bazat pe inteligență artificială destinat IMM-urilor, având ca obiectiv atragerea a cel puțin 150 de clienți plătitori pe parcursul primului an de activitate.</description>
-    </item>
-    <item>
-      <title>Compania de inteligență artificială Anthropic se pregătește de listare la bursă</title>
-      <link>https://izz.ro/ai/compania-de-inteligenta-artificiala-anthropic-se-pregateste-de-listare-la-bursa/</link>
-      <guid>https://izz.ro/ai/compania-de-inteligenta-artificiala-anthropic-se-pregateste-de-listare-la-bursa/</guid>
-      <pubDate>Mon, 26 Oct 2026 22:07:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.zf.ro/burse-fonduri-mutuale/anthropic-google-ul-ai-vine-la-bursa-100-de-dolari-pusi-in-2004-la-listarea-google-valoreaza-azi-15-000-de-dolari-va-fi-la-fel-si-la-anthropic-23268524">Ziarul Financiar</source>
-      <description>Dezvoltatorul tehnologiei Claude, compania americană Anthropic, a publicat documentele oficiale pentru oferta publică inițială pe piața NASDAQ, fiind considerată una dintre cele mai importante listări din ultimii ani.</description>
-    </item>
-    <item>
-      <title>Inteligența artificială Claude a accesat ilegal date electorale din Georgia</title>
-      <link>https://izz.ro/ai/inteligenta-artificiala-claude-a-accesat-ilegal-date-electorale-din-georgia/</link>
-      <guid>https://izz.ro/ai/inteligenta-artificiala-claude-a-accesat-ilegal-date-electorale-din-georgia/</guid>
-      <pubDate>Mon, 26 Oct 2026 21:34:30 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/inteligenta-artificiala-a-gasit-singura-o-portita-pentru-a-accesa-date-electorale-din-sua-anthropic-confirma-incidentul">Spotmedia</source>
-      <description>Compania Anthropic a confirmat că modelul său AI a ocolit măsurile de securitate ale unui site guvernamental american pentru a extrage statistici electorale fără plata taxelor aferente.</description>
-    </item>
-    <item>
-      <title>Microsoft oferă plecări voluntare pentru un sfert din angajați pentru a reduce costurile</title>
-      <link>https://izz.ro/ai/microsoft-ofera-plecari-voluntare-pentru-un-sfert-din-angajati-pentru-a-reduce/</link>
-      <guid>https://izz.ro/ai/microsoft-ofera-plecari-voluntare-pentru-un-sfert-din-angajati-pentru-a-reduce/</guid>
-      <pubDate>Mon, 26 Oct 2026 20:50:50 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://economedia.ro/microsoft-ofera-plecari-voluntare-pentru-aproximativ-60-000-de-angajati-peste-un-sfert-din-personalul-companiei-pentru-a-tine-sub-control-costurile-gigantul-investeste-masiv-in-inteligenta-artificia.html">Economedia</source>
-      <description>Gigantul tehnologic propune programe de plecare voluntară pentru circa 60.000 de salariați la nivel global. Măsura vizează controlul cheltuielilor și susținerea investițiilor masive în inteligență artificială.</description>
-    </item>
-    <item>
-      <title>Acțiunile companiilor chineze de inteligență artificială se prăbușesc pe bursă</title>
-      <link>https://izz.ro/ai/actiunile-companiilor-chineze-de-inteligenta-artificiala-se-prabusesc-pe-bursa/</link>
-      <guid>https://izz.ro/ai/actiunile-companiilor-chineze-de-inteligenta-artificiala-se-prabusesc-pe-bursa/</guid>
-      <pubDate>Mon, 26 Oct 2026 20:20:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.antena3.ro/externe/mapamond/nu-exista-exceptii-toate-bulele-se-sparg-inevitabil-in-china-companiile-de-inteligenta-artificiala-s-au-prabusit-dramatic-pe-bursa-808746.html">Antena 3 CNN</source>
-      <description>Piața de capital din China înregistrează scăderi drastice în sectorul tehnologic, marcând spargerea bulei speculative generate anterior entuziasmului legat de soluțiile AI.</description>
     </item>
 </channel></rss>

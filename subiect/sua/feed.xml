@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/sua/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SUA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 06 Nov 2026 19:45:51 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 00:25:46 +0000</lastBuildDate>
+    <item>
+      <title>Demisii în bloc ale procurorilor federali de rang înalt din SUA</title>
+      <link>https://izz.ro/extern/demisii-in-bloc-ale-procurorilor-federali-de-rang-inalt-din-sua/</link>
+      <guid>https://izz.ro/extern/demisii-in-bloc-ale-procurorilor-federali-de-rang-inalt-din-sua/</guid>
+      <pubDate>Fri, 06 Nov 2026 19:41:13 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://stirileprotv.ro/stiri/international/demisii-in-lant-ale-procurorilor-de-rang-inalt-din-sua-care-se-ocupau-de-dosarele-facute-de-trump-impotriva-adversarilor-sai.html">Știrile ProTV</source>
+      <description>Mai mulți procurori americani care coordonau anchetele de conspirație inițiate de administrația Trump împotriva adversarilor politici au demisionat în masă din funcțiile de conducere pe care le dețineau.</description>
+    </item>
     <item>
       <title>Statele Unite și-au cerut scuze Rusiei după un incident diplomatic</title>
       <link>https://izz.ro/extern/statele-unite-si-au-cerut-scuze-rusiei-dupa-un-incident-diplomatic/</link>
@@ -77,6 +86,15 @@
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/ultimele-pregatiri-inaintea-negocierilor-sua-ucraina-rusia-de-la-abu-dhabi-discutii-la-bruxelles-despre-arhitectura-post-razboi-reconstructia-ucrainei-si-garantiile-de-securitate.html">Curs de Guvernare</source>
       <description>Oficiali occidentali, reprezentanți ai NATO și ai Băncii Mondiale s-au reunit la Bruxelles pentru a discuta arhitectura post-război, reconstrucția economică și garanțiile de securitate acordate Ucrainei înainte de negocieri.</description>
+    </item>
+    <item>
+      <title>Oficialii iranieni anticipează presiuni continue din partea lui Donald Trump</title>
+      <link>https://izz.ro/extern/oficialii-iranieni-anticipeaza-presiuni-continue-din-partea-lui-donald-trump/</link>
+      <guid>https://izz.ro/extern/oficialii-iranieni-anticipeaza-presiuni-continue-din-partea-lui-donald-trump/</guid>
+      <pubDate>Thu, 05 Nov 2026 08:08:10 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.europalibera.md/a/iranul-asteapta-urmatoarea-miscare-a-lui-trump-dupa-infrangerea-suferita-la-alegerile-de-la-jumatatea-mandatului/33890898.html">Europa Liberă</source>
+      <description>Deși democrații au câștigat alegerile intermediare din SUA, slăbindu-l politic pe președinte, liderii din Iran se așteaptă să rămână în continuare ținta politicilor externe americane.</description>
     </item>
     <item>
       <title>Dolarul american scade la minimul ultimei luni după alegeri</title>
@@ -437,23 +455,5 @@
       <category>politic</category>
       <source url="https://www.digi24.ro/stiri/externe/sua/daniel-fried-fost-ambasador-al-sua-sondajele-sugereaza-un-val-albastru-dar-nu-as-da-asta-in-scris-4019447">Digi24 Extern</source>
       <description>Fostul ambasador al SUA Daniel Fried afirmă că sondajele indică o posibilă victorie democrată în Congres, dar evită să ofere o prognoză certă cu o zi înaintea scrutinului american.</description>
-    </item>
-    <item>
-      <title>România întâmpină dificultăți la angajarea muncitorilor din afara Uniunii Europene</title>
-      <link>https://izz.ro/economic/romania-intampina-dificultati-la-angajarea-muncitorilor-din-afara-uniunii/</link>
-      <guid>https://izz.ro/economic/romania-intampina-dificultati-la-angajarea-muncitorilor-din-afara-uniunii/</guid>
-      <pubDate>Tue, 03 Nov 2026 09:26:18 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://economedia.ro/europa-sua-si-canada-inaspresc-regulile-pentru-muncitorii-straini-romania-se-confrunta-cu-un-blocaj-in-angajarea-lucratorilor-din-afara-ue.html">Economedia</source>
-      <description>În timp ce statele occidentale înăspresc condițiile pentru lucrătorii străini, piața muncii din România se confruntă cu un blocaj cauzat de suspendarea procedurilor pentru o categorie importantă de vize.</description>
-    </item>
-    <item>
-      <title>SRI și TSA au semnat un memorandum pentru securitatea aviației</title>
-      <link>https://izz.ro/extern/sri-si-tsa-au-semnat-un-memorandum-pentru-securitatea-aviatiei/</link>
-      <guid>https://izz.ro/extern/sri-si-tsa-au-semnat-un-memorandum-pentru-securitatea-aviatiei/</guid>
-      <pubDate>Tue, 03 Nov 2026 09:09:52 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://gazetadecluj.ro/sri-si-tsa-din-sua-au-incheiat-un-memorandum-care-permite-celor-doua-institutii-sa-faca-schimb-de-informatii/">Gazeta de Cluj</source>
-      <description>Serviciul Român de Informații și autoritatea americană TSA au oficializat un parteneriat strategic. Acordul facilitează schimbul rapid de date esențiale pentru protejarea zborurilor civile din România și Statele Unite.</description>
     </item>
 </channel></rss>
