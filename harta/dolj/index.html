@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din Dolj — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în Dolj, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în Dolj, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/dolj/">
   <meta property="og:title" content="Știri din Dolj — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în Dolj, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în Dolj, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/dolj/">
   <meta name="harta-county" content="DOLJ">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/dolj/#webpage","url":"https://izz.ro/harta/dolj/","name":"Știri din Dolj — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Dolj, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/dolj/#place"},"mainEntity":{"@id":"https://izz.ro/harta/dolj/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/dolj/#dataset","name":"Harta știrilor — Dolj","description":"Știri locale și județene localizate în Dolj, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/dolj/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/dolj/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/dolj/#place","name":"Dolj","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/dolj/#webpage","url":"https://izz.ro/harta/dolj/","name":"Știri din Dolj — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Dolj, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/dolj/#place"},"mainEntity":{"@id":"https://izz.ro/harta/dolj/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/dolj/#dataset","name":"Harta știrilor — Dolj","description":"Știri locale și județene localizate în Dolj, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/dolj/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/dolj/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/dolj/#place","name":"Dolj","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">
@@ -175,14 +180,14 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/judetean/ajpis-dolj-a-platit-peste-75-de-milioane-de-lei-pentru-asistenta-sociala/">AJPIS Dolj a plătit peste 75 de milioane de lei pentru asistență socială</a> <span>Cuvântul Libertății · 6 noiembrie 2026, 14:21</span></li>
+          <li><a href="/local/gica-hagi-a-convocat-cinci-fotbalist-de-la-universitatea-craiova/">Gică Hagi a convocat cinci fotbalist de la Universitatea Craiova</a> <span>Cuvântul Libertății · 7 noiembrie 2026, 13:29</span></li>
+<li><a href="/local/fc-arges-a-invins-o-pe-dinamo-in-ultima-etapa-a-turului/">FC Argeș a învins-o pe Dinamo în ultima etapă a turului</a> <span>Cuvântul Libertății · 7 noiembrie 2026, 11:32</span></li>
+<li><a href="/judetean/ajpis-dolj-a-platit-peste-75-de-milioane-de-lei-pentru-asistenta-sociala/">AJPIS Dolj a plătit peste 75 de milioane de lei pentru asistență socială</a> <span>Cuvântul Libertății · 6 noiembrie 2026, 14:21</span></li>
 <li><a href="/local/comuna-tuglui-organizeaza-a-cincea-editie-a-expozitiei-de-ovine-si-caprine/">Comuna Ţuglui organizează a cincea ediție a expoziției de ovine și caprine</a> <span>Cuvântul Libertății · 6 noiembrie 2026, 14:09</span></li>
 <li><a href="/local/universitatea-craiova-l-a-numit-antrenor-la-juniori-pe-andrei-iulian-popescu/">Universitatea Craiova l-a numit antrenor la juniori pe Andrei Iulian Popescu</a> <span>Cuvântul Libertății · 6 noiembrie 2026, 14:08</span></li>
 <li><a href="/local/publicatie-casatorie-luncan-leontin-adrian-cu-opris-georgiana/">PUBLICATIE CASATORIE LUNCAN LEONTIN ADRIAN CU OPRIS GEORGIANA</a> <span>Primăria Sadova · 6 noiembrie 2026, 13:51</span></li>
 <li><a href="/local/anunt-examen-promovare-grad-profesional-compartimet-financiar-contabil-resurse/">Anunt examen promovare grad profesional compartimet financiar contabil, resurse umane si compariment…</a> <span>Primăria Sadova · 6 noiembrie 2026, 13:47</span></li>
 <li><a href="/local/anunt-promovare-grad-profesional-compartiment-agricol-compartiment-taxe-si/">Anunt promovare grad profesional compartiment agricol, compartiment taxe si impozite si serviciu public…</a> <span>Primăria Sadova · 6 noiembrie 2026, 13:45</span></li>
-<li><a href="/judetean/simona-ciulu-este-noul-inspector-general-al-isj-dolj/">Simona Ciulu este noul inspector general al ISJ Dolj</a> <span>Cuvântul Libertății · 6 noiembrie 2026, 13:44</span></li>
-<li><a href="/local/inaugurarea-firului-ii-al-aductiunii-de-apa-izvarna-craiova/">Inaugurarea Firului II al aducțiunii de apă Izvarna-Craiova</a> <span>Cuvântul Libertății · 6 noiembrie 2026, 12:45</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>

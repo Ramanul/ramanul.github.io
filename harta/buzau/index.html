@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din Buzău — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în Buzău, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în Buzău, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/buzau/">
   <meta property="og:title" content="Știri din Buzău — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în Buzău, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în Buzău, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/buzau/">
   <meta name="harta-county" content="BUZAU">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/buzau/#webpage","url":"https://izz.ro/harta/buzau/","name":"Știri din Buzău — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Buzău, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/buzau/#place"},"mainEntity":{"@id":"https://izz.ro/harta/buzau/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/buzau/#dataset","name":"Harta știrilor — Buzău","description":"Știri locale și județene localizate în Buzău, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/buzau/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/buzau/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/buzau/#place","name":"Buzău","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/buzau/#webpage","url":"https://izz.ro/harta/buzau/","name":"Știri din Buzău — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Buzău, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/buzau/#place"},"mainEntity":{"@id":"https://izz.ro/harta/buzau/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/buzau/#dataset","name":"Harta știrilor — Buzău","description":"Știri locale și județene localizate în Buzău, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/buzau/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/buzau/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/buzau/#place","name":"Buzău","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">

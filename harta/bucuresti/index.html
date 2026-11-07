@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din București — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în București, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în București, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/bucuresti/">
   <meta property="og:title" content="Știri din București — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în București, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în București, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/bucuresti/">
   <meta name="harta-county" content="BUCURESTI">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/bucuresti/#webpage","url":"https://izz.ro/harta/bucuresti/","name":"Știri din București — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în București, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/bucuresti/#place"},"mainEntity":{"@id":"https://izz.ro/harta/bucuresti/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/bucuresti/#dataset","name":"Harta știrilor — București","description":"Știri locale și județene localizate în București, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/bucuresti/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/bucuresti/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/bucuresti/#place","name":"București","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/bucuresti/#webpage","url":"https://izz.ro/harta/bucuresti/","name":"Știri din București — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în București, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/bucuresti/#place"},"mainEntity":{"@id":"https://izz.ro/harta/bucuresti/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/bucuresti/#dataset","name":"Harta știrilor — București","description":"Știri locale și județene localizate în București, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/bucuresti/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/bucuresti/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/bucuresti/#place","name":"București","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">
@@ -175,14 +180,14 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/politia-locala-a-capitalei-a-amendat-taxiurile-cu-150-000-de-lei/">Poliția Locală a Capitalei a amendat taxiurile cu 150.000 de lei</a> <span>B365 · 7 noiembrie 2026, 12:39</span></li>
+          <li><a href="/local/decoratiuni-de-halloween-lasate-in-padurea-baneasa-la-o-saptamana-dupa-eveniment/">Decorațiuni de Halloween lăsate în Pădurea Băneasa la o săptămână după eveniment</a> <span>B365 · 7 noiembrie 2026, 17:31</span></li>
+<li><a href="/local/targul-mesterilor-populari-isi-deschide-portile-la-muzeul-taranului-roman/">Târgul Meșterilor Populari își deschide porțile la Muzeul Țăranului Român</a> <span>B365 · 7 noiembrie 2026, 15:55</span></li>
+<li><a href="/local/politia-locala-a-capitalei-a-amendat-taxiurile-cu-150-000-de-lei/">Poliția Locală a Capitalei a amendat taxiurile cu 150.000 de lei</a> <span>B365 · 7 noiembrie 2026, 12:39</span></li>
 <li><a href="/local/circulatia-tramvaielor-stb-pe-soseaua-stefan-cel-mare-a-fost-reluata/">Circulația tramvaielor STB pe Șoseaua Ștefan cel Mare a fost reluată</a> <span>B365 · 7 noiembrie 2026, 12:13</span></li>
 <li><a href="/local/o-nutrie-a-fost-surprinsa-plimbandu-se-pe-strazile-din-cartierul-pantelimon/">O nutrie a fost surprinsă plimbându-se pe străzile din cartierul Pantelimon</a> <span>B365 · 7 noiembrie 2026, 06:00</span></li>
 <li><a href="/local/o-cafenea-colorata-inspirata-de-van-gogh-functioneaza-in-centrul-vechi/">O cafenea colorată inspirată de Van Gogh funcționează în Centrul Vechi</a> <span>B365 · 7 noiembrie 2026, 01:00</span></li>
 <li><a href="/local/intreruperi-programate-de-energie-electrica-in-bucuresti-si-judetele-limitrofe/">Întreruperi programate de energie electrică în București și județele limitrofe</a> <span>B365 · 6 noiembrie 2026, 18:52</span></li>
 <li><a href="/local/proiect-de-hotarare-nr-202-06-11-2026-privind-aprobarea-planului-urbanistic-de/">Hotărârea nr. 202/06: aprobarea Planului urbanistic de detaliu – „Str. Stupca nr. 37-47”, sector 6…</a> <span>Primăria Bucuresti Sectorul 6 · 6 noiembrie 2026, 14:12</span></li>
-<li><a href="/local/sindicalistii-din-teatrul-national-bucuresti-reclama-nereguli-administrative/">Sindicaliștii din Teatrul Național București reclamă nereguli administrative</a> <span>B365 · 6 noiembrie 2026, 14:10</span></li>
-<li><a href="/local/alerta-cu-bomba-de-pe-aeroportul-otopeni-s-a-dovedit-a-fi-falsa/">Alerta cu bombă de pe Aeroportul Otopeni s-a dovedit a fi falsă</a> <span>B365 · 6 noiembrie 2026, 13:41</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>

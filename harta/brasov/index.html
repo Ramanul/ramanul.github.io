@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din Brașov — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în Brașov, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în Brașov, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/brasov/">
   <meta property="og:title" content="Știri din Brașov — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în Brașov, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în Brașov, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/brasov/">
   <meta name="harta-county" content="BRASOV">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/brasov/#webpage","url":"https://izz.ro/harta/brasov/","name":"Știri din Brașov — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Brașov, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/brasov/#place"},"mainEntity":{"@id":"https://izz.ro/harta/brasov/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/brasov/#dataset","name":"Harta știrilor — Brașov","description":"Știri locale și județene localizate în Brașov, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/brasov/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/brasov/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/brasov/#place","name":"Brașov","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/brasov/#webpage","url":"https://izz.ro/harta/brasov/","name":"Știri din Brașov — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Brașov, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/brasov/#place"},"mainEntity":{"@id":"https://izz.ro/harta/brasov/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/brasov/#dataset","name":"Harta știrilor — Brașov","description":"Știri locale și județene localizate în Brașov, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/brasov/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/brasov/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/brasov/#place","name":"Brașov","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">
@@ -175,14 +180,14 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/politia-a-aplicat-amenzi-de-peste-12-000-de-lei-in-judetul-brasov/">Poliția a aplicat amenzi de peste 12.000 de lei în județul Brașov</a> <span>MyTex · 7 noiembrie 2026, 15:05</span></li>
+          <li><a href="/local/constructia-salii-polivalente-din-brasov-a-depasit-stadiul-de-75-din-executie/">Construcția Sălii Polivalente din Brașov a depășit stadiul de 75% din execuție</a> <span>MyTex · 7 noiembrie 2026, 17:09</span></li>
+<li><a href="/local/politia-a-aplicat-amenzi-de-peste-12-000-de-lei-in-judetul-brasov/">Poliția a aplicat amenzi de peste 12.000 de lei în județul Brașov</a> <span>MyTex · 7 noiembrie 2026, 15:05</span></li>
 <li><a href="/local/presedintele-nicusor-dan-executat-silit-de-primaria-predeal-pentru-280-de-lei/">Președintele Nicușor Dan, executat silit de Primăria Predeal pentru 280 de lei</a> <span>BizBrașov · 7 noiembrie 2026, 14:10</span></li>
 <li><a href="/local/politia-a-descoperit-25-de-tone-de-deseuri-la-tarlungeni-in-urma-unor/">Poliția a descoperit 25 de tone de deșeuri la Tărlungeni în urma unor percheziții</a> <span>News Brașov · 7 noiembrie 2026, 13:30</span></li>
 <li><a href="/local/doua-retineri-in-urma-a-opt-perchezitii-pentru-inselaciune-la-brasov/">Două rețineri în urma a opt percheziții pentru înșelăciune la Brașov</a> <span>MyTex · 7 noiembrie 2026, 12:36</span></li>
+<li><a href="/local/zeci-de-perchezitii-la-tarlungeni-intr-un-caz-de-poluare/">Zeci de percheziții la Tărlungeni într-un caz de poluare</a> <span>MyTex · 7 noiembrie 2026, 12:08</span></li>
 <li><a href="/local/perchezitii-la-tarlungeni-intr-un-dosar-privind-regimul-deseurilor/">Percheziții la Tărlungeni într-un dosar privind regimul deșeurilor</a> <span>BizBrașov · 7 noiembrie 2026, 11:56</span></li>
 <li><a href="/local/targul-de-craciun-din-brasov-printre-cele-mai-ieftine-din-europa/">Târgul de Crăciun din Brașov, printre cele mai ieftine din Europa</a> <span>MyTex · 7 noiembrie 2026, 11:51</span></li>
-<li><a href="/local/primaria-rasnov-instaleaza-containere-anti-urs-pentru-reducerea-conflictelor/">Primăria Râșnov instalează containere anti-urs pentru reducerea conflictelor dintre animale și oameni</a> <span>BizBrașov · 7 noiembrie 2026, 10:25</span></li>
-<li><a href="/local/reparatiile-carosabilului-pe-dn1-intre-brasov-si-fagaras-se-apropie-de/">Reparațiile carosabilului pe DN1, între Brașov și Făgăraș, se apropie de finalizare</a> <span>News Brașov · 7 noiembrie 2026, 07:16</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>

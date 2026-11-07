@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din Arad — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în Arad, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în Arad, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/arad/">
   <meta property="og:title" content="Știri din Arad — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în Arad, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în Arad, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/arad/">
   <meta name="harta-county" content="ARAD">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/arad/#webpage","url":"https://izz.ro/harta/arad/","name":"Știri din Arad — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Arad, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/arad/#place"},"mainEntity":{"@id":"https://izz.ro/harta/arad/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/arad/#dataset","name":"Harta știrilor — Arad","description":"Știri locale și județene localizate în Arad, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/arad/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/arad/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/arad/#place","name":"Arad","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/arad/#webpage","url":"https://izz.ro/harta/arad/","name":"Știri din Arad — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Arad, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/arad/#place"},"mainEntity":{"@id":"https://izz.ro/harta/arad/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/arad/#dataset","name":"Harta știrilor — Arad","description":"Știri locale și județene localizate în Arad, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/arad/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/arad/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/arad/#place","name":"Arad","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">
@@ -175,14 +180,14 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/concertul-regal-vienez-va-avea-loc-la-filarmonica-arad-in-decembrie/">Concertul Regal Vienez va avea loc la Filarmonica Arad în decembrie</a> <span>ARADON · 7 noiembrie 2026, 11:38</span></li>
+          <li><a href="/local/asociatia-pensionarilor-din-arad-organizeaza-petrecerea-de-revelion-2026-2027/">Asociația Pensionarilor din Arad organizează petrecerea de Revelion 2026-2027</a> <span>ARADON · 7 noiembrie 2026, 18:57</span></li>
+<li><a href="/local/casa-de-pensii-ofera-54-de-bilete-de-tratament-in-seria-din-noiembrie/">Casa de Pensii oferă 54 de bilete de tratament în seria din noiembrie</a> <span>ARADON · 7 noiembrie 2026, 18:38</span></li>
+<li><a href="/local/concertul-regal-vienez-va-avea-loc-la-filarmonica-arad-in-decembrie/">Concertul Regal Vienez va avea loc la Filarmonica Arad în decembrie</a> <span>ARADON · 7 noiembrie 2026, 11:38</span></li>
 <li><a href="/local/conferinta-dialog-cu-pr-vasile-ioana-si-dan-negru-la-arad/">Conferință-dialog cu pr. Vasile Ioana și Dan Negru la Arad</a> <span>ARADON · 7 noiembrie 2026, 11:32</span></li>
 <li><a href="/local/parintele-constantin-necula-va-sustine-o-conferinta-la-siria/">Părintele Constantin Necula va susține o conferință la Șiria</a> <span>ARADON · 7 noiembrie 2026, 11:07</span></li>
 <li><a href="/local/lucrari-de-reabilitare-a-retelei-termice-pe-strada-horia-din-arad/">Lucrări de reabilitare a rețelei termice pe strada Horia din Arad</a> <span>ARADON · 7 noiembrie 2026, 10:50</span></li>
 <li><a href="/local/inspectoratul-scolar-judetean-arad-a-publicat-un-studiu-cu-22-de-masuri/">Inspectoratul Școlar Județean Arad a publicat un studiu cu 22 de măsuri educaționale</a> <span>ARADON · 6 noiembrie 2026, 18:00</span></li>
 <li><a href="/local/judecator-de-la-curtea-de-apel-pitesti-a-demisionat-in-urma-unei-sanctiuni/">Judecător de la Curtea de Apel Pitești a demisionat în urma unei sancțiuni</a> <span>ARADON · 6 noiembrie 2026, 17:30</span></li>
-<li><a href="/local/dispozitie-convocare-sedinta-ordinara-a-consiliului-local-ineu-joi-12-11-2026/">Dispoziție convocare ședință ordinară a Consiliului Local Ineu, Joi 12.11.2026, ora 10:00</a> <span>Primăria Ineu · 6 noiembrie 2026, 15:11</span></li>
-<li><a href="/local/hotararile-consiliului-local-ineu-nr-228-233-29-10-2026/">Hotărârile Consiliului Local Ineu nr. 228 – 233/29.10.2026</a> <span>Primăria Ineu · 6 noiembrie 2026, 15:09</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>

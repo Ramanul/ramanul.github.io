@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 07 Nov 2026 13:18:20 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 18:22:58 +0000</lastBuildDate>
+    <item>
+      <title>Hackerii ruși au atacat sistemele de refrigerare din supermarketurile europene</title>
+      <link>https://izz.ro/extern/hackerii-rusi-au-atacat-sistemele-de-refrigerare-din-supermarketurile-europene/</link>
+      <guid>https://izz.ro/extern/hackerii-rusi-au-atacat-sistemele-de-refrigerare-din-supermarketurile-europene/</guid>
+      <pubDate>Sat, 07 Nov 2026 15:02:43 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/hackerii-au-testat-sistemele-de-refrigerare-din-europa-cu-cateva-saptamani-inainte-de-atacurile-cibernetice-cine-se-afla-in-spatele-operatiunii-si-ce-ar-putea-viza-in-continuare">Spotmedia</source>
+      <description>Specialiștii în securitate cibernetică au depistat tentative de acces neautorizat ale unor grupări rusești asupra instalațiilor de frig din magazinele europene, avertizând asupra riscurilor majore pentru spitale și centre de date.</description>
+    </item>
     <item>
       <title>Atacurile cibernetice din Europa sabotează infrastructura digitală și generează panică</title>
       <link>https://izz.ro/extern/atacurile-cibernetice-din-europa-saboteaza-infrastructura-digitala-si-genereaza/</link>
@@ -302,14 +311,5 @@
       <category>extern</category>
       <source url="https://adevarul.ro/stiri-externe/europa/trump-ar-putea-transforma-fara-sa-vrea-europa-2566839.html">Adevărul</source>
       <description>Politica administrației americane privind dependența militară a statelor europene ar putea stimula, în mod paradoxal, autonomia continentului în domenii cheie, conform unei analize publicate de cotidianul britanic The Times.</description>
-    </item>
-    <item>
-      <title>Ghețarul Triglav din Slovenia a dispărut complet</title>
-      <link>https://izz.ro/extern/ghetarul-triglav-din-slovenia-a-disparut-complet/</link>
-      <guid>https://izz.ro/extern/ghetarul-triglav-din-slovenia-a-disparut-complet/</guid>
-      <pubDate>Tue, 27 Oct 2026 17:08:47 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/environment/2026/oct/27/slovenia-mourns-loss-glacier-highest-peak-scorching-summer">The Guardian</source>
-      <description>Ultima porțiune de gheață a ghețarului Triglav din Alpi a dispărut în urma verii toride, marcând un nou dezastru ecologic cauzat de schimbările climatice care au accelerat topirea masivă.</description>
     </item>
 </channel></rss>

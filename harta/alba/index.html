@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din Alba — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în Alba, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în Alba, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/alba/">
   <meta property="og:title" content="Știri din Alba — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în Alba, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în Alba, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/alba/">
   <meta name="harta-county" content="ALBA">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/alba/#webpage","url":"https://izz.ro/harta/alba/","name":"Știri din Alba — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Alba, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/alba/#place"},"mainEntity":{"@id":"https://izz.ro/harta/alba/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/alba/#dataset","name":"Harta știrilor — Alba","description":"Știri locale și județene localizate în Alba, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/alba/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/alba/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/alba/#place","name":"Alba","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/alba/#webpage","url":"https://izz.ro/harta/alba/","name":"Știri din Alba — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Alba, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/alba/#place"},"mainEntity":{"@id":"https://izz.ro/harta/alba/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/alba/#dataset","name":"Harta știrilor — Alba","description":"Știri locale și județene localizate în Alba, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/alba/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/alba/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/alba/#place","name":"Alba","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">
@@ -175,14 +180,14 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/garda-austriaca-din-cetatea-alba-carolina-a-defilat-in-afara-programului-oficial/">Garda austriacă din Cetatea Alba Carolina a defilat în afara programului oficial</a> <span>Alba24 · 7 noiembrie 2026, 14:00</span></li>
+          <li><a href="/local/alba-iulia-participa-la-competitia-internationala-de-mediu-we-love-cities-2026/">Alba Iulia participă la competiția internațională de mediu We Love Cities 2026</a> <span>Alba24 · 7 noiembrie 2026, 20:00</span></li>
+<li><a href="/local/trei-autoturisme-au-fost-implicate-intr-un-accident-pe-autostrada-a10/">Trei autoturisme au fost implicate într-un accident pe Autostrada A10</a> <span>Alba24 · 7 noiembrie 2026, 19:23</span></li>
+<li><a href="/local/primaria-alba-iulia-cauta-solutii-tehnice-pentru-a-opri-inclinarea-obeliscului/">Primăria Alba Iulia caută soluții tehnice pentru a opri înclinarea Obeliscului</a> <span>Alba24 · 7 noiembrie 2026, 19:00</span></li>
+<li><a href="/local/copiii-si-parintii-au-sarbatorit-ziua-ingerilor-la-gradinita-12-din-alba-iulia/">Copiii și părinții au sărbătorit Ziua Îngerilor la Grădinița 12 din Alba Iulia</a> <span>Alba24 · 7 noiembrie 2026, 17:00</span></li>
+<li><a href="/local/garda-austriaca-din-cetatea-alba-carolina-a-defilat-in-afara-programului-oficial/">Garda austriacă din Cetatea Alba Carolina a defilat în afara programului oficial</a> <span>Alba24 · 7 noiembrie 2026, 14:00</span></li>
 <li><a href="/local/un-barbat-din-alba-iulia-a-fost-retinut-pentru-violare-de-domiciliu-loviri-si/">Un bărbat din Alba Iulia a fost reținut pentru violare de domiciliu, loviri și amenințare</a> <span>Alba24 · 7 noiembrie 2026, 13:00</span></li>
 <li><a href="/local/accident-rutier-cu-o-singura-masina-implicata-in-petresti-judetul-alba/">Accident rutier cu o singură mașină implicată în Petrești, județul Alba</a> <span>Alba24 · 7 noiembrie 2026, 11:17</span></li>
 <li><a href="/local/barbat-din-santimbru-retinut-dupa-ce-si-a-agresat-mama-si-matusile/">Bărbat din Sântimbru reținut după ce și-a agresat mama și mătușile</a> <span>Alba24 · 7 noiembrie 2026, 11:00</span></li>
-<li><a href="/local/alba-iulia-gazduieste-in-premiera-competitia-internationala-nasa-space-apps/">Alba Iulia găzduiește în premieră competiția internațională NASA Space Apps</a> <span>Alba24 · 7 noiembrie 2026, 08:00</span></li>
-<li><a href="/judetean/politia-din-alba-amplaseaza-radare-pe-principalele-drumuri-nationale/">Poliția din Alba amplasează radare pe principalele drumuri naționale</a> <span>Alba24 · 7 noiembrie 2026, 06:30</span></li>
-<li><a href="/local/primaria-sebes-investeste-peste-10-milioane-de-lei-intr-un-parc-fotovoltaic/">Primăria Sebeș investește peste 10 milioane de lei într-un parc fotovoltaic</a> <span>Alba24 · 6 noiembrie 2026, 20:00</span></li>
-<li><a href="/local/au-fost-desemnati-castigatorii-miss-si-mister-boboc-2026-la-alba-iulia/">Au fost desemnați câștigătorii Miss și Mister Boboc 2026 la Alba Iulia</a> <span>Alba24 · 6 noiembrie 2026, 19:29</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>

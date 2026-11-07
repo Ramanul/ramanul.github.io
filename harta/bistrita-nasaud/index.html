@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din Bistrița-Năsăud — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în Bistrița-Năsăud, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în Bistrița-Năsăud, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/bistrita-nasaud/">
   <meta property="og:title" content="Știri din Bistrița-Năsăud — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în Bistrița-Năsăud, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în Bistrița-Năsăud, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/bistrita-nasaud/">
   <meta name="harta-county" content="BISTRITA-NASAUD">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/bistrita-nasaud/#webpage","url":"https://izz.ro/harta/bistrita-nasaud/","name":"Știri din Bistrița-Năsăud — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Bistrița-Năsăud, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/bistrita-nasaud/#place"},"mainEntity":{"@id":"https://izz.ro/harta/bistrita-nasaud/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/bistrita-nasaud/#dataset","name":"Harta știrilor — Bistrița-Năsăud","description":"Știri locale și județene localizate în Bistrița-Năsăud, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/bistrita-nasaud/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/bistrita-nasaud/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/bistrita-nasaud/#place","name":"Bistrița-Năsăud","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/bistrita-nasaud/#webpage","url":"https://izz.ro/harta/bistrita-nasaud/","name":"Știri din Bistrița-Năsăud — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Bistrița-Năsăud, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/bistrita-nasaud/#place"},"mainEntity":{"@id":"https://izz.ro/harta/bistrita-nasaud/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/bistrita-nasaud/#dataset","name":"Harta știrilor — Bistrița-Năsăud","description":"Știri locale și județene localizate în Bistrița-Năsăud, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/bistrita-nasaud/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/bistrita-nasaud/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/bistrita-nasaud/#place","name":"Bistrița-Năsăud","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">
@@ -175,14 +180,14 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/ovidiu-florean-anunta-ca-ioan-turc-ar-putea-candida-din-partea-aur-la-primatria/">Ovidiu Florean anunță că Ioan Turc ar putea candida din partea AUR la Primătria Bistrița</a> <span>Bistrițeanul.ro · 7 noiembrie 2026, 14:23</span></li>
+          <li><a href="/local/cercul-astrist-din-bargau-a-marcat-o-zi-importanta-pentru-istoria-locala/">Cercul astrist din Bârgău a marcat o zi importantă pentru istoria locală</a> <span>Răsunetul · 7 noiembrie 2026, 16:26</span></li>
+<li><a href="/local/profesorii-de-la-colegiul-liviu-rebreanu-au-primit-o-parcare-noua/">Profesorii de la Colegiul Liviu Rebreanu au primit o parcare nouă</a> <span>Bistrițeanul.ro · 7 noiembrie 2026, 15:50</span></li>
+<li><a href="/judetean/doua-persoane-arestate-in-bistrita-nasaud-pentru-contrabanda-cu-arme/">Două persoane arestate în Bistrița-Năsăud pentru contrabandă cu arme</a> <span>Bistrițeanul.ro · 7 noiembrie 2026, 15:37</span></li>
+<li><a href="/local/o-casa-a-ars-la-budesti-fanate-iar-o-femeie-a-ajuns-la-spital/">O casă a ars la Budești-Fânațe, iar o femeie a ajuns la spital</a> <span>Bistrițeanul.ro · 7 noiembrie 2026, 14:53</span></li>
+<li><a href="/local/ovidiu-florean-anunta-ca-ioan-turc-ar-putea-candida-din-partea-aur-la-primatria/">Ovidiu Florean anunță că Ioan Turc ar putea candida din partea AUR la Primătria Bistrița</a> <span>Bistrițeanul.ro · 7 noiembrie 2026, 14:23</span></li>
+<li><a href="/local/masuri-preventive-in-bistrita-nasaud-dupa-27-de-perchezitii/">Măsuri preventive în Bistrița-Năsăud după 27 de percheziții</a> <span>TimpOnline.ro · 7 noiembrie 2026, 13:55</span></li>
 <li><a href="/local/tinerii-din-bistrita-manifesta-interes-crescut-pentru-concursul-de-romante/">Tinerii din Bistrița manifestă interes crescut pentru concursul de romanțe</a> <span>Bistrițeanul.ro · 7 noiembrie 2026, 13:21</span></li>
 <li><a href="/local/apa-oprita-in-localitatea-sieu-din-cauza-unei-avarii/">Apă oprită în localitatea Șieu din cauza unei avarii</a> <span>Bistrițeanul.ro · 7 noiembrie 2026, 12:52</span></li>
-<li><a href="/local/incendiu-izbucnit-la-o-locuinta-din-budesti-fanate/">Incendiu izbucnit la o locuință din Budești-Fânațe</a> <span>Răsunetul · 7 noiembrie 2026, 11:40</span></li>
-<li><a href="/local/padurea-schullerwald-din-bistrita-va-gazdui-evenimentul-de-alergare-tomnatica/">Pădurea Schullerwald din Bistrița va găzdui evenimentul de alergare tomnatică</a> <span>Bistrițeanul.ro · 7 noiembrie 2026, 11:12</span></li>
-<li><a href="/local/santierul-de-pe-calea-moldovei-din-bistrita-se-incheie-in-noiembrie/">Șantierul de pe Calea Moldovei din Bistrița se încheie în noiembrie</a> <span>TimpOnline.ro · 7 noiembrie 2026, 06:24</span></li>
-<li><a href="/local/progres-vizibil-la-modernizarea-parcului-din-sangeorz-bai/">Progres vizibil la modernizarea parcului din Sângeorz-Băi</a> <span>TimpOnline.ro · 7 noiembrie 2026, 04:26</span></li>
-<li><a href="/local/festivalul-national-de-film-etnografic-ethos-isi-desemneaza-finalistii/">Festivalul Național de Film Etnografic Ethos își desemnează finaliștii</a> <span>TimpOnline.ro · 7 noiembrie 2026, 04:00</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>

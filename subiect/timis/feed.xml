@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/timis/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Timiș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 07 Nov 2026 13:18:20 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 18:22:58 +0000</lastBuildDate>
+    <item>
+      <title>Inginerii testează în Peștera Românești roboți destinați misiunilor spațiale pe Lună</title>
+      <link>https://izz.ro/local/inginerii-testeaza-in-pestera-romanesti-roboti-destinati-misiunilor-spatiale-pe/</link>
+      <guid>https://izz.ro/local/inginerii-testeaza-in-pestera-romanesti-roboti-destinati-misiunilor-spatiale-pe/</guid>
+      <pubDate>Sat, 07 Nov 2026 17:31:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://observatornews.ro/eveniment/pestera-din-romania-unde-sunt-testati-robotii-care-vor-fi-trimisi-pe-luna-671610.html">Observator</source>
+      <description>Specialiștii în robotică își pun la încercare prototipurile spațiale în mediul subteran dificil din Peștera Românești, sub supravegherea unui expert internațional din Japonia, pentru a simula condiții de pe alte corpuri cerești.</description>
+    </item>
     <item>
       <title>Accident mortal pe centura din județul Timiș</title>
       <link>https://izz.ro/judetean/accident-mortal-pe-centura-din-judetul-timis/</link>
@@ -140,14 +149,5 @@
       <category>judetean</category>
       <source url="https://www.ziuadevest.ro/numaratoarea-inversa-a-inceput-elita-afacerilor-timisene-se-reuneste-la-gala-excelentei-in-afaceri/">Ziua de Vest</source>
       <description>Centrul Regional de Afaceri al CCIAT va găzdui vineri, 30 octombrie, evenimentul Topul Firmelor din Județul Timiș, destinat premierii performanței antreprenoriale locale în context economic complex.</description>
-    </item>
-    <item>
-      <title>Ultima etapă a anchetei de trafic pe drumurile din Hunedoara</title>
-      <link>https://izz.ro/local/ultima-etapa-a-anchetei-de-trafic-pe-drumurile-din-hunedoara/</link>
-      <guid>https://izz.ro/local/ultima-etapa-a-anchetei-de-trafic-pe-drumurile-din-hunedoara/</guid>
-      <pubDate>Tue, 27 Oct 2026 15:00:34 +0000</pubDate>
-      <category>local</category>
-      <source url="https://servuspress.ro/ancheta-in-trafic-origine-destinatie-ultima-etapa-de-colectare-a-datelor-miercuri-si-pe-drumuri-din-judetul-hunedoara_350863.html">Servuspress</source>
-      <description>Autoritățile finalizează colectarea datelor despre circulația rutieră pe mai multe șosele naționale și autostrăzi din vestul țării, inclusiv în județul Hunedoara.</description>
     </item>
 </channel></rss>

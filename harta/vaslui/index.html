@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din Vaslui — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în Vaslui, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în Vaslui, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/vaslui/">
   <meta property="og:title" content="Știri din Vaslui — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în Vaslui, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în Vaslui, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/vaslui/">
   <meta name="harta-county" content="VASLUI">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/vaslui/#webpage","url":"https://izz.ro/harta/vaslui/","name":"Știri din Vaslui — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Vaslui, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/vaslui/#place"},"mainEntity":{"@id":"https://izz.ro/harta/vaslui/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/vaslui/#dataset","name":"Harta știrilor — Vaslui","description":"Știri locale și județene localizate în Vaslui, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/vaslui/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/vaslui/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/vaslui/#place","name":"Vaslui","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/vaslui/#webpage","url":"https://izz.ro/harta/vaslui/","name":"Știri din Vaslui — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Vaslui, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/vaslui/#place"},"mainEntity":{"@id":"https://izz.ro/harta/vaslui/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/vaslui/#dataset","name":"Harta știrilor — Vaslui","description":"Știri locale și județene localizate în Vaslui, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/vaslui/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/vaslui/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/vaslui/#place","name":"Vaslui","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">
@@ -175,14 +180,14 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/o-pacienta-din-iasi-a-ajuns-la-urgente-cu-o-alcolemie-de-sapte-la-mie/">O pacientă din Iași a ajuns la Urgențe cu o alcolemie de șapte la mie</a> <span>Vremea Nouă · 7 noiembrie 2026, 12:18</span></li>
+          <li><a href="/local/cristina-bitlan-patroana-musette-s-a-casatorit-la-53-de-ani/">Cristina Bîtlan, patroana Musette, s-a căsătorit la 53 de ani</a> <span>Vremea Nouă · 7 noiembrie 2026, 14:47</span></li>
+<li><a href="/local/o-pacienta-din-iasi-a-ajuns-la-urgente-cu-o-alcolemie-de-sapte-la-mie/">O pacientă din Iași a ajuns la Urgențe cu o alcolemie de șapte la mie</a> <span>Vremea Nouă · 7 noiembrie 2026, 12:18</span></li>
+<li><a href="/local/tragic-incendiu-la-un-adapost-de-animale-din-judetul-iasi/">Tragic incendiu la un adăpost de animale din județul Iași</a> <span>Vremea Nouă · 7 noiembrie 2026, 12:17</span></li>
 <li><a href="/local/nereguli-majore-semnalate-la-spitalul-judetean-mavromati-din-botosani/">Nereguli majore semnalate la Spitalul Județean Mavromati din Botoșani</a> <span>Vremea Nouă · 7 noiembrie 2026, 12:14</span></li>
 <li><a href="/local/curtea-de-conturi-a-descoperit-zeci-de-nereguli-la-o-primarie-din-iasi/">Curtea de Conturi a descoperit zeci de nereguli la o primărie din Iași</a> <span>Vremea Nouă · 7 noiembrie 2026, 12:13</span></li>
 <li><a href="/local/primaria-ciurea-distribuie-apartamente-sociale-in-baza-unor-criterii-contestate/">Primăria Ciurea distribuie apartamente sociale în baza unor criterii contestate</a> <span>Vremea Nouă · 7 noiembrie 2026, 12:07</span></li>
 <li><a href="/local/localnicii-din-comuna-laza-reclama-prezenta-viermilor-in-apa-de-la-robinet/">Localnicii din comuna Laza reclamă prezența viermilor în apa de la robinet</a> <span>Vremea Nouă · 6 noiembrie 2026, 22:19</span></li>
 <li><a href="/local/trupul-neinsufletit-al-fetitei-din-husi-decedate-in-italia-a-fost-adus-in/">Trupul neînsuflețit al fetiței din Huși decedate în Italia a fost adus în orașul natal</a> <span>Vremea Nouă · 6 noiembrie 2026, 20:51</span></li>
-<li><a href="/local/un-autoturism-a-ars-in-proportie-de-90-pe-autostrada-moldovei-a7/">Un autoturism a ars în proporție de 90% pe Autostrada Moldovei A7</a> <span>Vremea Nouă · 6 noiembrie 2026, 19:21</span></li>
-<li><a href="/judetean/fragmente-de-drona-descoperite-in-neamt-vor-fi-detonate-controlat/">Fragmente de dronă descoperite în Neamț vor fi detonate controlat</a> <span>Vremea Nouă · 6 noiembrie 2026, 19:20</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>

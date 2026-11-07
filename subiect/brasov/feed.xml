@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/brasov/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Brașov pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 07 Nov 2026 13:18:20 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 18:22:58 +0000</lastBuildDate>
+    <item>
+      <title>Construcția Sălii Polivalente din Brașov a depășit stadiul de 75% din execuție</title>
+      <link>https://izz.ro/local/constructia-salii-polivalente-din-brasov-a-depasit-stadiul-de-75-din-executie/</link>
+      <guid>https://izz.ro/local/constructia-salii-polivalente-din-brasov-a-depasit-stadiul-de-75-din-executie/</guid>
+      <pubDate>Sat, 07 Nov 2026 15:09:26 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/sport/sala-polivalenta-din-brasov-prinde-contur-intre-spectacolul-ingineresc-si-factura-uriasa-de-121-de-milioane-de-euro/">MyTex</source>
+      <description>Cel mai important obiectiv de infrastructură sportivă din centrul țării, situat în cartierul Bartolomeu, a ajuns la trei sferturi din realizare, în pofida costurilor ridicate și a numeroaselor întârzieri.</description>
+    </item>
     <item>
       <title>Poliția a aplicat amenzi de peste 12.000 de lei în județul Brașov</title>
       <link>https://izz.ro/local/politia-a-aplicat-amenzi-de-peste-12-000-de-lei-in-judetul-brasov/</link>
@@ -32,6 +41,15 @@
       <category>local</category>
       <source url="https://mytex.ro/delicte/inselaciune-de-280-000-de-euro-anchetata-la-brasov-opt-perchezitii-in-cluj-si-bistrita-nasaud-doua-persoane-retinute/">MyTex</source>
       <description>Polițiștii au efectuat percheziții în județele Cluj și Bistrița-Năsăud într-un dosar de înșelăciune cu un prejudiciu estimat la 280.000 de euro, reținând două persoane pentru 24 de ore.</description>
+    </item>
+    <item>
+      <title>Zeci de percheziții la Tărlungeni într-un caz de poluare</title>
+      <link>https://izz.ro/local/zeci-de-perchezitii-la-tarlungeni-intr-un-caz-de-poluare/</link>
+      <guid>https://izz.ro/local/zeci-de-perchezitii-la-tarlungeni-intr-un-caz-de-poluare/</guid>
+      <pubDate>Sat, 07 Nov 2026 10:08:05 +0000</pubDate>
+      <category>local</category>
+      <source url="https://mytex.ro/delicte/brasov-descinderi-de-amploare-in-tarlungeni-video-22-de-perchezitii-intr-un-dosar-de-poluare/">MyTex</source>
+      <description>Polițiștii brașoveni au efectuat douăzeci și două de descinderi într-un dosar de gestionare ilegală a deșeurilor, descoperind douăzeci și cinci de tone de materiale periculoase provenite din dezmembrări.</description>
     </item>
     <item>
       <title>Târgul de Crăciun din Brașov, printre cele mai ieftine din Europa</title>
@@ -437,23 +455,5 @@
       <category>local</category>
       <source url="https://newsbv.ro/planul-de-amenajare-brasov/">News Brașov</source>
       <description>Reprezentanții Direcției Arhitect-Șef din Brașov au prezentat forma finală a Planului de Amenajare a Teritoriului Județean. Documentul strategic stabilește principalele direcții de dezvoltare urbană și economică ale regiunii până în anul 2030.</description>
-    </item>
-    <item>
-      <title>Opereta Sânge vienez de Johann Strauss, prezentată la Opera Brașov</title>
-      <link>https://izz.ro/local/opereta-sange-vienez-de-johann-strauss-prezentata-la-opera-brasov/</link>
-      <guid>https://izz.ro/local/opereta-sange-vienez-de-johann-strauss-prezentata-la-opera-brasov/</guid>
-      <pubDate>Tue, 03 Nov 2026 09:33:51 +0000</pubDate>
-      <category>local</category>
-      <source url="https://bizbrasov.ro/2026/11/03/brasov-operei-sange-vienez-scena/">BizBrașov</source>
-      <description>Sala Operei Brașov găzduiește spectacolul cu celebra operetă compusă de Johann Strauss-fiul, programat pentru sâmbătă, 7 noiembrie, în fața publicului iubitor de muzică clasică.</description>
-    </item>
-    <item>
-      <title>Consiliera locală PSD Raluca Stancu din Brașov a demisionat după o reținere pentru înșelăciune</title>
-      <link>https://izz.ro/local/consiliera-locala-psd-raluca-stancu-din-brasov-a-demisionat-dupa-o-retinere/</link>
-      <guid>https://izz.ro/local/consiliera-locala-psd-raluca-stancu-din-brasov-a-demisionat-dupa-o-retinere/</guid>
-      <pubDate>Sun, 01 Nov 2026 19:11:52 +0000</pubDate>
-      <category>local</category>
-      <source url="https://damboviteanul.ro/brasov-consiliera-locala-raluca-stancu-psd-retinuta-intr-un-dosar-de-inselaciune-si-a-dat-demisia-din-consiliul-local/">Dâmbovițeanul</source>
-      <description>Raluca Stancu, consilier local PSD în Brașov, a demisionat din funcție și s-a suspendat din partid în urma unei rețineri de 24 de ore. Ancheta vizează suspiciuni de înșelăciune, procurorii desfășurând percheziții în acest caz.</description>
     </item>
 </channel></rss>

@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din Prahova — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în Prahova, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în Prahova, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/prahova/">
   <meta property="og:title" content="Știri din Prahova — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în Prahova, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în Prahova, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/prahova/">
   <meta name="harta-county" content="PRAHOVA">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/prahova/#webpage","url":"https://izz.ro/harta/prahova/","name":"Știri din Prahova — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Prahova, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/prahova/#place"},"mainEntity":{"@id":"https://izz.ro/harta/prahova/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/prahova/#dataset","name":"Harta știrilor — Prahova","description":"Știri locale și județene localizate în Prahova, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/prahova/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/prahova/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/prahova/#place","name":"Prahova","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/prahova/#webpage","url":"https://izz.ro/harta/prahova/","name":"Știri din Prahova — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Prahova, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/prahova/#place"},"mainEntity":{"@id":"https://izz.ro/harta/prahova/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/prahova/#dataset","name":"Harta știrilor — Prahova","description":"Știri locale și județene localizate în Prahova, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/prahova/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/prahova/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/prahova/#place","name":"Prahova","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">
@@ -175,14 +180,14 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/spitalul-judetean-de-urgenta-ploiesti-organizeaza-concursuri-pentru-ocuparea/">Spitalul Județean de Urgență Ploiești organizează concursuri pentru ocuparea mai multor posturi medicale</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 12:58</span></li>
+          <li><a href="/local/copii-din-breaza-au-castigat-campionatul-international-de-aritmetica-mentala/">Copii din Breaza au câștigat campionatul internațional de aritmetică mentală</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 19:59</span></li>
+<li><a href="/local/o-mama-din-ploiesti-lauda-devotamentul-unui-medic-pediatru/">O mamă din Ploiești laudă devotamentul unui medic pediatru</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 18:58</span></li>
+<li><a href="/local/romania-a-stabilit-un-nou-record-mondial-la-plantarea-simultana-de-arbori/">România a stabilit un nou record mondial la plantarea simultană de arbori</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 17:59</span></li>
+<li><a href="/judetean/scaderea-numarului-de-elevi-a-dus-la-desfiintarea-a-472-de-posturi-scolare-in/">Scăderea numărului de elevi a dus la desființarea a 472 de posturi școlare în Prahova</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 16:58</span></li>
+<li><a href="/local/spitalul-judetean-de-urgenta-ploiesti-organizeaza-concursuri-pentru-ocuparea/">Spitalul Județean de Urgență Ploiești organizează concursuri pentru ocuparea mai multor posturi medicale</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 12:58</span></li>
 <li><a href="/local/sala-de-fitness-din-ploiesti-ofera-zile-gratuite-de-antrenament-de-black-friday/">Sală de fitness din Ploiești oferă zile gratuite de antrenament de Black Friday</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 12:06</span></li>
 <li><a href="/judetean/ministrul-mediului-ofera-clarificari-privind-situatia-barajului-paltinu/">Ministrul Mediului oferă clarificări privind situația barajului Paltinu</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 12:01</span></li>
 <li><a href="/judetean/pregatirea-pachetelor-de-pomana-pentru-mosii-de-toamna-in-prahova/">Pregătirea pachetelor de pomană pentru Moșii de toamnă în Prahova</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 11:58</span></li>
-<li><a href="/local/petrolul-ploiesti-a-invins-la-arad-si-a-obtinut-primul-succes-pe-noua-arena/">Petrolul Ploiești a învins la Arad și a obținut primul succes pe noua arenă</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 10:59</span></li>
-<li><a href="/local/doua-persoane-amendate-la-azuga-pentru-taierea-ilegala-a-cetinei-de-brad/">Două persoane amendate la Azuga pentru tăierea ilegală a cetinei de brad</a> <span>Observatorul Prahovean · 7 noiembrie 2026, 10:50</span></li>
-<li><a href="/local/jugureni-este-comuna-din-prahova-afectata-de-depopulare-si-imbatranire/">Jugureni este comuna din Prahova afectată de depopulare și îmbătrânire</a> <span>Observatorul Prahovean · 6 noiembrie 2026, 19:59</span></li>
-<li><a href="/local/ploiestiul-ar-putea-mentine-taxele-locale-neschimbate-in-2027/">Ploieștiul ar putea menține taxele locale neschimbate în 2027</a> <span>Observatorul Prahovean · 6 noiembrie 2026, 17:02</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>

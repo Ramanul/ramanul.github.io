@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din Cluj — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în Cluj, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în Cluj, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/cluj/">
   <meta property="og:title" content="Știri din Cluj — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în Cluj, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în Cluj, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/cluj/">
   <meta name="harta-county" content="CLUJ">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/cluj/#webpage","url":"https://izz.ro/harta/cluj/","name":"Știri din Cluj — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Cluj, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/cluj/#place"},"mainEntity":{"@id":"https://izz.ro/harta/cluj/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/cluj/#dataset","name":"Harta știrilor — Cluj","description":"Știri locale și județene localizate în Cluj, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/cluj/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/cluj/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/cluj/#place","name":"Cluj","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/cluj/#webpage","url":"https://izz.ro/harta/cluj/","name":"Știri din Cluj — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Cluj, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/cluj/#place"},"mainEntity":{"@id":"https://izz.ro/harta/cluj/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/cluj/#dataset","name":"Harta știrilor — Cluj","description":"Știri locale și județene localizate în Cluj, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/cluj/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/cluj/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/cluj/#place","name":"Cluj","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">
@@ -175,14 +180,14 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/judetean/moment-istoric-pentru-sistemul-sanitar-clujean-si-din-intreaga-transilvanie/">Moment istoric pentru sistemul sanitar clujean și din întreaga Transilvanie</a> <span>CJ Cluj · 7 noiembrie 2026, 14:59</span></li>
-<li><a href="/judetean/ministrul-sanatatii-promite-alocarea-de-fonduri-pentru-spitalul-pediatric/">Ministrul Sănătății promite alocarea de fonduri pentru Spitalul Pediatric Monobloc din Cluj în 2027</a> <span>Ziua de Cluj · 7 noiembrie 2026, 13:01</span></li>
+          <li><a href="/local/spitalul-pediatric-monobloc-din-cluj-napoca-va-primi-finantare-ministeriala/">Spitalul Pediatric Monobloc din Cluj-Napoca va primi finanțare ministerială</a> <span>Gazeta de Cluj · 7 noiembrie 2026, 20:04</span></li>
+<li><a href="/judetean/extinderea-urbana-din-anii-30-a-impus-introducerea-troleibuzului-in-cluj/">Extinderea urbană din anii &#x27;30 a impus introducerea troleibuzului în Cluj</a> <span>Ziua de Cluj · 7 noiembrie 2026, 17:08</span></li>
+<li><a href="/judetean/ministrul-sanatatii-anunta-demiteri-pentru-medici-la-trei-abateri/">Ministrul Sănătății anunță demiteri pentru medici la trei abateri</a> <span>Ziua de Cluj · 7 noiembrie 2026, 16:01</span></li>
+<li><a href="/judetean/moment-istoric-pentru-sistemul-sanitar-clujean-si-din-intreaga-transilvanie/">Moment istoric pentru sistemul sanitar clujean și din întreaga Transilvanie</a> <span>CJ Cluj · 7 noiembrie 2026, 14:59</span></li>
+<li><a href="/local/romanii-din-balcani-solicita-sprijin-pentru-pastrarea-identitatii/">Românii din Balcani solicită sprijin pentru păstrarea identității</a> <span>Gazeta de Cluj · 7 noiembrie 2026, 13:46</span></li>
 <li><a href="/local/razie-a-autoritatilor-pe-strada-piezisa-din-cluj-napoca/">Razie a autorităților pe strada Piezișă din Cluj-Napoca</a> <span>Gazeta de Cluj · 7 noiembrie 2026, 12:43</span></li>
 <li><a href="/judetean/youtuberul-american-sonny-side-a-vizitat-cartierul-pata-rat-din-cluj/">Youtuberul american Sonny Side a vizitat cartierul Pata Rât din Cluj</a> <span>Ziua de Cluj · 7 noiembrie 2026, 12:31</span></li>
 <li><a href="/judetean/adrian-magdas-este-favorit-la-conducerea-inspectoratului-scolar-cluj/">Adrian Magdaș este favorit la conducerea Inspectoratului Școlar Cluj</a> <span>Ziua de Cluj · 7 noiembrie 2026, 12:00</span></li>
-<li><a href="/local/sofer-in-varsta-de-75-de-ani-surprins-conducand-pe-contrasens-in-cluj-napoca/">Șofer în vârstă de 75 de ani, surprins conducând pe contrasens în Cluj-Napoca</a> <span>Ziua de Cluj · 7 noiembrie 2026, 11:12</span></li>
-<li><a href="/judetean/primarul-emil-boc-ofera-solutii-pentru-pisicile-care-urca-pe-masini/">Primarul Emil Boc oferă soluții pentru pisicile care urcă pe mașini</a> <span>Ziua de Cluj · 7 noiembrie 2026, 11:00</span></li>
-<li><a href="/judetean/alin-tise-isi-lanseaza-candidatura-la-sefia-pnl-sprijinit-de-primari/">Alin Tișe își lansează candidatura la șefia PNL sprijinit de primari</a> <span>Gazeta de Cluj · 7 noiembrie 2026, 10:44</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>

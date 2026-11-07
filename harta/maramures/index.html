@@ -4,22 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Știri din Maramureș — Harta știrilor IZZ.ro</title>
-  <meta name="description" content="Știri locale și județene localizate în Maramureș, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta name="description" content="Știri locale și județene localizate în Maramureș, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <!-- Singura pagina publica fara `templates/base.html` (vezi specs/harta-*.md), deci singura
        care nu mostenea og:image. Fara ele, linkul hartii pe WhatsApp/Facebook/LinkedIn iese
-       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03. -->
+       cu card gol — prins de `tools/og_image_audit.py` (intrebarea 7), 2026-10-03.
+       `twitter:card` lipseste din acelasi motiv si NU se mosteneste din `og:image`: fara el
+       X/Twitter afiseaza cardul `summary` (imagine mica), desi pagina declara 1200x630.
+       Amandoua sunt mostenite de toate cele 43 de pagini `/harta/` si `/harta/<judet>/`,
+       care se randeaza din fisierul asta (`generator/render.py::_render_harta_shell`). -->
   <meta property="og:image" content="https://izz.ro/static/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
   <link rel="stylesheet" href="/static/harta-stiri/vendor/maplibre/maplibre-gl.css">
   <link rel="stylesheet" href="/static/harta-stiri/harta-stiri.css?v=eccdcfb5">
   <link rel="canonical" href="https://izz.ro/harta/maramures/">
   <meta property="og:title" content="Știri din Maramureș — Harta știrilor IZZ.ro">
-  <meta property="og:description" content="Știri locale și județene localizate în Maramureș, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.">
+  <meta property="og:description" content="Știri locale și județene localizate în Maramureș, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.">
   <meta property="og:url" content="https://izz.ro/harta/maramures/">
   <meta name="harta-county" content="MARAMURES">
-  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/maramures/#webpage","url":"https://izz.ro/harta/maramures/","name":"Știri din Maramureș — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Maramureș, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/maramures/#place"},"mainEntity":{"@id":"https://izz.ro/harta/maramures/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/maramures/#dataset","name":"Harta știrilor — Maramureș","description":"Știri locale și județene localizate în Maramureș, afișate pe harta IZZ.ro. Numărul indică evenimentele sau relatările afișate, nu statistica oficială a incidentelor.","url":"https://izz.ro/harta/maramures/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/maramures/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/maramures/#place","name":"Maramureș","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
+  <script id="harta-jsonld" type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":["Organization","NewsMediaOrganization"],"@id":"https://izz.ro/#organization","name":"IZZ.ro","url":"https://izz.ro","logo":{"@type":"ImageObject","@id":"https://izz.ro/#logo","url":"https://izz.ro/static/logo.png","width":512,"height":512},"email":"contact@izz.ro","description":"Știri românești, cu surse la vedere","publishingPrinciples":"https://izz.ro/legal/method/","correctionsPolicy":"https://izz.ro/legal/corrections/","actionableFeedbackPolicy":"https://izz.ro/legal/contact/"},{"@type":"WebSite","@id":"https://izz.ro/#website","url":"https://izz.ro/","name":"IZZ.ro","description":"Știri românești, cu surse la vedere","inLanguage":"ro","publisher":{"@id":"https://izz.ro/#organization"}},{"@type":"WebPage","@id":"https://izz.ro/harta/maramures/#webpage","url":"https://izz.ro/harta/maramures/","name":"Știri din Maramureș — Harta știrilor IZZ.ro","description":"Știri locale și județene localizate în Maramureș, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","inLanguage":"ro","isPartOf":{"@id":"https://izz.ro/#website"},"about":{"@id":"https://izz.ro/harta/maramures/#place"},"mainEntity":{"@id":"https://izz.ro/harta/maramures/#dataset"}},{"@type":"Dataset","@id":"https://izz.ro/harta/maramures/#dataset","name":"Harta știrilor — Maramureș","description":"Știri locale și județene localizate în Maramureș, pe harta IZZ.ro. Numărul arată evenimentele afișate, nu o statistică oficială a incidentelor.","url":"https://izz.ro/harta/maramures/","inLanguage":"ro","spatialCoverage":{"@id":"https://izz.ro/harta/maramures/#place"},"creator":{"@id":"https://izz.ro/#organization"}},{"@type":"AdministrativeArea","@id":"https://izz.ro/harta/maramures/#place","name":"Maramureș","containedInPlace":{"@type":"Country","name":"România"}}]}</script>
 </head>
 <body>
   <header class="map-header">
@@ -175,14 +180,14 @@
         </div>
         <div id="panel-provenance" class="panel-provenance" aria-live="polite" hidden></div>
         <ul id="news-list" class="news-list">
-          <li><a href="/local/biserica-ortodoxa-din-asuaju-de-jos-isi-serbeaza-hramul-istoric/">Biserica ortodoxă din Asuaju de Jos își serbează hramul istoric</a> <span>eMaramureș · 7 noiembrie 2026, 14:30</span></li>
+          <li><a href="/judetean/asociatia-assoc-ofera-sprijin-educational-si-financiar-elevilor-din-maramures/">Asociația ASSOC oferă sprijin educațional și financiar elevilor din Maramureș</a> <span>eMaramureș · 7 noiembrie 2026, 19:00</span></li>
+<li><a href="/local/biblioteca-judeteana-din-baia-mare-gazduieste-lansarea-volumului-loticai-vaida/">Biblioteca Județeană din Baia Mare găzduiește lansarea volumului Loticăi Vaida</a> <span>eMaramureș · 7 noiembrie 2026, 18:00</span></li>
+<li><a href="/local/un-accident-rutier-intre-o-masina-si-o-motocicleta-s-a-soldat-cu-doi-raniti-in/">Un accident rutier între o mașină și o motocicletă s-a soldat cu doi răniți în Seini</a> <span>eMaramureș · 7 noiembrie 2026, 17:06</span></li>
+<li><a href="/local/elevii-din-baia-mare-au-explorat-lumea-preistorica-la-muzeu/">Elevii din Baia Mare au explorat lumea preistorică la muzeu</a> <span>eMaramureș · 7 noiembrie 2026, 16:00</span></li>
+<li><a href="/local/biserica-ortodoxa-din-asuaju-de-jos-isi-serbeaza-hramul-istoric/">Biserica ortodoxă din Asuaju de Jos își serbează hramul istoric</a> <span>eMaramureș · 7 noiembrie 2026, 14:30</span></li>
 <li><a href="/local/sofer-baut-si-fara-permis-retinut-dupa-ce-a-lovit-un-podet-in-nanesti/">Șofer băut și fără permis reținut după ce a lovit un podeț în Nănești</a> <span>eMaramureș · 7 noiembrie 2026, 13:39</span></li>
 <li><a href="/local/parohia-ortodoxa-nanesti-organizeaza-hramul-bisericii-de-sfintii-arhangheli/">Parohia Ortodoxă Nănești organizează hramul bisericii de Sfinții Arhangheli</a> <span>eMaramureș · 7 noiembrie 2026, 13:30</span></li>
 <li><a href="/local/contrabanda-cu-tigari-oprita-de-politistii-din-valea-viseului/">Contrabandă cu țigări oprită de polițiștii din Valea Vișeului</a> <span>eMaramureș · 7 noiembrie 2026, 11:30</span></li>
-<li><a href="/local/zacamantul-baia-sprie-a-devenit-primul-sit-geologic-din-romania-inclus-in/">Zăcământul Baia Sprie a devenit primul sit geologic din România inclus în patrimoniul mondial IUGS</a> <span>eMaramureș · 7 noiembrie 2026, 10:30</span></li>
-<li><a href="/local/autoritatile-au-emis-mesaje-ro-alert-in-maramures-din-cauza-prezentei-ursilor/">Autoritățile au emis mesaje RO-ALERT în Maramureș din cauza prezenței urșilor</a> <span>eMaramureș · 7 noiembrie 2026, 07:53</span></li>
-<li><a href="/judetean/continua-deversarile-de-ape-acide-si-tratarea-cu-var-a-minelor-din-maramures/">Continuă deversările de ape acide și tratarea cu var a minelor din Maramureș</a> <span>eMaramureș · 7 noiembrie 2026, 00:13</span></li>
-<li><a href="/local/ruinele-bazilicii-dominicane-din-rodna-rezista-ca-monument-istoric-medieval/">Ruinele Bazilicii Dominicane din Rodna rezistă ca monument istoric medieval</a> <span>eMaramureș · 6 noiembrie 2026, 21:00</span></li>
         </ul>
         <button type="button" id="show-more" class="show-more" hidden>Arată mai multe rezultate</button>
       </aside>
