@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 07 Nov 2026 18:23:14 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 07 Nov 2026 22:08:45 +0000</lastBuildDate>
     <item>
       <title>Turcia a testat drona Bayraktar TB2 ca platformă pentru lansarea munițiilor kamikaze</title>
       <link>https://izz.ro/tech/turcia-a-testat-drona-bayraktar-tb2-ca-platforma-pentru-lansarea-munitiilor/</link>
@@ -41,6 +41,15 @@
       <category>tech</category>
       <source url="https://www.profit.ro/povesti-cu-profit/airbnb-vine-cu-o-noua-schimbare-asistent-ai-care-ii-va-ajuta-pe-calatori-sa-isi-organizeze-vacantele-sa-compare-case-si-sa-rezolve-rapid-diferite-probleme-22959288?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Platforma de închirieri locuințe lansează o unealtă digitală inteligentă menită să ajute utilizatorii să își planifice călătoriile, să compare opțiunile de cazare și să rezolve rapid eventualele probleme.</description>
+    </item>
+    <item>
+      <title>Comisia Europeană analizează sancționarea TikTok pentru algoritmi nocivi</title>
+      <link>https://izz.ro/tech/comisia-europeana-analizeaza-sanctionarea-tiktok-pentru-algoritmi-nocivi/</link>
+      <guid>https://izz.ro/tech/comisia-europeana-analizeaza-sanctionarea-tiktok-pentru-algoritmi-nocivi/</guid>
+      <pubDate>Sat, 07 Nov 2026 13:33:43 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.tion.ro/mapamond/ue-ar-putea-amenda-tiktok-pentru-efectele-algoritmului-asupra-sanatatii-mintale-a-utilizatorilor-2385630/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
+      <description>Reprezentanții Uniunii Europene avertizează că sistemul de recomandări al platformei TikTok favorizează conținut repetitiv dăunător sănătății mintale, compania riscând amenzi substanțiale pentru modul în care își ține utilizatorii captivi.</description>
     </item>
     <item>
       <title>Aplicația Microsoft Paint din Windows are o vulnerabilitate majoră</title>
@@ -446,14 +455,5 @@
       <category>tech</category>
       <source url="https://www.profit.ro/povesti-cu-profit/it-c/premiera-atac-informatic-amploare-romanii-bitdefender-au-depistat-premiera-europa-scoli-marea-britanie-atac-ransomware-prezinta-indicii-comportamentale-atacatorii-lucreaza-alaturi-agenti-22937623?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro, ZonaIT</source>
       <description>Investigația arată că atacatorii au urmat etape precum furtul datelor de acces, crearea de conturi neautorizate de administrator, conectarea domeniilor și criptarea sistemelor. Elementul distinctiv al atacului constă în împărțirea sarcinilor între intervenția unui operator uman și utilizarea unui agent AI pentru executarea de comenzi și ajustarea abordării. Semnalele privind implicarea AI includ erori specifice comenzilor reproduse din modelele de inteligență artificială și un ritm al operațiunilor cu încercări repetate la intervale de 40 până la 100 de secunde. Cercetarea menționează că deciziile importante erau separate de pauze de câteva...</description>
-    </item>
-    <item>
-      <title>Rezultatele alegerilor din SUA afectează marile companii de tehnologie și miliardarii din Silicon Valley</title>
-      <link>https://izz.ro/tech/rezultatele-alegerilor-din-sua-afecteaza-marile-companii-de-tehnologie-si/</link>
-      <guid>https://izz.ro/tech/rezultatele-alegerilor-din-sua-afecteaza-marile-companii-de-tehnologie-si/</guid>
-      <pubDate>Wed, 04 Nov 2026 10:28:36 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://economedia.ro/alegerile-din-sua-pun-presiune-pe-miliardarii-din-tehnologie-si-industria-ai-americanii-au-sanctionat-scumpirile-si-influenta-marilor-companii-asupra-economiei.html">Economedia</source>
-      <description>Succesul democraților trimite un semnal de alarmă giganților din IT și finanțatorilor care au susținut candidații republicani, pe fondul nemulțumirilor cetățenilor legate de costul ridicat al vieții și influența corporatistă.</description>
     </item>
 </channel></rss>
