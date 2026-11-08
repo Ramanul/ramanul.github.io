@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/londra/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Londra pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 08 Nov 2026 01:43:20 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 09:18:16 +0000</lastBuildDate>
+    <item>
+      <title>Vulnerabilitățile cibernetice stârnesc îngrijorări privind securitatea IT</title>
+      <link>https://izz.ro/tech/vulnerabilitatile-cibernetice-starnesc-ingrijorari-privind-securitatea-it/</link>
+      <guid>https://izz.ro/tech/vulnerabilitatile-cibernetice-starnesc-ingrijorari-privind-securitatea-it/</guid>
+      <pubDate>Sun, 08 Nov 2026 06:00:33 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.theguardian.com/news/ng-interactive/2026/nov/08/hot-fridges-a-fake-nuclear-alert-and-a-6bn-heist-are-we-in-the-foothills-of-a-hacking-epidemic">The Guardian</source>
+      <description>Incidentele recente legate de sisteme informatice compromise și inteligența artificială ridică semnale de alarmă în rândul experților despre riscul unei epidemii de atacuri cibernetice pe fondul tensiunilor geopolitice.</description>
+    </item>
     <item>
       <title>Marile orașe europene încep montarea decorațiunilor de sărbători</title>
       <link>https://izz.ro/lifestyle/marile-orase-europene-incep-montarea-decoratiunilor-de-sarbatori/</link>
@@ -131,14 +140,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/uk-vows-defense-spending-boost-by-2030-but-dodges-hard-questions-john-healey/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Ministrul de finanțe al Regatului Unit a anunțat un plan de majorare a fondurilor militare pentru atingerea obiectivelor NATO, evitând însă detaliile privind sursele de finanțare.</description>
-    </item>
-    <item>
-      <title>Un român a fost condamnat la doi ani de închisoare în Marea Britanie pentru un jaf prin tunel</title>
-      <link>https://izz.ro/extern/un-roman-a-fost-condamnat-la-doi-ani-de-inchisoare-in-marea-britanie-pentru-un/</link>
-      <guid>https://izz.ro/extern/un-roman-a-fost-condamnat-la-doi-ani-de-inchisoare-in-marea-britanie-pentru-un/</guid>
-      <pubDate>Wed, 28 Oct 2026 08:31:42 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.gorjeanul.ro/ultima-ora/gorjean-condamnat-la-doi-ani-de-inchisoare-la-londra-jaful-prin-tunel-dejucat-de-politisti-in-ultima-clipa/">Gorjeanul</source>
-      <description>Laurențiu-Daniel Nițișoară a primit o condamnare de doi ani după ce a încercat să spargă un magazin de bijuterii din Londra săpând un tunel printr-o clădire învecinată, plan dejucat de polițiști.</description>
     </item>
 </channel></rss>

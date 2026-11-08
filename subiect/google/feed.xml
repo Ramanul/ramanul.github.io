@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/google/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Google pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 08 Nov 2026 01:43:20 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 09:18:16 +0000</lastBuildDate>
+    <item>
+      <title>Google introduce funcția de backup automat prin Quick Share pentru calculatoare</title>
+      <link>https://izz.ro/tech/google-introduce-functia-de-backup-automat-prin-quick-share-pentru-calculatoare/</link>
+      <guid>https://izz.ro/tech/google-introduce-functia-de-backup-automat-prin-quick-share-pentru-calculatoare/</guid>
+      <pubDate>Sun, 08 Nov 2026 08:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/google-quick-share-backup-pc/">ZonaIT</source>
+      <description>Google pregătește o opțiune prin care utilizatorii de Android își pot salva gratuit fișierele pe PC folosind Quick Share, însă Samsung blochează această facilitate pe dispozitivele sale Galaxy.</description>
+    </item>
     <item>
       <title>Google este acționat în instanță de părinții unei fete de 13 ani</title>
       <link>https://izz.ro/ai/google-este-actionat-in-instanta-de-parintii-unei-fete-de-13-ani/</link>
@@ -131,14 +140,5 @@
       <category>ai</category>
       <source url="https://zonait.ro/ai-mode-reclame/">ZonaIT, Monitorul de Galați</source>
       <description>Compania introduce multi-turn ads pentru utilizatorii din Statele Unite, permițând afișarea succesivă de rezultate sponsorizate în cadrul conversațiilor. Listările de produse sponsorizate vor fi marcate clar ca sponsorizate pentru a fi diferențiate de recomandările obișnuite.</description>
-    </item>
-    <item>
-      <title>Google lansează modelul de inteligență artificială Genie 4</title>
-      <link>https://izz.ro/ai/google-lanseaza-modelul-de-inteligenta-artificiala-genie-4/</link>
-      <guid>https://izz.ro/ai/google-lanseaza-modelul-de-inteligenta-artificiala-genie-4/</guid>
-      <pubDate>Wed, 28 Oct 2026 08:52:38 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.connect.ro/2026/10/28/google-a-lansat-genie-4-pentru-creatii-mai-realiste-si-audio-suplimentar/">Connect.ro</source>
-      <description>Noua versiune de AI dezvoltată de Google permite crearea de lumi interactive mai realiste, oferind utilizatorilor suport audio suplimentar și opțiuni de modificare în timp real.</description>
     </item>
 </channel></rss>

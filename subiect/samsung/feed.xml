@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/samsung/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Samsung pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 08 Nov 2026 01:43:20 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 09:18:16 +0000</lastBuildDate>
+    <item>
+      <title>Google introduce funcția de backup automat prin Quick Share pentru calculatoare</title>
+      <link>https://izz.ro/tech/google-introduce-functia-de-backup-automat-prin-quick-share-pentru-calculatoare/</link>
+      <guid>https://izz.ro/tech/google-introduce-functia-de-backup-automat-prin-quick-share-pentru-calculatoare/</guid>
+      <pubDate>Sun, 08 Nov 2026 08:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/google-quick-share-backup-pc/">ZonaIT</source>
+      <description>Google pregătește o opțiune prin care utilizatorii de Android își pot salva gratuit fișierele pe PC folosind Quick Share, însă Samsung blochează această facilitate pe dispozitivele sale Galaxy.</description>
+    </item>
     <item>
       <title>Samsung a publicat ofertele promoționale pentru campania de Black Friday</title>
       <link>https://izz.ro/discounturi/samsung-a-publicat-ofertele-promotionale-pentru-campania-de-black-friday/</link>
@@ -104,14 +113,5 @@
       <category>tech</category>
       <source url="https://zonait.ro/samsung-game-optimizer-service/">ZonaIT</source>
       <description>Producătorul sud-coreean Samsung a fost sancționat după ce s-a descoperit că a inclus funcții software menite să reducă în mod artificial performanța telefoanelor din seriile Galaxy S21 și S22.</description>
-    </item>
-    <item>
-      <title>Noutăți din tehnologie: oferte Samsung, reduceri de preț și vânzări auto Renault</title>
-      <link>https://izz.ro/tech/noutati-din-tehnologie-oferte-samsung-reduceri-de-pret-si-vanzari-auto-renault/</link>
-      <guid>https://izz.ro/tech/noutati-din-tehnologie-oferte-samsung-reduceri-de-pret-si-vanzari-auto-renault/</guid>
-      <pubDate>Wed, 28 Oct 2026 04:44:02 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.nwradu.ro/2026/10/stirile-zilei-despre-tehnologie-28-octombrie-2026/">NwRadu</source>
-      <description>Samsung oferă vouchere pentru preînregistrări de Black Friday, modelul Fold8 se ieftinește, iar grupul Renault raportează vânzări ridicate pentru Duster și Sandero.</description>
     </item>
 </channel></rss>
