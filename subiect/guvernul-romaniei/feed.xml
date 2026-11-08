@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/guvernul-romaniei/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Guvernul României pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 08 Nov 2026 16:18:57 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 20:48:26 +0000</lastBuildDate>
     <item>
       <title>Foaie Verde din Bucovina solicită Guvernului scăderea taxelor și prioritate pentru români</title>
       <link>https://izz.ro/regional/foaie-verde-din-bucovina-solicita-guvernului-scaderea-taxelor-si-prioritate/</link>
@@ -23,6 +23,15 @@
       <category>economic</category>
       <source url="https://zcj.ro/economie/ajutorul-de-50-de-lei-la-curent-ar-putea-fi-recalculat-ce-reguli-se-aplica-acum--304015.html">Ziua de Cluj</source>
       <description>Executivul discută acordarea unui sprijin financiar mai bine direcționat către categoriile vulnerabile de consumatori, însă actualul tichet energetic rămâne valabil în aceleași condiții până la sfârșitul lunii decembrie.</description>
+    </item>
+    <item>
+      <title>ANOSR critică reducerea bugetului destinat Educației și Cercetării cu 121,5 milioane de lei</title>
+      <link>https://izz.ro/politic/anosr-critica-reducerea-bugetului-destinat-educatiei-si-cercetarii-cu-1215/</link>
+      <guid>https://izz.ro/politic/anosr-critica-reducerea-bugetului-destinat-educatiei-si-cercetarii-cu-1215/</guid>
+      <pubDate>Sun, 08 Nov 2026 09:31:57 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://gazetadecluj.ro/studentii-critica-diminuarea-cu-1215-milioane-de-lei-a-bugetului-pentru-educatie-si-cercetare/">Gazeta de Cluj</source>
+      <description>Alianța Națională a Organizațiilor Studențești condamnă tăierea fondurilor ministeriale prin ordonanța de urgență pentru rectificarea bugetară din 2026, acuzând subfinanțarea și lipsa de transparență guvernamentală.</description>
     </item>
     <item>
       <title>Guvernul pregătește crearea unui registru național pentru consumatorii vulnerabili de energie</title>
@@ -113,15 +122,6 @@
       <category>economic</category>
       <source url="https://zcj.ro/economie/veste-importanta-pentru-companii-impozitul-care-dispare-de-la-1-ianuarie-2027--303963.html">Ziua de Cluj</source>
       <description>Executivul a reconfirmat eliminarea, începând cu 1 ianuarie 2027, a unei taxe care a generat numeroase nemulțumiri și dezbateri aprinse în rândul mediului de afaceri românesc din ultimii ani.</description>
-    </item>
-    <item>
-      <title>Guvernul reduce bugetul pentru educație și cercetare prin rectificare</title>
-      <link>https://izz.ro/politic/guvernul-reduce-bugetul-pentru-educatie-si-cercetare-prin-rectificare/</link>
-      <guid>https://izz.ro/politic/guvernul-reduce-bugetul-pentru-educatie-si-cercetare-prin-rectificare/</guid>
-      <pubDate>Fri, 06 Nov 2026 11:40:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://zcj.ro/educatie/educatia-si-cercetarea-lovite-de-rectificarea-bugetara-anosr-problemele-studentilor-nu-reprezinta-o-preocupare-reala-a-guvernului--303961.html">Ziua de Cluj</source>
-      <description>Educația și cercetarea pierd 121,5 milioane de lei la rectificarea bugetară, stârnind nemulțumirea ANOSR față de lipsa de transparență a executivului privind fondurile tăiate.</description>
     </item>
     <item>
       <title>Premierul amână decizia privind salariul minim pe 2027</title>
@@ -410,14 +410,5 @@
       <category>economic</category>
       <source url="https://www.gorjeanul.ro/editorial/statul-nu-vrea-sa-reduca-evaziune-fiscala/">Gorjeanul</source>
       <description>Autoritățile ezită să aplice măsuri ferme pentru reducerea evaziunii fiscale și fiscalizarea unor activități economice informale, menținând un deficit major de colectare la bugetul de stat.</description>
-    </item>
-    <item>
-      <title>UNCJR a cerut Guvernului rectificare bugetară rapidă și fonduri pentru CET Govora</title>
-      <link>https://izz.ro/local/uncjr-a-cerut-guvernului-rectificare-bugetara-rapida-si-fonduri-pentru-cet/</link>
-      <guid>https://izz.ro/local/uncjr-a-cerut-guvernului-rectificare-bugetara-rapida-si-fonduri-pentru-cet/</guid>
-      <pubDate>Wed, 28 Oct 2026 17:39:47 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.curierul.ro/provocari-proiecte-si-discutii-aplicate-la-guvernul-romaniei/">Curierul de Vâlcea</source>
-      <description>Reprezentanții consiliilor județene s-au întâlnit cu premierul Luca Niculescu pentru a solicita alocarea de urgență a 40 de milioane de lei necesare funcționării CET Govora.</description>
     </item>
 </channel></rss>
