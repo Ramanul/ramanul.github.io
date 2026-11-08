@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/ministerul-finantelor/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ministerul Finanțelor pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 08 Nov 2026 09:18:16 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 16:18:57 +0000</lastBuildDate>
+    <item>
+      <title>Datoria guvernamentală a României a urcat la 1.230 miliarde de lei</title>
+      <link>https://izz.ro/economic/datoria-guvernamentala-a-romaniei-a-urcat-la-1-230-miliarde-de-lei/</link>
+      <guid>https://izz.ro/economic/datoria-guvernamentala-a-romaniei-a-urcat-la-1-230-miliarde-de-lei/</guid>
+      <pubDate>Sun, 08 Nov 2026 11:49:45 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://jurnalulolteniei.ro/ministerul-finantelor-datoria-guvernamentala-a-crescut/">Jurnalul Olteniei</source>
+      <description>Ministerul Finanțelor raportează o creștere a datoriei publice cu 25 de miliarde de lei față de luna precedentă, aceasta ajungând să reprezinte 61,1% din produsul intern brut al țării.</description>
+    </item>
     <item>
       <title>Ministerul Finanțelor lansează noi titluri de stat Fidelis cu dobânzi de până la 7,75%</title>
       <link>https://izz.ro/economic/ministerul-finantelor-lanseaza-noi-titluri-de-stat-fidelis-cu-dobanzi-de-pana/</link>
@@ -212,14 +221,5 @@
       <category>economic</category>
       <source url="https://cursdeguvernare.ro/record-de-investitori-la-bursa-de-la-bucuresti-345-000-de-conturi-crestere-cu-26-intr-un-an-noile-conturi-sunt-pentru-actiuni-nu-pentru-fidelis-urmeaza-sezonul-raportarilor.html">Curs de Guvernare, Spotmedia</source>
       <description>Numărul conturilor deschise la societățile de brokeraj pentru BVB a ajuns la 345.316 la finalul lunii septembrie. Creșterea față de septembrie 2025 este de 26%, reprezentând 70.904 conturi în plus conform raportului FCI. Un număr de 62.695 de conturi dețineau exclusiv titluri de stat emise prin BVB de Ministerul Finanțelor. Atât numărul, cât și ponderea deținătorilor exclusivi de titluri de stat au scăzut față de septembrie 2025.</description>
-    </item>
-    <item>
-      <title>Tensiuni între PSD și PNL privind facturile restante lăsate la Finanțe</title>
-      <link>https://izz.ro/politic/tensiuni-intre-psd-si-pnl-privind-facturile-restante-lasate-la-finante/</link>
-      <guid>https://izz.ro/politic/tensiuni-intre-psd-si-pnl-privind-facturile-restante-lasate-la-finante/</guid>
-      <pubDate>Wed, 28 Oct 2026 15:53:46 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://stirileprotv.ro/stiri/politic/psd-si-pnl-se-cearta-pe-greaua-mostenire-surse-psd-bolojan-ar-fi-lasat-neplatite-facturi-de-50-de-miliarde-de-lei.html">Știrile ProTV</source>
-      <description>Liderii social-democrați acuză cabinetul anterior condus de liberali că a lăsat în urmă datorii neachitate în valoare de aproximativ 50 de miliarde de lei, generând dispute politice.</description>
     </item>
 </channel></rss>

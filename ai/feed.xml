@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 08 Nov 2026 09:18:28 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 16:19:12 +0000</lastBuildDate>
+    <item>
+      <title>Regulamentul european AI Act impune reguli stricte pentru firmele care folosesc inteligența artificială</title>
+      <link>https://izz.ro/ai/regulamentul-european-ai-act-impune-reguli-stricte-pentru-firmele-care-folosesc/</link>
+      <guid>https://izz.ro/ai/regulamentul-european-ai-act-impune-reguli-stricte-pentru-firmele-care-folosesc/</guid>
+      <pubDate>Sun, 08 Nov 2026 14:35:11 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://economedia.ro/ai-act-ce-trebuie-sa-faca-firmele-din-romania-pentru-angajatii-care-folosesc-inteligenta-artificiala-cinci-pasi-practici.html">Economedia</source>
+      <description>Angajații utilizează frecvent unelte bazate pe inteligență artificială fără instruire oficială. Articolul 4 din AI Act obligă companiile să implementeze norme clare, în timp ce autoritățile române pregătesc cadrul legal de control.</description>
+    </item>
+    <item>
+      <title>Adam Mosseri anticipează o creștere a reacțiilor negative față de inteligența artificială</title>
+      <link>https://izz.ro/ai/adam-mosseri-anticipeaza-o-crestere-a-reactiilor-negative-fata-de-inteligenta/</link>
+      <guid>https://izz.ro/ai/adam-mosseri-anticipeaza-o-crestere-a-reactiilor-negative-fata-de-inteligenta/</guid>
+      <pubDate>Sun, 08 Nov 2026 11:59:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/it-c/seful-instagram-reactiile-adverse-fata-de-ai-vor-creste-22964125?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <description>Șeful platformei Instagram, Adam Mosseri, recunoaște că utilizatorii manifestă o reticență accentuată față de tehnologiile bazate pe inteligență artificială, estimând că această atitudine ostilă se va intensifica în viitorul apropiat.</description>
+    </item>
     <item>
       <title>Pionierul inteligenței artificiale Geoffrey Hinton avertizează asupra riscurilor majore ale tehnologiei</title>
       <link>https://izz.ro/ai/pionierul-inteligentei-artificiale-geoffrey-hinton-avertizeaza-asupra/</link>
@@ -158,15 +176,6 @@
       <category>ai</category>
       <source url="https://cursdeguvernare.ro/directorul-general-mistral-europa-risca-sa-cada-intr-o-capcana-totala-daca-nu-dezvolta-modele-ai-de-ultima-generatie.html">Curs de Guvernare, Spotmedia</source>
       <description>Mensch a afirmat la Berlin ca Europa are nevoie de propria capacitate de calcul si modele avansate pentru securitate. El a atras atenția asupra riscului ca SUA și China să impună restricții la exportul tehnologiilor AI. Mensch a precizat ca nefondarea pe modelele de rationament reprezinta o capcana totala. Lideri ai UE au sustinut anterior dezvoltarea de aplicatii pe baza modelelor straine.</description>
-    </item>
-    <item>
-      <title>Studiu: Firmele din România folosesc inteligența artificială superficial</title>
-      <link>https://izz.ro/ai/studiu-firmele-din-romania-folosesc-inteligenta-artificiala-superficial/</link>
-      <guid>https://izz.ro/ai/studiu-firmele-din-romania-folosesc-inteligenta-artificiala-superficial/</guid>
-      <pubDate>Fri, 30 Oct 2026 07:14:50 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://economedia.ro/cum-folosesc-firmele-din-romania-ai-ul-studiu-utilizare-sa-e-raspandita-dar-integrarea-superficiala.html">Economedia</source>
-      <description>Un sondaj realizat pe un eșantion de o mie de companii românești arată că adopția tehnologiilor de inteligență artificială este larg răspândită, însă nivelul de integrare în fluxul de lucru rămâne unul superficial.</description>
     </item>
     <item>
       <title>Comisia Europeană cere statelor UE amânarea interdicțiilor pentru copii pe rețele</title>
@@ -329,32 +338,5 @@
       <category>ai</category>
       <source url="https://www.digi24.ro/stiri/externe/avertismentul-anthropic-daunele-provocate-de-ai-ar-putea-fi-mai-mari-decat-pot-plati-companiile-de-asigurari-4013325">Digi24 Extern</source>
       <description>Compania americană a semnalat în documentele financiare pentru bursa că eventualele pagube generate de modelele avansate de inteligență artificială riscă să depășească capacitatea totală de plată a pieței globale de asigurări.</description>
-    </item>
-    <item>
-      <title>CNPDCP avertizează că datele introduse în aplicațiile AI prezintă riscuri de securitate</title>
-      <link>https://izz.ro/ai/cnpdcp-avertizeaza-ca-datele-introduse-in-aplicatiile-ai-prezinta-riscuri-de/</link>
-      <guid>https://izz.ro/ai/cnpdcp-avertizeaza-ca-datele-introduse-in-aplicatiile-ai-prezinta-riscuri-de/</guid>
-      <pubDate>Wed, 28 Oct 2026 13:59:43 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://mytex.ro/expres/cnpdcp-avertizeaza-datele-personale-introduse-in-aplicatiile-de-inteligenta-artificiala-pot-ajunge-pe-maini-nepotrivite/">MyTex</source>
-      <description>Autoritatea de protecție a datelor emite recomandări pentru utilizatori și companii privind confidențialitatea informațiilor personale atunci când interacționează cu asistenți virtuali bazati pe inteligență artificială.</description>
-    </item>
-    <item>
-      <title>OpenAI extinde performanțele ChatGPT spre informatică și fizică</title>
-      <link>https://izz.ro/ai/openai-extinde-performantele-chatgpt-spre-informatica-si-fizica/</link>
-      <guid>https://izz.ro/ai/openai-extinde-performantele-chatgpt-spre-informatica-si-fizica/</guid>
-      <pubDate>Wed, 28 Oct 2026 09:28:09 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.connect.ro/2026/10/28/openai-anunta-noi-descoperiri-in-matematica-informatica-si-fizica/">Connect.ro</source>
-      <description>După rezolvarea a sutelor de probleme matematice, inteligența artificială dezvoltată de OpenAI oferă soluții noi și în domeniul fizicii și al informaticii, testând strategii inedite de validare.</description>
-    </item>
-    <item>
-      <title>Bula speculativă a inteligenței artificiale se sparge în China, provocând pierderi majore</title>
-      <link>https://izz.ro/ai/bula-speculativa-a-inteligentei-artificiale-se-sparge-in-china-provocand/</link>
-      <guid>https://izz.ro/ai/bula-speculativa-a-inteligentei-artificiale-se-sparge-in-china-provocand/</guid>
-      <pubDate>Wed, 28 Oct 2026 09:20:10 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.connect.ro/2026/10/28/bula-ai-s-a-spart-deja-in-china-cum-va-afecta-restul-lumii/">Connect.ro</source>
-      <description>Companiile chineze din domeniul AI înregistrează scăderi drastice la bursă din cauza costurilor uriașe și a lipsei profitabilității. Raportul Reuters arată că entuziasmul investitorilor s-a stins, afectând grav indicele bursier STAR50.</description>
     </item>
 </channel></rss>

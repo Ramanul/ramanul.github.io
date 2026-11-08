@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 08 Nov 2026 09:18:28 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 08 Nov 2026 16:19:12 +0000</lastBuildDate>
+    <item>
+      <title>Google dezactivează asistentul Gemini pentru elevii din școli</title>
+      <link>https://izz.ro/tech/google-dezactiveaza-asistentul-gemini-pentru-elevii-din-scoli/</link>
+      <guid>https://izz.ro/tech/google-dezactiveaza-asistentul-gemini-pentru-elevii-din-scoli/</guid>
+      <pubDate>Sun, 08 Nov 2026 14:00:54 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://monitorulneamt.ro/gemini-va-fi-dezactivat-implicit-pentru-elevi-ce-anunta-google-despre-conturile-scolare/">Monitorul de Neamț</source>
+      <description>Google a decis ca asistentul Gemini să fie dezactivat implicit pe conturile școlare ale elevilor. Accesul va putea fi permis ulterior doar prin activarea explicită din partea administratorilor instituțiilor de învățământ.</description>
+    </item>
+    <item>
+      <title>Inteligența Artificială este utilizată în peste 80% din atacurile cibernetice de tip phishing la nivel global</title>
+      <link>https://izz.ro/tech/inteligenta-artificiala-este-utilizata-in-peste-80-din-atacurile-cibernetice-de/</link>
+      <guid>https://izz.ro/tech/inteligenta-artificiala-este-utilizata-in-peste-80-din-atacurile-cibernetice-de/</guid>
+      <pubDate>Sun, 08 Nov 2026 12:49:54 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://economedia.ro/avertisment-eset-inteligenta-artificiala-genereaza-peste-80-din-atacurile-de-phishing-la-nivel-global.html">Economedia</source>
+      <description>Un raport recent publicat de ESET arată că majoritatea tentativelor de inginerie socială sunt generate prin intermediul inteligenței artificiale, infractorii cibernetici devenind tot mai organizați și sofisticați.</description>
+    </item>
     <item>
       <title>Un satelit aflat pe orbită a rulat celebrul joc video Doom în urma unei comenzi vocale</title>
       <link>https://izz.ro/tech/un-satelit-aflat-pe-orbita-a-rulat-celebrul-joc-video-doom-in-urma-unei-comenzi/</link>
@@ -437,23 +455,5 @@
       <category>tech</category>
       <source url="https://www.aradon.ro/mapamond/studiu-pe-marte-exista-vulcani-latenti-si-o-poarta-deschisa-catre-viata-2268480/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">ARADON</source>
       <description>Un studiu recent arată că activitatea vulcanică marțiană a scăzut drastic în ultimii două miliarde de ani, dar au existat erupții recente, redeschis discuțiile despre potențialul habitabil.</description>
-    </item>
-    <item>
-      <title>Candidații întâmpină dificultăți majore în a contacta recrutorii umani din cauza filtrelor bazate pe inteligență artificială</title>
-      <link>https://izz.ro/tech/candidatii-intampina-dificultati-majore-in-a-contacta-recrutorii-umani-din/</link>
-      <guid>https://izz.ro/tech/candidatii-intampina-dificultati-majore-in-a-contacta-recrutorii-umani-din/</guid>
-      <pubDate>Wed, 04 Nov 2026 22:07:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.zf.ro/zf-gen-z/cum-a-devenit-interactiunea-cu-un-om-de-resurse-umane-aproape-imposibila-in-era-ia-si-cum-faci-ca-totusi-sa-treci-de-filtrele-ia-si-sa-ai-un-loc-de-munca-23274674">Ziarul Financiar</source>
-      <description>Piața muncii actuală generează frustrare în rândul tinerilor absolvenți, care se lovesc de sisteme automatizate de recrutare, simțindu-se izolați din cauza lipsei interacțiunii directe cu specialiștii de resurse umane.</description>
-    </item>
-    <item>
-      <title>Noi indicii despre posibilitatea existenței vieții pe Marte</title>
-      <link>https://izz.ro/tech/noi-indicii-despre-posibilitatea-existentei-vietii-pe-marte/</link>
-      <guid>https://izz.ro/tech/noi-indicii-despre-posibilitatea-existentei-vietii-pe-marte/</guid>
-      <pubDate>Wed, 04 Nov 2026 20:42:18 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://stirileprotv.ro/stiri/stiinta/marte-este-doar-adormita-un-nou-studiu-arata-ca-sub-suprafata-planetei-rosii-ar-putea-exista-conditii-favorabile-vietii.html">Știrile ProTV</source>
-      <description>Cercetări recente indică activitate vulcanică recentă pe Planeta Roșie, sugerând că sub suprafața marțiană ar putea exista în continuare medii favorabile dezvoltării organismelor vii.</description>
     </item>
 </channel></rss>

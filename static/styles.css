@@ -330,7 +330,7 @@ picture { display: contents; }
 .ai-mark { color: var(--ink-2); }
 /* pictograma oficiala UE (Basic icon, static/icons/ai-generated.svg, IZZ-0420): fisier
    unic, inline prin <img>; dimensiunea calib pe randul de meta, aliniata la text */
-.ai-mark img { width: .95em; height: .95em; vertical-align: -.12em; margin-right: .3em; }
+.ai-mark img { width: 1.3em; height: 1.3em; vertical-align: -.12em; margin-right: .3em; }
 
 .card-title { font-family: var(--font-display); font-size: var(--fs-lg); line-height: 1.2; margin: 0; font-weight: 400; letter-spacing: -.1px; }
 .card-title a { color: var(--ink); transition: color .15s ease; }
@@ -499,7 +499,7 @@ a.chip:hover { border-color: var(--ink-3); color: var(--ink); }
   font-size: 0.6875rem; text-transform: uppercase; letter-spacing: .13em; font-weight: 600;
 }
 .article-accountability p { margin: var(--sp-8) 0; }
-.article-accountability a:not(.article-report-link) { margin-left: var(--sp-12); text-decoration: underline; }
+.article-accountability a { text-decoration: underline; }
 .article-updated { color: var(--ink-2); }
 .btn-source {
   display: inline-block; margin-top: var(--sp-20); padding: var(--sp-12) var(--sp-20);
@@ -580,7 +580,6 @@ a.chip:hover { border-color: var(--ink-3); color: var(--ink); }
   .day-numbers { display: none; }   /* mobil: primul ecran ramane al stirilor */
   .reader-briefing { align-items: flex-start; flex-direction: column; }
   .subnav-more-list { right: 0; left: auto; min-width: min(220px, calc(100vw - 2 * var(--sp-20))); }
-  .article-accountability a:not(.article-report-link) { display: inline-block; margin: var(--sp-12) 0 0; }
   /* Antet compact (faza 4, adaptat la header-ul actual din base.html): logo mai mic si
      descriptor ascuns — pe telefon el ocupa un rand intreg doar ca sa repete tagline-ul;
      nav-ul cedeaza si el spatiu prin gap redus. */
@@ -671,36 +670,13 @@ a.chip:hover { border-color: var(--ink-3); color: var(--ink); }
 [data-theme="dark"] img, [data-theme="dark"] .art { opacity: .92; }
 
 /* ---- instalarea aplicatiei (PWA) ------------------------------------------------
-   BUTONUL E `position: fixed`, NU IN HEADER. Masurat 2026-08-02, emulare mobil 412 px:
-   varianta din antet era `hidden` in markup si aparea la `beforeinstallprompt`, impingand
-   <main> in jos cu 49 px; Lighthouse atribuia 100% din CLS (0.272) acestui element. Un
-   element scos din flux nu poate muta nimic, deci nu poate produce CLS.
-   Pozitia (jos-stanga, deasupra lui „inapoi sus" de la 21 px + 40 px) evita si suprapunerea
-   cu bara de consimtamant, care e lipita de marginea de jos. */
-.izz-install {
-  position: fixed; bottom: var(--sp-88); left: var(--sp-12); z-index: 41;
-  display: flex; align-items: stretch; gap: 1px;
-  max-width: calc(100vw - 2 * var(--sp-12));
-  border-radius: 3px; box-shadow: 0 2px 8px rgba(21, 23, 28, .12);
-}
-/* Obligatoriu: `display: flex` de mai sus ar bate atributul `hidden`, iar butonul ar sta
-   pe ecran la toata lumea, nu doar la cei carora browserul le poate oferi instalarea. */
+   Buton obisnuit printre uneltele de citire din footer (8.11.2026), nu banda fixa peste
+   text: serviciu la chemare, nu prin impingere. In antet producea CLS 0.272 (masurat
+   2026-08-02); la coada documentului nu muta nimic din ce e deja pictat.
+   Obligatoriu: regula de mai jos tine atributul `hidden`, ca butonul sa apara doar celor
+   carora browserul le poate oferi instalarea. */
+.izz-install { display: contents; }
 .izz-install[hidden] { display: none; }
-.izz-install-btn {
-  font-family: var(--font-text); font-size: var(--fs-eyebrow); font-weight: 700;
-  text-transform: uppercase; letter-spacing: 1px; cursor: pointer;
-  padding: 6px 13px; border-radius: 3px 0 0 3px;
-  /* Fara gradient metalic: in sistemul „hartie curata" accentul tare e navy, iar arama
-     rămâne decor. Gradientul lupta cu hartia si singura lui menire era sa para „pretios". */
-  background: var(--navy); color: var(--paper); border: 1px solid var(--navy);
-}
-.izz-install-btn:hover { background: var(--ink); border-color: var(--ink); color: var(--paper); }
-.izz-install-inchide {
-  background: var(--paper-2); color: var(--ink-3); cursor: pointer;
-  border: 1px solid var(--line-strong); border-left: none; border-radius: 0 3px 3px 0;
-  padding: 0 var(--sp-8); font-size: var(--fs-md); line-height: 1;
-}
-.izz-install-inchide:hover { color: var(--ink); background: var(--paper); }
 
 /* ---- alerte de ultima ora (Web Push) --------------------------------------------
    Blocul sta ULTIMUL in footer din acelasi motiv pentru care butonul de instalare e fix:
