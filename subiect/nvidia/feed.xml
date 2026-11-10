@@ -1,11 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>NVIDIA — IZZ.ro</title>
+  <title>Nvidia — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre NVIDIA pe IZZ.ro</description>
+  <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 30 Oct 2026 07:27:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 10 Nov 2026 02:36:24 +0000</lastBuildDate>
+    <item>
+      <title>Dependența tehnologică a Europei de compania Nvidia rămâne fermă</title>
+      <link>https://izz.ro/extern/dependenta-tehnologica-a-europei-de-compania-nvidia-ramane-ferma/</link>
+      <guid>https://izz.ro/extern/dependenta-tehnologica-a-europei-de-compania-nvidia-ramane-ferma/</guid>
+      <pubDate>Mon, 09 Nov 2026 22:20:06 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/europe-needs-nvidia-spy-scandal-ai-microchips-germany-jensen-huang/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>În ciuda unui presupus scandal de spionaj care îl vizează pe directorul Jensen Huang, liderii europeni mențin relațiile strânse cu producătorul de microprocesoare pentru inteligență artificială.</description>
+    </item>
+    <item>
+      <title>Scăderile acțiunilor tehnologice americane au determinat investitorii să cumpere titluri AMD, Nvidia și Apple</title>
+      <link>https://izz.ro/economic/scaderile-actiunilor-tehnologice-americane-au-determinat-investitorii-sa/</link>
+      <guid>https://izz.ro/economic/scaderile-actiunilor-tehnologice-americane-au-determinat-investitorii-sa/</guid>
+      <pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-scaderea-actiunilor-tehnologie-americane-ocazie-cumparare-inceput-corectie-au-vandut-investitorii-dupa-victoria-democratilor-s-resimtit-valul-vanzari-bursa-valori-bucuresti-unii-investitori-ar-23277064">Ziarul Financiar</source>
+      <description>Temerile legate de limitarea investițiilor în centre de date de către noul Congres au provocat vânzări masive pe Wall Street, însă unii investitori au cumpărat acțiuni ale marilor companii de tehnologie pe scădere.</description>
+    </item>
+    <item>
+      <title>Ministerul de Externe din China respinge acuzațiile de spionaj în ancheta ce vizează directorul Nvidia</title>
+      <link>https://izz.ro/extern/ministerul-de-externe-din-china-respinge-acuzatiile-de-spionaj-in-ancheta-ce/</link>
+      <guid>https://izz.ro/extern/ministerul-de-externe-din-china-respinge-acuzatiile-de-spionaj-in-ancheta-ce/</guid>
+      <pubDate>Mon, 09 Nov 2026 07:56:07 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/reactie-de-la-beijing-in-scandalul-de-spionaj-de-la-nvidia-care-il-ancheteaza-pe-seful-companiei-jensen-huang-2398745">HotNews</source>
+      <description>Autoritățile de la Beijing au declarat nefondate suspiciunile privind o operațiune chineză de spionaj în cadrul companiei americane Nvidia, după difuzarea informațiilor despre investigarea directorului executiv Jensen Huang.</description>
+    </item>
+    <item>
+      <title>Nvidia investighează relația directorului general Jensen Huang cu o presupusă spioană</title>
+      <link>https://izz.ro/tech/nvidia-investigheaza-relatia-directorului-general-jensen-huang-cu-o-presupusa/</link>
+      <guid>https://izz.ro/tech/nvidia-investigheaza-relatia-directorului-general-jensen-huang-cu-o-presupusa/</guid>
+      <pubDate>Mon, 09 Nov 2026 06:46:40 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/11/09/jensen-huang-nvidia-investigatie/">Connect.ro, Digi24 Extern</source>
+      <description>Consiliul de administrație al Nvidia a lansat o anchetă independentă după ce au apărut informații privind legătura dintre Jensen Huang și o femeie bănuită de spionaj în interesul Chinei. Directorul executiv Jensen Huang a transmis un mesaj angajaților prin care a recunoscut că a avut o relație extraconjugală. Consiliul de administrație Nvidia a transmis că nu consideră că securitatea națională sau secretele companiei au fost afectate.</description>
+    </item>
+    <item>
+      <title>Noutăți din tehnologie și energie verde</title>
+      <link>https://izz.ro/local/noutati-din-tehnologie-si-energie-verde/</link>
+      <guid>https://izz.ro/local/noutati-din-tehnologie-si-energie-verde/</guid>
+      <pubDate>Mon, 09 Nov 2026 04:44:02 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.nwradu.ro/2026/11/stirile-zilei-despre-tehnologie-9-noiembrie-2026/">NwRadu</source>
+      <description>Constanța va găzdui un parc eolian major, AFM lansează finanțări pentru stocarea energiei, iar noul iPad Mini a intrat în stocuri, alături de performanțe notabile ale mașinilor electrice.</description>
+    </item>
+    <item>
+      <title>Serviciile secrete americane îl investighează pe șeful Nvidia</title>
+      <link>https://izz.ro/tech/serviciile-secrete-americane-il-investigheaza-pe-seful-nvidia/</link>
+      <guid>https://izz.ro/tech/serviciile-secrete-americane-il-investigheaza-pe-seful-nvidia/</guid>
+      <pubDate>Sat, 07 Nov 2026 17:20:24 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.g4media.ro/financial-times-serviciile-de-informatii-din-sua-avertizeaza-ca-directorul-nvidia-ar-fi-avut-o-relatie-amoroasa-cu-o-presupusa-spioana-a-chinei.html">G4Media</source>
+      <description>Agențiile de informații din Statele Unite au semnalat că directorul general al companiei Nvidia, Jensen Huang, ar fi avut o legătură sentimentală cu o femeie suspectată de spionaj în favoarea serviciilor secrete din China.</description>
+    </item>
+    <item>
+      <title>Acțiunile din sectorul inteligenței artificiale și-au revenit după scăderi</title>
+      <link>https://izz.ro/ai/actiunile-din-sectorul-inteligentei-artificiale-si-au-revenit-dupa-scaderi/</link>
+      <guid>https://izz.ro/ai/actiunile-din-sectorul-inteligentei-artificiale-si-au-revenit-dupa-scaderi/</guid>
+      <pubDate>Sat, 07 Nov 2026 05:22:15 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.g4media.ro/actiunile-companiilor-de-inteligenta-articifiala-isi-revin-dupa-doua-zile-de-scaderi-puternice.html">G4Media</source>
+      <description>Titlurile companiilor tehnologice, inclusiv Nvidia, au înregistrat o redresare pe bursa americană. Indicele Nasdaq a crescut cu 1,1% după două zile consecutive de pierderi financiare semnificative.</description>
+    </item>
+    <item>
+      <title>Un transport de cipuri Nvidia a fost furat în California</title>
+      <link>https://izz.ro/tech/transport-de-cipuri-nvidia-in-valoare-de-114-milioane-de-dolari-furat-in/</link>
+      <guid>https://izz.ro/tech/transport-de-cipuri-nvidia-in-valoare-de-114-milioane-de-dolari-furat-in/</guid>
+      <pubDate>Fri, 06 Nov 2026 18:17:54 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.digi24.ro/stiri/externe/mapamond/transport-de-cipuri-nvidia-de-114-milioane-de-dolari-disparut-fara-urma-in-california-politia-investigheaza-un-furt-4025545">Digi24 Extern, Știrile ProTV, G4Media, Economica</source>
+      <description>Furtul a fost semnalat poliției, care a confirmat desfășurarea unei investigații. Furtul a avut loc la sfârşitul lunii august şi a fost semnalat în septembrie.</description>
+    </item>
+    <item>
+      <title>Placa video NVIDIA GeForce RTX 5080 înregistrează performanțe ridicate cu noul Ray Tracing</title>
+      <link>https://izz.ro/tech/placa-video-nvidia-geforce-rtx-5080-inregistreaza-performante-ridicate-cu-noul/</link>
+      <guid>https://izz.ro/tech/placa-video-nvidia-geforce-rtx-5080-inregistreaza-performante-ridicate-cu-noul/</guid>
+      <pubDate>Fri, 06 Nov 2026 10:03:51 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/11/06/nvidia-geforce-rtx-5080-obtine-cu-pana-la-220x-mai-multe-fps-cu-noul-directx-ray-tracing/">Connect.ro</source>
+      <description>Testele recente efectuate pe noua arhitectură indică o creștere masivă a numărului de cadre pe secundă. Tehnologia îmbunătățește considerabil randarea grafică în jocuri și aplicații complexe.</description>
+    </item>
     <item>
       <title>Performanțele noului laptop Lenovo Yoga Pro 9 echipat cu plăci NVIDIA RTX Spark</title>
       <link>https://izz.ro/tech/performantele-noului-laptop-lenovo-yoga-pro-9-echipat-cu-placi-nvidia-rtx-spark/</link>
@@ -13,7 +94,6 @@
       <pubDate>Fri, 30 Oct 2026 06:47:39 +0000</pubDate>
       <category>tech</category>
       <source url="https://start-up.ro/cat-de-bun-este-un-laptop-cu-rtx-spark-de-la-nvidia-teste-sintetice-gaming-editare-video-si-ai/">Start-up.ro</source>
-      <media:content url="https://izz.ro/tech/performantele-noului-laptop-lenovo-yoga-pro-9-echipat-cu-placi-nvidia-rtx-spark/cover.jpg?v=a7a2a965" medium="image" type="image/jpeg"/>
       <description>Testarea primului laptop dotat cu procesor grafic NVIDIA RTX Spark arată capabilitățile dispozitivului în materie de jocuri video, randare 3D, editare video complexă și rularea aplicațiilor bazate pe inteligență artificială.</description>
     </item>
     <item>
@@ -23,134 +103,15 @@
       <pubDate>Thu, 29 Oct 2026 21:08:00 +0000</pubDate>
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/mapamond/nyt-jensen-huang-ceo-ul-nvidia-nu-a-fost-avertizat-ca-apropiata-lui-era-un-spion-chinez-desi-serviciile-americane-stiau-809159.html">Antena 3 CNN</source>
-      <media:content url="https://izz.ro/extern/seful-nvidia-a-interactionat-cu-un-spion-chinez-neidentificat-de-servicii/cover.jpg?v=c7e5e04e" medium="image" type="image/jpeg"/>
       <description>O directoare din Singapore care facilita exportul ilegal de microprocesoare avansate către China a acționat ca agent sub acoperire, reușind să se apropie mult de directorul executiv Jensen Huang fără a fi oprită de agențiile americane.</description>
     </item>
     <item>
-      <title>Șeful Nvidia, Jensen Huang, vizat într-o anchetă privind legături cu o presupusă agentă chineză</title>
-      <link>https://izz.ro/extern/seful-nvidia-jensen-huang-vizat-intr-o-ancheta-privind-legaturi-cu-o-presupusa/</link>
-      <guid>https://izz.ro/extern/seful-nvidia-jensen-huang-vizat-intr-o-ancheta-privind-legaturi-cu-o-presupusa/</guid>
-      <pubDate>Thu, 29 Oct 2026 19:29:13 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/jensen-huang-seful-companiei-nvidia-implicat-intr-un-caz-de-presupus-spionaj-in-favoarea-chinei-4014451">Digi24 Extern</source>
-      <media:content url="https://izz.ro/extern/seful-nvidia-jensen-huang-vizat-intr-o-ancheta-privind-legaturi-cu-o-presupusa/cover.jpg?v=c442be41" medium="image" type="image/jpeg"/>
-      <description>Directorul executiv al companiei Nvidia, Jensen Huang, ar fi întreținut relații apropiate cu o femeie de afaceri din China aflată în atenția serviciilor secrete americane sub suspiciunea de spionaj.</description>
-    </item>
-    <item>
-      <title>Un modder îmbunătățește performanța DLSS 5 folosind tehnica Foveated Rendering</title>
-      <link>https://izz.ro/tech/un-modder-imbunatateste-performanta-dlss-5-folosind-tehnica-foveated-rendering/</link>
-      <guid>https://izz.ro/tech/un-modder-imbunatateste-performanta-dlss-5-folosind-tehnica-foveated-rendering/</guid>
-      <pubDate>Tue, 27 Oct 2026 11:25:17 +0000</pubDate>
+      <title>Șeful Nvidia, vizat de o investigație privind legături externe</title>
+      <link>https://izz.ro/tech/seful-nvidia-vizat-de-o-investigatie-privind-legaturi-externe/</link>
+      <guid>https://izz.ro/tech/seful-nvidia-vizat-de-o-investigatie-privind-legaturi-externe/</guid>
+      <pubDate>Thu, 29 Oct 2026 15:14:00 +0000</pubDate>
       <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/27/un-modder-a-facut-dlss-5-mult-mai-usor-de-rulat-gratie-tehnicii-de-foveated-rendering/">Connect.ro</source>
-      <description>Un nou mod neoficial destinat tehnologiei NVIDIA DLSS 5 integrează randarea foveată, metodă preluată din realitatea virtuală, crescând semnificativ rata cadrelor pe secundă și eficiența grafică.</description>
-    </item>
-    <item>
-      <title>MSI lansează portabilul 2-în-1 Prestige N16 Flip AI+ dotat cu NVIDIA RTX Spark</title>
-      <link>https://izz.ro/tech/msi-lanseaza-portabilul-2-in-1-prestige-n16-flip-ai-dotat-cu-nvidia-rtx-spark/</link>
-      <guid>https://izz.ro/tech/msi-lanseaza-portabilul-2-in-1-prestige-n16-flip-ai-dotat-cu-nvidia-rtx-spark/</guid>
-      <pubDate>Tue, 27 Oct 2026 09:33:38 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/msi-prestige-n16-flip-ai/">ZonaIT</source>
-      <description>Producătorul MSI a deschis precomenzile pentru noul laptop convertibil echipat cu tehnologie grafică NVIDIA și capabilități avansate de rulare locală a modelelor de inteligență artificială.</description>
-    </item>
-    <item>
-      <title>Plăcile video NVIDIA RTX primesc un plus de performanță în inteligența artificială</title>
-      <link>https://izz.ro/tech/placile-video-nvidia-rtx-primesc-un-plus-de-performanta-in-inteligenta/</link>
-      <guid>https://izz.ro/tech/placile-video-nvidia-rtx-primesc-un-plus-de-performanta-in-inteligenta/</guid>
-      <pubDate>Mon, 26 Oct 2026 13:57:47 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/26/nvidia-geforce-rtx-30-si-rtx-40-devin-mult-mai-rapide-in-ai-preturile-second-hand-vor-exploda/">Connect.ro</source>
-      <description>O nouă metodă de optimizare crește considerabil capacitățile de procesare AI pentru generațiile anterioare de plăci grafice, dezvoltatorii estimând o scumpire accentuată a acestora pe piața second-hand.</description>
-    </item>
-    <item>
-      <title>NVIDIA lansează actualizarea RTX Remix 1.6 cu DLSS 5</title>
-      <link>https://izz.ro/tech/nvidia-lanseaza-actualizarea-rtx-remix-1-6-cu-dlss-5/</link>
-      <guid>https://izz.ro/tech/nvidia-lanseaza-actualizarea-rtx-remix-1-6-cu-dlss-5/</guid>
-      <pubDate>Mon, 26 Oct 2026 11:45:47 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/26/nvidia-iti-permite-sa-readuci-la-viata-jocuri-clasice-cu-ajutorul-dlss-5/">Connect.ro</source>
-      <description>Noua platformă NVIDIA permite jucătorilor să modernizeze titlurile clasice prin integrarea tehnologiei DLSS 5 și randare neuronală ghidată 3D, aducând un nivel vizual extrem de realist jocurilor vechi.</description>
-    </item>
-    <item>
-      <title>Lansarea plăcii video NVIDIA GeForce RTX 6060 ar putea fi amânată</title>
-      <link>https://izz.ro/tech/lansarea-placii-video-nvidia-geforce-rtx-6060-ar-putea-fi-amanata/</link>
-      <guid>https://izz.ro/tech/lansarea-placii-video-nvidia-geforce-rtx-6060-ar-putea-fi-amanata/</guid>
-      <pubDate>Thu, 22 Oct 2026 13:41:22 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/22/geforce-rtx-6060-ar-putea-intarzia-pana-in-2029-se-zvoneste-ca-performanta-ar-fi-sub-playstation-6/">Connect.ro</source>
-      <description>Surse din industrie indică faptul că viitoarea placă video mid-range de la NVIDIA ar putea apărea abia în 2029, oferind performanțe de calcul mai scăzute comparativ cu viitoarea consolă PlayStation 6 de la Sony.</description>
-    </item>
-    <item>
-      <title>Nvidia a lansat driverul GeForce 621.01 cu tehnologie Advanced Shader Delivery</title>
-      <link>https://izz.ro/tech/nvidia-a-lansat-driverul-geforce-621-01-cu-tehnologie-advanced-shader-delivery/</link>
-      <guid>https://izz.ro/tech/nvidia-a-lansat-driverul-geforce-621-01-cu-tehnologie-advanced-shader-delivery/</guid>
-      <pubDate>Thu, 22 Oct 2026 12:57:05 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.monitoruldegalati.ro/tehnologie/nvidia-lanseaza-drivere-cu-suport-advanced-shader-delivery-pentru-incarcare-mai-rapida-ti-mai-putine-sacadari-in-jocuri.html">Monitorul de Galați</source>
-      <description>Noua actualizare software de la Nvidia integrează tehnologia Microsoft pentru a elimina compilarea shaderelor în timp real, reducând astfel timpii de încărcare și sacadările în timpul sesiunilor de gaming.</description>
-    </item>
-    <item>
-      <title>Șeful Nvidia susține că Europa are un avantaj competitiv în robotică și inteligență artificială</title>
-      <link>https://izz.ro/ai/seful-nvidia-sustine-ca-europa-are-un-avantaj-competitiv-in-robotica-si/</link>
-      <guid>https://izz.ro/ai/seful-nvidia-sustine-ca-europa-are-un-avantaj-competitiv-in-robotica-si/</guid>
-      <pubDate>Wed, 21 Oct 2026 18:29:14 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://hotnews.ro/jensen-huang-ceo-ul-nvidia-indeamna-europa-sa-implementeze-mai-rapid-inteligenta-artificiala-in-industrie-2382926">HotNews</source>
-      <description>Directorul general al companiei Nvidia a declarat că expertiza tehnică europeană oferă regiunii un potențial ridicat în domeniul tehnologiilor fizice, anunțând extinderea unor parteneriate locale.</description>
-    </item>
-    <item>
-      <title>Nvidia lansează un driver GeForce care reduce timpii de încărcare în jocuri</title>
-      <link>https://izz.ro/tech/nvidia-lanseaza-un-driver-geforce-care-reduce-timpii-de-incarcare-in-jocuri/</link>
-      <guid>https://izz.ro/tech/nvidia-lanseaza-un-driver-geforce-care-reduce-timpii-de-incarcare-in-jocuri/</guid>
-      <pubDate>Wed, 21 Oct 2026 14:18:41 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/nvidia-driver-geforce/">ZonaIT</source>
-      <description>Noua versiune 621.01 a driverelor Nvidia aduce suport pentru tehnologia Advanced Shader Delivery de la Microsoft, eliminând compilarea just-in-time pentru un transfer mai rapid al resurselor.</description>
-    </item>
-    <item>
-      <title>Zvonuri despre oprirea producției pentru placa video NVIDIA RTX 5090</title>
-      <link>https://izz.ro/tech/zvonuri-despre-oprirea-productiei-pentru-placa-video-nvidia-rtx-5090/</link>
-      <guid>https://izz.ro/tech/zvonuri-despre-oprirea-productiei-pentru-placa-video-nvidia-rtx-5090/</guid>
-      <pubDate>Wed, 21 Oct 2026 08:40:09 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/10/21/geforce-rtx-5090-iese-din-productie-iar-rtx-5080-va-primi-un-upgrade-la-24gb/">Connect.ro</source>
-      <description>Informații recente din industrie indică faptul că NVIDIA ar putea sista producția modelului de top GeForce RTX 5090, în timp ce varianta RTX 5080 de 16GB ar urma să fie înlocuită de o versiune îmbunătățită cu 24GB VRAM.</description>
-    </item>
-    <item>
-      <title>Germania și Nvidia au semnat un acord strategic pentru integrarea inteligenței artificiale</title>
-      <link>https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/</link>
-      <guid>https://izz.ro/ai/germania-si-nvidia-au-semnat-un-acord-strategic-pentru-integrarea-inteligentei/</guid>
-      <pubDate>Tue, 20 Oct 2026 21:07:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.zf.ro/business-international/cum-germania-si-franta-incearca-sa-avanseze-in-cursa-ai-cu-ajutorul-gigantului-tech-american-nvidia-23264234">Ziarul Financiar</source>
-      <description>Cancelarul Friedrich Merz și șeful companiei americane Nvidia au oficializat un parteneriat menit să introducă tehnologii AI avansate în mediul industrial german.</description>
-    </item>
-    <item>
-      <title>Germania și Nvidia încheie un parteneriat pentru dezvoltarea roboților și mașinilor autonome</title>
-      <link>https://izz.ro/ai/germania-si-nvidia-incheie-un-parteneriat-pentru-dezvoltarea-robotilor-si/</link>
-      <guid>https://izz.ro/ai/germania-si-nvidia-incheie-un-parteneriat-pentru-dezvoltarea-robotilor-si/</guid>
-      <pubDate>Tue, 20 Oct 2026 11:30:09 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://cursdeguvernare.ro/germania-colaborare-cu-nvidia-pentru-dezvoltare-modele-ai-fizice.html">Curs de Guvernare</source>
-      <description>Cancelarul Friedrich Merz și șeful Nvidia, Jensen Huang, pregătesc un pact pentru accelerarea inovațiilor în inteligența artificială fizică. Inițiativa urmărește atragerea de noi investiții majore în industria din Germania.</description>
-    </item>
-    <item>
-      <title>Germania atrage capital străin și promite reforme economice majore</title>
-      <link>https://izz.ro/economic/germania-atrage-capital-strain-si-promite-reforme-economice-majore/</link>
-      <guid>https://izz.ro/economic/germania-atrage-capital-strain-si-promite-reforme-economice-majore/</guid>
-      <pubDate>Tue, 20 Oct 2026 03:30:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.politico.eu/podcast/berlin-playbook-podcast/merz-und-sein-deutschland-pitch/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Politicienii germani încearcă să convingă investitorii străini la primul summit dedicat capitalului internațional, promițând reforme economice și atragerea unor miliarde de euro, inclusiv prin angajamentul financiar asumat de șeful Nvidia.</description>
-    </item>
-    <item>
-      <title>Volvo extinde parteneriatul cu NVIDIA pentru dezvoltarea conducerii autonome</title>
-      <link>https://izz.ro/auto/volvo-extinde-parteneriatul-cu-nvidia-pentru-dezvoltarea-sistemelor-de/</link>
-      <guid>https://izz.ro/auto/volvo-extinde-parteneriatul-cu-nvidia-pentru-dezvoltarea-sistemelor-de/</guid>
-      <pubDate>Mon, 19 Oct 2026 14:00:07 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.autocritica.ro/live-news/volvo-colaborare-cu-nvidia-pentru-o-noua-tehnologie-de-rulare-autonoma/">AutoCritica, AutoMarket</source>
-      <description>Producătorul auto suedez Volvo a anunțat extinderea colaborării cu NVIDIA pentru a integra tehnologii avansate de inteligență artificială în viitoarele sale modele electrice. Parteneriatul vizează crearea de noi sisteme de siguranță și conducere autonomă, care vor fi implementate pe noua generație de autovehicule programată să se lanseze până în 2030.</description>
+      <source url="https://observatornews.ro/extern/seful-celei-mai-valoroase-companii-americane-are-legaturi-cu-o-spioana-chineza-trump-nu-a-facut-nimic-nyt-670718.html">Observator</source>
+      <description>Directorul executiv al companiei americane Nvidia a întreținut relații apropiate de afaceri cu o cetățeană chineză suspectată de serviciile secrete din Statele Unite că ar fi spioană a Beijingului.</description>
     </item>
 </channel></rss>
