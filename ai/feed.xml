@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 11 Nov 2026 06:59:58 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 16:36:03 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI permite firmelor să își revendice și să își gestioneze profilurile oficiale din ChatGPT</title>
+      <link>https://izz.ro/ai/openai-permite-firmelor-isi-revendice-isi-gestioneze-profilurile-oficiale/</link>
+      <guid>https://izz.ro/ai/openai-permite-firmelor-isi-revendice-isi-gestioneze-profilurile-oficiale/</guid>
+      <pubDate>Wed, 11 Nov 2026 15:09:44 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.monitoruldegalati.ro/tehnologie/openai-lanseaza-businesses-in-chatgpt-companiile-isi-pot-verifica-profilurile-si-pot-avea-propriul-asistent-ai.html">Monitorul de Galați</source>
+      <description>Compania OpenAI a lansat opțiunea Businesses in ChatGPT, un serviciu destinat societăților comerciale care își pot actualiza datele oficiale despre servicii și produse, funcționalitatea fiind similară cu cea oferită de alte mari platforme digitale de căutare.</description>
+    </item>
     <item>
       <title>Start-up-ul românesc GEOflux.ai monitorizează opt modele de inteligență artificială</title>
       <link>https://izz.ro/ai/start-up-ul-romanesc-geoflux-ai-monitorizeaza-opt-modele-de-inteligenta/</link>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://zonait.ro/ai-mode-reclame/">ZonaIT, Monitorul de Galați</source>
       <description>Compania introduce multi-turn ads pentru utilizatorii din Statele Unite, permițând afișarea succesivă de rezultate sponsorizate în cadrul conversațiilor. Listările de produse sponsorizate vor fi marcate clar ca sponsorizate pentru a fi diferențiate de recomandările obișnuite.</description>
-    </item>
-    <item>
-      <title>Provocările etice și sociale aduse de utilizarea roboților în armată</title>
-      <link>https://izz.ro/ai/provocarile-etice-si-sociale-aduse-de-utilizarea-robotilor-in-armata/</link>
-      <guid>https://izz.ro/ai/provocarile-etice-si-sociale-aduse-de-utilizarea-robotilor-in-armata/</guid>
-      <pubDate>Thu, 29 Oct 2026 09:14:47 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.contributors.ro/prima-lege-incalcata-china-robotii-si-intrebarea-cine-ne-va-apara-si-cine-ne-va-ingriji/">Contributors</source>
-      <description>Dezvoltarea tehnologică și implementarea roboților militari ridică semne de întrebare privind respectarea principiilor fundamentale stabilite de Isaac Asimov în urmă cu opt decenii.</description>
     </item>
 </channel></rss>

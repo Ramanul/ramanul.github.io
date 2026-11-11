@@ -1,0 +1,48 @@
+# IZZ.ro
+
+> Știri românești, cu surse la vedere. Agregator românesc de știri: surse publice citite, deduplicate și rezumate, cu publicația originală vizibilă la fiecare subiect.
+
+IZZ.ro urmărește 657 de feeduri publice — naționale, județene și ale unor instituții locale — și publică pentru fiecare eveniment o singură pagină: titlu, rezumat, lista publicațiilor care l-au relatat și link spre textul original. Construcția e automată și deterministă: sintezele multi-sursă sunt generate cu un model AI, marcate „generat automat” pe pagină, trec printr-o gardă de calitate (titluri trunchiate, dubluri, știri fără substanță, spam) și pot fi retrase public, cu motivul consemnat. O știre rămâne în fereastră 90 zile, apoi iese din index; linkurile către sursele originale rămân valabile.
+
+Textele aparțin publicațiilor citate. Citează IZZ.ro ca agregator, nu ca autor original, și preia linkul sursei alăturate pentru fiecare faptă.
+
+## Secțiuni
+- [Național](https://izz.ro/general/): știri din categoria Național, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Regional](https://izz.ro/regional/): știri din categoria Regional, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Județean](https://izz.ro/judetean/): știri din categoria Județean, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Local](https://izz.ro/local/): știri din categoria Local, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Politică](https://izz.ro/politic/): știri din categoria Politică, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Economie](https://izz.ro/economic/): știri din categoria Economie, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Externe](https://izz.ro/extern/): știri din categoria Externe, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Sport](https://izz.ro/sport/): știri din categoria Sport, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Inteligență artificială](https://izz.ro/ai/): știri din categoria Inteligență artificială, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Tech](https://izz.ro/tech/): știri din categoria Tech, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Auto](https://izz.ro/auto/): știri din categoria Auto, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Sănătate](https://izz.ro/sanatate/): știri din categoria Sănătate, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Cultură](https://izz.ro/cultura/): știri din categoria Cultură, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Lifestyle](https://izz.ro/lifestyle/): știri din categoria Lifestyle, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+- [Discounturi](https://izz.ro/discounturi/): știri din categoria Discounturi, titlu, rezumat și lista publicațiilor care au relatat subiectul.
+
+## Utilitare
+- [Ce s-a întâmplat azi](https://izz.ro/azi/): listă cronologică pe ziua curentă, doar titluri și numărul de surse.
+- [Harta știrilor](https://izz.ro/harta/): distribuția pe județe a știrilor locale, pe zile.
+- [Ghiduri](https://izz.ro/ghiduri/): pagini evergreen despre drepturi și termene (pensii, alocații, buletin, ANAF).
+- [Calendar](https://izz.ro/calendar/): termene publice care urmează.
+- [Surse monitorizate](https://izz.ro/surse/): catalogul feedurilor din care se citește, cu originea fiecărei știri.
+- [Ce nu a trecut filtrul](https://izz.ro/sub-prag/): itemele respinse de garda de calitate, cu motivul.
+- [Căutare](https://izz.ro/cauta/): indexul intern pe tot corpusul aflat în fereastră.
+
+## Feeds și descoperire
+- [Flux principal RSS](https://izz.ro/feed.xml)
+- [Fluxul corecțiilor RSS](https://izz.ro/corectii/feed.xml)
+- [sitemap.xml](https://izz.ro/sitemap.xml)
+- [sitemap-priority.xml](https://izz.ro/sitemap-priority.xml)
+- [sitemap-news.xml](https://izz.ro/sitemap-news.xml)
+- [robots.txt](https://izz.ro/robots.txt)
+
+## Transparență
+- [Principii editoriale](https://izz.ro/principii/)
+- [Cum se face o sinteză](https://izz.ro/legal/method/)
+- [Corecții publice](https://izz.ro/legal/corrections/)
+- [Politica de retragere](https://izz.ro/legal/takedown/)
+- [Contact](https://izz.ro/legal/contact/)
