@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/gorj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Gorj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 11 Nov 2026 22:42:40 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 03:38:39 +0000</lastBuildDate>
+    <item>
+      <title>Expoziția de pictură „Dor de vară” a fost vernisată la Târgu Jiu</title>
+      <link>https://izz.ro/local/expozitia-pictura-dor-vara-fost-vernisata-targu-jiu/</link>
+      <guid>https://izz.ro/local/expozitia-pictura-dor-vara-fost-vernisata-targu-jiu/</guid>
+      <pubDate>Wed, 11 Nov 2026 22:20:47 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.gorjeanul.ro/cultura-2/dor-de-vara-o-calatorie-in-universul-culorilor-si-al-frumosului/">Gorjeanul</source>
+      <description>Centrul Județean pentru Conservarea Culturii Tradiționale Gorj a găzduit vernisajul lucrărilor semnate de artistul Irina Dukas, realizate prin tehnica picturii pe numere.</description>
+    </item>
     <item>
       <title>Un băiețel din județul Gorj diagnosticat cu cancer are nevoie urgentă de fonduri pentru tratament</title>
       <link>https://izz.ro/judetean/baietel-judetul-gorj-diagnosticat-cancer-are-nevoie-urgenta-fonduri-tratament/</link>
@@ -446,14 +455,5 @@
       <category>judetean</category>
       <source url="https://www.gorjeanul.ro/ultima-ora/23-de-parlamentari-aur-ajung-in-gorj-vor-merge-in-toate-localitatile-judetului-pentru-intalniri-cu-cetatenii/">Gorjeanul</source>
       <description>Reprezentanții partidului AUR vor desfășura vizite în toate localitățile din județul Gorj pentru a discuta direct cu cetățenii despre problemele comunitare și contextul legislativ actual.</description>
-    </item>
-    <item>
-      <title>Elevi din Gorj incluși într-un program de orientare profesională și educațională</title>
-      <link>https://izz.ro/judetean/elevi-din-gorj-inclusi-intr-un-program-de-orientare-profesionala-si-educationala/</link>
-      <guid>https://izz.ro/judetean/elevi-din-gorj-inclusi-intr-un-program-de-orientare-profesionala-si-educationala/</guid>
-      <pubDate>Sun, 01 Nov 2026 19:22:50 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://stirileolteniei.ro/elevi-din-gorj-inclusi-intr-un-program-de-orientare-profesionala-unul-din-12-elevi-din-invatamantul-tehnic-s-a-gandit-sa-renunte-la-scoala/">Știrile Olteniei</source>
-      <description>Trei sute de liceeni din învățământul tehnic din Gorj vor beneficia de un program de mentorat și orientare vocațională de un an. Proiectul este derulat de Asociația GO-AHEAD și finanțat prin Fundația Dacia pentru România.</description>
     </item>
 </channel></rss>

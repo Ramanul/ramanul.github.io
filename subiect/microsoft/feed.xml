@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/microsoft/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Microsoft pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 11 Nov 2026 22:42:40 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 03:38:39 +0000</lastBuildDate>
     <item>
       <title>Anthropic lansează instrumente de productivitate concurente Microsoft și Google</title>
       <link>https://izz.ro/ai/anthropic-lanseaza-instrumente-productivitate-concurente-microsoft-google/</link>
@@ -16,6 +16,24 @@
       <description>Compania Anthropic a introdus Claude Whiteboards, Sheets și Data pentru abonații plătitori, intrând în competiție directă cu suitele office dezvoltate de Microsoft și Google.</description>
     </item>
     <item>
+      <title>Microsoft înlocuiește interfețele vechi de tip Windows 95 din sistemul Windows 11</title>
+      <link>https://izz.ro/tech/microsoft-inlocuieste-interfetele-vechi-tip-windows-95-sistemul-windows-11/</link>
+      <guid>https://izz.ro/tech/microsoft-inlocuieste-interfetele-vechi-tip-windows-95-sistemul-windows-11/</guid>
+      <pubDate>Wed, 11 Nov 2026 15:33:30 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/11/11/windows-11-modernizare-interfata/">Connect.ro</source>
+      <description>Gigantul american lucrează la modernizarea ferestrelor de dialog și a instrumentelor administrative învechite care persistă în Windows 11, conform anunțului făcut de oficialul companiei Marcus Ash.</description>
+    </item>
+    <item>
+      <title>GTA VI va fi disponibil prin Xbox Cloud Gaming din 19 noiembrie</title>
+      <link>https://izz.ro/tech/gta-vi-va-disponibil-xbox-cloud-gaming-19-noiembrie/</link>
+      <guid>https://izz.ro/tech/gta-vi-va-disponibil-xbox-cloud-gaming-19-noiembrie/</guid>
+      <pubDate>Wed, 11 Nov 2026 10:03:39 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://start-up.ro/gta-6-va-putea-fi-jucat-prin-xbox-cloud-gaming-de-pe-19-noiembrie/">Start-up.ro</source>
+      <description>Microsoft a confirmat că mult așteptatul joc Grand Theft Auto VI va putea fi accesat în cloud prin platforma Xbox chiar din ziua lansării, fiind compatibil inclusiv cu vechea consolă Xbox One.</description>
+    </item>
+    <item>
       <title>Samsung înlocuiește integrarea serviciului OneDrive cu Google Photos în aplicația Gallery</title>
       <link>https://izz.ro/tech/samsung-inlocuieste-integrarea-serviciului-onedrive-google-photos-aplicatia/</link>
       <guid>https://izz.ro/tech/samsung-inlocuieste-integrarea-serviciului-onedrive-google-photos-aplicatia/</guid>
@@ -23,15 +41,6 @@
       <category>tech</category>
       <source url="https://zonait.ro/samsung-gallery-sincronizare-google/">ZonaIT, Monitorul de Galați</source>
       <description>Samsung a încheiat colaborarea cu Microsoft privind integrarea serviciului OneDrive pe telefoanele Galaxy. Sincronizarea fotografiilor și videoclipurilor din aplicația Samsung Gallery se va realiza prin intermediul Google Photos. Deși Samsung deține o soluție proprie de stocare în cloud, compania preferă să lase datele utilizatorilor în seama unor furnizori externi. Sincronizarea directă este disponibilă inițial pe terminalele cu One UI 9, urmând să fie extinsă și pe modele anterioare.</description>
-    </item>
-    <item>
-      <title>Acțiunile Nvidia scad brusc la Bursa de la New York</title>
-      <link>https://izz.ro/economic/actiunile-nvidia-scad-brusc-la-bursa-de-la-new-york/</link>
-      <guid>https://izz.ro/economic/actiunile-nvidia-scad-brusc-la-bursa-de-la-new-york/</guid>
-      <pubDate>Tue, 10 Nov 2026 18:38:57 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.economica.net/criza-ai-nvidia-continua-sa-se-prabuseasca-la-bursa-microsoft-trece-peste-pentru-prima-data-dupa-un-an-si-jumatate_994071.html">Economica</source>
-      <description>Titlurile companiei Nvidia au înregistrat un declin major, pierzând miliarde de dolari din capitalizarea bursieră, în timp ce Microsoft a depășit compania producătoare de cipuri după o lungă perioadă.</description>
     </item>
     <item>
       <title>Microsoft intenționează să închirieze puterea PC-urilor de gaming ale utilizatorilor pentru antrenarea modelelor AI</title>
