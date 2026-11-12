@@ -1,11 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Uniunea Europeana — IZZ.ro</title>
+  <title>Uniunea Europeană — IZZ.ro</title>
   <link>https://izz.ro/subiect/uniunea-europeana/</link>
   <atom:link href="https://izz.ro/subiect/uniunea-europeana/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Uniunea Europeana pe IZZ.ro</description>
+  <description>Știri despre Uniunea Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 12 Nov 2026 03:38:39 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 12:18:21 +0000</lastBuildDate>
+    <item>
+      <title>UE și Marea Britanie pregătesc amânarea taxei vamale pentru mașinile electrice</title>
+      <link>https://izz.ro/auto/ue-marea-britanie-pregatesc-amanarea-taxei-vamale-masinile-electrice/</link>
+      <guid>https://izz.ro/auto/ue-marea-britanie-pregatesc-amanarea-taxei-vamale-masinile-electrice/</guid>
+      <pubDate>Thu, 12 Nov 2026 11:03:00 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.antena3.ro/economic/uniunea-europeana-si-marea-britanie-vor-sa-amane-taxa-vamala-de-10-pentru-masinile-electrice-810912.html">Antena 3 CNN</source>
+      <description>Producătorii auto din Europa ar putea primi un răgaz important, deoarece Uniunea Europeană și Marea Britanie iau în calcul amânarea introducerii taxei vamale de 10% pentru autovehiculele electrice.</description>
+    </item>
+    <item>
+      <title>România înregistrează cea mai mare creștere a producției agricole din Europa</title>
+      <link>https://izz.ro/economic/romania-inregistreaza-cea-mai-mare-crestere-productiei-agricole-europa/</link>
+      <guid>https://izz.ro/economic/romania-inregistreaza-cea-mai-mare-crestere-productiei-agricole-europa/</guid>
+      <pubDate>Thu, 12 Nov 2026 10:56:14 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://stirileprotv.ro/stiri/actualitate/romania-conduce-clasamentul-european-al-cresterii-productiei-agricole-avans-de-13-6-potrivit-eurostat.html">Știrile ProTV</source>
+      <description>Producția agricolă a României a crescut cu 13,6% anul trecut, conform datelor publicate de Eurostat. La nivelul întregii Uniuni Europene, valoarea producției a urcat la 558,7 miliarde de euro, marcând un avans general de 4,8% comparativ cu anul anterior.</description>
+    </item>
+    <item>
+      <title>Uniunea Europeană va aproba un nou pachet de sancțiuni împotriva Rusiei</title>
+      <link>https://izz.ro/extern/uniunea-europeana-va-aproba-nou-pachet-sanctiuni-rusiei/</link>
+      <guid>https://izz.ro/extern/uniunea-europeana-va-aproba-nou-pachet-sanctiuni-rusiei/</guid>
+      <pubDate>Thu, 12 Nov 2026 10:49:40 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/franta-anunta-cand-va-aproba-ue-un-nou-pachet-de-sanctiuni-impotriva-rusiei-4033165">Digi24 Extern</source>
+      <description>Ministrul francez pentru afaceri europene, Benjamin Haddad, a anunțat că statele membre ale Uniunii Europene vor adopta oficial noi măsuri restrictive la adresa Rusiei.</description>
+    </item>
+    <item>
+      <title>Guvernul pregătește un proiect strategic pe 20 de ani în Uniunea Europeană</title>
+      <link>https://izz.ro/politic/guvernul-pregateste-proiect-strategic-20-ani-uniunea-europeana/</link>
+      <guid>https://izz.ro/politic/guvernul-pregateste-proiect-strategic-20-ani-uniunea-europeana/</guid>
+      <pubDate>Thu, 12 Nov 2026 10:43:59 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://focuspress.ro/romania-in-fata-unui-moment-istoric-niculescu-anunta-un-proiect-pentru-urmatorii-20-de-ani-in-uniunea-europeana-88390a8bb/">FocusPress</source>
+      <description>Premierul Luca Niculescu a anunțat un nou program guvernamental axat pe viitorul României în Uniunea Europeană pentru următoarele două decenii, acordând o atenție deosebită tinerilor.</description>
+    </item>
+    <item>
+      <title>Cancelarul german Friedrich Merz amenință cu blocarea bugetului UE fără sprijin total pentru Ucraina</title>
+      <link>https://izz.ro/extern/cancelarul-german-friedrich-merz-ameninta-blocarea-bugetului-ue-sprijin-total/</link>
+      <guid>https://izz.ro/extern/cancelarul-german-friedrich-merz-ameninta-blocarea-bugetului-ue-sprijin-total/</guid>
+      <pubDate>Thu, 12 Nov 2026 10:29:58 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://cursdeguvernare.ro/cancelarul-merz-ameninta-cu-veto-pe-bugetul-ue-2028-2034-daca-toate-cele-27-de-state-nu-participa-la-finantarea-ucrainei-cel-putin-4-state-se-opun.html">Curs de Guvernare</source>
+      <description>Liderul de la Berlin condiționează adoptarea cadrului financiar multianual 2028-2034 al Uniunii Europene de participarea obligatorie a tuturor celor 27 de state membre la finanțarea Ucrainei.</description>
+    </item>
     <item>
       <title>Comisia Europeană precizează că unirea României cu Republica Moldova este decizia exclusivă a cetățenilor</title>
       <link>https://izz.ro/extern/comisia-europeana-precizeaza-unirea-romaniei-republica-moldova-decizia/</link>
@@ -95,24 +140,6 @@
       <category>extern</category>
       <source url="https://www.theguardian.com/politics/2026/nov/10/britain-eu-electricity-market-cohesion-fund-hamish-falconer">The Guardian</source>
       <description>Ministrul britanic responsabil cu negocierile a declarat că Regatul Unit ar putea contribui la fondurile pentru infrastructură ale Uniunii Europene în schimbul participării la piața comună de electricitate.</description>
-    </item>
-    <item>
-      <title>Friedrich Merz cere reducerea bugetului UE și menținerea ajutorului pentru Ucraina</title>
-      <link>https://izz.ro/extern/friedrich-merz-cere-reducerea-bugetului-ue-si-mentinerea-ajutorului-pentru/</link>
-      <guid>https://izz.ro/extern/friedrich-merz-cere-reducerea-bugetului-ue-si-mentinerea-ajutorului-pentru/</guid>
-      <pubDate>Tue, 10 Nov 2026 17:06:26 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://adevarul.ro/stiri-externe/europa/friedrich-merz-vrea-un-buget-ue-mai-mic-dar-cu-2570470.html">Adevărul</source>
-      <description>Cancelarul german Friedrich Merz a solicitat modificarea proiectului de buget al Uniunii Europene pentru asigurarea sustenabilității financiare. Liderul de la Berlin a insistat totodată ca sprijinul acordat Ucrainei să rămână o prioritate comună.</description>
-    </item>
-    <item>
-      <title>Cancelarul german Friedrich Merz acuzat de șantaj privind bugetul UE</title>
-      <link>https://izz.ro/extern/cancelarul-german-friedrich-merz-acuzat-de-santaj-privind-bugetul-ue/</link>
-      <guid>https://izz.ro/extern/cancelarul-german-friedrich-merz-acuzat-de-santaj-privind-bugetul-ue/</guid>
-      <pubDate>Tue, 10 Nov 2026 16:44:27 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/2026/nov/10/friedrich-merz-accused-blackmail-ukraine-aid-eu-budget">The Guardian</source>
-      <description>Liderul german Friedrich Merz amenință cu blocarea bugetului european pe șapte ani dacă nu se adoptă un pachet financiar de sprijin pentru Ucraina, stârnind critici dure.</description>
     </item>
     <item>
       <title>Poliția din Irlanda pregătește o operațiune majoră pentru summitul UE</title>
@@ -428,32 +455,5 @@
       <category>politic</category>
       <source url="https://www.europalibera.md/a/noul-guvern-al-serbiei-se-va-confrunta-cu-vechile-dileme-economice-legate-de-rusia-si-china/33892217.html">Europa Liberă</source>
       <description>Noua conducere de la Belgrad trebuie să gestioneze urgent parteneriatele economice tradiționale cu Rusia și China, în timp ce încearcă să deblocheze fondurile europene și să restructureze industria petrolieră.</description>
-    </item>
-    <item>
-      <title>Uniunea Europeană ia în calcul menținerea vânzării de mașini cu motoare termice și după 2035</title>
-      <link>https://izz.ro/auto/uniunea-europeana-ia-in-calcul-mentinerea-vanzarii-de-masini-cu-motoare-termice/</link>
-      <guid>https://izz.ro/auto/uniunea-europeana-ia-in-calcul-mentinerea-vanzarii-de-masini-cu-motoare-termice/</guid>
-      <pubDate>Fri, 06 Nov 2026 08:30:00 +0000</pubDate>
-      <category>auto</category>
-      <source url="https://www.automarket.ro/stiri/ue-ar-putea-permite-vanzarea-masinilor-noi-cu-motoare-termice-si-dupa-2035-129369.html">AutoMarket</source>
-      <description>După ce inițial a plănuit interzicerea totală a mașinilor pe benzină și motorină din 2035, Uniunea Europeană analizează relaxarea țintelor stricte de emisii, permițând continuarea comercializării acestora sub anumite condiții.</description>
-    </item>
-    <item>
-      <title>Companiile europene cer modificarea normelor privind emisiile de carbon</title>
-      <link>https://izz.ro/economic/companiile-europene-cer-modificarea-normelor-privind-emisiile-de-carbon/</link>
-      <guid>https://izz.ro/economic/companiile-europene-cer-modificarea-normelor-privind-emisiile-de-carbon/</guid>
-      <pubDate>Thu, 05 Nov 2026 20:32:05 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.g4media.ro/scrisoare-comuna-a-peste-100-de-companii-europene-se-contesta-reforma-emisiilor-de-carbon-noile-reguli-ar-putea-scumpi-productia-sau-sa-se-mute-in-afara-europei.html">G4Media</source>
-      <description>Peste o sută de firme din Uniunea Europeană solicită schimbarea regulilor privind certificatele de emisii, avertizând că actualul sistem va majora costurile de producție și va forța închiderea fabricilor.</description>
-    </item>
-    <item>
-      <title>Președintele Consiliului European propune limitarea taxei corporative la companiile gigant</title>
-      <link>https://izz.ro/extern/presedintele-consiliului-european-propune-limitarea-taxei-corporative-la/</link>
-      <guid>https://izz.ro/extern/presedintele-consiliului-european-propune-limitarea-taxei-corporative-la/</guid>
-      <pubDate>Thu, 05 Nov 2026 18:22:33 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/eu-targets-large-firms-to-unlock-budget-deal/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>António Costa sugerează aplicarea unei taxe europene doar firmelor cu afaceri de peste 750 de milioane de euro, pentru a debloca negocierile privind bugetul comunitar.</description>
     </item>
 </channel></rss>
