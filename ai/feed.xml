@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 12 Nov 2026 12:18:40 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 19:51:25 +0000</lastBuildDate>
+    <item>
+      <title>Instanțele din România folosesc inteligența artificială pentru transcrieri</title>
+      <link>https://izz.ro/ai/instantele-romania-folosesc-inteligenta-artificiala-transcrieri/</link>
+      <guid>https://izz.ro/ai/instantele-romania-folosesc-inteligenta-artificiala-transcrieri/</guid>
+      <pubDate>Thu, 12 Nov 2026 18:18:45 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/inregistrarile-din-salile-de-judecata-sunt-transcrise-cu-ai-grefierii-scapa-de-ore-intregi-de-ascultat-si-tastat">Spotmedia</source>
+      <description>Ministerul Justiției a implementat platforma OPTIMUS, care convertește automat înregistrările audio din sălile de judecată în text. Grefierii economisesc astfel ore întregi de muncă, având rolul de a verifica și corecta documentele rezultate.</description>
+    </item>
+    <item>
+      <title>Microsoft introduce opțiunea de dezactivare a răspunsurilor AI în motorul Bing</title>
+      <link>https://izz.ro/ai/microsoft-introduce-optiunea-dezactivare-raspunsurilor-motorul-bing/</link>
+      <guid>https://izz.ro/ai/microsoft-introduce-optiunea-dezactivare-raspunsurilor-motorul-bing/</guid>
+      <pubDate>Thu, 12 Nov 2026 15:30:53 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.monitoruldegalati.ro/tehnologie/microsoft-le-permite-utilizatorilor-sa-dezactiveze-raspunsurile-ai-din-bing-google-merge-in-directia-opusa.html">Monitorul de Galați</source>
+      <description>Spre deosebire de Google, care integrează forțat funcțiile bazate pe inteligență artificială în căutări, Microsoft a lansat extensii care permit utilizatorilor să dezactiveze rezultatele generate de AI pe Bing.</description>
+    </item>
     <item>
       <title>CD Projekt a folosit inteligența artificială pentru vocea lui Geralt</title>
       <link>https://izz.ro/ai/cd-projekt-folosit-inteligenta-artificiala-vocea-geralt/</link>
@@ -437,23 +455,5 @@
       <category>ai</category>
       <source url="https://www.dobrogeaonline.ro/elon-musk-ii-indeamna-pe-oameni-sa-nu-mai-economiseasca-banii-nu-vor-mai-conta/">Dobrogea Online</source>
       <description>Miliardarul Elon Musk i-a îndemnat pe oameni să renunțe la economiile pe termen lung, prognozând că avansul tehnologic adus de inteligența artificială va schimba radical economia mondială și va elimina valoarea banilor.</description>
-    </item>
-    <item>
-      <title>SUA și China ajung la paritate în domeniul inteligenței artificiale</title>
-      <link>https://izz.ro/ai/sua-si-china-ajung-la-paritate-in-domeniul-inteligentei-artificiale/</link>
-      <guid>https://izz.ro/ai/sua-si-china-ajung-la-paritate-in-domeniul-inteligentei-artificiale/</guid>
-      <pubDate>Thu, 29 Oct 2026 20:46:33 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://adevarul.ro/stiri-externe/china/sua-si-china-se-apropie-de-paritate-in-domeniul-2567247.html">Adevărul</source>
-      <description>O analiză recentă arată că Beijingul progresează rapid în dezvoltarea tehnologiilor avansate și ar putea depăși Statele Unite în mai multe domenii strategice digitale până la finalul deceniului.</description>
-    </item>
-    <item>
-      <title>Un startup american susține că a accesat sistemele interne Anthropic</title>
-      <link>https://izz.ro/ai/un-startup-american-sustine-ca-a-accesat-sistemele-interne-anthropic/</link>
-      <guid>https://izz.ro/ai/un-startup-american-sustine-ca-a-accesat-sistemele-interne-anthropic/</guid>
-      <pubDate>Thu, 29 Oct 2026 18:41:50 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.monitoruldegalati.ro/tehnologie/agentii-ai-ai-startupului-cathedral-ar-fi-accesat-sisteme-interne-ale-anthropic-in-mai-putin-de-12-ore.html">Monitorul de Galați</source>
-      <description>Compania Cathedral afirmă că propriii agenți bazați pe inteligență artificială au pătruns în rețeaua internă a dezvoltatorului Claude în mai puțin de jumătate de zi, sustrăgând documente confidențiale.</description>
     </item>
 </channel></rss>
