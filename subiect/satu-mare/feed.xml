@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/satu-mare/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Satu Mare pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 13 Nov 2026 00:48:42 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 08:26:26 +0000</lastBuildDate>
     <item>
       <title>Investiție de peste 20 milioane euro într-o fabrică în Satu Mare</title>
       <link>https://izz.ro/local/investitie-peste-20-milioane-euro-intr-fabrica-satu-mare/</link>
@@ -59,6 +59,15 @@
       <category>judetean</category>
       <source url="https://www.presasm.ro/cod-galben-de-inundatii-la-satu-mare-avertizarea-hidrologilor-dupa-atentionarile-de-vreme-rea/54229">PresaSM</source>
       <description>Hidrologii au instituit cod galben de inundații pe râul Tur din județul Satu Mare, din cauza precipitațiilor prognozate care pot genera creșteri rapide de debite și viituri.</description>
+    </item>
+    <item>
+      <title>Avertizări meteorologice de ploi și vânt puternic emise pentru mai multe județe</title>
+      <link>https://izz.ro/general/alerte-meteo-ploi-vant-puternic-judetul-timis/</link>
+      <guid>https://izz.ro/general/alerte-meteo-ploi-vant-puternic-judetul-timis/</guid>
+      <pubDate>Thu, 12 Nov 2026 09:58:51 +0000</pubDate>
+      <category>general</category>
+      <source url="https://expressdebanat.ro/cod-galben-de-ploi-si-vant-in-timis-estul-judetului-intra-sub-cod-portocaliu/">Express de Banat, Ziua de Vest, PresaSM</source>
+      <description>Meteorologii au emis avertizări de Cod galben vizând ploi și intensificări ale vântului. A fost instituit un Cod portocaliu de vânt puternic pentru zonele înalte sau estice.</description>
     </item>
     <item>
       <title>Agricultura din Satu Mare, grav afectată de secetă și îngheț în 2026</title>
@@ -446,14 +455,5 @@
       <category>local</category>
       <source url="https://www.presasm.ro/a-baut-patru-beri-si-s-a-urcat-la-volan-pentru-a-ajunge-la-serbarea-fiicei-sale-accident-grav/54025">PresaSM</source>
       <description>O femeie din județul Satu Mare este cercetată penal după ce a provocat un accident rutier în Boinești pe fondul consumului de alcool, recunoscând în fața anchetatorilor că băuse patru beri înainte de la volan.</description>
-    </item>
-    <item>
-      <title>Decizia privind focurile de artificii de Revelion la Satu Mare este incertă</title>
-      <link>https://izz.ro/local/decizia-privind-focurile-de-artificii-de-revelion-la-satu-mare-este-incerta/</link>
-      <guid>https://izz.ro/local/decizia-privind-focurile-de-artificii-de-revelion-la-satu-mare-este-incerta/</guid>
-      <pubDate>Thu, 29 Oct 2026 18:00:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.presasm.ro/focul-de-artificii-de-revelion-in-cumpana-la-satu-mare-ce-spune-primarul-kereskenyi-gabor/54041">PresaSM</source>
-      <description>Primarul din Satu Mare, Kereskényi Gábor, a anunțat că administrația locală nu a luat încă o hotărâre definitivă referitoare la organizarea spectacolului de artificii din noaptea dintre ani.</description>
     </item>
 </channel></rss>
