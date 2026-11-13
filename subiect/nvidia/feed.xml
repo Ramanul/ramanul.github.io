@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 13 Nov 2026 16:58:13 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 23:05:44 +0000</lastBuildDate>
+    <item>
+      <title>Scandalul legat de șeful Nvidia ajunge la Casa Albă</title>
+      <link>https://izz.ro/extern/scandalul-legat-seful-nvidia-ajunge-casa-alba/</link>
+      <guid>https://izz.ro/extern/scandalul-legat-seful-nvidia-ajunge-casa-alba/</guid>
+      <pubDate>Fri, 13 Nov 2026 18:36:19 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/sua/scandalul-de-la-nvidia-ajunge-la-casa-alba-ce-stia-donald-trump-despre-suspiciunile-privind-legaturile-cu-serviciile-secrete-chineze-4035801">Digi24 Extern</source>
+      <description>O presupusă legătură amoroasă și suspiciunile privind legăturile cu serviciile secrete chineze ale unei persoane din anturajul directorului Nvidia au pus presiune pe administrația condusă de Donald Trump.</description>
+    </item>
     <item>
       <title>Fostul șef Nvidia și secretarul pentru Comerț al SUA, chemați la audieri în Congres</title>
       <link>https://izz.ro/extern/fostul-sef-nvidia-secretarul-comert-al-sua-chemati-audieri-congres/</link>
@@ -158,15 +167,6 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/eu-trusted-partners-ai-chips-henna-virkkunen-nvidia-crisis/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Un oficial de rang înalt al Uniunii Europene a declarat că blocul comunitar trebuie să colaboreze strict cu parteneri extrem de siguri în domeniul semiconductorilor și al inteligenței artificiale, după scandalul Nvidia.</description>
-    </item>
-    <item>
-      <title>Google lansează două acceleratoare hardware pentru inteligența artificială</title>
-      <link>https://izz.ro/ai/google-lanseaza-doua-acceleratoare-hardware-pentru-inteligenta-artificiala/</link>
-      <guid>https://izz.ro/ai/google-lanseaza-doua-acceleratoare-hardware-pentru-inteligenta-artificiala/</guid>
-      <pubDate>Tue, 10 Nov 2026 14:28:34 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.monitoruldegalati.ro/tehnologie/google-lanseaza-doua-noi-procesoare-ai-si-provoaca-nvidia-pe-piata-acceleratoarelor-pentru-inteligenta-artificiala.html">Monitorul de Galați</source>
-      <description>Gigantul american a introdus modelele TPU 8tx și TPU 8i Max pentru a concura direct cu Nvidia, oferind companiilor putere suplimentară de calcul pentru dezvoltarea modelelor avansate de AI.</description>
     </item>
     <item>
       <title>Dependența tehnologică a Europei de compania Nvidia rămâne fermă</title>
