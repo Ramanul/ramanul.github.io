@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/guvernul-romaniei/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Guvernul României pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 13 Nov 2026 08:26:26 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 16:58:13 +0000</lastBuildDate>
+    <item>
+      <title>Reforma administrativă a României poate modifica harta județului Prahova</title>
+      <link>https://izz.ro/judetean/reforma-administrativa-romaniei-poate-modifica-harta-judetului-prahova/</link>
+      <guid>https://izz.ro/judetean/reforma-administrativa-romaniei-poate-modifica-harta-judetului-prahova/</guid>
+      <pubDate>Fri, 13 Nov 2026 15:58:24 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.observatorulph.ro/emisiuni/2803849-video-reforma-administrativa-ar-putea-schimba-harta-romaniei-ce-se-intampla-cu-judetul-prahova">Observatorul Prahovean</source>
+      <description>Discuțiile privind comasarea comunelor și reducerea numărului de județe ridică semne de întrebare legate de viitorul administrativ al regiunii Prahova, inclusiv numărul primăriilor care riscă să fie desființate.</description>
+    </item>
     <item>
       <title>Guvernul pregătește măsuri de prevenire a radicalizării prin implicarea cadrelor didactice și a clerului</title>
       <link>https://izz.ro/politic/guvernul-pregateste-masuri-prevenire-radicalizarii-implicarea-cadrelor/</link>
@@ -446,14 +455,5 @@
       <category>economic</category>
       <source url="https://economedia.ro/investitorii-straini-dupa-intalnirea-cu-guvernul-prioritatile-sunt-consolidarea-fiscala-reformele-eliminarea-imca-scheme-pentru-relansare-si-proiect-national-pentru-adoptarea-euro.html">Economedia</source>
       <description>Reprezentanții mai multor organizații patronale străine s-au întâlnit cu premierul și miniștrii la Palatul Victoria. Aceștia au solicitat eliminarea impozitului pe cifra de afaceri, consolidare fiscală și adoptarea euro ca proiect național.</description>
-    </item>
-    <item>
-      <title>Guvernul pregătește un nou nod rutier pe Autostrada A0 la Afumați</title>
-      <link>https://izz.ro/local/guvernul-pregateste-un-nou-nod-rutier-pe-autostrada-a0-la-afumati/</link>
-      <guid>https://izz.ro/local/guvernul-pregateste-un-nou-nod-rutier-pe-autostrada-a0-la-afumati/</guid>
-      <pubDate>Wed, 04 Nov 2026 10:52:44 +0000</pubDate>
-      <category>local</category>
-      <source url="https://economedia.ro/nod-rutier-a0-afumati-stefanestii-de-jos-142-milioane-lei.html">Economedia</source>
-      <description>Un nod rutier în valoare de 142 de milioane de lei va conecta Autostrada A0 cu DJ200 în zona localităților ilfovene Afumați și Ștefăneștii de Jos, proiectul incluzând șapte kilometri de bretele și două sensuri giratorii.</description>
     </item>
 </channel></rss>

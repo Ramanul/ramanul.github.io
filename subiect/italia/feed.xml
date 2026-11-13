@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/italia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Italia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 13 Nov 2026 08:26:26 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 16:58:13 +0000</lastBuildDate>
+    <item>
+      <title>Davide Frattesi a părăsit cantonamentul Naționalei Italiei din cauza unei accidentări</title>
+      <link>https://izz.ro/sport/davide-frattesi-parasit-cantonamentul-nationalei-italiei-cauza-accidentari/</link>
+      <guid>https://izz.ro/sport/davide-frattesi-parasit-cantonamentul-nationalei-italiei-cauza-accidentari/</guid>
+      <pubDate>Fri, 13 Nov 2026 15:35:05 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://www.fcinter1908.it/news/infortuni/frattesi-lascia-ritiro-italia-infortunio-comunicato-edema-adduttore/">FC Inter 1908</source>
+      <description>Mijlocașul italian Davide Frattesi a fost nevoit să părăsească lotul național în urma unui meci disputat împotriva Franței, ratând astfel următoarea partidă din Liga Națiunilor împotriva Belgiei.</description>
+    </item>
     <item>
       <title>Zinedine Zidane minimizează primul eșec ca selecționer al Franței</title>
       <link>https://izz.ro/sport/zinedine-zidane-minimizeaza-primul-esec-selectioner-al-frantei/</link>
@@ -446,14 +455,5 @@
       <category>auto</category>
       <source url="https://www.antena3.ro/externe/mapamond/meloni-vrea-sa-aduca-mai-multi-bani-la-buget-cu-placute-de-inmatriculare-personalizate-fiecare-se-va-putea-rasfata-contra-cost-809212.html">Antena 3 CNN</source>
       <description>Guvernul condus de Giorgia Meloni introduce plăcuțe de înmatriculare personalizate în schimbul unor taxe considerabile, stabilite la 600 de euro pentru mașini și 360 de euro pentru motociclete.</description>
-    </item>
-    <item>
-      <title>MAE a emis atenționare de călătorie privind greva generală din Italia</title>
-      <link>https://izz.ro/extern/mae-a-emis-atentionare-de-calatorie-privind-greva-generala-din-italia/</link>
-      <guid>https://izz.ro/extern/mae-a-emis-atentionare-de-calatorie-privind-greva-generala-din-italia/</guid>
-      <pubDate>Thu, 29 Oct 2026 08:37:41 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.monitoruldegalati.ro/mapamond/atentionare-mae-pentru-romanii-care-calatoresc-in-italia-greva-nationala-masiva-in-transporturi-sanatate-si-educatie.html">Monitorul de Galați</source>
-      <description>Ministerul Afacerilor Externe avertizează românii care călătoresc în Italia că o grevă națională masivă va afecta transporturile, spitalele și școlile. Protestul de amploare este programat să blocheze principalele servicii publice și private din peninsulă.</description>
     </item>
 </channel></rss>
