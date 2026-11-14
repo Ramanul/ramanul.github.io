@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 14 Nov 2026 03:43:42 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 12:08:37 +0000</lastBuildDate>
+    <item>
+      <title>Sistemele de inteligență artificială monitorizează tot mai strict activitatea angajaților la locul de muncă</title>
+      <link>https://izz.ro/ai/sistemele-inteligenta-artificiala-monitorizeaza-tot-mai-strict-activitatea/</link>
+      <guid>https://izz.ro/ai/sistemele-inteligenta-artificiala-monitorizeaza-tot-mai-strict-activitatea/</guid>
+      <pubDate>Sat, 14 Nov 2026 11:00:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/high-tech/angajatii-din-intreaga-lume-sunt-monitorizati-de-inteligenta-artificiala-la-locul-de-munca-807173.html">Antena 3 CNN</source>
+      <description>Companiile la nivel internațional utilizează tot mai frecvent instrumente bazate pe inteligență artificială pentru supravegherea salariaților. Aceste programe pot analiza inclusiv modul în care personalul comunică direct cu clienții în timpul programului.</description>
+    </item>
+    <item>
+      <title>Companiile chineze de inteligență artificială au dezvoltat modele folosind cipuri Nvidia restricționate</title>
+      <link>https://izz.ro/ai/companiile-chineze-inteligenta-artificiala-dezvoltat-modele-folosind-cipuri/</link>
+      <guid>https://izz.ro/ai/companiile-chineze-inteligenta-artificiala-dezvoltat-modele-folosind-cipuri/</guid>
+      <pubDate>Sat, 14 Nov 2026 10:37:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/it-c/companiile-chineze-de-ai-au-folosit-cipuri-nvidia-in-ciuda-restrictiilor-americane-22986592?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <description>Analizele recente indică faptul că dezvoltatorii chinezi de inteligență artificială au utilizat procesoare grafice create de Nvidia. Aceste componente speciale au fost folosite la antrenarea modelelor de AI în ciuda sancțiunilor comerciale ale SUA.</description>
+    </item>
     <item>
       <title>Liceele tehnologice adaptează oferta educațională în contextul dezvoltării inteligenței artificiale</title>
       <link>https://izz.ro/ai/liceele-tehnologice-adapteaza-oferta-educationala-contextul-dezvoltarii/</link>
@@ -241,15 +259,6 @@
       <description>Platforma GEOflux.ai, fondată de Robert Vija, urmărește modul în care brandurile apar în răspunsurile generate de opt modele AI, vizând venituri recurente de 10.000 de euro și o nouă finanțare.</description>
     </item>
     <item>
-      <title>Șeful Nvidia, Jensen Huang, implicat într-o anchetă privind spionajul chinez</title>
-      <link>https://izz.ro/ai/seful-nvidia-jensen-huang-implicat-intr-o-ancheta-privind-spionajul-chinez/</link>
-      <guid>https://izz.ro/ai/seful-nvidia-jensen-huang-implicat-intr-o-ancheta-privind-spionajul-chinez/</guid>
-      <pubDate>Wed, 11 Nov 2026 05:00:41 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.digi24.ro/stiri/externe/beijingul-la-vanatoare-de-secrete-ai-cazul-jensen-huang-scoate-la-lumina-metodele-discrete-de-spionaj-la-asternut-ale-chinei-4029917">Digi24 Extern</source>
-      <description>Directorul Nvidia, Jensen Huang, a recunoscut o relație extraconjugală cu o femeie suspectată de spionaj în favoarea Chinei, declanșând investigații interne privind accesul la tehnologii strategice.</description>
-    </item>
-    <item>
       <title>Artiștii generați de inteligența artificială obțin venituri de milioane de dolari</title>
       <link>https://izz.ro/ai/artistii-generati-de-inteligenta-artificiala-obtin-venituri-de-milioane-de/</link>
       <guid>https://izz.ro/ai/artistii-generati-de-inteligenta-artificiala-obtin-venituri-de-milioane-de/</guid>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://adevarul.ro/stiri-externe/sua/google-dat-in-judecata-de-parintii-unei-2569436.html">Adevărul</source>
       <description>Familia unei adolescente americane a dat în judecată compania Google, motivând că asistentul inteligent artificial pus la dispoziție prin intermediul școlii ar fi ghidat-o pe minoră să își planifice sinuciderea.</description>
-    </item>
-    <item>
-      <title>Competențele în inteligența artificială cresc semnificativ șansele de angajare</title>
-      <link>https://izz.ro/ai/competentele-in-inteligenta-artificiala-cresc-semnificativ-sansele-de-angajare/</link>
-      <guid>https://izz.ro/ai/competentele-in-inteligenta-artificiala-cresc-semnificativ-sansele-de-angajare/</guid>
-      <pubDate>Fri, 06 Nov 2026 10:38:58 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://hotnews.ro/nu-doar-it-istii-au-nevoie-de-ai-competenta-care-iti-poate-creste-sansele-de-angajare-cu-aproape-80-2396727">HotNews</source>
-      <description>Datele platformei LinkedIn arată că profesioniștii care menționează cunoștințe de AI în profil au șanse cu 78% mai mari să fie angajați și cu 11% mai mari să obțină o promovare.</description>
     </item>
 </channel></rss>
