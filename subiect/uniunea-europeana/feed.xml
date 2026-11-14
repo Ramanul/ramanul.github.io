@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/uniunea-europeana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Uniunea Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 14 Nov 2026 18:51:34 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 22:54:52 +0000</lastBuildDate>
+    <item>
+      <title>România are cea mai mică rată de tineri care muncesc în timpul studiilor din UE</title>
+      <link>https://izz.ro/economic/romania-are-cea-mai-mica-rata-tineri-muncesc-timpul-studiilor-ue/</link>
+      <guid>https://izz.ro/economic/romania-are-cea-mai-mica-rata-tineri-muncesc-timpul-studiilor-ue/</guid>
+      <pubDate>Sat, 14 Nov 2026 21:05:25 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://adevarul.ro/economie/de-la-scoala-la-primul-job-doar-24percent-dintre-2571312.html">Adevărul</source>
+      <description>Doar 2,4% dintre tinerii români combină școala cu un loc de muncă, comparativ cu media europeană de 25,4%, din cauza accesului redus la stagii de practică.</description>
+    </item>
     <item>
       <title>Uniunea Europeană își exprimă îngrijorarea față de criza umanitară și inundațiile din Fâșia Gaza</title>
       <link>https://izz.ro/extern/uniunea-europeana-isi-exprima-ingrijorarea-criza-umanitara-inundatiile-fasia/</link>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="https://adevarul.ro/stiri-interne/evenimente/va-pierde-romania-bani-europeni-dupa-aderarea-2569729.html">Adevărul</source>
       <description>Eurodeputatul Siegfried Mureșan anunță că România ar putea accesa aproximativ 66 de miliarde de euro din viitorul buget comunitar, în contextul discuțiilor privind aderarea Ucrainei.</description>
-    </item>
-    <item>
-      <title>Hub-ul de securitate al UE la Marea Neagră va avea sedii la Constanța și Varna</title>
-      <link>https://izz.ro/local/hub-ul-de-securitate-al-ue-la-marea-neagra-va-avea-sedii-la-constanta-si-varna/</link>
-      <guid>https://izz.ro/local/hub-ul-de-securitate-al-ue-la-marea-neagra-va-avea-sedii-la-constanta-si-varna/</guid>
-      <pubDate>Mon, 09 Nov 2026 20:50:57 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.digi24.ro/stiri/actualitate/politica/oana-toiu-fost-ministru-de-externe-anunta-ca-hub-ul-de-securitate-al-ue-la-marea-neagra-va-avea-doua-sedii-la-constanta-si-la-varna-4028907">Digi24</source>
-      <description>Fostul ministru de externe Oana Țoiu a anunțat că viitorul hub european de securitate dedicat Mării Negre va funcționa în două locații complementare, stabilite în orașele Constanța din România și Varna din Bulgaria.</description>
     </item>
 </channel></rss>
