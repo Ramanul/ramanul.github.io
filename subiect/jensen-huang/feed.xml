@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/jensen-huang/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Jensen Huang pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 13 Nov 2026 23:05:44 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 03:43:13 +0000</lastBuildDate>
     <item>
       <title>Scandalul legat de șeful Nvidia ajunge la Casa Albă</title>
       <link>https://izz.ro/extern/scandalul-legat-seful-nvidia-ajunge-casa-alba/</link>
@@ -23,6 +23,15 @@
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/jensen-huang-nvidia-howard-lutnick-comert-audiati-congres.html">Curs de Guvernare</source>
       <description>Congresul American îl audiază pe Jensen Huang și pe oficialul federal Howard Lutnick în urma investigațiilor privind viața privată a fondatorului Nvidia și presupusele sale legături externe.</description>
+    </item>
+    <item>
+      <title>NVIDIA a lansat un sistem compact de tip centru de date</title>
+      <link>https://izz.ro/tech/nvidia-lansat-sistem-compact-tip-centru-date/</link>
+      <guid>https://izz.ro/tech/nvidia-lansat-sistem-compact-tip-centru-date/</guid>
+      <pubDate>Fri, 13 Nov 2026 10:40:24 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/review-nvidia-dgx-spark/">ZonaIT</source>
+      <description>Dispozitivul NVIDIA DGX Spark concentrează puterea de calcul a unui centru de date într-o carcasă portabilă care cântărește doar 1,2 kilograme, continuând inovațiile companiei în inteligența artificială.</description>
     </item>
     <item>
       <title>Noul scandal în jurul Nvidia și serviciilor secrete chineze</title>

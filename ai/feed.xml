@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 13 Nov 2026 23:06:12 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 03:43:42 +0000</lastBuildDate>
+    <item>
+      <title>Liceele tehnologice adaptează oferta educațională în contextul dezvoltării inteligenței artificiale</title>
+      <link>https://izz.ro/ai/liceele-tehnologice-adapteaza-oferta-educationala-contextul-dezvoltarii/</link>
+      <guid>https://izz.ro/ai/liceele-tehnologice-adapteaza-oferta-educationala-contextul-dezvoltarii/</guid>
+      <pubDate>Sat, 14 Nov 2026 01:09:25 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://adevarul.ro/stiri-interne/educatie/meseriile-in-era-ai-de-la-mai-asteapta-zece-2571085.html">Adevărul</source>
+      <description>Cancelariile liceelor tehnologice dezbat viitorul meseriilor pe piața muncii marcată de AI, mizând pe faptul că meseriașii calificați nu vor fi înlocuiți complet de tehnologie.</description>
+    </item>
     <item>
       <title>Companiile românești care utilizează inteligența artificială riscă procese civile</title>
       <link>https://izz.ro/ai/companiile-romanesti-utilizeaza-inteligenta-artificiala-risca-procese-civile/</link>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://hotnews.ro/nu-doar-it-istii-au-nevoie-de-ai-competenta-care-iti-poate-creste-sansele-de-angajare-cu-aproape-80-2396727">HotNews</source>
       <description>Datele platformei LinkedIn arată că profesioniștii care menționează cunoștințe de AI în profil au șanse cu 78% mai mari să fie angajați și cu 11% mai mari să obțină o promovare.</description>
-    </item>
-    <item>
-      <title>Piața muncii din România rămâne stabilă în fața crizelor, punând accent pe competențele AI</title>
-      <link>https://izz.ro/ai/piata-muncii-din-romania-ramane-stabila-in-fata-crizelor-punand-accent-pe/</link>
-      <guid>https://izz.ro/ai/piata-muncii-din-romania-ramane-stabila-in-fata-crizelor-punand-accent-pe/</guid>
-      <pubDate>Thu, 05 Nov 2026 22:07:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.zf.ro/profesii/zf-hr-conference-2026-inseamna-angajat-ready-pregatesc-companiile-2027-piata-muncii-ramane-stabila-companiile-uita-tot-mult-pot-folosi-tehnologia-eficientiza-activitatea-angajatii-vor-inlocuiti-insa-23275518">Ziarul Financiar</source>
-      <description>În cadrul conferinței ZF HR Conference 2026 s-a concluzionat că angajații nu vor fi înlocuiți de inteligența artificială, însă companiile cer noi abilități tehnologice pentru eficientizarea activității până în 2027.</description>
     </item>
 </channel></rss>

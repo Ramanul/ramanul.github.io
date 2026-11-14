@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/germania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Germania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 13 Nov 2026 23:05:44 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 03:43:13 +0000</lastBuildDate>
     <item>
       <title>Rezultatele meciurilor din Liga Națiunilor de vineri</title>
       <link>https://izz.ro/sport/rezultatele-meciurilor-liga-natiunilor-vineri/</link>
@@ -23,6 +23,15 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/startup-ul-de-7-miliarde-de-euro-care-produce-drone-pentru-ucraina-a-fost-tinta-unui-atac-cibernetic-germania-isi-tine-dronele-la-sol-811017.html">Antena 3 CNN</source>
       <description>Ministerul Apărării din Germania a ordonat suspendarea temporară a zborurilor cu drone militare produse de compania Quantum Systems, în urma unui atac informatic care a vizat sistemele producătorului.</description>
+    </item>
+    <item>
+      <title>Grupul E5 va reprezenta Uniunea Europeană la negocierile de pace</title>
+      <link>https://izz.ro/extern/grupul-e5-va-reprezenta-uniunea-europeana-negocierile-pace/</link>
+      <guid>https://izz.ro/extern/grupul-e5-va-reprezenta-uniunea-europeana-negocierile-pace/</guid>
+      <pubDate>Fri, 13 Nov 2026 18:27:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://observatornews.ro/extern/ue-a-decis-cele-5-tari-care-vor-reprezenta-europa-la-negocierile-de-pace-pentru-ucraina-672306.html">Observator</source>
+      <description>Liderii statelor membre au stabilit ca Germania, Franța, Marea Britanie, Italia și Polonia să participe din partea blocului comunitar la viitoarele tratative de pace dintre Rusia și Ucraina.</description>
     </item>
     <item>
       <title>Liderii Uniunii Europene au stabilit formatul E5 pentru negocierile de pace</title>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://hotnews.ro/germania-la-un-pas-sa-aleaga-prima-femeie-presedinte-sustinere-larga-in-cadrul-coalitiei-de-la-putere-2397293">HotNews</source>
       <description>Ilse Aigner, șefa parlamentului din Bavaria, este propunerea principală pentru a prelua președinția Germaniei. Nominalizarea sa din partea Uniunii Creștin-Democrate urmează să primească sprijinul oficial al coaliției de guvernare.</description>
-    </item>
-    <item>
-      <title>Poliția ucraineană a destructurat o rețea de înșelăciuni cripto</title>
-      <link>https://izz.ro/extern/politia-ucraineana-a-destructurat-o-retea-de-inselaciuni-cripto/</link>
-      <guid>https://izz.ro/extern/politia-ucraineana-a-destructurat-o-retea-de-inselaciuni-cripto/</guid>
-      <pubDate>Fri, 06 Nov 2026 19:20:25 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://stirileprotv.ro/stiri/international/inselatorie-de-milioane-de-euro-coordonata-din-ucraina-victimele-erau-atrase-cu-investitii-false-in-criptomonede-si-actiuni.html">Știrile ProTV</source>
-      <description>Autoritățile din Ucraina au anihilat un grup infracțional care opera centre de apel false, înșelând cetățeni din Germania cu sume de milioane de euro prin investiții fictive în criptomonede.</description>
     </item>
 </channel></rss>

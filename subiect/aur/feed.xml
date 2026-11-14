@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 13 Nov 2026 23:05:44 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 03:43:13 +0000</lastBuildDate>
     <item>
       <title>George Simion a organizat un protest de amploare în fața Parlamentului</title>
       <link>https://izz.ro/local/george-simion-organizat-protest-amploare-parlamentului/</link>
@@ -50,6 +50,15 @@
       <category>politic</category>
       <source url="https://gazetadecluj.ro/pnl-cere-guvernului-si-ministerului-de-interne-sa-asigure-ordinea-publica-la-protestul-anuntat-de-aur-in-capitala/">Gazeta de Cluj</source>
       <description>Partidul Național Liberal solicită Guvernului și Ministerului de Interne măsuri ferme de prevenire a violențelor la manifestația organizată de AUR sâmbătă, 14 noiembrie, în București.</description>
+    </item>
+    <item>
+      <title>PNL cere măsuri de ordine publică înaintea protestului AUR</title>
+      <link>https://izz.ro/local/pnl-cere-masuri-ordine-publica-protestului-aur/</link>
+      <guid>https://izz.ro/local/pnl-cere-masuri-ordine-publica-protestului-aur/</guid>
+      <pubDate>Fri, 13 Nov 2026 11:48:24 +0000</pubDate>
+      <category>local</category>
+      <source url="https://jurnalulolteniei.ro/pnl-cere-masuri-de-securitate-inaintea-protestului-aur/">Jurnalul Olteniei</source>
+      <description>Partidul Național Liberal a solicitat Ministerului Afacerilor Interne să asigure securitatea în București și să prevină posibile acte de violență la manifestația anunțată de formațiunea politică rivală.</description>
     </item>
     <item>
       <title>AUR organizează evenimentul internațional Forum Europa la Palatul Parlamentului</title>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="http://www.pandurul.rohttps://www.pandurul.ro/articol/ceo-ar-putea-primi-finantare-pana-in-2029_198256.html">Pandurul</source>
       <description>Parlamentarii au votat în unanimitate modificarea Ordonanței de Urgență 21/2022, permițând acordarea de sprijin financiar producătorului de energie până la finalul deceniului.</description>
-    </item>
-    <item>
-      <title>Epigramă satirică dedicată simpatiilor proruse ale adepților formațiunii politice AUR</title>
-      <link>https://izz.ro/politic/epigrama-satirica-dedicata-simpatiilor-proruse-ale-adeptilor-formatiunii/</link>
-      <guid>https://izz.ro/politic/epigrama-satirica-dedicata-simpatiilor-proruse-ale-adeptilor-formatiunii/</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:35 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.bzi.ro/speranta-auristului-5638762">BZI Iași</source>
-      <description>Autorul Mihai Haivas ironizează așteptările susținătorilor formațiunii politice AUR în contextul fluctuațiilor monetare, sugerând în mod satiric că aceștia ar fi pregătiți să adopte rubla rusească ca monedă de schimb.</description>
     </item>
 </channel></rss>
