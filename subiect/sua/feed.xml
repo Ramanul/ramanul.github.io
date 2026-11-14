@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/subiect/sua/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SUA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 14 Nov 2026 12:08:14 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 18:51:34 +0000</lastBuildDate>
+    <item>
+      <title>Defecțiunea unui sistem tehnic învechit a blocat 12.500 de zboruri pe aeroporturile din SUA</title>
+      <link>https://izz.ro/extern/defectiunea-sistem-tehnic-invechit-blocat-12-500-zboruri-aeroporturile-sua/</link>
+      <guid>https://izz.ro/extern/defectiunea-sistem-tehnic-invechit-blocat-12-500-zboruri-aeroporturile-sua/</guid>
+      <pubDate>Sat, 14 Nov 2026 17:03:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/ce-a-provocat-de-fapt-haosul-urias-de-pe-aeroporturile-din-sua-12-500-de-zboruri-au-fost-anulate-cand-va-reveni-totul-la-normal-811173.html">Antena 3 CNN</source>
+      <description>O defecțiune apărută la infrastructura informatică veche a aviației americane a generat haos masiv pe aeroporturile din Statele Unite. Peste 12.500 de curse au fost anulate, lăsând sute de mii de pasageri fără transport.</description>
+    </item>
+    <item>
+      <title>Decolările din SUA au fost suspendate temporar din cauza defectării unui cablu vechi</title>
+      <link>https://izz.ro/extern/decolarile-sua-suspendate-temporar-cauza-defectarii-cablu-vechi/</link>
+      <guid>https://izz.ro/extern/decolarile-sua-suspendate-temporar-cauza-defectarii-cablu-vechi/</guid>
+      <pubDate>Sat, 14 Nov 2026 16:46:49 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://hotnews.ro/cauza-care-a-dus-la-oprirea-decolarilor-in-sua-si-a-dat-peste-cap-traficul-aerian-explicatiile-oferite-de-secretarul-transporturilor-2404561">HotNews</source>
+      <description>Secretarul american al Transporturilor, Sean Duffy, a explicat oficial că blocarea traficului aerian la nivel național a fost provocată de o defecțiune la o linie veche de cablu, aflată în proces de dezafectare.</description>
+    </item>
     <item>
       <title>Companiile chineze de inteligență artificială au dezvoltat modele folosind cipuri Nvidia restricționate</title>
       <link>https://izz.ro/ai/companiile-chineze-inteligenta-artificiala-dezvoltat-modele-folosind-cipuri/</link>
@@ -68,15 +86,6 @@
       <category>extern</category>
       <source url="https://newsbv.ro/un-petrolier-ciocnit-nava-de-croaziera-new-orleans/">News Brașov</source>
       <description>O navă-cisternă a intrat în coliziune cu un vas de croazieră fluvială pe care se aflau 129 de pasageri, în zona portului New Orleans. În urma accidentului naval, 32 de persoane au fost transportate la spital pentru îngrijiri medicale.</description>
-    </item>
-    <item>
-      <title>Mii de zboruri au fost anulate sau întârziate pe aeroporturile din Statele Unite.</title>
-      <link>https://izz.ro/extern/mii-zboruri-anulate-sau-intarziate-aeroporturile-statele-unite/</link>
-      <guid>https://izz.ro/extern/mii-zboruri-anulate-sau-intarziate-aeroporturile-statele-unite/</guid>
-      <pubDate>Sat, 14 Nov 2026 06:49:34 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://zch.ro/haos-in-aeroporturile-din-sua-toate-avioanele-au-fost-tinute-la-sol-peste-patru-ore-iar-mii-de-zboruri-au-fost-anulate/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
-      <description>O blocare la sol a aeronavelor timp de peste patru ore a generat haos masiv în traficul aerian american, provocând perturbări grave în programul a mii de curse aeriene și întârzieri majore pentru pasageri.</description>
     </item>
     <item>
       <title>Oprirea la sol a tuturor zborurilor din Statele Unite în urma unor avarii de comunicații</title>
@@ -446,14 +455,5 @@
       <category>economic</category>
       <source url="https://hotnews.ro/excedentul-comercial-al-chinei-a-depasit-un-trilion-de-dolari-2399799">HotNews, Adevărul</source>
       <description>Excedentul balanței comerciale a Chinei a depășit pragul de o mie de miliarde de dolari în primele zece luni ale anului 2026. Exporturile chineze au înregistrat o creștere de 35,2% în luna octombrie față de aceeași perioadă a anului trecut. China și Uniunea Europeană au convenit un acord ce vizează limitarea exporturilor de vehicule hibride chinezești. Creșterea puternică a exporturilor chineze a survenit pe fondul menținerii unui consum intern redus.</description>
-    </item>
-    <item>
-      <title>Rusia, Ucraina și SUA încep convorbiri de pace la Abu Dhabi după nouă luni de pauză</title>
-      <link>https://izz.ro/extern/rusia-ucraina-si-sua-incep-convorbiri-de-pace-la-abu-dhabi-dupa-noua-luni-de/</link>
-      <guid>https://izz.ro/extern/rusia-ucraina-si-sua-incep-convorbiri-de-pace-la-abu-dhabi-dupa-noua-luni-de/</guid>
-      <pubDate>Tue, 10 Nov 2026 08:55:14 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.libertatea.ro/stiri/rusia-si-ucraina-negociaza-la-abu-dhabi-temeri-de-acord-yalta-l5htg5k">Libertatea</source>
-      <description>Reprezentanți ai Kievului, Moscovei și Washingtonului se întâlnesc în Emiratele Arabe Unite pentru a negocia oprirea războiului, în timp ce diplomații europeni urmăresc atent discuțiile privind securitatea regională.</description>
     </item>
 </channel></rss>

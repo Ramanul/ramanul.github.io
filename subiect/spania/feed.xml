@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/spania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Spania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 14 Nov 2026 12:08:14 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 18:51:34 +0000</lastBuildDate>
+    <item>
+      <title>Justiția din Spania a analizat cererea Statelor Unite de extrădare a activistului James Chambers</title>
+      <link>https://izz.ro/extern/justitia-spania-analizat-cererea-statelor-unite-extradare-activistului-james/</link>
+      <guid>https://izz.ro/extern/justitia-spania-analizat-cererea-statelor-unite-extradare-activistului-james/</guid>
+      <pubDate>Sat, 14 Nov 2026 15:00:47 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/us-news/2026/nov/14/activist-extradition-gaza-hamas-spanish-court">The Guardian</source>
+      <description>Omul de afaceri și activistul american James Fergie Chambers s-a prezentat în fața Înaltei Curți din Spania pentru audieri. Washingtonul solicită predarea sa sub acuzații legate de susținerea grupării Hamas, însă apărarea denunță nereguli în procedura de extrădare.</description>
+    </item>
     <item>
       <title>Lamine Yamal a reluat antrenamentele cu naționala Spaniei</title>
       <link>https://izz.ro/sport/lamine-yamal-reluat-antrenamentele-nationala-spaniei/</link>
@@ -446,14 +455,5 @@
       <category>sport</category>
       <source url="https://www.prosport.ro/diverse/ioan-andone-tragedia-toledo-20558421">ProSport</source>
       <description>Fostul antrenor român aflat în Spania a vorbit public despre impactul tragic al inundațiilor recente și al coliziunii dintre două trenuri produse în regiunea Toledo.</description>
-    </item>
-    <item>
-      <title>Șeful operatorului Iryo a avertizat anterior despre problemele sistemului de semnalizare spaniol</title>
-      <link>https://izz.ro/extern/seful-operatorului-iryo-a-avertizat-anterior-despre-problemele-sistemului-de/</link>
-      <guid>https://izz.ro/extern/seful-operatorului-iryo-a-avertizat-anterior-despre-problemele-sistemului-de/</guid>
-      <pubDate>Thu, 29 Oct 2026 19:42:38 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/tragedia-din-spania-seful-operatorului-privat-iryo-a-avertizat-in-urma-cu-trei-saptamani-asupra-problemelor-sistemului-de-semnalizare">Spotmedia</source>
-      <description>Directorul general al companiei feroviare Iryo, Fabrizio Favara, semnalase în urmă cu trei săptămâni în fața unei comisii parlamentare defecțiunile frecvente ale sistemului de semnalizare de pe ruta de mare viteză Madrid-Sevilla.</description>
     </item>
 </channel></rss>
