@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/sua/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SUA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 14 Nov 2026 22:54:52 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 03:09:50 +0000</lastBuildDate>
+    <item>
+      <title>Experții avertizează asupra creșterii incidentelor în aviația civilă din SUA</title>
+      <link>https://izz.ro/extern/expertii-avertizeaza-asupra-cresterii-incidentelor-aviatia-civila-sua/</link>
+      <guid>https://izz.ro/extern/expertii-avertizeaza-asupra-cresterii-incidentelor-aviatia-civila-sua/</guid>
+      <pubDate>Sat, 14 Nov 2026 22:08:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/zborurile-devin-tot-mai-nesigure-un-singur-om-darama-un-sistem-cladit-cu-sange">Spotmedia</source>
+      <description>Specialiștii trag un semnal de alarmă privind siguranța transportului aerian american, indicând o presiune crescută asupra sistemului și o majorare a numărului de evenimente critice înregistrate recent.</description>
+    </item>
     <item>
       <title>Posibilă reducere limitată a efectivelor de militari americani din Europa</title>
       <link>https://izz.ro/extern/posibila-reducere-limitata-efectivelor-militari-americani-europa/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://www.aradon.ro/mapamond/negocieri-ruso-ucrainene-discutiile-mediate-de-sua-continua-miercuri-dupa-45-ore-de-consultari-marti-2270844/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">ARADON</source>
       <description>Delegațiile Rusiei și Ucrainei s-au întâlnit în Emiratele Arabe Unite pentru prima dată în nouă luni, purtând ore întregi de discuții privind noua arhitectură de securitate europeană.</description>
-    </item>
-    <item>
-      <title>Inflația din SUA a depășit estimările analiștilor în luna octombrie</title>
-      <link>https://izz.ro/extern/inflatia-din-sua-a-depasit-estimarile-analistilor-in-luna-octombrie/</link>
-      <guid>https://izz.ro/extern/inflatia-din-sua-a-depasit-estimarile-analistilor-in-luna-octombrie/</guid>
-      <pubDate>Tue, 10 Nov 2026 16:32:56 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.economica.net/viata-e-tot-mai-scumpa-in-epoca-de-aur-a-lui-donald-trump-inflatia-a-crescut-peste-asteptari-in-sua_994019.html">Economica</source>
-      <description>Departamentul Comerțului a raportat o creștere a indicelui prețurilor de consum cu 0,4% în octombrie, peste prognozele specialiștilor, marcând o accelerare continuă a costului vieții în Statele Unite.</description>
     </item>
 </channel></rss>

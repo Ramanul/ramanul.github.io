@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/politic/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Politică pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 14 Nov 2026 22:55:05 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 03:10:04 +0000</lastBuildDate>
+    <item>
+      <title>Experta Ionela Băluță explică de ce femeile preiau funcții de conducere cu precădere în momente de criză</title>
+      <link>https://izz.ro/politic/experta-ionela-baluta-explica-femeile-preiau-functii-conducere-precadere/</link>
+      <guid>https://izz.ro/politic/experta-ionela-baluta-explica-femeile-preiau-functii-conducere-precadere/</guid>
+      <pubDate>Sun, 15 Nov 2026 00:05:25 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/stiri-interne/societate/plafonul-si-prapastia-de-sticla-de-ce-ajung-2571284.html">Adevărul</source>
+      <description>Profesoara și experta în egalitate de șanse Ionela Băluță analizează mecanismele sociale care duc la numirea femeilor în poziții de lider mai ales în perioade critice, expunându-le unui risc crescut de eșec din cauza resurselor limitate.</description>
+    </item>
     <item>
       <title>Guvernul Bulgariei a oprit livrările de armament și ajutorul financiar pentru Ucraina</title>
       <link>https://izz.ro/politic/guvernul-bulgariei-oprit-livrarile-armament-ajutorul-financiar-ucraina/</link>
@@ -16,15 +25,6 @@
       <description>Premierul Rumen Radev a anunțat că Sofia nu va mai trimite echipamente militare din stocuri și nici nu va contribui financiar la noi mecanisme europene, limitând sprijinul viitor strict la domeniul umanitar și energetic.</description>
     </item>
     <item>
-      <title>Emmanuel Macron avertizează că oprirea ajutorului pentru Ucraina aduce un nou război</title>
-      <link>https://izz.ro/politic/emmanuel-macron-avertizeaza-oprirea-ajutorului-ucraina-aduce-nou-razboi/</link>
-      <guid>https://izz.ro/politic/emmanuel-macron-avertizeaza-oprirea-ajutorului-ucraina-aduce-nou-razboi/</guid>
-      <pubDate>Sat, 14 Nov 2026 20:41:21 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.digi24.ro/stiri/externe/ue/emmanuel-macron-avertizeaza-ca-oprirea-ajutorului-pentru-ucraina-ar-insemna-o-pace-nedreapta-este-o-reteta-pentru-urmatorul-razboi-4036953">Digi24 Extern</source>
-      <description>Președintele Franței subliniază că diminuarea sprijinului pentru Kiev ar genera o pace nedreaptă și ar periclita stabilitatea întregului continent, drept replică la declarațiile opoziției de dreapta.</description>
-    </item>
-    <item>
       <title>Partidul AUR încearcă să mobilizeze electoratul nemulțumit prin protestul pro-Georgescu</title>
       <link>https://izz.ro/politic/partidul-aur-incearca-mobilizeze-electoratul-nemultumit-protestul-pro-georgescu/</link>
       <guid>https://izz.ro/politic/partidul-aur-incearca-mobilizeze-electoratul-nemultumit-protestul-pro-georgescu/</guid>
@@ -32,6 +32,24 @@
       <category>politic</category>
       <source url="https://adevarul.ro/politica/miza-protestului-pro-georgescu-aur-incearca-sa-si-2571568.html">Adevărul</source>
       <description>Politologul Cristian Pîrvulescu explică faptul că mitingul organizat de AUR urmărește păstrarea bazei de susținători nemulțumiți de partidele tradiționale, vizând un segment de electorat în continuă reînnoire.</description>
+    </item>
+    <item>
+      <title>Autoritățile din Ungaria au recuperat 20 de milioane de dolari într-o anchetă de corupție</title>
+      <link>https://izz.ro/politic/autoritatile-ungaria-recuperat-20-milioane-dolari-intr-ancheta-coruptie/</link>
+      <guid>https://izz.ro/politic/autoritatile-ungaria-recuperat-20-milioane-dolari-intr-ancheta-coruptie/</guid>
+      <pubDate>Sat, 14 Nov 2026 19:48:39 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.economica.net/ungaria-20-de-milioane-de-dolari-cash-au-fost-recuperati-de-autoritati-intr-o-ancheta-impotriva-unui-ministru-din-guvernul-orban_995472.html">Economica</source>
+      <description>Guvernul condus de premierul Peter Magyar a lansat operațiunea Purgatoriu, o campanie amplă anticorupție menită să investigheze fosta guvernare și să refacă relațiile cu Uniunea Europeană.</description>
+    </item>
+    <item>
+      <title>Benjamin Netanyahu solicită formarea unui guvern de uniune națională în Israel</title>
+      <link>https://izz.ro/politic/benjamin-netanyahu-cere-formarea-guvern-uniune-nationala/</link>
+      <guid>https://izz.ro/politic/benjamin-netanyahu-cere-formarea-guvern-uniune-nationala/</guid>
+      <pubDate>Sat, 14 Nov 2026 19:29:38 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://stirileprotv.ro/stiri/international/netanyahu-promite-sa-elimine-odata-pentru-totdeauna-amenintarea-iranului-la-adresa-israelului-ce-ii-cere-marelui-sau-rival.html">Știrile ProTV, Digi24 Extern, HotNews</source>
+      <description>Premierul israelian în exercițiu Benjamin Netanyahu a cerut formarea unui guvern de uniune națională alături de rivalul său Gadi Eisenkot, invocând securitatea țării și amenințarea iraniană. Netanyahu a precizat că o discuție purtată joi cu Gadi Eisenkot i-a consolidat convingerea privind necesitatea unei coaliții largi.</description>
     </item>
     <item>
       <title>Casa Albă anunță un summit între Trump, Xi Jinping și Putin</title>
@@ -437,23 +455,5 @@
       <category>politic</category>
       <source url="https://www.politico.eu/article/ex-labour-mp-accused-sexual-harassment-joins-plaid-cymru/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Politicianul britanic, suspendat anterior din Partidul Laburist în urma unor acuzații de hărțuire sexuală pe care le contestă, s-a înscris în formațiunea aflată la guvernare în Țara Galilor.</description>
-    </item>
-    <item>
-      <title>Tudor Chirilă îl critică pe președintele Nicușor Dan pentru menținerea lui Lucian Pahonțu la SPP</title>
-      <link>https://izz.ro/politic/tudor-chirila-il-critica-presedintele-nicusor-dan-mentinerea-lucian-pahontu-spp/</link>
-      <guid>https://izz.ro/politic/tudor-chirila-il-critica-presedintele-nicusor-dan-mentinerea-lucian-pahontu-spp/</guid>
-      <pubDate>Fri, 13 Nov 2026 16:23:31 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://hotnews.ro/nicusor-te-rinocerizezi-ce-ii-reproseaza-tudor-chirila-presedintelui-in-cazul-pahontu-2403808">HotNews</source>
-      <description>Artistul i-a reproșat șefului statului tonul folosit în cadrul unei conferințe când a fost întrebat despre motivele menținerii în funcție a șefului Serviciului de Protecție și Pază.</description>
-    </item>
-    <item>
-      <title>AUR cere explicații Ministerului Apărării privind sistemele antiaeriene Oerlikon</title>
-      <link>https://izz.ro/politic/aur-cere-explicatii-ministerului-apararii-privind-sistemele-antiaeriene-oerlikon/</link>
-      <guid>https://izz.ro/politic/aur-cere-explicatii-ministerului-apararii-privind-sistemele-antiaeriene-oerlikon/</guid>
-      <pubDate>Fri, 13 Nov 2026 15:51:35 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://adevarul.ro/politica/sistemele-oerlikon-nu-au-trecut-testele-aur-cere-2571349.html">Adevărul</source>
-      <description>Formațiunea politică solicită clarificări oficiale referitoare la presupuse sincope și întârzieri înregistrate în programul de modernizare a tehnicii militare contractate pentru Armata Română.</description>
     </item>
 </channel></rss>
