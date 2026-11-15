@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/spania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Spania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 15 Nov 2026 11:29:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 18:43:39 +0000</lastBuildDate>
+    <item>
+      <title>Meciuri importante în Liga Națiunilor la fotbal</title>
+      <link>https://izz.ro/sport/meciuri-importante-liga-natiunilor-fotbal/</link>
+      <guid>https://izz.ro/sport/meciuri-importante-liga-natiunilor-fotbal/</guid>
+      <pubDate>Sun, 15 Nov 2026 15:44:53 +0000</pubDate>
+      <category>sport</category>
+      <source url="https://as.ro/fotbal/liga-natiunilor/spania-anglia-live-score-2145-de-la-aceeasi-ora-se-mai-joaca-franta-turcia-si-belgia-italia-programul-complet-al-serii-708615.html">Antena Sport</source>
+      <description>Programul duminical din Liga Națiunilor include confruntări spectaculoase, capul de afiș fiind disputa dintre Spania și Anglia, în timp ce alte partide stabilesc clasamentele finale ale grupelor.</description>
+    </item>
     <item>
       <title>Educația, sănătatea și domeniul IT se confruntă cu un acut deficit de personal în Europa</title>
       <link>https://izz.ro/economic/educatia-sanatatea-domeniul-it-confrunta-acut-deficit-personal-europa/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/eveniment/42-de-straini-printre-pasagerii-trenurilor-implicate-in-tragedia-din-spania-soarta-a-24-dintre-ei-este-inca-necunoscuta">Spotmedia</source>
       <description>Accidentul feroviar grav soldat cu 69 de morți a implicat 42 de străini din șapte state, iar autoritățile încă nu au date despre soarta a 24 dintre aceștia.</description>
-    </item>
-    <item>
-      <title>Spania declară trei zile de doliu după tragedia feroviară</title>
-      <link>https://izz.ro/extern/spania-declara-trei-zile-de-doliu-dupa-tragedia-feroviara/</link>
-      <guid>https://izz.ro/extern/spania-declara-trei-zile-de-doliu-dupa-tragedia-feroviara/</guid>
-      <pubDate>Thu, 29 Oct 2026 22:13:26 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/video/2026/oct/29/how-the-deadly-train-crash-in-spain-unfolded-explainer">The Guardian</source>
-      <description>Un grav accident pe o rută de mare viteză din Spania, implicând două garnituri feroviare, s-a soldat cu 69 de morți, redeschizând dezbaterea privind siguranța transportului pe șine.</description>
     </item>
 </channel></rss>

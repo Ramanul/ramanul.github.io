@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 15 Nov 2026 11:29:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 18:43:39 +0000</lastBuildDate>
+    <item>
+      <title>Lidia Vadim Tudor a fost desemnată președinta Organizației de Femei AUR</title>
+      <link>https://izz.ro/politic/lidia-vadim-tudor-fost-desemnata-presedinta-organizatiei-femei-aur/</link>
+      <guid>https://izz.ro/politic/lidia-vadim-tudor-fost-desemnata-presedinta-organizatiei-femei-aur/</guid>
+      <pubDate>Sun, 15 Nov 2026 17:00:45 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/politica/lidia-vadim-tudor-aleasa-presedinta-a-2571678.html">Adevărul</source>
+      <description>Deputata formațiunii a preluat conducerea organizației feminine în cadrul congresului național desfășurat la Palatul Parlamentului, unde a pledat pentru unitate și implicarea activă a femeilor în politică.</description>
+    </item>
     <item>
       <title>Partidul AUR încearcă să mobilizeze electoratul nemulțumit prin protestul pro-Georgescu</title>
       <link>https://izz.ro/politic/partidul-aur-incearca-mobilizeze-electoratul-nemultumit-protestul-pro-georgescu/</link>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="https://economedia.ro/video-o-eventuala-guvernare-aur-ar-putea-duce-la-retrogradarea-ratingului-romaniei-si-la-dobanzi-mai-mari-la-imprumuturi-spune-nicusor-dan.html">Economedia</source>
       <description>Președintele Nicușor Dan a declarat că preluarea puterii de către partidul AUR ar putea genera retrogradarea ratingului de țară și creșterea costurilor de împrumut pentru statul român.</description>
-    </item>
-    <item>
-      <title>Nicușor Dan a criticat lipsa unui plan sustenabil de guvernare din partea AUR</title>
-      <link>https://izz.ro/politic/nicusor-dan-a-criticat-lipsa-unui-plan-sustenabil-de-guvernare-din-partea-aur/</link>
-      <guid>https://izz.ro/politic/nicusor-dan-a-criticat-lipsa-unui-plan-sustenabil-de-guvernare-din-partea-aur/</guid>
-      <pubDate>Tue, 10 Nov 2026 17:39:09 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://stirileprotv.ro/stiri/politic/nicusor-dan-explica-ce-consecinte-ar-fi-avut-guvernarea-aur-nu-au-un-plan-de-tara-care-sa-fie-sustenabil.html">Știrile ProTV</source>
-      <description>Președintele Nicușor Dan a afirmat că dialogul politic purtat după recentele crize a fost necesar, subliniind totodată că formațiunea AUR nu deține un proiect de țară viabil și coerent.</description>
     </item>
 </channel></rss>
