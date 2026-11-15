@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/statele-unite/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Statele Unite pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 15 Nov 2026 18:43:39 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 23:28:52 +0000</lastBuildDate>
+    <item>
+      <title>Serviciile de informații europene avertizează privind atacuri cibernetice și comploturi atribuite Iranului</title>
+      <link>https://izz.ro/extern/serviciile-informatii-europene-avertizeaza-privind-atacuri-cibernetice/</link>
+      <guid>https://izz.ro/extern/serviciile-informatii-europene-avertizeaza-privind-atacuri-cibernetice/</guid>
+      <pubDate>Sun, 15 Nov 2026 19:00:55 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/iranul-ar-putea-transforma-europa-in-tinta-represaliilor-contra-sua-atacuri-cibernetice-si-comploturi-teroriste-atribuite-teheranului-4037453">Digi24 Extern</source>
+      <description>Mai multe tentative de atentat și atacuri informatice au pus în alertă serviciile de securitate din Europa. Autoritățile suspectează că Iranul orchestrează aceste acțiuni drept represalii în contextul tensiunilor militare cu Statele Unite și Israel.</description>
+    </item>
     <item>
       <title>O eroare tehnică a oprit peste 17.000 de zboruri pe aeroporturile din Statele Unite</title>
       <link>https://izz.ro/extern/eroare-tehnica-oprit-peste-17-000-zboruri-aeroporturile-statele-unite/</link>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="https://www.digi24.ro/stiri/actualitate/prima-reactie-de-la-cotroceni-dupa-alegeri-cum-s-ar-putea-schimba-relatia-romaniei-cu-noua-generatie-de-politicieni-americani-4021355">Digi24</source>
       <description>Cotroceniul speră ca relația bilaterală cu Statele Unite să rămână neschimbată, în contextul în care o nouă generație de politicieni americani preia mandate în Congres, înlocuind vechii parteneri de dialog.</description>
-    </item>
-    <item>
-      <title>Rezultatele alegerilor din SUA afectează marile companii de tehnologie și miliardarii din Silicon Valley</title>
-      <link>https://izz.ro/tech/rezultatele-alegerilor-din-sua-afecteaza-marile-companii-de-tehnologie-si/</link>
-      <guid>https://izz.ro/tech/rezultatele-alegerilor-din-sua-afecteaza-marile-companii-de-tehnologie-si/</guid>
-      <pubDate>Wed, 04 Nov 2026 10:28:36 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://economedia.ro/alegerile-din-sua-pun-presiune-pe-miliardarii-din-tehnologie-si-industria-ai-americanii-au-sanctionat-scumpirile-si-influenta-marilor-companii-asupra-economiei.html">Economedia</source>
-      <description>Succesul democraților trimite un semnal de alarmă giganților din IT și finanțatorilor care au susținut candidații republicani, pe fondul nemulțumirilor cetățenilor legate de costul ridicat al vieții și influența corporatistă.</description>
     </item>
 </channel></rss>
