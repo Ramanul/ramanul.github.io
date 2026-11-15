@@ -5,13 +5,13 @@
   "articles_with_provenance": 0,
   "catalog_records": 2,
   "coverage": {
-    "denominator": 12279,
+    "denominator": 12479,
     "numerator": 0
   },
   "dossiers": {
     "emitted": 1,
     "indexable": 1,
-    "prepared_at": "2026-11-15T03:09:35.509053+00:00",
+    "prepared_at": "2026-11-15T11:28:49.104395+00:00",
     "suppressed": [
       {
         "key": "article:/local/intrerupere-temporara-a-serviciilor-de-plata-online-in-perioada-16-18-octombrie/",
@@ -24,9 +24,9 @@
   "examined_resources": 1,
   "examined_sources": 1,
   "fresh": 0,
-  "generated_at": "2026-11-15T03:09:35.509053+00:00",
+  "generated_at": "2026-11-15T11:28:49.104395+00:00",
   "needs_review": 0,
-  "publishable_articles": 12279,
+  "publishable_articles": 12479,
   "resources_current": 0,
   "resources_expired": 0,
   "resources_without_deadline": 0,

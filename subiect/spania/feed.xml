@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/spania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Spania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 15 Nov 2026 03:09:50 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 11:29:13 +0000</lastBuildDate>
+    <item>
+      <title>Educația, sănătatea și domeniul IT se confruntă cu un acut deficit de personal în Europa</title>
+      <link>https://izz.ro/economic/educatia-sanatatea-domeniul-it-confrunta-acut-deficit-personal-europa/</link>
+      <guid>https://izz.ro/economic/educatia-sanatatea-domeniul-it-confrunta-acut-deficit-personal-europa/</guid>
+      <pubDate>Sun, 15 Nov 2026 08:00:57 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://economedia.ro/invatamantul-sanatatea-si-it-ul-domeniile-cu-cel-mai-mare-deficit-de-personal-din-europa-ce-meserii-se-ocupa-cel-mai-usor.html">Economedia</source>
+      <description>Raportul OCDE arată că posturile din învățământ, servicii medicale și tehnologie sunt cel mai greu de ocupat pe piața muncii europeană. În schimb, angajatorii găsesc mult mai facil personal necalificat sau ajutoare în sectorul alimentar.</description>
+    </item>
     <item>
       <title>Thomas Tuchel a confirmat că Djed Spence este complet refăcut pentru meciul cu Spania</title>
       <link>https://izz.ro/sport/thomas-tuchel-confirmat-djed-spence-complet-refacut-meciul-spania/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://www.theguardian.com/world/video/2026/oct/29/how-the-deadly-train-crash-in-spain-unfolded-explainer">The Guardian</source>
       <description>Un grav accident pe o rută de mare viteză din Spania, implicând două garnituri feroviare, s-a soldat cu 69 de morți, redeschizând dezbaterea privind siguranța transportului pe șine.</description>
-    </item>
-    <item>
-      <title>Specialiștii analizează siguranța locurilor din tren în caz de accident</title>
-      <link>https://izz.ro/extern/specialistii-analizeaza-siguranta-locurilor-din-tren-in-caz-de-accident/</link>
-      <guid>https://izz.ro/extern/specialistii-analizeaza-siguranta-locurilor-din-tren-in-caz-de-accident/</guid>
-      <pubDate>Thu, 29 Oct 2026 22:00:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/timp-liber/care-este-cel-mai-sigur-loc-in-caz-de-accident-feroviar-ce-spun-expertii">Spotmedia</source>
-      <description>În urma tragicului accident feroviar din Spania soldat cu numeroase victime, experții în transporturi explică faptul că mijlocul garniturii nu mai reprezintă o garanție absolută pentru supraviețuire.</description>
     </item>
 </channel></rss>

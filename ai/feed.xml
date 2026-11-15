@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 15 Nov 2026 03:10:10 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 11:29:43 +0000</lastBuildDate>
+    <item>
+      <title>Câștigătorul examenului de consultanță fiscală din Coreea de Sud a trișat folosind inteligența artificială</title>
+      <link>https://izz.ro/ai/castigatorul-examenului-consultanta-fiscala-coreea-sud-trisat-folosind/</link>
+      <guid>https://izz.ro/ai/castigatorul-examenului-consultanta-fiscala-coreea-sud-trisat-folosind/</guid>
+      <pubDate>Sun, 15 Nov 2026 10:02:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/primul-clasat-la-un-examen-national-pentru-consultanti-fiscali-din-coreea-de-sud-a-trisat-cu-ai">Spotmedia</source>
+      <description>Primul clasat la examenul național pentru consultanți fiscali din Coreea de Sud a recunoscut că a folosit o cameră miniaturală și un sistem bazat pe inteligență artificială pentru a copia răspunsurile la ambele probe.</description>
+    </item>
     <item>
       <title>Prima gală a premiilor AI Music Awards a avut loc la Los Angeles</title>
       <link>https://izz.ro/ai/prima-gala-premiilor-music-awards-avut-loc-los-angeles/</link>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://spotmedia.ro/stiri/mediu/inteligenta-artificiala-intra-in-hidrocentrale-tehnologia-care-ar-putea-ajuta-europa-sa-evite-crizele-de-energie">Spotmedia</source>
       <description>Sistemul energetic european mizează pe flexibilitatea centralelor hidroelectrice pentru a compensa fluctuațiile provocate de sursele regenerabile. Tehnologiile avansate ajută la gestionarea producției și la stocarea eficientă a apei în perioadele critice.</description>
-    </item>
-    <item>
-      <title>OpenAI lansează un model nou dedicat securității cibernetice</title>
-      <link>https://izz.ro/ai/openai-lanseaza-un-model-nou-dedicat-securitatii-cibernetice/</link>
-      <guid>https://izz.ro/ai/openai-lanseaza-un-model-nou-dedicat-securitatii-cibernetice/</guid>
-      <pubDate>Fri, 06 Nov 2026 18:16:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.profit.ro/romania-conectata/openai-lanseaza-un-nou-model-pentru-securitate-cibernetica-22950944?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Producătorul ChatGPT a dezvoltat un sistem specializat în depistarea vulnerabilităților informatice, conceput să fie mai eficient și mai sigur în utilizarea defensivă împotriva atacurilor.</description>
     </item>
 </channel></rss>
