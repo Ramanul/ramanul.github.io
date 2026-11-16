@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 15 Nov 2026 23:29:25 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 03:07:17 +0000</lastBuildDate>
     <item>
       <title>Digi Spania introduce avertizări automate pe ecranul telefonului pentru apelurile de telemarketing</title>
       <link>https://izz.ro/tech/digi-spania-introduce-avertizari-automate-ecranul-telefonului-apelurile/</link>
@@ -32,6 +32,15 @@
       <category>tech</category>
       <source url="https://www.antena3.ro/externe/esecul-proiectului-matador-din-texas-anunta-o-lovitura-pentru-mogulii-tech-ce-se-va-intampla-cu-expansiunea-centrelor-de-date-810587.html">Antena 3 CNN</source>
       <description>Dezvoltatorul Fermi a pierdut 95% din valoarea sa pe bursă, punând în pericol proiectul Matador din Texas, conceput ca un hub masiv pentru centre de date. Eșecul financiar semnalează riscuri majore pentru extinderea infrastructurii marilor companii tehnologice.</description>
+    </item>
+    <item>
+      <title>Aparatele electrocasnice smart ridică riscuri de securitate cibernetică</title>
+      <link>https://izz.ro/tech/aparatele-electrocasnice-smart-ridica-riscuri-securitate-cibernetica/</link>
+      <guid>https://izz.ro/tech/aparatele-electrocasnice-smart-ridica-riscuri-securitate-cibernetica/</guid>
+      <pubDate>Sun, 15 Nov 2026 19:36:41 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://spotmedia.ro/stiri/social/cand-tehnologia-incearca-sa-rezolve-o-problema-inexistenta-de-ce-ai-vrea-un-frigider-smart">Spotmedia</source>
+      <description>După atacurile informatice recente în care sisteme de refrigerare din Franța au fost oprite de la distanță de hackeri, utilitatea și siguranța aparatelor conectate la internet sunt puternic contestate de experți.</description>
     </item>
     <item>
       <title>O provocare periculoasă de pe TikTok pune la încercare reacțiile șoferilor din trafic</title>
@@ -446,14 +455,5 @@
       <category>tech</category>
       <source url="https://zonait.ro/thinkpad-x1-carbon-gen-14-aura-edition-review/">ZonaIT</source>
       <description>Cel mai recent laptop ThinkPad X1 Carbon impresionează prin calitatea construcției și fiabilitate, însă este criticat pentru integrarea forțată a funcțiilor de inteligență artificială și pentru numele exagerat de lung.</description>
-    </item>
-    <item>
-      <title>Whoop lansează rețeaua socială Humans pentru date de fitness</title>
-      <link>https://izz.ro/tech/whoop-lanseaza-reteaua-sociala-humans-date-fitness/</link>
-      <guid>https://izz.ro/tech/whoop-lanseaza-reteaua-sociala-humans-date-fitness/</guid>
-      <pubDate>Fri, 13 Nov 2026 11:08:51 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://start-up.ro/whoop-lanseaza-humans-o-retea-sociala-pentru-distribuirea-datelor-despre-somn-recuperare-si-antrenamente/">Start-up.ro</source>
-      <description>Compania Whoop a introdus funcția Humans în aplicația sa mobilă, permițând utilizatorilor să își partajeze măsurătorile legate de somn, nivelul de recuperare fizică și sesiunile de antrenament.</description>
     </item>
 </channel></rss>
