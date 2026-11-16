@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/china/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre China pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 16 Nov 2026 03:06:45 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 12:15:37 +0000</lastBuildDate>
+    <item>
+      <title>Statele Unite înăspresc regulile privind exportul de cipuri AI către China</title>
+      <link>https://izz.ro/tech/statele-unite-inaspresc-regulile-privind-exportul-cipuri-catre-china/</link>
+      <guid>https://izz.ro/tech/statele-unite-inaspresc-regulile-privind-exportul-cipuri-catre-china/</guid>
+      <pubDate>Mon, 16 Nov 2026 10:34:29 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/11/16/exportul-de-cipuri-ai-catre-china-va-fi-ingreunat-dupa-scandalul-cu-spioni-din-cadrul-nvidia/">Connect.ro</source>
+      <description>Un scandal în care a fost implicat fostul conducător al NVIDIA a determinat Congresul american să impună restricții mai severe la exportul tehnologiei de inteligență artificială către China, prin sprijinul ambelor partide.</description>
+    </item>
     <item>
       <title>Producătorii industriali din Europa riscă să piardă competiția economică în fața companiilor chineze</title>
       <link>https://izz.ro/economic/producatorii-industriali-europa-risca-piarda-competitia-economica-companiilor/</link>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="https://www.europalibera.md/a/noul-guvern-al-serbiei-se-va-confrunta-cu-vechile-dileme-economice-legate-de-rusia-si-china/33892217.html">Europa Liberă</source>
       <description>Noua conducere de la Belgrad trebuie să gestioneze urgent parteneriatele economice tradiționale cu Rusia și China, în timp ce încearcă să deblocheze fondurile europene și să restructureze industria petrolieră.</description>
-    </item>
-    <item>
-      <title>China a blocat lansarea unui film despre carantina din Wuhan</title>
-      <link>https://izz.ro/extern/china-a-blocat-lansarea-unui-film-despre-carantina-din-wuhan/</link>
-      <guid>https://izz.ro/extern/china-a-blocat-lansarea-unui-film-despre-carantina-din-wuhan/</guid>
-      <pubDate>Fri, 06 Nov 2026 10:27:12 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/mapamond/china-a-blocat-premiera-unui-film-despre-inceputul-pandemiei-de-covid-19-pelicula-urma-sa-ajunga-vineri-in-cinematografe-4024521">Digi24 Extern</source>
-      <description>Pelicula „Eroi în alb”, care reconstituie perioada inițială a pandemiei de COVID-19, a fost retrasă din cinematografe fără explicații oficiale din partea autorităților chineze.</description>
     </item>
 </channel></rss>

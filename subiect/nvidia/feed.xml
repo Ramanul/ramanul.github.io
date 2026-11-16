@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Nvidia — IZZ.ro</title>
+  <title>NVIDIA — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Nvidia pe IZZ.ro</description>
+  <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 16 Nov 2026 03:06:45 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 12:15:37 +0000</lastBuildDate>
+    <item>
+      <title>Statele Unite înăspresc regulile privind exportul de cipuri AI către China</title>
+      <link>https://izz.ro/tech/statele-unite-inaspresc-regulile-privind-exportul-cipuri-catre-china/</link>
+      <guid>https://izz.ro/tech/statele-unite-inaspresc-regulile-privind-exportul-cipuri-catre-china/</guid>
+      <pubDate>Mon, 16 Nov 2026 10:34:29 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.connect.ro/2026/11/16/exportul-de-cipuri-ai-catre-china-va-fi-ingreunat-dupa-scandalul-cu-spioni-din-cadrul-nvidia/">Connect.ro</source>
+      <description>Un scandal în care a fost implicat fostul conducător al NVIDIA a determinat Congresul american să impună restricții mai severe la exportul tehnologiei de inteligență artificială către China, prin sprijinul ambelor partide.</description>
+    </item>
     <item>
       <title>Spioanele chineze folosesc tehnici de seducție pentru a obține secrete de la oficiali importanți</title>
       <link>https://izz.ro/extern/spioanele-chineze-folosesc-tehnici-seductie-pentru-obtine-secrete-oficiali/</link>
