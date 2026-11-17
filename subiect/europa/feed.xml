@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 17 Nov 2026 05:05:04 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 15:14:18 +0000</lastBuildDate>
+    <item>
+      <title>SUA emit o avertizare de securitate privind riscul atentatelor în Europa</title>
+      <link>https://izz.ro/extern/sua-emit-avertizare-securitate-privind-riscul-atentatelor-europa/</link>
+      <guid>https://izz.ro/extern/sua-emit-avertizare-securitate-privind-riscul-atentatelor-europa/</guid>
+      <pubDate>Tue, 17 Nov 2026 13:19:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://newsbv.ro/sua-avertizeaza-atacuri-teroriste-europa/">News Brașov</source>
+      <description>Ambasadele Statelor Unite au lansat un semnal de alarmă pentru cetățenii americani aflati în Europa în perioada sărbătorilor. Sunt vizate zonele aglomerate, cum ar fi târgurile de Crăciun, aeroporturile și centrele comerciale.</description>
+    </item>
     <item>
       <title>Statele Unite au emis o alertă de securitate pentru cetățenii lor aflați în Europa</title>
       <link>https://izz.ro/extern/statele-unite-emis-alerta-securitate-cetatenii-aflati-europa/</link>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://spotmedia.ro/stiri/mediu/inteligenta-artificiala-intra-in-hidrocentrale-tehnologia-care-ar-putea-ajuta-europa-sa-evite-crizele-de-energie">Spotmedia</source>
       <description>Sistemul energetic european mizează pe flexibilitatea centralelor hidroelectrice pentru a compensa fluctuațiile provocate de sursele regenerabile. Tehnologiile avansate ajută la gestionarea producției și la stocarea eficientă a apei în perioadele critice.</description>
-    </item>
-    <item>
-      <title>Giorgia Meloni cere majorarea bugetului apărării după alertele cu bombă</title>
-      <link>https://izz.ro/extern/giorgia-meloni-cere-majorarea-bugetului-apararii-dupa-alertele-cu-bomba/</link>
-      <guid>https://izz.ro/extern/giorgia-meloni-cere-majorarea-bugetului-apararii-dupa-alertele-cu-bomba/</guid>
-      <pubDate>Fri, 06 Nov 2026 21:39:39 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/giorgia-meloni-face-un-apel-pentru-cresterea-cheltuielilor-militare-dupa-valul-de-amenintari-cu-bomba-in-europa-4025779">Digi24 Extern</source>
-      <description>Premierul Italiei, Giorgia Meloni, susține că Europa trebuie să investească mai mult în securitate și apărare civilă, în urma valului recent de atacuri cibernetice și amenințări false cu bombă.</description>
     </item>
 </channel></rss>

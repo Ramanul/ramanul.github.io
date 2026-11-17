@@ -5,7 +5,34 @@
   <atom:link href="https://izz.ro/subiect/galati/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Galați pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 17 Nov 2026 05:05:04 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 15:14:18 +0000</lastBuildDate>
+    <item>
+      <title>Anunț imobiliar privind un schimb de locuințe în Galați</title>
+      <link>https://izz.ro/local/anunt-imobiliar-privind-schimb-locuinte-galati/</link>
+      <guid>https://izz.ro/local/anunt-imobiliar-privind-schimb-locuinte-galati/</guid>
+      <pubDate>Tue, 17 Nov 2026 14:32:22 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.monitoruldegalati.ro/mica-publicitate/imobiliare/schimburi.html">Monitorul de Galați</source>
+      <description>Un proprietar oferă o garsonieră situată în cartierul Micro 39A la schimb cu un apartament decomandat cu două camere, oferind și o diferență de preț, conform unui anunț publicat recent.</description>
+    </item>
+    <item>
+      <title>Anunțuri de cumpărare a unor apartamente în Galați</title>
+      <link>https://izz.ro/local/anunturi-cumparare-unor-apartamente-galati/</link>
+      <guid>https://izz.ro/local/anunturi-cumparare-unor-apartamente-galati/</guid>
+      <pubDate>Tue, 17 Nov 2026 14:31:44 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.monitoruldegalati.ro/mica-publicitate/imobiliare/cumparari.html">Monitorul de Galați</source>
+      <description>Mai mulți cumpărători privați caută apartamente cu două camere în zone precum IC Frimu, Țiglina II sau Casa Roșie, oferind plata pe loc și excluzând intermedierea agențiilor imobiliare.</description>
+    </item>
+    <item>
+      <title>Casă de vânzare sau la schimb în județul Prahova</title>
+      <link>https://izz.ro/local/casa-vanzare-sau-schimb-judetul-prahova/</link>
+      <guid>https://izz.ro/local/casa-vanzare-sau-schimb-judetul-prahova/</guid>
+      <pubDate>Tue, 17 Nov 2026 14:31:13 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.monitoruldegalati.ro/mica-publicitate/imobiliare/case.html">Monitorul de Galați</source>
+      <description>O gospodărie cu patru camere și teren de 570 de metri pătrați din localitatea Florești este scoasă la vânzare pentru 70.000 de euro sau poate fi schimbată cu un apartament în Galați.</description>
+    </item>
     <item>
       <title>Solid Energy Vibe caută constructor pentru un parc fotovoltaic în județul Galați</title>
       <link>https://izz.ro/local/solid-energy-vibe-cauta-constructor-parc-fotovoltaic-judetul-galati/</link>
@@ -428,14 +455,5 @@
       <category>local</category>
       <source url="https://www.monitoruldegalati.ro/stirea-zilei/arena-de-box-vasile-lehadus-din-galati-a-fost-complet-modernizata-ionut-pucheanu-cladire-la-standarde-europene-pentru-sportivi.html">Monitorul de Galați</source>
       <description>Primăria Galați a finalizat renovarea energetică a sălii de box folosind fonduri PNRR și buget local. Valoarea totală a investiției pentru noua infrastructură sportivă a depășit 8 milioane de lei.</description>
-    </item>
-    <item>
-      <title>O avarie majoră a lăsat orașul Galați fără curent electric</title>
-      <link>https://izz.ro/local/o-avarie-majora-a-lasat-orasul-galati-fara-curent-electric/</link>
-      <guid>https://izz.ro/local/o-avarie-majora-a-lasat-orasul-galati-fara-curent-electric/</guid>
-      <pubDate>Thu, 29 Oct 2026 14:34:45 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.monitoruldegalati.ro/stirea-zilei/pana-de-curent-de-cateva-ore-in-mai-multe-cartiere-din-galati-transportul-electric-si-semafoarele-afectate.html">Monitorul de Galați</source>
-      <description>O problemă tehnică la Stația de Transformare Filești a întrerupt alimentarea cu energie în mai multe cartiere. Avaria a afectat temporar transportul în comun electric și funcționarea semafoarelor.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 17 Nov 2026 05:05:24 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 15:14:45 +0000</lastBuildDate>
+    <item>
+      <title>Tineri români au obținut argintul în SUA cu un proiect medical bazat pe AI</title>
+      <link>https://izz.ro/ai/tineri-romani-obtinut-argintul-sua-proiect-medical-bazat/</link>
+      <guid>https://izz.ro/ai/tineri-romani-obtinut-argintul-sua-proiect-medical-bazat/</guid>
+      <pubDate>Tue, 17 Nov 2026 13:18:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zcj.ro/educatie/doi-tineri-romani-pe-podium-in-sua-au-castigat-argintul-cu-un-proiect-de-ai-dedicat-cercetarii-cancerului--304459.html">Ziua de Cluj</source>
+      <description>Un duo de tineri din România a urcat pe podium la o competiție internațională din Statele Unite dedicate inteligenței artificiale. Aceștia au fost premiați pentru o aplicație inovatoare menită să sprijine cercetarea oncologică.</description>
+    </item>
+    <item>
+      <title>OpenAI introduce măsuri de siguranță pentru minori și detecție a abuzului în ChatGPT</title>
+      <link>https://izz.ro/ai/openai-introduce-masuri-siguranta-minori-detectie-abuzului-chatgpt/</link>
+      <guid>https://izz.ro/ai/openai-introduce-masuri-siguranta-minori-detectie-abuzului-chatgpt/</guid>
+      <pubDate>Tue, 17 Nov 2026 12:34:45 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/openai-chatgpt-csam/">ZonaIT</source>
+      <description>Compania OpenAI a implementat în platforma ChatGPT instrumente destinate depistării abuzului asupra minorilor și avertismente pentru comportamente toxice. Noile funcții fac parte din inițiativa Child Safety Blueprint și vin în sprijinul anchetatorilor.</description>
+    </item>
     <item>
       <title>Administrația Trump blochează accesul firmelor chineze la cipuri americane de inteligență artificială</title>
       <link>https://izz.ro/ai/administratia-trump-blocheaza-accesul-firmelor-chineze-cipuri-americane/</link>
@@ -295,15 +313,6 @@
       <description>Sundar Pichai a explicat într-un podcast că utilizează echipe de agenți virtuali AI pentru a menține operațiunile companiei active și eficiente în regim continuu, douăzeci și patru de ore din șapte.</description>
     </item>
     <item>
-      <title>Piața Muncii Se Schimbă Prin Automatizarea Bazată Pe Inteligență Artificială</title>
-      <link>https://izz.ro/ai/piata-muncii-schimba-automatizarea-bazata-inteligenta-artificiala/</link>
-      <guid>https://izz.ro/ai/piata-muncii-schimba-automatizarea-bazata-inteligenta-artificiala/</guid>
-      <pubDate>Thu, 12 Nov 2026 10:13:50 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.tion.ro/stirile-judetului-timis/ghidul-signalhire-pentru-2026-cum-ajungi-la-ceo-la-liderii-de-nivel-c-si-la-joburile-cu-cea-mai-rapida-crestere-2388732/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
-      <description>Studiile recente arată că automatizarea va prelua o parte însemnată din orele de lucru până în 2030, însă cererea pentru noi locuri de muncă rămâne ridicată în majoritatea industriilor afectate.</description>
-    </item>
-    <item>
       <title>Microsoft lansează extensii pentru dezactivarea AI în Bing</title>
       <link>https://izz.ro/ai/microsoft-lanseaza-extensii-dezactivarea-bing/</link>
       <guid>https://izz.ro/ai/microsoft-lanseaza-extensii-dezactivarea-bing/</guid>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://www.contributors.ro/daca-nu-esti-la-masa-esti-in-meniu/">Contributors</source>
       <description>Între 3 și 7 noiembrie 2026, opt state europene au stabilit o infrastructură digitală școlară, în timp ce Google a modificat regulile pentru elevi. România a lipsit complet de la aceste dezbateri strategice privind suveranitatea minții umane.</description>
-    </item>
-    <item>
-      <title>Apple vrea transformarea asistentului Siri într-un agent bazat pe inteligență artificială</title>
-      <link>https://izz.ro/ai/apple-vrea-transformarea-asistentului-siri-intr-un-agent-bazat-pe-inteligenta/</link>
-      <guid>https://izz.ro/ai/apple-vrea-transformarea-asistentului-siri-intr-un-agent-bazat-pe-inteligenta/</guid>
-      <pubDate>Mon, 09 Nov 2026 20:00:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.profit.ro/romania-conectata/apple-vrea-ca-siri-sa-functioneze-precum-un-agent-de-ai-22969924?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Noul director executiv al companiei americane solicită intensificarea eforturilor în domeniul inteligenței artificiale, având ca principal obiectiv modernizarea și extinderea capabilităților Siri.</description>
     </item>
 </channel></rss>
