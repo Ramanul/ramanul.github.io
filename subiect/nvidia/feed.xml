@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>NVIDIA — IZZ.ro</title>
+  <title>Nvidia — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre NVIDIA pe IZZ.ro</description>
+  <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 16 Nov 2026 22:39:44 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 05:05:04 +0000</lastBuildDate>
+    <item>
+      <title>Donald Trump a deținut acțiuni Nvidia în valoare de 62 de milioane de dolari</title>
+      <link>https://izz.ro/economic/donald-trump-detinut-actiuni-nvidia-valoare-62-milioane-dolari/</link>
+      <guid>https://izz.ro/economic/donald-trump-detinut-actiuni-nvidia-valoare-62-milioane-dolari/</guid>
+      <pubDate>Mon, 16 Nov 2026 22:18:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.antena3.ro/externe/trump-ar-fi-detinut-actiuni-nvidia-in-valoare-de-62-de-milioane-de-dolari-inainte-ca-scandalul-jensen-huang-sa-iasa-la-iveala-811412.html">Antena 3 CNN</source>
+      <description>O analiză realizată de The Washington Post indică faptul că fostul președinte american Donald Trump avea plasamente de până la 62 de milioane de dolari în acțiuni Nvidia la sfârșitul lunii august, înaintea izbucnirii scandalului care îl viza pe Jensen...</description>
+    </item>
     <item>
       <title>Statele Unite înăspresc regulile privind exportul de cipuri AI către China</title>
       <link>https://izz.ro/tech/statele-unite-inaspresc-regulile-privind-exportul-cipuri-catre-china/</link>

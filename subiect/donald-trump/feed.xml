@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/donald-trump/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Donald Trump pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 16 Nov 2026 22:39:44 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 05:05:04 +0000</lastBuildDate>
+    <item>
+      <title>Donald Trump a deținut acțiuni Nvidia în valoare de 62 de milioane de dolari</title>
+      <link>https://izz.ro/economic/donald-trump-detinut-actiuni-nvidia-valoare-62-milioane-dolari/</link>
+      <guid>https://izz.ro/economic/donald-trump-detinut-actiuni-nvidia-valoare-62-milioane-dolari/</guid>
+      <pubDate>Mon, 16 Nov 2026 22:18:00 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.antena3.ro/externe/trump-ar-fi-detinut-actiuni-nvidia-in-valoare-de-62-de-milioane-de-dolari-inainte-ca-scandalul-jensen-huang-sa-iasa-la-iveala-811412.html">Antena 3 CNN</source>
+      <description>O analiză realizată de The Washington Post indică faptul că fostul președinte american Donald Trump avea plasamente de până la 62 de milioane de dolari în acțiuni Nvidia la sfârșitul lunii august, înaintea izbucnirii scandalului care îl viza pe Jensen...</description>
+    </item>
     <item>
       <title>Administrația Trump blochează accesul firmelor chineze la cipuri americane de inteligență artificială</title>
       <link>https://izz.ro/ai/administratia-trump-blocheaza-accesul-firmelor-chineze-cipuri-americane/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/donald-trump-afirma-ca-sua-observa-o-inclinatie-puternica-atat-a-rusiei-cat-si-a-ucrainei-pentru-incheierea-razboiului.html">Curs de Guvernare</source>
       <description>Președintele american a declarat la Washington că ambele tabere beligerante dau dovadă de oboseală după atâtea lupte și manifestă o deschidere reală pentru oprirea războiului prin negocieri.</description>
-    </item>
-    <item>
-      <title>Analiza relațiilor diplomatice dintre Palatul Cotroceni și administrația Trump</title>
-      <link>https://izz.ro/politic/analiza-relatiilor-diplomatice-dintre-palatul-cotroceni-si-administratia-trump/</link>
-      <guid>https://izz.ro/politic/analiza-relatiilor-diplomatice-dintre-palatul-cotroceni-si-administratia-trump/</guid>
-      <pubDate>Mon, 09 Nov 2026 22:10:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://spotmedia.ro/stiri/opinii-si-analize/ce-au-obtinut-nicusor-dan-si-marius-lazurca-de-la-donald-trump-interviu">Spotmedia</source>
-      <description>Un interviu recent evaluează parcursul negocierilor purtate de reprezentanții României cu zona politică americană MAGA pe parcursul ultimului an, subliniind importanța unei prezențe mai active în Uniunea Europeană.</description>
     </item>
 </channel></rss>
