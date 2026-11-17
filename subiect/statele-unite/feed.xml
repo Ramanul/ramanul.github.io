@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/subiect/statele-unite/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Statele Unite pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 17 Nov 2026 15:14:18 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 23:21:54 +0000</lastBuildDate>
+    <item>
+      <title>Aviația americană a bombardat o insulă iraniană ca replică la atacurile din Bahrein</title>
+      <link>https://izz.ro/extern/aviatia-americana-bombardat-insula-iraniana-replica-atacurile-bahrein/</link>
+      <guid>https://izz.ro/extern/aviatia-americana-bombardat-insula-iraniana-replica-atacurile-bahrein/</guid>
+      <pubDate>Tue, 17 Nov 2026 22:00:44 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.economica.net/statele-unite-lovesc-o-insula-iraniana-dupa-tirurile-teheranului-asupra-unei-baze-din-bahrein_996450.html">Economica</source>
+      <description>Forțele americane au lovit un sit de lansare de rachete pe insula Qeshm din strâmtoarea Ormuz, folosind muniții de precizie, după ce Teheranul a atacat o bază din Bahrein. Atacurile nu s-au soldat cu victime.</description>
+    </item>
+    <item>
+      <title>FBI avertizează că hackeri statali exploatează tehnologia Artex AI în atacuri cibernetice</title>
+      <link>https://izz.ro/tech/fbi-avertizeaza-hackeri-statali-exploateaza-tehnologia-artex-atacuri-cibernetice/</link>
+      <guid>https://izz.ro/tech/fbi-avertizeaza-hackeri-statali-exploateaza-tehnologia-artex-atacuri-cibernetice/</guid>
+      <pubDate>Tue, 17 Nov 2026 18:12:07 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.digi24.ro/stiri/externe/fbi-a-emis-o-avertizare-privind-amenintari-cibernetice-la-nivel-global-hackeri-afiliati-statal-exploateaza-tehnologia-artex-ai-4040759">Digi24 Extern</source>
+      <description>Statele Unite se confruntă cu o alertă cibernetică după ce grupuri afiliate unor state au folosit instrumentul Artex AI pentru a compromite rețelele a 178 de companii globale. Incidentele au afectat aplicații bancare și infrastructuri tehnologice critice.</description>
+    </item>
     <item>
       <title>Un președinte american va vizita în premieră cel mai important centru tehnologic al Chinei</title>
       <link>https://izz.ro/extern/presedinte-american-va-vizita-premiera-cel-mai-important-centru-tehnologic-al/</link>
@@ -437,23 +455,5 @@
       <category>extern</category>
       <source url="https://www.theguardian.com/commentisfree/2026/nov/04/donald-trump-midterms-atlantic-hope-voters-democratic">The Guardian</source>
       <description>Alegerile recente din Ungaria, Brazilia, Serbia și Statele Unite indică o tendință globală în care cetățenii favorizează o politică bazată pe coeziune socială și umanitate.</description>
-    </item>
-    <item>
-      <title>Administrația Prezidențială anunță lipsa unui calendar pentru programul Visa Waiver</title>
-      <link>https://izz.ro/extern/administratia-prezidentiala-anunta-lipsa-unui-calendar-pentru-programul-visa/</link>
-      <guid>https://izz.ro/extern/administratia-prezidentiala-anunta-lipsa-unui-calendar-pentru-programul-visa/</guid>
-      <pubDate>Wed, 04 Nov 2026 18:13:36 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.dobrogeaonline.ro/pozitia-administratiei-prezidentiale-privind-reluarea-programului-visa-waiver/">Dobrogea Online</source>
-      <description>Reprezentanții Palatului Cotroceni au precizat că autoritățile române poartă discuții cu partea americană, însă reluarea călătoriilor fără vize în SUA depinde exclusiv de evaluările oficiale de la Washington.</description>
-    </item>
-    <item>
-      <title>Cristian Preda susține că România a pierdut investitori americani din cauza corupției</title>
-      <link>https://izz.ro/economic/cristian-preda-sustine-ca-romania-a-pierdut-investitori-americani-din-cauza/</link>
-      <guid>https://izz.ro/economic/cristian-preda-sustine-ca-romania-a-pierdut-investitori-americani-din-cauza/</guid>
-      <pubDate>Wed, 04 Nov 2026 18:00:56 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://economedia.ro/cristian-preda-romania-a-alungat-investitori-americani-prin-coruptie-nu-s-au-platit-spagile-pe-care-le-asteptau-oficialii-romani.html">Economedia</source>
-      <description>Profesorul Cristian Preda afirmă că relațiile economice și Parteneriatul Strategic cu SUA au fost afectate negativ de interese politice, corupție și neplata unor șpăgi așteptate.</description>
     </item>
 </channel></rss>

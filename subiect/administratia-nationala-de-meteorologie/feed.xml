@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/administratia-nationala-de-meteorologie/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Administrația Națională de Meteorologie pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 17 Nov 2026 15:14:19 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 23:21:54 +0000</lastBuildDate>
+    <item>
+      <title>Cod galben de vânt puternic și ploi în județul Alba</title>
+      <link>https://izz.ro/local/cod-galben-vant-puternic-ploi-judetul-alba/</link>
+      <guid>https://izz.ro/local/cod-galben-vant-puternic-ploi-judetul-alba/</guid>
+      <pubDate>Tue, 17 Nov 2026 21:32:02 +0000</pubDate>
+      <category>local</category>
+      <source url="https://alba24.ro/alerta-meteo-de-vant-in-judetul-alba-rafale-de-pana-la-70-km-h-in-17-localitati-ploi-pana-miercuri-seara-in-tot-judetul-1168253.html">Alba24</source>
+      <description>Meteorologii au emis o avertizare cod galben valabilă în 17 localități din județul Alba, inclusiv municipiul Blaj. Rafalele de vânt vor atinge viteze de până la 70 km/h, iar ploile vor continua până miercuri noapte.</description>
+    </item>
     <item>
       <title>Meteorologii anunță temperaturi peste media perioadei</title>
       <link>https://izz.ro/general/meteorologii-anunta-temperaturi-peste-media-perioadei/</link>
@@ -41,6 +50,15 @@
       <category>local</category>
       <source url="https://b365.ro/alerta-de-ceata-in-bucuresti-si-in-alte-11-judete-vizibilitate-redusa-pe-a0-a1-a2-a3-si-a7-628517/">B365</source>
       <description>Meteorologii au emis avertizări de ceață densă pentru Capitală și numeroase județe, determinând o scădere accentuată a vizibilității pe principalele autostrăzi din țară, inclusiv A0, A1, A2, A3 și A7.</description>
+    </item>
+    <item>
+      <title>ANM emite o avertizare de vânt puternic, ploi și ninsori pentru tot weekendul</title>
+      <link>https://izz.ro/general/anm-emite-avertizare-vant-puternic-ploi-ninsori-tot-weekendul/</link>
+      <guid>https://izz.ro/general/anm-emite-avertizare-vant-puternic-ploi-ninsori-tot-weekendul/</guid>
+      <pubDate>Sat, 14 Nov 2026 07:20:52 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.pressalert.ro/2026/11/vant-puternic-ploi-si-ninsori-in-tara-prognoza-meteo-pentru-weekend/">PressAlert Timișoara</source>
+      <description>Administrația Națională de Meteorologie anunță o răcire accentuată a vremii în toată țara, însoțită de ninsori și ploi. La munte, rafalele de vânt vor atinge viteze de până la 140 km/h, iar valorile termice vor deveni negative.</description>
     </item>
     <item>
       <title>Cod galben de ploi și temperaturi scăzute în județul Giurgiu</title>
