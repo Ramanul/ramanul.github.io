@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/subiect/marea-britanie/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Marea Britanie pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 18 Nov 2026 04:58:17 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 14:44:51 +0000</lastBuildDate>
+    <item>
+      <title>Peste 200 de britanici au fost înșelați de o companie care promitea ștergerea datoriilor</title>
+      <link>https://izz.ro/extern/peste-200-britanici-inselati-de-companie-promitea-stergerea-datoriilor/</link>
+      <guid>https://izz.ro/extern/peste-200-britanici-inselati-de-companie-promitea-stergerea-datoriilor/</guid>
+      <pubDate>Wed, 18 Nov 2026 13:29:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/mapamond/cetatenii-suverani-promiteau-stergerea-datoriilor-liderul-lor-a-fugit-cu-banii-in-cipru-si-si-a-facut-republica-sufletelor-batrane-811526.html">Antena 3 CNN</source>
+      <description>Un grup de cetățeni britanici a pierdut bani după ce a urmat instrucțiunile unei firme pentru a-și recupera creditele ipotecare. Liderul rețelei a fugit în Cipru, unde a fondat o nouă organizație fictivă.</description>
+    </item>
+    <item>
+      <title>Vameșii din Vatra Dornei au confiscat țigări electronice și nicotină fără acte</title>
+      <link>https://izz.ro/local/vamesii-vatra-dornei-confiscat-tigari-electronice-nicotina-acte/</link>
+      <guid>https://izz.ro/local/vamesii-vatra-dornei-confiscat-tigari-electronice-nicotina-acte/</guid>
+      <pubDate>Wed, 18 Nov 2026 12:19:03 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.newsbucovina.ro/actualitate/455737/aproape-50-000-de-lei-in-tigari-electronice-si-pliculete-cu-nicotina-confiscate-la-vatra-dornei-marfa-venea-din-marea-britanie-fara-acte-vamale">NewsBucovina</source>
+      <description>Inspectorii vamali au oprit în Vatra Dornei un microbuz care transporta ilegal țigări electronice și pliculețe cu nicotină din Marea Britanie, în valoare de aproape 50.000 de lei.</description>
+    </item>
     <item>
       <title>Marea Britanie vrea reformarea asistenței sociale pentru tineri</title>
       <link>https://izz.ro/extern/marea-britanie-vrea-reformarea-asistentei-sociale-tineri/</link>
@@ -437,23 +455,5 @@
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/trei-aeronave-nato-au-desfasurat-simultan-intr-o-aparitie-rara-patrule-deasupra-marii-negre-italia-uk-si-sua-misiune-comuna-de-supraveghere-impotriva-dronelor-rusesti.html">Curs de Guvernare</source>
       <description>NATO a intensificat măsurile de supraveghere pe flancul estic prin misiuni aeriene comune efectuate de trei state aliate deasupra Mării Negre, pe fondul riscurilor generate de atacurile ruse asupra navelor comerciale.</description>
-    </item>
-    <item>
-      <title>China acuză Marea Britanie de denigrare în urma unui raport privind amenințările cibernetice</title>
-      <link>https://izz.ro/extern/china-acuza-marea-britanie-de-denigrare-in-urma-unui-raport-privind/</link>
-      <guid>https://izz.ro/extern/china-acuza-marea-britanie-de-denigrare-in-urma-unui-raport-privind/</guid>
-      <pubDate>Wed, 04 Nov 2026 10:46:42 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.economica.net/china-avertizeaza-marea-britanie-in-legatura-cu-orice-fel-de-denigrare-dupa-un-raport-asupra-amenintarilor-cibernetice-prin-inteligenta-artificiala_992191.html">Economica</source>
-      <description>Ministerul de Externe de la Beijing a criticat Londra pentru utilizarea unor speculații nefondate legate de atacuri cibernetice bazate pe inteligență artificială, cerând încetarea denigrărilor la adresa Chinei.</description>
-    </item>
-    <item>
-      <title>Bitdefender a depistat un atac ransomware care utilizează agenți AI în școli din Marea Britanie</title>
-      <link>https://izz.ro/tech/bitdefender-a-depistat-un-atac-ransomware-care-utilizeaza-agenti-ai-in-scoli/</link>
-      <guid>https://izz.ro/tech/bitdefender-a-depistat-un-atac-ransomware-care-utilizeaza-agenti-ai-in-scoli/</guid>
-      <pubDate>Wed, 04 Nov 2026 10:29:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/it-c/premiera-atac-informatic-amploare-romanii-bitdefender-au-depistat-premiera-europa-scoli-marea-britanie-atac-ransomware-prezinta-indicii-comportamentale-atacatorii-lucreaza-alaturi-agenti-22937623?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro, ZonaIT</source>
-      <description>Investigația arată că atacatorii au urmat etape precum furtul datelor de acces, crearea de conturi neautorizate de administrator, conectarea domeniilor și criptarea sistemelor. Elementul distinctiv al atacului constă în împărțirea sarcinilor între intervenția unui operator uman și utilizarea unui agent AI pentru executarea de comenzi și ajustarea abordării. Semnalele privind implicarea AI includ erori specifice comenzilor reproduse din modelele de inteligență artificială și un ritm al operațiunilor cu încercări repetate la intervale de 40 până la 100 de secunde. Cercetarea menționează că deciziile importante erau separate de pauze de câteva...</description>
     </item>
 </channel></rss>
