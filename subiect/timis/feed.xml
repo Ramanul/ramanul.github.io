@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/timis/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Timiș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 17 Nov 2026 23:21:54 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 04:58:17 +0000</lastBuildDate>
+    <item>
+      <title>Presiune scăzută la rețeaua de apă în Cenei și Cărpiniș</title>
+      <link>https://izz.ro/local/presiune-scazuta-reteaua-apa-cenei-carpinis/</link>
+      <guid>https://izz.ro/local/presiune-scazuta-reteaua-apa-cenei-carpinis/</guid>
+      <pubDate>Tue, 17 Nov 2026 18:45:15 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/presiune-scazuta-in-doua-localitati-din-timis-unde-actioneaza-echipele-aquatim/17/11/2026">Opinia Timișoarei</source>
+      <description>Compania Aquatim anunță întreruperi parțiale și presiune redusă la furnizarea apei potabile în localitățile timișene Cenei și Cărpiniș, din cauza unor lucrări programate de întreținere a rețelei.</description>
+    </item>
     <item>
       <title>Sancțiuni drastice dictate după agresiunea asupra unui arbitru în Timiș</title>
       <link>https://izz.ro/sport/sanctiuni-drastice-dictate-dupa-agresiunea-asupra-arbitru-timis/</link>
@@ -23,6 +32,15 @@
       <category>judetean</category>
       <source url="https://www.ziuadevest.ro/garda-de-mediu-a-mendat-o-firma-cu-480-000-de-lei-in-timis-pentru-lucrari-si-activitati-desfasurate-fara-autorizatii-de-mediu/">Ziua de Vest</source>
       <description>Comisarii de mediu din Timiș au amendat cu 480.000 de lei un operator economic care desfășura activități industriale pe trei amplasamente fără a deține autorizațiile de mediu obligatorii pentru protecția naturii.</description>
+    </item>
+    <item>
+      <title>Un oraș din județul Timiș intenționează să organizeze un referendum pentru a redeveni comună</title>
+      <link>https://izz.ro/local/oras-judetul-timis-intentioneaza-organizeze-referendum-pentru-redeveni-comuna/</link>
+      <guid>https://izz.ro/local/oras-judetul-timis-intentioneaza-organizeze-referendum-pentru-redeveni-comuna/</guid>
+      <pubDate>Tue, 17 Nov 2026 11:08:51 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/a-doua-oara-poate-e-cu-noroc-un-oras-din-timis-vrea-sa-redevina-comuna/17/11/2026">Opinia Timișoarei</source>
+      <description>Un consilier județean a inițiat demersuri pentru organizarea unui referendum prin care orașul Ciacova din județul Timiș să își piardă statutul urban și să revină la rangul de comună, anticipând posibile reforme administrative.</description>
     </item>
     <item>
       <title>Proteste și măsuri speciale la Liceul Lenau după revenirea elevului cu cuțitul</title>
@@ -437,23 +455,5 @@
       <category>local</category>
       <source url="https://expressdebanat.ro/aquatim-opreste-robinetele-de-apa-in-doua-localitati-din-timis/">Express de Banat</source>
       <description>Compania Aquatim va sista furnizarea apei potabile în Jabăr și Boldur pentru lucrări de mentenanță programate la rețelele de alimentare, avertizând asupra unei posibile tulburări temporare a apei.</description>
-    </item>
-    <item>
-      <title>Gala Excelenței în Afaceri premiază 255 de companii din Timiș</title>
-      <link>https://izz.ro/local/gala-excelentei-in-afaceri-premiaza-255-de-companii-din-timis/</link>
-      <guid>https://izz.ro/local/gala-excelentei-in-afaceri-premiaza-255-de-companii-din-timis/</guid>
-      <pubDate>Fri, 30 Oct 2026 06:00:51 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.tion.ro/stirile-judetului-timis/arta-si-excelenta-impreuna-pe-scena-galei-excelentei-in-afaceri-2380713/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
-      <description>Evenimentul de la Timișoara recunoaște performanța constantă a 255 de companii care au demonstrat inovație și adaptabilitate economică timp de zece ani consecutivi, fiind un reper pentru mediul de afaceri local.</description>
-    </item>
-    <item>
-      <title>Medicii de familie din Gătaia sunt evacuați pentru transformarea centrului medical în secție de spital</title>
-      <link>https://izz.ro/local/medicii-de-familie-din-gataia-sunt-evacuati-pentru-transformarea-centrului/</link>
-      <guid>https://izz.ro/local/medicii-de-familie-din-gataia-sunt-evacuati-pentru-transformarea-centrului/</guid>
-      <pubDate>Fri, 30 Oct 2026 05:00:47 +0000</pubDate>
-      <category>local</category>
-      <source url="https://expressdebanat.ro/medicii-de-familie-dintr-un-oras-din-timis-trimisi-la-plimbare-de-primar-le-propune-un-fost-internat-cu-capre-in-curte/">Express de Banat</source>
-      <description>Primăria din Gătaia a cerut celor trei doctori de familie să elibereze cabinetele unde activau de zeci de ani, oferindu-le ca spațiu alternativ un fost internat considerat necorespunzător.</description>
     </item>
 </channel></rss>

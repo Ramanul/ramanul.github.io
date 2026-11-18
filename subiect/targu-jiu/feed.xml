@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Târgu Jiu — IZZ.ro</title>
+  <title>Târgu-Jiu — IZZ.ro</title>
   <link>https://izz.ro/subiect/targu-jiu/</link>
   <atom:link href="https://izz.ro/subiect/targu-jiu/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Târgu Jiu pe IZZ.ro</description>
+  <description>Știri despre Târgu-Jiu pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 17 Nov 2026 23:21:54 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 04:58:17 +0000</lastBuildDate>
+    <item>
+      <title>Colegiul Tehnic Magheru din Târgu-Jiu a găzduit o întâlnire a bibliotecarilor</title>
+      <link>https://izz.ro/judetean/colegiul-tehnic-magheru-targu-jiu-gazduit-intalnire-bibliotecarilor/</link>
+      <guid>https://izz.ro/judetean/colegiul-tehnic-magheru-targu-jiu-gazduit-intalnire-bibliotecarilor/</guid>
+      <pubDate>Tue, 17 Nov 2026 22:25:11 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.gorjeanul.ro/cultura-2/intalnire-intre-bibliotecarii-scolari-si-scriitori-contemporani-la-colegiul-tehnic-general-gheorghe-magheru/">Gorjeanul</source>
+      <description>Școala Gimnazială Ecaterina Teodoroiu a organizat o activitate metodică pentru bibliotecarii școlari din județul Gorj, reunind cadre didactice și specialiști din educație.</description>
+    </item>
     <item>
       <title>Un bărbat din Târgu Jiu a fost arestat pentru incendierea repetată a unui magazin</title>
       <link>https://izz.ro/local/barbat-targu-jiu-fost-arestat-incendierea-repetata-unui-magazin/</link>
@@ -446,14 +455,5 @@
       <category>judetean</category>
       <source url="http://www.pandurul.rohttps://www.pandurul.ro/articol/minerii-si-energeticienii-din-gorj-se-intalnesc-di_198169.html">Pandurul</source>
       <description>Federația Națională a Muncii programează întâlniri cu angajații din sectorul energetic și pensionarii din județul Gorj pentru a discuta aspecte legate de pensii.</description>
-    </item>
-    <item>
-      <title>Simpozion medical dedicat prevenirii AVC organizat la Târgu Jiu</title>
-      <link>https://izz.ro/local/simpozion-medical-dedicat-prevenirii-avc-organizat-la-targu-jiu/</link>
-      <guid>https://izz.ro/local/simpozion-medical-dedicat-prevenirii-avc-organizat-la-targu-jiu/</guid>
-      <pubDate>Mon, 09 Nov 2026 06:30:00 +0000</pubDate>
-      <category>local</category>
-      <source url="http://www.pandurul.rohttps://www.pandurul.ro/articol/specialisti-din-intreaga-tara-s-au-reunit-in-amfit_198167.html">Pandurul</source>
-      <description>Universitatea Constantin Brâncuși din Târgu Jiu a găzduit un simpozion național organizat de Clubul Rotary despre recunoașterea și tratarea rapidă a accidentului vascular cerebral.</description>
     </item>
 </channel></rss>
