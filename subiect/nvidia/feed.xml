@@ -5,7 +5,34 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 18 Nov 2026 14:44:51 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 22:31:07 +0000</lastBuildDate>
+    <item>
+      <title>Jensen Huang va fi audiat în Senatul SUA privind exportul de cipuri</title>
+      <link>https://izz.ro/extern/jensen-huang-va-audiat-senatul-sua-privind-exportul-cipuri/</link>
+      <guid>https://izz.ro/extern/jensen-huang-va-audiat-senatul-sua-privind-exportul-cipuri/</guid>
+      <pubDate>Wed, 18 Nov 2026 20:06:58 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/jensen-huang-va-fi-audiat-in-senatul-american-dupa-acuzatiile-privind-accesul-chinei-la-cipuri-avansate-4042885">Digi24 Extern</source>
+      <description>Fostul director general al companiei Nvidia a acceptat să ofere explicații în fața comisiei bancare din Senatul american. Ancheta vizează posibile încălcări ale restricțiilor comerciale pentru cipuri avansate către China.</description>
+    </item>
+    <item>
+      <title>Un driver NVIDIA cauzează scrieri excesive de date pe SSD-uri</title>
+      <link>https://izz.ro/tech/driver-nvidia-cauzeaza-scrieri-excesive-date-ssd-uri/</link>
+      <guid>https://izz.ro/tech/driver-nvidia-cauzeaza-scrieri-excesive-date-ssd-uri/</guid>
+      <pubDate>Wed, 18 Nov 2026 15:21:51 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/driver-nvidia/">ZonaIT</source>
+      <description>Cea mai recentă versiune de driver lansată de NVIDIA generează un volum uriaș de scrieri de date pe secundă, putând afecta durata de viață a unităților de stocare SSD.</description>
+    </item>
+    <item>
+      <title>NVIDIA a lansat un mini-supercomputer dedicat rulării modelelor AI complexe</title>
+      <link>https://izz.ro/tech/nvidia-lansat-mini-supercomputer-dedicat-rularii-modelelor-complexe/</link>
+      <guid>https://izz.ro/tech/nvidia-lansat-mini-supercomputer-dedicat-rularii-modelelor-complexe/</guid>
+      <pubDate>Wed, 18 Nov 2026 15:03:30 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.monitoruldegalati.ro/tehnologie/nvidia-aduce-puterea-unui-mini-supercomputer-pe-biroul-cercetatorilor-poate-rula-modele-ai-cu-700-de-miliarde-de-parametri.html">Monitorul de Galați</source>
+      <description>Noua soluție hardware destinată cercetătorilor permite procesarea modelelor de inteligență artificială cu până la 700 de miliarde de parametri direct pe birou. Dispozitivul reduce dependența comunității academice de centrele de date externe.</description>
+    </item>
     <item>
       <title>Jensen Huang testează limitele puterii fondatorilor în industria tehnologică</title>
       <link>https://izz.ro/tech/jensen-huang-testeaza-limitele-puterii-fondatorilor-industria-tehnologica/</link>
