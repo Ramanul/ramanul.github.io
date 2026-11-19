@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/guvernul-romaniei/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Guvernul României pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 19 Nov 2026 13:58:13 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 22:07:41 +0000</lastBuildDate>
+    <item>
+      <title>Guvernul pregătește carduri de sprijin pentru facturile la energie</title>
+      <link>https://izz.ro/economic/guvernul-pregateste-carduri-sprijin-facturile-energie/</link>
+      <guid>https://izz.ro/economic/guvernul-pregateste-carduri-sprijin-facturile-energie/</guid>
+      <pubDate>Thu, 19 Nov 2026 16:15:24 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.gorjeanul.ro/ultima-ora/facturile-la-energie-ar-putea-fi-mai-mici-pentru-cei-cu-venituri-reduse-guvernul-pregateste-carduri-speciale-de-sprijin/">Gorjeanul</source>
+      <description>Persoanele vulnerabile din România ar urma să primească vouchere pentru achitarea energiei electrice prin intermediul unor carduri speciale. Ministerele de resort analizează mecanismul de sprijin și finanțări pentru sisteme de stocare a energiei.</description>
+    </item>
     <item>
       <title>Ministerul Finanțelor analizează cu prudență bugetul pensiilor și salariilor pentru 2027</title>
       <link>https://izz.ro/general/ministerul-finantelor-analizeaza-prudenta-bugetul-pensiilor-salariilor-2027/</link>
@@ -446,14 +455,5 @@
       <category>auto</category>
       <source url="https://www.economica.net/ministrul-economiei-a-solicitat-companiilor-dacia-si-ford-otosan-sa-discutam-cu-guvernul-inainte-de-eventuale-relocari-si-alte-lucruri_993996.html">Economica</source>
       <description>Ministrul Daniel Zamfir a subliniat că industria auto reprezintă un pilon strategic pentru România și a cerut producătorilor auto să discute cu guvernul înaintea luării unor decizii de relocare.</description>
-    </item>
-    <item>
-      <title>Protest al studenților clujeni față de reducerea bugetului Educației</title>
-      <link>https://izz.ro/politic/protest-al-studentilor-clujeni-fata-de-reducerea-bugetului-educatiei/</link>
-      <guid>https://izz.ro/politic/protest-al-studentilor-clujeni-fata-de-reducerea-bugetului-educatiei/</guid>
-      <pubDate>Tue, 10 Nov 2026 09:31:05 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://gazetadecluj.ro/studentii-clujeni-protesteaza-dupa-ce-guvernul-scade-bugetul-educatiei-cu-1215-milioane-de-lei/">Gazeta de Cluj</source>
-      <description>Organizațiile studențiene critică decizia Guvernului de a diminua bugetul Ministerului Educației cu peste 121 de milioane de lei prin rectificarea bugetară, avertizând asupra efectelor negative în cercetare.</description>
     </item>
 </channel></rss>

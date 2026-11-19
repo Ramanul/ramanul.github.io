@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 19 Nov 2026 13:58:13 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 22:07:41 +0000</lastBuildDate>
+    <item>
+      <title>Medicamentele inovatoare ajung cu întârziere majoră în România</title>
+      <link>https://izz.ro/sanatate/medicamentele-inovatoare-ajung-intarziere-majora-romania/</link>
+      <guid>https://izz.ro/sanatate/medicamentele-inovatoare-ajung-intarziere-majora-romania/</guid>
+      <pubDate>Thu, 19 Nov 2026 19:15:00 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://observatornews.ro/sanatate/solutii-pentru-acces-la-tratamente-noi-desi-medicamentele-sunt-aprobate-in-europa-ajung-tarziu-in-romania-672883.html">Observator</source>
+      <description>Bolnavii cronici din România așteaptă aproape trei ani ca tratamentele noi, aprobate deja la nivel european, să devină accesibile în spitale și farmacii, afectând grav șansele la recuperare.</description>
+    </item>
     <item>
       <title>Vladimir Putin avertizează Europa după discuțiile cu Trump și Xi</title>
       <link>https://izz.ro/extern/vladimir-putin-avertizeaza-europa-dupa-discutiile-trump-xi/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/serviciile-europene-investigheaza-de-unde-au-pornit-amenintarile-cu-bomba-care-au-socat-europa-rusia-este-principalul-suspect-810340.html">Antena 3 CNN</source>
       <description>Autoritățile din mai multe state europene desfășoară anchete pentru a stabili proveniența amenințărilor cu bombă care au perturbat grav traficul aerian, principalul suspect vizat de investigatori fiind Rusia.</description>
-    </item>
-    <item>
-      <title>Europa se confruntă cu riscul unei scăderi a producției de energie verde</title>
-      <link>https://izz.ro/economic/europa-se-confrunta-cu-riscul-unei-scaderi-a-productiei-de-energie-verde/</link>
-      <guid>https://izz.ro/economic/europa-se-confrunta-cu-riscul-unei-scaderi-a-productiei-de-energie-verde/</guid>
-      <pubDate>Sun, 08 Nov 2026 07:55:50 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/business-international/europa-risca-sa-intre-intr-o-perioada-de-productie-redusa-de-energie-eoliana-si-solara-23277048">Ziarul Financiar</source>
-      <description>Condițiile meteo nefavorabile, caracterizate prin lipsa vântului și cer înnorat, amenință să reducă generarea de energie eoliană și solară pe continent, generând scumpiri și o revenire la combustibili fosili.</description>
     </item>
 </channel></rss>
