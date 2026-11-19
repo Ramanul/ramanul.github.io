@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/aur/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre AUR pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 19 Nov 2026 04:07:30 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 13:58:13 +0000</lastBuildDate>
+    <item>
+      <title>Proiect AUR pentru reluarea creșterii nurcilor și șinșilelor</title>
+      <link>https://izz.ro/politic/proiect-aur-reluarea-cresterii-nurcilor-sinsilelor/</link>
+      <guid>https://izz.ro/politic/proiect-aur-reluarea-cresterii-nurcilor-sinsilelor/</guid>
+      <pubDate>Thu, 19 Nov 2026 12:31:15 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://www.desteptarea.ro/senatoarea-daniela-stefanescu-propune-eliminarea-interdictiei-privind-cresterea-sinsilelor-si-nurcilor/">Desteptarea.ro</source>
+      <description>Senatoarea Daniela Ștefănescu a inițiat un proiect legislativ care vizează anularea interdicției comerciale privind exploatarea șinșilelor și nurcilor, lege care ar fi trebuit să se aplice începând cu anul 2027.</description>
+    </item>
     <item>
       <title>Critici dure la adresa conducerii politice și a influenței instituțiilor de stat</title>
       <link>https://izz.ro/politic/critici-dure-adresa-conducerii-politice-si-influentei-institutiilor-stat/</link>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="https://www.digi24.ro/stiri/actualitate/politica/dupa-conferinta-lui-nicusor-dan-george-simion-liderul-aur-spune-ca-romania-se-apropie-de-regimurile-dictatoriale-suntem-tinta-4031823">Digi24</source>
       <description>Președintele formațiunii politice AUR, George Simion, consideră că recentele declarații ale președintelui Nicușor Dan indică o alunecare a țării către o dictatură, acuzând faptul că partidul său a devenit o țintă politică.</description>
-    </item>
-    <item>
-      <title>Nicușor Dan își exprimă simpatia față de votanții AUR, dar avertizează împotriva aducerii partidului la guvernare</title>
-      <link>https://izz.ro/politic/nicusor-dan-isi-exprima-simpatia-votantii-aur-dar-avertizeaza-aducerii/</link>
-      <guid>https://izz.ro/politic/nicusor-dan-isi-exprima-simpatia-votantii-aur-dar-avertizeaza-aducerii/</guid>
-      <pubDate>Wed, 11 Nov 2026 14:45:57 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://spotmedia.ro/stiri/opinii-si-analize/nicusor-dan-curteaza-electoratul-aur">Spotmedia</source>
-      <description>Președintele Nicușor Dan a afirmat că înțelege frustrarea simpatizanților AUR prin prisma experienței sale de fost activist, însă a precizat că accesul formațiunii radicale la guvernare ar deteriora grav ratingul economic al României.</description>
     </item>
 </channel></rss>

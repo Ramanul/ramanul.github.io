@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 19 Nov 2026 04:07:30 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 13:58:13 +0000</lastBuildDate>
+    <item>
+      <title>Vladimir Putin avertizează Europa după discuțiile cu Trump și Xi</title>
+      <link>https://izz.ro/extern/vladimir-putin-avertizeaza-europa-dupa-discutiile-trump-xi/</link>
+      <guid>https://izz.ro/extern/vladimir-putin-avertizeaza-europa-dupa-discutiile-trump-xi/</guid>
+      <pubDate>Thu, 19 Nov 2026 12:56:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/ce-a-fost-atat-de-rau-la-ialta-ce-spune-putin-despre-impartirea-lumii-amenintari-la-adresa-europei-dupa-intalnirea-cu-trump-si-xi-811829.html">Antena 3 CNN</source>
+      <description>Președintele rus a comentat despre împărțirea sferelor de influență globală și a transmis un avertisment dur statelor europene privind necesitatea acceptării unor compromisuri geopolitice.</description>
+    </item>
     <item>
       <title>SUA au emis alerte de securitate privind riscul terorist în Europa, inclusiv România</title>
       <link>https://izz.ro/extern/sua-emis-alerte-securitate-privind-riscul-terorist-europa-inclusiv-romania/</link>
@@ -446,14 +455,5 @@
       <category>economic</category>
       <source url="https://www.zf.ro/business-international/europa-risca-sa-intre-intr-o-perioada-de-productie-redusa-de-energie-eoliana-si-solara-23277048">Ziarul Financiar</source>
       <description>Condițiile meteo nefavorabile, caracterizate prin lipsa vântului și cer înnorat, amenință să reducă generarea de energie eoliană și solară pe continent, generând scumpiri și o revenire la combustibili fosili.</description>
-    </item>
-    <item>
-      <title>Europa riscă să-și piardă competitivitatea din cauza prețurilor la energie</title>
-      <link>https://izz.ro/economic/europa-risca-sa-si-piarda-competitivitatea-din-cauza-preturilor-la-energie/</link>
-      <guid>https://izz.ro/economic/europa-risca-sa-si-piarda-competitivitatea-din-cauza-preturilor-la-energie/</guid>
-      <pubDate>Sun, 08 Nov 2026 04:00:53 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://economedia.ro/interviu-boyana-achovski-fost-secretar-general-gie-avertizeaza-asupra-riscului-de-competitivitate-al-europei-costul-dezavantajului-nostru-este-deja-masurabil.html">Economedia</source>
-      <description>Fostul secretar general GIE, Boyana Achovski, avertizează că industria europeană suferă din cauza costurilor energetice duble față de SUA, subliniind necesitatea unui pragmatism în măsurile de decarbonizare.</description>
     </item>
 </channel></rss>
