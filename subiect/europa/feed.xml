@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 18 Nov 2026 22:31:07 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 04:07:30 +0000</lastBuildDate>
     <item>
       <title>SUA au emis alerte de securitate privind riscul terorist în Europa, inclusiv România</title>
       <link>https://izz.ro/extern/sua-emis-alerte-securitate-privind-riscul-terorist-europa-inclusiv-romania/</link>
@@ -50,6 +50,15 @@
       <category>extern</category>
       <source url="https://cursdeguvernare.ro/europa-a-consumat-deja-10-din-gazele-naturale-inmagazinate-pentru-consumul-de-iarna.html">Curs de Guvernare</source>
       <description>Statele europene au consumat deja zece la sută din gazele naturale depozitate pentru iarnă, în condițiile unui grad redus de umplere a stocurilor, crescând riscurile în caz de temperaturi scăzute.</description>
+    </item>
+    <item>
+      <title>Liderii Rusiei, Chinei și SUA împart o viziune globală care exclude Europa</title>
+      <link>https://izz.ro/extern/liderii-rusiei-chinei-sua-impart-viziune-globala-exclude-europa/</link>
+      <guid>https://izz.ro/extern/liderii-rusiei-chinei-sua-impart-viziune-globala-exclude-europa/</guid>
+      <pubDate>Wed, 18 Nov 2026 06:00:33 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/commentisfree/2026/nov/18/putin-trump-xi-vision-global-power-europe">The Guardian</source>
+      <description>Relațiile internaționale actuale sunt modelate de ambițiile marilor puteri autoritare. Potrivit analiștilor, viziunea geopolitică a acestor lideri marginalizează rolul continentului european în noua ordine mondială.</description>
     </item>
     <item>
       <title>Un producător european de panouri fotovoltaice s-a declarat în faliment</title>
@@ -446,14 +455,5 @@
       <category>economic</category>
       <source url="https://economedia.ro/interviu-boyana-achovski-fost-secretar-general-gie-avertizeaza-asupra-riscului-de-competitivitate-al-europei-costul-dezavantajului-nostru-este-deja-masurabil.html">Economedia</source>
       <description>Fostul secretar general GIE, Boyana Achovski, avertizează că industria europeană suferă din cauza costurilor energetice duble față de SUA, subliniind necesitatea unui pragmatism în măsurile de decarbonizare.</description>
-    </item>
-    <item>
-      <title>Vortexul polar riscă o prăbușire istorică la începutul iernii</title>
-      <link>https://izz.ro/general/vortexul-polar-risca-o-prabusire-istorica-la-inceputul-iernii/</link>
-      <guid>https://izz.ro/general/vortexul-polar-risca-o-prabusire-istorica-la-inceputul-iernii/</guid>
-      <pubDate>Sat, 07 Nov 2026 19:01:54 +0000</pubDate>
-      <category>general</category>
-      <source url="https://www.zf.ro/eveniment/vortexul-polar-aproape-de-o-prabusire-istorica-europa-risca-un-inceput-de-iarna-cu-frig-23276881">Ziarul Financiar</source>
-      <description>Meteorologii avertizează că o perturbare neobișnuită a vortexului polar ar putea aduce un val de frig sever și schimbări climatice majore pe continentul european în următoarele luni.</description>
     </item>
 </channel></rss>

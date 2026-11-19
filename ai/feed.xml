@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 18 Nov 2026 22:31:30 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 04:08:08 +0000</lastBuildDate>
     <item>
       <title>Locuri de muncă bine plătite în centrele de date pentru inteligență artificială</title>
       <link>https://izz.ro/ai/locuri-munca-bine-platite-centrele-date-inteligenta-artificiala/</link>
@@ -41,6 +41,15 @@
       <category>ai</category>
       <source url="https://www.monitoruldegalati.ro/tehnologie/google-avertizeaza-hackerii-folosesc-agenti-ai-autonomi-pentru-a-lansa-atacuri-informatice-fara-interventie-umana.html">Monitorul de Galați</source>
       <description>Infractorii cibernetici utilizează sisteme avansate de inteligență artificială capabile să execute atacuri informatice complete, de la identificare la exploatare, fără implicare umană directă.</description>
+    </item>
+    <item>
+      <title>Inteligența artificială transformă radical procesul de dezvoltare a produselor digitale</title>
+      <link>https://izz.ro/ai/inteligenta-artificiala-transforma-radical-procesul-dezvoltare-produselor/</link>
+      <guid>https://izz.ro/ai/inteligenta-artificiala-transforma-radical-procesul-dezvoltare-produselor/</guid>
+      <pubDate>Wed, 18 Nov 2026 08:10:55 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://start-up.ro/prow-talks-ai-schimba-modul-in-care-construim-produse-dar-poate-schimba-si-modul-in-care-interactionam-cu-administratiile-publice-si-guvernul/">Start-up.ro</source>
+      <description>Dezvoltarea produselor digitale devine mai rapidă și mai ieftină datorită inteligenței artificiale. Totuși, adevăratele provocări pentru creatori apar după realizarea primului prototip și scalarea soluțiilor tehnologice.</description>
     </item>
     <item>
       <title>Un angajat olandez a fost concediat după ce a consultat ChatGPT privind despăgubirile</title>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://start-up.ro/getac-lanseaza-b360x-si-b360x-pro-laptopuri-robuste-cu-intel-core-ultra-series-3-si-ai-local/">Start-up.ro</source>
       <description>Noile sisteme portabile robuste integrate de producător dispun de capabilități avansate de inteligență artificială care rulează local, eliminând necesitatea unei conexiuni permanente la internet.</description>
-    </item>
-    <item>
-      <title>Start-up-ul românesc GEOflux.ai monitorizează opt modele de inteligență artificială</title>
-      <link>https://izz.ro/ai/start-up-ul-romanesc-geoflux-ai-monitorizeaza-opt-modele-de-inteligenta/</link>
-      <guid>https://izz.ro/ai/start-up-ul-romanesc-geoflux-ai-monitorizeaza-opt-modele-de-inteligenta/</guid>
-      <pubDate>Wed, 11 Nov 2026 06:00:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.zf.ro/zf-it-generation/zf-it-generation-robert-vija-geoflux-vinzi-lenjerii-pat-sens-urmaresti-claude-consumatorul-e-chatgpt-urmarim-acum-8-modele-iar-claude-e-3-ori-scump-urmarit-tintim-10-000-euro-venituri-lunare-23278993">Ziarul Financiar</source>
-      <description>Platforma GEOflux.ai, fondată de Robert Vija, urmărește modul în care brandurile apar în răspunsurile generate de opt modele AI, vizând venituri recurente de 10.000 de euro și o nouă finanțare.</description>
     </item>
 </channel></rss>

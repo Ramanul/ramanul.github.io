@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/spania/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Spania pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 18 Nov 2026 22:31:07 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 04:07:30 +0000</lastBuildDate>
+    <item>
+      <title>Analiza principalelor regiuni electorale din Spania pentru alegeri</title>
+      <link>https://izz.ro/extern/analiza-principalelor-regiuni-electorale-spania-alegeri/</link>
+      <guid>https://izz.ro/extern/analiza-principalelor-regiuni-electorale-spania-alegeri/</guid>
+      <pubDate>Thu, 19 Nov 2026 03:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/5-key-places-that-signal-where-spains-election-is-heading/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>O analiză a istoricului electoral din Spania arată că premierul Pedro Sánchez riscă să piardă singura provincie controlată de Partidul Socialist încă de la căderea regimului franchist.</description>
+    </item>
     <item>
       <title>Portarul Alain Taho a blocat Naționala Spaniei U21</title>
       <link>https://izz.ro/sport/portarul-alain-taho-blocat-nationala-spaniei-u21/</link>
@@ -446,14 +455,5 @@
       <category>economic</category>
       <source url="https://www.economica.net/madridul-il-propune-pe-fostul-guvernator-al-bancii-nationale-a-spaniei-pablo-hernandez-de-cos-pentru-a-prelua-sefia-bce_993093.html">Economica</source>
       <description>Guvernul spaniol susține candidatura lui Pablo Hernandez de Cos, fostul guvernator al Băncii Naționale a Spaniei, pentru a prelua conducerea Băncii Centrale Europene.</description>
-    </item>
-    <item>
-      <title>Liderul conservator spaniol cere retragerea de la Cupa Mondială dacă Marocul organizează finala</title>
-      <link>https://izz.ro/sport/liderul-conservator-spaniol-cere-retragerea-de-la-cupa-mondiala-daca-marocul/</link>
-      <guid>https://izz.ro/sport/liderul-conservator-spaniol-cere-retragerea-de-la-cupa-mondiala-daca-marocul/</guid>
-      <pubDate>Fri, 06 Nov 2026 14:31:22 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.politico.eu/article/alberto-nunez-feijoo-spain-withdraw-host-world-cup-2030-morocco-final/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Alberto Núñez Feijóo susține că Spania merită să găzduiască ultimul act din 2030, fiind o putere fotbalistică globală. Politicianul afirmă că țara ar trebui să refuze coorganizarea în lipsa acestui statut.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 18 Nov 2026 22:31:07 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 04:07:30 +0000</lastBuildDate>
     <item>
       <title>Jensen Huang va fi audiat în Senatul SUA privind exportul de cipuri</title>
       <link>https://izz.ro/extern/jensen-huang-va-audiat-senatul-sua-privind-exportul-cipuri/</link>
@@ -32,6 +32,24 @@
       <category>tech</category>
       <source url="https://www.monitoruldegalati.ro/tehnologie/nvidia-aduce-puterea-unui-mini-supercomputer-pe-biroul-cercetatorilor-poate-rula-modele-ai-cu-700-de-miliarde-de-parametri.html">Monitorul de Galați</source>
       <description>Noua soluție hardware destinată cercetătorilor permite procesarea modelelor de inteligență artificială cu până la 700 de miliarde de parametri direct pe birou. Dispozitivul reduce dependența comunității academice de centrele de date externe.</description>
+    </item>
+    <item>
+      <title>NVIDIA promovează noul cip RTX Spark prin testarea laptopului Asus ProArt P16</title>
+      <link>https://izz.ro/tech/nvidia-promoveaza-noul-cip-rtx-spark-testarea-laptopului-asus-proart-p16/</link>
+      <guid>https://izz.ro/tech/nvidia-promoveaza-noul-cip-rtx-spark-testarea-laptopului-asus-proart-p16/</guid>
+      <pubDate>Wed, 18 Nov 2026 08:36:39 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/rtx-spark-asus-proart-p16-review/">ZonaIT</source>
+      <description>Dispozitivul RTX Spark marchează o nouă etapă tehnologică în domeniul inteligenței artificiale propusă de NVIDIA, fiind analizat în cadrul unei recenzii pe platforma Zona IT pentru performanțele sale.</description>
+    </item>
+    <item>
+      <title>Noutăți din tehnologie: lansări, achiziții și teste de aplicații</title>
+      <link>https://izz.ro/tech/noutati-tehnologie-lansari-achizitii-teste-aplicatii/</link>
+      <guid>https://izz.ro/tech/noutati-tehnologie-lansari-achizitii-teste-aplicatii/</guid>
+      <pubDate>Wed, 18 Nov 2026 04:44:08 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.nwradu.ro/2026/11/stirile-zilei-despre-tehnologie-18-noiembrie-2026/">NwRadu</source>
+      <description>Piața de tech consemnează preluarea mașinii Sandrider de la Dacia de către Aston Martin pentru raliuri, planuri pentru un muzeu digital în România și dezvoltarea de aplicații de mesagerie independente de către Meta.</description>
     </item>
     <item>
       <title>Jensen Huang testează limitele puterii fondatorilor în industria tehnologică</title>

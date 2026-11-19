@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/guvernul-romaniei/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Guvernul României pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 18 Nov 2026 22:31:07 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 04:07:30 +0000</lastBuildDate>
+    <item>
+      <title>Cristian Tudor Popescu critică mutările din Guvern</title>
+      <link>https://izz.ro/politic/cristian-tudor-popescu-critica-mutarile-guvern/</link>
+      <guid>https://izz.ro/politic/cristian-tudor-popescu-critica-mutarile-guvern/</guid>
+      <pubDate>Wed, 18 Nov 2026 22:44:11 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/cristian-tudor-popescu-dupa-ce-luca-niculescu-i-a-dat-mai-multa-putere-in-guvern-lui-marian-neacsu-si-a-semnat-cu-drag-abdicarea">Spotmedia</source>
+      <description>Gazetarul Cristian Tudor Popescu a comentat negativ decizia premierului Luca Niculescu de a-i oferi atribuții extinse vicepremierului Marian Neacșu, considerând gestul drept o cedare a puterii executive.</description>
+    </item>
     <item>
       <title>Guvernul înființează o comisie pentru sprijinirea uzinelor Dacia și Ford</title>
       <link>https://izz.ro/auto/guvernul-infiinteaza-comisie-sprijinirea-uzinelor-dacia-ford/</link>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="https://www.g4media.ro/noi-numiri-in-functii-la-cancelaria-prim-ministrului-si-guvern.html">G4Media</source>
       <description>Premierul a semnat decizia prin care Adrian Dan preia postul de consilier de stat în Cancelaria Prim-ministrului, în timp ce Mădălin Ștefan Voicu a fost eliberat din funcția de subsecretar de stat.</description>
-    </item>
-    <item>
-      <title>Guvernul recomandă aprobarea planului de restructurare pentru Liberty Galați și prelungește plata salariilor</title>
-      <link>https://izz.ro/local/guvernul-recomanda-aprobarea-planului-de-restructurare-pentru-liberty-galati-si/</link>
-      <guid>https://izz.ro/local/guvernul-recomanda-aprobarea-planului-de-restructurare-pentru-liberty-galati-si/</guid>
-      <pubDate>Fri, 06 Nov 2026 12:09:15 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.monitoruldegalati.ro/stirea-zilei/liberty-galati-guvernul-anunta-sase-luni-in-plus-pentru-salarii-din-fondul-de-garantare-si-negocieri-cu-cinci-investitori.html">Monitorul de Galați, Digi24, Economedia</source>
-      <description>Comitetul Interministerial a recomandat creditorilor aprobarea noului plan de restructurare pentru evitarea falimentului. Ministerul Muncii va prelungi cu șase luni perioada de plată a salariilor pentru cei 2.400 de angajați din Fondul de garantare. Autoritățile vor derula negocieri directe cu cinci mari investitori interesați de combinat.</description>
     </item>
 </channel></rss>
