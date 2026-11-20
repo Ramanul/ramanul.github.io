@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/nato/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre NATO pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 19 Nov 2026 22:07:41 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 03:52:19 +0000</lastBuildDate>
     <item>
       <title>Avioane militare NATO au survolat intens Marea Neagră pentru supraveghere</title>
       <link>https://izz.ro/extern/avioane-militare-nato-survolat-intens-marea-neagra-supraveghere/</link>
@@ -16,22 +16,13 @@
       <description>Platforma OSINT ItaMilRadar a raportat o intensificare a activității aeriene aliate deasupra Mării Negre. Misiunile au inclus avioane de supraveghere, avertizare timpurie și aeronave-cisternă aparținând mai multor state membre.</description>
     </item>
     <item>
-      <title>Nicușor Dan explică absența României din echipa europeană de negociere pentru Ucraina</title>
-      <link>https://izz.ro/politic/nicusor-dan-explica-absenta-romaniei-echipa-europeana-negociere-ucraina/</link>
-      <guid>https://izz.ro/politic/nicusor-dan-explica-absenta-romaniei-echipa-europeana-negociere-ucraina/</guid>
-      <pubDate>Thu, 19 Nov 2026 19:08:51 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.g4media.ro/nicusor-dan-despre-faptul-ca-romania-nu-se-afla-la-masa-negocierilor-cu-rusii-si-ucrainenii-de-ce-nu-e-si-norvegia-prezenta-care-da-ucrainei-7-miliarde-pe-an.html">G4Media, Digi24</source>
-      <description>Președintele Nicușor Dan a afirmat că grupul european de negociere nu are un mandat în alb și că poziția României va fi susținută în cadrul discuțiilor. Nicușor Dan a oferit exemplul Norvegiei, menționând că nici aceasta nu face parte din grup deși contribuie anual cu 7 miliarde. Formatul european stabilit în noiembrie la Dublin este compus din Franța, Germania, Marea Britanie, Italia și Polonia, alături de reprezentanți ai CE, Consiliului European și NATO.</description>
-    </item>
-    <item>
-      <title>Emmanuel Macron cere sprijin imediat pentru Ucraina și reluarea discuțiilor privind NATO</title>
-      <link>https://izz.ro/politic/emmanuel-macron-cere-sprijin-imediat-ucraina-reluarea-discutiilor-privind-nato/</link>
-      <guid>https://izz.ro/politic/emmanuel-macron-cere-sprijin-imediat-ucraina-reluarea-discutiilor-privind-nato/</guid>
+      <title>Emmanuel Macron a solicitat reluarea discuțiilor privind aderarea Ucrainei la NATO</title>
+      <link>https://izz.ro/extern/emmanuel-macron-cere-sprijin-imediat-ucraina-reluarea-discutiilor-privind-nato/</link>
+      <guid>https://izz.ro/extern/emmanuel-macron-cere-sprijin-imediat-ucraina-reluarea-discutiilor-privind-nato/</guid>
       <pubDate>Thu, 19 Nov 2026 19:00:59 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.digi24.ro/stiri/externe/macron-avertizeaza-ca-urmeaza-saptamani-critice-pentru-ucraina-si-face-apel-pentru-aderarea-acesteia-la-nato-4044779">Digi24 Extern</source>
-      <description>Președintele Franței a avertizat aliații occidentali că urmează o perioadă extrem de dificilă pentru Ucraina. Acesta a solicitat furnizarea urgentă de sisteme antiaeriene și reevaluarea aderării statului ucrainean la alianța nord-atlantică.</description>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/macron-avertizeaza-ca-urmeaza-saptamani-critice-pentru-ucraina-si-face-apel-pentru-aderarea-acesteia-la-nato-4044779">Digi24 Extern, ARADON</source>
+      <description>Președintele francez Emmanuel Macron a cerut, în cadrul reuniunii aliaților Ucrainei de la Berlin, redeschiderea discuțiilor privind aderarea Ucrainei la NATO, invocând pozițiile maximaliste ale Rusiei. Macron a afirmat că problema integrării Ucrainei în NATO este relevantă pentru securitatea europenilor pe termen lung. La reuniunea de la Berlin au fost prezenți președintele ucrainean Volodimir Zelenski, președintele României Nicușor Dan și negociatorii americani Steve Witkoff și Jared Kushner.</description>
     </item>
     <item>
       <title>Liderii europeni reuniți la Berlin resping pretențiile Rusiei privind Ucraina și NATO</title>
@@ -455,5 +446,14 @@
       <category>politic</category>
       <source url="https://rasunetul.ro/la-multi-ani-deputatului-daniel-suciu-1">Răsunetul</source>
       <description>Președintele Delegației Parlamentului României la NATO, deputatul Daniel Suciu, a primit mesaje de felicitare și urări de succes în activitatea sa politică, la aniversarea zilei de naștere.</description>
+    </item>
+    <item>
+      <title>Presa internațională avertizează asupra unui posibil acord SUA-Rusia care ar slăbi NATO</title>
+      <link>https://izz.ro/extern/presa-internationala-avertizeaza-asupra-unui-posibil-acord-sua-rusia-care-ar/</link>
+      <guid>https://izz.ro/extern/presa-internationala-avertizeaza-asupra-unui-posibil-acord-sua-rusia-care-ar/</guid>
+      <pubDate>Fri, 06 Nov 2026 22:04:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/ft-panica-in-ue-trump-ar-putea-negocia-un-acord-cu-putin-care-va-submina-nato-si-va-reface-sfera-de-influenta-a-rusiei-in-europa-810264.html">Antena 3 CNN</source>
+      <description>Financial Times semnalează temerile europene privind negocierile imprevizibile dintre Donald Trump și Vladimir Putin, care ar putea reface influența Moscovei în Europa și afecta alianța nord-atlantică.</description>
     </item>
 </channel></rss>
