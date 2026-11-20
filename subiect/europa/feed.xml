@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 20 Nov 2026 13:38:36 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 21:54:19 +0000</lastBuildDate>
+    <item>
+      <title>Proteste masive privind costul vieții în mai multe orașe din Europa</title>
+      <link>https://izz.ro/extern/proteste-masive-privind-costul-vietii-mai-multe-orase-europa/</link>
+      <guid>https://izz.ro/extern/proteste-masive-privind-costul-vietii-mai-multe-orase-europa/</guid>
+      <pubDate>Fri, 20 Nov 2026 16:45:34 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
+      <description>Mii de oameni au ieșit în stradă în diverse orașe europene pentru a protesta împotriva scumpirilor și a altor probleme economice majore cu care se confruntă populația.</description>
+    </item>
     <item>
       <title>Bacteria Klebsiella pneumoniae se răspândește rapid în spitalele din Europa</title>
       <link>https://izz.ro/sanatate/bacteria-klebsiella-pneumoniae-raspandeste-rapid-spitalele-europa/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/opinii-si-analize/alertele-cu-bomba-din-avioanele-europei-ce-se-stie-despre-autori-pista-rusa-si-efectele-asupra-calatorilor">Spotmedia</source>
       <description>Mai multe aeronave comerciale europene au fost supuse unor verificări de securitate amănunțite în urma unor amenințări cu bombă, însă nicio investigație nu a confirmat prezența unor dispozitive explozive.</description>
-    </item>
-    <item>
-      <title>Serviciile europene investighează alertele cu bombă care au blocat zeci de avioane</title>
-      <link>https://izz.ro/extern/serviciile-europene-investigheaza-alertele-cu-bomba-care-au-blocat-zeci-de/</link>
-      <guid>https://izz.ro/extern/serviciile-europene-investigheaza-alertele-cu-bomba-care-au-blocat-zeci-de/</guid>
-      <pubDate>Sun, 08 Nov 2026 08:18:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/externe/serviciile-europene-investigheaza-de-unde-au-pornit-amenintarile-cu-bomba-care-au-socat-europa-rusia-este-principalul-suspect-810340.html">Antena 3 CNN</source>
-      <description>Autoritățile din mai multe state europene desfășoară anchete pentru a stabili proveniența amenințărilor cu bombă care au perturbat grav traficul aerian, principalul suspect vizat de investigatori fiind Rusia.</description>
     </item>
 </channel></rss>

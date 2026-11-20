@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 20 Nov 2026 13:39:01 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 21:54:52 +0000</lastBuildDate>
+    <item>
+      <title>Un cercetător susține că a rezolvat celebra ipoteză matematică Riemann cu inteligența artificială</title>
+      <link>https://izz.ro/ai/cercetator-sustine-ca-rezolvat-celebra-ipoteza-matematica-riemann-inteligenta/</link>
+      <guid>https://izz.ro/ai/cercetator-sustine-ca-rezolvat-celebra-ipoteza-matematica-riemann-inteligenta/</guid>
+      <pubDate>Fri, 20 Nov 2026 20:41:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.antena3.ro/high-tech/un-matematician-spune-ca-a-rezolvat-cu-ai-unul-dintre-marile-mistere-ale-matematicii-ce-este-ipoteza-riemann-812026.html">Antena 3 CNN</source>
+      <description>Un matematician din cadrul companiei tehnologice Anthropic a anunțat că a găsit o demonstrație validă pentru ipoteza Riemann, una dintre cele mai dificile probleme neelucidate din lume, folosind sisteme avansate de AI.</description>
+    </item>
     <item>
       <title>Boxele inteligente rusești echipate cu inteligență artificială câștigă teren în piețele din Asia Centrală</title>
       <link>https://izz.ro/ai/boxele-inteligente-rusesti-echipate-inteligenta-artificiala-castiga-teren/</link>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://economedia.ro/studiu-79-dintre-companii-folosesc-deja-agenti-ai-in-activitatea-curenta-doar-15-coreleaza-pe-deplin-investitiile-in-ai-cu-rezultatele-financiare.html">Economedia</source>
       <description>Un studiu recent arată că 79% dintre firme integrează agenți inteligenți în activitatea zilnică, însă doar 15% reușesc să coreleze aceste investiții cu performanța financiară, din cauza unor blocaje de ordin operațional.</description>
-    </item>
-    <item>
-      <title>Microsoft introduce opțiunea de dezactivare a răspunsurilor AI în motorul Bing</title>
-      <link>https://izz.ro/ai/microsoft-introduce-optiunea-dezactivare-raspunsurilor-motorul-bing/</link>
-      <guid>https://izz.ro/ai/microsoft-introduce-optiunea-dezactivare-raspunsurilor-motorul-bing/</guid>
-      <pubDate>Thu, 12 Nov 2026 15:30:53 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.monitoruldegalati.ro/tehnologie/microsoft-le-permite-utilizatorilor-sa-dezactiveze-raspunsurile-ai-din-bing-google-merge-in-directia-opusa.html">Monitorul de Galați</source>
-      <description>Spre deosebire de Google, care integrează forțat funcțiile bazate pe inteligență artificială în căutări, Microsoft a lansat extensii care permit utilizatorilor să dezactiveze rezultatele generate de AI pe Bing.</description>
     </item>
 </channel></rss>
