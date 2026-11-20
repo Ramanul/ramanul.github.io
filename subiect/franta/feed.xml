@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/franta/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Franța pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 20 Nov 2026 03:52:19 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 13:38:36 +0000</lastBuildDate>
+    <item>
+      <title>Anchetă în Franța privind scurgeri de informații spre partidul lui Marine Le Pen</title>
+      <link>https://izz.ro/extern/ancheta-franta-privind-scurgeri-informatii-spre-partidul-marine-pen/</link>
+      <guid>https://izz.ro/extern/ancheta-franta-privind-scurgeri-informatii-spre-partidul-marine-pen/</guid>
+      <pubDate>Fri, 20 Nov 2026 11:56:27 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.politico.eu/article/marine-le-pen-national-rally-party-alleged-interior-ministry-leaks/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Ministrul de interne francez l-a convocat pe un înalt funcționar public vizat de o investigație judiciară pentru transmiterea de date confidențiale către formațiunea politică a Marinei Le Pen.</description>
+    </item>
     <item>
       <title>Papa Francisc a condamnat pedofilia ca fiind o infracțiune gravă împotriva copiilor</title>
       <link>https://izz.ro/extern/papa-francisc-condamnat-pedofilia-fiind-infractiune-grava-copiilor/</link>
@@ -446,14 +455,5 @@
       <category>sport</category>
       <source url="https://as.ro/fotbal/liga-natiunilor/gianluigi-donnarumma-gafa-de-proportii-in-italia-franta-i-a-facut-cadou-golul-lui-olise-sub-privirile-lui-istvan-kovacs-707678.html">Antena Sport</source>
       <description>Italianul Gianluigi Donnarumma a facilitat primul gol al Franței în partida din Liga Națiunilor disputată pe stadionul San Siro, greșeala sa fiind taxată imediat de Michael Olise.</description>
-    </item>
-    <item>
-      <title>Echipa națională a Italiei înfruntă Franța pe San Siro cu primul unsprezece stabilit</title>
-      <link>https://izz.ro/sport/echipa-nationala-italiei-infrunta-franta-san-siro-primul-unsprezece-stabilit/</link>
-      <guid>https://izz.ro/sport/echipa-nationala-italiei-infrunta-franta-san-siro-primul-unsprezece-stabilit/</guid>
-      <pubDate>Thu, 12 Nov 2026 18:30:56 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.fcinter1908.it/nazionali/italia-francia-formazioni-ufficiali-dimarco-diouf/">FC Inter 1908</source>
-      <description>Italia joacă împotriva Franței la Milano pe stadionul San Siro, iar antrenorii au definitivat formulele de start. Fundașul Calafiori intră în primul unsprezece în locul lui Dimarco, alături de Bastoni și Scalvini.</description>
     </item>
 </channel></rss>

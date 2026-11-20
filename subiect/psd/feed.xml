@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/psd/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre PSD pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 20 Nov 2026 03:52:18 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 13:38:35 +0000</lastBuildDate>
+    <item>
+      <title>Primarul Constantin Toma spune că Marian Neacșu conduce PSD informal</title>
+      <link>https://izz.ro/politic/primarul-constantin-toma-spune-marian-neacsu-conduce-psd-informal/</link>
+      <guid>https://izz.ro/politic/primarul-constantin-toma-spune-marian-neacsu-conduce-psd-informal/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:25:54 +0000</pubDate>
+      <category>politic</category>
+      <source url="https://adevarul.ro/politica/constantin-toma-dezvaluiri-din-psd-grindeanu-2573083.html">Adevărul</source>
+      <description>Edilul Buzăului afumă că influența crescută a vicepremierului Marian Neacșu în Executiv a redus autoritatea politică a lui Sorin Grindeanu, generând tensiuni în interiorul formațiunii social-democrate.</description>
+    </item>
     <item>
       <title>PSD analizează reducerea taxării pe muncă și renegocierea salariului minim pe economie</title>
       <link>https://izz.ro/economic/psd-analizeaza-reducerea-taxarii-munca-renegocierea-salariului-minim-economie/</link>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="https://www.digi24.ro/stiri/actualitate/politica/csoma-botond-califica-discutiile-despre-comasarea-comunelor-drept-burtologie-crasa-si-aminteste-de-tratatele-semnate-de-romania-4038143">Digi24</source>
       <description>Liderul deputaților UDMR a catalogat drept burtologie criticile formulate în interiorul coaliției privind reforma administrativ-teritorială, subliniind respectarea tratatelor și necesitatea unor abordări riguroase în comasarea localităților.</description>
-    </item>
-    <item>
-      <title>Partidul AUR conduce în intențiile de vot pentru alegerile parlamentare conform celui mai recent sondaj INSCOP.</title>
-      <link>https://izz.ro/politic/partidul-aur-conduce-intentiile-vot-alegerile-parlamentare-conform-celui-mai/</link>
-      <guid>https://izz.ro/politic/partidul-aur-conduce-intentiile-vot-alegerile-parlamentare-conform-celui-mai/</guid>
-      <pubDate>Mon, 16 Nov 2026 10:49:14 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://argesulonline.ro/sondaj-inscop-partidul-aur-pe-primul-loc-in-intentiile-de-vot-pentru-parlamentare-psd-da-semne-ca-si-revine-pnl-si-usr-stagneaza/">Argeș Online</source>
-      <description>Cercetarea sociologică realizată de INSCOP plasează formațiunea AUR pe primul loc cu peste treizeci și patru la sută, urmată de PSD care înregistrează o creștere importantă, în timp ce PNL și USR rămân la niveluri constante.</description>
     </item>
 </channel></rss>
