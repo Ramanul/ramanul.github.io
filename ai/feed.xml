@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 20 Nov 2026 21:54:52 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 02:48:43 +0000</lastBuildDate>
+    <item>
+      <title>Doar 5% dintre companiile românești au adoptat soluții bazate pe inteligență artificială</title>
+      <link>https://izz.ro/ai/doar-5-dintre-companiile-romanesti-adoptat-solutii-bazate-inteligenta/</link>
+      <guid>https://izz.ro/ai/doar-5-dintre-companiile-romanesti-adoptat-solutii-bazate-inteligenta/</guid>
+      <pubDate>Fri, 20 Nov 2026 22:05:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.zf.ro/profesii/alexandru-ungureanu-totalsoft-undeva-la-5-dintre-companiile-din-romania-au-adoptat-inteligenta-artificiala-cel-mai-bine-stau-departamentele-de-hr-care-sunt-aproape-de-media-europeana-23285763">Ziarul Financiar</source>
+      <description>Gradul general de utilizare a inteligenței artificiale în mediul de afaceri românesc se situează la aproximativ 5%. Excepție o fac departamentele de resurse umane, unde rata de adoptare a ajuns la 50%, aproape de media înregistrată la nivel european.</description>
+    </item>
     <item>
       <title>Un cercetător susține că a rezolvat celebra ipoteză matematică Riemann cu inteligența artificială</title>
       <link>https://izz.ro/ai/cercetator-sustine-ca-rezolvat-celebra-ipoteza-matematica-riemann-inteligenta/</link>
@@ -14,6 +23,15 @@
       <category>ai</category>
       <source url="https://www.antena3.ro/high-tech/un-matematician-spune-ca-a-rezolvat-cu-ai-unul-dintre-marile-mistere-ale-matematicii-ce-este-ipoteza-riemann-812026.html">Antena 3 CNN</source>
       <description>Un matematician din cadrul companiei tehnologice Anthropic a anunțat că a găsit o demonstrație validă pentru ipoteza Riemann, una dintre cele mai dificile probleme neelucidate din lume, folosind sisteme avansate de AI.</description>
+    </item>
+    <item>
+      <title>Datele sunt mai importante decât mărimea companiei în adoptarea inteligenței artificiale</title>
+      <link>https://izz.ro/ai/datele-sunt-mai-importante-marimea-companiei-adoptarea-inteligentei-artificiale/</link>
+      <guid>https://izz.ro/ai/datele-sunt-mai-importante-marimea-companiei-adoptarea-inteligentei-artificiale/</guid>
+      <pubDate>Fri, 20 Nov 2026 06:00:02 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://start-up.ro/solutii-pe-bune-sfaturi-de-la-bogdan-putinica-outcome1-ai-de-ce-datele-conteaza-mai-mult-decat-marimea-firmei-in-adoptarea-ai/">Start-up.ro</source>
+      <description>Specialistul Bogdan Putinică explică faptul că implementarea eficientă a inteligenței artificiale în companii depinde în primul rând de calitatea datelor deținute și abia apoi de dimensiunea afacerii.</description>
     </item>
     <item>
       <title>Boxele inteligente rusești echipate cu inteligență artificială câștigă teren în piețele din Asia Centrală</title>
@@ -367,15 +385,6 @@
       <description>Cancelariile liceelor tehnologice dezbat viitorul meseriilor pe piața muncii marcată de AI, mizând pe faptul că meseriașii calificați nu vor fi înlocuiți complet de tehnologie.</description>
     </item>
     <item>
-      <title>Companiile românești care utilizează inteligența artificială riscă procese civile</title>
-      <link>https://izz.ro/ai/companiile-romanesti-utilizeaza-inteligenta-artificiala-risca-procese-civile/</link>
-      <guid>https://izz.ro/ai/companiile-romanesti-utilizeaza-inteligenta-artificiala-risca-procese-civile/</guid>
-      <pubDate>Fri, 13 Nov 2026 22:05:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.zf.ro/business-hi-tech/silvia-axinescu-counsel-reff-asociatii-deloitte-legal-companiile-folosesc-agenti-riscul-unei-amenzi-act-deocamdata-aproape-zero-romania-autoritate-desemnata-formal-raspund-fata-persoanele-23280761">Ziarul Financiar</source>
-      <description>Specialiștii juridici avertizează că, deși riscul unor amenzi directe bazate pe AI Act este minim din cauza lipsei unei autorități naționale, firmele din România pot fi deja trase la răspundere pentru prejudiciile cauzate de agenții AI.</description>
-    </item>
-    <item>
       <title>Tinerii din generația Z alocă bugete lunare importante pentru aplicații de inteligență artificială</title>
       <link>https://izz.ro/ai/tinerii-generatia-z-aloca-bugete-lunare-importante-aplicatii-inteligenta/</link>
       <guid>https://izz.ro/ai/tinerii-generatia-z-aloca-bugete-lunare-importante-aplicatii-inteligenta/</guid>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://spotmedia.ro/stiri/eveniment/inregistrarile-din-salile-de-judecata-sunt-transcrise-cu-ai-grefierii-scapa-de-ore-intregi-de-ascultat-si-tastat">Spotmedia</source>
       <description>Ministerul Justiției a implementat platforma OPTIMUS, care convertește automat înregistrările audio din sălile de judecată în text. Grefierii economisesc astfel ore întregi de muncă, având rolul de a verifica și corecta documentele rezultate.</description>
-    </item>
-    <item>
-      <title>Majoritatea companiilor folosesc agenți AI, dar puține le măsoară impactul financiar</title>
-      <link>https://izz.ro/ai/majoritatea-companiilor-folosesc-agenti-dar-putine-masoara-impactul-financiar/</link>
-      <guid>https://izz.ro/ai/majoritatea-companiilor-folosesc-agenti-dar-putine-masoara-impactul-financiar/</guid>
-      <pubDate>Thu, 12 Nov 2026 17:29:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://economedia.ro/studiu-79-dintre-companii-folosesc-deja-agenti-ai-in-activitatea-curenta-doar-15-coreleaza-pe-deplin-investitiile-in-ai-cu-rezultatele-financiare.html">Economedia</source>
-      <description>Un studiu recent arată că 79% dintre firme integrează agenți inteligenți în activitatea zilnică, însă doar 15% reușesc să coreleze aceste investiții cu performanța financiară, din cauza unor blocaje de ordin operațional.</description>
     </item>
 </channel></rss>

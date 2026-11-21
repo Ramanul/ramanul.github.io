@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/buzau/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Buzău pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 20 Nov 2026 21:54:19 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 02:48:11 +0000</lastBuildDate>
     <item>
       <title>Județul Buzău participă la Târgul de Turism al României</title>
       <link>https://izz.ro/local/judetul-buzau-participa-targul-turism-al-romaniei/</link>
@@ -41,6 +41,15 @@
       <category>local</category>
       <source url="https://stiridebuzau.ro/vantul-a-maturat-zona-de-munte-a-buzaului-rafale-de-136-km-h-in-bisoca/">Știri de Buzău</source>
       <description>Rafalele puternice de la Bisoca au doborât copaci și stâlpi de electricitate, blocând temporar circulația pe drumul județean 204C, iar autoritățile locale au intervenit cu utilaje.</description>
+    </item>
+    <item>
+      <title>Pană de curent în mai multe localități din Buzău</title>
+      <link>https://izz.ro/local/pana-curent-mai-multe-localitati-buzau/</link>
+      <guid>https://izz.ro/local/pana-curent-mai-multe-localitati-buzau/</guid>
+      <pubDate>Fri, 20 Nov 2026 10:10:54 +0000</pubDate>
+      <category>local</category>
+      <source url="https://stiridebuzau.ro/mai-multe-localitati-din-buzau-au-ramas-fara-energie-electrica-echipele-de-interventie-sunt-pe-teren/">Știri de Buzău</source>
+      <description>Mai multe comune din județul Buzău au rămas fără energie electrică în urma unor defecțiuni la rețeaua de distribuție. Echipele de intervenție acționează pe teren pentru remedierea problemelor sesizate în zone precum Gura Teghii și Lopătari.</description>
     </item>
     <item>
       <title>Happy Cinema Buzău organizează o zi cu bilete la 9 lei de Black Friday</title>
@@ -446,14 +455,5 @@
       <category>local</category>
       <source url="https://hotnews.ro/bolojenistul-psd-s-a-intalnit-cu-liderul-pnl-la-primaria-din-buzau-multumesc-pentru-vizita-2397234">HotNews</source>
       <description>Constantin Toma, edilul din Buzău criticat anterior de conducerea PSD și supranumit „bolojenistul”, a găzduit o vizită a liderului PNL Ilie Bolojan și a lui Ciprian Ciucu. Cei trei au discutat despre proiecte administrative dedicate comunităților locale.</description>
-    </item>
-    <item>
-      <title>Primăria Buzău a inițiat concesionarea unui teren prin licitație publică</title>
-      <link>https://izz.ro/local/primaria-buzau-a-initiat-concesionarea-unui-teren-prin-licitatie-publica/</link>
-      <guid>https://izz.ro/local/primaria-buzau-a-initiat-concesionarea-unui-teren-prin-licitatie-publica/</guid>
-      <pubDate>Fri, 06 Nov 2026 13:47:06 +0000</pubDate>
-      <category>local</category>
-      <source url="https://stiridebuzau.ro/primaria-buzau-anunt-public-privind-initierea-proiectului-de-hotarare-nr-212-din-06-11-2026/">Știri de Buzău</source>
-      <description>Primarul Municipiului Buzău a lansat proiectul de hotărâre numărul 212 pentru aprobarea concesionării unui teren privat din Tarlaua 31, prin intermediul unei licitații publice deschise. Documentația completă poate fi consultată pe site-ul oficial al instituției.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/sua/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SUA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 20 Nov 2026 21:54:19 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 02:48:11 +0000</lastBuildDate>
+    <item>
+      <title>Amenințări cu penalități pentru companiile tech americane care construiesc datacentere în străinătate</title>
+      <link>https://izz.ro/tech/amenintari-penalitati-companiile-tech-americane-construiesc-datacentere/</link>
+      <guid>https://izz.ro/tech/amenintari-penalitati-companiile-tech-americane-construiesc-datacentere/</guid>
+      <pubDate>Fri, 20 Nov 2026 21:47:41 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house">The Guardian</source>
+      <description>Președintele SUA a anunțat vineri că va impune sancțiuni financiare majore firmelor de tehnologie americane care aleg să dezvolte centre de date în afara granițelor țării, deși nu a oferit detalii concrete.</description>
+    </item>
     <item>
       <title>Germania și Qatarul susțin o soluție diplomatică privind tensiunile militare dintre SUA, Israel și Iran</title>
       <link>https://izz.ro/extern/germania-qatarul-sustin-solutie-diplomatica-privind-tensiunile-militare-dintre/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://stirileprotv.ro/stiri/international/bloomberg-sua-ar-putea-retrage-5-000-de-militari-din-europa-tara-care-ar-suferi-cele-mai-mari-pierderi.html">Știrile ProTV</source>
       <description>Administrația condusă de Donald Trump intenționează să reducă trupele americane staționate în Europa cu aproximativ 5.000 de militari. Această diminuare este considerată mult mai redusă decât temerile inițiale exprimate de aliații din NATO.</description>
-    </item>
-    <item>
-      <title>SUA a învins categoric selecționata Haiti în meciul condus de Pochettino</title>
-      <link>https://izz.ro/sport/sua-invins-categoric-selectionata-haiti-meciul-condus-pochettino/</link>
-      <guid>https://izz.ro/sport/sua-invins-categoric-selectionata-haiti-meciul-condus-pochettino/</guid>
-      <pubDate>Sun, 15 Nov 2026 10:30:08 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.gsp.ro/international/campionate/sua-a-surclasat-o-participanta-la-cupa-mondiala-2026-in-penultimul-meci-sub-comanda-lui-mauricio-pochettino-999457.html">GSP</source>
-      <description>Reprezentativa de fotbal a Statelor Unite ale Americii s-a impus cu scorul de 6-0 în fața echipei din Haiti, în penultimul joc disputat sub conducerea tehnicianului Mauricio Pochettino.</description>
     </item>
 </channel></rss>

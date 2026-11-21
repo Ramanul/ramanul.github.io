@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 20 Nov 2026 21:54:19 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 02:48:11 +0000</lastBuildDate>
     <item>
       <title>Proteste masive privind costul vieții în mai multe orașe din Europa</title>
       <link>https://izz.ro/extern/proteste-masive-privind-costul-vietii-mai-multe-orase-europa/</link>
@@ -14,6 +14,15 @@
       <category>extern</category>
       <source url="https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&amp;at_campaign=rss">BBC Europe</source>
       <description>Mii de oameni au ieșit în stradă în diverse orașe europene pentru a protesta împotriva scumpirilor și a altor probleme economice majore cu care se confruntă populația.</description>
+    </item>
+    <item>
+      <title>Scădere de zece procente pentru vânzările Dacia în Europa</title>
+      <link>https://izz.ro/auto/scadere-zece-procente-vanzarile-dacia-europa/</link>
+      <guid>https://izz.ro/auto/scadere-zece-procente-vanzarile-dacia-europa/</guid>
+      <pubDate>Fri, 20 Nov 2026 13:48:28 +0000</pubDate>
+      <category>auto</category>
+      <source url="https://www.autocritica.ro/live-news/dacia-scadere-de-104-a-vanzarilor-din-europa-in-primele-10-luni/">AutoCritica</source>
+      <description>Producătorul auto Dacia a comercializat circa 446.000 de autoturisme în Europa în primele zece luni ale anului, înregistrând un recul de 10,4% comparativ cu perioada similară anterioară, singurul model pe plus fiind SUV-ul Bigster.</description>
     </item>
     <item>
       <title>Bacteria Klebsiella pneumoniae se răspândește rapid în spitalele din Europa</title>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/russia-hybrid-war-europe-low-level-agents/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Jurnaliștii investighează modul în care serviciile rusești folosesc oameni obișnuiți drept mercenari de unică folosință pentru a executa acțiuni subversive pe teritoriul statelor europene.</description>
-    </item>
-    <item>
-      <title>Val de alerte false cu bombă vizând avioane de pasageri în Europa</title>
-      <link>https://izz.ro/extern/val-de-alerte-false-cu-bomba-vizand-avioane-de-pasageri-in-europa/</link>
-      <guid>https://izz.ro/extern/val-de-alerte-false-cu-bomba-vizand-avioane-de-pasageri-in-europa/</guid>
-      <pubDate>Sun, 08 Nov 2026 15:34:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/opinii-si-analize/alertele-cu-bomba-din-avioanele-europei-ce-se-stie-despre-autori-pista-rusa-si-efectele-asupra-calatorilor">Spotmedia</source>
-      <description>Mai multe aeronave comerciale europene au fost supuse unor verificări de securitate amănunțite în urma unor amenințări cu bombă, însă nicio investigație nu a confirmat prezența unor dispozitive explozive.</description>
     </item>
 </channel></rss>
