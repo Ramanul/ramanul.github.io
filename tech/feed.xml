@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 21 Nov 2026 18:33:20 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 23:55:49 +0000</lastBuildDate>
+    <item>
+      <title>O aplicație creată în România ajută părinții divorțați să își gestioneze programul și cheltuielile</title>
+      <link>https://izz.ro/tech/aplicatie-creata-romania-ajuta-parintii-divortati-isi-gestioneze-programul/</link>
+      <guid>https://izz.ro/tech/aplicatie-creata-romania-ajuta-parintii-divortati-isi-gestioneze-programul/</guid>
+      <pubDate>Sat, 21 Nov 2026 21:34:25 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://adevarul.ro/dezvoltare-personala/relatii/o-aplicatie-romaneasca-promite-mai-putine-certuri-2573115.html">Adevărul</source>
+      <description>O nouă aplicație software dezvoltată în România își propune să reducă neînțelegerile dintre foștii soți, oferind instrumente de organizare a calendarului de vizitare a copiilor și de urmărire a cheltuielilor comune.</description>
+    </item>
     <item>
       <title>Cercetătorii au propus o metodă de măsurare a timpului simultan</title>
       <link>https://izz.ro/tech/cercetatorii-propus-metoda-masurare-timpului-simultan/</link>
@@ -77,6 +86,24 @@
       <category>tech</category>
       <source url="https://zch.ro/gta-vi-a-atras-aproape-opt-milioane-de-spectatori-online-la-lansare-iar-traficul-de-internet-a-atins-un-nivel-record/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
       <description>Jocul video Grand Theft Auto VI a generat un trafic de date istoric și aproape opt milioane de spectatori simultani pe platformele de streaming în momentul lansării sale.</description>
+    </item>
+    <item>
+      <title>JEDEC a publicat specificațiile preliminare pentru noul standard de memorie RAM DDR6</title>
+      <link>https://izz.ro/tech/jedec-publicat-specificatiile-preliminare-noul-standard-memorie-ram-ddr6/</link>
+      <guid>https://izz.ro/tech/jedec-publicat-specificatiile-preliminare-noul-standard-memorie-ram-ddr6/</guid>
+      <pubDate>Sat, 21 Nov 2026 08:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/memorii-ram-ddr6/">ZonaIT</source>
+      <description>Asociația JEDEC a prezentat detaliile inițiale ale memoriilor DDR6, proiectate pentru a susține cerințele ridicate ale inteligenței artificiale, centrelor de date și sistemelor de calcul personale prin viteze crescute de transfer.</description>
+    </item>
+    <item>
+      <title>Cercetătorii australieni au reuşit să transmită informaţii digitale utilizând forța gravitaţională şi un ascensor vechi</title>
+      <link>https://izz.ro/tech/cercetatorii-australieni-reusit-transmita-informatii-digitale-utilizand-forta/</link>
+      <guid>https://izz.ro/tech/cercetatorii-australieni-reusit-transmita-informatii-digitale-utilizand-forta/</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://piataauto.md/Stiri/2026/11/O-echipa-de-ingineri-din-Australia-a-transmis-informatii-folosind-doar-gravitatia-si-un-ascensor-din-1950/">Piata Auto MD</source>
+      <description>O echipă de ingineri din Australia a demonstrat posibilitatea de a transmite date prin variații de gravitație, folosind drept echipament de testare un ascensor construit în anul 1950 și senzori de înaltă precizie.</description>
     </item>
     <item>
       <title>Amenințări cu penalități pentru companiile tech americane care construiesc datacentere în străinătate</title>
@@ -428,32 +455,5 @@
       <category>tech</category>
       <source url="https://www.connect.ro/2026/11/19/amd-ne-pregateste-ceva-mare-pentru-ces-2027/">Connect.ro</source>
       <description>Jack Huynh, reprezentant al diviziei de grafică și procesoare din cadrul AMD, a transmis pe rețelele sociale un mesaj prin care anticipează o schimbare majoră în industrie, pregătită pentru expoziția tehnologică CES 2027.</description>
-    </item>
-    <item>
-      <title>Organizatia JEDEC a oficializat specificatiile viitorului standard de memorie RAM DDR6</title>
-      <link>https://izz.ro/tech/organizatia-jedec-oficializat-specificatiile-viitorului-standard-memorie-ram/</link>
-      <guid>https://izz.ro/tech/organizatia-jedec-oficializat-specificatiile-viitorului-standard-memorie-ram/</guid>
-      <pubDate>Thu, 19 Nov 2026 09:21:54 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/11/19/standardul-ddr6-a-fost-confirmat-de-jedec-ce-imbunatatiri-aduce-fata-de-ddr5/">Connect.ro</source>
-      <description>Consorțiul JEDEC a prezentat caracteristicile tehnice ale memoriei DDR6, care promite viteze de transfer de până la 14.400 MT/s și performanțe cu 50% mai ridicate comparativ cu actuala generație DDR5.</description>
-    </item>
-    <item>
-      <title>Compania TCL dezvolta un ecran OLED de 500Hz mai ieftin si mai rezistent</title>
-      <link>https://izz.ro/tech/compania-tcl-dezvolta-ecran-oled-500hz-mai-ieftin-mai-rezistent/</link>
-      <guid>https://izz.ro/tech/compania-tcl-dezvolta-ecran-oled-500hz-mai-ieftin-mai-rezistent/</guid>
-      <pubDate>Thu, 19 Nov 2026 09:00:32 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.connect.ro/2026/11/19/tcl-lucreaza-la-un-panou-oled-de-500hz-mai-ieftin-si-mai-usor-de-intretinut/">Connect.ro</source>
-      <description>Producătorul chinez de tehnologie TCL lucrează la un nou panou OLED cu o rată de împrospătare de 500Hz, având ca scop reducerea costurilor de producție și simplificarea întreținerii monitoarelor.</description>
-    </item>
-    <item>
-      <title>Google include gratuit abonamentul YouTube Premium Family în planul Google AI Ultra</title>
-      <link>https://izz.ro/tech/google-include-gratuit-abonamentul-youtube-premium-family-planul-google-ultra/</link>
-      <guid>https://izz.ro/tech/google-include-gratuit-abonamentul-youtube-premium-family-planul-google-ultra/</guid>
-      <pubDate>Thu, 19 Nov 2026 08:32:24 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zonait.ro/youtube-premium-family-gratuit/">ZonaIT</source>
-      <description>Google le oferă un pachet YouTube Premium Family gratuit utilizatorilor care optează pentru abonamentul Google AI Ultra, extinzând facilitățile incluse anterior în planurile de inteligență artificială ale companiei.</description>
     </item>
 </channel></rss>

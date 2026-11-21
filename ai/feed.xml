@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 21 Nov 2026 18:33:19 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 23:55:48 +0000</lastBuildDate>
+    <item>
+      <title>Cercetătorii avertizează că inteligența artificială poate analiza limbajul scris pentru a detecta depresia</title>
+      <link>https://izz.ro/ai/cercetatorii-avertizeaza-inteligenta-artificiala-poate-analiza-limbajul-scris/</link>
+      <guid>https://izz.ro/ai/cercetatorii-avertizeaza-inteligenta-artificiala-poate-analiza-limbajul-scris/</guid>
+      <pubDate>Sat, 21 Nov 2026 22:10:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/opinii-si-analize/ce-poate-afla-ai-ul-despre-sanatatea-noastra-mintala-din-felul-in-care-scriem-cercetatoare-romana-informatiile-pot-fi-folosite-impotriva-noastra">Spotmedia</source>
+      <description>Modelele de inteligență artificială pot identifica stările depresive prin analiza tiparelor verbale folosite în text. Experții români atrag însă atenția că aceste date psihologice despre sănătatea mintală pot fi folosite abuziv împotriva utilizatorilor.</description>
+    </item>
     <item>
       <title>Eksperții avertizează că atacurile cibernetice bazate pe inteligență artificială pot provoca decese</title>
       <link>https://izz.ro/ai/ekspertii-avertizeaza-atacurile-cibernetice-bazate-inteligenta-artificiala-pot/</link>
@@ -410,15 +419,6 @@
       <category>ai</category>
       <source url="https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths">The Guardian</source>
       <description>Cercetătorii folosesc tehnologia pentru a analiza peste o mie de pagini scrise într-o stenografie complexă, descoperind sute de teoreme demonstrate de matematician.</description>
-    </item>
-    <item>
-      <title>Geoffrey Hinton avertizează că inteligența artificială poate distruge omenirea în trei ani</title>
-      <link>https://izz.ro/ai/geoffrey-hinton-avertizeaza-inteligenta-artificiala-poate-distruge-omenirea/</link>
-      <guid>https://izz.ro/ai/geoffrey-hinton-avertizeaza-inteligenta-artificiala-poate-distruge-omenirea/</guid>
-      <pubDate>Fri, 13 Nov 2026 16:14:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.antena3.ro/life/stiinta/nasul-ai-ii-avertizeaza-pe-liderii-ue-ca-inteligenta-artificiala-ar-putea-prelua-controlul-lumii-si-ucide-oameni-in-3-ani-811097.html">Antena 3 CNN</source>
-      <description>Părintele inteligenței artificiale susține că sistemele superinteligente ar putea scăpa de sub control și anihila specia umană în curând, dacă liderii europeni nu iau măsuri urgente de reglementare.</description>
     </item>
     <item>
       <title>Polonia propune un sistem european de descurajare împotriva războiului cibernetic</title>
