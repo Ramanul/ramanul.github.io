@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 21 Nov 2026 11:40:23 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 18:33:19 +0000</lastBuildDate>
+    <item>
+      <title>Eksperții avertizează că atacurile cibernetice bazate pe inteligență artificială pot provoca decese</title>
+      <link>https://izz.ro/ai/ekspertii-avertizeaza-atacurile-cibernetice-bazate-inteligenta-artificiala-pot/</link>
+      <guid>https://izz.ro/ai/ekspertii-avertizeaza-atacurile-cibernetice-bazate-inteligenta-artificiala-pot/</guid>
+      <pubDate>Sat, 21 Nov 2026 17:17:02 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://adevarul.ro/stiri-externe/in-lume/vom-vedea-pierderi-de-vieti-omenesti-2573361.html">Adevărul</source>
+      <description>Utilizarea inteligenței artificiale de către hackeri pentru a compromite infrastructurile critice depășește simplul furt de date sau prejudiciul financiar, prezentând riscuri majore pentru viața oamenilor.</description>
+    </item>
+    <item>
+      <title>Investitoarea Yasmin Razavi a mizat pe succesul companiei Anthropic</title>
+      <link>https://izz.ro/ai/investitoarea-yasmin-razavi-mizat-succesul-companiei-anthropic/</link>
+      <guid>https://izz.ro/ai/investitoarea-yasmin-razavi-mizat-succesul-companiei-anthropic/</guid>
+      <pubDate>Sat, 21 Nov 2026 15:43:51 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/povestea-de-succes-a-lui-yasmin-razavi-tanara-nascuta-in-iran-care-a-pariat-pe-anthropic-inainte-sa-devina-una-dintre-cele-mai-valoroase-companii-2409465">HotNews</source>
+      <description>Partenerul de la Spark Capital a devenit singurul reprezentant extern în consiliul de administrație al creatorului Claude, după ce a susținut financiar compania de inteligență artificială încă din stadiile incipiente.</description>
+    </item>
     <item>
       <title>Cercetătorul Levent Alpöge susține că a rezolvat ipoteza Riemann cu ajutorul AI</title>
       <link>https://izz.ro/ai/cercetatorul-levent-alpoge-sustine-ca-rezolvat-ipoteza-riemann-ajutorul/</link>
@@ -286,15 +304,6 @@
       <description>Un studiu realizat de cercetători din Scoția arată că semnalările globale de materiale create prin inteligență artificială ce înfățișează abuzuri sexuale asupra minorilor s-au majorat cu peste 8.400% în ultimele două sezoane anuale.</description>
     </item>
     <item>
-      <title>Un membru din conducerea OpenAI avertizează că inteligența artificială va provoca accidente mortale</title>
-      <link>https://izz.ro/ai/membru-conducerea-openai-avertizeaza-inteligenta-artificiala-va-provoca/</link>
-      <guid>https://izz.ro/ai/membru-conducerea-openai-avertizeaza-inteligenta-artificiala-va-provoca/</guid>
-      <pubDate>Mon, 16 Nov 2026 11:00:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.antena3.ro/high-tech/avertismentul-unui-membru-din-conducerea-openai-cel-mai-probabil-veti-muri-din-cauza-unui-accident-provocat-de-ai-811284.html">Antena 3 CNN</source>
-      <description>Paul Christiano, membru în Consiliul de Administrație al OpenAI, a declarat la o conferință din Toronto că riscul ca oamenii să își piardă viața în viitorul apropiat din cauza unor accidente provocate de AI este extrem de ridicat.</description>
-    </item>
-    <item>
       <title>Inteligența Artificială modifică traficul digital, dar platforma OLX își menține poziția</title>
       <link>https://izz.ro/ai/inteligenta-artificiala-modifica-traficul-digital-dar-platforma-olx-isi-mentine/</link>
       <guid>https://izz.ro/ai/inteligenta-artificiala-modifica-traficul-digital-dar-platforma-olx-isi-mentine/</guid>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://www.g4media.ro/peste-1-500-de-liceeni-participa-la-high-school-innovation-challenge-competitie-nationala-de-ai-si-business.html">G4Media</source>
       <description>Prima ediție a concursului High School Innovation Challenge, organizată de Universitatea Româno-Americană împreună cu partenerii săi, a reunit 449 de echipe formate din elevi din 36 de județe ale țării.</description>
-    </item>
-    <item>
-      <title>Instanțele din România folosesc inteligența artificială pentru transcrieri</title>
-      <link>https://izz.ro/ai/instantele-romania-folosesc-inteligenta-artificiala-transcrieri/</link>
-      <guid>https://izz.ro/ai/instantele-romania-folosesc-inteligenta-artificiala-transcrieri/</guid>
-      <pubDate>Thu, 12 Nov 2026 18:18:45 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/inregistrarile-din-salile-de-judecata-sunt-transcrise-cu-ai-grefierii-scapa-de-ore-intregi-de-ascultat-si-tastat">Spotmedia</source>
-      <description>Ministerul Justiției a implementat platforma OPTIMUS, care convertește automat înregistrările audio din sălile de judecată în text. Grefierii economisesc astfel ore întregi de muncă, având rolul de a verifica și corecta documentele rezultate.</description>
     </item>
 </channel></rss>

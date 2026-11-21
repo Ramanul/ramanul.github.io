@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/subiect/polonia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Polonia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 21 Nov 2026 11:39:39 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 18:32:36 +0000</lastBuildDate>
+    <item>
+      <title>Obiecte militare rusești au căzut pe teritoriul Poloniei</title>
+      <link>https://izz.ro/extern/obiecte-militare-rusesti-cazut-teritoriul-poloniei/</link>
+      <guid>https://izz.ro/extern/obiecte-militare-rusesti-cazut-teritoriul-poloniei/</guid>
+      <pubDate>Sat, 21 Nov 2026 15:07:05 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/video/2026/nov/21/cctv-shows-unknown-object-crashing-and-exploding-near-poland-ukraine-border-video">The Guardian</source>
+      <description>Două rusești rachete de croazieră și o dronă au trecut granița și s-au prăbușit în sud-estul Poloniei în timpul unor atacuri aeriene. Oficialii polonezi au calificat incidentul drept o provocare militară, deși nu s-au înregistrat victime.</description>
+    </item>
+    <item>
+      <title>Mark Rutte declară la Varșovia că NATO va apăra teritoriul Poloniei</title>
+      <link>https://izz.ro/extern/mark-rutte-declara-varsovia-nato-va-apara-teritoriul-poloniei/</link>
+      <guid>https://izz.ro/extern/mark-rutte-declara-varsovia-nato-va-apara-teritoriul-poloniei/</guid>
+      <pubDate>Sat, 21 Nov 2026 14:49:27 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://spotmedia.ro/stiri/eveniment/rutte-la-varsovia-dupa-trei-incursiuni-rusesti-intr-o-singura-noapte-nato-va-apara-fiecare-centimetru-din-teritoriul-poloniei">Spotmedia, Digi24 Extern, ARADON</source>
+      <description>Secretarul general al NATO, Mark Rutte, a declarat la Varșovia că Alianța va apăra fiecare centimetru din teritoriul Poloniei. Generalul Alexus Grynkewich va evalua situația și va decide ajustările necesare privind capabilitățile de apărare ale Alianței. Rutte a menționat că este prea devreme pentru un verdict privind caracterul deliberat al incidentului cu trei obiecte rusești.</description>
+    </item>
     <item>
       <title>Rachete rusești au traversat spațiul aerian al Poloniei în timpul unui exercițiu militar</title>
       <link>https://izz.ro/extern/rachete-rusesti-traversat-spatiul-aerian-al-poloniei-timpul-exercitiu-militar/</link>
@@ -52,15 +70,6 @@
       <description>Furnizorul polonez de servicii de plată amânată PayPo, activ și pe piața din România, intenționează să atragă câteva sute de milioane de dolari printr-o ofertă publică inițială derulată la Bursa de Valori din Varșovia.</description>
     </item>
     <item>
-      <title>Trei rachete rusești au căzut în Polonia în apropierea unui poligon militar</title>
-      <link>https://izz.ro/extern/trei-rachete-rusesti-cazut-polonia-apropierea-poligon-militar/</link>
-      <guid>https://izz.ro/extern/trei-rachete-rusesti-cazut-polonia-apropierea-poligon-militar/</guid>
-      <pubDate>Fri, 20 Nov 2026 18:31:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://observatornews.ro/extern/rachete-rusesti-prabusite-in-polonia-langa-locul-unde-se-antreneza-2800-de-militari-din-11-tari-672976.html">Observator</source>
-      <description>Polonia a ridicat nivelul de alertă și a suspendat zborurile pe două aeroporturi după ce trei proiectile rusești au pătruns în spațiul său aerian. Incidentul s-a produs aproape de o zonă unde se antrenează mii de militari NATO.</description>
-    </item>
-    <item>
       <title>Varșovia acuză o rachetă rusească căzută în Polonia drept oprovocare</title>
       <link>https://izz.ro/extern/varsovia-acuza-racheta-ruseasca-cazuta-polonia-drept-oprovocare/</link>
       <guid>https://izz.ro/extern/varsovia-acuza-racheta-ruseasca-cazuta-polonia-drept-oprovocare/</guid>
@@ -86,6 +95,15 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/russian-missile-incursion-into-poland-seems-intentional-tusk-says/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>Șeful guvernului polonez susține că recentele incursiuni ale proiectilelor rusești reprezintă o provocare deliberată a Moscovei, contrazicând ipoteza unei erori tehnice menționată anterior de Washington.</description>
+    </item>
+    <item>
+      <title>Rachete și drone rusești au căzut în Polonia în timpul atacurilor asupra Ucrainei</title>
+      <link>https://izz.ro/extern/rachete-drone-rusesti-cazut-polonia-timpul-atacurilor-asupra-ucrainei/</link>
+      <guid>https://izz.ro/extern/rachete-drone-rusesti-cazut-polonia-timpul-atacurilor-asupra-ucrainei/</guid>
+      <pubDate>Fri, 20 Nov 2026 12:34:30 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine">The Guardian</source>
+      <description>Premierul polonez a calificat drept provocare intenționată prăbușirea a două rachete de croazieră și a unei drone rusești pe teritoriul Poloniei, în timpul unor ample bombardamente asupra Ucrainei soldate cu cel puțin opt morți.</description>
     </item>
     <item>
       <title>FRF, amendată de UEFA din cauza comportamentului suporterilor</title>
@@ -437,23 +455,5 @@
       <category>sport</category>
       <source url="https://www.sport.ro/nationala/reactia-lui-robert-lewandowski-dupa-esecul-poloniei-cu-romania-am-introdus-haosul-in-joc.html">Sport.ro</source>
       <description>Căpitanul naționalei Poloniei, Robert Lewandowski, a comentat prestația modestă a selecționatei sale în partida pierdută cu 1-2 pe terenul României, arătând că lipsa de organizare tactică a condus la rezultatul negativ din Liga Națiunilor.</description>
-    </item>
-    <item>
-      <title>Selecționerul Poloniei, Jan Urban, este demis după înfrângerea cu 2-1 în fața României</title>
-      <link>https://izz.ro/sport/selectionerul-poloniei-jan-urban-demis-dupa-infrangerea-2-1-romaniei/</link>
-      <guid>https://izz.ro/sport/selectionerul-poloniei-jan-urban-demis-dupa-infrangerea-2-1-romaniei/</guid>
-      <pubDate>Sat, 14 Nov 2026 22:50:52 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.prosport.ro/fotbal-extern/liga-natiunilor/dat-afara-presa-din-polonia-a-facut-anuntul-dupa-esecul-cu-romania-sfarsitul-pentru-urban-20569815">ProSport</source>
-      <description>Presa poloneză anunță că selecționerul Jan Urban va fi demis în urma eșecului suferit împotriva României, scor 2-1, în Liga Națiunilor. Rezultatul a adus prima victorie oficială pentru reprezentativa română condusă de Gheorghe Hagi.</description>
-    </item>
-    <item>
-      <title>Cicâldău și Man au marcat în victoria României cu 2-1 împotriva Poloniei</title>
-      <link>https://izz.ro/sport/cicaldau-man-marcat-victoria-romaniei-2-1-poloniei/</link>
-      <guid>https://izz.ro/sport/cicaldau-man-marcat-victoria-romaniei-2-1-poloniei/</guid>
-      <pubDate>Sat, 14 Nov 2026 22:45:35 +0000</pubDate>
-      <category>sport</category>
-      <source url="https://www.gsp.ro/fotbal/nationala/note-gsp-dupa-romania-polonia-999398.html">GSP</source>
-      <description>Echipa națională a României s-a impus cu 2-1 în fața Poloniei pe Arena Națională, datorită golurilor înscrise de Alexandru Cicâldău și Dennis Man. Succesul aduce primele trei puncte pentru tricolori în ediția 2026 a Ligii Națiunilor.</description>
     </item>
 </channel></rss>

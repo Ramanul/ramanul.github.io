@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Comisia Europeană — IZZ.ro</title>
+  <title>Comisia Europeana — IZZ.ro</title>
   <link>https://izz.ro/subiect/comisia-europeana/</link>
   <atom:link href="https://izz.ro/subiect/comisia-europeana/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Comisia Europeană pe IZZ.ro</description>
+  <description>Știri despre Comisia Europeana pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 21 Nov 2026 11:39:40 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 18:32:36 +0000</lastBuildDate>
+    <item>
+      <title>Tinerii români primesc noi oportunități educaționale și profesionale în Marea Britanie</title>
+      <link>https://izz.ro/extern/tinerii-romani-primesc-noi-oportunitati-educationale-profesionale-marea-britanie/</link>
+      <guid>https://izz.ro/extern/tinerii-romani-primesc-noi-oportunitati-educationale-profesionale-marea-britanie/</guid>
+      <pubDate>Sat, 21 Nov 2026 16:00:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.pandurul.ro/articol/tinerii-din-romania-vor-putea-beneficia-de-noi-opo_198649.html">Pandurul</source>
+      <description>Roxana Mînzatu, vicepreședinta Comisiei Europene, a anunțat lansarea unui program de mobilitate care facilitează accesul tinerilor din Uniunea Europeană la locuri de muncă și studii britanice.</description>
+    </item>
     <item>
       <title>Ljubljana și Calvià au fost desemnate Capitale Europene ale Turismului pentru 2027</title>
       <link>https://izz.ro/extern/ljubljana-calvia-desemnate-capitale-europene-ale-turismului-2027/</link>
@@ -446,14 +455,5 @@
       <category>tech</category>
       <source url="https://www.tion.ro/mapamond/ue-ar-putea-amenda-tiktok-pentru-efectele-algoritmului-asupra-sanatatii-mintale-a-utilizatorilor-2385630/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
       <description>Reprezentanții Uniunii Europene avertizează că sistemul de recomandări al platformei TikTok favorizează conținut repetitiv dăunător sănătății mintale, compania riscând amenzi substanțiale pentru modul în care își ține utilizatorii captivi.</description>
-    </item>
-    <item>
-      <title>A început vaccinarea oilor și caprelor împotriva variolei în România</title>
-      <link>https://izz.ro/judetean/a-inceput-vaccinarea-oilor-si-caprelor-impotriva-variolei-in-romania/</link>
-      <guid>https://izz.ro/judetean/a-inceput-vaccinarea-oilor-si-caprelor-impotriva-variolei-in-romania/</guid>
-      <pubDate>Sat, 07 Nov 2026 05:00:47 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://www.digi24.ro/magazin/stil-de-viata/animale/a-inceput-vaccinarea-oilor-si-caprelor-impotriva-variolei-care-sunt-principalele-temeri-ale-fermierilor-romani-4025609">Digi24</source>
-      <description>Autoritățile sanitare-veterinare au distribuit doze din rezerva europeană pentru imunizarea animalelor, după ce boala a ucis mii de exemplare și a generat focare confirmate în județul Galați.</description>
     </item>
 </channel></rss>

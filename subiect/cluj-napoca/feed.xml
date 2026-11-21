@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/cluj-napoca/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj-Napoca pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 21 Nov 2026 11:39:39 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 18:32:36 +0000</lastBuildDate>
+    <item>
+      <title>Pompierii din Cluj-Napoca au intervenit la un incendiu de gospodărie</title>
+      <link>https://izz.ro/local/pompierii-cluj-napoca-intervenit-incendiu-gospodarie/</link>
+      <guid>https://izz.ro/local/pompierii-cluj-napoca-intervenit-incendiu-gospodarie/</guid>
+      <pubDate>Sat, 21 Nov 2026 15:08:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/eveniment/incendiu-intr-o-gospodarie-din-cluj-napoca-intervin-pompierii--304688.html">Ziua de Cluj</source>
+      <description>O afumătoare a luat foc pe strada Piatra Craiului din Cluj-Napoca. Pompierii Inspectoratului pentru Situații de Urgență s-au deplasat rapid la fața locului pentru a lichida incendiul și a preveni extinderea flăcărilor.</description>
+    </item>
     <item>
       <title>O tânără din Cluj-Napoca a coborât forțat din mașină cerând ajutor în trafic</title>
       <link>https://izz.ro/local/tanara-cluj-napoca-coborat-fortat-masina-cerand-ajutor-trafic/</link>
@@ -34,15 +43,6 @@
       <description>O cameră de bord din cartierul Mărășești a înregistrat un incident în care o femeie a coborât în fugă dintr-un taxi operat prin platforma Bolt, cerând cu disperare ajutor pe stradă.</description>
     </item>
     <item>
-      <title>O tânără de nouăsprezece ani a fost rănită într-un accident rutier în Alba Iulia</title>
-      <link>https://izz.ro/local/tanara-nouasprezece-ani-fost-ranita-intr-accident-rutier-alba-iulia/</link>
-      <guid>https://izz.ro/local/tanara-nouasprezece-ani-fost-ranita-intr-accident-rutier-alba-iulia/</guid>
-      <pubDate>Sat, 21 Nov 2026 08:35:36 +0000</pubDate>
-      <category>local</category>
-      <source url="https://alba24.ro/accident-rutier-la-alba-iulia-o-tanara-de-19-ani-a-ajuns-la-spital-dupa-un-impact-intre-doua-masini-1168927.html">Alba24</source>
-      <description>Un impact între două autoturisme produse pe strada Vasile Goldiș din Alba Iulia s-a soldat cu rănirea unei tinere șoferițe, transportată ulterior la spital pentru îngrijiri medicale.</description>
-    </item>
-    <item>
       <title>Cluj-Napoca derulează cel mai mare șantier privat din România</title>
       <link>https://izz.ro/local/cluj-napoca-deruleaza-cel-mai-mare-santier-privat-romania/</link>
       <guid>https://izz.ro/local/cluj-napoca-deruleaza-cel-mai-mare-santier-privat-romania/</guid>
@@ -50,6 +50,15 @@
       <category>local</category>
       <source url="https://zcj.ro/economie/cluj-napoca-are-cel-mai-mare-santier-privat-din-romania-investitii-imobiliare-hoteluri-si-proiecte-majore-de-infrastructura--304670.html">Ziua de Cluj</source>
       <description>Orașul Cluj-Napoca trece printr-un amplu proces de dezvoltare urbană, integrând investiții imobiliare masive, hoteluri, reconversia platformelor industriale și proiecte majore destinate infrastructurii locale.</description>
+    </item>
+    <item>
+      <title>Cluj-Napoca a găzduit festivalul de filosofie dedicat responsabilității civice</title>
+      <link>https://izz.ro/local/cluj-napoca-gazduit-festivalul-filosofie-dedicat-responsabilitatii-civice/</link>
+      <guid>https://izz.ro/local/cluj-napoca-gazduit-festivalul-filosofie-dedicat-responsabilitatii-civice/</guid>
+      <pubDate>Sat, 21 Nov 2026 08:07:02 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.contributors.ro/ce-mai-avem-in-comun-arhivele-periferiei/">Contributors</source>
+      <description>Ediția recentă a festivalului de filosofie de la Cluj-Napoca a adus în atenția elevilor de liceu teme legate de viața în comunitate și provocările legate de spațiul public.</description>
     </item>
     <item>
       <title>Consiliul Local Cluj-Napoca a aprobat tariful pentru încărcarea mașinilor electrice la stațiile publice</title>
@@ -446,14 +455,5 @@
       <category>local</category>
       <source url="https://gazetadecluj.ro/emil-boc-anunta-redeschiderea-strazii-uzinei-electrice-pe-patru-benzi/">Gazeta de Cluj</source>
       <description>Primarul Emil Boc a confirmat redeschiderea traficului pe patru benzi pe strada Uzinei Electrice din Cluj-Napoca, lucrările fiind încheiate cu o zi înainte de termenul limită.</description>
-    </item>
-    <item>
-      <title>Un bărbat s-a intoxicat cu fum în urma unui incendiu la Cluj-Napoca</title>
-      <link>https://izz.ro/local/barbat-s-a-intoxicat-fum-urma-incendiu-cluj-napoca/</link>
-      <guid>https://izz.ro/local/barbat-s-a-intoxicat-fum-urma-incendiu-cluj-napoca/</guid>
-      <pubDate>Sun, 15 Nov 2026 07:43:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://zcj.ro/eveniment/un-nou-incendiu-la-cluj-napoca-un-barbat-s-a-intoxicat-cu-fum--304349.html">Ziua de Cluj</source>
-      <description>Pompierii clujeni au intervenit pe strada Bărc II din municipiu pentru stingerea unui incendiu izbucnit în dimineața respectivă, unde o persoană a suferit intoxicații cu fum.</description>
     </item>
 </channel></rss>
