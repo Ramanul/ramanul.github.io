@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 21 Nov 2026 02:48:11 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 11:39:40 +0000</lastBuildDate>
+    <item>
+      <title>Strategie de dezvoltare urbană pentru transformarea Clujului</title>
+      <link>https://izz.ro/local/strategie-dezvoltare-urbana-transformarea-clujului/</link>
+      <guid>https://izz.ro/local/strategie-dezvoltare-urbana-transformarea-clujului/</guid>
+      <pubDate>Sat, 21 Nov 2026 10:25:00 +0000</pubDate>
+      <category>local</category>
+      <source url="https://zcj.ro/economie/clujul-vrea-sa-treaca-la-un-alt-nivel-in-europa-planul-specialistilor-pentru-dezvoltarea-orasului--304676.html">Ziua de Cluj</source>
+      <description>Specialiștii analizează o serie de măsuri și direcții de acțiune menite să transforme municipiul Cluj-Napoca într-un pol european important de competitivitate economică și socială.</description>
+    </item>
     <item>
       <title>Clujul găzduiește a zecea ediție a Festivalului de Teatru Interferențe</title>
       <link>https://izz.ro/judetean/clujul-gazduieste-zecea-editie-festivalului-teatru-interferente/</link>
@@ -446,14 +455,5 @@
       <category>judetean</category>
       <source url="https://gazetadecluj.ro/perchezitii-la-o-firma-de-terapii-alternative-din-cluj-dupa-suspiciuni-de-inselaciune-si-evaziune-fiscala/">Gazeta de Cluj</source>
       <description>Procurorii clujeni au efectuat cinci percheziții la sediul unei societăți de terapii alternative, suspectată că și-a înșelat clienții și a evitat declararea veniturilor.</description>
-    </item>
-    <item>
-      <title>Polițiștii au aplicat sancțiuni și au suspendat permise auto în urma unor controale de trafic</title>
-      <link>https://izz.ro/general/politistii-au-aplicat-sanctiuni-si-au-suspendat-permise-auto-in-urma-unor/</link>
-      <guid>https://izz.ro/general/politistii-au-aplicat-sanctiuni-si-au-suspendat-permise-auto-in-urma-unor/</guid>
-      <pubDate>Mon, 09 Nov 2026 11:30:31 +0000</pubDate>
-      <category>general</category>
-      <source url="https://vremeanoua.ro/zeci-de-soferi-din-iasi-au-ramas-fara-permis-peste-weekend-politistii-au-aplicat-peste-550-de-amenzi/">Vremea Nouă, Gazeta de Cluj</source>
-      <description>Polițiștii au aplicat sancțiuni și au suspendat permise auto în urma unor controale de trafic: datele din surse sunt în acest moment ireconciliabile. Versiunea fiecărei publicații este redată separat, atribuită.</description>
     </item>
 </channel></rss>

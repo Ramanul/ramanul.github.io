@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/timisoara/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Timișoara pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 21 Nov 2026 02:48:11 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 11:39:40 +0000</lastBuildDate>
+    <item>
+      <title>Istoria unui monument istoric din Timișoara mutat la cererea Mariei Tereza</title>
+      <link>https://izz.ro/local/istoria-monument-istoric-timisoara-mutat-cererea-mariei-tereza/</link>
+      <guid>https://izz.ro/local/istoria-monument-istoric-timisoara-mutat-cererea-mariei-tereza/</guid>
+      <pubDate>Sat, 21 Nov 2026 09:11:40 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.opiniatimisoarei.ro/monumentul-din-timisoara-ce-aminteste-de-una-dintre-cele-mai-negre-perioade-din-istoria-orasului-mutat-la-interventia-imparatesei-mariei-tereza-constructia-lui-a-inceput-in-urma-cu-aproape-3-secole/21/11/2026">Opinia Timișoarei</source>
+      <description>Un monument vechi de aproape trei secole din Timișoara, martor al unei perioade negre din istoria locală, a fost mutat în trecut prin intervenția directă a împărătesei Maria Tereza, având o poveste puțin cunoscută de locuitorii orașului.</description>
+    </item>
     <item>
       <title>Agenda evenimentelor culturale și recreative din Timișoara</title>
       <link>https://izz.ro/local/agenda-evenimentelor-culturale-recreative-timisoara/</link>
@@ -446,14 +455,5 @@
       <category>local</category>
       <source url="https://www.ziuadevest.ro/restrictii-de-circulatie-pe-doua-strazi-din-timisoara-delgaz-grid-inlocuieste-conductele-de-gaz/">Ziua de Vest</source>
       <description>Compania Delgaz Grid va institui restricții de circulație pe străzile Eneas și Diaconu Coresi din Timișoara, în perioada 19-28 noiembrie 2026, pentru a efectua lucrări de înlocuire a conductelor și branșamentelor de gaze naturale.</description>
-    </item>
-    <item>
-      <title>Timișoara va organiza un spectacol folcloric și un concert Feli de Ziua Națională</title>
-      <link>https://izz.ro/local/timisoara-va-organiza-spectacol-folcloric-concert-feli-ziua-nationala/</link>
-      <guid>https://izz.ro/local/timisoara-va-organiza-spectacol-folcloric-concert-feli-ziua-nationala/</guid>
-      <pubDate>Tue, 17 Nov 2026 09:02:43 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.pressalert.ro/2026/11/ziua-nationala-a-romaniei-sarbatorita-in-piata-victoriei-din-timisoara-spectacol-folcloric-cu-ansamblul-timisul-concert-feli-si-retragere-cu-torte/">PressAlert Timișoara</source>
-      <description>Primăria Timișoara pregătește o serie de evenimente pentru 1 Decembrie 2026 în Piața Victoriei. Programul festiv va include momente artistice susținute de Ansamblul „Timișul”, un concert Feli și tradiționala retragere cu torțe dedicată unității naționale.</description>
     </item>
 </channel></rss>
