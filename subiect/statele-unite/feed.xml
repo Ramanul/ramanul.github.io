@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/statele-unite/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Statele Unite pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 22 Nov 2026 15:58:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 22:32:30 +0000</lastBuildDate>
     <item>
       <title>Președintele Volodimir Zelenski se confruntă cu presiuni din partea agențiilor anticorupție</title>
       <link>https://izz.ro/extern/presedintele-volodimir-zelenski-confrunta-presiuni-partea-agentiilor/</link>
@@ -14,6 +14,15 @@
       <category>extern</category>
       <source url="https://cvlpress.ro/22.11.2026/zelenski-are-probleme-cu-agentiile-anticoruptie/">Cuvântul Libertății</source>
       <description>Instituții media din Ucraina semnalează că agențiile NABU și SAPO, susținute de Partidul Democrat din SUA și oficiali europeni, exercită presiuni constante asupra lui Volodimir Zelenski pentru a-i limita puterea administrativă.</description>
+    </item>
+    <item>
+      <title>O analiză Wall Street Journal avertizează asupra riscurilor dependenței extreme de tehnologie</title>
+      <link>https://izz.ro/tech/analiza-wall-street-journal-avertizeaza-asupra-riscurilor-dependentei-extreme/</link>
+      <guid>https://izz.ro/tech/analiza-wall-street-journal-avertizeaza-asupra-riscurilor-dependentei-extreme/</guid>
+      <pubDate>Sun, 22 Nov 2026 08:02:20 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://cursdeguvernare.ro/ne-am-dorit-o-lume-hiperconectata-si-acum-traim-in-ea.html">Curs de Guvernare</source>
+      <description>Panourile recente din transporturi, servicii bancare și telecomunicații din Statele Unite scot în evidență riscurile dependenței digitale. Jurnalistul Joel Stein avertizează că defecțiunile majore ale infrastructurii informatice vor deveni tot mai frecvente.</description>
     </item>
     <item>
       <title>Liderii companiilor tehnologice americane își revizuiesc discursul politic după alegeri</title>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/cnn-extremistii-din-iran-au-mirosit-slabiciunea-lui-trump-dupa-alegeri-si-cer-concesii-mai-mari-pentru-a-opri-razboiul-810323.html">Antena 3 CNN</source>
       <description>Potrivit unor analize media, cercurile extremiste de la Teheran consideră că poziția Statelor Unite a slăbit după scrutinul recent, motiv pentru care își intensifică pretențiile strategice.</description>
-    </item>
-    <item>
-      <title>Mihai Fifor l-a acuzat pe Ilie Bolojan că a afectat relațiile României cu SUA</title>
-      <link>https://izz.ro/politic/mihai-fifor-l-a-acuzat-pe-ilie-bolojan-ca-a-afectat-relatiile-romaniei-cu-sua/</link>
-      <guid>https://izz.ro/politic/mihai-fifor-l-a-acuzat-pe-ilie-bolojan-ca-a-afectat-relatiile-romaniei-cu-sua/</guid>
-      <pubDate>Sat, 07 Nov 2026 21:12:34 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.dobrogeaonline.ro/mihai-fifor-sustine-ca-ilie-bolojan-a-afectat-relatiile-romaniei-cu-statele-unite/">Dobrogea Online</source>
-      <description>Fostul ministru Mihai Fifor susține că acțiunile fostului premier Ilie Bolojan au periclitat parteneriatul strategic dintre România și Statele Unite, punând în pericol și prezența trupelor aliate pe teritoriul național.</description>
     </item>
 </channel></rss>

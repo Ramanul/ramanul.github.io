@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Comisia Europeana — IZZ.ro</title>
+  <title>Comisia Europeană — IZZ.ro</title>
   <link>https://izz.ro/subiect/comisia-europeana/</link>
   <atom:link href="https://izz.ro/subiect/comisia-europeana/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Comisia Europeana pe IZZ.ro</description>
+  <description>Știri despre Comisia Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 22 Nov 2026 15:58:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 22:32:29 +0000</lastBuildDate>
+    <item>
+      <title>Comisia Europeană pregătește revizuirea Directivei privind practicile comerciale neloiale din sectorul alimentar</title>
+      <link>https://izz.ro/economic/comisia-europeana-pregateste-revizuirea-directivei-privind-practicile/</link>
+      <guid>https://izz.ro/economic/comisia-europeana-pregateste-revizuirea-directivei-privind-practicile/</guid>
+      <pubDate>Sun, 22 Nov 2026 20:26:34 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.economica.net/comisia-europeana-regandeste-directiva-privind-practicile-comerciale-ce-impact-ar-putea-avea-in-sectorul-alimentar997709_997709.html">Economica</source>
+      <description>Executivul european a analizat Directiva UTP și a derulat o consultare publică în vederea modificării normelor. Evaluarea a identificat vulnerabilități majore în funcționarea actuală a regulilor din sectorul agroalimentar.</description>
+    </item>
     <item>
       <title>Tinerii români primesc noi oportunități educaționale și profesionale în Marea Britanie</title>
       <link>https://izz.ro/extern/tinerii-romani-primesc-noi-oportunitati-educationale-profesionale-marea-britanie/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://alba24.ro/romanii-ar-putea-folosi-telefonul-fara-taxe-de-roaming-in-sase-tari-din-balcani-ue-a-inceput-negocierile-1166715.html">Alba24</source>
       <description>Românii ar putea vorbi fără costuri suplimentare de roaming în Albania, Bosnia, Kosovo, Muntenegru, Macedonia de Nord și Serbia, după ce UE a inițiat discuțiile pentru extinderea regimului de tarife acasă.</description>
-    </item>
-    <item>
-      <title>Comisia Europeană analizează sancționarea TikTok pentru algoritmi nocivi</title>
-      <link>https://izz.ro/tech/comisia-europeana-analizeaza-sanctionarea-tiktok-pentru-algoritmi-nocivi/</link>
-      <guid>https://izz.ro/tech/comisia-europeana-analizeaza-sanctionarea-tiktok-pentru-algoritmi-nocivi/</guid>
-      <pubDate>Sat, 07 Nov 2026 13:33:43 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.tion.ro/mapamond/ue-ar-putea-amenda-tiktok-pentru-efectele-algoritmului-asupra-sanatatii-mintale-a-utilizatorilor-2385630/?utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=hiraggregator">Timiș Online</source>
-      <description>Reprezentanții Uniunii Europene avertizează că sistemul de recomandări al platformei TikTok favorizează conținut repetitiv dăunător sănătății mintale, compania riscând amenzi substanțiale pentru modul în care își ține utilizatorii captivi.</description>
     </item>
 </channel></rss>
