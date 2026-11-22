@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/statele-unite/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Statele Unite pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 21 Nov 2026 23:55:05 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 07:18:13 +0000</lastBuildDate>
+    <item>
+      <title>Liderii companiilor tehnologice americane își revizuiesc discursul politic după alegeri</title>
+      <link>https://izz.ro/tech/liderii-companiilor-tehnologice-americane-isi-revizuiesc-discursul-politic-dupa/</link>
+      <guid>https://izz.ro/tech/liderii-companiilor-tehnologice-americane-isi-revizuiesc-discursul-politic-dupa/</guid>
+      <pubDate>Sun, 22 Nov 2026 05:42:25 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://adevarul.ro/stiri-externe/sua/gigantii-din-silicon-valley-isi-schimba-discursul-2573377.html">Adevărul</source>
+      <description>Șefii marilor firme din Silicon Valley își atenuează declarațiile publice și se distanțează de partidul republican în urma rezultatelor înregistrate de democrați la alegerile parlamentare la jumătate de mandat din Statele Unite.</description>
+    </item>
     <item>
       <title>O cetățeancă americană închisă în Cuba pentru spionaj a fost eliberată secret</title>
       <link>https://izz.ro/extern/cetateanca-americana-inchisa-cuba-spionaj-fost-eliberata-secret/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/mapamond/o-baza-militara-din-razboiul-rece-abandonata-sub-gheata-groenlandei-scoate-la-iveala-un-secret-neasteptat-despre-trecutul-planetei-810322.html">Antena 3 CNN</source>
       <description>Construcția americană abandonată, destinată inițial ascunderii unor rampe de lansare pentru rachete nucleare, oferă noi date științifice surprinzătoare despre evoluția climatică a planetei.</description>
-    </item>
-    <item>
-      <title>Structura electoratului american s-a modificat semnificativ la alegerile intermediare</title>
-      <link>https://izz.ro/extern/structura-electoratului-american-s-a-modificat-semnificativ-la-alegerile/</link>
-      <guid>https://izz.ro/extern/structura-electoratului-american-s-a-modificat-semnificativ-la-alegerile/</guid>
-      <pubDate>Sat, 07 Nov 2026 05:53:09 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://stirileprotv.ro/stiri/international/alegeri-in-sua-cum-s-a-schimbat-electoratul-american-si-de-ce-au-pierdut-republicanii-voturile-decisive-pentru-victoria-lui-trump.html">Știrile ProTV</source>
-      <description>Alegerile de la jumătatea mandatului din Statele Unite au generat modificări majore în rândul alegătorilor, influențând direct rezultatele obținute de republicani și pierderea voturilor esențiale.</description>
     </item>
 </channel></rss>

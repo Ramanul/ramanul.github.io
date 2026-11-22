@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Ploiesti — IZZ.ro</title>
+  <title>Ploiești — IZZ.ro</title>
   <link>https://izz.ro/subiect/ploiesti/</link>
   <atom:link href="https://izz.ro/subiect/ploiesti/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Ploiesti pe IZZ.ro</description>
+  <description>Știri despre Ploiești pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sat, 21 Nov 2026 23:55:05 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 07:18:13 +0000</lastBuildDate>
+    <item>
+      <title>Ploieștiul găzduiește târguri de nunți, spectacole de teatru și concerte duminică</title>
+      <link>https://izz.ro/local/ploiestiul-gazduieste-targuri-nunti-spectacole-teatru-concerte-duminica/</link>
+      <guid>https://izz.ro/local/ploiestiul-gazduieste-targuri-nunti-spectacole-teatru-concerte-duminica/</guid>
+      <pubDate>Sun, 22 Nov 2026 05:59:20 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.observatorulph.ro/lifestyle/2804561-ce-facem-duminica-in-ploiesti-ultima-zi-a-targului-de-nunti-spectacole-pentru-copii-si-concerte">Observatorul Prahovean</source>
+      <description>Locuitorii orașului Ploiești pot participa duminică la ultima zi a târgului „Nunta de Vis” de la Palatul Culturii, dar și la spectacole pentru copii sau concerte organizate de teatrele locale.</description>
+    </item>
     <item>
       <title>O carte veche de peste cinci secole este expusă la Ploiești</title>
       <link>https://izz.ro/local/carte-veche-peste-cinci-secole-expusa-ploiesti/</link>
@@ -446,14 +455,5 @@
       <category>local</category>
       <source url="https://www.observatorulph.ro/exclusiv/2803638-exclusiv-seful-tsd-prahova-ii-raspunde-lui-politeanu-de-unde-obsesia-pentru-aceasta-firma">Observatorul Prahovean</source>
       <description>Andrei Theodor Georgescu contestă acuzațiile lansate de edilul Mihai Polițeanu referitoare la blocarea licitației pentru Târgul de Crăciun din Ploiești și solicită clarificări publice.</description>
-    </item>
-    <item>
-      <title>Carmen Băjenaru a fost numită inspector școlar general adjunct la ISJ Prahova</title>
-      <link>https://izz.ro/local/carmen-bajenaru-fost-numita-inspector-scolar-general-adjunct-isj-prahova/</link>
-      <guid>https://izz.ro/local/carmen-bajenaru-fost-numita-inspector-scolar-general-adjunct-isj-prahova/</guid>
-      <pubDate>Thu, 12 Nov 2026 09:34:58 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.observatorulph.ro/educatie/2803632-schimbare-in-conducerea-isj-prahova-o-profesoara-de-la-colegiul-i-l-caragiale-ploiesti-numita-adjunct">Observatorul Prahovean</source>
-      <description>Inspectoratul Școlar Județean Prahova are o nouă conducere, după ce profesoara de istorie Carmen Băjenaru, cadru didactic la un colegiu din Ploiești cu o experiență de zeci de ani, a preluat funcția de inspector adjunct.</description>
     </item>
 </channel></rss>
