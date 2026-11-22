@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/pnl/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre PNL pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 22 Nov 2026 07:18:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 15:58:56 +0000</lastBuildDate>
+    <item>
+      <title>PNL a organizat ședința Comitetului Director în județul Mureș</title>
+      <link>https://izz.ro/judetean/pnl-organizat-sedinta-comitetului-director-judetul-mures/</link>
+      <guid>https://izz.ro/judetean/pnl-organizat-sedinta-comitetului-director-judetul-mures/</guid>
+      <pubDate>Sun, 22 Nov 2026 11:24:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://www.zi-de-zi.ro/2026/11/22/comitetul-director-al-partidului-national-liberal-sedinta-in-judetul-mures/">Zi de Zi</source>
+      <description>Liderii Partidului Național Liberal, în frunte cu președintele formațiunii, s-au reunit în județul Mureș pentru o ședință a Comitetului Director, fiind găzduiți de filiala locală condusă de deputatul Ciprian Dobre.</description>
+    </item>
     <item>
       <title>Modificarea Codului Rutier elimină obligația șoferilor de a prezenta actele auto în original</title>
       <link>https://izz.ro/politic/modificarea-codului-rutier-elimina-obligatia-soferilor-de-prezenta-actele-auto/</link>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="https://www.g4media.ro/bolojan-psd-si-aur-au-demonstrat-ca-dincolo-de-declaratiile-publice-si-de-aparentele-conflicte-dintre-ele-colaboreaza-ca-o-axa-politica-veritabila.html">G4Media</source>
       <description>Liderul liberal a comentat fuziunea partidului său cu Forța Dreptei, subliniind necesitatea unei alternative politice capabile să modernizeze statul și să reducă cheltuielile publice.</description>
-    </item>
-    <item>
-      <title>Sondaj INSCOP: Alianța PNL-USR ajunge la 32%, în timp ce AUR scade la 34%</title>
-      <link>https://izz.ro/politic/sondaj-inscop-alianta-pnl-usr-ajunge-32-timp-aur-scade-34/</link>
-      <guid>https://izz.ro/politic/sondaj-inscop-alianta-pnl-usr-ajunge-32-timp-aur-scade-34/</guid>
-      <pubDate>Wed, 11 Nov 2026 15:18:41 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://cursdeguvernare.ro/remus-stefureac-inscop-alianta-pnl-usr-32-sondaje.html">Curs de Guvernare</source>
-      <description>O eventuală alianță electorală între PNL și USR înregistrează o intenție de vot de 32% în rândul alegătorilor mobilizați, situându-se aproape de AUR, partid aflat la prima scădere din ultimele 18 luni.</description>
     </item>
 </channel></rss>

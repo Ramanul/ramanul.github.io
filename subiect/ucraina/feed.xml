@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/subiect/ucraina/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ucraina pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 22 Nov 2026 07:18:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 15:58:56 +0000</lastBuildDate>
+    <item>
+      <title>Un cetățean ucrainean a decedat în Munții Maramureșului în timpul unei tentative de trecere a frontierei</title>
+      <link>https://izz.ro/judetean/cetatean-ucrainean-decedat-muntii-maramuresului-timpul-tentative-trecere/</link>
+      <guid>https://izz.ro/judetean/cetatean-ucrainean-decedat-muntii-maramuresului-timpul-tentative-trecere/</guid>
+      <pubDate>Sun, 22 Nov 2026 14:25:28 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://adevarul.ro/stiri-locale/baia-mare/ucrainean-gasit-mort-in-muntii-maramuresului-dupa-2573481.html">Adevărul</source>
+      <description>Un ucrainean a fost găsit fără viață în zona montană acoperită de zăpadă din Maramureș. Alți doi bărbați care îl însoțeau au fost salvați în urma unei operațiuni ample desfășurate de echipele de intervenție.</description>
+    </item>
+    <item>
+      <title>Uniunea Europeană pregătește sancțiuni pentru a menține interdicțiile sportivilor ruși</title>
+      <link>https://izz.ro/extern/uniunea-europeana-pregateste-sanctiuni-pentru-mentine-interdictiile-sportivilor/</link>
+      <guid>https://izz.ro/extern/uniunea-europeana-pregateste-sanctiuni-pentru-mentine-interdictiile-sportivilor/</guid>
+      <pubDate>Sun, 22 Nov 2026 10:02:34 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.europalibera.md/a/vize-sanctiuni-fonduri-europene-cum-planuieste-ue-sa-prelungeasca-interdictiile-impuse-sportivilor-rusi/33903487.html">Europa Liberă</source>
+      <description>Comunitatea Europeană intenționează să introducă vize și restricții financiare pentru a bloca participarea sportivilor din Rusia și Belarus sub steag național, după ce forurile internaționale au relaxat sancțiunile instituite în 2022.</description>
+    </item>
     <item>
       <title>Volodimir Zelenski reafirmă dorința Ucrainei de a adera la alianța NATO</title>
       <link>https://izz.ro/extern/volodimir-zelenski-reafirma-dorinta-ucrainei-de-adera-alianta-nato/</link>
@@ -23,15 +41,6 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/ucrainenii-ar-fi-atacat-cu-drone-regiunea-pentru-care-putin-a-amenintat-cu-armele-nucleare-812095.html">Antena 3 CNN</source>
       <description>Alarmele aeriene au sunat pentru prima dată în enclava rusă Kaliningrad, în urma unui presupus atac cu drone lansat de forțele ucrainene asupra regiunii strategice extrem de protejate.</description>
-    </item>
-    <item>
-      <title>Germania finanțează o nouă fabrică de drone destinate armatei ucrainene</title>
-      <link>https://izz.ro/extern/germania-finanteaza-noua-fabrica-drone-destinate-armatei-ucrainene/</link>
-      <guid>https://izz.ro/extern/germania-finanteaza-noua-fabrica-drone-destinate-armatei-ucrainene/</guid>
-      <pubDate>Sun, 22 Nov 2026 06:04:39 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://stirileprotv.ro/germania-finanteaza-o-noua-fabrica-de-drone-pentru-armata-kievului-investitie-de-sute-de-milioane-de-euro.html">Știrile ProTV, Economica, Gazeta de Cluj</source>
-      <description>Compania Auterion și producătorul ucrainean Skyfall vor înființa o societate mixtă în Germania pentru producția de drone militare destinate Ucrainei. Guvernul german va finanța construirea unității și va garanta comenzile de drone, investiția fiind estimată la câteva sute de milioane de euro. Noua fabrică va produce inițial drone de atac de tip FPV Shrike, concepute de producătorul ucrainean Skyfall.</description>
     </item>
     <item>
       <title>Sondaj privind atitudinea cetățenilor germani față de sprijinul acordat Ucrainei</title>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://www.libertatea.ro/stiri/rusia-bombardeaza-biserici-si-tortureaza-preoti-acuza-guvernul-german-1zxjdlx">Libertatea</source>
       <description>Un raport oficial publicat de Ministerul german de Externe arată că trupele ruse încalcă grav libertatea religioasă în teritoriile ocupate din Ucraina, distrugând biserici și prigonind credincioșii.</description>
-    </item>
-    <item>
-      <title>Atacuri cu drone asupra a două rafinării din Rusia și noi imagini cu podul Kerci avariat</title>
-      <link>https://izz.ro/extern/atacuri-drone-asupra-doua-rafinarii-rusia-noi-imagini-podul-kerci-avariat/</link>
-      <guid>https://izz.ro/extern/atacuri-drone-asupra-doua-rafinarii-rusia-noi-imagini-podul-kerci-avariat/</guid>
-      <pubDate>Wed, 18 Nov 2026 20:40:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/ziua-1729-ucraina-a-lovit-podul-kerci-fara-starlink-si-vrea-sa-si-tripleze-forta-de-atac-doua-rafinarii-in-flacari-video">Spotmedia</source>
-      <description>Forțele ucrainene au lovit două instalații petroliere din regiunea rusă Krasnodar în a 1729-a zi de conflict, provocând incendii puternice, în timp ce podul Kerci apare grav avariat în noi filmări.</description>
     </item>
 </channel></rss>

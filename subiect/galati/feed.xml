@@ -5,16 +5,7 @@
   <atom:link href="https://izz.ro/subiect/galati/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Galați pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 22 Nov 2026 07:18:13 +0000</lastBuildDate>
-    <item>
-      <title>Furnizarea energiei electrice va fi întreruptă temporar în mai multe localități din județul Galați</title>
-      <link>https://izz.ro/local/furnizarea-energiei-electrice-va-intrerupta-temporar-mai-multe-localitati/</link>
-      <guid>https://izz.ro/local/furnizarea-energiei-electrice-va-intrerupta-temporar-mai-multe-localitati/</guid>
-      <pubDate>Sat, 21 Nov 2026 22:00:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.monitoruldegalati.ro/stirea-zilei/unde-se-opreste-curentul-in-judetul-galati-in-perioada-23-26-noiembrie-2026.html">Monitorul de Galați</source>
-      <description>Sucursala Distribuție Energie Electrică Galați a programat opriri ale curentului în perioada 23–26 noiembrie 2026. Sistările sunt necesare pentru lucrări tehnice de întreținere a rețelelor, fiind afectate inclusiv zone din municipiul Tecuci.</description>
-    </item>
+  <lastBuildDate>Sun, 22 Nov 2026 15:58:56 +0000</lastBuildDate>
     <item>
       <title>Un cimitir din Galați a fost dotat cu numeroase camere video</title>
       <link>https://izz.ro/local/cimitir-galati-fost-dotat-numeroase-camere-video/</link>
@@ -455,5 +446,14 @@
       <category>general</category>
       <source url="https://hotnews.ro/mesaj-ro-alert-trimis-din-greseala-in-alte-judete-populatia-a-fost-avertizata-privind-deversarea-unui-baraj-pe-raul-bistrita-2397786">HotNews, Profit.ro</source>
       <description>Inspectoratul pentru Situații de Urgență a precizat că transmiterea mesajului către alte județe s-a produs din cauza unei erori de soft.</description>
+    </item>
+    <item>
+      <title>Alertă falsă de inundații în Galați și Brăila din cauza unei erori software</title>
+      <link>https://izz.ro/local/alerta-falsa-de-inundatii-in-galati-si-braila-din-cauza-unei-erori-software/</link>
+      <guid>https://izz.ro/local/alerta-falsa-de-inundatii-in-galati-si-braila-din-cauza-unei-erori-software/</guid>
+      <pubDate>Sat, 07 Nov 2026 15:29:09 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.monitoruldegalati.ro/eveniment/alerta-de-inundatii-transmisa-din-greseala-in-galati-si-braila-eroare-la-sistemul-national-de-avertizare.html">Monitorul de Galați</source>
+      <description>Un mesaj RO-Alert privind o deversare controlată din județul Neamț a fost trimis din greșeală locuitorilor din Galați și Brăila, din cauza unei defecțiuni tehnice în sistemul național.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/subiect/anm/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ANM pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 22 Nov 2026 07:18:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 15:58:56 +0000</lastBuildDate>
+    <item>
+      <title>Vreme rece și vânt puternic anunțate de meteorologi în Moldova</title>
+      <link>https://izz.ro/regional/vreme-rece-vant-puternic-anuntate-meteorologi-moldova/</link>
+      <guid>https://izz.ro/regional/vreme-rece-vant-puternic-anuntate-meteorologi-moldova/</guid>
+      <pubDate>Sun, 22 Nov 2026 13:42:51 +0000</pubDate>
+      <category>regional</category>
+      <source url="https://www.monitorulbt.ro/local/2026/11/22/temperaturile-scad-puternic-in-moldova-anm-anunta-vreme-rece-si-intensificari-ale-vantului/">Monitorul de Botoșani</source>
+      <description>ANM informează că regiunea Moldovei va fi afectată de o scădere bruscă a temperaturilor, maximele urmând să atingă doar 1 grad, în timp ce sudul și centrul vor avea rafale de vânt de 70 km/h.</description>
+    </item>
+    <item>
+      <title>Meteorologii anunță temperaturi ridicate și șanse reduse de zăpadă de Crăciun</title>
+      <link>https://izz.ro/general/meteorologii-anunta-temperaturi-ridicate-sanse-reduse-zapada-craciun/</link>
+      <guid>https://izz.ro/general/meteorologii-anunta-temperaturi-ridicate-sanse-reduse-zapada-craciun/</guid>
+      <pubDate>Sun, 22 Nov 2026 10:00:23 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.emaramures.ro/meteorologii-prognozeaza-un-craciun-fara-zapada-cu-temperaturi-usor-mai-ridicate-decat-in-mod-normal/">eMaramureș</source>
+      <description>Administrația Națională de Meteorologie prognozează o vreme mai caldă decât media perioadei în preajma sărbătorilor de iarnă, după câteva săptămâni cu valori termice normale sau ușor scăzute.</description>
+    </item>
     <item>
       <title>Cod galben de viscol și ninsori în zonele montane înalte</title>
       <link>https://izz.ro/general/cod-galben-viscol-ninsori-zonele-montane-inalte/</link>
@@ -77,15 +95,6 @@
       <category>local</category>
       <source url="https://www.observatorulph.ro/social/2803881-cum-va-fi-vremea-in-weekend-la-ploiesti-prognoza-anm-pana-la-jumatatea-lunii-decembrie">Observatorul Prahovean</source>
       <description>Meteorologii de la ANM anunță pentru Ploiești un weekend răcoros, cu precipitații și temperaturi ce vor oscila între 0 și 9 grade Celsius. Prognoza extinsă indică menținerea vremii reci până la jumătatea lunii decembrie.</description>
-    </item>
-    <item>
-      <title>Răcire accentuată a vremii în România cauzată de avansul furtunii Charles</title>
-      <link>https://izz.ro/general/furtuna-charles-aduce-racire-brusca-precipitatii-romania/</link>
-      <guid>https://izz.ro/general/furtuna-charles-aduce-racire-brusca-precipitatii-romania/</guid>
-      <pubDate>Fri, 13 Nov 2026 16:58:48 +0000</pubDate>
-      <category>general</category>
-      <source url="https://spotmedia.ro/stiri/meteo/furtuna-charles-schimba-radical-vremea-in-romania-temperaturile-scad-cu-15-grade-iar-la-munte-sunt-asteptate-ninsori">Spotmedia, Timiș Online, Antena 3 CNN</source>
-      <description>Furtuna Charles s-a deplasat din sudul Europei spre sud-estul continentului, provocând o răcire bruscă a vremii și precipitații în România. România este poziționată la periferia sistemului atmosferic care a generat ploi în special în zonele intracarpatice.</description>
     </item>
     <item>
       <title>Cod de vânt puternic în Neamț și ninsori la munte</title>

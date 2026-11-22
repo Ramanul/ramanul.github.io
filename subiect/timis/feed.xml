@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/timis/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Timiș pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 22 Nov 2026 07:18:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 15:58:56 +0000</lastBuildDate>
+    <item>
+      <title>Aquatim întrerupe furnizarea apei în mai multe localități din județul Timiș</title>
+      <link>https://izz.ro/local/aquatim-intrerupe-furnizarea-apei-mai-multe-localitati-judetul-timis/</link>
+      <guid>https://izz.ro/local/aquatim-intrerupe-furnizarea-apei-mai-multe-localitati-judetul-timis/</guid>
+      <pubDate>Sun, 22 Nov 2026 10:42:43 +0000</pubDate>
+      <category>local</category>
+      <source url="https://expressdebanat.ro/aquatim-opreste-apa-in-mai-multe-zone-din-timis/">Express de Banat</source>
+      <description>Compania regională de apă execută lucrări de conectare și spălare a rețelelor de distribuție. Alimentarea va fi oprită temporar sau va înregistra presiuni scăzute în Ghiroda, Parța, Carani și alte zone adiacente.</description>
+    </item>
     <item>
       <title>Incendiu puternic la o casă din Becicherecu Mic extins pe o suprafață mare</title>
       <link>https://izz.ro/local/incendiu-puternic-la-casa-becicherecu-mic-extins-pe-suprafata-mare/</link>
@@ -446,14 +455,5 @@
       <category>judetean</category>
       <source url="https://expressdebanat.ro/anuntul-lui-bolojan-nu-a-fost-fara-psd-spune-simonis-alianta-pnl-psd-in-timis-rezista/">Express de Banat</source>
       <description>Președintele Consiliului Județean Timiș, Alfred Simonis, susține că înțelegerile locale încheiate cu PNL în 2024 nu au fost afectate de deciziile naționale și vor fi menținute până în 2028, în ciuda anunțurilor făcute de conducerea liberală.</description>
-    </item>
-    <item>
-      <title>Polițiștii din Timiș au aplicat 118 amenzi rutiere într-o acțiune de patru ore pe DN 6</title>
-      <link>https://izz.ro/judetean/politistii-din-timis-au-aplicat-118-amenzi-rutiere-intr-o-actiune-de-patru-ore/</link>
-      <guid>https://izz.ro/judetean/politistii-din-timis-au-aplicat-118-amenzi-rutiere-intr-o-actiune-de-patru-ore/</guid>
-      <pubDate>Tue, 10 Nov 2026 08:57:02 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://www.ziuadevest.ro/118-sanctiuni-pe-dn-6-in-urma-unui-control-de-patru-ore-67-de-soferi-au-fost-amendati-pentru-viteza/">Ziua de Vest</source>
-      <description>Inspectoratul de Poliție Timiș a desfășurat un control pe Drumul Național 6, depistând 67 de șoferi care au depășit viteza legală și sancționând alte zeci de abateri din trafic.</description>
     </item>
 </channel></rss>
