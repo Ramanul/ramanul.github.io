@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 22 Nov 2026 22:33:01 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 03:18:54 +0000</lastBuildDate>
     <item>
       <title>ANCOM schimbă regulile de utilizare și alocare a numerelor de telefon mobil</title>
       <link>https://izz.ro/tech/ancom-schimba-regulile-utilizare-alocare-numerelor-telefon-mobil/</link>
@@ -14,6 +14,15 @@
       <category>tech</category>
       <source url="https://www.antena3.ro/actualitate/ancom-schimba-regulile-pentru-numerele-de-telefon-ce-inseamna-noile-masuri-pentru-esim-5g-si-obiectele-inteligente-812166.html">Antena 3 CNN</source>
       <description>Autoritatea Națională pentru Administrare și Reglementare în Comunicații a inițiat revizuirea regulilor pentru gestionarea resurselor de numerotație. Măsurile vizează adaptarea pieței la noile tehnologii precum eSIM, conexiunile 5G și dispozitivele inteligente din rețea.</description>
+    </item>
+    <item>
+      <title>Centrele de date pentru inteligență artificială din SUA generează emisii similare cu ale Danemarcei</title>
+      <link>https://izz.ro/tech/centrele-date-inteligenta-artificiala-sua-genereaza-emisii-similare-ale/</link>
+      <guid>https://izz.ro/tech/centrele-date-inteligenta-artificiala-sua-genereaza-emisii-similare-ale/</guid>
+      <pubDate>Sun, 22 Nov 2026 21:09:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.antena3.ro/externe/emisii-cat-ale-danemarcei-intr-un-an-centrele-de-date-pentru-inteligenta-artificiala-din-sua-polueaza-cat-o-tara-intreaga-811407.html">Antena 3 CNN</source>
+      <description>Extinderea accelerată a infrastructurii pentru inteligență artificială din Statele Unite a dus la un nivel masiv de poluare. Emisiile globale de gaze cu efect de seră ale centrelor americane sunt egale cu amprenta anuală de carbon a Danemarcei.</description>
     </item>
     <item>
       <title>Astronomii au descoperit un rar sistem de trei stele la 28 de ani-lumină de Pământ</title>
@@ -446,14 +455,5 @@
       <category>tech</category>
       <source url="https://gazetadecluj.ro/prin-ce-difera-o-freza-de-unghii-marathon-de-una-generica/">Gazeta de Cluj</source>
       <description>Frezele pentru manichiură Marathon se remarcă prin motoare proiectate inițial pentru stomatologie și laboratoare dentare. Producătorul oferă o precizie sporită la turații mari, alături de o construcție durabilă a piesei de mână și certificări clare de calitate.</description>
-    </item>
-    <item>
-      <title>Șeful Microsoft explică valul de plecări voluntare din companie</title>
-      <link>https://izz.ro/tech/seful-microsoft-explica-valul-plecari-voluntare-companie/</link>
-      <guid>https://izz.ro/tech/seful-microsoft-explica-valul-plecari-voluntare-companie/</guid>
-      <pubDate>Thu, 19 Nov 2026 13:08:31 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://cursdeguvernare.ro/ceo-ul-microsoft-satya-nadella-explica-de-ce-a-cerut-unui-numar-de-60-000-de-angajati-sa-plece-din-companie-din-cauza-ai-dar-nu-la-modul-in-care-v-ati-putea-astepta.html">Curs de Guvernare</source>
-      <description>Satya Nadella a justificat oferirea de pachete compensatorii pentru 60.000 de angajați prin prisma noilor cerințe impuse de evoluția inteligenței artificiale pe piața muncii actuale.</description>
     </item>
 </channel></rss>

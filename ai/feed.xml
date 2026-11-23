@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Sun, 22 Nov 2026 22:33:00 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 03:18:53 +0000</lastBuildDate>
+    <item>
+      <title>Investitorii români au tranzacționat acțiuni de zeci de milioane de dolari la compania Anthropic</title>
+      <link>https://izz.ro/ai/investitorii-romani-tranzactionat-actiuni-zeci-milioane-dolari-compania/</link>
+      <guid>https://izz.ro/ai/investitorii-romani-tranzactionat-actiuni-zeci-milioane-dolari-compania/</guid>
+      <pubDate>Sun, 22 Nov 2026 22:08:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.zf.ro/burse-fonduri-mutuale/romanii-au-mizat-claude-40-50-milioane-dolari-listarea-secolului-anthropic-platforme-bursiere-interne-internationale-bt-capital-partners-raportat-tranzactii-anthropic-4-mil-dolari-23286981">Ziarul Financiar</source>
+      <description>Clienții bursieri din România au plasat zeci de milioane de dolari în titlurile dezvoltatorului de inteligență artificială Anthropic în primele zile de la listare, brokerul BT Capital Partners raportând tranzacții individuale de peste patru milioane de dolari.</description>
+    </item>
+    <item>
+      <title>Utilizatorii preiau vocabularul și expresiile utilizate frecvent de modelele ChatGPT</title>
+      <link>https://izz.ro/ai/utilizatorii-preiau-vocabularul-expresiile-utilizate-frecvent-modelele-chatgpt/</link>
+      <guid>https://izz.ro/ai/utilizatorii-preiau-vocabularul-expresiile-utilizate-frecvent-modelele-chatgpt/</guid>
+      <pubDate>Sun, 22 Nov 2026 22:00:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/educatie/chatgpt-a-invatat-sa-vorbeasca-de-la-oameni-acum-incepem-sa-i-imprumutam-cuvintele">Spotmedia</source>
+      <description>Cercetările recente arată că limbajul oamenilor este influențat de interacțiunea cu chatbots. După conversații scrise cu inteligența artificială, persoanele încep să folosească în vorbirea curentă termeni specifici preferați de algoritm.</description>
+    </item>
     <item>
       <title>Șeful Revolut analizează posibilitatea ca agenții de inteligență artificială să gestioneze autonom conturile bancare</title>
       <link>https://izz.ro/ai/seful-revolut-analizeaza-posibilitatea-agentii-inteligenta-artificiala/</link>
@@ -223,15 +241,6 @@
       <description>Progresul accelerat al inteligenței artificiale va prelua o mare parte din munca cognitivă în următorii ani. Articolul analizează soluții precum Venitul Minim Garantat sau investițiile publice destinate susținerii populației afectate de automatizare.</description>
     </item>
     <item>
-      <title>Locuri de muncă bine plătite în centrele de date pentru inteligență artificială</title>
-      <link>https://izz.ro/ai/locuri-munca-bine-platite-centrele-date-inteligenta-artificiala/</link>
-      <guid>https://izz.ro/ai/locuri-munca-bine-platite-centrele-date-inteligenta-artificiala/</guid>
-      <pubDate>Wed, 18 Nov 2026 20:12:54 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://adevarul.ro/stiri-externe/in-lume/centrele-de-date-ai-au-nevoie-urgenta-de-2572645.html">Adevărul</source>
-      <description>Piața muncii din domeniul tehnologic oferă oportunități de angajare rapidă pentru absolvenți, cu remunerații anuale de până la 100.000 de dolari în cadrul centrelor de date destinate inteligenței artificiale.</description>
-    </item>
-    <item>
       <title>Samsung dezvoltă o funcție bazată pe inteligență artificială împotriva escrocheriilor</title>
       <link>https://izz.ro/ai/samsung-dezvolta-functie-bazata-inteligenta-artificiala-escrocheriilor/</link>
       <guid>https://izz.ro/ai/samsung-dezvolta-functie-bazata-inteligenta-artificiala-escrocheriilor/</guid>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://www.antena3.ro/high-tech/angajatii-din-intreaga-lume-sunt-monitorizati-de-inteligenta-artificiala-la-locul-de-munca-807173.html">Antena 3 CNN</source>
       <description>Companiile la nivel internațional utilizează tot mai frecvent instrumente bazate pe inteligență artificială pentru supravegherea salariaților. Aceste programe pot analiza inclusiv modul în care personalul comunică direct cu clienții în timpul programului.</description>
-    </item>
-    <item>
-      <title>Liceele tehnologice adaptează oferta educațională în contextul dezvoltării inteligenței artificiale</title>
-      <link>https://izz.ro/ai/liceele-tehnologice-adapteaza-oferta-educationala-contextul-dezvoltarii/</link>
-      <guid>https://izz.ro/ai/liceele-tehnologice-adapteaza-oferta-educationala-contextul-dezvoltarii/</guid>
-      <pubDate>Sat, 14 Nov 2026 01:09:25 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://adevarul.ro/stiri-interne/educatie/meseriile-in-era-ai-de-la-mai-asteapta-zece-2571085.html">Adevărul</source>
-      <description>Cancelariile liceelor tehnologice dezbat viitorul meseriilor pe piața muncii marcată de AI, mizând pe faptul că meseriașii calificați nu vor fi înlocuiți complet de tehnologie.</description>
     </item>
 </channel></rss>
