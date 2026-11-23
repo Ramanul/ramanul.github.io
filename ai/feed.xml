@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 23 Nov 2026 03:18:53 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 13:07:18 +0000</lastBuildDate>
+    <item>
+      <title>Noile modele chatbot bazate pe inteligență artificială folosesc limbaj licențios</title>
+      <link>https://izz.ro/ai/noile-modele-chatbot-bazate-inteligenta-artificiala-folosesc-limbaj-licentios/</link>
+      <guid>https://izz.ro/ai/noile-modele-chatbot-bazate-inteligenta-artificiala-folosesc-limbaj-licentios/</guid>
+      <pubDate>Mon, 23 Nov 2026 12:33:35 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://zonait.ro/de-ce-injura-chatbotii-atat-de-mult/">ZonaIT</source>
+      <description>Versiunile recente de chatbot dezvoltate pe modele avansate de inteligență artificială manifestă tendința de a folosi înjurături și comportamente frustrate în discuții. Fenomenul ridică semne de întrebare privind reacțiile lingvistice ale sistemelor fără conștiință.</description>
+    </item>
     <item>
       <title>Investitorii români au tranzacționat acțiuni de zeci de milioane de dolari la compania Anthropic</title>
       <link>https://izz.ro/ai/investitorii-romani-tranzactionat-actiuni-zeci-milioane-dolari-compania/</link>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://www.profit.ro/romania-conectata/chatgpt-poate-face-cumparaturi-online-22986590?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
       <description>Compania OpenAI a introdus o nouă opțiune numită ChatGPT Wallet, ce permite asistentului virtual să efectueze achiziții pe internet în numele utilizatorilor prin intermediul agenților de inteligență artificială.</description>
-    </item>
-    <item>
-      <title>Sistemele de inteligență artificială monitorizează tot mai strict activitatea angajaților la locul de muncă</title>
-      <link>https://izz.ro/ai/sistemele-inteligenta-artificiala-monitorizeaza-tot-mai-strict-activitatea/</link>
-      <guid>https://izz.ro/ai/sistemele-inteligenta-artificiala-monitorizeaza-tot-mai-strict-activitatea/</guid>
-      <pubDate>Sat, 14 Nov 2026 11:00:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.antena3.ro/high-tech/angajatii-din-intreaga-lume-sunt-monitorizati-de-inteligenta-artificiala-la-locul-de-munca-807173.html">Antena 3 CNN</source>
-      <description>Companiile la nivel internațional utilizează tot mai frecvent instrumente bazate pe inteligență artificială pentru supravegherea salariaților. Aceste programe pot analiza inclusiv modul în care personalul comunică direct cu clienții în timpul programului.</description>
     </item>
 </channel></rss>

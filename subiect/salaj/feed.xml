@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/salaj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Sălaj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 23 Nov 2026 03:18:19 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 13:06:31 +0000</lastBuildDate>
+    <item>
+      <title>File de calendar istoric pentru județul Sălaj la data de 23 noiembrie</title>
+      <link>https://izz.ro/local/file-calendar-istoric-judetul-salaj-data-23-noiembrie/</link>
+      <guid>https://izz.ro/local/file-calendar-istoric-judetul-salaj-data-23-noiembrie/</guid>
+      <pubDate>Mon, 23 Nov 2026 11:00:58 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.magazinsalajean.ro/calendar-istoric/calendar-istoric-al-judetului-salaj-23-noiembrie-8">Magazin Sălăjean</source>
+      <description>Arhiva istorică amintește apariția primului număr al publicației „Sfătuitorul” la Hida în 1910, alături de alte evenimente culturale și nașterea unor personalități internaționale marcante.</description>
+    </item>
     <item>
       <title>Evenimente istorice consemnate în județul Sălaj și pe plan internațional la data de 22 noiembrie</title>
       <link>https://izz.ro/local/evenimente-istorice-consemnate-judetul-salaj-plan-international-data-22/</link>
@@ -266,14 +275,5 @@
       <category>judetean</category>
       <source url="https://www.magazinsalajean.ro/eveniment/pietonii-sanctionati">Magazin Sălăjean</source>
       <description>Oamenii legii au aplicat 104 amenzi în Sălaj în cadrul unei campanii rutiere dedicate prevenirii accidentelor și responsabilizării pietonilor care încalcă legea.</description>
-    </item>
-    <item>
-      <title>File de calendar istoric pentru județul Sălaj la data de 29 octombrie</title>
-      <link>https://izz.ro/local/file-de-calendar-istoric-pentru-judetul-salaj-la-data-de-29-octombrie/</link>
-      <guid>https://izz.ro/local/file-de-calendar-istoric-pentru-judetul-salaj-la-data-de-29-octombrie/</guid>
-      <pubDate>Thu, 29 Oct 2026 11:00:35 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.magazinsalajean.ro/calendar-istoric/calendar-istoric-al-judetului-salaj-29-octombrie-8">Magazin Sălăjean</source>
-      <description>Arhiva amintește înființarea Societăților de Științe Istorice și Filologice la Zalău în 1968, precum și dispariția savantului francez Jean Le Rond d’Alembert în anul 1783.</description>
     </item>
 </channel></rss>

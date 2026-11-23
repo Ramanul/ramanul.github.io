@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Zalău — IZZ.ro</title>
+  <title>Zalau — IZZ.ro</title>
   <link>https://izz.ro/subiect/zalau/</link>
   <atom:link href="https://izz.ro/subiect/zalau/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Zalău pe IZZ.ro</description>
+  <description>Știri despre Zalau pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 23 Nov 2026 03:18:19 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 13:06:31 +0000</lastBuildDate>
+    <item>
+      <title>Câștigătorii Festivalului Județean de Teatru pentru Elevi au fost desemnați la Zalău</title>
+      <link>https://izz.ro/local/castigatorii-festivalului-judetean-teatru-elevi-desemnati-zalau/</link>
+      <guid>https://izz.ro/local/castigatorii-festivalului-judetean-teatru-elevi-desemnati-zalau/</guid>
+      <pubDate>Mon, 23 Nov 2026 10:17:56 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.magazinsalajean.ro/cultura/teatrul-elevilor-salajeni-premiat-la-zalau">Magazin Sălăjean</source>
+      <description>Tinerii actori sălăjeni și-au etalat talentele timp de trei zile pe scena Sălii Porolissum, în cadrul celei de-a XII-a ediții a concursului de interpretare.</description>
+    </item>
     <item>
       <title>Tinerii fotbaliști au concurat la turneul pentru copii Someș Kids Cup desfășurat la Zalău</title>
       <link>https://izz.ro/sport/tinerii-fotbalisti-concurat-turneul-copii-somes-kids-cup-desfasurat-zalau/</link>
@@ -302,14 +311,5 @@
       <category>local</category>
       <source url="https://www.magazinsalajean.ro/eveniment/trei-copii-din-borla-sunt-de-negasit">Magazin Sălăjean</source>
       <description>Polițiștii din Zalău au fost sesizați joi după-amiază despre dispariția a trei copii din Borla – Denis Antonio, Ioan și Raluca Mădălina Rostaș –, care au plecat de pe un teren viran și nu au mai revenit acasă.</description>
-    </item>
-    <item>
-      <title>File de calendar istoric pentru județul Sălaj la data de 29 octombrie</title>
-      <link>https://izz.ro/local/file-de-calendar-istoric-pentru-judetul-salaj-la-data-de-29-octombrie/</link>
-      <guid>https://izz.ro/local/file-de-calendar-istoric-pentru-judetul-salaj-la-data-de-29-octombrie/</guid>
-      <pubDate>Thu, 29 Oct 2026 11:00:35 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.magazinsalajean.ro/calendar-istoric/calendar-istoric-al-judetului-salaj-29-octombrie-8">Magazin Sălăjean</source>
-      <description>Arhiva amintește înființarea Societăților de Științe Istorice și Filologice la Zalău în 1968, precum și dispariția savantului francez Jean Le Rond d’Alembert în anul 1783.</description>
     </item>
 </channel></rss>

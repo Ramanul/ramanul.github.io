@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/cluj/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Cluj pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 23 Nov 2026 03:18:19 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 13:06:31 +0000</lastBuildDate>
+    <item>
+      <title>Consiliul Județean Cluj lansează un proiect educațional pentru protecția animalelor</title>
+      <link>https://izz.ro/judetean/consiliul-judetean-cluj-lanseaza-proiect-educational-protectia-animalelor/</link>
+      <guid>https://izz.ro/judetean/consiliul-judetean-cluj-lanseaza-proiect-educational-protectia-animalelor/</guid>
+      <pubDate>Mon, 23 Nov 2026 12:32:00 +0000</pubDate>
+      <category>judetean</category>
+      <source url="https://zcj.ro/educatie/copiii-din-cluj-vor-invata-sa-fie-mai-buni-cu-animalele-proiect-educational-lansat-de-consiliul-judetean--304760.html">Ziua de Cluj</source>
+      <description>Instituția organizează ateliere interactive în școlile din județ, adaptate pe grupe de vârstă, pentru a-i învăța pe elevi să manifeste compasiune față de animale.</description>
+    </item>
     <item>
       <title>Arhiva publicației „Glasul Ardealului” din 1927 reflectă temele geopolitice și culturale interbelice</title>
       <link>https://izz.ro/judetean/arhiva-publicatiei-glasul-ardealului-1927-reflecta-temele-geopolitice-culturale/</link>
@@ -446,14 +455,5 @@
       <category>judetean</category>
       <source url="https://zcj.ro/eveniment/au-pornit-dupa-infractorii-din-trafic-si-au-dat-de-hotii-de-lemne--304145.html">Ziua de Cluj</source>
       <description>O acțiune desfășurată la data de 10 noiembrie de forțele de ordine din Cluj pentru siguranța traficului rutier s-a soldat cu depistarea unor persoane care transportau material lemnos fără acte legale.</description>
-    </item>
-    <item>
-      <title>O mașină s-a răsturnat pe un câmp din județul Cluj</title>
-      <link>https://izz.ro/local/o-masina-s-a-rasturnat-pe-un-camp-din-judetul-cluj/</link>
-      <guid>https://izz.ro/local/o-masina-s-a-rasturnat-pe-un-camp-din-judetul-cluj/</guid>
-      <pubDate>Tue, 10 Nov 2026 14:24:00 +0000</pubDate>
-      <category>local</category>
-      <source url="https://zcj.ro/eveniment/masina-rasturnata-pe-un-camp-in-cluj-o-femeie-de-65-de-ani-scoasa-de-pompieri-din-autoturism--304139.html">Ziua de Cluj</source>
-      <description>Pompierii și echipajele SMURD au intervenit în localitatea Agriș pentru a extrage o femeie de 65 de ani rămasă blocată în autoturismul ieșit în afara părții carosabile.</description>
     </item>
 </channel></rss>
