@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/galati/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Galați pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Mon, 23 Nov 2026 13:06:31 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 01:27:14 +0000</lastBuildDate>
+    <item>
+      <title>Dezbatere despre asistență socială la Universitatea din Galați</title>
+      <link>https://izz.ro/local/dezbatere-despre-asistenta-sociala-universitatea-galati/</link>
+      <guid>https://izz.ro/local/dezbatere-despre-asistenta-sociala-universitatea-galati/</guid>
+      <pubDate>Mon, 23 Nov 2026 15:49:44 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.monitoruldegalati.ro/comunitate/studentii-facultatii-de-istorie-filosofie-si-teologie-din-galati-in-dialog-cu-asociatia-glas-cristalin-despre-sprijinirea-persoanelor-vulnerabile.html">Monitorul de Galați</source>
+      <description>Studenții gălățeni de la teologie și asistență socială au participat la un atelier practic organizat alături de Asociația Glas Cristalin privind sprijinirea categoriilor vulnerabile.</description>
+    </item>
     <item>
       <title>Primele ninsori din sezon în județul Galați</title>
       <link>https://izz.ro/judetean/primele-ninsori-sezon-judetul-galati/</link>
@@ -446,14 +455,5 @@
       <category>local</category>
       <source url="https://bizbrasov.ro/2026/11/09/regina-noptii-saptamanii-comediei/">BizBrașov</source>
       <description>Piesa pusă în scenă de Teatrul Fani Tardini a devenit marele câștigător al ediției a XIII-a a Festivalului Săptămâna Comediei. Evenimentul cultural desfășurat în Brașov s-a încheiat după șapte zile de reprezentații teatrale.</description>
-    </item>
-    <item>
-      <title>Percheziții și ridicări de mașini de lux la Galați într-un dosar de spălare de bani</title>
-      <link>https://izz.ro/local/perchezitii-si-ridicari-de-masini-de-lux-la-galati-intr-un-dosar-de-spalare-de/</link>
-      <guid>https://izz.ro/local/perchezitii-si-ridicari-de-masini-de-lux-la-galati-intr-un-dosar-de-spalare-de/</guid>
-      <pubDate>Sun, 08 Nov 2026 18:29:55 +0000</pubDate>
-      <category>local</category>
-      <source url="https://stirileprotv.ro/stiri/actualitate/35-de-masini-de-lux-in-valoare-de-2-8-milioane-de-euro-ridicate-intr-un-dosar-de-spalare-de-bani-perchezitii-in-galati.html">Știrile ProTV, Digi24</source>
-      <description>Polițiștii din Galați au ridicat 35 de autoturisme de lux în cadrul unor percheziții într-un dosar de spălare a banilor. Valoarea mașinilor ridicate este estimată de anchetatori la aproximativ 2.800.000 euro. Prejudiciul total estimat în cauză depășește 3.000.000 de euro. Suspecții ar fi cumpărat mașinile în ultimii patru ani cu bani din infracțiuni și le-ar fi înmatriculat pe numele unor apropiați.</description>
     </item>
 </channel></rss>
