@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 24 Nov 2026 01:28:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 11:31:43 +0000</lastBuildDate>
+    <item>
+      <title>CEO-ul Anthropic sugerează ca oamenii înlocuiți de AI să se joace video</title>
+      <link>https://izz.ro/ai/ceo-ul-anthropic-sugereaza-oamenii-inlocuiti-joace-video/</link>
+      <guid>https://izz.ro/ai/ceo-ul-anthropic-sugereaza-oamenii-inlocuiti-joace-video/</guid>
+      <pubDate>Tue, 24 Nov 2026 09:23:17 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.connect.ro/2026/11/24/ceo-ul-anthropic-a-gasit-solutia-oamenii-concediati-din-cauza-ai-sa-joace-jocuri-video/">Connect.ro</source>
+      <description>Dario Amodei, directorul executiv al companiei Anthropic, avertizează că inteligența artificială va elimina numeroase locuri de muncă și propune jocurile video ca metodă de atenuare a tensiunilor sociale.</description>
+    </item>
     <item>
       <title>Șeful ONU solicită un cadru internațional pentru reglementarea inteligenței artificiale într-un an</title>
       <link>https://izz.ro/ai/seful-onu-solicita-cadru-international-reglementarea-inteligentei-artificiale/</link>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://mytex.ro/expres/vine-superinteligenta-artificiala-expertii-explica-ce-inseamna-asi-si-cum-ne-va-influenta-viata-de-zi-cu-zi/">MyTex</source>
       <description>Evoluția tehnologică se îndreaptă spre Superinteligența Artificială, un sistem autonom capabil să depășească capacitățile cognitive umane și să colaboreze independent, ridicând noi provocări pentru societate.</description>
-    </item>
-    <item>
-      <title>Câștigătorul examenului de consultanță fiscală din Coreea de Sud a trișat folosind inteligența artificială</title>
-      <link>https://izz.ro/ai/castigatorul-examenului-consultanta-fiscala-coreea-sud-trisat-folosind/</link>
-      <guid>https://izz.ro/ai/castigatorul-examenului-consultanta-fiscala-coreea-sud-trisat-folosind/</guid>
-      <pubDate>Sun, 15 Nov 2026 10:02:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://spotmedia.ro/stiri/eveniment/primul-clasat-la-un-examen-national-pentru-consultanti-fiscali-din-coreea-de-sud-a-trisat-cu-ai">Spotmedia</source>
-      <description>Primul clasat la examenul național pentru consultanți fiscali din Coreea de Sud a recunoscut că a folosit o cameră miniaturală și un sistem bazat pe inteligență artificială pentru a copia răspunsurile la ambele probe.</description>
     </item>
 </channel></rss>
