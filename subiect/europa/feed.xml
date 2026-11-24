@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 24 Nov 2026 11:30:54 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 22:14:54 +0000</lastBuildDate>
+    <item>
+      <title>Europa este presată să-și reconfigureze arhitectura de securitate în fața influențelor externe</title>
+      <link>https://izz.ro/extern/europa-presata-reconfigureze-arhitectura-securitate-influentelor-externe/</link>
+      <guid>https://izz.ro/extern/europa-presata-reconfigureze-arhitectura-securitate-influentelor-externe/</guid>
+      <pubDate>Tue, 24 Nov 2026 21:04:00 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.antena3.ro/externe/politico-cum-si-ar-putea-reface-europa-securitatea-ca-sa-i-multumeasca-pe-putin-si-pe-trump-cinci-scenarii-812389.html">Antena 3 CNN</source>
+      <description>Presiunile exercitate de Statele Unite și Rusia obligă liderii europeni să analizeze opțiunile privind securitatea continentului. Analizele internaționale conturează mai multe scenarii, ce variază de la extinderea influenței ruse până la conservarea status-quoului geopolitic actual.</description>
+    </item>
     <item>
       <title>Bitdefender recomandă României trecerea de la servicii la proprietate intelectuală</title>
       <link>https://izz.ro/tech/bitdefender-recomanda-romaniei-trecerea-servicii-proprietate-intelectuala/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://www.zf.ro/business-international/rezultatul-planului-lui-trump-de-a-ieftini-medicamentele-in-sua-mai-putine-medicamente-noi-lansate-in-europa-preturi-neschimbate-pe-plan-local-23279881">Ziarul Financiar</source>
       <description>Strategia administrației americane de a reduce costul tratamentelor prin majorarea prețurilor plătite de statele europene a generat efecte reduse asupra pieței interne și a cauzat o scădere a lansărilor de medicamente noi în Europa.</description>
-    </item>
-    <item>
-      <title>Impactul crizei energetice asupra costurilor de încălzire în Europa</title>
-      <link>https://izz.ro/economic/impactul-crizei-energetice-asupra-costurilor-incalzire-europa/</link>
-      <guid>https://izz.ro/economic/impactul-crizei-energetice-asupra-costurilor-incalzire-europa/</guid>
-      <pubDate>Wed, 11 Nov 2026 18:30:43 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://monitorulneamt.ro/revista-presei-nebuna-tratament-pentru-criza-energetica-aspirina-saracului/">Monitorul de Neamț</source>
-      <description>Creșterea prețurilor la energie afectează deja zeci de milioane de locuitori din Europa care întâmpină dificultăți majore în achitarea facturilor pentru încălzirea locuințelor în sezonul rece.</description>
     </item>
 </channel></rss>
