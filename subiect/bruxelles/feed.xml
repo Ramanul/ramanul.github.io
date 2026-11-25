@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/bruxelles/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bruxelles pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 24 Nov 2026 22:14:54 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 04:46:51 +0000</lastBuildDate>
+    <item>
+      <title>Bulgaria riscă o amendă record pentru nerespectarea regulilor fiscale UE</title>
+      <link>https://izz.ro/extern/bulgaria-risca-amenda-record-nerespectarea-regulilor-fiscale-ue/</link>
+      <guid>https://izz.ro/extern/bulgaria-risca-amenda-record-nerespectarea-regulilor-fiscale-ue/</guid>
+      <pubDate>Tue, 24 Nov 2026 21:31:50 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/ue/bulgaria-ar-putea-deveni-prima-tara-amendata-pentru-incalcarea-regulilor-fiscale-ale-ue-ce-sanctiuni-risca-sofia-4051567">Digi24 Extern</source>
+      <description>Comisia Europeană ar putea sancționa Sofia cu până la 23 de milioane de euro din cauza deficitului bugetar scăpat de sub control, aceasta fiind prima măsură de acest tip din zona comunitară.</description>
+    </item>
     <item>
       <title>Comisia Europeană a publicat raportul fiscal pentru statele membre</title>
       <link>https://izz.ro/extern/comisia-europeana-publicat-raportul-fiscal-statele-membre/</link>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="https://stirileprotv.ro/stiri/politic/romania-merge-la-bruxelles-cu-un-deficit-mai-mic-si-investitii-in-crestere-cu-30-ce-anunta-ministrul-finantelor.html">Știrile ProTV</source>
       <description>Ministrul Alexandru Nazare a declarat că progresele înregistrate în scăderea deficitului și creșterea cu 30% a investițiilor oferă României o poziție solidă în discuțiile cu oficialii europeni.</description>
-    </item>
-    <item>
-      <title>Comisia Europeană își restrânge agenda legislativă pentru anul 2027</title>
-      <link>https://izz.ro/extern/comisia-europeana-isi-restrange-agenda-legislativa-pentru-anul-2027/</link>
-      <guid>https://izz.ro/extern/comisia-europeana-isi-restrange-agenda-legislativa-pentru-anul-2027/</guid>
-      <pubDate>Tue, 03 Nov 2026 18:11:55 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/brussels-sets-slimline-legislative-agenda-for-2027/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>Executivul UE prioritizează competitivitatea, reducerea birocrației și securitatea economică în programul său de lucru pentru 2027, pe fondul riscurilor geopolitice și al apropierii finalului de mandat al Ursulei von der Leyen.</description>
     </item>
 </channel></rss>

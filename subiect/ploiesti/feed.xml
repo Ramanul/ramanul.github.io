@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/ploiesti/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Ploiești pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 24 Nov 2026 22:14:54 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 04:46:50 +0000</lastBuildDate>
+    <item>
+      <title>Trafic rutier restricționat pe DN1 între Brașov și Ploiești pentru lucrări</title>
+      <link>https://izz.ro/local/trafic-rutier-restrictionat-dn1-intre-brasov-ploiesti-lucrari/</link>
+      <guid>https://izz.ro/local/trafic-rutier-restrictionat-dn1-intre-brasov-ploiesti-lucrari/</guid>
+      <pubDate>Wed, 25 Nov 2026 03:56:43 +0000</pubDate>
+      <category>local</category>
+      <source url="https://newsbv.ro/trafic-rutier-restrictionat-pe-dn1-brasov-ploiesti/">News Brașov</source>
+      <description>Șoferii care circulă pe DN1 întâmpină restricții de circulație pe prima bandă a sensului Brașov-Ploiești, în zona localității Cornu din județul Prahova, din cauza unor lucrări de consolidare a carosabilelor programate miercuri și joi.</description>
+    </item>
     <item>
       <title>Laboratorul Mănăstirii Turnu produce alimente și remedii naturale de peste zece ani</title>
       <link>https://izz.ro/local/laboratorul-manastirii-turnu-produce-alimente-remedii-naturale-peste-zece-ani/</link>
@@ -446,14 +455,5 @@
       <category>local</category>
       <source url="https://www.observatorulph.ro/administratie/2803908-atelierele-lui-mos-craciun-pentru-copii-la-muzeul-de-arta-din-ploiesti-cat-costa-si-cum-te-poti-inscrie">Observatorul Prahovean</source>
       <description>Copiii cu vârsta peste 8 ani sunt invitați în luna decembrie la Muzeul Județean de Artă din Ploiești pentru a confecționa decorațiuni de sărbători și picturi pe sticlă ori lemn. Înscrierile la eveniment se fac până pe 4 decembrie.</description>
-    </item>
-    <item>
-      <title>Șoferii care parchează ilegal în stațiile TCE din Ploiești plătesc 537 de lei</title>
-      <link>https://izz.ro/local/soferii-parcheaza-ilegal-statiile-tce-ploiesti-platesc-537-lei/</link>
-      <guid>https://izz.ro/local/soferii-parcheaza-ilegal-statiile-tce-ploiesti-platesc-537-lei/</guid>
-      <pubDate>Sat, 14 Nov 2026 15:58:08 +0000</pubDate>
-      <category>local</category>
-      <source url="https://www.observatorulph.ro/administratie/2803907-de-ce-sa-nu-ti-lasi-autoturismul-intr-o-statie-tce-cat-te-costa-sa-recuperezi-masina-parcata-ilegal-la-ploiesti">Observatorul Prahovean</source>
-      <description>Servicii Gospodărire Urbană Ploiești reamintește că blocarea stațiilor destinate mijloacelor de transport în comun atrage ridicarea autovehiculului, costul total de recuperare fiind de 537 de lei.</description>
     </item>
 </channel></rss>

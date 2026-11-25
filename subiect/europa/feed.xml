@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/europa/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Europa pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 24 Nov 2026 22:14:54 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 04:46:51 +0000</lastBuildDate>
     <item>
       <title>Europa este presată să-și reconfigureze arhitectura de securitate în fața influențelor externe</title>
       <link>https://izz.ro/extern/europa-presata-reconfigureze-arhitectura-securitate-influentelor-externe/</link>
@@ -14,6 +14,15 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/politico-cum-si-ar-putea-reface-europa-securitatea-ca-sa-i-multumeasca-pe-putin-si-pe-trump-cinci-scenarii-812389.html">Antena 3 CNN</source>
       <description>Presiunile exercitate de Statele Unite și Rusia obligă liderii europeni să analizeze opțiunile privind securitatea continentului. Analizele internaționale conturează mai multe scenarii, ce variază de la extinderea influenței ruse până la conservarea status-quoului geopolitic actual.</description>
+    </item>
+    <item>
+      <title>Industria europeană își oprește producția din cauza prețurilor mari la energie</title>
+      <link>https://izz.ro/economic/industria-europeana-isi-opreste-productia-cauza-preturilor-mari-energie/</link>
+      <guid>https://izz.ro/economic/industria-europeana-isi-opreste-productia-cauza-preturilor-mari-energie/</guid>
+      <pubDate>Tue, 24 Nov 2026 14:57:09 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/semnal-de-alarma-pentru-economia-europeana-costurile-gazelor-si-energiei-electrice-ingroapa-industriile-metalurgica-si-chimica-unda-ajunge-si-in-romania.html">Curs de Guvernare</source>
+      <description>Oțelăriile din Germania sunt nevoite să întrerupă periodic activitatea deoarece costurile ridicate la gaze și electricitate fac producția neprofitabilă, o criză energetică ce afectează grav întreaga economie europeană.</description>
     </item>
     <item>
       <title>Bitdefender recomandă României trecerea de la servicii la proprietate intelectuală</title>
@@ -446,14 +455,5 @@
       <category>local</category>
       <source url="https://adevarul.ro/istoria-zilei/12-noiembrie-timisoara-devenea-primul-oras-de-pe-2570650.html">Adevărul</source>
       <description>Data istorică de 12 noiembrie marchează introducerea lămpilor electrice pe străzile orașului bănățean în secolul al XIX-lea. În aceeași zi a anului 1330 s-a desfășurat și celebra Bătălie de la Posada între Basarab I și armata ungară.</description>
-    </item>
-    <item>
-      <title>Planul lui Trump pentru ieftinirea medicamentelor nu a schimbat prețurile locale în SUA</title>
-      <link>https://izz.ro/extern/planul-trump-ieftinirea-medicamentelor-nu-schimbat-preturile-locale-sua/</link>
-      <guid>https://izz.ro/extern/planul-trump-ieftinirea-medicamentelor-nu-schimbat-preturile-locale-sua/</guid>
-      <pubDate>Wed, 11 Nov 2026 21:25:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.zf.ro/business-international/rezultatul-planului-lui-trump-de-a-ieftini-medicamentele-in-sua-mai-putine-medicamente-noi-lansate-in-europa-preturi-neschimbate-pe-plan-local-23279881">Ziarul Financiar</source>
-      <description>Strategia administrației americane de a reduce costul tratamentelor prin majorarea prețurilor plătite de statele europene a generat efecte reduse asupra pieței interne și a cauzat o scădere a lansărilor de medicamente noi în Europa.</description>
     </item>
 </channel></rss>

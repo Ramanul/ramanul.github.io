@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Tue, 24 Nov 2026 22:15:42 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 04:47:29 +0000</lastBuildDate>
+    <item>
+      <title>Un inginer OpenAI a fost prins spionând sediul companiei</title>
+      <link>https://izz.ro/tech/inginer-openai-fost-prins-spionand-sediul-companiei/</link>
+      <guid>https://izz.ro/tech/inginer-openai-fost-prins-spionand-sediul-companiei/</guid>
+      <pubDate>Tue, 24 Nov 2026 21:27:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.antena3.ro/externe/un-inginer-saudit-de-la-openai-a-inregistrat-in-secret-sedintele-companiei-cu-un-dispozitiv-ascuns-in-hartie-igienica-812382.html">Antena 3 CNN</source>
+      <description>Un angajat saudit a ascuns un dispozitiv de înregistrare audio în interiorul unui sul de hârtie igienică dintr-o sală de ședințe, acumulând peste 160 de ore de materiale confidențiale.</description>
+    </item>
     <item>
       <title>O explozie nucleară în spațiu ar avaria majoritatea sateliților de pe orbita terestră joasă</title>
       <link>https://izz.ro/tech/explozie-nucleara-spatiu-avaria-majoritatea-satelitilor-orbita-terestra-joasa/</link>
@@ -61,6 +70,15 @@
       <description>Utilizarea unei parole unice pentru multiple platforme de comerț electronic conectează conturile între ele, permițând unui potențial atacator să obțină acces facil la mai multe profiluri de cumpărături simultan.</description>
     </item>
     <item>
+      <title>Uniunea Europeană pregătește Quantum Act pentru riscurile cibernetice viitoare</title>
+      <link>https://izz.ro/tech/uniunea-europeana-pregateste-quantum-act-riscurile-cibernetice-viitoare/</link>
+      <guid>https://izz.ro/tech/uniunea-europeana-pregateste-quantum-act-riscurile-cibernetice-viitoare/</guid>
+      <pubDate>Tue, 24 Nov 2026 17:15:40 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.politico.eu/article/quantum-may-be-a-bigger-security-risk-than-ai-europes-got-a-plan/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Comisia Europeană lansează un act normativ dedicat tehnologiei cuantice pentru a preveni viitoarele breșe de securitate în comunicații și servicii bancare, generate de computerele cuantice.</description>
+    </item>
+    <item>
       <title>Un site monitorizează adaptările neoficiale pentru GTA 6 pe PC</title>
       <link>https://izz.ro/tech/site-monitorizeaza-adaptarile-neoficiale-gta-6-pc/</link>
       <guid>https://izz.ro/tech/site-monitorizeaza-adaptarile-neoficiale-gta-6-pc/</guid>
@@ -77,6 +95,33 @@
       <category>tech</category>
       <source url="https://www.emaramures.ro/victorie-pentru-baimareanca-ioana-cozmuta-g-space-s-a-calificat-in-finala-competitiei-pentru-un-milion-de-dolari/">eMaramureș</source>
       <description>Inițiativa g-SPACE a obținut primul loc la votul public și va concura pentru premiul de un milion de dolari în finala programului Meet the Drapers din California.</description>
+    </item>
+    <item>
+      <title>Signal implementează măsuri pentru a bloca accesul asistenților AI la discuțiile private</title>
+      <link>https://izz.ro/tech/signal-implementeaza-masuri-pentru-bloca-accesul-asistentilor-discutiile-private/</link>
+      <guid>https://izz.ro/tech/signal-implementeaza-masuri-pentru-bloca-accesul-asistentilor-discutiile-private/</guid>
+      <pubDate>Tue, 24 Nov 2026 16:14:51 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.monitoruldegalati.ro/tehnologie/signal-blocheaza-accesul-siri-si-gemini-la-conversatiile-private-ce-masuri-de-securitate-introduce-aplicatia-pe-iphone-si-android.html">Monitorul de Galați</source>
+      <description>Aplicația de mesagerie introduce funcții de securitate menite să oprească Siri și Gemini din a citi sau captura ecranul cu mesaje private pe telefoanele mobile.</description>
+    </item>
+    <item>
+      <title>Steelseries lansează o colecție de periferice în colaborare cu jocul Fortnite</title>
+      <link>https://izz.ro/tech/steelseries-lanseaza-colectie-periferice-colaborare-jocul-fortnite/</link>
+      <guid>https://izz.ro/tech/steelseries-lanseaza-colectie-periferice-colaborare-jocul-fortnite/</guid>
+      <pubDate>Tue, 24 Nov 2026 13:45:03 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/steelseries-fortnite-collab-prezentare/">ZonaIT</source>
+      <description>Producătorul de hardware introduce pe piață o nouă serie de accesorii tematice inspirate din universul Fortnite. Această colaborare oferă fanilor posibilitatea de a-și personaliza spațiul de lucru cu elemente grafice din jocul lor preferat.</description>
+    </item>
+    <item>
+      <title>Gameri descoperă o metodă pentru a rula GTA 6 la 60 cadre pe secundă</title>
+      <link>https://izz.ro/tech/gameri-descopera-metoda-pentru-rula-gta-6-60-cadre-secunda/</link>
+      <guid>https://izz.ro/tech/gameri-descopera-metoda-pentru-rula-gta-6-60-cadre-secunda/</guid>
+      <pubDate>Tue, 24 Nov 2026 13:01:07 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/gta-6-framerate/">ZonaIT</source>
+      <description>Deși dezvoltatorul nu oferă oficial suport pentru 60FPS, jucătorii au identificat o metodă neoficială de tip hack care permite eliminarea limitei de cadre pe secundă în titlul Grand Theft Auto VI.</description>
     </item>
     <item>
       <title>Bitdefender recomandă României trecerea de la servicii la proprietate intelectuală</title>
@@ -410,50 +455,5 @@
       <category>tech</category>
       <source url="https://stirileprotv.ro/taxiul-zburator-a-devenit-realitate-in-japonia-un-aparat-electric-a-transportat-un-pasager-fara-pilot-la-bord.html">Știrile ProTV</source>
       <description>Un aparat de zbor electric fără pilot la bord a transportat cu succes primul pasager în timpul unei demonstrații publice organizate vineri în prefectura Yamanashi din Japonia.</description>
-    </item>
-    <item>
-      <title>YouTube va plăti miliarde de dolari pentru a închide un proces cu școlile americane</title>
-      <link>https://izz.ro/tech/youtube-va-plati-miliarde-dolari-pentru-inchide-proces-scolile-americane/</link>
-      <guid>https://izz.ro/tech/youtube-va-plati-miliarde-dolari-pentru-inchide-proces-scolile-americane/</guid>
-      <pubDate>Sat, 21 Nov 2026 10:34:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/it-c/youtube-ar-putea-plati-3-miliarde-de-dolari-pentru-a-ajunge-la-un-acord-intr-un-proces-cu-scolile-americane-23001507?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Platforma video a ajuns la o înțelegere preliminară estimată la trei miliarde de dolari cu districtele școlare din SUA, care acuzau compania de efecte negative asupra sănătății elevilor.</description>
-    </item>
-    <item>
-      <title>Jocul video GTA VI a înregistrat vânzări record în prima zi de la lansare</title>
-      <link>https://izz.ro/tech/gta-vi-generat-vanzari-record-aproape-38-miliarde-dolari-prima-zi/</link>
-      <guid>https://izz.ro/tech/gta-vi-generat-vanzari-record-aproape-38-miliarde-dolari-prima-zi/</guid>
-      <pubDate>Sat, 21 Nov 2026 10:12:43 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://vremeanoua.ro/gta-vi-a-pulverizat-toate-recordurile-cu-vanzari-de-38-miliarde-de-dolari-in-prima-zi-comparatia-cu-gta-v-filmul-avengers-endgame-si-eras-tour-al-lui-taylor-swi/">Vremea Nouă, ARADON</source>
-      <description>Jocul video GTA VI a generat vânzări de aproape 3,8 miliarde de dolari în prima zi de la lansare. Costul de dezvoltare al jocului este estimat între 1 și 1,5 miliarde de dolari. GTA V s-a vândut în 235 de milioane de exemplare și a generat aproximativ 10,8 miliarde de dolari de la lansare. Încasările din prima zi ale GTA VI depășesc încasările totale de la box office ale filmului Avengers: Endgame. Turneul cântăreței Taylor Swift a generat încasări de 2,1 miliarde de dolari.</description>
-    </item>
-    <item>
-      <title>Signal limitează capturile de ecran pentru a proteja confidențialitatea</title>
-      <link>https://izz.ro/tech/signal-limiteaza-capturile-ecran-pentru-proteja-confidentialitatea/</link>
-      <guid>https://izz.ro/tech/signal-limiteaza-capturile-ecran-pentru-proteja-confidentialitatea/</guid>
-      <pubDate>Sat, 21 Nov 2026 10:00:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/it-c/signal-limiteaza-realizarea-capturilor-de-ecran-pentru-a-proteja-mesajele-private-de-accesul-sistemelor-de-inteligenta-artificial-23001667?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Platforma de mesagerie Signal a introdus restricții privind realizarea capturilor de ecran, dorind să împiedice sistemele de inteligență artificială să citească discuțiile private ale utilizatorilor pe telefoane.</description>
-    </item>
-    <item>
-      <title>Un micro-robot de sub două grame poate ateriza direct pe flori</title>
-      <link>https://izz.ro/tech/micro-robot-doua-grame-poate-ateriza-direct-flori/</link>
-      <guid>https://izz.ro/tech/micro-robot-doua-grame-poate-ateriza-direct-flori/</guid>
-      <pubDate>Sat, 21 Nov 2026 09:37:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/it-c/hit-ro-robot-de-numai-1-29-grame-care-poate-ateriza-pe-o-floare-23000464?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Cercetătorii au dezvoltat un dispozitiv zburător dotat cu patru aripi, având o greutate de doar 1,29 grame cu tot cu echipamentele electronice, conceput să acționeze direct printre culturile agricole.</description>
-    </item>
-    <item>
-      <title>Lansarea jocului GTA VI a doborât recordurile de trafic pe internet</title>
-      <link>https://izz.ro/tech/lansarea-jocului-gta-vi-doborat-recordurile-trafic-internet/</link>
-      <guid>https://izz.ro/tech/lansarea-jocului-gta-vi-doborat-recordurile-trafic-internet/</guid>
-      <pubDate>Sat, 21 Nov 2026 08:10:25 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://zch.ro/gta-vi-a-atras-aproape-opt-milioane-de-spectatori-online-la-lansare-iar-traficul-de-internet-a-atins-un-nivel-record/?utm_medium=Feed&amp;utm_source=Syndication">ZCH News</source>
-      <description>Jocul video Grand Theft Auto VI a generat un trafic de date istoric și aproape opt milioane de spectatori simultani pe platformele de streaming în momentul lansării sale.</description>
     </item>
 </channel></rss>
