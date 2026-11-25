@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>Nvidia — IZZ.ro</title>
+  <title>NVIDIA — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre Nvidia pe IZZ.ro</description>
+  <description>Știri despre NVIDIA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 25 Nov 2026 04:46:50 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 16:15:50 +0000</lastBuildDate>
+    <item>
+      <title>NVIDIA ar fi redus livrările de plăci video pentru gaming cu până la 30%</title>
+      <link>https://izz.ro/tech/nvidia-redus-livrarile-placi-video-gaming-pana-30/</link>
+      <guid>https://izz.ro/tech/nvidia-redus-livrarile-placi-video-gaming-pana-30/</guid>
+      <pubDate>Wed, 25 Nov 2026 15:02:26 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://zonait.ro/nvidia-gpu/">ZonaIT</source>
+      <description>Compania NVIDIA ar fi diminuat cu 20-30% livrările de unități GPU destinate gamerilor, decizie luată chiar în ziua reconfirmării lui Jensen Huang în funcția de director executiv, pe fondul reorientării către inteligența artificială.</description>
+    </item>
     <item>
       <title>Bursele americane au scăzut pe fondul corecțiilor acțiunilor Nvidia</title>
       <link>https://izz.ro/economic/bursele-americane-scazut-fondul-corectiilor-actiunilor-nvidia/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://www.antena3.ro/externe/mapamond/nyt-jensen-huang-ceo-ul-nvidia-nu-a-fost-avertizat-ca-apropiata-lui-era-un-spion-chinez-desi-serviciile-americane-stiau-809159.html">Antena 3 CNN</source>
       <description>O directoare din Singapore care facilita exportul ilegal de microprocesoare avansate către China a acționat ca agent sub acoperire, reușind să se apropie mult de directorul executiv Jensen Huang fără a fi oprită de agențiile americane.</description>
-    </item>
-    <item>
-      <title>Șeful Nvidia, vizat de o investigație privind legături externe</title>
-      <link>https://izz.ro/tech/seful-nvidia-vizat-de-o-investigatie-privind-legaturi-externe/</link>
-      <guid>https://izz.ro/tech/seful-nvidia-vizat-de-o-investigatie-privind-legaturi-externe/</guid>
-      <pubDate>Thu, 29 Oct 2026 15:14:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://observatornews.ro/extern/seful-celei-mai-valoroase-companii-americane-are-legaturi-cu-o-spioana-chineza-trump-nu-a-facut-nimic-nyt-670718.html">Observator</source>
-      <description>Directorul executiv al companiei americane Nvidia a întreținut relații apropiate de afaceri cu o cetățeană chineză suspectată de serviciile secrete din Statele Unite că ar fi spioană a Beijingului.</description>
     </item>
 </channel></rss>
