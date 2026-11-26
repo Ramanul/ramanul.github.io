@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/"><channel>
-  <title>NVIDIA — IZZ.ro</title>
+  <title>Nvidia — IZZ.ro</title>
   <link>https://izz.ro/subiect/nvidia/</link>
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>Știri despre NVIDIA pe IZZ.ro</description>
+  <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 25 Nov 2026 16:15:50 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 00:53:43 +0000</lastBuildDate>
+    <item>
+      <title>Comparații financiare îngrijorătoare între gigantul Nvidia și scandalul Enron</title>
+      <link>https://izz.ro/economic/comparatii-financiare-ingrijoratoare-intre-gigantul-nvidia-scandalul-enron/</link>
+      <guid>https://izz.ro/economic/comparatii-financiare-ingrijoratoare-intre-gigantul-nvidia-scandalul-enron/</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:26 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://adevarul.ro/stiri-externe/sua/umbra-enron-planeaza-asupra-nvidia-de-ce-2574436.html">Adevărul</source>
+      <description>Nvidia respinge orice paralelă cu prăbușirea istorică a companiei Enron, însă analiștii observă asemănări îngrijorătoare la nivelul mecanismelor de finanțare și al parcursului liderilor, stârnind semne de întrebare pe piața financiară.</description>
+    </item>
+    <item>
+      <title>Noi legături cu spionajul chinez ies la iveală în scandalul Nvidia</title>
+      <link>https://izz.ro/extern/noi-legaturi-spionajul-chinez-ies-iveala-scandalul-nvidia/</link>
+      <guid>https://izz.ro/extern/noi-legaturi-spionajul-chinez-ies-iveala-scandalul-nvidia/</guid>
+      <pubDate>Wed, 25 Nov 2026 20:38:18 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.digi24.ro/stiri/externe/dezvaluiri-explozive-in-scandalul-nvidia-sotul-presupusei-amante-a-lui-jensen-huang-conectat-si-el-la-spionajul-chinez-4052951">Digi24 Extern</source>
+      <description>Soțul femeii implicate în relația cu fondatorul Jensen Huang este acuzat de serviciile de informații că a colaborat cu Ministerul Securității de la Beijing.</description>
+    </item>
     <item>
       <title>NVIDIA ar fi redus livrările de plăci video pentru gaming cu până la 30%</title>
       <link>https://izz.ro/tech/nvidia-redus-livrarile-placi-video-gaming-pana-30/</link>
@@ -437,23 +455,5 @@
       <category>local</category>
       <source url="https://www.nwradu.ro/2026/11/stirile-zilei-despre-tehnologie-9-noiembrie-2026/">NwRadu</source>
       <description>Constanța va găzdui un parc eolian major, AFM lansează finanțări pentru stocarea energiei, iar noul iPad Mini a intrat în stocuri, alături de performanțe notabile ale mașinilor electrice.</description>
-    </item>
-    <item>
-      <title>Un transport de cipuri Nvidia a fost furat în California</title>
-      <link>https://izz.ro/tech/transport-de-cipuri-nvidia-in-valoare-de-114-milioane-de-dolari-furat-in/</link>
-      <guid>https://izz.ro/tech/transport-de-cipuri-nvidia-in-valoare-de-114-milioane-de-dolari-furat-in/</guid>
-      <pubDate>Fri, 06 Nov 2026 18:17:54 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.digi24.ro/stiri/externe/mapamond/transport-de-cipuri-nvidia-de-114-milioane-de-dolari-disparut-fara-urma-in-california-politia-investigheaza-un-furt-4025545">Digi24 Extern, Știrile ProTV, G4Media, Economica</source>
-      <description>Furtul a fost semnalat poliției, care a confirmat desfășurarea unei investigații. Furtul a avut loc la sfârşitul lunii august şi a fost semnalat în septembrie.</description>
-    </item>
-    <item>
-      <title>Șeful Nvidia a interacționat cu un spion chinez neidentificat de servicii</title>
-      <link>https://izz.ro/extern/seful-nvidia-a-interactionat-cu-un-spion-chinez-neidentificat-de-servicii/</link>
-      <guid>https://izz.ro/extern/seful-nvidia-a-interactionat-cu-un-spion-chinez-neidentificat-de-servicii/</guid>
-      <pubDate>Thu, 29 Oct 2026 21:08:00 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.antena3.ro/externe/mapamond/nyt-jensen-huang-ceo-ul-nvidia-nu-a-fost-avertizat-ca-apropiata-lui-era-un-spion-chinez-desi-serviciile-americane-stiau-809159.html">Antena 3 CNN</source>
-      <description>O directoare din Singapore care facilita exportul ilegal de microprocesoare avansate către China a acționat ca agent sub acoperire, reușind să se apropie mult de directorul executiv Jensen Huang fără a fi oprită de agențiile americane.</description>
     </item>
 </channel></rss>

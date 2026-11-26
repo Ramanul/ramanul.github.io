@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Wed, 25 Nov 2026 16:16:28 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 00:54:34 +0000</lastBuildDate>
+    <item>
+      <title>Un robot pianist cu 53 de degete susține că interpretează mai bine decât oamenii</title>
+      <link>https://izz.ro/ai/robot-pianist-53-degete-sustine-interpreteaza-mai-bine-oamenii/</link>
+      <guid>https://izz.ro/ai/robot-pianist-53-degete-sustine-interpreteaza-mai-bine-oamenii/</guid>
+      <pubDate>Wed, 25 Nov 2026 22:30:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.urban.ro/teotronico-robotul-pianist-cu-53-de-degete/">Urban.ro</source>
+      <description>TeoTronico, un robot dotat cu 53 de degete mecanice, poate interpreta piese compuse de genii muzicale și afirmă că este superior unui muzician uman.</description>
+    </item>
     <item>
       <title>Fondul Sparking Capital participă la o finanțare de 4 milioane de euro pentru VirtualBrain</title>
       <link>https://izz.ro/ai/fondul-sparking-capital-participa-la-finantare-4-milioane-euro-virtualbrain/</link>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://spotmedia.ro/stiri/it/google-hackeri-vorbitori-de-rusa-au-lansat-primul-atac-cibernetic-complet-automatizat-cu-ajutorul-ai">Spotmedia</source>
       <description>Hackeri vorbitori de limba rusă au utilizat sisteme de inteligență artificială pentru a lansa un atac cibernetic automatizat asupra unor site-uri din Franța, fără nicio intervenție umană pe parcurs.</description>
-    </item>
-    <item>
-      <title>Extinderea ChatGPT Ads în 44 de țări prin intermediul parteneriatului OpenAI cu Aleph</title>
-      <link>https://izz.ro/ai/openai-extinde-chatgpt-ads-44-tari-parteneriat-revanzare-aleph/</link>
-      <guid>https://izz.ro/ai/openai-extinde-chatgpt-ads-44-tari-parteneriat-revanzare-aleph/</guid>
-      <pubDate>Mon, 16 Nov 2026 14:50:19 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/openai-chatgpt-ads-aleph/">ZonaIT, Economica</source>
-      <description>OpenAI își extinde serviciul de publicitate ChatGPT Ads în 44 de piețe printr-un acord de revânzare încheiat cu Aleph.</description>
     </item>
 </channel></rss>
