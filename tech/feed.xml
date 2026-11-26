@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/tech/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Tech pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 26 Nov 2026 10:07:32 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 20:15:20 +0000</lastBuildDate>
+    <item>
+      <title>Nord Security avertizează românii să își schimbe parolele vulnerabile</title>
+      <link>https://izz.ro/tech/nord-security-avertizeaza-romanii-isi-schimbe-parolele-vulnerabile/</link>
+      <guid>https://izz.ro/tech/nord-security-avertizeaza-romanii-isi-schimbe-parolele-vulnerabile/</guid>
+      <pubDate>Thu, 26 Nov 2026 19:12:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://observatornews.ro/tehnologie/parolele-pe-care-romanii-ar-trebui-sa-le-schimbe-urgent-hackerii-le-pot-sparge-in-mai-putin-de-o-secunda-673648.html">Observator</source>
+      <description>Un studiu recent publicat de compania Nord Security arată că milioane de oameni folosesc combinații slabe care pot fi compromise instantaneu de hackeri. Utilizatorii vizați sunt sfătuiți să își actualizeze de urgență credențialele.</description>
+    </item>
+    <item>
+      <title>Proiectul SpaceX cu un milion de sateliți stârnește îngrijorări</title>
+      <link>https://izz.ro/tech/proiectul-spacex-milion-sateliti-starneste-ingrijorari/</link>
+      <guid>https://izz.ro/tech/proiectul-spacex-milion-sateliti-starneste-ingrijorari/</guid>
+      <pubDate>Thu, 26 Nov 2026 19:06:05 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.digi24.ro/stiri/externe/sua/un-soare-constient-pe-orbita-pamantului-proiectul-lui-musk-cu-un-milion-de-sateliti-naste-ingrijorari-se-va-schimba-cerul-nocturn-4054821">Digi24 Extern</source>
+      <description>Elon Musk vrea să plaseze pe orbită o constelație masivă de sateliți pentru centre de date, dar astronomii avertizează că cerul nocturn va fi grav afectat.</description>
+    </item>
     <item>
       <title>Huawei detaliază cele cinci niveluri de protecție pentru sistemul LUNA</title>
       <link>https://izz.ro/tech/huawei-detaliaza-cele-cinci-niveluri-protectie-sistemul-luna/</link>
@@ -437,23 +455,5 @@
       <category>tech</category>
       <source url="https://adevarul.ro/stil-de-viata/tehnologie/interes-urias-pentru-gta-vi-in-romania-peste-2573689.html">Adevărul</source>
       <description>Potrivit unei analize mediaTRUST, lansarea viitorului joc video a înregistrat peste 5.300 de mențiuni în presa autohtonă și pe rețelele de socializare pe parcursul lunii noiembrie.</description>
-    </item>
-    <item>
-      <title>Protecția datelor digitale și comerciale în companii</title>
-      <link>https://izz.ro/tech/protectia-datelor-digitale-comerciale-companii/</link>
-      <guid>https://izz.ro/tech/protectia-datelor-digitale-comerciale-companii/</guid>
-      <pubDate>Mon, 23 Nov 2026 11:56:00 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://observatornews.ro/advertoriale/p-cum-protejezi-documentele-si-conversatiile-digitale-ale-firmei-673180.html">Observator</source>
-      <description>Schimburile zilnice de contracte, facturi și discuții interne între angajați și parteneri conțin informații valoroase care necesită măsuri stricte de securitate pentru a preveni scurgerea lor spre persoane neautorizate.</description>
-    </item>
-    <item>
-      <title>Statul lansează aplicația RO Wallet pentru stocarea digitală a actelor oficiale de identitate</title>
-      <link>https://izz.ro/tech/statul-lanseaza-aplicatia-ro-wallet-stocarea-digitala-actelor-oficiale/</link>
-      <guid>https://izz.ro/tech/statul-lanseaza-aplicatia-ro-wallet-stocarea-digitala-actelor-oficiale/</guid>
-      <pubDate>Mon, 23 Nov 2026 11:41:43 +0000</pubDate>
-      <category>tech</category>
-      <source url="https://www.profit.ro/povesti-cu-profit/it-c/telefonul-va-tine-loc-de-portofel-cu-acte-in-romania-ce-vei-putea-face-din-14-ianuarie-2027-cu-aplicatia-ro-wallet-si-cine-va-avea-acces-la-ea-23005820?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
-      <description>Începând din 14 ianuarie 2027, cetățenii români vor putea folosi telefonul mobil drept portofel electronic pentru documente, simplificând verificarea vârstei sau interacțiunea cu instituțiile statului și companiile.</description>
     </item>
 </channel></rss>

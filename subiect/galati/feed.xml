@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/galati/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Galați pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 26 Nov 2026 10:06:40 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 20:14:52 +0000</lastBuildDate>
+    <item>
+      <title>Concert extraordinar de Ziua Națională la Teatrul „Nae Leonard” din Galați</title>
+      <link>https://izz.ro/local/concert-extraordinar-ziua-nationala-teatrul-nae-leonard-galati/</link>
+      <guid>https://izz.ro/local/concert-extraordinar-ziua-nationala-teatrul-nae-leonard-galati/</guid>
+      <pubDate>Thu, 26 Nov 2026 14:45:50 +0000</pubDate>
+      <category>local</category>
+      <source url="https://www.monitoruldegalati.ro/comunitate/la-multi-ani-romania-concert-extraordinar-de-1-decembrie-la-teatrul-nae-leonard.html">Monitorul de Galați</source>
+      <description>Teatrul de Operă și Operetă din Galați organizează marți, 1 decembrie 2026, spectacolul vocal-instrumental „La mulţi ani, România!”, reunind artiști și ansambluri din Galați și Brăila pentru a marca sărbătoarea națională.</description>
+    </item>
     <item>
       <title>Arhiepiscopia Dunării de Jos organizează procesiuni de Sfântul Andrei la Galați</title>
       <link>https://izz.ro/local/arhiepiscopia-dunarii-jos-organizeaza-procesiuni-sfantul-andrei-galati/</link>
@@ -446,14 +455,5 @@
       <category>economic</category>
       <source url="https://www.zf.ro/companii/retail-agrobusiness/conferinta-zf-bt-agricultura-2026-galati-productiile-au-bune-anul-acesta-marjele-s-au-subtiat-iar-fermierii-est-cauta-solutii-depozitare-irigatii-tehnologie-depozitarea-devine-obligatorie-fermele-23279874">Ziarul Financiar</source>
       <description>Deși recoltele au fost bogate, creșterea costurilor la inputuri și finanțare depășește avansul prețurilor agricole, obligând producătorii să investească în tehnologii de depozitare și irigații.</description>
-    </item>
-    <item>
-      <title>O femeie din județul Buzău a fost înșelată cu 14.000 de lei de un presupus constructor</title>
-      <link>https://izz.ro/local/femeie-judetul-buzau-fost-inselata-14-000-lei-presupus-constructor/</link>
-      <guid>https://izz.ro/local/femeie-judetul-buzau-fost-inselata-14-000-lei-presupus-constructor/</guid>
-      <pubDate>Wed, 11 Nov 2026 13:11:44 +0000</pubDate>
-      <category>local</category>
-      <source url="https://stiridebuzau.ro/o-buzoianca-a-dat-14-000-de-lei-avans-pentru-o-casa-modulara-dar-a-ramas-numai-cu-promisiunea-escrocul-un-tanar-din-galati/">Știri de Buzău</source>
-      <description>O locuitoare din comuna Costești a depus plângere la poliție după ce i-a achitat unui tânăr din Galați suma de 14.000 de lei ca avans pentru o casă modulară. Bărbatul a încasat banii, nu a realizat lucrarea și a sistat...</description>
     </item>
 </channel></rss>

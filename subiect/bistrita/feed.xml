@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/bistrita/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Bistrița pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 26 Nov 2026 10:06:40 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 20:14:52 +0000</lastBuildDate>
+    <item>
+      <title>Poliția Locală Bistrița folosește o dronă pentru detectarea construcțiilor ilegale și a urșilor</title>
+      <link>https://izz.ro/local/politia-locala-bistrita-foloseste-drona-detectarea-constructiilor-ilegale/</link>
+      <guid>https://izz.ro/local/politia-locala-bistrita-foloseste-drona-detectarea-constructiilor-ilegale/</guid>
+      <pubDate>Thu, 26 Nov 2026 16:54:16 +0000</pubDate>
+      <category>local</category>
+      <source url="https://timponline.ro/o-drona-speciala-va-cauta-constructiile-ilegale-si-va-localiza-ursii-la-bistrita/">TimpOnline.ro</source>
+      <description>Autoritățile locale din Bistrița au primit în dotare un echipament aerian modern destinat măsurătorilor topografice pentru identificarea clădirilor neautorizate și monitorizării animalelor sălbatice prezente în oraș.</description>
+    </item>
     <item>
       <title>Lucrări non-stop la rețeaua de gaz pe pietonalul din Bistrița</title>
       <link>https://izz.ro/local/lucrari-non-stop-reteaua-gaz-pietonalul-bistrita/</link>
@@ -446,14 +455,5 @@
       <category>local</category>
       <source url="https://rasunetul.ro/rebrisoara-persoana-ranita-dupa-ce-cazut-de-pe-o-trotineta">Răsunetul, Bistrițeanul.ro</source>
       <description>O persoană a suferit leziuni după ce a căzut de pe o trotinetă în localitatea Rebrișoara, necesitând intervenția echipajelor de urgență. Victima a fost preluată și evaluată de un echipaj de terapie intensivă mobilă SMURD. La caz au intervenit atât un echipaj de la Serviciul de Ambulanță Județean Bistrița-Năsăud, cât și un echipaj de prim ajutor SMURD.</description>
-    </item>
-    <item>
-      <title>Trei mașini implicate într-un accident rutier pe Bulevardul Independenței</title>
-      <link>https://izz.ro/local/accident-rutier-bulevardul-independentei-bistrita-intre-trei-autovehicule/</link>
-      <guid>https://izz.ro/local/accident-rutier-bulevardul-independentei-bistrita-intre-trei-autovehicule/</guid>
-      <pubDate>Wed, 18 Nov 2026 16:32:26 +0000</pubDate>
-      <category>local</category>
-      <source url="https://rasunetul.ro/accident-rutier-pe-bulevardul-independentei-cu-trei-masini-implicate">Răsunetul, TimpOnline.ro, Bistrițeanul.ro</source>
-      <description>Trei autoturisme au fost implicate într-un accident rutier pe Bulevardul Independenței din Bistrița. Pompierii militari din cadrul Detașamentului Bistrița au intervenit la fața locului cu o autospecială de descarcerare și un echipaj SMURD.</description>
     </item>
 </channel></rss>

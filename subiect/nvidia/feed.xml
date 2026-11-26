@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 26 Nov 2026 10:06:40 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 20:14:51 +0000</lastBuildDate>
+    <item>
+      <title>Nvidia este acuzată în justiție de utilizarea unor cărți piratate pentru inteligența artificială</title>
+      <link>https://izz.ro/ai/nvidia-acuzata-justitie-utilizarea-carti-piratate-inteligenta-artificiala/</link>
+      <guid>https://izz.ro/ai/nvidia-acuzata-justitie-utilizarea-carti-piratate-inteligenta-artificiala/</guid>
+      <pubDate>Thu, 26 Nov 2026 19:14:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.profit.ro/povesti-cu-profit/it-c/nvidia-acuzata-ca-si-a-antrenat-ai-ul-cu-carti-piratate-23011778?utm_source=Rss&amp;utm_medium=Referral&amp;utm_campaign=Cross">Profit.ro</source>
+      <description>Mai mulți autori au dat în judecată compania Nvidia, susținând că gigantul tehnologic a folosit volume protejate de drepturi de autor, obținute ilegal prin piraterie, pentru a antrena modelele lingvistice de inteligență artificială.</description>
+    </item>
+    <item>
+      <title>SUA au sancționat firme din China și Singapore în scandalul cipurilor Nvidia</title>
+      <link>https://izz.ro/extern/sua-sanctionat-firme-china-singapore-scandalul-cipurilor-nvidia/</link>
+      <guid>https://izz.ro/extern/sua-sanctionat-firme-china-singapore-scandalul-cipurilor-nvidia/</guid>
+      <pubDate>Thu, 26 Nov 2026 19:00:51 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.g4media.ro/scandalul-nvidia-se-extinde-la-alibaba-si-megaspeed-companiile-chineze-pe-lista-neagra-a-sua.html">G4Media</source>
+      <description>Departamentul Comerțului din SUA a introdus compania Megaspeed și o filială Alibaba pe lista neagră, fiind suspectate de transferul ilegal de procesoare grafice către piața chineză.</description>
+    </item>
     <item>
       <title>S&amp;P a plasat ratingul Nvidia sub supraveghere pentru retrogradare</title>
       <link>https://izz.ro/economic/s-p-a-plasat-ratingul-nvidia-supraveghere-retrogradare/</link>
@@ -437,23 +455,5 @@
       <category>extern</category>
       <source url="https://www.politico.eu/article/europe-needs-nvidia-spy-scandal-ai-microchips-germany-jensen-huang/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
       <description>În ciuda unui presupus scandal de spionaj care îl vizează pe directorul Jensen Huang, liderii europeni mențin relațiile strânse cu producătorul de microprocesoare pentru inteligență artificială.</description>
-    </item>
-    <item>
-      <title>Scăderile acțiunilor tehnologice americane au determinat investitorii să cumpere titluri AMD, Nvidia și Apple</title>
-      <link>https://izz.ro/economic/scaderile-actiunilor-tehnologice-americane-au-determinat-investitorii-sa/</link>
-      <guid>https://izz.ro/economic/scaderile-actiunilor-tehnologice-americane-au-determinat-investitorii-sa/</guid>
-      <pubDate>Mon, 09 Nov 2026 08:00:00 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.zf.ro/burse-fonduri-mutuale/bursa-scaderea-actiunilor-tehnologie-americane-ocazie-cumparare-inceput-corectie-au-vandut-investitorii-dupa-victoria-democratilor-s-resimtit-valul-vanzari-bursa-valori-bucuresti-unii-investitori-ar-23277064">Ziarul Financiar</source>
-      <description>Temerile legate de limitarea investițiilor în centre de date de către noul Congres au provocat vânzări masive pe Wall Street, însă unii investitori au cumpărat acțiuni ale marilor companii de tehnologie pe scădere.</description>
-    </item>
-    <item>
-      <title>Ministerul de Externe din China respinge acuzațiile de spionaj în ancheta ce vizează directorul Nvidia</title>
-      <link>https://izz.ro/extern/ministerul-de-externe-din-china-respinge-acuzatiile-de-spionaj-in-ancheta-ce/</link>
-      <guid>https://izz.ro/extern/ministerul-de-externe-din-china-respinge-acuzatiile-de-spionaj-in-ancheta-ce/</guid>
-      <pubDate>Mon, 09 Nov 2026 07:56:07 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://hotnews.ro/reactie-de-la-beijing-in-scandalul-de-spionaj-de-la-nvidia-care-il-ancheteaza-pe-seful-companiei-jensen-huang-2398745">HotNews</source>
-      <description>Autoritățile de la Beijing au declarat nefondate suspiciunile privind o operațiune chineză de spionaj în cadrul companiei americane Nvidia, după difuzarea informațiilor despre investigarea directorului executiv Jensen Huang.</description>
     </item>
 </channel></rss>
