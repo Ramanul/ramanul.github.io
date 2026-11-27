@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/statele-unite/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Statele Unite pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 27 Nov 2026 03:30:27 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 13:00:39 +0000</lastBuildDate>
+    <item>
+      <title>Valuri masive și furtuni puternice au lovit coastele Statelor Unite</title>
+      <link>https://izz.ro/extern/valuri-masive-furtuni-puternice-lovit-coastele-statelor-unite/</link>
+      <guid>https://izz.ro/extern/valuri-masive-furtuni-puternice-lovit-coastele-statelor-unite/</guid>
+      <pubDate>Fri, 27 Nov 2026 10:50:48 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations">The Guardian</source>
+      <description>Fenomenele meteo extreme caracterizate prin ploi torențiale, vânt puternic și inundații costiere au afectat deplasările a milioane de cetățeni americani în timpul sărbătorilor de Thanksgiving, provocând pagube materiale semnificative.</description>
+    </item>
     <item>
       <title>Amânarea deciziei Statelor Unite privind reconfigurarea prezenței militare din Europa</title>
       <link>https://izz.ro/extern/amanarea-deciziei-statelor-unite-privind-reconfigurarea-prezentei-militare/</link>
@@ -446,14 +455,5 @@
       <category>politic</category>
       <source url="https://economedia.ro/nicusor-dan-romania-nu-trebuie-sa-aleaga-intre-sua-si-uniunea-europeana-romania-a-coalizat-17-state-pentru-apararea-fondurilor-de-coeziune-in-viitorul-buget-european.html">Economedia</source>
       <description>Președintele țării susține că Bucureștiul nu trebuie să aleagă între parteneriatul cu SUA și relația comunitară, menționând formarea unui grup de 17 state pentru apărarea fondurilor europene în viitorul buget.</description>
-    </item>
-    <item>
-      <title>John Kerry critică ritmul lent al tranziției energetice în Statele Unite</title>
-      <link>https://izz.ro/extern/john-kerry-critica-ritmul-lent-al-tranzitiei-energetice-in-statele-unite/</link>
-      <guid>https://izz.ro/extern/john-kerry-critica-ritmul-lent-al-tranzitiei-energetice-in-statele-unite/</guid>
-      <pubDate>Tue, 10 Nov 2026 16:43:50 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/sua/fostul-secretar-de-stat-john-kerry-critica-ritmul-tranzitiei-energetice-in-sua-singura-tara-care-a-accelerat-semnificativ-este-china-4030071">Digi24 Extern</source>
-      <description>Fostul oficial american John Kerry avertizează că marile economii vestice avansează prea greu în abandonarea combustibililor fosili, lăudând ritmul investițiilor verzi din China.</description>
     </item>
 </channel></rss>
