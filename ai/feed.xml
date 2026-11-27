@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 27 Nov 2026 13:01:10 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 22:45:03 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI a dat în judecată gigantul Apple după acuzațiile de furt de secrete comerciale</title>
+      <link>https://izz.ro/ai/openai-dat-judecata-gigantul-apple-dupa-acuzatiile-furt-secrete-comerciale/</link>
+      <guid>https://izz.ro/ai/openai-dat-judecata-gigantul-apple-dupa-acuzatiile-furt-secrete-comerciale/</guid>
+      <pubDate>Fri, 27 Nov 2026 21:57:02 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/openai-riposteaza-in-procesul-deschis-de-apple-cu-propria-actiune-in-instanta-acuzatiile-lansate-de-creatorul-chatgpt-2416346">HotNews</source>
+      <description>Compania OpenAI a lansat o acțiune legală în instanța federală din California împotriva Apple, ca reacție la un proces anterior. Dezvoltatorul ChatGPT acuză producătorul iPhone că folosește practici incorecte de recrutare pentru a-i afecta activitatea.</description>
+    </item>
+    <item>
+      <title>Armata poloneză va folosi un sistem american de inteligență artificială pe câmpul de luptă</title>
+      <link>https://izz.ro/ai/armata-poloneza-va-folosi-sistem-american-inteligenta-artificiala-campul-lupta/</link>
+      <guid>https://izz.ro/ai/armata-poloneza-va-folosi-sistem-american-inteligenta-artificiala-campul-lupta/</guid>
+      <pubDate>Fri, 27 Nov 2026 21:00:06 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://hotnews.ro/armata-poloneza-va-utiliza-ai-de-la-compania-americana-palantir-pentru-luarea-deciziilor-militare-2416306">HotNews</source>
+      <description>Ministerul Apărării din Polonia a semnat un contract cu firma americană Palantir pentru a furniza un soft AI destinat analizării rapide a datelor militare, identificării amenințărilor și optimizării procesului decizional al comandanților din armată.</description>
+    </item>
     <item>
       <title>Agenția Kooperativa 2.0 își redefinește modelul de business privind utilizarea inteligenței artificiale</title>
       <link>https://izz.ro/ai/agentia-kooperativa-2-0-isi-redefineste-modelul-business-privind-utilizarea/</link>
@@ -437,23 +455,5 @@
       <category>ai</category>
       <source url="https://zcj.ro/economie/visa-extinde-programul-agentic-ready-pentru-a-sustine-dezvoltarea-la-scara-larga-a-comertului-bazat-pe-ai--304598.html">Ziua de Cluj</source>
       <description>Instituția financiară românească a devenit singura bancă din țară înrolată în această inițiativă europeană, care sprijină dezvoltarea plăților digitale și a comerțului electronic bazat pe inteligență artificială.</description>
-    </item>
-    <item>
-      <title>Microsoft integrează aplicațiile Office în Copilot, pe care îl consideră noul sistem de operare pentru muncă</title>
-      <link>https://izz.ro/ai/microsoft-integreaza-aplicatiile-office-copilot-il-considera-noul-sistem/</link>
-      <guid>https://izz.ro/ai/microsoft-integreaza-aplicatiile-office-copilot-il-considera-noul-sistem/</guid>
-      <pubDate>Thu, 19 Nov 2026 10:49:38 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zonait.ro/microsoft-copilot-office/">ZonaIT</source>
-      <description>Directorul executiv al companiei Microsoft, Satya Nadella, a lansat oficial versiunile Word, Excel și PowerPoint integrate direct în asistentul Copilot. Tehnologia este promovată ca un nou ecosistem digital menit să redefinească modul în care angajații își desfășoară activitatea.</description>
-    </item>
-    <item>
-      <title>Google a lansat modelul Gemini 4 Hydrogen pentru a spori precizia motorului de căutare</title>
-      <link>https://izz.ro/ai/google-lansat-modelul-gemini-4-hydrogen-pentru-spori-precizia-motorului-cautare/</link>
-      <guid>https://izz.ro/ai/google-lansat-modelul-gemini-4-hydrogen-pentru-spori-precizia-motorului-cautare/</guid>
-      <pubDate>Thu, 19 Nov 2026 10:15:04 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.connect.ro/2026/11/19/gemini-4-hydrogen-de-la-google-face-cautarea-sa-devina-mai-precisa/">Connect.ro</source>
-      <description>Compania Google a integrat noul model de inteligență artificială Gemini 4 Hydrogen în motorul său de căutare. Actualizarea permite interpretarea mai clară a intențiilor utilizatorilor și o procesare mai rapidă a căutărilor complexe.</description>
     </item>
 </channel></rss>

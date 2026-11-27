@@ -5,7 +5,25 @@
   <atom:link href="https://izz.ro/subiect/comisia-europeana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Comisia Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 27 Nov 2026 13:00:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 22:44:08 +0000</lastBuildDate>
+    <item>
+      <title>Comisia Europeană suspectează un grup de hackeri chinezi pentru atacul cibernetic asupra sistemelor sale</title>
+      <link>https://izz.ro/tech/comisia-europeana-suspecteaza-grup-hackeri-chinezi-atacul-cibernetic-asupra/</link>
+      <guid>https://izz.ro/tech/comisia-europeana-suspecteaza-grup-hackeri-chinezi-atacul-cibernetic-asupra/</guid>
+      <pubDate>Fri, 27 Nov 2026 21:12:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://www.antena3.ro/externe/hackerii-panda-sustinuti-de-china-suspectati-ca-se-afla-in-spatele-atacului-cibernetic-care-afecteaza-inca-comisia-europeana-812339.html">Antena 3 CNN</source>
+      <description>Executivul european se confruntă de mai bine de o lună cu un atac cibernetic prelungit asupra infrastructurii sale IT, principalul suspect fiind o grupare de hackeri sprijinită de guvernul de la Beijing.</description>
+    </item>
+    <item>
+      <title>Comisia Europeană pregătește noi sancțiuni împotriva Rusiei vizând flota-fantomă și tranzacțiile financiare</title>
+      <link>https://izz.ro/extern/comisia-europeana-pregateste-noi-sanctiuni-rusiei-vizand-flota-fantoma/</link>
+      <guid>https://izz.ro/extern/comisia-europeana-pregateste-noi-sanctiuni-rusiei-vizand-flota-fantoma/</guid>
+      <pubDate>Fri, 27 Nov 2026 20:41:42 +0000</pubDate>
+      <category>extern</category>
+      <source url="https://adevarul.ro/securitate-si-aparare/flota-fantoma-bancile-si-criptomonedele-cum-2574153.html">Adevărul</source>
+      <description>Al 22-lea pachet de măsuri restrictive adoptat de UE urmărește blocarea flotei maritime secrete, a instituțiilor bancare și a platformelor de criptomonede folosite de Moscova. Experții analizează eficiența acestor măsuri menite să oprească eludarea restricțiilor economice internaționale.</description>
+    </item>
     <item>
       <title>Platforma Temu va modifica modul de afișare a reducerilor în Europa</title>
       <link>https://izz.ro/discounturi/platforma-temu-va-modifica-modul-afisare-reducerilor-europa/</link>
@@ -437,23 +455,5 @@
       <category>economic</category>
       <source url="https://www.economica.net/verde-pentru-mega-tranzactia-unicredit-commerzbank_995839.html">Economica</source>
       <description>Decizia Bruxelles-ului susține crearea unor grupuri financiare transfrontaliere puternice în Europa, capabile să finanțeze companiile și gospodăriile. Fuziunea bancară dintre cele două instituții financiare urmărește reducerea fragmentării pieței unice europene.</description>
-    </item>
-    <item>
-      <title>Ministrul Justiției consideră că mutarea anchetelor magistraților între structuri nu rezolvă corupția din sistem</title>
-      <link>https://izz.ro/politic/ministrul-justitiei-considera-mutarea-anchetelor-magistratilor-intre-structuri/</link>
-      <guid>https://izz.ro/politic/ministrul-justitiei-considera-mutarea-anchetelor-magistratilor-intre-structuri/</guid>
-      <pubDate>Sun, 15 Nov 2026 21:23:44 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.digi24.ro/stiri/actualitate/justitie/ministrul-justitiei-despre-anchetarea-magistratilor-de-catre-dna-nu-faci-decat-sa-muti-dosare-4037643">Digi24</source>
-      <description>Radu Marinescu a declarat că eficientizarea luptei anticorupție necesită suplimentarea procurorilor și resurselor, nu reorganizări instituționale sterile. Demnitarul a subliniat că rapoartele Comisiei Europene privind statul de drept nu indică vreun regres pentru România.</description>
-    </item>
-    <item>
-      <title>Spitalele din Europa au vulnerabilități majore în fața crizelor și amenințărilor biologice</title>
-      <link>https://izz.ro/sanatate/spitalele-europa-vulnerabilitati-majore-crizelor-amenintarilor-biologice/</link>
-      <guid>https://izz.ro/sanatate/spitalele-europa-vulnerabilitati-majore-crizelor-amenintarilor-biologice/</guid>
-      <pubDate>Sun, 15 Nov 2026 16:10:04 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://www.digi24.ro/stiri/actualitate/sanatate/spitalele-europene-nu-sunt-suficient-de-pregatite-pentru-crize-majore-riscurile-biologice-sunt-pe-primul-loc-in-topul-gravitatii-4037417">Digi24 Extern</source>
-      <description>Experții Comisiei Europene avertizează că sistemul sanitar din UE nu este suficient de pregătit pentru situații critice, cum ar fi conflictele sau atacurile biologice, fiind necesară suplimentarea rezervelor de medicamente și echipamente.</description>
     </item>
 </channel></rss>
