@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/nvidia/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Nvidia pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 26 Nov 2026 20:14:51 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 03:30:27 +0000</lastBuildDate>
     <item>
       <title>Nvidia este acuzată în justiție de utilizarea unor cărți piratate pentru inteligența artificială</title>
       <link>https://izz.ro/ai/nvidia-acuzata-justitie-utilizarea-carti-piratate-inteligenta-artificiala/</link>
@@ -68,6 +68,15 @@
       <category>tech</category>
       <source url="https://zonait.ro/nvidia-gpu/">ZonaIT</source>
       <description>Compania NVIDIA ar fi diminuat cu 20-30% livrările de unități GPU destinate gamerilor, decizie luată chiar în ziua reconfirmării lui Jensen Huang în funcția de director executiv, pe fondul reorientării către inteligența artificială.</description>
+    </item>
+    <item>
+      <title>Acțiunile companiilor tehnologice americane au înregistrat scăderi masive pe bursă în noiembrie 2026</title>
+      <link>https://izz.ro/economic/actiunile-companiilor-tehnologice-americane-inregistrat-scaderi-masive-bursa/</link>
+      <guid>https://izz.ro/economic/actiunile-companiilor-tehnologice-americane-inregistrat-scaderi-masive-bursa/</guid>
+      <pubDate>Wed, 25 Nov 2026 11:34:09 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://www.nwradu.ro/2026/11/bursa-criptomonede-si-imobiliare-editia-de-noiembrie-2026/">NwRadu</source>
+      <description>Piețele financiare americane au traversat o perioadă dificilă în noiembrie 2026, marcată de deprecieri majore în sectorul tehnologic. Deși revenirea la conducerea companiei NVIDIA a oferit un scurt răgaz, acțiunile gigantului au scăzut din nou, pe fondul unui scandal recent.</description>
     </item>
     <item>
       <title>Bursele americane au scăzut pe fondul corecțiilor acțiunilor Nvidia</title>
@@ -446,14 +455,5 @@
       <category>ai</category>
       <source url="https://www.monitoruldegalati.ro/tehnologie/google-lanseaza-doua-noi-procesoare-ai-si-provoaca-nvidia-pe-piata-acceleratoarelor-pentru-inteligenta-artificiala.html">Monitorul de Galați</source>
       <description>Gigantul american a introdus modelele TPU 8tx și TPU 8i Max pentru a concura direct cu Nvidia, oferind companiilor putere suplimentară de calcul pentru dezvoltarea modelelor avansate de AI.</description>
-    </item>
-    <item>
-      <title>Dependența tehnologică a Europei de compania Nvidia rămâne fermă</title>
-      <link>https://izz.ro/extern/dependenta-tehnologica-a-europei-de-compania-nvidia-ramane-ferma/</link>
-      <guid>https://izz.ro/extern/dependenta-tehnologica-a-europei-de-compania-nvidia-ramane-ferma/</guid>
-      <pubDate>Mon, 09 Nov 2026 22:20:06 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.politico.eu/article/europe-needs-nvidia-spy-scandal-ai-microchips-germany-jensen-huang/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
-      <description>În ciuda unui presupus scandal de spionaj care îl vizează pe directorul Jensen Huang, liderii europeni mențin relațiile strânse cu producătorul de microprocesoare pentru inteligență artificială.</description>
     </item>
 </channel></rss>

@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/sanatate/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Sănătate pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 26 Nov 2026 20:15:22 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 03:31:10 +0000</lastBuildDate>
+    <item>
+      <title>Medicamentele destinate diabetului și slăbitului îmbunătățesc fertilitatea și nivelul de testosteron la bărbați</title>
+      <link>https://izz.ro/sanatate/medicamentele-destinate-diabetului-slabitului-imbunatatesc-fertilitatea-nivelul/</link>
+      <guid>https://izz.ro/sanatate/medicamentele-destinate-diabetului-slabitului-imbunatatesc-fertilitatea-nivelul/</guid>
+      <pubDate>Thu, 26 Nov 2026 22:00:00 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://spotmedia.ro/stiri/sanatate/medicamentele-de-genul-ozempic-si-efectele-lor-asupra-fertilitatii-barbatilor-ce-arata-cel-mai-recent-studiu">Spotmedia</source>
+      <description>Un studiu publicat în revista Biomedicines arată că tratamentele pe bază de semaglutidă sau liraglutidă administrate timp de un an bărbaților cu obezitate ori diabet de tip 2 au crescut semnificativ concentrația spermatozoizilor și au îmbunătățit parametrii hormonali ai pacienților.</description>
+    </item>
     <item>
       <title>Programul anti-bullying al Salvați Copiii a fost extins în grădinițe</title>
       <link>https://izz.ro/sanatate/programul-anti-bullying-al-salvati-copiii-fost-extins-gradinite/</link>
@@ -59,6 +68,24 @@
       <category>sanatate</category>
       <source url="https://www.csid.ro/lifestyle/psihologie-si-cariera/de-ce-ajung-copiii-sa-loveasca-sau-sa-ameninte-ce-semne-pot-observa-parintii-inainte-ca-violenta-sa-escaladeze-21368124/">CSÎD</source>
       <description>Un medic neurolog, un psiholog și un expert în educație analizează factorii care determină copiii să devină agresivi, oferind sfaturi părinților pentru a recunoaște semnele timpurii ale violenței și a interveni la timp.</description>
+    </item>
+    <item>
+      <title>Republica Moldova modifică normele de rezidențiat pentru absolvenții de Medicină</title>
+      <link>https://izz.ro/sanatate/republica-moldova-modifica-normele-rezidentiat-absolventii-medicina/</link>
+      <guid>https://izz.ro/sanatate/republica-moldova-modifica-normele-rezidentiat-absolventii-medicina/</guid>
+      <pubDate>Thu, 26 Nov 2026 14:30:12 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://www.csid.ro/stiri/peste-800-de-absolventi-de-medicina-au-ramas-fara-loc-la-rezidentiat-ce-solutie-pregateste-ministerul-sanatatii-21367874/">CSÎD</source>
+      <description>Ministerul Sănătății din Republica Moldova pregătește un nou sistem de repartizare a locurilor pentru medicii rezidenți din 2026, după ce peste 800 de tineri absolvenți au rămas fără posturi disponibile în unitățile sanitare din țară.</description>
+    </item>
+    <item>
+      <title>Respirația nazală dificilă poate provoca tulburări de somn și diminuarea simțului olfactiv</title>
+      <link>https://izz.ro/sanatate/respiratia-nazala-dificila-poate-provoca-tulburari-somn-diminuarea-simtului/</link>
+      <guid>https://izz.ro/sanatate/respiratia-nazala-dificila-poate-provoca-tulburari-somn-diminuarea-simtului/</guid>
+      <pubDate>Thu, 26 Nov 2026 13:35:18 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://gazetadecluj.ro/somnul-agitat-si-aromele-estompate-semnale-de-urmarit/">Gazeta de Cluj</source>
+      <description>Somnul fragmentat, trezirile frecvente și scăderea percepției mirosurilor sunt simptome adesea ignorate, dar care pot indica afecțiuni ale căilor respiratorii superioare ce necesită o evaluare medicală de specialitate.</description>
     </item>
     <item>
       <title>Aproape trei milioane de români nu beneficiază de asigurare medicală publică</title>
@@ -176,15 +203,6 @@
       <category>sanatate</category>
       <source url="https://sfatulparintilor.ro/familie-parinti/sanatate-fizica-si-mentala/nu-zaharul-nici-grasimile-ce-consumam-in-exces-si-ne-ar-putea-face-sa-imbatranim-mai-repede/">Sfatul Părinților</source>
       <description>O cercetare științifică recentă, bazată pe analiza a peste trei sute de studii anterioare, arată că aportul exagerat de proteine din alimentație poate avea efecte negative asupra longevității organismului uman.</description>
-    </item>
-    <item>
-      <title>Laurette a fost externată din spital cu trei plăgi deschise la picior, după 31 de operații</title>
-      <link>https://izz.ro/sanatate/laurette-fost-externata-spital-trei-plagi-deschise-picior-dupa-31-operatii/</link>
-      <guid>https://izz.ro/sanatate/laurette-fost-externata-spital-trei-plagi-deschise-picior-dupa-31-operatii/</guid>
-      <pubDate>Wed, 25 Nov 2026 13:30:52 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://www.csid.ro/lifestyle/vedete/laurette-externata-din-spital-dupa-o-noua-operatie-vedeta-are-in-continuare-trei-plagi-deschise-la-picior-21367276/">CSÎD</source>
-      <description>Vedeta Laurette a părăsit unitatea medicală în care a fost supusă unei noi intervenții chirurgicale. Deși a fost externată, aceasta necesită îngrijiri medicale continue, având în prezent trei răni neînchise la nivelul piciorului afectat.</description>
     </item>
     <item>
       <title>Ministerul Sănătății propune introducerea a 41 de medicamente noi pe lista celor compensate</title>
@@ -437,23 +455,5 @@
       <category>sanatate</category>
       <source url="https://www.monitoruldevrancea.ro/2026/11/24/jandarmii-vranceni-alaturi-de-cei-care-au-nevoie-de-ajutor/">Monitorul de Vrancea</source>
       <description>Mai mulți jandarmi din cadrul Inspectoratului de Jandarmi Județean Vrancea s-au mobilizat și au donat sânge la centrul de specialitate pentru a veni în sprijinul pacienților aflați în dificultate.</description>
-    </item>
-    <item>
-      <title>Studiu privind legătura dintre polistirenul din ambalaje și cancerul colorectal</title>
-      <link>https://izz.ro/sanatate/studiu-privind-legatura-dintre-polistirenul-ambalaje-cancerul-colorectal/</link>
-      <guid>https://izz.ro/sanatate/studiu-privind-legatura-dintre-polistirenul-ambalaje-cancerul-colorectal/</guid>
-      <pubDate>Mon, 23 Nov 2026 22:00:00 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://spotmedia.ro/stiri/sanatate/noi-descoperiri-legate-de-plasticul-folosit-in-ambalajele-alimentare-vestile-nu-sunt-bune">Spotmedia</source>
-      <description>Cercetătorii avertizează că particulele minuscule de polistiren folosite la ambalarea alimentelor pot afecta flora intestinală și mecanismele celulare, favorizând riscul de apariție a tumorilor colorectale.</description>
-    </item>
-    <item>
-      <title>Nivelul ridicat de vitamina D la vârsta de 39 de ani reduce riscul de Alzheimer</title>
-      <link>https://izz.ro/sanatate/nivelul-ridicat-vitamina-d-la-varsta-39-ani-reduce-riscul-alzheimer/</link>
-      <guid>https://izz.ro/sanatate/nivelul-ridicat-vitamina-d-la-varsta-39-ani-reduce-riscul-alzheimer/</guid>
-      <pubDate>Mon, 23 Nov 2026 22:00:00 +0000</pubDate>
-      <category>sanatate</category>
-      <source url="https://spotmedia.ro/stiri/sanatate/vitamina-d-si-alzheimerul-ce-au-descoperit-oamenii-de-stiinta">Spotmedia</source>
-      <description>Un studiu internațional publicat în Neurology Open Access arată că persoanele cu niveluri crescute de vitamina D în sânge la 39 de ani prezintă, 16 ani mai târziu, cantități mult mai mici de proteină tau, marker asociat bolii Alzheimer.</description>
     </item>
 </channel></rss>

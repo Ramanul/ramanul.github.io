@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/republica-moldova/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Republica Moldova pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Thu, 26 Nov 2026 20:14:52 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 03:30:27 +0000</lastBuildDate>
+    <item>
+      <title>Republica Moldova modifică normele de rezidențiat pentru absolvenții de Medicină</title>
+      <link>https://izz.ro/sanatate/republica-moldova-modifica-normele-rezidentiat-absolventii-medicina/</link>
+      <guid>https://izz.ro/sanatate/republica-moldova-modifica-normele-rezidentiat-absolventii-medicina/</guid>
+      <pubDate>Thu, 26 Nov 2026 14:30:12 +0000</pubDate>
+      <category>sanatate</category>
+      <source url="https://www.csid.ro/stiri/peste-800-de-absolventi-de-medicina-au-ramas-fara-loc-la-rezidentiat-ce-solutie-pregateste-ministerul-sanatatii-21367874/">CSÎD</source>
+      <description>Ministerul Sănătății din Republica Moldova pregătește un nou sistem de repartizare a locurilor pentru medicii rezidenți din 2026, după ce peste 800 de tineri absolvenți au rămas fără posturi disponibile în unitățile sanitare din țară.</description>
+    </item>
     <item>
       <title>Guvernul a instituit starea de alertă energetică pentru o perioadă de 30 de zile în Republica Moldova</title>
       <link>https://izz.ro/extern/guvernul-instituit-starea-alerta-energetica-pentru-perioada-30-zile-republica/</link>
@@ -23,6 +32,15 @@
       <category>general</category>
       <source url="https://mytex.ro/delicte/48-000-de-cartuse-letale-oprite-la-granita-cu-republica-moldova-transportul-nu-avea-aviz-si-escorta-de-jandarmi/">MyTex</source>
       <description>Polițiștii de frontieră vasluieni au interceptat un transport ilegal cu 48.000 de cartușe destinate Republicii Moldova, transportate fără autorizațiile legale și fără escorta obligatorie a Jandarmeriei.</description>
+    </item>
+    <item>
+      <title>Vameșii din Albița au descoperit un transport ilegal de 48.000 de cartușe</title>
+      <link>https://izz.ro/local/vamesii-albita-descoperit-transport-ilegal-48-000-cartuse/</link>
+      <guid>https://izz.ro/local/vamesii-albita-descoperit-transport-ilegal-48-000-cartuse/</guid>
+      <pubDate>Wed, 25 Nov 2026 15:14:42 +0000</pubDate>
+      <category>local</category>
+      <source url="https://estnews.ro/2026/11/25/captura-in-vama-albita-48-000-de-cartuse-transportate-fara-respectarea-prevederilor-legale/">Est News</source>
+      <description>Polițiștii de frontieră din punctul Albița au oprit un transport de muniție destinat Republicii Moldova, ce conținea 48.000 de cartușe de război. Încărcătura nu deținea avizul legal de tranzit eliberat de autoritățile române.</description>
     </item>
     <item>
       <title>România și Republica Moldova planifică reamenajarea navigației fluviale pe râul Prut</title>
@@ -437,14 +455,5 @@
       <category>regional</category>
       <source url="https://www.libertatea.ro/stiri/cozi-tir-frontiera-moldova-romania-blocaj-vami-giurgiulesti-leuseni-qf9s4fx">Libertatea</source>
       <description>Șoferii de transport greu întâmpină dificultăți majore și timpi de așteptare de câteva zile la punctele de trecere a frontierei moldo-române, în special spre portul Giurgiulești.</description>
-    </item>
-    <item>
-      <title>Reacții mixte ale cetățenilor din Republica Moldova după atacul cibernetic</title>
-      <link>https://izz.ro/extern/reactii-mixte-ale-cetatenilor-din-republica-moldova-dupa-atacul-cibernetic/</link>
-      <guid>https://izz.ro/extern/reactii-mixte-ale-cetatenilor-din-republica-moldova-dupa-atacul-cibernetic/</guid>
-      <pubDate>Thu, 29 Oct 2026 14:09:21 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.europalibera.md/a/unii-se-tem-altii-nici-nu-au-auzit-reactiile-moldovenilor-dupa-atacul-cibernetic/33886704.html">Europa Liberă</source>
-      <description>Incidentul informatic prin care au fost compromise datele personale a mii de cetățeni moldoveni a generat îngrijorare și neîncredere în sistemele digitale guvernamentale. O parte dintre oameni se tem de fraude, în timp ce alții sunt total neinițiați în această...</description>
     </item>
 </channel></rss>
