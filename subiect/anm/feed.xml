@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/anm/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre ANM pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 27 Nov 2026 22:44:09 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 04:24:04 +0000</lastBuildDate>
     <item>
       <title>Bucureștiul intră sub cod galben de ninsori și viscol, cu temperaturi în scădere accelerată</title>
       <link>https://izz.ro/local/bucurestiul-intra-cod-galben-ninsori-viscol-temperaturi-scadere-accelerata/</link>
@@ -14,6 +14,15 @@
       <category>local</category>
       <source url="https://spotmedia.ro/stiri/meteo/ninge-sambata-in-bucuresti-anm-anunta-2-4-cm-de-zapada-iar-duminica-maxima-coboara-la-minus-1c">Spotmedia</source>
       <description>Meteorologii anunță ninsori și depunerea unui strat de zăpadă în Capitală la sfârșitul săptămânii. Vântul va sufla cu intensificări de până la 60 km/h, iar autoritățile au mobilizat peste 400 de utilaje pentru deszăpezire.</description>
+    </item>
+    <item>
+      <title>ANM a publicat prognoza meteo pentru următoarele patru săptămâni, inclusiv perioada Crăciunului</title>
+      <link>https://izz.ro/general/anm-publicat-prognoza-meteo-urmatoarele-patru-saptamani-inclusiv-perioada/</link>
+      <guid>https://izz.ro/general/anm-publicat-prognoza-meteo-urmatoarele-patru-saptamani-inclusiv-perioada/</guid>
+      <pubDate>Fri, 27 Nov 2026 08:14:00 +0000</pubDate>
+      <category>general</category>
+      <source url="https://www.pressalert.ro/2026/11/prognoza-meteo-pentru-urmatoarele-patru-saptamani-cum-va-fi-vremea-de-craciun-3/">PressAlert Timișoara</source>
+      <description>Meteorologii anunță că prima parte a intervalului 30 noiembrie – 28 decembrie va aduce temperaturi mai scăzute decât media normală a perioadei pe întreg teritoriul țării.</description>
     </item>
     <item>
       <title>Vremea se menține rece la Sibiu, fiind prognozate ninsori slabe și vânt puternic la munte</title>
@@ -79,15 +88,6 @@
       <description>Meteorologii au emis o avertizare de vreme severă valabilă până duminică seară. La altitudini de peste 1.700 de metri, rafalele de vânt vor atinge 100 km/h, iar stratul de zăpadă va crește.</description>
     </item>
     <item>
-      <title>ANM a publicat prognoza meteo pentru perioada de 1 Decembrie</title>
-      <link>https://izz.ro/judetean/anm-publicat-prognoza-meteo-perioada-1-decembrie/</link>
-      <guid>https://izz.ro/judetean/anm-publicat-prognoza-meteo-perioada-1-decembrie/</guid>
-      <pubDate>Fri, 20 Nov 2026 16:59:17 +0000</pubDate>
-      <category>judetean</category>
-      <source url="https://www.observatorulph.ro/social/2804566-cum-va-fi-vremea-de-1-decembrie-in-prahova-si-in-tara">Observatorul Prahovean</source>
-      <description>Administrația Națională de Meteorologie estimează temperaturi scăzute la sfârșitul lunii noiembrie, urmând ca vremea să revină la valorile normale pentru luna decembrie în Prahova și în țară.</description>
-    </item>
-    <item>
       <title>Precipitațiile abundente au perturbat meciurile de fotbal și au adus coduri de vreme rea în Caraș-Severin</title>
       <link>https://izz.ro/judetean/precipitatiile-abundente-perturbat-meciurile-fotbal-adus-coduri-vreme-rea-caras/</link>
       <guid>https://izz.ro/judetean/precipitatiile-abundente-perturbat-meciurile-fotbal-adus-coduri-vreme-rea-caras/</guid>
@@ -131,15 +131,6 @@
       <category>local</category>
       <source url="https://www.observatorulph.ro/social/2803881-cum-va-fi-vremea-in-weekend-la-ploiesti-prognoza-anm-pana-la-jumatatea-lunii-decembrie">Observatorul Prahovean</source>
       <description>Meteorologii de la ANM anunță pentru Ploiești un weekend răcoros, cu precipitații și temperaturi ce vor oscila între 0 și 9 grade Celsius. Prognoza extinsă indică menținerea vremii reci până la jumătatea lunii decembrie.</description>
-    </item>
-    <item>
-      <title>ANM a publicat prognoza meteo pentru următoarele patru săptămâni</title>
-      <link>https://izz.ro/general/anm-publicat-prognoza-meteo-urmatoarele-patru-saptamani/</link>
-      <guid>https://izz.ro/general/anm-publicat-prognoza-meteo-urmatoarele-patru-saptamani/</guid>
-      <pubDate>Fri, 13 Nov 2026 07:16:41 +0000</pubDate>
-      <category>general</category>
-      <source url="https://alba24.ro/vremea-pana-in-14-decembrie-o-perioada-mai-calda-zilele-cu-ploi-sau-ninsori-prognoza-anm-pe-patru-saptamani-1167421.html">Alba24</source>
-      <description>Administrația Națională de Meteorologie anunță o perioadă cu temperaturi peste media obișnuită până la mijlocul lunii decembrie, urmate treptat de o răcire și primele ninsori semnificative la finalul lunii noiembrie.</description>
     </item>
     <item>
       <title>Temperaturile scad brusc cu 15 grade Celsius în București în acest sfârșit de săptămână</title>

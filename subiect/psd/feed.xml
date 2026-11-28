@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/psd/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre PSD pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 27 Nov 2026 22:44:08 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 04:24:04 +0000</lastBuildDate>
     <item>
       <title>Ministrul Muncii cere crearea unui buget realist pentru anul 2027 care să garanteze pensiile</title>
       <link>https://izz.ro/politic/ministrul-muncii-cere-crearea-buget-realist-anul-2027-garanteze-pensiile/</link>
@@ -41,6 +41,15 @@
       <category>politic</category>
       <source url="https://spotmedia.ro/stiri/economie/grindeanu-acuza-ca-bolojan-a-lasat-plati-neacoperite-de-aproape-50-de-miliarde-de-lei-cum-il-contrazic-cifrele-prezentate-de-nazare">Spotmedia</source>
       <description>Liderul PSD Sorin Grindeanu susține că deficitul bugetar a fost redus artificial prin amânarea plăților, însă datele prezentate de ministrul Alexandru Nazare arată doar solicitări suplimentare ale instituțiilor, nu datorii restante neachitate.</description>
+    </item>
+    <item>
+      <title>Statul datorează magistraților 4 miliarde de euro din hotărâri judecătorești</title>
+      <link>https://izz.ro/economic/statul-datoreaza-magistratilor-4-miliarde-euro-hotarari-judecatoresti/</link>
+      <guid>https://izz.ro/economic/statul-datoreaza-magistratilor-4-miliarde-euro-hotarari-judecatoresti/</guid>
+      <pubDate>Fri, 27 Nov 2026 14:04:44 +0000</pubDate>
+      <category>economic</category>
+      <source url="https://cursdeguvernare.ro/un-bolovan-de-gatul-bugetului-2027-4-mld-e-restantele-salariale-pe-care-justitia-si-le-a-castigat-in-justitie-suma-reprezinta-1-din-pib.html">Curs de Guvernare</source>
+      <description>Conform Ministerului Finanțelor, obligațiile de plată restante pentru drepturile salariale câștigate în instanță de sistemul judiciar însumează 20,55 miliarde lei, reprezentând un procent de unu la sută din PIB.</description>
     </item>
     <item>
       <title>PSD pregătește comasarea comunelor pentru alegerile din 2028 cu stimulente financiare</title>
@@ -446,14 +455,5 @@
       <category>economic</category>
       <source url="https://www.antena3.ro/politica/grindeanu-anunta-ca-psd-ia-in-calcul-reducerea-taxarii-pe-munca-e-una-dintre-solutii-ce-spune-despre-impozitul-progresiv-811879.html">Antena 3 CNN</source>
       <description>Liderul PSD, Sorin Grindeanu, a declarat că diminuarea impozitării muncii reprezintă o soluție prioritară pentru partidul său. Politicianul a precizat că discuțiile oficiale privind ajustarea salariului minim vor începe în curând.</description>
-    </item>
-    <item>
-      <title>Sorin Grindeanu cere măsuri dure pentru reducerea datoriilor de 20 de miliarde ale companiilor de stat</title>
-      <link>https://izz.ro/politic/sorin-grindeanu-cere-masuri-dure-reducerea-datoriilor-20-miliarde-ale/</link>
-      <guid>https://izz.ro/politic/sorin-grindeanu-cere-masuri-dure-reducerea-datoriilor-20-miliarde-ale/</guid>
-      <pubDate>Thu, 19 Nov 2026 22:21:00 +0000</pubDate>
-      <category>politic</category>
-      <source url="https://www.antena3.ro/politica/pierderi-de-pana-la-20-de-miliarde-de-lei-la-companiile-de-stat-grindeanu-i-am-cerut-lui-marian-neacsu-sa-fie-fara-mila-811883.html">Antena 3 CNN</source>
-      <description>Liderul PSD, Sorin Grindeanu, a anunțat că firmele de stat au acumulat pierderi de 20 de miliarde de lei. Acesta i-a solicitat vicepremierului Marian Neacșu măsuri ferme pentru eficientizarea acestor companii publice falimentare.</description>
     </item>
 </channel></rss>

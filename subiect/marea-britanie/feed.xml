@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/marea-britanie/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Marea Britanie pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 27 Nov 2026 22:44:09 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 04:24:04 +0000</lastBuildDate>
     <item>
       <title>Gigantul american Amazon lansează platforma online de vânzări auto în Marea Britanie</title>
       <link>https://izz.ro/auto/gigantul-american-amazon-lanseaza-platforma-online-vanzari-auto-marea-britanie/</link>
@@ -23,6 +23,15 @@
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/eveniment/marea-britanie-oamenii-nu-au-putut-accesa-serviciile-online-pentru-pensii-si-prestatii-sociale-un-incident-informatic-a-pus-sistemul-la-pamant">Spotmedia</source>
       <description>Un incident informatic apărut în Marea Britanie a indisponibilizat portalurile online ale Ministerului Muncii și Pensiilor. Deși autoritățile au dat asigurări că plățile vor fi efectuate, unii beneficiari au întâmpinat dificultăți la verificarea conturilor și primirea fondurilor.</description>
+    </item>
+    <item>
+      <title>Meta își asumă răspundere sporită pentru asistentul AI în Marea Britanie</title>
+      <link>https://izz.ro/ai/meta-isi-asuma-raspundere-sporita-asistentul-marea-britanie/</link>
+      <guid>https://izz.ro/ai/meta-isi-asuma-raspundere-sporita-asistentul-marea-britanie/</guid>
+      <pubDate>Fri, 27 Nov 2026 11:25:07 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.eu/article/metas-uk-rollout-for-muse-ai-agent-exposes-it-to-more-liability/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Conform noilor termeni stabiliți cu autoritățile de reglementare, gigantul Meta oferă utilizatorilor britanici drepturi mai mari la despăgubiri pentru erorile comise de agentul AI Muse, comparativ cu piața din SUA.</description>
     </item>
     <item>
       <title>Cehia și Italia s-au calificat în semifinalele Cupei Davis</title>
@@ -446,14 +455,5 @@
       <category>auto</category>
       <source url="https://piataauto.md/Stiri/2026/11/VIDEO-Britanicii-au-pus-la-intrecere-4-masini-foarte-diferite-echipate-cu-acelasi-motor-genial-sub-capota/">Piata Auto MD</source>
       <description>Jurnaliștii britanici au testat comparativ patru mașini distincte care folosesc același propulsor cu șase cilindri, considerat de mulți fani drept o capodoperă inginerescă.</description>
-    </item>
-    <item>
-      <title>Marea Britanie vrea reformarea asistenței sociale pentru tineri</title>
-      <link>https://izz.ro/extern/marea-britanie-vrea-reformarea-asistentei-sociale-tineri/</link>
-      <guid>https://izz.ro/extern/marea-britanie-vrea-reformarea-asistentei-sociale-tineri/</guid>
-      <pubDate>Tue, 17 Nov 2026 17:56:32 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.digi24.ro/stiri/externe/tara-in-care-un-milion-de-tineri-nici-nu-studiaza-nici-nu-muncesc-in-europa-doar-romania-inregistreaza-un-procent-mai-mare-4040755">Digi24 Extern</source>
-      <description>Un raport guvernamental arată că Marea Britanie are nevoie de zece ani și de o resetare profundă a sistemului de sprijin social pentru a reduce șomajul ridicat în rândul tinerilor.</description>
     </item>
 </channel></rss>

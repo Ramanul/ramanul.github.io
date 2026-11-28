@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/subiect/comisia-europeana/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre Comisia Europeană pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 27 Nov 2026 22:44:08 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 04:24:04 +0000</lastBuildDate>
+    <item>
+      <title>Cercetătorii testează materiale din ciuperci pentru izolarea termică a clădirilor</title>
+      <link>https://izz.ro/tech/cercetatorii-testeaza-materiale-ciuperci-izolarea-termica-cladirilor/</link>
+      <guid>https://izz.ro/tech/cercetatorii-testeaza-materiale-ciuperci-izolarea-termica-cladirilor/</guid>
+      <pubDate>Fri, 27 Nov 2026 22:05:00 +0000</pubDate>
+      <category>tech</category>
+      <source url="https://spotmedia.ro/stiri/mediu/ciupercile-ar-putea-ajuta-la-incalzirea-locuintelor-iarna-si-racirea-lor-vara-materialul-natural-testat-de-cercetatorii-europeni">Spotmedia</source>
+      <description>Specialiștii europeni explorează utilizarea materialelor organice din ciuperci pentru construcții ecologice. Soluția ar putea reduce consumul ridicat de energie al clădirilor și emisiile de gaze cu efect de seră din Europa.</description>
+    </item>
     <item>
       <title>Comisia Europeană suspectează un grup de hackeri chinezi pentru atacul cibernetic asupra sistemelor sale</title>
       <link>https://izz.ro/tech/comisia-europeana-suspecteaza-grup-hackeri-chinezi-atacul-cibernetic-asupra/</link>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://spotmedia.ro/stiri/eveniment/care-sunt-cele-4-state-ue-care-se-opun-unui-nou-credit-de-45-de-miliarde-de-euro-pentru-ucraina">Spotmedia</source>
       <description>Comisia Europeană pregătește un împrumut de 45 de miliarde de euro garantat din bugetul comun, însă patru guverne membre refuză să participe la această nouă formă de sprijin financiar destinată Kievului.</description>
-    </item>
-    <item>
-      <title>Comisia Europeană a aprobat tranzacția prin care banca italiană UniCredit preia grupul german Commerzbank</title>
-      <link>https://izz.ro/economic/comisia-europeana-aprobat-tranzactia-banca-italiana-unicredit-preia-grupul/</link>
-      <guid>https://izz.ro/economic/comisia-europeana-aprobat-tranzactia-banca-italiana-unicredit-preia-grupul/</guid>
-      <pubDate>Mon, 16 Nov 2026 11:16:42 +0000</pubDate>
-      <category>economic</category>
-      <source url="https://www.economica.net/verde-pentru-mega-tranzactia-unicredit-commerzbank_995839.html">Economica</source>
-      <description>Decizia Bruxelles-ului susține crearea unor grupuri financiare transfrontaliere puternice în Europa, capabile să finanțeze companiile și gospodăriile. Fuziunea bancară dintre cele două instituții financiare urmărește reducerea fragmentării pieței unice europene.</description>
     </item>
 </channel></rss>

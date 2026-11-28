@@ -5,7 +5,16 @@
   <atom:link href="https://izz.ro/ai/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri din Inteligență artificială pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 27 Nov 2026 22:45:03 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 04:24:45 +0000</lastBuildDate>
+    <item>
+      <title>Companiile folosesc inteligența artificială pentru eficiență, nu pentru gândire</title>
+      <link>https://izz.ro/ai/companiile-folosesc-inteligenta-artificiala-eficienta-nu-gandire/</link>
+      <guid>https://izz.ro/ai/companiile-folosesc-inteligenta-artificiala-eficienta-nu-gandire/</guid>
+      <pubDate>Fri, 27 Nov 2026 22:00:00 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://spotmedia.ro/stiri/economie/cum-folosesti-ai-ca-instrument-de-gandire-nu-doar-de-eficienta">Spotmedia</source>
+      <description>Organizațiile investesc masiv în sisteme de inteligență artificială, dar le utilizează doar pentru activități repetitive, cum ar fi redactarea de e-mailuri. Specialiștii avertizează că această abordare nu stimulează calitatea raționamentului uman.</description>
+    </item>
     <item>
       <title>OpenAI a dat în judecată gigantul Apple după acuzațiile de furt de secrete comerciale</title>
       <link>https://izz.ro/ai/openai-dat-judecata-gigantul-apple-dupa-acuzatiile-furt-secrete-comerciale/</link>
@@ -41,6 +50,15 @@
       <category>ai</category>
       <source url="https://www.antena3.ro/life/stiinta/neuralink-a-primit-aprobare-in-sua-pentru-un-implant-care-conecteaza-creierul-la-computer-812859.html">Antena 3 CNN</source>
       <description>Compania Neuralink, fondată de Elon Musk, a primit avizul Administrației pentru Alimente și Medicamente din SUA pentru a demara primul studiu clinic pivot privind interfața digitală creier-computer.</description>
+    </item>
+    <item>
+      <title>Meta își asumă răspundere sporită pentru asistentul AI în Marea Britanie</title>
+      <link>https://izz.ro/ai/meta-isi-asuma-raspundere-sporita-asistentul-marea-britanie/</link>
+      <guid>https://izz.ro/ai/meta-isi-asuma-raspundere-sporita-asistentul-marea-britanie/</guid>
+      <pubDate>Fri, 27 Nov 2026 11:25:07 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.eu/article/metas-uk-rollout-for-muse-ai-agent-exposes-it-to-more-liability/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Conform noilor termeni stabiliți cu autoritățile de reglementare, gigantul Meta oferă utilizatorilor britanici drepturi mai mari la despăgubiri pentru erorile comise de agentul AI Muse, comparativ cu piața din SUA.</description>
     </item>
     <item>
       <title>Rusia folosește o versiune AI a lui Dostoievski pentru propagandă la televiziunea de stat RT</title>
@@ -437,23 +455,5 @@
       <category>ai</category>
       <source url="https://zcj.ro/economie/ai-technologies-and-research-forum-robotii-ar-putea-face-una-dintre-cele-mai-grele-munci-sub-apa-sa-curete-deseurile-marine-proiectul-cercetatorilor-din-cluj--304602.html">Ziua de Cluj</source>
       <description>Echipe de la UTCN participă la proiecte europene menite să creeze dispozitive autonome. Acești roboți vor fi capabili să identifice și să curețe eficient deșeurile de pe fundul mărilor și oceanelor.</description>
-    </item>
-    <item>
-      <title>Comisia Europeană, vizată de un atac cibernetic bazat pe IA</title>
-      <link>https://izz.ro/ai/comisia-europeana-vizata-atac-cibernetic-bazat-ia/</link>
-      <guid>https://izz.ro/ai/comisia-europeana-vizata-atac-cibernetic-bazat-ia/</guid>
-      <pubDate>Thu, 19 Nov 2026 14:58:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://www.dw.com/en/eu-commission-confirms-it-was-targeted-in-cyberattack-using-ai-tools/a-79993016?maca=en-rss-en-eu-2092-rdf">DW Europe</source>
-      <description>Instituția europeană a confirmat că a fost ținta unei campanii informatice malițioase orchestrate cu ajutorul instrumentelor de inteligență artificială, marcând un premier negativ.</description>
-    </item>
-    <item>
-      <title>Banca Transilvania s-a alăturat programului internațional Visa Agentic Ready</title>
-      <link>https://izz.ro/ai/banca-transilvania-s-a-alaturat-programului-international-visa-agentic-ready/</link>
-      <guid>https://izz.ro/ai/banca-transilvania-s-a-alaturat-programului-international-visa-agentic-ready/</guid>
-      <pubDate>Thu, 19 Nov 2026 14:47:00 +0000</pubDate>
-      <category>ai</category>
-      <source url="https://zcj.ro/economie/visa-extinde-programul-agentic-ready-pentru-a-sustine-dezvoltarea-la-scara-larga-a-comertului-bazat-pe-ai--304598.html">Ziua de Cluj</source>
-      <description>Instituția financiară românească a devenit singura bancă din țară înrolată în această inițiativă europeană, care sprijină dezvoltarea plăților digitale și a comerțului electronic bazat pe inteligență artificială.</description>
     </item>
 </channel></rss>

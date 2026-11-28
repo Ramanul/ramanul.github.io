@@ -5,7 +5,7 @@
   <atom:link href="https://izz.ro/subiect/sua/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Știri despre SUA pe IZZ.ro</description>
   <language>ro</language>
-  <lastBuildDate>Fri, 27 Nov 2026 22:44:08 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 04:24:04 +0000</lastBuildDate>
     <item>
       <title>Armata SUA a avariat o navă comercială care încerca să încalce blocada împotriva Iranului</title>
       <link>https://izz.ro/extern/armata-sua-avariat-nava-comerciala-incerca-incalce-blocada-iranului/</link>
@@ -41,6 +41,15 @@
       <category>politic</category>
       <source url="https://stirileprotv.ro/stiri/international/donald-trump-vrea-o-ancheta-despre-datele-false-privind-cresterea-economiei-sua-inainte-de-alegerile-din-noiembrie.html">Știrile ProTV</source>
       <description>Președintele SUA a cerut investigarea imediată a presupusei falsificări a datelor referitoare la creșterea economică națională. Informațiile contestate ar fi fost publicate înaintea alegerilor de la mijlocul mandatului din luna noiembrie.</description>
+    </item>
+    <item>
+      <title>Meta își asumă răspundere sporită pentru asistentul AI în Marea Britanie</title>
+      <link>https://izz.ro/ai/meta-isi-asuma-raspundere-sporita-asistentul-marea-britanie/</link>
+      <guid>https://izz.ro/ai/meta-isi-asuma-raspundere-sporita-asistentul-marea-britanie/</guid>
+      <pubDate>Fri, 27 Nov 2026 11:25:07 +0000</pubDate>
+      <category>ai</category>
+      <source url="https://www.politico.eu/article/metas-uk-rollout-for-muse-ai-agent-exposes-it-to-more-liability/?utm_source=RSS_Feed&amp;utm_medium=RSS&amp;utm_campaign=RSS_Syndication">Politico EU</source>
+      <description>Conform noilor termeni stabiliți cu autoritățile de reglementare, gigantul Meta oferă utilizatorilor britanici drepturi mai mari la despăgubiri pentru erorile comise de agentul AI Muse, comparativ cu piața din SUA.</description>
     </item>
     <item>
       <title>Declarațiile emisarului Jared Kushner sugerează o nouă abordare privind pacea din Ucraina</title>
@@ -446,14 +455,5 @@
       <category>extern</category>
       <source url="https://hotnews.ro/sua-dispusa-sa-acorde-ucrainei-garantii-de-securitate-similare-celor-din-nato-ce-spune-jared-kushner-despre-pozitia-rusiei-2409125">HotNews</source>
       <description>Emisarul american Jared Kushner a anunțat la Berlin că Washingtonul este deschis să acorde Ucrainei protecție echivalentă articolului 5, menționând că Rusia nu se opune acestui concept.</description>
-    </item>
-    <item>
-      <title>SUA, China și Rusia au adoptat o declarație comună de pace</title>
-      <link>https://izz.ro/extern/china-rusia-sua-semnat-declaratie-pace-referiri-ucraina/</link>
-      <guid>https://izz.ro/extern/china-rusia-sua-semnat-declaratie-pace-referiri-ucraina/</guid>
-      <pubDate>Thu, 19 Nov 2026 17:13:23 +0000</pubDate>
-      <category>extern</category>
-      <source url="https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars">The Guardian, Jurnalul Olteniei</source>
-      <description>Statele Unite, China și Rusia au convenit asupra unei declarații comune de pace la summitul din Shenzhen, fără a aborda conflictele din Ucraina și Iran. Documentul asumat de cele trei puteri include priorități legate de reformarea ONU, creșterea livrărilor de petrol, stabilitatea strategică și respectarea jurisdicției Curții Penale Internaționale. Textul declarației a fost publicat de către Kremlin și de presa de stat din China, fiind structurat ca un cadru în patru puncte.</description>
     </item>
 </channel></rss>
